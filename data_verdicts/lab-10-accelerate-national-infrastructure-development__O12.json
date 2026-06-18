@@ -1,0 +1,712 @@
+{
+  "policy_id": "lab-10-accelerate-national-infrastructure-development",
+  "party": "Labour",
+  "policy_title": "Accelerate National Infrastructure Development",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy commits very large sums to infrastructure investment, which could improve long-run debt sustainability if it boosts growth \u2014 but the evidence provided does not tell us how the public portion is funded or what independent fiscal bodies estimate for the net debt path. Without that, an honest verdict cannot be reached.",
+    "biggest_unknown": "Whether the public capital commitments are financed through tax revenues, borrowing, or reclassified spending \u2014 and what the OBR/IFS assess as the net effect on the debt path \u2014 is the decisive unknown the provided evidence does not resolve.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to a ten-year infrastructure strategy covering roads, railways, reservoirs and other nationally significant infrastructure, reducing red tape and creating NISTA.",
+        "evidence_id": "M",
+        "quote": "Labour will implement a ten-year infrastructure strategy, aligned with its industrial strategy, to expedite the building of new roads, railways, reservoirs, and other nationally significant infrastructure"
+      },
+      {
+        "tier": "stated",
+        "claim": "Total committed investment (public and private combined) is stated at at least \u00a3725 billion over the next decade.",
+        "evidence_id": "E24",
+        "quote": "Labour has committed at least \u00a3725 billion for infrastructure over the next decade, a figure encompassing both public and private investment"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK has a public estate maintenance backlog estimated at over \u00a349 billion, representing deferred investment already accumulated.",
+        "evidence_id": "E27",
+        "quote": "The overall public estate maintenance backlog is estimated at over \u00a349 billion"
+      },
+      {
+        "tier": "projected",
+        "claim": "Resolution Foundation estimates that a permanent 1% of GDP rise in capital spending on transport and energy could boost long-run growth by 4.9%, supporting the case that productive investment improves fiscal sustainability over time.",
+        "evidence_id": "E16",
+        "quote": "a permanent 1% of GDP rise in capital spending in areas like transport and energy is estimated to boost long-run growth by 4.9%"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS noted that NISTA currently oversees 24 major IT projects but only four are rated as having a high likelihood of successful delivery, raising delivery risk for the programme.",
+        "evidence_id": "E14",
+        "quote": "NISTA currently oversees 24 major IT projects, but only four are rated as having a high likelihood of successful delivery, raising questions about the efficiency and effectiveness of project implementation"
+      },
+      {
+        "tier": "projected",
+        "claim": "The long wait for a fully fleshed-out project pipeline has been noted as potentially deterring private sector investment, which would increase the public funding burden.",
+        "evidence_id": "E38",
+        "quote": "The long wait for a fully fleshed-out project pipeline has also been noted as potentially deterring private sector investment"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Share of total commitment falling on the public balance sheet, and whether that public spending is funded through taxation or borrowing \u2014 neither is specified in the evidence provided.",
+      "estimate_range": "Public capital spending commitments visible in the evidence (e.g. \u00a36bn/yr hospitals, \u00a339bn affordable homes, \u00a315.6bn transport) imply tens of billions in annual public outlays, but OBR/IFS net fiscal scoring is absent from the evidence, leaving the debt-path effect unresolvable from what is provided."
+    },
+    "rationale": "O12 turns on whether the public portion of this spending is funded or borrowed, and whether borrowing finances productive investment (improving long-run sustainability via higher future output) or consumption (worsening the debt path). The evidence establishes that the policy involves large-scale, long-horizon capital investment \u2014 not consumption transfers \u2014 which is the right category for potentially improving fiscal sustainability over the long run. The Resolution Foundation projection (E16) supports the investment-multiplier case. Against that, significant public spending commitments are embedded in the programme (E24, E26, E27), and the \u00a3725bn headline mixes public with private; the true fiscal cost to the Exchequer is not isolated in any provided source. Delivery risk is material: IFS data (E14) and the House of Commons Library (E36) both flag that UK infrastructure is historically slow and costly, and NISTA's own project pipeline has poor delivery ratings. If private investment does not materialise at forecast levels (E38), the public cost rises. The near-term debt path could worsen even if long-run returns are positive. Without an OBR or IFS fiscal costing of the net public spending requirement \u2014 which the provided evidence does not contain \u2014 it is not possible to determine whether the debt path improves or worsens. Both directions are plausible and both rest on cited evidence; this is genuine uncertainty, not a hedge.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.trowers.com/insights/2025/june/uk-governments-10year-infrastructure-strategy",
+        "publisher": "trowers.com",
+        "title": "trowers.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.cbi.org.uk/articles/the-government-s-ten-year-infrastructure-strategy/",
+        "publisher": "cbi.org.uk",
+        "title": "cbi.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ar25.nista.grid.civilservice.gov.uk/report",
+        "publisher": "ar25.nista.grid.civilservice.gov.uk",
+        "title": "civilservice.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.ciht.org.uk/news/nista-publishes-updated-uk-infrastructure-pipeline-featuring-new-workforce-demand-data/",
+        "publisher": "ciht.org.uk",
+        "title": "ciht.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/press-releases/chancellor-adds-concrete-to-the-governments-economic-plans-but-still-lacks-a-euro-vision/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCb47L9dgf3QmHq0aUiNXWqwN8Ls0DiloNGdQFTqWfJMVtk174C-lk41pTwENWhXcQC0r0f-zxmtdp88MO5VVy3YPcokdT3bagD8YPOOx3h3MysU6RsPQCIW44vtH0U52DN9-VCRgcfqwpO10y3jc9Nv7pA3hc1KgDfg6JWg==",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "ifs.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.bcis.co.uk/insight/one-year-of-labour-an-infrastructure-snapshot/",
+        "publisher": "bcis.co.uk",
+        "title": "bcis.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0509,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict correctly reaches too-uncertain with genuine crux_parameter and estimate_range. All claims are appropriately tiered: the \u00a349bn backlog (E27) is used only as context, not as a fiscal projection. The \u00a3725bn figure (E24) is correctly caveated as public+private combined. The Resolution Foundation multiplier (E16) is cited as projected. IFS delivery concerns (E14) and pipeline deterrence (E38) are cited as projected risks. No party identity or motive language appears. The too-uncertain direction is honest: without OBR/IFS net fiscal scoring, both improvement and worsening of the debt path are genuinely plausible, and no surviving claim decisively resolves the direction. Source handling is symmetric. No lever leakage detected \u2014 the verdict judges fiscal sustainability effects, not the policy as infrastructure policy per se."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will implement a ten-year infrastructure strategy, aligned with its industrial strategy, to expedite the building of new roads, railways, reservoirs, and other nationally significant infrastructure. This will involve setting new national policy statements, reducing red tape, creating a new National Infrastructure and Service Transformation Authority, and ensuring communities directly benefit from developments.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This involves setting new national policy statements, reducing red tape, creating a new National Infrastructure and Service Transformation Authority (NISTA), and ensuring communities directly benefit from developments",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Economic Growth and Productivity:** The strategy aims to drive economic growth and boost productivity by improving connectivity, enhancing the efficiency of transport networks, and supporting high-quality public services",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6853c5db99b009dcdcb73649/UK_Infrastructure_A_10_Year_Strategy_Web_Accessible.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.trowers.com/insights/2025/june/uk-governments-10year-infrastructure-strategy",
+            "publisher": "trowers.com",
+            "title": "trowers.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Investments in digital infrastructure, for example, are expected to foster new forms of economic activity",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/10-year-infrastructure-strategy-working-paper/10-year-infrastructure-strategy-working-paper-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The government anticipates that a clearer, long-term strategy will attract private investment, support British supply chains, and create jobs",
+        "sources": [
+          {
+            "url": "https://www.trowers.com/insights/2025/june/uk-governments-10year-infrastructure-strategy",
+            "publisher": "trowers.com",
+            "title": "trowers.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Job Creation and Wages:** Labour anticipates that the long-term approach will instill confidence in investors and businesses, leading to investments in skills and workforce development, more apprenticeships, job creation, and improved wages across the country",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "NISTA's updated Infrastructure Pipeline forecasts an estimated annual average workforce demand of between 621,000 and 697,000 over the next two years, and between 629,000 and 706,000 over the next five years, with construction jobs accounting for over two-thirds of this demand",
+        "sources": [
+          {
+            "url": "https://www.ciht.org.uk/news/nista-publishes-updated-uk-infrastructure-pipeline-featuring-new-workforce-demand-data/",
+            "publisher": "ciht.org.uk",
+            "title": "ciht.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Regional Rebalancing:** The strategy aligns with Labour's industrial strategy and regional development priorities, aiming to improve rail connectivity across the North of England and devolve powers to combined and mayoral authorities for strategic planning and growth",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This spatial approach to planning aims to coordinate infrastructure development across different areas and sectors to drive regional productivity improvements",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/10-year-infrastructure-strategy-working-paper/10-year-infrastructure-strategy-working-paper-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06594/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This includes tackling a significant maintenance backlog in public estates, estimated at over \u00a349 billion",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "They warn that planning reforms could weaken environmental protections and allow for offsetting nature loss far from the development site",
+        "sources": [
+          {
+            "url": "https://www.wildlifetrusts.org/blog/craig-bennett/labour-partys-manifesto-nature-and-climate-crises-urgent-challenge-must-be-faced",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2025/may/02/labour-planning-bill-threatens-protected-habitats-says-environment-watchdog",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Housing Development:** The policy commits to building 1.5 million new homes",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "and provides \u00a339 billion for the affordable homes program over the next decade",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6853c5db99b009dcdcb73649/UK_Infrastructure_A_10_Year_Strategy_Web_Accessible.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Changes to compulsory purchase compensation rules are also intended to speed up site delivery",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "More recently, the IFS noted that NISTA currently oversees 24 major IT projects, but only four are rated as having a high likelihood of successful delivery, raising questions about the efficiency and effectiveness of project implementation",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCb47L9dgf3QmHq0aUiNXWqwN8Ls0DiloNGdQFTqWfJMVtk174C-lk41pTwENWhXcQC0r0f-zxmtdp88MO5VVy3YPcokdT3bagD8YPOOx3h3MysU6RsPQCIW44vtH0U52DN9-VCRgcfqwpO10y3jc9Nv7pA3hc1KgDfg6JWg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Resolution Foundation:** The Resolution Foundation has consistently highlighted the UK's historical under-investment in infrastructure",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/04/Yanked-away.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/12/Ending-stagnation-final-report.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/chancellor-adds-concrete-to-the-governments-economic-plans-but-still-lacks-a-euro-vision/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "They welcome the focus on rebuilding Britain's infrastructure, noting that a permanent 1% of GDP rise in capital spending in areas like transport and energy is estimated to boost long-run growth by 4.9%",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/chancellor-adds-concrete-to-the-governments-economic-plans-but-still-lacks-a-euro-vision/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "However, they emphasize the need to balance new growth-enhancing projects with the pressing need to rebuild dilapidated public services like hospitals and social housing",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/chancellor-adds-concrete-to-the-governments-economic-plans-but-still-lacks-a-euro-vision/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "They also warn that planning reforms have not yet led to more homes being built, particularly in core cities and London, where housing starts have fallen to a 30-year low",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-must-ramp-up-not-run-down-its-own-growth-strategy-and-be-far-bolder-on-trade-and-planning-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Resolution Foundation identifies planning reform, trade, and the labour market as areas where the government needs to be bolder, suggesting that together, improvements in these areas could boost annual GDP per head growth by 0.6 percentage points over the next decade, increasing projected growth by more than half",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-must-ramp-up-not-run-down-its-own-growth-strategy-and-be-far-bolder-on-trade-and-planning-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **House of Commons Library:** Provides detailed overviews of the policy, noting the strategy covers both economic and social infrastructure (hospitals, schools, prisons)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06594/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN06594/SN06594.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They highlight challenges facing UK infrastructure, including it being slower and more costly to build compared to other major countries, and that the planning system can delay delivery and increase costs",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06594/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Health Foundation:** The Health Foundation stresses that the UK's capital investment in healthcare has been significantly lower than in comparable countries, leading to a 35% fall in capital per health worker between 2000 and 2017",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRJpgHdvPprcSZIhS59lkf427-d1zK4q8jEBKSfqkz4Q1rGYNLlcLKipTsHTAzEsy4Psp2xmZTGinwYewd__1euZsdVbCZwQNqwuzy61lbvmNq6czSY1we2LC4GQnS045yg-Wd6ObV-SXjBo3EJgAe7kNtbVFv7zMu_hi1M1gTfEjA8b-JaDTLPvMxbaBfjrxdAQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They advocate for a long-term funding settlement for capital projects in health to enable effective planning and address the substantial maintenance backlog",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRJpgHdvPprcSZIhS59lkf427-d1zK4q8jEBKSfqkz4Q1rGYNLlcLKipTsHTAzEsy4Psp2xmZTGinwYewd__1euZsdVbCZwQNqwuzy61lbvmNq6czSY1we2LC4GQnS045yg-Wd6ObV-SXjBo3EJgAe7kNtbVFv7zMu_hi1M1gTfEjA8b-JaDTLPvMxbaBfjrxdAQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.opendemocracy.net/andy-burnhams-promises-of-growth-rely-on-real-investment-in-social-care/",
+            "publisher": "opendemocracy.net",
+            "title": "opendemocracy.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Total Investment:** Labour has committed at least \u00a3725 billion for infrastructure over the next decade, a figure encompassing both public and private investment",
+        "sources": [
+          {
+            "url": "https://www.trowers.com/insights/2025/june/uk-governments-10year-infrastructure-strategy",
+            "publisher": "trowers.com",
+            "title": "trowers.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbi.org.uk/articles/the-government-s-ten-year-infrastructure-strategy/",
+            "publisher": "cbi.org.uk",
+            "title": "cbi.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ar25.nista.grid.civilservice.gov.uk/report",
+            "publisher": "ar25.nista.grid.civilservice.gov.uk",
+            "title": "civilservice.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ciht.org.uk/news/nista-publishes-updated-uk-infrastructure-pipeline-featuring-new-workforce-demand-data/",
+            "publisher": "ciht.org.uk",
+            "title": "ciht.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Affordable Housing:** \u00a339 billion is allocated to the Affordable Homes Programme over the next decade, from 2026-27 to 2035-36",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6853c5db99b009dcdcb73649/UK_Infrastructure_A_10_Year_Strategy_Web_Accessible.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "This includes at least \u00a36 billion per year for hospitals, \u00a3600 million per year for courts and prisons, and almost \u00a33 billion for schools and colleges per year by 2035",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6853c5db99b009dcdcb73649/UK_Infrastructure_A_10_Year_Strategy_Web_Accessible.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ar25.nista.grid.civilservice.gov.uk/report",
+            "publisher": "ar25.nista.grid.civilservice.gov.uk",
+            "title": "civilservice.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The overall public estate maintenance backlog is estimated at over \u00a349 billion",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Green Investment:** \u00a36.6 billion for the Warm Homes Plan (insulation and home energy improvements)",
+        "sources": [
+          {
+            "url": "https://www.wildlifetrusts.org/blog/craig-bennett/labour-partys-manifesto-nature-and-climate-crises-urgent-challenge-must-be-faced",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "A \u00a328 billion National Wealth Fund is also established to co-invest in priority sectors, aiming to attract \u00a33 of private investment for every \u00a31 of public investment",
+        "sources": [
+          {
+            "url": "https://giia.net/insights/one-year-how-labour-reshaping-uk-infrastructure-policy/",
+            "publisher": "giia.net",
+            "title": "giia.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Specific allocations within the National Wealth Fund include \u00a31.8 billion to upgrade ports and build supply chains, \u00a31.5 billion for new gigafactories, and \u00a32.5 billion to rebuild the steel industry",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Transport Investment:** Specific capital spending includes \u00a315.6 billion for transport projects, with \u00a33.5 billion more for the Trans-Pennine Route Upgrade",
+        "sources": [
+          {
+            "url": "https://www.bcis.co.uk/insight/one-year-of-labour-an-infrastructure-snapshot/",
+            "publisher": "bcis.co.uk",
+            "title": "bcis.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZkgPWcxO_H4",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Prioritization of Infrastructure Types:** The Resolution Foundation emphasizes the need to balance new \"growth-enhancing\" economic infrastructure projects with the urgent need to address the \"dilapidated\" state of social infrastructure like hospitals and social housing",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/chancellor-adds-concrete-to-the-governments-economic-plans-but-still-lacks-a-euro-vision/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The Health Foundation further argues that current Treasury accounting rules undervalue social infrastructure by classifying it as day-to-day consumption rather than long-term investment",
+        "sources": [
+          {
+            "url": "https://www.opendemocracy.net/andy-burnhams-promises-of-growth-rely-on-real-investment-in-social-care/",
+            "publisher": "opendemocracy.net",
+            "title": "opendemocracy.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Acceleration:** Environmental groups, such as the Wildlife Trusts, express significant concern that the push to \"reduce red tape\" and accelerate infrastructure could weaken environmental protections, particularly regarding Biodiversity Net Gain for major projects and allowing off-site compensation for nature loss",
+        "sources": [
+          {
+            "url": "https://www.wildlifetrusts.org/blog/craig-bennett/labour-partys-manifesto-nature-and-climate-crises-urgent-challenge-must-be-faced",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2025/may/02/labour-planning-bill-threatens-protected-habitats-says-environment-watchdog",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Labour, conversely, maintains its commitment to building sustainably \"without weakening environmental protections\"",
+        "sources": [
+          {
+            "url": "https://www.wildlifetrusts.org/blog/craig-bennett/labour-partys-manifesto-nature-and-climate-crises-urgent-challenge-must-be-faced",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Delivery Challenges:** The House of Commons Library notes that economic infrastructure is historically slower and more costly to build in the UK, and the planning system often delays delivery",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06594/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The IFS also highlights concerns about the success rate of NISTA's IT projects",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCb47L9dgf3QmHq0aUiNXWqwN8Ls0DiloNGdQFTqWfJMVtk174C-lk41pTwENWhXcQC0r0f-zxmtdp88MO5VVy3YPcokdT3bagD8YPOOx3h3MysU6RsPQCIW44vtH0U52DN9-VCRgcfqwpO10y3jc9Nv7pA3hc1KgDfg6JWg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The long wait for a fully fleshed-out project pipeline has also been noted as potentially deterring private sector investment",
+        "sources": [
+          {
+            "url": "https://www.bcis.co.uk/insight/one-year-of-labour-an-infrastructure-snapshot/",
+            "publisher": "bcis.co.uk",
+            "title": "bcis.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

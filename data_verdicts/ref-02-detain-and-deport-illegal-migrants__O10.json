@@ -1,0 +1,641 @@
+{
+  "policy_id": "ref-02-detain-and-deport-illegal-migrants",
+  "party": "Reform UK",
+  "policy_title": "Detain and deport illegal migrants",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "major",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy would significantly expand state detention powers, remove key legal protections by leaving the ECHR, and strip non-citizens of legal aid \u2014 all of which reduce the practical ability to challenge state coercion. The main caveat is that most effects fall on non-citizens rather than the general population, though ECHR withdrawal would reduce rights-enforcement tools for everyone.",
+    "biggest_unknown": "Whether leaving the ECHR and replacing it with a British Bill of Rights would in practice preserve, reduce, or restructure the individual rights currently enforceable against the state \u2014 the scope of the replacement instrument is unspecified.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy creates mass detention powers for illegal migrants, including intercepting people at sea.",
+        "evidence_id": "M",
+        "quote": "detain and deport illegal migrants, including picking them up in small boats and returning them to France"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy would leave the ECHR and prohibit asylum or citizenship claims for those entering from safe countries.",
+        "evidence_id": "M",
+        "quote": "leaving the ECHR, prohibiting resettlement, and barring asylum or citizenship claims for those entering from safe countries"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy explicitly removes legal aid for non-citizens.",
+        "evidence_id": "M",
+        "quote": "no legal aid for non-citizens"
+      },
+      {
+        "tier": "projected",
+        "claim": "Leaving the ECHR would reduce the power of ordinary people to protect their rights and create years of legal uncertainty.",
+        "evidence_id": "E15",
+        "quote": "It would reduce the power of ordinary people to protect their rights and create years of legal uncertainty due to the need to rework numerous statutes and policies."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Existing cuts to legal aid under LASPO already significantly reduced immigration legal aid scope; this policy extends that further.",
+        "evidence_id": "E25",
+        "quote": "This builds on existing cuts to civil legal aid under the Legal Aid, Sentencing and Punishment of Offenders Act 2012 (LASPO), which significantly reduced the scope of legal aid for immigration matters."
+      },
+      {
+        "tier": "measurable",
+        "claim": "After LASPO, asylum appeal success rates for self-represented individuals fell sharply.",
+        "evidence_id": "E27",
+        "quote": "Appeal success rates for self-represented asylum seekers declined from 46% before LASPO to just 12% afterward."
+      },
+      {
+        "tier": "projected",
+        "claim": "The policy's safe-country bar could strip nearly half a million legal migrants of permanent status, placing them in perpetual renewal cycles.",
+        "evidence_id": "E18",
+        "quote": "This could strip nearly half a million legal migrants of their permanent status, placing them in a perpetual five-year renewal cycle."
+      },
+      {
+        "tier": "projected",
+        "claim": "Removal of legal aid leads to prolonged insecurity, destitution and psychological harm for vulnerable groups.",
+        "evidence_id": "E30",
+        "quote": "leading to prolonged insecurity, destitution, and psychological harm"
+      }
+    ],
+    "rationale": "O10 concerns freedom from state coercion, detention, and the practical ability to challenge state power. This policy worsens it across several distinct mechanisms.\n\nFirst, it authorises mass detention at scale without specifying procedural safeguards. Detention is among the most direct forms of state coercion over bodies and movement.\n\nSecond, leaving the ECHR removes a structural check on state power. The projected consequence (E15) is that this would reduce the power of ordinary people to protect their rights and create years of legal uncertainty. This is not limited to migrants: it affects anyone whose rights are currently enforceable via the Human Rights Act and ECHR framework. This is a projection by an advocacy body and should be weighted accordingly, but no cited evidence points the other way on this mechanism.\n\nThird, eliminating legal aid for non-citizens removes the practical ability to challenge state coercion through the courts. The measurable baseline (E27) shows appeal success rates collapsed from 46% to 12% after earlier legal aid cuts; extending the ban further entrenches this gap. The policy builds on LASPO cuts already documented as having significantly reduced immigration legal aid scope (E25).\n\nFourth, the blanket bar on asylum claims from safe-country entrants and the potential to strip permanent residents of settled status (E18, projected) represent expanded state power to determine people's legal existence with reduced avenues for challenge.\n\nCounterfactual: absent this policy, ECHR protections, legal aid entitlements, and existing detention limits remain. The policy's marginal effect is clearly in the direction of expanded state coercion and reduced individual liberty. Confidence is moderate rather than high because the replacement British Bill of Rights is unspecified, and E15 comes from an advocacy source (justice.org.uk), though no cited evidence contradicts it.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.justice.org.uk/news/the-european-convention-on-human-rights-the-case-to-stay-and-the-consequences-of-leaving",
+        "publisher": "justice.org.uk",
+        "title": "justice.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://publiclawproject.org.uk/content/uploads/2021/04/Legal-aid-briefing.pdf",
+        "publisher": "publiclawproject.org.uk",
+        "title": "publiclawproject.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://justicefirst.org.uk/wp-content/uploads/REPORT-LEGAL-AID-CRISIS.pdf",
+        "publisher": "justicefirst.org.uk",
+        "title": "justicefirst.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://atlasinstitute.org/reform-uk-and-the-politics-of-exclusion/",
+        "publisher": "atlasinstitute.org",
+        "title": "atlasinstitute.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.seraphus.co.uk/knowledge-centre-article/access-to-justice-inquiry-what-it-means-for-immigration-and-legal-advice-services/",
+        "publisher": "seraphus.co.uk",
+        "title": "seraphus.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1015,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are supported by their cited evidence at the appropriate tier. Stated claims quote directly from policy text. E15 (projected, advocacy source) is correctly flagged in the rationale as coming from an advocacy body with no counter-evidence cited \u2014 this is handled transparently. E27 (LASPO appeal success rates) is sourced from justicefirst.org.uk, an advocacy/legal charity; this is a warning-level concern but the claim is consistent with parliamentary evidence and E25 corroborates the legal aid reduction. E18 ('half a million legal migrants') is from atlasinstitute.org and is correctly tiered as projected. The direction 'worsens' is well-supported by multiple independent mechanisms (detention, ECHR withdrawal, legal aid removal) \u2014 no false balance issue. Magnitude 'major' is arguably strong given that most effects fall on non-citizens, but the ECHR withdrawal effect on all UK residents provides a plausible basis. No party-blind issues; no motive attribution. No lever leakage \u2014 the verdict judges liberty effects, not immigration policy per se. One minor observation: E27 source (justicefirst.org.uk) is advocacy and is sole basis for the quantified appeal success rate claim; this is a warning but not blocking given the rationale does not hinge on the precise figures."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will detain and deport illegal migrants, including picking them up in small boats and returning them to France, leaving the ECHR, prohibiting resettlement, and barring asylum or citizenship claims for those entering from safe countries. A new Department of Immigration will be created with no legal aid for non-citizens.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK aims to deport between 500,000 and 600,000 illegal migrants over five years, with a capacity to detain up to 24,000 at a time and deport up to 288,000 annually.",
+        "sources": [
+          {
+            "url": "https://www.reform-oxfordshire.co.uk/operation-restoring-justice",
+            "publisher": "reform-oxfordshire.co.uk",
+            "title": "reform-oxfordshire.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Ed1VyXVUY48",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The party claims this plan would save taxpayers over \u00a37 billion in the first term of a Reform government and more than \u00a342 billion over a decade, despite an estimated implementation cost of \u00a310 billion over five years.",
+        "sources": [
+          {
+            "url": "https://www.reform-oxfordshire.co.uk/operation-restoring-justice",
+            "publisher": "reform-oxfordshire.co.uk",
+            "title": "reform-oxfordshire.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Ed1VyXVUY48",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "However, analysis from the London School of Economics (LSE) suggests that Reform UK's \"detect, detain, deport\" policy would be \"highly costly,\" potentially involve payments to \"authoritarian regimes,\" and yield \"uncertain results.\"",
+        "sources": [
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/the-problems-with-reform-uks-immigration-policy/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpbYEmQJpGNd2WE4XsSOPpKTvieF8P4rDn-PGZ4uBW5tbPE19gBFh2hsn0P-ets9ArBVcMzkBhxSIraHnZle760COiwbegRhSd36qhQixQes2uKcXxMfdnKCHpLVZ1cfQo8jjj9oOIrRgSFYvvCLCPMNZNxE_6l2-swQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lse.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Home Office calculated the average cost of an Immigration Enforcement return in FY 2024 to 2025 to include detention, escorting, and flight costs, which vary significantly between enforced and voluntary returns.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/average-cost-of-an-immigration-enforcement-return-fy-2024-to-2025/average-cost-of-an-immigration-enforcement-return-fy-2024-to-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Office for Budget Responsibility (OBR) notes that most migrants, excluding asylum seekers and those under the EU settlement scheme, pay substantial fees, including around \u00a31,900 in visa fees and \u00a32,600 for the Immigration Health Surcharge (IHS), contributing significantly to tax revenues.",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Reform UK proposes picking up small boats and returning them to France to deter Channel crossings.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Ed1VyXVUY48",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Between 2018 and 2024, only 400 people who arrived by small boat were returned to the EU, out of approximately 151,000 arrivals and 30,000 initial asylum refusals.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/uk-france-and-uk-eu-cooperation-on-small-boat-arrivals-what-are-the-options/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Returns to the EU fell after Brexit, with around 60 Channel migrants returned in 2023 and 2024, compared to approximately 130 in 2019 and 2020.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/uk-france-and-uk-eu-cooperation-on-small-boat-arrivals-what-are-the-options/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Experts suggest that a deterrent effect would only materialize if a \"relatively large proportion\" of small boat arrivals were returned.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/uk-france-and-uk-eu-cooperation-on-small-boat-arrivals-what-are-the-options/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=n3u-u5ZHKy8",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "As of November 2025, a UK-France deal saw only 75 immigrants returned to France since August, while nearly 11,500 migrants crossed the Channel during the same period.",
+        "sources": [
+          {
+            "url": "https://www.civitas.org.uk/2025/11/03/is-it-too-early-to-evaluate-french-authorities-or-the-deterrent-effect-of-the-migrant-return-deal-on-small-boats-arrivals/",
+            "publisher": "civitas.org.uk",
+            "title": "civitas.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This suggests the current return numbers are too low to act as a significant deterrent.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=n3u-u5ZHKy8",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Reform UK plans to leave the ECHR and repeal the Human Rights Act, replacing it with a British Bill of Rights to gain \"total control over its borders.\"",
+        "sources": [
+          {
+            "url": "https://iasservices.org.uk/echr-briefing-as-parties-weigh-uks-future-in-convention/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Ed1VyXVUY48",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Leaving the ECHR would:\n*   **Undermine international standing and cooperation:** It would damage the UK's credibility in human rights, make cross-border cooperation on crime and migration harder, and make the UK an outlier as the only democracy to leave the ECHR besides Russia (which was expelled) and temporarily Greece.",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/what-is-the-echr-and-why-does-it-matter/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/leaving-the-echr-and-the-refugee-convention/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.justice.org.uk/news/the-european-convention-on-human-rights-the-case-to-stay-and-the-consequences-of-leaving",
+            "publisher": "justice.org.uk",
+            "title": "justice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Jeopardize the Good Friday Agreement:** The agreement is underpinned by the ECHR, and withdrawal could threaten peace in Northern Ireland.",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/what-is-the-echr-and-why-does-it-matter/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/leaving-the-echr-and-the-refugee-convention/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.justice.org.uk/news/the-european-convention-on-human-rights-the-case-to-stay-and-the-consequences-of-leaving",
+            "publisher": "justice.org.uk",
+            "title": "justice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Affect individual rights:** It would reduce the power of ordinary people to protect their rights and create years of legal uncertainty due to the need to rework numerous statutes and policies.",
+        "sources": [
+          {
+            "url": "https://www.justice.org.uk/news/the-european-convention-on-human-rights-the-case-to-stay-and-the-consequences-of-leaving",
+            "publisher": "justice.org.uk",
+            "title": "justice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Not eliminate all obligations:** Critically, leaving the ECHR would not remove the UK's obligations under other international agreements, such as the 1951 Refugee Convention and the UN Convention Against Torture.",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/what-is-the-echr-and-why-does-it-matter/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmfJDPj7rN13QTKJUKV2axon04zLFVKtTKZIXROeWmpOyemRWiBd4O7NeQfdhQIjFuZHhbwuCeF7915yWpE1aVinLvYHdPGnWqfpBlqw2dp36RmCb94FmvXhjzWpnb0BGPGbHRwQTvb6XzIqkpAcIxSoDQQgtOhn68L1xZ8lYW_tlC4YdZGyk7_Ddw-zM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ie.edu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.justice.org.uk/news/the-european-convention-on-human-rights-the-case-to-stay-and-the-consequences-of-leaving",
+            "publisher": "justice.org.uk",
+            "title": "justice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The policy includes prohibiting resettlement and barring asylum or citizenship claims for those entering from \"safe countries,\" effectively \"disapplying\" international treaties like the 1951 Refugee Convention.",
+        "sources": [
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/the-problems-with-reform-uks-immigration-policy/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://atlasinstitute.org/reform-uk-and-the-politics-of-exclusion/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This could strip nearly half a million legal migrants of their permanent status, placing them in a perpetual five-year renewal cycle.",
+        "sources": [
+          {
+            "url": "https://atlasinstitute.org/reform-uk-and-the-politics-of-exclusion/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The UN Refugee Agency (UNHCR) opposes \"blanket bans\" on asylum claims based on nationality.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9724/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "While the UK already has \"inadmissibility\" rules for people who have passed through or are from \"safe countries,\" where claims can be rejected without consideration, these are intended for prioritizing, not outright bans.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9724/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Experts note that \"safe country\" concepts can disproportionately affect vulnerable groups, including women, by reducing their access to justice and raising concerns about gender-based violence risks in countries of return.",
+        "sources": [
+          {
+            "url": "https://ilpa.org.uk/when-safe-is-anything-but-safe-country-concepts-and-understanding-their-impact-on-women-seeking-asylum/",
+            "publisher": "ilpa.org.uk",
+            "title": "ilpa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://africanrainbowfamily.org/wp-content/uploads/2026/03/FINAL_Safe-Country-Report-10-February-2026.pdf",
+            "publisher": "africanrainbowfamily.org",
+            "title": "africanrainbowfamily.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "From January 2021 to June 2025, only 38 people were removed from the UK due to inadmissible asylum cases.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9724/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Reform UK proposes establishing a \"UK Deportation Command\" as a new Department of Immigration, with a \"cutting-edge data fusion center\" to track and deport illegal migrants.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Ed1VyXVUY48",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "While specific independent cost analyses for the *creation* of this new department are not readily available, the party's overall plan estimates an implementation cost of \u00a310 billion over five years for its wider deportation strategy.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Ed1VyXVUY48",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The policy explicitly states \"no legal aid for non-citizens.\" This builds on existing cuts to civil legal aid under the Legal Aid, Sentencing and Punishment of Offenders Act 2012 (LASPO), which significantly reduced the scope of legal aid for immigration matters.",
+        "sources": [
+          {
+            "url": "https://publiclawproject.org.uk/content/uploads/2021/04/Legal-aid-briefing.pdf",
+            "publisher": "publiclawproject.org.uk",
+            "title": "publiclawproject.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The consequences of reduced legal aid are widely documented:\n*   **Impeded access to justice:** Migrants with strong claims may be unable to appeal removal or deportation decisions, being forced to represent themselves in complex legal processes, often in a foreign language and under stressful conditions of detention.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/50523/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Decreased success rates:** Appeal success rates for self-represented asylum seekers declined from 46% before LASPO to just 12% afterward.",
+        "sources": [
+          {
+            "url": "https://justicefirst.org.uk/wp-content/uploads/REPORT-LEGAL-AID-CRISIS.pdf",
+            "publisher": "justicefirst.org.uk",
+            "title": "justicefirst.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Home Office reported a 60% increase in asylum appeals since LASPO.",
+        "sources": [
+          {
+            "url": "https://justicefirst.org.uk/wp-content/uploads/REPORT-LEGAL-AID-CRISIS.pdf",
+            "publisher": "justicefirst.org.uk",
+            "title": "justicefirst.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **\"Legal aid deserts\":** Many individuals cannot afford legal help but also do not meet legal aid eligibility thresholds, leading to areas with insufficient legal aid provision.",
+        "sources": [
+          {
+            "url": "https://www.migrantsorganise.org/app/uploads/2024/10/Access-to-Justice-Joint-Briefing-Sept-2024-71-Orgs.pdf",
+            "publisher": "migrantsorganise.org",
+            "title": "migrantsorganise.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.seraphus.co.uk/knowledge-centre-article/access-to-justice-inquiry-what-it-means-for-immigration-and-legal-advice-services/",
+            "publisher": "seraphus.co.uk",
+            "title": "seraphus.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "This particularly impacts vulnerable groups with multiple disadvantages, leading to prolonged insecurity, destitution, and psychological harm.",
+        "sources": [
+          {
+            "url": "https://www.seraphus.co.uk/knowledge-centre-article/access-to-justice-inquiry-what-it-means-for-immigration-and-legal-advice-services/",
+            "publisher": "seraphus.co.uk",
+            "title": "seraphus.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publiclawproject.org.uk/content/uploads/2021/04/Legal-aid-briefing.pdf",
+            "publisher": "publiclawproject.org.uk",
+            "title": "publiclawproject.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Reform UK asserts substantial savings, while independent analysts frequently highlight the high costs and uncertain outcomes, especially for large-scale deportations and complex international legal withdrawals.",
+        "sources": [
+          {
+            "url": "https://www.reform-oxfordshire.co.uk/operation-restoring-justice",
+            "publisher": "reform-oxfordshire.co.uk",
+            "title": "reform-oxfordshire.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/the-problems-with-reform-uks-immigration-policy/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Ed1VyXVUY48",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpbYEmQJpGNd2WE4XsSOPpKTvieF8P4rDn-PGZ4uBW5tbPE19gBFh2hsn0P-ets9ArBVcMzkBhxSIraHnZle760COiwbegRhSd36qhQixQes2uKcXxMfdnKCHpLVZ1cfQo8jjj9oOIrRgSFYvvCLCPMNZNxE_6l2-swQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lse.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "There is also a fundamental disagreement on the balance between national sovereignty and international human rights obligations, with Reform UK prioritizing the former while organizations like Liberty and JUSTICE emphasize the vital protections offered by the ECHR.",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/what-is-the-echr-and-why-does-it-matter/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/leaving-the-echr-and-the-refugee-convention/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.justice.org.uk/news/the-european-convention-on-human-rights-the-case-to-stay-and-the-consequences-of-leaving",
+            "publisher": "justice.org.uk",
+            "title": "justice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

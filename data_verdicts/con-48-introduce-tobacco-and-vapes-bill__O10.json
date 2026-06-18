@@ -1,0 +1,623 @@
+{
+  "policy_id": "con-48-introduce-tobacco-and-vapes-bill",
+  "party": "Conservative",
+  "policy_title": "Introduce Tobacco and Vapes Bill",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Restricting how businesses can advertise legal food products limits commercial free expression \u2014 a minor but real constraint on speech. The policy does not affect individual bodily autonomy or personal speech, but a 24-hour online ban on paid HFSS advertising is a coercive restriction on lawful commercial activity.",
+    "biggest_unknown": "Whether courts or regulators would treat the online advertising ban as a disproportionate restriction on commercial expression, which could narrow or widen its practical scope.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to restricting advertising of products high in fat, salt, and sugar.",
+        "evidence_id": "M",
+        "quote": "restrict advertising of products high in fat, salt, and sugar"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Health and Care Act 2022 already introduced a 9pm watershed for HFSS TV advertising effective January 2026.",
+        "evidence_id": "E3",
+        "quote": "A 9 pm watershed for HFSS advertisements on television and UK-regulated on-demand programme services (ODPS)."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The same Act introduced a 24-hour ban on paid-for HFSS advertising online.",
+        "evidence_id": "E4",
+        "quote": "A 24-hour ban on paid-for HFSS advertising online, including non-Ofcom-regulated ODPS."
+      },
+      {
+        "tier": "measurable",
+        "claim": "These restrictions apply to businesses with 250 or more employees that pay to advertise HFSS products.",
+        "evidence_id": "E5",
+        "quote": "The restrictions apply to businesses with 250 or more employees that pay to advertise HFSS products."
+      },
+      {
+        "tier": "projected",
+        "claim": "The estimated cost to advertisers over 25 years from the advertising restrictions is \u00a3518 million.",
+        "evidence_id": "E15",
+        "quote": "The estimated cost to advertisers in terms of returns to advertising investment over 25 years is \u00a3518 million."
+      }
+    ],
+    "rationale": "O10 concerns freedom from state coercion over speech and expression. Advertising is a recognised form of commercial speech; a statutory 24-hour online ban on paid HFSS promotion and a 9pm TV watershed restrict how businesses may lawfully communicate about legal products. That is a direct coercive constraint on expression by the state and therefore worsens O10. The magnitude is minor: the restrictions apply only to paid commercial advertising by large businesses (250+ employees), not to editorial content, individual speech, or bodily choices. They do not criminalise consumption or mandate product changes. The 'gather evidence on ultra-processed food' strand has no coercive element and is irrelevant to O10. One further note on materiality: the core HFSS advertising restrictions are already in force under the Health and Care Act 2022 (E1, E2), meaning the marginal liberty cost of this policy \u2014 relative to the baseline \u2014 may be small if it merely consolidates existing law rather than extending it. However, the stated policy commits to new legislation ('landmark Tobacco and Vapes Bill'), so some additional restriction on commercial expression beyond the 2022 Act baseline is plausible. The direction is worsens/minor: a real but bounded constraint on commercial speech affecting large advertisers of legal products.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/03/aq-hfss-promotion-placement-and-advertising-march-2026-update",
+        "publisher": "taylorwessing.com",
+        "title": "taylorwessing.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZW9LXUBroEMuzKy2zm9AlaHsjZpoHM_Okx96hJY_Xd_BjWBXCLIkfuZkgNhdhkW2KQRRVw1fvUxUuanLTxvc6nFAlUuu94YKOP6wqEzEDPQWw5liQf8oURWW2O6wMjYax0jlOiJIAHAdM0gO6Glg5EjFR-Apl6zuN-CEPnKxeHhR-BexzpUkMBUhfWb_Ta-J3fw==",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "dentons.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/60d35279e90e0743934f6c3a/impact-assessment-hfss-advertising.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0396,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-grounded in the cited evidence. Tier assignments are appropriate: stated claim from M, measurable baseline facts from E3/E4/E5, projected cost figure from E15 (government impact assessment \u2014 borderline measurable but acceptable as a modelled estimate and labelled projected). The rationale correctly scopes the verdict to commercial speech restriction, avoids lever leakage, and appropriately flags the materiality question around the 2022 Act baseline. No party-blind issues, no false balance (direction is unambiguous given the nature of the restriction), no motive attribution. The \u00a3518m figure is projected/modelled but cited accurately. Minor observation: E3/E4 are sourced partly from taylorwessing.com (law firm, commercial), but also from gov.uk, so the dual sourcing is acceptable. Verdict passes."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will bring forward a landmark Tobacco and Vapes Bill in their first King's Speech to restrict advertising of products high in fat, salt, and sugar, and gather evidence on ultra-processed food.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "While the user's prompt refers to a \"Tobacco and Vapes Bill\" consolidating these efforts in a \"first King's Speech,\" the core policies concerning HFSS advertising restrictions are already enshrined in the Health and Care Act 2022 and came into force on January 5, 2026.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10061/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/03/aq-hfss-promotion-placement-and-advertising-march-2026-update",
+            "publisher": "taylorwessing.com",
+            "title": "taylorwessing.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Policy Details:**\nThe Health and Care Act 2022 introduced significant restrictions on HFSS advertising, effective from January 5, 2026.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10061/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/03/aq-hfss-promotion-placement-and-advertising-march-2026-update",
+            "publisher": "taylorwessing.com",
+            "title": "taylorwessing.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "These measures include:\n*   A 9 pm watershed for HFSS advertisements on television and UK-regulated on-demand programme services (ODPS).",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/03/aq-hfss-promotion-placement-and-advertising-march-2026-update",
+            "publisher": "taylorwessing.com",
+            "title": "taylorwessing.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZW9LXUBroEMuzKy2zm9AlaHsjZpoHM_Okx96hJY_Xd_BjWBXCLIkfuZkgNhdhkW2KQRRVw1fvUxUuanLTxvc6nFAlUuu94YKOP6wqEzEDPQWw5liQf8oURWW2O6wMjYax0jlOiJIAHAdM0gO6Glg5EjFR-Apl6zuN-CEPnKxeHhR-BexzpUkMBUhfWb_Ta-J3fw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   A 24-hour ban on paid-for HFSS advertising online, including non-Ofcom-regulated ODPS.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/03/aq-hfss-promotion-placement-and-advertising-march-2026-update",
+            "publisher": "taylorwessing.com",
+            "title": "taylorwessing.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZW9LXUBroEMuzKy2zm9AlaHsjZpoHM_Okx96hJY_Xd_BjWBXCLIkfuZkgNhdhkW2KQRRVw1fvUxUuanLTxvc6nFAlUuu94YKOP6wqEzEDPQWw5liQf8oURWW2O6wMjYax0jlOiJIAHAdM0gO6Glg5EjFR-Apl6zuN-CEPnKxeHhR-BexzpUkMBUhfWb_Ta-J3fw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   The restrictions apply to businesses with 250 or more employees that pay to advertise HFSS products.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZW9LXUBroEMuzKy2zm9AlaHsjZpoHM_Okx96hJY_Xd_BjWBXCLIkfuZkgNhdhkW2KQRRVw1fvUxUuanLTxvc6nFAlUuu94YKOP6wqEzEDPQWw5liQf8oURWW2O6wMjYax0jlOiJIAHAdM0gO6Glg5EjFR-Apl6zuN-CEPnKxeHhR-BexzpUkMBUhfWb_Ta-J3fw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Products scoring 4 or above for food, or 1 or above for drinks, are deemed HFSS.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cabhospitality.co.uk/blog/the-hfss-legislation-and-its-impact",
+            "publisher": "cabhospitality.co.uk",
+            "title": "cabhospitality.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZW9LXUBroEMuzKy2zm9AlaHsjZpoHM_Okx96hJY_Xd_BjWBXCLIkfuZkgNhdhkW2KQRRVw1fvUxUuanLTxvc6nFAlUuu94YKOP6wqEzEDPQWw5liQf8oURWW2O6wMjYax0jlOiJIAHAdM0gO6Glg5EjFR-Apl6zuN-CEPnKxeHhR-BexzpUkMBUhfWb_Ta-J3fw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Public Health Improvement:** The primary objective is to tackle childhood obesity, which the government describes as \"one of the biggest health challenges this country faces.\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10061/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/60d35279e90e0743934f6c3a/impact-assessment-hfss-advertising.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The policy aims to reduce children's exposure to HFSS advertisements, thereby lowering their consumption, direct purchases, or influence on family purchases of these products.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/60d35279e90e0743934f6c3a/impact-assessment-hfss-advertising.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Evidence suggests a strong link between HFSS marketing and children's food preferences, purchase requests, and consumption patterns.",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/sites/default/files/2021-10/3-Briefing-UK-Junk-Food_vF.pdf",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Product Reformulation:** A significant effect is expected to be manufacturers reformulating their products to reduce fat, salt, and sugar content, allowing them to bypass the advertising restrictions.",
+        "sources": [
+          {
+            "url": "https://kadence.com/en-us/knowledge/how-the-uk-junk-food-ad-ban-will-reshape-the-food-industry/",
+            "publisher": "kadence.com",
+            "title": "kadence.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "A precedent for this is the 2016 sugar tax, which led to the reformulation of many sugary beverages, cutting 45,000 tonnes of sugar from drinks sold in Britain by 2019.",
+        "sources": [
+          {
+            "url": "https://kadence.com/en-us/knowledge/how-the-uk-junk-food-ad-ban-will-reshape-the-food-industry/",
+            "publisher": "kadence.com",
+            "title": "kadence.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Changes in Advertising Strategies:** Food and beverage brands will need to rethink their marketing approaches.",
+        "sources": [
+          {
+            "url": "https://kadence.com/en-us/knowledge/how-the-uk-junk-food-ad-ban-will-reshape-the-food-industry/",
+            "publisher": "kadence.com",
+            "title": "kadence.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Consumers are likely to see fewer promotions for unhealthy items.",
+        "sources": [
+          {
+            "url": "https://www.cabhospitality.co.uk/blog/the-hfss-legislation-and-its-impact",
+            "publisher": "cabhospitality.co.uk",
+            "title": "cabhospitality.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Impact on Advertising and Media Industries:** Commercial broadcasters and digital platforms that rely on advertising revenue from HFSS brands are expected to see a decline in revenue.",
+        "sources": [
+          {
+            "url": "https://kadence.com/en-us/knowledge/how-the-uk-junk-food-ad-ban-will-reshape-the-food-industry/",
+            "publisher": "kadence.com",
+            "title": "kadence.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The estimated cost to advertisers in terms of returns to advertising investment over 25 years is \u00a3518 million.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/60d35279e90e0743934f6c3a/impact-assessment-hfss-advertising.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Government Statistics (cited by Kadence and House of Commons Library):** More than one in five children in England are classified as overweight or obese by the time they start primary school, increasing to over one in three by the time they leave.",
+        "sources": [
+          {
+            "url": "https://kadence.com/en-us/knowledge/how-the-uk-junk-food-ad-ban-will-reshape-the-food-industry/",
+            "publisher": "kadence.com",
+            "title": "kadence.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Data from the National Child Measurement Programme for 2023-24 showed obesity prevalence in Reception children at 9.6% and in Year 6 children at 22.1%.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10061/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The government's goal is to halve childhood obesity by 2030.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10061/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** The IFS has discussed the potential effects of banning HFSS advertising, noting that the overall impact on health outcomes will depend on a complex interplay of factors, including how advertising exposure is affected, how firms respond (prices, reformulation), how these changes alter household consumption, and how consumption reductions translate to health improvements.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/potential-impacts-banning-television-advertising-hfss-food-and-drink-watershed",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "They highlight uncertainty about the precise magnitude of these effects.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/potential-impacts-banning-television-advertising-hfss-food-and-drink-watershed",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **House of Commons Library:** Provides detailed briefings on the current regulations and the new advertising restrictions, emphasizing the government's aim to reduce childhood obesity.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10061/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **The George Institute for Global Health:** Supports the online advertising restrictions, pointing out that children in the UK were exposed to 15.1 billion marketing impressions of unhealthy food and drink advertising in 2019 alone.",
+        "sources": [
+          {
+            "url": "https://www.georgeinstitute.org/sites/default/files/documents/introducting-advertising-ban-tv-online-of-hfss-foods-uk-submission.pdf",
+            "publisher": "georgeinstitute.org",
+            "title": "georgeinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They emphasize the need to \"futureproof\" policy against evolving media platforms.",
+        "sources": [
+          {
+            "url": "https://www.georgeinstitute.org/sites/default/files/documents/introducting-advertising-ban-tv-online-of-hfss-foods-uk-submission.pdf",
+            "publisher": "georgeinstitute.org",
+            "title": "georgeinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   While there is general consensus on the link between HFSS advertising and childhood obesity, the **IFS highlights uncertainty regarding the *magnitude* of the actual health improvements** that will result from the advertising ban, given the complex chain of behavioral and market responses.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/potential-impacts-banning-television-advertising-hfss-food-and-drink-watershed",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Currently, UK policy has primarily focused on HFSS products, though the government is funding new research into the health aspects of UPFs.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6sueMHD8cIWI8e_SZI6q772IWHdxZt3a2iV4LH25bvbS7oZySV4D1itKD1v-yOIrtV4JO4ROYz2QzW5bXk4F_kXQPJzebxZJr9V5UcNg-nRBXtMkwVor1AIpJmzlZ3BwZ1eU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "However, they have concluded that the evidence remains largely observational and is **not yet sufficient to warrant changes to current UK dietary guidelines specifically on UPFs**.",
+        "sources": [
+          {
+            "url": "https://foodactive.org.uk/wp-content/uploads/2025/07/Ultra-Processed-Foods-updated-PS.pdf",
+            "publisher": "foodactive.org.uk",
+            "title": "foodactive.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/ultra-processed-food-upfs/ultra-processed-food-html",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Instead, SACN recommends continuing to follow existing advice to reduce foods high in salt, sugar, and saturated fat, and increase the consumption of whole or minimally processed foods.",
+        "sources": [
+          {
+            "url": "https://foodactive.org.uk/wp-content/uploads/2025/07/Ultra-Processed-Foods-updated-PS.pdf",
+            "publisher": "foodactive.org.uk",
+            "title": "foodactive.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "SACN also noted challenges with the practical application of the NOVA classification system for UPFs in national dietary surveys.",
+        "sources": [
+          {
+            "url": "https://foodactive.org.uk/wp-content/uploads/2025/07/Ultra-Processed-Foods-updated-PS.pdf",
+            "publisher": "foodactive.org.uk",
+            "title": "foodactive.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/ultra-processed-food-upfs/ultra-processed-food-html",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **British Medical Association (BMA):** The BMA is highly critical, stating that ministers are \"failing to protect public health\" from UPFs.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6sueMHD8cIWI8e_SZI6q772IWHdxZt3a2iV4LH25bvbS7oZySV4D1itKD1v-yOIrtV4JO4ROYz2QzW5bXk4F_kXQPJzebxZJr9V5UcNg-nRBXtMkwVor1AIpJmzlZ3BwZ1eU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They have called for the government to curb aggressive marketing of UPFs, fund independent research into their long-term health effects, and explore including processing levels in UK regulation.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6sueMHD8cIWI8e_SZI6q772IWHdxZt3a2iV4LH25bvbS7oZySV4D1itKD1v-yOIrtV4JO4ROYz2QzW5bXk4F_kXQPJzebxZJr9V5UcNg-nRBXtMkwVor1AIpJmzlZ3BwZ1eU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The BMA highlights that five companies (Haribo, Mars, Mondelez, PepsiCo, and Kellogg's) are responsible for over 80% of TV advertising for snacks and confectionery before the 9 pm watershed.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6sueMHD8cIWI8e_SZI6q772IWHdxZt3a2iV4LH25bvbS7oZySV4D1itKD1v-yOIrtV4JO4ROYz2QzW5bXk4F_kXQPJzebxZJr9V5UcNg-nRBXtMkwVor1AIpJmzlZ3BwZ1eU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "They suggested breaking down UPF classifications into sub-types for better-defined research.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/ultra-processed-food-upfs/ultra-processed-food-html",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Experts quoted in the report deem this revised advice \"flawed\" because many UPFs can still meet the \"healthier options\" definition.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/ng-interactive/2025/may/17/uk-government-drops-healthy-eating-push-after-lobbying-by-ultra-processed-food-firms",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Sufficiency of Evidence for Specific UPF Policy:** A key area of disagreement lies between groups like the **BMA**, which advocate for direct policy intervention against UPFs due to consistent associations with poor health, and **SACN**, which, while acknowledging these associations, believes the evidence is not yet strong enough to specifically alter dietary guidelines based *solely* on processing levels, preferring to maintain advice on reducing HFSS components.",
+        "sources": [
+          {
+            "url": "https://foodactive.org.uk/wp-content/uploads/2025/07/Ultra-Processed-Foods-updated-PS.pdf",
+            "publisher": "foodactive.org.uk",
+            "title": "foodactive.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6sueMHD8cIWI8e_SZI6q772IWHdxZt3a2iV4LH25bvbS7oZySV4D1itKD1v-yOIrtV4JO4ROYz2QzW5bXk4F_kXQPJzebxZJr9V5UcNg-nRBXtMkwVor1AIpJmzlZ3BwZ1eU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "While useful, some analysts and scientific groups suggest that sub-categorization within UPFs may be necessary for more precise research and policy recommendations, as not all UPFs are necessarily associated with adverse health outcomes.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/ultra-processed-food-upfs/ultra-processed-food-html",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Lobbying Influence:** The report by *The Guardian* indicates a disagreement in policy direction, where initial government guidance to promote minimally processed food was reportedly diluted after lobbying, raising concerns that the \"healthier options\" framing may still allow for the promotion of some UPFs.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/ng-interactive/2025/may/17/uk-government-drops-healthy-eating-push-after-lobbying-by-ultra-processed-food-firms",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

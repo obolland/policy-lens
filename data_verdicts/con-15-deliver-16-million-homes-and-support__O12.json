@@ -1,0 +1,821 @@
+{
+  "policy_id": "con-15-deliver-16-million-homes-and-support",
+  "party": "Conservative",
+  "policy_title": "Deliver 1.6 Million Homes and Support First-Time Buyers",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Making stamp duty relief permanent for first-time buyers and launching a new Help to Buy scheme both cost the Exchequer money without identified offsetting funding; the housebuilding measures are largely regulatory and carry minimal direct fiscal cost. The OBR has previously found SDLT relief mostly feeds into higher house prices, meaning the revenue loss may deliver little genuine economic return.",
+    "biggest_unknown": "The scale and structure of the new Help to Buy scheme is unspecified \u2014 if it replicates the equity-loan model it creates a significant contingent liability; if smaller, the fiscal impact is modest.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy permanently abolishes Stamp Duty for first-time buyers on homes up to \u00a3425,000 and launches a new Help to Buy scheme.",
+        "evidence_id": "M",
+        "quote": "make Stamp Duty permanent for first-time buyers up to \u00a3425,000 and launch a new Help to Buy scheme"
+      },
+      {
+        "tier": "measurable",
+        "claim": "First-time buyers currently pay no Stamp Duty up to \u00a3425,000, a relief that was due to expire in March 2025 \u2014 making it permanent foregoes future revenue.",
+        "evidence_id": "E32",
+        "quote": "first-time buyers pay no Stamp Duty up to \u00a3425,000 and 5% on the portion from \u00a3425,001 to \u00a3625,000, a relief that was due to end in March 2025"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR concluded that the majority of SDLT relief value 'fed through to higher house prices' and had not significantly improved affordability, with most beneficiaries likely to have purchased anyway.",
+        "evidence_id": "E35",
+        "quote": "the majority of the value of such relief \"fed through to higher house prices\" and that it \"has not had a significant impact in terms of improving the affordability\" for first-time buyers, with most beneficiaries likely to have purchased property anyway"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR further warned that a permanent relief would have a greater price-inflating effect than a temporary one, increasing the fiscal cost without proportionate benefit.",
+        "evidence_id": "E36",
+        "quote": "a permanent relief would have a greater effect on prices than a temporary one"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The previous Help to Buy equity-loan scheme supported 387,195 purchases but around 65,000 households (approximately three-fifths of a sample) could have afforded to buy without assistance, implying significant deadweight cost.",
+        "evidence_id": "E42",
+        "quote": "approximately three-fifths (around 65,000 households) of buyers using the scheme could have afforded to buy a home without government assistance"
+      },
+      {
+        "tier": "stated",
+        "claim": "The housebuilding measures \u2014 abolishing nutrient neutrality rules, fast-tracking brownfield, raising London density, and creating urban development corporations \u2014 are primarily regulatory and planning interventions rather than direct public spending commitments.",
+        "evidence_id": "M",
+        "quote": "abolishing legacy EU 'nutrient neutrality' rules, fast-tracking homes on urban brownfield land, raising density in inner London, and creating urban development corporations"
+      }
+    ],
+    "rationale": "The two direct fiscal instruments in this policy \u2014 permanent SDLT relief and a new Help to Buy scheme \u2014 both represent costs to the Exchequer with no identified funding source. The SDLT relief is an ongoing revenue foregone: the OBR has previously assessed that similar reliefs mostly inflate prices rather than improve affordability, meaning the Treasury loses revenue for limited real-economy return. Making it permanent, as the OBR notes, amplifies the price effect and thus the fiscal inefficiency. The new Help to Buy scheme is an unquantified spending commitment; the prior scheme created contingent liabilities via equity loans, and evaluations found substantial deadweight. Together these constitute unfunded demand-side subsidies \u2014 symmetrically problematic under O12's rubric regardless of political framing. The housebuilding supply-side measures (nutrient neutrality, brownfield fast-track, UDCs) are largely deregulatory or regulatory-reform in nature and carry minimal direct Exchequer cost; they do not offset the revenue/spending pressures from the demand-side instruments. The magnitude is judged minor rather than moderate because SDLT receipts from first-time buyers at this threshold are a relatively small share of total fiscal flows, and the Help to Buy scheme's scale is unspecified \u2014 if modest, aggregate impact on debt path is limited. Confidence is moderate because no OBR costing of this specific package exists in the provided evidence.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/home-truths/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://obr.uk/box/a-new-tax-relief-for-first-time-buyers/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://committees.parliament.uk/work/3987/help-to-buy-equity-loan-scheme-progress-review-inquiry/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0481,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-grounded in their cited evidence. Tier assignments are correct: OBR findings are appropriately labelled 'projected' (forecasts/assessments, not raw facts). The E42 claim labels ~65,000 households as 'approximately three-fifths of a sample' \u2014 the quote says 'approximately three-fifths (around 65,000 households)' which slightly conflates a fraction with an absolute number from a sample, but does not materially overstate the deadweight point. The direction 'worsens' is supported by the OBR evidence on SDLT relief feeding into prices (revenue loss without return) and the uncosted Help to Buy commitment; no claim imputes party motive. The magnitude 'minor' is cautious and defensible given unspecified scheme scale. No lever leakage \u2014 the verdict judges fiscal effect on O12, not housing policy per se. No false balance issue \u2014 the verdict does not reach mixed/uncertain. No party-blind issue detected."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party commits to delivering 1.6 million homes in England by abolishing legacy EU 'nutrient neutrality' rules, fast-tracking homes on urban brownfield land, raising density in inner London, and creating urban development corporations. They will also make Stamp Duty permanent for first-time buyers up to \u00a3425,000 and launch a new Help to Buy scheme.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "For context, the Conservative Party states it has delivered over 2.5 million homes since 2010.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Royal Institution of Chartered Surveyors (RICS) notes that delivering 1.6 million homes in five years, averaging over 300,000 new homes annually, has not been achieved since the 1960s.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This ambitious target faces challenges from the existing planning system, according to Victoria Hills, chief executive of the Royal Town Planning Institute, who questions its attainability without new policies to \"unblock the planning system\" and resource underfunded planning services.",
+        "sources": [
+          {
+            "url": "https://www.lgcplus.com/politics/governance-and-structure/conservative-manifesto-housing-plan-questionable-12-06-2024/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The policy aims to immediately unlock 100,000 new homes by removing 'nutrient neutrality' regulations, requiring developers to pay a one-off mitigation fee instead to ensure no net additional pollution.",
+        "sources": [
+          {
+            "url": "https://www.elmhurstenergy.co.uk/blog/2024/06/13/conservative-manifesto-2024/",
+            "publisher": "elmhurstenergy.co.uk",
+            "title": "elmhurstenergy.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lgcplus.com/politics/governance-and-structure/conservative-manifesto-housing-plan-questionable-12-06-2024/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/about/campaigns/general-election-hub/conservative-party-manifesto",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The HBF argues that new homes make a \"negligible contribution\" to nutrient levels in rivers, less than 1%.",
+        "sources": [
+          {
+            "url": "https://www.lgcplus.com/politics/governance-and-structure/conservative-manifesto-housing-plan-questionable-12-06-2024/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hbf.co.uk/policy/campaigns-and-initiatives/nutrient-neutrality/",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Mitigation costs for developers have reportedly ranged from \u00a33,200 to \u00a360,500 per site.",
+        "sources": [
+          {
+            "url": "https://www.hbf.co.uk/policy/campaigns-and-initiatives/nutrient-neutrality/",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Critics' View:** Environmental groups strongly oppose the abolition, arguing it could be \"catastrophic for some of our most important freshwater spaces\" and would \"expose the UK's most sensitive river ecosystems to yet more pollution\".",
+        "sources": [
+          {
+            "url": "https://www.wcl.org.uk/nutrient-negativity-the-government-is-planning-to-weaken-legal-protection-for-rivers.asp",
+            "publisher": "wcl.org.uk",
+            "title": "wcl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Organisations like CIWEM, CPRE, RSPB, and Devon Wildlife Trust contend that nutrient neutrality rules are vital for protecting waterways from pollution caused by development.",
+        "sources": [
+          {
+            "url": "https://www.ciwem.org/the-environment/nutrient-neutrality-rules-are-an-opportunity-not-a-barrier",
+            "publisher": "ciwem.org",
+            "title": "ciwem.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cpre.org.uk/news/weakening-nutrient-neutrality-rules-damaging-and-regressive-we-say/",
+            "publisher": "cpre.org.uk",
+            "title": "cpre.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.devonwildlifetrust.org/blog/thewildlifetrusts/nutrient-neutrality-works-pollution-rules-dont-block-housebuilding",
+            "publisher": "devonwildlifetrust.org",
+            "title": "devonwildlifetrust.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rspb.org.uk/whats-happening/news/nutrient-neutrality",
+            "publisher": "rspb.org.uk",
+            "title": "rspb.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "They also argue that claims of a widespread \"housing moratorium\" are exaggerated, as mitigation schemes were already proving effective in enabling housebuilding while offsetting pollution.",
+        "sources": [
+          {
+            "url": "https://www.devonwildlifetrust.org/blog/thewildlifetrusts/nutrient-neutrality-works-pollution-rules-dont-block-housebuilding",
+            "publisher": "devonwildlifetrust.org",
+            "title": "devonwildlifetrust.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rspb.org.uk/whats-happening/news/nutrient-neutrality",
+            "publisher": "rspb.org.uk",
+            "title": "rspb.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The House of Lords rejected similar proposed amendments to the Habitats Regulations in September 2023.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9850/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Richard Benwell, suggests that developers' own delays in building out existing planning permissions have been a far bigger blocker on housing numbers.",
+        "sources": [
+          {
+            "url": "https://www.wcl.org.uk/nutrient-negativity-the-government-is-planning-to-weaken-legal-protection-for-rivers.asp",
+            "publisher": "wcl.org.uk",
+            "title": "wcl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The Conservative Party aims to deliver a record number of homes on urban brownfield land, providing a fast-track route through the planning system in the 20 largest cities.",
+        "sources": [
+          {
+            "url": "https://www.elmhurstenergy.co.uk/blog/2024/06/13/conservative-manifesto-2024/",
+            "publisher": "elmhurstenergy.co.uk",
+            "title": "elmhurstenergy.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/about/campaigns/general-election-hub/conservative-party-manifesto",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://realestateuk.org/our-work/conservative-manifesto-bpf-analysis/",
+            "publisher": "realestateuk.org",
+            "title": "realestateuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Potential Benefits:** Development on brownfield land is widely supported as it can regenerate communities, protect green spaces by reducing pressure on the Green Belt, and utilise existing infrastructure.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/permitted-development-rights-and-changes-to-the-use-classes-order/fast-track-planning-for-brownfield-regeneration-key-facts-brief",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cpre.org.uk/news/over-half-of-brownfield-sites-could-be-built-on-rapidly-report-shows/",
+            "publisher": "cpre.org.uk",
+            "title": "cpre.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.johnfhuntregeneration.co.uk/blog/uncovering-the-economic-potential-of-brownfield-redevelopment/",
+            "publisher": "johnfhuntregeneration.co.uk",
+            "title": "johnfhuntregeneration.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "CPRE research suggests there is enough brownfield land in England to build 1.4 million new homes, with over half of these sites already having some form of planning permission, which could facilitate quicker timelines compared to greenfield developments.",
+        "sources": [
+          {
+            "url": "https://www.cpre.org.uk/news/over-half-of-brownfield-sites-could-be-built-on-rapidly-report-shows/",
+            "publisher": "cpre.org.uk",
+            "title": "cpre.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.johnfhuntregeneration.co.uk/blog/uncovering-the-economic-potential-of-brownfield-redevelopment/",
+            "publisher": "johnfhuntregeneration.co.uk",
+            "title": "johnfhuntregeneration.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Brownfield regeneration could also generate over 1 million new jobs and boost local economies.",
+        "sources": [
+          {
+            "url": "https://www.johnfhuntregeneration.co.uk/blog/uncovering-the-economic-potential-of-brownfield-redevelopment/",
+            "publisher": "johnfhuntregeneration.co.uk",
+            "title": "johnfhuntregeneration.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Challenges:** Analysts point out that brownfield development is often more costly and difficult due to the need for remediation and existing infrastructure challenges.",
+        "sources": [
+          {
+            "url": "https://www.lgcplus.com/politics/governance-and-structure/conservative-manifesto-housing-plan-questionable-12-06-2024/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.savills.co.uk/research_articles/229130/388444-0",
+            "publisher": "savills.co.uk",
+            "title": "savills.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Savills analysis indicates that brownfield sites take longer to progress from planning permission to construction (8 months for brownfield versus 6 months for greenfield) and also take longer to complete (23 months versus 18 months for greenfield).",
+        "sources": [
+          {
+            "url": "https://www.savills.co.uk/research_articles/229130/388444-0",
+            "publisher": "savills.co.uk",
+            "title": "savills.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "An excessive focus on brownfield could lead to a slower rate of delivery and a higher \"attrition rate\" where homes granted consent fail to be built.",
+        "sources": [
+          {
+            "url": "https://www.savills.co.uk/research_articles/229130/388444-0",
+            "publisher": "savills.co.uk",
+            "title": "savills.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The policy proposes raising density levels in inner London to those of European cities like Paris and Barcelona, while protecting the Green Belt, and ensuring the London Plan delivers more family homes on brownfield sites.",
+        "sources": [
+          {
+            "url": "https://realestateuk.org/our-work/conservative-manifesto-bpf-analysis/",
+            "publisher": "realestateuk.org",
+            "title": "realestateuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Arguments for:** Urbanists and planners often advocate for increased density in cities for environmental and social sustainability, better utilisation of public transport, and reducing urban sprawl.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/lse-cities-density-homes/assets/documents/LSE-Density-Report-digital.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://interioreducators.co.uk/uploads/submitted-files/219.WA_.2023_01_.pdf",
+            "publisher": "interioreducators.co.uk",
+            "title": "interioreducators.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbre.co.uk/insights/articles/should-we-increase-housing-density",
+            "publisher": "cbre.co.uk",
+            "title": "cbre.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cprelondon.org.uk/news/10-reasons-higher-density-living-is-good-for-communities/",
+            "publisher": "cprelondon.org.uk",
+            "title": "cprelondon.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Higher density can also support a wider range of local shops and services, and reduce per capita costs for utilities.",
+        "sources": [
+          {
+            "url": "https://www.cprelondon.org.uk/news/10-reasons-higher-density-living-is-good-for-communities/",
+            "publisher": "cprelondon.org.uk",
+            "title": "cprelondon.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Concerns:** Raising density can strain existing infrastructure, including utilities, public transport, and schools.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/lse-cities-density-homes/assets/documents/LSE-Density-Report-digital.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://interioreducators.co.uk/uploads/submitted-files/219.WA_.2023_01_.pdf",
+            "publisher": "interioreducators.co.uk",
+            "title": "interioreducators.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbre.co.uk/insights/articles/should-we-increase-housing-density",
+            "publisher": "cbre.co.uk",
+            "title": "cbre.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "There are also concerns about the potential displacement of long-standing low-income communities through estate densification and the impact on quality of life if adequate public outdoor space and amenities are not provided.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/lse-cities-density-homes/assets/documents/LSE-Density-Report-digital.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.cbre.co.uk/insights/articles/should-we-increase-housing-density",
+            "publisher": "cbre.co.uk",
+            "title": "cbre.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Current Context:** The current London Plan, despite embracing density, saw its housing target scaled back from 66,000 homes per annum to 52,000 on the recommendation of planning inspectors.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/lse-cities-density-homes/assets/documents/LSE-Density-Report-digital.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The Conservatives plan to create locally-led urban development corporations in partnership with the private sector and institutional investors to unlock new urban regeneration schemes.",
+        "sources": [
+          {
+            "url": "https://realestateuk.org/our-work/conservative-manifesto-bpf-analysis/",
+            "publisher": "realestateuk.org",
+            "title": "realestateuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The London Docklands Development Corporation, for example, spurred 24,000 homes and 120,000 jobs.",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/research/dwharfing-the-city-the-next-generation-of-urban-development-corporations",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Milton Keynes Development Corporation delivered an average of 3,100 units per year between 1981 and 1997, at a time of declining national housebuilding.",
+        "sources": [
+          {
+            "url": "https://www.ukonward.com/wp-content/uploads/2024/08/Back-to-the-Future-Website.pdf",
+            "publisher": "ukonward.com",
+            "title": "ukonward.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "UDCs can streamline planning, overcome land assembly barriers through compulsory purchase powers, and coordinate infrastructure development.",
+        "sources": [
+          {
+            "url": "https://www.ukonward.com/wp-content/uploads/2024/08/Back-to-the-Future-Website.pdf",
+            "publisher": "ukonward.com",
+            "title": "ukonward.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNPU6-W8SOu4n9LM9nrVYZoo2tFMOO5fOkmLq4yJoZj6XY_1ekpsv3hfmocW4mEPh_c9aFlWLhcrro7TKHfhuY07HLSmTMZz8QM0A9kdV-fM7qqFPmwZK0FFZhpXyITLjTc6T8bxPlu3tDoDhF7t2AzwkW5k8a9JviJUyoG9oTO6rRBPZTJ0U3",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "wsp.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oaknorth.co.uk/blog/unlocking-growth-urban-development-and-the-future-of-uk-housing/",
+            "publisher": "oaknorth.co.uk",
+            "title": "oaknorth.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.adamsmith.org/research/dwharfing-the-city-the-next-generation-of-urban-development-corporations",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Challenges and Criticisms:** Critics in the past raised concerns about the \"undemocratic\" nature of UDCs.",
+        "sources": [
+          {
+            "url": "https://www.ukonward.com/wp-content/uploads/2024/08/Back-to-the-Future-Website.pdf",
+            "publisher": "ukonward.com",
+            "title": "ukonward.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "While modern models have evolved, ensuring local accountability and long-term stewardship of social infrastructure remains important.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNPU6-W8SOu4n9LM9nrVYZoo2tFMOO5fOkmLq4yJoZj6XY_1ekpsv3hfmocW4mEPh_c9aFlWLhcrro7TKHfhuY07HLSmTMZz8QM0A9kdV-fM7qqFPmwZK0FFZhpXyITLjTc6T8bxPlu3tDoDhF7t2AzwkW5k8a9JviJUyoG9oTO6rRBPZTJ0U3",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "wsp.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The policy proposes to permanently abolish Stamp Duty for first-time buyers on homes up to \u00a3425,000.",
+        "sources": [
+          {
+            "url": "https://campaigns.cavendishconsulting.com/hubfs/Conservative%20Manifesto%20Summary%202024.pdf",
+            "publisher": "campaigns.cavendishconsulting.com",
+            "title": "cavendishconsulting.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Currently, first-time buyers pay no Stamp Duty up to \u00a3425,000 and 5% on the portion from \u00a3425,001 to \u00a3625,000, a relief that was due to end in March 2025.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/home-truths/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Impact on Affordability and Transactions:** HMRC analysis of the 2017 Stamp Duty Land Tax (SDLT) relief for first-time buyers found that it increased transactions by 11% in the \u00a3125,001 to \u00a3300,000 band and 18% in the \u00a3300,001 to \u00a3500,000 band.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/evaluating-the-impact-of-the-2017-stamp-duty-land-tax-first-time-buyers-relief/evaluating-the-impact-of-the-2017-stamp-duty-land-tax-first-time-buyers-relief",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "However, it also led to a 1% increase in prices paid by first-time buyers in the \u00a3125,001 to \u00a3300,000 band, with no statistically significant impact on prices in the higher band.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/evaluating-the-impact-of-the-2017-stamp-duty-land-tax-first-time-buyers-relief/evaluating-the-impact-of-the-2017-stamp-duty-land-tax-first-time-buyers-relief",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The Office for Budget Responsibility (OBR) previously concluded that the majority of the value of such relief \"fed through to higher house prices\" and that it \"has not had a significant impact in terms of improving the affordability\" for first-time buyers, with most beneficiaries likely to have purchased property anyway.",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/a-new-tax-relief-for-first-time-buyers/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "The OBR also suggested a permanent relief would have a greater effect on prices than a temporary one.",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/a-new-tax-relief-for-first-time-buyers/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Resolution Foundation's View:** The Resolution Foundation notes that while a Stamp Duty cut could help in the short term by enabling more buyers, it's vital to address structural issues in housebuilding to avoid simply pushing up prices.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The existing Mortgage Guarantee Scheme would also continue.",
+        "sources": [
+          {
+            "url": "https://realestateuk.org/our-work/conservative-manifesto-bpf-analysis/",
+            "publisher": "realestateuk.org",
+            "title": "realestateuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Previous Scheme's Performance:** The previous Help to Buy: Equity Loan scheme, which closed in May 2023, supported 387,195 property purchases, with 328,346 by first-time buyers.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/help-to-buy-equity-loan-scheme-data-to-31-may-2023/help-to-buy-equity-loan-scheme-data-to-31-may-2023",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/home-truths/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "It aimed to increase home ownership and housing supply.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/3987/help-to-buy-equity-loan-scheme-progress-review-inquiry/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ipsos.com/en-uk/help-buy-its-impact-home-buyers",
+            "publisher": "ipsos.com",
+            "title": "ipsos.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "An Ipsos study found that 82% of consumers assisted by the scheme said they would not have been able to buy the same property without assistance.",
+        "sources": [
+          {
+            "url": "https://www.ipsos.com/en-uk/help-buy-its-impact-home-buyers",
+            "publisher": "ipsos.com",
+            "title": "ipsos.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   **Criticisms and Drawbacks:** Independent evaluations and reports, including from the National Audit Office (NAO), found that approximately three-fifths (around 65,000 households) of buyers using the scheme could have afforded to buy a home without government assistance.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/3987/help-to-buy-equity-loan-scheme-progress-review-inquiry/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "Shelter research estimated that the Help to Buy scheme added around \u00a38,250 to the average house price (a 3.0% increase), arguing that by increasing mortgage accessibility, the scheme pushed up prices, worsening overall affordability for others.",
+        "sources": [
+          {
+            "url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/examination/inspector-documents/ID5-how-much-help-is-help-to-buy.pdf",
+            "publisher": "kirklees.gov.uk",
+            "title": "kirklees.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "Cushman & Wakefield noted that the scheme's withdrawal impacted the delivery of new homes, particularly in areas that relied on it heavily.",
+        "sources": [
+          {
+            "url": "https://www.cushmanwakefield.com/en/united-kingdom/insights/help-to-buy-impact-on-the-housing-market",
+            "publisher": "cushmanwakefield.com",
+            "title": "cushmanwakefield.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "The Resolution Foundation cautions against repeating the \"negatives of the first scheme\" by not addressing supply issues across all tenures.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/money/conservatives-pledge-to-support-firsttime-buyers-and-build-1-6m-homes-b2560584.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

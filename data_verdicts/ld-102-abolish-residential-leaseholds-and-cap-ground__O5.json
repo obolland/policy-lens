@@ -1,0 +1,707 @@
+{
+  "policy_id": "ld-102-abolish-residential-leaseholds-and-cap-ground",
+  "party": "Liberal Democrat",
+  "policy_title": "Abolish Residential Leaseholds and Cap Ground Rents",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "Abolishing leaseholds and removing dangerous cladding are primarily property and housing safety reforms with only an indirect link to crime, justice and national security. The cladding removal addresses a physical safety risk to residents, but this is a building safety matter rather than a crime or justice outcome.",
+    "biggest_unknown": "Whether any residual effect on O5 \u2014 via reduced building fire safety risk \u2014 is material enough to move population-level safety indicators.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to removing dangerous cladding from all buildings and ensuring leaseholders do not pay for it.",
+        "evidence_id": "M",
+        "quote": "Remove dangerous cladding from all buildings, while ensuring that leaseholders do not have to pay a penny towards it."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Grenfell Tower tragedy exposed widespread fire safety defects including dangerous cladding, leaving thousands of residents in unsafe homes.",
+        "evidence_id": "E23",
+        "quote": "The Grenfell Tower tragedy exposed widespread fire safety defects, including dangerous cladding, leading to a crisis that has left thousands of residents in unsafe homes."
+      },
+      {
+        "tier": "measurable",
+        "claim": "90% of surveyed leaseholders affected by cladding issues reported deteriorated mental health, and 23% experienced suicidal feelings.",
+        "evidence_id": "E25",
+        "quote": "90% reported deteriorated mental health, and 23% experienced suicidal feelings."
+      }
+    ],
+    "rationale": "O5 covers crime rates, court backlogs, antisocial behaviour, national security and defence posture \u2014 the protective goods of safety, order, justice and security. Leasehold abolition and ground rent caps are property tenure reforms with no plausible direct mechanism for reducing crime, improving justice system functioning, or strengthening national security. The cladding removal element does address a real physical danger to residents in unsafe buildings \u2014 fire risk is a life-safety matter \u2014 but it is a building regulation and housing safety issue rather than a crime or justice outcome. There is no cited evidence linking leasehold reform or cladding remediation to crime rates, police capacity, court backlogs, or national security indicators. The mental health data (E25) and the fire safety crisis (E23) are genuine harms, but they fall under healthcare and housing safety rather than O5's indicators. Even treating fire safety as marginally adjacent to 'safe streets', the mechanism does not fire at population scale on O5's specific indicators. The verdict is therefore negligible, with low confidence because the indirect fire-safety angle is real but immaterial to O5 as defined.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.propertymark.co.uk/resource/new-regulation-shields-leaseholders-from-cladding-costs.html",
+        "publisher": "propertymark.co.uk",
+        "title": "propertymark.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ppp-online.org/view-all-volumes/understanding-the-impacts-of-the-uk-cladding-scandal-leaseholders-perspectives/",
+        "publisher": "ppp-online.org",
+        "title": "ppp-online.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0329,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict correctly scopes O5 and concludes negligible/minor with low confidence. The three claims are well-supported by their cited evidence. The mental health data (E25) comes from an advocacy survey (UKCAG) but is used only as illustrative context, not as the basis for the direction verdict, so source_support is not a concern. Direction is 'negligible' with magnitude 'minor' and time_horizon 'long-term' \u2014 the hard rule requires n/a only when direction is 'too-uncertain', which it is not here, so this combination is permissible. No party-blind, lever-leakage, or false-balance issues detected. The rationale is grounded in the absence of a plausible mechanism linking the policy to O5 indicators, which is a legitimate and evidence-consistent finding."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Abolishing residential leaseholds and capping ground rents to a nominal fee, so that everyone has control over their property. Remove dangerous cladding from all buildings, while ensuring that leaseholders do not have to pay a penny towards it.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Current Landscape and Proposed Changes:**\nApproximately 4.90 million dwellings in England, representing 20% of the housing stock, are leasehold, with 70% being flats and 30% houses.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/leasehold-dwellings-2024-to-2025/leasehold-dwellings-2024-to-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Leaseholders have historically faced issues such as high and opaque service charges, disproportionate costs for lease extensions or freehold purchases, and imbalanced dispute resolution mechanisms.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9915/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Existing legislation, the Leasehold Reform (Ground Rent) Act 2022, already eliminated ground rents for most new residential leasehold properties.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10653/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8047/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9236/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "It also removes the presumption that leaseholders pay their freeholder's legal costs when challenging poor practice.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10653/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9915/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH556JhHYAxGIw22sEweYkFNCTLOA34cTrcZ0C3fsyYmrXSixsZTEHV_B6hh75NsMkv_jvv2gBO37xOj40lrNlfpqr3N7Zb4Z03qrM8v6P7Vg5_psUqDtLr4GYCO_qtmthw3wfoU_hYBOd1vEDgkav5UOT0oeUHbmSX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This cap is projected to come into force in late 2028.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10653/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10477/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/698cb666bb6023ea0f7123d5/Policy_statement_on_ground_rents.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/uk-government-announces-ground-rent-cap-on-existing-leases",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.charlesrussellspeechlys.com/en/insights/expert-insights/real-estate/2026/commonhold-and-leasehold-reform-bill-where-are-we-now/",
+            "publisher": "charlesrussellspeechlys.com",
+            "title": "charlesrussellspeechlys.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The draft Bill also aims to establish commonhold as the default tenure for most new flats.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10653/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.charlesrussellspeechlys.com/en/insights/expert-insights/real-estate/2026/commonhold-and-leasehold-reform-bill-where-are-we-now/",
+            "publisher": "charlesrussellspeechlys.com",
+            "title": "charlesrussellspeechlys.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9elEIVzTLNrxVXfysarIFclY3LAD0t_zrxTCWC5HIWWYas28enMiYujh1aQB8VM8lFJ-hPitQMMoDyTnoNot-JVR97AqYijXO478ttN5Y8jTl7mPRrfJaVXh1oeWyB-B5EJdD-xOYQngmvEt545nGaUwJZR22CCpmGHQhMM-zWaojDlpyhpM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "jll.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **For Leaseholders:**\n    *   **Financial Savings:** The government estimates that capping ground rents at \u00a3250 and then reducing them to a peppercorn after 40 years could result in total savings of \u00a310.0 billion to \u00a312.7 billion for approximately 3.8 million leasehold properties across England and Wales over the lifetime of their leases.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10477/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/698cb666bb6023ea0f7123d5/Policy_statement_on_ground_rents.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "An estimated 770,000 to 900,000 leaseholders currently paying over \u00a3250 per year are expected to see immediate cuts, with nearly a million potentially benefiting once the cap is implemented.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/698cb666bb6023ea0f7123d5/Policy_statement_on_ground_rents.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JOrdMB3JjvU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Increased Control and Security:** Leaseholders will gain greater control over their property and the management of their buildings, including enhanced transparency over service charges and a stronger position in disputes.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9915/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JOrdMB3JjvU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/uk-land-and-property-whats-happening-with-freehold-and-leasehold-reform",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Property Value:** The reforms, particularly the removal of \"marriage value\" in lease extensions, are expected to make it cheaper to extend leases, potentially increasing the capital value of short leasehold properties.",
+        "sources": [
+          {
+            "url": "https://housingevidence.ac.uk/wp-content/uploads/2024/01/13091_CaCHE_Leasehold_Reform_Report-updated.pdf",
+            "publisher": "housingevidence.ac.uk",
+            "title": "housingevidence.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.leaseholdknowledge.com/losing-their-5m-judicial-review-against-the-leasehold-reforms-threatens-freeholders-long-era-of-primacy-so-whats-next/",
+            "publisher": "leaseholdknowledge.com",
+            "title": "leaseholdknowledge.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **For Freeholders and Investors:**\n    *   **Significant Financial Impact:** Freehold investors, including pension funds, face substantial reductions in their income streams from ground rents.",
+        "sources": [
+          {
+            "url": "https://todaysconveyancer.co.uk/industry-reacts-draft-commonhold-leasehold-reform-bill/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/uk-government-announces-ground-rent-cap-on-existing-leases",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://todaysconveyancer.co.uk/investors-warn-30bn-compensation-bill-facing-next-government-new-poll-reveals-appetite-service-charge-regulation/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9elEIVzTLNrxVXfysarIFclY3LAD0t_zrxTCWC5HIWWYas28enMiYujh1aQB8VM8lFJ-hPitQMMoDyTnoNot-JVR97AqYijXO478ttN5Y8jTl7mPRrfJaVXh1oeWyB-B5EJdD-xOYQngmvEt545nGaUwJZR22CCpmGHQhMM-zWaojDlpyhpM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "jll.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.krestonreeves.com/news/what-impact-will-leasehold-reform-have-on-property-investors/",
+            "publisher": "krestonreeves.com",
+            "title": "krestonreeves.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The government estimates that leaseholders paid over \u00a3600 million in ground rents in the last year alone.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/698cb666bb6023ea0f7123d5/Policy_statement_on_ground_rents.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They anticipate legal challenges under Article 1 of Protocol 1 of the European Convention on Human Rights.",
+        "sources": [
+          {
+            "url": "https://www.hoganlovells.com/en/publications/uk-government-announces-ground-rent-cap-on-existing-leases",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://todaysconveyancer.co.uk/investors-warn-30bn-compensation-bill-facing-next-government-new-poll-reveals-appetite-service-charge-regulation/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Government's Rationale:** The government acknowledged the impact on freeholders, choosing a \u00a3250 cap initially rather than an immediate peppercorn rent to mitigate harm to pension funds and investors.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=JOrdMB3JjvU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/uk-government-announces-ground-rent-cap-on-existing-leases",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Judicial Review:** The High Court has, however, dismissed freeholders' claims that the LFRA 2024 violates their human rights, asserting that Parliament is entitled to address fundamental defects in the property ownership system, even if it entails costs for freeholders.",
+        "sources": [
+          {
+            "url": "https://www.leaseholdknowledge.com/losing-their-5m-judicial-review-against-the-leasehold-reforms-threatens-freeholders-long-era-of-primacy-so-whats-next/",
+            "publisher": "leaseholdknowledge.com",
+            "title": "leaseholdknowledge.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **For the Housing Market:**\n    *   **Valuation Uncertainty:** The removal of \"marriage value\" in lease extensions, while beneficial for leaseholders, may create uncertainty for lenders and valuations, particularly for short lease properties.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9elEIVzTLNrxVXfysarIFclY3LAD0t_zrxTCWC5HIWWYas28enMiYujh1aQB8VM8lFJ-hPitQMMoDyTnoNot-JVR97AqYijXO478ttN5Y8jTl7mPRrfJaVXh1oeWyB-B5EJdD-xOYQngmvEt545nGaUwJZR22CCpmGHQhMM-zWaojDlpyhpM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "jll.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Shift to Commonhold:** The move towards commonhold as a default tenure for new flats could make these developments more attractive due to increased owner control and transparency.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9elEIVzTLNrxVXfysarIFclY3LAD0t_zrxTCWC5HIWWYas28enMiYujh1aQB8VM8lFJ-hPitQMMoDyTnoNot-JVR97AqYijXO478ttN5Y8jTl7mPRrfJaVXh1oeWyB-B5EJdD-xOYQngmvEt545nGaUwJZR22CCpmGHQhMM-zWaojDlpyhpM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "jll.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Expert Disagreement:**\nWhile the government hails the reforms as a \"game-changing shake up\"",
+        "sources": [
+          {
+            "url": "https://todaysconveyancer.co.uk/industry-reacts-draft-commonhold-leasehold-reform-bill/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": ", some housing market experts remain \"sceptical\" that the draft Bill will fundamentally transform the leasehold landscape.",
+        "sources": [
+          {
+            "url": "https://todaysconveyancer.co.uk/industry-reacts-draft-commonhold-leasehold-reform-bill/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Law Society of England and Wales has welcomed the clarity but indicated it will carefully scrutinise the detailed provisions.",
+        "sources": [
+          {
+            "url": "https://todaysconveyancer.co.uk/industry-reacts-draft-commonhold-leasehold-reform-bill/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The House of Commons Library notes the historical difficulty in enforcing previous leasehold legislation.",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/uk-land-and-property-whats-happening-with-freehold-and-leasehold-reform",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Residential Freehold Association points to public polling suggesting greater public concern over service charges than ground rents, questioning the focus of the current ground rent cap.",
+        "sources": [
+          {
+            "url": "https://todaysconveyancer.co.uk/investors-warn-30bn-compensation-bill-facing-next-government-new-poll-reveals-appetite-service-charge-regulation/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "**Scale of the Problem and Policy Interventions:**\nThe Grenfell Tower tragedy exposed widespread fire safety defects, including dangerous cladding, leading to a crisis that has left thousands of residents in unsafe homes.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/new-regulation-shields-leaseholders-from-cladding-costs.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ppp-online.org/view-all-volumes/understanding-the-impacts-of-the-uk-cladding-scandal-leaseholders-perspectives/",
+            "publisher": "ppp-online.org",
+            "title": "ppp-online.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Leaseholders faced immense financial burdens, including costs for \"waking watches\" that could reach \u00a315,000 per week for a single building.",
+        "sources": [
+          {
+            "url": "https://www.lvproperty.co.uk/blog/leaseholders-no-longer-have-to-pay-4bn-to-fix-unsafe-cladding/",
+            "publisher": "lvproperty.co.uk",
+            "title": "lvproperty.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "This crisis significantly impacted leaseholders' mental health, with a 2020 survey by the UK Cladding Action Group (UKCAG) finding that 90% reported deteriorated mental health, and 23% experienced suicidal feelings.",
+        "sources": [
+          {
+            "url": "https://ppp-online.org/view-all-volumes/understanding-the-impacts-of-the-uk-cladding-scandal-leaseholders-perspectives/",
+            "publisher": "ppp-online.org",
+            "title": "ppp-online.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The government has committed to protecting qualifying leaseholders from these costs.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/how-will-cladding-costs-be-paid-for",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/publications/supporting-residents-who-have-been-affected-cladding-and-other-building-safety-issues",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Key measures include:\n*   **Public Funding:** \u00a35.1 billion in public funding, including \u00a34.5 billion from the Building Safety Fund, has been allocated for the removal and replacement of unsafe cladding systems on high-rise residential buildings (over 18 metres).",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/how-will-cladding-costs-be-paid-for",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Developer Agreements:** 55 of the largest developers have signed legally binding contracts to remediate life-critical fire safety defects in buildings they developed over the past 30 years.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/how-will-cladding-costs-be-paid-for",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Cladding Safety Scheme:** For buildings between 11 and 18 metres, the Cladding Safety Scheme (formerly the Medium-Rise Scheme) will cover costs where developers cannot be identified or held responsible.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/how-will-cladding-costs-be-paid-for",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.simmons-simmons.com/en/features/cladding/cktmz15d520i30a61i8mgzx6c/government-guidance",
+            "publisher": "simmons-simmons.com",
+            "title": "simmons-simmons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "An estimated \u00a34 billion fund was announced in January 2022 to address cladding issues in 11-18m buildings.",
+        "sources": [
+          {
+            "url": "https://www.lvproperty.co.uk/blog/leaseholders-no-longer-have-to-pay-4bn-to-fix-unsafe-cladding/",
+            "publisher": "lvproperty.co.uk",
+            "title": "lvproperty.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Building Safety Levy:** A new Building Safety Levy, effective from October 1, 2026, is projected to raise \u00a33.4 billion over ten years from developers of new residential buildings to contribute to remediation costs.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/new-regulation-shields-leaseholders-from-cladding-costs.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Legal Protections:** A significant Court of Appeal ruling confirmed that building owners and developers cannot recover fire safety remediation costs from leaseholders for defects identified before the Building Safety Act 2022 came into force.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/new-regulation-shields-leaseholders-from-cladding-costs.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **For Leaseholders:** Qualifying leaseholders (those living in their own homes with no more than three UK properties) are legally protected from all cladding remediation costs.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/how-will-cladding-costs-be-paid-for",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/publications/supporting-residents-who-have-been-affected-cladding-and-other-building-safety-issues",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Additionally, qualifying leaseholders in properties valued under \u00a3325,000 in Greater London and \u00a3175,000 elsewhere are protected from costs associated with non-cladding defects and interim measures.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/publications/supporting-residents-who-have-been-affected-cladding-and-other-building-safety-issues",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **For Public Finances and Developers:** The policy involves substantial public expenditure (\u00a35.1 billion committed).",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/how-will-cladding-costs-be-paid-for",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "The Building Safety Levy will partially offset this by raising \u00a33.4 billion from developers over a decade.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/new-regulation-shields-leaseholders-from-cladding-costs.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Health Foundation:** The Health Foundation, while not directly analyzing this specific policy, emphasizes that poor housing conditions cost the NHS an estimated \u00a31.4 billion per year and are a critical determinant of health and inequalities.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/144861/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGakSQqUVVjNj_89deeiYjdi_Kv_tXncbdj817FyLQdh_qDims59Dj0zwdD8Yq_mUFgdTGM0iIDqIoRntAibZ1GKIfh2C6pj2eU4zhF1zwXYtAINKlI-K1itpdhfM0gb2dRID_bICHEaB-SNkxZaZF5p3tvn-_gdwnuF47Te401piD_sjmrjG--r3w",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The widespread mental health crisis among leaseholders due to cladding issues further underscores the public health imperative of these remediation efforts.",
+        "sources": [
+          {
+            "url": "https://ppp-online.org/view-all-volumes/understanding-the-impacts-of-the-uk-cladding-scandal-leaseholders-perspectives/",
+            "publisher": "ppp-online.org",
+            "title": "ppp-online.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "However, bodies like Propertymark advocate for continued review of the Building Safety Levy's revenue targets to ensure they align with actual remediation needs.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/new-regulation-shields-leaseholders-from-cladding-costs.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

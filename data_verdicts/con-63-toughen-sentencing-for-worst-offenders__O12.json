@@ -1,0 +1,664 @@
+{
+  "policy_id": "con-63-toughen-sentencing-for-worst-offenders",
+  "party": "Conservative",
+  "policy_title": "Toughen Sentencing for Worst Offenders",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Tougher sentences will increase the prison population and add significant costs to the Exchequer, with no funding source stated in the policy. The prison estate is already overcrowded and expansion is running billions over budget.",
+    "biggest_unknown": "How many additional prisoners would actually result \u2014 the incremental population from the specific categories targeted is not quantified, so the net fiscal impact is uncertain in scale but clearly in the worsening direction.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to mandatory life without parole for more murderers, full sentences for rapists/sexual offenders, and tougher sentences for knife crime, grooming gangs, and retail assaults.",
+        "evidence_id": "M",
+        "quote": "making life imprisonment without parole mandatory for more heinous murderers and requiring rapists and serious sexual offenders to serve their full sentences in prison. They will also toughen sentences for knife crime, grooming gangs, and assaults against retail workers"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Sexual offenders currently serve half their custodial sentence, so requiring full sentences would roughly double their time in prison.",
+        "evidence_id": "E5",
+        "quote": "individuals convicted of sexual offenses, including rape, typically serve half of their custodial sentence in prison and the remainder on licence in the community"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The prison population in England and Wales has already risen 93% over 30 years and is forecast to grow by a further 17,000 by 2026.",
+        "evidence_id": "E6",
+        "quote": "The prison population in England and Wales has already risen by 93% over the last 30 years and is forecast to increase by another 17,000 people by 2026"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Prisons are already overcrowded by approximately 7,500 people against the Ministry of Justice's own safety and decency standard.",
+        "evidence_id": "E28",
+        "quote": "The Ministry of Justice's own definition of safety and decency indicated an overcrowding issue of approximately 7,500 people in England and Wales prisons"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Even with existing expansion plans, there is a projected shortage of 12,400 prison places by end of 2027.",
+        "evidence_id": "E9",
+        "quote": "there is a projected shortage of 12,400 prison places by the end of 2027"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The average annual cost of a prison place is \u00a353,801, up 5.3% in one year.",
+        "evidence_id": "E7",
+        "quote": "The average annual cost of a prison place was \u00a353,801 in 2025, a 5.3% increase in one year"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Prison expansion plans to deliver 20,000 new places by 2030 are projected to cost \u00a39.4\u201310.1 billion, at least \u00a34.2 billion over previous estimates.",
+        "evidence_id": "E8",
+        "quote": "prison expansion plans (to deliver 20,000 new places by 2030) are projected to cost between \u00a39.4 billion and \u00a310.1 billion, which is at least \u00a34.2 billion over previous estimates"
+      }
+    ],
+    "rationale": "This policy unambiguously increases the prison population across multiple offence categories. Requiring sexual offenders to serve full rather than half sentences doubles their custodial time; mandatory whole-life orders add permanent population; and tougher sentences across knife crime, grooming, and retail assault add further pressure. The policy text contains no funding commitment, no cost estimate, and no offset mechanism \u2014 it is entirely unfunded on the evidence provided. Against a baseline of severe overcrowding (7,500 over MoJ's own safety standard), a projected shortfall of 12,400 places by 2027, and expansion plans already \u00a34.2bn over budget, each additional prisoner costs over \u00a353,800 per year. The marginal fiscal cost is therefore real and material, falling on the Exchequer with no identified revenue source. This is the classic pattern of unfunded spending that worsens the debt path \u2014 not borrowing for productive investment, but borrowing (or squeezing other budgets) to fund higher ongoing consumption expenditure (incarceration). The magnitude is assessed as moderate rather than major because the specific incremental population is not quantified in the evidence \u2014 whole-life orders currently number only 68 \u2014 but the directional effect is clear. Confidence is moderate because the evidence on costs and prison capacity is strong, but the exact prisoner-count uplift from the policy is uncertain.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://criminalinjurieshelpline.co.uk/blog/punishment-sentencing-sexual-assault/",
+        "publisher": "criminalinjurieshelpline.co.uk",
+        "title": "criminalinjurieshelpline.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://clinks.org/community/blog-posts/what-parties-said-about-sentencing-and-what-impact-their-plans-could-have",
+        "publisher": "clinks.org",
+        "title": "clinks.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nao.org.uk/press-releases/prison-expansion-plan-was-unrealistic-and-not-prioritised-nao/",
+        "publisher": "nao.org.uk",
+        "title": "nao.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.nacro.org.uk/news/nacro-responds-to-new-data-on-the-rising-costs-of-prisons-in-england-and-wales/",
+        "publisher": "nacro.org.uk",
+        "title": "nacro.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0451,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "E9 ('projected shortage of 12,400 prison places by end of 2027') is a government/NAO projection but is classified as 'measurable'. It should be 'projected'. Similarly E6's forecast of 17,000 additional people by 2026 is a projection embedded in a measurable claim."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "The claim that requiring full sentences 'would roughly double their time in prison' (in the plain/rationale) is a reasonable inference from E5 but overstates it slightly \u2014 sentences vary and licence conditions differ; the quote only establishes the half-sentence baseline, not that doubling follows uniformly. Not blocking as the directional inference is sound."
+        }
+      ],
+      "notes": "The verdict is well-constructed and directionally robust. The core fiscal logic \u2014 unfunded policy adding prison population against an already-strained, over-budget estate \u2014 is well-evidenced by NAO (E8, E9) and cost data (E7). The rationale correctly notes the incremental prisoner count is unquantified and moderates magnitude accordingly. No party identity or motive-attribution language detected. The tier misclassification of projected figures as measurable is a warning-level issue but does not undermine the direction or magnitude. Publication can proceed with the tier corrections applied."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will toughen sentencing for the worst offenders, making life imprisonment without parole mandatory for more heinous murderers and requiring rapists and serious sexual offenders to serve their full sentences in prison. They will also toughen sentences for knife crime, grooming gangs, and assaults against retail workers.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Mandatory Life Imprisonment Without Parole for More Heinous Murderers**\n*   **Policy Detail:** The Conservative Party intends to make life imprisonment without parole mandatory for more heinous murderers",
+        "sources": [
+          {
+            "url": "https://clinks.org/community/blog-posts/what-parties-said-about-sentencing-and-what-impact-their-plans-could-have",
+            "publisher": "clinks.org",
+            "title": "clinks.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.changing-lives.org.uk/insights/understanding-party-positions-on-criminal-justice",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "\"Whole life orders,\" which mean no possibility of parole, are currently reserved for the most exceptionally serious cases, such as aggravated murder, and are rarely imposed",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Life_imprisonment_in_England_and_Wales",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.quora.com/Why-do-British-courts-give-lenient-sentences-to-murderers-10-20-30-years-Why-not-life-imprisonment-This-makes-my-blood-boil-And-Im-not-even-related-to-the-victims",
+            "publisher": "quora.com",
+            "title": "quora.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn03626/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://theappeal.org/life-sentences-and-draconian-power-in-the-united-kingdom/",
+            "publisher": "theappeal.org",
+            "title": "theappeal.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The UK's use of whole life orders is significantly lower than in countries like the US, with only 68 people serving such sentences in England and Wales in 2018",
+        "sources": [
+          {
+            "url": "https://theappeal.org/life-sentences-and-draconian-power-in-the-united-kingdom/",
+            "publisher": "theappeal.org",
+            "title": "theappeal.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Rapists and Serious Sexual Offenders to Serve Full Sentences**\n*   **Policy Detail:** The policy proposes that rapists and serious sexual offenders will be required to serve their full sentences in prison",
+        "sources": [
+          {
+            "url": "https://clinks.org/community/blog-posts/what-parties-said-about-sentencing-and-what-impact-their-plans-could-have",
+            "publisher": "clinks.org",
+            "title": "clinks.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thejusticegap.com/analysis-labour-and-the-conservatives-set-out-their-plans-to-fix-a-crumbling-criminal-justice-system/",
+            "publisher": "thejusticegap.com",
+            "title": "thejusticegap.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.changing-lives.org.uk/insights/understanding-party-positions-on-criminal-justice",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Currently, individuals convicted of sexual offenses, including rape, typically serve half of their custodial sentence in prison and the remainder on licence in the community",
+        "sources": [
+          {
+            "url": "https://criminalinjurieshelpline.co.uk/blog/punishment-sentencing-sexual-assault/",
+            "publisher": "criminalinjurieshelpline.co.uk",
+            "title": "criminalinjurieshelpline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The prison population in England and Wales has already risen by 93% over the last 30 years and is forecast to increase by another 17,000 people by 2026",
+        "sources": [
+          {
+            "url": "https://clinks.org/community/blog-posts/what-parties-said-about-sentencing-and-what-impact-their-plans-could-have",
+            "publisher": "clinks.org",
+            "title": "clinks.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Cost Implications:** The average annual cost of a prison place was \u00a353,801 in 2025, a 5.3% increase in one year",
+        "sources": [
+          {
+            "url": "https://www.nacro.org.uk/news/nacro-responds-to-new-data-on-the-rising-costs-of-prisons-in-england-and-wales/",
+            "publisher": "nacro.org.uk",
+            "title": "nacro.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The National Audit Office (NAO) found that prison expansion plans (to deliver 20,000 new places by 2030) are projected to cost between \u00a39.4 billion and \u00a310.1 billion, which is at least \u00a34.2 billion over previous estimates",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/prison-expansion-plan-was-unrealistic-and-not-prioritised-nao/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Even with these plans, there is a projected shortage of 12,400 prison places by the end of 2027",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/prison-expansion-plan-was-unrealistic-and-not-prioritised-nao/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Rehabilitation:** The Bar Council argues that despite increased sentences for sexual offenses, their prevalence has not significantly changed, suggesting that longer sentences alone may not act as a deterrent",
+        "sources": [
+          {
+            "url": "https://www.barcouncil.org.uk/resource/barristers-call-for-radical-rethink-on-tough-sentencing.html",
+            "publisher": "barcouncil.org.uk",
+            "title": "barcouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The government has previously increased sentencing for those caught carrying knives, including a minimum six-month custodial sentence for repeat offenders",
+        "sources": [
+          {
+            "url": "https://knifecrimematters.org/rising-tide-of-knife-crime-in-the-uk/",
+            "publisher": "knifecrimematters.org",
+            "title": "knifecrimematters.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Real-world Effects & Analysis:**\n    *   **Past Trends:** The average prison sentence for knife offenders rose by 47% over a decade (from five months to eight months) according to a 2019 report",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/knife-crime-rise-increase-prison-sentences-young-people-children-justice-a8956946.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The proportion of knife offenders immediately jailed also increased from 22% to 37% in the same period",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/knife-crime-rise-increase-prison-sentences-young-people-children-justice-a8956946.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The ONS reported 49,489 knife-related offenses in England and Wales in the year ending March 2023, a 7% increase from the previous year",
+        "sources": [
+          {
+            "url": "https://knifecrimematters.org/rising-tide-of-knife-crime-in-the-uk/",
+            "publisher": "knifecrimematters.org",
+            "title": "knifecrimematters.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, more recent ONS data for the year ending December 2025 shows a 10% decrease in offenses involving knives or sharp instruments compared to the previous year",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/latest",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Expert Disagreement:** Critics, including politicians and youth charities, argue that harsher sentences alone do not address the root causes of knife crime, such as poverty, social exclusion, and gang influence, and may not be effective in reducing violence, particularly among young people",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/knife-crime-rise-increase-prison-sentences-young-people-children-justice-a8956946.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://knifecrimematters.org/rising-tide-of-knife-crime-in-the-uk/",
+            "publisher": "knifecrimematters.org",
+            "title": "knifecrimematters.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fsb.ac.uk/lenient-knife-crime-sentences-encouraging-more-violence/",
+            "publisher": "fsb.ac.uk",
+            "title": "fsb.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The Fairfield School of Business highlights that while harsher sentences may seem like a logical deterrent, evidence suggests that poverty, social exclusion, and gang influence play a more significant role in driving youth violence",
+        "sources": [
+          {
+            "url": "https://fsb.ac.uk/lenient-knife-crime-sentences-encouraging-more-violence/",
+            "publisher": "fsb.ac.uk",
+            "title": "fsb.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Tougher Sentences for Grooming Gangs**\n*   **Policy Detail:** The policy will toughen sentences for grooming gangs, including making grooming an aggravating factor in sentencing for child sexual offenses",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/robert-jenrick-secretary-of-state-government-attorney-general-john-hayes-b2687712.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-07-08/debates/6698894C-CC86-4625-9A0E-4E3170B54268/GroomingGangsCriminalJusticeSystem",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/baroness-caseys-audit-of-group-based-child-sexual-exploitation-and-abuse",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Real-world Effects & Analysis:**\n    *   **Sentencing Severity:** There have been calls from figures like Robert Jenrick for full-life prison sentences for grooming gang offenders, arguing that current sentences, such as six to nine years in some cases, are \"disgracefully short\"",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/robert-jenrick-secretary-of-state-government-attorney-general-john-hayes-b2687712.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/robert-jenrick-secretary-of-state-government-attorney-general-john-hayes-b2687712.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1W4ahUpx0YU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Government Action:** The government has committed to a new national criminal operation against grooming gangs, treating them as serious and organised crime, and introducing aggravated offenses to ensure sentences match the severity of these crimes",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/speeches/baroness-caseys-audit-of-group-based-child-sexual-exploitation-and-abuse",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This aims to ensure that those who groom children, even for crimes committed decades ago, face appropriate penalties",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/speeches/baroness-caseys-audit-of-group-based-child-sexual-exploitation-and-abuse",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "This includes introducing a new standalone offense for assaulting a retail worker, which would carry a maximum prison sentence of six months, an unlimited fine, and a ban from the shop where the offense was committed",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/a-new-specific-offence-of-assaulting-a-shopworker/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/retail-crime-impact-on-workers-the-community-and-local-economies/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Real-world Effects & Analysis:**\n    *   **Prevalence of Crime:** The British Retail Consortium's 2024 Crime Survey reported 475,000 incidents of violence and abuse against shopworkers in 2022/23, a 50% increase from the previous year",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/a-new-specific-offence-of-assaulting-a-shopworker/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Violent incidents accounted for 41,000 of these, equivalent to over 100 incidents per day",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/a-new-specific-offence-of-assaulting-a-shopworker/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Expert Opinion:** Transform Justice argues that a new offense and increased maximum sentences for low-level assault will not deter attackers and may even increase reoffending, as short prison sentences (up to a year) are known to drive increased reoffending",
+        "sources": [
+          {
+            "url": "https://www.transformjustice.org.uk/news-insight/why-doubling-sentences-wont-reduce-shop-worker-assaults/",
+            "publisher": "transformjustice.org.uk",
+            "title": "transformjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Deputy Chair of the Police Federation, Tiffany Lynch, noted that tougher sentencing for assaulting emergency workers has not had a positive effect on reducing assaults",
+        "sources": [
+          {
+            "url": "https://www.transformjustice.org.uk/news-insight/why-doubling-sentences-wont-reduce-shop-worker-assaults/",
+            "publisher": "transformjustice.org.uk",
+            "title": "transformjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The House of Commons Library notes that a specific offense has been announced as part of the Criminal Justice Bill",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/a-new-specific-offence-of-assaulting-a-shopworker/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/retail-crime-impact-on-workers-the-community-and-local-economies/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Ministry of Justice's own definition of safety and decency indicated an overcrowding issue of approximately 7,500 people in England and Wales prisons",
+        "sources": [
+          {
+            "url": "https://clinks.org/community/blog-posts/what-parties-said-about-sentencing-and-what-impact-their-plans-could-have",
+            "publisher": "clinks.org",
+            "title": "clinks.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Critics**, including the Bar Council, Clinks, and Transform Justice, contend that focusing solely on punishment overlooks the root causes of crime, such as poverty, mental health issues, and social exclusion",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/knife-crime-rise-increase-prison-sentences-young-people-children-justice-a8956946.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://knifecrimematters.org/rising-tide-of-knife-crime-in-the-uk/",
+            "publisher": "knifecrimematters.org",
+            "title": "knifecrimematters.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.transformjustice.org.uk/news-insight/why-doubling-sentences-wont-reduce-shop-worker-assaults/",
+            "publisher": "transformjustice.org.uk",
+            "title": "transformjustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fsb.ac.uk/lenient-knife-crime-sentences-encouraging-more-violence/",
+            "publisher": "fsb.ac.uk",
+            "title": "fsb.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.theguardian.com/commentisfree/2022/feb/07/tories-tough-on-crime-death-prisons",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.barcouncil.org.uk/resource/barristers-call-for-radical-rethink-on-tough-sentencing.html",
+            "publisher": "barcouncil.org.uk",
+            "title": "barcouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They argue that increased sentences have not consistently led to a reduction in crime rates and that short prison sentences can be counterproductive, leading to higher reoffending rates compared to community sentences",
+        "sources": [
+          {
+            "url": "https://www.nacro.org.uk/news/nacro-responds-to-new-data-on-the-rising-costs-of-prisons-in-england-and-wales/",
+            "publisher": "nacro.org.uk",
+            "title": "nacro.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.barcouncil.org.uk/resource/barristers-call-for-radical-rethink-on-tough-sentencing.html",
+            "publisher": "barcouncil.org.uk",
+            "title": "barcouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Recent proposals by the Sentencing Council to consider personal characteristics in pre-sentence reports have sparked political debate, with some, like Robert Jenrick, raising concerns about \"blatant bias\" and a \"two-tier system\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10245/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.crimeandjustice.org.uk/political-row-over-sentencing-guidelines",
+            "publisher": "crimeandjustice.org.uk",
+            "title": "crimeandjustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/law/2025/mar/06/shabana-mahmood-sentencing-council-powers",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Alternatives:** Some experts suggest that resources would be better spent on preventative measures, addressing social problems, and investing in rehabilitation and effective community sentences, which are often more cost-effective and successful in reducing reoffending",
+        "sources": [
+          {
+            "url": "https://www.nacro.org.uk/news/nacro-responds-to-new-data-on-the-rising-costs-of-prisons-in-england-and-wales/",
+            "publisher": "nacro.org.uk",
+            "title": "nacro.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fsb.ac.uk/lenient-knife-crime-sentences-encouraging-more-violence/",
+            "publisher": "fsb.ac.uk",
+            "title": "fsb.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.theguardian.com/commentisfree/2022/feb/07/tories-tough-on-crime-death-prisons",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.barcouncil.org.uk/resource/barristers-call-for-radical-rethink-on-tough-sentencing.html",
+            "publisher": "barcouncil.org.uk",
+            "title": "barcouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

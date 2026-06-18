@@ -1,0 +1,767 @@
+{
+  "policy_id": "grn-02-reform-drug-laws-and-increase-public",
+  "party": "Green",
+  "policy_title": "Reform drug laws and increase public health funding",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Decriminalising personal drug possession directly removes criminal prosecution as a coercive tool against a personal bodily choice, expanding individual liberty. The main caveat is that the policy starts with a Commission to propose reform rather than immediate legislation, so the liberty gain depends on follow-through.",
+    "biggest_unknown": "Whether the National Commission's recommendations will be implemented as law, and on what timeline \u2014 without enacted legislation, the liberty improvement remains aspirational.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would decriminalise personal possession of drugs and divert individuals away from the criminal justice system.",
+        "evidence_id": "M",
+        "quote": "decriminalising personal possession of drugs, diverting individuals from the criminal justice system to health-focused support for addiction, housing, and employment"
+      },
+      {
+        "tier": "stated",
+        "claim": "The immediate step is establishing a Commission to propose reform, not direct legislative change.",
+        "evidence_id": "M",
+        "quote": "Establish a National Commission to propose evidence-based reform of UK drug laws"
+      },
+      {
+        "tier": "measurable",
+        "claim": "In 2016, over 1,300 people were in prison for cannabis-related offences, costing over \u00a350 million a year.",
+        "evidence_id": "E8",
+        "quote": "In 2016, there were 1,363 offenders in prison for cannabis-related offences in England and Wales, costing taxpayers over \u00a350 million a year"
+      },
+      {
+        "tier": "projected",
+        "claim": "Decriminalisation would reduce the number of people receiving convictions for drug possession, which can harm education and employment prospects.",
+        "evidence_id": "E7",
+        "quote": "The number of people receiving convictions for drug possession, which can harm education and employment prospects, would decrease"
+      },
+      {
+        "tier": "projected",
+        "claim": "A Home Office report found decriminalisation does not increase drug use prevalence.",
+        "evidence_id": "E27",
+        "quote": "A report found that decriminalisation of drug use does not affect the level of drug use prevalence, neither lowering nor increasing it"
+      },
+      {
+        "tier": "projected",
+        "claim": "Drug diversion schemes already operating in some forces result in significantly lower reoffending than prosecution.",
+        "evidence_id": "E1",
+        "quote": "police-led drug diversion schemes, which steer individuals away from criminal prosecution and into treatment, resulted in people being a third less likely to reoffend than those who were prosecuted for drug possession"
+      }
+    ],
+    "rationale": "O10 scores liberty improvements when state coercion over personal choices is withdrawn. This policy's core mechanism \u2014 decriminalising personal drug possession \u2014 is a direct reduction of coercive state power over individuals' bodily choices. Currently, people face criminal conviction and imprisonment for personal drug possession, as evidenced by over 1,300 people imprisoned for cannabis offences alone in 2016 (E8). Removing criminal prosecution for possession represents a clear expansion of personal liberty over one's body and choices.\n\nThe soft-verb concern is real: the policy begins with a National Commission to 'propose' reform, which is an aspirational instrument. However, the policy also states explicitly that it 'includes decriminalising personal possession' \u2014 this is a committed direction, not merely a review. The Commission is the delivery mechanism for the broader regulated-market goal; decriminalisation is stated as an included element.\n\nThe magnitude is moderate rather than major because: the regulated market element remains contingent on Commission recommendations and subsequent legislation; personal possession decriminalisation affects a subset of the population; and diversion schemes already exist in some areas (E2), meaning the marginal gain is real but not universal.\n\nA Home Office-commissioned report found decriminalisation does not increase drug use prevalence (E27), meaning the liberty gain is not offset by a projected harm spiral that might produce secondary coercive responses. The projected reduction in convictions (E7) further supports the direction \u2014 fewer people would face the coercive machinery of criminal prosecution for personal choices.\n\nConfidence is moderate because the Commission structure introduces genuine delivery uncertainty, and the full regulated-market ambition goes beyond what is committed in the stated text.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.vice.com/en/article/what-a-recreational-uk-drug-market-would-look-like/",
+        "publisher": "vice.com",
+        "title": "vice.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.drugsandalcohol.ie/25273/",
+        "publisher": "drugsandalcohol.ie",
+        "title": "drugsandalcohol.ie",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.citywide.ie/decriminalisation/impacts/drug-use.html",
+        "publisher": "citywide.ie",
+        "title": "citywide.ie",
+        "source_type": "media"
+      },
+      {
+        "url": "https://university.open.ac.uk/research-centres/herc/blog/decriminalising-drug-use-when-will-government-acknowledge-harm-our-current-laws-cause",
+        "publisher": "university.open.ac.uk",
+        "title": "open.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.theguardian.com/uk-news/2026/jun/13/drug-diversion-schemes-reoffending-rates-police",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0944,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 2,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are appropriate: stated claims quote directly from policy text, measurable claim (E8) is a concrete historical figure, projected claims are correctly labelled. The E27 claim is framed as 'projected' despite being a government report finding \u2014 this is borderline but acceptable given the contested nature of causal inference in drug policy. The E1 claim cites a 2026 Guardian article, which is future-dated relative to a typical pipeline run but is treated as a media source, not institutional; the claim is correctly tiered as 'projected'. No lever leakage \u2014 the verdict judges the liberty effect of removing criminal prosecution, not drug policy as a policy lever. No party identity or motive attribution in the rationale. The mixed/too-uncertain gate is not triggered. The soft-verb concern about the Commission is honestly addressed. Magnitude 'moderate' is justified given delivery uncertainty and partial existing coverage of diversion schemes. Overall verdict is coherent and evidence-grounded."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Establish a National Commission to propose evidence-based reform of UK drug laws, moving towards a legally regulated market that stops criminal supply and profiteering, and reduces harm. This includes decriminalising personal possession of drugs, diverting individuals from the criminal justice system to health-focused support for addiction, housing, and employment.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "A 2026 study by the University of Sheffield found that police-led drug diversion schemes, which steer individuals away from criminal prosecution and into treatment, resulted in people being a third less likely to reoffend than those who were prosecuted for drug possession",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jun/13/drug-diversion-schemes-reoffending-rates-police",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "These schemes are already in operation in some English police forces, including Durham, West Midlands, and Thames Valley",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jun/13/drug-diversion-schemes-reoffending-rates-police",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Savings:** Diversion would free up police time and resources, currently estimated at \u00a31.6 billion annually for policing the drug trade, which could be redirected to tackling more serious crimes or funding treatment",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO2fwzCq4RO7HVjl2MIheGhB4qX6Otd3Y0j0batpMleBXk6mRvVi601qC3A0zbzU9iQhTzkpLzWEjXZHH0i-tubT9TTOtxIkE3RfagT1ggAAQBoS2cbS_EqrYHzJcMhPwj6tIpPg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "kent.ac.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.drugsandalcohol.ie/25273/",
+            "publisher": "drugsandalcohol.ie",
+            "title": "drugsandalcohol.ie",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The House of Commons Health and Social Care Committee noted in 2019 that decriminalisation of possession for personal use saves money from the criminal justice system, which can then be more effectively invested in prevention and treatment",
+        "sources": [
+          {
+            "url": "https://idpc.net/publications/2019/10/report-by-the-commons-select-committee-on-drug-policy",
+            "publisher": "idpc.net",
+            "title": "idpc.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The overall socio-economic cost of drug-related crime in England and Wales was estimated at over \u00a313 billion in a 2007 analysis",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB2wuYsfEWAnN3voE13_n0a2eCXAfQIDgK_NzNI8HR6QSpIAwiKyCyp0J20adHsiSxXLd3E97OlBSms3nUO3snoz1bhsGmzAZ91FKd9Tzf65VwB3wimrA1ItHHHnkvFWayZJNYdbusHdRuvpKcUi-4UYYJIZUOsmY=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "kent.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": ", and a 2019 estimate put the direct cost of policing at \u00a35 billion a year, with drug-related crime costing society another \u00a311 billion",
+        "sources": [
+          {
+            "url": "https://transformdrugs.org/blog/a-lawyers-view-on-uk-drug-policy",
+            "publisher": "transformdrugs.org",
+            "title": "transformdrugs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Reduced Incarceration:** The number of people receiving convictions for drug possession, which can harm education and employment prospects, would decrease",
+        "sources": [
+          {
+            "url": "https://www.drugsandalcohol.ie/25273/",
+            "publisher": "drugsandalcohol.ie",
+            "title": "drugsandalcohol.ie",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "In 2016, there were 1,363 offenders in prison for cannabis-related offences in England and Wales, costing taxpayers over \u00a350 million a year",
+        "sources": [
+          {
+            "url": "https://www.vice.com/en/article/what-a-recreational-uk-drug-market-would-look-like/",
+            "publisher": "vice.com",
+            "title": "vice.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**Improved Public Health Outcomes:**\n    *   **Harm Reduction:** Shifting to a health-focused approach with increased funding for treatment and harm reduction services (such as needle exchange programmes, naloxone provision, and potentially drug consumption rooms and heroin-assisted treatment) is anticipated to reduce drug-related deaths and harms",
+        "sources": [
+          {
+            "url": "https://idpc.net/publications/2019/10/report-by-the-commons-select-committee-on-drug-policy",
+            "publisher": "idpc.net",
+            "title": "idpc.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.release.org.uk/sites/default/files/pdf/publications/Release%20Written%20Submission%20-%20Drugs%20Inquiry%202022.pdf",
+            "publisher": "release.org.uk",
+            "title": "release.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1SKONm3RJmwuHq7wnPJjpEGbOKUb2kw0n8dJlA3czyD-t9Rjqc7d6vevaq_9L7oiHdKdjo09_dokr0GC1_oJdwZ6KoN7_Pd4Q--w6xPyNvIN2D2difxHK1wYA7LNSbxvQmAhTulSgH6pDMFMFrED7sB_RYY0RnX2MpX2yMn6xr7LOTqokSKrbIqzowAbXkvde21RiUHtBjQlglqdZSrHNtjKmqX7yiro=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukdpc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Office for National Statistics (ONS) reported 5,448 deaths related to drug poisoning in England and Wales in 2023, the highest number since records began in 1993, marking an 11% increase from 2022",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0071/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Access to Treatment:** Decriminalisation can reduce stigma, which is a significant barrier preventing individuals from seeking necessary drug treatment",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO2fwzCq4RO7HVjl2MIheGhB4qX6Otd3Y0j0batpMleBXk6mRvVi601qC3A0zbzU9iQhTzkpLzWEjXZHH0i-tubT9TTOtxIkE3RfagT1ggAAQBoS2cbS_EqrYHzJcMhPwj6tIpPg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "kent.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Dame Carol Black's review highlighted that every pound spent on drug treatment saves \u00a32.50 in costs to society",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/studentviews-is-it-time-to-consider-decriminalising-drugs-in-the-uk",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Quality of Life:** Enhanced support for housing and employment would improve the social integration and overall well-being of individuals with drug problems, which is crucial given that deprivation is strongly correlated with problematic drug use",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/drugs-policy-levelling-up/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/studentviews-is-it-time-to-consider-decriminalising-drugs-in-the-uk",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The illicit drugs market in the UK is estimated to be worth \u00a39.4 billion annually",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0050/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": ", with criminal gangs generating billions and perpetuating violence",
+        "sources": [
+          {
+            "url": "https://transformdrugs.org/blog/a-lawyers-view-on-uk-drug-policy",
+            "publisher": "transformdrugs.org",
+            "title": "transformdrugs.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.drugsandalcohol.ie/25273/",
+            "publisher": "drugsandalcohol.ie",
+            "title": "drugsandalcohol.ie",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "A regulated market would undermine this criminal economy, potentially reducing associated violence, such as turf wars and knife crime",
+        "sources": [
+          {
+            "url": "https://transformdrugs.org/blog/a-lawyers-view-on-uk-drug-policy",
+            "publisher": "transformdrugs.org",
+            "title": "transformdrugs.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2012/oct/15/decriminalise-drug-use-say-experts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   A regulated market could also provide safe, quality-controlled products with clear dosing and age restrictions, unlike the unpredictable and often dangerous illicit supply",
+        "sources": [
+          {
+            "url": "https://www.vice.com/en/article/what-a-recreational-uk-drug-market-would-look-like/",
+            "publisher": "vice.com",
+            "title": "vice.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://transformdrugs.org/blog/a-lawyers-view-on-uk-drug-policy",
+            "publisher": "transformdrugs.org",
+            "title": "transformdrugs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "For example, some estimates suggest regulating and taxing cannabis could net the government between \u00a3500 million and \u00a31 billion a year",
+        "sources": [
+          {
+            "url": "https://www.vice.com/en/article/what-a-recreational-uk-drug-market-would-look-like/",
+            "publisher": "vice.com",
+            "title": "vice.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Addressing Inequalities:**\n    *   Current drug law enforcement disproportionately affects Black and other ethnic minority communities, who are more likely to be stopped, searched, arrested, and prosecuted for drug offences",
+        "sources": [
+          {
+            "url": "https://www.release.org.uk/sites/default/files/pdf/publications/Release%20Written%20Submission%20-%20Drugs%20Inquiry%202022.pdf",
+            "publisher": "release.org.uk",
+            "title": "release.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.unjust.org.uk/drugs-law",
+            "publisher": "unjust.org.uk",
+            "title": "unjust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Decriminalisation would help to mitigate these racial disparities",
+        "sources": [
+          {
+            "url": "https://www.release.org.uk/sites/default/files/pdf/publications/Release%20Written%20Submission%20-%20Drugs%20Inquiry%202022.pdf",
+            "publisher": "release.org.uk",
+            "title": "release.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO2fwzCq4RO7HVjl2MIheGhB4qX6Otd3Y0j0batpMleBXk6mRvVi601qC3A0zbzU9iQhTzkpLzWEjXZHH0i-tubT9TTOtxIkE3RfagT1ggAAQBoS2cbS_EqrYHzJcMhPwj6tIpPg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "kent.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Drug problems are heavily concentrated in deprived areas, and policies that focus on treatment and social support could help address these inequalities",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/drugs-policy-levelling-up/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Historically, the **UK Drug Policy Commission (UKDPC)**, an independent advisory body active from 2007 to 2012, advocated for evidence-based reform, including decriminalisation, arguing that existing drug policies were struggling and new challenges were emerging too quickly for traditional methods to be effective",
+        "sources": [
+          {
+            "url": "https://www.drugsandalcohol.ie/18580/",
+            "publisher": "drugsandalcohol.ie",
+            "title": "drugsandalcohol.ie",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvbiturLULzv6JK1MwfU_AEkuwx64VPVyZkgVs-SWhk5xkKBESNGxPxAwOJy0_5qlfcmcdjrhr7Ori3TEgyJ6jgS8D4VTHbuzoDvyYEhg8ep0HghY=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukdpc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2012/oct/15/decriminalise-drug-use-say-experts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Its 2012 report concluded that possession of small amounts of controlled drugs should no longer be a criminal offence",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2012/oct/15/decriminalise-drug-use-say-experts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**Decriminalisation and Public Health Focus:**\n*   **House of Commons Health and Social Care Committee (2019):** This committee explicitly recommended a \"radical change in UK drugs policy from a criminal justice to a health approach\" and suggested consulting on the decriminalisation of drug possession for personal use",
+        "sources": [
+          {
+            "url": "https://idpc.net/publications/2019/10/report-by-the-commons-select-committee-on-drug-policy",
+            "publisher": "idpc.net",
+            "title": "idpc.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm201919/cmselect/cmhealth/143/143.pdf",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They emphasised that decriminalisation must be part of a comprehensive approach including improved treatment, harm reduction, education, prevention, and social support",
+        "sources": [
+          {
+            "url": "https://idpc.net/publications/2019/10/report-by-the-commons-select-committee-on-drug-policy",
+            "publisher": "idpc.net",
+            "title": "idpc.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They also recommended moving responsibility for drugs policy from the Home Office to the Department of Health and Social Care",
+        "sources": [
+          {
+            "url": "https://idpc.net/publications/2019/10/report-by-the-commons-select-committee-on-drug-policy",
+            "publisher": "idpc.net",
+            "title": "idpc.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Home Office (2014):** A report found that decriminalisation of drug use does not affect the level of drug use prevalence, neither lowering nor increasing it",
+        "sources": [
+          {
+            "url": "https://www.citywide.ie/decriminalisation/impacts/drug-use.html",
+            "publisher": "citywide.ie",
+            "title": "citywide.ie",
+            "source_type": "media"
+          },
+          {
+            "url": "https://university.open.ac.uk/research-centres/herc/blog/decriminalising-drug-use-when-will-government-acknowledge-harm-our-current-laws-cause",
+            "publisher": "university.open.ac.uk",
+            "title": "open.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "In the year ending March 2025, 8.7% of people aged 16 to 59 in England and Wales reported using any drug in the last 12 months, and 3.3% reported using a Class A drug, with no statistically significant change from the previous year",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/drugmisuseinenglandandwales/yearendingmarch2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, drug poisoning deaths reached a record high of 5,448 in England and Wales in 2023",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0071/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Health Foundation:** Highlights the strong link between poor health and socioeconomic deprivation, noting that public health grant cuts have been greater in more deprived areas",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvanBs0hWkR3VQYTtRUxYET1mfxrRvZlBynnha_fCEPeSNc0FZ8WV6gQiqc2kScRzO4y4_59j4kteTzf25f6XAvlx16uMa0RvQ7hpvQT6T3negxbVvWam3Z3O_LvcnLq9Hi7Dtfhd92jHoqjBZwz73Rdq8fyxf9HRC-u6BF8kaKA7e9ilq7UGGXs3JVf5jvyY1mn0R9yBS",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "They report that public health funding for drug and alcohol services for adults saw a 25% real-terms per person cut between 2015/16 and 2019/20",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvanBs0hWkR3VQYTtRUxYET1mfxrRvZlBynnha_fCEPeSNc0FZ8WV6gQiqc2kScRzO4y4_59j4kteTzf25f6XAvlx16uMa0RvQ7hpvQT6T3negxbVvWam3Z3O_LvcnLq9Hi7Dtfhd92jHoqjBZwz73Rdq8fyxf9HRC-u6BF8kaKA7e9ilq7UGGXs3JVf5jvyY1mn0R9yBS",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "They estimate that restoring the public health grant to its 2015/16 real-terms per person value would require an additional \u00a31 billion in 2025/26",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvanBs0hWkR3VQYTtRUxYET1mfxrRvZlBynnha_fCEPeSNc0FZ8WV6gQiqc2kScRzO4y4_59j4kteTzf25f6XAvlx16uMa0RvQ7hpvQT6T3negxbVvWam3Z3O_LvcnLq9Hi7Dtfhd92jHoqjBZwz73Rdq8fyxf9HRC-u6BF8kaKA7e9ilq7UGGXs3JVf5jvyY1mn0R9yBS",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Resolution Foundation (indirectly via Economics Observatory):** An article referencing the Resolution Foundation notes that increasing poverty correlates with higher rates of addiction, suggesting that investing in social policies alongside drug reform would lead to better social outcomes",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/studentviews-is-it-time-to-consider-decriminalising-drugs-in-the-uk",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Dame Carol Black's Independent Review (2020-2021):** This review highlighted that the demand for opiates and crack/cocaine, and deaths from their misuse, is closely associated with poverty and deprivation",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/drugs-policy-levelling-up/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "It also found that only 3% of the \u00a319.3 billion annual cost of drug misuse is spent on treatment and prevention",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/studentviews-is-it-time-to-consider-decriminalising-drugs-in-the-uk",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "**Increased Public Health Funding:**\n*   **Department of Health and Social Care (DHSC):** Allocated an additional \u00a3310 million through the Drug and Alcohol Treatment and Recovery Improvement Grant (DATRIG) for 2025-2026 to local authorities, with \u00a358.7 million specifically designated for rough sleepers with drug and alcohol addiction",
+        "sources": [
+          {
+            "url": "https://wrdnews.org/drug-and-alcohol-treatment-and-recovery-funding-in-the-uk-for-2025-to-2026/",
+            "publisher": "wrdnews.org",
+            "title": "wrdnews.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/drug-and-alcohol-treatment-and-recovery-funding-2025-to-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.drugwise.org.uk/whats-the-government-doing-about-drugs/",
+            "publisher": "drugwise.org.uk",
+            "title": "drugwise.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "For the 2025-2026 financial year, over \u00a313.45 billion in public health grant funding includes \u00a33.4 billion ringfenced for drug and alcohol treatment and recovery",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-01-30/109840/",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **National Audit Office (NAO) and Public Accounts Committee:** Both bodies have reported \"mixed progress\" in implementing the government's current 10-year drug strategy (\"From harm to hope\") and noted that delays in allocating funding have hindered local authorities' ability to deliver services",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0071/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0050/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "However, this latter trend was also observed in other European countries without such reforms, suggesting it might not be directly attributable to decriminalisation",
+        "sources": [
+          {
+            "url": "https://www.citywide.ie/decriminalisation/impacts/drug-use.html",
+            "publisher": "citywide.ie",
+            "title": "citywide.ie",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Opponents often express concern that decriminalisation will lead to increased drug use",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/studentviews-is-it-time-to-consider-decriminalising-drugs-in-the-uk",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "The **UK Drug Policy Commission (2012)**, while advocating for decriminalisation, explicitly rejected more radical steps to legalise drugs like heroin or cocaine, arguing it could cause more damage than the existing illegal trade",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2012/oct/15/decriminalise-drug-use-say-experts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "In contrast, organisations like the **Transform Drug Policy Foundation** and the **Green Party** advocate for the legalisation and regulation of all drugs to minimise harms associated with their use, production, and supply",
+        "sources": [
+          {
+            "url": "https://www.redpepper.org.uk/society/health/how-the-left-can-support-drug-law-reform/",
+            "publisher": "redpepper.org.uk",
+            "title": "redpepper.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Drug_policy_of_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpartydrugpolicy.org.uk/",
+            "publisher": "greenpartydrugpolicy.org.uk",
+            "title": "greenpartydrugpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "They argue that even decriminalisation, while beneficial, does not fully address the harms caused by the illegal drug trade",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jun/13/drug-diversion-schemes-reoffending-rates-police",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO2fwzCq4RO7HVjl2MIheGhB4qX6Otd3Y0j0batpMleBXk6mRvVi601qC3A0zbzU9iQhTzkpLzWEjXZHH0i-tubT9TTOtxIkE3RfagT1ggAAQBoS2cbS_EqrYHzJcMhPwj6tIpPg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "kent.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "This underscores that supply-side interventions, without adequate investment in treatment and mental health support, can destabilise markets and lead to unintended, harmful side effects",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYzhvJJ00o-0yYPCkXExMtArKdstQLt2XHdcoq_3nQERN7iey0JWoW-PS-jL_FvNsyfGKK5ksELxo6BgAaI6_EistQcrVT5x8cmcTMdewB8Mrq0BFEpsfnznD7UJyKUgf7DCM56xYsok_spNZV9CbzV1EZwgaO--Bbd7DoU0J6pY6KBAGlei7IxBQ8JEAvpMoXKR5D",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

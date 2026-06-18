@@ -1,0 +1,706 @@
+{
+  "policy_id": "con-02-abolish-self-employed-national-insurance",
+  "party": "Conservative",
+  "policy_title": "Abolish Self-Employed National Insurance",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Abolishing self-employed National Insurance would remove roughly \u00a32.3 billion a year in tax revenue by 2028-29 with no identified replacement funding, worsening the public finances. The key uncertainty is whether the government would offset the cost through spending cuts or other tax rises.",
+    "biggest_unknown": "Whether and how the lost revenue (~\u00a32.3bn/yr) would be offset \u2014 if fully funded by other measures the verdict changes, but no such plan has been specified.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy pledges to abolish the main rate of self-employed National Insurance entirely by the end of the next Parliament.",
+        "evidence_id": "M",
+        "quote": "The Conservative Party pledges to abolish the main rate of self-employed National Insurance entirely by the end of the next Parliament"
+      },
+      {
+        "tier": "projected",
+        "claim": "Labour estimated that reducing self-employed NIC from 6% to 0% could cost \u00a32.28 billion in 2028/29.",
+        "evidence_id": "E13",
+        "quote": "reducing self-employed NIC from 6% to 0% could cost \u00a32.28 billion in the 2028/29 financial year"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The OBR certified that even the initial Class 2 abolition and 1p Class 4 cut cost around \u00a3725 million in 2024-25.",
+        "evidence_id": "E14",
+        "quote": "the initial Class 2 abolition alone would lead to foregone revenue of \u00a3380 million in 2024-25, rising to \u00a3370 million by 2028-29, and the 1p Class 4 cut would cost \u00a3345 million in 2024-25"
+      },
+      {
+        "tier": "measurable",
+        "claim": "NICs are the second-largest source of tax revenue in the UK, after income tax.",
+        "evidence_id": "E15",
+        "quote": "National Insurance Contributions (NICs) are the second-largest source of tax revenue in the UK, after income tax"
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics argue the cuts would necessitate either spending cuts or other tax rises, but no long-term funding plan has been detailed.",
+        "evidence_id": "E16",
+        "quote": "such significant tax cuts would necessitate either cuts in public spending or increases in other taxes to compensate for the lost revenue, although the government has not detailed how this would be funded in the long term"
+      },
+      {
+        "tier": "projected",
+        "claim": "Analysts raise concern about the long-term financial sustainability of abolishing this revenue stream without identified replacement funding.",
+        "evidence_id": "E31",
+        "quote": "The long-term financial sustainability of abolishing a significant revenue stream like self-employed NICs without clearly identified replacement funding is a point of concern for various commentators"
+      }
+    ],
+    "rationale": "The policy removes a material and rising stream of tax revenue \u2014 OBR-certified costs for the partial measures already implemented run to ~\u00a3725m/yr, and the Labour-cited estimate for full abolition is ~\u00a32.3bn/yr by 2028-29. NICs are the UK's second-largest tax revenue source, so removing a chunk without identified replacement funding directly worsens the debt path. No funding mechanism is stated in the policy text or in any provided evidence. The absence of a replacement means this is, on the evidence, an unfunded tax cut \u2014 which the O12 criteria explicitly treat symmetrically with unfunded spending as a sustainability risk. The magnitude is moderate: \u00a32.3bn/yr is real but not catastrophic relative to total receipts, and the reduction is phased over several years. The time horizon is this-parliament given the stated April 2029 completion date. Confidence is moderate because the cost estimate comes from a political opponent (Labour/PA Media) rather than an independent OBR costing of the full policy \u2014 a full OBR score could revise the figure. If a credible offsetting funding plan were identified, the verdict would shift toward negligible or mixed; as it stands, the evidence supports a worsens direction.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://pa.media/blogs/fact-check/a-potential-abolition-of-national-insurance-for-workers-would-not-come-for-years/",
+        "publisher": "pa.media",
+        "title": "pa.media",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/changes-to-national-insurance-contributions-from-6-january-2024/a-reduction-in-the-main-rates-of-primary-class-1-and-class-4-national-insurance-contributions-and-the-removal-of-the-requirement-to-pay-class-2-nation",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/money/2024/mar/07/national-insurance-contributions-scrapped-payments",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ajbell.co.uk/group/news/what-would-abolishing-employee-national-insurance-mean-state-pension",
+        "publisher": "ajbell.co.uk",
+        "title": "ajbell.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0383,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "The \u00a32.28bn cost estimate (E13/claim 2) comes from a Labour Party estimate via PA Media, not an independent OBR costing of the full policy. The verdict acknowledges this but still uses it as the headline figure for magnitude. This is acceptable given no independent full-policy costing exists, but the advocacy-source caveat should remain prominent."
+        },
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "Claim 3 labels OBR-certified foregone revenue figures as 'measurable'. These are OBR projections/certifications of policy costs, not observed outturns \u2014 they are closer to 'projected'. Not blocking given OBR's quasi-official status, but worth flagging."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Direction (worsens) is well-supported: the policy is explicitly unfunded per the evidence, and O12 criteria treat unfunded tax cuts symmetrically with unfunded spending. The rationale is transparent about the Labour-source limitation on the cost estimate. No lever leakage, no party-blind issues, no false balance \u2014 the worsens direction is genuinely one-sided given absence of any funding plan in the evidence."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party pledges to abolish the main rate of self-employed National Insurance entirely by the end of the next Parliament, building on the abolition of Class 2 contributions from April this year.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy aims to reduce the tax burden on self-employed individuals and simplify the tax system.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/mar/07/national-insurance-contributions-scrapped-payments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/national-insurance-explainer-Jun24",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Self-employed individuals with profits below \u00a36,845 can still choose to pay voluntary Class 2 contributions (\u00a33.50 per week for 2025/26) to maintain their National Insurance record for state pension and other contributory benefits.",
+        "sources": [
+          {
+            "url": "https://truemanbrown.co.uk/national-insurance-on-self-employed-2025-26/",
+            "publisher": "truemanbrown.co.uk",
+            "title": "truemanbrown.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://makesworth.co.uk/national-insurance-contributions-nic-payable-by-the-self-employed-from-april-2024/",
+            "publisher": "makesworth.co.uk",
+            "title": "makesworth.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSOkp5mgNQXpr9qK0OkDv3OSj37tjqkI9P4p0FmWv-XfliDDfp5E97pcRc2g0480trBTIHnYSNhqVAK3Zzg8rFxFvwxu-XNRheLekbBecOU781ecD65_XdsaB70SW-_xGO8T9-DeDr76kqokjsLSRY03AlRVEqgwUAv3zlecAMQULr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bishopfleming.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.att.org.uk/technical/news/class-2-national-insurance-whats-changing-april-2024",
+            "publisher": "att.org.uk",
+            "title": "att.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.crunch.co.uk/knowledge/article/self-employed-national-insurance-explained",
+            "publisher": "crunch.co.uk",
+            "title": "crunch.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rtaccountants.co.uk/what-changes-to-national-insurance-mean-for-self-employment/",
+            "publisher": "rtaccountants.co.uk",
+            "title": "rtaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/autumn-statement-2023-national-insurance-factsheet/autumn-statement-2023-national-insurance-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This applies to profits between \u00a312,570 and \u00a350,270, with a 2% rate on profits above \u00a350,270.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSOkp5mgNQXpr9qK0OkDv3OSj37tjqkI9P4p0FmWv-XfliDDfp5E97pcRc2g0480trBTIHnYSNhqVAK3Zzg8rFxFvwxu-XNRheLekbBecOU781ecD65_XdsaB70SW-_xGO8T9-DeDr76kqokjsLSRY03AlRVEqgwUAv3zlecAMQULr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bishopfleming.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rtaccountants.co.uk/what-changes-to-national-insurance-mean-for-self-employment/",
+            "publisher": "rtaccountants.co.uk",
+            "title": "rtaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/changes-to-national-insurance-contributions-from-6-january-2024/a-reduction-in-the-main-rates-of-primary-class-1-and-class-4-national-insurance-contributions-and-the-removal-of-the-requirement-to-pay-class-2-nation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/autumn-statement-2023-national-insurance-factsheet/autumn-statement-2023-national-insurance-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The proposed timeline for these cuts is:\n*   **5%** in April 2025.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **4%** in April 2026.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **3%** in April 2027.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **2%** in April 2028, before being abolished entirely in April 2029.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This builds upon the Class 2 abolition and the initial Class 4 rate cut already implemented.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "An average self-employed person earning \u00a328,000 is projected to save over \u00a31,500 a year by April 2029 when combining this with previous tax cuts.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The government stated that the initial Class 4 cut and Class 2 abolition in 2024-25 saved an average self-employed person on \u00a328,200 around \u00a3350.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/changes-to-national-insurance-contributions-from-6-january-2024/a-reduction-in-the-main-rates-of-primary-class-1-and-class-4-national-insurance-contributions-and-the-removal-of-the-requirement-to-pay-class-2-nation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/autumn-statement-2023-national-insurance-factsheet/autumn-statement-2023-national-insurance-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Broad Benefit:** The Conservative Party anticipates that the full abolition of the main rate of Class 4 NICs will benefit approximately 4 million self-employed people, effectively taking 93% of self-employed individuals out of paying Class 4 NICs.",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/national-insurance-explainer-Jun24",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Self-employed individuals with profits below the Lower Profits Limit (e.g., \u00a312,570 for 2025/26) already do not pay Class 4 NICs, so they would not directly benefit from its abolition.",
+        "sources": [
+          {
+            "url": "https://truemanbrown.co.uk/national-insurance-on-self-employed-2025-26/",
+            "publisher": "truemanbrown.co.uk",
+            "title": "truemanbrown.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/national-insurance-explainer-Jun24",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Labour Party estimated that reducing self-employed NIC from 6% to 0% could cost \u00a32.28 billion in the 2028/29 financial year.",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/a-potential-abolition-of-national-insurance-for-workers-would-not-come-for-years/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The Office for Budget Responsibility (OBR) had previously certified that the initial Class 2 abolition alone would lead to foregone revenue of \u00a3380 million in 2024-25, rising to \u00a3370 million by 2028-29, and the 1p Class 4 cut would cost \u00a3345 million in 2024-25, rising to \u00a3340 million by 2028-29.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/changes-to-national-insurance-contributions-from-6-january-2024/a-reduction-in-the-main-rates-of-primary-class-1-and-class-4-national-insurance-contributions-and-the-removal-of-the-requirement-to-pay-class-2-nation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Funding Challenge:** National Insurance Contributions (NICs) are the second-largest source of tax revenue in the UK, after income tax.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/money/2024/mar/07/national-insurance-contributions-scrapped-payments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Critics argue that such significant tax cuts would necessitate either cuts in public spending or increases in other taxes to compensate for the lost revenue, although the government has not detailed how this would be funded in the long term.",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/a-potential-abolition-of-national-insurance-for-workers-would-not-come-for-years/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/mar/07/national-insurance-contributions-scrapped-payments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ajbell.co.uk/group/news/what-would-abolishing-employee-national-insurance-mean-state-pension",
+            "publisher": "ajbell.co.uk",
+            "title": "ajbell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Increased Incentive for Self-Employment:** Analysts from the Institute for Fiscal Studies (IFS) and Resolution Foundation suggest that abolishing self-employed NICs would \"significantly increase the differential between tax treatment of employment and self-employment\"",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/national-insurance-explainer-Jun24",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "and \"deepens the extent to which the tax system incentivises self-employment, further distorting decisions in the labour market.\"",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/06/Spotlight_Conservative-manifesto-response.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Preferential rates for the self-employed are unfair and not well targeted at boosting entrepreneurship.\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdCGK048yoh2ndOhTbDyT0Bzw2PaUg4cdgZP3X36E_2hAnLoimprw6I4EbzoSL0kMJTI2feXEaVT4G8jKeQc9ILOOGJqBZDKodiqOb-raSfMzZwtIch8s7xlUlU__TAP883qELrTRdy5IyxEiIeReogmhvp_1mXUKatbN3ew==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Rishi Sunak himself, in 2020, reportedly said a 3% differential was \"hard to justify.\"",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/national-insurance-explainer-Jun24",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The IFS estimates that while a self-employed worker on \u00a335,000 would gain \u00a31,350 from the abolition of the main rate, their total tax bill in 2028-29 would be \u00a31,230 lower relative to today, reflecting the offsetting effect of frozen thresholds.",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/tory-plans-scrap-self-employed-160426066.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdCGK048yoh2ndOhTbDyT0Bzw2PaUg4cdgZP3X36E_2hAnLoimprw6I4EbzoSL0kMJTI2feXEaVT4G8jKeQc9ILOOGJqBZDKodiqOb-raSfMzZwtIch8s7xlUlU__TAP883qELrTRdy5IyxEiIeReogmhvp_1mXUKatbN3ew==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.accountingweb.co.uk/tax/hmrc-policy/conservatives-aim-to-abolish-nic-for-self-employed",
+            "publisher": "accountingweb.co.uk",
+            "title": "accountingweb.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **State Pension Entitlement Unaffected:** The Conservative Party explicitly states that the abolition of the main rate of self-employed NI \"will not affect their entitlement to the State Pension.\"",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/national-insurance-explainer-Jun24",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "This is because Class 4 NICs do not currently contribute to state pension or benefit entitlements; they are purely a tax on profits.",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/tory-plans-scrap-self-employed-160426066.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.litrg.org.uk/working/self-employment/national-insurance-self-employed",
+            "publisher": "litrg.org.uk",
+            "title": "litrg.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Those with profits between \u00a36,725 and \u00a312,570 also receive these credits.",
+        "sources": [
+          {
+            "url": "https://makesworth.co.uk/national-insurance-contributions-nic-payable-by-the-self-employed-from-april-2024/",
+            "publisher": "makesworth.co.uk",
+            "title": "makesworth.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSOkp5mgNQXpr9qK0OkDv3OSj37tjqkI9P4p0FmWv-XfliDDfp5E97pcRc2g0480trBTIHnYSNhqVAK3Zzg8rFxFvwxu-XNRheLekbBecOU781ecD65_XdsaB70SW-_xGO8T9-DeDr76kqokjsLSRY03AlRVEqgwUAv3zlecAMQULr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bishopfleming.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.att.org.uk/technical/news/class-2-national-insurance-whats-changing-april-2024",
+            "publisher": "att.org.uk",
+            "title": "att.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.contractoruk.com/money/what_benefits_can_i_claim_self_employed.html",
+            "publisher": "contractoruk.com",
+            "title": "contractoruk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://uk.finance.yahoo.com/news/tory-plans-scrap-self-employed-160426066.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/autumn-statement-2023-national-insurance-factsheet/autumn-statement-2023-national-insurance-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "For those with profits below the small profits threshold, voluntary Class 2 contributions remain an option to maintain their record.",
+        "sources": [
+          {
+            "url": "https://truemanbrown.co.uk/national-insurance-on-self-employed-2025-26/",
+            "publisher": "truemanbrown.co.uk",
+            "title": "truemanbrown.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://makesworth.co.uk/national-insurance-contributions-nic-payable-by-the-self-employed-from-april-2024/",
+            "publisher": "makesworth.co.uk",
+            "title": "makesworth.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSOkp5mgNQXpr9qK0OkDv3OSj37tjqkI9P4p0FmWv-XfliDDfp5E97pcRc2g0480trBTIHnYSNhqVAK3Zzg8rFxFvwxu-XNRheLekbBecOU781ecD65_XdsaB70SW-_xGO8T9-DeDr76kqokjsLSRY03AlRVEqgwUAv3zlecAMQULr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bishopfleming.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.att.org.uk/technical/news/class-2-national-insurance-whats-changing-april-2024",
+            "publisher": "att.org.uk",
+            "title": "att.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.crunch.co.uk/knowledge/article/self-employed-national-insurance-explained",
+            "publisher": "crunch.co.uk",
+            "title": "crunch.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.litrg.org.uk/working/self-employment/national-insurance-self-employed",
+            "publisher": "litrg.org.uk",
+            "title": "litrg.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Potential for Future System Changes:** If National Insurance were to be abolished entirely for all workers (employees and self-employed), a new mechanism for recording contributions for state pension entitlement would be necessary, or a completely different benefits system would need to be devised.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/money/2024/mar/07/national-insurance-contributions-scrapped-payments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ajbell.co.uk/group/news/what-would-abolishing-employee-national-insurance-mean-state-pension",
+            "publisher": "ajbell.co.uk",
+            "title": "ajbell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The current system of \"notional credits\" for Class 2 provides a precedent for how this could be managed.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/national-insurance-explainer-Jun24",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Economic Rationale:** While the government promotes the policy as backing \"risk-takers and entrepreneurs,\"",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/tory-plans-scrap-self-employed-160426066.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "some analysts, like the IFS and Resolution Foundation, are skeptical about its effectiveness in genuinely boosting entrepreneurship, suggesting it primarily creates a tax advantage for self-employment that may distort labour market decisions rather than foster true innovation.",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/tory-plans-scrap-self-employed-160426066.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/06/Spotlight_Conservative-manifesto-response.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdCGK048yoh2ndOhTbDyT0Bzw2PaUg4cdgZP3X36E_2hAnLoimprw6I4EbzoSL0kMJTI2feXEaVT4G8jKeQc9ILOOGJqBZDKodiqOb-raSfMzZwtIch8s7xlUlU__TAP883qELrTRdy5IyxEiIeReogmhvp_1mXUKatbN3ew==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "This \"fiscal drag\" effectively reduces the overall benefit of the NI cuts for many workers.",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/tory-plans-scrap-self-employed-160426066.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdCGK048yoh2ndOhTbDyT0Bzw2PaUg4cdgZP3X36E_2hAnLoimprw6I4EbzoSL0kMJTI2feXEaVT4G8jKeQc9ILOOGJqBZDKodiqOb-raSfMzZwtIch8s7xlUlU__TAP883qELrTRdy5IyxEiIeReogmhvp_1mXUKatbN3ew==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.accountingweb.co.uk/tax/hmrc-policy/conservatives-aim-to-abolish-nic-for-self-employed",
+            "publisher": "accountingweb.co.uk",
+            "title": "accountingweb.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Funding and Sustainability:** The long-term financial sustainability of abolishing a significant revenue stream like self-employed NICs without clearly identified replacement funding is a point of concern for various commentators, especially given the scale of public spending commitments.",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/a-potential-abolition-of-national-insurance-for-workers-would-not-come-for-years/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/mar/07/national-insurance-contributions-scrapped-payments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

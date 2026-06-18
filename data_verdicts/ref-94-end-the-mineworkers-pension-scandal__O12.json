@@ -1,0 +1,820 @@
+{
+  "policy_id": "ref-94-end-the-mineworkers-pension-scandal",
+  "party": "Reform UK",
+  "policy_title": "End the Mineworkers Pension Scandal",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy would end the government's 50% share of future Mineworkers' Pension Scheme surpluses, permanently reducing a revenue stream flowing to the Exchequer. The size of the fiscal cost depends entirely on how large future scheme surpluses turn out to be, which is uncertain.",
+    "biggest_unknown": "The value of future surpluses foregone by the government \u2014 which drives the entire fiscal cost \u2014 is unknown and depends on scheme investment performance over decades.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to accepting the 2021 BEIS Committee recommendations so that all scheme surpluses accrue to the mineworkers, not partly to the government.",
+        "evidence_id": "M",
+        "quote": "all scheme surpluses accrue to the Mineworkers"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Under the existing 1994 arrangement, the government receives 50% of surpluses at each valuation.",
+        "evidence_id": "E3",
+        "quote": "an agreement was made that the government would receive 50% of any surpluses in the scheme's value at subsequent valuations"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The government has received an estimated \u00a34.4 billion from the scheme by 2021 under this arrangement.",
+        "evidence_id": "E21",
+        "quote": "The government has reportedly received around \u00a34.4 billion from the scheme by 2021"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The 2021 BEIS Committee recommended the government should only receive a surplus share if it first had to fund a deficit \u2014 i.e. the 50% entitlement on pure surpluses would end.",
+        "evidence_id": "E18",
+        "quote": "the government should only receive a share of surpluses if it first had to provide funds to cover a deficit"
+      }
+    ],
+    "rationale": "The fiscal effect on O12 is straightforward in direction but uncertain in magnitude. The government currently receives 50% of scheme surpluses under the 1994 privatisation agreement, a stream that has yielded around \u00a34.4bn historically. The policy ends this entitlement on future surpluses (except where the guarantee is triggered by a deficit), permanently reducing government revenue from the scheme. This is an unfunded revenue loss from the Exchequer's perspective \u2014 no offsetting saving or revenue source is identified in the policy text. The Investment Reserve element (\u00a31.5bn) has already been conceded by the current government, so the truly additional fiscal cost is the foregone 50% of future surpluses. Since the scheme has historically run consistent surpluses without triggering the guarantee, the government's contingent liability is unlikely to materialise, meaning the guarantee is largely a theoretical benefit the government retains while losing the revenue upside. That said, the guarantee does provide real value in a tail scenario, so the net fiscal cost is somewhat offset. The magnitude is rated minor because the future surplus stream is scheme-specific, not large in macroeconomic terms, and partially already conceded. Confidence is low because no independent fiscal costing (OBR/IFS) of the future-surplus element is available in the evidence provided.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://committees.parliament.uk/work/1114/mineworkers-pension-scheme/publications/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.mps-pension.org.uk/media/zetjtimt/mps-history-of-the-scheme-aug-17.pdf",
+        "publisher": "mps-pension.org.uk",
+        "title": "mps-pension.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.pensionsage.com/pa/Ex-miners-accuse-govt-of-robbing-half-their-pension.php",
+        "publisher": "pensionsage.com",
+        "title": "pensionsage.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.wsws.org/en/articles/2021/10/19/mipe-o19.html",
+        "publisher": "wsws.org",
+        "title": "wsws.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.thecanary.co/uk/2016/08/24/untold-story-miners-pension-theft-truly-shocking/",
+        "publisher": "thecanary.co",
+        "title": "thecanary.co",
+        "source_type": "media"
+      },
+      {
+        "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+        "publisher": "mps-pension.org.uk",
+        "title": "mps-pension.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0424,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are well-supported by their quoted evidence. Tier assignments are correct: the 1994 arrangement figures (E3, E21) are measurable historical facts from parliamentary sources; the BEIS recommendation (E18) is correctly stated-tier adjacent but placed as measurable, which is defensible as a documented committee output. The direction 'worsens' for O12 is logically sound \u2014 ending a government revenue stream with no identified offset is an unfunded revenue loss, which the rubric treats symmetrically. Magnitude 'minor' and confidence 'low' are appropriately calibrated given no OBR/IFS costing exists in the evidence. The rationale is party-blind and does not impute motive. The 'worsens' verdict leans on the evidence correctly \u2014 no false balance concern. One minor observation: E21 notes the \u00a34.4bn figure with 'reportedly', and the claim uses 'estimated', which is appropriately hedged. No blocking issues found."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "The current government has already transferred the Investment Reserve (valued at \u00a31.5bn) to scheme trustees, partially pre-empting this policy.",
+          "evidence_id": "E12",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Transferring 100% of future surpluses to members \u2014 rather than the current 50:50 split \u2014 would permanently reduce future Exchequer receipts by an amount dependent on scheme performance.",
+          "evidence_id": "E14",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will accept in full the Business, Energy and Industrial Strategy Committee 2021 recommendations to amend the Mineworkers Pension Scheme arrangements so that all scheme surpluses accrue to the Mineworkers.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's policy to \"End the Mineworkers Pension Scandal\" by accepting the 2021 Business, Energy and Industrial Strategy (BEIS) Committee recommendations means that all surpluses from the Mineworkers' Pension Scheme (MPS) would accrue solely to the mineworkers.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "When British Coal was privatized in 1994, the UK government guaranteed that mineworkers' pensions would always be paid and would increase in line with inflation.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/1114/mineworkers-pension-scheme/publications/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.mps-pension.org.uk/media/zetjtimt/mps-history-of-the-scheme-aug-17.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wsws.org/en/articles/2021/10/19/mipe-o19.html",
+            "publisher": "wsws.org",
+            "title": "wsws.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecanary.co/uk/2016/08/24/untold-story-miners-pension-theft-truly-shocking/",
+            "publisher": "thecanary.co",
+            "title": "thecanary.co",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "In return for this guarantee, an agreement was made that the government would receive 50% of any surpluses in the scheme's value at subsequent valuations, while the remaining 50% would be distributed to pensioners through improved benefits.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/1114/mineworkers-pension-scheme/publications/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.mps-pension.org.uk/media/zetjtimt/mps-history-of-the-scheme-aug-17.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Ex-miners-accuse-govt-of-robbing-half-their-pension.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Additionally, the government was entitled to the \"Investment Reserve,\" which consisted of pre-privatisation surpluses and was paid out over a 25-year period until 2019.",
+        "sources": [
+          {
+            "url": "https://www.mps-pension.org.uk/media/zetjtimt/mps-history-of-the-scheme-aug-17.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wsws.org/en/articles/2021/10/19/mipe-o19.html",
+            "publisher": "wsws.org",
+            "title": "wsws.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Critics and campaigners have long referred to this arrangement as a \"scandal\" because the government has received billions from the scheme (estimated around \u00a34.4 billion by 2021 and some sources claiming up to \u00a38 billion by 2016) without ever having to make a payment under its guarantee.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/1114/mineworkers-pension-scheme/publications/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.danjarvis.org/mineworkers_pension_scheme",
+            "publisher": "danjarvis.org",
+            "title": "danjarvis.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wsws.org/en/articles/2021/10/19/mipe-o19.html",
+            "publisher": "wsws.org",
+            "title": "wsws.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecanary.co/uk/2016/08/24/untold-story-miners-pension-theft-truly-shocking/",
+            "publisher": "thecanary.co",
+            "title": "thecanary.co",
+            "source_type": "media"
+          },
+          {
+            "url": "https://morningstaronline.co.uk/article/historic-injustice-overturned-govt-hand-over-112000-ex-miners-pensions",
+            "publisher": "morningstaronline.co.uk",
+            "title": "morningstaronline.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Ex-miners-accuse-govt-of-robbing-half-their-pension.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Many believe this constitutes an \"historic injustice\" that has caused hardship for former miners and their families.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://morningstaronline.co.uk/article/historic-injustice-overturned-govt-hand-over-112000-ex-miners-pensions",
+            "publisher": "morningstaronline.co.uk",
+            "title": "morningstaronline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "In such an event, the government would receive 50% of future surpluses up to the total value of funds it had provided.",
+        "sources": [
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Investment Reserve:** The government should relinquish its entitlement to the Investment Reserve (valued at approximately \u00a31.2 billion in 2021) and transfer it to the miners to provide an immediate cash uplift.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Govt-rejection-of-Mineworkers-pension-scheme-recommendations-a-slap-in-the-face.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "http://num.org.uk/news/beis-select-committee-inquiry-into-the-mineworkers-pension-scheme-guarantee/",
+            "publisher": "num.org.uk",
+            "title": "num.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Committee concluded that the government had \"profited greatly\" from the scheme and that the arrangements needed review to ensure a \"better outcome for pensioners.\"",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The MPS Trustees expressed strong support for these recommendations, noting that they would lead to \"significant increases to pensions for all members.\"",
+        "sources": [
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mps-pension.org.uk/media/rh4hkytj/mps2021reportaccountscomcleandocx.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The then-government rejected these recommendations in July 2021, stating that the 1994 arrangement was \"fair and beneficial to both Scheme members and taxpayers.\"",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Govt-rejection-of-Mineworkers-pension-scheme-recommendations-a-slap-in-the-face.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "In the Autumn Budget of 2024, the government announced a partial shift, agreeing to transfer the *remaining Investment Reserve* to the scheme's trustees.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://morningstaronline.co.uk/article/historic-injustice-overturned-govt-hand-over-112000-ex-miners-pensions",
+            "publisher": "morningstaronline.co.uk",
+            "title": "morningstaronline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This fund, valued at \u00a31.5 billion at the time, was expected to result in a 32% boost to the annual pensions of 112,000 former mineworkers, equating to an average increase of \u00a329 per week for each member.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://morningstaronline.co.uk/article/historic-injustice-overturned-govt-hand-over-112000-ex-miners-pensions",
+            "publisher": "morningstaronline.co.uk",
+            "title": "morningstaronline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "They are advocating for the 2024 bonus payments to be made permanent, for an additional \u00a31 billion in undistributed surplus to be used for a further bonus payment, and critically, to allow **100% of future funding surpluses** to be used to boost member benefits.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "They have also called for all bonus payments to be linked to inflation.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The government has indicated it is \"keen to reach agreement\" with the trustees on changes to benefit scheme members.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Investment Reserve:** The policy would ensure the full transfer of the Investment Reserve to the scheme members, which the current government has already committed to, resulting in an average \u00a329 per week increase for 112,000 former mineworkers",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://morningstaronline.co.uk/article/historic-injustice-overturned-govt-hand-over-112000-ex-miners-pensions",
+            "publisher": "morningstaronline.co.uk",
+            "title": "morningstaronline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The 2021 BEIS Committee's recommendation was that the government should only receive a share of surpluses if it first had to provide funds to cover a deficit",
+        "sources": [
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The MPS Trustees are already seeking this 100% allocation of future surpluses",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   For context, in 2019, the average weekly pension from the MPS was \u00a384, consisting of a \u00a365 guaranteed pension and a \u00a319 bonus pension paid from surpluses",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The government has reportedly received around \u00a34.4 billion from the scheme by 2021, and some estimates go as high as \u00a38 billion by 2016.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/1114/mineworkers-pension-scheme/publications/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.wsws.org/en/articles/2021/10/19/mipe-o19.html",
+            "publisher": "wsws.org",
+            "title": "wsws.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecanary.co/uk/2016/08/24/untold-story-miners-pension-theft-truly-shocking/",
+            "publisher": "thecanary.co",
+            "title": "thecanary.co",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The 2021 BEIS Committee recommendations specified that the government would only get a share if it had to provide funds due to a deficit",
+        "sources": [
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Historically, the government has argued the 50% share was justified by the risk it took as a guarantor, despite never having had to pay into the scheme",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Govt-rejection-of-Mineworkers-pension-scheme-recommendations-a-slap-in-the-face.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Ex-miners-accuse-govt-of-robbing-half-their-pension.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**Increased Financial Security and Justice for Former Mineworkers:** The policy would be seen as a significant victory for the ongoing campaign to address the \"historic injustice\" of the pension arrangements.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://morningstaronline.co.uk/article/historic-injustice-overturned-govt-hand-over-112000-ex-miners-pensions",
+            "publisher": "morningstaronline.co.uk",
+            "title": "morningstaronline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "It would provide greater financial security and potentially lift some beneficiaries out of hardship, as many miners' widows reportedly receive as little as \u00a310 a week in pension payments.",
+        "sources": [
+          {
+            "url": "https://www.wsws.org/en/articles/2021/10/19/mipe-o19.html",
+            "publisher": "wsws.org",
+            "title": "wsws.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **BEIS Committee (2021):** Explicitly recommended the changes, stating the government had \"profited greatly\" and a better outcome for pensioners was needed.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They calculated that transferring the \u00a31.2bn Investment Reserve alone would provide a weekly uplift of \u00a314 for the average member in 2021",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Govt-rejection-of-Mineworkers-pension-scheme-recommendations-a-slap-in-the-face.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "http://num.org.uk/news/beis-select-committee-inquiry-into-the-mineworkers-pension-scheme-guarantee/",
+            "publisher": "num.org.uk",
+            "title": "num.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Mineworkers' Pension Scheme Trustees:** Strongly support the BEIS Committee's recommendations and are actively negotiating with the government to achieve 100% of future surpluses for members, making the 2024 bonus permanent, and linking bonuses to inflation.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mps-pension.org.uk/media/rh4hkytj/mps2021reportaccountscomcleandocx.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **House of Commons Library:** Provides factual background and figures on the scheme, including the \u00a329 per week average increase from the Investment Reserve transfer",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN01189/SN01189.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **National Union of Mineworkers (NUM) / National Mineworkers Pension Campaign:** Have consistently lobbied for these changes, arguing the 50:50 split is unfair given the government's lack of contributions and the scheme's robust performance.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.danjarvis.org/mineworkers_pension_scheme",
+            "publisher": "danjarvis.org",
+            "title": "danjarvis.org",
+            "source_type": "media"
+          },
+          {
+            "url": "http://num.org.uk/news/beis-select-committee-inquiry-into-the-mineworkers-pension-scheme-guarantee/",
+            "publisher": "num.org.uk",
+            "title": "num.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://morningstaronline.co.uk/article/historic-injustice-overturned-govt-hand-over-112000-ex-miners-pensions",
+            "publisher": "morningstaronline.co.uk",
+            "title": "morningstaronline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Mineworkers, their representatives, and the BEIS Committee:** Who argue that the 50:50 split is unfair given the government's lack of financial contribution and the scheme's consistent surpluses, and that the government has unfairly profited.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/1114/mineworkers-pension-scheme/publications/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/oct/31/former-miners-celebrate-win-mineworkers-pension-scandal-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.danjarvis.org/mineworkers_pension_scheme",
+            "publisher": "danjarvis.org",
+            "title": "danjarvis.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wsws.org/en/articles/2021/10/19/mipe-o19.html",
+            "publisher": "wsws.org",
+            "title": "wsws.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecanary.co/uk/2016/08/24/untold-story-miners-pension-theft-truly-shocking/",
+            "publisher": "thecanary.co",
+            "title": "thecanary.co",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/5683/documents/56224/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **The Government (historical stance):** Successive governments have maintained that the 1994 agreement was fair and that the 50% share was justified by the guarantee provided to protect pensions, despite never having to draw on it.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Govt-rejection-of-Mineworkers-pension-scheme-recommendations-a-slap-in-the-face.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mps-pension.org.uk/media/zetjtimt/mps-history-of-the-scheme-aug-17.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mps-pension.org.uk/media/lqkfb4p4/member-update-august-2021.pdf",
+            "publisher": "mps-pension.org.uk",
+            "title": "mps-pension.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "While the current government has made a concession by transferring the Investment Reserve, there is still an ongoing \"constructive discussion\"",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

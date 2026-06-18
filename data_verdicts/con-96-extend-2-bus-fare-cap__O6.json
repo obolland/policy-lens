@@ -1,0 +1,442 @@
+{
+  "policy_id": "con-96-extend-2-bus-fare-cap",
+  "party": "Conservative",
+  "policy_title": "Extend \u00a32 Bus Fare Cap",
+  "outcome": "O6",
+  "verdict": {
+    "outcome": "O6",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Cheaper bus fares encourage more people to use buses instead of cars, which should modestly reduce vehicle emissions. However, the evidence on actual modal shift from cars is indirect, and the emissions benefit is not directly quantified.",
+    "biggest_unknown": "How much of the increased bus use represents genuine modal shift from private cars (which reduces emissions) versus from walking, cycling, or rail (which does not, or worsens it).",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy extends the \u00a32 bus fare cap for the entirety of the next Parliament in England.",
+        "evidence_id": "M",
+        "quote": "The Conservative Party will extend the \u00a32 bus fare cap in England for the entirety of the next Parliament"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The fare cap was associated with an overall 13% year-on-year increase in bus travel.",
+        "evidence_id": "E1",
+        "quote": "13% year-on-year increase in bus travel during that period, also influenced by post-pandemic recovery and other local transport investments."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Between 67% and 73% of passengers who had previously used other transport modes reported saving money due to the cap, indicating some modal shift.",
+        "evidence_id": "E10",
+        "quote": "Between 67% and 73% of passengers who previously used other transport modes reported saving money due to the cap."
+      }
+    ],
+    "rationale": "The environmental case for the \u00a32 bus fare cap rests on a modal-shift mechanism: lower bus fares reduce the relative cost of bus travel, inducing some passengers to switch from private cars, thereby cutting vehicle emissions. The evidence confirms a meaningful increase in bus patronage (13% year-on-year) and shows that a majority of respondents who switched modes reported financial savings from the cap. These are consistent with the mechanism operating. However, the evidence does not tell us what modes switchers came from \u2014 if a significant share shifted from walking, cycling, or rail, the emissions benefit is negligible or even negative. No direct emissions or air-quality quantification is provided in the evidence. The DfT evaluation found unclear value for money (BCR 0.71\u20130.9), and even including wellbeing effects it would only reach 'low VfM'. Absent policy, fares would rise and some bus users would revert to cars, so the policy is genuinely additional at the margin. But the magnitude of the emissions effect cannot be established from the provided evidence \u2014 the environmental improvement, if real, operates at modest scale. Direction is 'improves' because the modal-shift mechanism is at least partially evidenced and directionally consistent, but confidence is low and magnitude is minor given the absence of emissions quantification.",
+    "time_split": {
+      "near_direction": "improves",
+      "long_direction": "improves",
+      "note": "The emissions benefit from sustained modal shift accumulates over the parliament but does not fundamentally differ in direction across time horizons; no structural long-term environmental transformation is evidenced."
+    },
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+        "publisher": "cittimagazine.co.uk",
+        "title": "cittimagazine.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0362,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E10 quote states '67-73% of passengers who previously used other transport modes reported saving money due to the cap' \u2014 this measures financial savings, not confirmed modal shift from cars. The claim labels it 'indicating some modal shift' which overstates what the quote entails; saving money does not confirm the mode they switched from or that they switched at all."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Direction 'improves' with low confidence and minor magnitude is appropriately cautious given the absence of direct emissions quantification. The modal-shift mechanism is plausible but not directly evidenced from the provided claims. The E10 overstatement is a warning rather than blocking because the rationale itself honestly acknowledges the uncertainty about which modes switchers came from. Tier integrity is maintained: the 13% patronage figure (E1) is correctly flagged as confounded by other factors. No lever leakage, party bias, or false balance detected."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "The scheme's value for money remained unclear, with a benefit-cost ratio of 0.71 to 0.9 on monetised benefits alone.",
+          "evidence_id": "E12",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will extend the \u00a32 bus fare cap in England for the entirety of the next Parliament, benefitting young people and low-income households, funded by savings from railway reform.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This was part of an overall 13% year-on-year increase in bus travel during that period, also influenced by post-pandemic recovery and other local transport investments.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Cost of Living Relief and Affordability:**\n    *   **40% of surveyed respondents** reported saving money as a result of the cap.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   Approximately **30%** stated that the cap positively affected their disposable income.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   The financial benefits were most noticeable among **16-24-year-olds, urban residents, and frequent bus users**.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   For single tickets priced above \u00a32, the cap led to an average **27% reduction in price**.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   The scheme resulted in an overall **7.4% reduction in bus fares** in England outside London between June 2022 and June 2023, with savings in rural areas reaching almost 11%.",
+        "sources": [
+          {
+            "url": "https://railuk.com/rail-news/significant-intervention-to-cap-rail-fares-comes-as-government-delivers-target-to-halve-inflation/",
+            "publisher": "railuk.com",
+            "title": "railuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Focus group participants in rural areas specifically noted its help in offsetting higher fares on longer routes.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Shift in Ticket Purchasing Behavior:** Single ticket sales increased by **85%** during the evaluation period (January to October 2023), while sales of return and daily tickets fell by 34% and 28% respectively, indicating a shift by some passengers to take advantage of the single fare cap.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "However, most journeys continue to be made using period tickets and concessionary passes, which are not directly affected by the cap.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Modal Shift:** Between 67% and 73% of passengers who previously used other transport modes reported saving money due to the cap.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**Department for Transport (DfT) Evaluation (by Frontier Economics and Systra):**\nThe DfT's evaluation of the first 10 months of the \u00a32 bus fare cap (January to October 2023) concluded that while it increased bus use and reduced travel costs, its **value for money (VfM) remained unclear**.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://busandtrainuser.com/2025/02/18/2-fare-the-results-are-in/",
+            "publisher": "busandtrainuser.com",
+            "title": "busandtrainuser.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   The benefit-cost ratio (BCR) was estimated at between **0.71 and 0.9**, suggesting that, based on monetised benefits alone, the scheme's costs exceeded its economic return.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://busandtrainuser.com/2025/02/18/2-fare-the-results-are-in/",
+            "publisher": "busandtrainuser.com",
+            "title": "busandtrainuser.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   However, preliminary analysis hinted that with the inclusion of \"wellbeing effects\" (e.g., savings for all passengers, not just those switching modes), the BCR could reasonably be considered \"at least above 1 (categorised as low VfM).\"",
+        "sources": [
+          {
+            "url": "https://busandtrainuser.com/2025/02/18/2-fare-the-results-are-in/",
+            "publisher": "busandtrainuser.com",
+            "title": "busandtrainuser.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, he expressed that it was a \"missed opportunity to demonstrate a commitment to grow services across the entire country,\" particularly beyond the North and Midlands.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/london-tories-conservative-party-parliament-england-b2560529.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The CPT has also advocated for a \"long-term sustainable settlement\" for the bus industry, moving away from short-term fixes.",
+        "sources": [
+          {
+            "url": "https://bususers.org/uk/2-fare-cap-extended/",
+            "publisher": "bususers.org",
+            "title": "bususers.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "2) Bill 2024\u201325 noted proposed amendments that would have required assessments of removing the \u00a32 bus fare cap and the impact of National Insurance increases on socially necessary bus services.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10266/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Institute for Public Policy Research (IPPR):**\nIPPR analysis (prior to the comprehensive DfT evaluation) indicated that policies to reduce bus fares lead to the \"highest savings for the lowest income households.\"",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/time-to-reduce-the-cost-of-daily-bus-travel",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "They have called for more extensive action, recommending at least an annual scheme and measures to make return and daily tickets more affordable.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/time-to-reduce-the-cost-of-daily-bus-travel",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "While the DfT's initial monetised BCR suggested costs outweighed economic benefits (0.71-0.9), the inclusion of broader \"wellbeing effects\" could push the BCR above 1, categorising it as \"low VfM\" rather than a clear negative return.",
+        "sources": [
+          {
+            "url": "https://www.cittimagazine.co.uk/news/buses-commercial-vehicles/2-bus-fare-cap-drove-5-increase-in-patronage-but-value-for-money-remains-unclear.html",
+            "publisher": "cittimagazine.co.uk",
+            "title": "cittimagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://busandtrainuser.com/2025/02/18/2-fare-the-results-are-in/",
+            "publisher": "busandtrainuser.com",
+            "title": "busandtrainuser.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "They also favoured a \"stepped approach\" to any future fare increases to manage passenger expectations and avoid sharp drops in patronage.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://busandtrainuser.com/2025/02/18/2-fare-the-results-are-in/",
+            "publisher": "busandtrainuser.com",
+            "title": "busandtrainuser.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The policy states it will be \"funded by savings from railway reform,\" with the Conservative manifesto committing to saving \"up to \u00a31.5 billion annually\" from this reform.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/london-tories-conservative-party-parliament-england-b2560529.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Previous extensions of the \u00a32 cap were partly financed by redirecting \u00a336 billion of HS2 funding, contributing to a total government investment of nearly \u00a3600 million to maintain low bus fares.",
+        "sources": [
+          {
+            "url": "https://railuk.com/rail-news/significant-intervention-to-cap-rail-fares-comes-as-government-delivers-target-to-halve-inflation/",
+            "publisher": "railuk.com",
+            "title": "railuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rebeccaharris.org/news/rebecca-harris-mp-supports-further-extension-ps2-bus-fare-cap",
+            "publisher": "rebeccaharris.org",
+            "title": "rebeccaharris.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The annual running costs of the bus fare scheme have been estimated at no more than \u00a3300 million.",
+        "sources": [
+          {
+            "url": "https://www.quora.com/Do-you-think-the-extension-of-bus-fare-caps-will-impact-the-number-of-people-using-buses-to-get-to-work-in-England",
+            "publisher": "quora.com",
+            "title": "quora.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The OBR was mentioned in a DfT announcement regarding inflation estimates, but not in the context of a dedicated report on the bus fare cap's effects.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-extends-2-bus-fare-cap-and-protects-vital-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The Health Foundation appeared in results related to fare-free transit in the US, not UK policy.",
+        "sources": [
+          {
+            "url": "https://thebeaconnews.org/stories/2023/12/15/people-who-ride-kcata-fare-free-buses-healthier-researchers-say/",
+            "publisher": "thebeaconnews.org",
+            "title": "thebeaconnews.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

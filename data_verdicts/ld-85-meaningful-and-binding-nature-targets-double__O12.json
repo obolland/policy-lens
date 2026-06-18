@@ -1,0 +1,761 @@
+{
+  "policy_id": "ld-85-meaningful-and-binding-nature-targets-double",
+  "party": "Liberal Democrat",
+  "policy_title": "Meaningful and Binding Nature Targets ('Double Nature')",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "The policy commits to legally binding nature targets with no stated funding mechanism, implying large future public expenditure, but no independent fiscal costing exists in the evidence to size the impact. Whether public spending required would materially worsen the debt path, or be offset by private finance and long-run ecosystem returns, cannot be determined from the available evidence.",
+    "biggest_unknown": "The total public cost of meeting binding 'double nature' targets and how much would be funded by private finance versus the Exchequer \u2014 no OBR or IFS costing appears in the provided evidence.",
+    "claims": [
+      {
+        "tier": "projected",
+        "claim": "Delivering 'double nature' ambitions would likely require far more funding than currently committed under the Nature for Climate Fund and Blue Planet Fund.",
+        "evidence_id": "E19",
+        "quote": "doubling nature\" would likely require orders of magnitude more funding"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current tree-planting rates are already failing to meet the existing, less ambitious government woodland targets.",
+        "evidence_id": "E15",
+        "quote": "current rates are not meeting existing targets and would need to double by 2030 to reach even the less ambitious government goals of 16% by 2040 and 19% by 2050"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Mobilising public and private finance is identified as a key enabling constraint even for existing environmental targets.",
+        "evidence_id": "E20",
+        "quote": "mobilising public and private finance is a key enabler for achieving environmental targets"
+      },
+      {
+        "tier": "projected",
+        "claim": "Investment in nature recovery could stimulate green jobs and economic activity that partially offset fiscal costs.",
+        "evidence_id": "E23",
+        "quote": "Investment in nature recovery could stimulate green jobs in areas such as ecological restoration, forestry, and sustainable land management"
+      },
+      {
+        "tier": "projected",
+        "claim": "Doubling woodland and restoring peatlands would enhance carbon sequestration, potentially reducing long-run climate-related costs.",
+        "evidence_id": "E17",
+        "quote": "Doubling woodland cover and restoring habitats like peatlands would significantly enhance carbon sequestration and storage, contributing to climate change mitigation efforts"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Total public expenditure required to meet binding targets versus the share fundable through private finance and ecosystem-service returns",
+      "estimate_range": "No quantified range available in the provided evidence; the only directional estimate (E19, commercial source) says 'orders of magnitude more' than current commitments but provides no monetary figure"
+    },
+    "rationale": "The policy creates legally binding nature targets stretching to 2050 without specifying a funding envelope, delivery mechanism, or fiscal cost. Binding commitments without a stated price tag create a contingent fiscal obligation that falls on future budgets \u2014 the classic mechanism by which policy can worsen the long-run debt path. The projected claim from E19 (a law firm, commercial source) suggests the funding gap is large, but this cannot be treated as a quantified fiscal verdict: it is speculative, unsupported by any OBR or IFS costing in the provided evidence, and must be flagged as such. On the other side, green-job multipliers (E23) and carbon sequestration savings (E17) could partially offset spending requirements, but these too are projections with no quantified magnitude in the evidence. The delivery evidence (E15, E20) establishes that even existing, less ambitious targets are off-track and finance-constrained, which is consistent with \u2014 but does not quantify \u2014 a future fiscal pressure from more ambitious binding commitments. Because the load-bearing question for O12 is the net effect on the debt path, and because no independent fiscal authority (OBR, IFS) has costed this policy in the provided evidence, an honest verdict cannot resolve whether the fiscal effect is minor, moderate, or largely offset by private finance and long-run returns. The direction is plausibly 'worsens' but the evidence base is insufficient to confirm it over 'mixed' or 'negligible'. The verdict is therefore 'too-uncertain'.",
+    "sources": [
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.woodlandtrust.org.uk/press-centre/2025/06/uk-wildlife-declining-despite-more-tree-cover-major-new-report-reveals/",
+        "publisher": "woodlandtrust.org.uk",
+        "title": "woodlandtrust.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theoep.org.uk/sites/default/files/reports-files/Improving%20Nature%20-%20Call%20for%20Evidence.pdf",
+        "publisher": "theoep.org.uk",
+        "title": "theoep.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10619/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 2,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict correctly applies too-uncertain direction with n/a magnitude and time_horizon. The crux_parameter and estimate_range are genuine and specific, not lazy hedges. Source_support: E19 (gowlingwlg.com, a commercial/law firm) is correctly flagged as a commercial source in the rationale and treated as directional only, not as a quantified verdict \u2014 this is acceptable given the verdict does not lean on it as sole basis for a fiscal conclusion. E15 (woodlandtrust.org) is labelled measurable; the claim about current rates failing existing targets is well-supported by the quote. E20 (OEP) supports the claim as stated. E23 and E17 are correctly tiered as projected. No tier_integrity violations. No lever_leakage \u2014 the verdict appropriately scores fiscal/debt-path effects rather than the environment policy itself. No party_blind issues; no motive attribution. No false_balance issue \u2014 too-uncertain is justified because the key fiscal question (net public cost vs private finance offset) is genuinely unquantified in the evidence. The rationale is honest about the direction being 'plausibly worsens' without overclaiming."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The policy sets binding targets to double the Protected Area Network, wildlife habitats, species abundance, and woodland cover by 2050.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Set meaningful and binding targets to stop the decline of our natural environment and \u2018double nature\u2019 by 2050: doubling the size of the Protected Area Network, doubling the area of most important wildlife habitats, doubling the abundance of species and doubling woodland cover by 2050.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "While the UK government has its own Environmental Improvement Plan (EIP) 2023 with legally binding targets, the \"Double Nature\" policy proposes significantly more ambitious goals than current government commitments.",
+        "sources": [
+          {
+            "url": "https://gowlingwlg.com/en/insights-resources/articles/2023/the-uk-s-environmental-improvement-plan-2023",
+            "publisher": "gowlingwlg.com",
+            "title": "gowlingwlg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/biodiversity-loss-uk-international-obligations/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10519/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Protected Area Network:** The EIP 2023 commits to protecting 30% of UK land and sea for nature by 2030, a target often referred to as \"30 by 30\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/biodiversity-loss-uk-international-obligations/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/environmental-improvement-plan/environmental-improvement-plan-2023-executive-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cla.org.uk/news/environmental-improvement-plan-what-is-it-and-why-it-is-important/",
+            "publisher": "cla.org.uk",
+            "title": "cla.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/statistics/england-biodiversity-indicators/1-extent-and-condition-of-protected-areas--2",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "As of May 2024, the UK has 377 Marine Protected Areas (MPAs) covering 38% of its waters",
+        "sources": [
+          {
+            "url": "https://moat.cefas.co.uk/biodiversity-food-webs-and-marine-protected-areas/marine-protected-areas/",
+            "publisher": "moat.cefas.co.uk",
+            "title": "cefas.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Terrestrial protected areas in England cover approximately 8% of the land area, amounting to 1 million hectares",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/england-biodiversity-indicators/1-extent-and-condition-of-protected-areas--2",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/pas/environment/protected-sites-strategies/background-information-protected-sites",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Most Important Wildlife Habitats:** The EIP aims to restore or create more than 500,000 hectares of wildlife-rich habitat outside protected sites by 2042",
+        "sources": [
+          {
+            "url": "https://gowlingwlg.com/en/insights-resources/articles/2023/the-uk-s-environmental-improvement-plan-2023",
+            "publisher": "gowlingwlg.com",
+            "title": "gowlingwlg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/biodiversity-loss-uk-international-obligations/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://defrafarming.blog.gov.uk/2023/01/31/what-the-environmental-improvement-plan-means-for-you/",
+            "publisher": "defrafarming.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10519/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.naturalengland.org.uk/publication/6427187599900672",
+            "publisher": "publications.naturalengland.org.uk",
+            "title": "naturalengland.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "An interim target is set to restore or create 140,000 hectares by January 2028",
+        "sources": [
+          {
+            "url": "https://gowlingwlg.com/en/insights-resources/articles/2023/the-uk-s-environmental-improvement-plan-2023",
+            "publisher": "gowlingwlg.com",
+            "title": "gowlingwlg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Wildlife Trusts highlight the diversity of UK habitats, including woodlands, wetlands, grasslands, and marine environments, many of which are under threat from intensive agriculture and development",
+        "sources": [
+          {
+            "url": "https://www.nationalparks.uk/habitats/",
+            "publisher": "nationalparks.uk",
+            "title": "nationalparks.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wildlifetrusts.org/habitats",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Abundance of Species:** The EIP targets halting the decline in species abundance by 2030 and then increasing it by at least 10% by 2042, exceeding 2022 levels",
+        "sources": [
+          {
+            "url": "https://gowlingwlg.com/en/insights-resources/articles/2023/the-uk-s-environmental-improvement-plan-2023",
+            "publisher": "gowlingwlg.com",
+            "title": "gowlingwlg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/biodiversity-loss-uk-international-obligations/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10519/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Current data indicates a substantial decline: species abundance in England fell by around 40% for all species and about 80% for priority species between 1970 and 2024",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/indicators-of-species-abundance-in-england/indicators-of-species-abundance-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The average decline in species' abundance in England between 1970 and 2021 was 32%",
+        "sources": [
+          {
+            "url": "https://stateofnature.org.uk/countries/england/",
+            "publisher": "stateofnature.org.uk",
+            "title": "stateofnature.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Woodland Cover:** The EIP aims to increase tree canopy and woodland cover in England from approximately 14.5% to 16.5% of total land area by 2050",
+        "sources": [
+          {
+            "url": "https://gowlingwlg.com/en/insights-resources/articles/2023/the-uk-s-environmental-improvement-plan-2023",
+            "publisher": "gowlingwlg.com",
+            "title": "gowlingwlg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hhlandestates.co.uk/news/38774/environment-improvement-plan-2023-what-s-in-it-for-forestry/",
+            "publisher": "hhlandestates.co.uk",
+            "title": "hhlandestates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/AskUK/comments/1pshkcc/the_uk_has_very_low_woodland_cover_how_can_we/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.woodlandtrust.org.uk/press-centre/2025/06/uk-wildlife-declining-despite-more-tree-cover-major-new-report-reveals/",
+            "publisher": "woodlandtrust.org.uk",
+            "title": "woodlandtrust.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://treetalk.substack.com/p/new-environmental-improvement-plan-trees",
+            "publisher": "treetalk.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "An interim target seeks a 0.26% increase (equivalent to 34,000 hectares) by January 2028",
+        "sources": [
+          {
+            "url": "https://hhlandestates.co.uk/news/38774/environment-improvement-plan-2023-what-s-in-it-for-forestry/",
+            "publisher": "hhlandestates.co.uk",
+            "title": "hhlandestates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://cieem.net/new-environmental-improvement-plan-published-but-is-it-enough-to-deliver-for-nature/",
+            "publisher": "cieem.net",
+            "title": "cieem.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Current UK woodland cover is 13.5% as of March 2024",
+        "sources": [
+          {
+            "url": "https://www.forestresearch.gov.uk/tools-and-resources/statistics/publications/forestry-statistics/forestry-statistics-2024/",
+            "publisher": "forestresearch.gov.uk",
+            "title": "forestresearch.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.woodlandtrust.org.uk/press-centre/2025/06/uk-wildlife-declining-despite-more-tree-cover-major-new-report-reveals/",
+            "publisher": "woodlandtrust.org.uk",
+            "title": "woodlandtrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": ", with England's cover at merely 10%",
+        "sources": [
+          {
+            "url": "https://sdgdata.gov.uk/15-1-1/",
+            "publisher": "sdgdata.gov.uk",
+            "title": "sdgdata.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.reddit.com/r/AskUK/comments/1pshkcc/the_uk_has_very_low_woodland_cover_how_can_we/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Doubling UK woodland cover to approximately 27% by 2050 would require a significant acceleration of planting efforts, as current rates are not meeting existing targets and would need to double by 2030 to reach even the less ambitious government goals of 16% by 2040 and 19% by 2050",
+        "sources": [
+          {
+            "url": "https://www.woodlandtrust.org.uk/press-centre/2025/06/uk-wildlife-declining-despite-more-tree-cover-major-new-report-reveals/",
+            "publisher": "woodlandtrust.org.uk",
+            "title": "woodlandtrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This would support ecosystem services crucial for human survival, such as clean air, water, and food",
+        "sources": [
+          {
+            "url": "https://gowlingwlg.com/en/insights-resources/articles/2023/the-uk-s-environmental-improvement-plan-2023",
+            "publisher": "gowlingwlg.com",
+            "title": "gowlingwlg.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Climate Change Mitigation:** Doubling woodland cover and restoring habitats like peatlands would significantly enhance carbon sequestration and storage, contributing to climate change mitigation efforts",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10619/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Ecosystem Resilience:** Larger, better-connected natural areas would improve the ability of ecosystems to adapt to environmental changes and withstand pressures like pollution and invasive species",
+        "sources": [
+          {
+            "url": "https://gowlingwlg.com/en/insights-resources/articles/2023/the-uk-s-environmental-improvement-plan-2023",
+            "publisher": "gowlingwlg.com",
+            "title": "gowlingwlg.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "While the EIP mentions a \u00a3750 million Nature for Climate Fund and a \u00a3500 million Blue Planet Fund, \"doubling nature\" would likely require orders of magnitude more funding",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Office for Environmental Protection (OEP) notes that mobilising public and private finance is a key enabler for achieving environmental targets",
+        "sources": [
+          {
+            "url": "https://www.theoep.org.uk/sites/default/files/reports-files/Improving%20Nature%20-%20Call%20for%20Evidence.pdf",
+            "publisher": "theoep.org.uk",
+            "title": "theoep.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The EIP already anticipates farming contributing 80-100% of the target to restore 500,000 hectares of habitat outside protected areas by 2042",
+        "sources": [
+          {
+            "url": "https://defrafarming.blog.gov.uk/2023/01/31/what-the-environmental-improvement-plan-means-for-you/",
+            "publisher": "defrafarming.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Such large-scale changes could affect food production, requiring careful planning and incentives for farmers to adopt nature-friendly practices",
+        "sources": [
+          {
+            "url": "https://defrafarming.blog.gov.uk/2023/01/31/what-the-environmental-improvement-plan-means-for-you/",
+            "publisher": "defrafarming.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.cla.org.uk/news/environmental-improvement-plan-what-is-it-and-why-it-is-important/",
+            "publisher": "cla.org.uk",
+            "title": "cla.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Green Jobs and Growth:** Investment in nature recovery could stimulate green jobs in areas such as ecological restoration, forestry, and sustainable land management",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/64a6d9c1c531eb000c64fffa/environmental-improvement-plan-2023.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "For example, trees outside woodlands already contribute \u00a33.8 billion to the UK economy",
+        "sources": [
+          {
+            "url": "https://treetalk.substack.com/p/new-environmental-improvement-plan-trees",
+            "publisher": "treetalk.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Social Impacts:**\n*   **Health and Well-being Benefits:** Increased access to and engagement with nature has well-documented physical and mental health benefits, including stress reduction, improved mood, and opportunities for exercise and social interaction",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpFXXhewMRpFIwITw-hcrHE7ERnjnAnbPOOOYpvgnan_vPUR0tnmaQaV7BX4HeLT1DOpvztNxGe0vpvObK8jN1H6PrPwk9zP6fikIuhZ5ybBbMeKHaAlHC_GuWcr92MxMQCZaNcMW4Uh1LhsZsjIQqYEnccIrFa2Xc0pF5lZRiVUOvteCrLIFO7jKhKt2P70GcTwtimOhRWwBfJBaq8LsajrBE_A==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fph.org.uk/media/2531/a5-fph-sig-health-and-nature-final.pdf",
+            "publisher": "fph.org.uk",
+            "title": "fph.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/our-work/research/nature-how-connecting-nature-benefits-our-mental-health",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.ecehh.org/impact/nature-human-health-policy/",
+            "publisher": "ecehh.org",
+            "title": "ecehh.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Health Foundation highlights that outdoor physical activity in natural environments delivers an estimated \u00a32.2 billion worth of health benefits to adults in England annually",
+        "sources": [
+          {
+            "url": "https://www.ecehh.org/impact/nature-human-health-policy/",
+            "publisher": "ecehh.org",
+            "title": "ecehh.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The House of Commons Library has highlighted concerns about habitat conditions and invasive species for long-term climate change resilience",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10619/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "It highlighted that the chronic and ongoing loss of priority species suggests that halting decline by 2030 remains a major challenge",
+        "sources": [
+          {
+            "url": "https://www.theoep.org.uk/sites/default/files/reports-files/Improving%20Nature%20-%20Call%20for%20Evidence.pdf",
+            "publisher": "theoep.org.uk",
+            "title": "theoep.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The OEP monitors the government's progress and assesses the pathways to achieving environmental targets, as well as barriers and enablers to their successful delivery",
+        "sources": [
+          {
+            "url": "https://www.theoep.org.uk/sites/default/files/reports-files/Improving%20Nature%20-%20Call%20for%20Evidence.pdf",
+            "publisher": "theoep.org.uk",
+            "title": "theoep.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "**House of Commons Library:**\nThe House of Commons Library notes that many of the UK's biodiversity targets are considered \"off-track\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/are-we-on-target-for-the-environment/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "It reports that the UN's Global Biodiversity Outlook 2020 identified changes in land and sea use, climate change, pollution, natural resource extraction, and invasive species as key drivers of biodiversity loss",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/are-we-on-target-for-the-environment/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The Library also points to criticism regarding the planting of non-native trees or trees out of place, leading to ecological changes",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Forestry_in_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "To hit the government's targets, current tree planting rates would need to double by 2030",
+        "sources": [
+          {
+            "url": "https://www.woodlandtrust.org.uk/press-centre/2025/06/uk-wildlife-declining-despite-more-tree-cover-major-new-report-reveals/",
+            "publisher": "woodlandtrust.org.uk",
+            "title": "woodlandtrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "**Natural England:**\nNatural England, the government's natural environment adviser, has stated that the UK is one of the most nature-depleted countries globally, with nearly one in six species threatened with extinction",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/biodiversity-loss-uk-international-obligations/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The OEP's ongoing assessment of species abundance targets demonstrates the complexity and difficulty of even halting decline",
+        "sources": [
+          {
+            "url": "https://www.theoep.org.uk/sites/default/files/reports-files/Improving%20Nature%20-%20Call%20for%20Evidence.pdf",
+            "publisher": "theoep.org.uk",
+            "title": "theoep.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Policy Coherence and Implementation:** The House of Commons Library has noted that \"many are considered 'off-track'\" in current environmental targets",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/are-we-on-target-for-the-environment/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": ", and that the Environmental Improvement Plan itself has faced criticism for being vague and lacking detail",
+        "sources": [
+          {
+            "url": "https://ahdb.org.uk/the-revised-environmental-improvement-plan",
+            "publisher": "ahdb.org.uk",
+            "title": "ahdb.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The \"Double Nature\" policy would require unprecedented policy coordination across government departments and devolved administrations, with potential conflicts (e.g., between tree planting and habitat restoration",
+        "sources": [
+          {
+            "url": "https://hhlandestates.co.uk/news/38774/environment-improvement-plan-2023-what-s-in-it-for-forestry/",
+            "publisher": "hhlandestates.co.uk",
+            "title": "hhlandestates.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

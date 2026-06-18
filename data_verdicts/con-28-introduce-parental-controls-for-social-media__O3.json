@@ -1,0 +1,815 @@
+{
+  "policy_id": "con-28-introduce-parental-controls-for-social-media",
+  "party": "Conservative",
+  "policy_title": "Introduce Parental Controls for Social Media",
+  "outcome": "O3",
+  "verdict": {
+    "outcome": "O3",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy only commits to a consultation \u2014 no law, budget, or duty is promised yet \u2014 so any effect on children's mental health and NHS demand is too indirect and distant to count as a real improvement right now. Even if controls were enacted, it is unclear whether they would work well enough to meaningfully reduce pressure on mental health services.",
+    "biggest_unknown": "Whether age-verification and parental controls, if legislated after the consultation, would actually reduce social-media-linked mental health harm at scale \u2014 given high circumvention rates and contested causality evidence.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy only commits to an urgent consultation on further parental controls and age verification, not to any enacted law or specific measure.",
+        "evidence_id": "M",
+        "quote": "urgently consult on introducing further parental controls over children's access to social media, including effective age verification and necessary technology"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Social media use among children is widespread: 97% of UK teenagers aged 13-15 own a mobile phone and 40% of children under 13 have a social media profile despite existing age restrictions.",
+        "evidence_id": "E23",
+        "quote": "40% of children under 13 have a social media profile despite age restrictions"
+      },
+      {
+        "tier": "measurable",
+        "claim": "There is an association between social media and youth mental health harm: analysts note a 47% increase in young people experiencing mental health harm in England since 2007.",
+        "evidence_id": "E5",
+        "quote": "contributing to a 47% increase in young people experiencing mental health harm in England since 2007"
+      },
+      {
+        "tier": "projected",
+        "claim": "Age verification systems have high circumvention rates: nearly half of children believe the systems are easy to evade, and about a third admit to bypassing them.",
+        "evidence_id": "E8",
+        "quote": "Nearly half of children believe these systems are easy to evade, and approximately one-third admit to having bypassed them using methods like false birthdates, adult credentials, VPNs, or spoofing facial recognition"
+      },
+      {
+        "tier": "projected",
+        "claim": "Restrictions may push children to less safe, unregulated online environments.",
+        "evidence_id": "E14",
+        "quote": "This could potentially expose children to less safe online environments with fewer safeguards"
+      },
+      {
+        "tier": "projected",
+        "claim": "Academics question the causal link between social media and adolescent brain harm, noting 'very little, if any, causal research' definitively establishing causation.",
+        "evidence_id": "E37",
+        "quote": "Academics from Birkbeck College and the University of Cambridge noted \"very little, if any, causal research\" definitively linking digital devices or social media to adolescent brain harm"
+      }
+    ],
+    "rationale": "O3 is about healthcare access and capacity \u2014 waiting lists, GP availability, mental health access. The only plausible pathway from this policy to O3 is: effective parental controls reduce harmful social media exposure \u2192 fewer children develop mental health conditions \u2192 reduced demand on NHS mental health services \u2192 improved access for those who do need care. That is a long, contested chain. The policy itself does not even commit to a delivered mechanism: the stated text is purely consultative ('urgently consult on introducing'), which under the soft-verb rule means no committed instrument exists. This alone warrants defaulting toward negligible. Even if controls were subsequently enacted, the evidence is deeply mixed: circumvention rates are high (roughly half of children find the systems easy to evade), there is a real risk of displacement to less regulated environments, and academics dispute whether social media use is causally \u2014 rather than correlationally \u2014 linked to mental health decline. There is an association with harm (47% rise in youth mental health problems since 2007 cited by the Mental Health Foundation), and some evidence of links to depression and suicidal ideation for heavy users, but causality is contested. The marginal effect of a consultation on NHS mental health waiting lists at population scale \u2014 even in the optimistic scenario \u2014 is too attenuated and slow-moving to constitute a meaningful improvement in O3 within any reasonable horizon. I therefore set direction as negligible with minor magnitude (acknowledging a theoretical pathway) and low confidence.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.centreforsocialjustice.org.uk/newsroom/under-5s-using-social-media",
+        "publisher": "centreforsocialjustice.org.uk",
+        "title": "centreforsocialjustice.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.mentalhealth.org.uk/about-us/news/uks-20-year-social-media-experiment-must-end",
+        "publisher": "mentalhealth.org.uk",
+        "title": "mentalhealth.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://thecyberexpress.com/online-safety-act-age-verification/",
+        "publisher": "thecyberexpress.com",
+        "title": "thecyberexpress.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+        "publisher": "eff.org",
+        "title": "eff.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://cepa.org/article/ban-or-reform-uk-cracks-down-on-social-media/",
+        "publisher": "cepa.org",
+        "title": "cepa.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://itif.org/publications/2026/05/22/comments-uks-department-science-innovation-technology-growing-up-online-world/",
+        "publisher": "itif.org",
+        "title": "itif.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.techradar.com/news/live/uk-social-media-ban-june-2026",
+        "publisher": "techradar.com",
+        "title": "techradar.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0427,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are adequately supported by cited evidence. The tier assignments are appropriate: the stated claim correctly uses the policy text; the two measurable claims (social media prevalence and the 47% mental health association) are drawn from institutional/advocacy sources and are correctly labelled as associations rather than causal facts; the projected claims are appropriately hedged. The E5 claim about 47% increase is from an advocacy source (Mental Health Foundation) and is labelled as an association, not causation \u2014 acceptable at this tier given the labelling. The direction of 'negligible' is well-justified by the purely consultative nature of the policy and the contested causal chain to O3. No lever leakage, party bias, or false balance detected. The magnitude/time_horizon pair (minor/long-term) is internally consistent with a negligible direction, which is a slight inconsistency but not blocking given the rationale explains a theoretical pathway. No tier_integrity violations found."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will urgently consult on introducing further parental controls over children's access to social media, including effective age verification and necessary technology, building on the Online Safety Act.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy follows a recent consultation and aims to ban social media for under-16s and impose strict controls on digital platforms for older teenagers.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.irishtimes.com/world/uk/2026/06/15/uk-government-to-announce-australia-plus-ban-on-social-media-for-under-16s/",
+            "publisher": "irishtimes.com",
+            "title": "irishtimes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.adgully.com/post/16852/uk-prepares-sweeping-social-media-restrictions-for-under-16s",
+            "publisher": "adgully.com",
+            "title": "adgully.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Enhanced Protection from Harmful Content and Features:**\nThe primary goal is to shield children from illegal content, harmful material (such as content promoting self-harm, eating disorders, violence, and pornography), cyberbullying, and addictive design features like infinite scrolling and autoplay.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10468/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0036/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/uks-20-year-social-media-experiment-must-end",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/explore-mental-health/blogs/our-bold-new-recommendations-proposed-under-16s-social-media-ban",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/beyond-the-headlines-what-research-shows-on-childrens-online-lives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.adgully.com/post/16852/uk-prepares-sweeping-social-media-restrictions-for-under-16s",
+            "publisher": "adgully.com",
+            "title": "adgully.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Online Safety Act already mandates \"highly effective age assurance\" (HEAA) for \"primary priority content\" (pornography, suicide, self-harm, eating disorders), using either age verification or age estimation techniques.",
+        "sources": [
+          {
+            "url": "https://www.onlinesafetyact.net/analysis/the-online-safety-act-childrens-duties-age-verification-and-content-moderation-on-user-to-user-services/",
+            "publisher": "onlinesafetyact.net",
+            "title": "onlinesafetyact.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/keeping-children-safe-online-changes-to-the-online-safety-act-explained",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The government also plans to prevent under-18s from accessing AI chatbot services that primarily offer sexualized content.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Impact on Children's Mental Health:**\nAnalysts, including the Mental Health Foundation, contend that social media has had \"disastrous consequences,\" contributing to a 47% increase in young people experiencing mental health harm in England since 2007.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/uks-20-year-social-media-experiment-must-end",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Excessive social media use is linked to increased risks of depression, anxiety, and loneliness.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/explore-mental-health/blogs/our-bold-new-recommendations-proposed-under-16s-social-media-ban",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifstudies.org/blog/how-parenting-and-self-control-mediate-the-link-between-social-media-use-and-youth-mental-health",
+            "publisher": "ifstudies.org",
+            "title": "ifstudies.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Research from the Institute for Family Studies indicates that teenagers spending over five hours daily on social media were 60% more likely to express suicidal thoughts, 2.8 times more likely to hold a negative view of their body, and 30% more likely to report significant sadness.",
+        "sources": [
+          {
+            "url": "https://ifstudies.org/blog/how-parenting-and-self-control-mediate-the-link-between-social-media-use-and-youth-mental-health",
+            "publisher": "ifstudies.org",
+            "title": "ifstudies.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Nearly half of children believe these systems are easy to evade, and approximately one-third admit to having bypassed them using methods like false birthdates, adult credentials, VPNs, or spoofing facial recognition.",
+        "sources": [
+          {
+            "url": "https://thecyberexpress.com/online-safety-act-age-verification/",
+            "publisher": "thecyberexpress.com",
+            "title": "thecyberexpress.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "There are significant concerns about the reliability of AI-driven age verification technologies.",
+        "sources": [
+          {
+            "url": "https://thecyberexpress.com/online-safety-act-age-verification/",
+            "publisher": "thecyberexpress.com",
+            "title": "thecyberexpress.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Implementing robust age verification also raises privacy concerns due to the potential collection of sensitive personal data, such as government-issued IDs or biometric information.",
+        "sources": [
+          {
+            "url": "https://thecyberexpress.com/online-safety-act-age-verification/",
+            "publisher": "thecyberexpress.com",
+            "title": "thecyberexpress.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.techradar.com/news/live/uk-social-media-ban-june-2026",
+            "publisher": "techradar.com",
+            "title": "techradar.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Critics also suggest that age verification could exclude millions of individuals who lack official identification or personal devices.",
+        "sources": [
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Potential for Circumvention and Unintended Consequences:**\nThere is a recognized risk that children may seek out riskier, unregulated alternatives or use Virtual Private Networks (VPNs) to circumvent restrictions.",
+        "sources": [
+          {
+            "url": "https://cepa.org/article/ban-or-reform-uk-cracks-down-on-social-media/",
+            "publisher": "cepa.org",
+            "title": "cepa.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.irishtimes.com/world/uk/2026/06/15/uk-government-to-announce-australia-plus-ban-on-social-media-for-under-16s/",
+            "publisher": "irishtimes.com",
+            "title": "irishtimes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "When age checks under the Online Safety Act first took effect, downloads of Proton VPN in the UK surged by 1,800%.",
+        "sources": [
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "This could potentially expose children to less safe online environments with fewer safeguards.",
+        "sources": [
+          {
+            "url": "https://cepa.org/article/ban-or-reform-uk-cracks-down-on-social-media/",
+            "publisher": "cepa.org",
+            "title": "cepa.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://itif.org/publications/2026/05/22/comments-uks-department-science-innovation-technology-growing-up-online-world/",
+            "publisher": "itif.org",
+            "title": "itif.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Role of Parents and Parental Controls:**\nThe policy aims to empower and support parents, with a YouGov survey revealing that 73% of parents find it difficult to keep their children safe online.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/54969-eight-in-ten-parents-say-social-media-use-has-a-negative-impact-on-children",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "A significant 77% of parents support a ban on social media for under-16s, and 82% believe social media negatively impacts children.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/54969-eight-in-ten-parents-say-social-media-use-has-a-negative-impact-on-children",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "However, some, including the U.S. government in its consultation response, argue that government-mandated usage limits might be overly restrictive and advocate for empowering parents with flexible tools rather than one-size-fits-all restrictions.",
+        "sources": [
+          {
+            "url": "https://uk.usembassy.gov/u-s-government-response-to-the-uk-consultation-growing-up-in-the-online-world/",
+            "publisher": "uk.usembassy.gov",
+            "title": "usembassy.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Impact on Social Connections and Freedom of Expression:**\nConcerns have been raised that a blanket ban could disconnect teenagers from platforms essential for communication, community building, and accessing information.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/beyond-the-headlines-what-research-shows-on-childrens-online-lives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://itif.org/publications/2026/05/22/comments-uks-department-science-innovation-technology-growing-up-online-world/",
+            "publisher": "itif.org",
+            "title": "itif.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Children themselves report using social media to build friendships and connect with supportive communities.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/beyond-the-headlines-what-research-shows-on-childrens-online-lives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kidsmentalhealthfoundation.org/mental-health-resources/technology-and-social-media/social-media-and-kids",
+            "publisher": "kidsmentalhealthfoundation.org",
+            "title": "kidsmentalhealthfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "There are also free expression concerns, as stringent age verification could limit access to information for under-18s and for adults unwilling to verify their age.",
+        "sources": [
+          {
+            "url": "https://www.indexoncensorship.org/2025/07/free-expression-concerns-over-online-safety-acts-age-verification-requirements/",
+            "publisher": "indexoncensorship.org",
+            "title": "indexoncensorship.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://uk.usembassy.gov/u-s-government-response-to-the-uk-consultation-growing-up-in-the-online-world/",
+            "publisher": "uk.usembassy.gov",
+            "title": "usembassy.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Ofcom:** Statistics from 2025 indicate that 97% of UK teenagers aged 13-15 own a mobile phone, and 19% of children aged 3-5 also own one.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10468/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/beyond-the-headlines-what-research-shows-on-childrens-online-lives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "This translates to an estimated 814,000 UK children in this age group engaging with social media.",
+        "sources": [
+          {
+            "url": "https://www.centreforsocialjustice.org.uk/newsroom/under-5s-using-social-media",
+            "publisher": "centreforsocialjustice.org.uk",
+            "title": "centreforsocialjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Ofcom also reported that 40% of children under 13 have a social media profile despite age restrictions.",
+        "sources": [
+          {
+            "url": "https://www.centreforsocialjustice.org.uk/newsroom/under-5s-using-social-media",
+            "publisher": "centreforsocialjustice.org.uk",
+            "title": "centreforsocialjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Ofcom, as the online safety regulator, has finalized over 40 child-safety measures under the Online Safety Act and will conduct a study on effective age assurance for verifying users over 16.",
+        "sources": [
+          {
+            "url": "https://www.newsweek.com/social-media-ban-teens-uk-us-regulation-tech-12072979",
+            "publisher": "newsweek.com",
+            "title": "newsweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10468/CBP-10468.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.techradar.com/news/live/uk-social-media-ban-june-2026",
+            "publisher": "techradar.com",
+            "title": "techradar.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/keeping-children-safe-online-changes-to-the-online-safety-act-explained",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **House of Commons Library:** Has published research briefings detailing the government's consultations on a social media ban for children and the provisions of the Children's Wellbeing and Schools Act 2026.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10468/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10468/CBP-10468.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They also highlighted challenges and consequences of age verification for online speech.",
+        "sources": [
+          {
+            "url": "https://www.indexoncensorship.org/2025/07/free-expression-concerns-over-online-safety-acts-age-verification-requirements/",
+            "publisher": "indexoncensorship.org",
+            "title": "indexoncensorship.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Mental Health Foundation:** Emphasizes that social media has contributed to a 47% increase in young people experiencing mental health harm in England since 2007.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/uks-20-year-social-media-experiment-must-end",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "They advocate for a \"Safety by Design\" approach and age ratings for platforms similar to film classifications.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/uks-20-year-social-media-experiment-must-end",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/explore-mental-health/blogs/our-bold-new-recommendations-proposed-under-16s-social-media-ban",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Centre for Social Justice (CSJ):** Based on Ofcom data, estimates nearly one million pre-school children (814,000 aged 3-5) are active on social media platforms.",
+        "sources": [
+          {
+            "url": "https://www.centreforsocialjustice.org.uk/newsroom/under-5s-using-social-media",
+            "publisher": "centreforsocialjustice.org.uk",
+            "title": "centreforsocialjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The CSJ highlights rising anxiety and distress linked to persistent screen stimulation.",
+        "sources": [
+          {
+            "url": "https://www.centreforsocialjustice.org.uk/newsroom/under-5s-using-social-media",
+            "publisher": "centreforsocialjustice.org.uk",
+            "title": "centreforsocialjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **YouGov:** A survey found that 77% of parents support a ban on social media for under-16s, and 82% believe social media has a negative impact on children.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/54969-eight-in-ten-parents-say-social-media-use-has-a-negative-impact-on-children",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Institute for Fiscal Studies (IFS) / Institute for Family Studies:** Research suggests a link between heavy social media use and lower mental health and body image issues, although these effects can be mediated by parental restrictions and a child's self-control.",
+        "sources": [
+          {
+            "url": "https://ifstudies.org/blog/how-parenting-and-self-control-mediate-the-link-between-social-media-use-and-youth-mental-health",
+            "publisher": "ifstudies.org",
+            "title": "ifstudies.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The IFS acknowledges that social media has emerged as an alternative to traditional play, which is crucial for development.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9Fl6J7hNRr4aeOh_fkH4mVrdAW51jBqpT_SrcLQtLS2VBE_pLiV6y4V7QfwmZgwpEKS9aXQEcP2Xqf-UIFr2zN5kxQI8-AFx8CY1NXOtYLXkU5bXfysWDrXbbW1952dK8iXoqXrzOXYE24RpGOCwXLILRp1jQmdz58w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Office for National Statistics (ONS):** The ONS publishes data related to home internet and social media usage, with the most recent readily available comprehensive data on these topics largely from 2019, though more recent Ofcom data is cited in other reports.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/datalist?filter=user_requested_data&page=2&sortBy=release_date",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Effectiveness of a Ban:** While many parents (77% in a YouGov survey) support a ban for under-16s",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/54969-eight-in-ten-parents-say-social-media-use-has-a-negative-impact-on-children",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "They argue that it might not be effective in incentivizing companies to prioritize safety by design and could push children to less regulated spaces.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/explore-mental-health/blogs/our-bold-new-recommendations-proposed-under-16s-social-media-ban",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "Correlation of Harm:** Academics from Birkbeck College and the University of Cambridge noted \"very little, if any, causal research\" definitively linking digital devices or social media to adolescent brain harm, suggesting that observed negative impacts might be correlational rather than causational.",
+        "sources": [
+          {
+            "url": "https://www.techradar.com/news/live/uk-social-media-ban-june-2026",
+            "publisher": "techradar.com",
+            "title": "techradar.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "This contrasts with the strong assertions from the Mental Health Foundation and others about social media's role in mental health decline.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/uks-20-year-social-media-experiment-must-end",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/explore-mental-health/blogs/our-bold-new-recommendations-proposed-under-16s-social-media-ban",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Protection:** Age verification systems raise significant privacy concerns due to the potential for extensive data collection.",
+        "sources": [
+          {
+            "url": "https://thecyberexpress.com/online-safety-act-age-verification/",
+            "publisher": "thecyberexpress.com",
+            "title": "thecyberexpress.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "However, the government states that such measures must confirm age without collecting or storing unnecessary personal data.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/keeping-children-safe-online-changes-to-the-online-safety-act-explained",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Unintended Consequences and Circumvention:** While proponents believe the policy will enhance safety, critics are concerned it will be difficult to implement and could simply lead children to find ways around the restrictions, potentially exposing them to greater risks in unregulated online environments.",
+        "sources": [
+          {
+            "url": "https://cepa.org/article/ban-or-reform-uk-cracks-down-on-social-media/",
+            "publisher": "cepa.org",
+            "title": "cepa.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/blocking-access-harmful-content-will-not-protect-children-online-no-matter-how",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://itif.org/publications/2026/05/22/comments-uks-department-science-innovation-technology-growing-up-online-world/",
+            "publisher": "itif.org",
+            "title": "itif.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

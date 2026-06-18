@@ -1,0 +1,538 @@
+{
+  "policy_id": "ref-10-improve-hmrc-tax-collection",
+  "party": "Reform UK",
+  "policy_title": "Improve HMRC tax collection",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "Collecting unpaid taxes could narrow inequality if it falls mainly on wealthy evaders, but nearly 60% of the tax gap is currently attributed to small businesses and almost half to ordinary taxpayer error \u2014 so the distributional effect depends heavily on which parts of the gap HMRC actually targets, and the policy gives no specifics. Without knowing who bears the additional collection, the direction on inequality cannot be resolved.",
+    "biggest_unknown": "Whether additional HMRC enforcement effort would fall predominantly on wealthy individuals and large corporations (progressive, narrows gap) or on small businesses and error-prone ordinary taxpayers (regressive or neutral on inequality).",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy aims to improve HMRC competence to collect tens of billions in unpaid taxes, attributed to understaffing and bad management.",
+        "evidence_id": "M",
+        "quote": "Reform UK will improve HMRC's competence to collect tens of billions in unpaid taxes, which they attribute to understaffing and bad management."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The total tax gap in 2023-24 was \u00a346.8 billion, representing 5.3% of total theoretical tax liabilities.",
+        "evidence_id": "E1",
+        "quote": "HMRC's latest estimates for the 2023-24 tax year place the total \"tax gap\" \u2013 the difference between the amount of tax that should theoretically be collected and what is actually paid \u2013 at \u00a346.8 billion, representing 5.3% of total theoretical tax liabilities."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Almost half of the tax gap \u2014 \u00a321.7 billion \u2014 is attributed to taxpayer error or failure to take reasonable care, not deliberate evasion.",
+        "evidence_id": "E17",
+        "quote": "Almost half of the tax gap, \u00a321.7 billion in 2023-24, is attributed to taxpayer error or a failure to take reasonable care, with \u00a314.6 billion due to the latter and \u00a37.1 billion due to error."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Small businesses account for 60% (\u00a328 billion) of the tax gap, up from 48% in 2019-20, making them the dominant source.",
+        "evidence_id": "E19",
+        "quote": "The share of the tax gap attributed to small businesses has significantly increased, rising from 48% in 2019-20 to 60% (\u00a328.0 billion) in 2023-24."
+      },
+      {
+        "tier": "measurable",
+        "claim": "HMRC compliance work with wealthy individuals raised \u00a35.2 billion in 2023-24, suggesting some progressive enforcement already occurs.",
+        "evidence_id": "E8",
+        "quote": "HMRC's compliance work with wealthy individuals has already seen a substantial increase, collecting \u00a35.2 billion in 2023-24, up from \u00a32.2 billion in 2019-20."
+      },
+      {
+        "tier": "projected",
+        "claim": "Some organisations argue the official tax gap understates sophisticated avoidance by multinationals and offshore evasion by wealthy individuals.",
+        "evidence_id": "E22",
+        "quote": "They argue that the official figures do not fully account for sophisticated tax avoidance strategies like profit shifting by multinational corporations and offshore tax evasion by wealthy individuals."
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Distributional incidence of additional tax collected \u2014 what share falls on wealthy individuals/large corporations vs small businesses and ordinary taxpayers making errors",
+      "estimate_range": "Small businesses and taxpayer error together account for well over half the gap; wealthy individual evasion is a smaller but non-trivial share; without a targeting strategy the split of additional collection is unresolvable"
+    },
+    "rationale": "Improved HMRC enforcement could improve O14 if it disproportionately recovers taxes owed by wealthy individuals and large corporations \u2014 this would be straightforwardly progressive, narrowing the gap. There is evidence that HMRC compliance work with wealthy individuals has grown and is lucrative (E8), and that some advocacy sources believe the wealthy/corporate share of evasion is understated (E22). However, the current measured tax gap is dominated by small businesses at 60% (E19) and by ordinary taxpayer error at nearly half of the total (E17). If improved HMRC competence simply collects more across the board, a large share of the additional revenue would come from small business owners and error-prone ordinary taxpayers \u2014 groups who are not the wealthiest, and whose additional tax burden could be regressive or neutral relative to O14. The policy text names no targeting strategy, no instrument, and no allocation of effort between compliance segments. Without knowing which part of the gap enforcement is aimed at, it is impossible to determine whether the distributional effect narrows or widens the gap. The crux \u2014 who pays \u2014 is unresolved by the evidence provided, making a direction verdict on O14 genuinely too uncertain.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/measuring-tax-gaps/1-tax-gaps-summary",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.mynewsdesk.com/uk/hm-revenue-customs-hmrc/pressreleases/tax-gap-estimated-at-5-dot-3-percent-3392916",
+        "publisher": "mynewsdesk.com",
+        "title": "mynewsdesk.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.tax.org.uk/tax-gap-2025",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/827/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.theguardian.com/business/2025/may/16/wealthy-britons-avoiding-more-tax-than-thought-spending-watchdog-says",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nao.org.uk/press-releases/hmrc-secures-more-of-the-tax-due-from-wealthy-people-with-further-gains-possible/",
+        "publisher": "nao.org.uk",
+        "title": "nao.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.taxwatchuk.org/wp-content/uploads/2019/09/TaxGap-briefing.pdf",
+        "publisher": "taxwatchuk.org",
+        "title": "taxwatchuk.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://taxjustice.uk/blog/tax-gap-2025-increase-press-release/",
+        "publisher": "taxjustice.uk",
+        "title": "taxjustice.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://taxjustice.uk/blog/hmrc-needs-more-resources-to-claw-back-40-billion-in-unpaid-tax/",
+        "publisher": "taxjustice.uk",
+        "title": "taxjustice.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0521,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-anchored to their cited evidence and correctly tiered. The too-uncertain direction is genuinely supported by competing claims on both sides (small business/error dominance vs wealthy individual enforcement). Magnitude and time_horizon are correctly n/a. The crux_parameter and estimate_range are substantive, not a lazy hedge. No party identity or motive attribution in the rationale. Advocacy sources (taxjustice.uk, taxwatchuk.org) are used to support specific factual claims or acknowledged as 'some organisations argue' framing \u2014 not as sole basis for the verdict direction. E8 (parliamentary/guardian/NAO multi-sourced) appropriately supports the wealthy compliance claim. The verdict is internally consistent and publication-ready."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will improve HMRC's competence to collect tens of billions in unpaid taxes, which they attribute to understaffing and bad management.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "HMRC's latest estimates for the 2023-24 tax year place the total \"tax gap\" \u2013 the difference between the amount of tax that should theoretically be collected and what is actually paid \u2013 at \u00a346.8 billion, representing 5.3% of total theoretical tax liabilities.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/measuring-tax-gaps/1-tax-gaps-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mynewsdesk.com/uk/hm-revenue-customs-hmrc/pressreleases/tax-gap-estimated-at-5-dot-3-percent-3392916",
+            "publisher": "mynewsdesk.com",
+            "title": "mynewsdesk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This means HMRC collected 94.7% of all tax due.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/measuring-tax-gaps/1-tax-gaps-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mynewsdesk.com/uk/hm-revenue-customs-hmrc/pressreleases/tax-gap-estimated-at-5-dot-3-percent-3392916",
+            "publisher": "mynewsdesk.com",
+            "title": "mynewsdesk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "While the tax gap as a proportion of total theoretical liabilities has seen a long-term reduction from 7.4% in 2005-06, its absolute value has increased from \u00a332.5 billion to \u00a346.8 billion over the same period.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/measuring-tax-gaps/1-tax-gaps-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Returns on Investment:** The House of Commons Library noted that investment in HMRC more than pays for itself, with a minimum return of \u00a310 for every \u00a31 invested in HMRC staffing.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm201415/cmselect/cmpubacc/974/974.pdf",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "For compliance work with large companies, this figure rises significantly, generating \u00a346.33 for every pound spent.",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/tax-gap-2025-increase-press-release/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Specific Potential Gains:**\n    *   TaxWatch suggests that if HMRC invested more in targeted audits, it could \"relatively easily bring in an additional \u00a38bn in revenue a year.\"",
+        "sources": [
+          {
+            "url": "https://www.taxwatchuk.org/wp-content/uploads/2019/09/TaxGap-briefing.pdf",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   Tax Policy Associates estimates that if HMRC had closed the small business tax gap as effectively as other tax gaps, an additional \u00a315 billion could be collected annually.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/22/hmrcs-failure-to-close-the-small-business-tax-gap-costs-15bn-year/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2025/06/19/the-small-business-tax-crisis-40-of-tax-due-isnt-paid/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   HMRC's compliance work with wealthy individuals has already seen a substantial increase, collecting \u00a35.2 billion in 2023-24, up from \u00a32.2 billion in 2019-20.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/827/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2025/may/16/wealthy-britons-avoiding-more-tax-than-thought-spending-watchdog-says",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nao.org.uk/press-releases/hmrc-secures-more-of-the-tax-due-from-wealthy-people-with-further-gains-possible/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   A government commitment to further increase investment in HMRC at the 2025 budget is forecast to raise \u00a310 billion by 2029-30.",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/how-to-raise-50-billion-for-public-services-our-ten-tax-reforms/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Impact of Collection:** Tax Justice UK highlights that closing the tax gap by just 10% could cover the cost of ending the two-child benefit cap, while a 20% reduction could fund approximately 63,000 nurses, 44,000 teachers, and 41,000 police officers.",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/hmrc-needs-more-resources-to-claw-back-40-billion-in-unpaid-tax/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Under-resourcing:** The Public Accounts Committee (PAC) \"slammed the government last year for underfunding HMRC\" and called for more investment in tax investigations.",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/hmrc-needs-more-resources-to-claw-back-40-billion-in-unpaid-tax/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "HMRC has faced \"enormous cuts to its budget over the last ten years.\"",
+        "sources": [
+          {
+            "url": "https://www.taxwatchuk.org/wp-content/uploads/2019/09/TaxGap-briefing.pdf",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This has led to struggles in retaining experienced staff, partly due to uncompetitive pay and increased workload post-Brexit.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/15f6vz8/whats_gone_wrong_at_the_disastrously_understaffed/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Experienced personnel moved to other projects during Brexit and the pandemic, and did not return, contributing to declining staff training quality.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/22/hmrcs-failure-to-close-the-small-business-tax-gap-costs-15bn-year/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2025/06/19/the-small-business-tax-crisis-40-of-tax-due-isnt-paid/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Customer Service Decline:** HMRC's customer service has deteriorated, with only 66.4% of calls answered in 2023-24 (against an 85% target) and average waiting times exceeding 23 minutes.",
+        "sources": [
+          {
+            "url": "https://www.taxspoc.com/articles/hmrc-under-fire-for-poor-customer-service-and-widening-tax-gap/",
+            "publisher": "taxspoc.com",
+            "title": "taxspoc.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Critics argue that digital alternatives have not adequately compensated for these shortcomings.",
+        "sources": [
+          {
+            "url": "https://www.taxspoc.com/articles/hmrc-under-fire-for-poor-customer-service-and-widening-tax-gap/",
+            "publisher": "taxspoc.com",
+            "title": "taxspoc.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Complexity and Error:** Almost half of the tax gap, \u00a321.7 billion in 2023-24, is attributed to taxpayer error or a failure to take reasonable care, with \u00a314.6 billion due to the latter and \u00a37.1 billion due to error.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/tax-gap-2025",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This suggests issues with the complexity of the tax system itself.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/tax-gap-2025",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Small Business Compliance:** The share of the tax gap attributed to small businesses has significantly increased, rising from 48% in 2019-20 to 60% (\u00a328.0 billion) in 2023-24.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/measuring-tax-gaps/1-tax-gaps-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/tax-gap-2025",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This suggests particular challenges in ensuring compliance within this sector.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/22/hmrcs-failure-to-close-the-small-business-tax-gap-costs-15bn-year/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2025/06/19/the-small-business-tax-crisis-40-of-tax-due-isnt-paid/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **True Scale of the Tax Gap:** HMRC's official \u00a346.8 billion tax gap is considered an underestimate by some organizations, such as TaxWatch and Tax Justice UK.",
+        "sources": [
+          {
+            "url": "https://www.taxwatchuk.org/wp-content/uploads/2019/09/TaxGap-briefing.pdf",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/tax-gap-2025-increase-press-release/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/hmrc-needs-more-resources-to-claw-back-40-billion-in-unpaid-tax/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They argue that the official figures do not fully account for sophisticated tax avoidance strategies like profit shifting by multinational corporations and offshore tax evasion by wealthy individuals.",
+        "sources": [
+          {
+            "url": "https://www.taxwatchuk.org/wp-content/uploads/2019/09/TaxGap-briefing.pdf",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/tax-gap-2025-increase-press-release/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/hmrc-needs-more-resources-to-claw-back-40-billion-in-unpaid-tax/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/827/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The National Audit Office (NAO) also indicated that the actual level of non-compliance among wealthy individuals might be higher than HMRC's estimate of \u00a31.9 billion for the wealthy tax gap in 2022-23.",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/tax-gap-2025-increase-press-release/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2025/may/16/wealthy-britons-avoiding-more-tax-than-thought-spending-watchdog-says",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nao.org.uk/press-releases/hmrc-secures-more-of-the-tax-due-from-wealthy-people-with-further-gains-possible/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The IFS stated that Reform UK's proposals for tax cuts would cost \"tens of billions of pounds a year more than stated,\" and spending reductions would save less than claimed.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmRui5vv_RSDAk99QPWjcGhD7oO_C2NgzcHLLftNLEPfk2llhR5Vs5dQk6KiJd5sNI_ZGB3UqsT3YqI9cXWwEofh4CbVNEwA9h08G4iSFedsWKRD_hGYZQ_7OJfPImKGkLIWPlwDSv-UdZo6E59zxcZ_Q=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Tax Policy Associates similarly highlighted an unfunded cost of at least \u00a333 billion in Reform UK's tax cut proposals.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

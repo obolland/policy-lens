@@ -1,0 +1,419 @@
+{
+  "policy_id": "ref-38-urgent-sentencing-review-with-automatic-life",
+  "party": "Reform UK",
+  "policy_title": "Urgent sentencing review with automatic life imprisonment for repeat violent offenders",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Mandatory life sentences for a second violent offence remove judges' ability to tailor punishment to individual circumstances, which courts have previously ruled conflicts with human rights law. The main risk to equal treatment is that identical sentences are imposed regardless of the facts of a case, undermining due process.",
+    "biggest_unknown": "Whether Parliament would legislate to override or modify the Human Rights Act framework, or whether courts would again neutralise the mandatory element as they did in 2000.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy introduces mandatory life sentences for anyone committing a second violent or serious offence, with no stated judicial discretion.",
+        "evidence_id": "M",
+        "quote": "introducing mandatory life sentences for those committing second violent or serious offences"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A very similar 'two-strikes' mandatory life sentence law was previously enacted in England and Wales but the Court of Appeal largely neutralised it under the Human Rights Act, restoring judicial discretion in exceptional circumstances.",
+        "evidence_id": "E3",
+        "quote": "the Court of Appeal largely \"neutralised\" this in 2000 under the Human Rights Act, restoring judicial discretion in \"exceptional circumstances\" where an offender was not deemed a danger to the public"
+      },
+      {
+        "tier": "measurable",
+        "claim": "That mandatory life sentence for a second serious offence was subsequently repealed by the Criminal Justice Act 2003.",
+        "evidence_id": "E4",
+        "quote": "The mandatory life sentence for a second serious offense was later repealed by the Criminal Justice Act 2003"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Concern about the mandatory element conflicting with human rights protections was a primary reason the earlier two-strikes law was neutralised.",
+        "evidence_id": "E20",
+        "quote": "This was a primary concern when the earlier \"two-strikes\" law was effectively neutralised by the Court of Appeal"
+      }
+    ],
+    "rationale": "O9's core indicators include due process and the rule of law. The policy's defining feature \u2014 mandatory life imprisonment on a second serious offence, with no stated exceptions \u2014 removes judicial discretion to weigh the facts of an individual case. This is not a hypothetical concern: the evidence shows an almost identical English law was enacted before, challenged, and substantially neutralised by the Court of Appeal in 2000 on human rights grounds, then repealed in 2003. The removal of proportionality assessment \u2014 the ability of a court to consider whether a particular individual poses a danger and deserves a particular sentence \u2014 is a structural weakening of due process. Under the Human Rights Act's proportionality requirements, blanket mandatory sentences that cannot be departed from, even in exceptional circumstances, risk being incompatible with Article 5 (right to liberty) and Article 7 (proportionality of punishment). The effect on equal treatment also matters: without discretion, people in materially different circumstances receive identical sentences, which cuts against the principle that like cases be treated alike and unlike cases differently. The magnitude is assessed as minor rather than moderate because (a) courts have historically found ways to restore discretion when faced with incompatible mandatory rules, as they did in 2000, and (b) the policy would affect a defined subset of repeat serious offenders rather than the general population. The confidence is moderate because the judicial response to any new legislation is uncertain \u2014 Parliament could legislate to restrict courts' ability to disapply the mandatory rule, but the evidence does not tell us whether that would be attempted.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.theguardian.com/uk/2000/nov/10/humanrights.world",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-03-31/HL6365/",
+        "publisher": "questions-statements.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.justice.gc.ca/eng/rp-pr/csj-sjc/ccs-ajc/rr05_10/p3.html",
+        "publisher": "justice.gc.ca",
+        "title": "justice.gc.ca",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0341,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are well-supported by their cited evidence. The stated-tier claim accurately reflects the policy text. The measurable claims about the 2000 Court of Appeal neutralisation (E3), the 2003 repeal (E4), and human rights as the primary concern (E20) are each supported by quotes that entail the claims as stated \u2014 none overstate causation or imply consensus beyond what the evidence shows. Tier integrity is maintained: the historical legal events are correctly coded measurable. The direction (worsens) and magnitude (minor) are reasonable given the evidence: removal of judicial discretion is a genuine due-process concern under O9, and the minor magnitude is justified by the historical pattern of courts restoring discretion. The biggest_unknown is concrete and honest. The rationale stays on the modelled effect on due process and equal treatment, avoids motive-attribution, and treats the evidence straightforwardly. No lever leakage \u2014 prison population and cost evidence in the evidence units is not used in the verdict. No false balance issue \u2014 the verdict reaches a single direction with appropriate hedging. E4 cites justice.gc.ca (Canadian government source) for a claim about English law; this is a minor provenance concern but not blocking since the claim is about a specific named English statute and is corroborated by E3's framing. Worth flagging as a warning."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will launch an urgent sentencing review, introducing mandatory life sentences for those committing second violent or serious offences.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's justice manifesto includes an \"urgent sentencing review\" with \"automatic life imprisonment for those committing second violent or serious offences.\"",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This aligns with broader \"zero tolerance\" plans, which also propose mandatory life imprisonment for drug dealing and trafficking, and whole-life orders (meaning no parole) for child rapists.",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/jan/03/reform-uk-says-child-rapists-would-face-whole-life-jail-terms-if-elected",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/reform-uk-government-lucy-letby-reform-labour-b2894017.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "However, the Court of Appeal largely \"neutralised\" this in 2000 under the Human Rights Act, restoring judicial discretion in \"exceptional circumstances\" where an offender was not deemed a danger to the public.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk/2000/nov/10/humanrights.world",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-03-31/HL6365/",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The mandatory life sentence for a second serious offense was later repealed by the Criminal Justice Act 2003, although mandatory minimum terms for repeat drug and domestic burglars and firearms offenses remain in force.",
+        "sources": [
+          {
+            "url": "https://www.justice.gc.ca/eng/rp-pr/csj-sjc/ccs-ajc/rr05_10/p3.html",
+            "publisher": "justice.gc.ca",
+            "title": "justice.gc.ca",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "More recently, \"two-strike\" rules for repeat knife offenders were introduced, though data shows 38% of adult repeat offenders still avoided immediate jail in the year ending September 2023.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/crime/knife-crime-two-strike-jail-b2515870.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "A \"whole life order\" means the offender is never considered for release.",
+        "sources": [
+          {
+            "url": "https://prisonreformtrust.org.uk/wp-content/uploads/2023/06/46-Lifer-booklet-v1.1-final.pdf",
+            "publisher": "prisonreformtrust.org.uk",
+            "title": "prisonreformtrust.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn03626/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.quora.com/Is-the-reason-UK-life-sentences-are-usually-shortly-reduced-due-to-the-fact-that-they-can-t-afford-to-keep-people-in-jail-for-so-long-If-so-how-can-the-US-afford-it",
+            "publisher": "quora.com",
+            "title": "quora.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Reform UK's proposal for repeat violent offenders appears to imply the former, while for child rapists they specify \"whole life orders.\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jan/03/reform-uk-says-child-rapists-would-face-whole-life-jail-terms-if-elected",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/reform-uk-government-lucy-letby-reform-labour-b2894017.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The UK already had the highest imprisonment rate in Western Europe as of 2019.",
+        "sources": [
+          {
+            "url": "https://www.brettwilson.co.uk/prison-populations-sentence-inflation-and-the-future-of-punishment/",
+            "publisher": "brettwilson.co.uk",
+            "title": "brettwilson.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Ministry of Justice (MoJ) projected the prison population to rise to 98,700 by 2026.",
+        "sources": [
+          {
+            "url": "https://www.brettwilson.co.uk/prison-populations-sentence-inflation-and-the-future-of-punishment/",
+            "publisher": "brettwilson.co.uk",
+            "title": "brettwilson.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **\"Sentence Inflation\":** The Prison Reform Trust (PRT) estimates that sentencing changes alone account for approximately 16,000 additional prisoners since 2003.",
+        "sources": [
+          {
+            "url": "https://www.brettwilson.co.uk/prison-populations-sentence-inflation-and-the-future-of-punishment/",
+            "publisher": "brettwilson.co.uk",
+            "title": "brettwilson.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The number of people serving mandatory life sentences has doubled since 1993, with the number of life sentences handed down rising by 240% since 2000.",
+        "sources": [
+          {
+            "url": "https://www.brettwilson.co.uk/prison-populations-sentence-inflation-and-the-future-of-punishment/",
+            "publisher": "brettwilson.co.uk",
+            "title": "brettwilson.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The average minimum term for mandatory life sentences for murder increased from 12.5 years in 2003 to 20 years in 2020.",
+        "sources": [
+          {
+            "url": "https://prisonreformtrust.org.uk/dramatic-rise-in-numbers-spending-10-years-or-more-in-prison/",
+            "publisher": "prisonreformtrust.org.uk",
+            "title": "prisonreformtrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "under 80,000 places), with 71 out of 122 jails in England and Wales holding more people than designed.",
+        "sources": [
+          {
+            "url": "https://howardleague.org/what-is-sentence-inflation/",
+            "publisher": "howardleague.org",
+            "title": "howardleague.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Reform UK acknowledges prison capacity issues and proposes building 10,000 new detention places and commissioning disused military bases.",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.changing-lives.org.uk/insights/understanding-party-positions-on-criminal-justice",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/reform-uk-government-lucy-letby-reform-labour-b2894017.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The average annual cost of keeping an individual in prison was \u00a351,108 for 2022-23.",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2024-07-17/hl82",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Historical Precedent:** The abolished Imprisonment for Public Protection (IPP) sentences, which left inmates languishing for decades, cost British taxpayers an estimated \u00a3145 million in 2024 and over \u00a31.6 billion in the first 10 financial years after their abolition.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/crime/prison-costs-ipp-sentence-ministry-of-justice-b2719484.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/crime/prison-costs-ipp-sentence-ministry-of-justice-b2719484.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Reform UK proposes increasing the criminal justice budget from \u00a310 billion to \u00a312 billion to support these changes and ensure more staff.",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.changing-lives.org.uk/insights/understanding-party-positions-on-criminal-justice",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Sentencing Council concluded in 2022 that there is \"no strong evidence that severe sentences deter people from committing crime.\"",
+        "sources": [
+          {
+            "url": "https://howardleague.org/what-is-sentence-inflation/",
+            "publisher": "howardleague.org",
+            "title": "howardleague.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "This is supported by data showing that violent crime in England and Wales decreased by 72% between 1995 and 2020, despite a doubling of the prison population, suggesting no tangible link between increased incarceration and reduced crime rates.",
+        "sources": [
+          {
+            "url": "https://www.brettwilson.co.uk/prison-populations-sentence-inflation-and-the-future-of-punishment/",
+            "publisher": "brettwilson.co.uk",
+            "title": "brettwilson.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This was a primary concern when the earlier \"two-strikes\" law was effectively neutralised by the Court of Appeal.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk/2000/nov/10/humanrights.world",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The Howard League notes that \"longer sentences mean a longer wait for interventions that may help people to get their lives back on track, such as access to behaviour courses or higher education, transfers to open prisons, or release by the Parole Board.\"",
+        "sources": [
+          {
+            "url": "https://howardleague.org/what-is-sentence-inflation/",
+            "publisher": "howardleague.org",
+            "title": "howardleague.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "This frustration can contribute to despair, with self-harm incidents in prisons rising by 24% in the 12 months to March 2024.",
+        "sources": [
+          {
+            "url": "https://howardleague.org/what-is-sentence-inflation/",
+            "publisher": "howardleague.org",
+            "title": "howardleague.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

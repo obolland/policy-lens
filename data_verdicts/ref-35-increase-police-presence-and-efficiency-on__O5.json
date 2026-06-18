@@ -1,0 +1,563 @@
+{
+  "policy_id": "ref-35-increase-police-presence-and-efficiency-on",
+  "party": "Reform UK",
+  "policy_title": "Increase police presence and efficiency on the beat",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Putting more officers on the beat, cutting paperwork, and using better technology are all evidence-backed levers for improving public safety and confidence \u2014 but the size of the effect depends heavily on how deployment is targeted, and key details like funding and numbers are unspecified.",
+    "biggest_unknown": "Whether deployment is targeted at crime hotspots (evidence-supported) or simply increases random patrol (shown to have no crime-reduction effect), and whether the policy is funded at sufficient scale to move population-level crime indicators.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to returning police to the beat, using better technology, reducing paperwork, and allowing PCSOs to become police officers before phasing out the role.",
+        "evidence_id": "M",
+        "quote": "Reform UK will ensure police return to the beat, utilise better technology, reduce paperwork, and allow PCSOs to become police officers before phasing out the role."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The proportion of people seeing officers on foot patrol weekly or more has fallen sharply, from 39% in 2011 to 11% in 2025, and public satisfaction with local police has dropped from 62% to 49% over the same period.",
+        "evidence_id": "E4",
+        "quote": "the proportion of people seeing officers on foot patrol weekly or more has significantly decreased from 39% in March 2011 to 11% in March 2025"
+      },
+      {
+        "tier": "projected",
+        "claim": "Increased visible police presence is associated with greater public confidence and reassurance, which is a component of perceived safety.",
+        "evidence_id": "E3",
+        "quote": "Increased visible police presence is strongly associated with greater public confidence, reassurance, and perceptions of police effectiveness and fairness."
+      },
+      {
+        "tier": "projected",
+        "claim": "Random or reactive foot patrols have no demonstrated crime-reduction effect; the deployment strategy \u2014 particularly hotspot targeting \u2014 is what matters.",
+        "evidence_id": "E2",
+        "quote": "Random or reactive patrols, where officers pass through an area regardless of the crime rate, have shown no crime reduction effect."
+      },
+      {
+        "tier": "projected",
+        "claim": "AI tools in policing are projected to free up 6 million hours of police work per year, equivalent to 3,000 officers, by automating routine tasks and reducing bureaucracy.",
+        "evidence_id": "E10",
+        "quote": "aiming to free up 6 million hours of police work per year (equivalent to 3,000 officers) by automating routine tasks and reducing bureaucracy, allowing officers to focus on frontline duties"
+      },
+      {
+        "tier": "projected",
+        "claim": "Technology is identified as a key driver for improving crime prevention, detection, and operational efficiency.",
+        "evidence_id": "E7",
+        "quote": "Technology is seen as a key driver for improving performance in crime prevention, detection, and increasing efficiency."
+      },
+      {
+        "tier": "measurable",
+        "claim": "PCSOs currently focus on visible patrolling, tackling anti-social behaviour, and community engagement, but have limited powers including no power of arrest.",
+        "evidence_id": "E16",
+        "quote": "Police Community Support Officers (PCSOs) are uniformed staff with limited powers (e.g., no power of arrest) focused on visible patrolling, tackling anti-social behaviour, and community engagement."
+      },
+      {
+        "tier": "projected",
+        "claim": "Targeted PCSO patrolling at hotspots has produced measurable crime-prevention effects \u2014 an increase of 21 minutes daily per hotspot prevented crimes leading to an estimated 2,914 days of imprisonment.",
+        "evidence_id": "E17",
+        "quote": "An increase of 21 minutes of daily PCSO patrolling per hot spot (equivalent to two full-time PCSOs costing around \u00a350,000 annually) prevented crimes leading to an estimated 2,914 days of imprisonment"
+      }
+    ],
+    "rationale": "The policy bundles three distinct levers \u2014 more visible patrol, efficiency gains via technology and paperwork reduction, and a PCSO-to-officer pipeline \u2014 each of which has some evidential support for improving safety outcomes under O5, but each conditioned on implementation detail.\n\nOn visible patrol: the measurable baseline shows a dramatic decline in perceived police presence (39% to 11% seeing foot patrols weekly) and falling public satisfaction. Reversing this trend would plausibly improve public confidence and perceptions of safety, which are genuine O5 indicators. However, the evidence is clear that random patrol has no crime-reduction effect; hotspot-targeted deployment is what generates actual crime reduction. The policy does not specify targeting strategy, so the O5 benefit is contingent.\n\nOn technology and paperwork: the AI and technology evidence suggests substantial efficiency gains are already in train (6 million hours/year projected nationally), meaning the policy's stated direction aligns with an ongoing trajectory rather than representing a uniquely additional instrument. Reducing paperwork has a plausible mechanism \u2014 officers avoiding arrests due to administrative burden is noted in the evidence \u2014 so gains here are credible but hard to quantify without a committed budget or statutory instrument.\n\nOn the PCSO phase-out: the Cambridge hotspot evidence shows targeted PCSO patrol has real, measurable crime-prevention value at low cost. Phasing out PCSOs removes this capacity unless replaced by a comparable number of warranted officers deployed similarly \u2014 a transition risk the policy does not address.\n\nOn counterfactual: the government has already deployed 3,123 additional neighbourhood officers and PCSOs ahead of target, and is investing \u00a3140m+ in technology. Some of the gains this policy promises are therefore already being delivered, limiting the marginal additionality.\n\nOverall, the direction is a genuine 'improves' on O5's safety and confidence indicators, but the magnitude is minor because the effect depends on hotspot targeting (unspecified), the PCSO transition carries risk, and much of the technology agenda is already in motion. Confidence is moderate given solid evidence on the mechanisms but absence of committed instruments or funding in the policy text.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/perceptionandexperienceofpoliceandcriminaljusticesystemenglandandwales/yearendingmarch2025",
+        "publisher": "ons.gov.uk",
+        "title": "ons.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/visible-police-patrol",
+        "publisher": "college.police.uk",
+        "title": "college.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/public-perceptions-of-policing-a-review-of-research-and-literature/public-perceptions-of-policing-a-review-of-research-and-literature",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://consult.scotland.police.uk/strategy-insight-and-innovation/policing-visibility-research/",
+        "publisher": "consult.scotland.police.uk",
+        "title": "scotland.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.open-access.bcu.ac.uk/5429/1/PPR.pdf",
+        "publisher": "open-access.bcu.ac.uk",
+        "title": "bcu.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://news.npcc.police.uk/releases/new-gbp-115m-ai-centre-for-policing-will-help-catch-more-criminals-quicker",
+        "publisher": "news.npcc.police.uk",
+        "title": "npcc.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://polfed.org/derbyshire/news/2026/key-takeaways-from-home-secretary-s-white-paper-on-policing-reform/",
+        "publisher": "polfed.org",
+        "title": "polfed.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://lordslibrary.parliament.uk/technology-in-policing-advances-and-limitations/",
+        "publisher": "lordslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Police_community_support_officer",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.recruitment-dcp-dp.org/media/sxsnxhce/your-guide-to-becoming-a-pcso.pdf",
+        "publisher": "recruitment-dcp-dp.org",
+        "title": "recruitment-dcp-dp.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.cam.ac.uk/research/news/policing-two-officers-on-the-beat-prevent-86-assaults-and-save-thousands-in-prison-costs",
+        "publisher": "cam.ac.uk",
+        "title": "cam.ac.uk",
+        "source_type": "academic"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0453,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are appropriately tiered and the quoted evidence entails the claims made. E3 association claim is correctly marked projected. E10 AI projection is correctly marked projected. The E16 PCSO claim is a reasonable 'measurable' from a Wikipedia/recruitment source \u2014 weak sourcing but not blocking given it describes a well-established public fact. The rationale does not impute motive or party identity; it judges mechanistic effect. The 'improves/minor/moderate' verdict is consistent with the claims: evidence supports directional improvement but magnitude is genuinely conditioned on targeting strategy. No false balance \u2014 the verdict does not reach mixed/too-uncertain. One minor note: E14 and E15 (reddit.com sources) are not cited in the claims, so no blocking source_support issue arises. The PCSO phase-out transition risk is acknowledged in the rationale, appropriately tempering magnitude. No blocking issues found."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [
+        {
+          "claim": "The connection between police force size and crime is described by some research as weak and inconsistent, with deployment strategy being more critical than numbers alone.",
+          "evidence_id": "E6",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will ensure police return to the beat, utilise better technology, reduce paperwork, and allow PCSOs to become police officers before phasing out the role.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Property crimes saw an 18% relative decrease.",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/crime-reduction-toolkit/increasing-police-patrols-over-large-areas",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Random or reactive patrols, where officers pass through an area regardless of the crime rate, have shown no crime reduction effect.",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/visible-police-patrol",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Public Perception and Confidence:** Increased visible police presence is strongly associated with greater public confidence, reassurance, and perceptions of police effectiveness and fairness.",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/visible-police-patrol",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/public-perceptions-of-policing-a-review-of-research-and-literature/public-perceptions-of-policing-a-review-of-research-and-literature",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consult.scotland.police.uk/strategy-insight-and-innovation/policing-visibility-research/",
+            "publisher": "consult.scotland.police.uk",
+            "title": "scotland.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.open-access.bcu.ac.uk/5429/1/PPR.pdf",
+            "publisher": "open-access.bcu.ac.uk",
+            "title": "bcu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "However, public satisfaction with local police doing a good or excellent job has fallen from 62% in March 2015 to 49% in March 2025, and the proportion of people seeing officers on foot patrol weekly or more has significantly decreased from 39% in March 2011 to 11% in March 2025, according to the Office for National Statistics (ONS).",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/perceptionandexperienceofpoliceandcriminaljusticesystemenglandandwales/yearendingmarch2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Each \u00a31 invested in policing is estimated to yield \u00a34.17 in economic benefits.",
+        "sources": [
+          {
+            "url": "https://science.police.uk/site/assets/files/5994/report_1_-_birmingham_university_-_the_contribution_of_policing_to_economic_growth.pdf",
+            "publisher": "science.police.uk",
+            "title": "science.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Expert Disagreement:** While a general increase in police numbers can be associated with lower crime, some research suggests the connection between police force size and crime is weak and inconsistent, with the *deployment strategy* being more critical than mere numbers.",
+        "sources": [
+          {
+            "url": "https://johnhoward.ca/blog/how-police-work-more-important-than-how-many-there-are/",
+            "publisher": "johnhoward.ca",
+            "title": "johnhoward.ca",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Improved Efficiency and Crime Detection:** Technology is seen as a key driver for improving performance in crime prevention, detection, and increasing efficiency.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/technology-in-policing-advances-and-limitations/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Drones:** UK police forces used nearly 400 drones in 2023 for tasks such as locating missing persons and tracking offenders.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/technology-in-policing-advances-and-limitations/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "In August 2025, the government announced the rollout of 10 new LFR vans, with a total of 50 LFR vans available across England and Wales as part of a \u00a3140 million investment in police technology.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/technology-in-policing-advances-and-limitations/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://polfed.org/derbyshire/news/2026/key-takeaways-from-home-secretary-s-white-paper-on-policing-reform/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Artificial Intelligence (AI):** The Home Office has committed \u00a3115 million to establish a national AI centre, \"Police.AI,\" aiming to free up 6 million hours of police work per year (equivalent to 3,000 officers) by automating routine tasks and reducing bureaucracy, allowing officers to focus on frontline duties and complex investigations.",
+        "sources": [
+          {
+            "url": "https://news.npcc.police.uk/releases/new-gbp-115m-ai-centre-for-policing-will-help-catch-more-criminals-quicker",
+            "publisher": "news.npcc.police.uk",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/derbyshire/news/2026/key-takeaways-from-home-secretary-s-white-paper-on-policing-reform/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "AI is also being used to transcribe 999 and 101 calls and aid in redacting audio-visual files, potentially saving 1 million hours per year.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/policeai-to-speed-up-investigations-and-fight-crime",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Advanced records management systems and AI tools are being developed to streamline processes and free up officers from desk duties.",
+        "sources": [
+          {
+            "url": "https://www.axon.com/uk/resources/how-uk-policing-is-shaping-the-future-of-law-enforcement-technology",
+            "publisher": "axon.com",
+            "title": "axon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.npcc.police.uk/releases/new-gbp-115m-ai-centre-for-policing-will-help-catch-more-criminals-quicker",
+            "publisher": "news.npcc.police.uk",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/policeai-to-speed-up-investigations-and-fight-crime",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/from-local-to-national-a-new-model-for-policing/from-local-to-national-a-new-model-for-policing-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/derbyshire/news/2026/key-takeaways-from-home-secretary-s-white-paper-on-policing-reform/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Efficiency Gains:** The projected 6 million hours of work saved annually through AI in policing (equivalent to 3,000 officers) underscores the potential impact on efficiency and officer availability for frontline duties.",
+        "sources": [
+          {
+            "url": "https://news.npcc.police.uk/releases/new-gbp-115m-ai-centre-for-policing-will-help-catch-more-criminals-quicker",
+            "publisher": "news.npcc.police.uk",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/derbyshire/news/2026/key-takeaways-from-home-secretary-s-white-paper-on-policing-reform/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Comparisons with Canadian policing suggest the UK could achieve similar outcomes with 10-20% less paperwork, indicating significant scope for improvement.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/policeuk/comments/1it600u/reducing_bureaucracy_in_police/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Some officers currently report avoiding arrests due to the extensive paperwork involved.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/policeuk/comments/1it600u/reducing_bureaucracy_in_police/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **PCSO Role and Effectiveness:** Police Community Support Officers (PCSOs) are uniformed staff with limited powers (e.g., no power of arrest) focused on visible patrolling, tackling anti-social behaviour, and community engagement.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Police_community_support_officer",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.recruitment-dcp-dp.org/media/sxsnxhce/your-guide-to-becoming-a-pcso.pdf",
+            "publisher": "recruitment-dcp-dp.org",
+            "title": "recruitment-dcp-dp.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "An increase of 21 minutes of daily PCSO patrolling per hot spot (equivalent to two full-time PCSOs costing around \u00a350,000 annually) prevented crimes leading to an estimated 2,914 days of imprisonment, a potential saving of \u00a3280,000.",
+        "sources": [
+          {
+            "url": "https://www.cam.ac.uk/research/news/policing-two-officers-on-the-beat-prevent-86-assaults-and-save-thousands-in-prison-costs",
+            "publisher": "cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Career Progression:** While PCSO experience is valuable for aspiring police officers, traditionally, PCSOs wishing to become constables would go through the standard recruitment process.",
+        "sources": [
+          {
+            "url": "https://careers.northumbria.police.uk/blog/faq-items/can-a-pcso-become-a-police-officer/",
+            "publisher": "careers.northumbria.police.uk",
+            "title": "northumbria.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/uniformed/the-pcso-role/",
+            "publisher": "south-wales.police.uk",
+            "title": "south-wales.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Some PCSOs express a preference for their current non-confrontational, community-oriented role, which allows them more time for safeguarding and long-term problem-solving than a warranted officer's role might permit.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=F2uZNSUBIZs",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Current Trends:** The government has recently aimed to increase neighbourhood policing personnel, with 3,123 additional neighbourhood police officers and PCSOs deployed by January 2026, meeting a target two months early.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/surge-in-neighbourhood-police-in-communities-fighting-crime",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "However, data from March 2024 showed a reduction of 2,760 police officers in neighbourhood roles, partly offset by an increase of 149 PCSOs in these roles.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0110/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Historical Funding Cuts:** The Institute for Fiscal Studies (IFS) has reported that police spending in England and Wales fell by 14% in real terms between 2010-11 and 2014-15, largely due to cuts in central government grants.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/police-workforce-and-funding-england-and-wales",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.wired-gov.net/wg/news.nsf/articles/IFS+Funding+the+thin+blue+line+18112015093500?open",
+            "publisher": "wired-gov.net",
+            "title": "wired-gov.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Spending per person in 2014-15 had effectively returned to 2002-03 levels.",
+        "sources": [
+          {
+            "url": "https://www.wired-gov.net/wg/news.nsf/articles/IFS+Funding+the+thin+blue+line+18112015093500?open",
+            "publisher": "wired-gov.net",
+            "title": "wired-gov.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Unequal Funding Distribution:** IFS research suggests that current funding allocations for police services are skewed against deprived areas, with the most deprived 20% of areas receiving a smaller share than their estimated needs.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2023/aug/15/funding-of-public-services-in-england-skewed-against-poor-areas-ifs-levelling-up",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "For example, a \u00a3373 million programme initiated in 2015 only yielded \u00a3112 million in savings by 2019-20.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1239/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2025/10/police-productivity-summary.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

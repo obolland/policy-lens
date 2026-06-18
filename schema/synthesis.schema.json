@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens synthesis stage output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["per_outcome", "false_balance_check"],
+  "properties": {
+    "per_outcome": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["outcome", "direction", "magnitude", "time_horizon", "confidence", "plain", "biggest_unknown", "evidence_tier", "rationale", "sources"],
+        "properties": {
+          "outcome":   { "type": "string", "description": "Layer-1 outcome id, e.g. O1" },
+          "plain":     { "type": "string", "description": "1-2 sentence plain-English summary at ~age-12 reading level: everyday words, no jargon, warm and direct, capturing the gist + the main caveat. This is what most readers see first." },
+          "direction": { "type": "string", "enum": ["improves", "worsens", "mixed", "negligible", "too-uncertain"] },
+          "magnitude": { "type": "string", "enum": ["minor", "moderate", "major", "n/a"], "description": "How BIG the effect on this outcome is (direction says which way; this says how much). Evidence-led — don't inflate to 'major'. MUST be 'n/a' when direction is 'too-uncertain' (asserting a size on a verdict you've called too-uncertain is incoherent); MUST NOT be 'n/a' otherwise." },
+          "time_horizon": { "type": "string", "enum": ["immediate", "this-parliament", "long-term", "n/a"], "description": "When the effect is felt: immediate (~0-1yr) | this-parliament (~1-5yr) | long-term (5yr+). MUST be 'n/a' when direction is 'too-uncertain'; MUST NOT be 'n/a' otherwise." },
+          "confidence":{ "type": "string", "enum": ["low", "moderate", "high"] },
+          "biggest_unknown": { "type": "string" },
+          "evidence_tier": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["stated", "measurable", "projected"],
+            "properties": {
+              "stated":     { "type": "string" },
+              "measurable": { "type": "string" },
+              "projected":  { "type": "string" }
+            }
+          },
+          "uncertainty": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["is_genuine", "crux_parameter", "estimate_range"],
+            "properties": {
+              "is_genuine":     { "type": "boolean" },
+              "crux_parameter": { "type": "string" },
+              "estimate_range": { "type": "string" }
+            }
+          },
+          "rationale": { "type": "string" },
+          "sources":   { "type": "array", "items": { "$ref": "#/$defs/source" } }
+        }
+      }
+    },
+    "false_balance_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["headline_verdict", "sub_claims", "note"],
+      "properties": {
+        "headline_verdict": { "type": "string", "enum": ["leans", "genuinely-split"] },
+        "sub_claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["claim", "verdict", "why"],
+            "properties": {
+              "claim":   { "type": "string" },
+              "verdict": { "type": "string", "enum": ["leans-for", "leans-against", "split"] },
+              "why":     { "type": "string" }
+            }
+          }
+        },
+        "note": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "publisher", "source_type", "interest"],
+      "properties": {
+        "url":         { "type": "string" },
+        "publisher":   { "type": "string" },
+        "source_type": { "type": "string", "enum": ["government", "institutional", "academic", "advocacy", "commercial", "media"] },
+        "interest":    { "type": "string" }
+      }
+    }
+  }
+}

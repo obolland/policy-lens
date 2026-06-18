@@ -1,0 +1,497 @@
+{
+  "policy_id": "ref-24-increase-use-of-independent-healthcare-capacity",
+  "party": "Reform UK",
+  "policy_title": "Increase use of independent healthcare capacity",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Offering 20% tax relief on all private healthcare and insurance reduces tax revenues with no stated funding mechanism, adding to the fiscal gap. Historical evidence from a similar policy suggests the cost is real but the scale is uncertain.",
+    "biggest_unknown": "The total Exchequer cost depends heavily on uptake of private healthcare and insurance, which is uncosted in the policy and could range widely.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy offers 20% tax relief on all private healthcare and insurance with no stated funding mechanism or costing.",
+        "evidence_id": "M",
+        "quote": "offer tax relief of 20% on all private healthcare and insurance"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Currently, direct payments for individual private treatments are not tax-deductible, meaning this relief would be a new fiscal commitment.",
+        "evidence_id": "E7",
+        "quote": "Direct payments for individual private treatments are not currently tax-deductible."
+      },
+      {
+        "tier": "projected",
+        "claim": "A historical precedent suggests that even a narrower PMI tax relief (for over-60s only, abolished 1997) had an estimated Treasury cost, with predictions varying widely.",
+        "evidence_id": "E8",
+        "quote": "predictions varied widely"
+      },
+      {
+        "tier": "projected",
+        "claim": "Health and social care spending pressures are already growing sharply, with projections it could reach 49% of day-to-day public service spending by end of the decade.",
+        "evidence_id": "E22",
+        "quote": "health and social care could account for 49% of all day-to-day public service spending by the end of the decade, up from 34% in 2009-10"
+      }
+    ],
+    "rationale": "The core fiscal question for O12 is whether this policy is funded or unfunded, and whether any borrowing finances productive investment or consumption. The policy text commits to a 20% tax relief on all private healthcare and insurance but provides no costing, no offsetting measure, and no funding source. This is an unfunded tax relief that would reduce Exchequer revenues. The current baseline is that direct private healthcare payments attract no tax deduction, so this would be a new and potentially wide-ranging fiscal commitment. The historical precedent (the PMI relief for over-60s abolished in 1997) shows that even a narrowly targeted relief had measurable Treasury costs, albeit with wide variance in estimates. Unlike borrowing to invest in productive public infrastructure \u2014 which might improve long-run fiscal sustainability \u2014 a tax relief on private healthcare consumption does not obviously raise future economic capacity or public sector productivity. It primarily subsidises private consumption choices. On the debt-path criteria for O12, an unfunded tax relief that widens the fiscal gap without a credible productivity or revenue offset worsens public finance sustainability in both the near and medium term. The growing baseline pressure on health and social care spending (projected to consume nearly half of day-to-day public service spending) makes any additional unfunded commitment more fiscally damaging. Confidence is moderate rather than high because the total Exchequer cost is genuinely uncertain \u2014 uptake of private healthcare tax relief is hard to forecast \u2014 but the direction is clear: revenues fall, the gap widens, and no offsetting mechanism is stated.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://crmoxford.co.uk/news/a-guide-to-private-healthcare-and-tax-in-the-uk",
+        "publisher": "crmoxford.co.uk",
+        "title": "crmoxford.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/SN01441/SN01441.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://ifs.org.uk/sites/default/files/output_url_files/private_med.pdf",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.theguardian.com/business/2025/jun/12/poorest-to-benefit-from-rachel-reeves-spending-but-tax-rises-likely-says-thinktank",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/press-releases/britain-is-turning-into-a-national-health-state-as-lower-income-families-gain-most-from-spending-review/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0336,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-grounded. The stated claim accurately reflects the policy text. E7 supports the measurable claim cleanly. E8's quote 'predictions varied widely' is a verbatim fragment that supports the projection about uncertainty in Treasury costs \u2014 though thin, it does not overstate. E22 supports the health spending pressure projection accurately. The rationale is fiscally focused, avoids party-identity language, treats the unfunded tax relief symmetrically with how unfunded spending would be treated, and correctly distinguishes consumption subsidy from productive investment. No lever leakage, no false balance \u2014 direction 'worsens' is consistent with all surviving claims pointing one way (reduced revenues, no offset). Magnitude 'moderate' is defensible given genuine uncertainty about uptake. No blocking issues found."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will harness independent and not-for-profit health provision in the UK and overseas, and offer tax relief of 20% on all private healthcare and insurance, aiming to relieve pressure on the NHS and improve care for all.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Patients treated in independent facilities experienced shorter waiting times, averaging around 10.6 weeks in Q1 2025, compared to approximately 17.6 weeks in NHS hospitals.",
+        "sources": [
+          {
+            "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-uk/industries/health/documents/the-changing-shape-of-uk-independent-healthcare.pdf",
+            "publisher": "ey.com",
+            "title": "ey.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This sector plays a significant role in specialties like ophthalmology and orthopaedics, delivering 18.9% and 23.6% of all NHS activity in these areas respectively.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOfPkW8riDquq2vM79Np2tfm1Z4tek69dtP0Q9rBu7pPkBf6KQFlPdMsfb2pC4Mu6spRTfWVB-y6YcuD0rdY4lGNigKa5b9JsR0Ub4R3yp6RPHrzABDcT0-rzjVhrNShL1Odg57KPlENwCC5dLtiRMC5ZX8ptUA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "For admitted care, their share was higher, at 18.8% in 2023/24.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLkYsQRzyR2qM5_kt_EI7OSuvmLcxOaunFa-fmlMTKX3xBSXx_Iexn7Y3D6cZws18Ja5j16sK3_yck9itMSM85nh5dV4lLDg5t0Mh2RXehXo-l4BR9J-yQg19rklMmi6tFB6JjfVA-VLpub0Mbvvb7jKdAN761zagvFgGYr027N-8r-7i5P_a9Kq9D4ZvtOXJEE8tWPLozXZN6O0dYvzE5qmEX0k2KuswbMgVl5PwKWUE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE43eKC2sX4cemvXsJi8whfqZAb4CPOka5J6ByoqyKhtyP9t5gGDhUWh5Gqy0V0n0pxyaa-wXLXmjo5QokfX1GeJjrLh-0lgZAU0lj5RvMM0nsZGt7lFwUvilKRA_ah8XeUzpsnr8uGRRjG9KvfhJWxYdhz3Oz11iZ_LGTjwuL49Il_mAynXd0d1dOVJ9uuSIWEBA9QPlS8cTl0tVoZ4fEI0BtTcUrf4te4j4Zc598kO0e4fQdo5w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Health Foundation's analysis indicates that while privately funded elective inpatient activity grew by 10.2% between 2019/20 and 2022/23, it still constitutes a small proportion (8.3%) of total elective activity, and overall NHS-funded treatment volumes have not consistently exceeded pre-pandemic levels.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLkYsQRzyR2qM5_kt_EI7OSuvmLcxOaunFa-fmlMTKX3xBSXx_Iexn7Y3D6cZws18Ja5j16sK3_yck9itMSM85nh5dV4lLDg5t0Mh2RXehXo-l4BR9J-yQg19rklMmi6tFB6JjfVA-VLpub0Mbvvb7jKdAN761zagvFgGYr027N-8r-7i5P_a9Kq9D4ZvtOXJEE8tWPLozXZN6O0dYvzE5qmEX0k2KuswbMgVl5PwKWUE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTup7I5hpFrYK__QRFUAIs5exbQfL_qz9HLdxh5LbN5G8BHKAGQ7ArNkVDggeAGEZpd8KWR1l7uWyVJxkqTVxlku40P-lns2jaXs_l6iVPQG26IC-8IACzC7i7QtelAUzgVMN0QdfAEmrQ5jIpsC226PtKjXlhufS4-LhQn2D1uDyGfv2hh5q-cg4C7f2h-dgA9WPDou15ylOHztTmp3HIDoKUCgsx4QhcK5lLOdQ-xVP1FQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwSx2FGQ1aQ557zfv0j39gxTLgWc6YkunzHPUIo8YLrhhsFN4ST0OWa9yBqyVuXd8Gm5TuxO3MMlhhMXz36CFu_gqRgaTAKmdOEp4qL4kFQDl8tgbupTaN523uJkfrzOzoml2oC6UjGI-OcMUrEcmNUau6tqZwEpnQdDsWR9W2OK-R0j6AlbpS_YcgoZ121thY7L3x3I0aKJV0tx3WdFMYY4HlbzvLnuhX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The independent sector typically focuses on profitable, less complex cases, often lacking the broader facilities (like intensive care units) to treat patients with complex care needs.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE43eKC2sX4cemvXsJi8whfqZAb4CPOka5J6ByoqyKhtyP9t5gGDhUWh5Gqy0V0n0pxyaa-wXLXmjo5QokfX1GeJjrLh-0lgZAU0lj5RvMM0nsZGt7lFwUvilKRA_ah8XeUzpsnr8uGRRjG9KvfhJWxYdhz3Oz11iZ_LGTjwuL49Il_mAynXd0d1dOVJ9uuSIWEBA9QPlS8cTl0tVoZ4fEI0BtTcUrf4te4j4Zc598kO0e4fQdo5w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This means employees pay income tax on its value (at 20%, 40%, or 45% depending on their tax band), and employers pay Class 1A National Insurance Contributions (NICs) at 13.8% on the benefit's value.",
+        "sources": [
+          {
+            "url": "https://crmoxford.co.uk/news/a-guide-to-private-healthcare-and-tax-in-the-uk",
+            "publisher": "crmoxford.co.uk",
+            "title": "crmoxford.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dd-ca.com/how-does-private-medical-insurance-work/",
+            "publisher": "dd-ca.com",
+            "title": "dd-ca.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.axahealth.co.uk/small-business/guidance-for-employers/pricing-and-tax/health-insurance-deductible-tax/",
+            "publisher": "axahealth.co.uk",
+            "title": "axahealth.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.vitality.co.uk/business/workplace-insights/business-health-insurance-and-tax/",
+            "publisher": "vitality.co.uk",
+            "title": "vitality.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://wecovr.com/guides/is-private-health-insurance-tax-deductible-in-the-uk/",
+            "publisher": "wecovr.com",
+            "title": "wecovr.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Direct payments for individual private treatments are not currently tax-deductible.",
+        "sources": [
+          {
+            "url": "https://crmoxford.co.uk/news/a-guide-to-private-healthcare-and-tax-in-the-uk",
+            "publisher": "crmoxford.co.uk",
+            "title": "crmoxford.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "When a previous tax relief for PMI for over-60s was abolished in 1997, one insurer, PPP healthcare, estimated it would increase NHS waiting lists by over 100,000 and cost the Treasury an extra \u00a38.5 million a year, though predictions varied widely.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN01441/SN01441.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/private_med.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Workforce and \"Two-Tier\" System Concerns:**\nA significant concern raised by analysts like the Nuffield Trust and the British Medical Association (BMA) is the potential for such policies to divert finite staff and resources from the NHS to the private sector.",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r30",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/commissioning/nhs-outsourcing",
+            "publisher": "bma.org.uk",
+            "title": "bma.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "There is evidence of NHS staff moving to the private sector, sometimes for better pay or working conditions, which could exacerbate existing NHS staffing shortages.",
+        "sources": [
+          {
+            "url": "https://www.hellorayo.co.uk/greatest-hits/salisbury/news/wiltshire-nhs-staff-transfer-private-sector-controversy",
+            "publisher": "hellorayo.co.uk",
+            "title": "hellorayo.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r30",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "For example, a recent decision in Wiltshire to transfer hundreds of NHS bank staff to a private company aimed to save the NHS between \u00a33.3 million and \u00a35.4 million through reduced pension contributions, but faced criticism for potentially impacting workers' benefits and job security.",
+        "sources": [
+          {
+            "url": "https://www.hellorayo.co.uk/greatest-hits/salisbury/news/wiltshire-nhs-staff-transfer-private-sector-controversy",
+            "publisher": "hellorayo.co.uk",
+            "title": "hellorayo.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Many experts, including the Institute for Public Policy Research (IPPR) and other critics, argue that policies like this would accelerate the development of a \"two-tier\" healthcare system.",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bylinetimes.com/2026/03/30/reform-uk-promised-17-billion-in-new-healthcare-spending-but-none-of-it-is-for-the-nhs/",
+            "publisher": "bylinetimes.com",
+            "title": "bylinetimes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/health/private-sector-role-nhs-debate-b2681263.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This would lead to a situation where those who can afford private care, especially with tax incentives, receive faster access and potentially better services, while the NHS, potentially under-resourced and facing staff shortages, provides an inferior service for those reliant on it.",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bylinetimes.com/2026/03/30/reform-uk-promised-17-billion-in-new-healthcare-spending-but-none-of-it-is-for-the-nhs/",
+            "publisher": "bylinetimes.com",
+            "title": "bylinetimes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Equity and Public Support:**\nThe Institute for Fiscal Studies (IFS) has noted a positive association between the purchase of private health insurance and the length of local NHS waiting lists.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOgGf9H7eBhmhi1WpmvvkXCkkfnpaAhvQMYRN4qdUyuBkSimxPAHl5246se42VvVtx0E0FvHXo7j2PrcbFiIfiYnfb-O7VhmrR1-3TRkiuU4f8jav6VJCi2_LDjN40DemAb0qbPgh-lHkqRE2fdCy2LkjPR4KSu_t0vYVl6mXMC97P0Bi-LBWM1_UIVK-JeBo5Nw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, the IFS also found that those with PMI are less likely to support increases in public health spending, even when accounting for other characteristics.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/private_med.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The Health Foundation highlights concerns about equality of access, noting that if independent sector care expands more than NHS-provided care, access for people in more affluent areas could improve disproportionately compared to those in poorer areas.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE43eKC2sX4cemvXsJi8whfqZAb4CPOka5J6ByoqyKhtyP9t5gGDhUWh5Gqy0V0n0pxyaa-wXLXmjo5QokfX1GeJjrLh-0lgZAU0lj5RvMM0nsZGt7lFwUvilKRA_ah8XeUzpsnr8uGRRjG9KvfhJWxYdhz3Oz11iZ_LGTjwuL49Il_mAynXd0d1dOVJ9uuSIWEBA9QPlS8cTl0tVoZ4fEI0BtTcUrf4te4j4Zc598kO0e4fQdo5w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "However, critics, including those cited by Socialist Worker, argue there is no evidence that competition among independent providers drives down costs in the healthcare sector.",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Furthermore, analysis from the IPPR across 22 high-income countries concluded that switching to an insurance-based system would not necessarily improve performance across measures of capacity, access, quality, efficiency, or equity, and could lead to higher overall costs and greater out-of-pocket expenses for patients.",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Independent Healthcare Providers Network (IHPN) states that the sector helps increase overall health system capacity and offers greater patient choice.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOfPkW8riDquq2vM79Np2tfm1Z4tek69dtP0Q9rBu7pPkBf6KQFlPdMsfb2pC4Mu6spRTfWVB-y6YcuD0rdY4lGNigKa5b9JsR0Ub4R3yp6RPHrzABDcT0-rzjVhrNShL1Odg57KPlENwCC5dLtiRMC5ZX8ptUA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Critics** (including the Health Foundation, Nuffield Trust, BMA, and IPPR) frequently argue that while the independent sector can help clear backlogs in specific areas, it does not necessarily increase *overall* system capacity significantly.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLkYsQRzyR2qM5_kt_EI7OSuvmLcxOaunFa-fmlMTKX3xBSXx_Iexn7Y3D6cZws18Ja5j16sK3_yck9itMSM85nh5dV4lLDg5t0Mh2RXehXo-l4BR9J-yQg19rklMmi6tFB6JjfVA-VLpub0Mbvvb7jKdAN761zagvFgGYr027N-8r-7i5P_a9Kq9D4ZvtOXJEE8tWPLozXZN6O0dYvzE5qmEX0k2KuswbMgVl5PwKWUE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTup7I5hpFrYK__QRFUAIs5exbQfL_qz9HLdxh5LbN5G8BHKAGQ7ArNkVDggeAGEZpd8KWR1l7uWyVJxkqTVxlku40P-lns2jaXs_l6iVPQG26IC-8IACzC7i7QtelAUzgVMN0QdfAEmrQ5jIpsC226PtKjXlhufS4-LhQn2D1uDyGfv2hh5q-cg4C7f2h-dgA9WPDou15ylOHztTmp3HIDoKUCgsx4QhcK5lLOdQ-xVP1FQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r30",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They raise concerns about cherry-picking less complex cases, diverting staff from the NHS, and the potential for creating a two-tier system that undermines the principle of universal healthcare free at the point of use.",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r30",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE43eKC2sX4cemvXsJi8whfqZAb4CPOka5J6ByoqyKhtyP9t5gGDhUWh5Gqy0V0n0pxyaa-wXLXmjo5QokfX1GeJjrLh-0lgZAU0lj5RvMM0nsZGt7lFwUvilKRA_ah8XeUzpsnr8uGRRjG9KvfhJWxYdhz3Oz11iZ_LGTjwuL49Il_mAynXd0d1dOVJ9uuSIWEBA9QPlS8cTl0tVoZ4fEI0BtTcUrf4te4j4Zc598kO0e4fQdo5w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bylinetimes.com/2026/03/30/reform-uk-promised-17-billion-in-new-healthcare-spending-but-none-of-it-is-for-the-nhs/",
+            "publisher": "bylinetimes.com",
+            "title": "bylinetimes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/health/private-sector-role-nhs-debate-b2681263.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Resolution Foundation's broader analysis on public spending underscores the immense and growing financial pressures on the NHS, predicting that health and social care could account for 49% of all day-to-day public service spending by the end of the decade, up from 34% in 2009-10.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2025/jun/12/poorest-to-benefit-from-rachel-reeves-spending-but-tax-rises-likely-says-thinktank",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/britain-is-turning-into-a-national-health-state-as-lower-income-families-gain-most-from-spending-review/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,700 @@
+{
+  "policy_id": "ld-48-new-patients-charter",
+  "party": "Liberal Democrat",
+  "policy_title": "New Patients' Charter",
+  "outcome": "O8",
+  "verdict": {
+    "outcome": "O8",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy would create new legal rights to a second opinion and to maintain contact in health and care settings, both of which could meaningfully improve patient safety and dignity in later life. The gains are real but modest, as some protections already exist in regulation, and the second-opinion right risks adding to waiting times.",
+    "biggest_unknown": "Whether the legal right to a second opinion will be backed by sufficient NHS capacity to avoid simply adding to already long waiting lists, which could undermine its benefit for older patients with complex conditions.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy creates a new legal right to a second opinion and a new legal right to maintain contact in all health and care settings.",
+        "evidence_id": "M",
+        "quote": "A new legal right to a second opinion. A new legal right to maintain contact in all health and care settings."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Patients seeking a second opinion are typically treated as a new patient referral, which can lead to longer waiting times.",
+        "evidence_id": "E5",
+        "quote": "patients seeking a second opinion via a different consultant are typically treated as a new patient referral, which can lead to longer waiting times for appointments and treatment"
+      },
+      {
+        "tier": "projected",
+        "claim": "Access to a second opinion might lead to a more accurate diagnosis or more suitable treatment plan, particularly in complex or rare cases.",
+        "evidence_id": "E4",
+        "quote": "Access to a second opinion might lead to a more accurate diagnosis or a more suitable treatment plan, particularly in complex or rare cases"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Campaigners argue that existing visiting regulation is treated as mere guidance, leading to continued avoidable harm from unnecessary visiting bans.",
+        "evidence_id": "E18",
+        "quote": "Regulation 9A is not sufficient because many care settings still treat it as mere guidance, leading to continued \"avoidable harm from unnecessary visiting bans\""
+      },
+      {
+        "tier": "projected",
+        "claim": "Maintaining contact with loved ones is widely recognised as crucial for patient well-being, dignity, and recovery, especially for vulnerable individuals.",
+        "evidence_id": "E15",
+        "quote": "Maintaining contact with loved ones is widely recognised as crucial for patient well-being, dignity, and recovery, especially for vulnerable individuals"
+      },
+      {
+        "tier": "projected",
+        "claim": "A clear legal right to maintain contact would provide consistent standards, reducing variability and uncertainty in visiting policies.",
+        "evidence_id": "E17",
+        "quote": "A clear legal right would provide consistent standards across all health and care settings, reducing variability and uncertainty in visiting policies"
+      }
+    ],
+    "rationale": "The policy's two most substantive planks for O8 are the legal rights to a second opinion and to maintain contact. On the second opinion: there is currently no such legal right, so this would be a genuine new entitlement. For older patients managing complex or rare conditions \u2014 the population most likely to need care \u2014 the ability to formally request a second opinion could reduce diagnostic error and improve treatment. However, the mechanism for delivery runs through a system where second opinions already trigger new referral pathways and longer waits. The net benefit depends on whether capacity accompanies the right; on current evidence it may not, tempering the gain. On contact rights: regulation already mandates visiting access and compliance is near-universal in care homes. The legal right would strengthen enforcement and close residual gaps where Regulation 9A is ignored, but the marginal gain over the status quo is limited given existing high compliance. The data-protection plank largely reinforces already-existing opt-out rights (National Data Opt-out since 2018) and has minimal direct bearing on O8's indicators. Taken together, the policy improves O8 modestly: it converts existing norms or soft rights into enforceable legal entitlements in two areas directly relevant to older people's dignity and safety in care settings. The magnitude is minor rather than moderate because significant infrastructure already exists and the main risk \u2014 that a legal right to a second opinion without capacity expansion simply lengthens queues \u2014 is unaddressed by the stated policy.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.healthwatch.co.uk/advice-and-information/2025-09-29/getting-second-opinion-about-your-care",
+        "publisher": "healthwatch.co.uk",
+        "title": "healthwatch.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://elht.nhs.uk/patients/how-seek-second-opinion",
+        "publisher": "elht.nhs.uk",
+        "title": "elht.nhs.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.healthwatchwestminster.org.uk/advice-and-information/2025-02-12/getting-second-opinion-about-your-care",
+        "publisher": "healthwatchwestminster.org.uk",
+        "title": "healthwatchwestminster.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.patients-association.org.uk/getting-a-second-opinion",
+        "publisher": "patients-association.org.uk",
+        "title": "patients-association.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://hansard.parliament.uk/commons/2025-06-24/debates/08361D9C-49EB-43F3-8ACE-ED41FE0BF2C3/CareSettingsRightToMaintainContact",
+        "publisher": "hansard.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.carerightsuk.org/news/new-right-to-maintain-contact-ket6d",
+        "publisher": "carerightsuk.org",
+        "title": "carerightsuk.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ukparliament.shorthandstories.com/cet-carecontact/index.html",
+        "publisher": "ukparliament.shorthandstories.com",
+        "title": "shorthandstories.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0386,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "Claim 4 (E18) is attributed to campaigners' advocacy arguments yet is labelled 'measurable'. This is a stated position/opinion from advocates, not a measured baseline fact. Should be 'projected' or 'stated'."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Claims are well-matched to their evidence quotes. Tier, magnitude, and direction are consistent. The rationale avoids party-blind issues and lever leakage. The only concern is the tier mis-labelling of the E18-backed claim, which is a campaigner assertion rather than a measured fact \u2014 a warning rather than blocking given it does not materially alter the direction or magnitude conclusion."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [
+        {
+          "claim": "There is currently no legal right to a second opinion on the NHS.",
+          "evidence_id": "E1",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Existing regulation already requires care homes and hospitals to facilitate visits, and as of May 2025, 99.3% of care homes could accommodate visitors.",
+          "evidence_id": "E14",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Create a new \u2018Patients Charter\u2019 to harness lived experience of patients and embed patient voice, partnership and safety standards across health and care settings, including: A new legal right to a second opinion. A new legal right to maintain contact in all health and care settings. Protecting patient data and patients\u2019 rights to opt out of data sharing.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Current Situation:**\nIn the UK, there is currently **no legal right to a second opinion** on the NHS",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/advice-and-information/2025-09-29/getting-second-opinion-about-your-care",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://elht.nhs.uk/patients/how-seek-second-opinion",
+            "publisher": "elht.nhs.uk",
+            "title": "elht.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://wearepeoplefirst.co.uk/news/do-you-have-a-right-to-a-second-opinion/",
+            "publisher": "wearepeoplefirst.co.uk",
+            "title": "wearepeoplefirst.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.patients-association.org.uk/getting-a-second-opinion",
+            "publisher": "patients-association.org.uk",
+            "title": "patients-association.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nhsinform.scot/care-support-and-rights/health-rights/patient-charter/the-charter-of-patient-rights-and-responsibilities/",
+            "publisher": "nhsinform.scot",
+            "title": "nhsinform.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "However, the General Medical Council (GMC), which regulates doctors, mandates that doctors \"must recognise a patient's right to choose whether to accept your advice, and respect their right to seek a second opinion\"",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/advice-and-information/2025-09-29/getting-second-opinion-about-your-care",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://elht.nhs.uk/patients/how-seek-second-opinion",
+            "publisher": "elht.nhs.uk",
+            "title": "elht.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://wearepeoplefirst.co.uk/news/do-you-have-a-right-to-a-second-opinion/",
+            "publisher": "wearepeoplefirst.co.uk",
+            "title": "wearepeoplefirst.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.patients-association.org.uk/getting-a-second-opinion",
+            "publisher": "patients-association.org.uk",
+            "title": "patients-association.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.themdu.com/guidance-and-advice/guides/marthas-rule-what-it-means-for-doctors",
+            "publisher": "themdu.com",
+            "title": "themdu.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nhsinform.scot/care-support-and-rights/health-rights/patient-charter/the-charter-of-patient-rights-and-responsibilities/",
+            "publisher": "nhsinform.scot",
+            "title": "nhsinform.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Health professionals generally consider individual circumstances when a second opinion is requested",
+        "sources": [
+          {
+            "url": "https://elht.nhs.uk/patients/how-seek-second-opinion",
+            "publisher": "elht.nhs.uk",
+            "title": "elht.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Potential for Improved Diagnosis and Treatment:** Access to a second opinion might lead to a more accurate diagnosis or a more suitable treatment plan, particularly in complex or rare cases",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/advice-and-information/2025-09-29/getting-second-opinion-about-your-care",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Currently, patients seeking a second opinion via a different consultant are typically treated as a new patient referral, which can lead to longer waiting times for appointments and treatment",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/advice-and-information/2025-09-29/getting-second-opinion-about-your-care",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://elht.nhs.uk/patients/how-seek-second-opinion",
+            "publisher": "elht.nhs.uk",
+            "title": "elht.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.healthwatchwestminster.org.uk/advice-and-information/2025-02-12/getting-second-opinion-about-your-care",
+            "publisher": "healthwatchwestminster.org.uk",
+            "title": "healthwatchwestminster.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.patients-association.org.uk/getting-a-second-opinion",
+            "publisher": "patients-association.org.uk",
+            "title": "patients-association.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Impact on Doctor-Patient Relationships:** While most healthcare professionals are open to second opinions, some patients may worry that requesting one could negatively affect their relationship with their initial doctor",
+        "sources": [
+          {
+            "url": "https://www.patients-association.org.uk/getting-a-second-opinion",
+            "publisher": "patients-association.org.uk",
+            "title": "patients-association.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This initiative aims to improve patient safety and has already shown significant impact: over 2,000 calls have led to more than 300 patients experiencing improved care, with over 100 being escalated to intensive therapy units (ITU)",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/mar/26/thousands-have-sought-second-opinion-after-nhs-hospitals-adopted-marthas-rule-mps-hear",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Professor Sir Stephen Powis, NHS England's national medical director, described Martha's Rule as \"one of the most significant changes in patient safety in recent years,\" undoubtedly saving lives",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/mar/26/thousands-have-sought-second-opinion-after-nhs-hospitals-adopted-marthas-rule-mps-hear",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "While there was no specific legal right, advocacy groups like Rights for Residents, Care Rights UK, and John's Campaign have strongly campaigned for such a right, often termed \"Gloria's Law\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.carerightsuk.org/news/new-right-to-maintain-contact-ket6d",
+            "publisher": "carerightsuk.org",
+            "title": "carerightsuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukparliament.shorthandstories.com/cet-carecontact/index.html",
+            "publisher": "ukparliament.shorthandstories.com",
+            "title": "shorthandstories.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-06-24/debates/08361D9C-49EB-43F3-8ACE-ED41FE0BF2C3/CareSettingsRightToMaintainContact",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "This regulation stipulates that, unless there are exceptional circumstances:\n*   Patients staying overnight in care homes, hospitals, or hospices must be facilitated to receive visitors",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   Care home residents must not be discouraged from external visits",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   Patients attending non-overnight hospital or hospice appointments must be enabled to be accompanied by a family member, friend, or support person",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Care Quality Commission (CQC) provides guidance and can take enforcement action for breaches of this regulation, though it cannot prosecute",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "In May 2025, **99.3% of care homes in England** were able to accommodate visitors, a figure that has been stable since September 2022",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Enhanced Patient Well-being and Recovery:** Maintaining contact with loved ones is widely recognised as crucial for patient well-being, dignity, and recovery, especially for vulnerable individuals",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0130/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.carerightsuk.org/news/new-right-to-maintain-contact-ket6d",
+            "publisher": "carerightsuk.org",
+            "title": "carerightsuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukparliament.shorthandstories.com/cet-carecontact/index.html",
+            "publisher": "ukparliament.shorthandstories.com",
+            "title": "shorthandstories.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Improved Care Quality and Advocacy:** Family members often act as \"care supporters,\" providing invaluable advocacy and support, leading to better care quality and communication with healthcare staff",
+        "sources": [
+          {
+            "url": "https://www.carerightsuk.org/news/new-right-to-maintain-contact-ket6d",
+            "publisher": "carerightsuk.org",
+            "title": "carerightsuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-06-24/debates/08361D9C-49EB-43F3-8ACE-ED41FE0BF2C3/CareSettingsRightToMaintainContact",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Clarity and Consistency:** A clear legal right would provide consistent standards across all health and care settings, reducing variability and uncertainty in visiting policies",
+        "sources": [
+          {
+            "url": "https://ukparliament.shorthandstories.com/cet-carecontact/index.html",
+            "publisher": "ukparliament.shorthandstories.com",
+            "title": "shorthandstories.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Campaigners and some MPs argue that Regulation 9A is not sufficient because many care settings still treat it as mere guidance, leading to continued \"avoidable harm from unnecessary visiting bans\"",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-06-24/debates/08361D9C-49EB-43F3-8ACE-ED41FE0BF2C3/CareSettingsRightToMaintainContact",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "They advocate for stronger primary legislation (Gloria's Law) to guarantee this right, ensuring that no one is forcibly separated from loved ones again",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-06-24/debates/08361D9C-49EB-43F3-8ACE-ED41FE0BF2C3/CareSettingsRightToMaintainContact",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The government, however, has focused on strengthening existing guidance and monitoring compliance through the CQC",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/stronger-visiting-rights-for-people-in-health-and-care-settings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The **National Data Opt-out**, introduced in May 2018, allows individuals in England to choose whether their confidential patient information can be used for purposes beyond their individual care and treatment, such as for research and planning",
+        "sources": [
+          {
+            "url": "https://www.understandingpatientdata.org.uk/whats-potential-impact-national-data-opt-out",
+            "publisher": "understandingpatientdata.org.uk",
+            "title": "understandingpatientdata.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hra.nhs.uk/about-us/news-updates/national-data-opt-out/",
+            "publisher": "hra.nhs.uk",
+            "title": "hra.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sbs.nhs.uk/national-data-opt-out-policy/",
+            "publisher": "sbs.nhs.uk",
+            "title": "sbs.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://digital.nhs.uk/services/national-data-opt-out",
+            "publisher": "digital.nhs.uk",
+            "title": "digital.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.beaumontelmspractice.co.uk/national-data-opt-out-programme",
+            "publisher": "beaumontelmspractice.co.uk",
+            "title": "beaumontelmspractice.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "There is also a **Type 1 Opt-out**, which stops a GP surgery from sharing data for research and planning, though NHS England can still collect and share data from other providers",
+        "sources": [
+          {
+            "url": "https://www.nhs.uk/using-the-nhs/about-the-nhs/opt-out-of-sharing-your-health-records/",
+            "publisher": "nhs.uk",
+            "title": "www.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The opt-out choice is stored centrally against an individual's NHS number and applies even after death",
+        "sources": [
+          {
+            "url": "https://digital.nhs.uk/services/data-access-request-service-dars/how-the-national-data-opt-out-affects-data-released-by-nhs-digital",
+            "publisher": "digital.nhs.uk",
+            "title": "digital.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://digital.nhs.uk/services/national-data-opt-out",
+            "publisher": "digital.nhs.uk",
+            "title": "digital.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.beaumontelmspractice.co.uk/national-data-opt-out-programme",
+            "publisher": "beaumontelmspractice.co.uk",
+            "title": "beaumontelmspractice.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "NHS England is committed to adhering to national opt-out policies, enforcing strict access controls, and complying with the Data Protection Act 2018 and UK General Data Protection Regulation (GDPR)",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/security-privacy/how-we-are-protecting-privacy-and-confidentiality/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Increased Patient Trust and Confidence:** Reinforcing data protection and opt-out rights can significantly enhance public trust in how their sensitive health information is managed by the NHS and other organisations",
+        "sources": [
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/using-data-nhs-gdpr",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.hra.nhs.uk/about-us/news-updates/national-data-opt-out/",
+            "publisher": "hra.nhs.uk",
+            "title": "hra.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "If large numbers of people exercise their opt-out rights, it can **reduce the quality and validity of data** available for vital health research, service planning, and public health initiatives",
+        "sources": [
+          {
+            "url": "https://www.understandingpatientdata.org.uk/whats-potential-impact-national-data-opt-out",
+            "publisher": "understandingpatientdata.org.uk",
+            "title": "understandingpatientdata.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/using-data-nhs-gdpr",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "By November 2021, the overall percentage reached **5.39%**",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11523503/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Bias Concerns:** Opt-out rates are not uniform; they vary by demographic characteristics (e.g., higher increases among females and people aged 40-49) and geographical areas",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11523503/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "This clustering can introduce bias into datasets, making research findings less representative of the whole population and potentially compromising the ability to draw reliable conclusions, especially for rare conditions or specific groups",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11523503/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.understandingpatientdata.org.uk/whats-potential-impact-national-data-opt-out",
+            "publisher": "understandingpatientdata.org.uk",
+            "title": "understandingpatientdata.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/using-data-nhs-gdpr",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Impact on National Patient Surveys:** Analyses relying on confidential patient information, including some national patient surveys crucial for evaluating NHS services, may be particularly affected by high opt-out rates",
+        "sources": [
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/using-data-nhs-gdpr",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "While experts agree on the importance of patient control, they also caution that excessively high or uneven opt-out rates could undermine the efficacy of crucial research and planning activities that ultimately benefit public health",
+        "sources": [
+          {
+            "url": "https://www.understandingpatientdata.org.uk/whats-potential-impact-national-data-opt-out",
+            "publisher": "understandingpatientdata.org.uk",
+            "title": "understandingpatientdata.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/using-data-nhs-gdpr",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "policy_id": "ld-117-scrap-illegal-migration-act-and-rwanda",
+  "party": "Liberal Democrat",
+  "policy_title": "Scrap Illegal Migration Act and Rwanda Scheme, Uphold Refugee Convention",
+  "measure": "D1",
+  "verdict": {
+    "measure": "D1",
+    "shift": "toward more open",
+    "net_migration": "raises",
+    "magnitude": "moderate",
+    "confidence": "moderate",
+    "plain": "This policy removes restrictions introduced by the Illegal Migration Act and scraps the Rwanda removals scheme, making the rules around asylum seekers entering the UK less restrictive. It also proposes expanding safe and legal routes, which could increase the number of people able to claim asylum here.",
+    "biggest_unknown": "Whether clearing the asylum backlog and providing safe routes would reduce irregular Channel crossings enough to offset the removal of deterrent measures on net migration.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to upholding the Refugee Convention and providing safe and legal routes to sanctuary.",
+        "evidence_id": "M",
+        "quote": "uphold the Refugee Convention, and provide safe and legal routes to sanctuary for refugees"
+      },
+      {
+        "tier": "stated",
+        "claim": "Savings from cancelling the Rwanda scheme would be invested in clearing the asylum backlog.",
+        "evidence_id": "M",
+        "quote": "invest the savings in clearing the asylum backlog"
+      }
+    ],
+    "rationale": "Repealing the Illegal Migration Act removes legal mechanisms that were intended to deter and limit asylum claims, and cancelling the Rwanda scheme removes an offshore removal deterrent. Expanding safe and legal routes creates additional pathways for people to enter the UK and claim asylum. Together these moves loosen the current control framework, pointing toward more open policy and likely higher net migration than under the prior Conservative arrangements. The stated goal of clearing the backlog may reduce processing times but does not cap numbers. The magnitude is moderate rather than major because irregular arrivals are already continuing at scale under the existing system, and some deterrent effect of the scrapped measures was disputed.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.008,
+    "gate": {
+      "kept": 2,
+      "dropped": [
+        {
+          "claim": "The policy would repeal the Illegal Migration Act and cancel the Rwanda scheme.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Scrap the Conservatives\u2019 Illegal Migration Act and their Rwanda scheme, uphold the Refugee Convention, and provide safe and legal routes to sanctuary for refugees, helping to prevent dangerous Channel crossings. Cancel the Conservatives\u2019 unworkable Rwanda scheme and invest the savings in clearing the asylum backlog.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Analyst Disagreements/Challenges:**\nA new UK government policy, announced in March 2026, involves scrapping permanent refugee status and replacing it with 30-month grants subject to mandatory reviews.",
+        "sources": [
+          {
+            "url": "https://impactpolicies.org/news/818/uk-refugee-policy-shift-undermines-global-humanitarian-standards",
+            "publisher": "impactpolicies.org",
+            "title": "impactpolicies.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Critics argue this shift risks \"plunging refugees into cycles of uncertainty\" and challenges the 1951 Refugee Convention's promise of \"durable solutions.\"",
+        "sources": [
+          {
+            "url": "https://impactpolicies.org/news/818/uk-refugee-policy-shift-undermines-global-humanitarian-standards",
+            "publisher": "impactpolicies.org",
+            "title": "impactpolicies.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ],
+    "directional": true
+  }
+}

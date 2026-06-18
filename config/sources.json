@@ -1,0 +1,37 @@
+{
+  "_comment": "Curated source library + provenance model (spec §3.1). Every citation MUST carry a source_type. This is the grounding allowlist for v1 (curated-core). Add publishers as needed; keep the type honest.",
+  "source_types": {
+    "government":    "Official statistics / departmental data. Highest trust for measurable baselines.",
+    "institutional": "Non-partisan analysis bodies.",
+    "academic":      "Peer-reviewed or university research.",
+    "advocacy":      "Campaigning bodies with a declared agenda. Usable, but ALWAYS labelled; never the sole basis for a verdict.",
+    "commercial":    "Firms with a financial interest in the narrative. Treat with the most caution.",
+    "media":         "Reporting. Trace to the underlying source before relying on it."
+  },
+  "weighting_rules": [
+    "Prefer government / institutional / academic for measurable (yellow-tier) baselines.",
+    "advocacy and commercial sources may be cited but are ALWAYS labelled, and may NOT be the sole basis for a synthesis verdict.",
+    "If a verdict leans materially on advocacy/commercial evidence on EITHER side, set advocacy_flag and say so in the rationale.",
+    "Provenance imbalance on either side is surfaced in the UI, never hidden."
+  ],
+  "publishers": [
+    { "publisher": "ONS",                          "source_type": "government",    "domain": "ons.gov.uk" },
+    { "publisher": "OBR",                           "source_type": "government",    "domain": "obr.uk" },
+    { "publisher": "HMRC",                          "source_type": "government",    "domain": "gov.uk" },
+    { "publisher": "MHCLG / DLUHC",                 "source_type": "government",    "domain": "gov.uk" },
+    { "publisher": "House of Commons Library",      "source_type": "government",    "domain": "commonslibrary.parliament.uk" },
+    { "publisher": "Bank of England",               "source_type": "government",    "domain": "bankofengland.co.uk" },
+    { "publisher": "Full Fact",                     "source_type": "institutional", "domain": "fullfact.org" },
+    { "publisher": "Institute for Fiscal Studies",  "source_type": "institutional", "domain": "ifs.org.uk" },
+    { "publisher": "Institute for Government",      "source_type": "institutional", "domain": "instituteforgovernment.org.uk" },
+    { "publisher": "Resolution Foundation",         "source_type": "institutional", "domain": "resolutionfoundation.org" },
+    { "publisher": "Chartered Institute of Taxation","source_type": "institutional","domain": "tax.org.uk" },
+    { "publisher": "Health Foundation",             "source_type": "institutional", "domain": "health.org.uk" },
+    { "publisher": "Nuffield Trust",                "source_type": "institutional", "domain": "nuffieldtrust.org.uk" },
+    { "publisher": "The King's Fund",               "source_type": "institutional", "domain": "kingsfund.org.uk" },
+    { "publisher": "LSE",                           "source_type": "academic",      "domain": "lse.ac.uk" },
+    { "publisher": "Tax Justice UK / Network",      "source_type": "advocacy",      "domain": "taxjustice.uk" },
+    { "publisher": "Institute of Economic Affairs", "source_type": "advocacy",      "domain": "iea.org.uk" },
+    { "publisher": "TaxPayers' Alliance",           "source_type": "advocacy",      "domain": "taxpayersalliance.com" }
+  ]
+}

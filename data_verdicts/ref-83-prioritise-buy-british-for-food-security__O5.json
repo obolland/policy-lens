@@ -1,0 +1,599 @@
+{
+  "policy_id": "ref-83-prioritise-buy-british-for-food-security",
+  "party": "Reform UK",
+  "policy_title": "Prioritise 'Buy British' for food security",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "Raising domestic food production towards 70% self-sufficiency would modestly improve the UK's resilience to supply-chain shocks and external disruptions, which is a genuine national-security benefit. However, WTO legal challenges could undermine the mandate, and experts note that diversity of supply sources \u2014 not just domestic share \u2014 is also a key pillar of food security.",
+    "biggest_unknown": "Whether the public-procurement mandate and production targets survive WTO legal challenge and actually lift domestic self-sufficiency to the stated level, rather than being diluted or overturned.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy targets 70% 'Buy British' food security and mandates taxpayer-funded organisations to source 75% of their food from the UK.",
+        "evidence_id": "M",
+        "quote": "Reform UK will target 70% 'Buy British' to ensure food security, mandate taxpayer-funded organisations to source 75% of their food from the UK"
+      },
+      {
+        "tier": "measurable",
+        "claim": "UK overall food self-sufficiency was 62% in 2023, rising to 75% for indigenous foods only.",
+        "evidence_id": "E15",
+        "quote": "The UK's overall food self-sufficiency (for all foods consumed) was 62% in 2023, rising to 75% for indigenous foods"
+      },
+      {
+        "tier": "measurable",
+        "claim": "ONS data shows 57% of domestic food consumption came from UK production in 2024, with significant shares from EU and rest of world.",
+        "evidence_id": "E14",
+        "quote": "in 2024, 57% of domestic food consumption (based on unprocessed value at farmgate) came from UK production, with 25% from the EU and 18% from the rest of the world"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A diversity of supply sources also enhances food security by mitigating over-reliance on any single source.",
+        "evidence_id": "E10",
+        "quote": "a diversity of supply sources also enhances food security by mitigating over-reliance on any single source"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK is only 17% self-sufficient in certain foods, particularly fresh fruit, limiting how far domestic targets can substitute for imports.",
+        "evidence_id": "E4",
+        "quote": "for certain foods, particularly fresh fruit, the UK is only 17% self-sufficient"
+      },
+      {
+        "tier": "projected",
+        "claim": "The public-procurement mandate could face legal challenges under WTO rules.",
+        "evidence_id": "E7",
+        "quote": "banning imports not meeting UK standards could face challenges under World Trade Organization (WTO) rules"
+      },
+      {
+        "tier": "projected",
+        "claim": "Protectionist policies generally drive food prices above world market rates, which analysts argue can undermine food security for vulnerable populations.",
+        "evidence_id": "E12",
+        "quote": "a globalised agricultural system provides cheaper food and that protectionism can undermine food security for vulnerable populations by exacerbating price shocks"
+      }
+    ],
+    "rationale": "O5 includes resilience to external threats as an indicator. Food supply security is a recognised dimension of national resilience: if global shocks or trade frictions disrupt imports, a higher domestic production share reduces exposure. The current self-sufficiency baseline is 57\u201362% (depending on measurement), and the policy targets 70%, a real if modest uplift. The public-procurement mandate for 75% UK-sourced food is a concrete, funded mechanism \u2014 not merely aspirational \u2014 which passes the soft-verb threshold. This justifies a direction of 'improves' rather than 'negligible'. However, three factors limit both magnitude and confidence. First, diversity of supply is itself a food-security asset; concentrating sourcing domestically could increase vulnerability to domestic harvest failures rather than reduce it. Second, for key categories like fresh fruit, the UK is only 17% self-sufficient, meaning the 70% aggregate target likely relies on substitution toward foods the UK can produce, which may not map onto actual consumption demand. Third, WTO legal exposure is real and could prevent the mandate from operating as stated. On balance the direction is a minor, long-term improvement in supply-chain resilience \u2014 the mechanism is plausible and the target is concrete \u2014 but the magnitude is constrained by the limits of domestic production capacity and legal uncertainty, warranting low confidence.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.wandsworthguardian.co.uk/news/national/24788131.key-statistics-government-report-uk-food-security/",
+        "publisher": "wandsworthguardian.co.uk",
+        "title": "wandsworthguardian.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/food-statistics-pocketbook/food-statistics-in-your-pocket",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12071671/",
+        "publisher": "pmc.ncbi.nlm.nih.gov",
+        "title": "nih.gov",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2026-0009/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://resourcetrade.earth/publications/food-security-trade-and-its-impacts",
+        "publisher": "resourcetrade.earth",
+        "title": "resourcetrade.earth",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.043,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their quoted evidence. Tier assignments are appropriate: measurable claims draw on government/institutional data; projected claims are correctly flagged. The WTO claim (E7) quotes banning imports not meeting UK standards, while the verdict applies it to the procurement mandate \u2014 a slight stretch but not blocking given legal uncertainty is a legitimate projection. Diversity-of-supply claim (E10) is correctly cited from ONS/gov.uk. The direction of 'improves' on O5 (national resilience/food security) is evidence-justified with appropriately low confidence and minor magnitude. No party-identity leakage, no false balance, no lever scored for its own sake."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will target 70% 'Buy British' to ensure food security, mandate taxpayer-funded organisations to source 75% of their food from the UK, implement clear labelling for consumer choice, and boost smaller food processors and abattoirs through tax breaks.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's proposed food policy, centred on prioritising \"Buy British\" to achieve 70% food security and mandating taxpayer-funded organisations to source 75% of their food from the UK, is designed to boost domestic agriculture through measures like tax breaks for smaller food processors and abattoirs and clearer labelling for consumers",
+        "sources": [
+          {
+            "url": "https://reformuk-herefordshire.com/reform-uk-party-key-policies-national-reclaim-britain/",
+            "publisher": "reformuk-herefordshire.com",
+            "title": "reformuk-herefordshire.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Protectionist policies generally drive food prices above world market rates",
+        "sources": [
+          {
+            "url": "https://policyexchange.org.uk/news/policy-exchanges-warwick-lightfoot-writes-about-brexits-effect-on-food-prices-in-the-daily-telegraph/",
+            "publisher": "policyexchange.org.uk",
+            "title": "policyexchange.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://resourcetrade.earth/publications/food-security-trade-and-its-impacts",
+            "publisher": "resourcetrade.earth",
+            "title": "resourcetrade.earth",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The UK's food system is characterized by a 40% import dependency, meaning global shocks and trade frictions already impact prices quickly",
+        "sources": [
+          {
+            "url": "https://ericschnurrenberger.substack.com/p/the-anatomy-of-uk-food-prices",
+            "publisher": "ericschnurrenberger.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "While the policy aims to boost domestic production, for certain foods, particularly fresh fruit, the UK is only 17% self-sufficient",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12071671/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Impact on UK Farmers and Food Producers:** The policy intends to support UK farmers and smaller food businesses through increased demand and tax breaks",
+        "sources": [
+          {
+            "url": "https://reformuk-herefordshire.com/reform-uk-party-key-policies-national-reclaim-britain/",
+            "publisher": "reformuk-herefordshire.com",
+            "title": "reformuk-herefordshire.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This could offer a much-needed boost to the agricultural sector, which has faced rising costs and competition",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=kLo4XbSI27k",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The House of Commons Library highlights that banning imports not meeting UK standards could face challenges under World Trade Organization (WTO) rules",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2026-0009/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The UK's import of food and live animals from the EU, in terms of value, was more than twice that from non-EU countries between 2022 and 2024, indicating the scale of potential disruption to existing trade relationships",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12071671/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Food Security:** Reform UK's target of 70% food security through \"Buy British\" prioritises national self-sufficiency",
+        "sources": [
+          {
+            "url": "https://reformuk-herefordshire.com/reform-uk-party-key-policies-national-reclaim-britain/",
+            "publisher": "reformuk-herefordshire.com",
+            "title": "reformuk-herefordshire.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "While increased domestic production is a component of food security, the Office for National Statistics (ONS) notes that a diversity of supply sources also enhances food security by mitigating over-reliance on any single source",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/food-statistics-pocketbook/food-statistics-in-your-pocket",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "For indigenous foods (those that can be grown in the UK), the production-to-supply ratio was 75% in 2023",
+        "sources": [
+          {
+            "url": "https://www.wandsworthguardian.co.uk/news/national/24788131.key-statistics-government-report-uk-food-security/",
+            "publisher": "wandsworthguardian.co.uk",
+            "title": "wandsworthguardian.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Critics argue that a globalised agricultural system provides cheaper food and that protectionism can undermine food security for vulnerable populations by exacerbating price shocks",
+        "sources": [
+          {
+            "url": "https://resourcetrade.earth/publications/food-security-trade-and-its-impacts",
+            "publisher": "resourcetrade.earth",
+            "title": "resourcetrade.earth",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Environmental Impact:** The Food Foundation has expressed concern that Reform UK's ambition to abolish Net Zero targets and scrap climate-related farming subsidies would steer the food system in \"precisely the wrong direction\" and be \"hugely damaging to the sustainability of our food\"",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/news/reviewing-reform-uk-party-manifesto",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Office for National Statistics (ONS):** ONS data indicates that in 2024, 57% of domestic food consumption (based on unprocessed value at farmgate) came from UK production, with 25% from the EU and 18% from the rest of the world",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/food-statistics-pocketbook/food-statistics-in-your-pocket",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The UK's overall food self-sufficiency (for all foods consumed) was 62% in 2023, rising to 75% for indigenous foods",
+        "sources": [
+          {
+            "url": "https://www.wandsworthguardian.co.uk/news/national/24788131.key-statistics-government-report-uk-food-security/",
+            "publisher": "wandsworthguardian.co.uk",
+            "title": "wandsworthguardian.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "UK food and drink imports reached \u00a367.8 billion in 2025, up 6% from 2024, resulting in a record trade deficit of \u00a342.1 billion",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/uk-trade-in-food-feed-and-drink-2025-provisional/uk-trade-in-food-feed-and-drink-2025-provisional",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kLo4XbSI27k",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **The Food Foundation:** The Food Foundation welcomes the ambition to use public procurement as a lever to improve the food system, supporting the 75% publicly procured UK food target",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/news/reviewing-reform-uk-party-manifesto",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "However, they strongly criticise Reform UK's stance on Net Zero and climate-related farming subsidies, arguing it would damage food sustainability",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/news/reviewing-reform-uk-party-manifesto",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "\u00a33.25 for less healthy foods in 2021-2022)",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/press-release/major-report-highlights-impact-britains-disastrous-food-policy",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nuffieldfoundation.org/news/the-food-foundation-report-highlights-impact-of-britains-food-policy-disaster",
+            "publisher": "nuffieldfoundation.org",
+            "title": "nuffieldfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "They note that food price increases disproportionately affect larger families and low-income households",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/food-for-thought/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Resolution Foundation:** Analysis by the Resolution Foundation shows that UK food prices rose by 39% between 2020 and November 2025, adding over \u00a31,300 annually to the average household grocery bill",
+        "sources": [
+          {
+            "url": "https://ericschnurrenberger.substack.com/p/the-anatomy-of-uk-food-prices",
+            "publisher": "ericschnurrenberger.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They also found that higher energy costs combined with rapid food inflation have led to increased hardship and low food security, with the share of working-age adults in very low food security rising from 3.9% to 6.0% between 2021-22 and 2023-24",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/bare-necessities/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "In other research, they suggest that decarbonising British agriculture would increase food prices by less than 1% (around 50p on a weekly shop) but poses an \"existential risk\" to the worst-off farmers if these costs cannot be passed on",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/decarbonising-british-food-would-add-less-than-1-per-cent-to-food-bills-but-poses-an-existential-risk-to-worse-off-farmers-if-not-properly-managed/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.thegrocer.co.uk/news/decarbonising-british-food-would-add-less-than-1-to-food-bills-new-research-shows/714754.article",
+            "publisher": "thegrocer.co.uk",
+            "title": "thegrocer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **House of Commons Library:** The House of Commons Library has examined government buying standards for food, noting that previous frameworks aimed to encourage local and sustainable food procurement",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0210/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They also detail how post-Brexit trade agreements have led to concerns about lower-standard imports undercutting UK farmers, a concern Reform UK's policy seeks to address",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2026-0009/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "However, among those intending to vote Reform UK, there is lower support for policies such as taxes on unhealthy food to subsidise healthier options",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUUp77HCB6QA-c65xI-s3mKU6aireOKmymC2Q_ZOmcNasBG_gDEEaIiF9O4bJdjFmek7auBvuwTt5JkTOT0tIIgQY_j0tKFwq5aX9S_K9F_Pj9nI0QBIFewYlwITBZrB9ZapgRJZfb6Zhg6iHXE9x_VbCVcuMaesZsKJYquRiV2MI3IHfwjmcyhZd92d8eW17NUH2KBAaTr6KMA03l1IvUymmJZaX9HBWAL22iIbVZSuWF",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The Health Foundation notes that existing policies are failing to reduce obesity, which costs the UK an estimated \u00a374 billion annually",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/press-release/major-report-highlights-impact-britains-disastrous-food-policy",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/147654/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nuffieldfoundation.org/news/the-food-foundation-report-highlights-impact-of-britains-food-policy-disaster",
+            "publisher": "nuffieldfoundation.org",
+            "title": "nuffieldfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Institute for Fiscal Studies (IFS) & Office for Budget Responsibility (OBR):** While specific analyses of Reform UK's \"Buy British\" policy by the IFS and OBR were not found, both institutions regularly publish research on household consumption, food prices, government spending, and economic forecasts that provide a crucial backdrop for understanding the potential impacts of such policies",
+        "sources": [
+          {
+            "url": "https://www.igd.com/articles/the-budget-what-it-means-for-the-food-system/52879",
+            "publisher": "igd.com",
+            "title": "igd.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk1ahCAd-nI0QlGb4AfJL7G7pKXvsr65vBDRYI7NXUL94OLqk5foCmnStj4OQ0WKrm6lKem-7G6lhhB40C3HbB9t2r8-tYVGybgOna9OE_mkxSv424j2oHnCaEPMmGWEn_INYvWs83eG5FGrCKz-IFRCq912yzrZYmcUbphCLX6GgVeWRY85Cov9vV6WOHlcwp49Az5h2cEjU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-november-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/longer-term-impacts-covid-19-pandemic-dietary-purchasing-choices-british-households",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/household-food-purchasing-behaviour",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/economic-and-fiscal-outlooks/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://britishprogress.org/briefings/how-can-we-strengthen-the-obrs-forecasting",
+            "publisher": "britishprogress.org",
+            "title": "britishprogress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "While Reform UK champions increased national self-sufficiency, some analysts argue that an overemphasis on domestic production, especially through protectionist measures, can lead to higher prices, reduced consumer choice, and potential trade disputes",
+        "sources": [
+          {
+            "url": "https://policyexchange.org.uk/news/policy-exchanges-warwick-lightfoot-writes-about-brexits-effect-on-food-prices-in-the-daily-telegraph/",
+            "publisher": "policyexchange.org.uk",
+            "title": "policyexchange.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://resourcetrade.earth/publications/food-security-trade-and-its-impacts",
+            "publisher": "resourcetrade.earth",
+            "title": "resourcetrade.earth",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Conversely, proponents of \"Buy British\" policies argue that they support local economies, improve resilience to global supply chain shocks, and can maintain higher domestic production standards",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12071671/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2026-0009/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The Food Foundation's strong disagreement with Reform UK's environmental stance on Net Zero and climate-related farming subsidies also highlights a key area of expert divergence regarding the sustainability of the proposed policy",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/news/reviewing-reform-uk-party-manifesto",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

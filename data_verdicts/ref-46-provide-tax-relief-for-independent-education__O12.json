@@ -1,0 +1,479 @@
+{
+  "policy_id": "ref-46-provide-tax-relief-for-independent-education",
+  "party": "Reform UK",
+  "policy_title": "Provide tax relief for independent education",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy would cost the public finances roughly \u00a31.5\u20131.7 billion a year just from abolishing VAT on private school fees, plus an additional uncosted 20% tax relief \u2014 with no identified funding source. That gap would either add to borrowing or require cuts elsewhere, passing a bill to future taxpayers.",
+    "biggest_unknown": "The cost of the 20% income-tax-style relief on fees is unquantified in the evidence; the total fiscal hole could be significantly larger than the VAT loss alone.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to abolishing VAT on private school fees and introducing 20% tax relief on all independent education.",
+        "evidence_id": "M",
+        "quote": "introduce 20% tax relief on all independent education and abolish VAT on fees"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The OBR projected that applying 20% VAT to private school fees would raise an average of \u00a31.6 billion a year over the forecast period.",
+        "evidence_id": "E1",
+        "quote": "projected by the Office for Budget Responsibility (OBR) to increase VAT receipts by an average of \u00a31.6 billion each year over the forecast period"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy offers no identified funding source or revenue offset for the tax relief or VAT abolition.",
+        "evidence_id": "M",
+        "quote": "aiming to incentivise parents to choose independent schools and ease pressure on state schools"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The revenue raised from VAT on private school fees was intended to fund state education investment.",
+        "evidence_id": "E14",
+        "quote": "The revenue raised by the Labour government's VAT policy was intended to be invested in state education and teacher recruitment"
+      }
+    ],
+    "rationale": "The policy has two distinct fiscal costs. First, abolishing VAT on private school fees would forgo \u00a31.5\u20131.7 billion annually, per OBR estimates \u2014 a well-evidenced figure. Second, a 20% tax relief on all independent education fees would impose an additional cost that is not quantified in the provided evidence but would be additive to the VAT loss. Neither measure comes with an identified funding mechanism in the policy text. Absent a revenue offset, these are unfunded tax expenditures: they either widen the deficit (worsening the debt path) or displace other spending. The revenue foregone is meaningful at macroeconomic scale \u2014 \u00a31.5bn+ per year compounds materially over a parliament. There is no evidence of a credible counterfactual in which the fiscal gap is closed by behavioural effects (e.g. dramatic increases in private enrolment that would broaden the income-tax base). The LGA evidence further undermines the secondary justification \u2014 that shifting pupils to independent schools relieves state school cost pressure \u2014 since most councils did not observe significant state-sector demand changes from the mirror policy in the opposite direction. On the dual-horizon test, the near-term cost is clear and the long-term debt-path effect depends on whether any dynamic fiscal dividend materialises, for which there is no cited evidence. The verdict is 'worsens/moderate': the fiscal cost is real and material, the funding is absent, and the policy finances consumption-side tax relief rather than productive public investment.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://educationhub.blog.gov.uk/2024/11/vat-private-schools-everything-you-need-to-know/",
+        "publisher": "educationhub.blog.gov.uk",
+        "title": "blog.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+        "publisher": "goodschoolsguide.co.uk",
+        "title": "goodschoolsguide.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0354,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-structured and passes all checks. The OBR figure (E1) is correctly labelled measurable \u2014 it is a published OBR projection of a policy already in effect, treated appropriately as a baseline revenue estimate rather than a speculative forecast. The 'stated' claim about no funding source is a fair inference from the policy text (M) which contains no funding mechanism. The claim about VAT revenue intended for state education (E14) is correctly labelled measurable and is supported by the quote. The direction 'worsens/moderate' is well-justified: the VAT abolition alone represents ~\u00a31.5\u20131.7bn p.a. of foregone revenue with no offset, and the additional 20% tax relief cost is flagged as unquantified. The rationale does not impute motive or party identity. The LGA evidence is used appropriately to undermine the secondary justification. One minor note: the third 'stated' claim uses a quote from the policy text that does not directly state 'no funding source' \u2014 it is an absence rather than a statement \u2014 but this is a reasonable inference from a stated-tier document and does not rise to blocking. The magnitude ('moderate') is reasonable given \u00a31.5bn+ p.a. is material but not transformative at macro scale without knowing the full tax relief cost."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "Abolishing VAT on fees would mean foregoing approximately \u00a31.5\u20131.7 billion annually in tax revenue.",
+          "evidence_id": "E3",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will introduce 20% tax relief on all independent education and abolish VAT on fees, aiming to incentivise parents to choose independent schools and ease pressure on state schools.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "*   **Abolishing VAT on Fees:** The Labour government's policy to apply 20% VAT to private school fees, which took effect from January 1, 2025, was projected by the Office for Budget Responsibility (OBR) to increase VAT receipts by an average of \u00a31.6 billion each year over the forecast period.",
+        "sources": [
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The government also estimated that extending VAT to private school fees would raise \u00a30.46 billion in 2024/25, rising to \u00a31.51 billion in 2025/26.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10125/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Therefore, abolishing VAT on fees would mean foregoing approximately **\u00a31.5 billion to \u00a31.7 billion annually** in tax revenue.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10125/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://educationhub.blog.gov.uk/2024/11/vat-private-schools-everything-you-need-to-know/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Based on average private school fees in the UK of \u00a315,200 in 2022\u201323 (net of bursaries and scholarships)",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMrCv6EbZmyS9y_U6ngBDLuk2pBpktPlkxYO1BnzN9kWJLZlJUCb83w2DM75TTSbeS-pTuJMpICGkW7kPFLwRWszrILAuSKU2mNfvUq4YVAC8DubNPSjcVuBp3Qq7fAxOsT_j3Tfd6oNq4B_mvOqyJxnE7043SYogDv2nEFESdBdepaLCLO3EmbasW",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "and approximately 560,000-570,000 pupils in independent schools in England",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMrCv6EbZmyS9y_U6ngBDLuk2pBpktPlkxYO1BnzN9kWJLZlJUCb83w2DM75TTSbeS-pTuJMpICGkW7kPFLwRWszrILAuSKU2mNfvUq4YVAC8DubNPSjcVuBp3Qq7fAxOsT_j3Tfd6oNq4B_mvOqyJxnE7043SYogDv2nEFESdBdepaLCLO3EmbasW",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ft.com/content/688914f0-c0c7-4765-8d67-e151314cae83?syn-25a6b1a6=1",
+            "publisher": "ft.com",
+            "title": "ft.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This figure does not include the potential loss of revenue from reversing the removal of business rates relief for charitable independent schools, which Labour also implemented from April 2025.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05222/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "While the standard VAT rate is 20%, many schools absorbed some of the cost, resulting in an average effective fee increase of around 10-14% for parents.",
+        "sources": [
+          {
+            "url": "https://educationhub.blog.gov.uk/2024/11/vat-private-schools-everything-you-need-to-know/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://schoolsweek.co.uk/private-school-vat-raids-whats-the-actual-impact/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Enrolment:** The OBR initially forecast a 6% drop in private school enrolments, equating to around 35,000 to 37,000 fewer pupils, due to the imposition of VAT.",
+        "sources": [
+          {
+            "url": "https://todaysfamilylawyer.co.uk/obr-forecasts-35000-fewer-private-school-pupils-due-to-vat-changes/",
+            "publisher": "todaysfamilylawyer.co.uk",
+            "title": "todaysfamilylawyer.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Independent Schools Council (ISC) reported an initial decline of 5% at key entry points in the 2024-25 school year",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "and a drop of 13,000 pupils in the first year of VAT, exceeding government estimates.",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/private-school-vat-raids-whats-the-actual-impact/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.isc.co.uk/media-enquiries/news-press-releases-statements/isc-ceo-it-seems-clear-to-us-that-the-government-has-underestimated-the-effect-of-vat-on-fees/",
+            "publisher": "isc.co.uk",
+            "title": "isc.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Limited Direct Impact (Potential):** However, the Local Government Association (LGA) found that after VAT was imposed, most councils (78%) had not seen an increase in state secondary school applications directly attributable to the ending of the VAT exemption.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/sites/default/files/documents/Impact%20of%20the%20removal%20of%20the%20VAT%20exemption%20on%20fee-paying%20school%20fees%20-%20Research%20Report.pdf",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Only a third (33%) thought any increase was due to the VAT change.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/sites/default/files/documents/Impact%20of%20the%20removal%20of%20the%20VAT%20exemption%20on%20fee-paying%20school%20fees%20-%20Research%20Report.pdf",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This suggests that the impact of fee changes on state school numbers might not be as dramatic as some expect, though financial pressures were a reason cited by 43% of respondents for families moving children.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/sites/default/files/documents/Impact%20of%20the%20removal%20of%20the%20VAT%20exemption%20on%20fee-paying%20school%20fees%20-%20Research%20Report.pdf",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Resource Allocation:** The revenue raised by the Labour government's VAT policy was intended to be invested in state education and teacher recruitment.",
+        "sources": [
+          {
+            "url": "https://educationhub.blog.gov.uk/2024/11/vat-private-schools-everything-you-need-to-know/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+            "publisher": "goodschoolsguide.co.uk",
+            "title": "goodschoolsguide.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Benefit to Wealthier Families:** Independent school attendance is largely concentrated at the top of the income distribution.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMrCv6EbZmyS9y_U6ngBDLuk2pBpktPlkxYO1BnzN9kWJLZlJUCb83w2DM75TTSbeS-pTuJMpICGkW7kPFLwRWszrILAuSKU2mNfvUq4YVAC8DubNPSjcVuBp3Qq7fAxOsT_j3Tfd6oNq4B_mvOqyJxnE7043SYogDv2nEFESdBdepaLCLO3EmbasW",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Exacerbating Inequality:** Research from Zeus Press (October 2025) on the impact of VAT on private school fees suggested that imposing VAT created \"class differentiation,\" with top 10% income groups maintaining private education while middle and lower-income groups were more likely to switch to public schools.",
+        "sources": [
+          {
+            "url": "https://journals.zeuspress.org/index.php/FER/article/view/401",
+            "publisher": "journals.zeuspress.org",
+            "title": "zeuspress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.researchgate.net/publication/396827033_The_Impact_of_the_UK_Government's_VAT_on_Private_School_Tuition_Fees_on_Social_and_Economic_Mobility",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Reversing this, through tax relief, could strengthen \"intergenerational advantage\" for the wealthy, as it makes private education more accessible to them, potentially increasing \"elite closure probability.\"",
+        "sources": [
+          {
+            "url": "https://journals.zeuspress.org/index.php/FER/article/view/401",
+            "publisher": "journals.zeuspress.org",
+            "title": "zeuspress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.researchgate.net/publication/396827033_The_Impact_of_the_UK_Government's_VAT_on_Private_School_Tuition_Fees_on_Social_and_Economic_Mobility",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Pupil Migration:** The IFS initially estimated a 3-7% reduction in private school attendance from VAT",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/research/short-term-thinking-analysing-the-effect-of-applying-vat-to-school-fees",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/tax-treatment-of-private-schools-an-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": ", while the OBR forecast 6% (35,000-37,000 pupils)",
+        "sources": [
+          {
+            "url": "https://todaysfamilylawyer.co.uk/obr-forecasts-35000-fewer-private-school-pupils-due-to-vat-changes/",
+            "publisher": "todaysfamilylawyer.co.uk",
+            "title": "todaysfamilylawyer.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "However, the ISC reported a 13,000 pupil drop in the first year of VAT, exceeding initial government estimates, and warned of further decreases.",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/private-school-vat-raids-whats-the-actual-impact/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.isc.co.uk/media-enquiries/news-press-releases-statements/isc-ceo-it-seems-clear-to-us-that-the-government-has-underestimated-the-effect-of-vat-on-fees/",
+            "publisher": "isc.co.uk",
+            "title": "isc.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Some analysts, like the Adam Smith Institute, argued that a substantial, one-off fee increase (like VAT) could lead to higher withdrawals than historical, gradual fee rises.",
+        "sources": [
+          {
+            "url": "https://static1.squarespace.com/static/56eddde762cd9413e151ac92/t/66e6e032a181a2181d85994e/1726406708227/Written+Evidence+Submitted+by+the+Adam+Smith+Institute_+Applying+VAT+to+Private+School+Fees+and+Removing+the+Business+Rates+Charitable+Rates+Relief+for+Private+Schools.pdf",
+            "publisher": "static1.squarespace.com",
+            "title": "squarespace.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Impact on State Schools:** While some councils expressed concerns about capacity, the LGA survey indicated that many Directors of Children's Services did not attribute observed increases in state school applications directly to the VAT changes, suggesting other factors were at play.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/sites/default/files/documents/Impact%20of%20the%20removal%20of%20the%20VAT%20exemption%20on%20fee-paying%20school%20fees%20-%20Research%20Report.pdf",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Economic Rationale:** There is an ongoing debate about the economic case for and against tax exemptions for private schools, with arguments about education being a \"merit good\" and whether tax breaks constitute hidden public subsidies.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMrCv6EbZmyS9y_U6ngBDLuk2pBpktPlkxYO1BnzN9kWJLZlJUCb83w2DM75TTSbeS-pTuJMpICGkW7kPFLwRWszrILAuSKU2mNfvUq4YVAC8DubNPSjcVuBp3Qq7fAxOsT_j3Tfd6oNq4B_mvOqyJxnE7043SYogDv2nEFESdBdepaLCLO3EmbasW",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.adamsmith.org/research/short-term-thinking-analysing-the-effect-of-applying-vat-to-school-fees",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taxexpenditures.org/2023/11/13/tax-breaks-for-private-schools-under-debate-in-the-uk/",
+            "publisher": "taxexpenditures.org",
+            "title": "taxexpenditures.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/CIOT%20and%20IFS%20Online%20Debate-VAT%20on%20private%20school%20fees",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

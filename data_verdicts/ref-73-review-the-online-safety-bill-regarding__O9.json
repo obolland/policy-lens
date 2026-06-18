@@ -1,0 +1,544 @@
+{
+  "policy_id": "ref-73-review-the-online-safety-bill-regarding",
+  "party": "Reform UK",
+  "policy_title": "Review the Online Safety Bill regarding free speech",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy promises only a 'review' of the Online Safety Act, with no committed changes specified \u2014 making its real-world effect on equal treatment and minority protections impossible to pin down. The policy's explicit singling out of transgender and race-related content raises questions about differential treatment of minority groups, but whether any review would actually change their legal protections is unknown.",
+    "biggest_unknown": "Whether the review would translate into legislative changes that alter platforms' duties in ways that materially affect protections for minority groups online.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy calls for a review of the Online Safety Bill, framing social media giants pushing 'baseless transgender ideology and divisive Critical Race theory' as having no role in regulating free speech.",
+        "evidence_id": "M",
+        "quote": "Reform UK will review the Online Safety Bill, asserting that social media giants pushing 'baseless transgender ideology and divisive Critical Race theory' should have no role in regulating free speech."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Online Safety Act already includes a statutory duty on platforms to protect users' lawful speech, enforceable by Ofcom.",
+        "evidence_id": "E6",
+        "quote": "Section 22, which introduces a statutory duty for online services to protect users' lawful speech and privacy, enforceable by the regulator Ofcom."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Act does not require platforms to remove legal content for adult users.",
+        "evidence_id": "E5",
+        "quote": "The Act does not obligate platforms to remove legal content for adults."
+      },
+      {
+        "tier": "projected",
+        "claim": "Party figures have indicated they would scrap the Act entirely, not merely review it.",
+        "evidence_id": "E12",
+        "quote": "Party figures, including Nigel Farage, have indicated they would \"scrap the Online Safety Act\" entirely, labelling it \"dystopian\""
+      },
+      {
+        "tier": "projected",
+        "claim": "No detail has been provided on how minority or child protections would be maintained if the Act were repealed.",
+        "evidence_id": "E13",
+        "quote": "Reform UK has not detailed how this would be achieved if the existing Act were repealed."
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether a review leads to repeal, amendment, or no change \u2014 and whether any resulting changes would alter platforms' handling of content relating to minority groups.",
+      "estimate_range": "Outcomes range from no legislative change (review leads nowhere) to full repeal that removes Ofcom's enforcement powers over platform content policies affecting minorities."
+    },
+    "rationale": "O9 covers equal treatment, minority protections, due process, and democratic rights \u2014 not free speech per se (that is O10). The relevant O9 question here is whether this policy would materially change the legal protections that currently govern how online platforms treat content relating to minority groups, particularly transgender people and racial minorities explicitly named in the policy text.\n\nThe policy commits only to a 'review' \u2014 a soft verb with no specified instrument, target, or timeline. This alone would normally push the verdict toward negligible or too-uncertain under the soft-verb rule. The OSA is not primarily an anti-discrimination statute; it does not create positive equal-treatment rights for minorities. Its duties concern platform transparency, child protection, and illegal content removal. A review or repeal would therefore not directly strip anti-discrimination law.\n\nHowever, the policy's explicit framing \u2014 naming transgender and race-related content as ideological problems \u2014 is a stated element of the review's rationale. If the review led to weakening platform duties in ways that specifically deprioritised concerns raised by those communities (e.g. hate speech, coordinated harassment), that could have O9-relevant consequences. But this causal chain is speculative: no committed mechanism is provided, and the OSA's current anti-discrimination contribution is itself limited.\n\nParty figures are cited as wanting full repeal, but that remains projected and contested. Without knowing what a 'review' would actually change, and given the OSA's indirect relationship to formal equal-treatment law, no confident direction can be assigned. The verdict is too-uncertain.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://avpassociation.com/thought-leadership/the-online-safety-act-a-first-amendment-for-the-uk/",
+        "publisher": "avpassociation.com",
+        "title": "avpassociation.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/politics/2025/jul/28/reform-uk-vows-to-repeal-borderline-dystopian-online-safety-act",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.the-independent.com/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+        "publisher": "the-independent.com",
+        "title": "the-independent.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0447,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All checks pass. The stated claim is directly supported by the policy text. Measurable claims (E5, E6) are appropriately sourced institutional/legal facts about the OSA. The projected claims (E12, E13) are correctly tiered \u2014 party figure statements and absence of detail are not presented as facts. The too-uncertain direction is genuinely warranted: the policy commits only to a 'review' with no specified outcome, and the causal chain from review to O9-relevant change is speculative. The crux_parameter and estimate_range are substantive, not lazy hedges. The rationale correctly scopes O9 vs O10, notes the OSA's indirect relationship to formal equal-treatment law, and does not impute motive to the party \u2014 the explicit policy framing is quoted as stated evidence, not used to attribute intent. No false balance issue: the too-uncertain verdict is not manufactured symmetry but reflects genuine absence of committed mechanism. E6 is from avpassociation.com (advocacy/commercial), but is used to state a legal provision of the Act that is corroborated by the Act's own text; this is a minor concern but not blocking. No party_blind issues detected."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will review the Online Safety Bill, asserting that social media giants pushing 'baseless transgender ideology and divisive Critical Race theory' should have no role in regulating free speech.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Online Safety Act (OSA), which received Royal Assent on 26 October 2023 and is being implemented in phases, aims to make the UK the safest place to be online while defending free expression.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Online_Safety_Act_2023",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9579/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Its key objectives include increasing user safety, preserving and enhancing freedom of speech online, and tackling illegal content.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9579/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Crucially, during its passage through Parliament, the \"legal but harmful\" provisions for adults were removed from the Bill to safeguard freedom of expression.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Online_Safety_Act_2023",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.brookings.edu/articles/u-k-government-purges-legal-but-harmful-provisions-from-its-revised-online-safety-bill/",
+            "publisher": "brookings.edu",
+            "title": "brookings.edu",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.familylawweek.co.uk/house-of-commons-library-published-overview-of-progress-of-online-safety-bill/",
+            "publisher": "familylawweek.co.uk",
+            "title": "familylawweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "As a result, for adult users, major platforms are now required to be more transparent about their content policies and provide users with greater control over the content they see.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Act does not obligate platforms to remove legal content for adults.",
+        "sources": [
+          {
+            "url": "https://avpassociation.com/thought-leadership/the-online-safety-act-a-first-amendment-for-the-uk/",
+            "publisher": "avpassociation.com",
+            "title": "avpassociation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "A significant aspect of the OSA is Section 22, which introduces a statutory duty for online services to protect users' lawful speech and privacy, enforceable by the regulator Ofcom.",
+        "sources": [
+          {
+            "url": "https://avpassociation.com/thought-leadership/the-online-safety-act-a-first-amendment-for-the-uk/",
+            "publisher": "avpassociation.com",
+            "title": "avpassociation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This means platforms must prioritize freedom of expression when designing safety measures, and Ofcom can intervene if platforms over-block legal content.",
+        "sources": [
+          {
+            "url": "https://avpassociation.com/thought-leadership/the-online-safety-act-a-first-amendment-for-the-uk/",
+            "publisher": "avpassociation.com",
+            "title": "avpassociation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "However, the Act places strong duties on platforms to protect children from illegal and age-inappropriate content, requiring measures such as age verification for certain material.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Online_Safety_Act_2023",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.indexoncensorship.org/2025/07/free-expression-concerns-over-online-safety-acts-age-verification-requirements/",
+            "publisher": "indexoncensorship.org",
+            "title": "indexoncensorship.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Platforms also have duties to assess risks of illegal harms and implement systems to remove illegal content.",
+        "sources": [
+          {
+            "url": "https://www.techpolicy.press/tracker/online-safety-act-2023/",
+            "publisher": "techpolicy.press",
+            "title": "techpolicy.press",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0043/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Ofcom has the power to issue substantial fines, up to \u00a318 million or 10% of a company's annual global turnover, for non-compliance.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Online_Safety_Act_2023",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://keystonelaw.com/keynotes/the-online-safety-act-2023-what-is-online-harm/",
+            "publisher": "keystonelaw.com",
+            "title": "keystonelaw.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Reform UK's policy pledges to \"review the Online Safety Bill,\" explicitly stating that \"social media giants pushing 'baseless transgender ideology and divisive Critical Race theory' should have no role in regulating free speech.\"",
+        "sources": [
+          {
+            "url": "https://www.thebureauinvestigates.com/stories/2024-07-02/explainer-what-do-the-uk-party-manifestos-say-about-trans-issues",
+            "publisher": "thebureauinvestigates.com",
+            "title": "thebureauinvestigates.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Party figures, including Nigel Farage, have indicated they would \"scrap the Online Safety Act\" entirely, labelling it \"dystopian\" and an infringement of free speech that could \"force social media companies to censor anti-government speech.\"",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2025/jul/28/reform-uk-vows-to-repeal-borderline-dystopian-online-safety-act",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "While acknowledging the need to protect children online, Reform UK has not detailed how this would be achieved if the existing Act were repealed.",
+        "sources": [
+          {
+            "url": "https://www.the-independent.com/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2025/jul/28/reform-uk-vows-to-repeal-borderline-dystopian-online-safety-act",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "This stance aligns with a broader party platform that opposes \"identity politics\" and \"woke\" ideology.",
+        "sources": [
+          {
+            "url": "https://www.electionanalysis.uk/uk-election-analysis-2024/section-5-policy-and-strategy/take-the-next-right-mainstream-parties-positions-on-gender-and-lgbtq-equality-issues/",
+            "publisher": "electionanalysis.uk",
+            "title": "electionanalysis.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "For example, groups like the Molly Rose Foundation, which campaigns on suicide prevention, have stated that scrapping the Act \"would be a retrograde move that would not only put children at greater risk but is out of step with the mood of the public.\"",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2025/jul/28/reform-uk-vows-to-repeal-borderline-dystopian-online-safety-act",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Critics of Reform UK's approach, such as NetChoice, generally argue that treating speech as inherently harmful incentivizes platforms to over-police, leading to \"widespread self-censorship and suppression of lawful speech.\"",
+        "sources": [
+          {
+            "url": "https://netchoice.org/the-online-safety-act-treats-free-speech-like-a-toxin/",
+            "publisher": "netchoice.org",
+            "title": "netchoice.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "However, groups like Liberty have also expressed concerns about the OSA itself potentially undermining freedom of expression and privacy due to its broad powers and enforcement mechanisms.",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/wp-content/uploads/2022/04/Libertys-second-reading-briefing-on-the-Online-Safety-Bill-for-the-House-of-Commons-April-2022.pdf",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/pages/uk-online-safety-bill-massive-threat-online-privacy-security-and-speech",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Protection of Children:** A significant area of concern for many experts, including the Labour Party and organisations like the Molly Rose Foundation, is that repealing the Act would remove \"vital protections for young people online and recklessly open the floodgates to kids being exposed to extreme digital content.\"",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The current Act mandates robust measures for platforms to protect children from harmful and illegal content, including age-appropriate experiences.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0043/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The relevant financial figures for the OSA are the potential fines Ofcom can levy: up to \u00a318 million or 10% of global annual turnover, whichever is higher, for non-compliance.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Online_Safety_Act_2023",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://keystonelaw.com/keynotes/the-online-safety-act-2023-what-is-online-harm/",
+            "publisher": "keystonelaw.com",
+            "title": "keystonelaw.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This financial penalty is often cited as a reason platforms might over-censor.",
+        "sources": [
+          {
+            "url": "https://netchoice.org/the-online-safety-act-treats-free-speech-like-a-toxin/",
+            "publisher": "netchoice.org",
+            "title": "netchoice.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Critics of the OSA from a free speech perspective (e.g., Matrix Chambers, NetChoice) argue that, despite amendments, it still risks curtailing free expression through its broad powers and the chilling effect of potential fines, incentivizing platforms to remove more content than legally required.",
+        "sources": [
+          {
+            "url": "https://www.matrixlaw.co.uk/wp-content/uploads/2022/05/Legal-analysis-of-the-impact-of-the-Online-Safety-Bill-on-freedom-of-expression.pdf",
+            "publisher": "matrixlaw.co.uk",
+            "title": "matrixlaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://netchoice.org/the-online-safety-act-treats-free-speech-like-a-toxin/",
+            "publisher": "netchoice.org",
+            "title": "netchoice.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.indexoncensorship.org/2025/07/free-expression-concerns-over-online-safety-acts-age-verification-requirements/",
+            "publisher": "indexoncensorship.org",
+            "title": "indexoncensorship.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/pages/uk-online-safety-bill-massive-threat-online-privacy-security-and-speech",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Conversely, supporters emphasize its necessity for child protection and tackling illegal content, while aiming to protect free speech.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Online_Safety_Act_2023",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://avpassociation.com/thought-leadership/the-online-safety-act-a-first-amendment-for-the-uk/",
+            "publisher": "avpassociation.com",
+            "title": "avpassociation.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9579/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Reform UK claims it does \"absolutely nothing to protect children\" and suppresses free speech",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": ", while child safety advocates like the Molly Rose Foundation view it as an \"important building block\" that needs strengthening",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/nigel-farage-reform-ofcom-westminster-levi-bellfield-b2797326.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2025/jul/28/reform-uk-vows-to-repeal-borderline-dystopian-online-safety-act",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

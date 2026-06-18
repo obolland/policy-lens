@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens single-verdict verifier output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["passed", "blocking_issues", "notes"],
+  "properties": {
+    "passed": { "type": "boolean", "description": "false if ANY blocking issue is found" },
+    "blocking_issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["check", "severity", "detail"],
+        "properties": {
+          "check": { "type": "string", "enum": ["source_support", "tier_integrity", "magnitude_timing", "uncertainty_integrity", "lever_leakage", "party_blind", "false_balance"] },
+          "severity": { "type": "string", "enum": ["blocking", "warning"] },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "_comment": "Layer-1 outcomes \u2014 the 'fundamentals'. The ONLY things scored. A policy is judged solely by its modelled effect on these. v2 frame (2026-06-16): rebalanced so EVERY major political tradition's core goods can register as a BENEFIT, not only as a cost to others' goods \u2014 fixing the structural left-green/right-red tilt that the v1 set produced. See _history. Two TYPES of outcome: 'valenced' (scored improves/worsens) and 'directional' (a genuinely contested-valence good like border control: we report the DIRECTION of change, no good/bad verdict, and the reader supplies the value). IDs are stable identifiers; array order is display order.",
+  "classification_rule": "Want it for its own sake = a fundamental (here). Valued for its effect on these = a lever (config/levers.json), scored only via effect. Test: 'Would you still want this if it had zero effect on any fundamental below?' If no, it's a lever.",
+  "default_selected": [
+    "O2",
+    "O3",
+    "O1",
+    "O5",
+    "O11",
+    "D1"
+  ],
+  "picker_groups": [
+    {
+      "name": "Your money & the economy",
+      "ids": [
+        "O2",
+        "O11",
+        "O4",
+        "O13",
+        "O14",
+        "O12"
+      ]
+    },
+    {
+      "name": "Health, home & public services",
+      "ids": [
+        "O3",
+        "O1",
+        "O7",
+        "O8"
+      ]
+    },
+    {
+      "name": "Rights, safety & society",
+      "ids": [
+        "O5",
+        "O9",
+        "O10",
+        "O15",
+        "D1"
+      ]
+    },
+    {
+      "name": "Environment",
+      "ids": [
+        "O6"
+      ]
+    }
+  ],
+  "_picker_groups_note": "Visual grouping for the picker only \u2014 organises the 16 chips into the standard economy / public-services / society / climate buckets so it doesn't read as a flat wall. Does not affect scoring. Every outcome + directional measure must appear exactly once across the groups.",
+  "_default_selected_note": "The grid opens on this balanced, poll-salient subset (cost of living, health, housing, crime, tax, work) so it isn't 15-columns-wide on load. Readers add/remove any of the full set via the picker. Deliberately spans left- and right-coded goods so the first impression isn't lopsided.",
+  "balance_rule": "The set must be VALUE-BALANCED: for each major tradition (social-democratic, economic-liberal/conservative, libertarian, communitarian, green) at least one outcome must let its defining instrument score a clear 'improves'. A new right-coded outcome (tax/finances/growth) must be matched by the left's home (inequality) and vice-versa. Wording must not pre-load a contested macro premise (e.g. 'deficits are bad'). Audit badge/verdict distribution across parties as a release gate; systematic asymmetry is a methodology fault to investigate, not a finding to ship.",
+  "outcomes": [
+    {
+      "id": "O2",
+      "name": "Cost of living",
+      "plain": "Can I afford the essentials \u2014 food, energy, the bills?",
+      "type": "valenced",
+      "indicators": [
+        "real disposable income",
+        "inflation basket",
+        "energy bills",
+        "food costs"
+      ]
+    },
+    {
+      "id": "O1",
+      "name": "Affordable housing",
+      "plain": "Can I afford a decent home, to rent or buy, near my life?",
+      "type": "valenced",
+      "indicators": [
+        "house-price-to-income ratio",
+        "rent as % of income",
+        "social/affordable housing stock",
+        "net additions vs need"
+      ]
+    },
+    {
+      "id": "O3",
+      "name": "Healthcare",
+      "plain": "Can I get treated when I need it?",
+      "type": "valenced",
+      "indicators": [
+        "NHS waiting lists",
+        "A&E wait times",
+        "GP appointment availability",
+        "mental health access"
+      ]
+    },
+    {
+      "id": "O4",
+      "name": "Good work & fair pay",
+      "plain": "Can I earn a decent, secure living?",
+      "type": "valenced",
+      "indicators": [
+        "real wages",
+        "job security/quality",
+        "in-work poverty",
+        "workers' rights & conditions"
+      ],
+      "_distinct_from": "O13 Prosperity (aggregate growth/opportunity) \u2014 O4 is the DISTRIBUTIONAL/quality side of the labour market; a policy can lift aggregate growth (O13) while wages stagnate (O4)."
+    },
+    {
+      "id": "O7",
+      "name": "Education & opportunity",
+      "plain": "Can my kids get a good education \u2014 and can I get the skills to get on?",
+      "type": "valenced",
+      "indicators": [
+        "school standards",
+        "attainment gap",
+        "further-education & skills funding",
+        "apprenticeship starts"
+      ]
+    },
+    {
+      "id": "O8",
+      "name": "Security in later life",
+      "plain": "Will I have a dignified retirement and care when I'm old?",
+      "type": "valenced",
+      "indicators": [
+        "state pension adequacy",
+        "pensioner poverty",
+        "social care access & cost",
+        "care waiting times"
+      ]
+    },
+    {
+      "id": "O5",
+      "name": "Crime, justice & national security",
+      "plain": "Are my streets safe, the country secure, and does justice work?",
+      "type": "valenced",
+      "indicators": [
+        "crime rates",
+        "charge/conviction times",
+        "antisocial behaviour",
+        "court backlogs",
+        "national security & defence posture",
+        "resilience to external threats"
+      ],
+      "_reframed": "v2: this is now PURELY the protective good (safety, order, justice, defence). The LIBERTY COST of enforcement (surveillance, stop-and-search, detention powers) no longer nets out here \u2014 it is scored on O10. Tougher enforcement can register as an O5 'improves' and an O10 'worsens' simultaneously: two clean signals, not one muddy one."
+    },
+    {
+      "id": "O9",
+      "name": "Equal treatment & democratic rights",
+      "plain": "Am I treated equally and fairly, with a fair say and due process?",
+      "type": "valenced",
+      "indicators": [
+        "equal treatment / anti-discrimination protections",
+        "voting & democratic rights",
+        "due process & rule of law",
+        "minority protections"
+      ],
+      "_split_note": "v2: old O9 'Rights & freedoms' split into O9 (equal-treatment/status \u2014 this) and O10 (negative liberty). They are RIVAL goods (anti-discrimination law advances O9 by restricting O10), so blending them made a policy score + and - on one outcome and vanish into 'mixed'. Split keeps both signals."
+    },
+    {
+      "id": "O10",
+      "name": "Personal liberty & free speech",
+      "plain": "Am I free from undue state control over my speech, body, and choices?",
+      "type": "valenced",
+      "indicators": [
+        "freedom of speech & expression",
+        "privacy / surveillance",
+        "bodily autonomy",
+        "freedom from state coercion (mandates, licensing)",
+        "property rights"
+      ],
+      "_new": "v2 (split from old O9). The home for negative liberty. Deregulation, removing mandates, or rolling back surveillance score 'improves' here; new enforcement/surveillance/coercive powers score 'worsens' here even where they 'improve' O5."
+    },
+    {
+      "id": "O6",
+      "name": "Clean environment & nature",
+      "plain": "Is the air, water, and climate liveable \u2014 now and for the future?",
+      "type": "valenced",
+      "dual_horizon": true,
+      "indicators": [
+        "air & water quality",
+        "emissions trajectory",
+        "biodiversity / nature",
+        "long-term climate & sustainability for future generations"
+      ],
+      "_reframed": "v2: scope widened to nature/biodiversity and explicit LONG-TERM/intergenerational sustainability. dual_horizon: score near-term AND long-term (~10yr+) separately when they diverge."
+    },
+    {
+      "id": "O11",
+      "name": "Tax & the money you keep",
+      "plain": "How much of what I earn do I get to keep?",
+      "type": "valenced",
+      "indicators": [
+        "household tax burden",
+        "marginal & average tax rates",
+        "take-home pay",
+        "distributional incidence of tax changes"
+      ],
+      "_new": "v2. Right-coded good's home: a tax cut can score 'improves' HERE rather than only a cost elsewhere. Its public-services counterpart is visible via O3/O7/O8 and O12, so the tradeoff shows on both sides. Party-blind, evidence-judgeable (IFS/OBR distributional analysis)."
+    },
+    {
+      "id": "O12",
+      "name": "Public finances & the next generation",
+      "plain": "Do the sums add up, or is the bill passed to our kids?",
+      "type": "valenced",
+      "dual_horizon": true,
+      "indicators": [
+        "debt path sustainability",
+        "debt interest burden",
+        "is spending funded vs borrowed",
+        "financing consumption vs productive investment"
+      ],
+      "_new": "v2. Worded MACRO-NEUTRAL on purpose: NOT 'deficits are bad'. A stimulus advocate can argue borrowing IMPROVES long-run sustainability by raising future output; a hawk argues it worsens the debt burden \u2014 BOTH on evidence (OBR/IFS). dual_horizon. This is the symmetric cost-home for unfunded spending AND unfunded tax cuts."
+    },
+    {
+      "id": "O13",
+      "name": "Prosperity & living standards",
+      "plain": "Is the economy growing, with real opportunities to get on?",
+      "type": "valenced",
+      "dual_horizon": true,
+      "indicators": [
+        "real living standards",
+        "productivity & business investment",
+        "economic opportunity & mobility",
+        "firm formation / dynamism"
+      ],
+      "_new": "v2. NOT raw GDP-as-telos (which would auto-penalise any environmental/long-term policy). Measures real living standards & opportunity, dual_horizon (a grid upgrade or flood defence shows near-term cost, long-term gain; a degrowth policy shows the reverse). Distinct from O4 (labour quality/distribution) and O2 (prices)."
+    },
+    {
+      "id": "O14",
+      "name": "Inequality & fair shares",
+      "plain": "Is the gap between the richest and the rest getting wider or narrower?",
+      "type": "valenced",
+      "indicators": [
+        "income & wealth inequality (Gini)",
+        "gap between top and bottom",
+        "regional inequality",
+        "intergenerational fairness of gains"
+      ],
+      "_new": "v2. The LEFT's symmetric home: redistribution \u2014 the social-democratic tradition's defining instrument \u2014 had no outcome where it scored a clear 'improves' (O9 is anti-discrimination, NOT material inequality). Without this, adding O11/O12/O13 would re-tilt the board rightward. Party-blind: does the gap widen or narrow on evidence; the reader decides if they care."
+    },
+    {
+      "id": "O15",
+      "name": "Community cohesion & belonging",
+      "plain": "Do people feel part of a community they can trust and belong to?",
+      "type": "valenced",
+      "indicators": [
+        "social trust",
+        "civic participation & volunteering",
+        "segregation / integration",
+        "inter-group contact & hate-crime",
+        "loneliness / sense of belonging"
+      ],
+      "_new": "v2 (panel-recommended; added on sign-off 2026-06-16). The communitarian tradition's positive home \u2014 without it, community goods only ever appear via immigration's knock-on effects. Crucially valence-UNCONTESTED: left and right both treat social trust as a good (they dispute its causes, not its desirability), so unlike immigration it fits the normal improves/worsens schema cleanly. Evidence-bearing (social-trust surveys, segregation indices, civic-participation data)."
+    }
+  ],
+  "directional_measures": [
+    {
+      "id": "D1",
+      "name": "Immigration & border control",
+      "plain": "Which way does this move immigration and border control?",
+      "type": "directional",
+      "axis": [
+        "more open / higher net migration",
+        "more controlled / lower net migration"
+      ],
+      "indicators": [
+        "estimated effect on net migration",
+        "border-enforcement capacity",
+        "asylum/returns process"
+      ],
+      "_why_directional": "Whether 'more control' is an improvement is a genuine value question \u2014 scoring it improves/worsens would force the tool to take a side (any chosen direction insults half the readers), breaking party-blindness. So we report DIRECTION + magnitude + confidence, NO verdict word, and the reader supplies the valence. UI: a labelled axis (more open <-> more controlled) with the policy's position marked, captioned 'whether tighter is better is your call \u2014 we measure the move, not its merit'. CRUCIAL: every VALENCED consequence (effect on wages O4, housing O1, public finances O12, services, prosperity O13) still flows into the normal scored outcomes \u2014 only the contested 'is control itself good' question is left to the reader. Same treatment is the honest answer for sovereignty / national-identity if added later."
+    }
+  ],
+  "overlap_rule": "What people feel directly is a fundamental (energy BILLS -> O2); the instrument behind it is a lever (energy POLICY -> levers). O11 (what you PAY in tax) vs O2 (prices of goods) vs O12 (the NATION's books) are distinct felt goods \u2014 a policy can move each independently; keep them separate so the tradeoff is visible. Document any new overlap here.",
+  "frame_completeness": "The set must be broad enough that any policy with material life-impact maps to at least one outcome AND its intended benefit has somewhere to register as a benefit (not only its costs). If a significant policy can only ever score costs, that is a frame GAP to fix, not a verdict.",
+  "dual_horizon_rule": "Outcomes flagged dual_horizon (O6, O12, O13) must assess near-term AND long-term (~10yr+) effect separately when they diverge, so a 'cost now, gain later' policy (or vice-versa) is not flattened into a single misleading verdict.",
+  "_note_rights_split": "O9 (equal treatment & democratic rights) and O10 (personal liberty & free speech) were one outcome in v1. They are distinct, often rival goods and are scored independently.",
+  "_history": "v1 (2026-06-11/12): 9 outcomes O1-O9, locked before first full populate. v2 (2026-06-16): REBALANCED after audits showed the v1 set encoded mainly social-democratic goods, producing a structural left-green/right-red tilt (party-blind verdicts: LibDem 187:2 improves:worsens, Reform 26:61) that threatened the tool's non-partisanship. First-principles + 5-tradition balance panel. Changes: O5 reframed to pure protective good (liberty cost moved to O10); O6 widened to nature + long-term (dual_horizon); O9 split into O9 (equal treatment) + O10 (liberty); ADDED O11 Tax, O12 Public finances (macro-neutral), O13 Prosperity (dual_horizon, not raw GDP), O14 Inequality; ADDED directional measure D1 Immigration (no good/bad verdict); ADDED O15 Community cohesion (panel-recommended, valence-uncontested) on sign-off. Set is now 15 scored (O1-O15) + 1 directional (D1). This supersedes the earlier council 'no fiscal fundamental' decision (that council answered a narrower question; the data showed the frame itself was the bias)."
+}

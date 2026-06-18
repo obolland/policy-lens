@@ -1,0 +1,700 @@
+{
+  "policy_id": "lab-16-integrate-local-transport-and-support-sustainable",
+  "party": "Labour",
+  "policy_title": "Integrate Local Transport and Support Sustainable Aviation",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "mixed",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "Integrated transport and active travel could help lower-income people and left-behind regions access services and save money, but promoting sustainable aviation fuels risks passing higher costs to passengers while benefiting an industry used disproportionately by the better-off. The policy is largely aspirational with no firm budgets or targets, so real-world impact on inequality is highly uncertain.",
+    "biggest_unknown": "Whether mayors receive the funding and powers to genuinely extend integrated transport to deprived areas \u2014 or whether the policy remains aspirational with no committed mechanism.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy empowers mayors to create integrated transport systems and promote active travel networks, and supports sustainable aviation fuels and airspace modernisation.",
+        "evidence_id": "M",
+        "quote": "Labour will empower mayors to create unified and integrated transport systems for seamless journeys and to promote active travel networks"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Active travel policies can promote social equity by providing affordable transport, particularly in lower-income communities.",
+        "evidence_id": "E8",
+        "quote": "Active travel policies can also promote social equity by providing affordable transport, particularly in lower-income communities"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Public transport use disparity between London and the rest of England is at its second-widest level since 2002\u201303, suggesting current inequality in transport access.",
+        "evidence_id": "E16",
+        "quote": "the IFS has highlighted the significant disparity in public transport use between London and the rest of England, noting it is at its second-widest level since 2002\u201303"
+      },
+      {
+        "tier": "projected",
+        "claim": "SAF job creation is projected to occur in levelling-up areas such as the Humber, Northwest, South Wales, and Teesside.",
+        "evidence_id": "E23",
+        "quote": "This growth is envisioned in areas earmarked for levelling up, such as the Humber, Northwest, South Wales, and Teesside"
+      },
+      {
+        "tier": "projected",
+        "claim": "Higher SAF costs are expected to be passed on to consumers as increased prices.",
+        "evidence_id": "E30",
+        "quote": "Critics predict that the higher costs for SAF, combined with low supplies, will translate into increased consumer costs"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Switching to a bike for everyday journeys could save individuals over \u00a33,000 annually, benefiting those who adopt active travel.",
+        "evidence_id": "E9",
+        "quote": "switching to a bike for everyday journeys could save individuals over \u00a33,000 annually"
+      }
+    ],
+    "rationale": "The policy has two distributional signals pulling in opposite directions, both modest. On the narrowing side: integrated transport and active travel directly address transport poverty \u2014 lower-income households spend a greater share of income on transport, so affordable active-travel infrastructure and better public transport access in non-London regions (where the London\u2013rest gap is at a multi-decade high per IFS) would tend to narrow inequality. SAF jobs are projected in historically deprived levelling-up regions, which could reduce regional inequality marginally. On the widening side: aviation is used disproportionately by higher-income households, so promoting and securing the aviation industry's future primarily delivers benefits up the income distribution. SAF cost pass-through to passengers would raise the price of flying, which is a regressive cost if borne by occasional budget flyers \u2014 but the higher absolute cost falls mostly on frequent flyers who are wealthier. Neither effect is large. Critically, the policy text relies entirely on aspirational verbs \u2014 'empower', 'promote', 'encouraging' \u2014 with no committed budget, statutory duty, or quantified target for any of the transport integration or active travel elements. Under the soft-verb rule, this caps confidence significantly. The two real-world effects \u2014 modest pro-equity transport access vs modest pro-inequality aviation support \u2014 roughly offset at the level of evidence available, justifying 'mixed' at minor magnitude. The verdict could shift to 'improves' if mayors receive meaningful ring-fenced funding for transport integration in deprived areas, or to 'worsens' if aviation expansion accelerates without redistribution.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.c40.org/news/how-active-travel-is-transforming-cities/",
+        "publisher": "c40.org",
+        "title": "c40.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/data-items/share-journeys-public-transport-london-and-rest-england",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/128083/html/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Sustainable%20Aviation%20Fuel%20in%20the%20UK_London_United%20Kingdom_UK2024-0034.pdf",
+        "publisher": "apps.fas.usda.gov",
+        "title": "usda.gov",
+        "source_type": "government"
+      },
+      {
+        "url": "https://travelactively.co.uk/benefits-travelling-actively",
+        "publisher": "travelactively.co.uk",
+        "title": "travelactively.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.049,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E8 (c40.org) states active travel 'can also promote social equity' \u2014 a general assertion, not a measured fact. Classifying this as 'measurable' overstates certainty; it is closer to 'projected'. Not blocking given low confidence is already declared, but should be downgraded to projected."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E9 (travelactively.co.uk, an advocacy/media source) is the sole basis for the \u00a33,000 savings claim marked 'measurable'. Advocacy-only sourcing for a quantified measurable claim requires a flag; it is not independently corroborated in the evidence set."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Direction 'mixed' at 'minor' magnitude is defensible given two offsetting distributional signals (transport access for lower-income vs aviation benefits skewing to higher-income). The rationale does not impute motive or lean on party identity. The SAF cost pass-through is correctly labelled 'projected' and attributed to 'critics'. The IFS transport-gap claim (E16) is properly sourced and the quote entails the claim. The biggest unknown is honest and relevant. Main weaknesses are two claims marked 'measurable' that should arguably be 'projected', but these do not alter the direction or magnitude of the verdict given the low confidence declaration."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will empower mayors to create unified and integrated transport systems for seamless journeys and to promote active travel networks. They will also develop a long-term transport strategy for efficient infrastructure delivery and secure the UK aviation industry's future by promoting sustainable aviation fuels and encouraging airspace modernisation.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The UK Chief Medical Officers recommend adults undertake at least 150 minutes of moderate or 75 minutes of vigorous activity per week, which active travel can help achieve",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDvhGgaUS9vIvHr7dd-5MhVKyjMkIOCPsQzfeqqWcD8TA_q9x7Uf4KipmV41jjCy7-selumpbBVwgu0J_ADXv7U16H7bzfrVMoQPZH2AHVqXNDfdL3KVv1nSELgy2XSFywfN4Knjo10kriHjFetAE8An217jqxS1wmCXYVPN8UhrLGJ3oDZHkJnOsY9g3yFJi55mAltHUDyE5cGJEBeAfkGg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH513I653HnTzsPFVxq1HEwtExqItafvQbnvFbroJ71dkSg6zaNEv38sdeVzJFakh2CbiVnNqIYiF7b8S-DPlsz3gBQ-UbbT5P0oydTCJLLX8jsTtaUq1khndMNJoLSNQrKal3zdEBppoak5Q==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://travelactively.co.uk/benefits-travelling-actively",
+            "publisher": "travelactively.co.uk",
+            "title": "travelactively.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Health Foundation suggests that increasing walking and cycling to match the most active regions in England could prevent nearly 1,550 early deaths per year",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJjllWMH_qPv2LhoJ-bdirndkR8ktAl41gGLi_pMGRvGp3am6p3MWPamhv55bUw71HQz3lc7fwtbR4QtZTHQOTDRd8G3jjPVlPW3h5n79GwmszEnLxJSE8-Pdtaa_hPA1cERo-BpPLLjKZ_pCBvjdz0pnR2_Q5WEkWkWwDN-dusOuEJGmuBrq6hqTzMTN18-xolZOdCrG0jnFjRTkx1NW6OIw7-uEgLhVBYjU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Furthermore, integrating transport infrastructure with active travel options can reduce road accidents and harmful emissions",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDvhGgaUS9vIvHr7dd-5MhVKyjMkIOCPsQzfeqqWcD8TA_q9x7Uf4KipmV41jjCy7-selumpbBVwgu0J_ADXv7U16H7bzfrVMoQPZH2AHVqXNDfdL3KVv1nSELgy2XSFywfN4Knjo10kriHjFetAE8An217jqxS1wmCXYVPN8UhrLGJ3oDZHkJnOsY9g3yFJi55mAltHUDyE5cGJEBeAfkGg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "In urban areas, enhancing walking and cycling infrastructure can replace millions of car journeys, directly reducing vehicle emissions and improving air quality",
+        "sources": [
+          {
+            "url": "https://www.c40.org/news/how-active-travel-is-transforming-cities/",
+            "publisher": "c40.org",
+            "title": "c40.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Research indicates that walking and cycling could reduce urban transport greenhouse gas emissions by 2\u201310%",
+        "sources": [
+          {
+            "url": "https://www.c40.org/news/how-active-travel-is-transforming-cities/",
+            "publisher": "c40.org",
+            "title": "c40.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "People who rate public transport as \"good\" are nearly three times more likely to access public services easily",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDvhGgaUS9vIvHr7dd-5MhVKyjMkIOCPsQzfeqqWcD8TA_q9x7Uf4KipmV41jjCy7-selumpbBVwgu0J_ADXv7U16H7bzfrVMoQPZH2AHVqXNDfdL3KVv1nSELgy2XSFywfN4Knjo10kriHjFetAE8An217jqxS1wmCXYVPN8UhrLGJ3oDZHkJnOsY9g3yFJi55mAltHUDyE5cGJEBeAfkGg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Integrated planning has also been shown to reduce journey lengths and deliver economic benefits",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10501/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Active travel policies can also promote social equity by providing affordable transport, particularly in lower-income communities",
+        "sources": [
+          {
+            "url": "https://www.c40.org/news/how-active-travel-is-transforming-cities/",
+            "publisher": "c40.org",
+            "title": "c40.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Economically, switching to a bike for everyday journeys could save individuals over \u00a33,000 annually, or approximately \u00a3213 per year by walking or cycling just 10 miles instead of driving",
+        "sources": [
+          {
+            "url": "https://travelactively.co.uk/benefits-travelling-actively",
+            "publisher": "travelactively.co.uk",
+            "title": "travelactively.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Empowering Local Authorities:** The policy aligns with existing legislative frameworks like the Bus Services Act 2025, which provides local authorities with greater control over bus services, including franchising powers to better integrate local transport",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10501/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2026-0024/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This empowerment is intended to facilitate the development of strategic transport plans at a local level",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10501/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Their analysis suggests increasing walking and cycling could prevent over 1,189 deaths per year across England if all regions matched the most active ones",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDvhGgaUS9vIvHr7dd-5MhVKyjMkIOCPsQzfeqqWcD8TA_q9x7Uf4KipmV41jjCy7-selumpbBVwgu0J_ADXv7U16H7bzfrVMoQPZH2AHVqXNDfdL3KVv1nSELgy2XSFywfN4Knjo10kriHjFetAE8An217jqxS1wmCXYVPN8UhrLGJ3oDZHkJnOsY9g3yFJi55mAltHUDyE5cGJEBeAfkGg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "If weekly exercise levels increased by a combined 30 minutes of cycling and 30 minutes of walking, there would be an annual reduction of around 6,100 deaths",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDvhGgaUS9vIvHr7dd-5MhVKyjMkIOCPsQzfeqqWcD8TA_q9x7Uf4KipmV41jjCy7-selumpbBVwgu0J_ADXv7U16H7bzfrVMoQPZH2AHVqXNDfdL3KVv1nSELgy2XSFywfN4Knjo10kriHjFetAE8An217jqxS1wmCXYVPN8UhrLGJ3oDZHkJnOsY9g3yFJi55mAltHUDyE5cGJEBeAfkGg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Physical inactivity is responsible for 1 in 6 UK deaths",
+        "sources": [
+          {
+            "url": "https://travelactively.co.uk/benefits-travelling-actively",
+            "publisher": "travelactively.co.uk",
+            "title": "travelactively.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "They also highlight the role of local transport authorities in developing and delivering policies for safe, integrated, efficient, and economic transport",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10501/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** While not directly analysing Labour's specific integrated transport proposals, the IFS has highlighted the significant disparity in public transport use between London and the rest of England, noting it is at its second-widest level since 2002\u201303",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/data-items/share-journeys-public-transport-london-and-rest-england",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "However, they express disappointment at the lack of further detail on promoting active travel networks",
+        "sources": [
+          {
+            "url": "https://tps.org.uk/tps-policy/tps-comment-on-political-party-manifestos",
+            "publisher": "tps.org.uk",
+            "title": "tps.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "They also point out that Labour's manifesto arguably places too much implied importance on the car, which conflicts with the need to reduce car use for a sustainable future transport network",
+        "sources": [
+          {
+            "url": "https://tps.org.uk/tps-policy/tps-comment-on-political-party-manifestos",
+            "publisher": "tps.org.uk",
+            "title": "tps.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Decarbonisation of Aviation:** SAFs are considered a key lever for reducing aviation's greenhouse gas emissions, capable of cutting lifecycle emissions by as much as 70-90% compared to fossil jet fuel",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/speeches/sustainable-aviation-fuel-initiatives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://york.greenparty.org.uk/2025/01/30/green-party-response-to-labours-game-changer-claims-on-sustainable-aviation-fuel/",
+            "publisher": "york.greenparty.org.uk",
+            "title": "greenparty.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://saf.rmi.org/",
+            "publisher": "saf.rmi.org",
+            "title": "rmi.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The UK has a mandate requiring 2% of jet fuel to be SAF in 2025, rising to 10% by 2030, and 22% by 2040",
+        "sources": [
+          {
+            "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Sustainable%20Aviation%20Fuel%20in%20the%20UK_London_United%20Kingdom_UK2024-0034.pdf",
+            "publisher": "apps.fas.usda.gov",
+            "title": "usda.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/sustainable-aviation-fuel-initiatives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aef.org.uk/2025/05/21/is-there-a-hole-in-sustainable-aviation-fuel-supply/",
+            "publisher": "aef.org.uk",
+            "title": "aef.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The government anticipates this mandate will reduce emissions by up to 2.7 metric tons of carbon dioxide-equivalent (MtCO2e) in 2030 and up to 6.3 MtCO2e by 2040",
+        "sources": [
+          {
+            "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Sustainable%20Aviation%20Fuel%20in%20the%20UK_London_United%20Kingdom_UK2024-0034.pdf",
+            "publisher": "apps.fas.usda.gov",
+            "title": "usda.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/sustainable-aviation-fuel-initiatives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Economic Growth and Job Creation:** The domestic production of SAF is estimated to add over \u00a31.8 billion to the UK economy and create over 10,000 jobs by 2030, potentially rising to 60,000 jobs and supporting over \u00a310 billion of Gross Value Added (GVA) by 2050",
+        "sources": [
+          {
+            "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Sustainable%20Aviation%20Fuel%20in%20the%20UK_London_United%20Kingdom_UK2024-0034.pdf",
+            "publisher": "apps.fas.usda.gov",
+            "title": "usda.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/sustainable-aviation-fuel-initiatives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/128083/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "This growth is envisioned in areas earmarked for levelling up, such as the Humber, Northwest, South Wales, and Teesside",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/128083/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Airspace Modernisation:** Modernising UK airspace, which has largely remained unchanged since the 1950s, aims to deliver quicker, quieter, and more environmentally friendly flights",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ_2S3VJ1lCdKZg1-PmDu-aJS3nzgD3FI98IyuL-Y30pPP035Hb0KEE0pTpfHo6hgBRJ9NTNSrOiSc8bJHlCEHqP5fWN5lWiukbjszDKFZcVgVR1wYT6MHXothMa0TGEjvzJT0CQFSY2Myrz2F3mP6bVA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "copperconsultancy.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Benefits include more direct routes, reduced CO2 emissions per flight, fewer delays, and increased capacity",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/airspace-modernisation/benefits-of-airspace-modernisation--2",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.acog.aero/about-acog/why-airspace-needs-modernising/",
+            "publisher": "acog.aero",
+            "title": "acog.aero",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.caa.co.uk/commercial-industry/airspace/airspace-modernisation/airspace-modernisation-strategy/what-are-the-benefits-of-airspace-modernisation/",
+            "publisher": "caa.co.uk",
+            "title": "caa.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "If airspace is not modernised, delays could increase by over 200% by 2040, leading to 1 in 5 flights experiencing disruption for over 45 minutes",
+        "sources": [
+          {
+            "url": "https://www.acog.aero/about-acog/why-airspace-needs-modernising/",
+            "publisher": "acog.aero",
+            "title": "acog.aero",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Sustainable Aviation Fuels (SAFs):**\n    *   **Industry and Government:** The Labour government is seeking to bolster the UK's SAF industry, building on initiatives from the prior administration, and plans a Sustainable Aviation Fuel (Revenue Support Mechanism) Bill to provide financial incentives",
+        "sources": [
+          {
+            "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Sustainable%20Aviation%20Fuel%20in%20the%20UK_London_United%20Kingdom_UK2024-0034.pdf",
+            "publisher": "apps.fas.usda.gov",
+            "title": "usda.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/sustainable-aviation-fuel-initiatives",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://climatecatalyst.org/wp-content/uploads/2025/03/Sustainable-aviation-fuel-policy-in-the-UK.pdf",
+            "publisher": "climatecatalyst.org",
+            "title": "climatecatalyst.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "SAF is seen as the only proven solution by 2050 for longer flights",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/128083/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "This cost is expected to decrease but still be roughly double by 2030",
+        "sources": [
+          {
+            "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Sustainable%20Aviation%20Fuel%20in%20the%20UK_London_United%20Kingdom_UK2024-0034.pdf",
+            "publisher": "apps.fas.usda.gov",
+            "title": "usda.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.carbon-direct.com/insights/how-saf-mandates-in-the-eu-and-uk-are-reshaping-aviation-fuel-markets",
+            "publisher": "carbon-direct.com",
+            "title": "carbon-direct.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Critics predict that the higher costs for SAF, combined with low supplies, will translate into increased consumer costs",
+        "sources": [
+          {
+            "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Sustainable%20Aviation%20Fuel%20in%20the%20UK_London_United%20Kingdom_UK2024-0034.pdf",
+            "publisher": "apps.fas.usda.gov",
+            "title": "usda.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Mandate Attainment and Emission Reduction Effectiveness:** Official figures suggest that the UK is on course to fall short of its first annual SAF mandate, with only 1.6% of fuel supplied for UK flights being SAF in most of 2025, below the 2% requirement",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2025/dec/26/sustainable-aviation-fuel-mandate-uk-government-data-2025",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The Climate Change Committee (CCC) projects considerably less SAF supply in 2030 (666,000 tonnes) and 2040 (1.8 million tonnes) compared to the mandate's projections (1.2 million tonnes and 2.9 million tonnes respectively), representing a shortfall of 44% in 2030 and 38% in 2040",
+        "sources": [
+          {
+            "url": "https://www.aef.org.uk/2025/05/21/is-there-a-hole-in-sustainable-aviation-fuel-supply/",
+            "publisher": "aef.org.uk",
+            "title": "aef.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Overall Emissions:** Carbon Brief analysis suggests that even with the SAF mandate, growth in overall jet fuel usage (from 11.5m tonnes in 2025 to 13.3m tonnes in 2040) is expected to almost entirely negate any CO2 emission reductions, leaving UK aviation emissions virtually unchanged between now and 2040",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/analysis-benefits-of-uk-sustainable-aviation-fuel-will-be-wiped-out-by-rising-demand/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Emissions in 2025 are projected to be 36.0 MtCO2e, compared to 35.7 MtCO2e in 2040, a drop of just 0.8%",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/analysis-benefits-of-uk-sustainable-aviation-fuel-will-be-wiped-out-by-rising-demand/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Green Party Disagreement:** The Green Party strongly criticises Labour's reliance on SAF to justify airport expansions, calling it \"magical thinking.\" They argue that current waste streams cannot provide enough raw material for global SAF demands, and that planned airport expansions would completely negate any emission savings",
+        "sources": [
+          {
+            "url": "https://york.greenparty.org.uk/2025/01/30/green-party-response-to-labours-game-changer-claims-on-sustainable-aviation-fuel/",
+            "publisher": "york.greenparty.org.uk",
+            "title": "greenparty.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "They note that even with a 2% SAF mandate, 98% of aviation fuel remains fossil-based",
+        "sources": [
+          {
+            "url": "https://york.greenparty.org.uk/2025/01/30/green-party-response-to-labours-game-changer-claims-on-sustainable-aviation-fuel/",
+            "publisher": "york.greenparty.org.uk",
+            "title": "greenparty.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Airspace Modernisation:**\n    *   **Benefits:** The Department for Transport and the UK Civil Aviation Authority highlight benefits such as reduced fuel burn, quicker journeys, improved punctuality, and the ability to manage noise impacts for local communities more effectively through planned breaks and precise routing",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/airspace-modernisation/benefits-of-airspace-modernisation--2",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.caa.co.uk/commercial-industry/airspace/airspace-modernisation/airspace-modernisation-strategy/what-are-the-benefits-of-airspace-modernisation/",
+            "publisher": "caa.co.uk",
+            "title": "caa.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "It is also expected to support job creation, drive growth in tourism and trade, and strengthen global connectivity",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ_2S3VJ1lCdKZg1-PmDu-aJS3nzgD3FI98IyuL-Y30pPP035Hb0KEE0pTpfHo6hgBRJ9NTNSrOiSc8bJHlCEHqP5fWN5lWiukbjszDKFZcVgVR1wYT6MHXothMa0TGEjvzJT0CQFSY2Myrz2F3mP6bVA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "copperconsultancy.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Environmental groups also warn that enabling more flights through increased efficiency could cancel out emissions savings achieved through better routing",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ_2S3VJ1lCdKZg1-PmDu-aJS3nzgD3FI98IyuL-Y30pPP035Hb0KEE0pTpfHo6hgBRJ9NTNSrOiSc8bJHlCEHqP5fWN5lWiukbjszDKFZcVgVR1wYT6MHXothMa0TGEjvzJT0CQFSY2Myrz2F3mP6bVA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "copperconsultancy.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/airspace-modernisation/benefits-of-airspace-modernisation--2",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

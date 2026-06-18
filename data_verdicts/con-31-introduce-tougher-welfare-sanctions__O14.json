@@ -1,0 +1,519 @@
+{
+  "policy_id": "con-31-introduce-tougher-welfare-sanctions",
+  "party": "Conservative",
+  "policy_title": "Introduce Tougher Welfare Sanctions",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Tougher sanctions cut income for some of the poorest households, widening the gap between the richest and the rest. The direct effect is real but limited in scale, as the IFS expects these specific measures to make only small differences.",
+    "biggest_unknown": "Whether the sanctions actually move sanctioned claimants into sustained, quality employment \u2014 which would partially offset the distributional harm \u2014 or instead push them into economic inactivity and worse poverty.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy removes benefits from long-term unemployed claimants who refuse suitable jobs or mandatory work placements, with a review point at 12 months.",
+        "evidence_id": "M",
+        "quote": "closing cases with benefit removal for those who refuse suitable jobs or mandatory work placements"
+      },
+      {
+        "tier": "projected",
+        "claim": "Sanctions can lead to financial stress, debt, hunger, utility cutoffs, rent arrears and homelessness \u2014 harms concentrated at the bottom of the income distribution.",
+        "evidence_id": "E7",
+        "quote": "Sanctions can lead to increased financial stress, debt accumulation, hunger, utility cutoffs, survival crime, rent arrears, eviction, and homelessness"
+      },
+      {
+        "tier": "projected",
+        "claim": "Sanctions may increase short-term benefit exit but can also result in higher risks of economic inactivity or return to unemployment and worsening job quality in the longer term.",
+        "evidence_id": "E4",
+        "quote": "while sanctions may lead to an increase in benefit exit and job entry in the short term, they can also result in higher risks of economic inactivity or a return to unemployment benefits in the longer term, and worsening job quality"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS expects these specific sanction increases to make relatively small differences to the welfare bill, limiting their overall scale of impact.",
+        "evidence_id": "E16",
+        "quote": "these specific sanction increases are \"likely to make relatively small differences to the welfare bill\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "The evidence base on whether sanctions effectively motivate people into sustained work is described as patchy by the House of Commons Library.",
+        "evidence_id": "E28",
+        "quote": "the evidence for their long-term effectiveness is \"patchy\""
+      }
+    ],
+    "rationale": "O14 is about the gap between richest and poorest \u2014 whether gains and losses are distributed in ways that narrow or widen that gap. This policy exclusively targets people at the bottom of the income distribution: long-term unemployed claimants, 300,000 of whom face the 12-month review point. Benefit removal directly cuts the incomes of the poorest households; the evidence links increased sanctioning to food bank use, financial stress, debt, and homelessness \u2014 harms that fall exclusively on low-income households, not on those higher up the distribution. Two-thirds of those sanctioned have caring responsibilities, concentrating harm on single-parent and low-income family households. This mechanically widens the income gap.\n\nThe partial offset would be if sanctions successfully and durably moved claimants into quality employment. But the evidence on this is weak: the House of Commons Library describes the effectiveness evidence as 'patchy', and academic research shows short-term benefit exit can be followed by economic inactivity or poorer-quality work \u2014 which would at best leave the gap unchanged, not narrow it. There is no cited evidence of a mechanism that reliably converts sanctions into sustained, well-paid employment at population scale.\n\nThe IFS judges the scale of fiscal and behavioural effect from these specific measures to be small, which constrains magnitude. The direction is nonetheless clear: income losses fall on the poorest, with no evidenced compensating gain at scale that would lift them relative to the rest. This worsens O14 at minor magnitude \u2014 real but limited in overall distributional scale.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+        "publisher": "pmc.ncbi.nlm.nih.gov",
+        "title": "nih.gov",
+        "source_type": "government"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/113644/html/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0230/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0406,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are supported by their quoted evidence at appropriate tiers. The tier assignments are defensible: E7 and E4 are peer-reviewed research projections correctly marked 'projected'; E16 (IFS) is correctly 'projected'; E28 is a secondary synthesis correctly marked 'measurable' (it is a House of Commons Library characterisation of the evidence base, which is a factual summary rather than a forecast \u2014 borderline but acceptable). Direction 'worsens' is well-supported: the distributional harm falls exclusively on the bottom of the income distribution with no evidenced compensating mechanism at scale. The IFS magnitude constraint justifies 'minor'. No party-identity language or motive attribution detected. The Gingerbread stat (66% caring responsibilities) appears in the rationale but not as a formal claim \u2014 it is from E26/E8, an advocacy source, and is used as supporting colour rather than the sole basis for the verdict, which is acceptable. No false balance: the verdict does not hedge to 'mixed' \u2014 it commits to 'worsens', which is consistent with the weight of evidence. No lever leakage: the verdict judges distributional effect, not the welfare policy as an end in itself."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "Around 300,000 people were long-term unemployed (over a year) as of late 2023, the population directly exposed to this policy.",
+          "evidence_id": "E24",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "66% of those sanctioned over a six-month period had caring responsibilities, meaning the policy disproportionately hits low-income households with children.",
+          "evidence_id": "E26",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Increased sanctioning rates are statistically associated with greater food bank use among the poorest adults.",
+          "evidence_id": "E27",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will introduce tougher sanctions rules, bringing forward the claimant review point for the long-term unemployed to 12 months, and closing cases with benefit removal for those who refuse suitable jobs or mandatory work placements.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Conservative Party's policy to introduce tougher welfare sanctions aims to bring forward the claimant review point for the long-term unemployed to 12 months, and close cases with benefit removal for those who refuse suitable jobs or mandatory work placements",
+        "sources": [
+          {
+            "url": "https://www.changing-lives.org.uk/insights/general-election-2024-manifesto-welfare",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/employment-support-launched-for-over-a-million-people",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This is part of a broader strategy to reduce the welfare bill, with the party aiming for a \u00a312 billion annual reduction in welfare spending by the end of the next Parliament",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsgI43yNkzbrB3X881DqOiPZ0Tmzf0Kpg3JQoUVVzO-XYQAON0f7WFpPObOYsCUWrG4xMLKwmJlQB4nFFU8vLH8UTn0Jmo52Ia7t2-0ubyhh7TnjYphifukYci2o3me5YCmv8q4TUMtyE3rZMqi_goDKjq9ov3ZrJyhR4mhkrVwJ-b91dxa2C1XuSaZPC3538io_YDlJPrOtZjeQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Impact on Employment and Job Quality:**\n    *   The government asserts that benefit regimes supported by conditionality reduce unemployment and are effective in promoting behaviors that help claimants into work",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0230/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   However, a scoping review of quantitative research evidence suggests that while sanctions may lead to an increase in benefit exit and job entry in the short term, they can also result in higher risks of economic inactivity or a return to unemployment benefits in the longer term, and worsening job quality",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/113644/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Studies link increased sanctioning of unemployment benefit claimants with greater food bank use",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/113644/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.researchgate.net/publication/322685281_Impact_of_Welfare_Benefit_Sanctioning_on_Food_Insecurity_a_Dynamic_Cross-Area_Study_of_Food_Bank_Usage_in_the_UK",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "One study found that for every 10 per 100,000 increase in sanctioning rates, the rate of adults fed by food banks rose by an additional 3.36 adults per 100,000",
+        "sources": [
+          {
+            "url": "https://www.researchgate.net/publication/322685281_Impact_of_Welfare_Benefit_Sanctioning_on_Food_Insecurity_a_Dynamic_Cross-Area_Study_of_Food_Bank_Usage_in_the_UK",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   Sanctions can lead to increased financial stress, debt accumulation, hunger, utility cutoffs, survival crime, rent arrears, eviction, and homelessness",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   The charity Gingerbread highlights that harsh sanctions disproportionately affect single parents, with 66% of those sanctioned in a six-month period having caring responsibilities, placing children at risk of poverty and long-term disadvantage",
+        "sources": [
+          {
+            "url": "https://www.gingerbread.org.uk/our-work/news-and-views/supportnotpunish-join-our-campaign-for-an-end-to-universal-credit-sanctions/",
+            "publisher": "gingerbread.org.uk",
+            "title": "gingerbread.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Many sanctions are overturned on appeal, suggesting unfair application, but the challenge process itself causes significant stress",
+        "sources": [
+          {
+            "url": "https://www.gingerbread.org.uk/our-work/news-and-views/supportnotpunish-join-our-campaign-for-an-end-to-universal-credit-sanctions/",
+            "publisher": "gingerbread.org.uk",
+            "title": "gingerbread.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Health and Well-being:**\n    *   Sanctions are associated with adverse physical and mental health outcomes",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/113644/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The stress of conditionality can heighten anxiety and have negative psychosocial impacts",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/113644/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   There is evidence of negative repercussions for family relations, including impacts on the well-being, cognitive development, and education of children",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Administrative Burden and Public Services:**\n    *   Studies suggest that sanctions can lead to the diversion of limited resources by key public services to address the consequences of sanctions",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   Employers may also have to deal with large numbers of unsuitable job applications resulting from mandatory job-search requirements",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** The IFS notes that many of the proposed sanction measures, including increased sanctions for those out of work for more than a year, were previously announced and have already been incorporated into the Office for Budget Responsibility (OBR) forecasts",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The IFS suggests that these specific sanction increases are \"likely to make relatively small differences to the welfare bill\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They point out that the Conservative Party's larger aim of a \u00a312 billion annual saving in welfare spending is more likely to depend on reforms to disability benefits",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **House of Commons Library:** The House of Commons Library highlights that the UK's welfare sanctions regime is considered one of the strictest in the OECD, an \"outlier\" in its prevalent use of sanctions, particularly for disability benefit claimants where it is rare in other countries",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/113644/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "They report that the Work and Pensions Committee (2018) found the evidence on the effectiveness of sanctions in motivating people into work to be \"patchy\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0230/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Library also underlines that sanctions, when applied inappropriately, can have profound negative effects on financial and personal well-being",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0230/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Office for Budget Responsibility (OBR):** As noted by the IFS, the OBR has already factored some welfare reforms, such as changes to the Work Capability Assessment, into its forecasts, estimating a \u00a31.4 billion annual saving from these",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "In the context of other proposed changes, they estimated that up to 1.2 million people could lose between $5,500 and $8,200 each year, with losses concentrated among lower-income households",
+        "sources": [
+          {
+            "url": "https://www.courthousenews.com/uk-announces-welfare-cuts-sparking-backlash-within-party-and-charities/",
+            "publisher": "courthousenews.com",
+            "title": "courthousenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They have also questioned the narrative of welfare spending being \"out of control,\" noting that real spending on non-pensioner, non-health-related benefits has fallen significantly since 2019-20 due to various policy changes",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/comment/is-welfare-spending-out-of-control/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   Approximately **300,000 people** were long-term unemployed (over a year) in the three months to July (as of November 2023), who could be affected by the 12-month review point",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/employment-support-launched-for-over-a-million-people",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   The OBR scored a related reform to the Work Capability Assessment at a **\u00a31.4 billion a year saving**",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **66% of people sanctioned** over a six-month period had caring responsibilities",
+        "sources": [
+          {
+            "url": "https://www.gingerbread.org.uk/our-work/news-and-views/supportnotpunish-join-our-campaign-for-an-end-to-universal-credit-sanctions/",
+            "publisher": "gingerbread.org.uk",
+            "title": "gingerbread.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   An increase of 10 sanctions per 100,000 adults was associated with an additional **3.36 adults per 100,000** using food banks",
+        "sources": [
+          {
+            "url": "https://www.researchgate.net/publication/322685281_Impact_of_Welfare_Benefit_Sanctioning_on_Food_Insecurity_a_Dynamic_Cross-Area_Study_of_Food_Bank_Usage_in_the_UK",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "While the government maintains they reduce unemployment, organizations like the House of Commons Library and academic research indicate that the evidence for their long-term effectiveness is \"patchy\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0230/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "and that short-term gains may come at the cost of long-term economic inactivity or poorer quality work",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "There is also disagreement on the **scale of savings** achievable through these specific sanction policies, with the IFS suggesting they might be relatively small compared to other welfare reforms",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

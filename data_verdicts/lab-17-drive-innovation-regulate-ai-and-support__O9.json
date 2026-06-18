@@ -1,0 +1,708 @@
+{
+  "policy_id": "lab-17-drive-innovation-regulate-ai-and-support",
+  "party": "Labour",
+  "policy_title": "Drive Innovation, Regulate AI, and Support Diverse Business Models",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Banning sexually explicit deepfakes gives real legal protection to people \u2014 mostly women \u2014 who face this form of AI-driven harassment, which is a genuine equal-treatment gain. The rest of the policy bundle touches O9 only marginally, if at all.",
+    "biggest_unknown": "Whether the Crime and Policing Bill is enacted as described and whether enforcement proves effective against anonymous or overseas creators of deepfakes.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to banning sexually explicit deepfakes via a forthcoming Crime and Policing Bill.",
+        "evidence_id": "E27",
+        "quote": "a ban on sexually explicit deepfakes, which the government has announced will be criminalised in a forthcoming Crime and Policing Bill"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Deepfake files have grown sharply, from 500,000 in 2023 to an estimated 8 million by 2025, with AI-generated content increasingly used for harassment.",
+        "evidence_id": "E28",
+        "quote": "reports indicate a significant increase in deepfake files, from 500,000 in 2023 to an estimated 8 million by 2025, with a disturbing trend of AI-generated content being used for harassment"
+      },
+      {
+        "tier": "projected",
+        "claim": "Existing harassment laws already apply to some deepfake misuse, meaning the ban fills a gap rather than creating protection from scratch.",
+        "evidence_id": "E29",
+        "quote": "Legal experts note that existing harassment laws apply to such misuse of AI"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy introduces binding regulation specifically for the most powerful AI models to ensure safe development.",
+        "evidence_id": "E25",
+        "quote": "Labour pledges to introduce \"binding regulation\" specifically for the \"handful of companies developing the most powerful AI models\" to ensure their safe development"
+      },
+      {
+        "tier": "projected",
+        "claim": "Specific details of the AI binding regulation are still pending, limiting what can be said about its equal-treatment effects.",
+        "evidence_id": "E26",
+        "quote": "While specific details of these regulations are still pending, this approach is expected to be more narrowly focused than the comprehensive EU AI Act"
+      }
+    ],
+    "rationale": "Of the five policy strands, only the deepfake ban makes a clear and direct contact with O9. Sexually explicit deepfakes are a documented, fast-growing form of targeted harassment; criminalising them is a concrete legal mechanism \u2014 a named Bill \u2014 rather than an aspiration, satisfying the threshold for 'improves'. The harm is real at scale (8 million files estimated by 2025) and disproportionately affects women and other targeted groups, making this an equal-treatment protection. Some gap exists because existing harassment law already partially covers such conduct, so the marginal gain is real but not transformative; hence minor rather than moderate magnitude. The binding AI regulation is stated but underspecified: without knowing what obligations it imposes, it cannot be scored as an equal-treatment improvement. The National Data Library raises questions of data governance and consent (E10), but these land more naturally on O10 (privacy/liberty) than O9. The Regulatory Innovation Office, R&D budgets, and co-operative sector doubling have no plausible direct pathway to equal treatment or democratic rights under the strict O9 scope. Overall the verdict is a modest but genuine improvement, conditional on the Crime and Policing Bill passing and on enforcement being practically feasible \u2014 especially against offshore or anonymous creators.",
+    "sources": [
+      {
+        "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+        "publisher": "dechert.com",
+        "title": "dechert.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ropesgray.com/en/insights/viewpoints/102jc9k/labour-victory-the-implications-for-data-protection-ai-and-digital-regulation-i",
+        "publisher": "ropesgray.com",
+        "title": "ropesgray.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://disputeresolution.howardkennedy.com/post/102jp32/the-regulatory-gap-in-deepfake-technology",
+        "publisher": "disputeresolution.howardkennedy.com",
+        "title": "howardkennedy.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/uk/politics/labour-government-prime-minister-rishi-sunak-b2562059.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.littler.com/news-analysis/asap/deepfakes-workplace-emerging-legal-risks-ai-driven-harassment",
+        "publisher": "littler.com",
+        "title": "littler.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://kwwlaborlaw.com/ai-deepfakes-in-the-workplace-emerging-liability-for-employers/",
+        "publisher": "kwwlaborlaw.com",
+        "title": "kwwlaborlaw.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0408,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims check out. The deepfake ban claim (E27) is correctly tier 'stated' and the quote entails the claim. E28 is cited as 'measurable' \u2014 the 8 million figure is sourced from littler.com (a law firm, commercial/media source) and the quote says 'reports indicate' and 'estimated', so there is mild overstating risk, but the claim itself preserves the hedge ('estimated') so it passes. E29 supports the 'fills a gap' framing without overstating. The verdict correctly limits O9 scope to the deepfake ban and AI regulation, excluding NDL/RIO/co-ops as outside O9. Direction 'improves' at 'minor' magnitude is well-supported and not inflated. No tier blurring, no lever leakage, no party identity language, no false balance issues."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will support AI sector development by removing planning barriers for datacentres and creating a National Data Library for data-driven public services with safeguards. They will introduce ten-year budgets for R&D institutions, create a new Regulatory Innovation Office to streamline regulation for new technologies, and introduce binding regulation on powerful AI models while banning sexually explicit deepfakes. The party also aims to double the UK's co-operative and mutuals sector.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This includes designating major data centre projects as \"nationally important,\" which would shift planning decisions from local councils to ministers, thereby accelerating construction, particularly on brownfield sites",
+        "sources": [
+          {
+            "url": "https://www.techuk.org/resource/labour-manifesto-recognises-the-need-for-planning-policy-changes-and-the-critical-role-of-the-data-centres-sector.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bakermckenzie.com/en/insight/publications/2026/01/uk-government-policy-paper-delivering-ai-growth-zones",
+            "publisher": "bakermckenzie.com",
+            "title": "bakermckenzie.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This move is welcomed by industry bodies like techUK, which highlights the exponential increase in demand for data centres driven by AI growth",
+        "sources": [
+          {
+            "url": "https://www.techuk.org/resource/labour-manifesto-recognises-the-need-for-planning-policy-changes-and-the-critical-role-of-the-data-centres-sector.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.techuk.org/resource/towards-certainty-and-stability-uk-government-to-set-out-new-ten-year-budgets-for-r-d-funding.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The government also plans to invest \u00a34.5 million to create a national team of AI data centre planning experts to support Local Planning Authorities (LPAs) in making consistent and timely decisions",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/delivering-ai-growth-zones/delivering-ai-growth-zones",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Additionally, \"AI Growth Zones\" are envisioned to reduce energy prices and expedite grid connections for these facilities",
+        "sources": [
+          {
+            "url": "https://www.bakermckenzie.com/en/insight/publications/2026/01/uk-government-policy-paper-delivering-ai-growth-zones",
+            "publisher": "bakermckenzie.com",
+            "title": "bakermckenzie.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "**Creating a National Data Library (NDL):**\nThe party plans to establish a National Data Library to consolidate existing research programmes and facilitate data-driven public services, with robust safeguards",
+        "sources": [
+          {
+            "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+            "publisher": "dechert.com",
+            "title": "dechert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ropesgray.com/en/insights/viewpoints/102jc9k/labour-victory-the-implications-for-data-protection-ai-and-digital-regulation-i",
+            "publisher": "ropesgray.com",
+            "title": "ropesgray.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The NDL aims to unlock high-quality, AI-ready public-sector data for scientists and private-sector innovators, fostering innovation and enhancing public services",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/tech-and-digitalisation/governing-in-the-age-of-ai-building-britains-national-data-library",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Expected real-world effects include accelerating breakthroughs across various disciplines, such as life sciences, social sciences, and AI research",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/tech-and-digitalisation/governing-in-the-age-of-ai-building-britains-national-data-library",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Projections suggest that making existing datasets more accessible through the NDL could generate significant cost savings and efficiency gains, with potential returns exceeding \u00a31 billion and societal benefits estimated at \u00a3319 billion by 2050",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/tech-and-digitalisation/governing-in-the-age-of-ai-building-britains-national-data-library",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "However, the specifics of the NDL's implementation are not yet fully detailed",
+        "sources": [
+          {
+            "url": "https://www.ropesgray.com/en/insights/viewpoints/102jc9k/labour-victory-the-implications-for-data-protection-ai-and-digital-regulation-i",
+            "publisher": "ropesgray.com",
+            "title": "ropesgray.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/publications/ndl/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.understandingpatientdata.org.uk/news/what-might-new-government-mean-health-data-policy-and-practices",
+            "publisher": "understandingpatientdata.org.uk",
+            "title": "understandingpatientdata.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tpximpact.com/knowledge-hub/insights/national-data-library-joined-up-government-data",
+            "publisher": "tpximpact.com",
+            "title": "tpximpact.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Analysts from the Bennett School of Public Policy note that the government will need to carefully consider public acceptability regarding the sharing of health data with commercial partners if it is included in the NDL",
+        "sources": [
+          {
+            "url": "https://www.understandingpatientdata.org.uk/news/what-might-new-government-mean-health-data-policy-and-practices",
+            "publisher": "understandingpatientdata.org.uk",
+            "title": "understandingpatientdata.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Some, like the Political Quarterly, also express skepticism, suggesting that focusing on the NDL might be a \"techno-solutionist\" approach that risks overlooking underlying systemic problems, and point to challenges like the energy demands of AI infrastructure and funding",
+        "sources": [
+          {
+            "url": "https://www.rusi.org/explore-our-research/publications/commentary/shifting-uks-ai-focus-labours-ambitious-ai-action-plan",
+            "publisher": "rusi.org",
+            "title": "rusi.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://politicalquarterly.org.uk/blog/what-do-we-know-about-labours-ai-policy-and-will-it-work/",
+            "publisher": "politicalquarterly.org.uk",
+            "title": "politicalquarterly.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "ADR UK, however, believes that strong foundations already exist for such a library, building on their work in secure data access for research",
+        "sources": [
+          {
+            "url": "https://www.adruk.org/news-publications/news-blogs/the-new-uk-government-wants-a-national-data-library-a-brilliant-aspiration-if-built-on-solid-foundations/",
+            "publisher": "adruk.org",
+            "title": "adruk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This aims to foster meaningful partnerships with industry and maintain the UK's leadership in global innovation",
+        "sources": [
+          {
+            "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+            "publisher": "dechert.com",
+            "title": "dechert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sciencecampaign.org.uk/analysis-and-publications/detail/ten-year-rd-budgets-a-closer-look/",
+            "publisher": "sciencecampaign.org.uk",
+            "title": "sciencecampaign.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/science-and-technologys-contribution-to-the-uk-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "CaSE views this positively, anticipating benefits such as enhanced long-term collaboration, improved talent development and retention, and a stronger foundation for tackling complex scientific challenges",
+        "sources": [
+          {
+            "url": "https://www.sciencecampaign.org.uk/analysis-and-publications/detail/ten-year-rd-budgets-a-closer-look/",
+            "publisher": "sciencecampaign.org.uk",
+            "title": "sciencecampaign.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "TechUK also supports this as a crucial step for providing stability to innovative UK companies and boosting private sector confidence in research",
+        "sources": [
+          {
+            "url": "https://www.techuk.org/resource/towards-certainty-and-stability-uk-government-to-set-out-new-ten-year-budgets-for-r-d-funding.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The House of Lords Library notes that Labour has identified six priority areas for these longer-term budgets: aerospace, AI, automotive, defence, energy, and life sciences",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/science-and-technologys-contribution-to-the-uk-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "While generally welcomed, it has been clarified that these ten-year budgets will not be applied universally across the entire R&D portfolio, but rather targeted at areas where they can make \"a big difference\"",
+        "sources": [
+          {
+            "url": "https://www.timeshighereducation.com/opinion/ten-year-budgets-can-boost-national-rd-aims-and-reduce-precarity",
+            "publisher": "timeshighereducation.com",
+            "title": "timeshighereducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "There is also an acknowledgement that while longer-term grants can reduce bureaucracy, they might be subject to less immediate accountability",
+        "sources": [
+          {
+            "url": "https://www.timeshighereducation.com/opinion/ten-year-budgets-can-boost-national-rd-aims-and-reduce-precarity",
+            "publisher": "timeshighereducation.com",
+            "title": "timeshighereducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The RIO is intended to consolidate government functions, accelerate approval processes for innovative products and services, and address cross-sectoral regulatory issues, with a focus on setting targets for technology regulators",
+        "sources": [
+          {
+            "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+            "publisher": "dechert.com",
+            "title": "dechert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.raconteur.net/technology/regulatory-innovation-office",
+            "publisher": "raconteur.net",
+            "title": "raconteur.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/updates/press-releases/labour-will-end-regulatory-backlogs-to-give-the-public-access-to-life-saving-treatments-sooner/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This office aims to reduce \"red tape\" for startups and high-growth technologies, initially focusing on sectors like engineering biology, space, autonomous technology, and AI and digital in healthcare",
+        "sources": [
+          {
+            "url": "https://www.raconteur.net/technology/regulatory-innovation-office",
+            "publisher": "raconteur.net",
+            "title": "raconteur.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://withersrogers.com/news/ip-case-law/uk-government-establishes-regulatory-innovation-office-to-boost-economic-growth/",
+            "publisher": "withersrogers.com",
+            "title": "withersrogers.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2024/passle/uk-government-launches-new-regulatory-innovation-office-to-reduce-red-tape",
+            "publisher": "taylorwessing.com",
+            "title": "taylorwessing.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Business associations, including techUK and the British Private Equity & Venture Capital Association (BVCA), have welcomed the RIO as an important step towards improving collaboration between industry and regulators",
+        "sources": [
+          {
+            "url": "https://www.raconteur.net/technology/regulatory-innovation-office",
+            "publisher": "raconteur.net",
+            "title": "raconteur.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "However, some tech leaders have expressed caution, highlighting potential \"scalability challenges\" and the difficulty in balancing regulatory oversight with the rapid pace of innovation",
+        "sources": [
+          {
+            "url": "https://www.raconteur.net/technology/regulatory-innovation-office",
+            "publisher": "raconteur.net",
+            "title": "raconteur.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Some analysts also question whether establishing a new regulatory body truly streamlines processes or simply adds another layer to the existing regulatory landscape, particularly given the presence of bodies like the Digital Regulation Cooperation Forum (DRCF)",
+        "sources": [
+          {
+            "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2024/passle/uk-government-launches-new-regulatory-innovation-office-to-reduce-red-tape",
+            "publisher": "taylorwessing.com",
+            "title": "taylorwessing.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "It is important to note that the RIO will not serve as a new, overarching AI regulator; existing regulators will continue to address AI within their respective domains",
+        "sources": [
+          {
+            "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+            "publisher": "dechert.com",
+            "title": "dechert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Binding Regulation on Powerful AI Models and Banning Sexually Explicit Deepfakes:**\nLabour pledges to introduce \"binding regulation\" specifically for the \"handful of companies developing the most powerful AI models\" to ensure their safe development",
+        "sources": [
+          {
+            "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+            "publisher": "dechert.com",
+            "title": "dechert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ropesgray.com/en/insights/viewpoints/102jc9k/labour-victory-the-implications-for-data-protection-ai-and-digital-regulation-i",
+            "publisher": "ropesgray.com",
+            "title": "ropesgray.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/labour-government-prime-minister-rishi-sunak-b2562059.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "While specific details of these regulations are still pending, this approach is expected to be more narrowly focused than the comprehensive EU AI Act",
+        "sources": [
+          {
+            "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+            "publisher": "dechert.com",
+            "title": "dechert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ropesgray.com/en/insights/viewpoints/102jc9k/labour-victory-the-implications-for-data-protection-ai-and-digital-regulation-i",
+            "publisher": "ropesgray.com",
+            "title": "ropesgray.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The policy also includes a ban on sexually explicit deepfakes, which the government has announced will be criminalised in a forthcoming Crime and Policing Bill",
+        "sources": [
+          {
+            "url": "https://www.dechert.com/knowledge/onpoint/2024/7/a-new-uk-labour-government--a-fresh-approach-to-ai-regulation.html",
+            "publisher": "dechert.com",
+            "title": "dechert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ropesgray.com/en/insights/viewpoints/102jc9k/labour-victory-the-implications-for-data-protection-ai-and-digital-regulation-i",
+            "publisher": "ropesgray.com",
+            "title": "ropesgray.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://disputeresolution.howardkennedy.com/post/102jp32/the-regulatory-gap-in-deepfake-technology",
+            "publisher": "disputeresolution.howardkennedy.com",
+            "title": "howardkennedy.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/labour-government-prime-minister-rishi-sunak-b2562059.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "This addresses a growing concern, as reports indicate a significant increase in deepfake files, from 500,000 in 2023 to an estimated 8 million by 2025, with a disturbing trend of AI-generated content being used for harassment",
+        "sources": [
+          {
+            "url": "https://www.littler.com/news-analysis/asap/deepfakes-workplace-emerging-legal-risks-ai-driven-harassment",
+            "publisher": "littler.com",
+            "title": "littler.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Legal experts note that existing harassment laws apply to such misuse of AI, but employers may need to update their policies and training to address these new forms of AI-driven harassment",
+        "sources": [
+          {
+            "url": "https://kwwlaborlaw.com/ai-deepfakes-in-the-workplace-emerging-liability-for-employers/",
+            "publisher": "kwwlaborlaw.com",
+            "title": "kwwlaborlaw.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "**Doubling the UK's Co-operative and Mutuals Sector:**\nLabour has committed to doubling the size of the co-operative and mutuals sector",
+        "sources": [
+          {
+            "url": "https://www.socialenterprise.org.uk/news-and-views/what-steps-should-the-government-take-to-double-the-size-of-the-co-operatives-and-mutuals-sector/",
+            "publisher": "socialenterprise.org.uk",
+            "title": "socialenterprise.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bsa.org.uk/information/publications/research-and-reports/harnessing-the-mutual-sector-s-potential-for-growth",
+            "publisher": "bsa.org.uk",
+            "title": "bsa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://wpieconomics.com/publications/harnessing-the-mutual-sectors-potential-for-growth/",
+            "publisher": "wpieconomics.com",
+            "title": "wpieconomics.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.icmif.org/blog_articles/growing-the-mutual-sector-the-story-so-far-in-the-uk/",
+            "publisher": "icmif.org",
+            "title": "icmif.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.uk.coop/get-involved/co-operative-and-mutual-economy",
+            "publisher": "uk.coop",
+            "title": "uk.coop",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "This sector currently comprises over 9,500 mutuals and co-operatives, boasting 68.8 million memberships and contributing at least \u00a335 billion in direct Gross Value Added (GVA) to the UK economy, rising to \u00a393 billion when including indirect and induced contributions",
+        "sources": [
+          {
+            "url": "https://www.bsa.org.uk/information/publications/research-and-reports/harnessing-the-mutual-sector-s-potential-for-growth",
+            "publisher": "bsa.org.uk",
+            "title": "bsa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://wpieconomics.com/publications/harnessing-the-mutual-sectors-potential-for-growth/",
+            "publisher": "wpieconomics.com",
+            "title": "wpieconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Mission-led businesses, including co-ops and mutuals, constitute 5% of UK businesses, contribute 10% of GDP, and account for approximately 4 million jobs",
+        "sources": [
+          {
+            "url": "https://www.socialenterprise.org.uk/news-and-views/what-steps-should-the-government-take-to-double-the-size-of-the-co-operatives-and-mutuals-sector/",
+            "publisher": "socialenterprise.org.uk",
+            "title": "socialenterprise.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "WPI Economics analysis suggests that increasing the proportion of social enterprises and co-ops within the UK economy from 3% to 12% of GDP could boost UK investment by \u00a314 billion, and if all businesses were mission-led, UK GDP could be 7% larger",
+        "sources": [
+          {
+            "url": "https://www.socialenterprise.org.uk/news-and-views/what-steps-should-the-government-take-to-double-the-size-of-the-co-operatives-and-mutuals-sector/",
+            "publisher": "socialenterprise.org.uk",
+            "title": "socialenterprise.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Worker co-operatives have demonstrated 8-12% higher labour productivity than traditional firms, and 82% of co-operative start-ups remain active after five years, compared to 40% for other UK companies",
+        "sources": [
+          {
+            "url": "https://www.socialenterprise.org.uk/news-and-views/what-steps-should-the-government-take-to-double-the-size-of-the-co-operatives-and-mutuals-sector/",
+            "publisher": "socialenterprise.org.uk",
+            "title": "socialenterprise.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "To achieve the goal of doubling the sector over ten years, an annual growth rate of 7.2% would be required, which is twice the forecast for overall economic growth",
+        "sources": [
+          {
+            "url": "https://wpieconomics.com/publications/harnessing-the-mutual-sectors-potential-for-growth/",
+            "publisher": "wpieconomics.com",
+            "title": "wpieconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Analysts and industry bodies, including Social Enterprise UK and the Building Societies Association, identify key barriers to this growth, such as difficulties in accessing finance and capital, outdated legal and regulatory frameworks, a lack of awareness among investors, and limited institutional support",
+        "sources": [
+          {
+            "url": "https://www.socialenterprise.org.uk/news-and-views/what-steps-should-the-government-take-to-double-the-size-of-the-co-operatives-and-mutuals-sector/",
+            "publisher": "socialenterprise.org.uk",
+            "title": "socialenterprise.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bsa.org.uk/information/publications/research-and-reports/harnessing-the-mutual-sector-s-potential-for-growth",
+            "publisher": "bsa.org.uk",
+            "title": "bsa.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The Department for Business and Trade initiated a call for evidence in November 2025 to address these challenges",
+        "sources": [
+          {
+            "url": "https://www.socialenterprise.org.uk/news-and-views/what-steps-should-the-government-take-to-double-the-size-of-the-co-operatives-and-mutuals-sector/",
+            "publisher": "socialenterprise.org.uk",
+            "title": "socialenterprise.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

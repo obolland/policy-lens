@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens directional-measure verdict (e.g. immigration) — reports DIRECTION of change, NO good/bad valence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["measure", "shift", "magnitude", "confidence", "plain", "biggest_unknown", "claims", "rationale"],
+  "properties": {
+    "measure": { "type": "string", "description": "the directional-measure id, e.g. D1" },
+    "shift": { "type": "string", "enum": ["toward more open", "toward more controlled", "no material change", "unclear"], "description": "which way the policy moves immigration / border control. This is NOT a judgement that the move is good or bad — only its direction." },
+    "net_migration": { "type": "string", "enum": ["raises", "lowers", "broadly neutral", "unclear"], "description": "estimated effect on net migration" },
+    "magnitude": { "type": "string", "enum": ["minor", "moderate", "major", "n/a"], "description": "how big the shift; 'n/a' iff shift is 'no material change' or 'unclear'" },
+    "confidence": { "type": "string", "enum": ["low", "moderate", "high"] },
+    "plain": { "type": "string", "description": "1-2 sentences, ~age-12: which way it moves things and the main caveat. Do NOT imply the move is good or bad." },
+    "biggest_unknown": { "type": "string", "description": "one sentence — the main caveat / what would change the read" },
+    "claims": {
+      "type": "array",
+      "description": "the EVIDENCE-BOUND factual backbone — every factual assertion tied to a provided evidence unit and quoting a verbatim span from its snippet.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tier", "claim", "evidence_id", "quote"],
+        "properties": {
+          "tier": { "type": "string", "enum": ["stated", "measurable", "projected"] },
+          "claim": { "type": "string" },
+          "evidence_id": { "type": "string" },
+          "quote": { "type": "string", "description": "VERBATIM span from the cited evidence unit's snippet" }
+        }
+      }
+    },
+    "rationale": { "type": "string", "description": "reasoning connecting the claims to the shift, plain English, interpretation only. Describe the directional effect; do not editorialise on whether it is desirable." }
+  }
+}

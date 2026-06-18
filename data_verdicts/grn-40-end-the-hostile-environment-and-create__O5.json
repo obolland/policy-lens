@@ -1,0 +1,761 @@
+{
+  "policy_id": "grn-40-end-the-hostile-environment-and-create",
+  "party": "Green",
+  "policy_title": "End the hostile environment and create safe routes to sanctuary",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "The policy could reduce exploitation and illegal activity by giving asylum seekers the right to work and creating safer legal routes, and fairer asylum processes address a known justice flaw. But the scale of the safety benefit is uncertain and the evidence is mostly indirect.",
+    "biggest_unknown": "Whether expanded safe routes materially reduce irregular crossings and associated criminality and exploitation at scale, or whether other pull and push factors dominate.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would establish safe routes for those fleeing persecution and grant asylum seekers permission to work.",
+        "evidence_id": "M",
+        "quote": "Establish safe routes for those fleeing persecution, war, or climate disaster, with fast and fair asylum processes and permission to work."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Denying the right to work forces some asylum seekers into exploitative situations.",
+        "evidence_id": "E37",
+        "quote": "The British Red Cross and UNHCR found that denying the right to work, combined with low financial support, forces some asylum seekers into exploitative situations."
+      },
+      {
+        "tier": "projected",
+        "claim": "Providing the right to work and secure reporting mechanisms are seen as crucial steps to combat modern slavery.",
+        "evidence_id": "E5",
+        "quote": "Providing the right to work and secure reporting mechanisms are seen as crucial steps to combat modern slavery."
+      },
+      {
+        "tier": "projected",
+        "claim": "Providing standardised safe routes would reduce the need for people to resort to unsafe, unlawful, and uncontrolled routes.",
+        "evidence_id": "E22",
+        "quote": "the Institute for Government (IfG) argues that providing standardised, simple safe routes for asylum applications from outside the UK would reduce the need for people to resort to unsafe, unlawful, and uncontrolled routes."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The existing Detained Fast Track asylum process was found to be structurally unfair and unlawful by the Court of Appeal.",
+        "evidence_id": "E29",
+        "quote": "Historically, the \"Detained Fast Track\" system was found to be \"structurally unfair\" and unlawful by the Court of Appeal due to tight timescales."
+      },
+      {
+        "tier": "projected",
+        "claim": "Research shows little evidence that labour market access for asylum seekers significantly impacts the number of arrivals.",
+        "evidence_id": "E39",
+        "quote": "research consistently shows little evidence that labour market access significantly impacts the number of arrivals."
+      }
+    ],
+    "rationale": "O5 is concerned with safety, order, justice, and security. This policy touches three relevant mechanisms. First, on exploitation and modern slavery: the evidence shows that denying work rights pushes vulnerable asylum seekers into exploitative situations, and that granting work rights alongside secure reporting mechanisms is identified as a key anti-exploitation tool. This is a genuine O5 improvement if the mechanism fires. Second, on safe and legal routes: the Institute for Government argument \u2014 that safe routes reduce reliance on unsafe, unlawful, and uncontrolled crossings \u2014 points toward reduced irregular migration, which intersects with border security and associated criminality. Third, on justice system quality: the historical Detained Fast Track was found structurally unfair and unlawful by the Court of Appeal; a policy committed to 'fast and fair' processes directly addresses a documented justice system failure. Counterfactually, absent the policy, exploitation of work-banned asylum seekers and reliance on dangerous irregular routes would continue at current levels. The concern that safe routes or work rights act as pull factors drawing more arrivals \u2014 which could stress security infrastructure \u2014 is addressed by the cited evidence showing little empirical support for the pull-factor claim. The magnitude is minor because the direct crime-rate and national security effects are secondary and indirect; the core evidence is about exploitation and justice process quality, not street-level crime or defence posture. Confidence is low because most of the evidence about safe routes reducing irregular migration is projected/advocacy-adjacent and the scale effects remain undemonstrated at policy level.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.rescue.org/sites/default/files/2022-09/right%20to%20work%20article%20for%20newsletter%20V2.pdf",
+        "publisher": "rescue.org",
+        "title": "rescue.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://hopeforjustice.org/wp-content/uploads/2024/02/Hostile-Environment-and-Modern-Slavery-Paper_02-DIGITAL.pdf",
+        "publisher": "hopeforjustice.org",
+        "title": "hopeforjustice.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://asylummatters.org/2024/12/19/take-back-control-of-asylum-with-safe-routes-and-right-to-work-new-report-tells-government/",
+        "publisher": "asylummatters.org",
+        "title": "asylummatters.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://detentionaction.org.uk/get-involved/detained-fast-track/",
+        "publisher": "detentionaction.org.uk",
+        "title": "detentionaction.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+        "publisher": "ukandeu.ac.uk",
+        "title": "ukandeu.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.mentalhealth.org.uk/about-us/news/how-ban-asylum-seekers-working-hurts-us-all",
+        "publisher": "mentalhealth.org.uk",
+        "title": "mentalhealth.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0477,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All six claims are adequately supported by their cited evidence. Tier assignments are reasonable: the Detained Fast Track ruling (E29) is a documented legal fact and 'measurable' is defensible. The pull-factor claim (E39) is correctly tiered 'projected'. Direction 'improves', magnitude 'minor', confidence 'low' is an appropriately cautious synthesis given that the O5 mechanisms (exploitation reduction, safe routes reducing irregular crossings, justice process quality) are real but indirect and mostly evidence-adjacent rather than demonstrated at scale. No lever leakage, party identity, or false balance detected. One minor observation: E5 (hopeforjustice.org) is an advocacy source and the sole basis for the modern slavery claim; the verdict correctly labels confidence low and the rationale flags the indirectness, which is sufficient mitigation at this magnitude. No blocking issues found."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "End the hostile environment, abolish the No Recourse to Public Funds condition, and end minimum income requirements for spouses of work visa holders. Establish safe routes for those fleeing persecution, war, or climate disaster, with fast and fair asylum processes and permission to work.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "These measures include data-sharing between government departments, and requiring document checks by landlords, employers, banks, and the NHS.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/research-briefings/lln-2018-0064/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.understandingsociety.ac.uk/wp-content/uploads/2025/06/hostile-environment.pdf",
+            "publisher": "understandingsociety.ac.uk",
+            "title": "understandingsociety.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6733377/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Ending these policies would likely improve health outcomes for vulnerable groups and the wider UK population by encouraging timely access to healthcare.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6733377/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Reduced Discrimination and Mental Distress:** The policy has been criticised for causing racism and discrimination, with the Independent Chief Inspector of Borders and Immigration highlighting instances of people wrongly denied access to driving licenses and bank accounts.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/research-briefings/lln-2018-0064/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Research suggests the policy has negatively impacted the mental health of some UK-born citizens more than first-generation migrants, particularly those from Black Caribbean backgrounds following the Windrush scandal.",
+        "sources": [
+          {
+            "url": "https://www.understandingsociety.ac.uk/wp-content/uploads/2025/06/hostile-environment.pdf",
+            "publisher": "understandingsociety.ac.uk",
+            "title": "understandingsociety.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Providing the right to work and secure reporting mechanisms are seen as crucial steps to combat modern slavery.",
+        "sources": [
+          {
+            "url": "https://hopeforjustice.org/wp-content/uploads/2024/02/Hostile-Environment-and-Modern-Slavery-Paper_02-DIGITAL.pdf",
+            "publisher": "hopeforjustice.org",
+            "title": "hopeforjustice.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The NRPF condition prevents individuals with certain immigration statuses from accessing most mainstream welfare benefits and housing assistance.",
+        "sources": [
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/how-do-i-survive-now-the-impact-of-living-with-no-recourse-to-public-funds/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/deprivation-and-the-no-recourse-to-public-funds-nrpf-condition/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9790/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "A 2021 study found that 81% of people with NRPF were behind on at least one bill, compared to 20% of the wider UK population, and 60% were behind on rent compared to 8% nationally.",
+        "sources": [
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/how-do-i-survive-now-the-impact-of-living-with-no-recourse-to-public-funds/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "New estimates suggest 208,000 households with NRPF are at risk of destitution, and 64,000 are already living in poverty.",
+        "sources": [
+          {
+            "url": "https://trustforlondon.org.uk/research/no-reason-for-no-recourse-why-reform-of-nrpf-conditions-would-be-good-for-london-the-uk/",
+            "publisher": "trustforlondon.org.uk",
+            "title": "trustforlondon.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Abolishing NRPF would provide a crucial safety net, reducing poverty and homelessness.",
+        "sources": [
+          {
+            "url": "https://trustforlondon.org.uk/research/no-reason-for-no-recourse-why-reform-of-nrpf-conditions-would-be-good-for-london-the-uk/",
+            "publisher": "trustforlondon.org.uk",
+            "title": "trustforlondon.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/how-do-i-survive-now-the-impact-of-living-with-no-recourse-to-public-funds/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Financial Benefits for Local and Central Government:** Research by the London School of Economics (LSE) in 2022 estimated that removing NRPF conditions for working migrants and their families could result in net gains of up to \u00a3872 million over 10 years, or \u00a3128 million in Year 0, by reducing costs incurred by local authorities and third-sector services.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/new-lse-report-finds-removing-no-recourse-public-funds-condition-working-migrants-would-lead",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lse.ac.uk/geography-and-environment/research/lse-london/documents/Reports/GLA-report-on-NRPF-FINAL-to-send-March-7.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://data.london.gov.uk/dataset/social-cost-benefit-analysis-of-the-no-recourse-to-public-funds--emxyg",
+            "publisher": "data.london.gov.uk",
+            "title": "london.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "While central government might see increased welfare expenditure (estimated at \u00a31.9 billion over ten years for families and vulnerable individuals), these costs could be offset by gains from increased taxation and reduced NHS spending.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/geography-and-environment/research/lse-london/documents/Reports/GLA-report-on-NRPF-FINAL-to-send-March-7.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Local authorities currently spend over \u00a360 million annually supporting those with NRPF.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/geography-and-environment/research/lse-london/documents/Reports/GLA-report-on-NRPF-FINAL-to-send-March-7.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Improved Outcomes for Children and Vulnerable Individuals:** The LSE report highlighted that positive effects would be concentrated on children and young people, with lifelong value to them and broader British society.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/new-lse-report-finds-removing-no-recourse-public-funds-condition-working-migrants-would-lead",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "NRPF disproportionately affects women and children, making it harder for women to leave abusive relationships and trapping families in poverty.",
+        "sources": [
+          {
+            "url": "https://trustforlondon.org.uk/research/no-reason-for-no-recourse-why-reform-of-nrpf-conditions-would-be-good-for-london-the-uk/",
+            "publisher": "trustforlondon.org.uk",
+            "title": "trustforlondon.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The current threshold is \u00a329,000 per year for new applicants.",
+        "sources": [
+          {
+            "url": "https://us.iasservices.org.uk/partner-visas/spouse-visa-financial-requirements/",
+            "publisher": "us.iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://rvssolicitors.co.uk/latest-news/immigration-blog/minimum-income-requirements-in-uk-immigration-law/",
+            "publisher": "rvssolicitors.co.uk",
+            "title": "rvssolicitors.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/uk-family-visa/proof-income-partner",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Reunification of Families:** Critics, including the House of Commons Library and the Migration Observatory, argue that the minimum income requirement prevents many British citizens, particularly those on lower incomes, from sponsoring their foreign spouses or partners.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06724/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/updated-briefing-financial-minimum-income-requirement-partner-visas-published-house-commons",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The Migration Observatory estimated that the new \u00a329,000 threshold means around 50% of British citizens would not be able to sponsor a foreign spouse.",
+        "sources": [
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Reduced Regional and Demographic Disparities:** The policy disproportionately affects lower earners, women, young people, and those living outside the South East of England where wages are generally lower.",
+        "sources": [
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Expert Disagreement:** While the policy aims to ensure couples can support themselves without relying on public funds",
+        "sources": [
+          {
+            "url": "https://us.iasservices.org.uk/partner-visas/spouse-visa-financial-requirements/",
+            "publisher": "us.iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": ", the Migration Advisory Committee (MAC) in June 2025 reviewed the policy and criticised its impact on family unity.",
+        "sources": [
+          {
+            "url": "https://rvssolicitors.co.uk/latest-news/immigration-blog/minimum-income-requirements-in-uk-immigration-law/",
+            "publisher": "rvssolicitors.co.uk",
+            "title": "rvssolicitors.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/updated-briefing-financial-minimum-income-requirement-partner-visas-published-house-commons",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The MAC did not recommend a specific income threshold but presented options, such as setting it at \u00a317,000 (just above the relative poverty line) to allow more couples to live together, or \u00a323,800 (minimum wage).",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN06724/SN06724.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Reduced Irregular Migration and Dangerous Journeys:** The Institute for Government (IfG) argues that providing standardised, simple safe routes for asylum applications from outside the UK would reduce the need for people to resort to unsafe, unlawful, and uncontrolled routes.",
+        "sources": [
+          {
+            "url": "https://asylummatters.org/2024/12/19/take-back-control-of-asylum-with-safe-routes-and-right-to-work-new-report-tells-government/",
+            "publisher": "asylummatters.org",
+            "title": "asylummatters.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "King's College London and the Community Sponsorship Alliance also highlight that the vast majority of forcibly displaced people lack access to safe pathways, leading many to dangerous journeys.",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/service/assets/expanding-safe-pathways-to-the-uk-for-sanctuary-seekers.pdf",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Improved Efficiency and Cost-Effectiveness:** Existing community-led initiatives like \"Homes for Ukraine\" and community sponsorship schemes have demonstrated cost-efficiency and public support.",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/service/assets/expanding-safe-pathways-to-the-uk-for-sanctuary-seekers.pdf",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The Home Office estimated in 2023 that the cost of relocating sanctuary seekers to a third country for processing was \u00a3169,000 per person, compared to \u00a312,000 for processing claims in the UK.",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/service/assets/expanding-safe-pathways-to-the-uk-for-sanctuary-seekers.pdf",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Meeting International Commitments:** This policy aligns with calls from organisations like the Refugee Council to uphold international law and offer fair hearings to refugees, regardless of their arrival method.",
+        "sources": [
+          {
+            "url": "https://www.refugeecouncil.org.uk/support-us/campaign-for-us/a-fair-and-humane-asylum-system/",
+            "publisher": "refugeecouncil.org.uk",
+            "title": "refugeecouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Reduced Asylum Backlog and Associated Costs:** The current asylum system often leads to lengthy waiting periods; in 2022, initial decisions took an average of 21 months, leaving individuals in poverty and unable to contribute.",
+        "sources": [
+          {
+            "url": "https://www.rescue.org/uk/article/facts-about-seeking-asylum-uk",
+            "publisher": "rescue.org",
+            "title": "rescue.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Improved Decision Accuracy:** Experts, including those from UK in a Changing Europe, warn that accelerated asylum procedures are often associated with inaccurate decision-making, which can have significant consequences for asylum seekers and lead to increased appeals.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/after-dublin-what-the-eus-new-asylum-pact-means-for-britain/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Historically, the \"Detained Fast Track\" system was found to be \"structurally unfair\" and unlawful by the Court of Appeal due to tight timescales.",
+        "sources": [
+          {
+            "url": "https://detentionaction.org.uk/get-involved/detained-fast-track/",
+            "publisher": "detentionaction.org.uk",
+            "title": "detentionaction.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Asylum seekers can only apply for permission to work after 12 months, and then only in jobs on the Immigration Salary List (formerly Shortage Occupation List), typically RQF level 6 or above.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN01908/SN01908.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01908/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   The Mental Health Foundation estimates that allowing asylum seekers to work after six months with no job restrictions would save the country \u00a34.4 billion in government expenditure, grow the economy by \u00a31 billion, and raise \u00a3880 million in new tax revenue.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/how-ban-asylum-seekers-working-hurts-us-all",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   Analysis by the Lift the Ban coalition suggests that if half of the 73,866 people waiting for over six months found employment at the average UK salary, the benefit from tax, national insurance, and savings in asylum support could exceed \u00a3280 million.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   NIESR calculated that allowing asylum seekers to work could increase tax revenue by \u00a31.3 billion, reduce government expenditure by \u00a36.7 billion, and increase GDP by \u00a31.6 billion annually.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Improved Mental Health and Integration:** The ban on working contributes to de-skilling, reduces employment prospects even after refugee status is granted, and causes \"economic scarring.\"",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "It also leads to loss of self-esteem, loneliness, and an increased risk of depression, potentially increasing future reliance on NHS mental health services.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/how-ban-asylum-seekers-working-hurts-us-all",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Granting permission to work would promote dignity, integration, and reduce mental health impacts.",
+        "sources": [
+          {
+            "url": "https://www.rescue.org/sites/default/files/2022-09/right%20to%20work%20article%20for%20newsletter%20V2.pdf",
+            "publisher": "rescue.org",
+            "title": "rescue.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/how-ban-asylum-seekers-working-hurts-us-all",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Reduced Exploitation:** The British Red Cross and UNHCR found that denying the right to work, combined with low financial support, forces some asylum seekers into exploitative situations.",
+        "sources": [
+          {
+            "url": "https://www.rescue.org/sites/default/files/2022-09/right%20to%20work%20article%20for%20newsletter%20V2.pdf",
+            "publisher": "rescue.org",
+            "title": "rescue.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Expert Disagreement (Pull Factor):** The government's argument for restricting work rights is often based on the idea that early labour market access acts as a \"pull factor\" for economic migrants.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN01908/SN01908.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/research-briefings/lln-2018-0064/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/asylum-seekers-right-work-explained-newly-updated-house-commons-library-briefing",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "However, research consistently shows little evidence that labour market access significantly impacts the number of arrivals.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.rescue.org/sites/default/files/2022-09/right%20to%20work%20article%20for%20newsletter%20V2.pdf",
+            "publisher": "rescue.org",
+            "title": "rescue.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/how-ban-asylum-seekers-working-hurts-us-all",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://asylummatters.org/2024/12/19/take-back-control-of-asylum-with-safe-routes-and-right-to-work-new-report-tells-government/",
+            "publisher": "asylummatters.org",
+            "title": "asylummatters.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Instead, factors like seeking safety, having family and friends in the UK, or speaking the language are more important determinants.",
+        "sources": [
+          {
+            "url": "https://www.rescue.org/sites/default/files/2022-09/right%20to%20work%20article%20for%20newsletter%20V2.pdf",
+            "publisher": "rescue.org",
+            "title": "rescue.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "The Institute for Government (IfG) describes the \"pull factor\" argument as an \"ill-founded assumption\" aimed at political support.",
+        "sources": [
+          {
+            "url": "https://asylummatters.org/2024/12/19/take-back-control-of-asylum-with-safe-routes-and-right-to-work-new-report-tells-government/",
+            "publisher": "asylummatters.org",
+            "title": "asylummatters.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "Many European countries allow asylum seekers to work immediately or within six months, unlike the UK's stricter system.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/does-the-ban-on-asylum-seekers-working-actually-work/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01908/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "policy_id": "con-40-return-people-with-no-right-to",
+  "party": "Conservative",
+  "policy_title": "Return People with No Right to Be Here",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Signing bilateral returns deals is primarily an immigration-enforcement mechanism and does not, on its own, alter the legal standards for who has rights in the UK, anti-discrimination protections, or democratic rights. The due-process implications depend almost entirely on how deals are implemented, which this policy text does not specify.",
+    "biggest_unknown": "Whether future returns deals, like the Albania agreement, include or bypass independent appeal rights before removal \u2014 if they strip due-process safeguards, the verdict would shift to 'worsens'; if conducted within existing legal frameworks, O9 effects remain negligible.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to signing further bilateral returns deals to remove people deemed to have no right to remain in the UK, citing the Albania deal as the model.",
+        "evidence_id": "M",
+        "quote": "sign further returns deals, like the one agreed with Albania, to return people with no right to be in the UK to their own countries"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Albanian nationals were the most returned foreign national offender group for four consecutive years under the existing framework.",
+        "evidence_id": "E4",
+        "quote": "Albanian nationals were the most common nationality for FNO returns in each of the last four years"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Migration Observatory notes it is difficult to attribute changes in returns solely to deal-based policies, as other factors such as resource increases may be responsible.",
+        "evidence_id": "E18",
+        "quote": "highlights the difficulty in definitively attributing this rise solely to new policies, suggesting that increased resources for Immigration Enforcement or a continuation of existing trends could also be factors"
+      },
+      {
+        "tier": "projected",
+        "claim": "The decline in Albanian small boat arrivals may pre-date the returns deal, complicating claims about the deal's causal role.",
+        "evidence_id": "E19",
+        "quote": "these numbers had already begun to decrease significantly before the deal was announced"
+      }
+    ],
+    "rationale": "O9 covers equal treatment, anti-discrimination, minority protections, due process, and democratic rights. The specific policy \u2014 signing bilateral diplomatic returns agreements \u2014 is an enforcement instrument that operates within the existing legal determination framework (who has 'no right to be here' is a legal status already adjudicated). The policy text itself does not alter the determination process, does not remove appeal rights, does not change anti-discrimination law, and does not affect voting or democratic participation. The Albania-model deal (the stated exemplar) was conducted within existing legal structures, and the evidence provided does not document systematic due-process violations attributable specifically to it. The Migration Observatory evidence does raise uncertainty about causal attribution of the deal's effects, but does not document O9-relevant harms from the deal mechanism itself. The magnitude is therefore minor rather than negligible only in the sense that any acceleration of removals at scale could, in practice, raise due-process risk at the margins \u2014 but no cited evidence establishes that this policy, as stated, operationally bypasses due process. The broader BORDERS plan (E15) \u2014 abolishing immigration tribunals and ending judicial review \u2014 would score very differently on O9, but that is a separate policy not being judged here. Confidence is low because the evidence gaps noted by the Migration Observatory (E20) mean the operational due-process record of returns deals is not fully visible.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-december-2025/how-many-people-are-returned-from-the-uk",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/returns-of-unauthorised-migrants-from-the-uk/",
+        "publisher": "migrationobservatory.ox.ac.uk",
+        "title": "ox.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/albanian-asylum-seekers-in-the-uk-and-eu-a-look-at-recent-data/",
+        "publisher": "migrationobservatory.ox.ac.uk",
+        "title": "ox.ac.uk",
+        "source_type": "academic"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.04,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is cautious and defensible. Direction 'negligible' with 'minor' magnitude is internally inconsistent per schema rules only if magnitude must be 'n/a' for 'too-uncertain' \u2014 but direction here is 'negligible', not 'too-uncertain', so magnitude 'minor' is permitted. All four claims are well-supported by their quoted evidence. The rationale correctly ring-fences the broader BORDERS plan (E15) as a separate policy. The biggest_unknown appropriately flags the due-process crux. No party-blind violations, no motive attribution, no false balance \u2014 the verdict does not manufacture a counter-side where none exists. One minor observation: the rationale says 'magnitude is therefore minor rather than negligible' but the direction field is 'negligible'; this slight tension in language is not blocking. Source handling is symmetric and no advocacy source drives the verdict alone."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will sign further returns deals, like the one agreed with Albania, to return people with no right to be in the UK to their own countries.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Of these, enforced returns rose by 13% to 9,700, while voluntary returns increased by 5% to 29,300.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-march-2026/summary-of-latest-statistics",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   Between July 1, 2024, and October 31, 2025, 48,560 returns were recorded, representing a 23% increase over the preceding 16-month period.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/returns-from-the-uk-and-illegal-working-activity-since-july-2024/returns-from-the-uk-from-1-march-2023-to-31-october-2025--2",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   Foreign National Offender (FNO) returns reached 5,430 in the year ending October 2025, an increase of 12%.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/returns-from-the-uk-and-illegal-working-activity-since-july-2024/returns-from-the-uk-from-1-march-2023-to-31-october-2025--2",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Albanian nationals were the most common nationality for FNO returns in each of the last four years.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-december-2025/how-many-people-are-returned-from-the-uk",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   Asylum-related returns saw an increase of 23% in the year ending December 2025, totaling 11,631.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-december-2025/how-many-people-are-returned-from-the-uk",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   The top three nationalities for returns in 2025 were India, Albania, and Brazil.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/returns-of-unauthorised-migrants-from-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The UK government reported a 95% reduction in Albanian small boat arrivals in the last three years (as of May 2025).",
+        "sources": [
+          {
+            "url": "https://www.intellinews.com/albanian-pm-shoots-down-starmer-s-hopes-of-asylum-seeker-return-hub-381349/",
+            "publisher": "intellinews.com",
+            "title": "intellinews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   In 2024, 5,294 Albanians were returned from the UK, more than double the number in 2022.",
+        "sources": [
+          {
+            "url": "https://www.intellinews.com/albanian-pm-shoots-down-starmer-s-hopes-of-asylum-seeker-return-hub-381349/",
+            "publisher": "intellinews.com",
+            "title": "intellinews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   The proportion of positive initial asylum decisions for Albanian applicants dropped significantly to 3% in 2024, down from higher rates in 2022.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/albanian-asylum-seekers-in-the-uk-and-eu-a-look-at-recent-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   Between 2018 and 2024, approximately 3,800 Albanian small boat arrivals were removed from the UK, accounting for about three-quarters of all small boat returns.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/albanian-asylum-seekers-in-the-uk-and-eu-a-look-at-recent-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "In the 2024/25 financial year, an enforced return cost an average of \u00a348,800, while a voluntary return cost \u00a34,300.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/returns-of-unauthorised-migrants-from-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/average-cost-of-an-immigration-enforcement-return-fy-2024-to-2025/average-cost-of-an-immigration-enforcement-return-fy-2024-to-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   The UK government spent \u00a353 million between 2021 and 2024 on a voluntary return scheme, which offers up to \u00a33,000 and paid flights to individuals returning to their home countries.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/bulletin/news/home-office-labour-migrant-return-scheme-cost-b2765929.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Treasury projected a \u00a36.4 billion spending pressure for asylum and illegal migration in 2024-25.",
+        "sources": [
+          {
+            "url": "https://reliefweb.int/report/united-kingdom-great-britain-and-northern-ireland/ifs-report-home-office-budgeting-and-asylum-overspending-bond-reaction",
+            "publisher": "reliefweb.int",
+            "title": "reliefweb.int",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/home-office-budgeting-and-asylum-overspends",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Between 2021-22 and 2023-24, the Home Office initially budgeted an average of \u00a3110 million annually for asylum, border, visa, and passport operations, but actual spending averaged \u00a32.6 billion per year.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/home-office-budgeting-and-asylum-overspends",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "**Broader Policy Proposals:**\n*   The Conservative Party's \"BORDERS plan\" proposes radical measures, including leaving the European Convention on Human Rights (ECHR), immediately deporting illegal immigrants and foreign criminals, establishing a new Removals Force to remove 150,000 people annually (750,000 over the next Parliament), abolishing the Immigration Tribunal, and ending judicial review and legal aid in immigration cases.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/conservatives-announce-hardline-new-policies-leave-echr-and-abolish-immigration-tribunal-and",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.conservatives.com/news/conference-policy-announcements",
+            "publisher": "conservatives.com",
+            "title": "conservatives.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.conservatives.com/news/controlling-immigration",
+            "publisher": "conservatives.com",
+            "title": "conservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   There are also proposals to deny benefits to overseas nationals who are not UK citizens, even those with indefinite leave to remain, providing them with the option to return to their home countries.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2025/oct/06/tories-conservatives-benefits-uk-welfare-cuts-public-spending",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2025/oct/22/deporting-legally-settled-people-broadly-in-line-conservative-policy-kemi-badenoch",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They have documented the UK's existing returns agreements with 24 countries and analyze legislative developments like the Border Security, Asylum and Immigration Bill and changes to visa and settlement rules.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/new-commons-library-research-briefing-uk-migrant-returns-agreements-other-countries",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10157/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10575/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/house-commons-library-releases-report-border-security-asylum-and-immigration-bills-parliament",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Migration Observatory (University of Oxford):**\nThe Migration Observatory acknowledges the increase in returns but highlights the difficulty in definitively attributing this rise solely to new policies, suggesting that increased resources for Immigration Enforcement or a continuation of existing trends could also be factors.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/returns-of-unauthorised-migrants-from-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Regarding the Albania deal, they note that while the government credits the agreement for a fall in Albanian small boat arrivals, these numbers had already begun to decrease significantly before the deal was announced.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/albanian-asylum-seekers-in-the-uk-and-eu-a-look-at-recent-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Observatory also points to \"evidence gaps\" in published statistics, which complicate a comprehensive understanding of deportations and returns.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2024/02/2025-Briefing-Returns-of-unauthorised-migrants-from-the-UK.pdf",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Their reports indicate a consistent pattern of underbudgeting and significant overspending in these areas, often covered by reallocating funds from the UK aid budget.",
+        "sources": [
+          {
+            "url": "https://reliefweb.int/report/united-kingdom-great-britain-and-northern-ireland/ifs-report-home-office-budgeting-and-asylum-overspending-bond-reaction",
+            "publisher": "reliefweb.int",
+            "title": "reliefweb.int",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/home-office-budgeting-and-asylum-overspends",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Their provisional figures for the year ending December 2025 show that net migration to the UK fell to an estimated 171,000, nearly half of the 331,000 recorded a year earlier, reaching its lowest level since early 2021.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/uk-net-migration-nearly-halves-171000-year-december-2025-ons-says",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06077/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They view immigration as a deeply polarizing issue that governments have struggled to address effectively.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/demographics/migration/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/events/can-uk-governments-ever-get-immigration-policy-right/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They argue that the new migration regime is unlikely to fundamentally alter the UK's economic trajectory or solve issues of low investment and productivity.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/under-new-management/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They also highlight the \"deep-rooted insecurity\" faced by a significant portion of the migrant workforce in the UK due to precarious employment conditions.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Effectiveness of Returns Deals:** While the government attributes the reduction in Albanian small boat arrivals to the returns deal, the Migration Observatory notes that the decline began before the agreement's announcement, suggesting other contributing factors.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/albanian-asylum-seekers-in-the-uk-and-eu-a-look-at-recent-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Causes of Small Boat Crossings:** Professor Thom Brooks of Durham University argues that the primary reason for the increase in small boat crossings is the UK government's failure to negotiate a post-Brexit returns agreement with the European Union, making it more challenging to return asylum seekers.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/academic-report-says-uks-failure-negotiate-post-brexit-returns-agreement-main-reason-increase",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Economic Impact of Migration Policy:** The Resolution Foundation challenges the notion that a more restrictive migration regime will lead to a \"high wage\" economy, suggesting that the focus should be on a broader economic strategy.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/under-new-management/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Cost-Effectiveness of Voluntary Returns:** The Home Office champions voluntary returns as more cost-effective than enforced removals, particularly compared to the expense of accommodation for those awaiting deportation.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/bulletin/news/home-office-labour-migrant-return-scheme-cost-b2765929.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "However, organizations like Asylum Matters advocate for more comprehensive, bespoke support for migrants, including independent advice, which may imply a different approach to \"cost-effectiveness.\"",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/bulletin/news/home-office-labour-migrant-return-scheme-cost-b2765929.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

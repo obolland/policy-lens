@@ -1,0 +1,515 @@
+{
+  "policy_id": "grn-46-invest-in-criminal-justice-and-reduce",
+  "party": "Green",
+  "policy_title": "Invest in criminal justice and reduce court backlogs",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy commits \u00a311bn in new MoJ spending with no stated funding source, which would add to public borrowing or require cuts elsewhere. Whether this worsens the debt path depends entirely on how it is financed \u2014 the policy text is silent on this.",
+    "biggest_unknown": "Whether the \u00a311bn is funded through tax rises, cuts elsewhere, or borrowing \u2014 the policy text provides no answer, and only borrowing-financed spending would materially worsen the debt path.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits \u00a311bn to restore the MoJ budget, covering court buildings, legal aid, and the Criminal Bar, plus judge recruitment.",
+        "evidence_id": "M",
+        "quote": "Invest \u00a311bn in restoring the Ministry of Justice budget to repair court buildings, restore legal aid, and ensure the Criminal Bar is sufficiently funded. Recruit more judges representative of wider society to reduce court backlogs."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The total MoJ budget in 2025-26 is already projected at around \u00a313.5 billion in today's prices, roughly one-third higher in real terms than in 2019-20.",
+        "evidence_id": "E1",
+        "quote": "the total MoJ budget in 2025-26 is projected to be around \u00a313.5 billion (in today's prices), which is approximately one-third higher in real (inflation-adjusted) terms than in 2019-20 (\u00a310.1 billion)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Day-to-day justice spending in 2025-26 is projected to be no higher than 23 years earlier and around 16% lower in per-person terms, indicating a structural underfunding context.",
+        "evidence_id": "E2",
+        "quote": "day-to-day justice spending in 2025-26 is projected to be no higher than it was 23 years earlier (2002-03) and around 16% lower in per-person terms"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The MoJ's day-to-day spending is already set to grow at 2.4% per year in real terms to 2028-29 under current plans.",
+        "evidence_id": "E4",
+        "quote": "the MoJ's day-to-day (RDEL) spending will increase by an average of 2.4% per year in real terms between 2023-24 and 2028-29"
+      },
+      {
+        "tier": "projected",
+        "claim": "Without further action, the Crown Court backlog could exceed 200,000 by 2035, suggesting there is a genuine systemic need driving the spending case.",
+        "evidence_id": "E18",
+        "quote": "the Crown Court backlog could exceed 200,000 by 2035"
+      }
+    ],
+    "rationale": "The policy's fiscal impact on O12 turns almost entirely on one fact the stated text omits: how the \u00a311bn is financed. At roughly 80% of the current annual MoJ budget, it is a large commitment. The measurable baseline shows the MoJ has been chronically underfunded in per-capita terms over two decades, so some of this spending addresses a genuine structural deficit rather than pure consumption. However, even if some investment is productive (court buildings, judge capacity), the policy provides no funding mechanism \u2014 no tax measure, no borrowing rule, no offsetting cut. Under IFS/OBR conventions, unspecified spending commitments of this scale are treated as adding to borrowing until a funding source is identified. The current MoJ budget is already \u00a313.5bn and growing at 2.4% per year in real terms; an additional \u00a311bn on top of that trajectory would be a significant incremental addition to public expenditure. Some portion \u2014 court building repairs, judge recruitment \u2014 could be classified as productive capital investment, which under O12's macro-neutral criteria could improve long-run capacity and partially offset the fiscal cost. But legal aid restoration and Criminal Bar funding are current (resource) expenditure, not investment, and worsen the near-term current deficit if unfunded. On balance, absent any stated funding mechanism, the most honest verdict is that this policy worsens O12 at moderate magnitude, with the caveat that the verdict would improve significantly if the spending were shown to be fully funded or if the productive-investment component raised future court throughput sufficiently to reduce downstream costs.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://ifs.org.uk/publications/justice-spending-england-and-wales",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://ifs.org.uk/sites/default/files/2025-02/Justice%20spending%20in%20England%20and%20Wales.pdf",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.nao.org.uk/wp-content/uploads/2025/12/Ministry-of-Justice-Overview-24-25.pdf",
+        "publisher": "nao.org.uk",
+        "title": "nao.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://just-access.de/legal-aid-wins-in-the-uk-courts/",
+        "publisher": "just-access.de",
+        "title": "just-access.de",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0387,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their quoted evidence. Tier assignments are correct: stated claims draw from policy text, measurable claims from IFS/NAO institutional sources, and the backlog projection is correctly labelled projected. The direction 'worsens' with moderate magnitude is defensible given the absence of any stated funding mechanism \u2014 the rationale correctly applies the O12 criterion symmetrically (unfunded spending worsens the debt path) without assuming austerity is good. The caveat about productive investment partially offsetting fiscal cost is appropriately hedged. No party identity or motive attribution detected. No false balance issue \u2014 the verdict does not claim mixed/too-uncertain without basis. The biggest_unknown honestly identifies the crux. One minor observation: E4 describes current government plans, not the proposed policy's additionality, so the claim using it is contextually sound (establishing baseline trajectory). No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Invest \u00a311bn in restoring the Ministry of Justice budget to repair court buildings, restore legal aid, and ensure the Criminal Bar is sufficiently funded. Recruit more judges representative of wider society to reduce court backlogs.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Overall Ministry of Justice Budget and Restoration Efforts:**\nThe Institute for Fiscal Studies (IFS) reports that the total MoJ budget in 2025-26 is projected to be around \u00a313.5 billion (in today's prices), which is approximately one-third higher in real (inflation-adjusted) terms than in 2019-20 (\u00a310.1 billion)",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/justice-spending-england-and-wales",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2025-02/Justice%20spending%20in%20England%20and%20Wales.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Strikingly, day-to-day justice spending in 2025-26 is projected to be no higher than it was 23 years earlier (2002-03) and around 16% lower in per-person terms",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/justice-spending-england-and-wales",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2025-02/Justice%20spending%20in%20England%20and%20Wales.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The IFS notes that the MoJ has generally fared worse than other government departments in terms of budget cuts in the 2010s",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/despite-recent-increases-ministry-justice-budget-has-still-not-returned-pre-2010-levels",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://chroniclelaw.co.uk/blogs/2025/02/16/ministry-of-justice-budget-still-struggling-to-return-to-pre-2010-levels/",
+            "publisher": "chroniclelaw.co.uk",
+            "title": "chroniclelaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lawgazette.co.uk/news/justice-spending-set-to-be-no-higher-than-it-was-in-early-2000s/5122310.article",
+            "publisher": "lawgazette.co.uk",
+            "title": "lawgazette.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The National Audit Office (NAO) states that the MoJ's day-to-day (RDEL) spending will increase by an average of 2.4% per year in real terms between 2023-24 and 2028-29",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2025/12/Ministry-of-Justice-Overview-24-25.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "A February 2026 announcement from GOV.UK confirmed a \u00a32.785 billion settlement for courts and tribunals for 2026/27, which includes \u00a3287 million specifically for court repairs and digital upgrades",
+        "sources": [
+          {
+            "url": "https://www.lawgazette.co.uk/news/justice-spending-set-to-be-no-higher-than-it-was-in-early-2000s/5122310.article",
+            "publisher": "lawgazette.co.uk",
+            "title": "lawgazette.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The NAO also highlights that capital spending for the MoJ tripled between 2019-20 and 2024-25, increasing by 213%",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2025/12/Ministry-of-Justice-Overview-24-25.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Despite this, the Law Society noted in March 2026 that due to chronic underfunding for years, court \"buildings are deteriorating, technology fails too often, and essential staff are in short supply\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ16JyBBgAwtJi2fJon1NfGskvEbdkWTzBOIUsyooETJxJSqZ5ko_4e81jCYj15UY5hQ8HDR-U70vDVn-UMtlUhoGSOjUw7K-YS85khwGRHStJxr_3XQ72FmRV8mV5HcdusSihg-Bw0AErUqwibWI6vRw_HmNRudGUhbzmioN6I2jVOpDlORmwXcYaerT2Y3vGfNR0QtnhpbgptY1I8zCFbT1Jd7I_rv-OL3p5Qn7l0TAQQbBnmKapSlxZPS87Q4LJA_aVzCJs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This is expected to result in a 24% overall uplift in funding for criminal legal aid solicitors since the 2021 Criminal Legal Aid Independent Review (CLAIR) once fully implemented",
+        "sources": [
+          {
+            "url": "https://todaysfamilylawyer.co.uk/government-confirms-extra-92-million-for-criminal-legal-aid-after-years-of-neglect/",
+            "publisher": "todaysfamilylawyer.co.uk",
+            "title": "todaysfamilylawyer.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/multi-million-pound-investment-in-legal-aid-to-boost-access-to-justice-for-victims",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Additionally, housing and immigration legal aid fees were uplifted by \u00a318 million a year, marking the first major civil legal aid fee increase since 1996",
+        "sources": [
+          {
+            "url": "https://todaysfamilylawyer.co.uk/government-confirms-extra-92-million-for-criminal-legal-aid-after-years-of-neglect/",
+            "publisher": "todaysfamilylawyer.co.uk",
+            "title": "todaysfamilylawyer.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/multi-million-pound-investment-in-legal-aid-to-boost-access-to-justice-for-victims",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Law Society welcomed the commitment to fully restore criminal legal aid fees in 2026, stating it is \"long overdue\" and \"vital for those who cannot afford access to justice\"",
+        "sources": [
+          {
+            "url": "https://todaysfamilylawyer.co.uk/government-confirms-extra-92-million-for-criminal-legal-aid-after-years-of-neglect/",
+            "publisher": "todaysfamilylawyer.co.uk",
+            "title": "todaysfamilylawyer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "However, the IFS reported in February 2025 that spending by the Legal Aid Agency was 29% lower in 2023-24 than in 2007-08, and 36% lower in per-person terms",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2025-02/Justice%20spending%20in%20England%20and%20Wales.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Funding for the Criminal Bar:**\nThe government pledged to provide publicly funded criminal barristers with an additional investment of up to \u00a334 million (including VAT) annually and to match-fund pupillages (training placements) to address shortages",
+        "sources": [
+          {
+            "url": "https://www.thejusticegap.com/bar-leaders-criticise-34m-legal-aid-delay-as-ministers-press-jury-reform/",
+            "publisher": "thejusticegap.com",
+            "title": "thejusticegap.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.barcouncil.org.uk/resource/bar-questions-5-month-delay-in-delivering-34m-criminal-legal-aid-injection.html",
+            "publisher": "barcouncil.org.uk",
+            "title": "barcouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "However, as of May 2026, the Bar Council and Criminal Bar Association criticized a five-month delay in delivering this promised funding, warning that a failure to invest in criminal lawyers could lead to more delays due to barristers leaving the profession",
+        "sources": [
+          {
+            "url": "https://www.thejusticegap.com/bar-leaders-criticise-34m-legal-aid-delay-as-ministers-press-jury-reform/",
+            "publisher": "thejusticegap.com",
+            "title": "thejusticegap.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.barcouncil.org.uk/resource/bar-questions-5-month-delay-in-delivering-34m-criminal-legal-aid-injection.html",
+            "publisher": "barcouncil.org.uk",
+            "title": "barcouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The Bar Council noted that the number of barristers primarily earning from criminal legal aid fell by 11% between 2017/18 and 2020/21, recovering after the 2022 legal aid investment",
+        "sources": [
+          {
+            "url": "https://www.barcouncil.org.uk/resource/bar-questions-5-month-delay-in-delivering-34m-criminal-legal-aid-injection.html",
+            "publisher": "barcouncil.org.uk",
+            "title": "barcouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The \"Judiciary Diversity and Inclusion Strategy for 2026-30\" aims to improve diversity in the applicant pool for the High Court and Court of Appeal, increase the percentage of Black judges (which has remained at 1% for a decade), and provide reasonable adjustments for disabled judges",
+        "sources": [
+          {
+            "url": "https://www.canadianlawyermag.com/news/international/uk-judicial-diversity-and-inclusion-strategy-to-focus-on-high-court-court-of-appeal-candidate-pool/393618",
+            "publisher": "canadianlawyermag.com",
+            "title": "canadianlawyermag.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.irishlegal.com/articles/england-greater-diversity-within-applicant-pool-for-judicial-office-promised",
+            "publisher": "irishlegal.com",
+            "title": "irishlegal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Appointments will continue to be based on merit, while encouraging a wider, more diverse talent pool",
+        "sources": [
+          {
+            "url": "https://www.irishlegal.com/articles/england-greater-diversity-within-applicant-pool-for-judicial-office-promised",
+            "publisher": "irishlegal.com",
+            "title": "irishlegal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The Crown Court backlog stood at 80,203 outstanding cases in December 2025, with magistrates' courts facing 379,437 cases",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ16JyBBgAwtJi2fJon1NfGskvEbdkWTzBOIUsyooETJxJSqZ5ko_4e81jCYj15UY5hQ8HDR-U70vDVn-UMtlUhoGSOjUw7K-YS85khwGRHStJxr_3XQ72FmRV8mV5HcdusSihg-Bw0AErUqwibWI6vRw_HmNRudGUhbzmioN6I2jVOpDlORmwXcYaerT2Y3vGfNR0QtnhpbgptY1I8zCFbT1Jd7I_rv-OL3p5Qn7l0TAQQbBnmKapSlxZPS87Q4LJA_aVzCJs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Ministry of Justice (MoJ) projected that without further action, the Crown Court backlog could exceed 200,000 by 2035",
+        "sources": [
+          {
+            "url": "https://just-access.de/legal-aid-wins-in-the-uk-courts/",
+            "publisher": "just-access.de",
+            "title": "just-access.de",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "In response, the government has moved to fund unlimited sitting days in the Crown Court for the next financial year (from February 2026) to maximize capacity",
+        "sources": [
+          {
+            "url": "https://www.lawgazette.co.uk/news/justice-spending-set-to-be-no-higher-than-it-was-in-early-2000s/5122310.article",
+            "publisher": "lawgazette.co.uk",
+            "title": "lawgazette.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Deputy Prime Minister and Secretary of State for Justice, David Lammy, stated that the Crown Court would sit for a total of 111,250 days in the current year, the highest level on record",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/justice-spending-england-and-wales",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "There are some early signs of improvement, with analysis by the Criminal Bar Association (CBA) in April 2026 suggesting that the backlog is beginning to fall in key regions following the lifting of sitting day caps",
+        "sources": [
+          {
+            "url": "https://freespeechunion.org/news/data-shows-crown-court-backlog-is-falling-but-the-government-wont-admi",
+            "publisher": "freespeechunion.org",
+            "title": "freespeechunion.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Victims' Commissioner, Claire Waxman OBE, and the Law Society emphasize that \"unlimited sitting days\" and financial investment must be coupled with wider structural reforms to truly address the \"intolerable\" delays and systemic issues",
+        "sources": [
+          {
+            "url": "https://www.parliament.uk/business/lords/media-centre/house-of-lords-media-notices/2012/march-2012/a-more-diverse-judiciary-would-increase-confidence-in-the-justice-system-say-lords-constitution-committee-/",
+            "publisher": "parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ16JyBBgAwtJi2fJon1NfGskvEbdkWTzBOIUsyooETJxJSqZ5ko_4e81jCYj15UY5hQ8HDR-U70vDVn-UMtlUhoGSOjUw7K-YS85khwGRHStJxr_3XQ72FmRV8mV5HcdusSihg-Bw0AErUqwibWI6vRw_HmNRudGUhbzmioN6I2jVOpDlORmwXcYaerT2Y3vGfNR0QtnhpbgptY1I8zCFbT1Jd7I_rv-OL3p5Qn7l0TAQQbBnmKapSlxZPS87Q4LJA_aVzCJs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Causes and Solutions for Backlogs:** The MoJ attributes the growing backlog to increased police recruitment leading to more prosecutions and a shift towards more complex cases requiring longer trial times",
+        "sources": [
+          {
+            "url": "https://just-access.de/legal-aid-wins-in-the-uk-courts/",
+            "publisher": "just-access.de",
+            "title": "just-access.de",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The IFS also highlights a post-pandemic slump in productivity and rising case complexity",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMm7g4C29TbQ_lLsK2erVU2UPO6euzGaAwYRELwC3ANXlqd4W7qN6LCEjGurXpz2fdwXa_dh1_CtCnnRp2H4tsY2WW2ahH5wt2sLeAB4O7ZN3HLM9q0lTxvFAGTyNAdZ4NYTTk6QvYzZWJMBlnqsPwvWSXGFmoIHIpZVXo7rUM5vLx7RcCiXpPiYF4V5z4wLOhcdg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Conversely, the CBA has argued that delays are not driven by jury trials, but by a lack of sitting days and underutilization of courtrooms",
+        "sources": [
+          {
+            "url": "https://freespeechunion.org/news/data-shows-crown-court-backlog-is-falling-but-the-government-wont-admi",
+            "publisher": "freespeechunion.org",
+            "title": "freespeechunion.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Justice Secretary, David Lammy, has proposed measures like curtailing jury trials, increasing magistrates' court sentencing powers, and introducing judge-only trials for some cases to reduce demand on Crown Court time",
+        "sources": [
+          {
+            "url": "https://just-access.de/legal-aid-wins-in-the-uk-courts/",
+            "publisher": "just-access.de",
+            "title": "just-access.de",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "However, the CBA and the Law Society strongly oppose curtailing jury trials, arguing that proper resourcing of the system is the solution, not the erosion of fundamental legal rights",
+        "sources": [
+          {
+            "url": "https://www.thejusticegap.com/bar-leaders-criticise-34m-legal-aid-delay-as-ministers-press-jury-reform/",
+            "publisher": "thejusticegap.com",
+            "title": "thejusticegap.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://freespeechunion.org/news/data-shows-crown-court-backlog-is-falling-but-the-government-wont-admi",
+            "publisher": "freespeechunion.org",
+            "title": "freespeechunion.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ16JyBBgAwtJi2fJon1NfGskvEbdkWTzBOIUsyooETJxJSqZ5ko_4e81jCYj15UY5hQ8HDR-U70vDVn-UMtlUhoGSOjUw7K-YS85khwGRHStJxr_3XQ72FmRV8mV5HcdusSihg-Bw0AErUqwibWI6vRw_HmNRudGUhbzmioN6I2jVOpDlORmwXcYaerT2Y3vGfNR0QtnhpbgptY1I8zCFbT1Jd7I_rv-OL3p5Qn7l0TAQQbBnmKapSlxZPS87Q4LJA_aVzCJs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Law Society also cautions that moving more cases to already overwhelmed magistrates' courts is not the answer",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ16JyBBgAwtJi2fJon1NfGskvEbdkWTzBOIUsyooETJxJSqZ5ko_4e81jCYj15UY5hQ8HDR-U70vDVn-UMtlUhoGSOjUw7K-YS85khwGRHStJxr_3XQ72FmRV8mV5HcdusSihg-Bw0AErUqwibWI6vRw_HmNRudGUhbzmioN6I2jVOpDlORmwXcYaerT2Y3vGfNR0QtnhpbgptY1I8zCFbT1Jd7I_rv-OL3p5Qn7l0TAQQbBnmKapSlxZPS87Q4LJA_aVzCJs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

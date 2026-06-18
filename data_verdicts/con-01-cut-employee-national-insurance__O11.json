@@ -1,0 +1,551 @@
+{
+  "policy_id": "con-01-cut-employee-national-insurance",
+  "party": "Conservative",
+  "policy_title": "Cut Employee National Insurance",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Cutting employee National Insurance from 12% to 6% would directly raise take-home pay for employed workers, with the policy's own figure of \u00a31,350 a year for an average earner \u2014 though independent analysis suggests the net gain is much smaller once frozen income-tax thresholds are factored in. The headline improvement is real but significantly eroded by fiscal drag running in the opposite direction.",
+    "biggest_unknown": "Whether the threshold freezes that eat into the NI gain are reversed or extended alongside this cut; if freezes persist to 2027-28, IFS projects a net tax increase of \u00a3440 for the same average earner despite the NI cut.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to cutting the main employee NI rate from 12% to 6% by April 2027, worth \u00a31,350 a year for a worker on \u00a335,000.",
+        "evidence_id": "M",
+        "quote": "cutting the main rate of employee National Insurance from 12% to 6% by April 2027, representing a total tax cut of \u00a31,350 for the average worker on \u00a335,000"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Previous NI cuts had already reduced the rate from 12% to 8% in two steps by April 2024; this proposal would halve the original rate.",
+        "evidence_id": "E1",
+        "quote": "following previous reductions from 12% to 10% in January 2024 and 10% to 8% in April 2024"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS estimates the further 2p cut (to 6%) is worth \u00a3450 per year to an employee on average earnings \u2014 considerably less than the \u00a31,350 headline figure, which appears to include prior cuts already delivered.",
+        "evidence_id": "E5",
+        "quote": "The Institute for Fiscal Studies (IFS) estimates that a further 2p cut (taking it to 6%) would be worth \u00a3450 per year to an employee on average earnings of \u00a335,000"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Resolution Foundation notes that employees would face their lowest effective personal tax rate since at least 1975 as a result of the cut.",
+        "evidence_id": "E3",
+        "quote": "employees face their lowest effective personal tax rate since at least 1975, according to the Resolution Foundation"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS finds that frozen income-tax and NI thresholds mean for every \u00a31 returned through NI cuts, \u00a31.30 was taken away by threshold changes between 2021 and 2024, projected to rise to \u00a31.90 by 2027.",
+        "evidence_id": "E9",
+        "quote": "for every \u00a31 given back to workers through NI cuts, \u00a31.30 was taken away by threshold changes between 2021 and 2024, projected to rise to \u00a31.90 by 2027"
+      },
+      {
+        "tier": "projected",
+        "claim": "A typical employee on \u00a330,000 would see their personal tax bill fall by only \u00a3170 a year by 2027-28, significantly less than the headline NI cut figure.",
+        "evidence_id": "E11",
+        "quote": "a typical employee on \u00a330,000 would see their personal tax bill fall by only \u00a3170 a year by 2027-28, significantly less than the headline NI cut"
+      },
+      {
+        "tier": "projected",
+        "claim": "OBR estimates show the threshold freeze raises \u00a342.7 billion by 2028-29 while successive NI cuts cost \u00a321.4 billion \u2014 a net tax increase across these measures.",
+        "evidence_id": "E12",
+        "quote": "the freeze in personal allowance and thresholds will raise \u00a342.7 billion by 2028/29, while successive NI cuts cost \u00a321.4 billion, indicating a net tax increase across these measures"
+      }
+    ],
+    "rationale": "Judging O11 requires asking: does this policy raise take-home pay? The answer is yes, in isolation \u2014 cutting the employee NI rate from 12% to 6% directly reduces the tax withheld on earnings between the primary threshold and the upper earnings limit. The IFS-grounded figure for the remaining cut (from the current 8% to 6%) is \u00a3450 per year at average earnings; the \u00a31,350 headline bundles in prior cuts already delivered.\n\nThe critical complication for O11 is that this policy does not operate in isolation from frozen thresholds. The IFS and House of Commons Library evidence consistently shows that the threshold freeze \u2014 a separate, concurrent policy \u2014 extracts more from workers than the NI cut returns. By 2027-28, IFS projects a net tax increase of \u00a3440 for the average earner despite all NI cuts. That said, O11 asks about the marginal effect of THIS policy, not the combined effect of all tax changes. The NI cut itself unambiguously reduces the rate applied to a given band of earnings; absent this cut, workers would be worse off than with it. The counterfactual is clear: without the NI cut, the fiscal-drag squeeze would be even larger.\n\nOn distribution, the gains are concentrated in the middle of the earnings distribution. Workers below the primary threshold gain nothing; the self-employed gain separately under a linked commitment. Higher earners gain more in cash terms. IPPR evidence (advocacy source, labelled) suggests 45p in every \u00a31 went to the richest quintile \u2014 but this is an advocacy source and cannot drive magnitude alone.\n\nThe net verdict is 'improves/moderate' on O11 specifically: the policy delivers a genuine, material increase in take-home pay for employed workers mid-distribution, albeit substantially offset in practice by threshold freezes that are a separate policy instrument. Confidence is moderate because the real-world net gain depends on the trajectory of thresholds the policy does not itself address.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+        "publisher": "castlepointconservatives.com",
+        "title": "castlepointconservatives.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10618/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.tax.org.uk/election-2024-conservatives-manifesto-tax",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/personal-taxes-are-rising-despite-nics-cut",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0013/2024-0013-National-Insurance-Contributions-Reduction-in-Rates-No.2-Bill-Large.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://hwfisher.co.uk/who-will-benefit-from-the-chancellors-ni-cuts/",
+        "publisher": "hwfisher.co.uk",
+        "title": "hwfisher.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9982/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/conservative-manifesto-initial-response",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/app/uploads/2024/06/Spotlight_Conservative-manifesto-response.pdf",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0779,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are appropriately tiered and the quoted evidence entails each claim as stated. The verdict correctly distinguishes the marginal effect of this policy (unambiguous take-home pay increase) from the net effect of all concurrent tax changes, which is the right framing for O11. The \u00a31,350 vs \u00a3450 discrepancy is properly explained. Fiscal-drag context is presented as projected, not measurable. The IPPR advocacy source is labelled and not used to drive magnitude. No party-blind issues detected; the rationale focuses on modelled effects. Distribution is addressed. The 'improves/moderate' direction is defensible: the policy in isolation does raise take-home pay for employed workers, and the verdict does not ignore the offsetting threshold freeze. No false balance issue \u2014 the verdict does not claim mixed/too-uncertain. Minor observation: E9's attribution to IFS is flagged in the evidence as from researchbriefings.files.parliament.uk, not directly ifs.org.uk, but the claim does not overstate it. Overall the verdict is sound for publication."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [
+        {
+          "claim": "For the average earner on \u00a335,000, IFS projects that by 2027-28 they will be paying about \u00a3440 a year more in direct tax overall as a result of all changes since 2021, despite the NI cuts.",
+          "evidence_id": "E10",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party commits to cutting the main rate of employee National Insurance from 12% to 6% by April 2027, representing a total tax cut of \u00a31,350 for the average worker on \u00a335,000.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy is presented as a total tax cut of \u00a31,350 for an average worker earning \u00a335,000, aiming to halve the \"double tax on work\" following previous reductions from 12% to 10% in January 2024 and 10% to 8% in April 2024",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10618/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tax.org.uk/election-2024-conservatives-manifesto-tax",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/personal-taxes-are-rising-despite-nics-cut",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0013/2024-0013-National-Insurance-Contributions-Reduction-in-Rates-No.2-Bill-Large.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hwfisher.co.uk/who-will-benefit-from-the-chancellors-ni-cuts/",
+            "publisher": "hwfisher.co.uk",
+            "title": "hwfisher.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9982/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The proposal also includes a longer-term ambition to abolish the main rate of National Insurance for the self-employed by April 2029",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/election-2024-conservatives-manifesto-tax",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "**Direct Financial Impact on Workers:**\n    *   **Savings:** The proposed cut to 6% would mean employees face their lowest effective personal tax rate since at least 1975, according to the Resolution Foundation",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/06/Spotlight_Conservative-manifesto-response.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Conservative Party estimates a \u00a31,350 annual saving for an average worker on \u00a335,000",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/election-2024-conservatives-manifesto-tax",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Institute for Fiscal Studies (IFS) estimates that a further 2p cut (taking it to 6%) would be worth \u00a3450 per year to an employee on average earnings of \u00a335,000",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservative-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Context of Average Earnings:** For reference, the Office for National Statistics (ONS) reported that the mean average UK weekly wage (including bonuses) in December 2024 was \u00a3707 gross, equivalent to an annual pre-tax salary of approximately \u00a336,712",
+        "sources": [
+          {
+            "url": "https://uk.indeed.com/career-advice/pay-salary/average-uk-salary",
+            "publisher": "uk.indeed.com",
+            "title": "indeed.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Median gross annual earnings for full-time employees were \u00a339,039 in April 2025",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   The IFS consistently highlights that despite NI cuts, the overall personal tax burden is rising for many due to \"fiscal drag\" \u2013 where frozen income tax and NI thresholds mean more people are pulled into higher tax bands or pay a larger proportion of their income in tax as wages rise with inflation",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/personal-taxes-are-rising-despite-nics-cut",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0013/2024-0013-National-Insurance-Contributions-Reduction-in-Rates-No.2-Bill-Large.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hwfisher.co.uk/who-will-benefit-from-the-chancellors-ni-cuts/",
+            "publisher": "hwfisher.co.uk",
+            "title": "hwfisher.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   The IFS calculates that for every \u00a31 given back to workers through NI cuts, \u00a31.30 was taken away by threshold changes between 2021 and 2024, projected to rise to \u00a31.90 by 2027",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0013/2024-0013-National-Insurance-Contributions-Reduction-in-Rates-No.2-Bill-Large.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   For an average earner on \u00a335,000, the IFS states that while the *net effect* of all income tax and NI changes since 2021 up to 2024/25 was a tax cut of about \u00a3340, by 2027-28, they will be paying about \u00a3440 a year *more* in direct tax overall as a result of all changes since 2021",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/personal-taxes-are-rising-despite-nics-cut",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0013/2024-0013-National-Insurance-Contributions-Reduction-in-Rates-No.2-Bill-Large.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   The Resolution Foundation similarly notes that, alongside frozen tax thresholds, a typical employee on \u00a330,000 would see their personal tax bill fall by only \u00a3170 a year by 2027-28, significantly less than the headline NI cut",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   The House of Commons Library cites OBR estimates that the freeze in personal allowance and thresholds will raise \u00a342.7 billion by 2028/29, while successive NI cuts cost \u00a321.4 billion, indicating a net tax increase across these measures",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9982/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Specifically, 45p of every \u00a31 spent on cutting National Insurance went to the richest 20% of households, while only 3p went to the poorest 20%",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/revealed-national-insurance-cut-predominantly-benefits-the-richest",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   The IFS also indicates that while around half of employees (those earning between approximately \u00a326,000 and \u00a360,000 per year) might be better off from NI changes, those earning less or significantly more could be worse off once other tax changes, like threshold freezes, are factored in",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0013/2024-0013-National-Insurance-Contributions-Reduction-in-Rates-No.2-Bill-Large.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "This includes over 30,000 people moving into work and others increasing their hours",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/spring-budget-2024-personal-tax-factsheet/spring-budget-2024-personal-tax-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "They also projected these cuts would boost real household incomes by around 0.5% and increase potential output by almost 0.2% from 2024 to 2025",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/changes-to-national-insurance-contributions-from-6-january-2024/a-reduction-in-the-main-rates-of-primary-class-1-and-class-4-national-insurance-contributions-and-the-removal-of-the-requirement-to-pay-class-2-nation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The Conservative Party states that the tax cuts, including the NI reduction, would be funded by welfare reforms and a crackdown on tax avoidance and evasion",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/election-2024-conservatives-manifesto-tax",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/conservative-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Resolution Foundation states that the proposed \u00a317 billion in tax cuts (which includes the NI reduction costing \u00a310.3 billion per year by the end of the next parliament",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/06/Spotlight_Conservative-manifesto-response.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": ") relies on \"heroic efforts\" to reduce tax avoidance and \u00a333 billion of combined cuts to disability benefits and public services, which they believe will be \"extremely challenging to deliver\"",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/06/Spotlight_Conservative-manifesto-response.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   The IFS highlights that these are \"uncertain, unspecific and apparently victimless savings\" and raises concerns that such plans might not pass the \"plausibility test\" or meet fiscal rules, potentially leading to a future government facing difficult choices of further spending cuts or additional tax rises",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/conservative-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   The Trades Union Congress (TUC) also stated, regarding earlier NI cuts, that \u00a320 billion was taken from public services to fund the tax cuts and that public services were on the brink",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/blogs/obrs-evidence-clear-autumn-statement-has-done-nothing-end-living-standards-and-growth-crises",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "**Self-Employed National Insurance:**\n    *   The policy also commits to abolishing the main rate of National Insurance for the self-employed by April 2029, with a phased reduction beforehand",
+        "sources": [
+          {
+            "url": "https://www.castlepointconservatives.com/national-insurance-tax-cut",
+            "publisher": "castlepointconservatives.com",
+            "title": "castlepointconservatives.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/election-2024-conservatives-manifesto-tax",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   The IFS notes that this would further entrench the tax advantages of self-employment over employment, potentially distorting labour market decisions",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-narrow-path-to-nics-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/conservative-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens membership — a policy's authoritative bearing-set across the fundamentals",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["bearing_set", "note"],
+  "properties": {
+    "bearing_set": {
+      "type": "array",
+      "description": "the fundamentals this policy genuinely bears on (would earn a real, non-negligible verdict); empty if none",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["outcome", "reason"],
+        "properties": {
+          "outcome": { "type": "string", "enum": ["O1", "O2", "O3", "O4", "O5", "O6", "O7", "O8", "O9", "O10", "O11", "O12", "O13", "O14", "O15"] },
+          "reason": { "type": "string", "description": "one line: why it earns a real verdict on this fundamental" }
+        }
+      }
+    },
+    "note": { "type": "string", "description": "brief; if bearing_set is empty, why the policy bears on nothing material" }
+  }
+}

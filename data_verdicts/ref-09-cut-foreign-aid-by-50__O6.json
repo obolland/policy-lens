@@ -1,0 +1,711 @@
+{
+  "policy_id": "ref-09-cut-foreign-aid-by-50",
+  "party": "Reform UK",
+  "policy_title": "Cut foreign aid by 50%",
+  "outcome": "O6",
+  "verdict": {
+    "outcome": "O6",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "Cutting foreign aid by half would reduce UK funding for international climate and environment programmes, potentially weakening global climate efforts. The evidence on the specifically environmental portion of the cut is sparse, so the magnitude is uncertain.",
+    "biggest_unknown": "What share of the \u00a36 billion cut would fall on climate and environment programmes versus health, education, or humanitarian aid \u2014 and whether other donors would fill the gap.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy cuts the foreign aid budget by 50%, saving \u00a36 billion, and includes a review of effectiveness including payments to global quangos.",
+        "evidence_id": "M",
+        "quote": "Reform UK will cut the foreign aid budget by 50%, saving \u00a36 billion, and undertake a major review of its effectiveness, including payments to global quangos."
+      },
+      {
+        "tier": "projected",
+        "claim": "Analysts say the cuts signal a withdrawal from UK efforts to tackle climate change.",
+        "evidence_id": "E21",
+        "quote": "This \"signals a withdrawal from efforts to tackle climate change, global poverty and inequality, and conflict and humanitarian needs\""
+      },
+      {
+        "tier": "projected",
+        "claim": "There are questions about whether specific pledges to maintain climate commitments can survive cuts of this scale.",
+        "evidence_id": "E30",
+        "quote": "former International Development Minister Anneliese Dodds resigned, stating it would be \"impossible to maintain these priorities\" given the scale of the cuts"
+      }
+    ],
+    "rationale": "UK foreign aid funds international climate initiatives and environmental programmes in developing nations. A 50% cut would almost certainly reduce climate-related aid flows, weakening the UK's contribution to global emissions reduction, clean energy transitions in lower-income countries, and biodiversity programmes. The evidence signals that climate commitments are among those threatened (E21, E30), but provides no breakdown of how much of the cut falls specifically on climate and environment versus health, education, or humanitarian spending. The O6 harm is therefore real in direction \u2014 less UK climate finance abroad, weaker influence on global emissions trajectories \u2014 but hard to quantify from the evidence provided. The effect is long-term because climate and biodiversity impacts accumulate over decades. Magnitude is assessed as minor given that UK aid is a small share of global climate finance and the evidence does not demonstrate a measurable shift in global emissions or biodiversity outcomes attributable to UK aid at this scale. The confidence is low because the evidence on O6-specific channels is sparse and mostly advocacy-sourced.",
+    "time_split": {
+      "near_direction": "negligible",
+      "long_direction": "worsens",
+      "note": "Immediate budget cut has negligible near-term environmental effect; long-term climate finance shortfalls and reduced UK influence on global emissions trajectory accumulate over decades."
+    },
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.bmj.com/content/388/bmj.r410",
+        "publisher": "bmj.com",
+        "title": "bmj.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10243/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.globalcitizen.org/en/content/the-uk-is-the-latest-country-to-slash-its-foreign/",
+        "publisher": "globalcitizen.org",
+        "title": "globalcitizen.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0368,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E21 quote is from BMJ and appears to be characterising a signal/opinion rather than a measured outcome \u2014 the claim accurately says 'analysts say' so tier is correct, but the BMJ piece is media/commentary, not a primary analytical body. Not blocking but worth noting."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E30 quote (Anneliese Dodds resignation statement) is used to support uncertainty about climate commitments specifically, but her statement referenced maintaining all priorities generally, not climate specifically. Slight overreach in specificity, but the claim is hedged ('questions about whether') so borderline acceptable."
+        }
+      ],
+      "notes": "Verdict is well-structured and appropriately cautious. Direction 'worsens' is supported by the available evidence. Magnitude 'minor' and confidence 'low' are honest given the sparse O6-specific evidence. The time_split is coherent. No lever leakage, no party identity smuggling, no false balance issues \u2014 the verdict correctly acknowledges uncertainty without manufacturing a counter-claim. The biggest_unknown is genuine and clearly stated. Passes publication."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will cut the foreign aid budget by 50%, saving \u00a36 billion, and undertake a major review of its effectiveness, including payments to global quangos.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "As of 2025, the UK's Official Development Assistance (ODA) spending was provisionally estimated at 0.43% of Gross National Income (GNI), down from 0.5% in 2024",
+        "sources": [
+          {
+            "url": "https://www.context.news/socioeconomic-inclusion/britains-foreign-aid-where-does-the-money-go",
+            "publisher": "context.news",
+            "title": "context.news",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/09/uk-foreign-aid-spending-lowest-since-2008",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hannahritchie.substack.com/p/uk-aid-budget-cuts",
+            "publisher": "hannahritchie.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The current government has already committed to gradually reducing aid spending to 0.3% of GNI by 2027, a level that would be the lowest since 1999",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10243/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/uk-to-reduce-aid-to-0-3-of-gross-national-income-from-2027/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This reduction is projected to result in an aid budget of around \u00a39.2 billion by 2027",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10243/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/uk-to-reduce-aid-to-0-3-of-gross-national-income-from-2027/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://healthpolicy-watch.news/uk-aid-cuts-hit-african-health/",
+            "publisher": "healthpolicy-watch.news",
+            "title": "healthpolicy-watch.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "For instance, the UK aid budget stood at \u00a315.3 billion in 2023",
+        "sources": [
+          {
+            "url": "https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/",
+            "publisher": "icai.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/uk-to-reduce-aid-to-0-3-of-gross-national-income-from-2027/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9224/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "A cut to approximately \u00a39.2 billion by 2027 represents a reduction of about \u00a36.1 billion, or around 40%",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-slashes-foreign-aid-smart-economics-or-costly-mistake",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipned.org/news-and-views/mps-call-for-reversal-of-uk-aid-cuts",
+            "publisher": "ipned.org",
+            "title": "ipned.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "In 2023, 28% (\u00a34.3 billion) of the UK aid budget was allocated to in-donor refugee costs",
+        "sources": [
+          {
+            "url": "https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/",
+            "publisher": "icai.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/three-ways-improve-design-uks-overseas-aid-spending-target",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9224/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "In 2025, this figure was \u00a32.4 billion, representing 18% of the total aid budget",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/09/uk-foreign-aid-spending-lowest-since-2008",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This domestic spending reduces the amount of aid reaching developing countries and international assistance efforts",
+        "sources": [
+          {
+            "url": "https://www.google.com/search?q=time+in+United+Kingdom&ucbcb=1",
+            "publisher": "google.com",
+            "title": "Current time information in United Kingdom.",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hannahritchie.substack.com/p/uk-aid-budget-cuts",
+            "publisher": "hannahritchie.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/",
+            "publisher": "icai.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.globalcitizen.org/en/content/the-uk-is-the-latest-country-to-slash-its-foreign/",
+            "publisher": "globalcitizen.org",
+            "title": "globalcitizen.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Centre for Global Development estimates that international assistance could fall to as low as 0.208% of GNI by 2027-28 if domestic refugee costs persist",
+        "sources": [
+          {
+            "url": "https://www.google.com/search?q=time+in+United+Kingdom&ucbcb=1",
+            "publisher": "google.com",
+            "title": "Current time information in United Kingdom.",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Devastating Impact on Developing Countries:** Aid agencies and humanitarian experts consistently warn that cuts of this magnitude would cause \"severe damage,\" \"devastating impact,\" and are \"costing lives\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/09/uk-foreign-aid-spending-lowest-since-2008",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/global-development/2026/mar/19/poorest-countries-lose-uk-aid-56-per-cent-budget-cut",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-slashes-foreign-aid-smart-economics-or-costly-mistake",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipned.org/news-and-views/mps-call-for-reversal-of-uk-aid-cuts",
+            "publisher": "ipned.org",
+            "title": "ipned.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.globalcitizen.org/en/content/the-uk-is-the-latest-country-to-slash-its-foreign/",
+            "publisher": "globalcitizen.org",
+            "title": "globalcitizen.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthpolicy-watch.news/uk-aid-cuts-hit-african-health/",
+            "publisher": "healthpolicy-watch.news",
+            "title": "healthpolicy-watch.news",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r410",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Health:** Cuts to UK support for initiatives like Gavi, the Vaccine Alliance, could lead to millions fewer vaccinations (e.g., 37.9 million fewer) and an estimated 600,000 preventable child deaths over five years from diseases such as polio and measles",
+        "sources": [
+          {
+            "url": "https://www.globalcitizen.org/en/content/the-uk-is-the-latest-country-to-slash-its-foreign/",
+            "publisher": "globalcitizen.org",
+            "title": "globalcitizen.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Global health training programs have already seen cuts, such as a \u00a348 million reduction to the UK Partnerships for Health Systems (UKPHS) program",
+        "sources": [
+          {
+            "url": "https://www.globalhealthpartnerships.org/wp-content/uploads/2021/05/Government-cuts-%C2%A348m-for-Health-Worker-training-UK-Aid-cuts-May-2021.pdf",
+            "publisher": "globalhealthpartnerships.org",
+            "title": "globalhealthpartnerships.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Education:** UK bilateral support for education could be almost entirely lost, equating to up to \u00a3300 million per year, ending critical support in some of the world's poorest countries",
+        "sources": [
+          {
+            "url": "https://www.ipned.org/news-and-views/mps-call-for-reversal-of-uk-aid-cuts",
+            "publisher": "ipned.org",
+            "title": "ipned.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Humanitarian Aid:** Life-saving humanitarian programs, including education in Syria and healthcare across Africa, have already been forced to close",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/09/uk-foreign-aid-spending-lowest-since-2008",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/global-development/2026/mar/19/poorest-countries-lose-uk-aid-56-per-cent-budget-cut",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-slashes-foreign-aid-smart-economics-or-costly-mistake",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Reports indicate reduced food assistance and halved monthly rations for those facing emergency-level hunger, as seen in the Democratic Republic of Congo and Malawi",
+        "sources": [
+          {
+            "url": "https://betterworldcampaign.org/impact-of-foreign-assistance-cuts",
+            "publisher": "betterworldcampaign.org",
+            "title": "betterworldcampaign.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The UN estimates that the number of people requiring humanitarian assistance increased to 239 million by the end of 2025, while global funding has decreased",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/fcdo-responds-strongly-to-sudden-onset-humanitarian-crises-despite-a-challenging-global-picture/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Poverty and Instability:** Reduced aid contributes to increased economic instability and poverty in recipient nations",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-slashes-foreign-aid-smart-economics-or-costly-mistake",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The impact is \"expected to be severe\" for women and girls, and those with disabilities",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9224/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Geographical Impact:** African countries are particularly vulnerable, with bilateral aid projected to be reduced by almost \u00a3900 million by 2028-29, representing a 56% cut",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/global-development/2026/mar/19/poorest-countries-lose-uk-aid-56-per-cent-budget-cut",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipned.org/news-and-views/mps-call-for-reversal-of-uk-aid-cuts",
+            "publisher": "ipned.org",
+            "title": "ipned.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthpolicy-watch.news/uk-aid-cuts-hit-african-health/",
+            "publisher": "healthpolicy-watch.news",
+            "title": "healthpolicy-watch.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Diminished UK Soft Power and International Influence:** Analysts argue that such significant cuts will reduce the UK's influence overseas and diminish its role as a global leader",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/09/uk-foreign-aid-spending-lowest-since-2008",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-slashes-foreign-aid-smart-economics-or-costly-mistake",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.globalcitizen.org/en/content/the-uk-is-the-latest-country-to-slash-its-foreign/",
+            "publisher": "globalcitizen.org",
+            "title": "globalcitizen.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r410",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This \"signals a withdrawal from efforts to tackle climate change, global poverty and inequality, and conflict and humanitarian needs\"",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r410",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Chatham House warns that reductions in aid to fragile and conflict-affected states risk entrenching instability and generating wider spillover effects, potentially undermining both global and UK security",
+        "sources": [
+          {
+            "url": "https://www.chathamhouse.org/2025/11/rethinking-uk-aid-policy-era-global-funding-cuts/03-security-consequences-oda-cuts",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "**Efficiency Concerns and Strategic Shift:** The IFS has previously warned that abrupt cuts increase the risk of poor value for money",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/three-ways-improve-design-uks-overseas-aid-spending-target",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The Independent Commission for Aid Impact (ICAI) noted that rising domestic spending on refugees has displaced other development expenditure",
+        "sources": [
+          {
+            "url": "https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/",
+            "publisher": "icai.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The government's stated shift to being an \"investor\" rather than a \"donor,\" focusing on partnerships and sharing expertise",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10243/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/09/uk-foreign-aid-spending-lowest-since-2008",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthpolicy-watch.news/uk-aid-cuts-hit-african-health/",
+            "publisher": "healthpolicy-watch.news",
+            "title": "healthpolicy-watch.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": ", is viewed by some as potentially weakening fragile systems if direct service delivery is reduced",
+        "sources": [
+          {
+            "url": "https://healthpolicy-watch.news/uk-aid-cuts-hit-african-health/",
+            "publisher": "healthpolicy-watch.news",
+            "title": "healthpolicy-watch.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Poverty Alleviation:** The government justifies its cuts by prioritizing national security and defence spending",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10243/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/09/uk-foreign-aid-spending-lowest-since-2008",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/uk-to-reduce-aid-to-0-3-of-gross-national-income-from-2027/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10510/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-slashes-foreign-aid-smart-economics-or-costly-mistake",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipned.org/news-and-views/mps-call-for-reversal-of-uk-aid-cuts",
+            "publisher": "ipned.org",
+            "title": "ipned.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthpolicy-watch.news/uk-aid-cuts-hit-african-health/",
+            "publisher": "healthpolicy-watch.news",
+            "title": "healthpolicy-watch.news",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r410",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The IFS has previously criticized the increasing tendency to devote aid to pursuing national interest rather than poverty reduction",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2017/may/08/foreign-aid-national-interest-ifs-oda-spending",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/BN204.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Feasibility of Maintaining Priorities:** While the government pledges to maintain support for specific regions like Ukraine, Sudan, and Gaza, and for tackling climate change and global health",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/388/bmj.r410",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": ", former International Development Minister Anneliese Dodds resigned, stating it would be \"impossible to maintain these priorities\" given the scale of the cuts, leading to a reduced UK role in numerous African, Caribbean, and Western Balkan nations",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10243/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.globalcitizen.org/en/content/the-uk-is-the-latest-country-to-slash-its-foreign/",
+            "publisher": "globalcitizen.org",
+            "title": "globalcitizen.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Aid groups echo this skepticism",
+        "sources": [
+          {
+            "url": "https://www.globalcitizen.org/en/content/the-uk-is-the-latest-country-to-slash-its-foreign/",
+            "publisher": "globalcitizen.org",
+            "title": "globalcitizen.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "This suggests that the aid cut primarily facilitates smaller cuts to other unprotected departments rather than directly funding defence increases in the same spending category",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/cut-aid-and-benefits-boost-defence-sums-dont-quite-add",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

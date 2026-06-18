@@ -1,0 +1,377 @@
+{
+  "policy_id": "con-05-reform-child-benefit-household-income-threshold",
+  "party": "Conservative",
+  "policy_title": "Reform Child Benefit Household Income Threshold",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This reform increases Child Benefit for households earning up to \u00a3160,000, a group the Guardian identifies as sitting in the top 20% \u2014 or even top 2% \u2014 of earners. While it fixes a genuine horizontal unfairness between single- and dual-earner couples, the gains flow almost entirely to higher-income families, widening the gap between the richest and the rest.",
+    "biggest_unknown": "Whether the funding mechanism \u2014 a \u00a36 billion clampdown on tax avoidance \u2014 would itself have redistributive effects that offset the regressive benefit distribution.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy raises the household income threshold at which Child Benefit starts being withdrawn to \u00a3120,000, benefiting over 700,000 households.",
+        "evidence_id": "M",
+        "quote": "families don't start losing Child Benefit until their combined income reaches \u00a3120,000, benefitting over 700,000 households"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The full benefit is retained up to \u00a3120,000 and some benefit is kept up to \u00a3160,000 combined household income.",
+        "evidence_id": "E1",
+        "quote": "increase the threshold at which families start losing Child Benefit to a *combined household income* of \u00a3120,000, with some benefit retained up to \u00a3160,000"
+      },
+      {
+        "tier": "projected",
+        "claim": "The average annual saving per beneficiary household is estimated at \u00a31,500.",
+        "evidence_id": "E2",
+        "quote": "an average annual saving of \u00a31,500 per family"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Guardian noted that the doubling of the threshold directs the benefit to people in the top 20% of UK earners, with the new ceiling representing the top 2% of households.",
+        "evidence_id": "E3",
+        "quote": "the doubling of the threshold would provide a benefit to people in the top 20% of UK earners, with the new ceiling representing the top 2% of households"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The current system is acknowledged as producing a horizontal unfairness: a single-earner household on \u00a380,000 loses all Child Benefit while a dual-earner couple on up to \u00a3118,000 combined retains it.",
+        "evidence_id": "E4",
+        "quote": "a single-earner household on \u00a380,000 loses all Child Benefit, while a dual-earner household with a combined income of up to \u00a3118,000 (e.g., two parents earning \u00a359,000 each) retains the full benefit"
+      },
+      {
+        "tier": "stated",
+        "claim": "The net cost to the Exchequer is estimated at \u00a31.3 billion a year by 2029-30.",
+        "evidence_id": "E6",
+        "quote": "The Conservatives estimate the net cost of these changes to be \u00a31.3 billion a year by 2029-30"
+      }
+    ],
+    "rationale": "O14 asks whether the gap between the richest and the rest narrows or widens. The distribution of gains is the decisive question. By definition, Child Benefit withdrawal only affects households earning above \u00a360,000 today; the proposed reform extends or restores benefit to households with combined incomes up to \u00a3160,000. The evidence (E3) places beneficiary households squarely in the top quintile of UK earners, with the upper taper representing the top 2% of households. The \u00a31,500 average annual gain (E2) accrues to this group. This is a transfer of public money to already high-income families, which mechanically widens the gap between the richest and the rest, regardless of intent. The horizontal-fairness argument (E4, E5) is genuine: the current system does treat a single earner on \u00a380k worse than a dual-earner couple on \u00a3118k, and the IFS called it 'indefensible'. But fixing horizontal equity within the top quintile does not narrow the vertical gap \u2014 it redistributes within the top of the distribution, not toward lower earners. The \u00a31.3bn annual cost (E6) funded by claimed anti-avoidance (E7) adds some uncertainty: if avoidance clampdowns fall disproportionately on very high earners, the net distributional effect could be less worsening. But no cited evidence quantifies that offset, so it cannot moderate the verdict. The magnitude is minor rather than moderate: the policy is not a large-scale regressive tax cut; it is a benefit extension affecting 700,000 households with a capped individual gain. The direction is nonetheless clearly away from equality on O14.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://moneyweek.com/personal-finance/tax/conservatives-child-benefit-thresholds-pledge",
+        "publisher": "moneyweek.com",
+        "title": "moneyweek.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.sor.org/news/government-nhs/conservative-pledge-to-double-child-benefit-thresh",
+        "publisher": "sor.org",
+        "title": "sor.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.ajbell.co.uk/group/news/conservatives-unveil-new-childcare-package-high-earning-families",
+        "publisher": "ajbell.co.uk",
+        "title": "ajbell.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0377,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. The E3 claim is labelled 'measurable' but is technically a reported observation from the Guardian (a media source) rather than an official statistical baseline \u2014 a minor concern but not blocking given it is clearly attributed. The tier integrity of E6 (cost estimate from Conservative Party, cited as 'stated' which is appropriate) is fine. The 'worsens' direction is well-supported: gains flow to top-quintile households, no countervailing evidence shows lower-income households benefit. The horizontal-fairness point is acknowledged but correctly assessed as not altering the vertical distribution verdict. No party-blind issues: rationale is grounded in distributional mechanics, not motive attribution. No false-balance issue: the verdict does not reach mixed/uncertain despite the funding-mechanism caveat, which is appropriately flagged as an unknown rather than a claim. Magnitude 'minor' is reasonable given the limited scale. Overall verdict passes all checks."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will end the unfairness in Child Benefit by moving to a household system, so families don't start losing Child Benefit until their combined income reaches \u00a3120,000, benefitting over 700,000 households.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The proposed change would increase the threshold at which families start losing Child Benefit to a *combined household income* of \u00a3120,000, with some benefit retained up to \u00a3160,000.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://moneyweek.com/personal-finance/tax/conservatives-child-benefit-thresholds-pledge",
+            "publisher": "moneyweek.com",
+            "title": "moneyweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Beneficiaries and Financial Impact on Families:**\n    *   The Conservative Party estimates that this reform would benefit over 700,000 households, with an average annual saving of \u00a31,500 per family.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sor.org/news/government-nhs/conservative-pledge-to-double-child-benefit-thresh",
+            "publisher": "sor.org",
+            "title": "sor.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://moneyweek.com/personal-finance/tax/conservatives-child-benefit-thresholds-pledge",
+            "publisher": "moneyweek.com",
+            "title": "moneyweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Guardian noted that the doubling of the threshold would provide a benefit to people in the top 20% of UK earners, with the new ceiling representing the top 2% of households.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   The reform directly addresses the \"unfairness\" of the current system, where a single-earner household on \u00a380,000 loses all Child Benefit, while a dual-earner household with a combined income of up to \u00a3118,000 (e.g., two parents earning \u00a359,000 each) retains the full benefit.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sor.org/news/government-nhs/conservative-pledge-to-double-child-benefit-thresh",
+            "publisher": "sor.org",
+            "title": "sor.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://moneyweek.com/personal-finance/tax/conservatives-child-benefit-thresholds-pledge",
+            "publisher": "moneyweek.com",
+            "title": "moneyweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ajbell.co.uk/group/news/conservatives-unveil-new-childcare-package-high-earning-families",
+            "publisher": "ajbell.co.uk",
+            "title": "ajbell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Institute for Fiscal Studies (IFS) described the current system as \"indefensible\" in this regard",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "**Cost to the Exchequer:**\n    *   The Conservatives estimate the net cost of these changes to be \u00a31.3 billion a year by 2029-30.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ajbell.co.uk/group/news/conservatives-unveil-new-childcare-package-high-earning-families",
+            "publisher": "ajbell.co.uk",
+            "title": "ajbell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   The party states this cost would be paid for by raising \u00a36 billion a year through a \"clampdown on tax avoidance and evasion.\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ajbell.co.uk/group/news/conservatives-unveil-new-childcare-package-high-earning-families",
+            "publisher": "ajbell.co.uk",
+            "title": "ajbell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "**Administrative Challenges:**\n    *   The IFS highlights that the administrative practicalities of moving to a household-based assessment will be \"challenging\" because the UK's tax system, which administers Child Benefit withdrawal, is based on individual income.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   Danni Hewson, Head of Financial Analysis at AJ Bell, echoed this, stating that \"testing this cap against households rather than individuals is likely to prove a massive headache for HMRC and raises the question about how long it would take to implement such a change.\"",
+        "sources": [
+          {
+            "url": "https://www.ajbell.co.uk/group/news/conservatives-unveil-new-childcare-package-high-earning-families",
+            "publisher": "ajbell.co.uk",
+            "title": "ajbell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Effective Tax Rates:**\n    *   The Guardian noted that a taper starting at \u00a3120,000 could steepen the already very high effective tax rate of 60% for individuals whose income falls between \u00a3100,000 and \u00a3125,140, due to the tapering out of the personal allowance in that range.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Means-Testing:**\n    *   The IFS questioned whether, with the proposed changes reducing the number of families affected by the HICBC to 900,000 (12% of those with children), it is \"really worth having the additional administrative apparatus, rather than simply returning child benefit to being universal, as it always was before 2013.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "They estimate that making Child Benefit universal again would cost approximately an additional \u00a31.5 billion per year on top of the Conservatives' plan.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "While there is general agreement among analysts like the IFS that moving to a household-based assessment for Child Benefit withdrawal addresses an \"indefensible\" flaw in the current system",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Implementation Difficulty:** The administrative complexities of shifting from an individual to a household income assessment for tax purposes are a noted challenge.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.ajbell.co.uk/group/news/conservatives-unveil-new-childcare-package-high-earning-families",
+            "publisher": "ajbell.co.uk",
+            "title": "ajbell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Universalism:** The IFS raises the question of whether, given the reduced number of affected families under the new proposal, the continued existence of the HICBC (even in a reformed state) is justified, or if a return to universal Child Benefit would be simpler and more equitable, despite the higher cost.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/conservatives-plan-child-benefit-withdrawal-goes-some-way-fixing-bizarre-system-misses",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The Office for Budget Responsibility (OBR) provided estimates for the previous HICBC threshold increase to \u00a360,000 but specific figures for the \u00a3120,000 household threshold proposal were cited as coming from the Conservative Party itself.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/tories-pledge-to-raise-pay-threshold-for-child-benefit-charge",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-high-income-child-benefit-charge-threshold/the-high-income-child-benefit-charge-threshold",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

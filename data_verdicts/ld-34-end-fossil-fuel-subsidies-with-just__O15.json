@@ -1,0 +1,664 @@
+{
+  "policy_id": "ld-34-end-fossil-fuel-subsidies-with-just",
+  "party": "Liberal Democrat",
+  "policy_title": "End Fossil Fuel Subsidies with Just Transition",
+  "outcome": "O15",
+  "verdict": {
+    "outcome": "O15",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy promises to end fossil fuel subsidies while protecting affected workers and communities, but its effect on community cohesion and belonging is highly uncertain \u2014 the outcome depends entirely on whether the 'just transition' commitments are delivered in practice, and evidence shows comprehensive transition plans are still lacking.",
+    "biggest_unknown": "Whether the just transition commitments translate into real support for affected communities \u2014 particularly in regions like Aberdeen and the North East of Scotland \u2014 or remain aspirational, which would determine whether community cohesion improves or worsens.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to a just transition that takes special care of regions and communities most affected by ending fossil fuel subsidies.",
+        "evidence_id": "M",
+        "quote": "takes special care of the regions and communities most affected"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Regions heavily reliant on oil and gas, such as Aberdeen and the North East of Scotland, have been identified as requiring urgent and ambitious action for a fair transition.",
+        "evidence_id": "E24",
+        "quote": "Regions heavily reliant on the oil and gas industry, such as Aberdeen and the North East of Scotland, require \"urgent and ambitious action\" for a fair transition."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The North Sea oil and gas industry has already seen around 227,000 job losses since 2013.",
+        "evidence_id": "E20",
+        "quote": "around 227,000 jobs lost since 2013, despite new drilling licenses"
+      },
+      {
+        "tier": "projected",
+        "claim": "A comprehensive transition plan for oil and gas workers is still lacking, raising concerns about fairness and effectiveness for affected communities.",
+        "evidence_id": "E35",
+        "quote": "a comprehensive transition plan for oil and gas workers is still lacking, leading to concerns about the fairness and effectiveness of the transition for affected communities"
+      },
+      {
+        "tier": "projected",
+        "claim": "There is a recognised need for clear transition pathways including retraining and diverse routes to new roles.",
+        "evidence_id": "E25",
+        "quote": "There is a recognized need for a clear transition plan for oil and gas workers, including diverse pathways to new roles (renewables, decommissioning, building retrofit) and credible training offers"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether the just transition commitments are backed by funded, delivered mechanisms for affected communities, or remain soft aspirations",
+      "estimate_range": "If well-funded and delivered, community cohesion in affected regions could improve through economic security and new civic purpose; if under-delivered, concentrated job loss and regional decline would likely worsen social trust and belonging in those communities"
+    },
+    "rationale": "The policy's effect on community cohesion and belonging (O15) turns almost entirely on delivery of the 'just transition' element. The stated commitment to care for affected regions is clear, but the soft-verb rule applies: 'ensures', 'values', 'takes special care' are aspirational phrases with no committed instrument, budget, or statutory duty specified in the policy text. The evidence confirms that regions like Aberdeen face significant disruption, that job losses in oil and gas are already substantial (227,000 since 2013), and that there is a recognised need for concrete transition plans \u2014 but also that such a plan is currently lacking. Without delivered mechanisms, communities dependent on fossil fuel industries face concentrated economic disruption, which social-trust research broadly links to declining cohesion and belonging. The positive scenario \u2014 new jobs, retraining, civic investment \u2014 is plausible but unconfirmed at scale by the policy's own text. Both directions are genuinely supported by cited evidence, and the deciding parameter (whether the just transition is real or rhetorical) is unresolvable from the policy text alone. This is a genuine too-uncertain verdict, not a hedge.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.justtransition.scot/publication/a-just-transition-for-aberdeen-and-the-north-east/",
+        "publisher": "justtransition.scot",
+        "title": "justtransition.scot",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.greenpeace.org.uk/challenges/environmental-justice/just-transition/",
+        "publisher": "greenpeace.org.uk",
+        "title": "greenpeace.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://foe.scot/campaign/just-transition/",
+        "publisher": "foe.scot",
+        "title": "foe.scot",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0376,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-structured and defensible. The too-uncertain direction is genuinely supported: one set of claims points to real regional disruption and absent delivery mechanisms (E24, E20, E35), while the stated commitment (M) and recognised need for transition pathways (E25) represent the positive scenario. The crux_parameter is specific and the estimate_range covers both directions. All quotes entail their claims without overstatement \u2014 E20 (job losses) and E24 (urgent action needed) are sourced from advocacy/campaign publishers (Greenpeace, justtransition.scot) but are used as illustrative baselines rather than sole verdict drivers, which is acceptable given they are labelled. E35 (lacking transition plan) is from advocacy sources but corroborates the broader uncertainty rather than driving a directional verdict alone. No tier blurring, no motive attribution, no lever leakage. The rationale judges effect on O15 cohesion, not the fossil fuel policy itself. Minor note: E20 (Greenpeace) and E22 (FoE Scotland) are advocacy sources; if used in a directional verdict they would warrant flagging, but here they support an uncertainty framing appropriately."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Implement the UK\u2019s G7 pledge to end fossil fuel subsidies, while ensuring a just transition that values the skills and experience of people working in the oil and gas industry and provides good opportunities for them, and takes special care of the regions and communities most affected.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Under this narrow definition, the government claims it provides no subsidies to fossil fuels.",
+        "sources": [
+          {
+            "url": "https://esil-sedi.eu/esil-reflection-the-g7s-pledge-to-end-fossil-fuel-subsidies-by-2025-mere-rhetoric-or-a-sign-of-post-paris-momentum-2/",
+            "publisher": "esil-sedi.eu",
+            "title": "esil-sedi.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/explainer-the-challenge-of-defining-fossil-fuel-subsidies/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/oil-and-gas-industry-outside-interests/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Broader Definitions and Criticisms:** Other credible organizations, including the OECD, IMF, Global Justice Now, and the New Economics Foundation (NEF), use broader definitions that encompass various forms of government support to both producers and consumers, such as tax reliefs, direct payments, and implicit subsidies (like failing to account for environmental and health costs).",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://esil-sedi.eu/esil-reflection-the-g7s-pledge-to-end-fossil-fuel-subsidies-by-2025-mere-rhetoric-or-a-sign-of-post-paris-momentum-2/",
+            "publisher": "esil-sedi.eu",
+            "title": "esil-sedi.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/explainer-the-challenge-of-defining-fossil-fuel-subsidies/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/oil-and-gas-industry-outside-interests/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2021/oct/06/fossil-fuel-industry-subsidies-of-11m-dollars-a-minute-imf-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **OECD:** Found \u00a326.7 billion (US$34 billion) in UK fossil fuel subsidies and support in 2023, including \u00a314 billion for gas.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "They highlight that taxpayer-funded financial support for the fossil fuel industry reached its highest level since 2016 in 2023, at \u00a33.6 billion.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.globaljustice.org.uk/news/uk-government-subsidises-fossil-fuels-by-17-5-billion-every-year-new-research-reveals/",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This includes tax relief schemes worth close to \u00a37 billion in 2023, with \u00a35.5 billion subsidizing gas bills.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "They also point to corporate income tax relief for decommissioning oil and gas fields, estimated at \u00a3990 million in 2023.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **International Monetary Fund (IMF):** Globally, the IMF estimated that fossil fuels were subsidized by $5.9 trillion in 2020 when accounting for explicit subsidies (cutting fuel prices) and implicit subsidies (failing to make polluters pay for environmental and health costs).",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2021/oct/06/fossil-fuel-industry-subsidies-of-11m-dollars-a-minute-imf-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "They found that explicit subsidies accounted for 8% of the total and tax breaks another 6%.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2021/oct/06/fossil-fuel-industry-subsidies-of-11m-dollars-a-minute-imf-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **New Economics Foundation (NEF):** Identified that while overall domestic support for fossil fuels fell between 2015 and 2020, tax reliefs, a continuous feature of the tax system, only declined by 15% in real terms, from \u00a314.7 billion in 2015 to \u00a312.5 billion in 2019.",
+        "sources": [
+          {
+            "url": "https://neweconomics.org/2021/11/ffs",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Economic Impact:**\n*   **Government Revenue:** Ending tax reliefs for the fossil fuel industry, as called for by Global Justice Now, could significantly increase government revenue.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Public Finances and GDP:** The Office for Budget Responsibility (OBR) estimates that reaching net-zero will be much cheaper for the UK government than previously expected, with the net cost to the economy put at \u00a3116 billion over 25 years (around \u00a370 per person per year), significantly lower than earlier figures.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/obr-net-zero-is-much-cheaper-than-thought-for-uk-and-unchecked-global-warming-far-more-costly/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Unmitigated climate change, conversely, could lead to an 8% hit to the UK economy by the early 2070s if global warming reaches 3\u00b0C.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/obr-net-zero-is-much-cheaper-than-thought-for-uk-and-unchecked-global-warming-far-more-costly/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Energy Prices and Household Bills:**\n    *   The Resolution Foundation notes that government policies currently add around \u00a3250 per year to typical household electricity bills, effectively creating a \"hidden tax and benefit system.\"",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/splitting-the-bill/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/bringing-government-energy-policies-in-house-could-save-the-poorest-households-110-a-year/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Shifting these costs, such as the Warm Homes Discount and Energy Company Obligation, from electricity bills to general taxation could save the poorest fifth of households around \u00a3110 per year, with almost three-in-four households being better off overall.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/bringing-government-energy-policies-in-house-could-save-the-poorest-households-110-a-year/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   Phasing out consumer subsidies for gas needs careful planning to protect low-income households from increased costs.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://neweconomics.org/2021/11/ffs",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Investment and Innovation:** The UK government believes that inefficient fossil fuel subsidies impede investment in clean energy sources.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/uk-fossil-fuel-incentives-and-subsidies-inventory/uk-fossil-fuel-incentives-and-subsidies-inventory",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Ending them is expected to redirect funds towards renewable energy and associated infrastructure.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukhealthalliance.org/influencing-policy/a-just-energy-transition-for-the-good-of-health/end-uk-dependency-on-oil-and-gas/",
+            "publisher": "ukhealthalliance.org",
+            "title": "ukhealthalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Labour Party's commitment to \"Great British Energy,\" a publicly owned clean energy company with an initial \u00a38.3 billion over the current Parliament, aims to increase energy independence, reduce exposure to volatile fossil fuel markets, and attract private investment in the clean energy sector.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10088/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Social Impact and Just Transition:**\n*   **Employment:** The transition away from fossil fuels will have a significant impact on the UK workforce.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/government-climate-policy-economic-impact/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Job Losses:** The North Sea oil and gas industry has already seen job losses, with around 227,000 jobs lost since 2013, despite new drilling licenses.",
+        "sources": [
+          {
+            "url": "https://www.greenpeace.org.uk/challenges/environmental-justice/just-transition/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The Climate Change Committee (CCC) estimated that between 135,000 and 725,000 net new jobs could be created by 2030 in low-carbon sectors.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/government-climate-policy-economic-impact/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Friends of the Earth Scotland suggests that clean industries could create more than three jobs for every oil and gas job.",
+        "sources": [
+          {
+            "url": "https://foe.scot/campaign/just-transition/",
+            "publisher": "foe.scot",
+            "title": "foe.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Over a third of the UK's offshore wind engineers previously worked in oil and gas, demonstrating transferable skills.",
+        "sources": [
+          {
+            "url": "https://www.greenpeace.org.uk/challenges/environmental-justice/just-transition/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Regional Impact:** Regions heavily reliant on the oil and gas industry, such as Aberdeen and the North East of Scotland, require \"urgent and ambitious action\" for a fair transition.",
+        "sources": [
+          {
+            "url": "https://www.justtransition.scot/publication/a-just-transition-for-aberdeen-and-the-north-east/",
+            "publisher": "justtransition.scot",
+            "title": "justtransition.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Worker Support:** There is a recognized need for a clear transition plan for oil and gas workers, including diverse pathways to new roles (renewables, decommissioning, building retrofit) and credible training offers.",
+        "sources": [
+          {
+            "url": "https://www.justtransition.scot/publication/a-just-transition-for-aberdeen-and-the-north-east/",
+            "publisher": "justtransition.scot",
+            "title": "justtransition.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "A 2021 study found that a managed phase-out of North Sea production would require government-supported retraining and reemployment for 12,500-15,500 offshore workers and 10,000-16,000 onshore workers, costing an estimated \u00a3320 million to \u00a31.1 billion across the UK.",
+        "sources": [
+          {
+            "url": "https://www.common-wealth.org/publications/public-coordination-of-a-just-north-sea-transition",
+            "publisher": "common-wealth.org",
+            "title": "common-wealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Fuel Poverty:** Removing consumer subsidies must be carefully managed to protect low-income households.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://neweconomics.org/2021/11/ffs",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2021/oct/06/fossil-fuel-industry-subsidies-of-11m-dollars-a-minute-imf-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Resolution Foundation proposes that funding welfare policies like the Warm Homes Discount through general taxation rather than electricity bills would better support vulnerable households.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/10/Splitting-the-bill.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/bringing-government-energy-policies-in-house-could-save-the-poorest-households-110-a-year/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Health Benefits:** Redirecting funds from fossil fuels to renewable energy could alleviate energy poverty, reduce air pollution, and lessen pressure on the NHS.",
+        "sources": [
+          {
+            "url": "https://ukhealthalliance.org/influencing-policy/a-just-energy-transition-for-the-good-of-health/end-uk-dependency-on-oil-and-gas/",
+            "publisher": "ukhealthalliance.org",
+            "title": "ukhealthalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2021/oct/06/fossil-fuel-industry-subsidies-of-11m-dollars-a-minute-imf-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Environmental Impact:**\n*   Ending fossil fuel subsidies is seen as crucial for the UK to meet its climate change targets and accelerate the shift away from fossil fuels.",
+        "sources": [
+          {
+            "url": "https://foe.scot/campaign/just-transition/",
+            "publisher": "foe.scot",
+            "title": "foe.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/uk-fossil-fuel-incentives-and-subsidies-inventory/uk-fossil-fuel-incentives-and-subsidies-inventory",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   The IMF suggests that setting fossil fuel prices to reflect their true cost would cut global CO2 emissions by over a third.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2021/oct/06/fossil-fuel-industry-subsidies-of-11m-dollars-a-minute-imf-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "This fundamental difference leads to vastly different figures on the scale of subsidies.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://esil-sedi.eu/esil-reflection-the-g7s-pledge-to-end-fossil-fuel-subsidies-by-2025-mere-rhetoric-or-a-sign-of-post-paris-momentum-2/",
+            "publisher": "esil-sedi.eu",
+            "title": "esil-sedi.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/explainer-the-challenge-of-defining-fossil-fuel-subsidies/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/uk-fossil-fuel-incentives-and-subsidies-inventory/uk-fossil-fuel-incentives-and-subsidies-inventory",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/oil-and-gas-industry-outside-interests/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Some argue for an immediate end to all tax reliefs for the fossil fuel industry, while others emphasize careful planning to protect low-income households and ensure economic stability.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://neweconomics.org/2021/11/ffs",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/power-struggle/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Rhetoric:** Critics like Global Justice Now argue that despite pledges, the UK government has taken \"little concrete action to reduce subsidies so far,\" and current policies may even result in a net increase in fossil fuel subsidies over the current parliament.",
+        "sources": [
+          {
+            "url": "https://www.globaljustice.org.uk/wp-content/uploads/2025/05/FINAL-Who-Pays-Who-Profits-May.pdf",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.globaljustice.org.uk/news/uk-government-subsidises-fossil-fuels-by-17-5-billion-every-year-new-research-reveals/",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Effectiveness of \"Just Transition\" Plans:** Reports highlight that a comprehensive transition plan for oil and gas workers is still lacking, leading to concerns about the fairness and effectiveness of the transition for affected communities.",
+        "sources": [
+          {
+            "url": "https://www.justtransition.scot/publication/a-just-transition-for-aberdeen-and-the-north-east/",
+            "publisher": "justtransition.scot",
+            "title": "justtransition.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://foe.scot/campaign/just-transition/",
+            "publisher": "foe.scot",
+            "title": "foe.scot",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

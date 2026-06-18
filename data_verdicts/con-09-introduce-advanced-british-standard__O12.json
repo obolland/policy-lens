@@ -1,0 +1,562 @@
+{
+  "policy_id": "con-09-introduce-advanced-british-standard",
+  "party": "Conservative",
+  "policy_title": "Introduce Advanced British Standard",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "The Advanced British Standard was cancelled before implementation, so its real-world fiscal effect is nil. Had it proceeded, the policy carried significant unfunded costs with no full financial impact assessment ever published.",
+    "biggest_unknown": "The policy was cancelled in July 2024, meaning no fiscal effect ever materialised; any assessment of what it would have cost is necessarily speculative.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy proposed transforming 16-19 education by building on A Levels and T Levels with more classroom time and compulsory English and maths to 18.",
+        "evidence_id": "M",
+        "quote": "The Conservative Party will transform 16-19 education by introducing the Advanced British Standard, building on A Levels and T Levels to provide a broader education with more time in the classroom and requiring English and maths study up to 18."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The policy was cancelled by the incoming Labour government in July 2024, citing cost and deliverability concerns.",
+        "evidence_id": "E1",
+        "quote": "the policy was cancelled by the new Labour government on July 29, 2024, citing concerns over its cost and deliverability."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The government had not published a full financial impact assessment or estimates of future additional costs.",
+        "evidence_id": "E12",
+        "quote": "the government had not published a full financial impact assessment or estimates of future additional costs."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Initial funding announced was \u00a3600 million over two years for teacher recruitment and retention, plus \u00a3150 million annually for English and maths retakes.",
+        "evidence_id": "E11",
+        "quote": "the initial \u00a3600 million funding over two years for teacher recruitment and retention, and increased investment for English and maths retakes (\u00a3150 million annually)."
+      },
+      {
+        "tier": "projected",
+        "claim": "London Economics estimated an additional \u00a31,760 per student per year would be needed to fund the proposed extra teaching time.",
+        "evidence_id": "E16",
+        "quote": "London Economics estimated that an additional \u00a31,760 per student per year would be needed to provide the proposed extra teaching time."
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS raised significant concerns about funding and the feasibility of recruiting the necessary teachers.",
+        "evidence_id": "E6",
+        "quote": "The IFS acknowledged the ambitious nature of the ABS reform but raised significant concerns about its funding and the feasibility of recruiting the necessary teachers."
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS noted that frequent changes to the post-16 vocational system create significant transitional costs and uncertainty for providers.",
+        "evidence_id": "E21",
+        "quote": "The IFS noted that frequent changes to the post-16 vocational education system (including T-levels, BTEC changes, and then the ABS) create significant transitional costs and uncertainty for providers."
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether the policy would ever have been fully funded and implemented, and what its long-run fiscal cost would have been relative to any productivity/earnings gains",
+      "estimate_range": "Initial announced funding of \u00a3600m over 2 years vs London Economics estimate of ~\u00a31,760 per student per year ongoing; no full cost assessment was ever published"
+    },
+    "rationale": "The policy was cancelled before implementation, so its actual effect on public finances is zero. The only live fiscal question is what it would have cost had it proceeded. The evidence points to a significant unfunded gap: the government announced \u00a3600m over two years in seed funding but never published a full financial impact assessment. An independent estimate from London Economics put the ongoing cost at \u00a31,760 per student per year in additional teaching time alone, and the IFS raised broader concerns about funding feasibility. The teacher recruitment incentive proposed (a \u00a36,000 bonus) was judged by the IFS to affect only 1\u20132% of teachers \u2014 insufficient for the scale required, implying further uncosted spending would have been needed. On the investment-vs-consumption distinction relevant to O12, the spending was directed at education (a form of human capital investment), which could in principle raise long-run productivity and tax revenues. However, with no full costing, no confirmed funding mechanism beyond the initial tranche, and the policy now discontinued, no credible net fiscal trajectory can be modelled. The verdict is too-uncertain: the policy never landed, its costs were unquantified, and the counterfactual fiscal path is unresolvable from the evidence provided.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Advanced_British_Standard",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ocr.org.uk/about/policy-and-public-affairs/articles/advanced-british-standard-scrapped/",
+        "publisher": "ocr.org.uk",
+        "title": "ocr.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.thebritishacademy.ac.uk/documents/5254/British-Academy-response-Department-of-Education-consultation-Advanced-British_OpHpIWz.pdf",
+        "publisher": "thebritishacademy.ac.uk",
+        "title": "thebritishacademy.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTGTMt2cI29JvEjp69nXNhuLfLBqhkK2C3OYB6Z_B7lrz671RU6EQS7BAeYLroyTJmBDBrz_-hSepsyon7lpgfUvrLre-N79SSDnoyhLwgl68uG67a5zes-tVnA5RCeAytqhI5Y2ovpwvrWnNd64IPoEflI4Yst_9Rou96hW2JUtMpNw5w3ugl2coiKJVUbgEkOWhVr5qriLVgQMP8NGDkkXOljx7L",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "ifs.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/publications/funding-finance-and-reform-analysis-post-16-education-and-skills-white-paper",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0371,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are appropriate: cancellation and funding announcement are measurable facts; cost projections (London Economics, IFS concerns) are correctly labelled projected. The too-uncertain direction is genuinely justified \u2014 the policy was cancelled before implementation, no full cost assessment was published, and the counterfactual fiscal path cannot be modelled. Magnitude and time_horizon are correctly n/a. The crux_parameter and estimate_range are substantive, not lazy hedges. Rationale judges fiscal effect, not party identity or motive. No lever leakage \u2014 the verdict correctly focuses on public finance sustainability rather than education outcomes per se. No false balance issue: too-uncertain is warranted by the unique circumstance of cancellation rendering any net fiscal trajectory unresolvable, not by manufactured balance between opposing claims."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will transform 16-19 education by introducing the Advanced British Standard, building on A Levels and T Levels to provide a broader education with more time in the classroom and requiring English and maths study up to 18.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "However, the policy was cancelled by the new Labour government on July 29, 2024, citing concerns over its cost and deliverability.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Advanced_British_Standard",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ocr.org.uk/about/policy-and-public-affairs/articles/advanced-british-standard-scrapped/",
+            "publisher": "ocr.org.uk",
+            "title": "ocr.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Prior to its cancellation, the Advanced British Standard aimed to:\n*   **Broaden Education:** Require students to typically study a minimum of five subjects, compared to the current average of three A-levels, combining academic and technical options (referred to as \"majors\" and \"minors\").",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://educationhub.blog.gov.uk/2023/12/the-advanced-british-standard-everything-you-need-to-know/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/first-step-towards-introducing-the-advanced-british-standard",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.teacherstoyourhome.com/uk/blog/what-is-the-advanced-british-standard",
+            "publisher": "teacherstoyourhome.com",
+            "title": "teacherstoyourhome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Extend English and Maths Study:** Make English and maths compulsory subjects for all students up to the age of 18, ensuring a stronger foundation in these core skills.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://educationhub.blog.gov.uk/2023/12/the-advanced-british-standard-everything-you-need-to-know/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/first-step-towards-introducing-the-advanced-british-standard",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.teacherstoyourhome.com/uk/blog/what-is-the-advanced-british-standard",
+            "publisher": "teacherstoyourhome.com",
+            "title": "teacherstoyourhome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Increase Classroom Time:** Boost teaching hours by approximately 15%, equivalent to around 200 additional hours over two years, to align England more closely with international education systems.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://educationhub.blog.gov.uk/2023/12/the-advanced-british-standard-everything-you-need-to-know/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2023-10-16/debates/23101624000009/AdvancedBritishStandard",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/first-step-towards-introducing-the-advanced-british-standard",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.teacherstoyourhome.com/uk/blog/what-is-the-advanced-british-standard",
+            "publisher": "teacherstoyourhome.com",
+            "title": "teacherstoyourhome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Achieve Parity:** Elevate technical education to have equal status with academic qualifications.",
+        "sources": [
+          {
+            "url": "https://educationhub.blog.gov.uk/2023/12/the-advanced-british-standard-everything-you-need-to-know/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/651d36656a6955001278b293/A_world-class_education_system_-_The_Advanced_British_Standard__accessible_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2023-10-16/debates/23101624000009/AdvancedBritishStandard",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/first-step-towards-introducing-the-advanced-british-standard",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "**Institute for Fiscal Studies (IFS)**\nThe IFS acknowledged the ambitious nature of the ABS reform but raised significant concerns about its funding and the feasibility of recruiting the necessary teachers.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTGTMt2cI29JvEjp69nXNhuLfLBqhkK2C3OYB6Z_B7lrz671RU6EQS7BAeYLroyTJmBDBrz_-hSepsyon7lpgfUvrLre-N79SSDnoyhLwgl68uG67a5zes-tVnA5RCeAytqhI5Y2ovpwvrWnNd64IPoEflI4Yst_9Rou96hW2JUtMpNw5w3ugl2coiKJVUbgEkOWhVr5qriLVgQMP8NGDkkXOljx7L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Despite recent increases, spending per student aged 16-18 in colleges was projected to be 5% lower in real terms in 2024 than in 2010, and 22% lower for sixth forms.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTGTMt2cI29JvEjp69nXNhuLfLBqhkK2C3OYB6Z_B7lrz671RU6EQS7BAeYLroyTJmBDBrz_-hSepsyon7lpgfUvrLre-N79SSDnoyhLwgl68uG67a5zes-tVnA5RCeAytqhI5Y2ovpwvrWnNd64IPoEflI4Yst_9Rou96hW2JUtMpNw5w3ugl2coiKJVUbgEkOWhVr5qriLVgQMP8NGDkkXOljx7L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "While the government proposed a tax-free bonus of up to \u00a36,000 annually (or \u00a330,000 over five years) for new teachers in shortage subjects, the IFS suggested this would only affect a small proportion (1-2%) of teachers and would not be ambitious enough to recruit the large number of extra teachers required.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTGTMt2cI29JvEjp69nXNhuLfLBqhkK2C3OYB6Z_B7lrz671RU6EQS7BAeYLroyTJmBDBrz_-hSepsyon7lpgfUvrLre-N79SSDnoyhLwgl68uG67a5zes-tVnA5RCeAytqhI5Y2ovpwvrWnNd64IPoEflI4Yst_9Rou96hW2JUtMpNw5w3ugl2coiKJVUbgEkOWhVr5qriLVgQMP8NGDkkXOljx7L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The EPI noted that increased breadth of study is generally associated with better employment outcomes, and that England's 16-19 curriculum is among the narrowest globally.",
+        "sources": [
+          {
+            "url": "https://epi.org.uk/comments/epi-responds-to-the-scrapping-of-the-advanced-british-standard/",
+            "publisher": "epi.org.uk",
+            "title": "epi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The ABS's aim to narrow the disadvantage gap for 16-19 year olds was a stated goal.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9928/CBP-9928.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://consult.education.gov.uk/advanced-british-standards-directorate/the-advanced-british-standard/supporting_documents/A%20worldclass%20education%20system%20%20The%20Advanced%20British%20Standard%20consultation.pdf",
+            "publisher": "consult.education.gov.uk",
+            "title": "education.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**House of Commons Library**\nThe House of Commons Library provided a briefing confirming the ABS proposals and outlining the initial \u00a3600 million funding over two years for teacher recruitment and retention, and increased investment for English and maths retakes (\u00a3150 million annually).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Advanced_British_Standard",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "They noted the government had not published a full financial impact assessment or estimates of future additional costs.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "For example, a British Academy report on subject choice trends used ONS statistical data from the National Pupil Database and Individualised Learner Record.",
+        "sources": [
+          {
+            "url": "https://www.thebritishacademy.ac.uk/documents/5468/British-Academy-report-Subject-choice-trends-post-16-education-England.pdf",
+            "publisher": "thebritishacademy.ac.uk",
+            "title": "thebritishacademy.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Expert Disagreement and Challenges**\nSeveral organizations and analysts expressed broad support for the *principles* of broadening post-16 education and improving English and maths proficiency, but raised significant concerns about the practicalities of implementation:\n*   **Teacher Shortages:** A pervasive concern was the severe and long-standing shortage of qualified teachers, especially in subjects like maths and English, which would be exacerbated by the requirement for all students to study these subjects until 18 and the overall increase in teaching hours.",
+        "sources": [
+          {
+            "url": "https://www.thebritishacademy.ac.uk/documents/5254/British-Academy-response-Department-of-Education-consultation-Advanced-British_OpHpIWz.pdf",
+            "publisher": "thebritishacademy.ac.uk",
+            "title": "thebritishacademy.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.lis.ac.uk/stories/an-lis-perspective-on-the-advanced-british-standard",
+            "publisher": "lis.ac.uk",
+            "title": "lis.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.iser.essex.ac.uk/blog/2023/10/05/advanced-british-standard-a-level-replacement-will-require-more-teachers-but-bonuses-may-not-be-the-way-to-get-them",
+            "publisher": "iser.essex.ac.uk",
+            "title": "essex.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.ascl.org.uk/ASCL/media/ASCL/Our%20view/Consultation%20responses/2024/Advanced-British-Standard-consultation.pdf",
+            "publisher": "ascl.org.uk",
+            "title": "ascl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Association of School and College Leaders (ASCL) highlighted that workload is the biggest driver for teachers leaving the profession.",
+        "sources": [
+          {
+            "url": "https://www.ascl.org.uk/ASCL/media/ASCL/Our%20view/Consultation%20responses/2024/Advanced-British-Standard-consultation.pdf",
+            "publisher": "ascl.org.uk",
+            "title": "ascl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "London Economics estimated that an additional \u00a31,760 per student per year would be needed to provide the proposed extra teaching time.",
+        "sources": [
+          {
+            "url": "https://www.thebritishacademy.ac.uk/documents/5254/British-Academy-response-Department-of-Education-consultation-Advanced-British_OpHpIWz.pdf",
+            "publisher": "thebritishacademy.ac.uk",
+            "title": "thebritishacademy.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Depth:** While many welcomed broader study, there was concern that maintaining the depth and rigour of A-levels would be challenging with more subjects, potentially leading to a compromise in subject depth.",
+        "sources": [
+          {
+            "url": "https://www.thebritishacademy.ac.uk/documents/5254/British-Academy-response-Department-of-Education-consultation-Advanced-British_OpHpIWz.pdf",
+            "publisher": "thebritishacademy.ac.uk",
+            "title": "thebritishacademy.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://medium.com/cfoechalkboard/balancing-depth-and-breadth-the-challenges-of-the-advanced-british-standard-9d588b6096ce",
+            "publisher": "medium.com",
+            "title": "medium.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The British Academy worried that a focus on compulsory English and maths could divert resources from non-core subjects like humanities and arts, potentially leading to reduced provision and geographic inequalities.",
+        "sources": [
+          {
+            "url": "https://www.thebritishacademy.ac.uk/documents/5254/British-Academy-response-Department-of-Education-consultation-Advanced-British_OpHpIWz.pdf",
+            "publisher": "thebritishacademy.ac.uk",
+            "title": "thebritishacademy.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.ascl.org.uk/ASCL/media/ASCL/Our%20view/Consultation%20responses/2024/Advanced-British-Standard-consultation.pdf",
+            "publisher": "ascl.org.uk",
+            "title": "ascl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Complexity and Transition:** Some warned that the new system might create a \"blunt choice\" between academic and vocational routes despite the aim of unification, and that the transition from GCSEs to the ABS could be challenging, particularly for disabled students.",
+        "sources": [
+          {
+            "url": "https://www.thebritishacademy.ac.uk/documents/5254/British-Academy-response-Department-of-Education-consultation-Advanced-British_OpHpIWz.pdf",
+            "publisher": "thebritishacademy.ac.uk",
+            "title": "thebritishacademy.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://feweek.co.uk/clunky-advanced-british-standard-risks-blunt-choice-for-students-leaders-warn/",
+            "publisher": "feweek.co.uk",
+            "title": "feweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.allfie.org.uk/inclusion-now-67-2/will-introducing-the-advanced-british-standard-ensure-that-no-child-is-left-behind/",
+            "publisher": "allfie.org.uk",
+            "title": "allfie.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Alliance for Inclusive Education (ALLFIE) specifically raised concerns that the increased workload and additional hours would disadvantage disabled students if the Special Educational Needs and Disabilities (SEND) system is not adequately reformed and funded.",
+        "sources": [
+          {
+            "url": "https://www.allfie.org.uk/inclusion-now-67-2/will-introducing-the-advanced-british-standard-ensure-that-no-child-is-left-behind/",
+            "publisher": "allfie.org.uk",
+            "title": "allfie.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Policy Instability:** The IFS noted that frequent changes to the post-16 vocational education system (including T-levels, BTEC changes, and then the ABS) create significant transitional costs and uncertainty for providers.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTGTMt2cI29JvEjp69nXNhuLfLBqhkK2C3OYB6Z_B7lrz671RU6EQS7BAeYLroyTJmBDBrz_-hSepsyon7lpgfUvrLre-N79SSDnoyhLwgl68uG67a5zes-tVnA5RCeAytqhI5Y2ovpwvrWnNd64IPoEflI4Yst_9Rou96hW2JUtMpNw5w3ugl2coiKJVUbgEkOWhVr5qriLVgQMP8NGDkkXOljx7L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/funding-finance-and-reform-analysis-post-16-education-and-skills-white-paper",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The ultimate real-world effect, however, is that the policy has been discontinued.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9928/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Advanced_British_Standard",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ocr.org.uk/about/policy-and-public-affairs/articles/advanced-british-standard-scrapped/",
+            "publisher": "ocr.org.uk",
+            "title": "ocr.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

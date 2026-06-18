@@ -1,0 +1,821 @@
+{
+  "policy_id": "con-08-ban-mobile-phones-in-schools",
+  "party": "Conservative",
+  "policy_title": "Ban Mobile Phones in Schools",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy uses statute to compel schools to ban pupils from using their own phones during the school day, adding a new state coercion on personal property and communication choices. The effect on liberty is real but modest: it applies only to minors, only during school hours, in an already heavily regulated setting.",
+    "biggest_unknown": "Whether courts or future governments treat a school-hours mandate on a minor's personal property as a meaningful liberty precedent, or as a routine extension of in loco parentis school regulation.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy places a statutory duty on schools to ban mobile phone use during the school day, going beyond existing non-statutory guidance.",
+        "evidence_id": "M",
+        "quote": "require schools to ban the use of mobile phones during the school day, putting existing guidance on a statutory footing"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Most schools already have voluntary policies restricting phone use, meaning the statutory step converts existing practice into a legal obligation rather than creating an entirely new behavioural regime.",
+        "evidence_id": "E18",
+        "quote": "99.8% of primary schools and 90% of secondary schools already have policies limiting mobile phone use during the school day"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy includes public funding for implementation, including presumably secure storage.",
+        "evidence_id": "M",
+        "quote": "providing funding for implementation"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Ofsted will enforce compliance with these bans as part of school inspections, creating a state enforcement mechanism.",
+        "evidence_id": "E2",
+        "quote": "Ofsted will incorporate the enforcement of these policies into its school inspections"
+      }
+    ],
+    "rationale": "O10 is concerned with freedom from state coercion \u2014 including mandates and restrictions on personal property. This policy imposes a statutory ban on pupils using their own devices during the school day, backed by Ofsted enforcement. That is a direct, if limited, expansion of state coercion over individual choices about personal property and communication.\n\nThe liberty cost is real but bounded. It applies only to minors in a compulsory state-regulated environment, only during school hours, and the practical change from the status quo is marginal since nearly all schools already restrict phone use voluntarily. Converting voluntary school policy into a statutory duty backed by inspection primarily shifts the locus of coercion from school discretion to state mandate \u2014 meaning the individual school's own judgment is also curtailed.\n\nThere is no evidence unit suggesting the ban extends surveillance of communications content, tracks location, or restricts speech outside school. The coercion is confined to physical possession and use of a device on school premises during the day.\n\nOn balance, this worsens O10 in a minor way: it adds a new coercive statutory instrument over personal property choices for a specific population (school-age pupils) during a defined period, with state inspection enforcement. The magnitude is minor because (a) the affected population are minors in an already heavily regulated setting, (b) the practical behavioural delta from the pre-existing voluntary norm is small, and (c) the restriction is temporally and spatially narrow. It does not touch surveillance, speech content, bodily autonomy, or adult liberty. Confidence is moderate because the O10 effect is clear in direction but the normative weight one assigns to coercion applied to minors in loco parentis is genuinely contestable.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.theguardian.com/politics/2026/apr/20/mobile-phones-statutory-ban-schools-england-bill-amendment",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.teachingtimes.com/most-schools-in-england-restrict-mobile-phone-use-national-survey-finds/",
+        "publisher": "teachingtimes.com",
+        "title": "teachingtimes.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/government-to-drive-action-to-improve-childrens-relationship-with-mobile-phones-and-social-media",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.childrenscommissioner.gov.uk/resource/school-phone-policies-in-england-findings-from-the-childrens-commissioners-school-and-college-survey/",
+        "publisher": "childrenscommissioner.gov.uk",
+        "title": "childrenscommissioner.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10241/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=nCye78Gy2OQ",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://educationinspection.blog.gov.uk/2026/01/23/what-the-governments-updated-guidance-on-mobile-phones-means-for-school-inspections/",
+        "publisher": "educationinspection.blog.gov.uk",
+        "title": "blog.gov.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0427,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are well-supported by their cited evidence. The stated-tier claims correctly quote the policy text. E18 (Children's Commissioner, 19,000-school survey) is a credible government-adjacent source and entails the measurable claim without overstatement. E2 entails the Ofsted enforcement claim. Tier integrity is sound \u2014 no projections dressed as measurables. Direction (worsens, minor) is coherent: the rationale correctly identifies the liberty effect as a new statutory coercion over personal property for minors during school hours, notes the bounded scope, and does not conflate this with surveillance or speech content. Magnitude (minor) and time_horizon (this-parliament) are appropriately calibrated given the narrow population and pre-existing voluntary norms. No party-blind issues \u2014 the rationale judges the modelled effect, not party identity or motive. No false balance \u2014 the verdict does not claim mixed/uncertain; it reaches a clear minor-worsens conclusion supported by the claims. No lever leakage \u2014 the verdict does not score academic outcomes or wellbeing, only the liberty dimension. One minor observation: the claim about 'presumably secure storage' in claim 3 introduces speculation ('presumably') not entailed by the quote, but the claim is not load-bearing for the verdict direction and does not alter the O10 assessment. Not blocking."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will require schools to ban the use of mobile phones during the school day, putting existing guidance on a statutory footing and providing funding for implementation.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This means state-funded schools in England will be legally required to have regard to published guidance on mobile phones, with the expectation that \"All schools should be mobile phone-free environments by default.\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10241/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10241/CBP-10241.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Ofsted will incorporate the enforcement of these policies into its school inspections.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10241/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nCye78Gy2OQ",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-drive-action-to-improve-childrens-relationship-with-mobile-phones-and-social-media",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://educationinspection.blog.gov.uk/2026/01/23/what-the-governments-updated-guidance-on-mobile-phones-means-for-school-inspections/",
+            "publisher": "educationinspection.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This is equivalent to adding five more school days to a year.",
+        "sources": [
+          {
+            "url": "https://paragoninstitute.org/public-health/banning-smartphones-in-schools/",
+            "publisher": "paragoninstitute.org",
+            "title": "paragoninstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.k12dive.com/news/uk-study-finds-connection-between-cell-phone-bans-and-higher-test-scores/399573/",
+            "publisher": "k12dive.com",
+            "title": "k12dive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lapcabby.com/en/uk-implements-school-phone-ban-to-improve-focus-and-wellbeing/",
+            "publisher": "lapcabby.com",
+            "title": "lapcabby.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://world-education-blog.org/2025/12/15/are-phone-bans-working/",
+            "publisher": "world-education-blog.org",
+            "title": "world-education-blog.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Another study found that test results improved by 0.07 standard deviations, leading to a 14% increase for the most disadvantaged learners.",
+        "sources": [
+          {
+            "url": "https://world-education-blog.org/2025/12/15/are-phone-bans-working/",
+            "publisher": "world-education-blog.org",
+            "title": "world-education-blog.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Policy Exchange research found that secondary schools with effective phone bans were more than twice as likely to be rated 'Outstanding' by Ofsted, and students achieved GCSE results that were 1-2 grades higher (equivalent to a Progress 8 differential of 0.13-0.25) compared to schools with less restrictive policies.",
+        "sources": [
+          {
+            "url": "https://policyexchange.org.uk/publication/disconnect/",
+            "publisher": "policyexchange.org.uk",
+            "title": "policyexchange.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The study found no difference in outcomes between schools with and without bans.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2025/feb/05/school-ban-phones-not-improve-grades-health-uk-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2025/school-bans-alone-not-enough-to-tackle-negative-impacts-of-phone-and-social-media-use",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The analysis indicated that, in general, the higher the percentage of schools in a country with phone bans, the lower that country's average PISA score, with a 9.4-point (0.09 standard deviation) fall for every 10% increase in schools banning phones.",
+        "sources": [
+          {
+            "url": "https://www.bera.ac.uk/blog/mobile-phone-bans-in-schools-impact-on-achievement",
+            "publisher": "bera.ac.uk",
+            "title": "bera.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Improved Behavior and Engagement:** Proponents and some research suggest that bans can lead to calmer classroom environments, fewer distractions, and reduced bullying and cyberbullying.",
+        "sources": [
+          {
+            "url": "https://paragoninstitute.org/public-health/banning-smartphones-in-schools/",
+            "publisher": "paragoninstitute.org",
+            "title": "paragoninstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://world-education-blog.org/2025/12/15/are-phone-bans-working/",
+            "publisher": "world-education-blog.org",
+            "title": "world-education-blog.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Teachers in a US school division reported 62% improved student behavior and increased student engagement due to fewer phone distractions.",
+        "sources": [
+          {
+            "url": "https://paragoninstitute.org/public-health/banning-smartphones-in-schools/",
+            "publisher": "paragoninstitute.org",
+            "title": "paragoninstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "A study in Portugal also noted declines in bullying and indiscipline, alongside increases in socialization and physical activity during breaks.",
+        "sources": [
+          {
+            "url": "https://world-education-blog.org/2025/12/15/are-phone-bans-working/",
+            "publisher": "world-education-blog.org",
+            "title": "world-education-blog.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The University of Birmingham study found no discernible difference in measures such as worry, sadness, or optimism among Year 8 and Year 10 pupils, regardless of whether their schools had strict or lenient mobile phone rules.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/mobile-phones-schools-ban-wellbeing-b2917550.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2025/school-bans-alone-not-enough-to-tackle-negative-impacts-of-phone-and-social-media-use",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The government's own evidence review indicated that while bans positively influenced in-school behaviors (e.g., reducing screen time and bullying), the evidence for mental health and well-being outcomes was less robust.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/understand-the-impact-of-smartphones-and-social-media-on-children-and-young-people/understand-the-impact-of-smartphones-and-social-media-on-children-and-young-people-executive-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Mental Health Foundation emphasizes the need for more robust research to quantify the risks and positives of digital technology on mental health.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/response-impact-social-media-and-screen-use-young-peoples-health-report",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Concerns about Excessive Use:** There is widespread concern that excessive smartphone and internet use is linked to cognitive costs, impaired attention, focus, sleep, and mental health issues.",
+        "sources": [
+          {
+            "url": "https://www.brainfacts.org/thinking-sensing-and-behaving/childhood-and-adolescence/2025/why-are-some-uk-schools-banning-smartphones-in-the-classroom-010825",
+            "publisher": "brainfacts.org",
+            "title": "brainfacts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smartphonefreechildhood.org/the-issue/problem",
+            "publisher": "smartphonefreechildhood.org",
+            "title": "smartphonefreechildhood.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Teenage anxiety, depression, and self-harm rates have reportedly risen since 2010, with evidence suggesting a direct link between early smartphone use and declining mental health.",
+        "sources": [
+          {
+            "url": "https://www.smartphonefreechildhood.org/the-issue/problem",
+            "publisher": "smartphonefreechildhood.org",
+            "title": "smartphonefreechildhood.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Adolescents in the UK spend an average of four hours per day on smartphones and up to five hours on social media.",
+        "sources": [
+          {
+            "url": "https://www.medicalresearchfoundation.org.uk/what-we-fund/our-impact/mental-health-impacts-of-phone-and-social-media-use",
+            "publisher": "medicalresearchfoundation.org.uk",
+            "title": "medicalresearchfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "A King's College London study found that more than 80% of young people with mental health conditions had self-harmed at least once, and over half reported using social media or their smartphones after midnight on a weekday, with nearly a quarter using social media for more than five hours on a weekday.",
+        "sources": [
+          {
+            "url": "https://www.medicalresearchfoundation.org.uk/what-we-fund/our-impact/mental-health-impacts-of-phone-and-social-media-use",
+            "publisher": "medicalresearchfoundation.org.uk",
+            "title": "medicalresearchfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Existing Policies:** A Children's Commissioner survey of 19,000 schools and colleges in England found that 99.8% of primary schools and 90% of secondary schools already have policies limiting mobile phone use during the school day.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/20/mobile-phones-statutory-ban-schools-england-bill-amendment",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.teachingtimes.com/most-schools-in-england-restrict-mobile-phone-use-national-survey-finds/",
+            "publisher": "teachingtimes.com",
+            "title": "teachingtimes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-drive-action-to-improve-childrens-relationship-with-mobile-phones-and-social-media",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.childrenscommissioner.gov.uk/resource/school-phone-policies-in-england-findings-from-the-childrens-commissioners-school-and-college-survey/",
+            "publisher": "childrenscommissioner.gov.uk",
+            "title": "childrenscommissioner.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Compliance Challenges:** Despite existing policies, 58% of secondary school pupils reported mobile phones being used without permission in at least some lessons, rising to 65% for key stage 4 pupils.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/mobile-phones-schools-ban-wellbeing-b2917550.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-drive-action-to-improve-childrens-relationship-with-mobile-phones-and-social-media",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Staff Time and Resources:** Enforcing phone rules can be resource-intensive for schools, consuming over 100 hours of staff time per week in some cases.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/mobile-phones-schools-ban-wellbeing-b2917550.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "While restrictive policies may incur slightly lower costs (\u00a394 per pupil per year less than laxer rules), school leaders, such as the Association of School and College Leaders and the National Association of Head Teachers, have called for government funding for secure storage solutions (e.g., lockers or locked pouches) to aid implementation.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/apr/20/mobile-phones-statutory-ban-schools-england-bill-amendment",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nCye78Gy2OQ",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Overall Reduction in Use:** The University of Birmingham study noted that while school bans led to a slight decrease in in-school phone use (approximately 40 minutes) and social media use (approximately 30 minutes), this did not translate into a meaningful reduction in the overall time students spent on phones and social media, as much of the use occurs outside school hours.",
+        "sources": [
+          {
+            "url": "https://www.birmingham.ac.uk/news/2025/school-bans-alone-not-enough-to-tackle-negative-impacts-of-phone-and-social-media-use",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4KqwRLPFfiVxhUhmiiNr2KjF9CmI-fXmcvgps3Un30MzldQjzzl5aCAxsAuc9n0ZJJ8reQJ1gW1SpJ4tTT66eTxJPxCyc42Gl34bd8ZNHYbt0T_3YqGtPdDtkrFbhT_85vmvvzJbSnyFBjSKNMPn1LpVvlmzi0DA8sIa88plZLj_8QKqBkoPxqk3lCeRzKDpuw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "washingtonpost.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **House of Commons Library:** Provides factual briefings on the policy, confirming the statutory nature of the guidance taking effect on June 29, 2026.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10241/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10241/CBP-10241.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Ofsted:** The schools' watchdog will now scrutinize schools' mobile phone policies and their effective implementation as part of every inspection.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10241/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nCye78Gy2OQ",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-drive-action-to-improve-childrens-relationship-with-mobile-phones-and-social-media",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://educationinspection.blog.gov.uk/2026/01/23/what-the-governments-updated-guidance-on-mobile-phones-means-for-school-inspections/",
+            "publisher": "educationinspection.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Children's Commissioner for England:** Their comprehensive survey (19,000 schools) shows that most schools already have restrictions, but emphasizes that school policies are only part of a broader \"whole-society approach\" needed to address online safety, as most screen time occurs outside school.",
+        "sources": [
+          {
+            "url": "https://www.teachingtimes.com/most-schools-in-england-restrict-mobile-phone-use-national-survey-finds/",
+            "publisher": "teachingtimes.com",
+            "title": "teachingtimes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.childrenscommissioner.gov.uk/resource/school-phone-policies-in-england-findings-from-the-childrens-commissioners-school-and-college-survey/",
+            "publisher": "childrenscommissioner.gov.uk",
+            "title": "childrenscommissioner.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **University of Birmingham / Health Foundation (Dr Victoria Goodyear, Professor Hareth Al-Janabi):** Their research, funded by the NIHR, casts doubt on the standalone effectiveness of school bans for improving mental well-being or reducing overall phone use, advocating for a wider strategy addressing both in-school and out-of-school phone use.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2025/feb/05/school-ban-phones-not-improve-grades-health-uk-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/mobile-phones-schools-ban-wellbeing-b2917550.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2025/school-bans-alone-not-enough-to-tackle-negative-impacts-of-phone-and-social-media-use",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4KqwRLPFfiVxhUhmiiNr2KjF9CmI-fXmcvgps3Un30MzldQjzzl5aCAxsAuc9n0ZJJ8reQJ1gW1SpJ4tTT66eTxJPxCyc42Gl34bd8ZNHYbt0T_3YqGtPdDtkrFbhT_85vmvvzJbSnyFBjSKNMPn1LpVvlmzi0DA8sIa88plZLj_8QKqBkoPxqk3lCeRzKDpuw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "washingtonpost.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They recommend secure storage solutions.",
+        "sources": [
+          {
+            "url": "https://policyexchange.org.uk/publication/disconnect/",
+            "publisher": "policyexchange.org.uk",
+            "title": "policyexchange.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **BERA (British Educational Research Association):** Analysis of PISA data indicates a negative correlation between phone bans and student achievement in England, suggesting that more bans coincide with lower scores.",
+        "sources": [
+          {
+            "url": "https://www.bera.ac.uk/blog/mobile-phone-bans-in-schools-impact-on-achievement",
+            "publisher": "bera.ac.uk",
+            "title": "bera.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **UNESCO Global Educational Monitoring (GEM) Report:** Recommended global smartphone bans in classrooms, citing evidence that excessive phone use distracts students, affects focus, and is negatively linked with academic performance.",
+        "sources": [
+          {
+            "url": "https://www.brainfacts.org/thinking-sensing-and-behaving/childhood-and-adolescence/2025/why-are-some-uk-schools-banning-smartphones-in-the-classroom-010825",
+            "publisher": "brainfacts.org",
+            "title": "brainfacts.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Mental Health Foundation:** Welcomes government action on children's online safety and calls for more robust research on the impact of digital technology on mental health, acknowledging both potential harms and benefits.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/response-impact-social-media-and-screen-use-young-peoples-health-report",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Some studies point to significant improvements in exam scores (e.g., 6.4% increase in national exam scores",
+        "sources": [
+          {
+            "url": "https://paragoninstitute.org/public-health/banning-smartphones-in-schools/",
+            "publisher": "paragoninstitute.org",
+            "title": "paragoninstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.k12dive.com/news/uk-study-finds-connection-between-cell-phone-bans-and-higher-test-scores/399573/",
+            "publisher": "k12dive.com",
+            "title": "k12dive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lapcabby.com/en/uk-implements-school-phone-ban-to-improve-focus-and-wellbeing/",
+            "publisher": "lapcabby.com",
+            "title": "lapcabby.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://world-education-blog.org/2025/12/15/are-phone-bans-working/",
+            "publisher": "world-education-blog.org",
+            "title": "world-education-blog.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "), while other analyses suggest no improvement or even a negative correlation in England (e.g., 0.29 standard deviation fall in PISA scores",
+        "sources": [
+          {
+            "url": "https://www.bera.ac.uk/blog/mobile-phone-bans-in-schools-impact-on-achievement",
+            "publisher": "bera.ac.uk",
+            "title": "bera.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The University of Birmingham study found no direct benefits for mental health from school bans",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2025/feb/05/school-ban-phones-not-improve-grades-health-uk-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/mobile-phones-schools-ban-wellbeing-b2917550.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2025/school-bans-alone-not-enough-to-tackle-negative-impacts-of-phone-and-social-media-use",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": ", whereas proponents believe they contribute to well-being by reducing distractions and cyberbullying",
+        "sources": [
+          {
+            "url": "https://world-education-blog.org/2025/12/15/are-phone-bans-working/",
+            "publisher": "world-education-blog.org",
+            "title": "world-education-blog.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9kagIawVRpXYM1Tlne7zgOf8XnIQwEAVmMiFriXsE--fcaYlv1Iwt1eOE4hbqJfIhq-TFzBqAgGJ-hjbb4mWwXrd27co_97YB09NTVTkKM2MgpOxzIe8a_kijMm_ln6ifLitzI5telOmDUg24w0qVE-owzeir2LPoa9pFy6XmJvWE79WXsIzJJAfIOxIUNUKd-dGgA69efn25hdc8yDEp8HwdtD_20AUvHetBXFF2TpLcfP07MonN-WW6kd8_vze0MG_x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "iadb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The government's evidence review highlighted less robust evidence for mental health benefits compared to behavioral changes.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/understand-the-impact-of-smartphones-and-social-media-on-children-and-young-people/understand-the-impact-of-smartphones-and-social-media-on-children-and-young-people-executive-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Scope of Intervention:** Some analysts and organizations, including the University of Birmingham researchers and the Children's Commissioner, argue that school bans are insufficient on their own, emphasizing the need for a broader societal approach that addresses phone use outside of school, parental involvement, and tech company regulation.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2025/feb/05/school-ban-phones-not-improve-grades-health-uk-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2025/school-bans-alone-not-enough-to-tackle-negative-impacts-of-phone-and-social-media-use",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nCye78Gy2OQ",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blogs.lse.ac.uk/medialse/2025/02/19/mobile-phone-restrictions-in-uk-schools-one-year-on/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.childrenscommissioner.gov.uk/resource/school-phone-policies-in-england-findings-from-the-childrens-commissioners-school-and-college-survey/",
+            "publisher": "childrenscommissioner.gov.uk",
+            "title": "childrenscommissioner.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4KqwRLPFfiVxhUhmiiNr2KjF9CmI-fXmcvgps3Un30MzldQjzzl5aCAxsAuc9n0ZJJ8reQJ1gW1SpJ4tTT66eTxJPxCyc42Gl34bd8ZNHYbt0T_3YqGtPdDtkrFbhT_85vmvvzJbSnyFBjSKNMPn1LpVvlmzi0DA8sIa88plZLj_8QKqBkoPxqk3lCeRzKDpuw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "washingtonpost.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "Others view the bans as a valuable and pragmatic preventative measure within the school environment.",
+        "sources": [
+          {
+            "url": "https://policyexchange.org.uk/publication/disconnect/",
+            "publisher": "policyexchange.org.uk",
+            "title": "policyexchange.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

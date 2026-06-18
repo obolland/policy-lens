@@ -1,0 +1,1054 @@
+{
+  "policy_id": "ld-113-boost-sports-participation-and-invest-in",
+  "party": "Liberal Democrat",
+  "policy_title": "Boost Sports Participation and Invest in Grassroots Facilities",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "The policy promises investment in sports facilities but states no cost, no funding source, and no budget envelope, so it is impossible to judge whether it improves or worsens the public finances. Projected NHS and productivity savings are plausible but unverified at the scale needed to offset upfront costs.",
+    "biggest_unknown": "The total public expenditure required and whether it would be funded from existing budgets, new borrowing, or reallocation \u2014 without that, no honest verdict on the debt path is possible.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to investing in leisure centres, swimming pools and other grassroots facilities and supporting community sports clubs, but states no cost, no funding source and no budget envelope.",
+        "evidence_id": "M",
+        "quote": "investing in leisure centres, swimming pools and other grassroots facilities and supporting community sports clubs"
+      },
+      {
+        "tier": "projected",
+        "claim": "Sport England estimates every \u00a31 spent on community sport generates \u00a34.38 for the economy and society, implying a positive fiscal and social return over time.",
+        "evidence_id": "E25",
+        "quote": "\u00a34.38 for every \u00a31 invested in community sport and physical activity (2023/24)"
+      },
+      {
+        "tier": "projected",
+        "claim": "Active lifestyles are estimated to produce \u00a38 billion in direct net healthcare savings annually.",
+        "evidence_id": "E26",
+        "quote": "\u00a38 billion annually through illness prevention"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The NAO in 2022 found DCMS and Sport England had made mixed progress in increasing participation and identified a lack of effective leadership and collaboration across government in monitoring effectiveness.",
+        "evidence_id": "E37",
+        "quote": "the Department for Culture, Media and Sport (DCMS) and Sport England had made mixed progress in increasing participation and that there was a \"lack of effective leadership and collaboration across government\" in monitoring and evaluating the effectiveness of approaches"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Total public expenditure required and whether it is funded or borrowed; and whether projected NHS/productivity savings actually materialise at scale given the NAO's finding of mixed past progress.",
+      "estimate_range": "Upfront cost unknown (could range from tens of millions to several billions depending on scope); projected savings range from \u00a3450 million (GP visits) to \u00a38 billion (healthcare) annually, but are derived largely from Sport England's own modelling with no independent OBR/IFS verification in the evidence provided."
+    },
+    "rationale": "O12 turns on whether a policy improves or worsens the sustainability of the public debt path. The critical inputs are: what does the policy cost, how is it financed, and do any downstream savings genuinely offset the outlay? None of these can be answered from the evidence provided. The policy text is purely aspirational \u2014 it commits to 'investing' but names no budget, no financing instrument, and no quantified target. The projected returns (\u00a34.38 per \u00a31, \u00a38bn NHS savings) come principally from Sport England's own valuations; these are plausible but are not independently verified by OBR or IFS in the supplied evidence, and they bundle in non-fiscal wellbeing values that do not directly reduce the Exchequer's borrowing requirement. The NAO finding of mixed past progress in increasing participation further undermines confidence that projected savings would materialise. Near-term, any new uncosted spending commitment risks adding to borrowing; long-term, if NHS savings and productivity gains did materialise at the projected scale, they could improve fiscal sustainability \u2014 but that causal chain is unconfirmed. Both the magnitude of cost and the probability of realising the savings are genuinely unresolvable from the evidence given, making 'too-uncertain' the only honest verdict.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+        "publisher": "sportengland.org",
+        "title": "sportengland.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+        "publisher": "mmu.ac.uk",
+        "title": "mmu.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.sportengland.org/news-and-inspiration/new-figures-illustrate-impact-investing-physical-activity",
+        "publisher": "sportengland.org",
+        "title": "sportengland.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.freshairfitness.co.uk/blog/why-investment-in-physical-activity-always-pays-off",
+        "publisher": "freshairfitness.co.uk",
+        "title": "freshairfitness.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.sportspro.com/news/uk-major-events-grassroots-sport-government-investment-june-2025/",
+        "publisher": "sportspro.com",
+        "title": "sportspro.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+        "publisher": "sportengland.org",
+        "title": "sportengland.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nao.org.uk/reports/grassroots-participation-in-sport-and-physical-activity/",
+        "publisher": "nao.org.uk",
+        "title": "nao.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0454,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-structured and defensible. The 'too-uncertain' direction is genuinely supported: the policy is uncosted with no funding source stated, making any O12 verdict speculative. Magnitude and time_horizon are correctly 'n/a'. The crux_parameter and estimate_range are substantive, not lazy hedges. Tier assignments are appropriate \u2014 the NAO claim (E37) is correctly 'measurable' as an institutional audit finding rather than a projection. Sport England ROI figures (E25, E26) are correctly tiered as 'projected' given they are modelled estimates. The rationale correctly notes Sport England is not independent (no OBR/IFS verification), which is good epistemic hygiene. No party identity or motive attribution found. No false balance issue \u2014 uncertainty is genuine given missing cost data on both sides of the ledger."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Boost participation in sports and physical activity by investing in leisure centres, swimming pools and other grassroots facilities and supporting community sports clubs.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Increased Sports Participation and Physical Activity:**\n    *   Direct investment in leisure centres, swimming pools, and other grassroots facilities is expected to reduce barriers to participation, particularly for under-represented groups such as women and girls, people with disabilities, ethnic minority communities, and older adults.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/game-changer-for-the-nation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/ld5802/ldselect/ldsportrec/113/11304.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   Improved facilities provide more opportunities and accessible spaces for people to engage in sport and physical activity, which is crucial as participation can be limited without sufficient infrastructure.",
+        "sources": [
+          {
+            "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+            "publisher": "media.kent.ac.uk",
+            "title": "kent.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   The government's \"Get Active\" strategy aims to get 2.5 million more adults and one million more children active by 2030, with specific targets for the least active groups.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/publications/sport-and-leisure-promoting-health-and-wellbeing-through-public-services",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "**Improved Physical Health Outcomes and NHS Savings:**\n    *   Increased physical activity is strongly linked to preventing serious physical and mental health conditions.",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/get-active-a-strategy-for-the-future-of-sport-and-physical-activity/get-active-a-strategy-for-the-future-of-sport-and-physical-activity",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bhf.org.uk/informationsupport/support/healthy-living/staying-active",
+            "publisher": "bhf.org.uk",
+            "title": "bhf.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/uniting-movement/why-moving-matters",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   Sport England's research (updated in November 2025) indicates that active lifestyles prevent over 3.3 million cases of chronic health conditions annually, including 1.3 million cases of depression, 900,000 cases of back pain, and 700,000 cases of type 2 diabetes.",
+        "sources": [
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "For example, \u00a38 billion in direct net healthcare savings and nearly \u00a36 billion in productivity gains from a healthier workforce are estimated.",
+        "sources": [
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Earlier data from October 2024 showed \u00a310.5 billion in wider savings to the health and social care system annually, preventing 1.3 million cases of depression, 600,000 of diabetes, and 57,000 of dementia.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   Active lifestyles are credited with 30 million fewer GP visits annually, saving \u00a3450 million.",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/uniting-movement/why-moving-matters",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**Enhanced Mental Wellbeing:**\n    *   Participation in sports is consistently shown to enhance self-esteem, reduce anxiety, strengthen social bonds, and improve overall life satisfaction.",
+        "sources": [
+          {
+            "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+            "publisher": "media.kent.ac.uk",
+            "title": "kent.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://sportandrecreation.org.uk/news/new-reports-highlight-significant-social-bene",
+            "publisher": "sportandrecreation.org.uk",
+            "title": "sportandrecreation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/get-active-a-strategy-for-the-future-of-sport-and-physical-activity/get-active-a-strategy-for-the-future-of-sport-and-physical-activity",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/uniting-movement/why-moving-matters",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Active adults (those doing more than 150 minutes of physical activity per week) experience a wellbeing value equivalent to \u00a32,500 per year, which is even higher for groups experiencing inequalities, such as disabled adults (\u00a35,100 a year).",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   A University of Kent study in 2025 estimated a total social welfare value of \u00a3212.4 billion, supporting investment in sports infrastructure, noting that a higher number of sports facilities per 10,000 people correlated with greater life satisfaction and lower anxiety.",
+        "sources": [
+          {
+            "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+            "publisher": "media.kent.ac.uk",
+            "title": "kent.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Sport England's analysis (February 2025) reveals that every \u00a31 spent generates \u00a34.20 for the English economy and society.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/new-figures-illustrate-impact-investing-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.freshairfitness.co.uk/blog/why-investment-in-physical-activity-always-pays-off",
+            "publisher": "freshairfitness.co.uk",
+            "title": "freshairfitness.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportspro.com/news/uk-major-events-grassroots-sport-government-investment-june-2025/",
+            "publisher": "sportspro.com",
+            "title": "sportspro.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Previous figures from 2024 showed a return of nearly \u00a34 for every \u00a31 spent.",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   The combined social and economic value of community sport and physical activity in England was \u00a3148 billion in 2022/23.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/new-figures-illustrate-impact-investing-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.freshairfitness.co.uk/blog/why-investment-in-physical-activity-always-pays-off",
+            "publisher": "freshairfitness.co.uk",
+            "title": "freshairfitness.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "This includes \u00a3106.9 billion in improved wellbeing and \u00a315.9 billion in wider health value.",
+        "sources": [
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   The sport sector directly contributed \u00a318.1 billion to the UK economy in 2022, supporting around 550,000 jobs.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "For England specifically, the sport sector's economic value was \u00a387 billion in 2021, with a gross value added (GVA) of \u00a346.7 billion.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fmgconsulting.co.uk/blog/social-value-of-sport",
+            "publisher": "fmgconsulting.co.uk",
+            "title": "fmgconsulting.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/economic-development",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   Economic benefits also arise from increased productivity due to a healthier workforce and reduced absenteeism.",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/get-active-a-strategy-for-the-future-of-sport-and-physical-activity/get-active-a-strategy-for-the-future-of-sport-and-physical-activity",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukactive.com/news/theres-a-bigger-role-for-sport-and-physical-activity/",
+            "publisher": "ukactive.com",
+            "title": "ukactive.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Positive Social and Community Impacts:**\n    *   Sports facilities and community clubs act as hubs, fostering social trust, a sense of belonging, and community spirit by bringing together people of diverse ages, cultures, and backgrounds.",
+        "sources": [
+          {
+            "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+            "publisher": "media.kent.ac.uk",
+            "title": "kent.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/ld5802/ldselect/ldsportrec/113/11304.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/uniting-movement/why-moving-matters",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   Sport can reduce social isolation and contribute to stronger, safer communities, valued at \u00a320 billion, including preventing 10,000 crime incidents.",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/uniting-movement/why-moving-matters",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/publications/sport-and-leisure-promoting-health-and-wellbeing-through-public-services",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   It promotes individual development, enhancing life skills such as self-control, teamwork, conflict resolution, and leadership, and has a proven link to improved educational attainment and job opportunities.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/get-active-a-strategy-for-the-future-of-sport-and-physical-activity/get-active-a-strategy-for-the-future-of-sport-and-physical-activity",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youthsporttrust.org/research-listings/research/benefit-of-sport-participation",
+            "publisher": "youthsporttrust.org",
+            "title": "youthsporttrust.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/uniting-movement/why-moving-matters",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5d027726ed915d0a7c17e172/Sector_Specific_Guidance__Sport.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   Volunteers in sports provide significant value, with their replacement value estimated at \u00a35.7 billion.",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.freshairfitness.co.uk/blog/why-investment-in-physical-activity-always-pays-off",
+            "publisher": "freshairfitness.co.uk",
+            "title": "freshairfitness.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Total Social Value (England 2023/24):** \u00a3122.9 billion",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "(up from \u00a3107.2 billion in 2022/23",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fmgconsulting.co.uk/blog/social-value-of-sport",
+            "publisher": "fmgconsulting.co.uk",
+            "title": "fmgconsulting.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/new-figures-illustrate-impact-investing-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.yorkshiresport.org/whats-new/news/sport-and-activity-generates-over-100-pounds-billion-in-social-value-a-year-and-relieves-pressure-on-nhs",
+            "publisher": "yorkshiresport.org",
+            "title": "yorkshiresport.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Return on Investment:** \u00a34.38 for every \u00a31 invested in community sport and physical activity (2023/24), up from \u00a34.20 in 2022/23.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/new-figures-illustrate-impact-investing-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.freshairfitness.co.uk/blog/why-investment-in-physical-activity-always-pays-off",
+            "publisher": "freshairfitness.co.uk",
+            "title": "freshairfitness.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportspro.com/news/uk-major-events-grassroots-sport-government-investment-june-2025/",
+            "publisher": "sportspro.com",
+            "title": "sportspro.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Direct Healthcare Savings:** \u00a38 billion annually through illness prevention.",
+        "sources": [
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Productivity Gains:** Nearly \u00a36 billion from a healthier workforce.",
+        "sources": [
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Prevented Chronic Conditions (annually):** 1.3 million depression cases, 900,000 back pain cases, 700,000 type 2 diabetes cases.",
+        "sources": [
+          {
+            "url": "https://www.mmu.ac.uk/news-and-events/news/story/sport-and-physical-activity-generate-ps8bn-direct-savings-nhs-preventing",
+            "publisher": "mmu.ac.uk",
+            "title": "mmu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Earlier figures also cite 600,000 diabetes cases and 57,000 dementia cases prevented.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Reduced GP Visits:** 30 million fewer annually, saving \u00a3450 million (or \u00a3540 million).",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/uniting-movement/why-moving-matters",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Reduced Mental Health Service Usage:** Saves \u00a3780 million.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Wellbeing Value (per active adult):** \u00a32,500 per year.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "For active adults with disabilities/long-term conditions: \u00a35,100 per year.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Economic Value of Sport Sector (England 2021):** \u00a387 billion total, with \u00a346.7 billion GVA.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/about-us/economic-development",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "For example, some reports cite \u00a33.91 for every \u00a31 spent",
+        "sources": [
+          {
+            "url": "https://www.sportsthinktank.com/research/128028",
+            "publisher": "sportsthinktank.com",
+            "title": "sportsthinktank.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": ", while more recent ones cite \u00a34.20 or \u00a34.38.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/new-figures-illustrate-impact-investing-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Long-term sustainability and funding models:** The National Audit Office (NAO) highlighted in 2022 that the Department for Culture, Media and Sport (DCMS) and Sport England had made mixed progress in increasing participation and that there was a \"lack of effective leadership and collaboration across government\" in monitoring and evaluating the effectiveness of approaches.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/reports/grassroots-participation-in-sport-and-physical-activity/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "Reports consistently show higher wellbeing values for groups experiencing inequalities if they become active, underscoring the potential, but also the existing challenge in reaching them.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonsport.org/sport-and-physical-activity-generates-over-100-billion-in-social-value-new-sport-england-report-published/",
+            "publisher": "londonsport.org",
+            "title": "londonsport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/sport-social-value",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/health-wealth-and-happiness-ps123bn-value-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "The social cost of inequalities in adult activity levels is estimated at \u00a315.6 billion a year.",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/sport-and-physical-activity-generates-over-100-billion-social-value",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fmgconsulting.co.uk/blog/social-value-of-sport",
+            "publisher": "fmgconsulting.co.uk",
+            "title": "fmgconsulting.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   **Impact of the cost-of-living crisis:** Reports from organizations like the Sport and Recreation Alliance (affiliated with Sport England) highlight that the cost-of-living crisis poses a \"real and present threat\" to grassroots sport, with clubs under severe financial pressure.",
+        "sources": [
+          {
+            "url": "https://sportandrecreation.org.uk/files/the-cost-of-living-crisis-the-impact-on-grassroots-community-sport-and-recreation---executive-summary-130924153441.pdf",
+            "publisher": "sportandrecreation.org.uk",
+            "title": "sportandrecreation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "While elite sport generates economic benefits (e.g., from hosting major events like EURO 2028 projected to generate \u00a32.4 billion in socio-economic value",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/game-changer-for-the-nation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "), grassroots sport is the focus for broader health and social benefits for the general population.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/ld5802/ldselect/ldsportrec/113/11304.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

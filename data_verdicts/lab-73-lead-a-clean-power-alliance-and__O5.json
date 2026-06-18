@@ -1,0 +1,623 @@
+{
+  "policy_id": "lab-73-lead-a-clean-power-alliance-and",
+  "party": "Labour",
+  "policy_title": "Lead a Clean Power Alliance and Modernise International Development",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy touches on national security only indirectly, through conflict prevention in international development and energy supply-chain resilience \u2014 but both arms face major delivery constraints that make any security effect marginal at best. The 0.7% aid target won't be restored this parliament, and FCDO capacity is being cut, not grown.",
+    "biggest_unknown": "Whether FCDO staffing cuts and the aid budget being reduced to 0.3% of GNI by 2027 effectively hollow out the conflict-prevention work before it can deliver any security benefit.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to conflict prevention as a priority area within the FCDO's renewed international development work.",
+        "evidence_id": "M",
+        "quote": "conflict prevention"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy aims to protect clean energy supply chains through the Clean Power Alliance.",
+        "evidence_id": "M",
+        "quote": "protect clean energy supply chains"
+      },
+      {
+        "tier": "measurable",
+        "claim": "UK aid spending was 0.58% of GNI in 2023 and is projected at 0.5% in 2025, well below the 0.7% target.",
+        "evidence_id": "E25",
+        "quote": "In 2023, UK aid spending was 0.58% of GNI"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Aid is planned to be cut further to 0.3% of GNI by 2027 to fund defence, with no prospect of hitting 0.7% this Parliament.",
+        "evidence_id": "E29",
+        "quote": "a further planned cut to 0.3% of GNI by 2027 to fund increased defence spending, marking another breach of the legally enshrined 0.7% target with no prospect of hitting it this Parliament"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The FCDO reform programme includes staff reductions of 15\u201325%, leaving significant gaps in capacity.",
+        "evidence_id": "E22",
+        "quote": "planned staff reductions of between 15% and 25%, means there are \"significant gaps\" and currently only a \"skeleton\" of the government's plans"
+      }
+    ],
+    "rationale": "O5 covers national security, defence posture, and resilience to external threats, as well as crime and justice. This policy touches O5 only at its edges: conflict prevention via international development could marginally reduce instability that threatens UK security interests, and supply-chain resilience for clean energy could reduce dependence on hostile or unstable suppliers. However, neither mechanism is likely to fire materially. The conflict-prevention commitment is aspirational \u2014 the FCDO is simultaneously cutting 15\u201325% of staff, leaving a 'skeleton' capacity, and the aid budget is heading to 0.3% of GNI by 2027 rather than the promised 0.7%. There is no committed instrument or funded programme for conflict prevention beyond a stated priority. The Clean Power Alliance supply-chain dimension is real in principle but the alliance itself is a new diplomatic construct with no funded delivery mechanism evidenced. On the evidence provided, neither arm of this policy is likely to produce a measurable improvement in O5 indicators (crime rates, national security posture, defence resilience) within any foreseeable parliamentary horizon. The direction is nominally positive \u2014 conflict prevention and supply security point the right way \u2014 but the magnitude floor test is not cleared: the policy cannot move the O5 indicator at population scale given the funding and capacity constraints documented. The verdict is therefore negligible rather than improves, with low confidence reflecting that some long-term supply security benefit remains theoretically possible if the alliance becomes operational.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn03714/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.hansardsociety.org.uk/blog/international-aid-target-legislative-failure",
+        "publisher": "hansardsociety.org.uk",
+        "title": "hansardsociety.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/topic/world-affairs/institutions/international-development/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbu5yY1p1ratnTGMrJ6BepvjU5daECe9Zt3scXmrfF6-jjx86EsMJtPaetVzz417x2geIsNLBLE4bd-CHuz2NrAOZF12cgHR-Odn1rGGQBkPcd-jnENd1Tjb0AtzkW6OPOYTawiZoYxrhMSumEUizB4AFrjLi6ujY4-_oYE49iDIy1PkwZg88t",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "devex.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0422,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are well-supported by their quoted evidence. Tier assignments are correct: two stated claims from M, two measurable claims from parliamentary/institutional sources (E25, E29, E22). E29 (hansardsociety.org.uk + commonslibrary.parliament.uk) is a mixed media/government source but is not sole-advocacy and the claim is appropriately hedged. The 'measurable' label for E29 is borderline since it involves a projection ('planned cut'), but this is a stated government policy intent reported by credible institutional sources, not a modelled forecast, so the tier is defensible. Direction 'negligible' with magnitude 'minor' and time_horizon 'long-term' is consistent \u2014 no hard rule violation (direction is not too-uncertain, so n/a is not required). The rationale judges O5 effects only (conflict prevention, supply-chain resilience) without lever leakage or party-identity bias. No motive attribution detected. No false balance issue \u2014 the verdict is negligible/positive, not mixed, and the reasoning supporting that lean is coherent with the claims. Overall verdict passes publication gates."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The fiscal tests for restoring 0.7% are not projected to be met during the current Parliament.",
+          "evidence_id": "E28",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will create a new Clean Power Alliance, bringing together countries at the forefront of climate action to deliver lower energy bills, accelerate energy transition, and protect clean energy supply chains. They will strengthen international development work within the FCDO, renewing expertise in priority areas like economic transformation, debt, women and girls, conflict prevention, and climate finance. Labour commits to restoring development spending to 0.7% of GNI when fiscal circumstances allow and delivering value for money through robust measures.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Labour's Clean Power Alliance aims to bring together countries at the forefront of climate action to deliver lower energy bills, accelerate energy transition, and protect clean energy supply chains",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/britain-reconnected/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The party envisions this alliance as a \"reverse OPEC,\" collaborating on supply chains and grids to keep energy prices low",
+        "sources": [
+          {
+            "url": "https://www.e3g.org/news/building-a-clean-power-alliance/",
+            "publisher": "e3g.org",
+            "title": "e3g.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Energy Bills:** Labour projects that a cheaper, zero-carbon electricity system by 2030 could save UK households \u00a393 billion over the rest of the decade, potentially reducing annual household bills by up to \u00a31,400",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "They also cite research suggesting that decarbonisation could cut energy bills by an average of \u00a3300 per year",
+        "sources": [
+          {
+            "url": "https://assets.kpmg.com/content/dam/kpmgsites/uk/pdf/2024/07/what-does-a-labour-government-mean-for-energy-and-utilities.pdf",
+            "publisher": "assets.kpmg.com",
+            "title": "kpmg.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This is based on renewables being significantly cheaper than gas, with gas prices last summer being nine times higher than renewables",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Job Creation:** The policy is expected to create over 200,000 direct jobs and up to 300,000 indirect jobs in clean power across the UK, with an almost doubling of low-carbon jobs in Scotland, supporting 50,000 positions",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Investment:** Labour plans to invest an additional \u00a323.7 billion over five years to support the transition to net zero",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF5SFxTI1Par9eGK42zn6_Qo9AsvBP_mhPhOJXJlGV6ooKVFsvyzxU2UlQekLK0LXqXpwplNE3SIKY9SsX_euwsL_7hVmnk_RIDNiB3f5a7Zl2OOrVJ7LtZkU-YTm-DkUT-8e-4Z5OtfDvVUtEkx0W2wkA6IAWDmXFml1KE3LQXTFGm1bxUxW2MzkUdSQ=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This includes an \u00a38.3 billion initial capitalisation for a new state-owned energy company, Great British Energy, which aims to catalyse private investment in nascent technologies like floating offshore wind and tidal, and support community renewable projects",
+        "sources": [
+          {
+            "url": "https://assets.kpmg.com/content/dam/kpmgsites/uk/pdf/2024/07/what-does-a-labour-government-mean-for-energy-and-utilities.pdf",
+            "publisher": "assets.kpmg.com",
+            "title": "kpmg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbi.org.uk/articles/labour-s-green-prosperity-plan-what-s-changed/",
+            "publisher": "cbi.org.uk",
+            "title": "cbi.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/interactive-labour-governments-in-tray-for-climate-change-energy-and-nature/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "An additional \u00a37.3 billion is allocated through a National Wealth Fund to invest in areas like ports, green hydrogen, green steel, industrial clusters, and gigafactories, with the goal of attracting at least \u00a33 of private funding for every \u00a31 of public investment",
+        "sources": [
+          {
+            "url": "https://assets.kpmg.com/content/dam/kpmgsites/uk/pdf/2024/07/what-does-a-labour-government-mean-for-energy-and-utilities.pdf",
+            "publisher": "assets.kpmg.com",
+            "title": "kpmg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbi.org.uk/articles/labour-s-green-prosperity-plan-what-s-changed/",
+            "publisher": "cbi.org.uk",
+            "title": "cbi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Supply Chains:** The alliance aims to strengthen global supply chains for clean energy, ensuring resilient supply and promoting inclusive participation from emerging markets and developing economies (EMDEs)",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/global-clean-power-alliance-supply-chains-mission-vision/global-clean-power-alliance-supply-chains-mission-vision",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://growthgateway.campaign.gov.uk/impact-and-case-studies/intervention-case-studies/gcpa-2/",
+            "publisher": "growthgateway.campaign.gov.uk",
+            "title": "campaign.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This includes de-risking financing, partnering on skills and technology access, and enabling engagement in global supply chain development",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/global-clean-power-alliance-supply-chains-mission-vision/global-clean-power-alliance-supply-chains-mission-vision",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Investment Levels:** The IFS notes that Labour's proposed \u00a323.7 billion additional investment over five years for net zero is less than half of the additional investment the OBR estimated would be required over the same period for an \"early action scenario\" consistent with the Climate Change Committee's recommendations in 2021",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF5SFxTI1Par9eGK42zn6_Qo9AsvBP_mhPhOJXJlGV6ooKVFsvyzxU2UlQekLK0LXqXpwplNE3SIKY9SsX_euwsL_7hVmnk_RIDNiB3f5a7Zl2OOrVJ7LtZkU-YTm-DkUT-8e-4Z5OtfDvVUtEkx0W2wkA6IAWDmXFml1KE3LQXTFGm1bxUxW2MzkUdSQ=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Fiscal Impact:** The IFS also states that this additional borrowing, while a genuine boost to public investment, would still leave total public investment spending on a falling path in real terms and as a share of national income over the next parliament",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF5SFxTI1Par9eGK42zn6_Qo9AsvBP_mhPhOJXJlGV6ooKVFsvyzxU2UlQekLK0LXqXpwplNE3SIKY9SsX_euwsL_7hVmnk_RIDNiB3f5a7Zl2OOrVJ7LtZkU-YTm-DkUT-8e-4Z5OtfDvVUtEkx0W2wkA6IAWDmXFml1KE3LQXTFGm1bxUxW2MzkUdSQ=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "They highlight that this borrowing might only just be consistent with Labour's fiscal rule to have debt falling in the fifth year of the forecast, depending on future OBR forecasts",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF5SFxTI1Par9eGK42zn6_Qo9AsvBP_mhPhOJXJlGV6ooKVFsvyzxU2UlQekLK0LXqXpwplNE3SIKY9SsX_euwsL_7hVmnk_RIDNiB3f5a7Zl2OOrVJ7LtZkU-YTm-DkUT-8e-4Z5OtfDvVUtEkx0W2wkA6IAWDmXFml1KE3LQXTFGm1bxUxW2MzkUdSQ=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Energy Bill Impact:** While Labour claims lower bills, opposing views suggest that efforts to accelerate decarbonisation could lead to higher taxes and energy bills",
+        "sources": [
+          {
+            "url": "https://www.businessgreen.com/news/4331245/clean-power-alliance-labour-promises-climate-diplomacy-reset",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Some analyses claim that increasing carbon taxes has already increased electricity bills by \u00a34 billion, or over \u00a3100 per year for average electricity bills, with impact assessments admitting that higher carbon taxes will be passed on to consumers",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Jses7zh967Y",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They advocate for engaging major emerging markets and developing economies like Indonesia, India, Nigeria, and Vietnam to maximise its impact",
+        "sources": [
+          {
+            "url": "https://www.e3g.org/news/building-a-clean-power-alliance/",
+            "publisher": "e3g.org",
+            "title": "e3g.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "E3G also suggests leveraging existing alliances like the Powering Past Coal Alliance (PPCA) and the Energy Transition Council (ETC)",
+        "sources": [
+          {
+            "url": "https://www.e3g.org/news/building-a-clean-power-alliance/",
+            "publisher": "e3g.org",
+            "title": "e3g.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Labour's international development policy focuses on strengthening expertise within the Foreign, Commonwealth & Development Office (FCDO) in priority areas such as economic transformation, debt, women and girls, conflict prevention, and climate finance",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/britain-reconnected/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "A key commitment is to restore development spending to 0.7% of Gross National Income (GNI) when fiscal circumstances allow, alongside delivering value for money",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/britain-reconnected/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **FCDO Expertise:** Labour aims to renew expertise within the FCDO",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/britain-reconnected/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The House of Commons International Development Committee, however, raised concerns in April 2026, warning that the government's \"FCDO 2030\" reform program, which includes planned staff reductions of between 15% and 25%, means there are \"significant gaps\" and currently only a \"skeleton\" of the government's plans for its new approach",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbu5yY1p1ratnTGMrJ6BepvjU5daECe9Zt3scXmrfF6-jjx86EsMJtPaetVzz417x2geIsNLBLE4bd-CHuz2NrAOZF12cgHR-Odn1rGGQBkPcd-jnENd1Tjb0AtzkW6OPOYTawiZoYxrhMSumEUizB4AFrjLi6ujY4-_oYE49iDIy1PkwZg88t",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "devex.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **0.7% GNI Target:** The UK legally committed to spending 0.7% of GNI on Official Development Assistance (ODA) in 2015",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn03714/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://icai.independent.gov.uk/html-version/rapid-review-management-of-the-0-7-oda-spending-target/",
+            "publisher": "icai.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "This target was temporarily reduced to 0.5% in 2021 due to the economic impact of the COVID-19 pandemic",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn03714/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-sets-out-conditions-for-returning-to-07-aid-target",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Current and Future Spending:** In 2023, UK aid spending was 0.58% of GNI",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn03714/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "In 2025, it is projected to remain at 0.5% of GNI",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/the-uk-and-international-development-global-issues-for-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Restoration Conditions:** Labour commits to restoring the 0.7% target when the independent OBR forecasts that the UK is not borrowing to finance day-to-day spending and underlying debt is falling on a sustainable basis",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-sets-out-conditions-for-returning-to-07-aid-target",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Expert Disagreement/Policy Shift:** The House of Commons Library reported in January 2025 that these fiscal tests are \"not projected to be met during the current Parliament,\" meaning the return to 0.7% is not expected in this parliamentary term",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/the-uk-and-international-development-global-issues-for-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "More recent reports from March and April 2025/2026 indicate a further planned cut to 0.3% of GNI by 2027 to fund increased defence spending, marking another breach of the legally enshrined 0.7% target with no prospect of hitting it this Parliament",
+        "sources": [
+          {
+            "url": "https://www.hansardsociety.org.uk/blog/international-aid-target-legislative-failure",
+            "publisher": "hansardsociety.org.uk",
+            "title": "hansardsociety.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/topic/world-affairs/institutions/international-development/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Climate Finance:** Labour commits to providing \u00a311.6 billion in international climate finance between 2021 and 2026",
+        "sources": [
+          {
+            "url": "https://www.climatechangenews.com/2024/06/27/uks-labour-promises-climate-solidarity-with-developing-nations-but-no-new-cash/",
+            "publisher": "climatechangenews.com",
+            "title": "climatechangenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "However, this figure is the same as the previous Conservative government's commitment",
+        "sources": [
+          {
+            "url": "https://www.climatechangenews.com/2024/06/27/uks-labour-promises-climate-solidarity-with-developing-nations-but-no-new-cash/",
+            "publisher": "climatechangenews.com",
+            "title": "climatechangenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Shadow Foreign Secretary David Lammy has expressed support for green reforms of the global financial system, but critics like Claudio Angelo from Brazil's Climate Observatory note that Labour \"doesn't seem to offer anything new on climate finance\"",
+        "sources": [
+          {
+            "url": "https://www.climatechangenews.com/2024/06/27/uks-labour-promises-climate-solidarity-with-developing-nations-but-no-new-cash/",
+            "publisher": "climatechangenews.com",
+            "title": "climatechangenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The global community is currently debating a new post-2025 goal for international climate finance at COP29 in November, with developing nations proposing targets of $1.1-$1.3 trillion a year",
+        "sources": [
+          {
+            "url": "https://www.climatechangenews.com/2024/06/27/uks-labour-promises-climate-solidarity-with-developing-nations-but-no-new-cash/",
+            "publisher": "climatechangenews.com",
+            "title": "climatechangenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Focus Areas:** The renewed focus on areas like women and girls, economic transformation, debt, and conflict prevention is broadly consistent with established development goals",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/britain-reconnected/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/the-uk-and-international-development-global-issues-for-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "However, the capacity to deliver on these ambitions is inherently linked to the FCDO's capabilities and overall funding levels",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbRaOOT5usfreZgyLsMguC6me-3HS0jR7Hyci44k1al816w5F7UqHY3IEiTE5MivER1ZKXwUm2ODxZzRtg8lott5Wa2PEA21SKrErP0ZOtYS3HyRRcynGbtOCn1ng51yLERS5wVw6m8lbJYuf0vZq-cgKyUqvb7pS7nx_vPGYyL-c4FeYcCea1JbdD6Yt0Tzhb4sqm8lvbpmfTZ1NoPl8of6VcuYHoTXfRQA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "cgdev.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/the-uk-and-international-development-global-issues-for-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbu5yY1p1ratnTGMrJ6BepvjU5daECe9Zt3scXmrfF6-jjx86EsMJtPaetVzz417x2geIsNLBLE4bd-CHuz2NrAOZF12cgHR-Odn1rGGQBkPcd-jnENd1Tjb0AtzkW6OPOYTawiZoYxrhMSumEUizB4AFrjLi6ujY4-_oYE49iDIy1PkwZg88t",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "devex.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Some analysts also suggest that the 0.7% target itself is \"increasingly irrelevant\" and that the focus should shift to improving the effectiveness of aid rather than solely on the proportional target",
+        "sources": [
+          {
+            "url": "https://www.birmingham.ac.uk/research/perspective/foreign-aid-jiesheng-li-2",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      }
+    ]
+  }
+}

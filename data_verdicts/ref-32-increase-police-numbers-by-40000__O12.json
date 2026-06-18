@@ -1,0 +1,431 @@
+{
+  "policy_id": "ref-32-increase-police-numbers-by-40000",
+  "party": "Reform UK",
+  "policy_title": "Increase police numbers by 40,000",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Adding 40,000 police officers would cost well over a billion pounds a year with no stated funding source, worsening the public finances unless offset elsewhere. The policy text names no tax rise, spending cut, or borrowing rule to pay for it.",
+    "biggest_unknown": "Whether the policy is accompanied by a credible offsetting fiscal measure \u2014 if funded, the verdict would change substantially.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to recruiting 40,000 additional front-line officers over one parliament with no stated funding mechanism.",
+        "evidence_id": "M",
+        "quote": "adding 40,000 new front-line officers over a five-year parliament"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The IFS costed a 10,000-officer pledge at \u00a3300 million, implying 40,000 officers would cost roughly \u00a31.2 billion or more.",
+        "evidence_id": "E11",
+        "quote": "the Institute for Fiscal Studies (IFS) noted that the Labour Party's pledge to recruit 10,000 additional police officers by 2021-22 was costed at \u00a3300 million"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Police funding combines central government grants and local council tax precepts, so a major expansion has implications for both central borrowing and local tax burdens.",
+        "evidence_id": "E12",
+        "quote": "Police funding is derived from a combination of central government grants and local council tax precepts"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Maintaining net officer numbers requires offsetting a high leaver rate; around 8,795 officers left in the year to March 2025, meaning gross recruitment must substantially exceed the 40,000 net target.",
+        "evidence_id": "E8",
+        "quote": "In the year ending March 31, 2025, 8,795 FTE police officers left the 43 territorial police forces in England and Wales, representing a leaver rate of 6.0%"
+      },
+      {
+        "tier": "projected",
+        "claim": "A substantial increase in officer numbers would require a review of the police funding formula, adding further fiscal complexity.",
+        "evidence_id": "E14",
+        "quote": "Any substantial increase in officer numbers would necessitate a review of the police funding formula, which has seen a pronounced shift towards local precept funding since 2015-16"
+      }
+    ],
+    "rationale": "The policy commits to a large, specific workforce expansion \u2014 40,000 officers over five years \u2014 but the stated text contains no funding mechanism: no identified tax rise, spending reallocation, or borrowing rule. Scaling from the IFS estimate for a 10,000-officer pledge (\u00a3300m), a 40,000-officer commitment implies a recurring cost of roughly \u00a31.2bn annually or more at today's prices, making this a significant unfunded spending commitment. The high leaver rate (~8,800 per year in England and Wales alone) means gross recruitment must be substantially higher than the net 40,000 figure to achieve the stated per-capita target, which amplifies the fiscal pressure. Police funding draws on both central grants and local precepts, so the burden could land on central borrowing, council tax, or both \u2014 in any scenario adding to fiscal pressure without identified offsets. Under the O12 rubric, unfunded spending that increases the deficit and adds to the debt path worsens public finances for the next generation. There is no evidence in the provided units of a credible fiscal offset. The magnitude is rated moderate rather than major because the ~\u00a31.2bn annual figure, while large in absolute terms, represents a manageable fraction of total public expenditure \u2014 material but not transformative to the overall debt path. If the policy were paired with identified funding (cuts elsewhere or new revenue), the verdict would change; absent that, the direction is clearly a worsening of O12.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://ifs.org.uk/sites/default/files/output_url_files/bn208.pdf",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.governmentevents.co.uk/ge-insights/managing-uk-police-finance-effectively-current-budgets-initiatives-and-grants/",
+        "publisher": "governmentevents.co.uk",
+        "title": "governmentevents.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-31-march-2025/police-workforce-england-and-wales-31-march-2025",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.police-foundation.org.uk/2024/07/now-is-the-best-opportunity-to-reform-the-police-funding-formula/",
+        "publisher": "police-foundation.org.uk",
+        "title": "police-foundation.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0428,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "Claim 2 is labelled 'measurable' but the key figure \u2014 '40,000 officers would cost roughly \u00a31.2 billion or more' \u2014 is the analyst's linear extrapolation from the IFS \u00a3300m estimate, not a figure the IFS itself produced. The IFS quote (E11) is measurable; the fourfold scaling is a projected calculation and should be flagged as such, or the claim should be split so the extrapolation carries a 'projected' tier."
+        }
+      ],
+      "notes": "The verdict is otherwise well-constructed. The core logic \u2014 unfunded spending commitment worsens O12 \u2014 is directly supported by the stated policy text and the IFS baseline. The leaver-rate point (E8) correctly amplifies the gross-cost argument. No party-blind, lever-leakage, false-balance, or magnitude-timing issues detected. The one tier-integrity warning does not block publication but should be corrected for transparency."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will commence recruitment to increase UK per capita police numbers to 300 per 100,000 population, adding 40,000 new front-line officers over a five-year parliament.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "As of September 30, 2025, there were 145,550 full-time equivalent (FTE) police officers in the 43 territorial police forces in England and Wales, which translates to 235 officers per 100,000 resident population",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-30-september-2025/police-workforce-england-and-wales-30-september-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Including British Transport Police, Central Service Secondments, and officers in Scotland and Northern Ireland, the total number of police officers in the United Kingdom was 169,348 as of March 31, 2025",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN00634/SN00634.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn00634/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "England and Wales currently have one of the lowest officer-to-population ratios in Europe",
+        "sources": [
+          {
+            "url": "https://www.politics.co.uk/reference/police-numbers-and-recruitment/",
+            "publisher": "politics.co.uk",
+            "title": "politics.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://policinginsight.com/feature/analysis/the-thinning-blue-line-police-numbers-and-the-impact-on-crime-in-society/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://policeprofessional.com/news/england-and-wales-have-fewer-police-officers-than-any-major-european-nation/",
+            "publisher": "policeprofessional.com",
+            "title": "policeprofessional.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "For example, in 2022, England and Wales had 228 officers per 100,000 people, compared to Scotland's 316, France's 332, and Germany's 298, while the European average across 32 nations was 357",
+        "sources": [
+          {
+            "url": "https://policeprofessional.com/news/england-and-wales-have-fewer-police-officers-than-any-major-european-nation/",
+            "publisher": "policeprofessional.com",
+            "title": "policeprofessional.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The UK has recent experience with large-scale police recruitment through the Police Uplift Programme, which successfully recruited 20,000 additional officers in England and Wales between September 2019 and March 2023",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZhh39H65Zxh6R689999RL0SDqDywYOfcXd9mys2oj18St2kYkeGM36nsohwP76pZj2-pQ6olLf4-OyvXIMH-gt-7VkHoGIja3IG_BkrD9aZXCFj8BN9hyRXo-FVNeFppI1GgO1JJwc2HBxoHS8H96zFPkOXUfjA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/news/latest-news/2023/police-uplift-programme-a-flawed-success-story/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This program required recruiting approximately 50,000 officers over three years to offset departures due to retirements and resignations",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/reports/the-police-uplift-programme/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Police Federation of England and Wales (PFEW) has highlighted that to genuinely achieve an \"uplift,\" recruitment would need to continue at a substantial pace due to ongoing leavers",
+        "sources": [
+          {
+            "url": "https://polfed.org/news/latest-news/2023/police-uplift-programme-a-flawed-success-story/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "In the year ending March 31, 2025, 8,795 FTE police officers left the 43 territorial police forces in England and Wales, representing a leaver rate of 6.0%",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-31-march-2025/police-workforce-england-and-wales-31-march-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Voluntary resignations accounted for 42% of all leavers in 2022, and this figure has been increasing year-on-year",
+        "sources": [
+          {
+            "url": "https://polfed.org/news/latest-news/2023/police-uplift-programme-a-flawed-success-story/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "A 2023 survey of new recruits found a decrease in job satisfaction and support compared to 2021, with long-term career intentions being lower among new officers from minority ethnic backgrounds and those over 40 years of age",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/police-uplift-programme-new-recruits-onboarding-survey-2023/police-uplift-programme-new-recruits-onboarding-survey-2023-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "While the precise cost for this specific proposal is not available, the Institute for Fiscal Studies (IFS) noted that the Labour Party's pledge to recruit 10,000 additional police officers by 2021-22 was costed at \u00a3300 million",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/bn208.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Police funding is derived from a combination of central government grants and local council tax precepts",
+        "sources": [
+          {
+            "url": "https://www.governmentevents.co.uk/ge-insights/managing-uk-police-finance-effectively-current-budgets-initiatives-and-grants/",
+            "publisher": "governmentevents.co.uk",
+            "title": "governmentevents.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Office for Budget Responsibility (OBR) provides forecasts for GDP deflators used in police funding statistics, which are crucial for real-terms comparisons",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/police-funding-for-england-and-wales-2015-to-2026/police-funding-for-england-and-wales-2015-to-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/statistics/police-funding-for-england-and-wales-2015-to-2025/police-funding-for-england-and-wales-2015-to-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/police-funding-for-england-and-wales-user-guide/police-funding-for-england-and-wales-user-guide",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Any substantial increase in officer numbers would necessitate a review of the police funding formula, which has seen a pronounced shift towards local precept funding since 2015-16",
+        "sources": [
+          {
+            "url": "https://www.police-foundation.org.uk/2024/07/now-is-the-best-opportunity-to-reform-the-police-funding-formula/",
+            "publisher": "police-foundation.org.uk",
+            "title": "police-foundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Research cited by the College of Policing indicates a stronger potential association for property and acquisitive crime, with one estimate suggesting a 10% increase in officers could be linked to a 3% reduction in property crime",
+        "sources": [
+          {
+            "url": "https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/what-works-the-impact-of-police-numbers-on-crime-rates.pdf",
+            "publisher": "assets-hmicfrs.justiceinspectorates.gov.uk",
+            "title": "justiceinspectorates.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The Social Market Foundation (SMF) has argued that the \"relative lack of police personnel\" in England and Wales contributes to falling public confidence and a failure to tackle evolving crime types like fraud",
+        "sources": [
+          {
+            "url": "https://policinginsight.com/feature/analysis/the-thinning-blue-line-police-numbers-and-the-impact-on-crime-in-society/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://policeprofessional.com/news/england-and-wales-have-fewer-police-officers-than-any-major-european-nation/",
+            "publisher": "policeprofessional.com",
+            "title": "policeprofessional.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The National Audit Office (NAO), while confirming the Police Uplift Programme was on track for recruitment, noted that the benefits in reducing crime and improving public safety would depend on a complex range of factors beyond just officer numbers and would take several years to materialise",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/reports/the-police-uplift-programme/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Importance of Deployment over Numbers:** Conversely, a recent British study examining data from 42 police forces over 13 years concluded that the absolute number of police officers appears \"unrelated to crime rates or trends,\" but rather, *how* police are deployed is crucial",
+        "sources": [
+          {
+            "url": "https://johnhoward.ca/blog/how-police-work-more-important-than-how-many-there-are/",
+            "publisher": "johnhoward.ca",
+            "title": "johnhoward.ca",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The College of Policing similarly notes that simply increasing numbers without considering how officers use their time may not be effective, suggesting that crime could be reduced by spending more time on effective activities",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Reduction:** An important nuance highlighted by research is that higher numbers of police can not only reduce crime rates but also increase the share of crime, particularly violent crime, that is reported and recorded in police statistics",
+        "sources": [
+          {
+            "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/666614",
+            "publisher": "journals.uchicago.edu",
+            "title": "uchicago.edu",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They highlight that a significant portion of crime is attributed to repeat offenders (e.g., 10% of offenders are responsible for approximately half of all crimes)",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/reformuk/comments/1htce5e/reform_want_to_recruit_40000_new_front_line/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "From this perspective, more police might just lead to arresting the same individuals repeatedly if there are insufficient prison spaces or reforms within the justice system to deter reoffending",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/reformuk/comments/1htce5e/reform_want_to_recruit_40000_new_front_line/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

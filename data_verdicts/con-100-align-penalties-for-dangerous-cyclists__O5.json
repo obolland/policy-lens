@@ -1,0 +1,623 @@
+{
+  "policy_id": "con-100-align-penalties-for-dangerous-cyclists",
+  "party": "Conservative",
+  "policy_title": "Align Penalties for Dangerous Cyclists",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy aligns penalties for dangerous cyclists with those for drivers, closing a genuine legal gap \u2014 but cyclist-caused fatalities are extremely rare (averaging 3 pedestrian deaths per year), so the real-world safety impact on streets is very small. The reform addresses a fairness concern in the justice system more than it moves the needle on overall road safety.",
+    "biggest_unknown": "Whether stronger deterrence changes cyclist behaviour enough to reduce the already tiny number of serious incidents, or whether the reform is primarily symbolic given the scale of the problem.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would bring penalties for dangerous cyclists who kill or injure into line with those for other road users.",
+        "evidence_id": "M",
+        "quote": "bring penalties for dangerous cyclists who kill or injure into line with those for other road users"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Over the past decade, an average of only 3 pedestrians were killed per year by a cyclist.",
+        "evidence_id": "E11",
+        "quote": "Over the past decade, an average of 3 pedestrians were killed per year by a cyclist."
+      },
+      {
+        "tier": "measurable",
+        "claim": "In contrast, 1,766 people died and almost 29,000 were seriously injured on UK roads overall in 2022.",
+        "evidence_id": "E12",
+        "quote": "in 2022, 1,766 people died and almost 29,000 were seriously injured on UK roads overall"
+      },
+      {
+        "tier": "projected",
+        "claim": "The new legislation introduces causing death by dangerous cycling carrying a maximum of life imprisonment, equivalent to penalties for motor vehicle drivers.",
+        "evidence_id": "E5",
+        "quote": "The new penalties are now equivalent to those for motor vehicle drivers causing similar harm, where causing death by dangerous driving can also result in life imprisonment"
+      },
+      {
+        "tier": "projected",
+        "claim": "The government asserts the measures will make streets safer for pedestrians.",
+        "evidence_id": "E10",
+        "quote": "The government asserts that the new measures will \"make our streets safer for pedestrians\""
+      },
+      {
+        "tier": "projected",
+        "claim": "An expert noted that more people are killed by cows or lightning annually than by cyclists, suggesting the legislative focus may be disproportionate to the overall road safety challenge.",
+        "evidence_id": "E14",
+        "quote": "more people are killed by cows or lightning annually than by cyclists, suggesting the focus on this specific legislation might be disproportionate to the overall road safety challenge"
+      }
+    ],
+    "rationale": "The policy closes a real gap in the justice framework: prior law offered only a two-year maximum under an 1861 statute for cyclist-caused harm, while equivalent driving offences could attract life imprisonment. Aligning these penalties improves the justice system's proportionality for victims of dangerous cycling \u2014 a measurable improvement to how justice works (an O5 indicator). However, the protective safety effect on streets is extremely limited. With an average of only 3 pedestrian deaths per year caused by cyclists, versus 1,766 road deaths overall, the population-scale impact on crime rates or safety is negligible. The counterfactual \u2014 streets without this policy \u2014 differs barely at all in terms of pedestrian safety outcomes. The reform is primarily a justice-system correction rather than a safety intervention. Expert commentary (flagged as advocacy-adjacent) suggests the scale is disproportionate to the broader road safety challenge, but that framing does not change the basic arithmetic: the universe of affected incidents is tiny. The direction is therefore negligible on O5's core indicators (crime rates, antisocial behaviour, safety), with a marginal positive on court/sentencing adequacy for a very small category of cases. Magnitude is set to minor rather than negligible to acknowledge the genuine legal gap closed, but confidence is moderate given the small evidence base and absence of deterrence data.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://road.cc/content/news/new-dangerous-cycling-laws-are-way-316025",
+        "publisher": "road.cc",
+        "title": "road.cc",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.brake.org.uk/how-we-help/raising-awareness/our-current-projects/news-and-blogs/brake-responds-to-change-in-sentencing-for-dangerous-cyclists",
+        "publisher": "brake.org.uk",
+        "title": "brake.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.brake.org.uk/get-involved/take-action/mybrake/knowledge-centre/driver-penalties",
+        "publisher": "brake.org.uk",
+        "title": "brake.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://scarsdalesolicitors.com/causing-death-dangerous-driving-sentencing/",
+        "publisher": "scarsdalesolicitors.com",
+        "title": "scarsdalesolicitors.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.keepmeontheroad.co.uk/blog/life-sentences-death-by-dangerous-driving/",
+        "publisher": "keepmeontheroad.co.uk",
+        "title": "keepmeontheroad.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/new-laws-to-be-introduced-to-prosecute-dangerous-cyclists",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nvlegal.co.uk/new-law-targets-dangerous-cyclists/",
+        "publisher": "nvlegal.co.uk",
+        "title": "nvlegal.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0322,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their quoted evidence. Tier assignments are appropriate: E11/E12 are measurable baselines, E5/E10/E14 are correctly marked projected. The magnitude/time_horizon are consistent with a negligible direction (minor magnitude is borderline but defensible given the justice-system dimension). No lever leakage, no party-blind issues, no false balance \u2014 the verdict correctly cites both government and sceptical expert views. E14 (Boardman/brake.org.uk) is advocacy-adjacent and is used only as corroborating colour, not as the sole basis for the verdict. The core arithmetic rests on government statistics (E11, E12). No blocking issues found."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will bring penalties for dangerous cyclists who kill or injure into line with those for other road users.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This change, largely introduced through the Crime and Policing Act 2026, aims to close a perceived gap in the legal framework for cycling offences.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.majlaw.co.uk/tools/news/general-law/new-dangerous-cycling-offences-explained-what-the-law-means-for-cyclists-and-pedestrians/",
+            "publisher": "majlaw.co.uk",
+            "title": "majlaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://road.cc/news/new-dangerous-cycling-law-granted-royal-assent",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01097/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-laws-to-be-introduced-to-prosecute-dangerous-cyclists",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-dangerous-cycling-offences-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://road.cc/content/news/new-dangerous-cycling-laws-are-way-316025",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The new legislation introduces four specific offences under the Road Traffic Act 1988:\n*   **Causing death by dangerous cycling:** Carries a maximum penalty of life imprisonment",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.majlaw.co.uk/tools/news/general-law/new-dangerous-cycling-offences-explained-what-the-law-means-for-cyclists-and-pedestrians/",
+            "publisher": "majlaw.co.uk",
+            "title": "majlaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://road.cc/news/new-dangerous-cycling-law-granted-royal-assent",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01097/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-dangerous-cycling-offences-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://road.cc/content/news/new-dangerous-cycling-laws-are-way-316025",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "In a magistrates' court, the maximum is currently 12 months imprisonment",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.majlaw.co.uk/tools/news/general-law/new-dangerous-cycling-offences-explained-what-the-law-means-for-cyclists-and-pedestrians/",
+            "publisher": "majlaw.co.uk",
+            "title": "majlaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://road.cc/news/new-dangerous-cycling-law-granted-royal-assent",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-dangerous-cycling-offences-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://road.cc/content/news/new-dangerous-cycling-laws-are-way-316025",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "An older 1861 law, \"wanton and furious driving,\" which applied if bodily harm was caused by a cyclist, carried a maximum penalty of two years' imprisonment.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.majlaw.co.uk/tools/news/general-law/new-dangerous-cycling-offences-explained-what-the-law-means-for-cyclists-and-pedestrians/",
+            "publisher": "majlaw.co.uk",
+            "title": "majlaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eta.co.uk/news/a-no-nonsense-guide-to-cycling-and-uk-law",
+            "publisher": "eta.co.uk",
+            "title": "eta.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/cyclists-and-the-law/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-dangerous-cycling-offences-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The new penalties are now equivalent to those for motor vehicle drivers causing similar harm, where causing death by dangerous driving can also result in life imprisonment for offences committed since June 28, 2022.",
+        "sources": [
+          {
+            "url": "https://www.brake.org.uk/get-involved/take-action/mybrake/knowledge-centre/driver-penalties",
+            "publisher": "brake.org.uk",
+            "title": "brake.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://scarsdalesolicitors.com/causing-death-dangerous-driving-sentencing/",
+            "publisher": "scarsdalesolicitors.com",
+            "title": "scarsdalesolicitors.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.keepmeontheroad.co.uk/blog/life-sentences-death-by-dangerous-driving/",
+            "publisher": "keepmeontheroad.co.uk",
+            "title": "keepmeontheroad.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The government's motivation stems from a belief that previous penalties were inadequate for serious or fatal incidents involving cyclists, particularly when compared to those for drivers.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.majlaw.co.uk/tools/news/general-law/new-dangerous-cycling-offences-explained-what-the-law-means-for-cyclists-and-pedestrians/",
+            "publisher": "majlaw.co.uk",
+            "title": "majlaw.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Transport Secretary, Mark Harper, stated that while most cyclists are responsible, the \"tiny minority who recklessly disregard others\" should face the full weight of the law.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/news/article/2024/may/15/uk-to-introduce-new-offence-of-causing-death-or-injury-by-dangerous-cycling",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-laws-to-be-introduced-to-prosecute-dangerous-cyclists",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nvlegal.co.uk/new-law-targets-dangerous-cyclists/",
+            "publisher": "nvlegal.co.uk",
+            "title": "nvlegal.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The policy also addresses a perceived \"critical gap\" in road safety regulations",
+        "sources": [
+          {
+            "url": "https://www.nvlegal.co.uk/new-law-targets-dangerous-cyclists/",
+            "publisher": "nvlegal.co.uk",
+            "title": "nvlegal.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The campaign for legislative change gained significant traction following high-profile cases, such as the death of Kim Briggs in 2016, where existing laws were deemed insufficient to secure appropriate convictions.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/cyclists-and-the-law/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/news/article/2024/may/15/uk-to-introduce-new-offence-of-causing-death-or-injury-by-dangerous-cycling",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oxfordmail.co.uk/news/national/24323261.death-dangerous-cycling-offence-backed-commons/",
+            "publisher": "oxfordmail.co.uk",
+            "title": "oxfordmail.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/news/2025/apr/24/death-by-dangerous-cycling-crime-policing-bill",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Impact on Road Safety:**\n*   **Government View:** The government asserts that the new measures will \"make our streets safer for pedestrians\" and protect \"law-abiding cyclists, pedestrians and other road users\".",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-laws-to-be-introduced-to-prosecute-dangerous-cyclists",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nvlegal.co.uk/new-law-targets-dangerous-cyclists/",
+            "publisher": "nvlegal.co.uk",
+            "title": "nvlegal.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://road.cc/content/news/new-dangerous-cycling-laws-are-way-316025",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Over the past decade, an average of 3 pedestrians were killed per year by a cyclist.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://road.cc/content/news/new-dangerous-cycling-laws-are-way-316025",
+            "publisher": "road.cc",
+            "title": "road.cc",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "In contrast, in 2022, 1,766 people died and almost 29,000 were seriously injured on UK roads overall.",
+        "sources": [
+          {
+            "url": "https://www.brake.org.uk/how-we-help/raising-awareness/our-current-projects/news-and-blogs/brake-responds-to-change-in-sentencing-for-dangerous-cyclists",
+            "publisher": "brake.org.uk",
+            "title": "brake.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "A significant majority of cycling accidents (over 75% in 2022) involve another vehicle, often due to drivers failing to see cyclists or unsafe passing distances.",
+        "sources": [
+          {
+            "url": "https://cycle-legal.co.uk/blog/cycling-accident-statistics-UK",
+            "publisher": "cycle-legal.co.uk",
+            "title": "cycle-legal.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Expert Disagreement:** Chris Boardman, Commissioner of Active Travel England, has highlighted the disparity, noting that more people are killed by cows or lightning annually than by cyclists, suggesting the focus on this specific legislation might be disproportionate to the overall road safety challenge.",
+        "sources": [
+          {
+            "url": "https://www.brake.org.uk/how-we-help/raising-awareness/our-current-projects/news-and-blogs/brake-responds-to-change-in-sentencing-for-dangerous-cyclists",
+            "publisher": "brake.org.uk",
+            "title": "brake.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Road safety charity Brake, while welcoming \"robust and fair sentencing for any road user who kills or harms through reckless behaviour,\" also urges the Department for Transport to publish a comprehensive Road Safety Strategy to address broader issues, such as speeding by motorists, which they state is a \"significant contributor to deaths or serious injuries on roads.\"",
+        "sources": [
+          {
+            "url": "https://www.brake.org.uk/how-we-help/raising-awareness/our-current-projects/news-and-blogs/brake-responds-to-change-in-sentencing-for-dangerous-cyclists",
+            "publisher": "brake.org.uk",
+            "title": "brake.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.marshall-leasing.co.uk/blog/10/death_by_dangerous_cycling_to_become_a_criminal_offence_in_the_uk",
+            "publisher": "marshall-leasing.co.uk",
+            "title": "marshall-leasing.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Impact on Legal Outcomes and Sentencing:**\n*   The new laws aim to provide courts with the power to impose sentences equivalent to those for dangerous driving offences.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-dangerous-cycling-offences-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "This raises questions about whether cyclists will face more stringent accountability than drivers have historically received, even with the expanded legal powers.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=SaCm1mtfUkM",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Impact on Cycling Behaviour and Broader Road Safety Policy:**\n*   The government clarifies that the new laws do not criminalize new behaviours but rather align penalties for existing offences.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-factsheets/crime-and-policing-act-2026-dangerous-cycling-offences-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Cycling UK**, a cycling charity, has criticised the policy as a \"kneejerk plan\"",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/cyclists-and-the-law/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "and \"tinkering at the edges of reform\"",
+        "sources": [
+          {
+            "url": "https://www.marshall-leasing.co.uk/blog/10/death_by_dangerous_cycling_to_become_a_criminal_offence_in_the_uk",
+            "publisher": "marshall-leasing.co.uk",
+            "title": "marshall-leasing.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They argue for a wider, holistic review of road traffic laws and penalties, encompassing issues like e-scooters and other micro-mobility, rather than isolated changes.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/cyclists-and-the-law/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.marshall-leasing.co.uk/blog/10/death_by_dangerous_cycling_to_become_a_criminal_offence_in_the_uk",
+            "publisher": "marshall-leasing.co.uk",
+            "title": "marshall-leasing.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   Chris Boardman also expressed concern that the new laws could potentially deter people from cycling.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/news/2025/apr/24/death-by-dangerous-cycling-crime-policing-bill",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The ONS provides general cycling casualty statistics, which inform the background to the debate.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/692f08eda245b0985f03441f/Equalities_impact_assessment_-_dangerous_cycling_offences__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/statistics/reported-road-casualties-great-britain-pedal-cyclist-factsheet-2024/reported-road-casualties-in-great-britain-pedal-cycle-factsheet-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "policy_id": "ref-68-incentivise-use-of-new-construction-technology",
+  "party": "Reform UK",
+  "policy_title": "Incentivise use of new construction technology",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "The policy expresses an intention to incentivise construction technology but names no committed budget, tax instrument, or statutory mechanism, so there is no evidenced pathway to the productivity gains the underlying technologies can deliver. Without a concrete lever, the policy is unlikely to move living standards at population scale.",
+    "biggest_unknown": "What specific incentive instrument (tax relief, procurement mandate, capital grant) would be introduced, and at what scale \u2014 this determines whether the productivity benefits of MMC and digital tools are actually unlocked.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to incentivising innovation via modular construction, digital technology, and efficiency improvements, but specifies no concrete instrument, budget, or target.",
+        "evidence_id": "M",
+        "quote": "Reform UK will incentivise innovation in construction to speed up building through modular construction, digital technology, and building sites that improve efficiency and cut waste."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Construction productivity in the UK currently remains below the UK average, indicating genuine room for improvement.",
+        "evidence_id": "E22",
+        "quote": "Overall, construction productivity remains below the UK average"
+      },
+      {
+        "tier": "projected",
+        "claim": "Modular construction could reduce construction costs by up to 20% through economies of scale and reduced waste.",
+        "evidence_id": "E8",
+        "quote": "The Construction Industry Training Board (CITB) estimates modular construction can reduce costs by up to 20% due to economies of scale and reduced waste"
+      },
+      {
+        "tier": "projected",
+        "claim": "Digital transformation in construction could achieve productivity gains of 14\u201315%.",
+        "evidence_id": "E5",
+        "quote": "Research indicates that digital transformation can achieve productivity gains of 14-15%"
+      },
+      {
+        "tier": "projected",
+        "claim": "The policy has been noted for not explicitly addressing the skills shortage that a shift to MMC would create.",
+        "evidence_id": "E33",
+        "quote": "Reform UK's policy proposal has been noted for not explicitly addressing tactics to tackle this specific skills shortage"
+      },
+      {
+        "tier": "projected",
+        "claim": "A shift to offsite construction requires specialist skills that are currently in short supply.",
+        "evidence_id": "E32",
+        "quote": "A shortage of these specialised skills is identified as a challenge"
+      }
+    ],
+    "rationale": "The underlying technologies the policy points to \u2014 modular construction and digital tools \u2014 have credible evidence of productivity and cost benefits (14\u201320% range across multiple estimates). Construction productivity is genuinely below the UK average, so the sector is a plausible target for improvement. However, the policy text contains only an aspiration to 'incentivise' with no committed instrument: no tax relief scheme, no public procurement mandate, no capital fund, no quantified target. Under the soft-verb rule this defaults to negligible absent evidence a specific mechanism fires at scale. The two main structural barriers \u2014 high upfront capital costs and a specialist skills gap \u2014 are both evidenced and neither is addressed by the policy text. Without tackling these, even a well-intentioned incentive signal is unlikely to move sector-wide productivity materially. The counterfactual (no policy) sees the same market forces that have produced below-average construction productivity continuing; nothing in the stated policy demonstrably changes that dynamic at population scale. The long-term potential is real if a concrete instrument were specified, which is why magnitude is set to minor rather than n/a \u2014 the direction is negligible because the mechanism as stated cannot be assessed as delivering at scale, not because the technology is ineffective.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://constructionmanagement.co.uk/investing-in-technology-the-key-to-unlocking-uk-construction-productivity/",
+        "publisher": "constructionmanagement.co.uk",
+        "title": "constructionmanagement.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/articles/productivityintheconstructionindustryuk2021/2021-10-19",
+        "publisher": "ons.gov.uk",
+        "title": "ons.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.keyman.uk.com/the-future-of-modular-construction-in-the-uk",
+        "publisher": "keyman.uk.com",
+        "title": "uk.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.payapps.com/blogs-uk/the-role-of-digital-technology-and-modernisation-in-construction-the-key-to-success/",
+        "publisher": "payapps.com",
+        "title": "payapps.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.housingexecutive.co.uk/what-would-reform-do-for-housing/",
+        "publisher": "housingexecutive.co.uk",
+        "title": "housingexecutive.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://theoffsiteguide.com/articles/overcoming-challenges-in-offsite-construction",
+        "publisher": "theoffsiteguide.com",
+        "title": "theoffsiteguide.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://blog.wavin.com/en-gb/the-five-major-challenges-facing-uk-modular-construction",
+        "publisher": "blog.wavin.com",
+        "title": "wavin.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+        "publisher": "landecon.cam.ac.uk",
+        "title": "cam.ac.uk",
+        "source_type": "academic"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.041,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "magnitude_timing",
+          "severity": "warning",
+          "detail": "direction is 'negligible' but magnitude is set to 'minor' rather than 'n/a'. The rationale attempts to justify this, but by the schema rule negligible direction should carry n/a magnitude. This is internally inconsistent and could mislead readers."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Claims are well-tiered, quotes entail their claims, source handling is consistent, and the party-blind test is passed \u2014 the critique is mechanism-based not identity-based. E33 (housingexecutive.co.uk) is a media source making a specific analytical claim about Reform UK's policy gaps; it is labelled and not the sole basis for the verdict, so it passes the advocacy/commercial source rule. The one structural issue is the magnitude/direction inconsistency flagged above, which should be resolved before publication (either change direction to 'too-uncertain' with proper crux_parameter, or change magnitude to 'n/a')."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [
+        {
+          "claim": "High initial capital costs for establishing modular factories are a significant barrier to widespread adoption.",
+          "evidence_id": "E30",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will incentivise innovation in construction to speed up building through modular construction, digital technology, and building sites that improve efficiency and cut waste.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Components can be manufactured concurrently with site preparation, reducing overall construction times by up to 50% in some cases",
+        "sources": [
+          {
+            "url": "https://theoffsiteguide.com/articles/should-you-choose-offsite-construction-for-your-project-the-pros-and-cons",
+            "publisher": "theoffsiteguide.com",
+            "title": "theoffsiteguide.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://helec.co.uk/blog/top-benefits-of-offsite-construction/",
+            "publisher": "helec.co.uk",
+            "title": "helec.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.kope.ai/blog/why-is-the-uk-government-backing-mmc",
+            "publisher": "kope.ai",
+            "title": "kope.ai",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.keyman.uk.com/the-future-of-modular-construction-in-the-uk",
+            "publisher": "keyman.uk.com",
+            "title": "uk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "For instance, a project in Croydon, London, saw two high-rise towers completed 40% faster using modular techniques",
+        "sources": [
+          {
+            "url": "https://www.keyman.uk.com/the-future-of-modular-construction-in-the-uk",
+            "publisher": "keyman.uk.com",
+            "title": "uk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Some reports suggest approximately 20% fewer on-site days when products are pre-manufactured",
+        "sources": [
+          {
+            "url": "https://www.donaldsontimberengineering.co.uk/news/five-reasons-why-offsite-construction-delivers-quality-and-efficiency/",
+            "publisher": "donaldsontimberengineering.co.uk",
+            "title": "donaldsontimberengineering.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Digital Technology:** Digital tools can lead to considerable efficiency gains, particularly in pre-construction phases and project completion time tracking",
+        "sources": [
+          {
+            "url": "https://www.payapps.com/blogs-uk/the-role-of-digital-technology-and-modernisation-in-construction-the-key-to-success/",
+            "publisher": "payapps.com",
+            "title": "payapps.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ciobacademy.org/publication/impact-of-digital-technology-on-productivity-in-construction-for-companies-of-all-sizes/",
+            "publisher": "ciobacademy.org",
+            "title": "ciobacademy.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Research indicates that digital transformation can achieve productivity gains of 14-15%",
+        "sources": [
+          {
+            "url": "https://www.payapps.com/blogs-uk/the-role-of-digital-technology-and-modernisation-in-construction-the-key-to-success/",
+            "publisher": "payapps.com",
+            "title": "payapps.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Building Information Modelling (BIM) and digital twins facilitate better planning, coordination, and real-time monitoring",
+        "sources": [
+          {
+            "url": "https://kene.partners/insights/how-modern-innovation-has-changed-uk-construction",
+            "publisher": "kene.partners",
+            "title": "kene.partners",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.building.co.uk/data/productivity-how-digital-tools-are-making-construction-projects-better/5139175.article",
+            "publisher": "building.co.uk",
+            "title": "building.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Potential for Cost Savings:**\n*   Efficiency in manufacturing, reduced on-site labour, and minimised material waste from modern methods can lead to cost reductions",
+        "sources": [
+          {
+            "url": "https://theoffsiteguide.com/articles/should-you-choose-offsite-construction-for-your-project-the-pros-and-cons",
+            "publisher": "theoffsiteguide.com",
+            "title": "theoffsiteguide.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.midfix.co.uk/blog/what-are-the-main-benefits-of-offsite-construction-six-key-benefits",
+            "publisher": "blog.midfix.co.uk",
+            "title": "midfix.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://helec.co.uk/blog/top-benefits-of-offsite-construction/",
+            "publisher": "helec.co.uk",
+            "title": "helec.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.donaldsontimberengineering.co.uk/news/five-reasons-why-offsite-construction-delivers-quality-and-efficiency/",
+            "publisher": "donaldsontimberengineering.co.uk",
+            "title": "donaldsontimberengineering.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The Construction Industry Training Board (CITB) estimates modular construction can reduce costs by up to 20% due to economies of scale and reduced waste",
+        "sources": [
+          {
+            "url": "https://www.keyman.uk.com/the-future-of-modular-construction-in-the-uk",
+            "publisher": "keyman.uk.com",
+            "title": "uk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Digital transformation can also lead to cost cuts of 4-6%",
+        "sources": [
+          {
+            "url": "https://www.payapps.com/blogs-uk/the-role-of-digital-technology-and-modernisation-in-construction-the-key-to-success/",
+            "publisher": "payapps.com",
+            "title": "payapps.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   Predictable costs are another benefit, as factory conditions minimise cost overruns and delays caused by adverse weather",
+        "sources": [
+          {
+            "url": "https://helec.co.uk/blog/top-benefits-of-offsite-construction/",
+            "publisher": "helec.co.uk",
+            "title": "helec.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Enhanced Quality and Reduced Defects:**\n*   Factory-controlled environments in modular construction ensure consistent quality, precision engineering, and fewer errors, resulting in higher-quality structures with less ongoing maintenance",
+        "sources": [
+          {
+            "url": "https://theoffsiteguide.com/articles/should-you-choose-offsite-construction-for-your-project-the-pros-and-cons",
+            "publisher": "theoffsiteguide.com",
+            "title": "theoffsiteguide.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.midfix.co.uk/blog/what-are-the-main-benefits-of-offsite-construction-six-key-benefits",
+            "publisher": "blog.midfix.co.uk",
+            "title": "midfix.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://helec.co.uk/blog/top-benefits-of-offsite-construction/",
+            "publisher": "helec.co.uk",
+            "title": "helec.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Skanska, a leading construction company, reported 73% fewer defects in prefabricated homes",
+        "sources": [
+          {
+            "url": "https://www.csgtalent.com/insights/blog/how-modular-can-solve-the-uk-housing-crisis/",
+            "publisher": "csgtalent.com",
+            "title": "csgtalent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Improved Sustainability and Waste Reduction:**\n*   Offsite construction is more environmentally friendly, significantly reducing waste generation (up to 80-90% less waste than traditional methods)",
+        "sources": [
+          {
+            "url": "https://theoffsiteguide.com/articles/should-you-choose-offsite-construction-for-your-project-the-pros-and-cons",
+            "publisher": "theoffsiteguide.com",
+            "title": "theoffsiteguide.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://helec.co.uk/blog/top-benefits-of-offsite-construction/",
+            "publisher": "helec.co.uk",
+            "title": "helec.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.donaldsontimberengineering.co.uk/news/five-reasons-why-offsite-construction-delivers-quality-and-efficiency/",
+            "publisher": "donaldsontimberengineering.co.uk",
+            "title": "donaldsontimberengineering.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/36037/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.makeuk.org/insights/reports/greener-better-faster-modulars-role-in-solving-the-housing-crisis",
+            "publisher": "makeuk.org",
+            "title": "makeuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "It can also halve emissions, cutting CO2 production from construction by up to 83%",
+        "sources": [
+          {
+            "url": "https://www.makeuk.org/insights/reports/greener-better-faster-modulars-role-in-solving-the-housing-crisis",
+            "publisher": "makeuk.org",
+            "title": "makeuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Reduced transportation needs lead to fewer vehicle movements to sites (up to 80% less) and lower local pollution",
+        "sources": [
+          {
+            "url": "https://www.makeuk.org/insights/reports/greener-better-faster-modulars-role-in-solving-the-housing-crisis",
+            "publisher": "makeuk.org",
+            "title": "makeuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   Modular homes are notably more energy-efficient, costing 55% less to heat than the average UK home and 32% less than traditional new builds, potentially saving up to \u00a3800 per year for a three-bedroom family home",
+        "sources": [
+          {
+            "url": "https://www.makeuk.org/insights/reports/greener-better-faster-modulars-role-in-solving-the-housing-crisis",
+            "publisher": "makeuk.org",
+            "title": "makeuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Addressing Labour Shortages (with caveats):**\n*   The construction industry faces a significant labour shortage, exacerbated by an ageing workforce and Brexit",
+        "sources": [
+          {
+            "url": "https://blog.wavin.com/en-gb/the-five-major-challenges-facing-uk-modular-construction",
+            "publisher": "blog.wavin.com",
+            "title": "wavin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kene.partners/insights/how-modern-innovation-has-changed-uk-construction",
+            "publisher": "kene.partners",
+            "title": "kene.partners",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.csgtalent.com/insights/blog/how-modular-can-solve-the-uk-housing-crisis/",
+            "publisher": "csgtalent.com",
+            "title": "csgtalent.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kope.ai/blog/why-is-the-uk-government-backing-mmc",
+            "publisher": "kope.ai",
+            "title": "kope.ai",
+            "source_type": "media"
+          },
+          {
+            "url": "https://business.libertymutual.com/insights/how-technology-is-transforming-the-construction-industry/",
+            "publisher": "business.libertymutual.com",
+            "title": "libertymutual.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Modular construction can mitigate this by requiring fewer on-site workers (an 80% reduction in on-site labour is reported for modular projects)",
+        "sources": [
+          {
+            "url": "https://www.donaldsontimberengineering.co.uk/news/five-reasons-why-offsite-construction-delivers-quality-and-efficiency/",
+            "publisher": "donaldsontimberengineering.co.uk",
+            "title": "donaldsontimberengineering.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kope.ai/blog/why-is-the-uk-government-backing-mmc",
+            "publisher": "kope.ai",
+            "title": "kope.ai",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.keyman.uk.com/the-future-of-modular-construction-in-the-uk",
+            "publisher": "keyman.uk.com",
+            "title": "uk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   However, a shift to offsite construction demands a workforce with specific skills in advanced technologies, automation, and manufacturing techniques, which can also present a new skills gap",
+        "sources": [
+          {
+            "url": "https://theoffsiteguide.com/articles/overcoming-challenges-in-offsite-construction",
+            "publisher": "theoffsiteguide.com",
+            "title": "theoffsiteguide.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.wavin.com/en-gb/the-five-major-challenges-facing-uk-modular-construction",
+            "publisher": "blog.wavin.com",
+            "title": "wavin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.csgtalent.com/insights/blog/how-modular-can-solve-the-uk-housing-crisis/",
+            "publisher": "csgtalent.com",
+            "title": "csgtalent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Reduced On-site Disruption and Improved Safety:**\n*   Offsite manufacturing minimises noise, traffic, and disruption to neighbouring properties and the local environment",
+        "sources": [
+          {
+            "url": "https://theoffsiteguide.com/articles/should-you-choose-offsite-construction-for-your-project-the-pros-and-cons",
+            "publisher": "theoffsiteguide.com",
+            "title": "theoffsiteguide.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.midfix.co.uk/blog/what-are-the-main-benefits-of-offsite-construction-six-key-benefits",
+            "publisher": "blog.midfix.co.uk",
+            "title": "midfix.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.makeuk.org/insights/reports/greener-better-faster-modulars-role-in-solving-the-housing-crisis",
+            "publisher": "makeuk.org",
+            "title": "makeuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Controlled factory environments offer safer working conditions, leading to a reduced risk of accidents compared to traditional construction sites",
+        "sources": [
+          {
+            "url": "https://blog.midfix.co.uk/blog/what-are-the-main-benefits-of-offsite-construction-six-key-benefits",
+            "publisher": "blog.midfix.co.uk",
+            "title": "midfix.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://helec.co.uk/blog/top-benefits-of-offsite-construction/",
+            "publisher": "helec.co.uk",
+            "title": "helec.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Overall, construction productivity remains below the UK average",
+        "sources": [
+          {
+            "url": "https://constructionmanagement.co.uk/investing-in-technology-the-key-to-unlocking-uk-construction-productivity/",
+            "publisher": "constructionmanagement.co.uk",
+            "title": "constructionmanagement.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/articles/productivityintheconstructionindustryuk2021/2021-10-19",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** While the IFS focuses broadly on digital transformation and ERP systems in construction, their analysis indicates that 89% of construction industry AI early adopters reported profitability gains, with 62% applying AI to project delivery and 59% to business intelligence",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe0tLWrsu81MSeb4PExCTe1FTgIX9eGcj_Yq2JW8x6YY7WPAXg3KkqHbp97QrRTZfN5Vso8WJqiU0lS9k1BbenkJQTMxfLUVPryNh_v9yMRfFYMRg9aj2qnjFemCVmKKgZA-A7TSwVJpJ52V0XlwaA6JeTt0R_EQLk_Dt74RYsxDFPalef2ockUHI1aXjqXZVX9C7-8TRK6oEzfDyA",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.ifs.com/reflections-on-the-2025-construction-engineering-industry-predictions-spotlight-on-acceleration-of-ai-adoption/",
+            "publisher": "blog.ifs.com",
+            "title": "ifs.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "IFS ERP systems have been shown to reduce project delays by 15% and cut costs by optimising resource allocation",
+        "sources": [
+          {
+            "url": "https://thetechintel.com/ifs-erp-for-construction/",
+            "publisher": "thetechintel.com",
+            "title": "thetechintel.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "An alternative estimate indicates that GDP per hour in the UK may have fallen by 0.5% between 2019 and 2024, contrasting with the ONS's recent upturn for construction",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/growth/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/mountain-climbing/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/yanked-away/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They acknowledge a recent pick-up in productivity growth (3.4% in six quarters after Q1 2024), but this coincided with rising unemployment",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/mountain-climbing/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **House of Commons Library:** This source defines Modern Methods of Construction (MMC) broadly to include various forms of offsite manufacturing, such as modular and panelised systems, and emphasizes the role of digitalisation in modern construction",
+        "sources": [
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Insights%20into%20the%20use%20of%20modular%20housing%20in%20addressing%20homelessness%20report.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "They stated that changes to the National Planning Policy Framework (NPPF) alone could drive housebuilding to its highest level in over 40 years and deliver an additional \u00a36.8 billion by 2029/2030",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-get-britain-building-will-boost-economy-by-billions",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "They also report that modular factories have created over 3,000 jobs and \u00a3700 million of investment in low-growth areas",
+        "sources": [
+          {
+            "url": "https://www.makeuk.org/insights/reports/greener-better-faster-modulars-role-in-solving-the-housing-crisis",
+            "publisher": "makeuk.org",
+            "title": "makeuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Long-term Savings:** While modular construction offers long-term cost efficiencies, analysts widely agree that the **high initial cost of investment** in establishing factories and adopting these new methods is a significant barrier to their widespread uptake, particularly in the affordable housing sector",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWl-nJtMUXS-g2S817-HD8PUywbJxsIeKLY2Y0U4zwCGFu9P_hDK-er58XgDMH5GRaJJVlnMui0rs8r3S8vnHJAB1w4dj_gIwKm1UFOKLu81cxQRO8X9tdxAZ2F7Cdc2g41gsY3x2WIiZKnK7RjD7fLoRaPzVrGBD4bEB5OmpGGE539s97tOJeMgiASRxkIwkGdgyhb1GmQi3pe18K8e3z2DW825_CxEYIUjpKfFuzLiuZqHshGwbzBTZvBh2_",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "northumbria.ac.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.arcom.ac.uk/-docs/proceedings/d2b86b9aee1945ba2a6815e5085ea4be.pdf",
+            "publisher": "arcom.ac.uk",
+            "title": "arcom.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The Resolution Foundation, however, presents a more pessimistic view of overall UK productivity, suggesting that headline figures might be unreliable and that broader economic challenges persist",
+        "sources": [
+          {
+            "url": "https://constructionmanagement.co.uk/investing-in-technology-the-key-to-unlocking-uk-construction-productivity/",
+            "publisher": "constructionmanagement.co.uk",
+            "title": "constructionmanagement.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/mountain-climbing/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/yanked-away/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "A shortage of these specialised skills is identified as a challenge",
+        "sources": [
+          {
+            "url": "https://theoffsiteguide.com/articles/overcoming-challenges-in-offsite-construction",
+            "publisher": "theoffsiteguide.com",
+            "title": "theoffsiteguide.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.wavin.com/en-gb/the-five-major-challenges-facing-uk-modular-construction",
+            "publisher": "blog.wavin.com",
+            "title": "wavin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Reform UK's policy proposal has been noted for not explicitly addressing tactics to tackle this specific skills shortage",
+        "sources": [
+          {
+            "url": "https://www.housingexecutive.co.uk/what-would-reform-do-for-housing/",
+            "publisher": "housingexecutive.co.uk",
+            "title": "housingexecutive.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Market Choice:** Reform UK's deputy leader, Richard Tice, has expressed that the market should dictate the adoption of certain technologies, such as heat pumps, claiming that decarbonisation efforts can worsen project viability",
+        "sources": [
+          {
+            "url": "https://www.placenorthwest.co.uk/ukreiif-what-would-reform-do-to-accelerate-housebuilding/",
+            "publisher": "placenorthwest.co.uk",
+            "title": "placenorthwest.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "This contrasts with existing government policies that encourage or mandate specific sustainable technologies and methods like MMC within public sector procurement",
+        "sources": [
+          {
+            "url": "https://www.csgtalent.com/insights/blog/how-modular-can-solve-the-uk-housing-crisis/",
+            "publisher": "csgtalent.com",
+            "title": "csgtalent.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kope.ai/blog/why-is-the-uk-government-backing-mmc",
+            "publisher": "kope.ai",
+            "title": "kope.ai",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "This instability hinders significant investment and growth in the sector",
+        "sources": [
+          {
+            "url": "https://www.landecon.cam.ac.uk/sites/default/files/2024-05/Modular%20Housing%20Report%20250621_Final.pdf",
+            "publisher": "landecon.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      }
+    ]
+  }
+}

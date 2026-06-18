@@ -1,0 +1,896 @@
+{
+  "policy_id": "ld-09-end-retrospective-tax-changes-and-review",
+  "party": "Liberal Democrat",
+  "policy_title": "End Retrospective Tax Changes and Review IR35",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Ending the loan charge would reduce tax bills for a specific group of contractors and freelancers who face large retrospective demands, improving their take-home pay. The IR35 part is only a review with no committed outcome, so its effect on take-home pay is uncertain.",
+    "biggest_unknown": "Whether the IR35 review leads to any concrete change in tax liability for self-employed people \u2014 a review with no committed outcome could produce nothing material.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to ending retrospective tax changes such as the loan charge.",
+        "evidence_id": "M",
+        "quote": "End retrospective tax changes such as the loan charge brought in by the Conservatives"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The loan charge created large and unaffordable tax bills for individuals, causing significant financial hardship.",
+        "evidence_id": "E5",
+        "quote": "significant financial difficulties, \"huge and wholly unaffordable bills,\" and reports of \"severe anxiety and family breakdown\" for thousands of individuals"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The loan charge was widely regarded as retrospective, reopening closed tax years going back to 1999.",
+        "evidence_id": "E3",
+        "quote": "it effectively brought past tax years (going back to 1999) into charge, and in some cases, re-opened closed tax inquiries"
+      }
+    ],
+    "rationale": "This policy has two distinct elements under O11. The first \u2014 ending retrospective tax changes like the loan charge \u2014 is a concrete commitment. The loan charge imposed large bills on individuals by aggregating decades of outstanding loan-based remuneration into a single tax year, in circumstances widely described as retrospective. Ending this would directly reduce the tax burden on those still facing outstanding liabilities, improving their take-home position. This is a genuine O11 improvement for a specific, limited population (thousands of individuals, not millions). The second element \u2014 reviewing IR35 \u2014 is aspirational only. 'Review' is a soft verb with no committed instrument, no statutory duty, no quantified target. The IR35 reforms demonstrably increased the tax burden on around 120,000 contractors by an average of \u00a310,000 annually, so a reform that reduced that burden would be an O11 improvement. But a review alone cannot be scored as an improvement: under the soft-verb rule, the direction of effect cannot be determined until a concrete outcome is committed. The overall verdict is therefore a minor improvement, driven by the loan charge commitment, constrained by the speculative nature of the IR35 element. The affected population for the loan charge is in the thousands; the IR35-affected population is larger (120,000+) but the policy delivers nothing certain there. Confidence is moderate: the loan charge commitment is clear, but the scale of remaining liabilities post-McCann review reforms is uncertain.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8811/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.tax.org.uk/blog-the-loan-charge-an-explainer",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.loanchargeappg.co.uk/what-is-the-loan-charge/",
+        "publisher": "loanchargeappg.co.uk",
+        "title": "loanchargeappg.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.hmrcloancharge.info/wp-content/uploads/2019/12/B6-Briefing-Loan-Charge-Propaganda-Scandal.pdf",
+        "publisher": "hmrcloancharge.info",
+        "title": "hmrcloancharge.info",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn04369/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2019-0078/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.pinsentmasons.com/out-law/analysis/uk-loan-charge-reforms-risk-inequitable-employer-outcomes",
+        "publisher": "pinsentmasons.com",
+        "title": "pinsentmasons.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://barnesroffe.com/insights/government-to-reassess-impact-of-retrospective-loan-charges/",
+        "publisher": "barnesroffe.com",
+        "title": "barnesroffe.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0448,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims are well-supported by their quoted evidence. Tier assignments are correct (stated from M, measurable from parliamentary/institutional sources). The direction 'improves' is justified by the concrete loan charge commitment; the IR35 element is correctly treated as aspirational and not scored as a definite improvement. Magnitude 'minor' is appropriate given the limited affected population. The rationale is party-blind and does not impute motive. No lever leakage, no false balance issues \u2014 the verdict does not claim 'mixed' while evidence points one way. The McCann review reforms already in place (E6-E15) slightly complicate the baseline but the verdict acknowledges remaining liabilities are uncertain, which is handled appropriately in confidence and biggest_unknown. One minor observation: loanchargeappg.co.uk and hmrcloancharge.info are advocacy sources backing E3/E5, but the core claims are corroborated by commonslibrary.parliament.uk, so they are not the sole basis for any verdict."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "The policy commits only to reviewing IR35 reforms, not to changing them.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The 2021 IR35 reforms increased the average annual tax liability per affected worker by around \u00a310,000.",
+          "evidence_id": "E25",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Around 120,000 workers were directly affected by the 2021 IR35 reforms.",
+          "evidence_id": "E22",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "A further independent review of the loan charge (McCann review) led to settlement reductions of up to \u00a370,000 per individual, suggesting the remaining charge still represents a significant financial burden.",
+          "evidence_id": "E13",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "End retrospective tax changes such as the loan charge brought in by the Conservatives, and review the Government\u2019s off-payroll working IR35 reforms to ensure self-employed people are treated fairly.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "These schemes involved individuals being paid in the form of loans that were not expected to be repaid, primarily to avoid income tax and National Insurance contributions (NICs)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8811/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tax.org.uk/blog-the-loan-charge-an-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The charge applied to loans made since April 6, 1999, that were still outstanding on April 5, 2019, bringing them into charge in the 2018-19 tax year",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/implementation-of-changes-to-the-loan-charge/implementation-of-changes-to-the-loan-charge",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/blog-the-loan-charge-an-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.loanchargeappg.co.uk/what-is-the-loan-charge/",
+            "publisher": "loanchargeappg.co.uk",
+            "title": "loanchargeappg.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Controversy and Financial Hardship:** The Loan Charge faced widespread criticism for its \"retroactive\" or \"retrospective\" nature, as it effectively brought past tax years (going back to 1999) into charge, and in some cases, re-opened closed tax inquiries",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn04369/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2019-0078/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tax.org.uk/blog-the-loan-charge-an-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/analysis/uk-loan-charge-reforms-risk-inequitable-employer-outcomes",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://barnesroffe.com/insights/government-to-reassess-impact-of-retrospective-loan-charges/",
+            "publisher": "barnesroffe.com",
+            "title": "barnesroffe.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.loanchargeappg.co.uk/what-is-the-loan-charge/",
+            "publisher": "loanchargeappg.co.uk",
+            "title": "loanchargeappg.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hmrcloancharge.info/wp-content/uploads/2019/12/B6-Briefing-Loan-Charge-Propaganda-Scandal.pdf",
+            "publisher": "hmrcloancharge.info",
+            "title": "hmrcloancharge.info",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "While HMRC technically argued it was a new charge on outstanding balances, critics, including the House of Lords Economic Affairs Committee, found its impact undeniably retrospective",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/blog-the-loan-charge-an-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.simmons-simmons.com/publications/ck1cliflydc7f0b49cbmwmcw1/120919-loan-charge-review-announced",
+            "publisher": "simmons-simmons.com",
+            "title": "simmons-simmons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.loanchargeappg.co.uk/what-is-the-loan-charge/",
+            "publisher": "loanchargeappg.co.uk",
+            "title": "loanchargeappg.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hmrcloancharge.info/wp-content/uploads/2019/12/B6-Briefing-Loan-Charge-Propaganda-Scandal.pdf",
+            "publisher": "hmrcloancharge.info",
+            "title": "hmrcloancharge.info",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This led to significant financial difficulties, \"huge and wholly unaffordable bills,\" and reports of \"severe anxiety and family breakdown\" for thousands of individuals",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8811/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tax.org.uk/blog-the-loan-charge-an-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.loanchargeappg.co.uk/what-is-the-loan-charge/",
+            "publisher": "loanchargeappg.co.uk",
+            "title": "loanchargeappg.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hmrcloancharge.info/wp-content/uploads/2019/12/B6-Briefing-Loan-Charge-Propaganda-Scandal.pdf",
+            "publisher": "hmrcloancharge.info",
+            "title": "hmrcloancharge.info",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Previous Reforms:** An independent review led by Sir Amyas Morse in 2019 resulted in reforms, restricting the charge to loans taken out on or after December 9, 2010, and exempting scheme users who had made reasonable disclosures between 2010 and 2016 where HMRC had not taken action",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8811/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This removed an estimated **11,000 individuals** from the charge and allowed approximately **21,000 individuals** to reduce their tax owed by splitting their loan balance over three years",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/implementation-of-changes-to-the-loan-charge/implementation-of-changes-to-the-loan-charge",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Recent Independent Review and Government Response (November 2025):** A second independent review, commissioned in January 2025 and led by Ray McCann, recommended further changes",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8811/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/analysis/uk-loan-charge-reforms-risk-inequitable-employer-outcomes",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/loan-charge-independent-review/loan-charge-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "These included:\n    *   A new settlement opportunity based on tax rates from the years the loans were made, rather than the higher 2019 rates",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/loan-charge-independent-review/loan-charge-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   Reductions for historic promoter fees, up to a maximum discount of **\u00a310,000 per year** of scheme usage",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/loan-charge-independent-review/loan-charge-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   A further reduction of **\u00a35,000** for many individuals",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/loan-charge-independent-review/loan-charge-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   No late payment interest charges, which could reduce bills by around **20%**",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/loan-charge-independent-review/loan-charge-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   Individuals making use of the settlement opportunity could see reductions of up to **\u00a370,000** in their liabilities, with most seeing at least **50%** reductions",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/loan-charge-independent-review/loan-charge-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, the government declined the recommendation to suspend remaining liabilities if individuals could not pay within 10 years",
+        "sources": [
+          {
+            "url": "https://www.computerweekly.com/news/366635293/UK-government-commits-to-Loan-Charge-settlement-reforms-in-wake-of-independent-review-into-policy",
+            "publisher": "computerweekly.com",
+            "title": "computerweekly.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/analysis/uk-loan-charge-reforms-risk-inequitable-employer-outcomes",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Exchequer Impact:** The Office for Budget Responsibility (OBR) certified that these measures related to the McCann review would have an Exchequer impact of -\u00a325 million in 2025-26, -\u00a395 million in 2026-27, -\u00a330 million in 2027-28, +\u00a335 million in 2028-29, -\u00a3155 million in 2029-30, and -\u00a395 million in 2030-31",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/loan-charge-independent-review/loan-charge-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Background:**\nIR35, or the \"off-payroll working rules,\" were introduced in 2000 to ensure that individuals working through intermediaries (like personal service companies, PSCs) pay similar Income Tax and National Insurance contributions (NICs) as employees if they would be considered employees had they been engaged directly",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2019-0074/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/impacts-of-the-2021-off-payroll-working-rules-reform-in-the-private-and-voluntary-sectors/update-to-the-impacts-of-the-2021-off-payroll-working-rules-reform-in-the-private-and-voluntary-sectors",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHu2uX9qLCc5Zq6WJLtiy31gWjKUfrIpad8jcdyTI16QfYXXbD_dOOyFtZNeh52PATbu0tST2IVzyTzuR35630s_XhgoSI9peEkg89cFBfbhlVKZEBVoYMqiUw47ohYFP9kEbMJTYDbAmQpEhXlDHiiuKi5NDtIrC6GJgBOOeBdvs-8D9vBFKIg5JlaYR74y95isWkdO-HSsk=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://accountingpeople.co.uk/ir35-guide-for-businesses/",
+            "publisher": "accountingpeople.co.uk",
+            "title": "accountingpeople.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IR35",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqZbejqKiYcKNe4ghNTQ1fbmzqMIaIUlA35ustdO0LE6rRA0NMAZt5WM2SUBW5_ZsGpI6iRh64Ygkxqu5wB5JCIj6FxZyJV0f33t-mXQrJA2_FK3uITJ88YS7u2cNFIj5NdXLar6JybFO0ZExqtHmrkneT3aqxdQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "odaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/work/6430/lessons-from-implementing-ir35-reforms/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Reforms in 2017 (public sector) and 2021 (medium and large private sector) shifted the responsibility for determining IR35 status from the contractor to the client",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2019-0074/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/impacts-of-the-2021-off-payroll-working-rules-reform-in-the-private-and-voluntary-sectors/update-to-the-impacts-of-the-2021-off-payroll-working-rules-reform-in-the-private-and-voluntary-sectors",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHu2uX9qLCc5Zq6WJLtiy31gWjKUfrIpad8jcdyTI16QfYXXbD_dOOyFtZNeh52PATbu0tST2IVzyTzuR35630s_XhgoSI9peEkg89cFBfbhlVKZEBVoYMqiUw47ohYFP9kEbMJTYDbAmQpEhXlDHiiuKi5NDtIrC6GJgBOOeBdvs-8D9vBFKIg5JlaYR74y95isWkdO-HSsk=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.goqdos.com/ir35/ir35-reform-five-years-on-whats-changed-what-we-are-seeing-and-whats-next",
+            "publisher": "goqdos.com",
+            "title": "goqdos.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://accountingpeople.co.uk/ir35-guide-for-businesses/",
+            "publisher": "accountingpeople.co.uk",
+            "title": "accountingpeople.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IR35",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqZbejqKiYcKNe4ghNTQ1fbmzqMIaIUlA35ustdO0LE6rRA0NMAZt5WM2SUBW5_ZsGpI6iRh64Ygkxqu5wB5JCIj6FxZyJV0f33t-mXQrJA2_FK3uITJ88YS7u2cNFIj5NdXLar6JybFO0ZExqtHmrkneT3aqxdQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "odaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/60/summary.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/work/6430/lessons-from-implementing-ir35-reforms/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This was prompted by HMRC estimates of significant non-compliance, costing the exchequer \u00a3440 million annually in the public sector in 2016-17",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/60/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHu2uX9qLCc5Zq6WJLtiy31gWjKUfrIpad8jcdyTI16QfYXXbD_dOOyFtZNeh52PATbu0tST2IVzyTzuR35630s_XhgoSI9peEkg89cFBfbhlVKZEBVoYMqiUw47ohYFP9kEbMJTYDbAmQpEhXlDHiiuKi5NDtIrC6GJgBOOeBdvs-8D9vBFKIg5JlaYR74y95isWkdO-HSsk=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/work/6430/lessons-from-implementing-ir35-reforms/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "and an estimated \u00a31.2 billion annually by 2022/23 in the private sector",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/IR35",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Increased Tax Revenue:** HMRC's updated report in February 2025 estimated that the 2021 IR35 reforms boosted tax revenue by an additional **\u00a34.2 billion**",
+        "sources": [
+          {
+            "url": "https://www.bauerandcottrell.co.uk/2025/03/ir35-reform-the-true-cost-behind-hmrcs-4-2bn-windfall/",
+            "publisher": "bauerandcottrell.co.uk",
+            "title": "bauerandcottrell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They also reported an additional \u00a3250 million from the public sector in 2017/18 as a result of the off-payroll rules",
+        "sources": [
+          {
+            "url": "https://www.kingsbridge.co.uk/blog/contractors/ir35/ir35-reform-confirmed-for-2021-after-house-of-commons-debate-for-further-delay/",
+            "publisher": "kingsbridge.co.uk",
+            "title": "kingsbridge.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Impact on Contractors:**\n    *   Around **120,000 workers** were directly affected by the 2021 reforms, with many being deemed employees for tax purposes or moving to umbrella companies or direct employment",
+        "sources": [
+          {
+            "url": "https://www.bauerandcottrell.co.uk/2025/03/ir35-reform-the-true-cost-behind-hmrcs-4-2bn-windfall/",
+            "publisher": "bauerandcottrell.co.uk",
+            "title": "bauerandcottrell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   Over a third of contractors (**35%**) reportedly left self-employment as a result of the reforms",
+        "sources": [
+          {
+            "url": "https://www.ipse.co.uk/campaigns/ir35/the-client-perspective-impact-of-ir35-reforms",
+            "publisher": "ipse.co.uk",
+            "title": "ipse.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   Many skilled contractors left the UK workforce, moved to overseas clients, or retired early",
+        "sources": [
+          {
+            "url": "https://www.bauerandcottrell.co.uk/2025/03/ir35-reform-the-true-cost-behind-hmrcs-4-2bn-windfall/",
+            "publisher": "bauerandcottrell.co.uk",
+            "title": "bauerandcottrell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   The average annual tax increase per affected worker was **\u00a310,000** (including employer taxes), although some individuals reported an increase in pre-tax incomes",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/impacts-of-the-2021-off-payroll-working-rules-reform-in-the-private-and-voluntary-sectors/update-to-the-impacts-of-the-2021-off-payroll-working-rules-reform-in-the-private-and-voluntary-sectors",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   A Qdos survey in January 2026 found that **25%** of contractors believed the lack of \"outside IR35\" opportunities was the biggest threat to their business viability, and **24%** were primarily concerned with finding new contract work",
+        "sources": [
+          {
+            "url": "https://www.ir35update.co.uk/ir35-remains-the-top-concern-for-uks-contractor-workforce-in-2026/",
+            "publisher": "ir35update.co.uk",
+            "title": "ir35update.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "IPSE research also indicated that **56%** of out-of-work contractors attributed this directly to IR35's impact on client hiring decisions",
+        "sources": [
+          {
+            "url": "https://www.ir35update.co.uk/ir35-remains-the-top-concern-for-uks-contractor-workforce-in-2026/",
+            "publisher": "ir35update.co.uk",
+            "title": "ir35update.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Impact on Businesses:**\n    *   Many organisations adopted \"blanket assessments\" or outright bans on engaging Personal Service Companies (PSCs) to mitigate compliance burdens and risks",
+        "sources": [
+          {
+            "url": "https://www.ipse.co.uk/campaigns/ir35/the-client-perspective-impact-of-ir35-reforms",
+            "publisher": "ipse.co.uk",
+            "title": "ipse.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/60/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.goqdos.com/ir35/ir35-reform-five-years-on-whats-changed-what-we-are-seeing-and-whats-next",
+            "publisher": "goqdos.com",
+            "title": "goqdos.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqZbejqKiYcKNe4ghNTQ1fbmzqMIaIUlA35ustdO0LE6rRA0NMAZt5WM2SUBW5_ZsGpI6iRh64Ygkxqu5wB5JCIj6FxZyJV0f33t-mXQrJA2_FK3uITJ88YS7u2cNFIj5NdXLar6JybFO0ZExqtHmrkneT3aqxdQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "odaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/60/summary.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   Almost one in two clients (**47%**) reported IR35 compliance as a significant administrative burden",
+        "sources": [
+          {
+            "url": "https://www.ipse.co.uk/campaigns/ir35/the-client-perspective-impact-of-ir35-reforms",
+            "publisher": "ipse.co.uk",
+            "title": "ipse.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   Over a third of clients (**35%**) found it more difficult to attract the freelance talent their business needed",
+        "sources": [
+          {
+            "url": "https://www.ipse.co.uk/campaigns/ir35/the-client-perspective-impact-of-ir35-reforms",
+            "publisher": "ipse.co.uk",
+            "title": "ipse.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   Approximately **28%** of clients decreased the number of contracts they gave to freelancers since the reforms",
+        "sources": [
+          {
+            "url": "https://www.ipse.co.uk/campaigns/ir35/the-client-perspective-impact-of-ir35-reforms",
+            "publisher": "ipse.co.uk",
+            "title": "ipse.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   HMRC estimated approximately **45,000 fewer PSCs** were incorporated as a result of the reform, though they attributed this to a shift in working arrangements",
+        "sources": [
+          {
+            "url": "https://www.bauerandcottrell.co.uk/2025/03/ir35-reform-the-true-cost-behind-hmrcs-4-2bn-windfall/",
+            "publisher": "bauerandcottrell.co.uk",
+            "title": "bauerandcottrell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Industry Analysts:** HMRC reports often present a \"self-congratulatory picture,\" suggesting easy adaptation by organizations and minimal negative impact on workers",
+        "sources": [
+          {
+            "url": "https://www.bauerandcottrell.co.uk/2025/03/ir35-reform-the-true-cost-behind-hmrcs-4-2bn-windfall/",
+            "publisher": "bauerandcottrell.co.uk",
+            "title": "bauerandcottrell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "However, organizations like Bauer & Cottrell argue that HMRC \"sidesteps the real issues\" facing businesses and contractors",
+        "sources": [
+          {
+            "url": "https://www.bauerandcottrell.co.uk/2025/03/ir35-reform-the-true-cost-behind-hmrcs-4-2bn-windfall/",
+            "publisher": "bauerandcottrell.co.uk",
+            "title": "bauerandcottrell.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Some analysts, like Nadine Drelaud, estimate the UK economy is losing around **\u00a3100 billion** annually in combined tax, output, and welfare impact due to IR35-driven offshoring and SME collapse, claiming HMRC avoids macro-economic analysis of these detrimental effects",
+        "sources": [
+          {
+            "url": "https://www.contractoruk.com/news/contractors-only-taxman-knows-ir35s-true-cost",
+            "publisher": "contractoruk.com",
+            "title": "contractoruk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Effectiveness of CEST Tool and Guidance:** The House of Commons Library and the Public Accounts Committee have noted that HMRC's \"Check Employment Status for Tax\" (CEST) tool has been criticised for not always providing a determination and not testing every aspect of employment status",
+        "sources": [
+          {
+            "url": "https://natlawreview.com/article/threshold-changes-uk-payroll-working-rules-ir35-end-user-and-contractor",
+            "publisher": "natlawreview.com",
+            "title": "natlawreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/60/summary.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.kingsbridge.co.uk/blog/contractors/ir35/ir35-reform-confirmed-for-2021-after-house-of-commons-debate-for-further-delay/",
+            "publisher": "kingsbridge.co.uk",
+            "title": "kingsbridge.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The Public Accounts Committee also highlighted that HMRC \"rushed implementation\" and provided \"poor guidance\" for the public sector reforms",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/60/summary.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "This \"offsets fix\" allows taxes already paid by contractors and their companies to be set off against any liability owed by the hiring firm, reducing potential liabilities by approximately **75%** (from around 50% of contract value to around 10%)",
+        "sources": [
+          {
+            "url": "https://www.goqdos.com/ir35/ir35-reform-five-years-on-whats-changed-what-we-are-seeing-and-whats-next",
+            "publisher": "goqdos.com",
+            "title": "goqdos.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ir35shield.co.uk/Articles/Article/the-ir35-fix-that-changed-everything-why-contractor-hiring-is-safe-again",
+            "publisher": "ir35shield.co.uk",
+            "title": "ir35shield.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "This change is seen by some as making compliant contractor hiring \"low risk\" again",
+        "sources": [
+          {
+            "url": "https://www.ir35shield.co.uk/Articles/Article/the-ir35-fix-that-changed-everything-why-contractor-hiring-is-safe-again",
+            "publisher": "ir35shield.co.uk",
+            "title": "ir35shield.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Turnover will increase from \u00a310.2 million to **\u00a315 million**, and the balance sheet total from \u00a35.1 million to **\u00a37.5 million**, while the employee headcount remains at 50",
+        "sources": [
+          {
+            "url": "https://natlawreview.com/article/threshold-changes-uk-payroll-working-rules-ir35-end-user-and-contractor",
+            "publisher": "natlawreview.com",
+            "title": "natlawreview.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "This change is expected to move thousands of organisations outside the IR35 regime, making the worker responsible for their own IR35 status determination",
+        "sources": [
+          {
+            "url": "https://natlawreview.com/article/threshold-changes-uk-payroll-working-rules-ir35-end-user-and-contractor",
+            "publisher": "natlawreview.com",
+            "title": "natlawreview.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   Assessing the broader economic impact, including potential \"talent flight\" and reduced competitiveness, which some analysts claim is not fully acknowledged by HMRC",
+        "sources": [
+          {
+            "url": "https://www.contractoruk.com/news/contractors-only-taxman-knows-ir35s-true-cost",
+            "publisher": "contractoruk.com",
+            "title": "contractoruk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.traverssmith.com/knowledge/knowledge-container/travers-smiths-alternative-insights-the-impact-of-uk-tax-policy/",
+            "publisher": "traverssmith.com",
+            "title": "traverssmith.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

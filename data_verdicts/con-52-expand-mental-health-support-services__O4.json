@@ -1,0 +1,701 @@
+{
+  "policy_id": "con-52-expand-mental-health-support-services",
+  "party": "Conservative",
+  "policy_title": "Expand Mental Health Support Services",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "Expanding mental health support \u2014 especially the 140,000 new Individual Placement and Support places and a 50% rise in NHS Talking Therapies \u2014 should help more people with mental health conditions find and keep paid work, but the effects on wages and employment rates will be modest at population scale and depend on the NHS having enough staff to deliver.",
+    "biggest_unknown": "Whether the NHS mental health workforce can expand fast enough to deliver these services at scale, given existing staffing shortfalls.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to boosting Individual Placement and Support capacity by 140,000 places and increasing NHS Talking Therapies by 50%.",
+        "evidence_id": "M",
+        "quote": "boosting Individual Placement and Support capacity by 140,000 places"
+      },
+      {
+        "tier": "measurable",
+        "claim": "IPS is an evidence-based approach that integrates employment support with clinical treatment, directly addressing barriers to work for those with mental health conditions.",
+        "evidence_id": "E23",
+        "quote": "IPS is an evidence-based approach that integrates employment support with clinical treatment, directly addressing barriers to work for those with mental health conditions."
+      },
+      {
+        "tier": "measurable",
+        "claim": "For people unemployed at the start of NHS Talking Therapies, earnings increased by up to \u00a363 per month and the chance of being in paid employment increased by 3.1 percentage points four years after completing treatment.",
+        "evidence_id": "E19",
+        "quote": "For individuals unemployed at the start of therapy, earnings increased by up to \u00a363 per month, and the chance of being in paid employment increased by 3.1 percentage points four years after completing treatment."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The probability of being a paid employee within seven years of starting talking therapy treatment increased by up to 1.5 percentage points, and monthly pay two years after treatment increased by a maximum average of \u00a317.",
+        "evidence_id": "E18",
+        "quote": "The probability of being a paid employee within seven years of starting treatment increased by up to 1.5 percentage points, and monthly employee pay two years after treatment increased by a maximum average of \u00a317."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around half a million of the rise in economic inactivity is attributed to mental health problems, underscoring demand for employment-linked mental health support.",
+        "evidence_id": "E25",
+        "quote": "Approximately 0.5 million of this rise is attributed to mental health problems."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Currently only about one-fifth of working-age adults with a mental health diagnosis receive a course of NHS Talking Therapies, indicating substantial unmet need.",
+        "evidence_id": "E20",
+        "quote": "only about one-fifth of working-age adults with a mental health diagnosis receive a course of NHS Talking Therapies, highlighting a substantial unmet need."
+      },
+      {
+        "tier": "projected",
+        "claim": "The mental health workforce has expanded but insufficiently to meet demand, raising doubts about capacity to deliver further expansion.",
+        "evidence_id": "E8",
+        "quote": "while the mental health workforce has expanded, it has been insufficient to meet demand, affecting staff satisfaction and quality of care."
+      },
+      {
+        "tier": "projected",
+        "claim": "The Royal College of Psychiatrists supports IPS expansion as a way to help people with severe mental illness find work.",
+        "evidence_id": "E24",
+        "quote": "The Royal College of Psychiatrists supports the expansion of IPS schemes as a way to help people with severe mental illness find work and provide employment support through primary care and talking therapies."
+      }
+    ],
+    "rationale": "The clearest mechanism linking this policy to O4 is the IPS expansion and the Talking Therapies scale-up. Both have documented, if modest, employment effects. ONS data show that completing a course of Talking Therapies raises the probability of paid employment by up to 3.1 percentage points for those who were unemployed at the start, with earnings gains of up to \u00a363/month \u2014 real but not transformative. IPS is specifically designed to integrate employment support with treatment, and the Royal College of Psychiatrists endorses its expansion. With roughly half a million of the rise in economic inactivity attributed to mental health, there is a genuine population-scale problem these interventions could partially address. The counterfactual matters: absent the policy, around four-fifths of eligible working-age adults currently receive no Talking Therapies at all, so a 50% increase in capacity is genuinely additional at the margin. The IPS expansion of 140,000 places is the most direct lever for O4, targeting people with mental health conditions who face barriers to employment. However, the per-person wage gains are small (\u00a317/month average after two years), so aggregate wage effects at population scale will be minor rather than moderate. The critical constraint is workforce: existing evidence shows the mental health workforce has been unable to keep pace with demand, and the NHS Long Term Workforce Plan targets are aspirational. If staffing does not materialise, the policy's commitments may not translate into delivered services. The direction is nonetheless 'improves' because both IPS and Talking Therapies have credible, cited evidence of employment benefits, and the policy targets a recognised gap.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.rcpsych.ac.uk/improving-care/campaigning-for-better-mental-health-policy/long-term-plan-for-the-nhs-in-england",
+        "publisher": "rcpsych.ac.uk",
+        "title": "rcpsych.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.ons.gov.uk/aboutus/usingpublicdatatoproducestatistics/examplesofhowdataandstatisticsbenefityou/onsstudyrevealstheeconomicimpactofnhstalkingtherapies",
+        "publisher": "ons.gov.uk",
+        "title": "ons.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://blogs.lse.ac.uk/businessreview/2025/05/08/nhs-talking-therapies-bring-long-term-economic-returns-to-england/",
+        "publisher": "blogs.lse.ac.uk",
+        "title": "lse.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/mentalhealth/bulletins/theimpactofnhstalkingtherapiesonmonthlyemployeepayandemploymentstatusengland/april2014todecember2022",
+        "publisher": "ons.gov.uk",
+        "title": "ons.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGmqOGzV2nx1FQIamoCONodzKRaFsdNoqr5f9_uh_m97ijIrf_bJDaQPppuVI_Xhe1SD2kbPOpyD2VODTzuHLsZFk-cpF9WAF2nbNj4sNOumr_Yh7z5StYa3PD6cjcT6zXRggtB_REdysfMWF4gA8kESUXF6HjvtcGSoxVWsattNo__Kc0t_Y1_RuFt0NY4Vn6G4C0OIqpPy7cOle3xjM0BA27c13PJnc07g7I4g==",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "ifs.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESPqom4sFppLigRIYIsfPA4-0AonQZhHnBNDM6k8WDEWtphbOlvDE6hKbQq3cukMp36GNDY5rqSp_EZDcWaq384JnEtahyNWzAfFjftLd7gNBGqOczvpwOyS1fJ1p00aVI3Y7DzVzitCUiMnN5AZ-ceMBZNIm1Yca41-x_kwCogmUpfsl-Nr5pYQhkjwWsuUJ0ru5e",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "ifs.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/expanding-access-to-nhs-talking-therapies-could-tackle-joblessness-research-suggests/",
+        "publisher": "pulsetoday.co.uk",
+        "title": "pulsetoday.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7547/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0444,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by cited evidence. E18/E19 are ONS data appropriately treated as measurable baselines for observed outcomes of existing Talking Therapies \u2014 not projections. E23 describes IPS as 'evidence-based' which the quote directly supports. E8 is correctly tiered as projected (workforce capacity concern is a forward-looking risk). E24 (RCPsych support for IPS) is correctly projected/opinion. The 'stated' claim quotes only part of the policy text but the quote is verbatim and the full claim accurately reflects the broader stated text. No tier blurring, lever leakage, party bias, or false balance detected. The direction 'improves' is adequately supported by the employment-effect claims on both IPS and Talking Therapies, and the minor magnitude and long-term horizon are well-calibrated given the modest per-person wage/employment gains cited."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will expand mental health support by extending Mental Health Support Teams to 100% of schools and colleges by 2030, opening early support hubs for ages 11-25 in every community by 2030, increasing NHS Talking Therapies by 50%, and boosting Individual Placement and Support capacity by 140,000 places.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Likely Real-World Effects:** The expansion is expected to provide early intervention for mild to moderate mental health issues among children and young people, improving overall pupil wellbeing and fostering a whole-school approach to mental health.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6a1af3e865bc5f798327f55d/Mental_Health_Support_Teams_coverage_and_school_and_college_experiences_data_release.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://cypmhc.org.uk/wp-content/uploads/2025/03/Debate-briefing-for-mental-health-support-in-educational-settings-March-2025.pdf",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://nationalcollege.com/news/mental-health-support-teams-set-to-reach-every-school-by-2029",
+            "publisher": "nationalcollege.com",
+            "title": "nationalcollege.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://educationbusinessuk.net/news/10062026/mental-health-support-teams-48-schools-and-colleges",
+            "publisher": "educationbusinessuk.net",
+            "title": "educationbusinessuk.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "By Spring 2026, approximately 700 MHSTs are expected to be running.",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/mental-health/cyp/trailblazers/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Projections suggest coverage could increase to 66% of pupils and learners and 53% of schools and colleges by March 2027.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6a1af3e865bc5f798327f55d/Mental_Health_Support_Teams_coverage_and_school_and_college_experiences_data_release.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://nationalcollege.com/news/mental-health-support-teams-set-to-reach-every-school-by-2029",
+            "publisher": "nationalcollege.com",
+            "title": "nationalcollege.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://educationbusinessuk.net/news/10062026/mental-health-support-teams-48-schools-and-colleges",
+            "publisher": "educationbusinessuk.net",
+            "title": "educationbusinessuk.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The 2025 Spending Review confirmed the government's ambition to achieve 100% coverage by 2029/30.",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/mental-health/cyp/trailblazers/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6a1af3e865bc5f798327f55d/Mental_Health_Support_Teams_coverage_and_school_and_college_experiences_data_release.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "They emphasize the need for increased investment, especially in Further Education colleges.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/efforts-to-tackle-britains-epidemic-of-poor-mental-health-should-focus-on-lower-qualified-young-people/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/weve-only-just-begun/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/02/Weve-only-just-begun.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Initial investment is estimated to be recouped within two years.",
+        "sources": [
+          {
+            "url": "https://cypmhc.org.uk/wp-content/uploads/2025/03/Debate-briefing-for-mental-health-support-in-educational-settings-March-2025.pdf",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   However, some groups remain underserved by MHSTs, including children and young people with special educational needs or neurodiversity, those from racialised communities, and children facing challenging family or social circumstances.",
+        "sources": [
+          {
+            "url": "https://cypmhc.org.uk/wp-content/uploads/2025/03/Debate-briefing-for-mental-health-support-in-educational-settings-March-2025.pdf",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The House of Commons Library highlights that while the mental health workforce has expanded, it has been insufficient to meet demand, affecting staff satisfaction and quality of care.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7547/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "They aim to reduce pressure on traditional NHS services and provide early, preventative care to improve young people's life chances.",
+        "sources": [
+          {
+            "url": "https://www.hfma.org.uk/system/files/2024-10/Centre%20for%20mental%20health%20panel.pdf",
+            "publisher": "hfma.org.uk",
+            "title": "hfma.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/funding-boost-improve-young-peoples-mental-health-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUzSop_Gn1VVj2r2RSY-H6DYc3ppQLOVkCKQrNfRqxcX64ji6AhluG7etwK-SQFWzI0-cbkf_HQ3joCT3aMxDm-obdEdM4kPJZxvMGHuu86SZhCjcHBQkZcSsu9VyoGThcw42ABIjnVUn-uDhN221BmtidNFJf33SpO92rQkjhj4q13kS1zg6r1H-15s9WbvNwShw=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/funding-boost-for-young-peoples-mental-health-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "A recent \u00a37 million government investment aims to expand their capacity, delivering an estimated 10,000 additional mental health and wellbeing interventions over the next year.",
+        "sources": [
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/funding-boost-improve-young-peoples-mental-health-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/funding-boost-for-young-peoples-mental-health-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "These hubs offer services such as one-to-one counselling, group work, therapeutic support, and specialist advice.",
+        "sources": [
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/funding-boost-improve-young-peoples-mental-health-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Analyst Commentary:**\n*   The \"Fund the Hubs\" campaign, supported by several mental health charities, has consistently advocated for a national network of these early support hubs.",
+        "sources": [
+          {
+            "url": "https://www.hfma.org.uk/system/files/2024-10/Centre%20for%20mental%20health%20panel.pdf",
+            "publisher": "hfma.org.uk",
+            "title": "hfma.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   Research indicates that these hubs are particularly effective at reaching older teenagers, young adults, and ethnic minority groups, who may be less likely to engage with traditional NHS mental health pathways or school-based support.",
+        "sources": [
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/funding-boost-improve-young-peoples-mental-health-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/funding-boost-for-young-peoples-mental-health-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   The ONS reported that in 2023, approximately 1 in 5 young people aged 8 to 25 years had a probable mental disorder, underscoring the high demand for accessible services outside clinical settings.",
+        "sources": [
+          {
+            "url": "https://www.hfma.org.uk/system/files/2024-10/Centre%20for%20mental%20health%20panel.pdf",
+            "publisher": "hfma.org.uk",
+            "title": "hfma.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/funding-boost-improve-young-peoples-mental-health-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/funding-boost-for-young-peoples-mental-health-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "An independent review into children and young people's mental health policy also recommended a national rollout of early support hubs.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/publications/children-and-young-peoples-mental-health-independent-review-policy-success-and",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This is expected to improve mental health outcomes and has been linked to positive economic benefits.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/aboutus/usingpublicdatatoproducestatistics/examplesofhowdataandstatisticsbenefityou/onsstudyrevealstheeconomicimpactofnhstalkingtherapies",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://blogs.lse.ac.uk/businessreview/2025/05/08/nhs-talking-therapies-bring-long-term-economic-returns-to-england/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Current Status and Figures:** In 2022/23, 1.76 million people in England were referred to Talking Therapies, 1.22 million entered treatment, and 672,000 finished a course of treatment.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06988/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The probability of being a paid employee within seven years of starting treatment increased by up to 1.5 percentage points, and monthly employee pay two years after treatment increased by a maximum average of \u00a317.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/aboutus/usingpublicdatatoproducestatistics/examplesofhowdataandstatisticsbenefityou/onsstudyrevealstheeconomicimpactofnhstalkingtherapies",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/mentalhealth/bulletins/theimpactofnhstalkingtherapiesonmonthlyemployeepayandemploymentstatusengland/april2014todecember2022",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "For individuals unemployed at the start of therapy, earnings increased by up to \u00a363 per month, and the chance of being in paid employment increased by 3.1 percentage points four years after completing treatment.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/aboutus/usingpublicdatatoproducestatistics/examplesofhowdataandstatisticsbenefityou/onsstudyrevealstheeconomicimpactofnhstalkingtherapies",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://blogs.lse.ac.uk/businessreview/2025/05/08/nhs-talking-therapies-bring-long-term-economic-returns-to-england/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   Despite current provisions, only about one-fifth of working-age adults with a mental health diagnosis receive a course of NHS Talking Therapies, highlighting a substantial unmet need.",
+        "sources": [
+          {
+            "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/expanding-access-to-nhs-talking-therapies-could-tackle-joblessness-research-suggests/",
+            "publisher": "pulsetoday.co.uk",
+            "title": "pulsetoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   The House of Commons Library notes concerns that despite meeting access and waiting time standards for talking therapies, people may still face additional waits within services.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7547/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Health Foundation also identified inequalities in access, with patients from socioeconomically deprived areas less likely to receive or complete a course of treatment.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwx7zs-xB9Zqy955VzR7E-cpcpymAai9LzxrdbGdX7eBsV2t0ixV2n0A2Q07PQUOCrwkXUM8PUvjRGiI22Vi7qJn6Aok2MTAlvnxCYOPHj3BOJyHBsNoYO-9HdD83RoK63V8Rho9m795zCuQ9KS_e91bBXU91-F5YSLSm9PYRq0sQuwPF7Sn4V9f8kLPftw0OVx2zN48QmQd6rfpFbmdLa_PUO9Nk1wQmqiEjazoZLMIPuFTRSs8C3FnCmopBoPACgGVcpcJQ6YIONBMDsyys9in61LAYxKkUNFY1eOQg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "IPS is an evidence-based approach that integrates employment support with clinical treatment, directly addressing barriers to work for those with mental health conditions.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/improving-care/campaigning-for-better-mental-health-policy/long-term-plan-for-the-nhs-in-england",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**Analyst Commentary:**\n*   The Royal College of Psychiatrists supports the expansion of IPS schemes as a way to help people with severe mental illness find work and provide employment support through primary care and talking therapies.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/improving-care/campaigning-for-better-mental-health-policy/long-term-plan-for-the-nhs-in-england",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Approximately 0.5 million of this rise is attributed to mental health problems.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGmqOGzV2nx1FQIamoCONodzKRaFsdNoqr5f9_uh_m97ijIrf_bJDaQPppuVI_Xhe1SD2kbPOpyD2VODTzuHLsZFk-cpF9WAF2nbNj4sNOumr_Yh7z5StYa3PD6cjcT6zXRggtB_REdysfMWF4gA8kESUXF6HjvtcGSoxVWsattNo__Kc0t_Y1_RuFt0NY4Vn6G4C0OIqpPy7cOle3xjM0BA27c13PJnc07g7I4g==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESPqom4sFppLigRIYIsfPA4-0AonQZhHnBNDM6k8WDEWtphbOlvDE6hKbQq3cukMp36GNDY5rqSp_EZDcWaq384JnEtahyNWzAfFjftLd7gNBGqOczvpwOyS1fJ1p00aVI3Y7DzVzitCUiMnN5AZ-ceMBZNIm1Yca41-x_kwCogmUpfsl-Nr5pYQhkjwWsuUJ0ru5e",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "This underscores the need for effective employment support models like IPS.",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/public-services/data-decoded-charting-the-trends-and-costs-of-declining-mental-health-in-the-uk",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The ONS reported that 20% of children aged 8-16 had a probable mental disorder in 2023 (up from 12% in 2017), and for 17-19 year olds, this figure rose from 10% to 23%.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06988/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Furthermore, 24.6% of UK adults reported some evidence of depression or anxiety in 2023-24, compared to 19.7% in 2018-19.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/ukmeasuresofnationalwellbeing/dashboard",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The BMA noted that mental health services receive less than 9% of NHS funding despite accounting for at least 20% of all health need.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7547/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.centreformentalhealth.org.uk/the-year-ahead-for-mental-health-policy/",
+            "publisher": "centreformentalhealth.org.uk",
+            "title": "centreformentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/mental-health-pressures-data-analysis",
+            "publisher": "bma.org.uk",
+            "title": "bma.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The NHS Long Term Workforce Plan aims to increase mental health nursing training places by 93% by 2031/32, but concerns persist about meeting immediate and future staffing needs.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7547/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Equity of Access:** Concerns remain about equitable access to services, particularly for those in deprived areas, ethnic minority groups, and individuals with specific needs like neurodiversity.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwx7zs-xB9Zqy955VzR7E-cpcpymAai9LzxrdbGdX7eBsV2t0ixV2n0A2Q07PQUOCrwkXUM8PUvjRGiI22Vi7qJn6Aok2MTAlvnxCYOPHj3BOJyHBsNoYO-9HdD83RoK63V8Rho9m795zCuQ9KS_e91bBXU91-F5YSLSm9PYRq0sQuwPF7Sn4V9f8kLPftw0OVx2zN48QmQd6rfpFbmdLa_PUO9Nk1wQmqiEjazoZLMIPuFTRSs8C3FnCmopBoPACgGVcpcJQ6YIONBMDsyys9in61LAYxKkUNFY1eOQg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cypmhc.org.uk/wp-content/uploads/2025/03/Debate-briefing-for-mental-health-support-in-educational-settings-March-2025.pdf",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hfma.org.uk/system/files/2024-10/Centre%20for%20mental%20health%20panel.pdf",
+            "publisher": "hfma.org.uk",
+            "title": "hfma.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/expanding-access-to-nhs-talking-therapies-could-tackle-joblessness-research-suggests/",
+            "publisher": "pulsetoday.co.uk",
+            "title": "pulsetoday.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wired-gov.net/wg/news.nsf/articles/nhs+confederation+responds+to+ifs+report+suggesting+mental+health+has+worsened+since+the+pandemic+12032025142000?open",
+            "publisher": "wired-gov.net",
+            "title": "wired-gov.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Preventative Approach:** Organizations like the Mental Health Foundation and the Health Foundation advocate for a stronger focus on preventative measures and addressing the wider social determinants of mental health, such as poverty, insecure housing, and unemployment, arguing that healthcare services alone cannot solve the mental health crisis.",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/public-services/data-decoded-charting-the-trends-and-costs-of-declining-mental-health-in-the-uk",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwx7zs-xB9Zqy955VzR7E-cpcpymAai9LzxrdbGdX7eBsV2t0ixV2n0A2Q07PQUOCrwkXUM8PUvjRGiI22Vi7qJn6Aok2MTAlvnxCYOPHj3BOJyHBsNoYO-9HdD83RoK63V8Rho9m795zCuQ9KS_e91bBXU91-F5YSLSm9PYRq0sQuwPF7Sn4V9f8kLPftw0OVx2zN48QmQd6rfpFbmdLa_PUO9Nk1wQmqiEjazoZLMIPuFTRSs8C3FnCmopBoPACgGVcpcJQ6YIONBMDsyys9in61LAYxKkUNFY1eOQg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mentalhealth.org.uk/our-work/policy-and-advocacy",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.wired-gov.net/wg/news.nsf/articles/nhs+confederation+responds+to+ifs+report+suggesting+mental+health+has+worsened+since+the+pandemic+12032025142000?open",
+            "publisher": "wired-gov.net",
+            "title": "wired-gov.net",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

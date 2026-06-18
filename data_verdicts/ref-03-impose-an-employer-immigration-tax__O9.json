@@ -1,0 +1,778 @@
+{
+  "policy_id": "ref-03-impose-an-employer-immigration-tax",
+  "party": "Reform UK",
+  "policy_title": "Impose an Employer Immigration Tax",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy charges employers more for hiring foreign workers, treating people differently in the labour market based on where they come from rather than what they contribute. Critics warn it could entrench a two-tier workforce and potentially erode rights promised to EU citizens with settled status.",
+    "biggest_unknown": "Whether UK courts or equality law would constrain implementation, and how broadly 'foreign worker' is defined in practice.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy raises employer National Insurance to 20% for foreign workers, with exemptions for essential health/care workers and small businesses.",
+        "evidence_id": "M",
+        "quote": "Reform UK will raise the National Insurance rate to 20% for foreign workers, exempting essential foreign health and care workers and businesses with 5 or fewer staff"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy is explicitly designed to incentivise hiring British citizens over foreign workers.",
+        "evidence_id": "E2",
+        "quote": "Reform UK states the purpose of this tax is to incentivise the employment of British citizens and boost wages"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Migrant workers already face deep-rooted insecurity and precarious conditions in the UK labour market.",
+        "evidence_id": "E29",
+        "quote": "The Resolution Foundation has already highlighted deep-rooted insecurity and precarious work among a substantial minority of the UK's migrant workforce, with risks particularly pronounced among recent arrivals, non-citizens, and those on tied visas"
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics argue the policy risks creating a two-tier workforce where people are judged by their origin rather than their contribution.",
+        "evidence_id": "E28",
+        "quote": "Critics argue that introducing additional taxes or penalties for employing migrant workers risks creating a \"two-tier workforce\" where people are judged by their origin rather than their contribution"
+      },
+      {
+        "tier": "projected",
+        "claim": "EU citizens with settled status may not be counted as 'British workers' under these plans, potentially eroding rights promised post-Brexit.",
+        "evidence_id": "E33",
+        "quote": "Robert Jenrick, Reform's economic spokesman, also indicated that EU citizens with settled status would not be counted as \"British workers\" under these plans, potentially eroding rights promised post-Brexit"
+      }
+    ],
+    "rationale": "O9 is concerned with equal treatment and anti-discrimination protections \u2014 whether people are treated fairly regardless of their background. This policy directly and explicitly treats foreign workers differently from British workers in the labour market, by raising the cost to employers of hiring them. While differential tax treatment by employment category is not unprecedented, a surcharge keyed specifically to national origin creates a structural financial disadvantage for a class of workers defined by where they come from rather than their qualifications or conduct. The 'two-tier workforce' concern is well-grounded: the Resolution Foundation documents existing precarity among migrant workers, and the policy would intensify the financial pressure on employers to avoid hiring them. The potential exclusion of EU settled-status holders from the 'British worker' definition (E33) would compound this by removing protections that were explicitly promised as part of the post-Brexit settlement \u2014 a direct erosion of previously-held rights for a large group. The health/care exemption mitigates the impact for one significant group, but the majority of foreign workers outside that carve-out and outside small businesses would face a newly disadvantaged labour market position. The magnitude is moderate rather than major because the exemptions are real, and some narrowing of labour market discrimination could theoretically result if British workers gain relative preferment \u2014 but the dominant effect on the equal-treatment indicator is worsening, as it institutionalises national-origin as a basis for differential employer costs and implicitly differential employment prospects.",
+    "time_split": {
+      "near_direction": "worsens",
+      "long_direction": "worsens",
+      "note": "The two-tier treatment effect is immediate and structural; no evidence suggests it self-corrects over time."
+    },
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+        "publisher": "fwi.co.uk",
+        "title": "fwi.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/our-work/demographics/migration/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+        "publisher": "ein.org.uk",
+        "title": "ein.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/home-and-away/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.the-independent.com/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+        "publisher": "the-independent.com",
+        "title": "the-independent.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0739,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are appropriately tiered and well-supported by their quoted evidence. The stated claims (M, E2) are direct policy text. The measurable claim (E29) is a Resolution Foundation finding appropriately characterised. The two projected claims (E28, E33) are clearly attributed to critics/a named spokesman and do not overstate the quotes. Direction 'worsens' with moderate magnitude is justified by the structural nature of the national-origin differential \u2014 the exemptions are real and noted. The rationale avoids party-identity framing and motive-attribution, sticking to modelled effects. No lever leakage: the verdict scores the equal-treatment effect, not the tax policy itself. No false balance issue \u2014 the verdict correctly identifies the dominant direction rather than manufacturing mixed signals. One minor observation: E33 is sourced from The Independent quoting Robert Jenrick; this is a media report of a politician's statement rather than policy text, so the projected tier is correct. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will raise the National Insurance rate to 20% for foreign workers, exempting essential foreign health and care workers and businesses with 5 or fewer staff, to incentivise employing British citizens and boost wages.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Crucially, the policy includes exemptions for essential foreign health and care workers, as well as businesses employing five or fewer staff members",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9WPWUEHcWLY",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Reform UK states the purpose of this tax is to incentivise the employment of British citizens and boost wages",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The party claims this policy could generate \u00a320 billion for the exchequer",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9WPWUEHcWLY",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": ", with the money raised intended for training and skills development for British workers",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "and to fund cuts to Employers' National Insurance for British staff",
+        "sources": [
+          {
+            "url": "https://ground.news/article/reform-pledges-new-tax-on-hiring-foreign-workers",
+            "publisher": "ground.news",
+            "title": "ground.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Impact on Businesses and Employers:**\n*   **Increased Costs:** Businesses employing foreign workers outside the exempted categories would face significantly higher labour costs",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9WPWUEHcWLY",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.express.co.uk/news/politics/2217560/Migrants-Nigel-Farage-Reform-UK-visas-work-benefits",
+            "publisher": "express.co.uk",
+            "title": "express.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "For instance, the National Insurance rate for such workers would increase from 13.8% to 20%",
+        "sources": [
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Some reports also mention a separate, graduated \"migrant labour levy\" with higher charges for lower-paid foreign workers, potentially reaching \u00a33,750 per year for a worker on the National Living Wage",
+        "sources": [
+          {
+            "url": "https://www.hcamag.com/us/specialization/transformation/taxing-foreign-workers-what-the-uk-debate-means-for-us-employers/578975",
+            "publisher": "hcamag.com",
+            "title": "hcamag.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.express.co.uk/news/politics/2217560/Migrants-Nigel-Farage-Reform-UK-visas-work-benefits",
+            "publisher": "express.co.uk",
+            "title": "express.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Sector-Specific Impact:** The agricultural industry, which heavily relies on foreign workers for tasks like picking and packing crops, has warned that this policy would have a \"crippling impact\" on their livelihoods",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Many farm businesses already struggle to find British workers for these roles",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Similarly, sectors with high reliance on lower-paying roles, such as hospitality, arts, recreation, wholesale, and retail, could be vulnerable to job losses if a general increase in employer NICs occurs, as suggested by Oxford Economics in relation to a broader NIC increase",
+        "sources": [
+          {
+            "url": "https://www.oxfordeconomics.com/resource/what-the-rise-in-nics-means-for-the-uk-labour-market/",
+            "publisher": "oxfordeconomics.com",
+            "title": "oxfordeconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Shift in Hiring Practices:** The policy is designed to encourage companies to hire British workers instead of foreign nationals",
+        "sources": [
+          {
+            "url": "https://www.blickrothenberg.com/insights/detail/election-24-the-manifestos-reform-uk/",
+            "publisher": "blickrothenberg.com",
+            "title": "blickrothenberg.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Expert Views:** Reform UK argues the tax would boost wages for British workers by reducing \"cheap migrant labour\"",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.express.co.uk/news/politics/2217560/Migrants-Nigel-Farage-Reform-UK-visas-work-benefits",
+            "publisher": "express.co.uk",
+            "title": "express.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=eK2vJ_wEL0Q",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, the Resolution Foundation, in discussing the broader post-Brexit migration regime, notes that while migration has significantly changed the UK labour force, claims that restricting it will automatically drive a \"high wage\" economy are \"overdone\" and that a clear economic strategy is needed beyond just a migration strategy",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/under-new-management/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "For example, a 2013 study found that at the 10th percentile of wages, migration might have led to a 0.7p per hour decrease, while at the 90th percentile, wages might have been 2p per hour higher",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6938108633c7ace9c4a41e42/The_Fiscal_Impact_of_Immigration_Final__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The London School of Economics (LSE) found that UK regions with large increases in EU immigration did not see a fall in jobs and pay for UK-born workers, attributing wage falls after 2008 to the financial crisis and weak economic recovery, not immigration",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/6-immigration/contribution-to-economy/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Unemployment:** Oxford Economics, when modelling a general increase in employers' National Insurance, estimated it could cut employment by 55,000 and raise the unemployment rate by 0.2 percentage points",
+        "sources": [
+          {
+            "url": "https://www.oxfordeconomics.com/resource/what-the-rise-in-nics-means-for-the-uk-labour-market/",
+            "publisher": "oxfordeconomics.com",
+            "title": "oxfordeconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Broader Economic Impact:**\n*   **GDP and Productivity:** The Migration Advisory Committee (MAC) concluded that migration generally has a positive impact on productivity and GDP",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/6-immigration/contribution-to-economy/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Office for Budget Responsibility (OBR) also generally estimates that higher net migration leads to lower deficits and debt, as migrants tend to be of working age and contribute more in taxes than they receive in welfare benefits, especially in their initial years",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/151695/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Tax Revenue:** Reform UK estimates the policy could raise \u00a320 billion",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9WPWUEHcWLY",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "or \u00a311.2 billion",
+        "sources": [
+          {
+            "url": "https://www.hcamag.com/us/specialization/transformation/taxing-foreign-workers-what-the-uk-debate-means-for-us-employers/578975",
+            "publisher": "hcamag.com",
+            "title": "hcamag.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.express.co.uk/news/politics/2217560/Migrants-Nigel-Farage-Reform-UK-visas-work-benefits",
+            "publisher": "express.co.uk",
+            "title": "express.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "However, the IFS has expressed general skepticism about the credibility of claims that large tax cuts (or, by extension, specific tax increases for certain groups) would pay for themselves via higher economic growth, noting that behavioural responses are already incorporated into costings",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/initial-response-reform-uks-scottish-manifesto",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Inflation:** A potential exodus or reduction in foreign workers, particularly in sectors like health and care, could exacerbate labour shortages, which might in turn push up inflation",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2026/may/05/reform-uk-immigration-policies-uk-economy-election",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Effects of Exemptions:**\n*   **Health and Care Sector:** Exempting essential foreign health and care workers acknowledges the sector's heavy reliance on migrant labour",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9WPWUEHcWLY",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/farmers-reject-reforms-plans-for-employer-migration-tax",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "However, The Health Foundation has previously highlighted that international staff are disproportionately at risk from viruses like COVID-19 and that over half of healthcare workers who died of COVID-19 by April 2020 were born outside the UK",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxYVMQ3sX5JU1PwXzL6bfkDsPu4YgERbmYgSYUCwhuLJf5ZKJdbj55xhrDZkwslpokFtBTDVFDyMEsgjTYUrLeGXrzuc2E_-vracMWB1x62y35DX1xRtmkwGfO2putLkjgJSG7clBB8M2X4pWB_W2VVx8mGONaRvelCz3LfRiCcVJR3U1NQcFBC4vwRgsxU0nt9Xdl5ScoztRPf2hZHSczVUXOf6UAaL2kO5I=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "While this exemption prevents direct increased costs for these vital workers, other Reform UK policies, such as potentially not counting EU citizens with settled status as \"British workers\" for tax purposes",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": ", or plans to abolish indefinite leave to remain",
+        "sources": [
+          {
+            "url": "https://vanessaganguin.com/news/what-are-reform-uks-policies-for-settlement-and-indefinite-leave-to-remain/",
+            "publisher": "vanessaganguin.com",
+            "title": "vanessaganguin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/reforms-radical-gamble-on-indefinite-leave-to-remain-may-backfire/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://atlasinstitute.org/reform-uk-and-the-politics-of-exclusion/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Impact on Foreign Workers and \"Two-Tier Workforce\":**\n*   **Increased Precariousness:** Critics argue that introducing additional taxes or penalties for employing migrant workers risks creating a \"two-tier workforce\" where people are judged by their origin rather than their contribution",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The Resolution Foundation has already highlighted deep-rooted insecurity and precarious work among a substantial minority of the UK's migrant workforce, with risks particularly pronounced among recent arrivals, non-citizens, and those on tied visas",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/demographics/migration/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/home-and-away/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Erosion of Rights:** Reform UK's broader immigration proposals, such as abolishing Indefinite Leave to Remain (ILR) and requiring migrants to renew their status every five years with stricter criteria",
+        "sources": [
+          {
+            "url": "https://vanessaganguin.com/news/what-are-reform-uks-policies-for-settlement-and-indefinite-leave-to-remain/",
+            "publisher": "vanessaganguin.com",
+            "title": "vanessaganguin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/reforms-radical-gamble-on-indefinite-leave-to-remain-may-backfire/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "This could affect hundreds of thousands of people who have settled in the UK",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/reforms-radical-gamble-on-indefinite-leave-to-remain-may-backfire/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://atlasinstitute.org/reform-uk-and-the-politics-of-exclusion/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Critics argue this threatens settled families and could be unpopular even among migration-sceptical voters",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/reforms-radical-gamble-on-indefinite-leave-to-remain-may-backfire/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Robert Jenrick, Reform's economic spokesman, also indicated that EU citizens with settled status would not be counted as \"British workers\" under these plans, potentially eroding rights promised post-Brexit",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/migrant-workers-taxes-reform-jenrick-brexit-b2995907.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Fiscal Credibility:** The Institute for Fiscal Studies (IFS) has generally been critical of Reform UK's overall tax plans, stating that claims of self-funding tax cuts via higher economic growth are \"not credible\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/initial-response-reform-uks-scottish-manifesto",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "They note that assumptions about behavioural responses (like increased labour supply or higher net immigration) are usually already factored into costings",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/initial-response-reform-uks-scottish-manifesto",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Impact on Wages:** While Reform UK posits that the tax will boost British wages, established economic research often finds that the overall impact of migration on native wages is small, with some suggesting a very minor negative effect on low-skilled workers but potentially positive effects for higher-skilled workers",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/6-immigration/contribution-to-economy/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6938108633c7ace9c4a41e42/The_Fiscal_Impact_of_Immigration_Final__1_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The Migration Advisory Committee (MAC) has found that immigration has little impact on the overall employment and unemployment outcomes of the UK-born workforce, though effects may vary for different skilled groups",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/6-immigration/contribution-to-economy/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Public Services Cost:** Reform UK suggests foreign workers impose costs on infrastructure and public services",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=eK2vJ_wEL0Q",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "However, the OBR and MAC have found that working-age migrants generally make a net positive fiscal contribution to the UK, paying more in taxes than they consume in benefits and services, particularly in their initial years",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/6-immigration/contribution-to-economy/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/151695/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "The Health Foundation notes that migrants use NHS services less frequently than UK-born individuals, and that the \"Immigration Health Surcharge\" effectively makes migrants pay twice for healthcare",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxYVMQ3sX5JU1PwXzL6bfkDsPu4YgERbmYgSYUCwhuLJf5ZKJdbj55xhrDZkwslpokFtBTDVFDyMEsgjTYUrLeGXrzuc2E_-vracMWB1x62y35DX1xRtmkwGfO2putLkjgJSG7clBB8M2X4pWB_W2VVx8mGONaRvelCz3LfRiCcVJR3U1NQcFBC4vwRgsxU0nt9Xdl5ScoztRPf2hZHSczVUXOf6UAaL2kO5I=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

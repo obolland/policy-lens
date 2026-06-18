@@ -1,0 +1,647 @@
+{
+  "policy_id": "ref-103-reform-the-bbc-and-scrap-the",
+  "party": "Reform UK",
+  "policy_title": "Reform the BBC and scrap the TV licence",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Scrapping the TV licence would save the roughly 28.7 million licensable households \u00a3180 a year each, directly reducing a mandatory household charge. The catch is that the policy does not specify a replacement funding model, so some households could end up paying a subscription fee that offsets part or all of that saving.",
+    "biggest_unknown": "What, if anything, replaces the licence fee for households \u2014 a subscription model could claw back some or all of the \u00a3180 saving, especially for lower-income households who opt in.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to scrapping the TV licence fee.",
+        "evidence_id": "M",
+        "quote": "will scrap the TV licence, arguing that people should be free to choose in a world of on-demand TV"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The current annual TV licence fee is \u00a3180 for a colour licence.",
+        "evidence_id": "E5",
+        "quote": "The current annual TV licence fee is \u00a3180.00 for a colour licence."
+      },
+      {
+        "tier": "measurable",
+        "claim": "There are nearly 28.7 million possible licensable residential households, so the saving is wide in scope.",
+        "evidence_id": "E14",
+        "quote": "the BBC estimates that there were nearly 28.7 million possible licensable residential households in 2024/25"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The licence fee is widely noted as regressive, disproportionately affecting lower-income households.",
+        "evidence_id": "E30",
+        "quote": "Experts disagree on the fairness of the current licence fee, with many pointing to its regressive nature, disproportionately affecting lower-income households"
+      },
+      {
+        "tier": "projected",
+        "claim": "A subscription model might end up being more costly for users, especially if fewer people opt in, potentially limiting access for lower-income households.",
+        "evidence_id": "E6",
+        "quote": "a subscription model might end up being more costly for users, especially if fewer people opt in, and would place content behind a paywall, potentially limiting access for lower-income households"
+      }
+    ],
+    "rationale": "The TV licence is a mandatory annual charge of \u00a3180 levied on virtually all residential households. Scrapping it removes that charge from household budgets, which is a straightforward O11 improvement \u2014 lower mandatory outgoings, higher effective take-home pay. The scope is large: nearly 28.7 million licensable households would benefit. Because the fee is regressive, abolishing it provides a proportionally larger relief to lower-income households relative to their income, making the distributional effect broadly progressive on the tax-burden side.\n\nThe principal caveat under O11 is the replacement model. The policy commits only to abolishing the licence; it does not specify a funded alternative. If households voluntarily subscribe to a reconstituted BBC service, the net saving depends on uptake price and individual choice \u2014 some will save the full \u00a3180, others may pay a subscription that is comparable or higher. The evidence flags this risk explicitly. However, because the policy text contains no commitment to impose a new household charge, the direct stated effect is a \u00a3180 saving per household, and the risk of a subscription offsetting it is a future contingency, not a guaranteed cost. On the evidence provided, the direction is therefore an improvement, but modest \u2014 \u00a3180 is real but not transformative at household level \u2014 and confidence is moderate because the replacement-model uncertainty is genuine and unresolved by the policy text.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8101/CBP-8101.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.express.co.uk/news/uk/2217506/bombshell-bbc-update-broadcaster-faces",
+        "publisher": "express.co.uk",
+        "title": "express.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/687679e2a8d0255f9fe28ef3/Final_Television_Licence_Fee_Trust_Statement_2024_25.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://ukparliament.shorthandstories.com/licence-to-change-bbc-future-funding/index.html",
+        "publisher": "ukparliament.shorthandstories.com",
+        "title": "shorthandstories.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/ld5803/ldselect/ldcomm/44/4407.htm",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://theweek.com/news/uk-news/955517/licence-fee-threat-how-else-could-the-bbc-be-funded",
+        "publisher": "theweek.com",
+        "title": "theweek.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/media/2025/dec/16/how-might-the-bbc-be-funded-if-the-licence-fee-is-scrapped",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0419,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are supported by their cited evidence at the appropriate tier. The tier_integrity is sound: E30 says 'experts disagree... with many pointing to its regressive nature' and the claim faithfully reflects that wording. E14 is BBC's own estimate, correctly marked measurable. The direction of 'improves' is defensible: the stated effect is removal of a \u00a3180 mandatory charge; the subscription risk is correctly captured as a projected caveat rather than driving the direction down to mixed, since the policy imposes no replacement charge. Magnitude 'minor' and confidence 'moderate' are proportionate given the replacement-model uncertainty. No party-blind issues; no motive attribution. No lever leakage \u2014 the verdict judges only the household tax-burden effect. One minor observation: E30 is sourced partly from ukparliament.shorthandstories.com which is a parliamentary comms product rather than a formal briefing, but it is not the sole basis for the claim and the claim itself is suitably hedged ('experts disagree... with many pointing to'). No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will reform the BBC, describing it as 'out-of-touch, wasteful, and institutionally biased,' and will scrap the TV licence, arguing that people should be free to choose in a world of on-demand TV.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The TV licence fee constituted approximately 65% of the BBC's total income in 2024/25, generating \u00a33.84 billion.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8101/CBP-8101.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8101/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "In January 2025, the BBC World Service already faced cuts of 130 jobs to save \u00a36 million, and the corporation as a whole has been undertaking a major cost-cutting program that could see 2,000 jobs lost, with the news division alone facing a 15% savings target.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0132/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.express.co.uk/news/uk/2217506/bombshell-bbc-update-broadcaster-faces",
+            "publisher": "express.co.uk",
+            "title": "express.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Moving to alternative funding, such as a subscription model, could undermine this principle, potentially leading the BBC to prioritise commercially viable content over public service programming.",
+        "sources": [
+          {
+            "url": "https://www.vlv.org.uk/wp-content/uploads/VLV-Briefing-BBC-Funding-December-2022.pdf",
+            "publisher": "vlv.org.uk",
+            "title": "vlv.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2025/dec/16/how-might-the-bbc-be-funded-if-the-licence-fee-is-scrapped",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TlC_YOgGges",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This could result in a reduction in distinctive UK-produced content, which a 2014 report by Professor Barwise suggested could be 25-50% lower without the BBC.",
+        "sources": [
+          {
+            "url": "https://reutersinstitute.politics.ox.ac.uk/news/study-reveals-how-cutting-bbc-licence-fee-would-reduce-choice-and-value-money",
+            "publisher": "reutersinstitute.politics.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The current annual TV licence fee is \u00a3180.00 for a colour licence.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8101/CBP-8101.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.express.co.uk/news/uk/2217506/bombshell-bbc-update-broadcaster-faces",
+            "publisher": "express.co.uk",
+            "title": "express.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "However, a subscription model might end up being more costly for users, especially if fewer people opt in, and would place content behind a paywall, potentially limiting access for lower-income households.",
+        "sources": [
+          {
+            "url": "https://theweek.com/news/uk-news/955517/licence-fee-threat-how-else-could-the-bbc-be-funded",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2025/dec/16/how-might-the-bbc-be-funded-if-the-licence-fee-is-scrapped",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Impact on the Wider Media Landscape:**\nIntroducing advertising to fund the BBC, as some alternatives propose, could have a \"huge impact\" on other commercial broadcasters like ITV, Channel 4, and Channel 5, which rely heavily on advertising revenue.",
+        "sources": [
+          {
+            "url": "https://www.dailypost.co.uk/news/cost-of-living/bbc-tv-licence-fee-no-33184658",
+            "publisher": "dailypost.co.uk",
+            "title": "dailypost.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "These broadcasters would likely face decimated revenues and increased competition, potentially leading to financial struggles or even bankruptcy for some.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/ld5803/ldselect/ldcomm/44/4407.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.dailypost.co.uk/news/cost-of-living/bbc-tv-licence-fee-no-33184658",
+            "publisher": "dailypost.co.uk",
+            "title": "dailypost.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2025/dec/16/how-might-the-bbc-be-funded-if-the-licence-fee-is-scrapped",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Independence and Accountability:**\nThe licence fee model is designed to ensure the BBC's independence from government and market pressures.",
+        "sources": [
+          {
+            "url": "https://www.vlv.org.uk/wp-content/uploads/VLV-Briefing-BBC-Funding-December-2022.pdf",
+            "publisher": "vlv.org.uk",
+            "title": "vlv.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0249/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Funding through a direct government grant from general taxation, while potentially more progressive, could compromise this independence, leaving the BBC \"at the mercy of the government of the day\" and raising questions about its editorial impartiality.",
+        "sources": [
+          {
+            "url": "https://theweek.com/news/uk-news/955517/licence-fee-threat-how-else-could-the-bbc-be-funded",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/ld5803/ldselect/ldcomm/44/4407.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.reddit.com/r/BritishTV/comments/1hz9yzj/the_licence_fees_clock_is_ticking_lisa_nandys_bbc/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**House of Commons Library:**\nThe House of Commons Library has extensively researched the future of the BBC licence fee, noting that changes in viewing habits, such as the rise of video-on-demand, have led to challenges to the current model.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10050/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Their briefings outline various funding options and their advantages and disadvantages.",
+        "sources": [
+          {
+            "url": "https://www.vlv.org.uk/wp-content/uploads/VLV-Briefing-BBC-Funding-December-2022.pdf",
+            "publisher": "vlv.org.uk",
+            "title": "vlv.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They highlight that the current Royal Charter runs until December 2027, with the government committed to upholding the licence fee until then as part of a review process launched in December 2025.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10050/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0249/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "For instance, the BBC estimates that there were nearly 28.7 million possible licensable residential households in 2024/25.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/687679e2a8d0255f9fe28ef3/Final_Television_Licence_Fee_Trust_Statement_2024_25.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "While their reports capture the impacts of measures on demand and supply in the economy, specific analysis from the OBR on the budgetary implications of scrapping the BBC TV licence is not directly provided in the search results.",
+        "sources": [
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-november-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/box/economic-effects-of-policy-changes/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Institute of Economic Affairs (IEA) and Adam Smith Institute:**\nThese think tanks are strong advocates for abolishing the TV licence fee, arguing it is an \"anachronism\" and that the BBC should become a subscription service.",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/blog/media-culture/scrap-the-tv-licence-fee-and-reform-the-bbc",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/the-case-for-the-bbc-licence-fee-is-based-on-bad-arguments/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They contend that this would make the BBC more responsive to consumer demands and allow people to choose whether to pay.",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/blog/media-culture/scrap-the-tv-licence-fee-and-reform-the-bbc",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "A December 2019 survey cited by the IEA found that 74% of Britons wanted the licence fee abolished.",
+        "sources": [
+          {
+            "url": "https://iea.org.uk/the-case-for-the-bbc-licence-fee-is-based-on-bad-arguments/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Lords Communications and Digital Committee:**\nA July 2022 report from this committee concluded that some form of public funding for the BBC remains necessary.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "While acknowledging the drawbacks of the licence fee (e.g., its outdated link to a TV set and its regressive nature), the committee found that none of the alternatives were \"sufficiently attractive to justify recommending\" replacing the licence fee for the next charter period.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They suggested alternatives such as a universal household levy (possibly linked to council tax for progressivity) or reforming the existing licence fee to provide discounts for low-income households.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/ld5803/ldselect/ldcomm/44/4407.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "He argues that a subscription service would dramatically affect the BBC's output, leading it to only make programs that drive subscriptions, thereby losing its distinctive public service content.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=TlC_YOgGges",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "He also warned that introducing advertising on the BBC could severely impact commercial broadcasters like Channel 4 and ITV.",
+        "sources": [
+          {
+            "url": "https://www.dailypost.co.uk/news/cost-of-living/bbc-tv-licence-fee-no-33184658",
+            "publisher": "dailypost.co.uk",
+            "title": "dailypost.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Viability and Impact of Alternative Funding Models:**\nThere is considerable disagreement on whether alternative funding models, such as a subscription or advertising model, could generate sufficient income to maintain the BBC's current level of output and fulfil its public service remit.",
+        "sources": [
+          {
+            "url": "https://theweek.com/news/uk-news/955517/licence-fee-threat-how-else-could-the-bbc-be-funded",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2025/dec/16/how-might-the-bbc-be-funded-if-the-licence-fee-is-scrapped",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.adamsmith.org/blog/media-culture/scrap-the-tv-licence-fee-and-reform-the-bbc",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "While some argue a subscription model would empower consumers, others, like Michael Grade, believe it would compromise the BBC's ability to produce diverse, non-commercial content.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=TlC_YOgGges",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Extent of BBC Bias and its Definition:**\nReform UK explicitly criticises the BBC as \"institutionally biased.\"",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=wgEmdVmmmaI",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "This sentiment is echoed by some Conservative MPs who claim \"groupthink and woke\" prevails, leading to a loss of trust among audiences.",
+        "sources": [
+          {
+            "url": "https://jerseyeveningpost.com/morenews/entertainment/2024/05/09/mps-raise-questions-over-future-of-bbc-licence-fee-in-commons-debate/",
+            "publisher": "jerseyeveningpost.com",
+            "title": "jerseyeveningpost.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "A Cardiff University study, cited by the Liberal Democrats, found that Reform UK received nearly double the coverage of the Liberal Democrats in mainstream TV news bulletins between January and July 2025, raising questions about impartiality.",
+        "sources": [
+          {
+            "url": "https://politicsuk.com/news/balance-the-bbc-is-reform-uk-over-represented-in-the-british-media/",
+            "publisher": "politicsuk.com",
+            "title": "politicsuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2025/sep/12/bbc-under-fresh-pressure-over-extent-of-reform-uk-nigel-farage-coverage",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, the BBC defends its reporting as impartial and accountable.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ikqLI9sdCq8",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Fairness and Progressivity of Funding:**\nExperts disagree on the fairness of the current licence fee, with many pointing to its regressive nature, disproportionately affecting lower-income households.",
+        "sources": [
+          {
+            "url": "https://ukparliament.shorthandstories.com/licence-to-change-bbc-future-funding/index.html",
+            "publisher": "ukparliament.shorthandstories.com",
+            "title": "shorthandstories.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10050/CBP-10050.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/ld5803/ldselect/ldcomm/44/4407.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Proposed alternatives, such as a household levy linked to council tax, aim to introduce greater progressivity, but could also be seen as an unpopular new tax.",
+        "sources": [
+          {
+            "url": "https://www.vlv.org.uk/wp-content/uploads/VLV-Briefing-BBC-Funding-December-2022.pdf",
+            "publisher": "vlv.org.uk",
+            "title": "vlv.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2025/dec/16/how-might-the-bbc-be-funded-if-the-licence-fee-is-scrapped",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

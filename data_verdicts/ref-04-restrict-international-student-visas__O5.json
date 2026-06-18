@@ -1,0 +1,575 @@
+{
+  "policy_id": "ref-04-restrict-international-student-visas",
+  "party": "Reform UK",
+  "policy_title": "Restrict international student visas",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Closing fraudulent immigration schemes could marginally strengthen immigration system integrity, but the independent Migration Advisory Committee found no significant abuse of the main student route, so the security gain is likely very small.",
+    "biggest_unknown": "Whether 'fake courses and abusive immigration schemes' represent a meaningful security or order threat at scale \u2014 the MAC's finding of no significant abuse suggests they do not.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to closing fake courses and abusive immigration schemes.",
+        "evidence_id": "M",
+        "quote": "closing down fake courses and immigration schemes"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Migration Advisory Committee found no evidence of significant abuse of the Graduate Route, undermining the scale of any security problem being addressed.",
+        "evidence_id": "E29",
+        "quote": "the Migration Advisory Committee found \"no evidence of any significant abuse\" of the Graduate Route"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The dependent ban already introduced in January 2024 has substantially reduced student dependents, limiting how much additional restriction the new policy adds.",
+        "evidence_id": "E5",
+        "quote": "In 2024, the number of visas issued to student dependents fell by 85%"
+      }
+    ],
+    "rationale": "O5 scores the protective good: safety, order, justice, and security. The only O5-relevant mechanism in this policy is closing fraudulent immigration schemes, which could in principle improve immigration system integrity and reduce document or visa abuse. However, the Migration Advisory Committee \u2014 a government-commissioned independent body \u2014 found no evidence of significant abuse on the main student route (E29). This is a direct empirical challenge to the premise that there is a meaningful security or order problem to fix at scale. The dependent restriction element has already been largely enacted (E5: 85% fall in dependent visas), so the marginal security gain from this policy on that dimension is minimal. The 'fake courses' element addresses compliance/quality rather than security threats in the O5 sense. No evidence in the provided units links international student visa volumes to crime rates, court backlogs, antisocial behaviour, or national security threats. On the threshold rules: the mechanism (closing fraudulent schemes) is sound in principle, but there is no cited evidence it fires at population scale relevant to O5 indicators. The verdict is therefore negligible rather than improves \u2014 the policy may have other significant effects (on universities, economy, O13), but its marginal effect on crime, justice, and national security is not supported by the evidence provided.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://ukandeu.ac.uk/the-public-sees-international-students-as-good-for-britain-and-so-should-the-government/",
+        "publisher": "ukandeu.ac.uk",
+        "title": "ukandeu.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.russellgroup.ac.uk/news/international-students-uk-evidence",
+        "publisher": "russellgroup.ac.uk",
+        "title": "russellgroup.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/student-migration-to-the-uk/",
+        "publisher": "migrationobservatory.ox.ac.uk",
+        "title": "ox.ac.uk",
+        "source_type": "academic"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.033,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims are properly tiered and the quoted evidence entails the claims as stated. The MAC finding (E29) is correctly labelled projected/stated rather than used as a measurable consensus fact. The tier_integrity check: the E5 claim is labelled measurable and the ONS-backed statistic is a recorded fact, not a projection \u2014 acceptable. Direction 'negligible' with magnitude 'minor' is internally inconsistent (if negligible, magnitude should be n/a), but the schema does not enforce this and the rationale clearly explains the reasoning; flagged as warning only. No party-blind, lever-leakage, or false-balance issues: the rationale judges purely on the O5 mechanism with no motive attribution and no manufactured balance."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will introduce new visa rules barring dependents for international students, allowing only those with essential skills to remain in the UK, and closing down fake courses and immigration schemes.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The UK government already introduced changes in January 2024 preventing most international students from bringing dependents, with exceptions for those on postgraduate research programs or government-funded scholarships",
+        "sources": [
+          {
+            "url": "https://migratepoint.co.uk/dependants-ban-for-students-what-you-must-know-before-applying/",
+            "publisher": "migratepoint.co.uk",
+            "title": "migratepoint.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://garthcoates.com/uk-government-plans-new-restrictions-on-student-dependants/",
+            "publisher": "garthcoates.com",
+            "title": "garthcoates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/student-migration-to-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Institute for Fiscal Studies (IFS) reported a 17.1% (25,200) decrease in overseas student visa applications in August 2024 compared to August 2023, and a 16.6% (55,500) year-to-date reduction",
+        "sources": [
+          {
+            "url": "https://www.accommodationforstudents.com/student-landlord-guides/4420",
+            "publisher": "accommodationforstudents.com",
+            "title": "accommodationforstudents.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/student-visas-down-sixth-will-cause-challenges-some-universities",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.researchprofessionalnews.com/rr-news-uk-universities-2024-9-ifs-warns-of-difficult-year-for-some-universities-after-visa-fall/",
+            "publisher": "researchprofessionalnews.com",
+            "title": "researchprofessionalnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Postgraduate taught enrolments dropped by over 40% following the January 2024 changes",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/144874/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Office for National Statistics (ONS) indicated a fall in study-related visas from a peak of 484,000 in June 2023 to 301,000 in June 2025, largely attributed to the decrease in student dependents",
+        "sources": [
+          {
+            "url": "https://www.timeshighereducation.com/news/two-thirds-non-eu-overseas-students-stay-uk-post-graduation",
+            "publisher": "timeshighereducation.com",
+            "title": "timeshighereducation.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/reasonforinternationalmigrationinternationalstudentsupdate/february2026",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "In 2024, the number of visas issued to student dependents fell by 85%",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/student-migration-to-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Financial Impact on Universities:** UK universities are heavily reliant on international student fees, which in 2022-23 accounted for \u00a310.9 billion, or one-fifth of their total income",
+        "sources": [
+          {
+            "url": "https://www.accommodationforstudents.com/student-landlord-guides/4420",
+            "publisher": "accommodationforstudents.com",
+            "title": "accommodationforstudents.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/student-visas-down-sixth-will-cause-challenges-some-universities",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.researchprofessionalnews.com/rr-news-uk-universities-2024-9-ifs-warns-of-difficult-year-for-some-universities-after-visa-fall/",
+            "publisher": "researchprofessionalnews.com",
+            "title": "researchprofessionalnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "International students often pay tuition fees three times higher than domestic students, effectively cross-subsidizing teaching and research amidst a decade-long freeze in domestic undergraduate fees",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/144874/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The IFS warns of a \"difficult year\" for some universities, especially less selective providers heavily reliant on these fees",
+        "sources": [
+          {
+            "url": "https://www.accommodationforstudents.com/student-landlord-guides/4420",
+            "publisher": "accommodationforstudents.com",
+            "title": "accommodationforstudents.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/student-visas-down-sixth-will-cause-challenges-some-universities",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.researchprofessionalnews.com/rr-news-uk-universities-2024-9-ifs-warns-of-difficult-year-for-some-universities-after-visa-fall/",
+            "publisher": "researchprofessionalnews.com",
+            "title": "researchprofessionalnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Universities UK (UUK) reported that a quarter of universities have made compulsory redundancies, 49% closed courses, and 18% closed entire departments due to the challenging funding environment exacerbated by fewer international students",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2025/may/06/student-visa-crackdown-uk-university",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Centre for Cities thinktank cautioned that these changes could negatively impact struggling cities outside London and the South East, where universities play a crucial role in local economies",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2025/sep/03/crackdown-on-international-students-could-hurt-struggling-uk-cities-thinktank-warns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Impact on Student Demographics and Well-being:** The dependent ban disproportionately affects students from countries with high dependent ratios, such as India, Nigeria, and Pakistan, which are major source markets for postgraduate enrolment in the UK",
+        "sources": [
+          {
+            "url": "https://www.applyboard.com/applyinsights-article/predicting-the-impact-of-the-uks-dependants-policy-change-on-international-students",
+            "publisher": "applyboard.com",
+            "title": "applyboard.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/reasonforinternationalmigrationinternationalstudentsupdate/may2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "For example, Nigeria had a ratio of 1.16 dependents per main applicant in 2022/23",
+        "sources": [
+          {
+            "url": "https://www.applyboard.com/applyinsights-article/predicting-the-impact-of-the-uks-dependants-policy-change-on-international-students",
+            "publisher": "applyboard.com",
+            "title": "applyboard.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Analysts suggest that the inability to bring family members could negatively impact the well-being and mental health of international students by limiting their support structures",
+        "sources": [
+          {
+            "url": "https://melresearch.co.uk/industry-insights/potential-impact-of-limiting-visas-for-dependents-of-international-taught-students-at-uk-heis/",
+            "publisher": "melresearch.co.uk",
+            "title": "melresearch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Reputation and Diversity:** Banning dependents could damage the UK's reputation on the global stage, potentially affecting international partnerships and collaborations, and reducing cultural and ethnic diversity within universities",
+        "sources": [
+          {
+            "url": "https://melresearch.co.uk/industry-insights/potential-impact-of-limiting-visas-for-dependents-of-international-taught-students-at-uk-heis/",
+            "publisher": "melresearch.co.uk",
+            "title": "melresearch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Reform UK's policy specifies that only international students with \"essential skills\" would be allowed to remain in the UK after their studies",
+        "sources": [
+          {
+            "url": "https://www.timeshighereducation.com/news/reform-uk-pledges-undergraduate-restrictions-and-visa-changes",
+            "publisher": "timeshighereducation.com",
+            "title": "timeshighereducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This is a significant departure from the current Graduate Visa route, which allows most international students to stay and work in the UK for two years (or three years for PhD graduates) with no restrictions on the type of employment",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7976/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.timeshighereducation.com/news/reform-uk-pledges-undergraduate-restrictions-and-visa-changes",
+            "publisher": "timeshighereducation.com",
+            "title": "timeshighereducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Reduced Attractiveness of UK Study:** The Graduate Visa route has been a key factor in attracting international students to the UK",
+        "sources": [
+          {
+            "url": "https://www.applyboard.com/applyinsights-article/predicting-the-impact-of-the-uks-dependants-policy-change-on-international-students",
+            "publisher": "applyboard.com",
+            "title": "applyboard.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.timeshighereducation.com/news/two-thirds-non-eu-overseas-students-stay-uk-post-graduation",
+            "publisher": "timeshighereducation.com",
+            "title": "timeshighereducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Limiting post-study opportunities to \"essential skills\" would likely make the UK less attractive compared to other study destinations",
+        "sources": [
+          {
+            "url": "https://www.applyboard.com/applyinsights-article/predicting-the-impact-of-the-uks-dependants-policy-change-on-international-students",
+            "publisher": "applyboard.com",
+            "title": "applyboard.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Further Decline in Student Numbers:** The Migration Advisory Committee (MAC), in a government-commissioned review, found \"no evidence of any significant abuse\" of the Graduate Route and concluded that further restrictions would reduce international student numbers and exacerbate universities' financial difficulties",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/the-public-sees-international-students-as-good-for-britain-and-so-should-the-government/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.russellgroup.ac.uk/news/international-students-uk-evidence",
+            "publisher": "russellgroup.ac.uk",
+            "title": "russellgroup.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Despite this, the Labour government's May 2025 immigration white paper proposed reducing the standard length of the Graduate Visa from two years to 18 months, effective January 2027",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10854/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/student-migration-to-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Economic Consequences:** This policy could worsen the financial strain on universities by removing a key incentive for international students, who contribute billions to the UK economy",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/144874/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/the-public-sees-international-students-as-good-for-britain-and-so-should-the-government/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Reform UK has also pledged to \"close down fake courses and abusive immigration schemes\"",
+        "sources": [
+          {
+            "url": "https://www.timeshighereducation.com/news/reform-uk-pledges-undergraduate-restrictions-and-visa-changes",
+            "publisher": "timeshighereducation.com",
+            "title": "timeshighereducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Increased Scrutiny on Universities:** New compliance rules for universities, effective from June 1, 2026, include stricter thresholds for student enrolment (95%) and course completion (90%)",
+        "sources": [
+          {
+            "url": "https://www.universities-scotland.ac.uk/visareforms/",
+            "publisher": "universities-scotland.ac.uk",
+            "title": "universities-scotland.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uks-tightened-immigration-policies-impact-businesses-universities",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "A Red-Amber-Green (RAG) rating system will be introduced, and institutions failing to meet metrics could face financial and reputational damage",
+        "sources": [
+          {
+            "url": "https://www.universities-scotland.ac.uk/visareforms/",
+            "publisher": "universities-scotland.ac.uk",
+            "title": "universities-scotland.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uks-tightened-immigration-policies-impact-businesses-universities",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The Office for Students (OfS) is involved in identifying courses with high dropout rates or low rates of graduates securing professional jobs",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=AwxjjDiNokI",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Potential for Unintended Consequences:** While the aim is to address misuse, analysts like Universities Scotland express concerns that these reforms are being implemented rapidly with limited data and insufficient safeguards, potentially penalizing compliant institutions for factors beyond their control",
+        "sources": [
+          {
+            "url": "https://www.universities-scotland.ac.uk/visareforms/",
+            "publisher": "universities-scotland.ac.uk",
+            "title": "universities-scotland.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "There is also a risk of creating immediate financial losses for universities and disappointment for applicants if institutions are forced to reduce recruitment or withdraw offers due to abrupt changes in thresholds",
+        "sources": [
+          {
+            "url": "https://www.universities-scotland.ac.uk/visareforms/",
+            "publisher": "universities-scotland.ac.uk",
+            "title": "universities-scotland.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The government's policies are often driven by a desire to reduce net migration and address perceived \"misuse\" of student routes",
+        "sources": [
+          {
+            "url": "https://migratepoint.co.uk/dependants-ban-for-students-what-you-must-know-before-applying/",
+            "publisher": "migratepoint.co.uk",
+            "title": "migratepoint.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/the-public-sees-international-students-as-good-for-britain-and-so-should-the-government/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, the Migration Advisory Committee found \"no evidence of any significant abuse\" of the Graduate Route",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/the-public-sees-international-students-as-good-for-britain-and-so-should-the-government/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.russellgroup.ac.uk/news/international-students-uk-evidence",
+            "publisher": "russellgroup.ac.uk",
+            "title": "russellgroup.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Public opinion, while generally supporting the economic benefits of international students, also expresses concerns about student visas being used as a \"back door\" to permanent residency",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/the-public-sees-international-students-as-good-for-britain-and-so-should-the-government/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://wonkhe.com/blogs/the-surprising-pragmatism-of-reform-uk-voters-towards-international-education/",
+            "publisher": "wonkhe.com",
+            "title": "wonkhe.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

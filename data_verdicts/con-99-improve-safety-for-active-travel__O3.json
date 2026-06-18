@@ -1,0 +1,617 @@
+{
+  "policy_id": "con-99-improve-safety-for-active-travel",
+  "party": "Conservative",
+  "policy_title": "Improve Safety for Active Travel",
+  "outcome": "O3",
+  "verdict": {
+    "outcome": "O3",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy aims to make walking and cycling safer, which could modestly reduce pressure on healthcare by improving population health \u2014 but the commitments are soft and aspirational with no dedicated funding or statutory mechanism, making any NHS impact highly uncertain and indirect.",
+    "biggest_unknown": "Whether any committed investment or enforceable mechanism actually materialises behind the soft-verb pledges, and whether modal shift achieves the scale needed to meaningfully reduce healthcare demand.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits only to 'work with' Active Travel England on safer walking and cycling, with no dedicated budget, statutory duty, or quantified target.",
+        "evidence_id": "M",
+        "quote": "will work with Active Travel England to make it safer for people to walk or cycle"
+      },
+      {
+        "tier": "measurable",
+        "claim": "62% of adults in England feel it is too dangerous to cycle on roads, indicating that safety is a real barrier to active travel uptake.",
+        "evidence_id": "E27",
+        "quote": "62% of adults in England feel it's too dangerous to cycle on roads"
+      },
+      {
+        "tier": "projected",
+        "claim": "Active Travel England analysis projects approximately 1.7 million fewer GP appointments annually if active travel increases.",
+        "evidence_id": "E3",
+        "quote": "potential savings of approximately 1.7 million GP appointments annually and 4.4 million fewer sick days due to healthier lifestyles"
+      },
+      {
+        "tier": "projected",
+        "claim": "Research suggests new infrastructure alone may not be sufficient to achieve significant modal shift from private vehicles.",
+        "evidence_id": "E33",
+        "quote": "while new infrastructure is a necessary condition for encouraging a shift to active travel, it may not be sufficient on its own to achieve significant modal shift from private vehicles"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Cycling trips fell as a share of travel, with average cycling miles per person down 13% from 2019 to 2023, showing the current trend is not improving.",
+        "evidence_id": "E22",
+        "quote": "Average cycling miles travelled decreased to 47 miles per person in 2023, a 13% drop from 2019"
+      }
+    ],
+    "rationale": "The policy's direct link to O3 (healthcare access and waiting times) is indirect: the mechanism runs through increased physical activity reducing chronic disease burden, which in turn reduces demand on NHS services including GP appointments. The projected benefit \u2014 1.7 million fewer GP appointments annually \u2014 is substantial in theory. However, this projection assumes a large-scale modal shift that the evidence suggests is far from guaranteed: infrastructure alone is not sufficient to shift travel behaviour, cycling miles per person have actually fallen since 2019 despite prior investment, and 62% of adults still consider cycling too dangerous. Most critically, the policy itself contains only a soft commitment \u2014 'work with Active Travel England' \u2014 with no announced budget, no statutory duty, and no quantified target. This places it firmly in the aspirational category under the soft-verb rule: without a committed instrument, the mechanism cannot be assumed to fire. Absent the policy, the status quo trajectory is broadly flat or declining for cycling. The policy could nudge this marginally, but the counterfactual gap is small given the weak commitment. On balance, any healthcare benefit is too indirect and contingent on undelivered mechanisms to register above negligible at population scale. The magnitude is set to minor rather than negligible purely because the projected GP savings, if even partially realised, are non-trivial \u2014 but confidence is low given the weakness of the stated commitment and the evidence that infrastructure alone is insufficient.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8615/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.cyclinguk.org/campaigns/infrastructure",
+        "publisher": "cyclinguk.org",
+        "title": "cyclinguk.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.traffictechnologytoday.com/news/multimodal-systems/uk-unveils-4-5bn-active-travel-strategy-plan.html",
+        "publisher": "traffictechnologytoday.com",
+        "title": "traffictechnologytoday.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/cycling-and-walking-boom-with-45-billion-for-thousands-of-new-routes-and-safer-crossings",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5270770/",
+        "publisher": "pmc.ncbi.nlm.nih.gov",
+        "title": "nih.gov",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/national-travel-survey-2023/nts-2023-active-travel",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0353,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are well-supported by their cited evidence. The stated-tier claim correctly characterises the soft-verb language in M. The measurable claims (E27, E22) are straightforwardly entailed by their quotes. The projected claims (E3, E33) are appropriately tiered and the quotes entail the claims without overstating them. Tier integrity is sound: no projections misclassified as measurable. Magnitude/timing: direction is 'negligible' yet magnitude is set to 'minor' and time_horizon to 'long-term' \u2014 this is a borderline inconsistency but the rationale explicitly explains the logic (the n/a rule only applies to 'too-uncertain', not 'negligible', so no hard rule is broken). Uncertainty integrity is adequate. No lever leakage: the verdict judges effect on healthcare demand, not active travel policy for its own sake. Party blind: the rationale focuses on the weakness of the stated commitment and evidence on modal shift, not on party identity or motive. E24 (the 'culture wars' / mixed messages evidence) is not cited in the claims, so its use of a ministerial quote does not appear in the verdict's backbone. No false balance: the direction is 'negligible' with a consistent set of claims all pointing the same way, so no false balance concern arises."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will work with Active Travel England to make it safer for people to walk or cycle, including safe routes to schools and measures to protect pedestrians, cyclists, and vulnerable road users, ensuring new schemes have local support first.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This initiative is part of a broader government ambition to make active travel the natural choice for shorter journeys.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/697b3f58b28b2cc262572ef6/active-travel-economic-impacts-of-active-travel.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/cycling-and-walking-boom-with-45-billion-for-thousands-of-new-routes-and-safer-crossings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/the-third-cycling-and-walking-investment-strategy/active-travel-active-england-the-third-cycling-and-walking-investment-strategy-cwis3",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Health Foundation highlights that increasing physical activity reduces the risk of cardiovascular disease, type 2 diabetes, cancer, and depression.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqyTbG86mSDXeK7MbIOhccBmmFlaSIi38UI0zgOfUs5oQhnm_BxAimej3he2pMccoJsYZCxje2dVISvR1pwy2d1TEcv99fIK1VJFJFQIpRzoBuKRlreM8kq4FxKOoWrRmt9Lu9DO8T_SJFAA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://foodactive.org.uk/wp-content/uploads/2025/05/Active-Travel-updated-PS-1.pdf",
+            "publisher": "foodactive.org.uk",
+            "title": "foodactive.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukhealthalliance.org/influencing-policy/a-just-energy-transition-for-the-good-of-health/improve-infrastructure-and-access-for-active-travel-and-clean-transport/",
+            "publisher": "ukhealthalliance.org",
+            "title": "ukhealthalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/697b3fb6043a4ade0f7b4fa7/active-travel-health-wellbeing-impacts-active-travel.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Active Travel England analysis suggests potential savings of approximately 1.7 million GP appointments annually and 4.4 million fewer sick days due to healthier lifestyles.",
+        "sources": [
+          {
+            "url": "https://www.traffictechnologytoday.com/news/multimodal-systems/uk-unveils-4-5bn-active-travel-strategy-plan.html",
+            "publisher": "traffictechnologytoday.com",
+            "title": "traffictechnologytoday.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/cycling-and-walking-boom-with-45-billion-for-thousands-of-new-routes-and-safer-crossings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Furthermore, almost 1,550 early deaths per year could be prevented if active travel levels matched the most active regions in England.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnpmpzw8LCKYHyEoQLY3nLSJKgnLr8C2FQoipaKNzlerDf3lluAB9VMijqqbFo9Q5FuVFA-NU2zo0TfNdJI0H01bPB9DE2y6iyO8lzfHGepFCKwhi-ZSy6RXQEXQ42ZG7qWODmOxh5RRoMyDxhrLBnA7sMVoRw2CToKxGNmGjdWupR9XEDd2ml7D7eG_TAnYoG_k8-qPVRA5vJJawsaJmccHDvQUDwD4lVja8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The policy aims to have an additional 5.3 million people being physically active through active travel by 2035.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-third-cycling-and-walking-investment-strategy/active-travel-active-england-the-third-cycling-and-walking-investment-strategy-cwis3",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The Department for Transport (DfT) estimates a return of around \u00a34.30 in benefits for every \u00a31 invested.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/publications/41918/documents/209082/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Households could save approximately \u00a31,700 per year by foregoing a second car for short trips, equating to over \u00a317,000 across a decade.",
+        "sources": [
+          {
+            "url": "https://www.traffictechnologytoday.com/news/multimodal-systems/uk-unveils-4-5bn-active-travel-strategy-plan.html",
+            "publisher": "traffictechnologytoday.com",
+            "title": "traffictechnologytoday.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/cycling-and-walking-boom-with-45-billion-for-thousands-of-new-routes-and-safer-crossings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Active travel also contributes to local economies, with evidence suggesting cyclists are more likely to frequent local shops and businesses.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/697b3f58b28b2cc262572ef6/active-travel-economic-impacts-of-active-travel.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "In 2019, the cycling industry alone contributed an estimated \u00a37.5 billion annually and supported 64,000-69,000 green jobs.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/697b3f58b28b2cc262572ef6/active-travel-economic-impacts-of-active-travel.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Transport is the UK's largest emitting sector, with road vehicles accounting for 91% of domestic transport emissions, over half of which come from cars.",
+        "sources": [
+          {
+            "url": "https://ukhealthalliance.org/influencing-policy/a-just-energy-transition-for-the-good-of-health/improve-infrastructure-and-access-for-active-travel-and-clean-transport/",
+            "publisher": "ukhealthalliance.org",
+            "title": "ukhealthalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Shifting to active travel could significantly reduce individual CO2 emissions from transport.",
+        "sources": [
+          {
+            "url": "https://foodactive.org.uk/wp-content/uploads/2025/05/Active-Travel-updated-PS-1.pdf",
+            "publisher": "foodactive.org.uk",
+            "title": "foodactive.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Experience from Scotland, as reported by the Walk Wheel Cycle Trust, shows that perceptions of safety improved by 12% across 20 project sites, and an estimated 28 road casualties were prevented over three years across 51 project sites.",
+        "sources": [
+          {
+            "url": "https://www.walkwheelcycletrust.org.uk/our-blog/research/new-infrastructure-for-walking-wheeling-and-cycling-is-saving-lives/",
+            "publisher": "walkwheelcycletrust.org.uk",
+            "title": "walkwheelcycletrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The policy aligns with the Road Safety Strategy targets to reduce deaths and serious injuries on British roads by 65% by 2035, and by 70% for children.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-third-cycling-and-walking-investment-strategy/active-travel-active-england-the-third-cycling-and-walking-investment-strategy-cwis3",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10841/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Social Inclusion and Community Development:** Improved active travel infrastructure can enhance access to employment, education, and essential services, fostering social inclusion and reducing inequalities.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqyTbG86mSDXeK7MbIOhccBmmFlaSIi38UI0zgOfUs5oQhnm_BxAimej3he2pMccoJsYZCxje2dVISvR1pwy2d1TEcv99fIK1VJFJFQIpRzoBuKRlreM8kq4FxKOoWrRmt9Lu9DO8T_SJFAA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://foodactive.org.uk/wp-content/uploads/2025/05/Active-Travel-updated-PS-1.pdf",
+            "publisher": "foodactive.org.uk",
+            "title": "foodactive.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Creating high-quality urban spaces through active travel investment also positively impacts where people and businesses choose to locate.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/697b3f58b28b2cc262572ef6/active-travel-economic-impacts-of-active-travel.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://tfl.gov.uk/corporate/publications-and-reports/economic-benefits-of-walking-and-cycling",
+            "publisher": "tfl.gov.uk",
+            "title": "tfl.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Investment:** A projected \u00a34.5 billion will be invested over the next five years to deliver 5,000 new walking, wheeling, and cycling routes and 10,000 safer crossings by 2030.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/cycling-and-walking-boom-with-45-billion-for-thousands-of-new-routes-and-safer-crossings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Modal Shift:**\n    *   55% of all short journeys in towns and cities will be walked or cycled by 2035.",
+        "sources": [
+          {
+            "url": "https://www.traffictechnologytoday.com/news/multimodal-systems/uk-unveils-4-5bn-active-travel-strategy-plan.html",
+            "publisher": "traffictechnologytoday.com",
+            "title": "traffictechnologytoday.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/cycling-and-walking-boom-with-45-billion-for-thousands-of-new-routes-and-safer-crossings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/the-third-cycling-and-walking-investment-strategy/active-travel-active-england-the-third-cycling-and-walking-investment-strategy-cwis3",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   60% of children aged 5-16 will usually walk or cycle to school by 2035.",
+        "sources": [
+          {
+            "url": "https://www.traffictechnologytoday.com/news/multimodal-systems/uk-unveils-4-5bn-active-travel-strategy-plan.html",
+            "publisher": "traffictechnologytoday.com",
+            "title": "traffictechnologytoday.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/the-third-cycling-and-walking-investment-strategy/active-travel-active-england-the-third-cycling-and-walking-investment-strategy-cwis3",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/11/ministers-pupils-england-active-travel-school-cycing-walking-heidi-alexander",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Current Active Travel Rates (ONS, England):**\n    *   In 2024, walking trips made up 29% of all trips, with an average of 267 trips per person per year, a 7% increase since 2019.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/national-travel-survey-2024/nts-2024-active-travel",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The average walking distance travelled was 230 miles per person in 2024, the highest on record since 2002 and a 12% increase from 2019.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/national-travel-survey-2024/nts-2024-active-travel",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Cycling trips constituted 2% of all trips in 2023, with an average of 15 trips per person.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/national-travel-survey-2023/nts-2023-active-travel",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Average cycling miles travelled decreased to 47 miles per person in 2023, a 13% drop from 2019.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/national-travel-survey-2023/nts-2023-active-travel",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "However, traffic statistics show 3.6 billion vehicle miles travelled by cycling in 2023, similar to 2019.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/national-travel-survey-2023/nts-2023-active-travel",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Policy Consistency and \"Culture Wars\":** A significant concern, voiced by a minister in The Guardian, is that previous Conservative governments exhibited \"mixed messages,\" shifting from promoting active travel under Boris Johnson to \"clamping down\" on such measures under Rishi Sunak, potentially risking road safety by creating tensions between drivers and cyclists.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2025/dec/12/drivers-cyclists-transport-policy-conservatives-culture-wars-road-safety",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/11/ministers-pupils-england-active-travel-school-cycing-walking-heidi-alexander",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Labour's Transport Secretary, Heidi Alexander, emphasized that seeking to divide road users is unhelpful, as most people use various transport methods.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/11/ministers-pupils-england-active-travel-school-cycing-walking-heidi-alexander",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "This is particularly challenging because the new target covers all pupils aged 5-16, rather than just primary-aged children who tend to live closer to schools.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/11/ministers-pupils-england-active-travel-school-cycing-walking-heidi-alexander",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Infrastructure Quality and Funding:** The House of Commons Library notes that 62% of adults in England feel it's too dangerous to cycle on roads, indicating that many streets are not designed to make active travel feel safe and easy.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8615/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.cyclinguk.org/campaigns/infrastructure",
+            "publisher": "cyclinguk.org",
+            "title": "cyclinguk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Local authorities often lack the consistent, long-term funding and freedom needed to effectively plan and deliver high-quality infrastructure.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-third-cycling-and-walking-investment-strategy/active-travel-active-england-the-third-cycling-and-walking-investment-strategy-cwis3",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/house-commons-debate-active-travel-9-july-2019",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Poor road conditions, such as potholes, also remain a concern for safety.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10841/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Local Support and Implementation:** While the policy emphasizes local support, the rapid rollout of active travel schemes (e.g., during the COVID-19 pandemic) has sometimes led to controversy and dissatisfaction if issues of acceptability, fairness, and unintended consequences are not adequately addressed.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10468679/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "However, community-led approaches have shown to foster greater ownership and reduce resistance.",
+        "sources": [
+          {
+            "url": "https://www.walkwheelcycletrust.org.uk/our-blog/research/active-travel-infrastructure-how-local-communities-can-lead-the-way/",
+            "publisher": "walkwheelcycletrust.org.uk",
+            "title": "walkwheelcycletrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Data Gaps:** Urban Tide points out that the lack of accessible, standardized, and high-quality real-time travel data hinders local authorities from building a reliable evidence base for informed decision-making.",
+        "sources": [
+          {
+            "url": "https://urbantide.com/active-travel-in-the-uk-current-challenges-and-solutions",
+            "publisher": "urbantide.com",
+            "title": "urbantide.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Modal Shift Efficacy:** Research suggests that while new infrastructure is a necessary condition for encouraging a shift to active travel, it may not be sufficient on its own to achieve significant modal shift from private vehicles.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5270770/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,731 @@
+{
+  "policy_id": "con-39-reform-asylum-treaties",
+  "party": "Conservative",
+  "policy_title": "Reform Asylum Treaties",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy aims to restrict asylum protections and use visa access as leverage over other countries, which legal experts say risks breaching international human rights obligations that protect asylum seekers' due process rights. However, the core treaty-reform element is purely aspirational with no committed mechanism, so real-world effect is highly uncertain.",
+    "biggest_unknown": "Whether any actual international treaty reform is achievable, and how far visa-restriction measures would be applied in practice \u2014 both determine whether O9 effects materialise at all.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits only to 'working with' other countries to reform asylum laws and restricting visas from non-cooperating countries \u2014 no committed instrument or statutory duty.",
+        "evidence_id": "M",
+        "quote": "will work with other countries to reform international asylum laws to make them fit for an age of mass migration, restricting visa access from countries that do not cooperate"
+      },
+      {
+        "tier": "projected",
+        "claim": "Legal experts warn that UK asylum restriction plans risk violating the Refugee Convention and the Human Rights Act.",
+        "evidence_id": "E1",
+        "quote": "Legal experts, including the Immigration Law Practitioners' Association (ILPA), warn that recent UK asylum plans risk violating the UK's human rights obligations, including the Refugee Convention and the Human Rights Act."
+      },
+      {
+        "tier": "projected",
+        "claim": "Legal experts and human rights organisations argue that restrictive asylum policies risk breaching international and domestic human rights obligations.",
+        "evidence_id": "E35",
+        "quote": "Legal experts and human rights organisations contend that policies like temporary refugee status and extended settlement pathways risk breaching international and domestic human rights obligations."
+      },
+      {
+        "tier": "measurable",
+        "claim": "A comparable visa-restriction instrument ('visa brake') has already been implemented by the UK government, restricting visas for nationals of specific countries.",
+        "evidence_id": "E9",
+        "quote": "In March 2026, the government implemented a \"visa brake,\" a temporary ban on certain visa applications (primarily study visas and some work visas for Afghans) from Afghanistan, Cameroon, Myanmar, and Sudan."
+      }
+    ],
+    "rationale": "O9 covers due process, minority protections, and equal treatment under law. This policy points in a direction that would tighten asylum protections and introduce differential treatment of nationals by country (via visa leverage). Both elements have O9 relevance: reforming asylum law to make it more restrictive could erode due process for a vulnerable minority (asylum seekers), and restricting visa access by nationality creates unequal treatment based on country of origin. Legal experts (E1, E35) flag genuine human rights and rule-of-law concerns \u2014 these are not fringe views. However, the threshold discipline rule is important here: the treaty-reform core is entirely aspirational ('will work with'), with no committed instrument, budget, or statutory duty. Under the soft-verb rule, that element defaults to negligible in isolation. The visa-restriction element is more concrete \u2014 a real-world analogue already exists (E9) \u2014 and does impose differential treatment by nationality. On balance, the policy direction trends toward worsening O9 (reduced asylum protections, differential nationality-based visa access), but because the main mechanism is aspirational and the scale of any treaty reform is wholly uncertain, both magnitude and confidence are low. The verdict is 'worsens/minor' rather than 'too-uncertain' because the evidence on direction is consistent across legal commentators (E1, E35) and the visa-brake analogue (E9) shows concrete differential treatment is already operational, making the directional signal credible even if scale is uncertain.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://leftfootforward.org/2025/11/more-than-500-immigration-experts-speak-out-against-labours-asylum-proposals/",
+        "publisher": "leftfootforward.org",
+        "title": "leftfootforward.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://news.exeter.ac.uk/faculty-of-humanities-arts-and-social-sciences/legal-experts-voice-concerns-over-uk-governments-immigration-legislation/",
+        "publisher": "news.exeter.ac.uk",
+        "title": "exeter.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.aa.com.tr/en/europe/uk-asylum-reforms-controversial-changes-spark-fears-over-migrants-rights/3756951",
+        "publisher": "aa.com.tr",
+        "title": "aa.com.tr",
+        "source_type": "media"
+      },
+      {
+        "url": "https://globallawexperts.com/",
+        "publisher": "globallawexperts.com",
+        "title": "globallawexperts.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10643/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://global.morningstar.com/en-gb/news/alliance-news/1772593016651953700/uk-halts-visa-routes-from-four-countries-including-afghan-work-visas",
+        "publisher": "global.morningstar.com",
+        "title": "morningstar.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.youtube.com/shorts/k6aTTg15uvs?cbrd=1&ucbcb=1",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0496,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims pass entailment checks. The stated-tier claim accurately reflects the manifesto text without overstatement. The two projected claims (E1, E35) correctly attribute concerns to named legal experts/organisations without asserting them as fact. The measurable claim (E9) is supported by the quoted evidence. Tier integrity holds: no projections dressed as measurables. The visa-brake (E9) is a Labour government action, not Conservative \u2014 the rationale uses it only as a real-world analogue for the visa-restriction element, which is a fair contextual use rather than conflating the two parties; however, readers should note this distinction. Magnitude and time_horizon are consistent with low confidence and directional uncertainty. No party-blind violations detected \u2014 the rationale judges modelled effects, not intent. No false_balance issue: the verdict does not claim mixed/too-uncertain but 'worsens/minor' with low confidence, which is supported by the consistent directional signal from legal experts. The soft-verb discipline (aspirational treaty reform treated as low-magnitude) is correctly applied."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will work with other countries to reform international asylum laws to make them fit for an age of mass migration, restricting visa access from countries that do not cooperate on national priorities like illegal migration.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "*   **Legal Challenges and Human Rights Concerns:** Legal experts, including the Immigration Law Practitioners' Association (ILPA), warn that recent UK asylum plans risk violating the UK's human rights obligations, including the Refugee Convention and the Human Rights Act.",
+        "sources": [
+          {
+            "url": "https://leftfootforward.org/2025/11/more-than-500-immigration-experts-speak-out-against-labours-asylum-proposals/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.exeter.ac.uk/faculty-of-humanities-arts-and-social-sciences/legal-experts-voice-concerns-over-uk-governments-immigration-legislation/",
+            "publisher": "news.exeter.ac.uk",
+            "title": "exeter.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Amnesty International and the UNHCR have also expressed concerns about proposed changes to refugee status, stating that while the UN treaty allows for withdrawal of refugee status if circumstances fundamentally change, it was not intended for constant review.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10575/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Critics argue that proposals to make refugee status temporary and extend the path to settlement to 20 years (from the previous five) could face legal challenges and are incompatible with international obligations.",
+        "sources": [
+          {
+            "url": "https://leftfootforward.org/2025/11/more-than-500-immigration-experts-speak-out-against-labours-asylum-proposals/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aa.com.tr/en/europe/uk-asylum-reforms-controversial-changes-spark-fears-over-migrants-rights/3756951",
+            "publisher": "aa.com.tr",
+            "title": "aa.com.tr",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.exeter.ac.uk/faculty-of-humanities-arts-and-social-sciences/legal-experts-voice-concerns-over-uk-governments-immigration-legislation/",
+            "publisher": "news.exeter.ac.uk",
+            "title": "exeter.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://globallawexperts.com/",
+            "publisher": "globallawexperts.com",
+            "title": "globallawexperts.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Feasibility of International Reform:** While the UK Home Secretary has expressed a desire for Britain to play a \"leading role\" in reforming the ECHR at the European level",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=KWD3igTZPHg",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": ", and discussions are underway for a \"political declaration\" to facilitate deportations among Convention states",
+        "sources": [
+          {
+            "url": "https://globallawexperts.com/",
+            "publisher": "globallawexperts.com",
+            "title": "globallawexperts.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The EU's new Pact on Migration and Asylum, for instance, maintains the \"first-country-of-entry\" principle but introduces a mandatory solidarity mechanism among member states.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/after-dublin-what-the-eus-new-asylum-pact-means-for-britain/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Leverage and Agreements:** Home Secretary Shabana Mahmood has stated that the UK could reduce the number of visas granted to countries that delay or refuse to accept the return of their nationals who have no right to remain in the UK.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/uk-could-cut-visas-for-countries-that-refuse-to-accept-returns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KWD3igTZPHg",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The UK has also entered into an agreement with the \"Five Eyes\" partners (United States, Canada, Australia, and New Zealand) to enhance the return of individuals with no legal basis to remain.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/uk-could-cut-visas-for-countries-that-refuse-to-accept-returns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **\"Visa Brake\" Policy:** In March 2026, the government implemented a \"visa brake,\" a temporary ban on certain visa applications (primarily study visas and some work visas for Afghans) from Afghanistan, Cameroon, Myanmar, and Sudan.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10643/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://global.morningstar.com/en-gb/news/alliance-news/1772593016651953700/uk-halts-visa-routes-from-four-countries-including-afghan-work-visas",
+            "publisher": "global.morningstar.com",
+            "title": "morningstar.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/shorts/k6aTTg15uvs?cbrd=1&ucbcb=1",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The government justified this as a measure to tackle \"widespread visa abuse,\" where individuals reportedly use legal routes to subsequently claim asylum.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10643/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://global.morningstar.com/en-gb/news/alliance-news/1772593016651953700/uk-halts-visa-routes-from-four-countries-including-afghan-work-visas",
+            "publisher": "global.morningstar.com",
+            "title": "morningstar.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The government estimated that this \"visa brake\" could prevent approximately 1,400 asylum claims if maintained for 18 months.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10643/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Net migration to the UK was estimated at 171,000 in the year ending December 2025, a significant decrease from 331,000 the previous year and a peak of 1.47 million in March 2023.",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/uk-net-migration-nearly-halves-171000-year-december-2025-ons-says",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The ONS has revised previous migration figures upwards and attributes increases in long-term international migration since 2021 to factors such as the war in Ukraine, the post-Brexit immigration system, and pent-up demand for study visas.",
+        "sources": [
+          {
+            "url": "https://data.london.gov.uk/blog/recent-migration-trends-in-the-uk-and-london/",
+            "publisher": "data.london.gov.uk",
+            "title": "london.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Office for Budget Responsibility (OBR)**\n*   The OBR generally forecasts that higher net migration contributes to lower deficits and debt due to migrants typically being of working age.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://obr.uk/box/migration-and-fiscal-sustainability/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Conversely, lower net immigration is projected to negatively impact UK economic growth and reduce the Chancellor's fiscal headroom.",
+        "sources": [
+          {
+            "url": "https://www.mpamag.com/uk/news/general/lower-immigration-to-hit-uk-growth-and-squeeze-fiscal-headroom-economists-warn/565181",
+            "publisher": "mpamag.com",
+            "title": "mpamag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "However, low-wage workers were found to have a negative lifetime fiscal impact.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The OBR expects average net migration to be around 350,000 per year over the forecast period, adding about 350,000 people (around 300,000 adults) to the UK population over the next five years.",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/net-migration-forecast-and-its-impact-on-the-economy/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Institute for Fiscal Studies (IFS)**\n*   The IFS has highlighted significant funding pressures on the asylum system, noting an \"unfunded spending pressure\" of \u00a36.4 billion in 2024.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/funding-pressure-asylum-system-explained",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The IFS also suggests that while direct economic effects of immigration on native employment and wages are often minor, there can be significant indirect effects through \"political channels.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/Immigration-and-inequality-the-role-of-politics-and-policies-IFS-Deaton-Review-of-Inequalities.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Resolution Foundation**\n*   The Resolution Foundation notes that immigration has profoundly influenced the size and composition of the UK's labour force, with migrants accounting for over three-quarters of workforce growth in the past two decades.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   They anticipate that some lower-paying industries heavily reliant on migrant labour, such as food manufacturing and warehousing, will face substantial changes due to new immigration rules.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Resolution Foundation has also highlighted issues of precarious work and vulnerability associated with tied visas for foreign-born workers.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/demographics/migration/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They observe that immigration remains a highly polarised issue, and successive government policies have struggled to find a lasting solution.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/events/can-uk-governments-ever-get-immigration-policy-right/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**House of Commons Library**\n*   The House of Commons Library provides extensive briefings on migration, asylum claims, and immigration reforms.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06077/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/new-house-commons-library-briefing-looks-inadmissibility-rules-asylum-claims",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10643/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10575/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/house-commons-library-releases-report-border-security-asylum-and-immigration-bills-parliament",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/topic/home-affairs/immigration/asylum/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They note the government's objective to reduce net migration, including the number of asylum seekers.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10575/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "A record 105,000 people applied for asylum in 2024.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10575/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "**Health Foundation**\n*   Research from the Health Foundation indicates that international migration has a positive impact on the NHS.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9JBss90FtdwDb6e0Jju_YRKUfWG3YGUpnfq5lOuA7Y9jm5fFeD0ekHKJ0VdsIQESJRD3jzNTiV7e0Uar2udiMbD9dlZbztN4gE-_QSXcA29Oi2RObnH6Lxh1C5AtdkHAa_fphshX_KEC4t35kwmU-X-Ly_WPBntm8j8Pf4WpjtqzzQv95yHxVMoRIFx3rAFWpF01M",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFISihE9g7RB9UgZ8y8t2mzC0MFCPva7zLFAegh2_Z5ixyLN2IBhUQq_Rd7zyudPIsrapDx0LUHAIC2ZHpL1HFmPfDBh6x3MS2XIg4mDpYLH1ZEJ4ows5eJjFVS_D0uCh83ZYa1Ou9qIFi6-I-x7RzQZEJYbr1kcZlVWmd4XYph8PhF1emKCND7m2CCubg-vKY-3NViglnxbbj9DSBTr1AtG3DX-e9yls1GwtfwBtjywz0gLoGFbf0=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Migrants are a vital part of the healthcare workforce; in June 2019, 13.3% of NHS staff in hospitals and community services in England reported a non-British nationality, with this figure rising to 28.4% for doctors.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9JBss90FtdwDb6e0Jju_YRKUfWG3YGUpnfq5lOuA7Y9jm5fFeD0ekHKJ0VdsIQESJRD3jzNTiV7e0Uar2udiMbD9dlZbztN4gE-_QSXcA29Oi2RObnH6Lxh1C5AtdkHAa_fphshX_KEC4t35kwmU-X-Ly_WPBntm8j8Pf4WpjtqzzQv95yHxVMoRIFx3rAFWpF01M",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   The Health Foundation notes that migrants generally use fewer NHS services than UK-born residents, particularly in their initial years in the UK.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9JBss90FtdwDb6e0Jju_YRKUfWG3YGUpnfq5lOuA7Y9jm5fFeD0ekHKJ0VdsIQESJRD3jzNTiV7e0Uar2udiMbD9dlZbztN4gE-_QSXcA29Oi2RObnH6Lxh1C5AtdkHAa_fphshX_KEC4t35kwmU-X-Ly_WPBntm8j8Pf4WpjtqzzQv95yHxVMoRIFx3rAFWpF01M",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFISihE9g7RB9UgZ8y8t2mzC0MFCPva7zLFAegh2_Z5ixyLN2IBhUQq_Rd7zyudPIsrapDx0LUHAIC2ZHpL1HFmPfDBh6x3MS2XIg4mDpYLH1ZEJ4ows5eJjFVS_D0uCh83ZYa1Ou9qIFi6-I-x7RzQZEJYbr1kcZlVWmd4XYph8PhF1emKCND7m2CCubg-vKY-3NViglnxbbj9DSBTr1AtG3DX-e9yls1GwtfwBtjywz0gLoGFbf0=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHfE71hEg-AM6pzl1mMggdnATGQVNe93thhIbDAdPlybMRyTUvx5_YA4bPDt_jL4QOBCGaKbWKCuUG1k6n3RuGIvFiRI2SzRV3eQR5DlTDYfjmhEZ-ByUtvGnUWvqh385bQnrv07CINjmRSHDcvQK17tY8PAQsnQ5O3h9AMZPCwjig9SCKtQ_lNdgpdzwYOB0vDM9IIcb8-lktL8MSzH-epEcL5kdpAkw3zdhs5Q3vSQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The NHS currently faces significant staffing shortages, with around 100,000 vacancies.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFISihE9g7RB9UgZ8y8t2mzC0MFCPva7zLFAegh2_Z5ixyLN2IBhUQq_Rd7zyudPIsrapDx0LUHAIC2ZHpL1HFmPfDBh6x3MS2XIg4mDpYLH1ZEJ4ows5eJjFVS_D0uCh83ZYa1Ou9qIFi6-I-x7RzQZEJYbr1kcZlVWmd4XYph8PhF1emKCND7m2CCubg-vKY-3NViglnxbbj9DSBTr1AtG3DX-e9yls1GwtfwBtjywz0gLoGFbf0=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "They argue that historically, such measures have yielded mixed results, with \"push\" factors (like conflict and persecution) and \"pull\" factors (like social networks and historical ties) being more potent drivers of migration than deterrents.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/after-dublin-what-the-eus-new-asylum-pact-means-for-britain/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "They question whether recent restrictions will significantly reduce asylum applications or small boat crossings.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/temporary-protection-the-uks-new-policies-on-asylum-and-returns/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Economic Impact of Reduced Migration:** While the OBR forecasts a negative impact on economic growth and fiscal headroom from lower net migration",
+        "sources": [
+          {
+            "url": "https://www.mpamag.com/uk/news/general/lower-immigration-to-hit-uk-growth-and-squeeze-fiscal-headroom-economists-warn/565181",
+            "publisher": "mpamag.com",
+            "title": "mpamag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": ", the Resolution Foundation suggests that the new migration regime is unlikely to fundamentally alter the UK's long-term economic trajectory or solve underlying challenges of low investment and productivity.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Legal experts and human rights organisations contend that policies like temporary refugee status and extended settlement pathways risk breaching international and domestic human rights obligations.",
+        "sources": [
+          {
+            "url": "https://leftfootforward.org/2025/11/more-than-500-immigration-experts-speak-out-against-labours-asylum-proposals/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aa.com.tr/en/europe/uk-asylum-reforms-controversial-changes-spark-fears-over-migrants-rights/3756951",
+            "publisher": "aa.com.tr",
+            "title": "aa.com.tr",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.exeter.ac.uk/faculty-of-humanities-arts-and-social-sciences/legal-experts-voice-concerns-over-uk-governments-immigration-legislation/",
+            "publisher": "news.exeter.ac.uk",
+            "title": "exeter.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://globallawexperts.com/",
+            "publisher": "globallawexperts.com",
+            "title": "globallawexperts.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Impact on Integration and Mental Health:** Experts warn that policies creating prolonged uncertainty, such as temporary refugee status and a 20-year wait for settlement, could severely harm refugees' integration prospects and mental health.",
+        "sources": [
+          {
+            "url": "https://leftfootforward.org/2025/11/more-than-500-immigration-experts-speak-out-against-labours-asylum-proposals/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "Refugee charities similarly argue these measures will hinder integration and negatively impact social cohesion.",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/world/asylum-rules-proposal-united-kingdom-critics-9.6985197",
+            "publisher": "cbc.ca",
+            "title": "cbc.ca",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Operational Workability and Costs:** Critics argue that introducing frequent reviews for temporary refugee status could lead to tens of thousands of \"unnecessary re-assessments\" annually, potentially causing more \"poor-quality decisions\" that are then overturned on appeal, thereby increasing the operational costs of the asylum system.",
+        "sources": [
+          {
+            "url": "https://leftfootforward.org/2025/11/more-than-500-immigration-experts-speak-out-against-labours-asylum-proposals/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "The cost of the asylum system has already escalated to \u00a34.76 billion in 2024/25, a tenfold increase from a decade prior, largely due to accommodation expenses.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/a-paradigm-shift-in-asylum-and-immigration-policy",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "The backlog of unresolved asylum claims stood at 224,700 cases in March 2026.",
+        "sources": [
+          {
+            "url": "https://www.courthousenews.com/charities-denounce-uk-asylum-reforms-as-cruel-and-unworkable/",
+            "publisher": "courthousenews.com",
+            "title": "courthousenews.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

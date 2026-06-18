@@ -1,0 +1,767 @@
+{
+  "policy_id": "ld-10-expand-british-business-bank",
+  "party": "Liberal Democrat",
+  "policy_title": "Expand British Business Bank",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "Expanding the British Business Bank aims to close funding gaps for SMEs and crowd in private investment, with a track record suggesting real economic gains \u2014 but most benefits take years to materialise and projections come largely from the BBB itself.",
+    "biggest_unknown": "Whether the BBB can genuinely crowd in private capital at scale or whether institutional and regional barriers (pension fund reluctance, regional risk premia) prevent projected GVA and job gains from materialising.",
+    "claims": [
+      {
+        "tier": "measurable",
+        "claim": "The BBB has historically supported over 200,000 businesses, contributing an estimated 250,000 jobs and \u00a343 billion of GVA.",
+        "evidence_id": "E9",
+        "quote": "Historically, the BBB has supported over 200,000 businesses, contributing an estimated 250,000 jobs and \u00a343 billion of GVA."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The BBB has historically mobilised over \u00a34 of private investment for every \u00a31 of public funds.",
+        "evidence_id": "E18",
+        "quote": "Historically, the BBB has successfully mobilized over \u00a34 of private investment for every \u00a31 of public funds."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Only about 10% of UK venture capital funding comes from domestic pension funds, compared to 72% in the US, indicating a structural capital formation problem.",
+        "evidence_id": "E20",
+        "quote": "only about 10% of UK venture capital funding coming from domestic pension funds, compared to 72% in the US."
+      }
+    ],
+    "rationale": "The BBB has a measurable track record: it has backed over 200,000 businesses, generated an estimated \u00a343bn in GVA, and historically leveraged \u00a34 of private capital per \u00a31 of public money. Expansion to \u00a325.6bn total capacity, with a mandate targeting eight high-growth sectors and a new British Growth Partnership designed to draw in pension funds, represents a material increase in the state's role as a patient capital provider. These are the key O13 channels: filling finance gaps that constrain SME investment and productivity, and crowding in private capital that would not otherwise flow to high-risk, high-potential firms or underserved regions.\n\nThe BBB's own projections (\u00a368bn GVA, 370,000 jobs over five years) are large but come from the institution itself and must be treated as advocacy-adjacent; they are not independently validated in the provided evidence. The historical multiplier (\u00a34:\u00a31) from a parliamentary committee source is more credible and provides a plausible mechanism for the crowd-in effect.\n\nKey headwinds temper the verdict. First, structural barriers to mobilising domestic institutional capital are real: UK pension fund participation in VC is 10% vs 72% in the US, and cultural and governance gaps are noted as deep-seated. Second, regional risk premia of 250-300bps above London rates mean the BBB alone may struggle to equalise economic opportunity geographically. Third, SME appetite for green investment is declining, limiting the zero-carbon component's near-term traction.\n\nOn balance, the policy extends a mechanism with an evidenced track record of improving SME access to capital and generating real economic activity. The counterfactual \u2014 absent expansion, finance gaps persist and private capital remains concentrated in London and overseas \u2014 is plausible and consistent with cited evidence. Near-term effects are modest (the institution takes time to deploy); the long-term (10yr+) effect on productivity, investment, and living standards is the primary channel. Direction is 'improves', magnitude 'moderate', confidence 'moderate' given the reliance on BBB's own projections for scale.",
+    "sources": [
+      {
+        "url": "https://www.gov.uk/government/publications/statement-of-strategic-priorities-to-the-british-business-bank/statement-of-strategic-priorities-to-the-british-business-bank-html-version",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-marks-decade-transformative-impact-economy-and-smaller",
+        "publisher": "british-business-bank.co.uk",
+        "title": "british-business-bank.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/148570/pdf/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.venturecapitaljournal.com/british-business-bank-to-deploy-2bn-a-year-to-vc-and-growth/",
+        "publisher": "venturecapitaljournal.com",
+        "title": "venturecapitaljournal.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0494,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E9 (historical BBB GVA/jobs figures) and E18 (\u00a34:\u00a31 multiplier) both originate from BBB's own publications or parliamentary written evidence submitted by BBB. These are advocacy-adjacent self-reported figures. The rationale acknowledges this for projections but treats historical figures as straightforwardly 'measurable' without flagging the self-reported provenance. Not blocking given the parliamentary committee sourcing, but the tier designation slightly overstates the independence of these baselines."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E20 (pension fund comparison 10% UK vs 72% US) is attributed to BBB's Chief Investment Officer via venturecapitaljournal.com \u2014 a single industry figure's assertion in trade media. The claim is stated as a structural 'measurable' fact; it may be accurate but lacks independent corroboration in the evidence set."
+        }
+      ],
+      "notes": "The verdict is well-constructed and largely passes. Direction 'improves', magnitude 'moderate', confidence 'moderate' are all defensible and appropriately hedged. The rationale correctly flags BBB self-projection risk and structural headwinds. No tier_integrity, lever_leakage, party_blind, false_balance, or magnitude_timing violations found. Two warnings on source independence for self-reported historical figures and a trade-media citation used as a structural fact, neither rising to blocking."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "The policy aims to expand the BBB to ensure viable SMEs have access to capital and to crowd in private investment, especially in zero-carbon products and technologies.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "UK capital markets remain ill-equipped to narrow regional productivity inequalities, with investment risk premia gaps of 250-300 basis points between London and most other regions.",
+          "evidence_id": "E25",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The BBB projects that its expanded activities over five years will fund approximately 180,000 businesses, support 370,000 new jobs, and generate \u00a368 billion in GVA.",
+          "evidence_id": "E8",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The expanded BBB aims to unlock approximately \u00a326 billion of private capital alongside its \u00a313 billion funding over five years.",
+          "evidence_id": "E17",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The BBB's total financial capacity has been expanded to \u00a325.6 billion, including an additional \u00a33 billion in guarantee capacity.",
+          "evidence_id": "E3",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "An annual green funding gap for SMEs is estimated at \u00a36.8 billion, with traditional lenders often lacking understanding of green business models.",
+          "evidence_id": "E15",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "SME appetite for green investment is declining: the proportion planning significant steps to reduce carbon footprints fell from 27% in 2021 to 19% in 2023, with 48% citing rising costs as a barrier.",
+          "evidence_id": "E13",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Expand the British Business Bank to perform a more central role in the economy, to ensure that viable small and medium-sized businesses have access to capital, and enable it to help \u2018crowd-in\u2019 private investment, in particular in zero-carbon products and technologies.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Established in 2014, the British Business Bank functions as the UK government's economic development bank, with a mission to drive sustainable growth and prosperity by enhancing SME access to finance and facilitating the transition to a net-zero economy.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/148570/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2025-01/uk-power-of-10-year-report-2025.pdf",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/impact-report-2025/introduction",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/investing-in-innovation-for-a-green-economy-factsheet",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-commits-ps66bn-back-innovation-part-uks-modern-industrial-strategy-and-unlock",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-marks-decade-transformative-impact-economy-and-smaller",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "It operates through a network of over 200 delivery partners, providing various financial products, including Start Up Loans and the Growth Guarantee Scheme.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7690/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/impact-report-2025/introduction",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The government has significantly expanded the BBB's total financial capacity by approximately two-thirds, to **\u00a325.6 billion**, which includes an additional \u00a33 billion in guarantee capacity.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/statement-of-strategic-priorities-to-the-british-business-bank/statement-of-strategic-priorities-to-the-british-business-bank-html-version",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-publishes-five-year-strategic-plan-deliver-step-change-smaller-business",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-total-financial-capacity-increased-ps255bn",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This expansion marks a \"step change\" in its role, with a mandate to deliver increased investment activity, projected to rise by two-thirds annually to around **\u00a32.5 billion** each year.",
+        "sources": [
+          {
+            "url": "https://www.venturecapitaljournal.com/british-business-bank-to-deploy-2bn-a-year-to-vc-and-growth/",
+            "publisher": "venturecapitaljournal.com",
+            "title": "venturecapitaljournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-publishes-five-year-strategic-plan-deliver-step-change-smaller-business",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-total-financial-capacity-increased-ps255bn",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This initiative will strategically target eight priority growth sectors: advanced manufacturing, clean energy industries, creative industries, defence, digital and technologies (including Artificial Intelligence), financial services, life sciences, and professional and business services.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/statement-of-strategic-priorities-to-the-british-business-bank/statement-of-strategic-priorities-to-the-british-business-bank-html-version",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2025/jun/25/big-british-bank-back-in-the-spotlight-with-10bn-uk-growth-mandate",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-publishes-five-year-strategic-plan-deliver-step-change-smaller-business",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-commits-ps66bn-back-innovation-part-uks-modern-industrial-strategy-and-unlock",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.forbes.com/sites/trevorclawson/2025/10/12/state-funded-uk-business-bank-begins-direct-investment-in-startups/",
+            "publisher": "forbes.com",
+            "title": "forbes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipe.com/news/ipe-uk-briefing-spending-review-and-the-role-of-british-business-bank/10131456.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The BBB will also scale up its direct investments, increasing its capacity to take stakes of up to **\u00a360 million** in individual companies, up from a previous cap of \u00a315 million.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2025/jun/25/big-british-bank-back-in-the-spotlight-with-10bn-uk-growth-mandate",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-commits-ps66bn-back-innovation-part-uks-modern-industrial-strategy-and-unlock",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.forbes.com/sites/trevorclawson/2025/10/12/state-funded-uk-business-bank-begins-direct-investment-in-startups/",
+            "publisher": "forbes.com",
+            "title": "forbes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-co-invests-ps250-million-directly-uk-scale-ups",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ionanalytics.com/insights/mergermarket/british-business-bank-mobilises-new-capital-to-scale-uk-growth-companies/",
+            "publisher": "ionanalytics.com",
+            "title": "ionanalytics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Improved Access to Capital for SMEs:**\nThe policy aims to address long-standing \"finance gaps\" for SMEs, especially those seeking patient capital for scaling up and for innovative, early-stage ventures.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/124096/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a789648e5274a3b4807f07a/12-539-sme-access-external-finance.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.forbes.com/sites/trevorclawson/2025/10/12/state-funded-uk-business-bank-begins-direct-investment-in-startups/",
+            "publisher": "forbes.com",
+            "title": "forbes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The BBB projects that its activities over the next five years will fund approximately **180,000 businesses**, support the creation of around **370,000 new jobs**, and generate **\u00a368 billion** in Gross Value Added (GVA) for the UK economy.",
+        "sources": [
+          {
+            "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2025-11/five-year-strategic-plan-report-2025.pdf",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-publishes-five-year-strategic-plan-deliver-step-change-smaller-business",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Historically, the BBB has supported over 200,000 businesses, contributing an estimated 250,000 jobs and \u00a343 billion of GVA.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/statement-of-strategic-priorities-to-the-british-business-bank/statement-of-strategic-priorities-to-the-british-business-bank-html-version",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-marks-decade-transformative-impact-economy-and-smaller",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Driving Investment in Zero-Carbon Products and Technologies:**\nThe BBB's mission explicitly includes enabling the transition to a net-zero economy.",
+        "sources": [
+          {
+            "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2025-01/uk-power-of-10-year-report-2025.pdf",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/investing-in-innovation-for-a-green-economy-factsheet",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-commits-ps66bn-back-innovation-part-uks-modern-industrial-strategy-and-unlock",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-marks-decade-transformative-impact-economy-and-smaller",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "It has a track record of investing in the cleantech sector, committing **\u00a3351 million** to 89 cleantech companies since 2014, representing 3% of its total equity investment.",
+        "sources": [
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/investing-in-innovation-for-a-green-economy-factsheet",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The expanded role is expected to accelerate green investment by absorbing risk and stimulating further private capital in this area.",
+        "sources": [
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/investing-in-innovation-for-a-green-economy-factsheet",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "However, data from UK Finance's SME Finance Monitor shows a potential challenge: the proportion of SMEs planning significant steps to reduce their carbon footprint *decreased* from 27% in 2021 to just **19%** in 2023.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4UFuMtFHOxEZkvvtoPGVU0qpAWV740RAd5rvVWjdpblaEh31liy4YE5_sYlus26hhJn6bFMiYNFr2WDOxMnoKQFMSKSwcQkZgPkictUFjPvaUS7-dPp3pl2Cwm-LDuy0mBoeKcU5FuB4O0r3lUDnGNYeR-2wfunQitlATZD0ObQitetCuO0B-oeaicARb2IqrdMIXJ0Jaz78ub0Py",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Concerns over rising costs and the economic climate were cited by 48% of all SMEs, and by 57% of those intending to reduce their climate impact, making them reluctant to take on external finance for sustainability improvements.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4UFuMtFHOxEZkvvtoPGVU0qpAWV740RAd5rvVWjdpblaEh31liy4YE5_sYlus26hhJn6bFMiYNFr2WDOxMnoKQFMSKSwcQkZgPkictUFjPvaUS7-dPp3pl2Cwm-LDuy0mBoeKcU5FuB4O0r3lUDnGNYeR-2wfunQitlATZD0ObQitetCuO0B-oeaicARb2IqrdMIXJ0Jaz78ub0Py",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "A study by ResearchGate estimated an annual funding gap for green investments by SMEs at **\u00a36.8 billion**, noting that traditional lenders often lack understanding of green business models.",
+        "sources": [
+          {
+            "url": "https://www.researchgate.net/publication/400347794_Access_to_Finance_and_the_Green_Transition_for_UK_SMEs",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Crowding-in Private Investment:**\nA core objective is to \"crowd-in\" private capital, acting as a catalyst rather than a competitor to private investors.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/148570/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/impact-report-2025/introduction",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/statement-of-strategic-priorities-to-the-british-business-bank/statement-of-strategic-priorities-to-the-british-business-bank-html-version",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2025/jun/25/big-british-bank-back-in-the-spotlight-with-10bn-uk-growth-mandate",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-publishes-five-year-strategic-plan-deliver-step-change-smaller-business",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.forbes.com/sites/trevorclawson/2025/10/12/state-funded-uk-business-bank-begins-direct-investment-in-startups/",
+            "publisher": "forbes.com",
+            "title": "forbes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ionanalytics.com/insights/mergermarket/british-business-bank-mobilises-new-capital-to-scale-uk-growth-companies/",
+            "publisher": "ionanalytics.com",
+            "title": "ionanalytics.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/impact-report-2025/our-impact",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The BBB aims to unlock approximately **\u00a326 billion** of private capital alongside its \u00a313 billion funding and facilitate up to \u00a310 billion in SME lending through guarantees over the next five years.",
+        "sources": [
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-publishes-five-year-strategic-plan-deliver-step-change-smaller-business",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Historically, the BBB has successfully mobilized over \u00a34 of private investment for every \u00a31 of public funds.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/148570/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "A key initiative for this is the British Growth Partnership (BGP), designed to mobilize domestic institutional capital, particularly from UK pension funds, into venture capital and growth equity.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/148570/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.venturecapitaljournal.com/british-business-bank-to-deploy-2bn-a-year-to-vc-and-growth/",
+            "publisher": "venturecapitaljournal.com",
+            "title": "venturecapitaljournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.forbes.com/sites/trevorclawson/2025/10/12/state-funded-uk-business-bank-begins-direct-investment-in-startups/",
+            "publisher": "forbes.com",
+            "title": "forbes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ionanalytics.com/insights/mergermarket/british-business-bank-mobilises-new-capital-to-scale-uk-growth-companies/",
+            "publisher": "ionanalytics.com",
+            "title": "ionanalytics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Leandros Kalisperas, the BBB's Chief Investment Officer, noted a \"capital formation problem\" in the UK, with only about 10% of UK venture capital funding coming from domestic pension funds, compared to 72% in the US.",
+        "sources": [
+          {
+            "url": "https://www.venturecapitaljournal.com/british-business-bank-to-deploy-2bn-a-year-to-vc-and-growth/",
+            "publisher": "venturecapitaljournal.com",
+            "title": "venturecapitaljournal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "He also highlighted that 95% of capital for UK private companies raising over \u00a350 million is sourced from international investors.",
+        "sources": [
+          {
+            "url": "https://www.venturecapitaljournal.com/british-business-bank-to-deploy-2bn-a-year-to-vc-and-growth/",
+            "publisher": "venturecapitaljournal.com",
+            "title": "venturecapitaljournal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The BGP aims to counter this by offering curated investment products to pension funds.",
+        "sources": [
+          {
+            "url": "https://www.venturecapitaljournal.com/british-business-bank-to-deploy-2bn-a-year-to-vc-and-growth/",
+            "publisher": "venturecapitaljournal.com",
+            "title": "venturecapitaljournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.forbes.com/sites/trevorclawson/2025/10/12/state-funded-uk-business-bank-begins-direct-investment-in-startups/",
+            "publisher": "forbes.com",
+            "title": "forbes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Its existing Nations and Regions Investment Funds (NRIFs) have directed significant investment outside London, with 84% of businesses supported in 2024/25 being located outside the capital.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/148570/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2025-02/small-business-finance-market-report-2025.pdf",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The expansion includes new regional investment funds for the East and South-East of England, further support for regional innovation clusters, and an additional **\u00a3150 million** committed to Community Development Finance Institutions (CDFIs) to support underserved groups.",
+        "sources": [
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-publishes-five-year-strategic-plan-deliver-step-change-smaller-business",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-commits-ps66bn-back-innovation-part-uks-modern-industrial-strategy-and-unlock",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/calls-for-evidence/small-business-access-to-finance/outcome/government-response-to-access-to-finance-call-for-evidence",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "However, analysts like The Productivity Institute note that UK capital and finance markets remain \"ill-equipped\" to narrow regional productivity inequalities, citing investment risk premia gaps of **250-300 basis points** between London and most other regions.",
+        "sources": [
+          {
+            "url": "https://www.productivity.ac.uk/research/access-to-capital-and-finance-strategic-context-challenges-and-policy-recommendations/",
+            "publisher": "productivity.ac.uk",
+            "title": "productivity.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Oliver Wyman's study for the Levelling Up Advisory Council also confirmed persistent regional challenges in accessing finance for innovation and growth.",
+        "sources": [
+          {
+            "url": "https://www.oliverwyman.com/uk-ireland/our-expertise/insights/2024/mar/financing-small-and-medium-sized-business-across-the-uk.html",
+            "publisher": "oliverwyman.com",
+            "title": "oliverwyman.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Risk of \"Greenwashing\" or Ineffective Green Investment:** Although the ONS reported that the UK's low carbon and renewable energy industries generated record revenues of **\u00a377 billion** in 2024, showing significant growth, the reluctance of many SMEs to invest in green initiatives due to cost concerns could limit the policy's real-world impact without additional incentives or support.",
+        "sources": [
+          {
+            "url": "https://www.british-business-bank.co.uk/about/research-and-publications/investing-in-innovation-for-a-green-economy-factsheet",
+            "publisher": "british-business-bank.co.uk",
+            "title": "british-business-bank.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4UFuMtFHOxEZkvvtoPGVU0qpAWV740RAd5rvVWjdpblaEh31liy4YE5_sYlus26hhJn6bFMiYNFr2WDOxMnoKQFMSKSwcQkZgPkictUFjPvaUS7-dPp3pl2Cwm-LDuy0mBoeKcU5FuB4O0r3lUDnGNYeR-2wfunQitlATZD0ObQitetCuO0B-oeaicARb2IqrdMIXJ0Jaz78ub0Py",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businessgreen.com/news/4526135/ons-uks-low-carbon-clean-energy-sectors-generate-record-revenues-77bn-2024",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "\"Market Shaping\":** The UCL Institute for Innovation and Public Purpose (IIPP) argues that state investment banks should go beyond merely \"fixing market failures\" and actively \"create and shape markets,\" drawing lessons from institutions like Germany's KfW.",
+        "sources": [
+          {
+            "url": "https://medium.com/iipp-blog/why-the-uk-needs-a-state-investment-bank-to-support-its-industrial-strategy-6fe2d61d756e",
+            "publisher": "medium.com",
+            "title": "medium.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ucl.ac.uk/bartlett/sites/bartlett/files/state-investment-banks-and-patient-finance-an-international-comparison_policy-report_mariana-mazzucato_laurie-macfarlane.pdf",
+            "publisher": "ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Mobilizing Institutional Capital:** While the BBB is actively working to crowd in UK pension funds, the significant gap between UK and US pension fund involvement in venture capital highlights a deep-seated challenge in cultural and governance comfort within the UK institutional investment landscape.",
+        "sources": [
+          {
+            "url": "https://www.venturecapitaljournal.com/british-business-bank-to-deploy-2bn-a-year-to-vc-and-growth/",
+            "publisher": "venturecapitaljournal.com",
+            "title": "venturecapitaljournal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Political and Fiscal Constraints:** The UCL IIPP previously highlighted that, unlike some European counterparts, any borrowing by a UK state investment bank is added to the public debt, which could make such initiatives politically less attractive despite their long-term economic benefits.",
+        "sources": [
+          {
+            "url": "https://medium.com/iipp-blog/why-the-uk-needs-a-state-investment-bank-to-support-its-industrial-strategy-6fe2d61d756e",
+            "publisher": "medium.com",
+            "title": "medium.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "However, the Resolution Foundation noted that recent changes in borrowing rules have created additional fiscal space for public investment.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/more-more-more/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

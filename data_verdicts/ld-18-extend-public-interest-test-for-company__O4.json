@@ -1,0 +1,587 @@
+{
+  "policy_id": "ld-18-extend-public-interest-test-for-company",
+  "party": "Liberal Democrat",
+  "policy_title": "Extend Public Interest Test for Company Takeovers",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "mixed",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "Extending the public interest test could protect jobs and long-term investment in key industries from short-term foreign acquirers, but risks deterring the high-wage, productive foreign investment that benefits UK workers. The net effect on pay and job quality is genuinely uncertain.",
+    "biggest_unknown": "Whether the deterrent effect on beneficial foreign direct investment outweighs the protective effect on jobs and wages in targeted sectors.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy aims to protect UK workers from speculative or short-term foreign takeovers of large or strategically significant companies.",
+        "evidence_id": "M",
+        "quote": "recognise the benefits to the UK economy, workers and consumers of protecting UK companies from speculative or short-term interests"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Foreign affiliates have historically paid significantly higher wages than domestic firms.",
+        "evidence_id": "E6",
+        "quote": "foreign affiliates were 70% more productive than domestic firms, 80% more likely to invest in research and development, and paid 35% higher wages"
+      },
+      {
+        "tier": "projected",
+        "claim": "Expanding the test would likely increase regulatory friction and deter investment by creating uncertainty for investors.",
+        "evidence_id": "E7",
+        "quote": "Expanding the test would likely increase regulatory friction and administrative burdens on businesses and government, potentially deterring investment by creating uncertainty for investors"
+      },
+      {
+        "tier": "projected",
+        "claim": "Restricting foreign buyers could lead to less competition and more domestically concentrated mergers.",
+        "evidence_id": "E10",
+        "quote": "Restricting foreign buyers might lead to less competition and potentially more domestically concentrated mergers"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Productive FDI globally fell 11% in 2024, with Europe experiencing a 58% drop, suggesting an already fragile investment environment.",
+        "evidence_id": "E8",
+        "quote": "Globally, productive FDI fell by 11% in 2024, with Europe experiencing a 58% drop"
+      },
+      {
+        "tier": "projected",
+        "claim": "There is scepticism about the enforceability of post-acquisition undertakings given by foreign acquirers to protect jobs.",
+        "evidence_id": "E24",
+        "quote": "There is skepticism about the enforceability of post-offer undertakings and commitments given by foreign acquirers to protect jobs or investment, following instances where such promises were perceived to be broken"
+      }
+    ],
+    "rationale": "The policy targets a real problem: short-term foreign acquisitions can strip assets, cut jobs, and undermine long-term investment in strategically important firms. The Kraft/Cadbury case is a frequently cited example where worker protections proved unenforceable. On this logic, a strengthened public interest test could give the government leverage to block or condition deals that threaten jobs and long-term pay, improving outcomes for workers in affected companies.\n\nHowever, the evidence cuts the other way too. Foreign affiliates have historically paid 35% higher wages and are more likely to invest in R&D than domestic firms. Any policy that meaningfully deters foreign investment \u2014 and the evidence suggests expanded tests do create uncertainty and regulatory friction \u2014 risks reducing the supply of high-quality, high-wage jobs. With global productive FDI already under pressure, the UK's investment climate is fragile.\n\nThe effectiveness of the policy as a worker protection tool is further undermined by evidence that undertakings given by acquirers are often unenforceable. And restricting foreign competition could result in more domestically concentrated markets, which tend to suppress wages and innovation rather than protect them.\n\nOn balance, there are genuine and evidence-backed arguments on both sides: job protection in targeted sectors vs. deterrence of high-wage FDI across the economy. The direction is mixed and the magnitude minor, because the policy applies only to large or strategically significant firms \u2014 most workers are unaffected \u2014 and past interventions on public interest grounds have been rare. Confidence is low because the policy's design and implementation criteria are not specified, and the outcome depends critically on how broadly the test is applied.",
+    "sources": [
+      {
+        "quote": "Extend the scope of the existing \u2018public interest\u2019 test when considering approvals for takeovers of large or strategically significant companies by overseas-based owners to recognise the benefits to the UK economy, workers and consumers of protecting UK companies from speculative or short-term interests.",
+        "url": "https://www.libdems.org.uk/FairDeal",
+        "publisher": "Liberal Democrats"
+      },
+      {
+        "url": "https://post.parliament.uk/uk-investment-screening-balancing-national-security-and-economic-growth/",
+        "publisher": "post.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.thecityuk.com/media/1judtwuz/foreign-direct-investment-and-national-security-regimes-a-path-to-best-practice-in-the-uk.pdf",
+        "publisher": "thecityuk.com",
+        "title": "thecityuk.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://fingleton.com/wp-content/uploads/2018/10/John-Fingleton-Mergers-and-the-public-interest-a-wolf-in-sheeps-clothing-Oct-2018.pdf",
+        "publisher": "fingleton.com",
+        "title": "fingleton.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/SN05374/SN05374.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://institute.global/insights/economic-prosperity/transparency-accountability-predictability-protecting-national-security-through-uks-foreign",
+        "publisher": "institute.global",
+        "title": "institute.global",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0356,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by cited evidence. Tier assignments are appropriate: E6 and E8 are measurable facts from institutional sources; E7, E10, E24 are correctly flagged as projected. The mixed direction is genuinely supported by claims on both sides \u2014 protective potential (stated policy aim, E24 scepticism of undertakings as a counter-point to optimism) vs. FDI deterrence and wage effects (E6, E7, E8, E10). No party identity leakage. The magnitude/time_horizon pair is consistent with direction. The FDI data (E8, 2024) is from post.parliament.uk \u2014 institutional, appropriate for measurable tier. One minor observation: E6 cites 2005 OECD data, which the verdict uses as a measurable baseline for wage comparisons \u2014 somewhat dated but not blocking given it is the best available sourced figure and is not overstated. No blocking issues found."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [
+        {
+          "claim": "Proponents argue the policy could safeguard key UK industries and prevent job losses, citing past cases like Kraft/Cadbury.",
+          "evidence_id": "E9",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Extend the scope of the existing \u2018public interest\u2019 test when considering approvals for takeovers of large or strategically significant companies by overseas-based owners to recognise the benefits to the UK economy, workers and consumers of protecting UK companies from speculative or short-term interests.",
+        "sources": [
+          {
+            "quote": "Extend the scope of the existing \u2018public interest\u2019 test when considering approvals for takeovers of large or strategically significant companies by overseas-based owners to recognise the benefits to the UK economy, workers and consumers of protecting UK companies from speculative or short-term interests.",
+            "url": "https://www.libdems.org.uk/FairDeal",
+            "publisher": "Liberal Democrats"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "However, actual interventions on these grounds were rare, with no transactions ever being blocked solely on these EA02 public interest criteria.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05374/SN05374.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thecityuk.com/media/1judtwuz/foreign-direct-investment-and-national-security-regimes-a-path-to-best-practice-in-the-uk.pdf",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.addleshawgoddard.com/en/insights/insights-briefings/2025/commercial-services/public-procurement-consultation-further-reforms-opens/",
+            "publisher": "addleshawgoddard.com",
+            "title": "addleshawgoddard.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This Act established a mandatory notification system for acquisitions in 17 sensitive sectors (e.g., advanced materials, artificial intelligence, defence, energy, quantum technologies) and provides a broad \"call-in\" power for the Secretary of State on national security grounds.",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/uk-investment-screening-balancing-national-security-and-economic-growth/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05374/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://labourlist.org/2026/05/labour-expand-takeover-powers-protect-uk-jobs-industry/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.regulation.org.uk/library/2014-CMA-Alex_Chisholm-public_interest_and_competition.pdf",
+            "publisher": "regulation.org.uk",
+            "title": "regulation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.jdsupra.com/legalnews/uk-government-consults-on-significant-6082349/",
+            "publisher": "jdsupra.com",
+            "title": "jdsupra.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Importantly, the NSI Act was explicitly designed *only* for national security, with the government indicating these powers should *not* be used for broader economic reasons.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05374/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://institute.global/insights/economic-prosperity/transparency-accountability-predictability-protecting-national-security-through-uks-foreign",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Increased Government Intervention and Scrutiny:**\n*   **Higher number of reviews:** The scope of transactions subject to review would likely increase significantly beyond the 1,143 notifications seen under the NSI Act in 2025, where 4.5% (56 cases) were assessed, 16 proceeded with conditions, and only one was blocked.",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2026/05/labour-expand-takeover-powers-protect-uk-jobs-industry/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This could also encompass protecting UK research, development, and innovation, and businesses deemed strategically important for the UK economy.",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2026/05/labour-expand-takeover-powers-protect-uk-jobs-industry/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "In 2005, OECD data indicated that foreign affiliates were 70% more productive than domestic firms, 80% more likely to invest in research and development, and paid 35% higher wages.",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/uk-investment-screening-balancing-national-security-and-economic-growth/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Administrative burden and uncertainty:** Expanding the test would likely increase regulatory friction and administrative burdens on businesses and government, potentially deterring investment by creating uncertainty for investors.",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/uk-investment-screening-balancing-national-security-and-economic-growth/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thecityuk.com/media/1judtwuz/foreign-direct-investment-and-national-security-regimes-a-path-to-best-practice-in-the-uk.pdf",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Globally, productive FDI fell by 11% in 2024, with Europe experiencing a 58% drop.",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/uk-investment-screening-balancing-national-security-and-economic-growth/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Economic and Social Outcomes:**\n*   **Protection of specific industries and jobs:** Proponents argue the policy could safeguard key UK industries, prevent job losses, and ensure long-term investment in areas like research and development, addressing concerns raised in past takeovers (e.g., Kraft/Cadbury).",
+        "sources": [
+          {
+            "url": "https://www.london.edu/think/what-should-the-uk-do-about-foreign-takeovers",
+            "publisher": "london.edu",
+            "title": "london.edu",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://labourlist.org/2026/05/labour-expand-takeover-powers-protect-uk-jobs-industry/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05374/SN05374.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://fingleton.com/wp-content/uploads/2018/10/John-Fingleton-Mergers-and-the-public-interest-a-wolf-in-sheeps-clothing-Oct-2018.pdf",
+            "publisher": "fingleton.com",
+            "title": "fingleton.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Restricting foreign buyers might lead to less competition and potentially more domestically concentrated mergers.",
+        "sources": [
+          {
+            "url": "https://fingleton.com/wp-content/uploads/2018/10/John-Fingleton-Mergers-and-the-public-interest-a-wolf-in-sheeps-clothing-Oct-2018.pdf",
+            "publisher": "fingleton.com",
+            "title": "fingleton.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Politicisation of business decisions:** Expanding ministerial discretion beyond national security could lead to increased lobbying by private interests and a lack of certainty for businesses, moving away from a politically independent merger control regime.",
+        "sources": [
+          {
+            "url": "https://www.regulation.org.uk/library/2014-CMA-Alex_Chisholm-public_interest_and_competition.pdf",
+            "publisher": "regulation.org.uk",
+            "title": "regulation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.jdsupra.com/legalnews/uk-government-consults-on-significant-6082349/",
+            "publisher": "jdsupra.com",
+            "title": "jdsupra.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Impact on UK company valuations:** The \"Brexit discount\" has already led to persistently low valuations of UK companies compared to international peers (a 35% overall valuation gap in Q1 2022), making them vulnerable to foreign takeovers.",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/economic-prosperity/transparency-accountability-predictability-protecting-national-security-through-uks-foreign",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They highlight how previous calls for broader intervention arose after controversial takeovers like Kraft's acquisition of Cadbury.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05374/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05374/SN05374.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://fingleton.com/wp-content/uploads/2018/10/John-Fingleton-Mergers-and-the-public-interest-a-wolf-in-sheeps-clothing-Oct-2018.pdf",
+            "publisher": "fingleton.com",
+            "title": "fingleton.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aoshearman.com/en/insights/uk-antitrust-regime-set-for-further-reform-as-government-pushes-growth-agenda",
+            "publisher": "aoshearman.com",
+            "title": "aoshearman.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "He suggests judging the acquirer's track record and intentions, noting that the pursuit of shareholder value does not always align with the UK's self-interest.",
+        "sources": [
+          {
+            "url": "https://www.london.edu/think/what-should-the-uk-do-about-foreign-takeovers",
+            "publisher": "london.edu",
+            "title": "london.edu",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The paper advocates for a restated, clearer public interest test and potentially an independent body to administer it.",
+        "sources": [
+          {
+            "url": "https://student-journals.ucl.ac.uk/laj/article/id/807/",
+            "publisher": "student-journals.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "It argues for reforms to national security investment rules to depoliticize decisions and enhance predictability, transparency, and accountability.",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/economic-prosperity/transparency-accountability-predictability-protecting-national-security-through-uks-foreign",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Their work, however, provides a backdrop:\n    *   **Resolution Foundation** highlights the UK's challenges with low productivity, high inequality, and inconsistent public investment.",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2022/07/Stagnation_nation_interim_report.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/cutting-the-cuts/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "It advocates for policies to drive strong, sustainable, and equitable growth, and significant improvements to living standards.",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **IFS and OBR** focus on the broader fiscal and economic outlook, including productivity growth, debt, and interest rates.",
+        "sources": [
+          {
+            "url": "https://obr.uk/economic-and-fiscal-outlooks/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/risks-and-challenges-public-finances",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-november-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/box/institute-for-fiscal-studies-outlook-for-the-public-finances-a-comparison/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/151547/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This demonstrates active political support for such an extension.",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2026/05/labour-expand-takeover-powers-protect-uk-jobs-industry/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Protectionism:** Proponents of extended public interest tests often argue that the benefits of unbridled foreign investment are overstated or come at the cost of long-term national interest, advocating for a more protective stance (e.g., Likierman).",
+        "sources": [
+          {
+            "url": "https://www.london.edu/think/what-should-the-uk-do-about-foreign-takeovers",
+            "publisher": "london.edu",
+            "title": "london.edu",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Critics, including those focusing on competition economics, warn that such measures risk deterring beneficial FDI and can lead to less efficient markets.",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/uk-investment-screening-balancing-national-security-and-economic-growth/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://fingleton.com/wp-content/uploads/2018/10/John-Fingleton-Mergers-and-the-public-interest-a-wolf-in-sheeps-clothing-Oct-2018.pdf",
+            "publisher": "fingleton.com",
+            "title": "fingleton.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Flexibility:** While some call for clearer and more specific definitions within an expanded public interest test, others raise concerns that any such expansion inherently introduces more uncertainty and politicization into merger control, making the UK less attractive for investors seeking predictable regulatory environments.",
+        "sources": [
+          {
+            "url": "https://www.regulation.org.uk/library/2014-CMA-Alex_Chisholm-public_interest_and_competition.pdf",
+            "publisher": "regulation.org.uk",
+            "title": "regulation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecityuk.com/media/1judtwuz/foreign-direct-investment-and-national-security-regimes-a-path-to-best-practice-in-the-uk.pdf",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.jdsupra.com/legalnews/uk-government-consults-on-significant-6082349/",
+            "publisher": "jdsupra.com",
+            "title": "jdsupra.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Effectiveness of Undertakings:** There is skepticism about the enforceability of post-offer undertakings and commitments given by foreign acquirers to protect jobs or investment, following instances where such promises were perceived to be broken (e.g., Kraft/Cadbury).",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05374/SN05374.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://fingleton.com/wp-content/uploads/2018/10/John-Fingleton-Mergers-and-the-public-interest-a-wolf-in-sheeps-clothing-Oct-2018.pdf",
+            "publisher": "fingleton.com",
+            "title": "fingleton.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://institute.global/insights/economic-prosperity/transparency-accountability-predictability-protecting-national-security-through-uks-foreign",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The NSI Act's deliberate narrowness to national security reflects a past political consensus to avoid broader economic intervention, a consensus the proposed policy would challenge.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05374/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thecityuk.com/media/1judtwuz/foreign-direct-investment-and-national-security-regimes-a-path-to-best-practice-in-the-uk.pdf",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

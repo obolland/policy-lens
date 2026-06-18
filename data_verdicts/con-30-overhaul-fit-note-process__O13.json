@@ -1,0 +1,580 @@
+{
+  "policy_id": "con-30-overhaul-fit-note-process",
+  "party": "Conservative",
+  "policy_title": "Overhaul Fit Note Process",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy aims to reduce economic inactivity by shifting fit note assessments to specialist professionals and linking them to work support services, but whether this will meaningfully raise living standards depends on disputed questions about what is actually driving inactivity. Independent experts and disability charities disagree sharply on whether fit note reform addresses the root cause.",
+    "biggest_unknown": "Whether economic inactivity is driven by 'sick note culture' (amenable to fit note reform) or by underlying health complexity, poor services, and job quality (which this policy would not fix) is genuinely contested and determines whether any prosperity gain materialises.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy moves fit note responsibility from GPs to specialist work and health professionals and integrates this with the WorkWell service to help people return to work.",
+        "evidence_id": "M",
+        "quote": "moving responsibility for issuing fit notes from GPs to specialist work and health professionals, and integrating this with the WorkWell service to help people stay in or return to work"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A record 2.8 million people were out of work due to long-term sickness as of early 2024.",
+        "evidence_id": "E6",
+        "quote": "a record high of 2.8 million people were out of work, according to the Office for National Statistics (ONS)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Almost 11 million fit notes were issued last year in England, with 94% stating the person was not fit for work.",
+        "evidence_id": "E7",
+        "quote": "almost 11 million fit notes were issued last year in England, with 94% of them stating the person was \"not fit for work\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "The IFS reports a real-terms rise of \u00a319.9 billion in annual spending on disability and health condition benefits since 2019, projected to rise a further \u00a310.6 billion by 2028-29.",
+        "evidence_id": "E9",
+        "quote": "real-terms rise of \u00a319.9 billion in annual total spending on such benefits since 2019, projected to increase by a further \u00a310.6 billion by 2028-29"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Nearly 40% of people unable to work due to long-term sickness suffered from five or more health issues, indicating complex, co-occurring conditions.",
+        "evidence_id": "E25",
+        "quote": "nearly 40% of people unable to work due to long-term sickness suffered from five or more health issues, highlighting the complex and often co-occurring nature of health problems"
+      },
+      {
+        "tier": "projected",
+        "claim": "Disability charity Scope argues that record economic inactivity is driven by crumbling public services and poverty, not fit note culture, and that fit notes themselves are not driving the increase.",
+        "evidence_id": "E22",
+        "quote": "record levels of economic inactivity are primarily due to \"crumbling public services, poor job quality and the rate of poverty among disabled households,\" rather than a \"sick note culture.\" They state that fit notes themselves are not driving the increase in economic inactivity"
+      },
+      {
+        "tier": "projected",
+        "claim": "WorkWell pilot evaluation has highlighted implementation challenges including time constraints, increased workloads, and staffing shortages.",
+        "evidence_id": "E17",
+        "quote": "Evaluation of WorkWell pilots has highlighted challenges such as time constraints, increased workloads, and staffing shortages"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS questions whether proposed measures will deliver the claimed \u00a312 billion reduction in welfare spending beyond current projections.",
+        "evidence_id": "E23",
+        "quote": "The IFS therefore questions whether these measures will indeed deliver the claimed \u00a312 billion reduction in spending beyond current projections"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether economic inactivity is primarily driven by fit note over-issuance (amenable to this reform) or by underlying health complexity and structural factors (not addressed by this policy)",
+      "estimate_range": "If the reform addresses the root cause, economic inactivity could fall materially, raising productivity and living standards; if Scope and the IFS are right that the root causes lie elsewhere, the effect on O13 is negligible to zero."
+    },
+    "rationale": "The scale of economic inactivity is large and well-documented: 2.8 million out of work, nearly 11 million fit notes per year, and a fast-rising benefits bill. If fit note reform and WorkWell integration successfully bring a meaningful share back to productive employment, the aggregate supply-side and living-standards gain could be significant. The WorkWell service does offer a structured mechanism \u2014 locally tailored assessments and return-to-work plans \u2014 that goes beyond a simple gatekeeping change. However, the critical factual dispute concerns causation. Nearly 40% of inactive people have five or more health conditions simultaneously, suggesting severe complexity. Scope (an advocacy source, flagged accordingly) argues the drivers are structural \u2014 poor services, poverty, job quality \u2014 not fit note culture. The IFS (institutional, higher weight) independently questions whether the \u00a312 billion spending reduction target is achievable. WorkWell pilots have already encountered staffing shortages and workload problems. The mechanism is plausible in the right-hand scenario but unproven at scale, and the counter-evidence from credible sources is substantive. This is a genuine crux: the verdict on O13 hinges entirely on which causal account is correct, and the cited evidence does not resolve it. 'Too-uncertain' is therefore the honest verdict \u2014 not a hedge, but a reflection that credible, non-fringe analysts genuinely disagree on the deciding parameter.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+        "publisher": "time.com",
+        "title": "time.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/broken-fit-note-system-to-be-overhauled",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzn0_Ya8CpHf_qxTn4IgOUzrB3wYu4XO7HyiABE9nTy3IvU6wVV7dvPf5TH9QGL4gER-kYlhB1sNGN3-xbJeRACIB1tX6w_F-uSueXIU2WxxgFxv4xRekLNUh9MJuPosnDoUIOHQ8ZYJ9024lNvvGj0UaP9JvGfELZG3StcEhBKfJsVbyJz9JE23a5VpGKXYBfyXcGDVTpnpYUIleusg=",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "dentons.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7VZIFIdVS4WKqVDnyNxDdUMiNw3GI7VugKgGP-6e8kq0NM4lffjXmaG-tK_s5-xn-tkKS7LzsLMp1apVFTcI_5If9OkPiOt0dPIJnPHtjCiuvYDa0yjWF4e_CgKsfM19GZg_fOPSr0r3xMyKF-6MUQn4Ch6U6fwFp9UkMlTxJ9wdbqXplsMA=",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "oup.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0426,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-structured. The tier_integrity issue worth flagging as a warning: E9 mixes a measurable historical figure (\u00a319.9bn rise since 2019) with a projection (\u00a310.6bn by 2028-29), and the claim labels the whole thing 'measurable' \u2014 the projection component should be 'projected'. However, the claim is used only as context, not to drive the direction, so this is a warning rather than blocking. The E22 Scope claim is labelled 'projected' (appropriate for an advocacy position) and explicitly flagged as an advocacy source in the rationale \u2014 good practice. The too-uncertain direction is genuinely supported by substantive claims on both sides (IFS institutional source on one side, real health complexity data on the other). Crux parameter and estimate range are specific and non-lazy. No party-blind issues detected; the rationale judges mechanisms, not motives."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will overhaul the fit note process, moving responsibility for issuing fit notes from GPs to specialist work and health professionals, and integrating this with the WorkWell service to help people stay in or return to work.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy is driven by concerns over a \"sick note culture,\" rising economic inactivity due to long-term sickness, and the burden on GPs",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzn0_Ya8CpHf_qxTn4IgOUzrB3wYu4XO7HyiABE9nTy3IvU6wVV7dvPf5TH9QGL4gER-kYlhB1sNGN3-xbJeRACIB1tX6w_F-uSueXIU2WxxgFxv4xRekLNUh9MJuPosnDoUIOHQ8ZYJ9024lNvvGj0UaP9JvGfELZG3StcEhBKfJsVbyJz9JE23a5VpGKXYBfyXcGDVTpnpYUIleusg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/calls-for-evidence/fit-note-reform-call-for-evidence/fit-note-reform-call-for-evidence",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The current fit note system, introduced in 2010, allows individuals to self-certify sickness for the first seven days, after which a fit note from a healthcare professional may be required",
+        "sources": [
+          {
+            "url": "https://sicknote.com/uk/blog/what-is-fit-note/",
+            "publisher": "sicknote.com",
+            "title": "sicknote.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nhs.uk/nhs-services/gps/getting-a-fit-note/",
+            "publisher": "nhs.uk",
+            "title": "www.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Since July 2022, the ability to issue fit notes has been expanded beyond doctors to include nurses, occupational therapists, pharmacists, and physiotherapists",
+        "sources": [
+          {
+            "url": "https://sicknote.com/uk/blog/what-is-fit-note/",
+            "publisher": "sicknote.com",
+            "title": "sicknote.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.employmentlawworldview.com/more-healthcare-professionals-given-powers-to-issue-fit-notes-a-sticking-plaster-or-fit-for-purpose-uk/",
+            "publisher": "employmentlawworldview.com",
+            "title": "employmentlawworldview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/the-fit-note-a-guide-for-patients-and-employees/the-fit-note-guidance-for-patients-and-employees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nhs.uk/nhs-services/gps/getting-a-fit-note/",
+            "publisher": "nhs.uk",
+            "title": "www.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "However, the Royal College of General Practitioners (RCGP) notes that GPs still issue over 90% of fit notes",
+        "sources": [
+          {
+            "url": "https://www.rcgp.org.uk/representing-you/policy-areas/fit-notes",
+            "publisher": "rcgp.org.uk",
+            "title": "rcgp.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Prime Minister Rishi Sunak highlighted a \"growing number of people who've become economically inactive,\" citing figures that have risen to 850,000 since the pandemic due to long-term sickness",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "As of February, a record high of 2.8 million people were out of work, according to the Office for National Statistics (ONS)",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "NHS data indicates that almost 11 million fit notes were issued last year in England, with 94% of them stating the person was \"not fit for work\"",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/broken-fit-note-system-to-be-overhauled",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzn0_Ya8CpHf_qxTn4IgOUzrB3wYu4XO7HyiABE9nTy3IvU6wVV7dvPf5TH9QGL4gER-kYlhB1sNGN3-xbJeRACIB1tX6w_F-uSueXIU2WxxgFxv4xRekLNUh9MJuPosnDoUIOHQ8ZYJ9024lNvvGj0UaP9JvGfELZG3StcEhBKfJsVbyJz9JE23a5VpGKXYBfyXcGDVTpnpYUIleusg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The government also points to substantial welfare spending, with \u00a369 billion allocated to benefits for working-age individuals with disabilities and health conditions, exceeding budgets for schooling, transport, and policing",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Institute for Fiscal Studies (IFS) reports a real-terms rise of \u00a319.9 billion in annual total spending on such benefits since 2019, projected to increase by a further \u00a310.6 billion by 2028-29",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Conservative Party's proposal involves trialling a system where \"specialist work and health professionals\" will determine if a person requires a fit note, rather than GPs",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This is intended to provide more objective assessments and tailored support",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzn0_Ya8CpHf_qxTn4IgOUzrB3wYu4XO7HyiABE9nTy3IvU6wVV7dvPf5TH9QGL4gER-kYlhB1sNGN3-xbJeRACIB1tX6w_F-uSueXIU2WxxgFxv4xRekLNUh9MJuPosnDoUIOHQ8ZYJ9024lNvvGj0UaP9JvGfELZG3StcEhBKfJsVbyJz9JE23a5VpGKXYBfyXcGDVTpnpYUIleusg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/calls-for-evidence/fit-note-reform-call-for-evidence/fit-note-reform-call-for-evidence",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The WorkWell service is designed to offer locally tailored, low-intensity work and health assessments, triage, and integrated referrals, culminating in a \"return to work\" or \"thrive in work plan\" that addresses individuals' biopsychosocial needs",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/workwell-pilots-evaluation-feasibility-study/workwell-pilots-evaluation-feasibility-study",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This service may also include specialist support, such as financial advisors for those with mental health problems",
+        "sources": [
+          {
+            "url": "https://mcpin.org/wp-content/uploads/2022/07/Work-Well-Final-Report-August-2020.pdf",
+            "publisher": "mcpin.org",
+            "title": "mcpin.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Reduced GP workload:** Shifting fit note responsibility away from GPs is expected to ease pressure on overstretched primary care services",
+        "sources": [
+          {
+            "url": "https://www.employmentlawworldview.com/more-healthcare-professionals-given-powers-to-issue-fit-notes-a-sticking-plaster-or-fit-for-purpose-uk/",
+            "publisher": "employmentlawworldview.com",
+            "title": "employmentlawworldview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rcgp.org.uk/representing-you/policy-areas/fit-notes",
+            "publisher": "rcgp.org.uk",
+            "title": "rcgp.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Tailored support and earlier intervention:** Specialist work and health professionals are anticipated to provide more nuanced advice, potentially leading to more effective \"stay in work\" or \"return to work\" plans and earlier access to support",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/workwell-pilots-evaluation-feasibility-study/workwell-pilots-evaluation-feasibility-study",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/broken-fit-note-system-to-be-overhauled",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzn0_Ya8CpHf_qxTn4IgOUzrB3wYu4XO7HyiABE9nTy3IvU6wVV7dvPf5TH9QGL4gER-kYlhB1sNGN3-xbJeRACIB1tX6w_F-uSueXIU2WxxgFxv4xRekLNUh9MJuPosnDoUIOHQ8ZYJ9024lNvvGj0UaP9JvGfELZG3StcEhBKfJsVbyJz9JE23a5VpGKXYBfyXcGDVTpnpYUIleusg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/calls-for-evidence/fit-note-reform-call-for-evidence/fit-note-reform-call-for-evidence",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Economic benefits:** The government aims to reduce economic inactivity and welfare spending, with the Conservative Party targeting a \u00a312 billion reduction in welfare spending by the end of the next Parliament",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Implementation difficulties:** Evaluation of WorkWell pilots has highlighted challenges such as time constraints, increased workloads, and staffing shortages",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7VZIFIdVS4WKqVDnyNxDdUMiNw3GI7VugKgGP-6e8kq0NM4lffjXmaG-tK_s5-xn-tkKS7LzsLMp1apVFTcI_5If9OkPiOt0dPIJnPHtjCiuvYDa0yjWF4e_CgKsfM19GZg_fOPSr0r3xMyKF-6MUQn4Ch6U6fwFp9UkMlTxJ9wdbqXplsMA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "oup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "There are also concerns regarding employers' motivation and authority to implement reasonable adjustments suggested by the service",
+        "sources": [
+          {
+            "url": "https://www.northeastnorthcumbria.nhs.uk/media/kc2dqpvb/workwell-involvement-findings-report.pdf",
+            "publisher": "northeastnorthcumbria.nhs.uk",
+            "title": "northeastnorthcumbria.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Increased demand on other services:** While aiming to reduce the burden on the NHS long-term, WorkWell could initially increase demand on local resources like physiotherapy and other public services",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/workwell-pilots-evaluation-feasibility-study/workwell-pilots-evaluation-feasibility-study",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Expert disagreements on the root cause and effectiveness:**\n    *   **RCGP** acknowledges the health benefits of work but insists that GPs should remain patient advocates, prioritizing health and wellbeing over economic or policy targets",
+        "sources": [
+          {
+            "url": "https://www.rcgp.org.uk/representing-you/policy-areas/fit-notes",
+            "publisher": "rcgp.org.uk",
+            "title": "rcgp.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They call for adequate resourcing, detailed guidance, and transparent evaluation for any reforms, and stress that GPs should retain the ability to issue short-term fit notes to avoid bureaucracy",
+        "sources": [
+          {
+            "url": "https://www.rcgp.org.uk/representing-you/policy-areas/fit-notes",
+            "publisher": "rcgp.org.uk",
+            "title": "rcgp.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   The disability charity **Scope** argues that the record levels of economic inactivity are primarily due to \"crumbling public services, poor job quality and the rate of poverty among disabled households,\" rather than a \"sick note culture.\" They state that fit notes themselves are not driving the increase in economic inactivity",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The IFS therefore questions whether these measures will indeed deliver the claimed \u00a312 billion reduction in spending beyond current projections",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/response-conservatives-proposals-reduce-growth-health-related-benefits-bill",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   Some experts, echoing the Prime Minister's language, express concern about \"over-medicalising\" everyday worries and challenges as mental health conditions",
+        "sources": [
+          {
+            "url": "https://time.com/6969002/rishi-sunak-welfare-reform-sick-note-culture-uk/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2024/apr/19/sunak-to-cite-britains-sicknote-culture-in-bid-to-overhaul-fit-note-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "However, the ONS found that nearly 40% of people unable to work due to long-term sickness suffered from five or more health issues, highlighting the complex and often co-occurring nature of health problems",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlzn0_Ya8CpHf_qxTn4IgOUzrB3wYu4XO7HyiABE9nTy3IvU6wVV7dvPf5TH9QGL4gER-kYlhB1sNGN3-xbJeRACIB1tX6w_F-uSueXIU2WxxgFxv4xRekLNUh9MJuPosnDoUIOHQ8ZYJ9024lNvvGj0UaP9JvGfELZG3StcEhBKfJsVbyJz9JE23a5VpGKXYBfyXcGDVTpnpYUIleusg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "dentons.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **National Voices** supports testing new approaches but emphasizes the crucial need for full patient involvement in the testing process to avoid unintended consequences and ensure the system genuinely helps those who can and cannot work",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/broken-fit-note-system-to-be-overhauled",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

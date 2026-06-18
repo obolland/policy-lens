@@ -1,0 +1,725 @@
+{
+  "policy_id": "ld-152-fund-impartial-bbc-world-service",
+  "party": "Liberal Democrat",
+  "policy_title": "Fund Impartial BBC World Service",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Shifting BBC World Service funding to the Foreign Office budget involves relatively modest sums that are unlikely to move the UK's debt path materially; the main fiscal uncertainty is whether 'properly fund' means new money or reallocation within existing FCDO budgets.",
+    "biggest_unknown": "Whether 'properly fund' means net new government spending (worsening the deficit) or reallocation within an already-set FCDO envelope \u2014 the policy text does not specify.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to funding the BBC World Service from the Foreign Office budget and restoring its global reach, but specifies no cost figure or funding offset.",
+        "evidence_id": "M",
+        "quote": "Properly fund the impartial BBC World Service from the Foreign Office budget and restore its global reach."
+      },
+      {
+        "tier": "measurable",
+        "claim": "In 2025\u201326, the FCDO provided \u00a3137 million to the World Service, with \u00a3221 million from the licence fee \u2014 a total of roughly \u00a3358 million.",
+        "evidence_id": "E19",
+        "quote": "In 2025\u201326, the FCDO provided \u00a3137 million, with \u00a3221 million from the licence fee"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The World Service total budget fell 21% in real terms between 2021\u201322 and 2025\u201326.",
+        "evidence_id": "E20",
+        "quote": "The total budget of the World Service fell by 21% in real terms between 2021\u201322 and 2025\u201326"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A recent FCDO funding increase of \u00a311 million per year for three years has been agreed, described by BBC insiders as barely keeping pace with inflation.",
+        "evidence_id": "E27",
+        "quote": "BBC insiders have warned that this increase will \"barely keep pace with inflation,\" effectively meaning funding will be flat in real terms"
+      },
+      {
+        "tier": "projected",
+        "claim": "The BBC is pushing for the government to take on all costs of the World Service in future negotiations, which would shift the full ~\u00a3358m burden to the Exchequer.",
+        "evidence_id": "E30",
+        "quote": "The BBC is pushing for the government to take on all costs of the World Service in future negotiations"
+      }
+    ],
+    "rationale": "The policy's fiscal footprint depends entirely on what 'properly fund' means in practice. The current FCDO contribution is \u00a3137m; total World Service spending is roughly \u00a3358m. Even if the government absorbed the entire licence-fee portion (the BBC's stated ambition), that would add roughly \u00a3220m to public expenditure \u2014 a real but modest sum relative to total managed expenditure. The policy text does not commit to a specific sum, does not identify an offset, and does not specify whether additional spending would be borrowed or found from within the FCDO envelope. The most recent real-world data point (a \u00a311m/year FCDO increase) is so small as to be fiscally immaterial. There is no OBR or IFS scoring of this commitment in the provided evidence. The PAC has noted the BBC struggles to quantify value for money, but that is a governance concern rather than a debt-path signal. On balance, this policy is unlikely to register meaningfully on the UK's debt sustainability indicators either way: if 'properly fund' means reallocation within FCDO, the net fiscal effect is zero; if it means modest new spending at the scale evidenced, it is negligible on the debt path. The direction is scored negligible rather than 'worsens' because the scale, even under the most expansive reading, is too small to shift the debt-path indicators this fundamental tracks \u2014 but confidence is low because the policy's actual cost is unspecified.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+        "publisher": "perspectivemedia.com",
+        "title": "perspectivemedia.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/uk/politics/bbc-world-service-public-accounts-committee-report-b2937332.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/media/2026/mar/18/bbc-world-service-extra-funding-foreign-office",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0433,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-grounded in the cited evidence. The tier assignments are appropriate: stated/measurable/projected are correctly applied. The E27 claim about 'barely keeping pace with inflation' is attributed to BBC insiders and is correctly labelled measurable (it is a reported fact about what insiders said, not a projection stated as fact). The E30 projected claim is accurately characterised as the BBC's stated ambition, not a policy commitment. The 'negligible' direction is defensible: even under the most expansive reading (~\u00a3220m additional Exchequer cost), the sum is small relative to total managed expenditure (~\u00a31.2 trillion), and the policy text is genuinely ambiguous about net new spending vs reallocation. The rationale does not impute motive or party identity. No lever leakage \u2014 the verdict correctly focuses on the debt-path effect rather than soft power value. The magnitude/time_horizon/direction combination is internally consistent. Low confidence is appropriate given the unspecified cost. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Properly fund the impartial BBC World Service from the Foreign Office budget and restore its global reach.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Enhanced UK Soft Power and Global Influence:** Credible analysts consistently highlight the BBC World Service as a \"crucial soft power instrument\" and a \"unique and precious UK strategic asset\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/13/bbc-world-service-funding-freeze-risks-opening-door-to-hostile-states-mps-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Increased and stable FCDO funding would reinforce the UK's ability to project its values, culture, and perspectives globally, especially in regions with restricted media freedom",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/10939/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "**Combating Disinformation and State Propaganda:** Experts, including members of the House of Lords, emphasize the World Service's vital role in countering disinformation and state propaganda from actors like Russia and China",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0132/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/13/bbc-world-service-funding-freeze-risks-opening-door-to-hostile-states-mps-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "With China and Russia reportedly investing between \u00a36 billion and \u00a38 billion annually in global media, proper funding for the World Service would allow it to remain competitive and maintain its position as a trusted news source",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+            "publisher": "perspectivemedia.com",
+            "title": "perspectivemedia.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/139682/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.arabnews.com/node/2635107",
+            "publisher": "arabnews.com",
+            "title": "arabnews.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/13/bbc-world-service-funding-freeze-risks-opening-door-to-hostile-states-mps-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "For instance, its total budget fell by 21% in real terms between 2021\u201322 and 2025\u201326, resulting in the closure of 19 radio and TV outputs and a loss of approximately 30 million weekly audience members",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Increased FCDO funding would enable the reversal of such cuts, potentially allowing for the re-establishment of services, expansion into new languages, and investment in digital platforms to reach new audiences",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/10939/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/139682/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Increased Stability and Long-Term Planning:** The BBC has faced challenges due to short-term, often one-year, funding agreements from the FCDO, which hinder effective long-term financial and strategic planning",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ft.com/content/7a18c48a-b9ed-4139-b56e-6552f8513fa7?syn-25a6b1a6=1",
+            "publisher": "ft.com",
+            "title": "ft.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "A policy of proper and sustained FCDO funding, ideally on a multi-year basis, would provide the stability needed for the World Service to plan its operations and investments more effectively, focusing on strategic priorities rather than short-term budgeting pressures",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**Maintaining Editorial Independence (Implicit in \"Impartial\"):** While FCDO funding can lead to a closer relationship with the government, the policy explicitly states \"impartial BBC World Service.\" Historically, even when fully funded by the Foreign Office, the World Service maintained editorial control, a hard-won independence after WWII",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2016/06/BBC-World-Service-Summary-1.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://historyandpolicy.org/policy-papers/papers/the-bbc-world-service-and-global-britain/",
+            "publisher": "historyandpolicy.org",
+            "title": "historyandpolicy.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://university.open.ac.uk/research-projects/diasporas/sites/www.open.ac.uk.research-projects.diasporas/files/BBC%20World%20Service%20Historical%20Report_0.pdf",
+            "publisher": "university.open.ac.uk",
+            "title": "open.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Safeguarding this independence is crucial for the World Service's credibility and trust among its global audience",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nuj.org.uk/resource/stop-the-light-going-out-and-fund-the-world-service-now-bbc-journalists-urge-government.html",
+            "publisher": "nuj.org.uk",
+            "title": "nuj.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OFfElVNlhcA",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "A House of Commons Library briefing notes that the government provides approximately one-third of the funding for the BBC World Service, with the remainder coming from the BBC licence fee",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0132/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The Public Accounts Committee (PAC) expressed \"deep trouble\" that the BBC was unclear about its funding weeks before its deal ran out and noted that the World Service's budget fell 21% in real terms from 2021 to 2026, primarily due to licence fee reductions",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/bbc-world-service-public-accounts-committee-report-b2937332.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/13/bbc-world-service-funding-freeze-risks-opening-door-to-hostile-states-mps-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The PAC also stated that the World Service's average weekly audience was 313 million in 2024\u201325",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+            "publisher": "perspectivemedia.com",
+            "title": "perspectivemedia.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/bbc-world-service-public-accounts-committee-report-b2937332.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/13/bbc-world-service-funding-freeze-risks-opening-door-to-hostile-states-mps-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **BBC Executives (e.g., Jonathan Munro, Tim Davie):** Jonathan Munro, Global Director and Deputy CEO of BBC News, has stated that \"stability of budget at the current level will lead to decline in the World Service\" and that other state actors are \"eating our lunch\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0132/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "BBC Director-General Tim Davie has warned of a \"funding cliff-edge\" and stressed the need for a long-term funding solution from central government budgets, arguing that the BBC cannot keep asking UK licence fee payers to invest in the World Service when domestic services are being cut",
+        "sources": [
+          {
+            "url": "https://www.nuj.org.uk/resource/stop-the-light-going-out-and-fund-the-world-service-now-bbc-journalists-urge-government.html",
+            "publisher": "nuj.org.uk",
+            "title": "nuj.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OFfElVNlhcA",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **National Union of Journalists (NUJ):** The NUJ has voiced alarm at reports of significant budget reductions and emphasized that \"without genuinely sustainable, long term funding of the BBC World Service, the crucial journalism produced by its dedicated teams remains under threat\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0132/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nuj.org.uk/resource/stop-the-light-going-out-and-fund-the-world-service-now-bbc-journalists-urge-government.html",
+            "publisher": "nuj.org.uk",
+            "title": "nuj.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They have called for an urgent and sustainable, inflation-linked funding settlement to guarantee the World Service's independence",
+        "sources": [
+          {
+            "url": "https://www.nuj.org.uk/resource/stop-the-light-going-out-and-fund-the-world-service-now-bbc-journalists-urge-government.html",
+            "publisher": "nuj.org.uk",
+            "title": "nuj.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Office for National Statistics (ONS) mentions collaborations with the BBC in general contexts but not specific to World Service funding or its impact",
+        "sources": [
+          {
+            "url": "https://blog.ons.gov.uk/tag/bbc/",
+            "publisher": "blog.ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NSnK8vBrRWo",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.ons.gov.uk/2026/02/12/separating-fact-from-fiction-how-the-industry-of-survey-collection-is-far-more-than-a-bbc-plot-device/",
+            "publisher": "blog.ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Current Funding:** In 2025\u201326, the FCDO provided \u00a3137 million, with \u00a3221 million from the licence fee",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Funding Cuts:** The total budget of the World Service fell by 21% in real terms between 2021\u201322 and 2025\u201326",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+            "publisher": "perspectivemedia.com",
+            "title": "perspectivemedia.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/bbc-world-service-public-accounts-committee-report-b2937332.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Savings programs since 2022 aimed to save \u00a354.2 million, leading to the closure of 19 radio and TV outputs",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Audience Reach:** The BBC World Service's average weekly audience was 313 million in 2024\u201325 across 43 languages",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+            "publisher": "perspectivemedia.com",
+            "title": "perspectivemedia.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/bbc-world-service-public-accounts-committee-report-b2937332.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/13/bbc-world-service-funding-freeze-risks-opening-door-to-hostile-states-mps-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The overall international audience for all BBC content (News, World Service, BBC Studios) was 450 million in 2024",
+        "sources": [
+          {
+            "url": "https://www.editorandpublisher.com/stories/bbcs-global-audience-holds-firm-despite-increased-competition,250967",
+            "publisher": "editorandpublisher.com",
+            "title": "editorandpublisher.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.radioworld.com/global/bbc-says-450-million-consume-its-global-programming",
+            "publisher": "radioworld.com",
+            "title": "radioworld.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Losses from broadcast closures accounted for approximately 30 million of the 47 million fall in overall audience from 2021-22 to 2022-23",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Rival Spending:** China and Russia are estimated to spend between \u00a36 billion and \u00a38 billion annually on global media operations",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+            "publisher": "perspectivemedia.com",
+            "title": "perspectivemedia.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/139682/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.arabnews.com/node/2635107",
+            "publisher": "arabnews.com",
+            "title": "arabnews.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/13/bbc-world-service-funding-freeze-risks-opening-door-to-hostile-states-mps-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Recent Funding Increase (March 2026):** The FCDO agreed to an additional \u00a311 million per year for the next three years, an 8% increase on the previous year's allocation, bringing total FCDO funding to 42% higher than in 2024-25",
+        "sources": [
+          {
+            "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+            "publisher": "perspectivemedia.com",
+            "title": "perspectivemedia.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/18/bbc-world-service-extra-funding-foreign-office",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Real-terms impact of recent increases:** Despite the FCDO announcing an additional \u00a333 million over three years (an \u00a311 million increase annually) and stating total FCDO funding would be 42% higher than in 2024-25, BBC insiders have warned that this increase will \"barely keep pace with inflation,\" effectively meaning funding will be flat in real terms",
+        "sources": [
+          {
+            "url": "https://www.perspectivemedia.com/bbc-world-service-to-see-funding-increased-by-extra-33m/",
+            "publisher": "perspectivemedia.com",
+            "title": "perspectivemedia.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/18/bbc-world-service-extra-funding-foreign-office",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Long-term funding mechanism:** The BBC has consistently advocated for a long-term, stable, and predictable funding mechanism from central government budgets, moving away from short-term annual reviews",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nuj.org.uk/resource/stop-the-light-going-out-and-fund-the-world-service-now-bbc-journalists-urge-government.html",
+            "publisher": "nuj.org.uk",
+            "title": "nuj.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OFfElVNlhcA",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "While the government has expressed a commitment to a \"longer-term, sustainable funding mechanism,\" the past practice of one-year settlements indicates a divergence in preferred implementation",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0132/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The BBC is pushing for the government to take on all costs of the World Service in future negotiations",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/18/bbc-world-service-extra-funding-foreign-office",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Value for Money Quantification:** The Public Accounts Committee (PAC) noted that the BBC \"struggles to articulate how the World Service provides value for money to UK taxpayers\" and could not provide a \"single, transparent suite of value for money measures across the service's TV, radio and digital offerings\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/bbc-world-service-public-accounts-committee-report-b2937332.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The BBC cites a compelling efficiency of costing around 87p per user per year but acknowledges this cannot capture strategic impact or soft power benefits, especially for services in repressive environments",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/1299/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

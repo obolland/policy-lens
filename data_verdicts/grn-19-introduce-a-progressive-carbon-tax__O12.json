@@ -1,0 +1,645 @@
+{
+  "policy_id": "grn-19-introduce-a-progressive-carbon-tax",
+  "party": "Green",
+  "policy_title": "Introduce a progressive carbon tax",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "mixed",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "A carbon tax at these rates would raise substantial new revenue in the near term, helping public finances, but as decarbonisation succeeds the tax base shrinks and the OBR warns of a primary balance deficit by 2040. How the revenue is recycled is unspecified and is the deciding question for long-run fiscal sustainability.",
+    "biggest_unknown": "Whether carbon tax revenues are recycled into productive investment that raises long-run fiscal capacity, or spent on consumption or dividends, is unspecified and determines whether the long-run debt path improves or worsens.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The tax starts at \u00a3120 per tonne and rises to \u00a3500 per tonne within ten years.",
+        "evidence_id": "M",
+        "quote": "The tax would start at \u00a3120 per tonne and rise to \u00a3500 per tonne within ten years"
+      },
+      {
+        "tier": "projected",
+        "claim": "At lower rates of \u00a350\u201375/tCO2, a carbon tax on domestic gas and electricity alone was projected to generate approximately \u00a35 billion annually over 2021\u20132030.",
+        "evidence_id": "E9",
+        "quote": "a carbon tax on domestic gas and electricity alone was projected to generate \u00a357 billion over 2021\u20132030, or approximately \u00a35 billion annually, at much lower rates (\u00a350-\u00a375/tCO2)"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR warns that even with a carbon tax, erosion of fuel tax bases and public investment costs could produce a primary balance deficit of 0.5% of GDP by 2040.",
+        "evidence_id": "E10",
+        "quote": "even with a carbon tax, the erosion of fuel tax bases and public investment costs could lead to a primary balance deficit of 0.5% of GDP by 2040"
+      },
+      {
+        "tier": "projected",
+        "claim": "OBR analyses underscore the need for new revenue streams such as a carbon tax but also caution about the overall impact on the primary balance.",
+        "evidence_id": "E24",
+        "quote": "Their analyses underscore the need for new revenue streams, such as a carbon tax, but also caution about the overall impact on the primary balance"
+      },
+      {
+        "tier": "projected",
+        "claim": "If revenues are recycled into green investments, long-term GDP effects could be positive.",
+        "evidence_id": "E6",
+        "quote": "If revenues are recycled into green investments, long-term GDP effects could be positive"
+      }
+    ],
+    "rationale": "On O12, the key fiscal questions are: does this policy add revenue without ballooning debt, and does any borrowing finance productive investment or consumption? Near-term, the revenue case is strong. At \u00a3120/tonne \u2014 well above the \u00a350\u201375/tCO2 rates in the LSE projection \u2014 the tax would generate revenues materially above the ~\u00a35bn annual baseline figure from E9, providing a genuine near-term boost to the primary balance at a time when the OBR flags fiscal stress. Long-term, however, the picture reverses. The policy is explicitly designed to decarbonise the economy. As it succeeds, the fossil-fuel tax base erodes \u2014 and the OBR (E10, E24) explicitly warns that even accounting for carbon tax revenues, base erosion combined with transition investment costs could produce a primary balance deficit of 0.5% of GDP by 2040. This is a structural fiscal risk on a 10-year-plus horizon. The direction is therefore mixed: a genuine near-term revenue improvement, offset by a credible long-run fiscal deterioration per the OBR's own modelling. Both sides are supported by cited institutional evidence pointing in opposite directions across the two time horizons. The swing factor the policy leaves entirely open is revenue recycling. E6 notes that recycling into green investment could produce positive long-run GDP effects, which would ease the debt path. But the policy text commits to no specific recycling mechanism. If revenue funds productive public investment, the long-run fiscal picture is better than the OBR baseline; if it funds current consumption or dividends, the fiscal picture is as bad or worse.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Distributional-impacts-of-a-UK-carbon-tax_Report-1_analysis-by-household-type.pdf",
+        "publisher": "lse.ac.uk",
+        "title": "lse.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Report-1-Infographic_distributional-impacts-of-carbon-tax-in-UK-by-household-type.pdf",
+        "publisher": "lse.ac.uk",
+        "title": "lse.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://obr.uk/box/the-fiscal-cost-of-net-zero-in-the-uk-in-an-international-context/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.tutor2u.net/economics/reference/synoptic-revision-micro-macro-effects-of-a-carbon-tax",
+        "publisher": "tutor2u.net",
+        "title": "tutor2u.net",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.111,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E24 (obr.uk) quote uses the pronoun 'Their analyses underscore\u2026' \u2014 the snippet appears to be a secondary characterisation of OBR outputs rather than OBR's own words, making the attribution 'OBR analyses underscore\u2026' in the claim uncertain. Not blocking because E10 (also obr.uk) independently supports the same fiscal-stress point, but the E24 claim overstates provenance slightly."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim 5 (E6, tutor2u.net) \u2014 'If revenues are recycled into green investments, long-term GDP effects could be positive' \u2014 rests solely on an educational/media site (tutor2u). Per sourcing rules, a media/commercial source may not be the sole basis for a verdict claim. The claim is conditional and hedged ('could'), so it does not drive the direction on its own, but should be corroborated by an institutional source (e.g. LSE, OBR, IFS)."
+        },
+        {
+          "check": "magnitude_timing",
+          "severity": "warning",
+          "detail": "The rationale asserts revenues at \u00a3120/tonne would be 'materially above' the ~\u00a35bn annual LSE baseline (which modelled \u00a350\u201375/tCO2). This is a reasonable directional inference but is stated with confidence not backed by any cited claim or evidence unit. No claim in claims[] formalises this extrapolation, leaving it as an uncited assertion in the rationale."
+        }
+      ],
+      "notes": "The verdict's structure is sound: near-term revenue vs. long-run base-erosion risk is a legitimate mixed framing supported by institutional evidence on both sides (E9/LSE for near-term, E10/OBR for long-term). The 'biggest_unknown' on revenue recycling is well-identified and honest. No blocking issues found; three warnings logged above."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Introduce a carbon tax on all fossil fuels, whether produced or imported, proportional to greenhouse gas emissions. The tax would start at \u00a3120 per tonne and rise to \u00a3500 per tonne within ten years, designed to incentivise decarbonisation.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Previous UK carbon pricing, such as the Carbon Price Support at \u00a318/tCO2, dramatically reduced coal usage in electricity generation, cutting its share from 41% in 2013 to 6% in 2018.",
+        "sources": [
+          {
+            "url": "https://www.econ.cam.ac.uk/publications/cwpe/1904",
+            "publisher": "econ.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.carbonbrief.org/guest-post-what-the-uk-can-learn-from-carbon-pricing-schemes-around-the-world/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Meeting Net-Zero Targets:** Experts at the LSE's Grantham Research Institute have suggested that a carbon tax consistent with net-zero emissions by 2050 would need to start around \u00a350 per tonne of CO2 in 2020, rising to \u00a375 in 2030, and \u00a3160 by 2050.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Distributional-impacts-of-a-UK-carbon-tax_Report-1_analysis-by-household-type.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://zerocarbon.publicfirst.co.uk/",
+            "publisher": "zerocarbon.publicfirst.co.uk",
+            "title": "publicfirst.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Firms heavily dependent on carbon-intensive inputs would face substantially higher variable costs, potentially impacting profitability and competitiveness.",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/reference/synoptic-revision-micro-macro-effects-of-a-carbon-tax",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "These increased costs would likely be passed on to consumers, leading to higher inflation.",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/reference/synoptic-revision-micro-macro-effects-of-a-carbon-tax",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "However, some historical analysis of the UK Fuel Tax Escalator found no discernible impact on GDP or growth while significantly reducing traffic-related CO2 emissions.",
+        "sources": [
+          {
+            "url": "https://ideas.repec.org/a/eee/enepol/v195y2024ics0301421524003793.html",
+            "publisher": "ideas.repec.org",
+            "title": "repec.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "If revenues are recycled into green investments, long-term GDP effects could be positive.",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/reference/synoptic-revision-micro-macro-effects-of-a-carbon-tax",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This could lead to \"carbon leakage,\" where production shifts to countries with lower environmental regulations.",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/reference/synoptic-revision-micro-macro-effects-of-a-carbon-tax",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The UK's planned Carbon Border Adjustment Mechanism (CBAM), operational from January 2027, aims to mitigate this by taxing the carbon cost of imported goods, thus levelling the playing field.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9935/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "For example, a carbon tax on domestic gas and electricity alone was projected to generate \u00a357 billion over 2021\u20132030, or approximately \u00a35 billion annually, at much lower rates (\u00a350-\u00a375/tCO2).",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Distributional-impacts-of-a-UK-carbon-tax_Report-1_analysis-by-household-type.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Report-1-Infographic_distributional-impacts-of-carbon-tax-in-UK-by-household-type.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "They indicated that even with a carbon tax, the erosion of fuel tax bases and public investment costs could lead to a primary balance deficit of 0.5% of GDP by 2040.",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-fiscal-cost-of-net-zero-in-the-uk-in-an-international-context/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "These households typically spend a larger proportion of their income on essential energy.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Distributional-impacts-of-a-UK-carbon-tax_Report-1_analysis-by-household-type.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://pubs.acs.org/doi/10.1021/es902974g",
+            "publisher": "pubs.acs.org",
+            "title": "acs.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/publication/distributional-impacts-of-a-carbon-tax-in-the-uk/",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The lowest income households are estimated to spend roughly four times more of their income on CO2 or GHG tax payments for housing than the highest income households.",
+        "sources": [
+          {
+            "url": "https://pubs.acs.org/doi/10.1021/es902974g",
+            "publisher": "pubs.acs.org",
+            "title": "acs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Options include:\n        *   **Direct Financial Compensation (Carbon Dividends):** PolicyEngine modelled that a carbon dividend policy at \u00a3100/tonne or \u00a3200/tonne would benefit approximately 71% of UK residents, with lower-income households (deciles 1-6) seeing net income gains and higher-income households (deciles 8-10) experiencing net losses.",
+        "sources": [
+          {
+            "url": "https://www.policyengine.org/uk/research/uk-carbon-tax-dividend",
+            "publisher": "policyengine.org",
+            "title": "policyengine.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "A hypothetical study indicated that returning revenue as an equal \u00a31,000 annual dividend could leave the lowest five income deciles better off.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/guest-post-what-the-uk-can-learn-from-carbon-pricing-schemes-around-the-world/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Energy Efficiency Investments:** Using revenues to fund energy efficiency measures, especially for fuel-poor homes, can significantly offset bill increases and avoid a rise in fuel poverty.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Distributional-impacts-of-a-UK-carbon-tax_Report-1_analysis-by-household-type.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://pubs.acs.org/doi/10.1021/es902974g",
+            "publisher": "pubs.acs.org",
+            "title": "acs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The impact on the Gini coefficient (a measure of income inequality) was projected to decrease by 0.2% at \u00a3100/tonne but increase by 0.4% at \u00a3200/tonne, suggesting complex and potentially varying effects on inequality depending on the exact rate and recycling mechanism.",
+        "sources": [
+          {
+            "url": "https://www.policyengine.org/uk/research/uk-carbon-tax-dividend",
+            "publisher": "policyengine.org",
+            "title": "policyengine.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Citizens' Climate Lobby UK argues that a \"Carbon Fee and Dividend\" policy is progressive, redistributing wealth from the richest 20% to the poorest 40%, with the middle class largely unaffected.",
+        "sources": [
+          {
+            "url": "https://citizensclimatelobby.uk/2019/05/the-myth-that-carbon-taxes-hurts-the-poor/",
+            "publisher": "citizensclimatelobby.uk",
+            "title": "citizensclimatelobby.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Environmental and Health Co-benefits:**\n    *   **Improved Air Quality:** Reduced burning of fossil fuels would significantly decrease air pollution, which is responsible for an estimated 28,000 to 36,000 excess deaths annually in the UK.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/climate-change-applying-all-our-health/climate-and-health-applying-all-our-health",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "This would lead to substantial health improvements and reduced healthcare costs.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGuy6JDZZ0LLYEbXSSLHCDSAvx_fBnd0C3F4oM4tKO1nnAG2Vq2WqcFKwLsVcPs4MAFozYYlDZet41soStTDXNrytmCJScjhgSqoRXXeT-QfdPK1FOkSMG2658UX_V6gBIg_MsmOd-AeW17UbytPRxi-81FqSz_GctgqtF3JrjO1woqTqWvZBrxv8lOsaWBHNNO0sPc_EhUmCDOdzy1TNfuuiPNq6oBybWbFFsVjO6",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Public Health Gains:** Decarbonisation efforts can lead to other co-benefits, such as improved housing quality (reducing cold and damp-related illnesses), and healthier diets (e.g., lower red meat consumption, which also reduces farming emissions and cardiovascular disease risks).",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGuy6JDZZ0LLYEbXSSLHCDSAvx_fBnd0C3F4oM4tKO1nnAG2Vq2WqcFKwLsVcPs4MAFozYYlDZet41soStTDXNrytmCJScjhgSqoRXXeT-QfdPK1FOkSMG2658UX_V6gBIg_MsmOd-AeW17UbytPRxi-81FqSz_GctgqtF3JrjO1woqTqWvZBrxv8lOsaWBHNNO0sPc_EhUmCDOdzy1TNfuuiPNq6oBybWbFFsVjO6",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12169391/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrUT060C2rFrAVzkIXKD2BQdRvHIYRbYdT6amI2qTR5uTvNPg5mftYMGJ-TuLOFtyt_GiGplvV8MXr5xeZ7fv7J2-fD6SdPOWfeg7teK-lKc_z1gmLOcUIDsPQLyNniDzN1aAe496yIRwp_yoyX_o03zoqNB_vx5eIkUjNFz9zed3KmiKpShJr4nfwxI4NBmxzlB44TF5EltTxI9l6DgljlLU-7DgSdJJd194v2Kz9jZMrABaz",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lshtm.ac.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/climate-change-applying-all-our-health/climate-and-health-applying-all-our-health",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The Health Foundation highlights that these synergies can enhance health outcomes.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELJvPwSARyjNtbPFsu68C3P0kAXxMwnYYCzUXIjCJf1-SDbEk9w97TXZffS79naDUJhqrPzYaWCiibDDnvvaZ5U33kFLCvC1ET1ayA3XWtfhC9zTG1oBI-EWrrM3d0JTT_an77-PaFoq7-cPn5iUZ6WCw4NlToiG8mexH4rweJvZVQetyernwyTlTTgjd6s2hjMGg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "For example, emissions from electricity are often taxed more heavily than those from gas, creating perverse incentives and undermining the switch to cleaner technologies like heat pumps.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoPUZHufe1NMhboEpcByA_NFVwfj4u0IXQyB1h6T3vT3ekiPvFEGoDPHEQquReFGXV8_nh-L83fHwjbVh3ZPnE49w8vZ2A9P76-CDUx7q0eb9p3bxLsrzapCAGmXQHz4icoYKNmazpXbbO0rmHDPdPdWNm41KViZvDvRLTh-vAXq2oJD3nH_g=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/journals/tax-policies-reduce-carbon-emissions",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They advocate for greater rationalisation and uniformity in environmental taxes to achieve net zero more efficiently.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoPUZHufe1NMhboEpcByA_NFVwfj4u0IXQyB1h6T3vT3ekiPvFEGoDPHEQquReFGXV8_nh-L83fHwjbVh3ZPnE49w8vZ2A9P76-CDUx7q0eb9p3bxLsrzapCAGmXQHz4icoYKNmazpXbbO0rmHDPdPdWNm41KViZvDvRLTh-vAXq2oJD3nH_g=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/journals/tax-policies-reduce-carbon-emissions",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Their analyses underscore the need for new revenue streams, such as a carbon tax, but also caution about the overall impact on the primary balance.",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-fiscal-cost-of-net-zero-in-the-uk-in-an-international-context/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They emphasize that while carbon taxes can be regressive, appropriate revenue recycling (e.g., energy efficiency support for fuel-poor households) can make them progressive and politically acceptable.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Distributional-impacts-of-a-UK-carbon-tax_Report-1_analysis-by-household-type.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2019/08/GRI_Global-lessons-in-carbon-taxes-for-the-UK_policy-brief.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/publication/distributional-impacts-of-a-carbon-tax-in-the-uk/",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They also stress the importance of addressing the distributional impact of such policies.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/call-of-duties/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Tax-planning.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They highlight that while the UK has achieved significant emissions reductions, particularly in the electricity sector, more action is needed across other sectors to meet future carbon budgets.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9935/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/what-are-carbon-budgets/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "They advocate for a systemic approach to health that leverages climate action for health co-benefits, such as through cleaner transport and sustainable food systems.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGuy6JDZZ0LLYEbXSSLHCDSAvx_fBnd0C3F4oM4tKO1nnAG2Vq2WqcFKwLsVcPs4MAFozYYlDZet41soStTDXNrytmCJScjhgSqoRXXeT-QfdPK1FOkSMG2658UX_V6gBIg_MsmOd-AeW17UbytPRxi-81FqSz_GctgqtF3JrjO1woqTqWvZBrxv8lOsaWBHNNO0sPc_EhUmCDOdzy1TNfuuiPNq6oBybWbFFsVjO6",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELJvPwSARyjNtbPFsu68C3P0kAXxMwnYYCzUXIjCJf1-SDbEk9w97TXZffS79naDUJhqrPzYaWCiibDDnvvaZ5U33kFLCvC1ET1ayA3XWtfhC9zTG1oBI-EWrrM3d0JTT_an77-PaFoq7-cPn5iUZ6WCw4NlToiG8mexH4rweJvZVQetyernwyTlTTgjd6s2hjMGg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Pace of Decarbonisation:** Some, like a Tony Blair-backed think tank, express concern that overly rapid decarbonisation efforts could lead to rising utility costs and compromise energy security, advocating for a review of ambitious targets.",
+        "sources": [
+          {
+            "url": "https://europeanconservative.com/articles/news/tony-blair-institute-criticisms-of-expensive-uk-green-policies-net-zero-ed-miliband/",
+            "publisher": "europeanconservative.com",
+            "title": "europeanconservative.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "This political divide on climate and energy policy creates uncertainty for investors.",
+        "sources": [
+          {
+            "url": "https://www.solarpowerportal.co.uk/energy-policy/uk-political-divide-climate-change-endangering-energy-security",
+            "publisher": "solarpowerportal.co.uk",
+            "title": "solarpowerportal.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Some favour direct payments (carbon dividends) to households to ensure distributional fairness and public acceptability",
+        "sources": [
+          {
+            "url": "https://www.policyengine.org/uk/research/uk-carbon-tax-dividend",
+            "publisher": "policyengine.org",
+            "title": "policyengine.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://citizensclimatelobby.uk/2019/05/the-myth-that-carbon-taxes-hurts-the-poor/",
+            "publisher": "citizensclimatelobby.uk",
+            "title": "citizensclimatelobby.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": ", while others emphasize investment in specific green technologies, infrastructure, or energy efficiency schemes",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2020/03/Distributional-impacts-of-a-UK-carbon-tax_Report-1_analysis-by-household-type.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://pubs.acs.org/doi/10.1021/es902974g",
+            "publisher": "pubs.acs.org",
+            "title": "acs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The IFS, for example, highlights the existing inconsistencies in the tax system and suggests rationalising taxes to lower the cost of electricity relative to gas.",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Tax-planning.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Impact on Inequality:** While many studies suggest that revenue recycling can make carbon taxes progressive, the precise impact on income inequality (e.g., Gini coefficient changes) can vary depending on the tax rate and the specific recycling mechanism, as indicated by PolicyEngine's modelling.",
+        "sources": [
+          {
+            "url": "https://www.policyengine.org/uk/research/uk-carbon-tax-dividend",
+            "publisher": "policyengine.org",
+            "title": "policyengine.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_comment": "Layer-2 levers — the public-facing 'why isn't X a column?' explainer. Levers are policy INSTRUMENTS parties use to move the fundamentals; we judge them by their EFFECT on the fundamentals, not as outcomes of their own. NOTE (v2, 2026-06-16): economy, tax and immigration were REMOVED as levers — they are now first-class (O13 Prosperity, O11 Tax, and the D1 Immigration direction-only measure). Only genuine instruments remain here. 'affects' references outcome IDs in config/outcomes.json.",
+  "principle": "We organise around the outcomes you actually feel in your life. A few policy areas — like energy, childcare, or transport — are mainly the tools parties use to move those outcomes, so rather than giving each its own column, we judge each party's use of them by their effect here. That's a deliberate choice, and you're free to disagree with it.",
+  "lens_note": "Fairness runs through everything. As well as the dedicated 'Inequality & fair shares' column, every single verdict is also examined from a who-gains-who-pays angle, alongside cost, efficiency and deliverability.",
+  "levers": [
+    {
+      "key": "energy",
+      "name": "Energy policy",
+      "why": "Energy policy is the instrument; what you feel is your bill and the air and climate around you. We score those.",
+      "affects": ["O2", "O6"]
+    },
+    {
+      "key": "childcare",
+      "name": "Childcare",
+      "why": "Childcare cost and availability shape what families can afford and whether parents can work — so it shows up inside those outcomes.",
+      "affects": ["O2", "O4", "O7"]
+    },
+    {
+      "key": "transport",
+      "name": "Transport",
+      "why": "Transport cost and access are means to a budget that works and getting to a job — we trace them into those outcomes.",
+      "affects": ["O2", "O4"]
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "policy_id": "lab-09-set-business-tax-stability-and-reform",
+  "party": "Labour",
+  "policy_title": "Set Business Tax Stability and Reform Business Rates",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "This policy broadly maintains the existing tax baseline \u2014 the corporation tax cap locks in current rates, full expensing was already in place, and the business rates reform is designed to be revenue-neutral. The main fiscal concern is that locking in these commitments reduces the government's room to raise revenue if needed, but the policy itself does not add materially to the debt path.",
+    "biggest_unknown": "Whether the business rates reform is genuinely revenue-neutral in practice, and whether full expensing's long-run GDP uplift is large enough to offset its near-term revenue cost.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "Corporation tax will be capped at 25% for the entire parliament.",
+        "evidence_id": "M",
+        "quote": "Labour will cap corporation tax at 25% for the entire parliament"
+      },
+      {
+        "tier": "stated",
+        "claim": "A permanent full expensing system and annual investment allowance will be maintained.",
+        "evidence_id": "M",
+        "quote": "maintain a permanent full expensing system for capital investment and the annual investment allowance for small businesses"
+      },
+      {
+        "tier": "stated",
+        "claim": "The business rates replacement is designed to raise the same overall revenue.",
+        "evidence_id": "E17",
+        "quote": "while raising the same overall revenue"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The IFS has warned that this commitment significantly limits the government's fiscal flexibility.",
+        "evidence_id": "E5",
+        "quote": "The Institute for Fiscal Studies (IFS) has warned that this commitment, alongside other pledges, significantly limits the government's fiscal flexibility."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The IFS notes Labour's fiscal rules leave literally no room for additional spending beyond current plans.",
+        "evidence_id": "E38",
+        "quote": "Labour's fiscal rules leave \"literally no room\" for any additional spending beyond current government plans"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR estimated full expensing would increase business investment by 3.5% in 2024-25 and 2025-26.",
+        "evidence_id": "E9",
+        "quote": "The Office for Budget Responsibility (OBR) estimated that full expensing would increase business investment by 3.5% in the 2024-25 and 2025-26 tax years."
+      },
+      {
+        "tier": "projected",
+        "claim": "Model simulations suggest permanent full expensing could raise long-run GDP by 0.9%.",
+        "evidence_id": "E10",
+        "quote": "permanent full expensing could raise long-run GDP by 0.9%, investment by 1.5%, and wages by 0.8%"
+      },
+      {
+        "tier": "projected",
+        "claim": "A \u00a34.3 billion support package is allocated over three years as part of the business rates transition.",
+        "evidence_id": "E27",
+        "quote": "A \u00a34.3 billion support package is allocated over the next three years, including \u00a33.2 billion in Transitional Relief for larger ratepayers and \u00a3500 million for the Supporting Small Business Scheme."
+      }
+    ],
+    "rationale": "For O12, the core question is whether this policy moves the debt path materially \u2014 either by adding unfunded commitments or by improving long-run fiscal capacity through investment. On balance, the direct fiscal effect is close to neutral. The corporation tax cap does not cut rates below current levels; it simply forecloses future rises, so there is no revenue loss relative to current baseline. Full expensing was already in operation; its permanence (rather than temporary status) may have modest near-term revenue cost but the OBR and model projections suggest a positive long-run investment and GDP effect, which would improve the fiscal position over a longer horizon. The business rates reform is explicitly designed to be revenue-neutral, with lower multipliers for smaller properties funded by a higher multiplier on large ones and a transitional support package. The most credible concern for O12 is the IFS warning that locking in the corporation tax cap \u2014 combined with other commitments \u2014 materially reduces fiscal flexibility, leaving no headroom under the fiscal rules. This is a genuine constraint on the government's ability to respond to shocks, which is relevant to long-run debt-path sustainability. However, this effect is attributable to the broader tax lock across the manifesto; this single policy's marginal contribution to that constraint is limited. The \u00a34.3 billion transitional support package introduces a modest near-term fiscal cost, but its absorption into the revenue-neutral design is plausible if the higher multiplier yields the projected revenue. Overall, the policy neither clearly improves nor clearly worsens the debt path \u2014 the near-term revenue neutrality and long-run investment uplift roughly offset the fiscal flexibility loss for this policy in isolation. Verdict: negligible effect on O12, with low confidence given genuine uncertainty about business rates fiscal neutrality and long-run investment elasticity.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.cbi.org.uk/media/irfi1jqu/cbi-business-rates-reform-v2.pdf",
+        "publisher": "cbi.org.uk",
+        "title": "cbi.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDbwoOt7l_lUQEI5QRRiEIcvkdw3XEV9dyq8XRcRBE5NRHxL54JbKztJfNHY85btrziRshWFT0dJpgwmyn7AlcCluMtl4xkAATvJ41aljWcEdyWMUuSlfuzhcdFLhpjZIihGLY9muyGjZKD4mF2k1oz2mCRhVlWHmz",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "fullfact.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/business/2024/feb/01/labour-rules-out-raising-corporation-tax-above-25-in-next-parliament",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWoNiOPirVHFfffFda4eFn5o89DVy81mMvFEky2CdhN6KTo5-dOSf6dtvuZHDS8sR3xq73s_fNq5hcXYPcywobzkeR3HrQjdJAo1UkhGK1gEVd3M81St9YMbzSRf0oQGvHVIdTh20NtOA-TI8TbTieiFFmrExKy3lEcK9i4po=",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "ifs.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://leasingsolutions.bnpparibas.co.uk/full-expensing-how-it-can-help-improve-business-investment/",
+        "publisher": "leasingsolutions.bnpparibas.co.uk",
+        "title": "bnpparibas.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://taxfoundation.org/blog/uk-full-expensing-capital-allowances/",
+        "publisher": "taxfoundation.org",
+        "title": "taxfoundation.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://cps.org.uk/research/permanent-full-expensing/",
+        "publisher": "cps.org.uk",
+        "title": "cps.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.lubbockfine.co.uk/blog/how-upcoming-changes-to-business-rates-affect-the-commercial-property-market/",
+        "publisher": "lubbockfine.co.uk",
+        "title": "lubbockfine.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0602,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E5 and E38 (IFS warnings) are cited as 'measurable' but are IFS forecasts/opinions about fiscal flexibility \u2014 these are analytical projections, not observed facts. They should be 'projected' tier. Not blocking given low overall confidence and negligible direction, but worth flagging."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E17 ('while raising the same overall revenue') is sourced from cbi.org.uk and vertexaisearch \u2014 not from the policy text itself. The stated-tier claim is that the reform is 'designed to raise the same overall revenue', but this framing is from a third-party summary, not the manifesto text (M). The manifesto only says 'replace the current business rates system in England with a new, fairer system'. Minor overstatement of what 'stated' supports."
+        }
+      ],
+      "notes": "The verdict is broadly defensible. Direction of 'negligible' with low confidence is well-supported given the revenue-neutral design intent, the cap locking in existing rates rather than cutting them, and the genuine uncertainty about long-run effects. No lever leakage, no party bias, no false balance detected. The \u00a34.3bn transitional package is correctly flagged as a near-term cost. Main issues are tier classification of IFS claims and a slightly unsupported 'stated' framing for revenue neutrality \u2014 neither is blocking."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will cap corporation tax at 25% for the entire parliament and maintain a permanent full expensing system for capital investment and the annual investment allowance for small businesses. They will replace the current business rates system in England with a new, fairer system that incentivises investment, tackles empty properties, and supports entrepreneurship.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Labour plans to cap corporation tax at 25% for the entire parliamentary term, maintaining the current tiered system where companies with profits below \u00a350,000 pay 19% and those with profits between \u00a350,000 and \u00a3250,000 benefit from marginal relief.",
+        "sources": [
+          {
+            "url": "https://www.cpdstore.co.uk/blog/the-true-impact-of-corporation-tax-changes-on-uk-businesses",
+            "publisher": "cpdstore.co.uk",
+            "title": "cpdstore.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mha.co.uk/insights/a-labour-government-and-uk-business",
+            "publisher": "mha.co.uk",
+            "title": "mha.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.makeuk.org/insights/blogs/corporate-tax-the-burden-of-company-associations-on-small-business",
+            "publisher": "makeuk.org",
+            "title": "makeuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gateleyplc.com/insight/article/what-could-a-labour-government-mean-for-capital-investment-projects-and-growth/",
+            "publisher": "gateleyplc.com",
+            "title": "gateleyplc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bkplus.co.uk/the-labour-party/",
+            "publisher": "bkplus.co.uk",
+            "title": "bkplus.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.spencer-west.com/news/conclusion-and-future-outlook-on-uk-tax-policy-post-labour-victory/",
+            "publisher": "spencer-west.com",
+            "title": "spencer-west.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.simmons-simmons.com/en/publications/cm34esngn0062tr0kdmjyeoaw/labour-s-corporate-tax-roadmap",
+            "publisher": "simmons-simmons.com",
+            "title": "simmons-simmons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2024/feb/01/labour-rules-out-raising-corporation-tax-above-25-in-next-parliament",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.alliotts.com/articles/important-changes-to-corporation-tax-and-the-impact-of-associated-companies/",
+            "publisher": "alliotts.com",
+            "title": "alliotts.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxsummaries.pwc.com/united-kingdom/corporate/taxes-on-corporate-income",
+            "publisher": "taxsummaries.pwc.com",
+            "title": "pwc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kpmg.com/uk/en/insights/tax/tmd-what-businesses-can-expect-from-the-labour-government.html",
+            "publisher": "kpmg.com",
+            "title": "kpmg.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This 25% main rate applies to approximately 10% of UK businesses.",
+        "sources": [
+          {
+            "url": "https://www.cpdstore.co.uk/blog/the-true-impact-of-corporation-tax-changes-on-uk-businesses",
+            "publisher": "cpdstore.co.uk",
+            "title": "cpdstore.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "**Real-world Effects:**\n*   **Certainty for businesses:** The cap is intended to offer predictability, facilitating long-term planning and investment decisions.",
+        "sources": [
+          {
+            "url": "https://www.mha.co.uk/insights/a-labour-government-and-uk-business",
+            "publisher": "mha.co.uk",
+            "title": "mha.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gateleyplc.com/insight/article/what-could-a-labour-government-mean-for-capital-investment-projects-and-growth/",
+            "publisher": "gateleyplc.com",
+            "title": "gateleyplc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.spencer-west.com/news/conclusion-and-future-outlook-on-uk-tax-policy-post-labour-victory/",
+            "publisher": "spencer-west.com",
+            "title": "spencer-west.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.internationaltaxreview.com/article/2dq0qydyvkszfaw5mycxs/an-easy-win-experts-on-uk-chancellors-ct-capping-plan",
+            "publisher": "internationaltaxreview.com",
+            "title": "internationaltaxreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2024/feb/01/labour-rules-out-raising-corporation-tax-above-25-in-next-parliament",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **International competitiveness:** While Labour argues that a 25% rate balances public finances and a competitive global economy, some experts, such as those cited by International Tax Review, note that the average corporate income tax rate in OECD countries is lower, around 21%.",
+        "sources": [
+          {
+            "url": "https://www.internationaltaxreview.com/article/2dq0qydyvkszfaw5mycxs/an-easy-win-experts-on-uk-chancellors-ct-capping-plan",
+            "publisher": "internationaltaxreview.com",
+            "title": "internationaltaxreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2024/feb/01/labour-rules-out-raising-corporation-tax-above-25-in-next-parliament",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Fiscal flexibility:** The Institute for Fiscal Studies (IFS) has warned that this commitment, alongside other pledges, significantly limits the government's fiscal flexibility.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2024/feb/01/labour-rules-out-raising-corporation-tax-above-25-in-next-parliament",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWoNiOPirVHFfffFda4eFn5o89DVy81mMvFEky2CdhN6KTo5-dOSf6dtvuZHDS8sR3xq73s_fNq5hcXYPcywobzkeR3HrQjdJAo1UkhGK1gEVd3M81St9YMbzSRf0oQGvHVIdTh20NtOA-TI8TbTieiFFmrExKy3lEcK9i4po=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Labour will maintain the permanent full expensing system for capital investment and the annual investment allowance (AIA) for small businesses.",
+        "sources": [
+          {
+            "url": "https://www.mha.co.uk/insights/a-labour-government-and-uk-business",
+            "publisher": "mha.co.uk",
+            "title": "mha.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fusionaccountants.co.uk/blogs/full-expensing-explained/",
+            "publisher": "fusionaccountants.co.uk",
+            "title": "fusionaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gateleyplc.com/insight/article/what-could-a-labour-government-mean-for-capital-investment-projects-and-growth/",
+            "publisher": "gateleyplc.com",
+            "title": "gateleyplc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bkplus.co.uk/the-labour-party/",
+            "publisher": "bkplus.co.uk",
+            "title": "bkplus.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cpdstore.co.uk/blog/labour-s-corporate-tax-roadmap-what-it-means-for-business",
+            "publisher": "cpdstore.co.uk",
+            "title": "cpdstore.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2024/feb/01/labour-rules-out-raising-corporation-tax-above-25-in-next-parliament",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kpmg.com/uk/en/insights/tax/tmd-what-businesses-can-expect-from-the-labour-government.html",
+            "publisher": "kpmg.com",
+            "title": "kpmg.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Real-world Effects of Full Expensing:**\n*   **Immediate Tax Relief and Investment Incentive:** Full expensing allows companies to deduct 100% of the cost of qualifying plant and machinery from their taxable profits in the year of purchase.",
+        "sources": [
+          {
+            "url": "https://www.adams-accountancy.co.uk/blog/what-are-full-expensing-capital-allowances-your-detailed-guide",
+            "publisher": "adams-accountancy.co.uk",
+            "title": "adams-accountancy.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxfoundation.org/blog/uk-full-expensing-capital-allowances/",
+            "publisher": "taxfoundation.org",
+            "title": "taxfoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pwc.co.uk/services/tax/insights/full-expensing-new-valuable-capital-allowance.html",
+            "publisher": "pwc.co.uk",
+            "title": "pwc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fusionaccountants.co.uk/blogs/full-expensing-explained/",
+            "publisher": "fusionaccountants.co.uk",
+            "title": "fusionaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gateleyplc.com/insight/article/what-could-a-labour-government-mean-for-capital-investment-projects-and-growth/",
+            "publisher": "gateleyplc.com",
+            "title": "gateleyplc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cpdstore.co.uk/blog/labour-s-corporate-tax-roadmap-what-it-means-for-business",
+            "publisher": "cpdstore.co.uk",
+            "title": "cpdstore.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sleek.com/uk/resources/annual-investment-allowance/",
+            "publisher": "sleek.com",
+            "title": "sleek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This effectively reduces the in-year cost of capital expenditure by up to 25% for companies paying the 25% corporation tax rate.",
+        "sources": [
+          {
+            "url": "https://leasingsolutions.bnpparibas.co.uk/full-expensing-how-it-can-help-improve-business-investment/",
+            "publisher": "leasingsolutions.bnpparibas.co.uk",
+            "title": "bnpparibas.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pwc.co.uk/services/tax/insights/full-expensing-new-valuable-capital-allowance.html",
+            "publisher": "pwc.co.uk",
+            "title": "pwc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fusionaccountants.co.uk/blogs/full-expensing-explained/",
+            "publisher": "fusionaccountants.co.uk",
+            "title": "fusionaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sleek.com/uk/resources/annual-investment-allowance/",
+            "publisher": "sleek.com",
+            "title": "sleek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Boost to Investment and GDP:** The Office for Budget Responsibility (OBR) estimated that full expensing would increase business investment by 3.5% in the 2024-25 and 2025-26 tax years.",
+        "sources": [
+          {
+            "url": "https://leasingsolutions.bnpparibas.co.uk/full-expensing-how-it-can-help-improve-business-investment/",
+            "publisher": "leasingsolutions.bnpparibas.co.uk",
+            "title": "bnpparibas.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Model simulations by the Tax Foundation and the Centre for Policy Studies (CPS) further suggest that permanent full expensing could raise long-run GDP by 0.9%, investment by 1.5%, and wages by 0.8%.",
+        "sources": [
+          {
+            "url": "https://taxfoundation.org/blog/uk-full-expensing-capital-allowances/",
+            "publisher": "taxfoundation.org",
+            "title": "taxfoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cps.org.uk/research/permanent-full-expensing/",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Long-term Planning:** Its permanence provides businesses with confidence for long-term investment planning, unlike previous temporary schemes like the super-deduction.",
+        "sources": [
+          {
+            "url": "https://www.adams-accountancy.co.uk/blog/what-are-full-expensing-capital-allowances-your-detailed-guide",
+            "publisher": "adams-accountancy.co.uk",
+            "title": "adams-accountancy.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxfoundation.org/blog/uk-full-expensing-capital-allowances/",
+            "publisher": "taxfoundation.org",
+            "title": "taxfoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fusionaccountants.co.uk/blogs/full-expensing-explained/",
+            "publisher": "fusionaccountants.co.uk",
+            "title": "fusionaccountants.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Scope:** Full expensing applies to most loose plant and machinery, furnishings, manufacturing equipment, IT equipment, and capital investment on software.",
+        "sources": [
+          {
+            "url": "https://www.pwc.co.uk/services/tax/insights/full-expensing-new-valuable-capital-allowance.html",
+            "publisher": "pwc.co.uk",
+            "title": "pwc.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "However, Labour's policy does not explicitly state an intention to extend full expensing to leased assets, a consideration under previous governments.",
+        "sources": [
+          {
+            "url": "https://www.grantthornton.co.uk/insights/election-manifestos-full-expensing-and-capital-allowances/",
+            "publisher": "grantthornton.co.uk",
+            "title": "grantthornton.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gateleyplc.com/insight/article/what-could-a-labour-government-mean-for-capital-investment-projects-and-growth/",
+            "publisher": "gateleyplc.com",
+            "title": "gateleyplc.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Real-world Effects of Annual Investment Allowance (AIA):**\n*   **Support for Small and Medium Businesses (SMEs):** The AIA allows businesses to deduct 100% of the cost of qualifying equipment and machinery up to a permanent limit of \u00a31 million per year.",
+        "sources": [
+          {
+            "url": "https://taxfoundation.org/blog/uk-full-expensing-capital-allowances/",
+            "publisher": "taxfoundation.org",
+            "title": "taxfoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.grantthornton.co.uk/insights/election-manifestos-full-expensing-and-capital-allowances/",
+            "publisher": "grantthornton.co.uk",
+            "title": "grantthornton.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bizcap.co.uk/blog/annual-investment-allowance-uk-business-tax-relief",
+            "publisher": "bizcap.co.uk",
+            "title": "bizcap.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sleek.com/uk/resources/annual-investment-allowance/",
+            "publisher": "sleek.com",
+            "title": "sleek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "This relief is particularly valuable for SMEs, as the \u00a31 million limit generally covers their annual capital spending comfortably.",
+        "sources": [
+          {
+            "url": "https://www.grantthornton.co.uk/insights/election-manifestos-full-expensing-and-capital-allowances/",
+            "publisher": "grantthornton.co.uk",
+            "title": "grantthornton.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bizcap.co.uk/blog/annual-investment-allowance-uk-business-tax-relief",
+            "publisher": "bizcap.co.uk",
+            "title": "bizcap.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sleek.com/uk/resources/annual-investment-allowance/",
+            "publisher": "sleek.com",
+            "title": "sleek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Uncertainty regarding restrictions:** While Labour has stated it will retain AIA for \"small businesses,\" some analysts, like Grant Thornton, question if this implies future restrictions on the size of businesses that can claim it, although this has not been explicitly stated as a new policy.",
+        "sources": [
+          {
+            "url": "https://www.grantthornton.co.uk/insights/election-manifestos-full-expensing-and-capital-allowances/",
+            "publisher": "grantthornton.co.uk",
+            "title": "grantthornton.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gateleyplc.com/insight/article/what-could-a-labour-government-mean-for-capital-investment-projects-and-growth/",
+            "publisher": "gateleyplc.com",
+            "title": "gateleyplc.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Labour pledges to replace the current business rates system in England with a new, fairer system that incentivises investment, tackles empty properties, and supports entrepreneurship, while raising the same overall revenue.",
+        "sources": [
+          {
+            "url": "https://www.cbi.org.uk/media/irfi1jqu/cbi-business-rates-reform-v2.pdf",
+            "publisher": "cbi.org.uk",
+            "title": "cbi.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDbwoOt7l_lUQEI5QRRiEIcvkdw3XEV9dyq8XRcRBE5NRHxL54JbKztJfNHY85btrziRshWFT0dJpgwmyn7AlcCluMtl4xkAATvJ41aljWcEdyWMUuSlfuzhcdFLhpjZIihGLY9muyGjZKD4mF2k1oz2mCRhVlWHmz",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Specific Figures and Anticipated Effects (as per Autumn Budget 2024 announcements):**\n*   **Lower Rates for Retail, Hospitality, and Leisure (RHL):** From April 2026, Labour plans to permanently lower business rates for RHL businesses with properties under \u00a3500,000 rateable value.",
+        "sources": [
+          {
+            "url": "https://www.taxadvisermagazine.com/article/business-rates-reform-autumn-budget-2024",
+            "publisher": "taxadvisermagazine.com",
+            "title": "taxadvisermagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDbwoOt7l_lUQEI5QRRiEIcvkdw3XEV9dyq8XRcRBE5NRHxL54JbKztJfNHY85btrziRshWFT0dJpgwmyn7AlcCluMtl4xkAATvJ41aljWcEdyWMUuSlfuzhcdFLhpjZIihGLY9muyGjZKD4mF2k1oz2mCRhVlWHmz",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lubbockfine.co.uk/blog/how-upcoming-changes-to-business-rates-affect-the-commercial-property-market/",
+            "publisher": "lubbockfine.co.uk",
+            "title": "lubbockfine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   The small business RHL multiplier will be 38.2p in the pound for properties with rateable values under \u00a351,000.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDbwoOt7l_lUQEI5QRRiEIcvkdw3XEV9dyq8XRcRBE5NRHxL54JbKztJfNHY85btrziRshWFT0dJpgwmyn7AlcCluMtl4xkAATvJ41aljWcEdyWMUuSlfuzhcdFLhpjZIihGLY9muyGjZKD4mF2k1oz2mCRhVlWHmz",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   A standard RHL multiplier will be 43p in the pound for properties with rateable values between \u00a351,000 and \u00a3499,999.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDbwoOt7l_lUQEI5QRRiEIcvkdw3XEV9dyq8XRcRBE5NRHxL54JbKztJfNHY85btrziRshWFT0dJpgwmyn7AlcCluMtl4xkAATvJ41aljWcEdyWMUuSlfuzhcdFLhpjZIihGLY9muyGjZKD4mF2k1oz2mCRhVlWHmz",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Labour has previously indicated that 250,000 small businesses could see up to 40% off their rates.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/updates/stories/how-labour-is-helping-small-business/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Higher Rates for Larger Properties:** These reductions will be funded by a higher multiplier for properties with a rateable value exceeding \u00a3500,000.",
+        "sources": [
+          {
+            "url": "https://www.taxadvisermagazine.com/article/business-rates-reform-autumn-budget-2024",
+            "publisher": "taxadvisermagazine.com",
+            "title": "taxadvisermagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lubbockfine.co.uk/blog/how-upcoming-changes-to-business-rates-affect-the-commercial-property-market/",
+            "publisher": "lubbockfine.co.uk",
+            "title": "lubbockfine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "A high-value business rates multiplier of 50.8p will be introduced in 2026/27 for approximately 1% of properties.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDbwoOt7l_lUQEI5QRRiEIcvkdw3XEV9dyq8XRcRBE5NRHxL54JbKztJfNHY85btrziRshWFT0dJpgwmyn7AlcCluMtl4xkAATvJ41aljWcEdyWMUuSlfuzhcdFLhpjZIihGLY9muyGjZKD4mF2k1oz2mCRhVlWHmz",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Impact on High Streets and Vacancy Rates:** The reform aims to level the playing field between high street businesses and online retailers.",
+        "sources": [
+          {
+            "url": "https://www.taxadvisermagazine.com/article/business-rates-reform-autumn-budget-2024",
+            "publisher": "taxadvisermagazine.com",
+            "title": "taxadvisermagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDbwoOt7l_lUQEI5QRRiEIcvkdw3XEV9dyq8XRcRBE5NRHxL54JbKztJfNHY85btrziRshWFT0dJpgwmyn7AlcCluMtl4xkAATvJ41aljWcEdyWMUuSlfuzhcdFLhpjZIihGLY9muyGjZKD4mF2k1oz2mCRhVlWHmz",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lubbockfine.co.uk/blog/how-upcoming-changes-to-business-rates-affect-the-commercial-property-market/",
+            "publisher": "lubbockfine.co.uk",
+            "title": "lubbockfine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Research suggests that business rates contribute significantly to high vacancy rates, and lower rates for RHL sectors could positively affect occupancy.",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/impacts-of-taxation-on-small-businesses-business-rates-in-the-uk/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "A 1 percentage point reduction in the tax rate has been found to increase the likelihood of a property being occupied by a small business by 1.06%.",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/impacts-of-taxation-on-small-businesses-business-rates-in-the-uk/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Support Package:** A \u00a34.3 billion support package is allocated over the next three years, including \u00a33.2 billion in Transitional Relief for larger ratepayers and \u00a3500 million for the Supporting Small Business Scheme.",
+        "sources": [
+          {
+            "url": "https://www.lubbockfine.co.uk/blog/how-upcoming-changes-to-business-rates-affect-the-commercial-property-market/",
+            "publisher": "lubbockfine.co.uk",
+            "title": "lubbockfine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Challenges and Concerns:**\n    *   **Increased costs for large businesses:** The higher multiplier for properties over \u00a3500,000 could adversely impact larger businesses, potentially forcing some to close.",
+        "sources": [
+          {
+            "url": "https://www.taxadvisermagazine.com/article/business-rates-reform-autumn-budget-2024",
+            "publisher": "taxadvisermagazine.com",
+            "title": "taxadvisermagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Large commercial properties may face a \"super supplement\" of around 5.8%.",
+        "sources": [
+          {
+            "url": "https://stca.co.uk/news/business-rates-are-changing-how-will-this-affect-your-business-and-property/",
+            "publisher": "stca.co.uk",
+            "title": "stca.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Rent increases:** Some studies indicate that reductions in business rates can lead to increases in rents, with a \u00a31 reduction in rates potentially resulting in a \u00a30.15 to \u00a30.32 rent rise (or \u00a30.45 to \u00a30.85 over two years).",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/impacts-of-taxation-on-small-businesses-business-rates-in-the-uk/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Reduced RHL relief:** The overall Retail, Hospitality, and Leisure relief is set to decrease from 75% to 40% in 2025/26, and further to 20% (for properties under \u00a351k RV) and 10% (between \u00a351k and \u00a3500k RV) from April 2026, which could impact smaller businesses' margins.",
+        "sources": [
+          {
+            "url": "https://stca.co.uk/news/business-rates-are-changing-how-will-this-affect-your-business-and-property/",
+            "publisher": "stca.co.uk",
+            "title": "stca.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Review of Empty Property Relief:** Labour is reviewing \"improvement relief,\" which currently offers a 12-month relief for upgraded properties, suggesting potential changes to how empty properties are incentivised for investment.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=t_SWUHvZcxE",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Experts hold differing views on the overall impact of Labour's tax policies:\n*   **Increased Tax Burden:** The Resolution Foundation notes that Labour's planned additional tax rises of \u00a38.6 billion a year, combined with existing unfulfilled tax rises, would push the UK's tax-to-GDP ratio to its highest recorded level, equivalent to an additional \u00a31,100 per household per year by 2028-29.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/growing-for-gold/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Impact on Business Confidence and Growth:**\n    *   **Criticism:** Business leaders, including Sir James Dyson and the Confederation of British Industry (CBI), have warned that \"relentless\" tax increases, including those beyond corporation tax (e.g., National Insurance), could stifle innovation, deter investment, and lead to businesses leaving the UK.",
+        "sources": [
+          {
+            "url": "https://conservativepost.co.uk/experts-warn-uk-businesses-at-breaking-point-as-labours-policies-to-cost-at-least-2367-per-employee/",
+            "publisher": "conservativepost.co.uk",
+            "title": "conservativepost.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://macemagazine.com/dyson-leads-business-backlash-against-labour-tax-plan/",
+            "publisher": "macemagazine.com",
+            "title": "macemagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mca-insight.com/news/business-leaders-warn-labour-relentless-taxation-must-stop/720111.article",
+            "publisher": "mca-insight.com",
+            "title": "mca-insight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Lbj0hzTshZ0",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/business/labour-rachel-reeves-cbi-profits-tax-b2989307.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The CBI reported that two-thirds of its members felt Labour's budget hurt investment, and half believed it would hurt jobs.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Lbj0hzTshZ0",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "The Centre for Policy Studies has labelled recent tax increases as the largest single tax increase on businesses in British history, predicting business closures and job losses.",
+        "sources": [
+          {
+            "url": "https://conservativepost.co.uk/experts-warn-uk-businesses-at-breaking-point-as-labours-policies-to-cost-at-least-2367-per-employee/",
+            "publisher": "conservativepost.co.uk",
+            "title": "conservativepost.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Support for Stability:** Conversely, groups like the British Chambers of Commerce have welcomed the corporation tax cap, stating it provides stability and confidence for both UK and global firms to invest.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2024/feb/01/labour-rules-out-raising-corporation-tax-above-25-in-next-parliament",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Fiscal Constraints:** The IFS has highlighted that Labour's fiscal rules leave \"literally no room\" for any additional spending beyond current government plans, which involve cuts to investment and unprotected public services.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWoNiOPirVHFfffFda4eFn5o89DVy81mMvFEky2CdhN6KTo5-dOSf6dtvuZHDS8sR3xq73s_fNq5hcXYPcywobzkeR3HrQjdJAo1UkhGK1gEVd3M81St9YMbzSRf0oQGvHVIdTh20NtOA-TI8TbTieiFFmrExKy3lEcK9i4po=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "They also cautioned that many tax-raising options outside of Income Tax, National Insurance, and VAT could have damaging effects on growth and welfare.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/economic-and-taxation-policy-impact-on-growth-jobs-and-prosperity/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

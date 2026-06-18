@@ -1,0 +1,706 @@
+{
+  "policy_id": "ref-34-reform-police-leadership-and-recruitment",
+  "party": "Reform UK",
+  "policy_title": "Reform police leadership and recruitment",
+  "outcome": "O15",
+  "verdict": {
+    "outcome": "O15",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy could improve public trust by raising police standards, but risks undermining community relations through more authoritarian policing styles, reduced workforce diversity, and political interference with police independence. The evidence does not resolve which effect would dominate.",
+    "biggest_unknown": "Whether a strong preference for ex-military officers and greater ministerial power over Chief Constables would erode the 'policing by consent' model and community trust more than stricter standards would improve professionalism and confidence.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy introduces a strong preference for ex-military officers in police leadership and recruitment.",
+        "evidence_id": "M",
+        "quote": "strong preference for ex-military officers"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy would de-politicise the College of Policing and replace degree-standard entry with an entrance exam.",
+        "evidence_id": "M",
+        "quote": "de-politicise the College of Policing, replace degree-standard entry with an entrance exam"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Police forces are operationally independent from government, and experts emphasise this is critical to prevent political interference.",
+        "evidence_id": "E11",
+        "quote": "Experts generally emphasize the critical importance of police operational independence to prevent improper political interference"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Police forces are currently operationally independent from government and Parliament.",
+        "evidence_id": "E10",
+        "quote": "police forces are \"operationally independent from government and Parliament,\" meaning decisions on criminal investigations and the use of powers should be free from political interference"
+      },
+      {
+        "tier": "projected",
+        "claim": "A military-preference model risks producing more authoritarian policing styles, conflicting with the 'policing by consent' model.",
+        "evidence_id": "E3",
+        "quote": "Critics suggest this approach could lead to more authoritarian policing styles, potentially conflicting with the \"policing by consent\" model that underpins British policing"
+      },
+      {
+        "tier": "projected",
+        "claim": "Historically, militarised policing in the UK has been met with public hostility.",
+        "evidence_id": "E4",
+        "quote": "Historically, militarised policing in the UK has often been met with public hostility"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Existing disparities in ethnic representation within police forces compared to the wider population are documented.",
+        "evidence_id": "E8",
+        "quote": "ONS data, for example, highlights existing disparities in ethnic representation within police forces compared to the wider population"
+      },
+      {
+        "tier": "projected",
+        "claim": "Stricter fitness and presentation standards could narrow the recruitment pool or impact workforce diversity if not carefully managed.",
+        "evidence_id": "E7",
+        "quote": "significantly stricter standards could potentially narrow the recruitment pool or impact workforce diversity if not carefully managed"
+      },
+      {
+        "tier": "projected",
+        "claim": "Stricter entry requirements could improve professionalism and public confidence.",
+        "evidence_id": "E35",
+        "quote": "The cumulative effect of stricter entry requirements could improve the quality and professionalism of recruits, potentially enhancing public confidence"
+      },
+      {
+        "tier": "projected",
+        "claim": "Bypassing degree routes could negatively impact efforts to professionalise policing and do little to address falling levels of trust and confidence in the police.",
+        "evidence_id": "E26",
+        "quote": "bypassing degree routes could \"negatively impact on efforts to professionalise policing, create a two-tier service, and do little to address falling levels of trusts and confidence in the police\""
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether increased political control over Chief Constables and a military-preference recruitment model erodes policing-by-consent and community trust more than stricter professional standards improve public confidence",
+      "estimate_range": "Evidence points to plausible negative effects on inter-group trust and policing by consent, but also plausible professionalism gains; no evidence quantifies the net O15 effect"
+    },
+    "rationale": "Two competing mechanisms pull in opposite directions for O15. On the negative side: a strong preference for ex-military officers risks shifting policing culture toward more authoritarian styles that conflict with the 'policing by consent' model underpinning community trust in Britain (E3, E4). The power to sack Chief Constables creates a channel for political interference in operational policing decisions (E10, E11), which experts flag as a serious risk to that independence. Stricter entry standards, if applied without care, could narrow the already-underrepresentative police workforce (E7, E8), weakening the integration and inter-group contact that supports cohesion. On the positive side, stricter entry requirements could raise professionalism and public confidence (E35), and some of the recruitment changes address long-standing concerns about training relevance (E20, E22). However, these are projected effects with no cited evidence of population-scale impact. The crux is whether the military-preference and political-control elements would dominate the professionalism gains. The provided evidence does not resolve this: it documents the risk pathway (E3, E4, E11) but no evidence quantifies whether it would actually reduce social trust at scale, nor whether professionalism gains would outweigh it. This is a genuine uncertainty, not a lazy hedge \u2014 two credible mechanisms with real cited evidence pull in opposing directions and the deciding parameter is unresolved.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8582/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.police-foundation.org.uk/wp-content/uploads/2010/10/jhml2013.pdf",
+        "publisher": "police-foundation.org.uk",
+        "title": "police-foundation.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJqwzfyRKSJg93WVtPGkPqsxW7ceQMtHPSeTyNC94qzL4lhMMJsaDp29eSfmQqwext5inBZaIKAOjbRy2yD0RiJoAZZgjxlPYOMRTqD32mmQdJq3G-iNUCqBrPwjL-K2MrZK2A63nnKtN5ztsAEAUQhrwUmkPy4-KLEsSWtELecyJt-oKAoq0=",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "scienceopen.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9rIwTOGXxXjzEAuqS9n3dlBZOhvoxvybYM8ikVNrnFCq6cBLuKGmRjgxc3Hd3ubTC-u1P97jcwUuRFYxg-EpC-YoeooMbZqtcgiZOGm1GrCodnSx21xvw0IhEZw07K47pHgsCzv95DIVQZQZWw9djpARd_dW9eIE63zjzH6CIxWHv2_IhtKqG426fNflGsJYQlzVL4zBGaQ3pUJJR1kDiZl37suwAyQ==",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "www.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/sites/default/files/output_url_files/police_workforce_funding_rb.pdf",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.college.police.uk/article/police-constable-recruitment-regulations-change",
+        "publisher": "college.police.uk",
+        "title": "college.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/police-vetting-reforms-to-boost-officer-standards",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://policinginsight.com/series/the-degree-entry-debate/",
+        "publisher": "policinginsight.com",
+        "title": "policinginsight.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0565,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-structured and the too-uncertain direction is genuinely supported by competing claimed mechanisms with real evidence on both sides. Stated claims are verbatim from M. Projected claims use appropriately hedged language matching their quotes (E3, E4, E7, E35 all say 'could'/'suggest'/'potentially'). E11 is from House of Commons Library/Police Foundation and the claim that experts emphasise operational independence is a reasonable characterisation of 'Experts generally emphasize the critical importance of police operational independence.' The measurable tier claim on E8 is a fair reading of the ONS reference. Magnitude and time_horizon are both n/a consistent with too-uncertain direction. The crux_parameter and estimate_range are substantive. No party identity or motive attribution is present. No lever leakage \u2014 the rationale consistently routes through community trust and policing-by-consent mechanisms. One minor note: E4 (backed by vertexaisearch.cloud.google.com) is an unverifiable redirect source, and the claim that 'historically, militarised policing in the UK has often been met with public hostility' is used only as a projected claim to support the risk pathway rather than as a standalone measurable fact, which is appropriate given the sourcing limitations. No blocking issues identified."
+    },
+    "gate": {
+      "kept": 10,
+      "dropped": [
+        {
+          "claim": "The policy would give power to sack Chief Constables who allow 'two-tier policing'.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will introduce a new police leadership and recruitment regime with a strong preference for ex-military officers, high standards of fitness and presentation, and the power to sack Chief Constables who allow 'two-tier policing.' They will also de-politicise the College of Policing, replace degree-standard entry with an entrance exam, require a 2-year probationary period, and implement stricter entry requirements.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "*   **Potential Effects:** Proponents argue that ex-military personnel bring valuable transferable skills such as leadership, discipline, teamwork, resilience, and decision-making under pressure to policing",
+        "sources": [
+          {
+            "url": "https://tvpcareers.co.uk/from-the-military-to-the-police-a-family-tradition/",
+            "publisher": "tvpcareers.co.uk",
+            "title": "tvpcareers.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nottinghamshire.police.uk/news/nottinghamshire/news/news/2023/july/ex-military-personnel-get-first-taste-of-frontline-policing/",
+            "publisher": "nottinghamshire.police.uk",
+            "title": "nottinghamshire.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kent.police.uk/police-forces/kent-police/areas/kent-police/c/careers/supporting-the-military-community/",
+            "publisher": "kent.police.uk",
+            "title": "kent.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Nottinghamshire Police, for instance, launched a \"Military Service Leavers Pathway into Policing programme\" in partnership with the University of Derby, highlighting these attributes",
+        "sources": [
+          {
+            "url": "https://www.nottinghamshire.police.uk/news/nottinghamshire/news/news/2023/july/ex-military-personnel-get-first-taste-of-frontline-policing/",
+            "publisher": "nottinghamshire.police.uk",
+            "title": "nottinghamshire.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Critics suggest this approach could lead to more authoritarian policing styles, potentially conflicting with the \"policing by consent\" model that underpins British policing",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJqwzfyRKSJg93WVtPGkPqsxW7ceQMtHPSeTyNC94qzL4lhMMJsaDp29eSfmQqwext5inBZaIKAOjbRy2yD0RiJoAZZgjxlPYOMRTqD32mmQdJq3G-iNUCqBrPwjL-K2MrZK2A63nnKtN5ztsAEAUQhrwUmkPy4-KLEsSWtELecyJt-oKAoq0=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "scienceopen.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Historically, militarised policing in the UK has often been met with public hostility",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJqwzfyRKSJg93WVtPGkPqsxW7ceQMtHPSeTyNC94qzL4lhMMJsaDp29eSfmQqwext5inBZaIKAOjbRy2yD0RiJoAZZgjxlPYOMRTqD32mmQdJq3G-iNUCqBrPwjL-K2MrZK2A63nnKtN5ztsAEAUQhrwUmkPy4-KLEsSWtELecyJt-oKAoq0=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "scienceopen.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Home Office reported that in 2022, 3% of new police recruits had military experience, but no broader data exists on the professional backgrounds of serving officers",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2023-09-12/HL10095/",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Current Situation:** Existing guidance from 2003 states that candidates \"should have a general appearance that is in keeping with the Code of Conduct for police officers\" and must be \"physically and mentally suitable for the role\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/national-recruitment-standards-eligibility-criteria-for-police-recruitment-and-consistent-recruitment-practices",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.politics.co.uk/reference/police-numbers-and-recruitment/",
+            "publisher": "politics.co.uk",
+            "title": "politics.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Expert Considerations:** While specific data from named organisations on the impact of *stricter* fitness and presentation standards is limited, the IFS noted in 2017 that low pass thresholds in some recruitment tests might be used to encourage a better \"mix\" of candidates, suggesting that significantly stricter standards could potentially narrow the recruitment pool or impact workforce diversity if not carefully managed",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/police_workforce_funding_rb.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "ONS data, for example, highlights existing disparities in ethnic representation within police forces compared to the wider population",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9rIwTOGXxXjzEAuqS9n3dlBZOhvoxvybYM8ikVNrnFCq6cBLuKGmRjgxc3Hd3ubTC-u1P97jcwUuRFYxg-EpC-YoeooMbZqtcgiZOGm1GrCodnSx21xvw0IhEZw07K47pHgsCzv95DIVQZQZWw9djpARd_dW9eIE63zjzH6CIxWHv2_IhtKqG426fNflGsJYQlzVL4zBGaQ3pUJJR1kDiZl37suwAyQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "www.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Current Situation:** Chief Constables are accountable to Police and Crime Commissioners (PCCs) for the \"efficient and effective policing, management of resources and expenditure.\" However, they maintain \"operational independence in the service of the communities that they serve\"",
+        "sources": [
+          {
+            "url": "https://www.police-foundation.org.uk/wp-content/uploads/2010/10/jhml2013.pdf",
+            "publisher": "police-foundation.org.uk",
+            "title": "police-foundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The House of Commons Library clarifies that police forces are \"operationally independent from government and Parliament,\" meaning decisions on criminal investigations and the use of powers should be free from political interference",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8582/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Expert Concerns:** Experts generally emphasize the critical importance of police operational independence to prevent improper political interference",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8582/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.police-foundation.org.uk/wp-content/uploads/2010/10/jhml2013.pdf",
+            "publisher": "police-foundation.org.uk",
+            "title": "police-foundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The power for the Home Secretary to force a Chief Constable's resignation or retirement has existed historically and has been proposed for re-establishment in recent government reforms",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8582/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Current Situation:** The College of Policing, established in 2012, serves as the professional body for policing in England and Wales, responsible for setting standards, including those for recruitment and training",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9110/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://policing-commentary.org/the-police-education-debate-why-is-it-so-contested/",
+            "publisher": "policing-commentary.org",
+            "title": "policing-commentary.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Its creation was intended to enhance professionalism, akin to bodies like the Royal College of Nurses",
+        "sources": [
+          {
+            "url": "https://policing-commentary.org/the-police-education-debate-why-is-it-so-contested/",
+            "publisher": "policing-commentary.org",
+            "title": "policing-commentary.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Indeed, the College's Policing Education Qualifications Framework (PEQF) faced political pressure from the Home Secretary and PCCs, leading to a reversal of the universal degree-entry requirement",
+        "sources": [
+          {
+            "url": "https://policinginsight.com/series/the-degree-entry-debate/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lincolnshire-pcc.gov.uk/2022/u-turn-on-decision-for-new-police-officers-to-complete-a-degree/",
+            "publisher": "lincolnshire-pcc.gov.uk",
+            "title": "lincolnshire-pcc.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://policing-commentary.org/the-police-education-debate-why-is-it-so-contested/",
+            "publisher": "policing-commentary.org",
+            "title": "policing-commentary.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lancashire-pcc.gov.uk/degree-only-entry-scrapped-following-commissioners-six-month-campaign/",
+            "publisher": "lancashire-pcc.gov.uk",
+            "title": "lancashire-pcc.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Recent government proposals in January 2026 also included the potential creation of a new National Police Service (NPS) that would integrate existing national bodies, including the College of Policing, which could impact its structure and perceived independence",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/article/our-response-governments-police-reform-proposals",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2N8R75gkLuZkBhgFo87gW_YSdy4pxXo3nYUVoFzvb6D2vaocRu_zQ0TMrS8rWgRC6465OdzHzEDcpfFZmcvih8HDdjPJu-8kEI7_LXfLKxdj3NQ-mZXh5F5lcaCN3SlJmcX8COF5gMO_ndC8AEPePeE-QlXgbdWTE1it6Mn-EK7lcGISQCZ68NpP1s2etTkUPePux0iOy2go=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Current Situation:** UK policing introduced degree-level entry via the PEQF in 2016",
+        "sources": [
+          {
+            "url": "https://policing-commentary.org/the-police-education-debate-why-is-it-so-contested/",
+            "publisher": "policing-commentary.org",
+            "title": "policing-commentary.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "However, this was controversial, and in November 2022, then-Home Secretary Suella Braverman reversed the blanket degree requirement, allowing non-degree entry routes to continue and asking the College of Policing to consider new non-degree options",
+        "sources": [
+          {
+            "url": "https://lincolnshire-pcc.gov.uk/2022/u-turn-on-decision-for-new-police-officers-to-complete-a-degree/",
+            "publisher": "lincolnshire-pcc.gov.uk",
+            "title": "lincolnshire-pcc.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.lancashire-pcc.gov.uk/degree-only-entry-scrapped-following-commissioners-six-month-campaign/",
+            "publisher": "lancashire-pcc.gov.uk",
+            "title": "lancashire-pcc.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Currently, new recruits can join via Police Constable Degree Apprenticeships (PCDA) (3-year probation), Degree Holder Entry Programme (DHEP) (2-year probation), or the transitional non-degree route (IPLDP which is being phased out, with a new Level 5 programme proposed)",
+        "sources": [
+          {
+            "url": "https://tvpcareers.co.uk/roles/police-officer/eligibility/",
+            "publisher": "tvpcareers.co.uk",
+            "title": "tvpcareers.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.college.police.uk/article/police-training-change-all-new-officers-fight-crime",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/news/latest-news/2023/pfew-opposes-introducing-a-new-entry-route-with-lower-education-level/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Arguments for replacing degree entry (and implicitly for exams):**\n    *   Many, including 16 PCCs and some chief constables, argued that academic degrees were \"too far removed from operational policing\" and that degree routes took officers away from frontline duties",
+        "sources": [
+          {
+            "url": "https://policinginsight.com/series/the-degree-entry-debate/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/dcp/news/latest-news/degree-debate-the-crucial-point-thats-being-missed-is-you-need-to-pay-a-good-wage-to-attract-the-best-candidates/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Concerns were raised that degree requirements deterred experienced candidates such as ex-military personnel, Special Constables, and older career-changers",
+        "sources": [
+          {
+            "url": "https://polfed.org/dcp/news/latest-news/degree-debate-the-crucial-point-thats-being-missed-is-you-need-to-pay-a-good-wage-to-attract-the-best-candidates/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lincolnshire-pcc.gov.uk/2022/u-turn-on-decision-for-new-police-officers-to-complete-a-degree/",
+            "publisher": "lincolnshire-pcc.gov.uk",
+            "title": "lincolnshire-pcc.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   A College of Policing survey indicated that officers on the previous non-degree route (IPLDP) found their training more relevant than those on degree routes (PEQF), with \"widespread dissatisfaction with the training inputs from university staff\"",
+        "sources": [
+          {
+            "url": "https://policepromotion.blog/2024/07/12/its-official-degree-entry-less-relevant-to-police-officers-than-ipldp/",
+            "publisher": "policepromotion.blog",
+            "title": "policepromotion.blog",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Arguments against replacing degree entry (and for degree-level training):**\n    *   Supporters of degree-level education argue it fosters \"critical thinking, problem-solving and evidence-based policing skills\"",
+        "sources": [
+          {
+            "url": "https://policepromotion.blog/2024/07/12/its-official-degree-entry-less-relevant-to-police-officers-than-ipldp/",
+            "publisher": "policepromotion.blog",
+            "title": "policepromotion.blog",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   The Police Federation acknowledged the traditional non-degree route was \"no longer fit for purpose\" for modern policing challenges, but strongly opposed a lower Level 5 non-degree route, warning it would create a \"two-track system\" and diminish public trust in police standards",
+        "sources": [
+          {
+            "url": "https://polfed.org/news/latest-news/2023/pfew-opposes-introducing-a-new-entry-route-with-lower-education-level/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They advocated for any non-degree entry route to be accredited to educational Level 6",
+        "sources": [
+          {
+            "url": "https://polfed.org/news/latest-news/2023/pfew-opposes-introducing-a-new-entry-route-with-lower-education-level/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   A policing lecturer argued that bypassing degree routes could \"negatively impact on efforts to professionalise policing, create a two-tier service, and do little to address falling levels of trusts and confidence in the police\"",
+        "sources": [
+          {
+            "url": "https://policinginsight.com/series/the-degree-entry-debate/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   Public opinion research suggests people generally favour post-A Level qualifications for police officers, even if they prefer not to call them \"degrees\"",
+        "sources": [
+          {
+            "url": "https://policinginsight.com/series/the-degree-entry-debate/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "However, it risks diluting the academic and critical thinking skills that some experts believe are essential for modern policing and could lead to a perceived \"two-tier\" police service with differing training standards",
+        "sources": [
+          {
+            "url": "https://policinginsight.com/series/the-degree-entry-debate/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/news/latest-news/2023/pfew-opposes-introducing-a-new-entry-route-with-lower-education-level/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The IFS previously suggested that low pass thresholds could discourage higher-quality applicants",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/police_workforce_funding_rb.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Require a 2-year probationary period**\n*   **Current Situation:** The standard probationary period for a new police constable is already two years",
+        "sources": [
+          {
+            "url": "https://polfed.org/warks/advice/standards/probation/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.politics.co.uk/reference/police-numbers-and-recruitment/",
+            "publisher": "politics.co.uk",
+            "title": "politics.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "However, recruits joining via the Police Constable Degree Apprenticeship (PCDA) pathway typically have a three-year probationary period, while those on the Degree Holder Entry Programme (DHEP) have a two-year probation",
+        "sources": [
+          {
+            "url": "https://tvpcareers.co.uk/roles/police-officer/eligibility/",
+            "publisher": "tvpcareers.co.uk",
+            "title": "tvpcareers.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Rejoiners to the police force have varying probationary periods (e.g., six or twelve months) depending on their time out of service or rank",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/support-forces/police-rejoiners/police-rejoiners-changes-police-regulations",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Current Framework:** Recent reforms, such as those implemented in March 2026, standardized a four-stage national recruitment process (application, online tests, online assessment, face-to-face interview) to ensure consistent high standards across all forces",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/article/police-constable-recruitment-regulations-change",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Furthermore, reforms in April 2025 made passing background checks a legal requirement for all serving officers and introduced mechanisms to remove those who fail vetting, aiming to boost standards and public confidence",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/police-vetting-reforms-to-boost-officer-standards",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Potential Effects:** The cumulative effect of stricter entry requirements could improve the quality and professionalism of recruits, potentially enhancing public confidence",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/article/police-constable-recruitment-regulations-change",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/police-vetting-reforms-to-boost-officer-standards",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "The IFS has noted that pass thresholds can influence the \"mix\" of candidates",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/police_workforce_funding_rb.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

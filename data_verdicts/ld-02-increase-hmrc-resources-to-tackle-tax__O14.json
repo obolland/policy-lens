@@ -1,0 +1,628 @@
+{
+  "policy_id": "ld-02-increase-hmrc-resources-to-tackle-tax",
+  "party": "Liberal Democrat",
+  "policy_title": "Increase HMRC Resources to Tackle Tax Avoidance and Evasion",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "Resourcing HMRC to close the tax gap could narrow inequality if enforcement falls mainly on higher-income avoiders, but the evidence shows most evasion is attributed to small businesses and nearly half the tax gap is inadvertent error \u2014 so the distributional effect is genuinely unclear. Without evidence on who bears the additional enforcement burden, the direction on inequality cannot be determined.",
+    "biggest_unknown": "Whether the additional enforcement activity falls disproportionately on higher-income taxpayers and large-scale avoiders (narrowing the gap) or mainly on small businesses and ordinary taxpayers making errors (with no clear inequality-narrowing effect).",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to providing HMRC with resources to tackle tax avoidance and evasion.",
+        "evidence_id": "M",
+        "quote": "Provide HMRC with the necessary resources to effectively tackle tax avoidance and evasion"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The tax gap was estimated at \u00a346.8 billion in 2023-24, representing 5.3% of tax liabilities.",
+        "evidence_id": "E4",
+        "quote": "reaching an estimated \u00a346.8 billion in 2023-24 (5.3% of tax liabilities)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Inadvertent error or carelessness makes up 45% of the tax gap; evasion and avoidance together represent only 17%.",
+        "evidence_id": "E23",
+        "quote": "inadvertent activities (error or carelessness) making up 45% of the tax gap, and evasion and avoidance together representing 17% in 2021-22"
+      },
+      {
+        "tier": "measurable",
+        "claim": "81% of the \u00a35.5 billion lost to tax evasion in 2022-23 was attributed to small businesses.",
+        "evidence_id": "E18",
+        "quote": "81% of the \u00a35.5 billion lost to tax evasion in 2022-23 was attributed to small businesses"
+      },
+      {
+        "tier": "projected",
+        "claim": "Politicians project \u00a35\u20136 billion annually from increased HMRC investment, but these figures are contested.",
+        "evidence_id": "E25",
+        "quote": "politicians, including Labour and Conservatives, are projecting significant revenue gains (e.g., \u00a35 billion and \u00a36 billion annually respectively by the end of the next Parliament) from increased investment in HMRC"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR regards revenue estimates from anti-avoidance measures as subject to high uncertainty and a potential fiscal risk.",
+        "evidence_id": "E16",
+        "quote": "The OBR views the increasing reliance on such uncertain revenue as a \"potential source of fiscal risk.\""
+      },
+      {
+        "tier": "projected",
+        "claim": "The PAC has expressed concern that HMRC may be underestimating the true scale of evasion and called for a clear strategy.",
+        "evidence_id": "E20",
+        "quote": "HMRC may be \"underestimating the true scale of evasion.\""
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Distributional incidence of additional HMRC enforcement \u2014 what share of recovered compliance revenue comes from higher-income/wealth taxpayers versus small businesses and ordinary error-makers",
+      "estimate_range": "If enforcement falls mainly on structured avoidance by wealthy individuals/large firms, the gap narrows (improves O14); if it falls mainly on small-business evasion and inadvertent error, the distributional effect is negligible or ambiguous \u2014 the evidence units do not resolve this split"
+    },
+    "rationale": "For this policy to improve O14, the enforcement uplift must fall disproportionately on those at the top of the income or wealth distribution, thereby compressing the gap. No evidence unit provided establishes this. The two strongest measurable facts cut against a clean 'improves' verdict: 45% of the tax gap is inadvertent error by ordinary taxpayers (E23), and 81% of the evasion component comes from small businesses rather than high-net-worth individuals or large-scale structured avoiders (E18). Enforcement concentrated in these areas has no clear inequality-narrowing effect and could even bear down on lower-wealth sole traders. The policy text commits only to resourcing HMRC to tackle avoidance and evasion broadly \u2014 it names no target population, no enforcement priority, and no distributional aim. The revenue projections are large but the OBR flags them as highly uncertain (E16), and the PAC notes HMRC may be underestimating the scale of evasion (E20) while lacking a specific evasion strategy (E28). There is no cited evidence in the provided units that the marginal enforcement activity would be skewed toward high-income groups rather than the small-business and error segments that dominate the gap. The distributional direction is therefore genuinely uncertain \u2014 not a lazy hedge, but a real absence of evidence on the deciding parameter.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.tax.org.uk/tax-gap-2025",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/an-introduction-to-the-uk-tax-gap/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.nao.org.uk/press-releases/small-businesses-evading-tax-leave-hmrc-billions-out-of-pocket/",
+        "publisher": "nao.org.uk",
+        "title": "nao.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.taxwatchuk.org/curiously-incurious-hmrcs-failures-on-tax-evasion/",
+        "publisher": "taxwatchuk.org",
+        "title": "taxwatchuk.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.tax.org.uk/tax-avoidance-tax-gap-explainer",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://obr.uk/docs/dlm_uploads/WP-No.11-Evaluation-of-HMRC-anti-avoidance-and-operational-measures.pdf",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://obr.uk/evaluation-of-hmrc-anti-avoidance-and-operational-measures/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/205235/55billion-lost-to-tax-evasion-could-be-significant-underestimate-pac-report-warns/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0975,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are supported by their quoted evidence. Tier assignments are correct. The too-uncertain direction is backed by a genuine crux parameter with a meaningful estimate range \u2014 the distributional incidence of enforcement is unresolved by the evidence units, making the hedge substantive rather than lazy. Magnitude and time_horizon are both n/a as required. No lever leakage \u2014 the verdict is judged on distributional effect, not on tax policy as an end in itself. No party identity or motive attribution in the rationale. No false balance issue \u2014 the mixed signals are real (small-business evasion dominance vs. potential high-income avoidance targeting) and the absence of distributional evidence genuinely prevents resolution. No concerns flagged."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Provide HMRC with the necessary resources to effectively tackle tax avoidance and evasion, aiming to end Conservative waste and ensure value for money for taxpayers.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "HMRC's compliance work generated \u00a348 billion in 2024-25, exceeding its target, with a target of \u00a350.4 billion for 2025-26.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/hmrc-performance-update-april-to-june-2025/hmrc-performance-update-april-to-june-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Office for Budget Responsibility (OBR) notes that governments have introduced over a hundred anti-avoidance and operational measures since 2010, with expected cumulative revenue around \u00a310 billion a year from 2017-18 to 2019-20.",
+        "sources": [
+          {
+            "url": "https://obr.uk/docs/dlm_uploads/WP-No.11-Evaluation-of-HMRC-anti-avoidance-and-operational-measures.pdf",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Historically, for every \u00a31 invested in HMRC compliance activities, the Treasury has received at least \u00a36.30 in return.",
+        "sources": [
+          {
+            "url": "https://www.fda.org.uk/wp-content/downloads/ARC_Funding_the_Nation_Optimising_HMRC_(2).pdf",
+            "publisher": "fda.org.uk",
+            "title": "fda.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "While the cash value of the tax gap has seen upward revisions, reaching an estimated \u00a346.8 billion in 2023-24 (5.3% of tax liabilities)",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/tax-gap-2025",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": ", it has generally trended downwards as a percentage of total theoretical tax liabilities, falling from 7.4% in 2005-06 to 4.8% in 2022-23.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/tax-avoidance-tax-gap-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The knowledge that routine inspections could take place, when they were commonplace, served as a significant deterrent.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/90826/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Fairer Playing Field:** By reducing tax evasion and avoidance, the policy aims to create a more level playing field for compliant businesses and individuals, preventing those who break the rules from gaining an unfair competitive advantage.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/small-businesses-evading-tax-leave-hmrc-billions-out-of-pocket/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "For example, legislation introduced in 2021 making online marketplaces liable for VAT from overseas sellers led to an additional \u00a31.5 billion in tax per year, five times higher than HMRC's initial prediction.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/small-businesses-evading-tax-leave-hmrc-billions-out-of-pocket/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/205235/55billion-lost-to-tax-evasion-could-be-significant-underestimate-pac-report-warns/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "There has also been a focus on tackling promoters of tax avoidance schemes through measures like \"stop notices\" and encouraging whistleblowers.",
+        "sources": [
+          {
+            "url": "https://lyelaccountants.co.uk/blog/what-hmrcs-tax-avoidance-crackdown-means-for-you/",
+            "publisher": "lyelaccountants.co.uk",
+            "title": "lyelaccountants.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "HMRC's costs of administering the tax system increased by 15% (\u00a3563 million) in real terms between 2019-20 and 2023-24.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/increasingly-complex-tax-system-burdens-government-and-business-with-billions-in-admin-costs/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/645/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **HMRC:** Annually publishes estimates of the tax gap, which was \u00a335 billion (5.3% of total tax liabilities) for 2019-20.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7948/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "For 2021-22, the tax gap was estimated at \u00a335.8 billion (4.8% of theoretical tax liabilities).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/an-introduction-to-the-uk-tax-gap/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.patrickcannon.net/insights/tax-evasion-statistics-uk/",
+            "publisher": "patrickcannon.net",
+            "title": "patrickcannon.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They distinguish between tax avoidance (legal but subverting the law's purpose) and tax evasion (illegal).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7948/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lyelaccountants.co.uk/blog/what-hmrcs-tax-avoidance-crackdown-means-for-you/",
+            "publisher": "lyelaccountants.co.uk",
+            "title": "lyelaccountants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.buzzacott.co.uk/insights/hmrc-tax-evasion",
+            "publisher": "buzzacott.co.uk",
+            "title": "buzzacott.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "HMRC reports that criminal investigations resulted in 132 positive charging decisions and 58 prosecutions between April and June 2025.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/hmrc-performance-update-april-to-june-2025/hmrc-performance-update-april-to-june-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Office for Budget Responsibility (OBR):** Highlights that estimates of tax revenue from anti-avoidance measures are subject to \"high levels of uncertainty\" due to behavioural responses and less reliable data.",
+        "sources": [
+          {
+            "url": "https://obr.uk/docs/dlm_uploads/WP-No.11-Evaluation-of-HMRC-anti-avoidance-and-operational-measures.pdf",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/evaluation-of-hmrc-anti-avoidance-and-operational-measures/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The OBR views the increasing reliance on such uncertain revenue as a \"potential source of fiscal risk.\"",
+        "sources": [
+          {
+            "url": "https://obr.uk/docs/dlm_uploads/WP-No.11-Evaluation-of-HMRC-anti-avoidance-and-operational-measures.pdf",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/evaluation-of-hmrc-anti-avoidance-and-operational-measures/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **National Audit Office (NAO):** A 2024 report by the NAO raised concerns about weaknesses in government systems that allow tax evasion to persist, particularly among small businesses.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/small-businesses-evading-tax-leave-hmrc-billions-out-of-pocket/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "It noted that 81% of the \u00a35.5 billion lost to tax evasion in 2022-23 was attributed to small businesses.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/small-businesses-evading-tax-leave-hmrc-billions-out-of-pocket/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.taxwatchuk.org/curiously-incurious-hmrcs-failures-on-tax-evasion/",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The NAO also highlighted over \u00a34.1 billion in fraud and error in the Research and Development (R&D) tax credits scheme from 2020-21 to 2023-24.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/aug/03/free-money-4bn-lost-to-and-error-on-flagship-hmrc-innovation-scheme",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Public Accounts Committee (PAC):** In February 2025, the PAC called for a clear strategy to tackle tax evasion, expressing concern that HMRC may be \"underestimating the true scale of evasion.\"",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/205235/55billion-lost-to-tax-evasion-could-be-significant-underestimate-pac-report-warns/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.taxwatchuk.org/curiously-incurious-hmrcs-failures-on-tax-evasion/",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They noted a significant decline in prosecutions for tax evasion, from 749 in 2018-19 to 344 in 2023-24.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/205235/55billion-lost-to-tax-evasion-could-be-significant-underestimate-pac-report-warns/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.taxwatchuk.org/curiously-incurious-hmrcs-failures-on-tax-evasion/",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The PAC also pointed out a lack of curiosity from HMRC in investigating the discrepancy in VAT collected from online marketplaces.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/205235/55billion-lost-to-tax-evasion-could-be-significant-underestimate-pac-report-warns/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.taxwatchuk.org/curiously-incurious-hmrcs-failures-on-tax-evasion/",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **House of Commons Library:** Provides comprehensive briefings on tax avoidance and evasion, outlining the different behaviours contributing to the tax gap, with inadvertent activities (error or carelessness) making up 45% of the tax gap, and evasion and avoidance together representing 17% in 2021-22.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/an-introduction-to-the-uk-tax-gap/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Chartered Institute of Taxation (CIOT):** Observes that while the tax gap as a percentage of total liability has fallen, the cash amount has risen, reaching a record high.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/tax-gap-2025",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They also note that politicians, including Labour and Conservatives, are projecting significant revenue gains (e.g., \u00a35 billion and \u00a36 billion annually respectively by the end of the next Parliament) from increased investment in HMRC.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/tax-avoidance-tax-gap-explainer",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **FDA (union for senior civil servants):** Suggests that a large-scale investment of \u00a3910 million into HMRC could return \u00a311.3 billion to the Treasury over the course of a parliament, significantly reducing the tax gap.",
+        "sources": [
+          {
+            "url": "https://www.fda.org.uk/wp-content/downloads/ARC_Funding_the_Nation_Optimising_HMRC_(2).pdf",
+            "publisher": "fda.org.uk",
+            "title": "fda.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Scale of the Problem:** While HMRC provides estimates of the tax gap, bodies like the Public Accounts Committee (PAC) and the National Audit Office (NAO) suggest that the true scale of tax evasion, particularly among small businesses and in areas like online marketplaces, may be significantly underestimated.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/small-businesses-evading-tax-leave-hmrc-billions-out-of-pocket/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/205235/55billion-lost-to-tax-evasion-could-be-significant-underestimate-pac-report-warns/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.taxwatchuk.org/curiously-incurious-hmrcs-failures-on-tax-evasion/",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Effectiveness of Strategy:** The NAO and PAC have criticised HMRC for not having a specific strategy for tackling tax evasion, instead relying on a broader compliance strategy.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/small-businesses-evading-tax-leave-hmrc-billions-out-of-pocket/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/205235/55billion-lost-to-tax-evasion-could-be-significant-underestimate-pac-report-warns/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.taxwatchuk.org/curiously-incurious-hmrcs-failures-on-tax-evasion/",
+            "publisher": "taxwatchuk.org",
+            "title": "taxwatchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Diminishing Returns:** While past investments in HMRC compliance have shown strong returns, the FDA acknowledges that it is \"not straightforward to predict future yield, as there may be diminishing returns,\" though they see no obvious reason for the overall return on investment to decrease.",
+        "sources": [
+          {
+            "url": "https://www.fda.org.uk/wp-content/downloads/ARC_Funding_the_Nation_Optimising_HMRC_(2).pdf",
+            "publisher": "fda.org.uk",
+            "title": "fda.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The OBR's warnings about the uncertainty of revenue from anti-avoidance measures also reflect this potential for varying effectiveness.",
+        "sources": [
+          {
+            "url": "https://obr.uk/docs/dlm_uploads/WP-No.11-Evaluation-of-HMRC-anti-avoidance-and-operational-measures.pdf",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/evaluation-of-hmrc-anti-avoidance-and-operational-measures/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Enforcement:** The NAO points out that the increasing complexity of the tax system itself contributes to administrative costs for both HMRC and taxpayers, and creates opportunities for avoidance and evasion.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/increasingly-complex-tax-system-burdens-government-and-business-with-billions-in-admin-costs/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/645/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

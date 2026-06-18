@@ -1,0 +1,995 @@
+{
+  "policy_id": "ld-38-guarantee-nhs-dentist-access-for-urgent",
+  "party": "Liberal Democrat",
+  "policy_title": "Guarantee NHS Dentist Access for Urgent Care",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "This policy would require significant new public spending on NHS dentistry, but states no funding source \u2014 meaning the cost would likely be borrowed or found from elsewhere. The true fiscal hit is uncertain because no costing is provided.",
+    "biggest_unknown": "Whether the policy is funded by new money, reallocation within the existing dental budget, or borrowing \u2014 none of which is specified in the policy text.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to free NHS dental check-ups for eligible groups and bringing dentists back from the private sector via contract reform and flexible commissioning.",
+        "evidence_id": "M",
+        "quote": "introducing an emergency scheme to guarantee access to free NHS dental check-ups for eligible groups (children, new mothers, pregnant individuals, low-income individuals)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "NHS England's real-terms contribution to dental services has already fallen by around 16% since 2014/15, with patient charges covering about 26% of total funding.",
+        "evidence_id": "E39",
+        "quote": "NHS England's contribution to dental services has fallen by approximately 16% in real terms since 2014/15"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The existing NHS dentistry budget is estimated at around \u00a34 billion.",
+        "evidence_id": "E44",
+        "quote": "the existing NHS dentistry budget (estimated at \u00a34 billion) to deliver more value by prioritizing urgent and complex care"
+      },
+      {
+        "tier": "projected",
+        "claim": "Independent analysts argue that restoring broad NHS dental access would cost billions of pounds per year beyond the current budget.",
+        "evidence_id": "E14",
+        "quote": "restoring universal access would cost \"billions each year,\" much of which would fund care currently provided privately"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Nuffield Trust and Oral Health Foundation conclude that current contract reforms are insufficient and that fundamental changes and significant new funding are needed.",
+        "evidence_id": "E43",
+        "quote": "current reforms are insufficient and that fundamental changes, significant new funding, or a scaling back of the comprehensive NHS offer are needed to address the deep-rooted crisis"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS highlights that the problem is not only how money is spent but the overall level of investment, pointing to a real-terms funding decline.",
+        "evidence_id": "E46",
+        "quote": "the IFS highlights a real-terms decline in dental funding, suggesting that the problem is not just how money is spent, but the overall investment"
+      }
+    ],
+    "rationale": "The policy commits to expanding free NHS dental care for several eligible groups and restoring dentist capacity diverted to the private sector \u2014 both of which imply material new expenditure. The existing dental budget (around \u00a34 billion) has already fallen 16% in real terms, and independent bodies including the Nuffield Trust estimate that even restoring broad access would cost 'billions each year' beyond current spending. The policy offers no stated funding mechanism \u2014 no new tax, no identified reallocation, no borrowing rule. Under O12's criteria, unfunded spending commitments worsen the debt path regardless of their social merit. The 'fix the contract' framing could theoretically deliver more within the existing envelope if it successfully reallocates spending toward urgent and complex care, but institutional analysts are sceptical that contract reform alone closes the gap. The magnitude is scored 'minor' rather than 'moderate' because (a) NHS dentistry is a relatively small budget line compared to total public spending, and (b) the policy may partly be achievable within the existing \u00a34 billion if contract reform redirects activity efficiently \u2014 though the weight of independent evidence doubts this. Confidence is low because the policy provides no costing, making fiscal impact genuinely hard to quantify; the 'worsens' direction is nonetheless the evidence-led lean given the funding gap identified by Nuffield Trust and IFS.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/major-boost-for-millions-of-nhs-dental-patients",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/bold-action-or-slow-decay-the-state-of-nhs-dentistry-and-future-policy-actions-nuffield-trust-19-december-2023-r10647/",
+        "publisher": "pslhub.org",
+        "title": "pslhub.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/nhs-dental-services-to-end-out-without-radical-action-warns-report/",
+        "publisher": "pulsetoday.co.uk",
+        "title": "pulsetoday.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.dentalhealth.org/news/nhs-dentistry-reforms-fall-short-of-long-term-solution",
+        "publisher": "dentalhealth.org",
+        "title": "dentalhealth.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://dentistry.co.uk/2024/05/14/health-budget-underspent-by-5-5-billion-says-report/",
+        "publisher": "dentistry.co.uk",
+        "title": "dentistry.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0595,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim 4 states 'restoring broad NHS dental access would cost billions of pounds per year' but E14 quote specifically refers to 'restoring universal access' \u2014 the policy is more targeted (urgent/emergency care + check-ups for eligible groups only), so applying a universal-access cost estimate overstates the implied fiscal burden. The direction (worsens) survives because no funding source is stated, but the magnitude rationale leans on a figure not directly applicable to the policy as scoped."
+        }
+      ],
+      "notes": "The verdict is broadly sound: the 'worsens / minor / low confidence' structure is appropriate given the absence of any stated funding mechanism and the documented real-terms decline in dental budgets. Tier discipline is maintained. The rationale correctly acknowledges the possibility of delivery within the existing \u00a34bn envelope and does not impute motive or party identity. The one concern is the application of Nuffield Trust's 'billions each year' estimate \u2014 derived from a universal-access scenario \u2014 to a more targeted policy; this warrants a warning but does not block, as the verdict's own text hedges appropriately and confidence is already set to low. No false balance, lever leakage, or magnitude inflation beyond the flagged warning."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Guarantee access to an NHS dentist for everyone needing urgent and emergency care, ending DIY dentistry and \u2018dental deserts\u2019 by: Bringing dentists back to the NHS from the private sector (fixing the broken NHS dental contract and using flexible commissioning), introducing an emergency scheme to guarantee access to free NHS dental check-ups for eligible groups (children, new mothers, pregnant individuals, low-income individuals), and guaranteeing appointments for all who need a dental check before commencing surgery, chemotherapy or transplant.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Credible analysts and data from organizations such as the House of Commons Library, Nuffield Trust, British Dental Association (BDA), Institute for Fiscal Studies (IFS), and Healthwatch paint a picture of an NHS dental service in \"near-terminal decline\"",
+        "sources": [
+          {
+            "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/bold-action-or-slow-decay-the-state-of-nhs-dentistry-and-future-policy-actions-nuffield-trust-19-december-2023-r10647/",
+            "publisher": "pslhub.org",
+            "title": "pslhub.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/nhs-dental-services-to-end-out-without-radical-action-warns-report/",
+            "publisher": "pulsetoday.co.uk",
+            "title": "pulsetoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": ", facing a \"crisis of access\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Current Situation:** NHS dentistry has seen a decline in both the number of dentists undertaking NHS work and the hours they dedicate to it",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/136093/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Many dentists have moved to the private sector due to issues with the current Units of Dental Activity (UDA) contract, which is criticized for prioritizing treatment volume over quality and not adequately covering costs for complex procedures",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/nhs-dental-services",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.theguardian.com/society/2025/dec/16/dentists-in-england-to-be-paid-more-for-emergency-nhs-appointments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This has led to \"dental deserts\" where access to NHS care is severely limited, forcing patients to attempt \"DIY dentistry\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/dec/16/dentists-in-england-to-be-paid-more-for-emergency-nhs-appointments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/patients-to-benefit-from-improved-access-to-dental-appointments",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "In October 2024, the Office for National Statistics (ONS) data showed that 96.9% of new patients attempting to access NHS dental care were unsuccessful",
+        "sources": [
+          {
+            "url": "https://www.bda.org/media-centre/dentists-97-of-new-patients-unable-to-access-nhs-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Policy's Aimed Effects:** The policy intends to reverse this trend by reforming the \"broken\" NHS dental contract",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/dentists-97-of-new-patients-unable-to-access-nhs-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Reforms introduced from April 2026 include a new Urgent Care safety net and changes to payment arrangements, with higher payments for complex and urgent treatments",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/nhs-dentistry-quality-payment-reforms-contractual-guidance/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/society/2025/dec/16/dentists-in-england-to-be-paid-more-for-emergency-nhs-appointments",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/major-boost-for-millions-of-nhs-dental-patients",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "All high street dental contractors will be required to allocate a proportion of their contract to urgent care needs",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/nhs-dentistry-quality-payment-reforms-contractual-guidance/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/government-expands-dental-access-support-urgent-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Analyst Views:**\n    *   **British Dental Association (BDA):** While acknowledging the government's recognition of the problem, the BDA views mandating a minimum level of urgent care (8.2% of contract value, equating to 11 courses of treatment per \u00a310,000 of contract value) as \"wrong in principle\"",
+        "sources": [
+          {
+            "url": "https://the-probe.co.uk/blog/2026/01/government-tie-hands-of-practices-on-urgent-care-says-bda/",
+            "publisher": "the-probe.co.uk",
+            "title": "the-probe.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/government-tie-hands-of-practices-on-urgent-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2026/01/23/nhs-dentists-required-to-deliver-minimum-level-of-urgent-care/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They argue that urgent care is demand-led, and practices could face financial penalties if local demand doesn't meet targets",
+        "sources": [
+          {
+            "url": "https://the-probe.co.uk/blog/2026/01/government-tie-hands-of-practices-on-urgent-care-says-bda/",
+            "publisher": "the-probe.co.uk",
+            "title": "the-probe.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/government-tie-hands-of-practices-on-urgent-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2026/01/23/nhs-dentists-required-to-deliver-minimum-level-of-urgent-care/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The BDA advocates for phasing out the UDA system entirely for a prevention-focused contract",
+        "sources": [
+          {
+            "url": "https://www.bda.org/representation/priorities/fair-pay-and-contracts/uda-contract-changes-information-and-advice/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Nuffield Trust:** A 2024 report concluded that \"universal dental care has likely gone for good\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "They argue that even with extensive contract reform and new staff, restoring universal access would cost \"billions each year,\" much of which would fund care currently provided privately",
+        "sources": [
+          {
+            "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/bold-action-or-slow-decay-the-state-of-nhs-dentistry-and-future-policy-actions-nuffield-trust-19-december-2023-r10647/",
+            "publisher": "pslhub.org",
+            "title": "pslhub.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/nhs-dental-services-to-end-out-without-radical-action-warns-report/",
+            "publisher": "pulsetoday.co.uk",
+            "title": "pulsetoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Oral Health Foundation:** Believes that while the contract changes may offer short-term relief, they \"do not go far enough to fix the bigger problems\" and warn that without long-term investment in prevention and public health, demand will continue to outstrip supply",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/nhs-dentistry-reforms-fall-short-of-long-term-solution",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** Analysis by IFS indicated a \u00a35.5 billion deficit in health spending compared to pledges over the last five years and noted underspends in local dental budgets not due to lack of demand but practices struggling to meet targets",
+        "sources": [
+          {
+            "url": "https://dentistry.co.uk/2024/05/14/health-budget-underspent-by-5-5-billion-says-report/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Current Situation:** Children, pregnant women, and individuals on certain benefits are already eligible for free NHS dental care",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/nhs-dental-services",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/sites/default/files/2024-01/Nuffield%20Trust%20-%20NHS%20dentistry%20policy%20briefing_WEB_Jan.pdf",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "In June 2025, only 39.8% of adults and 57.3% of children had seen an NHS dentist within the recommended intervals (two years for adults, one year for children)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "This is lower than pre-pandemic rates",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/nhs-dental-services",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Healthwatch reports that access to NHS dental care is a major public concern, leading to some people performing \"DIY dentistry\"",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/news/2026-02-17/our-position-nhs-dentistry",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Government announcements have included a pledge to deliver 700,000 extra urgent dental appointments, with nearly one million already commissioned by Integrated Care Boards (ICBs) in the first seven months of 2025-26",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/government-expands-dental-access-support-urgent-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/patients-to-benefit-from-improved-access-to-dental-appointments",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "There is also a supervised toothbrushing scheme for 3-5 year olds in areas of highest need, aimed at prevention",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://thenhsalliance.org/resources/nhs-dentistry-reform-a-welcome-signal-but-not-yet-the-reset-patients-need",
+            "publisher": "thenhsalliance.org",
+            "title": "thenhsalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/patients-to-benefit-from-improved-access-to-dental-appointments",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/major-boost-for-millions-of-nhs-dental-patients",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Analyst Views:**\n    *   **Healthwatch:** Advocates for \"fundamental reform\" to give people a right to register with an NHS dentist, similar to GPs, to ensure ongoing access to check-ups and urgent care",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/news/2026-02-17/our-position-nhs-dentistry",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They also call for transparency on the delivery of extra urgent appointments and greater promotion of NHS dental charge exemptions and the Low Income Scheme",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/news/2026-02-17/our-position-nhs-dentistry",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **House of Commons Library:** Highlights the unequal access across different regions, ethnic groups, and socioeconomic groups",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Data shows people in deprived rural areas struggle more to access NHS dental services",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/statistics/statistical-work-areas/patient-surveys/gp-patient-survey/gpps-dental-statistics/gp-patient-survey-dental-statistics-january-to-march-2025-england/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Infections can spread, healing can be impaired during cancer treatment, and bacteria from the mouth can cause infections in vulnerable patients (e.g., those with artificial heart valves or undergoing transplants)",
+        "sources": [
+          {
+            "url": "https://www.nhsinform.scot/waiting-well/support-your-health-and-wellbeing-while-you-wait/dental-care-when-youre-waiting-for-an-operation/",
+            "publisher": "nhsinform.scot",
+            "title": "nhsinform.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dental.ufl.edu/patient-care/patient-information/special-care-instructions-for-cancer-patients/information-for-bone-marrow-transplant-patients/",
+            "publisher": "dental.ufl.edu",
+            "title": "ufl.edu",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sps.nhs.uk/articles/how-should-adults-with-cancer-be-managed-by-general-dental-practitioners-if-they-need-dental-treatment/",
+            "publisher": "sps.nhs.uk",
+            "title": "sps.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/long-read/oral-healthcare-provision-for-cancer-pathways/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Dentists are advised to identify and eliminate potential sources of oral infection as early as possible before such treatments",
+        "sources": [
+          {
+            "url": "https://dental.ufl.edu/patient-care/patient-information/special-care-instructions-for-cancer-patients/information-for-bone-marrow-transplant-patients/",
+            "publisher": "dental.ufl.edu",
+            "title": "ufl.edu",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.nhs.wales/sa/managed-clinical-networks-for-special-care-dentistry/se-wales-pathways/oncology-care-pathway-2021/",
+            "publisher": "nhs.wales",
+            "title": "nhs.wales",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "This aligns with existing clinical guidance",
+        "sources": [
+          {
+            "url": "https://www.nhsinform.scot/waiting-well/support-your-health-and-wellbeing-while-you-wait/dental-care-when-youre-waiting-for-an-operation/",
+            "publisher": "nhsinform.scot",
+            "title": "nhsinform.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/long-read/oral-healthcare-provision-for-cancer-pathways/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Experts generally support robust pre-treatment oral health assessments to improve patient outcomes",
+        "sources": [
+          {
+            "url": "https://www.nhsinform.scot/waiting-well/support-your-health-and-wellbeing-while-you-wait/dental-care-when-youre-waiting-for-an-operation/",
+            "publisher": "nhsinform.scot",
+            "title": "nhsinform.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dental.ufl.edu/patient-care/patient-information/special-care-instructions-for-cancer-patients/information-for-bone-marrow-transplant-patients/",
+            "publisher": "dental.ufl.edu",
+            "title": "ufl.edu",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.sps.nhs.uk/articles/how-should-adults-with-cancer-be-managed-by-general-dental-practitioners-if-they-need-dental-treatment/",
+            "publisher": "sps.nhs.uk",
+            "title": "sps.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/long-read/oral-healthcare-provision-for-cancer-pathways/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nhs.wales/sa/managed-clinical-networks-for-special-care-dentistry/se-wales-pathways/oncology-care-pathway-2021/",
+            "publisher": "nhs.wales",
+            "title": "nhs.wales",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The challenge will be ensuring adequate capacity within the NHS dental system to deliver these specialized and timely appointments, given the existing access crisis",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/dentists-97-of-new-patients-unable-to-access-nhs-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Adult access:** 39.8% of adults had seen an NHS dentist in the last two years as of June 2025, down from 49.4% in September 2019",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/nhs-dental-services",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Child access:** 57.3% of children had seen an NHS dentist in the last two years as of June 2025, close to the pre-pandemic rate of 59.7% in September 2019",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Courses of Treatment:** 34.1 million courses of dental treatment were performed in England in 2023/24, approximately 12% lower than the 38.8 million in 2019/20 (pre-pandemic)",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Unsuccessful access:** 96.9% of new patients trying to access NHS dental care were unsuccessful in 2024",
+        "sources": [
+          {
+            "url": "https://www.bda.org/media-centre/dentists-97-of-new-patients-unable-to-access-nhs-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Urgent Care Mandate:** High street dental contractors are required to provide 8.2% of their contract value in urgent care, equivalent to 11 courses of treatment per \u00a310,000 of contract value",
+        "sources": [
+          {
+            "url": "https://the-probe.co.uk/blog/2026/01/government-tie-hands-of-practices-on-urgent-care-says-bda/",
+            "publisher": "the-probe.co.uk",
+            "title": "the-probe.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/government-tie-hands-of-practices-on-urgent-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2026/01/23/nhs-dentists-required-to-deliver-minimum-level-of-urgent-care/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "Payments for these urgent courses of treatment will be \u00a315 fixed and \u00a360 activity payment, totaling \u00a375",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/nhs-dentistry-quality-payment-reforms-contractual-guidance/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://the-probe.co.uk/blog/2026/01/government-tie-hands-of-practices-on-urgent-care-says-bda/",
+            "publisher": "the-probe.co.uk",
+            "title": "the-probe.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/government-tie-hands-of-practices-on-urgent-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Extra appointments:** NHS England commissioned nearly one million extra urgent dental appointments in the first seven months of 2025-26, following a pledge for 700,000",
+        "sources": [
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/government-expands-dental-access-support-urgent-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/patients-to-benefit-from-improved-access-to-dental-appointments",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Real-terms funding reduction:** NHS England's contribution to dental services has fallen by approximately 16% in real terms since 2014/15",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Patient charges contributed around 26% of total funding in 2024/25",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Contract Reform Effectiveness:** The government presents its contract reforms as a \"significant modernisation\"",
+        "sources": [
+          {
+            "url": "https://thenhsalliance.org/resources/nhs-dentistry-reform-a-welcome-signal-but-not-yet-the-reset-patients-need",
+            "publisher": "thenhsalliance.org",
+            "title": "thenhsalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/major-boost-for-millions-of-nhs-dental-patients",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "However, the BDA believes the mandated urgent care targets are \"wrong in principle\" and could penalize practices if demand isn't consistently high",
+        "sources": [
+          {
+            "url": "https://the-probe.co.uk/blog/2026/01/government-tie-hands-of-practices-on-urgent-care-says-bda/",
+            "publisher": "the-probe.co.uk",
+            "title": "the-probe.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/government-tie-hands-of-practices-on-urgent-care/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2026/01/23/nhs-dentists-required-to-deliver-minimum-level-of-urgent-care/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "The Nuffield Trust and Oral Health Foundation suggest that current reforms are insufficient and that fundamental changes, significant new funding, or a scaling back of the comprehensive NHS offer are needed to address the deep-rooted crisis",
+        "sources": [
+          {
+            "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/bold-action-or-slow-decay-the-state-of-nhs-dentistry-and-future-policy-actions-nuffield-trust-19-december-2023-r10647/",
+            "publisher": "pslhub.org",
+            "title": "pslhub.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/nhs-dentistry-reforms-fall-short-of-long-term-solution",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/nhs-dental-services-to-end-out-without-radical-action-warns-report/",
+            "publisher": "pulsetoday.co.uk",
+            "title": "pulsetoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "Efficiency:** While the government aims for the existing NHS dentistry budget (estimated at \u00a34 billion) to deliver more value by prioritizing urgent and complex care",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/major-boost-for-millions-of-nhs-dental-patients",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": ", organizations like the Nuffield Trust argue that restoring universal access would require \"billions each year\" in additional funding",
+        "sources": [
+          {
+            "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/bold-action-or-slow-decay-the-state-of-nhs-dentistry-and-future-policy-actions-nuffield-trust-19-december-2023-r10647/",
+            "publisher": "pslhub.org",
+            "title": "pslhub.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/nhs-dental-services-to-end-out-without-radical-action-warns-report/",
+            "publisher": "pulsetoday.co.uk",
+            "title": "pulsetoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "The IFS highlights a real-terms decline in dental funding, suggesting that the problem is not just how money is spent, but the overall investment",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://dentistry.co.uk/2024/05/14/health-budget-underspent-by-5-5-billion-says-report/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E47",
+        "snippet": "*   **Scope of NHS Dentistry:** The Nuffield Trust explicitly questions whether the aspiration for a \"comprehensive and universal service\" is still viable, suggesting that a minimum core service for those most in need might be a more realistic goal given funding constraints",
+        "sources": [
+          {
+            "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/bold-action-or-slow-decay-the-state-of-nhs-dentistry-and-future-policy-actions-nuffield-trust-19-december-2023-r10647/",
+            "publisher": "pslhub.org",
+            "title": "pslhub.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pulsetoday.co.uk/news/clinical-areas/mental-health-pain-and-addiction/nhs-dental-services-to-end-out-without-radical-action-warns-report/",
+            "publisher": "pulsetoday.co.uk",
+            "title": "pulsetoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E48",
+        "snippet": "Other bodies, like Healthwatch, continue to advocate for a fundamental right to register with an NHS dentist, implying a desire for a more comprehensive universal service",
+        "sources": [
+          {
+            "url": "https://www.healthwatch.co.uk/news/2026-02-17/our-position-nhs-dentistry",
+            "publisher": "healthwatch.co.uk",
+            "title": "healthwatch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

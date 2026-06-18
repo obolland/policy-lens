@@ -1,0 +1,677 @@
+{
+  "policy_id": "grn-50-advocate-for-a-permanent-ceasefire-and",
+  "party": "Green",
+  "policy_title": "Advocate for a permanent ceasefire and political solution in Israel and Palestine",
+  "outcome": "O15",
+  "verdict": {
+    "outcome": "O15",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy concerns UK foreign policy advocacy on the Israel-Palestine conflict; none of the provided evidence links it to measurable changes in UK social trust, civic participation, inter-group relations, or hate crime. Without a cited domestic mechanism, no material effect on community cohesion can be established.",
+    "biggest_unknown": "Whether shifts in UK foreign policy on this conflict materially reduce domestic community tensions or hate crime \u2014 no evidence provided addresses this.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to pushing for a ceasefire, a durable political solution, Palestine recognition, and an end to UK arms exports to Israel.",
+        "evidence_id": "M",
+        "quote": "Push for an immediate and permanent bilateral ceasefire, return of hostages, a durable political solution ensuring security and equal rights for Israelis and Palestinians, recognition of the state of Palestine, and an end to illegal occupation. Investigate and prosecute war crimes and end UK arms exports to Israel."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Both Conservative and Labour governments have already called for ceasefires and a two-state solution, indicating this policy does not represent a novel departure from existing UK diplomatic positions.",
+        "evidence_id": "E1",
+        "quote": "Both Conservative and Labour governments have called for ceasefires and a two-state solution"
+      }
+    ],
+    "rationale": "O15 concerns domestic UK community cohesion \u2014 social trust, civic participation, inter-group relations, hate crime, and loneliness. This policy is a foreign-policy advocacy position: it calls on the UK government to push for a ceasefire, recognise Palestine, and end arms exports. The provided evidence covers the diplomatic landscape, arms export figures, humanitarian aid, and geopolitical analysis. None of the evidence units address how this stance would affect social trust surveys, segregation indices, civic participation, or hate-crime rates within the UK. The policy's verbs are explicitly aspirational ('push for', 'advocate') and there is no committed domestic instrument \u2014 no statutory duty, no funded programme, no quantified target \u2014 that would plausibly move an O15 indicator at population scale in the UK. The soft-verb/no-deliverable rule therefore applies: direction defaults to negligible absent a cited mechanism. A theoretical pathway exists \u2014 that a more decisive UK stance could reduce community tensions between British Muslim and Jewish communities \u2014 but no evidence unit addresses this claim, so it cannot be asserted as fact. The one potentially relevant domestic angle (hate crime or inter-group tensions) is entirely absent from the evidence provided. Accordingly, the verdict is negligible: the policy may have symbolic or diplomatic significance, but its marginal effect on UK community cohesion cannot be established from the provided evidence.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9874/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/United_Kingdom_and_the_Gaza_war",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0362,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-reasoned and internally consistent. Direction 'negligible' with magnitude 'minor' and time_horizon 'n/a' is a schema anomaly \u2014 the hard rule states that if direction is 'too-uncertain', both magnitude and time_horizon must be 'n/a', and 'n/a' must not appear otherwise. However, direction here is 'negligible' (not 'too-uncertain'), so 'n/a' on time_horizon is technically a rule violation worth flagging. That said, for a foreign-policy advocacy verdict with no domestic delivery mechanism, 'n/a' on time_horizon is substantively defensible (there is no timeline to assess), and magnitude 'minor' is consistent with the plain-English explanation. This is a warning rather than blocking. The two claims are accurately tiered and well-supported by their quotes. The rationale correctly avoids party-blind issues and lever leakage. The theoretical domestic pathway (inter-community tensions) is acknowledged but explicitly not asserted due to lack of evidence \u2014 correct practice."
+    },
+    "gate": {
+      "kept": 2,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Push for an immediate and permanent bilateral ceasefire, return of hostages, a durable political solution ensuring security and equal rights for Israelis and Palestinians, recognition of the state of Palestine, and an end to illegal occupation. Investigate and prosecute war crimes and end UK arms exports to Israel.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Both Conservative and Labour governments have called for ceasefires and a two-state solution",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9874/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/United_Kingdom_and_the_Gaza_war",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The return of hostages is a consistent demand in UK government statements on a ceasefire",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10085/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9874/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/foreign-secretary-statement-on-the-middle-east-9-june-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "However, despite a formal ceasefire being in place as of June 2026, it is reportedly being regularly violated, with continued Palestinian casualties, displacement of 1.9 million people, and significant damage to water and sanitation infrastructure in Gaza",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/speeches/foreign-secretary-statement-on-the-middle-east-9-june-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Analyst Commentary:** The House of Commons Library frequently publishes briefings on the UK's response to the conflict, highlighting the UK's diplomatic efforts at the UN Security Council, including voting in favour of resolutions for ceasefires and hostage releases",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10085/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9874/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Chatham House stresses that the international policy on the Israeli-Palestinian conflict has largely failed and that addressing the root causes is crucial for a resolution",
+        "sources": [
+          {
+            "url": "https://www.chathamhouse.org/regions/middle-east-and-north-africa/israel-and-palestine",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYLkZBf8Ma6ZuJRWHnSlixW1K72mVRd-mi8E1CX0qaSIEmIc3AD88SOo3wT_akqYHTRd0PQ8nRxAobiiGbRswtcOj4ejX6vxonX0W6Hk0f7nvNbL6sR5Bkw84FV4aN9_lG_rATsY4XaZTvWmwGbKtZZYixigDp-tw-6Urc8KDgISO_RlBqOtf1zClrhRHfeNicrYAtQk2_MxMcoolAbtlJiEaRHQUtw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The UK government stated this action aimed to support a two-state solution and build international pressure",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10235/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10323/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.chathamhouse.org/2025/07/uk-should-recognize-palestinian-state-now",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Palestine%E2%80%93United_Kingdom_relations",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmfaff/1374/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "However, Israel and the United States have opposed such recognition, arguing it \"rewards terror\" and could discourage Hamas from participating in ceasefire talks",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10235/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.chathamhouse.org/2025/07/uk-should-recognize-palestinian-state-now",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "They caution that while it makes a clear message, it alone does not bring a state into existence and faces significant obstacles on the ground, such as the ongoing conflict and Israeli settlement building, particularly given the lack of practical institutions and governance structures for a viable state",
+        "sources": [
+          {
+            "url": "https://www.chathamhouse.org/2025/07/uk-should-recognize-palestinian-state-now",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.chathamhouse.org/events/all/open-event/palestine-now-recognised-uk-what-happens-next",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The House of Commons had previously voted in favour of recognising Palestine in 2014, though this was not binding on the government at the time",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0039/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ejiltalk.org/the-uk-house-of-commons-calls-for-palestine-to-be-recognised-as-a-state/",
+            "publisher": "ejiltalk.org",
+            "title": "ejiltalk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Real-world Effects:** The UK government considers Israel's control over Gaza, the West Bank, and East Jerusalem to \"amount to occupation under international law\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10235/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This stance aligns with UN Security Council resolutions and findings by the International Court of Justice (ICJ)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10235/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.un.org/unispal/document/general-assembly-resolution-12dec25/",
+            "publisher": "un.org",
+            "title": "un.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The ICJ has found that Israel, as an occupying Power, is required to fulfil its obligations under international humanitarian law, including ensuring essential supplies for the population",
+        "sources": [
+          {
+            "url": "https://www.un.org/unispal/document/general-assembly-resolution-12dec25/",
+            "publisher": "un.org",
+            "title": "un.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Chatham House emphasizes that economic improvement alone cannot replace the Palestinian desire for an end to occupation and recognition of their rights",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYLkZBf8Ma6ZuJRWHnSlixW1K72mVRd-mi8E1CX0qaSIEmIc3AD88SOo3wT_akqYHTRd0PQ8nRxAobiiGbRswtcOj4ejX6vxonX0W6Hk0f7nvNbL6sR5Bkw84FV4aN9_lG_rATsY4XaZTvWmwGbKtZZYixigDp-tw-6Urc8KDgISO_RlBqOtf1zClrhRHfeNicrYAtQk2_MxMcoolAbtlJiEaRHQUtw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The House of Commons Library notes ongoing activity at the International Criminal Court (ICC) and International Court of Justice (ICJ) concerning the conflict",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10085/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "He also indicated that he would order Netanyahu's arrest if he entered the UK after an ICC warrant was issued",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/United_Kingdom_and_the_Gaza_war",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Some UK MPs have accused the British government of complicity in alleged Israeli war crimes and have called for accountability",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tf6tLmxb5zs",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aa.com.tr/en/europe/british-lawmaker-highlights-uk-s-complicity-in-israeli-war-crimes/3430398",
+            "publisher": "aa.com.tr",
+            "title": "aa.com.tr",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mpwarcrimes.co.uk/",
+            "publisher": "mpwarcrimes.co.uk",
+            "title": "mpwarcrimes.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The MP-IDSA suggests that steps taken by countries like the UK to restrict arms exports may not significantly impact the IDF's operational objectives as long as it has the backing of major suppliers like the US",
+        "sources": [
+          {
+            "url": "https://idsa.in/publisher/issuebrief/the-uks-arms-export-restrictions-on-israel-in-perspective",
+            "publisher": "idsa.in",
+            "title": "idsa.in",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "UK exports of military goods to Israel have historically been low, amounting to \u00a342 million in 2022 and \u00a318 million in 2023, representing less than 1% of Israel's defence imports",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9964/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "However, there was a significant increase in approved single-issue licences for military equipment to Israel between October and December 2024, totalling \u00a3127.6 million, exceeding the combined value from 2020-2023",
+        "sources": [
+          {
+            "url": "https://caat.org.uk/news/new-figures-reveal-massive-increase-in-uk-arms-exports-to-israel-as-government-defends-f-35-exemption-in-court/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "These exports primarily included military radars, components, software, and targeting equipment",
+        "sources": [
+          {
+            "url": "https://caat.org.uk/news/new-figures-reveal-massive-increase-in-uk-arms-exports-to-israel-as-government-defends-f-35-exemption-in-court/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "In September 2024, the UK announced the suspension of approximately 30 out of 350 arms export licences to Israel, citing a \"clear risk\" that certain exports \"might be used to commit or facilitate a serious violation of international humanitarian law\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9964/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://idsa.in/publisher/issuebrief/the-uks-arms-export-restrictions-on-israel-in-perspective",
+            "publisher": "idsa.in",
+            "title": "idsa.in",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "A notable exemption from this suspension is the supply of components for the F-35 combat aircraft programme, which UK industry contributes about 15% to, with contracts estimated to be worth at least \u00a3500 million since 2016",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9964/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://caat.org.uk/news/new-figures-reveal-massive-increase-in-uk-arms-exports-to-israel-as-government-defends-f-35-exemption-in-court/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://idsa.in/publisher/issuebrief/the-uks-arms-export-restrictions-on-israel-in-perspective",
+            "publisher": "idsa.in",
+            "title": "idsa.in",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sipri.org/commentary/topical-backgrounder/2025/how-top-arms-exporters-have-responded-war-gaza-2025-update",
+            "publisher": "sipri.org",
+            "title": "sipri.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.globaljustice.org.uk/blog/2024/11/the-uk-must-stop-fuelling-israels-war-on-gaza/",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://static1.squarespace.com/static/664aed65d320123f2b3ab647/t/681b13a2197d634a11d746c0/1746604963269/REPORT-ExposingUKArmsExportsToIsrael-05072025.pdf",
+            "publisher": "static1.squarespace.com",
+            "title": "squarespace.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.declassifieduk.org/uk-arms-trade-a-trifecta-of-everything-thats-wrong/",
+            "publisher": "declassifieduk.org",
+            "title": "declassifieduk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The government has argued that suspending F-35 components would have minimal impact on Israeli operations but could gravely affect international peace and security due to the global supply chain",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9964/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://caat.org.uk/news/new-figures-reveal-massive-increase-in-uk-arms-exports-to-israel-as-government-defends-f-35-exemption-in-court/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Despite the partial suspension, reports suggest that shipments of military goods and aircraft parts from the UK to Israel have continued, with over 8,000 separate munitions reportedly sent since the September 2024 suspensions",
+        "sources": [
+          {
+            "url": "https://static1.squarespace.com/static/664aed65d320123f2b3ab647/t/681b13a2197d634a11d746c0/1746604963269/REPORT-ExposingUKArmsExportsToIsrael-05072025.pdf",
+            "publisher": "static1.squarespace.com",
+            "title": "squarespace.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Analyst Commentary and Disagreement:**\n    *   **House of Commons Library:** Provides figures on arms export values and the details of suspensions and exemptions",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9964/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0223/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://caat.org.uk/news/new-figures-reveal-massive-increase-in-uk-arms-exports-to-israel-as-government-defends-f-35-exemption-in-court/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Campaign Against Arms Trade (CAAT) / Global Justice Now:** These groups, and some MPs, argue that the F-35 exemption is a \"massive loophole\" and that the UK government is complicit in alleged war crimes by continuing arms sales",
+        "sources": [
+          {
+            "url": "https://caat.org.uk/news/new-figures-reveal-massive-increase-in-uk-arms-exports-to-israel-as-government-defends-f-35-exemption-in-court/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.globaljustice.org.uk/blog/2024/11/the-uk-must-stop-fuelling-israels-war-on-gaza/",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aa.com.tr/en/europe/british-lawmaker-highlights-uk-s-complicity-in-israeli-war-crimes/3430398",
+            "publisher": "aa.com.tr",
+            "title": "aa.com.tr",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They call for a full arms embargo",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0223/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://caat.org.uk/news/new-figures-reveal-massive-increase-in-uk-arms-exports-to-israel-as-government-defends-f-35-exemption-in-court/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.globaljustice.org.uk/blog/2024/11/the-uk-must-stop-fuelling-israels-war-on-gaza/",
+            "publisher": "globaljustice.org.uk",
+            "title": "globaljustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **SIPRI (Stockholm International Peace Research Institute):** Reports that the UK has not exported major arms to Israel since the 1970s but does supply components for systems like aircraft and radars, including F-35 components",
+        "sources": [
+          {
+            "url": "https://www.sipri.org/commentary/topical-backgrounder/2025/how-top-arms-exporters-have-responded-war-gaza-2025-update",
+            "publisher": "sipri.org",
+            "title": "sipri.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **MP-IDSA:** Notes that the UK's partial restrictions on arms exports are unlikely to significantly impact the IDF's operational plans given the substantial support Israel receives from the US",
+        "sources": [
+          {
+            "url": "https://idsa.in/publisher/issuebrief/the-uks-arms-export-restrictions-on-israel-in-perspective",
+            "publisher": "idsa.in",
+            "title": "idsa.in",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Legal Challenges:** The High Court dismissed a legal challenge against the government's decision to exclude F-35 parts from the suspension, ruling it a matter for the executive, not the courts",
+        "sources": [
+          {
+            "url": "https://www.sipri.org/commentary/topical-backgrounder/2025/how-top-arms-exporters-have-responded-war-gaza-2025-update",
+            "publisher": "sipri.org",
+            "title": "sipri.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "They highlight that the war in the Middle East poses downside risks to the UK economy, with potential for sustained rises in oil and gas prices leading to increased inflation (around one percentage point) and higher typical annual energy bills (around \u00a3500), disproportionately affecting lower-income households",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/war-in-middle-east-threatens-bumper-year-of-living-standards-growth-for-lower-income-families/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/unsung-britain-bears-the-brunt/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "In a worst-case scenario due to global tariffs stemming from the Middle East conflict, the hit to UK GDP could peak at 1% in 2026-27 and settle at 0.75% in the medium term",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/comment/unsung-britain-bears-the-brunt/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "A further \u00a375 million is committed for 2025\u201326 for humanitarian relief in Gaza, the West Bank, and to Palestinian refugees",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/United_Kingdom_and_the_Gaza_war",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmfaff/1374/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "This aid includes supporting healthcare, food, shelter, and mine clearance efforts, with over \u00a380 million provided in humanitarian and early recovery funding last year, enabling 650,000 people to receive food and improving access to water, sanitation, and hygiene for 300,000 people",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/speeches/foreign-secretary-statement-on-the-middle-east-9-june-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmintdev/797/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

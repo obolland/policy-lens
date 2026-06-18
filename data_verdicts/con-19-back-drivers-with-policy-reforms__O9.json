@@ -1,0 +1,437 @@
+{
+  "policy_id": "con-19-back-drivers-with-policy-reforms",
+  "party": "Conservative",
+  "policy_title": "Back Drivers with Policy Reforms",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Requiring local referendums before new 20mph zones and Low Traffic Neighbourhoods are introduced gives communities a formal democratic say they currently lack. The effect is real but narrow, and the Bill's unspecified design details could determine whether referendums genuinely empower communities or simply block schemes.",
+    "biggest_unknown": "Whether referendum thresholds and challenge mechanisms would be designed in ways that meaningfully empower communities or effectively veto schemes regardless of majority preference.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy requires local referendums for new 20mph zones and Low Traffic Neighbourhoods.",
+        "evidence_id": "M",
+        "quote": "require local referendums for new 20mph zones and Low Traffic Neighbourhoods"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A government survey found only 18% of people felt listened to on LTNs, indicating a baseline democratic deficit in how these schemes are currently introduced.",
+        "evidence_id": "E15",
+        "quote": "only 18% of people surveyed felt listened to on LTNs"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Even among Conservative councillors, 44.2% supported LTNs, indicating genuine divergence of views within communities.",
+        "evidence_id": "E20",
+        "quote": "44.2% were still in favour, indicating a divergence in views even within political parties"
+      }
+    ],
+    "rationale": "The clearest O9-relevant element of this policy is the referendum requirement for new 20mph zones and LTNs. This directly addresses a measurable democratic deficit: only 18% of people surveyed felt heard on LTN decisions under the current process. Mandating a public vote is a concrete, statutory mechanism \u2014 not a soft aspiration \u2014 that materially strengthens voting and democratic rights at the local level. This earns a genuine 'improves' signal on O9's democratic rights indicator.\n\nThe magnitude is minor rather than moderate. The policy applies to new schemes and the scope is limited to road-scheme referendums, a narrow slice of democratic participation overall. The divergence in views even among councillors (44.2% of Conservative councillors supported LTNs) suggests the referendum mechanism would reflect genuine community disagreement rather than a predetermined outcome.\n\nThe ULEZ reversal has a weak O9 connection. Any equity argument about disproportionate health impacts on deprived communities sits primarily within O6 (environment) and O3 (health), not within O9's core indicators of anti-discrimination law, voting rights, or due process. It does not drive this verdict.\n\nConfidence is low because the Bill's precise referendum design \u2014 thresholds, who can trigger a challenge, what majority is required \u2014 is unspecified in the evidence. These details would determine whether referendums genuinely empower communities or function as a blocking instrument. The direction leans improves on the evidence provided, but the magnitude and ultimate effect remain uncertain pending legislative detail.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/crackdown-on-anti-driver-road-schemes-and-blanket-20mph-limits-to-put-local-consent-first",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.newstatesman.com/politics/polling/2023/11/ulez-ltns-20mph-zones-exclusive-polling-councillors",
+        "publisher": "newstatesman.com",
+        "title": "newstatesman.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0917,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Claims are well-supported by their cited evidence. The stated claim from M is verbatim. E15 supports the democratic deficit claim accurately. E20 is used carefully \u2014 the quote is accurate and the claim correctly notes divergence without overstating. Tier integrity holds: no projections labelled as measurable. The direction 'improves' on O9's democratic rights indicator is earned by the referendum mechanism claim, and the rationale explicitly rings-fences ULEZ from the O9 verdict. No lever leakage, no party-blind issues, no motive attribution. The low confidence and 'minor' magnitude are appropriately cautious given unspecified legislative detail. No false balance issue \u2014 direction is 'improves' not 'mixed', and the evidence supports that lean."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will introduce a 'Backing Drivers Bill' to stop road pricing, reverse the London Mayor's ULEZ expansion, and require local referendums for new 20mph zones and Low Traffic Neighbourhoods.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Proposed Policy:** The Conservative Party explicitly states its opposition to \"pay-per-mile\" road pricing schemes, preventing local councils and Mayors from introducing them and ruling them out nationally.",
+        "sources": [
+          {
+            "url": "https://www.carwow.co.uk/news/7751/conservative-2024-election-manifesto-drivers",
+            "publisher": "carwow.co.uk",
+            "title": "carwow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rac.co.uk/drive/news/motoring-news/what-do-the-conservative-labour-and-lid-dem-manifestos-mean-for-drivers/",
+            "publisher": "rac.co.uk",
+            "title": "rac.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.charliedavis.uk/news/charlie-davis-welcomes-conservatives-clear-plan-and-bold-action-end-labours-war-motorists",
+            "publisher": "charliedavis.uk",
+            "title": "charliedavis.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gbnews.com/lifestyle/cars/rishi-sunak-driving-law-changes-conservative-manifesto",
+            "publisher": "gbnews.com",
+            "title": "gbnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "They argue that a replacement for fuel duty is \"necessary and inevitable\" and have proposed a national per-mile Road Duty system.",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Where-rubber-hits-the-road.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/where-the-rubber-hits-the-road/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The RAC also notes that declining fuel duty revenue requires a replacement form of taxation to prevent local roads from deteriorating further.",
+        "sources": [
+          {
+            "url": "https://www.rac.co.uk/drive/news/motoring-news/what-do-the-conservative-labour-and-lid-dem-manifestos-mean-for-drivers/",
+            "publisher": "rac.co.uk",
+            "title": "rac.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The House of Commons Library has also noted a renewed interest in road pricing in policy circles due to the decarbonisation of road transport and its implications for tax revenue.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN03732/SN03732.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "**Proposed Policy:** The 'Backing Drivers Bill' aims to reverse the London Mayor's ULEZ expansion, with the Conservative Party claiming the expansion has only a \"moderate\" or \"minor\" effect on pollution and unfairly impacts thousands of people living around London.",
+        "sources": [
+          {
+            "url": "https://www.carwow.co.uk/news/7751/conservative-2024-election-manifesto-drivers",
+            "publisher": "carwow.co.uk",
+            "title": "carwow.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "5 exhaust emissions were 31% lower in 2024 than they would have been without the expansion.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2025/mar/07/london-air-pollution-down-since-ulez-expansion-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/environment-and-climate-change-publications/london-wide-ultra-low-emission-zone-one-year-report",
+            "publisher": "london.gov.uk",
+            "title": "london.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.adph.org.uk/networks/london/2025/03/07/london-wide-ultra-low-emission-zone-ulez-one-year-report/",
+            "publisher": "adph.org.uk",
+            "title": "adph.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The proportion of ULEZ-compliant vehicles in outer London increased to 96.7% by September 2024, up from 90.9% in June 2023, with nearly 100,000 fewer non-compliant vehicles detected daily.",
+        "sources": [
+          {
+            "url": "https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/environment-and-climate-change-publications/london-wide-ultra-low-emission-zone-one-year-report",
+            "publisher": "london.gov.uk",
+            "title": "london.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.adph.org.uk/networks/london/2025/03/07/london-wide-ultra-low-emission-zone-ulez-one-year-report/",
+            "publisher": "adph.org.uk",
+            "title": "adph.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   DEFRA data from October 2025 indicated that London's NO2 levels are now within legal limits, unlike several other major UK cities.",
+        "sources": [
+          {
+            "url": "https://cyclingindustry.news/official-stats-show-ulez-is-clearing-up-air-for-londoners/",
+            "publisher": "cyclingindustry.news",
+            "title": "cyclingindustry.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Skepticism/Disagreement:** An Imperial College London study in November 2021 suggested the ULEZ caused smaller reductions in air pollution than initially reported, arguing that ULEZ alone might not be the most effective strategy and noting a pre-existing downward trend in pollution levels.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Ultra_Low_Emission_Zone",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Public Health:**\n    *   A June 2026 study by Imperial College London researchers found that the central London ULEZ and the preceding T-charge were linked to significant health benefits, including an 8.1% reduction in yearly trends for cardiovascular disease admissions, 6.2% for respiratory disease, and 3.1% for all-cause hospital admissions in the intervention area.",
+        "sources": [
+          {
+            "url": "https://www.imperial.ac.uk/news/articles/2026/londons-ulez-and-t-charge-linked-to-reductions-in-emergency-hospital-admissions/",
+            "publisher": "imperial.ac.uk",
+            "title": "imperial.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2026/jun/12/emergency-hospital-admissions-reduced-london-t-charge-ulez-air-quality",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The GLA also highlights that around 4,000 premature deaths annually in London are linked to poor air quality, with a disproportionate number in outer London.",
+        "sources": [
+          {
+            "url": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/questions-mayor/find-an-answer/impact-ulez-expansion-and-road-charging",
+            "publisher": "london.gov.uk",
+            "title": "london.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.adph.org.uk/networks/london/2025/03/07/london-wide-ultra-low-emission-zone-ulez-one-year-report/",
+            "publisher": "adph.org.uk",
+            "title": "adph.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Socio-economic Impact:**\n    *   The Mayor of London's office stated that for the most deprived communities near London's busiest roads, there was an estimated 80% reduction in people exposed to illegal levels of pollution in 2023 due to ULEZ.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2025/mar/07/london-air-pollution-down-since-ulez-expansion-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.adph.org.uk/networks/london/2025/03/07/london-wide-ultra-low-emission-zone-ulez-one-year-report/",
+            "publisher": "adph.org.uk",
+            "title": "adph.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "5 exposure for some users.",
+        "sources": [
+          {
+            "url": "https://iea.org.uk/an-overlooked-side-effect-of-ulez/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Proposed Policy:** The Conservative Party plans to require local referendums for new 20mph zones and Low Traffic Neighbourhoods (LTNs), along with a \"right to challenge\" existing schemes, aiming to ensure such measures have local support.",
+        "sources": [
+          {
+            "url": "https://www.carwow.co.uk/news/7751/conservative-2024-election-manifesto-drivers",
+            "publisher": "carwow.co.uk",
+            "title": "carwow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.novunavehiclesolutions.co.uk/news-and-insights/funding-and-finance/the-party-manifestos-how-they-impact-fleet-operators-and-drivers/",
+            "publisher": "novunavehiclesolutions.co.uk",
+            "title": "novunavehiclesolutions.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.charliedavis.uk/news/charlie-davis-welcomes-conservatives-clear-plan-and-bold-action-end-labours-war-motorists",
+            "publisher": "charliedavis.uk",
+            "title": "charliedavis.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/crackdown-on-anti-driver-road-schemes-and-blanket-20mph-limits-to-put-local-consent-first",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gbnews.com/lifestyle/cars/rishi-sunak-driving-law-changes-conservative-manifesto",
+            "publisher": "gbnews.com",
+            "title": "gbnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Government research suggested only 18% of people surveyed felt listened to on LTNs.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/crackdown-on-anti-driver-road-schemes-and-blanket-20mph-limits-to-put-local-consent-first",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The RAC states that 20mph limits aim to improve safety.",
+        "sources": [
+          {
+            "url": "https://www.rac.co.uk/drive/news/motoring-news/local-authorities-to-decide-on-future-of-ltns-and-20mph-speed-limits/",
+            "publisher": "rac.co.uk",
+            "title": "rac.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   LTNs aim to reduce traffic in residential areas, improving access for pedestrians and cyclists.",
+        "sources": [
+          {
+            "url": "https://www.rac.co.uk/drive/news/motoring-news/local-authorities-to-decide-on-future-of-ltns-and-20mph-speed-limits/",
+            "publisher": "rac.co.uk",
+            "title": "rac.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "An Imperial College London study (September 2024) found that the Central London ULEZ was associated with shifting children's transport to school from inactive to active modes, suggesting that vehicle restriction schemes can promote active travel.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11375866/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Conservative Party has suggested that local authorities failing to deliver \"sensible road schemes\" could see future funding withdrawn.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/crackdown-on-anti-driver-road-schemes-and-blanket-20mph-limits-to-put-local-consent-first",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "While Conservative councillors were less in favour (55.8% did not support them), 44.2% were still in favour, indicating a divergence in views even within political parties.",
+        "sources": [
+          {
+            "url": "https://www.newstatesman.com/politics/polling/2023/11/ulez-ltns-20mph-zones-exclusive-polling-councillors",
+            "publisher": "newstatesman.com",
+            "title": "newstatesman.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "A July 2023 report on Oxford's LTNs found that emergency vehicles could be delayed by up to 45 seconds.",
+        "sources": [
+          {
+            "url": "https://cities-today.com/uk-councils-get-final-say-on-low-traffic-neighbourhoods/",
+            "publisher": "cities-today.com",
+            "title": "cities-today.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   Regit (June 2026) reported a backlash against rural LTNs and 20mph zones, citing disruptions for farmers and residents in areas like Oxfordshire.",
+        "sources": [
+          {
+            "url": "https://www.regit.cars/car-news/rural-low-traffic-neighbourhoods-new-20mph-limits-explained",
+            "publisher": "regit.cars",
+            "title": "regit.cars",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

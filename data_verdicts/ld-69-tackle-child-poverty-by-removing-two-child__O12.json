@@ -1,0 +1,725 @@
+{
+  "policy_id": "ld-69-tackle-child-poverty-by-removing-two-child",
+  "party": "Liberal Democrat",
+  "policy_title": "Tackle Child Poverty by Removing Two-Child Limit and Benefit Cap",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Removing the two-child limit, benefit cap, bedroom tax, and other safety-net reforms would cost around \u00a33\u20134.5 billion a year, with no stated funding source, adding to borrowing. Unless offset elsewhere, this worsens the public finances by increasing the deficit and debt path.",
+    "biggest_unknown": "Whether any revenue-raising or spending-offset measures accompany this package \u2014 if fully funded, the verdict reverses; without a stated funding mechanism, the deficit impact is real.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to removing the two-child limit, the benefit cap, the bedroom tax, cutting UC wait to five days, replacing sanctions, and ending the young parent penalty \u2014 with no funding mechanism stated.",
+        "evidence_id": "M",
+        "quote": "Tackle child poverty by removing the two-child limit and the benefit cap. Repair the broken benefits safety net by: Reducing the wait for the first payment of Universal Credit from five weeks to five days. Scrapping the bedroom tax. Replacing the sanctions regime with an incentive-based scheme to help people into work. Ending the young parent penalty for under-25s by restoring the full rate of Universal Credit for all parents regardless of age."
+      },
+      {
+        "tier": "projected",
+        "claim": "The Resolution Foundation estimates the combined cost of abolishing both the two-child limit and the benefit cap at \u00a33 billion in 2024-25.",
+        "evidence_id": "E18",
+        "quote": "The Resolution Foundation estimates the combined cost of abolishing both the two-child limit and the benefit cap at \u00a33 billion in 2024-25"
+      },
+      {
+        "tier": "projected",
+        "claim": "That combined cost rises to \u00a34.5 billion by 2029-30.",
+        "evidence_id": "E19",
+        "quote": "\u00a34.5 billion by 2029-30"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS estimates a total cost of \u00a33.3 billion a year for both the two-child limit and benefit cap removal.",
+        "evidence_id": "E20",
+        "quote": "The IFS estimates a total cost of \u00a33.3 billion a year for both policies."
+      },
+      {
+        "tier": "projected",
+        "claim": "Reforms to ease the five-week UC wait could cost around \u00a3500 million annually.",
+        "evidence_id": "E25",
+        "quote": "a package of reforms to ease the five-week wait could cost around \u00a3500 million annually."
+      }
+    ],
+    "rationale": "The policy package commits to multiple expansions of benefit entitlements simultaneously \u2014 removing the two-child limit and benefit cap, scrapping the bedroom tax, accelerating UC payments, replacing sanctions, and ending the young parent age differential \u2014 with no stated funding mechanism, revenue offset, or borrowing rule cited in the policy text. Independent estimates from the Resolution Foundation and IFS converge on a cost of roughly \u00a33\u20133.3 billion per year for the two headline measures alone, rising to \u00a34.5 billion by 2029-30. Adding the UC wait reform (~\u00a3500m/year per Resolution Foundation) pushes the total package well above \u00a33.5 billion annually in steady state. None of the evidence units provide a credible offsetting saving or revenue source attached to this policy. Under the O12 criteria, unfunded spending that increases the deficit worsens the debt path regardless of whether it finances consumption or investment \u2014 and benefits spending is consumption, not productive capital investment that raises future output. The magnitude is moderate: the sums are material relative to annual fiscal headroom but not catastrophic at the macro level. The confidence is moderate because the cost estimates are consistent across Resolution Foundation, IFS, and OBR ranges (E10 gives OBR at \u00a32.3\u20133.0bn for two-child limit alone), but the verdict would reverse entirely if a credible funding package were attached. The time horizon is this-parliament, as costs begin immediately and ramp up over the spending review period.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/catastophic-caps/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/limited-ambition/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/listen-and-learn/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0425,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are appropriately tiered as 'stated' or 'projected'. Cost estimates are well-sourced across IFS, Resolution Foundation, and OBR ranges and the quotes entail the claims. The stated claim correctly notes absence of a funding mechanism \u2014 the policy text itself confirms this. The rationale does not attribute motive or party identity. The direction 'worsens' is supported by convergent cost evidence with no countervailing funding claim in evidence, so no false_balance issue. Minor observation: the verdict does not separately cost the bedroom tax removal or the young parent penalty restoration, meaning the ~\u00a33.5bn+ figure is a floor, which if anything understates the worsening \u2014 this is conservative and not a blocking issue. The rationale's note that 'benefits spending is consumption, not productive capital investment' is a reasonable economic characterisation consistent with O12 criteria and does not constitute lever leakage or party-blind violation."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Tackle child poverty by removing the two-child limit and the benefit cap. Repair the broken benefits safety net by: Reducing the wait for the first payment of Universal Credit from five weeks to five days. Scrapping the bedroom tax. Replacing the sanctions regime with an incentive-based scheme to help people into work. Ending the young parent penalty for under-25s by restoring the full rate of Universal Credit for all parents regardless of age.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Currently, child poverty remains a significant issue in the UK, with 4.5 million children (31% of all children) living in relative poverty after housing costs in 2023/24, a figure that was also 31% in 2024/25.",
+        "sources": [
+          {
+            "url": "https://endchildpoverty.org.uk/child-poverty-2025/",
+            "publisher": "endchildpoverty.org.uk",
+            "title": "endchildpoverty.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/which-children-are-most-likely-to-be-in-poverty-in-the-uk/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This includes 4.1 million children (30%) in relative poverty after housing costs, a figure projected to rise to 5.2 million by 2022.",
+        "sources": [
+          {
+            "url": "https://stateofchildhealth.rcpch.ac.uk/evidence/family-and-social-environment/child-poverty/",
+            "publisher": "stateofchildhealth.rcpch.ac.uk",
+            "title": "rcpch.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "A large proportion of children in poverty (69%) live in working families, and children in larger families (three or more children) face a higher risk, with this group's poverty risk rising from 32% in 2012 to 43% in 2018, and projected to reach 52% in 2021.",
+        "sources": [
+          {
+            "url": "https://stateofchildhealth.rcpch.ac.uk/evidence/family-and-social-environment/child-poverty/",
+            "publisher": "stateofchildhealth.rcpch.ac.uk",
+            "title": "rcpch.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/tackling-child-poverty-developing-our-strategy/tackling-child-poverty-developing-our-strategy-html",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Child Poverty Reduction:** The Resolution Foundation estimates that abolishing the two-child limit would lift 490,000 children out of poverty if implemented immediately",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/catastophic-caps/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": ", leading to 480,000 fewer children growing up in poverty by 2029-30",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/no-half-measures/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The New Economics Foundation (NEF) projects it would lift 280,000 children out of poverty in 2025/26, increasing to 370,000 by 2029/30",
+        "sources": [
+          {
+            "url": "https://new-economicsf.files.svdcdn.com/production/files/Capping-Ambitions-FINAL.pdf",
+            "publisher": "new-economicsf.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "PolicyEngine and the OBR estimate a reduction of 450,000 in child poverty",
+        "sources": [
+          {
+            "url": "https://www.policyengine.org/uk/research/uk-two-child-limit",
+            "publisher": "policyengine.org",
+            "title": "policyengine.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Income Increase:** This change would significantly improve living standards for low-income families, with disposable income after housing costs projected to be 1.1 percentage points higher over the current parliament than if the policy were retained.",
+        "sources": [
+          {
+            "url": "https://www.jrf.org.uk/cost-of-living/scrapping-two-child-limit-eases-burden-on-families-but-living-standards-still-bleak",
+            "publisher": "jrf.org.uk",
+            "title": "jrf.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The second income decile would see the largest increase in household income, reaching 2.59% by 2029-30.",
+        "sources": [
+          {
+            "url": "https://www.policyengine.org/uk/research/uk-two-child-limit",
+            "publisher": "policyengine.org",
+            "title": "policyengine.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The OBR provides a lower estimate of \u00a32.3 billion in 2026-27, increasing to \u00a33.0 billion by 2029-30.",
+        "sources": [
+          {
+            "url": "https://www.policyengine.org/uk/research/uk-two-child-limit",
+            "publisher": "policyengine.org",
+            "title": "policyengine.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The Resolution Foundation estimates the cost at \u00a32.5 billion in 2024-25, rising to \u00a33.6 billion by 2035 when fully rolled out.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/catastophic-caps/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Expert Consensus:** There is broad consensus among analysts that scrapping the two-child limit is a cost-effective way to reduce child poverty.",
+        "sources": [
+          {
+            "url": "https://www.jrf.org.uk/cost-of-living/scrapping-two-child-limit-eases-burden-on-families-but-living-standards-still-bleak",
+            "publisher": "jrf.org.uk",
+            "title": "jrf.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/limited-ambition/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/no-half-measures/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/catastophic-caps/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "However, the IFS notes that it is not a \"silver bullet\" and, if not combined with other measures like removing the benefit cap, could lead to 70,000 more households being affected by the cap, diminishing some of its positive impact.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Child Poverty Reduction:** The Resolution Foundation projects that scrapping both the two-child limit and the benefit cap would lead to 660,000 fewer children growing up in poverty by 2029-30.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/no-half-measures/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "NEF analysis suggests that combined, these policies would immediately lift 280,000 children out of poverty in 2025/26 and alleviate the depth of poverty for an additional 980,000, with these figures rising to 370,000 and 1.2 million children respectively by 2029/30.",
+        "sources": [
+          {
+            "url": "https://new-economicsf.files.svdcdn.com/production/files/Capping-Ambitions-FINAL.pdf",
+            "publisher": "new-economicsf.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The IFS estimates that combined, these changes would lift 620,000 children out of absolute poverty.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Income Increase:** Scrapping both policies would make the lowest-income households an average of \u00a31,000 better off in 2024-25, representing a 5% boost to their incomes.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/catastophic-caps/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Cost:** The Resolution Foundation estimates the combined cost of abolishing both the two-child limit and the benefit cap at \u00a33 billion in 2024-25",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/catastophic-caps/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": ", and \u00a34.5 billion by 2029-30",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/limited-ambition/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The IFS estimates a total cost of \u00a33.3 billion a year for both policies.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Instead, other impacts included cutting back on spending, increased arrears on bills, and borrowing from friends or family.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJy-dd54to0uunjXMh5SmX1uSAWgRRdaGksloFDDO_VSPRtsIAAg8vwawitv9Qog5OhuJEdZwtrOm8Jhdjxit30-zcO65MYTDPh3TL8aVr2Ev5n6XW8cdwCNu3nIfOVZLk4u-TUjmrPvjRLvf5Z-A-hf2DS012r9SaO46uflB1",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Reduced Hardship and Debt:** Analysts widely agree that the five-week wait causes financial hardship, pushes claimants into debt, and increases reliance on food banks.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/listen-and-learn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.jrf.org.uk/social-security/we-need-to-end-the-5-week-wait-for-universal-credit-heres-how",
+            "publisher": "jrf.org.uk",
+            "title": "jrf.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "It is particularly problematic for those without savings or a final paycheque, with many low-paid workers lacking the savings to bridge this gap.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/listen-and-learn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Improved Mental Health:** The wait has been linked to stress, anxiety, and negative impacts on mental health.",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Cost:** The Resolution Foundation suggests a package of reforms to ease the five-week wait could cost around \u00a3500 million annually.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/listen-and-learn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "An upfront grant for the most vulnerable families unable to cover basic living costs during this period could cost around \u00a3300 million.",
+        "sources": [
+          {
+            "url": "https://www.jrf.org.uk/social-security/we-need-to-end-the-5-week-wait-for-universal-credit-heres-how",
+            "publisher": "jrf.org.uk",
+            "title": "jrf.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Expert Consensus:** There is strong consensus that the five-week wait undermines the safety net principle of the benefits system.",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.jrf.org.uk/social-security/we-need-to-end-the-5-week-wait-for-universal-credit-heres-how",
+            "publisher": "jrf.org.uk",
+            "title": "jrf.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Alleviating Financial Strain:** The policy currently affects approximately 660,000 working-age social housing tenants, reducing their weekly incomes by \u00a312-\u00a322.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4894481/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Improved Well-being:** The bedroom tax has been linked to reduced spending on essentials like food and utilities, negative impacts on mental health, family relationships, and community networks, and increased hardship and debt.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4894481/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Support for Vulnerable Groups:** Almost two-thirds of affected tenants have a disability, and social housing tenants are generally among the poorest in society.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4894481/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Housing Mobility:** Research indicates that the areas most affected by the bedroom tax are often the least equipped with suitable smaller housing stock, making downsizing difficult.",
+        "sources": [
+          {
+            "url": "https://www.cam.ac.uk/research/news/areas-of-britain-most-affected-by-bedroom-tax-are-hardest-to-downsize-in-research-finds",
+            "publisher": "cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The current policy aims to reduce public spending on social housing.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4894481/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Addressing Harmful Impacts of Sanctions:** Quantitative research suggests that while sanctions may increase exits from benefits and job entries in the short term, they can also lead to higher risks of economic inactivity, a return to unemployment benefits, and worsening job quality in the longer run.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Sanctions have been found to reduce the likelihood of claimants exiting into higher-paid work and lead to sanctioned claimants earning on average \u00a334 per month less over a six-month period.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-impact-of-benefit-sanctions-on-employment-outcomes-draft-report/the-impact-of-benefit-sanctions-on-employment-outcomes",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The IFS has questioned the robustness of DWP analysis that suggests sanctions increase paid work, highlighting methodological issues and the significant hardship sanctions cause.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/new-dwp-study-sanctions-may-not-be-all-it-seems",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "An incentive-based scheme would aim to mitigate this.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/new-dwp-study-sanctions-may-not-be-all-it-seems",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Improved Engagement and Outcomes:** Critics argue that sanctions are often ineffective and harmful.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613403/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Expert Disagreements:** While the DWP has pointed to a deterrent effect of sanctions, the IFS and other analysts express significant concerns about their effectiveness and the hardship they impose, suggesting that their benefits might be overstated and their harms underestimated.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-impact-of-benefit-sanctions-on-employment-outcomes-draft-report/the-impact-of-benefit-sanctions-on-employment-outcomes",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/new-dwp-study-sanctions-may-not-be-all-it-seems",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Increased Income for Young Parents:** This change would address the \"Young Parent Penalty,\" where young single parents can be up to \u00a366.13 worse off each month, and young couple parents under 25 can lose out by \u00a3130.55 per month compared to over-25s.",
+        "sources": [
+          {
+            "url": "https://www.fifegingerbread.org.uk/ournewsandstories/end-the-young-parent-penalty",
+            "publisher": "fifegingerbread.org.uk",
+            "title": "fifegingerbread.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://opfs.org.uk/policy-and-campaigns/campaigns/end-young-parent-poverty/",
+            "publisher": "opfs.org.uk",
+            "title": "opfs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   **Reduced Child Poverty:** Children with mothers under 25 are disproportionately affected by poverty, with 55% of children in this group in Scotland living in poverty\u2014more than double the overall rate.",
+        "sources": [
+          {
+            "url": "https://opfs.org.uk/policy-and-campaigns/campaigns/end-young-parent-poverty/",
+            "publisher": "opfs.org.uk",
+            "title": "opfs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "Children in single-parent families are already twice as likely to be in poverty.",
+        "sources": [
+          {
+            "url": "https://www.fifegingerbread.org.uk/ournewsandstories/end-the-young-parent-penalty",
+            "publisher": "fifegingerbread.org.uk",
+            "title": "fifegingerbread.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   **Fairness and Equality:** Charities and analysts, including the Resolution Foundation and One Parent Families Scotland, argue that this age-based discrimination is unfair, unjustified, and penalizes children based on their parent's age, pushing young families into poverty.",
+        "sources": [
+          {
+            "url": "https://www.fifegingerbread.org.uk/ournewsandstories/end-the-young-parent-penalty",
+            "publisher": "fifegingerbread.org.uk",
+            "title": "fifegingerbread.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/ministers-need-to-address-the-young-parents-penalty-in-universal-credit/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://opfs.org.uk/policy-and-campaigns/campaigns/end-young-parent-poverty/",
+            "publisher": "opfs.org.uk",
+            "title": "opfs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

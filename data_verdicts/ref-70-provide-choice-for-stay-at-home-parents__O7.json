@@ -1,0 +1,281 @@
+{
+  "policy_id": "ref-70-provide-choice-for-stay-at-home-parents",
+  "party": "Reform UK",
+  "policy_title": "Provide choice for stay-at-home parents",
+  "outcome": "O7",
+  "verdict": {
+    "outcome": "O7",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "This policy reshuffles when Child Benefit is paid \u2014 it doesn't fund schools, early-years provision, or skills programmes, so its direct effect on educational attainment is minimal. The biggest uncertainty is whether shifting money toward parental care in the under-5s helps or hinders school readiness for disadvantaged children, but the evidence provided doesn't speak to that question.",
+    "biggest_unknown": "Whether encouraging parental care over formal early-years provision for ages 1\u20134 narrows or widens the attainment gap for disadvantaged children \u2014 none of the provided evidence addresses educational outcomes.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy front-loads Child Benefit for children aged 1\u20134 to enable parental choice about time spent with children; no curriculum, school-standards, or skills mechanism is committed.",
+        "evidence_id": "M",
+        "quote": "front-load the Child Benefit system for children aged 1-4 to give parents the choice to spend more time with their children"
+      },
+      {
+        "tier": "measurable",
+        "claim": "No specific figures, implementation detail, or projected educational impact have been provided by the proposers.",
+        "evidence_id": "E2",
+        "quote": "it has not provided specific figures or data for how this front-loading would be implemented or its projected costs and impacts"
+      },
+      {
+        "tier": "projected",
+        "claim": "One modelled version of this idea would simply redistribute the same lifetime total of Child Benefit, giving more earlier and less later \u2014 leaving total household income support unchanged.",
+        "evidence_id": "E3",
+        "quote": "If Reform UK's policy involves simply redistributing the total Child Benefit paid over a child's lifetime, parents would receive more in the early years but less in later childhood"
+      }
+    ],
+    "rationale": "O7 is assessed on school standards, the attainment gap, early-years provision, FE/skills funding, and apprenticeships. This policy is a Child Benefit timing change \u2014 it does not alter school funding, curriculum, teacher supply, early-years quality standards, or skills programmes. Its sole mechanism relevant to O7 is that higher early-years income might allow more parental care in place of formal childcare for under-5s; the evidence provided does not address whether that substitution raises or lowers school readiness or narrows the attainment gap. The policy text contains no committed instrument beyond a restructured payment schedule, and the evidence confirms implementation details remain unspecified. Under the soft-verb/no-deliverable rule, and given the absence of any cited evidence linking the mechanism to educational outcomes at population scale, the verdict for O7 is negligible. A minor magnitude is recorded rather than zero only because early-years parental time could in principle affect school-readiness, but this remains entirely ungrounded in the provided evidence units.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.cosmopolitan.com/uk/reports/a61170366/uk-general-election-2024-party-policies/",
+        "publisher": "cosmopolitan.com",
+        "title": "cosmopolitan.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://lordslibrary.parliament.uk/research-briefings/lln-2022-0017/",
+        "publisher": "lordslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2022-0017/LLN-2022-0017.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0338,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims are well-supported by their quoted evidence. The stated-tier claim accurately reflects the policy text. The measurable-tier claim is slightly loose \u2014 absence of detail is arguably a projected/observational point rather than a measurable baseline \u2014 but it does not overstate the quote and is not material to the verdict direction. The projected-tier claim correctly uses conditional framing matching the quote. Direction 'negligible' with magnitude 'minor' is internally inconsistent (if negligible, magnitude should be n/a or minor is redundant), but the rubric does not explicitly require magnitude=n/a for 'negligible' direction (only for 'too-uncertain'), so this is not a blocking issue. No lever leakage, no party-blind issues, no false balance \u2014 the evidence genuinely does not speak to educational outcomes, making 'negligible' the correct lean. No blocking issues found."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will front-load the Child Benefit system for children aged 1-4 to give parents the choice to spend more time with their children.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's policy proposes to \"front-load the Child Benefit system for children aged 1-4 to give parents the choice to spend more time with their children.\"",
+        "sources": [
+          {
+            "url": "https://www.cosmopolitan.com/uk/reports/a61170366/uk-general-election-2024-party-policies/",
+            "publisher": "cosmopolitan.com",
+            "title": "cosmopolitan.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.goforma.com/business-resources/general-election-2024-parties-pledges",
+            "publisher": "goforma.com",
+            "title": "goforma.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "While the party's manifesto claims that the majority of mothers would choose to stay at home more if they could, it has not provided specific figures or data for how this front-loading would be implemented or its projected costs and impacts",
+        "sources": [
+          {
+            "url": "https://www.cosmopolitan.com/uk/reports/a61170366/uk-general-election-2024-party-policies/",
+            "publisher": "cosmopolitan.com",
+            "title": "cosmopolitan.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "If Reform UK's policy involves simply redistributing the total Child Benefit paid over a child's lifetime, parents would receive more in the early years but less in later childhood",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/research-briefings/lln-2022-0017/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2022-0017/LLN-2022-0017.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Reform UK has not clarified this crucial detail",
+        "sources": [
+          {
+            "url": "https://www.cosmopolitan.com/uk/reports/a61170366/uk-general-election-2024-party-policies/",
+            "publisher": "cosmopolitan.com",
+            "title": "cosmopolitan.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   A 2022 private member's bill, the \"Front-loaded Child Benefit Bill [HL]\" introduced by Lord Farmer (Conservative), proposed an optional system where the total amount of Child Benefit paid over a child's life would remain the same, but parents could choose to receive higher rates when the child is younger and lower rates when older",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/research-briefings/lln-2022-0017/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2022-0017/LLN-2022-0017.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This type of revenue-neutral front-loading would incur upfront costs for the government in the early years, followed by savings in future years",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2022-0017/LLN-2022-0017.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Impact on Parental Choice and Employment:**\n    *   Reform UK explicitly states the policy is to give parents \"the choice to spend more time with their children\"",
+        "sources": [
+          {
+            "url": "https://www.cosmopolitan.com/uk/reports/a61170366/uk-general-election-2024-party-policies/",
+            "publisher": "cosmopolitan.com",
+            "title": "cosmopolitan.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.goforma.com/business-resources/general-election-2024-parties-pledges",
+            "publisher": "goforma.com",
+            "title": "goforma.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This largely targets mothers, with the party claiming that a majority would choose to stay at home if afforded the financial means",
+        "sources": [
+          {
+            "url": "https://www.cosmopolitan.com/uk/reports/a61170366/uk-general-election-2024-party-policies/",
+            "publisher": "cosmopolitan.com",
+            "title": "cosmopolitan.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Civitas calculated that over 2 million working mothers of pre-school children want to reduce their working hours",
+        "sources": [
+          {
+            "url": "https://www.civitas.org.uk/publications/why-cant-mums-choose/",
+            "publisher": "civitas.org.uk",
+            "title": "civitas.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "They proposed a figure of \u00a38,000 per year for parents of children under four through front-loaded Child Benefit to enable this choice",
+        "sources": [
+          {
+            "url": "https://globalwomenstrike.net/a-front-loaded-child-benefit-avoids-the-financial-recognition-mothers-are-campaigning-for/",
+            "publisher": "globalwomenstrike.net",
+            "title": "globalwomenstrike.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "It also highlights studies suggesting that lump-sum payments in early years might have a more significant impact on birth rates than ongoing payments",
+        "sources": [
+          {
+            "url": "https://www.worksinprogress.news/p/why-child-benefits-should-be-front",
+            "publisher": "worksinprogress.news",
+            "title": "worksinprogress.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The Global Women's Strike/Wages for Housework campaign criticized Civitas's \u00a38,000 proposal, arguing it is insufficient to live on and \"avoids the financial recognition mothers are campaigning for.\" They highlight that many mothers are \"forced into full-time jobs by economic need\"",
+        "sources": [
+          {
+            "url": "https://globalwomenstrike.net/a-front-loaded-child-benefit-avoids-the-financial-recognition-mothers-are-campaigning-for/",
+            "publisher": "globalwomenstrike.net",
+            "title": "globalwomenstrike.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Civitas argues that UK childcare funding has been \"relentlessly focused on subsidising formal childcare\" since the early nineties, which they believe doesn't align with what most mothers want",
+        "sources": [
+          {
+            "url": "https://www.civitas.org.uk/publications/why-cant-mums-choose/",
+            "publisher": "civitas.org.uk",
+            "title": "civitas.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "As noted, Reform UK has not provided specific figures for their front-loading proposal",
+        "sources": [
+          {
+            "url": "https://www.cosmopolitan.com/uk/reports/a61170366/uk-general-election-2024-party-policies/",
+            "publisher": "cosmopolitan.com",
+            "title": "cosmopolitan.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

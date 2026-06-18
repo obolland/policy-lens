@@ -1,0 +1,587 @@
+{
+  "policy_id": "lab-67-reset-uk-government-relationship-with-devolved",
+  "party": "Labour",
+  "policy_title": "Reset UK Government Relationship with Devolved Administrations",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "This policy would extend the same free-speech protections enjoyed by Westminster MPs to members of devolved legislatures, filling a real but narrow gap. However, the broader package has so far seen little concrete delivery, and the benefit touches only elected representatives, not the general public.",
+    "biggest_unknown": "Whether the free-speech protection pledge will be legislated in this parliament, given that as of April 2026 even the Sewel MoU had yet to reach agreement.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to ensuring members of devolved legislatures have the same free speech protections as Westminster MPs.",
+        "evidence_id": "M",
+        "quote": "ensuring members of devolved legislatures have the same free speech protections as Westminster MPs"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Currently, the Bill of Rights free-speech protections do not fully extend to devolved parliaments and assemblies, which have some but narrower protections than Westminster members.",
+        "evidence_id": "E13",
+        "quote": "the protections afforded by the Bill of Rights do not fully extend to devolved parliaments and assemblies, which possess some protections but not as broad as those for UK Parliament members"
+      },
+      {
+        "tier": "projected",
+        "claim": "As of April 2026, Labour's broader devolution reset commitments had seen little meaningful change in practice, with the Sewel MoU not yet agreed.",
+        "evidence_id": "E3",
+        "quote": "little indication that this commitment has translated into meaningful changes in practice,"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy also strengthens the Sewel Convention via a new memorandum of understanding, which constrains the UK Parliament from legislating on devolved matters without consent.",
+        "evidence_id": "E2",
+        "quote": "Labour intends to reinforce the Sewel Convention, which dictates that the UK Parliament will \"not normally\" legislate on devolved matters without the consent of the relevant devolved legislature, through a new MoU"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Sewel Convention's authority has been weakened by years of being overridden, leaving it perceived as only a thin protection.",
+        "evidence_id": "E4",
+        "quote": "The convention's authority has reportedly been weakened by years of being overridden, leading to a perception that it offers only a \"thin layer of protection\""
+      }
+    ],
+    "rationale": "O10 scores liberty effects: new or expanded speech protections improve it; coercive or surveillance powers worsen it. This policy has one direct O10 mechanism: extending parliamentary-privilege-style free speech protections to devolved legislators who currently hold narrower protections. That is a genuine, if narrow, expansion of free expression \u2014 it removes a current asymmetry that limits what elected representatives in Edinburgh, Cardiff and Belfast can say without legal liability compared to Westminster colleagues. The effect is real but limited in scope: it benefits only a few hundred elected officials, not the general public, so magnitude is minor. A secondary O10-relevant element is strengthening the Sewel Convention, which in principle constrains the central state from overriding devolved choices (a mild reduction in top-down coercion over a layer of democratic government). However, as the evidence shows, the convention has historically been 'thin' and the MoU had not been agreed as of April 2026, so this element carries little weight at present. Implementation risk is the dominant uncertainty: the broader reset package has shown little concrete progress in the first two years of the parliament, suggesting the free-speech extension may also face delay. Confidence is low accordingly, and the time horizon is this-parliament at best. No evidence supports any O10-worsening effect from this policy.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0031/2024-0031-Kings-Speech-Devolved-affairs-Large.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://consoc.org.uk/sewel-elections-future-devolution/",
+        "publisher": "consoc.org.uk",
+        "title": "consoc.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ukandeu.ac.uk/brexit-ten-years-on-devolution/",
+        "publisher": "ukandeu.ac.uk",
+        "title": "ukandeu.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://labour.org.uk/change/serving-the-country/",
+        "publisher": "labour.org.uk",
+        "title": "labour.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8883/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0406,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are well-supported by their cited evidence at appropriate tiers. The stated claims quote directly from policy text; the measurable claims cite parliamentary/institutional sources appropriately; the projected claim on implementation lag is correctly tiered. Magnitude 'minor' is justified given the narrow beneficiary population (devolved legislators only). The 'improves' direction with low confidence is defensible: the one concrete O10 mechanism (free-speech extension) is a genuine liberty expansion, while implementation risk is honestly surfaced. No lever leakage, no party-blind issues, no false balance \u2014 the verdict correctly notes no O10-worsening evidence exists. One minor observation: E3 is sourced from consoc.org.uk (advocacy/think-tank) but is used only to establish an implementation-progress claim, not to drive magnitude, so it does not trigger an advocacy-source block. The Sewel Convention secondary element is handled cautiously and does not inflate the verdict."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will strengthen intergovernmental working across the UK, resetting the UK government's relationship with devolved governments in Scotland, Wales, and Northern Ireland. This includes strengthening the Sewel Convention with a new memorandum of understanding, establishing a Council of the Nations and Regions for collaboration, and ensuring members of devolved legislatures have the same free speech protections as Westminster MPs. UK-wide bodies will be made more representative, and decision-making over structural funds allocation will be restored to devolved representatives. Additional funding will be provided to Scotland, Wales, and Northern Ireland from UK public service investments.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Labour's policy includes strengthening the Sewel Convention with a new Memorandum of Understanding (MoU), establishing a Council of the Nations and Regions, ensuring free speech protections for devolved legislature members, and making UK-wide bodies more representative",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/serving-the-country/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Sewel Convention:** Labour intends to reinforce the Sewel Convention, which dictates that the UK Parliament will \"not normally\" legislate on devolved matters without the consent of the relevant devolved legislature, through a new MoU",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/serving-the-country/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consoc.org.uk/sewel-elections-future-devolution/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8883/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Constitution Society noted in April 2026 that despite Labour's commitment in its 2024 manifesto, there has been \"little indication that this commitment has translated into meaningful changes in practice,\" and negotiations for a new MoU had yet to reach agreement",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/sewel-elections-future-devolution/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/brexit-ten-years-on-devolution/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The convention's authority has reportedly been weakened by years of being overridden, leading to a perception that it offers only a \"thin layer of protection\"",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/sewel-elections-future-devolution/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Institute for Government has recommended clearer rules on when consent is required and greater UK parliamentary scrutiny, while the House of Lords Constitution Committee has called for more transparency and engagement",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8883/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Council of the Nations and Regions:** Labour has established a new Council of the Nations and Regions, bringing together the Prime Minister, the First Ministers of Scotland, Wales, and Northern Ireland, and the Mayors of Combined Authorities in England",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/serving-the-country/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/council-of-the-nations-and-regions/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Council_of_the_Nations_and_Regions",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The first meeting took place in October 2024",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Council_of_the_Nations_and_Regions",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This body is intended to foster collaboration and originated from the 2022 Brown Commission, which suggested it be a statutory body with a \"solidarity clause\" for inter-governmental cooperation",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/council-of-the-nations-and-regions/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The House of Commons Library observed in September 2024 that its integration into the existing system of intergovernmental relations was \"not yet clear\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/council-of-the-nations-and-regions/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "A May 2025 report by PolicyWISE and the Bennett Institute for Public Policy highlighted the Council's potential to improve relationships but warned that its effectiveness would depend on its design and support, especially given the increased political fragmentation with the election of Reform UK mayors",
+        "sources": [
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/blog/council-of-the-nations-and-regions/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/blog/why-the-council-of-the-nations-and-regions-matters/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They suggested it needs to evolve into a \"jointly owned initiative\" with all participants involved in setting its agenda",
+        "sources": [
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/blog/council-of-the-nations-and-regions/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/blog/why-the-council-of-the-nations-and-regions-matters/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Free Speech Protections:** The policy pledges to grant members of devolved legislatures the same free speech protections as Westminster MPs",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/serving-the-country/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0031/2024-0031-Kings-Speech-Devolved-affairs-Large.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Currently, the protections afforded by the Bill of Rights do not fully extend to devolved parliaments and assemblies, which possess some protections but not as broad as those for UK Parliament members",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0031/2024-0031-Kings-Speech-Devolved-affairs-Large.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **More Representative UK-wide Bodies:** Labour's 2024 manifesto committed to reforming the House of Lords, with the eventual aim of replacing it with a \"more representative\" second chamber",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/serving-the-country/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Institute for Government, while not specifically commenting on this Labour policy in detail, generally highlights the \"high costs\" and \"difficulties\" associated with setting up new public bodies effectively",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2024/nov/21/labours-new-public-bodies-are-likely-to-come-at-a-high-cost-thinktank-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Labour plans to restore decision-making over the allocation of structural funds, specifically post-EU funds, to devolved representatives",
+        "sources": [
+          {
+            "url": "https://post.parliament.uk/devolution-and-intergovernmental-relations/",
+            "publisher": "post.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Both the Scottish and Welsh governments have criticised the UKSPF, stating it provides \"significantly less money\" and does not grant them the same level of control over programming as they had under the EU system",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHuva0EPvedoQx1w4LFQrpAVvKbm4gjdXD50UHSLJkYAREMkMPZISkDLBr297AGGbM3HheBXek0M4_deekZ4nJ_NRXwfGIB5AGyHa1XeFqIQETLJws5qoxqKKLI4mk5aJGMcJEaP3Coo9yMOFSQwhvu-eXASnT92Zy4Tt88GPtIBu5oukwgX9YRixjv4UeN7WBzmFLBJfretiHZovPX-pYc3UguSRFSRFCRdsb6DkfyXPWRetF9yc=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "forumfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The policy includes providing \"additional funding\" to Scotland, Wales, and Northern Ireland from UK public service investments",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/serving-the-country/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Funding allocations to devolved administrations are primarily determined by the Barnett formula, which provides a population-based share of changes in planned UK government spending",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/3972/funding-for-scotland-wales-and-northern-ireland-inquiry/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Ad hoc grants can also be provided outside of Spending Reviews for specific, ring-fenced purposes",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHuva0EPvedoQx1w4LFQrpAVvKbm4gjdXD50UHSLJkYAREMkMPZISkDLBr297AGGbM3HheBXek0M4_deekZ4nJ_NRXwfGIB5AGyHa1XeFqIQETLJws5qoxqKKLI4mk5aJGMcJEaP3Coo9yMOFSQwhvu-eXASnT92Zy4Tt88GPtIBu5oukwgX9YRixjv4UeN7WBzmFLBJfretiHZovPX-pYc3UguSRFSRFCRdsb6DkfyXPWRetF9yc=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "forumfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This implies that a Labour government would still need to deliver approximately \"\u00a318 billion of cuts\" to \"unprotected departments\" (e.g., Transport, Justice, Home Office) to meet its fiscal commitments",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/labour-manifesto-2024/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/growing-for-gold/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/04/At-your-service.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Specific Funding Figures:**\n    *   In March 2026, the IFS reported that without additional UK government funding, the next Welsh Government would likely face \"in-year cuts to other areas of spending\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/public-service-spending-and-performance-wales",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "However, Scotland's projected spending per pupil was \"significantly higher\" at approximately \u00a310,400, about 19% higher than in Wales",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/public-service-spending-and-performance-wales",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "England had the lowest spend per head at \u00a312,625",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/country-and-regional-analysis-2024/country-and-regional-analysis-november-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   The UK government, in May 2026, released an additional \u00a3102.6 million for public service transformation in Northern Ireland, completing a \u00a3235 million transformation fund agreed in 2024",
+        "sources": [
+          {
+            "url": "https://www.publicsectorexecutive.com/articles/uk-government-releases-funding-transform-public-services-northern-ireland",
+            "publisher": "publicsectorexecutive.com",
+            "title": "publicsectorexecutive.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Health Foundation's Perspective:** The Health Foundation, in February 2026, emphasised that devolution should empower local leaders to address health inequalities, viewing health as a \"precondition for growth\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqYSRix5p0r2hCCxz47EHEqCedDsaEFIdTYl0TRz9FkOT_7AkIgNof9TkPC5nzf48T0KR7P1lTBxZLyFgHs6tu0V8we-An3SsUmBM6VcdyOzn7BgujLKWkqK6G-obWHPmIuFGI-NYoWrV88np8ZC0r_l4esWfr1I_hDN92ojpBAu9sKEUg2OlT1N9WQ_xQuLtek6BSj5PJNbI=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAGBGYZ9imjvOgjc7yB9-pMbTDl2IEouGD2PIi059PYZ8CCxqBejJB-pKCTgG3zpHhQUF8YgaycNDCA-P4v3a193DvdXmHMxw3ChaJuhlPpx2GBGH8dIbMaFhtxhHdImbbHEcmtttkRLB-eUyUHKZml9Sfai60Rg8XnMo0A-cm6MNfHGJl0FlXTWlvw8dS3up3IBZ00TmCAJ-LxLk=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They also suggested in May 2026 that without stronger \"cross-government alignment\" and clearer expectations, new devolution duties on strategic authorities to improve health could become a \"tick-box exercise\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1thgDBH7yyOw8mCPQ4pj_R5cDzVyYLjH3V2vtbjsjq-rUd9J2HeUC1Rm6Yyl8RTOs5IqJxaz6XfId5zpDefqgIqmZrpMgnz9xSo2iw9BEO8Xvr3RxLY8tgH_UAq7_kBQMQtqdpQMVbMT7_bJ56ofZS2CaDhe1xhrFz1CXH7p6YbJN3RUuGn5sKIex7bpQK-04Or1-gkixqEFTV6bH0dhDRAjoyCklBhO5",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Effectiveness of Intergovernmental Mechanisms:** While Labour aims for a \"reset,\" experts like the Constitution Society express doubt about the Sewel Convention's ability to provide robust protection given its history of being overridden",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/sewel-elections-future-devolution/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Similarly, the long-term effectiveness and political viability of the Council of the Nations and Regions are uncertain, particularly with increasing political diversity among its members",
+        "sources": [
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/blog/council-of-the-nations-and-regions/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/blog/why-the-council-of-the-nations-and-regions-matters/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Fiscal Headroom and Funding Adequacy:** The Resolution Foundation highlights the potential need for \"significant tax rises and public service cuts\" in unprotected departments to meet Labour's fiscal rules",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/labour-manifesto-2024/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/growing-for-gold/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The criticism of the UKSPF by devolved governments underscores a genuine disagreement over the adequacy and control of post-EU funding",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHuva0EPvedoQx1w4LFQrpAVvKbm4gjdXD50UHSLJkYAREMkMPZISkDLBr297AGGbM3HheBXek0M4_deekZ4nJ_NRXwfGIB5AGyHa1XeFqIQETLJws5qoxqKKLI4mk5aJGMcJEaP3Coo9yMOFSQwhvu-eXASnT92Zy4Tt88GPtIBu5oukwgX9YRixjv4UeN7WBzmFLBJfretiHZovPX-pYc3UguSRFSRFCRdsb6DkfyXPWRetF9yc=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "forumfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The actual \"real-world effects\" will depend heavily on the specifics of their implementation and the willingness of all parties involved to collaborate effectively, which has historically been a challenge in intergovernmental relations",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/council-of-the-nations-and-regions/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/brexit-ten-years-on-devolution/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.bennettschool.cam.ac.uk/blog/council-of-the-nations-and-regions/",
+            "publisher": "bennettschool.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      }
+    ]
+  }
+}

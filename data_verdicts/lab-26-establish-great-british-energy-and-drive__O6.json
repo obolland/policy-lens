@@ -1,0 +1,915 @@
+{
+  "policy_id": "lab-26-establish-great-british-energy-and-drive",
+  "party": "Labour",
+  "policy_title": "Establish Great British Energy and Drive Clean Power by 2030",
+  "outcome": "O6",
+  "verdict": {
+    "outcome": "O6",
+    "direction": "improves",
+    "magnitude": "major",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "This policy commits to a major expansion of wind and solar power and creating a publicly-owned clean energy company, which \u2014 if delivered \u2014 would substantially cut UK electricity emissions. The main uncertainty is whether the pace of build-out is achievable by 2030 given grid and planning constraints.",
+    "biggest_unknown": "Whether the required tripling of solar and near-tripling of offshore wind capacity can be delivered by 2030, given grid infrastructure bottlenecks and connection backlogs.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy establishes a publicly-owned company capitalised at \u00a38.3 billion to invest in clean energy technologies, aiming for zero-carbon electricity by 2030 through doubling onshore wind, tripling solar, and quadrupling offshore wind.",
+        "evidence_id": "M",
+        "quote": "achieve cheaper, zero-carbon electricity by 2030, aiming to double onshore wind, triple solar, and quadruple offshore wind, while investing in carbon capture, hydrogen, and marine energy"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current offshore wind capacity stands at 14.8 GW, with targets requiring 43\u201350 GW by 2030.",
+        "evidence_id": "E13",
+        "quote": "43-50 GW of offshore wind (from a current 14.8 GW)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current onshore wind capacity is 14.2 GW, with targets requiring 27\u201329 GW by 2030.",
+        "evidence_id": "E14",
+        "quote": "27-29 GW of onshore wind (from a current 14.2 GW)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current solar capacity is 16.6 GW, with targets requiring 45\u201347 GW by 2030.",
+        "evidence_id": "E15",
+        "quote": "45-47 GW of solar power (from a current 16.6 GW)"
+      },
+      {
+        "tier": "projected",
+        "claim": "NESO defines 'clean power by 2030' as at least 95% of generation from low-carbon sources, and considers the target achievable.",
+        "evidence_id": "E12",
+        "quote": "at least 95% of generation from low-carbon sources and no more than 5% from unabated gas"
+      },
+      {
+        "tier": "projected",
+        "claim": "NESO deems the 2030 target achievable but notes the pace required \u2014 tripling solar and doubling onshore wind \u2014 is a formidable challenge.",
+        "evidence_id": "E44",
+        "quote": "Although NESO deems the 2030 clean power target \"achievable,\" the rapid acceleration of renewable capacity required, such as tripling solar and doubling onshore wind in just a few years, presents a formidable challenge"
+      },
+      {
+        "tier": "projected",
+        "claim": "Grid infrastructure upgrades are estimated to require around \u00a360 billion and must grow at four times the rate seen in the last decade.",
+        "evidence_id": "E30",
+        "quote": "The necessary overhaul of the national grid is estimated to require around \u00a360 billion in infrastructure investment and grow at four times the rate seen in the last decade"
+      },
+      {
+        "tier": "projected",
+        "claim": "NESO has offered grid connection dates to over 700 projects, representing nearly 60% of schemes needed by 2030, suggesting real progress.",
+        "evidence_id": "E29",
+        "quote": "NESO has offered connection dates to over 700 projects, representing nearly 60% of the schemes needed by 2030, following a two-year process to clear the backlog"
+      },
+      {
+        "tier": "projected",
+        "claim": "Some analysts warn that infrastructure build-out costs could increase consumer bills through non-commodity charges in the short term before long-term savings materialise.",
+        "evidence_id": "E43",
+        "quote": "significant infrastructure investment costs could initially increase consumer bills through non-commodity charges before long-term savings materialize"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy also includes investment in carbon capture and storage, hydrogen, and marine energy.",
+        "evidence_id": "M",
+        "quote": "investing in carbon capture, hydrogen, and marine energy"
+      }
+    ],
+    "rationale": "The policy commits to a step-change in renewable electricity generation: from roughly 14\u201317 GW across major technologies today to roughly 45\u201350 GW of offshore wind, 27\u201329 GW of onshore wind, and 45\u201347 GW of solar by 2030. If even substantially achieved, this would move the UK electricity grid to at least 95% low-carbon generation \u2014 a major structural reduction in emissions, directly improving O6's emissions trajectory indicator. NESO considers the target achievable, and real delivery progress is visible (nearly 60% of needed projects offered connection dates). The investment in CCS, hydrogen, and marine energy adds long-term decarbonisation depth beyond electricity.\n\nThe near-term picture is more muted: the clean energy infrastructure must be built before emissions fall materially, grid costs may push up bills in the short term, and there is no near-term biodiversity or air-quality impact from the policy text itself. The \u00a38.3 billion capitalisation, spread over a parliament, is comparatively modest against the \u00a330 billion per year in total capex estimated as needed \u2014 though GB Energy is a co-investor, not the sole funder, and the broader government action plan targets \u00a340 billion in annual private investment. The long-term direction is clearly positive for emissions and, by extension, for climate outcomes that underpin O6. The main risk is delivery speed: the required build-out is historically unprecedented in pace, and grid infrastructure constraints are real. Nonetheless, NESO's assessment and demonstrated early progress justify a 'major' long-term verdict, while near-term effects are more limited, warranting a time_split.",
+    "time_split": {
+      "near_direction": "negligible",
+      "long_direction": "improves",
+      "note": "Near-term emissions reductions are limited while infrastructure is being built; the major environmental gain arrives as zero-carbon capacity comes online across the decade and beyond."
+    },
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+        "publisher": "lgegroup.com",
+        "title": "lgegroup.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.carbonbrief.org/analysis-how-the-uk-plans-to-reach-clean-power-by-2030/",
+        "publisher": "carbonbrief.org",
+        "title": "carbonbrief.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://npowerbusinesssolutions.com/resources/clean-power-costs",
+        "publisher": "npowerbusinesssolutions.com",
+        "title": "npowerbusinesssolutions.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/environment/2026/jun/10/labour-renewable-energy-projects-halfway-long-delay",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.creatingsustainablecities.org.uk/post/labour-promised-us-cheaper-energy-bills-so-why-has-there-been-a-surprise-cap-rise-again",
+        "publisher": "creatingsustainablecities.org.uk",
+        "title": "creatingsustainablecities.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.rgueti.com/uncategorized/the-national-labour-promised-lower-energy-bills-so-why-are-they-rising-28-feb-2025/",
+        "publisher": "rgueti.com",
+        "title": "rgueti.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0527,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "Claims E13\u2013E15 (capacity figures) are cited as 'measurable' but sourced from lgegroup.com (a commercial energy broker). These capacity projections/targets are government/NESO modelled figures; the current baseline GW figures may be measurable but the sourcing via a commercial intermediary rather than NESO/DESNZ directly warrants caution. Not blocking but should be flagged."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E12 quote supports NESO's definition of 'clean power by 2030' but the claim also asserts NESO 'considers the target achievable' \u2014 that entailment is not present in the E12 quote itself. It is supported by E44 instead. The claim slightly overstates what E12 alone establishes, though E44 covers the gap. Minor split-sourcing issue, not blocking."
+        }
+      ],
+      "notes": "Verdict is broadly well-constructed. Direction 'improves', magnitude 'major', time_horizon 'long-term' are justified by the evidence with appropriate caveats. The time_split correctly separates near-term negligible from long-term improves. No lever leakage, no party blind issues, no false balance. The two warnings above are minor and do not block publication."
+    },
+    "gate": {
+      "kept": 10,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will create Great British Energy, a new publicly-owned company capitalised with \u00a38.3 billion, to co-invest with industry and trade unions in leading clean energy technologies and deploy local energy production. This is part of a mission to achieve cheaper, zero-carbon electricity by 2030, aiming to double onshore wind, triple solar, and quadruple offshore wind, while investing in carbon capture, hydrogen, and marine energy.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The policy includes a \u00a38.3 billion capitalisation for GB Energy, which will co-invest with industry and trade unions in clean energy technologies.",
+        "sources": [
+          {
+            "url": "https://energysavingtrust.org.uk/great-british-energy/",
+            "publisher": "energysavingtrust.org.uk",
+            "title": "energysavingtrust.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fullfact.org/government-tracker/great-british-energy/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "GB Energy, established by the Great British Energy Act 2025, is a publicly-owned company headquartered in Scotland.",
+        "sources": [
+          {
+            "url": "https://energysavingtrust.org.uk/great-british-energy/",
+            "publisher": "energysavingtrust.org.uk",
+            "title": "energysavingtrust.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fullfact.org/government-tracker/great-british-energy/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/labour-patrick-vallance-edf-energy-david-lynch-b2554473.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10088/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Great_British_Energy",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Its mandate is to drive investment in clean, home-grown energy production, partner with industry and trade unions in leading clean energy technologies, support capital-intensive projects, and deploy local energy production to benefit communities.",
+        "sources": [
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/labours-great-british-energy-and-national-wealth-fund-good-ideas-that-need-more-work/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fullfact.org/government-tracker/great-british-energy/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10088/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The company will not act as an energy retailer selling directly to consumers.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10088/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The initial \u00a38.3 billion funding for GB Energy is intended to be spread over the current parliament.",
+        "sources": [
+          {
+            "url": "https://energysavingtrust.org.uk/great-british-energy/",
+            "publisher": "energysavingtrust.org.uk",
+            "title": "energysavingtrust.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businessenergydeals.co.uk/blog/great-british-energy/",
+            "publisher": "businessenergydeals.co.uk",
+            "title": "businessenergydeals.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYX_SERoojwUx_mX4MTP14qDGsMSb6N-NzFGCFimLSJ37jzlq8B9GFdotibMPjiqbFzl0gKP62bWHdv5IWIW11iSRC59dK-zyhI8-4rRvNFE9mX_GYXE0AIx0jlSmbLYijqGCafTPdzWW2Veo8RNRl8uMThpSrGzov",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "However, there has been some reallocation; for instance, \u00a32.5 billion has been designated for Great British Energy \u2013 Nuclear (GBE-Nuclear) to develop small modular nuclear reactors.",
+        "sources": [
+          {
+            "url": "https://www.businessenergydeals.co.uk/blog/great-british-energy/",
+            "publisher": "businessenergydeals.co.uk",
+            "title": "businessenergydeals.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYX_SERoojwUx_mX4MTP14qDGsMSb6N-NzFGCFimLSJ37jzlq8B9GFdotibMPjiqbFzl0gKP62bWHdv5IWIW11iSRC59dK-zyhI8-4rRvNFE9mX_GYXE0AIx0jlSmbLYijqGCafTPdzWW2Veo8RNRl8uMThpSrGzov",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This reallocation has led some commentators to suggest GB Energy's budget has been \"effectively cut\" or \"raided,\" though the Department for Energy Security and Net Zero (DESNZ) states that nuclear projects were always part of the broader clean energy vision.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYX_SERoojwUx_mX4MTP14qDGsMSb6N-NzFGCFimLSJ37jzlq8B9GFdotibMPjiqbFzl0gKP62bWHdv5IWIW11iSRC59dK-zyhI8-4rRvNFE9mX_GYXE0AIx0jlSmbLYijqGCafTPdzWW2Veo8RNRl8uMThpSrGzov",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "GB Energy's strategic plan, published in December 2025, aims to support over 1,000 local and community energy projects and fund initiatives creating at least 10,000 jobs by 2030.",
+        "sources": [
+          {
+            "url": "https://www.gbe.gov.uk/strategic-plan-2025-html",
+            "publisher": "gbe.gov.uk",
+            "title": "gbe.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://fullfact.org/government-tracker/great-british-energy/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Early activities include a \u00a3200 million fund for rooftop solar on schools and NHS sites, and community energy funds in Scotland and Wales.",
+        "sources": [
+          {
+            "url": "https://www.brevia.co.uk/news/energy/a-year-in-power-labours-progress-on-energy-policy/",
+            "publisher": "brevia.co.uk",
+            "title": "brevia.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Labour's mission is to achieve a zero-carbon electricity system by 2030, which involves doubling onshore wind, tripling solar power, and quadrupling offshore wind capacity.",
+        "sources": [
+          {
+            "url": "https://www.isepglobal.org/resources/blogs/2024/06/labour-sets-out-plans-for-great-british-energy-at-manifesto-launch/",
+            "publisher": "isepglobal.org",
+            "title": "isepglobal.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The plan also includes investments in carbon capture and storage (CCS), hydrogen, and marine energy, alongside the development of long-term energy storage.",
+        "sources": [
+          {
+            "url": "https://www.isepglobal.org/resources/blogs/2024/06/labour-sets-out-plans-for-great-british-energy-at-manifesto-launch/",
+            "publisher": "isepglobal.org",
+            "title": "isepglobal.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The National Energy System Operator (NESO) has advised that achieving \"clean power by 2030\" means meeting 100% of electricity demand in a year with average weather conditions, with at least 95% of generation from low-carbon sources and no more than 5% from unabated gas.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/analysis-how-the-uk-plans-to-reach-clean-power-by-2030/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "To meet these goals, required capacities are projected to be:\n*   43-50 GW of offshore wind (from a current 14.8 GW)",
+        "sources": [
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   27-29 GW of onshore wind (from a current 14.2 GW)",
+        "sources": [
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   45-47 GW of solar power (from a current 16.6 GW)",
+        "sources": [
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   Significant increases in energy storage and flexibility technologies.",
+        "sources": [
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Electricity Prices:** Labour's policy aims to deliver \"cheaper, zero-carbon electricity\" by 2030, projecting savings of up to \u00a3300 a year per household, and potentially \u00a3400-\u00a3500 long-term.",
+        "sources": [
+          {
+            "url": "https://www.rgueti.com/uncategorized/the-national-labour-promised-lower-energy-bills-so-why-are-they-rising-28-feb-2025/",
+            "publisher": "rgueti.com",
+            "title": "rgueti.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/jun/06/could-labour-gb-energy-plan-future-proof-power-generation-uk",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Based on gas futures price projections, the mission is estimated to save UK households \u00a393 billion over the rest of the decade.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The argument is that renewables are significantly cheaper than gas, which has historically driven up electricity prices.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "However, some analysts, such as the Institute for Public Policy Research (IPPR), have warned that while GB Energy could eventually help cut bills, a \"systemic impact\" before 2030 might be \"unlikely.\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2025/mar/19/gb-energy-needs-full-83bn-fundingdisappoint-government-told",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "There are also concerns that the costs of building new infrastructure to support the transition could lead to increased non-commodity charges on energy bills in the short term, potentially eroding promised savings.",
+        "sources": [
+          {
+            "url": "https://www.creatingsustainablecities.org.uk/post/labour-promised-us-cheaper-energy-bills-so-why-has-there-been-a-surprise-cap-rise-again",
+            "publisher": "creatingsustainablecities.org.uk",
+            "title": "creatingsustainablecities.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rgueti.com/uncategorized/the-national-labour-promised-lower-energy-bills-so-why-are-they-rising-28-feb-2025/",
+            "publisher": "rgueti.com",
+            "title": "rgueti.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://npowerbusinesssolutions.com/resources/clean-power-costs",
+            "publisher": "npowerbusinesssolutions.com",
+            "title": "npowerbusinesssolutions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "**Energy Security:** The policy intends to reduce the UK's dependence on volatile international fossil fuel markets and enhance energy independence.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/environment/labour-great-british-energy-bills-cost-of-living/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/analysis-how-the-uk-plans-to-reach-clean-power-by-2030/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://eciu.net/media/press-releases/2024/poll-governments-clean-energy-blitz-meets-with-public-support",
+            "publisher": "eciu.net",
+            "title": "eciu.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The Energy and Climate Intelligence Unit (ECIU) highlights that rapid decarbonisation is essential to reduce reliance on volatile gas prices.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/environment/labour-great-british-energy-bills-cost-of-living/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**Jobs and Economic Growth:** Labour anticipates the creation of 650,000 new high-quality jobs across the country by 2030, and aims to rebuild domestic supply chains.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "GB Energy's strategic plan targets supporting at least 10,000 jobs by 2030.",
+        "sources": [
+          {
+            "url": "https://www.gbe.gov.uk/strategic-plan-2025-html",
+            "publisher": "gbe.gov.uk",
+            "title": "gbe.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://fullfact.org/government-tracker/great-british-energy/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The government's action plan suggests that meeting the clean power target could unlock an estimated \u00a340 billion in annual investment until 2030, leading to \"reindustrialisation.\"",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/analysis-how-the-uk-plans-to-reach-clean-power-by-2030/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "without increasing costs,\" but emphasizes that it will require \"doing things differently.\"",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/renewable-energy-costs/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.carbonbrief.org/analysis-how-the-uk-plans-to-reach-clean-power-by-2030/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "However, critics note the immense speed required for capacity expansion, effectively tripling some renewable sources in just five years, which they view as highly ambitious and potentially damaging to the economy.",
+        "sources": [
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Recently, NESO has offered connection dates to over 700 projects, representing nearly 60% of the schemes needed by 2030, following a two-year process to clear the backlog.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2026/jun/10/labour-renewable-energy-projects-halfway-long-delay",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The necessary overhaul of the national grid is estimated to require around \u00a360 billion in infrastructure investment and grow at four times the rate seen in the last decade.",
+        "sources": [
+          {
+            "url": "https://npowerbusinesssolutions.com/resources/clean-power-costs",
+            "publisher": "npowerbusinesssolutions.com",
+            "title": "npowerbusinesssolutions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** The IFS noted that Labour's overall green investment program, which includes GB Energy, has been scaled back from earlier promises, now standing at approximately \u00a324 billion in additional investment over the next parliament, partly funded by an extended windfall tax on oil and gas producers.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEySeC4b2hBQyOkAFb5wD4nmuD_pjmh2FBv7_w7ICMnwOW54S44rj7VLPMxIM47jpBDE0p4Iu2XD5Ujb_0eCrCZ5tn-kJaIJ_uDcqETqkWOkK13mJ8j1c9z7XiyWZeimv0DkE-HThEGECofbWKQ5tASnx1EViHskqy8yE8dH6PVtVtcPi80fwkl-hFCgDIpgw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "They indicated that this revised figure should be consistent with fiscal rules, provided planned squeezes on public service budgets are implemented.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEySeC4b2hBQyOkAFb5wD4nmuD_pjmh2FBv7_w7ICMnwOW54S44rj7VLPMxIM47jpBDE0p4Iu2XD5Ujb_0eCrCZ5tn-kJaIJ_uDcqETqkWOkK13mJ8j1c9z7XiyWZeimv0DkE-HThEGECofbWKQ5tASnx1EViHskqy8yE8dH6PVtVtcPi80fwkl-hFCgDIpgw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Resolution Foundation:** This think tank has highlighted that shifting energy and social policy costs from household bills to general taxation could save the poorest fifth of households around \u00a3110 annually, with almost three-quarters of households benefiting overall.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/bringing-government-energy-policies-in-house-could-save-the-poorest-households-110-a-year/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **House of Commons Library:** The Library has produced briefings outlining the purpose, funding, and aims of the Great British Energy Bill, emphasizing its role in improving energy security, creating wealth and jobs, and accelerating renewable energy deployment.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/energy-policy-research-legislation/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10088/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "They also discuss the significant investment needed for supporting infrastructure.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/renewable-energy-costs/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Energy and Climate Intelligence Unit (ECIU):** The ECIU has expressed support for rapid decarbonisation, arguing it is crucial to protect consumers from the volatility of international gas markets.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/environment/labour-great-british-energy-bills-cost-of-living/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Institute for Public Policy Research (IPPR):** The IPPR warned in March 2025 that if the full \u00a38.3 billion budget for GB Energy were cut, it would be unlikely to amass a portfolio large enough to have a \"systemic impact\" on the UK energy system before 2030, potentially disappointing voters hoping for cheaper energy bills.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2025/mar/19/gb-energy-needs-full-83bn-fundingdisappoint-government-told",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Common Wealth (think tank):** Common Wealth argues for a more ambitious approach, advocating for full public ownership and coordination of investments.",
+        "sources": [
+          {
+            "url": "https://www.common-wealth.org/publications/common-wealths-vision-for-gbe",
+            "publisher": "common-wealth.org",
+            "title": "common-wealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.energymonitor.ai/features/an-ambitious-plan-for-great-british-energy/",
+            "publisher": "energymonitor.ai",
+            "title": "energymonitor.ai",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "They suggest that the initial \u00a38.3 billion for GB Energy is \"small\" compared to the estimated \u00a330 billion per year in capital expenditure needed for generation by the end of the decade.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/environment/labour-great-british-energy-bills-cost-of-living/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.common-wealth.org/publications/common-wealths-vision-for-gbe",
+            "publisher": "common-wealth.org",
+            "title": "common-wealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "They believe public ownership could lead to greater certainty and cost benefits by allowing investment decisions to be based on system-level needs rather than solely on project-level returns.",
+        "sources": [
+          {
+            "url": "https://www.energymonitor.ai/features/an-ambitious-plan-for-great-british-energy/",
+            "publisher": "energymonitor.ai",
+            "title": "energymonitor.ai",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "Common Wealth, for instance, views the funding as comparatively small.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/environment/labour-great-british-energy-bills-cost-of-living/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.common-wealth.org/publications/common-wealths-vision-for-gbe",
+            "publisher": "common-wealth.org",
+            "title": "common-wealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   **Timeline for Bill Reductions:** While Labour promises lower energy bills by 2030, some industry analysts, like Energy UK, have cautioned that the full effects might not be felt by that deadline.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2025/mar/19/gb-energy-needs-full-83bn-fundingdisappoint-government-told",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "Others point out that significant infrastructure investment costs could initially increase consumer bills through non-commodity charges before long-term savings materialize.",
+        "sources": [
+          {
+            "url": "https://www.creatingsustainablecities.org.uk/post/labour-promised-us-cheaper-energy-bills-so-why-has-there-been-a-surprise-cap-rise-again",
+            "publisher": "creatingsustainablecities.org.uk",
+            "title": "creatingsustainablecities.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rgueti.com/uncategorized/the-national-labour-promised-lower-energy-bills-so-why-are-they-rising-28-feb-2025/",
+            "publisher": "rgueti.com",
+            "title": "rgueti.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://npowerbusinesssolutions.com/resources/clean-power-costs",
+            "publisher": "npowerbusinesssolutions.com",
+            "title": "npowerbusinesssolutions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "*   **Feasibility of 2030 Targets:** Although NESO deems the 2030 clean power target \"achievable,\" the rapid acceleration of renewable capacity required, such as tripling solar and doubling onshore wind in just a few years, presents a formidable challenge that some critics view as overly ambitious.",
+        "sources": [
+          {
+            "url": "https://lgegroup.com/the-impact-of-clean-power-2030-on-your-energy-costs/",
+            "publisher": "lgegroup.com",
+            "title": "lgegroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "Grid infrastructure upgrades and connection speeds are a critical factor in this feasibility.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6XChj7maxJI",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2026/jun/10/labour-renewable-energy-projects-halfway-long-delay",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://npowerbusinesssolutions.com/resources/clean-power-costs",
+            "publisher": "npowerbusinesssolutions.com",
+            "title": "npowerbusinesssolutions.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

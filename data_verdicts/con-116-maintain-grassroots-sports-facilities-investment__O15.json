@@ -1,0 +1,634 @@
+{
+  "policy_id": "con-116-maintain-grassroots-sports-facilities-investment",
+  "party": "Conservative",
+  "policy_title": "Maintain Grassroots Sports Facilities Investment",
+  "outcome": "O15",
+  "verdict": {
+    "outcome": "O15",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Continuing investment in grassroots sports facilities can help build community connections and a sense of belonging, especially in deprived areas. However, the cohesion benefit depends on whether facilities actually draw mixed groups together, and the evidence linking this specific programme to social trust is indirect.",
+    "biggest_unknown": "Whether the funded facilities function as genuine inter-group community hubs that raise social trust, or primarily serve existing participants without measurably shifting cohesion indicators.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to maintaining investment in grassroots sports facilities through continuation of the Multi-Sport Grassroots Facilities Programme, expanding criteria to more sports.",
+        "evidence_id": "M",
+        "quote": "maintain the pace of investment in grassroots sports facilities over the next Parliament through the continuation of the Multi-Sport Grassroots Facilities Programme, expanding criteria to benefit more sports"
+      },
+      {
+        "tier": "stated",
+        "claim": "50% of investment will target the 30% most deprived areas, and at least 40% of funded projects must offer a multi-sport approach.",
+        "evidence_id": "E9",
+        "quote": "50% of the investment will target the 30% most deprived areas in the UK, and at least 40% of funded projects must offer a multi-sport approach"
+      },
+      {
+        "tier": "projected",
+        "claim": "Modern sports facilities act as community hubs that foster social connection and personal development, especially for young people.",
+        "evidence_id": "E14",
+        "quote": "Modern sports facilities act as vital community hubs, fostering social connection, teamwork, and personal development, especially for young people"
+      },
+      {
+        "tier": "projected",
+        "claim": "Accessible facilities are particularly important for increasing participation among underrepresented groups, helping build a greater sense of belonging and community spirit.",
+        "evidence_id": "E17",
+        "quote": "Accessible facilities are particularly important for increasing participation among underrepresented groups, helping to build a greater sense of belonging and community spirit"
+      },
+      {
+        "tier": "projected",
+        "claim": "A University of Kent study using ONS data found that a higher number of sports facilities per 10,000 people was associated with greater life satisfaction and lower anxiety.",
+        "evidence_id": "E24",
+        "quote": "a higher number of sports facilities per 10,000 people was associated with greater life satisfaction and lower anxiety, particularly for males and adults aged 50-65"
+      }
+    ],
+    "rationale": "The policy continues and expands an established programme (\u00a3420m already delivered) with explicit targeting of deprived communities. The deprivation focus (50% of spend to the 30% most deprived areas) and multi-sport requirement create conditions that research associates with improved belonging and inter-group contact \u2014 both direct O15 indicators. The University of Kent/ONS analysis provides modest observational evidence that facility density correlates with life satisfaction, and the community-hub literature links sports spaces to social connection. However, all the cohesion evidence is projected/observational: no cited source demonstrates that this specific programme causally raises social trust or civic participation at population scale. The mechanism is plausible but not proven to fire. The counterfactual matters: absent this policy, deprived-area facilities would likely decline (given IFS evidence of DCMS budget pressures), so continuation has genuine additionality. The effect is real but modest \u2014 facility investment is one distal input into cohesion, not a direct intervention on trust or hate-crime. Magnitude is therefore minor rather than moderate.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+        "publisher": "hansard.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.yorkshiresport.org/whats-new/news/new-and-upgraded-grassroots-sport-facilities-to-get-the-uk-active",
+        "publisher": "yorkshiresport.org",
+        "title": "yorkshiresport.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://stmworld.co.uk/blog/post/how-sports-facilities-create-long-term-community-impact",
+        "publisher": "stmworld.co.uk",
+        "title": "stmworld.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+        "publisher": "media.kent.ac.uk",
+        "title": "kent.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzLm0daB-nlB-bysm-IeuNOHUI_vM_hTYeDWdcq62TJay6RD3pnGADgZA5C6WU3epNFwYeQtU9OKvOYO3EyYaOwMw0DBJQRCOCpeDlLqD1oc4FLDI5P8PbbIZiO-qeEDhJ_Us=",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "mdpi.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/369469922_Local_Impact_of_a_Sports_Centre_Effects_on_Future_Intentions",
+        "publisher": "researchgate.net",
+        "title": "researchgate.net",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0359,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E14 and E17 are sourced from stmworld.co.uk, a commercial/advocacy-adjacent media site, and researchgate.net summaries. These are the primary claims linking sports facilities to community cohesion and belonging. They are labelled 'projected' which is correct, but the verdict should note these are not peer-reviewed institutional sources and cannot alone carry the cohesion mechanism argument."
+        },
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "The 'stated' claim citing E9 (50% targeting deprived areas, 40% multi-sport) is presented as 'stated' tier but E9 is sourced from Hansard/yorkshiresport.org programme descriptions, not the policy text itself. The manifesto text (M) does not contain these specifics. This should be 'measurable' tier at best, not 'stated'."
+        }
+      ],
+      "notes": "The verdict is broadly sound: direction 'improves', magnitude 'minor', confidence 'low' are well-calibrated given the indirect and observational evidence base. The biggest_unknown is honestly stated. The rationale does not impute party motive and treats the evidence tiers appropriately. The tier_integrity issue with E9 is a labelling concern but does not materially distort the verdict. No false_balance or lever_leakage detected. Publication can proceed with the warnings addressed."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The programme had already delivered over \u00a3420 million between 2021 and 2026.",
+          "evidence_id": "E7",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will maintain the pace of investment in grassroots sports facilities over the next Parliament through the continuation of the Multi-Sport Grassroots Facilities Programme, expanding criteria to benefit more sports.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Multi-Sport Grassroots Facilities Programme (MSGFP) is a government initiative aimed at making essential improvements to sports facilities across the UK",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0242/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This includes expanding the criteria to benefit a wider range of sports, explicitly mentioning rugby, cricket, and basketball",
+        "sources": [
+          {
+            "url": "https://www.yorkshiresport.org/whats-new/news/new-and-upgraded-grassroots-sport-facilities-to-get-the-uk-active",
+            "publisher": "yorkshiresport.org",
+            "title": "yorkshiresport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0242/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "A key focus of the programme is to remove barriers to physical activity, particularly by delivering facilities in areas with the greatest need",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Specific funding commitments for the MSGFP include:\n*   **\u00a3400 million** allocated for grassroots sport facilities across the UK between 2025 and 2030",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9852/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.yorkshiresport.org/whats-new/news/new-and-upgraded-grassroots-sport-facilities-to-get-the-uk-active",
+            "publisher": "yorkshiresport.org",
+            "title": "yorkshiresport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/chair-welcomes-major-government-investment-grassroots-sport",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **\u00a398 million** committed for projects in the financial year 2025/26",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/multi-sport-grassroots-facilities-programme-projects-2025-to-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **\u00a385 million** allocated for 2026/27",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9852/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.yorkshiresport.org/whats-new/news/new-and-upgraded-grassroots-sport-facilities-to-get-the-uk-active",
+            "publisher": "yorkshiresport.org",
+            "title": "yorkshiresport.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   The programme had already delivered over **\u00a3420 million** between 2021 and 2026",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0242/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The policy prioritises increased participation for underrepresented groups, such as women and girls, disabled players, and communities in deprived areas",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/multi-sport-grassroots-facilities-programme-projects-2025-to-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.yorkshiresport.org/whats-new/news/new-and-upgraded-grassroots-sport-facilities-to-get-the-uk-active",
+            "publisher": "yorkshiresport.org",
+            "title": "yorkshiresport.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://thefsa.org.uk/news/football-and-the-general-election-what-do-the-manifestos-say/",
+            "publisher": "thefsa.org.uk",
+            "title": "thefsa.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Moving forward, 50% of the investment will target the 30% most deprived areas in the UK, and at least 40% of funded projects must offer a multi-sport approach",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.yorkshiresport.org/whats-new/news/new-and-upgraded-grassroots-sport-facilities-to-get-the-uk-active",
+            "publisher": "yorkshiresport.org",
+            "title": "yorkshiresport.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Funding is delivered through partners like the Football Foundation in England, Cymru Football Foundation in Wales, and the Football Associations in Scotland and Northern Ireland",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/multi-sport-grassroots-facilities-programme-projects-2025-to-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Increased Physical Activity and Improved Health:** Access to high-quality sports facilities encourages regular physical activity across all age groups, supporting grassroots sports programmes, school PE lessons, and recreational exercise",
+        "sources": [
+          {
+            "url": "https://stmworld.co.uk/blog/post/how-sports-facilities-create-long-term-community-impact",
+            "publisher": "stmworld.co.uk",
+            "title": "stmworld.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "It also improves mental health, cognitive health, sleep, and overall well-being",
+        "sources": [
+          {
+            "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+            "publisher": "who.int",
+            "title": "who.int",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.heartfoundation.org.au/healthy-living/physical-activity/physical-activity-and-exercise",
+            "publisher": "heartfoundation.org.au",
+            "title": "heartfoundation.org.au",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.who.int/health-topics/physical-activity",
+            "publisher": "who.int",
+            "title": "who.int",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The World Health Organization (WHO) highlights that physical inactivity is a leading risk factor for NCD mortality and is projected to cost global healthcare systems approximately US$300 billion between 2020 and 2030 if current levels persist",
+        "sources": [
+          {
+            "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+            "publisher": "who.int",
+            "title": "who.int",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.who.int/health-topics/physical-activity",
+            "publisher": "who.int",
+            "title": "who.int",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Enhanced Community Engagement and Social Cohesion:** Modern sports facilities act as vital community hubs, fostering social connection, teamwork, and personal development, especially for young people",
+        "sources": [
+          {
+            "url": "https://stmworld.co.uk/blog/post/how-sports-facilities-create-long-term-community-impact",
+            "publisher": "stmworld.co.uk",
+            "title": "stmworld.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+            "publisher": "media.kent.ac.uk",
+            "title": "kent.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzLm0daB-nlB-bysm-IeuNOHUI_vM_hTYeDWdcq62TJay6RD3pnGADgZA5C6WU3epNFwYeQtU9OKvOYO3EyYaOwMw0DBJQRCOCpeDlLqD1oc4FLDI5P8PbbIZiO-qeEDhJ_Us=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "mdpi.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "They create safe, structured environments that can reduce anti-social behaviour, encourage routine, and promote positive mentorship",
+        "sources": [
+          {
+            "url": "https://stmworld.co.uk/blog/post/how-sports-facilities-create-long-term-community-impact",
+            "publisher": "stmworld.co.uk",
+            "title": "stmworld.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Investment in these facilities can increase community pride and contribute to local regeneration",
+        "sources": [
+          {
+            "url": "https://stmworld.co.uk/blog/post/how-sports-facilities-create-long-term-community-impact",
+            "publisher": "stmworld.co.uk",
+            "title": "stmworld.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Accessible facilities are particularly important for increasing participation among underrepresented groups, helping to build a greater sense of belonging and community spirit",
+        "sources": [
+          {
+            "url": "https://stmworld.co.uk/blog/post/how-sports-facilities-create-long-term-community-impact",
+            "publisher": "stmworld.co.uk",
+            "title": "stmworld.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+            "publisher": "media.kent.ac.uk",
+            "title": "kent.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.researchgate.net/publication/369469922_Local_Impact_of_a_Sports_Centre_Effects_on_Future_Intentions",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Sport England's research indicates that the annual social value of community sport and physical activity was an estimated \u00a3122.9 billion in 2023/24, with a **return on investment of \u00a34.38 for every \u00a31 spent**",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The broader sport sector's overall economic output for the UK was \u00a399.6 billion in 2024, with a Gross Value Added (GVA) of \u00a346.7 billion",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/research-and-data/research/social-value-and-return-investment-sport-and-physical-activity",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This demonstrates that investment in grassroots facilities is not only good for public health but also a \"smart investment in the nation\u2019s social and economic wellbeing\"",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/chair-welcomes-major-government-investment-grassroots-sport",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Their chair, Chris Boardman, emphasized the \"pivotal role\" of pitches, pools, and leisure centres in keeping people active and highlighted the significant economic return on investment",
+        "sources": [
+          {
+            "url": "https://www.sportengland.org/news-and-inspiration/chair-welcomes-major-government-investment-grassroots-sport",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Sport England's \"Uniting the Movement\" strategy aligns with targeting resources to areas with the highest inactivity levels and social needs, using evidence-based strategies from their Active Lives surveys and other social data",
+        "sources": [
+          {
+            "url": "https://activepartnerships.org/news/sport-england-announces-unprecedented-investment-into-local-communities/",
+            "publisher": "activepartnerships.org",
+            "title": "activepartnerships.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sportengland.org/funding-and-campaigns/our-work-places",
+            "publisher": "sportengland.org",
+            "title": "sportengland.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/133739/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **House of Commons Library:** Provides factual briefings detailing government funding for grassroots sport, confirming the Multi-Sport Grassroots Facilities Programme's aims and funding figures",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9852/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0242/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Office for National Statistics (ONS):** While not providing direct policy commentary, a University of Kent dissertation utilising the ONS Sports Facilities dataset found that a higher number of sports facilities per 10,000 people was associated with greater life satisfaction and lower anxiety, particularly for males and adults aged 50-65",
+        "sources": [
+          {
+            "url": "https://media.www.kent.ac.uk/se/53041/OliverMcSwiney.pdf",
+            "publisher": "media.kent.ac.uk",
+            "title": "kent.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They consistently highlight that physical inactivity leads to increased risks of chronic diseases and significant healthcare costs, implicitly endorsing policies that improve access to sports facilities",
+        "sources": [
+          {
+            "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+            "publisher": "who.int",
+            "title": "who.int",
+            "source_type": "media"
+          },
+          {
+            "url": "https://world-heart-federation.org/news/whf-policy-brief-on-physical-activity-more-people-more-active-more-often-for-heart-health/",
+            "publisher": "world-heart-federation.org",
+            "title": "world-heart-federation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.heartfoundation.org.au/healthy-living/physical-activity/physical-activity-and-exercise",
+            "publisher": "heartfoundation.org.au",
+            "title": "heartfoundation.org.au",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.who.int/health-topics/physical-activity",
+            "publisher": "who.int",
+            "title": "who.int",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "A 2025 IFS analysis of a Spending Review noted that the Department for Culture, Media & Sport (DCMS), which oversees sports funding, was facing \"outright budget cuts\" in some areas",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/spending-review-2025-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The IFS noted that the Department for Culture, Media & Sport (DCMS) was facing \"outright budget cuts\" in some areas in 2025",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/spending-review-2025-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "An older (2015) academic perspective also highlighted a historical critique that Conservative manifestos sometimes prioritised elite sport or failed to adequately address declining participation and the impact of austerity on grassroots sport",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN1BAiM4q8emER3NoUdVG_CcQT62Au74zVz0BDRqKO9yuACigRj-r56ENsD30gryAYm9tCUm08hlFPoLAdwDC95KHc6W02QFgoc-U0-_7ZfTVbCMqh2u_71dTDGaEe2sF_v9UrHVSG6-mbZYOJgdLifBwkUEB1SvgLb4vyEYImk-0-JcUEjKYsrbyGDM0xOg7q3_0y1ePriC5elKU1mYrNObLXwZaOaPrk5pEwJmp9sts=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ed.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, the current policy's explicit focus on \"grassroots\" and \"multi-sport\" aims to address these concerns by ensuring broader access and multi-sport provision, with a strong emphasis on deprived communities and underrepresented groups",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-27/debates/26012767000009/GrassrootsSportsFacilities",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.yorkshiresport.org/whats-new/news/new-and-upgraded-grassroots-sport-facilities-to-get-the-uk-active",
+            "publisher": "yorkshiresport.org",
+            "title": "yorkshiresport.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

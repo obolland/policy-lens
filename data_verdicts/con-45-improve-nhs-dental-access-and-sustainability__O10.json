@@ -1,0 +1,809 @@
+{
+  "policy_id": "con-45-improve-nhs-dental-access-and-sustainability",
+  "party": "Conservative",
+  "policy_title": "Improve NHS Dental Access and Sustainability",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "high",
+    "plain": "This dental access policy has almost no bearing on personal liberty, free speech, surveillance, or bodily autonomy for ordinary people. The one element with a liberty dimension \u2014 requiring newly qualified dentists to work in the NHS or repay training costs \u2014 remained at consultation stage and has not been enacted.",
+    "biggest_unknown": "Whether the graduate tie-in, if ultimately implemented, would constitute a meaningful constraint on occupational freedom depends on its final design, but even then its effect on O10 for the general public is negligible.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The plan proposes requiring newly qualified dentists to work in the NHS or repay training costs.",
+        "evidence_id": "M",
+        "quote": "require newly qualified dentists to work in the NHS or repay training costs"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A consultation on introducing a tie-in for graduate dentists was launched in May 2024 but had not received a government response as of June 2025.",
+        "evidence_id": "E15",
+        "quote": "The government launched a consultation on this in May 2024, but had not yet responded as of June 2025."
+      }
+    ],
+    "rationale": "O10 concerns freedom from state coercion over speech, bodies, and choices \u2014 surveillance, mandates, detention, licensing, and property rights. The bulk of this dental policy \u2014 patient premiums, UDA uplifts, golden hellos, oral health promotion \u2014 has no plausible mechanism for affecting any of these indicators for ordinary people. The one element that touches O10 is the proposed graduate tie-in: requiring newly qualified dentists to perform NHS work or repay training costs. This is a conditional occupational obligation attached to receipt of publicly funded training. It affects a narrow professional group, not the general public, and as the evidence shows, remained at consultation stage with no enacted instrument as of June 2025. Under the soft-verb/no-deliverable rule, an unresponded consultation does not constitute a delivered mechanism. Even if enacted, the liberty effect on the broader population \u2014 the core O10 population \u2014 would be negligible; the constraint falls only on a specific subset of newly qualified professionals who chose a publicly subsidised training pathway. The direction is therefore negligible, with at most a minor and time-limited effect on the occupational freedom of a small professional cohort within this parliament.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://dentistry.co.uk/app/uploads/2024/06/CBP-9597.pdf",
+        "publisher": "dentistry.co.uk",
+        "title": "dentistry.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0686,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-reasoned and appropriately scoped. The direction of 'negligible' is justified: the bulk of the policy has no O10 mechanism, and the only liberty-relevant element (graduate tie-in) was unresponded consultation as of the evidence cutoff. Claims are supported by quoted evidence. Tier integrity is sound \u2014 E15 is correctly labelled measurable (factual status of a consultation). No lever leakage, no party-blind issues, no false balance concerns (negligible is not mixed/too-uncertain so false_balance check does not apply). The magnitude/time_horizon pairing with a negligible direction is technically inconsistent with the 'n/a' rule \u2014 the schema requires magnitude and time_horizon to be 'n/a' only when direction is 'too-uncertain', not 'negligible', so 'minor' and 'this-parliament' are permissible here. No blocking issues found."
+    },
+    "gate": {
+      "kept": 2,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party's Dental Recovery Plan will unlock 2.5 million more NHS dental appointments through a patient premium, reform the dental contract, require newly qualified dentists to work in the NHS or repay training costs, and promote oral health through 'Smile for Life' and 'golden hellos' for rural dentists.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "However, analyses from credible bodies such as the National Audit Office (NAO), the House of Commons Committee of Public Accounts (PAC), and the British Dental Association (BDA) indicate that the plan has largely failed to achieve its stated objectives, with some initiatives even coinciding with a decline in new patient access.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/648/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/society/2025/apr/04/plan-increase-access-nhs-dentists-england-complete-failure-mps",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/news-and-opinion/news/the-recovery-plan-a-damning-verdict/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/long-read/data-analysis-impact-of-the-dental-recovery-plan/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/dental-recovery-plan-unlikely-to-deliver-target-of-15m-additional-treatments",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/house-of-commons-committee-of-public-accounts-fixing-nhs-dentistry-r13199/",
+            "publisher": "pslhub.org",
+            "title": "pslhub.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Payments are \u00a315 for a Band 1 course of treatment and \u00a350 for a Band 2 or 3 course of treatment, in addition to standard NHS funding.",
+        "sources": [
+          {
+            "url": "https://www.steve-tuckwell.uk/news/conservative-govt-nhs-dental-recovery-plan",
+            "publisher": "steve-tuckwell.uk",
+            "title": "steve-tuckwell.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2024/11/27/dental-recovery-plan-what-has-it-achieved-so-far/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/nhs-recovery-plan-unworthy-of-the-title-say-dentists/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/our-plan-to-recover-and-reform-nhs-dentistry/faster-simpler-and-fairer-our-plan-to-recover-and-reform-nhs-dentistry",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://networks.nhs.uk/blog/dental-recovery-plan-new-patient-premium/",
+            "publisher": "networks.nhs.uk",
+            "title": "networks.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The scheme was launched in March 2024 and intended to run until March 2025.",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/news-and-opinion/blog/the-dental-recovery-plan-what-does-it-mean-for-you/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/long-read/update-on-the-dental-recovery-plan/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "NHS England's analysis showed that total new patients per working day declined by 5% over 2024/25, with adult new patients decreasing by 8%, despite the premium.",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/data-analysis-impact-of-the-dental-recovery-plan/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The PAC reported that this initiative, costing at least \u00a388 million, resulted in 3% *fewer* new patients being seen since its introduction.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/apr/04/plan-increase-access-nhs-dentists-england-complete-failure-mps",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The BDA noted that the funding for this premium was not new money, but rather recycled from anticipated underspends in the existing dental budget.",
+        "sources": [
+          {
+            "url": "https://www.bda.org/media-centre/nhs-recovery-plan-unworthy-of-the-title-say-dentists/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/dental-recovery-plan-unlikely-to-deliver-target-of-15m-additional-treatments",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Reform the Dental Contract (UDA Uplift)**\n*   **Policy:** Increase the minimum value of a Unit of Dental Activity (UDA) from \u00a323 to \u00a328 to make NHS work more attractive and sustainable.",
+        "sources": [
+          {
+            "url": "https://www.steve-tuckwell.uk/news/conservative-govt-nhs-dental-recovery-plan",
+            "publisher": "steve-tuckwell.uk",
+            "title": "steve-tuckwell.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2024/11/27/dental-recovery-plan-what-has-it-achieved-so-far/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/our-plan-to-recover-and-reform-nhs-dentistry/faster-simpler-and-fairer-our-plan-to-recover-and-reform-nhs-dentistry",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "High-performing practices were also enabled to deliver up to 110% of their contracted activity.",
+        "sources": [
+          {
+            "url": "https://www.steve-tuckwell.uk/news/conservative-govt-nhs-dental-recovery-plan",
+            "publisher": "steve-tuckwell.uk",
+            "title": "steve-tuckwell.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/our-plan-to-recover-and-reform-nhs-dentistry/faster-simpler-and-fairer-our-plan-to-recover-and-reform-nhs-dentistry",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Real-world Effects & Expert Analysis:** NHS England found that increasing the minimum UDA value to \u00a328 did not lead to an increase in service delivery in these contracts compared to other low-value contracts.",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/data-analysis-impact-of-the-dental-recovery-plan/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The BDA estimated that only around 700 to 900 of the approximately 8,000 NHS contract holders in England would benefit from this higher UDA rate.",
+        "sources": [
+          {
+            "url": "https://www.bda.org/media-centre/nhs-recovery-plan-unworthy-of-the-title-say-dentists/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/news-and-opinion/blog/the-dental-recovery-plan-what-does-it-mean-for-you/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Nigel Carter, Chief Executive of the Oral Health Foundation, stated that while the UDA payment increase is a positive step, it \"falls short for high-needs patients\" and does not adequately address the fundamentally \"broken contract\" and \"outdated\" UDA system.",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The House of Commons Health and Social Care Committee and other stakeholders have also argued that these changes do not go far enough, calling for more fundamental reform, including moving away from the UDA system entirely.",
+        "sources": [
+          {
+            "url": "https://dentistry.co.uk/app/uploads/2024/06/CBP-9597.pdf",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Require Newly Qualified Dentists to Work in the NHS or Repay Training Costs (Tie-in)**\n*   **Policy:** The plan proposed a consultation on introducing a 'tie-in' for graduate dentists, requiring them to deliver NHS activity for a minimum period after graduation.",
+        "sources": [
+          {
+            "url": "https://dentistry.co.uk/2024/11/27/dental-recovery-plan-what-has-it-achieved-so-far/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/app/uploads/2024/06/CBP-9597.pdf",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The 10-Year Health Plan, published in July 2025, subsequently set out a requirement for a minimum three-year NHS service for new dental graduates.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9597/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Real-world Effects & Expert Analysis:** The government launched a consultation on this in May 2024, but had not yet responded as of June 2025.",
+        "sources": [
+          {
+            "url": "https://dentistry.co.uk/app/uploads/2024/06/CBP-9597.pdf",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9597/CBP-9597.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The aim is to increase the number of NHS dentists, as almost one-third of registered dentists (around 11,000 out of 35,000) are not currently contributing to NHS dentistry.",
+        "sources": [
+          {
+            "url": "https://ldc.org.uk/impact-statement-the-10-year-health-plan-for-england-dental-summary/",
+            "publisher": "ldc.org.uk",
+            "title": "ldc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "However, critics, such as the LDC Confederation, question if simply importing a workforce will address the fundamental issues around how the NHS contract operates, as many dentists may still prefer private practice.",
+        "sources": [
+          {
+            "url": "https://ldc.org.uk/dental-recovery-plan-what-does-it-mean-for-ldcs/",
+            "publisher": "ldc.org.uk",
+            "title": "ldc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Oral Health Foundation believes expanding undergraduate training by 40% (as part of the NHS Long Term Workforce Plan) \"falls short of addressing the immediate shortage of NHS dentists.\"",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Promote Oral Health through 'Smile for Life' and 'Golden Hellos' for Rural Dentists**\n*   **'Smile for Life' Oral Health Promotion:**\n    *   **Policy:** A programme to promote preventative measures, offering advice for parents-to-be on baby gums and milk teeth, and implementing tooth brushing as part of the daily routine for babies and toddlers in nurseries.",
+        "sources": [
+          {
+            "url": "https://www.steve-tuckwell.uk/news/conservative-govt-nhs-dental-recovery-plan",
+            "publisher": "steve-tuckwell.uk",
+            "title": "steve-tuckwell.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2024/11/27/dental-recovery-plan-what-has-it-achieved-so-far/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2025/02/14/dental-recovery-plan-has-failed-nhs-leaders-admit/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthmedia.blog.gov.uk/2024/02/07/dental-recovery-plan-everything-you-need-to-know/",
+            "publisher": "healthmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Mobile dental teams would also provide fluoride varnish treatments to over 165,000 children in underserved areas.",
+        "sources": [
+          {
+            "url": "https://healthmedia.blog.gov.uk/2024/02/07/dental-recovery-plan-everything-you-need-to-know/",
+            "publisher": "healthmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Real-world Effects & Expert Analysis:** This initiative is part of a broader \u00a3300 million three-year initiative involving Family Hubs and Start for Life in 75 upper-tier local authorities.",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Nigel Carter of the Oral Health Foundation sees potential positivity if school dental nurses expand beyond epidemiology to include practical interventions like fluoride varnishes.",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **'Golden Hellos' for Rural Dentists:**\n    *   **Policy:** One-off payments of up to \u00a320,000 for around 240 dentists who commit to working in under-served areas for at least three years.",
+        "sources": [
+          {
+            "url": "https://www.steve-tuckwell.uk/news/conservative-govt-nhs-dental-recovery-plan",
+            "publisher": "steve-tuckwell.uk",
+            "title": "steve-tuckwell.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/2024/11/27/dental-recovery-plan-what-has-it-achieved-so-far/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthmedia.blog.gov.uk/2024/02/07/dental-recovery-plan-everything-you-need-to-know/",
+            "publisher": "healthmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://dentistry.co.uk/app/uploads/2024/06/CBP-9597.pdf",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/our-plan-to-recover-and-reform-nhs-dentistry/faster-simpler-and-fairer-our-plan-to-recover-and-reform-nhs-dentistry",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.healthwatchlambeth.org.uk/advice-and-information/2024-02-22/what-new-dental-recovery-plan-means-you",
+            "publisher": "healthwatchlambeth.org.uk",
+            "title": "healthwatchlambeth.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/news-and-opinion/blog/the-dental-recovery-plan-what-does-it-mean-for-you/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Real-world Effects & Expert Analysis:** By February 2025, the PAC reported that fewer than 20% of the expected 240 dentists had been appointed through this scheme.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/apr/04/plan-increase-access-nhs-dentists-england-complete-failure-mps",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The NAO noted significant delays, with the first dentist hired using a 'Golden Hello' payment only in October 2024.",
+        "sources": [
+          {
+            "url": "https://www.bda.org/news-and-opinion/news/the-recovery-plan-a-damning-verdict/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Concerns exist that these incentives may merely shift recruitment problems from one area to another, rather than increasing the overall number of NHS dentists.",
+        "sources": [
+          {
+            "url": "https://www.bda.org/news-and-opinion/blog/the-dental-recovery-plan-what-does-it-mean-for-you/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Additionally, dental vans, intended to reach isolated communities, were not deployed following the change in government in summer 2024, and no vans had been procured by November 2024.",
+        "sources": [
+          {
+            "url": "https://www.bda.org/news-and-opinion/news/the-recovery-plan-a-damning-verdict/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/long-read/data-analysis-impact-of-the-dental-recovery-plan/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The House of Commons Committee of Public Accounts stated in April 2025 that the plan has \"comprehensively failed to deliver improvements in access to NHS dentistry\" and that \"some of the government's initiatives have worsened the crisis.\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/apr/04/plan-increase-access-nhs-dentists-england-complete-failure-mps",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pslhub.org/learn/patient-safety-in-health-and-care/care-settings/dentist/house-of-commons-committee-of-public-accounts-fixing-nhs-dentistry-r13199/",
+            "publisher": "pslhub.org",
+            "title": "pslhub.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The National Audit Office concluded in November 2024 that the plan was \"unlikely to deliver\" its target of 1.5 million additional treatments, and even if met, would still leave 2.6 million fewer treatments annually compared to pre-pandemic levels.",
+        "sources": [
+          {
+            "url": "https://www.bda.org/news-and-opinion/news/the-recovery-plan-a-damning-verdict/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/dental-recovery-plan-unlikely-to-deliver-target-of-15m-additional-treatments",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Funding Concerns:** While the government stated the plan was backed by \u00a3200 million of new funding",
+        "sources": [
+          {
+            "url": "https://www.steve-tuckwell.uk/news/conservative-govt-nhs-dental-recovery-plan",
+            "publisher": "steve-tuckwell.uk",
+            "title": "steve-tuckwell.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthmedia.blog.gov.uk/2024/02/07/dental-recovery-plan-everything-you-need-to-know/",
+            "publisher": "healthmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": ", the British Dental Association (BDA) and Labour argued this was less than half of the expected underspends in the existing NHS dental budget, meaning it was not truly new money.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2024/feb/07/nhs-dentistry-recovery-plan-not-worthy-of-the-title-dentists-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/nhs-recovery-plan-unworthy-of-the-title-say-dentists/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dentalhealth.org/news/dental-recovery-plan-unlikely-to-deliver-target-of-15m-additional-treatments",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "By August 2024, only \u00a357 million of the allocated \u00a3200 million had been spent.",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/dental-recovery-plan-unlikely-to-deliver-target-of-15m-additional-treatments",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Nearly half of the surveyed dentists anticipated the plan would lead to practices seeing *fewer* NHS patients.",
+        "sources": [
+          {
+            "url": "https://healthcareleadernews.com/news/only-1-of-dentists-believe-the-recovery-plan-will-deliver-on-promises-survey-finds/",
+            "publisher": "healthcareleadernews.com",
+            "title": "healthcareleadernews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Shawn Charlwood, Chair of the BDA's General Dental Practice Committee, described the plan as \"not worthy of the title\" and incapable of halting the exodus from the workforce or offering hope to millions struggling to access care.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2024/feb/07/nhs-dentistry-recovery-plan-not-worthy-of-the-title-dentists-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/nhs-recovery-plan-unworthy-of-the-title-say-dentists/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mirror.co.uk/news/politics/government-doing-enough-tackle-britains-32066513",
+            "publisher": "mirror.co.uk",
+            "title": "mirror.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Fundamental reform of the NHS dental contract is widely cited as necessary but has not been sufficiently addressed by this plan.",
+        "sources": [
+          {
+            "url": "https://www.dentalhealth.org/news/unpacking-the-governments-new-dental-recovery-plan-a-game-changer-or-just-talk",
+            "publisher": "dentalhealth.org",
+            "title": "dentalhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistry.co.uk/app/uploads/2024/06/CBP-9597.pdf",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/648/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bda.org/media-centre/nhs-recovery-plan-unworthy-of-the-title-say-dentists/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthcareleadernews.com/news/only-1-of-dentists-believe-the-recovery-plan-will-deliver-on-promises-survey-finds/",
+            "publisher": "healthcareleadernews.com",
+            "title": "healthcareleadernews.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://dentistscloseby.com/blog/nhs-dental-contract-reform-explained",
+            "publisher": "dentistscloseby.com",
+            "title": "dentistscloseby.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "policy_id": "con-60-legislate-new-offences-for-violence-against",
+  "party": "Conservative",
+  "policy_title": "Legislate New Offences for Violence Against Women and Girls",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy creates new criminal offences and strengthens existing ones, which by definition expands the state's coercive reach over individuals' conduct. The liberty cost is real but narrow \u2014 the new offences target specific non-consensual acts rather than broad speech or protest.",
+    "biggest_unknown": "Whether courts or prosecutors interpret offences (especially 'sexualised deepfake images') broadly enough to capture lawful expression or satire, which would materially worsen the liberty impact.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to legislating new offences for spiking, creation of sexualised deepfake images, and taking intimate images without consent.",
+        "evidence_id": "M",
+        "quote": "legislate to create new offences for spiking, the creation of sexualised deepfake images, and taking intimate images without consent"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy also commits to strengthening existing laws against stalking, coercive behaviour, and revenge porn.",
+        "evidence_id": "M",
+        "quote": "strengthening existing laws against stalking, coercive behaviour, and revenge porn"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Perpetrators creating and sharing deepfakes could face up to two years in prison under related legislation.",
+        "evidence_id": "E2",
+        "quote": "Perpetrators creating and sharing deepfakes could face up to two years in prison"
+      },
+      {
+        "tier": "projected",
+        "claim": "Advocates highlight an existing implementation gap, with many existing legal powers already underused, suggesting new offences may not fire at scale.",
+        "evidence_id": "E33",
+        "quote": "many existing measures are not being utilised in day-to-day practice, pointing to negligible use of some powers"
+      }
+    ],
+    "rationale": "O10 scores the liberty effect of state coercion on individuals, regardless of whether the conduct targeted is harmful. By creating new criminal offences and strengthening existing ones, this policy extends the reach of state coercive power \u2014 individuals who would previously have faced no criminal liability now face prosecution and imprisonment. That is a textbook O10 worsening. The magnitude is minor because the offences are narrowly targeted at specific non-consensual acts (spiking, non-consensual image creation/sharing, stalking) rather than broad categories of speech, association or protest. There is no surveillance mandate, no ID scheme, and no compulsory licensing. The liberty cost falls almost entirely on would-be perpetrators of acts that already violate others' bodily autonomy and privacy \u2014 the population affected is narrow. A genuine residual risk is definitional overreach: 'sexualised deepfake images' could in principle be drawn broadly enough to capture satire or artistic content, but the policy text does not resolve this. The implementation-gap evidence (E33) also suggests new offences may not translate to materially more prosecutions, which would limit both the crime-reduction benefit (O5) and the additional liberty cost scored here. On balance: a real but minor, targeted expansion of criminal law \u2014 worsens O10 modestly.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/new-laws-to-better-protect-victims-from-abuse-of-intimate-images",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.cfr.org/articles/women-week-uk-pass-legislation-criminalizing-deepfake-images",
+        "publisher": "cfr.org",
+        "title": "cfr.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://cyfor.co.uk/new-deepfake-legislation/",
+        "publisher": "cyfor.co.uk",
+        "title": "cyfor.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/35643/pdf/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0433,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by cited evidence and correctly tiered. The measurable claim (E2) uses 'could face' which matches the quote exactly \u2014 no overstatement. The projected claim (E33) is correctly tiered. Direction 'worsens' on O10 is analytically sound: new criminal offences expand state coercive reach, which is a textbook O10 worsening regardless of the conduct targeted. Magnitude 'minor' is justified by the narrow targeting of non-consensual acts. No party-blind issues, no false balance (not mixed/uncertain direction), no lever leakage. The biggest_unknown about definitional overreach is a legitimate residual risk, appropriately flagged without inflating the verdict. No blocking issues found."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will legislate to create new offences for spiking, the creation of sexualised deepfake images, and taking intimate images without consent, alongside strengthening existing laws against stalking, coercive behaviour, and revenge porn.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "These measures are being implemented through a combination of existing and new legislation, including the Online Safety Act 2023, the Data (Use and Access) Act 2025, the Victims and Courts Act, and the Crime and Policing Act.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-laws-to-better-protect-victims-from-abuse-of-intimate-images",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2026-0016/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.endviolenceagainstwomen.org.uk/new-laws-contain-measures-to-address-violence-against-women/",
+            "publisher": "endviolenceagainstwomen.org.uk",
+            "title": "endviolenceagainstwomen.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Perpetrators creating and sharing deepfakes could face up to two years in prison, with further specific offences for threatening to share and installing equipment to take intimate images.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-laws-to-better-protect-victims-from-abuse-of-intimate-images",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cfr.org/articles/women-week-uk-pass-legislation-criminalizing-deepfake-images",
+            "publisher": "cfr.org",
+            "title": "cfr.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cyfor.co.uk/new-deepfake-legislation/",
+            "publisher": "cyfor.co.uk",
+            "title": "cyfor.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Data (Use and Access) Act 2025, which came into force in February 2026, makes it a criminal offence to create or request the creation of NCII.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2026-0016/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This builds on the Online Safety Act 2023 which made it illegal to share or threaten to share intimate images, including deepfakes, without consent.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0070/LLN-2024-0070.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "These changes are expected to simplify the law and make prosecution easier by replacing previous, more complex legislation.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-laws-to-better-protect-victims-from-abuse-of-intimate-images",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Spiking:** The Crime and Policing Act introduces new measures on spiking.",
+        "sources": [
+          {
+            "url": "https://www.endviolenceagainstwomen.org.uk/new-laws-contain-measures-to-address-violence-against-women/",
+            "publisher": "endviolenceagainstwomen.org.uk",
+            "title": "endviolenceagainstwomen.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "While specific details on the nature of the new offences for spiking are still emerging, the government has stated that the Crime and Policing Bill will include measures to \"strengthen the law to improve the police response to spiking.\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0183/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Stalking and Coercive Behaviour:** Laws against stalking and coercive behaviour are being strengthened.",
+        "sources": [
+          {
+            "url": "https://www.endviolenceagainstwomen.org.uk/new-laws-contain-measures-to-address-violence-against-women/",
+            "publisher": "endviolenceagainstwomen.org.uk",
+            "title": "endviolenceagainstwomen.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Victims and Courts Act, for example, includes provisions for mandatory reporting of child sexual abuse and the introduction of a new duty to report \"honour\"-based abuse.",
+        "sources": [
+          {
+            "url": "https://www.endviolenceagainstwomen.org.uk/new-laws-contain-measures-to-address-violence-against-women/",
+            "publisher": "endviolenceagainstwomen.org.uk",
+            "title": "endviolenceagainstwomen.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The government's 2025 VAWG strategy, \"Freedom from Violence and Abuse,\" includes commitments to improve understanding of the criminalisation of victims of VAWG and to introduce trauma-informed training for criminal justice practitioners, aiming to address existing issues in responding to these complex crimes.",
+        "sources": [
+          {
+            "url": "https://www.centreforwomensjustice.org.uk/news/2026/5/26/new-research-reveals-how-a-lack-of-understanding-of-domestic-abuse-by-police-and-prosecutors-leads-to-unjust-criminalisation-of-victim-survivors",
+            "publisher": "centreforwomensjustice.org.uk",
+            "title": "centreforwomensjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**Enhanced Victim Protection and Support:**\n    *   **Online Takedown:** The Crime and Policing Act includes provisions for 48-hour takedown orders for non-consensual intimate images shared online.",
+        "sources": [
+          {
+            "url": "https://www.endviolenceagainstwomen.org.uk/new-laws-contain-measures-to-address-violence-against-women/",
+            "publisher": "endviolenceagainstwomen.org.uk",
+            "title": "endviolenceagainstwomen.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Specialist Responses:** All police forces are instructed to introduce specialist rape and sexual offence investigation teams to better support victims and pursue perpetrators.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-vawg-strategy-will-leave-offenders-with-nowhere-to-hide",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "There will also be a \"crack team\" of online operatives with nearly \u00a32 million investment to use covert and intelligence techniques against technologically sophisticated offenders online.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-vawg-strategy-will-leave-offenders-with-nowhere-to-hide",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Victim Support Funding:** The government's VAWG strategy (published December 2025) includes an investment of \u00a3550 million into victim support services over three years, although Victim Support notes this still \"falls far short of what is needed\" to meet rising demand.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoOiU5nf8Vvi2uCTOfAad56z5Q9AEm6ziWWmMhJuSsI-jEPGVVCxBOjr4suKgy00j8g-7GISi2Arzq2aWrXlL1yzzU_noccJtWarKhRkXDIJCI9aRhcvLngkEf_veNolEYNsl2s9rnQ2WTa2_asl-9l08-26aI9-1o5OupcSCTJ9i7uuaeqaB78NzpCWx3Eu8cJlCizL40DQcEHcyHRIl77fFTMKN2",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "victimsupport.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Addressing the Courts Backlog:** The Victims and Courts Act aims to improve victims' experiences within the criminal justice system, although many amendments campaigned for by specialist VAWG organisations were deemed \"out of scope\" or unsuccessful.",
+        "sources": [
+          {
+            "url": "https://www.endviolenceagainstwomen.org.uk/new-laws-contain-measures-to-address-violence-against-women/",
+            "publisher": "endviolenceagainstwomen.org.uk",
+            "title": "endviolenceagainstwomen.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Increased Awareness and Cultural Shift:**\n    *   The \"ENOUGH\" campaign, launched in November 2022, encourages bystanders to intervene safely if they witness VAWG, including sexual harassment, unwanted touching, sharing intimate images without consent, and coercive control.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-laws-to-better-protect-victims-from-abuse-of-intimate-images",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   Ministers have stated these new offences will help \"prevent people being victimised online\" and put \"offenders on notice.\"",
+        "sources": [
+          {
+            "url": "https://www.cfr.org/articles/women-week-uk-pass-legislation-criminalizing-deepfake-images",
+            "publisher": "cfr.org",
+            "title": "cfr.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cyfor.co.uk/new-deepfake-legislation/",
+            "publisher": "cyfor.co.uk",
+            "title": "cyfor.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Prevalence of VAWG:** In the year ending March 2024, women were more likely to have experienced violent crime, domestic abuse (6.6%), stalking (4.0%), sexual assault (3.4%), and harassment (11.2%) compared with men (3.0%, 2.3%, 0.8%, and 6.6%, respectively).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0183/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Police Recorded VAWG:** Over one million VAWG-related crimes were recorded by the police in 2022/23, equating to about 3,000 offences per day.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0183/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "VAWG accounts for just under 20% of all recorded crime in England and Wales.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_pFStqV65IzKjRI3JL_p2-1a3JEa5YObYVyxdqvld1qXWB-AkWFoSwjdha1R2QRF_dcsKzSRfom3MoBkdMrrOMPJDv9SKWHCCIGS_ZZE_NDnkCVjxhy7sz8eDHc1Tc1z8HMSA70MqaTQXT9MOkK-9VMwLVrPcByyrcZquhh1FHw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Increase in Recorded Crime:** Recorded VAWG-related crime increased by 37% between 2018 and 2023, with one in every twelve women being a victim per year.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0183/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Police-recorded rape and sexual assault offences against women and girls increased by 264% between 2009\u201310 and 2023\u201324.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/violence-against-women-and-girls-in-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Domestic Abuse:** In the year ending March 2024, domestic abuse-related crimes represented 15.8% of all offences recorded by the police, with 72.5% of victims being female.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0183/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Over 1.2 million women were estimated to be victims of domestic abuse in the year ending March 2024.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/violence-against-women-and-girls-in-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **\"Honour-Based\" Offences:** In the year ending March 2024, there were 2,755 \"so-called 'honour-based' offences\" in England and Wales.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0183/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Deepfakes:** Recent studies estimate that 98% of all deepfake content online is non-consensual and pornographic, and 99% of those depicted are women.",
+        "sources": [
+          {
+            "url": "https://www.stimson.org/2026/the-impact-of-artificial-intelligence-on-violence-against-women-and-girls/",
+            "publisher": "stimson.org",
+            "title": "stimson.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The number of deepfakes online is reportedly doubling every six months.",
+        "sources": [
+          {
+            "url": "https://nwlc.org/charting-a-new-domain-the-importance-of-tackling-digital-sexual-violence/",
+            "publisher": "nwlc.org",
+            "title": "nwlc.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "As of 2025, 12% of women human rights defenders, activists, and journalists polled reported the non-consensual creation and sharing of deepfake imagery of themselves.",
+        "sources": [
+          {
+            "url": "https://thestoryexchange.org/online-violence-against-women-is-getting-more-sophisticated-and-more-frequent/",
+            "publisher": "thestoryexchange.org",
+            "title": "thestoryexchange.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Government Spending:** The Home Office underspent its VAWG strategy budget by an average of 15% (around \u00a322 million) between 2021-22 and 2023-24, against a total budget of \u00a3149 million for that period.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/violence-against-women-and-girls-in-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Other government departments spent around \u00a3979 million on the strategy during the same period.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/violence-against-women-and-girls-in-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Victim Withdrawal from Justice Process:** Victims of rape and domestic abuse withdraw from the criminal justice process at disproportionately high rates (69% and 59% respectively, based on London-specific data, but acknowledged as a national issue).",
+        "sources": [
+          {
+            "url": "https://victimscommissioner.org.uk/document/halving-vawg-in-10-years-the-principles-that-must-underpin-the-strategy/",
+            "publisher": "victimscommissioner.org.uk",
+            "title": "victimscommissioner.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Implementation Gap and Effectiveness:** The Centre for Women's Justice (CWJ) highlights a significant \"implementation gap\" between legal measures and their effectiveness on the ground.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/35643/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "They argue that many existing measures are not being utilised in day-to-day practice, pointing to negligible use of some powers (e.g., Domestic Violence Protection Orders used in only 1% of domestic abuse cases, coercive and controlling behaviour charged in 1.75% of prosecutions).",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/35643/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "CWJ emphasizes the need for proper resourcing, training, supervision, accountability, and culture change within the police.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/35643/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Funding Shortfalls:** Victim Support acknowledges the \u00a3550 million investment in victim support services but states it \"falls far short of what is needed\" to meet rising demand and provide long-term support.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoOiU5nf8Vvi2uCTOfAad56z5Q9AEm6ziWWmMhJuSsI-jEPGVVCxBOjr4suKgy00j8g-7GISi2Arzq2aWrXlL1yzzU_noccJtWarKhRkXDIJCI9aRhcvLngkEf_veNolEYNsl2s9rnQ2WTa2_asl-9l08-26aI9-1o5OupcSCTJ9i7uuaeqaB78NzpCWx3Eu8cJlCizL40DQcEHcyHRIl77fFTMKN2",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "victimsupport.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Prevention:** While welcoming increased resources for victims and specialist investigative capacity, some analysts (including from Victim Support) argue that lasting progress requires more than enforcement alone, needing a \"whole-system approach\" that prioritises victim safety, strengthens multi-agency collaboration, and addresses root causes.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoOiU5nf8Vvi2uCTOfAad56z5Q9AEm6ziWWmMhJuSsI-jEPGVVCxBOjr4suKgy00j8g-7GISi2Arzq2aWrXlL1yzzU_noccJtWarKhRkXDIJCI9aRhcvLngkEf_veNolEYNsl2s9rnQ2WTa2_asl-9l08-26aI9-1o5OupcSCTJ9i7uuaeqaB78NzpCWx3Eu8cJlCizL40DQcEHcyHRIl77fFTMKN2",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "victimsupport.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-vawg-strategy-will-leave-offenders-with-nowhere-to-hide",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The National Audit Office (NAO) in January 2025 questioned the effectiveness of past VAWG strategies, citing a lack of \"buy-in\" from government departments, failure to learn from past strategies, no consistent definition of VAWG, and limited progress on prevention measures.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/violence-against-women-and-girls-in-2025/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Criminalisation of Victims:** CWJ's reports (\"Double Standard\" 2022 and \"They don't understand abuse\" 2026) expose how victims of VAWG are unfairly arrested, prosecuted, and convicted for offences arising from their abuse, such as self-defence, coercion, or duress.",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/end-the-unjust-criminalization-of-female-victims-of-violence/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.centreforwomensjustice.org.uk/news/2022/3/29/new-report-from-centre-for-womens-justice-exposes-how-victims-of-violence-against-women-and-girls-are-unfairly-criminalised",
+            "publisher": "centreforwomensjustice.org.uk",
+            "title": "centreforwomensjustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.centreforwomensjustice.org.uk/news/2026/5/26/new-research-reveals-how-a-lack-of-understanding-of-domestic-abuse-by-police-and-prosecutors-leads-to-unjust-criminalisation-of-victim-survivors",
+            "publisher": "centreforwomensjustice.org.uk",
+            "title": "centreforwomensjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "This highlights a systemic failing where the criminal justice system can \"collude in the abuse\" by not understanding the context of domestic abuse and coercive control.",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/end-the-unjust-criminalization-of-female-victims-of-violence/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.centreforwomensjustice.org.uk/news/2026/5/26/new-research-reveals-how-a-lack-of-understanding-of-domestic-abuse-by-police-and-prosecutors-leads-to-unjust-criminalisation-of-victim-survivors",
+            "publisher": "centreforwomensjustice.org.uk",
+            "title": "centreforwomensjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Black, Asian, minoritised, and migrant women are disproportionately impacted by such criminalisation.",
+        "sources": [
+          {
+            "url": "https://www.centreforwomensjustice.org.uk/news/2022/3/29/new-report-from-centre-for-womens-justice-exposes-how-victims-of-violence-against-women-and-girls-are-unfairly-criminalised",
+            "publisher": "centreforwomensjustice.org.uk",
+            "title": "centreforwomensjustice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.centreforwomensjustice.org.uk/news/2026/5/26/new-research-reveals-how-a-lack-of-understanding-of-domestic-abuse-by-police-and-prosecutors-leads-to-unjust-criminalisation-of-victim-survivors",
+            "publisher": "centreforwomensjustice.org.uk",
+            "title": "centreforwomensjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Data Collection and Measurement:** Victim Support expresses concern about the lack of clear metrics to measure the prevalence of VAWG among those under 16.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoOiU5nf8Vvi2uCTOfAad56z5Q9AEm6ziWWmMhJuSsI-jEPGVVCxBOjr4suKgy00j8g-7GISi2Arzq2aWrXlL1yzzU_noccJtWarKhRkXDIJCI9aRhcvLngkEf_veNolEYNsl2s9rnQ2WTa2_asl-9l08-26aI9-1o5OupcSCTJ9i7uuaeqaB78NzpCWx3Eu8cJlCizL40DQcEHcyHRIl77fFTMKN2",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "victimsupport.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "The Victims' Commissioner also stressed the need for improved data collection across the criminal justice system and better data sharing between agencies.",
+        "sources": [
+          {
+            "url": "https://victimscommissioner.org.uk/document/halving-vawg-in-10-years-the-principles-that-must-underpin-the-strategy/",
+            "publisher": "victimscommissioner.org.uk",
+            "title": "victimscommissioner.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "*   **Economic Impact:** The Institute for Fiscal Studies (IFS) highlights the significant and long-lasting economic impacts of sexual violence, with women reporting rape experiencing large, persistent drops in employment and earnings (a 17% hit to income five years after assault for older victims), comparable to the \"child penalty\" on earnings.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/economic-consequences-gender-based-violence",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "While IFS research underscores the economic burden of VAWG, their analysis focuses on broader economic consequences rather than the specific impacts of these particular legislative changes.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/economic-consequences-gender-based-violence",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/dynamics-domestic-violence-learning-about-match",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "*   **Gender-Neutral Language:** Some critique earlier legislation (e.g., the Domestic Abuse Bill) for shifting focus from \"violence\" to \"abuse\" and adopting a \"gender symmetry paradigm,\" which critics argue can \"water down\" the government's response to the gendered nature of violence against women.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8343199/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

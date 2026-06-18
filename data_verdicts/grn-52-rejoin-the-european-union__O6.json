@@ -1,0 +1,580 @@
+{
+  "policy_id": "grn-52-rejoin-the-european-union",
+  "party": "Green",
+  "policy_title": "Rejoin the European Union",
+  "outcome": "O6",
+  "verdict": {
+    "outcome": "O6",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "The policy focuses on customs union membership, free movement, and Erasmus \u2014 none of the provided evidence speaks to its environmental effects. Whether closer EU alignment would improve UK environmental standards cannot be assessed from the evidence given.",
+    "biggest_unknown": "Whether rejoining EU structures would bind the UK to stronger EU environmental regulations (e.g. nature restoration, emissions trading) and whether that would materially shift UK emissions or biodiversity trajectories.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to joining the Customs Union, restoring free movement, and rejoining Erasmus \u2014 no environmental commitments are stated.",
+        "evidence_id": "M",
+        "quote": "Join the Customs Union as a first step, followed by a speedy return to free movement of people and rejoining the Erasmus Programme."
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Extent to which rejoining EU structures entails binding adoption of EU environmental law and whether that produces measurable improvement in UK emissions, air/water quality, or biodiversity relative to the current trajectory",
+      "estimate_range": "None of the provided evidence units address this; directional effect on O6 cannot be determined from the evidence given"
+    },
+    "rationale": "The policy text contains no environmental commitments. All 35 evidence units provided address economic output, trade frictions, workforce and migration, and Erasmus education access \u2014 none speak to air or water quality, emissions trajectories, biodiversity, or nature. There is a credible theoretical mechanism (EU membership historically brings binding environmental standards via directives and ETS participation) but that mechanism is entirely unaddressed by the evidence supplied. Without any cited evidence bearing on O6 indicators, no direction can be honestly assigned. The verdict is too-uncertain not as a lazy hedge but because the deciding parameter \u2014 regulatory environmental alignment and its real-world effect on UK environmental outcomes \u2014 is simply not covered by the available evidence base.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0334,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is coherent. The single stated-tier claim accurately quotes M and correctly notes no environmental commitments. The too-uncertain direction is genuinely justified: none of the 35 evidence units address O6 indicators (emissions, air/water quality, biodiversity). The crux_parameter is specific and the estimate_range honestly acknowledges the evidence gap rather than hedging lazily. Magnitude and time_horizon are both n/a, consistent with too-uncertain. No lever leakage, no party language, no false balance issue \u2014 the too-uncertain verdict is not hiding a one-sided evidence base, it reflects a genuine absence of relevant evidence. No blocking issues found."
+    },
+    "gate": {
+      "kept": 1,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Work towards rejoining the EU as soon as politically feasible. Join the Customs Union as a first step, followed by a speedy return to free movement of people and rejoining the Erasmus Programme.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "*   The **Institute for Fiscal Studies (IFS)** considers the claim that rejoining the EU could boost UK revenues by \u00a330 billion a year to be \"not unreasonable,\" approximating the expected economic reversal of Brexit.",
+        "sources": [
+          {
+            "url": "https://www.thenational.scot/news/24398147.snps-claim-30-billion-boost-rejoining-eu-not-unreasonable/",
+            "publisher": "thenational.scot",
+            "title": "thenational.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Earlier IFS analysis from 2016 suggested the UK economy would be 2% to 8% smaller by 2030 outside the EU.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcL2lPobGSLOsQz7myOf6_QtrGJxFsvLUbWoddxP4AkBZH2wFtqFQFli0efbde-38V7NK8EozOpGgWkKFoFU-pN_wu3-y3g52-Ivm1AItV3YLFXRUaJFpUx9kHG_iOyLrPf308SJc9vSp8hUtynv6ChbG4WwoYoCYtKavNyItdhPy1Th-ZK4hf_LzEZchX52HDpstW8ag=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   The **Office for Budget Responsibility (OBR)** assumes that the current post-Brexit trading relationship will lead to a 4% reduction in long-run productivity compared to remaining in the EU.",
+        "sources": [
+          {
+            "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/brexit-rejoin-philip-rycroft-starmer-b2988137.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The OBR's 4% figure is an average of 13 external studies.",
+        "sources": [
+          {
+            "url": "https://moneyweek.com/economy/brexit/botched-brexit-should-britain-rejoin-the-eu",
+            "publisher": "moneyweek.com",
+            "title": "moneyweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The OBR also projected that the new migration regime would reduce economic output.",
+        "sources": [
+          {
+            "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Bloomberg Economics** estimates that Brexit has cost the UK between 2% and 4% of foregone economic output, with a central long-run estimate of 2.5%, equivalent to approximately \u00a330 billion annually in lost tax revenue.",
+        "sources": [
+          {
+            "url": "https://financialpost.com/pmn/business-pmn/how-the-uks-options-for-rebuilding-ties-with-europe-stack-up",
+            "publisher": "financialpost.com",
+            "title": "financialpost.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gurufocus.com/news/8907229/uk-rejoining-eu-could-recover-up-to-12-of-lost-output",
+            "publisher": "gurufocus.com",
+            "title": "gurufocus.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Re-establishing closer ties could recover between 0.4 and 1.2 percentage points of lost output, potentially adding \u00a35 billion to \u00a314.4 billion in tax receipts before any new payments to Brussels.",
+        "sources": [
+          {
+            "url": "https://www.gurufocus.com/news/8907229/uk-rejoining-eu-could-recover-up-to-12-of-lost-output",
+            "publisher": "gurufocus.com",
+            "title": "gurufocus.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   The **Resolution Foundation** indicates that Brexit has already made the UK economy 2% to 6% smaller than it would have been.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/reports/ten-years-on-what-next-for-uk-eu-relations/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Their research also suggests that Brexit has led to an 8 percentage point drop in the UK's trade openness since 2019, and projects that the Trade and Cooperation Agreement (TCA) will result in 1.3% lower productivity and real wages falling by \u00a3470 per person annually compared to a scenario without Brexit.",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/the-big-brexit/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/brexit-has-damaged-britains-competitiveness-and-will-make-us-poorer-in-the-decade-ahead/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Rejoining the Single Market alone could boost GDP by around 3.5% relative to the current TCA.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/eu-turn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "A YouGov poll from June 2026 revealed that 51% to 55% of Britons believe rejoining the EU would positively impact the UK's economy, businesses, and international trade.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/54925-what-do-britons-think-of-brexit-10-years-since-the-referendum",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Joining the EU Customs Union would eliminate the need for goods traded within the union to prove their origin, significantly reducing bureaucracy and \"rules of origin\" checks that currently add 2% to 8% to the cost of exporting goods.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/is-a-customs-union-worth-it/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1psytdp/how_the_uk_rejoining_the_eu_customs_union_would/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Pre-Brexit government analysis estimated that leaving the customs union would reduce long-run GDP by about 1%.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/is-a-customs-union-worth-it/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "A return could offer a \"very rough\" net benefit of 0.5% of GDP, or \u00a315 billion a year.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/is-a-customs-union-worth-it/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Trade-offs:** However, joining the Customs Union would require the UK to adopt the EU's common external tariffs, preventing it from negotiating independent trade deals with non-EU countries like India, the US, and Gulf states.",
+        "sources": [
+          {
+            "url": "https://financialpost.com/pmn/business-pmn/how-the-uks-options-for-rebuilding-ties-with-europe-stack-up",
+            "publisher": "financialpost.com",
+            "title": "financialpost.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "It would also not eliminate all post-Brexit border checks and red tape.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1psytdp/how_the_uk_rejoining_the_eu_customs_union_would/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Some analysts, like those at \"UK in a Changing Europe,\" caution that a cited 2.2% GDP boost from a customs union is based on a scenario of \"deep alignment on goods and services,\" which is effectively the single market without free movement.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/uk-eu-relations-proposals-for-customs-union-and-connections-with-the-eu-single-market/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/is-a-customs-union-worth-it/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Workforce and Economy:** Free movement is considered essential for accessing skilled workers, with 55% of **CBI members** expressing concern about their ability to hire enough skilled staff.",
+        "sources": [
+          {
+            "url": "https://www.cbi.org.uk/media/1504/arguments-for-and-against-the-uks-european-union-membership.pdf",
+            "publisher": "cbi.org.uk",
+            "title": "cbi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "It provides employers with a broader talent pool, helping to protect jobs.",
+        "sources": [
+          {
+            "url": "https://www.cbi.org.uk/media/1504/arguments-for-and-against-the-uks-european-union-membership.pdf",
+            "publisher": "cbi.org.uk",
+            "title": "cbi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Health Sector:** The **Health Foundation** highlighted that in November 2019, there were over 100,000 vacancies across NHS England, including nearly 44,000 in nursing (12% of the nursing workforce).",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7294072/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "While the number of non-EU trained nurses has increased, the overall number of overseas-trained nurses joining the UK register remains below 2016 levels.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7294072/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Experts suggest that all post-Brexit relationships are worse for health than full EU membership, with significant negative effects on NHS staffing.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7294072/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Public Services:** Conversely, concentrated immigration in certain areas has historically raised concerns about pressure on public services like health and education.",
+        "sources": [
+          {
+            "url": "https://www.cbi.org.uk/media/1504/arguments-for-and-against-the-uks-european-union-membership.pdf",
+            "publisher": "cbi.org.uk",
+            "title": "cbi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Previous Rights:** Since January 1, 2021, British citizens have lost their automatic right to live, work, or study in an EU Member State without a visa, and are subject to Schengen area rules for short stays (90 days in any 180-day period).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9157/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/the-facts/what-effect-would-brexit-have-on-free-movement/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The UK Government confirmed it will reassociate with the Erasmus+ programme from January 2027, reversing its post-Brexit withdrawal.",
+        "sources": [
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-to-rejoin-erasmus-what-this-means-for-scholarships-and-eu-student-fees",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-could-rejoin-erasmus",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "This move is seen as part of a \"post-Brexit reset\" in relations with Brussels.",
+        "sources": [
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-to-rejoin-erasmus-what-this-means-for-scholarships-and-eu-student-fees",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Benefits for Students and Universities:** Rejoining Erasmus+ will restore opportunities for UK students to study abroad, with funding covering tuition, travel, living costs, visas, and language learning, including extra support for disadvantaged students.",
+        "sources": [
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-to-rejoin-erasmus-what-this-means-for-scholarships-and-eu-student-fees",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JPS_zFKtGYU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "It will also improve affordability and access for EU students coming to UK universities.",
+        "sources": [
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-to-rejoin-erasmus-what-this-means-for-scholarships-and-eu-student-fees",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-could-rejoin-erasmus",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "UK higher education institutions expect a rise in inbound EU student mobility, strengthened partnerships with European universities, and enhanced cultural diversity.",
+        "sources": [
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-could-rejoin-erasmus",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.universitiesuk.ac.uk/topics/international/universities-welcome-uks-return-erasmus",
+            "publisher": "universitiesuk.ac.uk",
+            "title": "universitiesuk.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The programme also supports staff mobility, cooperation between universities, and seamless credit transfers through the ECTS system.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=JPS_zFKtGYU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.universitiesuk.ac.uk/topics/international/universities-welcome-uks-return-erasmus",
+            "publisher": "universitiesuk.ac.uk",
+            "title": "universitiesuk.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Economic Gains:** The economic benefits of rejoining Erasmus+ are expected to outweigh its costs, partly due to the revenue generated by Erasmus+ students studying in the UK and productivity gains from professional development opportunities.",
+        "sources": [
+          {
+            "url": "https://www.brookings.edu/articles/why-post-brexit-uk-should-rejoin-the-eus-erasmus-exchange-program/",
+            "publisher": "brookings.edu",
+            "title": "brookings.edu",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "In 2019, the UK received 30,501 Erasmus+ students and trainees while sending 18,305 abroad, contributing revenue to local economies.",
+        "sources": [
+          {
+            "url": "https://www.brookings.edu/articles/why-post-brexit-uk-should-rejoin-the-eus-erasmus-exchange-program/",
+            "publisher": "brookings.edu",
+            "title": "brookings.edu",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Comparison to Turing Scheme:** Erasmus+ is considered more accessible and practical than the UK's previous Turing Scheme, which suffered from inconsistent funding and unclear requirements.",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=JPS_zFKtGYU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Erasmus+ is widely expected to replace the Turing Scheme.",
+        "sources": [
+          {
+            "url": "https://www.scholarshipscanner.com/blog/uk-to-rejoin-erasmus-what-this-means-for-scholarships-and-eu-student-fees",
+            "publisher": "scholarshipscanner.com",
+            "title": "scholarshipscanner.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   If the UK were to fully rejoin the EU, it is likely that previous opt-outs, such as those from the Euro, the Schengen Area, and the budget rebate, would not be offered again.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0067/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://time.com/article/2026/06/13/why-brexit-still-haunts-british-politics/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Without the rebate, the UK might face an additional \u00a35 billion annual contribution compared to its pre-Brexit payments.",
+        "sources": [
+          {
+            "url": "https://time.com/article/2026/06/13/why-brexit-still-haunts-british-politics/",
+            "publisher": "time.com",
+            "title": "time.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   While a majority of Britons (55%) support rejoining the EU, this support drops to 35% if it means rejoining without the UK's prior opt-outs, with 43% opposing such a move.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/54925-what-do-britons-think-of-brexit-10-years-since-the-referendum",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

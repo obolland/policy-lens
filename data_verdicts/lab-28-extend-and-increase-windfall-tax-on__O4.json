@@ -1,0 +1,460 @@
+{
+  "policy_id": "lab-28-extend-and-increase-windfall-tax-on",
+  "party": "Labour",
+  "policy_title": "Extend and Increase Windfall Tax on Oil and Gas Giants",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "mixed",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "The policy risks accelerating job losses in the North Sea oil and gas sector while funding clean energy investment that could create new jobs, but the net effect on workers is genuinely unclear. The job-loss figures come mainly from industry groups with a direct interest, and the evidence on clean-energy job creation is absent from what has been provided.",
+    "biggest_unknown": "Whether clean-energy jobs funded by the levy replace North Sea jobs at comparable scale, location, and pay \u2014 and whether the industry job-loss warnings are realistic or overstated.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy extends and increases the Energy Profits Levy and removes investment allowances, aiming to fund clean energy investments.",
+        "evidence_id": "M",
+        "quote": "fund clean energy investments from company profits rather than ingenuity or investment"
+      },
+      {
+        "tier": "projected",
+        "claim": "OEUK warns that without new investment, 42,000 jobs could be lost, with effects potentially felt immediately.",
+        "evidence_id": "E11",
+        "quote": "OEUK has warned that without new investment, 42,000 jobs could be lost, and \u00a326 billion of economic value could be wiped out, with effects potentially felt immediately"
+      },
+      {
+        "tier": "projected",
+        "claim": "Industry predicts accelerated decline in North Sea production, with a total tax burden of 78% among the highest worldwide, making the UK a profoundly uncompetitive market.",
+        "evidence_id": "E10",
+        "quote": "accelerated decline in North Sea oil and gas production, making the UK a profoundly uncompetitive market globally with a total tax burden of 78% being among the highest worldwide"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS noted that Labour's green prosperity plan involves \u00a35 billion a year, partly funded by the windfall tax.",
+        "evidence_id": "E17",
+        "quote": "Labour's \"green prosperity plan\" involves \u00a35 billion a year, partly funded by the windfall tax"
+      },
+      {
+        "tier": "projected",
+        "claim": "Industry warns the extended levy could damage wider investment in clean energy projects if companies redirect funds elsewhere.",
+        "evidence_id": "E18",
+        "quote": "the extended and increased levy could \"damage wider investment\" in these critical clean energy projects if companies redirect funds to other regions with more favourable tax regimes"
+      }
+    ],
+    "rationale": "This policy creates a direct tension within O4. On the downside, the levy increase and removal of investment allowances \u2014 as warned by industry bodies including OEUK \u2014 risk accelerating the decline of North Sea oil and gas production, with projected job losses of up to 42,000 and an internationally uncompetitive total tax burden of 78%. These are serious impacts on workers in a concentrated regional labour market (especially Scotland). On the upside, the stated intent is to fund a \u00a35bn/year green prosperity plan, which could generate employment in clean energy. However, there is no evidence in the provided units quantifying those clean-energy jobs, their location, or whether they match the skills and wages of displaced North Sea workers. The mixed verdict reflects both sides being plausible but both being uncertain: the job-loss figures come exclusively from industry advocacy groups (OEUK, AGCC, energyindepth.org) with a clear interest in opposing the levy, not from independent modelling; confidence is accordingly low. The clean-energy job-creation upside is entirely unquantified in the provided evidence. Net effect on O4 is genuinely split: negative pressure on existing high-paying energy-sector jobs, unclear positive from new clean-energy employment. Time horizon is this-parliament given both the levy extension period and the investment chilling effects anticipated immediately.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://oeuk.org.uk/labours-new-windfall-tax-plan-sparks-job-loss-warning/",
+        "publisher": "oeuk.org.uk",
+        "title": "oeuk.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.agcc.co.uk/news-article/north-sea-tax-receipts-plummet-as-windfall-tax-hits-investment",
+        "publisher": "agcc.co.uk",
+        "title": "agcc.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+        "publisher": "energyindepth.org",
+        "title": "energyindepth.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://oeuk.org.uk/windfall-tax-turmoil-risks-jobs-investment-and-economic-growth/",
+        "publisher": "oeuk.org.uk",
+        "title": "oeuk.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0455,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E10 and E11 originate from OEUK and AGCC \u2014 industry advocacy bodies with a direct financial interest in opposing the levy. The claims are correctly tiered as 'projected' and the rationale flags this, but no independent modelling corroborates the 42,000 job-loss figure or the 78% tax burden competitiveness claim. These should be treated as advocacy projections, not sector-wide consensus forecasts."
+        },
+        {
+          "check": "false_balance",
+          "severity": "warning",
+          "detail": "The 'mixed' direction is defensible given the rationale explicitly acknowledges the clean-energy job-creation upside is entirely unquantified in the evidence. However, the surviving claims lean negative on O4 (job losses, investment deterrence) with no affirmative claim quantifying positive employment effects. The verdict's plain text and rationale correctly flag this gap, so it does not rise to blocking, but the 'mixed' framing is borderline \u2014 'too-uncertain' might be more honest given the asymmetry of evidence."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Tier discipline is maintained throughout \u2014 industry warnings are correctly labelled projected. The rationale is transparent about the advocacy-heavy sourcing and the absence of clean-energy job-creation evidence. The 'mixed' direction is justified by the genuine two-sided uncertainty rather than manufactured balance, though the evidence asymmetry (negative claims sourced, positive claims absent) means 'too-uncertain' would also be defensible. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will extend the sunset clause of the Energy Profits Levy until the end of the next parliament and increase the levy rate by three percentage points. They will also remove 'unjustifiably generous' investment allowances and retain the Energy Security Investment Mechanism, aiming to fund clean energy investments from company profits rather than ingenuity or investment.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The stated purpose is to fund clean energy investments from company profits.",
+        "sources": [
+          {
+            "url": "https://cms.law/en/gbr/legal-updates/changes-to-energy-profits-levy",
+            "publisher": "cms.law",
+            "title": "cms.law",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.energyvoice.com/oilandgas/north-sea/547509/labour-windfall-tax-oil-gas/",
+            "publisher": "energyvoice.com",
+            "title": "energyvoice.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/14/our_take_on_labour_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/65c66cbf9c5b7f000c951c82/Opposition_costing_-_Oil_and_Gas_Levy__003__final.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Government Revenue:**\n    *   **Labour's Projection:** Labour anticipates these measures will raise an average of \u00a31.2 billion per year across the next Parliament, amounting to \u00a310.8 billion over the five years from 2024-25.",
+        "sources": [
+          {
+            "url": "https://www.energyvoice.com/oilandgas/north-sea/547509/labour-windfall-tax-oil-gas/",
+            "publisher": "energyvoice.com",
+            "title": "energyvoice.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/14/our_take_on_labour_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Institute for Fiscal Studies (IFS) also noted Labour's expectation to raise \"just over \u00a36 billion\" across the next parliament from strengthening the EPL.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Office for Budget Responsibility (OBR) also anticipates the EPL remaining in place until March 2030, contributing to public finances.",
+        "sources": [
+          {
+            "url": "https://globalenergynetwork.net/news-item/uk-keeps-oil-and-gas-windfall-tax-in-blow-to-industry-obr-says/",
+            "publisher": "globalenergynetwork.net",
+            "title": "globalenergynetwork.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Revenue specifically from the EPL decreased from \u00a34.2 billion to \u00a32.7 billion over the same period.",
+        "sources": [
+          {
+            "url": "https://www.agcc.co.uk/news-article/north-sea-tax-receipts-plummet-as-windfall-tax-hits-investment",
+            "publisher": "agcc.co.uk",
+            "title": "agcc.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Offshore Energies UK (OEUK) also warned in October 2024 that the tax would result in an overall loss in economic value of approximately \u00a313 billion.",
+        "sources": [
+          {
+            "url": "https://www.energyindepth.org/the-labour-governments-windfall-tax-continues-to-damage-the-uks-economic-and-social-prospects/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Offshore Energies UK (OEUK) warns that the increased tax burden and removal of investment allowances will severely deter new investment in the North Sea.",
+        "sources": [
+          {
+            "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oeuk.org.uk/windfall-tax-turmoil-risks-jobs-investment-and-economic-growth/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oeuk.org.uk/labours-new-windfall-tax-plan-sparks-job-loss-warning/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "OEUK Chief Executive David Whitehouse stated that \"this level of tax discourages investment and undermines our companies, our jobs and our communities.\"",
+        "sources": [
+          {
+            "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Shell estimated that recent changes to the levy would cost them an additional \u00a3382 million.",
+        "sources": [
+          {
+            "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Production Decline & Job Losses:** Industry leaders predict an accelerated decline in North Sea oil and gas production, making the UK a profoundly uncompetitive market globally with a total tax burden of 78% being among the highest worldwide.",
+        "sources": [
+          {
+            "url": "https://www.agcc.co.uk/news-article/north-sea-tax-receipts-plummet-as-windfall-tax-hits-investment",
+            "publisher": "agcc.co.uk",
+            "title": "agcc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oeuk.org.uk/windfall-tax-turmoil-risks-jobs-investment-and-economic-growth/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "OEUK has warned that without new investment, 42,000 jobs could be lost, and \u00a326 billion of economic value could be wiped out, with effects potentially felt immediately.",
+        "sources": [
+          {
+            "url": "https://oeuk.org.uk/labours-new-windfall-tax-plan-sparks-job-loss-warning/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Reports indicate that banks have already reduced loans to UK oil and gas producers since the EPL's introduction in 2022, leading to concerns that the sector has become \"impractical\" for investment.",
+        "sources": [
+          {
+            "url": "https://www.energyindepth.org/the-labour-governments-windfall-tax-continues-to-damage-the-uks-economic-and-social-prospects/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Undeveloped Reserves:** Industry suggests that billions of barrels of reserves may remain undeveloped due to declining investment, threatening up to \u00a3150 billion in potential economic value.",
+        "sources": [
+          {
+            "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Energy Security:**\n    *   Industry groups warn that decreasing domestic production will heighten the UK's reliance on imported energy, potentially from less stable international sources.",
+        "sources": [
+          {
+            "url": "https://www.agcc.co.uk/news-article/north-sea-tax-receipts-plummet-as-windfall-tax-hits-investment",
+            "publisher": "agcc.co.uk",
+            "title": "agcc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oeuk.org.uk/windfall-tax-turmoil-risks-jobs-investment-and-economic-growth/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1ewqrnw/people_are_walking_away_uk_windfall_tax_hits/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "This could worsen the UK's balance of payments.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1ewqrnw/people_are_walking_away_uk_windfall_tax_hits/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "As of February 2024, 75% of the UK's energy needs were met by oil and gas.",
+        "sources": [
+          {
+            "url": "https://oeuk.org.uk/labours-new-windfall-tax-plan-sparks-job-loss-warning/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The IFS noted that Labour's \"green prosperity plan\" involves \u00a35 billion a year, partly funded by the windfall tax.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "They warn that the extended and increased levy could \"damage wider investment\" in these critical clean energy projects if companies redirect funds to other regions with more favourable tax regimes.",
+        "sources": [
+          {
+            "url": "https://oeuk.org.uk/labours-new-windfall-tax-plan-sparks-job-loss-warning/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Industry bodies like OEUK and the Aberdeen & Grampian Chamber of Commerce strongly argue for the latter.",
+        "sources": [
+          {
+            "url": "https://www.agcc.co.uk/news-article/north-sea-tax-receipts-plummet-as-windfall-tax-hits-investment",
+            "publisher": "agcc.co.uk",
+            "title": "agcc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.energyindepth.org/the-labour-governments-windfall-tax-continues-to-damage-the-uks-economic-and-social-prospects/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Investment Allowances:** Labour views the current investment allowances as \"unjustifiably generous loopholes\"",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/14/our_take_on_labour_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "In contrast, the industry considers them \"critical allowances\" necessary for making long-term investments in domestic production.",
+        "sources": [
+          {
+            "url": "https://oeuk.org.uk/labours-new-windfall-tax-plan-sparks-job-loss-warning/",
+            "publisher": "oeuk.org.uk",
+            "title": "oeuk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Effect on North Sea Future:** Industry representatives assert that the policy risks cementing the \"terminal decline\" of the North Sea oil and gas sector",
+        "sources": [
+          {
+            "url": "https://www.energyindepth.org/year-three-how-the-uks-windfall-tax-continues-to-harm-north-sea-energy-production/",
+            "publisher": "energyindepth.org",
+            "title": "energyindepth.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

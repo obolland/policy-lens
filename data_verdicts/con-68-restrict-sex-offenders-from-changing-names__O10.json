@@ -1,0 +1,497 @@
+{
+  "policy_id": "con-68-restrict-sex-offenders-from-changing-names",
+  "party": "Conservative",
+  "policy_title": "Restrict Sex Offenders from Changing Names",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy removes sex offenders' legal ability to change their names, which is a direct restriction on personal autonomy for that group. The effect is real but limited in scope to a small defined population.",
+    "biggest_unknown": "Whether a blanket ban would survive legal challenge under the Equalities Act, or whether a narrower permission-based model would be adopted instead, which would reduce the liberty impact.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy will restrict sex offenders from changing their names to prevent identity concealment.",
+        "evidence_id": "M",
+        "quote": "restricting them from changing their names"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Currently, sex offenders must notify police of name changes within three days; breach carries up to five years imprisonment.",
+        "evidence_id": "E3",
+        "quote": "registered sex offenders are legally required to notify the police of any name changes within three days, with a breach carrying a penalty of up to five years' imprisonment"
+      },
+      {
+        "tier": "projected",
+        "claim": "The policy would make it a criminal offence for a convicted sex offender to change their identity.",
+        "evidence_id": "E9",
+        "quote": "This would make it an offense for a convicted sex offender to change their identity"
+      },
+      {
+        "tier": "projected",
+        "claim": "A blanket ban could potentially violate the Equalities Act 2010 if an individual wishes to change their name for legitimate reasons such as religious purposes or gender transition.",
+        "evidence_id": "E13",
+        "quote": "a blanket ban could potentially violate the Equalities Act 2010 if an individual wishes to change their name for legitimate reasons, such as religious purposes or gender transition"
+      },
+      {
+        "tier": "projected",
+        "claim": "A denial of name change could paradoxically increase risk of non-compliance with registration requirements for some individuals seeking to lead a better life.",
+        "evidence_id": "E15",
+        "quote": "a denial of name change could, paradoxically, increase the risk of some individuals not complying with registration requirements at all if they are seeking to lead a better life"
+      }
+    ],
+    "rationale": "Under O10, the scoring question is purely whether the policy expands or contracts personal liberty \u2014 independent of whether that restriction also improves safety (O5). This policy directly prohibits a legal act \u2014 changing one's name \u2014 for a defined class of people (convicted sex offenders). That is a straightforward addition of state coercion: a right that currently exists is removed. The existing regime already imposes a notification duty (E3), so the marginal liberty cost of this policy is the step from 'notify' to 'cannot do at all.' That step is real: it removes a legal option, not merely regulates it. The magnitude is minor rather than moderate because the affected population is numerically small (the policy does not affect the general public's name-change freedom) and because a permission-based model \u2014 as suggested in E16 \u2014 could achieve similar tracking with less absolute restriction, meaning the full ban is not the only available instrument. Confidence is moderate rather than high because the legal durability of the policy is uncertain: E13 flags a plausible Equalities Act challenge that could result in the ban being narrowed or struck down, which would reduce the liberty impact further. The counterfactual is the current notification-only regime, which already constrains but does not eliminate the right. This policy eliminates it entirely, making the worsening verdict clear on liberty grounds, even though the same policy may score as an improvement on O5.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0044/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+        "publisher": "thirtyoneeight.org",
+        "title": "thirtyoneeight.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CDP-2023-0044/CDP-2023-0044.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM8hWCGrp5qqYkp5AV33Ad2ZsB5wpXwYFH3Wk3nAmHzmwOPKFPxZULpJqjM6u9mEM5rcLw-fvK3DHIDQetHy50mcHGgoH4Kr0Sg1J7iV3PkxLR-bRyG8-98m0zfjN1Yt0PbQtEjWy68vGEnZRptXti19bQ5F4sgcuwIBHNu-qnMOABa8nMJ3MpXD6DQkcC3RtNRkabxV4ktrjTsxf1RuFlS_6GN2b9KdBOxnrnB9zoXvyKt4gmdLhv22k-iVHX",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "parliament.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/new-law-to-stop-thousands-of-offenders-from-changing-their-name-in-secret",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/uk/politics/suella-braverman-tory-conference-sex-offenders-b2423000.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.lucyfaithfull.org.uk/should-registered-sex-offenders-be-allowed-to-change-their-names/",
+        "publisher": "lucyfaithfull.org.uk",
+        "title": "lucyfaithfull.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0341,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are correct: stated, measurable, and projected are used appropriately. The projected claim from E9 ('would make it an offense') is sourced from a synthesis source (thirtyoneeight.org) rather than the policy text itself, which is acceptable as a projected reading of the policy's intent. E13 and E15 are clearly flagged as projected concerns from named organisations. The direction (worsens), magnitude (minor), and time_horizon (this-parliament) are plausible and internally consistent. The rationale correctly isolates the O10 liberty effect without leaking into O5 safety judgments, attributes no motive to the party, and treats advocacy sources (Safeguarding Alliance, Lucy Faithfull Foundation) symmetrically. No false balance issue: the verdict doesn't manufacture uncertainty \u2014 it correctly notes a real legal uncertainty (Equalities Act challenge) as the biggest unknown while still reaching a clear worsens verdict. No lever leakage: the verdict scores liberty effect, not the policy's safety merits. Minor note: E9 is from thirtyoneeight.org classified as 'media' but is a safeguarding charity; this does not affect the verdict since the claim is correctly tiered as projected."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will ensure sex offenders cannot evade justice or conceal their identity by restricting them from changing their names.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy aims to close a \"loophole\" that campaigners and some politicians argue allows registered sex offenders to \"go under the radar of all authorities\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0044/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.russellwebster.com/the-conservatives-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.transgendertrend.com/political-party-manifestos-general-election-2024/",
+            "publisher": "transgendertrend.com",
+            "title": "transgendertrend.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thesafeguardingalliance.org.uk/research-sex-offender-name-change/",
+            "publisher": "thesafeguardingalliance.org.uk",
+            "title": "thesafeguardingalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/mark-fletcher/debate/2023-03-01/commons/commons-chamber/sexual-offences-prohibition-of-name-change",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The primary motivation behind the policy is to enhance public safety by ensuring that sex offenders cannot use a name change to hide their criminal past, particularly when applying for Disclosure and Barring Service (DBS) checks for jobs involving vulnerable people",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0044/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thesafeguardingalliance.org.uk/research-sex-offender-name-change/",
+            "publisher": "thesafeguardingalliance.org.uk",
+            "title": "thesafeguardingalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/mark-fletcher/debate/2023-03-01/commons/commons-chamber/sexual-offences-prohibition-of-name-change",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/crime/sex-offenders-change-name-law-b2363118.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Currently, registered sex offenders are legally required to notify the police of any name changes within three days, with a breach carrying a penalty of up to five years' imprisonment",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0044/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CDP-2023-0044/CDP-2023-0044.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM8hWCGrp5qqYkp5AV33Ad2ZsB5wpXwYFH3Wk3nAmHzmwOPKFPxZULpJqjM6u9mEM5rcLw-fvK3DHIDQetHy50mcHGgoH4Kr0Sg1J7iV3PkxLR-bRyG8-98m0zfjN1Yt0PbQtEjWy68vGEnZRptXti19bQ5F4sgcuwIBHNu-qnMOABa8nMJ3MpXD6DQkcC3RtNRkabxV4ktrjTsxf1RuFlS_6GN2b9KdBOxnrnB9zoXvyKt4gmdLhv22k-iVHX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "However, critics like the Safeguarding Alliance and MP Sarah Champion contend that this system relies too heavily on offenders to self-report, making it unreliable",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0044/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thesafeguardingalliance.org.uk/research-sex-offender-name-change/",
+            "publisher": "thesafeguardingalliance.org.uk",
+            "title": "thesafeguardingalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/mark-fletcher/debate/2023-03-01/commons/commons-chamber/sexual-offences-prohibition-of-name-change",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM8hWCGrp5qqYkp5AV33Ad2ZsB5wpXwYFH3Wk3nAmHzmwOPKFPxZULpJqjM6u9mEM5rcLw-fvK3DHIDQetHy50mcHGgoH4Kr0Sg1J7iV3PkxLR-bRyG8-98m0zfjN1Yt0PbQtEjWy68vGEnZRptXti19bQ5F4sgcuwIBHNu-qnMOABa8nMJ3MpXD6DQkcC3RtNRkabxV4ktrjTsxf1RuFlS_6GN2b9KdBOxnrnB9zoXvyKt4gmdLhv22k-iVHX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   Between 2015 and 2020, over 16,000 offenders were charged with a breach of their notification requirements",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CDP-2023-0044/CDP-2023-0044.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM8hWCGrp5qqYkp5AV33Ad2ZsB5wpXwYFH3Wk3nAmHzmwOPKFPxZULpJqjM6u9mEM5rcLw-fvK3DHIDQetHy50mcHGgoH4Kr0Sg1J7iV3PkxLR-bRyG8-98m0zfjN1Yt0PbQtEjWy68vGEnZRptXti19bQ5F4sgcuwIBHNu-qnMOABa8nMJ3MpXD6DQkcC3RtNRkabxV4ktrjTsxf1RuFlS_6GN2b9KdBOxnrnB9zoXvyKt4gmdLhv22k-iVHX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/crime/sex-offenders-change-name-law-b2363118.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   Between January 2019 and June 2022, there were almost 12,000 prosecutions against registered sex offenders for failing to alert authorities about changes in their personal information",
+        "sources": [
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   Over 700 registered sex offenders went missing from police records between 2019 and 2021",
+        "sources": [
+          {
+            "url": "https://www.winstonsolicitors.co.uk/blog/cica/name-change-restrictions-imposed-registered-sex-offenders-new-law",
+            "publisher": "winstonsolicitors.co.uk",
+            "title": "winstonsolicitors.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/mark-fletcher/debate/2023-03-01/commons/commons-chamber/sexual-offences-prohibition-of-name-change",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The proposed policy intends to integrate data from various government agencies, including HM Revenue and Customs (HMRC), the Department for Work and Pensions (DWP), HM Passport Office, and the Driver and Vehicle Licensing Agency (DVLA), with the Disclosure and Barring Service (DBS) to automatically flag any attempts by registered sex offenders to change their names",
+        "sources": [
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/suella-braverman-tory-conference-sex-offenders-b2423000.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This would make it an offense for a convicted sex offender to change their identity, thereby strengthening background checks and improving the Probation Service's ability to supervise offenders",
+        "sources": [
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-law-to-stop-thousands-of-offenders-from-changing-their-name-in-secret",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/suella-braverman-tory-conference-sex-offenders-b2423000.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **House of Commons Library:** A research briefing from March 2023 highlighted the concerns raised by Sarah Champion MP and the Safeguarding Alliance regarding the \"loophole\" and the ability of sex offenders to obtain \"clean\" DBS checks under new identities",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0044/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thesafeguardingalliance.org.uk/research-sex-offender-name-change/",
+            "publisher": "thesafeguardingalliance.org.uk",
+            "title": "thesafeguardingalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/mark-fletcher/debate/2023-03-01/commons/commons-chamber/sexual-offences-prohibition-of-name-change",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/crime/sex-offenders-change-name-law-b2363118.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **The Safeguarding Alliance:** This organization has actively campaigned for \"Della's Law\" (named after a survivor of child sexual abuse), arguing that the current name change process is \"too simple, inexpensive and unregulated.\" They advocate for a joined-up approach between statutory agencies to prevent key legislation like the Sex Offenders Register and disclosure schemes (such as Sarah's Law and Clare's Law) from being undermined",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0044/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thesafeguardingalliance.org.uk/research-sex-offender-name-change/",
+            "publisher": "thesafeguardingalliance.org.uk",
+            "title": "thesafeguardingalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM8hWCGrp5qqYkp5AV33Ad2ZsB5wpXwYFH3Wk3nAmHzmwOPKFPxZULpJqjM6u9mEM5rcLw-fvK3DHIDQetHy50mcHGgoH4Kr0Sg1J7iV3PkxLR-bRyG8-98m0zfjN1Yt0PbQtEjWy68vGEnZRptXti19bQ5F4sgcuwIBHNu-qnMOABa8nMJ3MpXD6DQkcC3RtNRkabxV4ktrjTsxf1RuFlS_6GN2b9KdBOxnrnB9zoXvyKt4gmdLhv22k-iVHX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Thirtyone:eight (a safeguarding charity):** They understand that the proposed changes involve merging details from various government agencies with the DBS, which would alert authorities to name changes",
+        "sources": [
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "However, they also raise concerns that a blanket ban could potentially violate the Equalities Act 2010 if an individual wishes to change their name for legitimate reasons, such as religious purposes or gender transition",
+        "sources": [
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "UK and Ireland helpline):** Donald Findlater, Director of the helpline, acknowledges the effectiveness of the UK's sex offender registration system, noting a high compliance level among the nearly 70,000 registered offenders",
+        "sources": [
+          {
+            "url": "https://www.lucyfaithfull.org.uk/should-registered-sex-offenders-be-allowed-to-change-their-names/",
+            "publisher": "lucyfaithfull.org.uk",
+            "title": "lucyfaithfull.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, he suggests that a denial of name change could, paradoxically, increase the risk of some individuals not complying with registration requirements at all if they are seeking to lead a better life",
+        "sources": [
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lucyfaithfull.org.uk/should-registered-sex-offenders-be-allowed-to-change-their-names/",
+            "publisher": "lucyfaithfull.org.uk",
+            "title": "lucyfaithfull.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "He argues that instead of a ban, a requirement to notify the police and seek permission for a name change, similar to the process for international travel, might be more effective",
+        "sources": [
+          {
+            "url": "https://thirtyoneeight.org/blogs/offender-law-change/",
+            "publisher": "thirtyoneeight.org",
+            "title": "thirtyoneeight.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The Foundation also points out that the \"vast majority of convicted sex offenders are never reconvicted\"",
+        "sources": [
+          {
+            "url": "https://www.lucyfaithfull.org.uk/should-registered-sex-offenders-be-allowed-to-change-their-names/",
+            "publisher": "lucyfaithfull.org.uk",
+            "title": "lucyfaithfull.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

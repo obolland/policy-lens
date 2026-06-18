@@ -1,0 +1,9 @@
+{
+  "_comment": "Value-lenses — the internal engine for steel-man and red-team. NOT party personas (party framing imports tribal bias and slides into caricature). The UI MAY present these as 'the case from the left / right' but that is a presentation layer only. See spec §2.",
+  "lenses": [
+    { "key": "market",   "name": "Market / efficiency", "concerns": "efficiency, growth, incentives, competition, supply response" },
+    { "key": "equity",   "name": "Equity / distribution", "concerns": "distribution, fairness, who bears the cost, the worst-off" },
+    { "key": "fiscal",   "name": "Fiscal sustainability", "concerns": "cost to the Exchequer, debt, value-for-money, revenue certainty" },
+    { "key": "delivery", "name": "Delivery / implementation", "concerns": "capacity, timelines, deliverability, unintended effects, gaming" }
+  ]
+}

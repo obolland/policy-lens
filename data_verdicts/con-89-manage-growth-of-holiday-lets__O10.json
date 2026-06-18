@@ -1,0 +1,707 @@
+{
+  "policy_id": "con-89-manage-growth-of-holiday-lets",
+  "party": "Conservative",
+  "policy_title": "Manage Growth of Holiday Lets",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy would give councils new powers to restrict how private property owners use their homes as holiday lets, which is a direct expansion of state control over property rights. The effect is real but modest in scale, affecting a small fraction of total housing stock.",
+    "biggest_unknown": "How broadly and aggressively councils would exercise the new powers \u2014 targeted light-touch licensing versus blanket bans would have very different liberty implications for property owners.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would give councils powers to manage (i.e. restrict) the growth of holiday lets.",
+        "evidence_id": "M",
+        "quote": "ensure councils have the powers needed to manage the uncontrolled growth of holiday lets"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Councils would be able to remove permitted development rights from holiday let owners as part of these powers.",
+        "evidence_id": "E3",
+        "quote": "Councils will also have powers to remove permitted development rights if necessary."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Holiday lets currently represent only 0.6% of total housing stock in England and Wales, meaning the population of property owners directly affected is small.",
+        "evidence_id": "E11",
+        "quote": "holiday lets represent a small fraction of the total housing stock (0.6% of 26.9 million homes in England and Wales)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Homeowners can still let their main home for up to 90 nights per year without needing to register, suggesting a baseline exemption remains.",
+        "evidence_id": "E2",
+        "quote": "Homeowners can still let out their main home for up to 90 nights a year without needing to register."
+      }
+    ],
+    "rationale": "O10 concerns freedom from state coercion over property rights. This policy explicitly grants councils new powers to restrict how private property owners may use their own homes \u2014 removing permitted development rights where councils deem it necessary. That is a straightforward expansion of state control over private property use, which scores as a worsening of O10. The liberty cost is real: owners who would otherwise be free to let their property as a holiday let would face a new permission regime or outright prohibition at council discretion. However, the magnitude is minor for two reasons. First, the affected population is small \u2014 holiday lets are 0.6% of total housing stock, so the coercive reach touches a narrow slice of property owners. Second, a residual personal-use exemption remains (90 nights without registration), limiting the intrusion for owner-occupiers. The policy does not criminalise speech, mandate surveillance, or impose bodily controls \u2014 the liberty harm is confined to property rights. Confidence is moderate: the stated mechanism (council powers, removal of permitted development rights) is clear, but the actual degree of restriction depends entirely on how councils exercise discretion, which is unknown.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.propertymark.co.uk/resource/councils-to-wield-greater-powers-over-short-term-lets.html",
+        "publisher": "propertymark.co.uk",
+        "title": "propertymark.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://mhclgmedia.blog.gov.uk/2024/02/19/department-announces-changes-to-short-term-lets-rules/",
+        "publisher": "mhclgmedia.blog.gov.uk",
+        "title": "blog.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i21797-the-market-for-holiday-lets-in-england-and-wales/",
+        "publisher": "frontier-economics.com",
+        "title": "frontier-economics.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.sykescottages.co.uk/letyourcottage/advice/article/holiday-let-rules-regulations",
+        "publisher": "sykescottages.co.uk",
+        "title": "sykescottages.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0361,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are well-supported by their cited evidence. The stated-tier claim accurately quotes the policy text. E3 (councils removing permitted development rights) is from a government blog and supports the measurable claim, though strictly this describes a power already legislated by a different (Labour) government rather than the Conservative manifesto proposal \u2014 this is a minor contextual ambiguity but not a blocking entailment failure given the policy context. E11 (Frontier Economics) supports the 0.6% figure; the source is a commercial/advocacy-commissioned report but is labelled and not the sole basis for a verdict. E2 supports the 90-night exemption claim. Direction 'worsens' is well-reasoned on O10 property-rights grounds. Magnitude 'minor' is justified by the small affected population and residual exemption. No tier blurring, no party-identity leakage, no motive attribution, no false balance issue (this is a directional verdict, not mixed). The rationale correctly confines the liberty harm to property rights and does not score the housing/community benefit as an O10 positive. All checks pass."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will ensure councils have the powers needed to manage the uncontrolled growth of holiday lets, which can cause nuisance to local residents and 'hollowing out' of communities.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Additionally, the Furnished Holiday Lettings (FHL) tax regime, which offered tax advantages to holiday let owners, is being abolished from April 1, 2025.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/councils-to-wield-greater-powers-over-short-term-lets.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10121/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8395/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Homeowners can still let out their main home for up to 90 nights a year without needing to register.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/councils-to-wield-greater-powers-over-short-term-lets.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sykescottages.co.uk/letyourcottage/advice/article/holiday-let-rules-regulations",
+            "publisher": "sykescottages.co.uk",
+            "title": "sykescottages.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Councils will also have powers to remove permitted development rights if necessary.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/councils-to-wield-greater-powers-over-short-term-lets.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mhclgmedia.blog.gov.uk/2024/02/19/department-announces-changes-to-short-term-lets-rules/",
+            "publisher": "mhclgmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This means FHL properties will be taxed in the same way as standard long-term residential lets, affecting mortgage interest relief and capital allowances.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10121/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.guesty.com/blog/holiday-let-invest-finance/",
+            "publisher": "guesty.com",
+            "title": "guesty.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Government's View:** The government states these changes are part of a long-term plan to prevent the \"hollowing out\" of communities and ensure local people can find affordable housing.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "They aim to support local residents who are being priced out of their communities due to a high number of short-term lets preventing them from finding homes to buy or rent.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "They point out that automatically granting permission to existing holiday lets \"risks shutting the stable door once the horse has bolted.\"",
+        "sources": [
+          {
+            "url": "https://www.generationrent.org/2024/02/20/government-plans-to-tackle-holiday-lets-must-go-further-say-generation-rent/",
+            "publisher": "generationrent.org",
+            "title": "generationrent.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Generation Rent's research indicates that over 35,000 homes have become holiday homes or short-term lets since 2019, leading to a loss of approximately 29 long-term homes a day.",
+        "sources": [
+          {
+            "url": "https://www.generationrent.org/2024/02/20/government-plans-to-tackle-holiday-lets-must-go-further-say-generation-rent/",
+            "publisher": "generationrent.org",
+            "title": "generationrent.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Propertymark highlights that the high rents from short-term lets are a key incentive for owners, potentially reducing the supply of much-needed properties for long-term residents.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/councils-to-wield-greater-powers-over-short-term-lets.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.propertymark.co.uk/static/0165201f-6a7e-46cb-987444e6862ab403/The-impact-of-short-term-lets.pdf",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "They argue that house prices are influenced more by factors like interest rates, migration, and the supply of new homes.",
+        "sources": [
+          {
+            "url": "https://www.groupaccommodation.com/blog/news/pasc-uk-form-and-value-report-2025",
+            "publisher": "groupaccommodation.com",
+            "title": "groupaccommodation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Frontier Economics also states that holiday lets represent a small fraction of the total housing stock (0.6% of 26.9 million homes in England and Wales) and their growth rate has been steady, not rapid (1.9% since 2016 in England, 4.1% since 2021 in Wales).",
+        "sources": [
+          {
+            "url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i21797-the-market-for-holiday-lets-in-england-and-wales/",
+            "publisher": "frontier-economics.com",
+            "title": "frontier-economics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "They suggest that policymakers need to look elsewhere to address housing shortages.",
+        "sources": [
+          {
+            "url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i21797-the-market-for-holiday-lets-in-england-and-wales/",
+            "publisher": "frontier-economics.com",
+            "title": "frontier-economics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They also show that average annual rents increased by 9.1% in Great Britain in the year to March 2024, the fastest rate on record.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/housing-outlook-q2-2025/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/record-number-of-families-are-living-in-temporary-accommodation-as-the-availability-of-social-housing-and-government-support-for-renters-lags-behind/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Positive Impacts:** Holiday lets are seen as crucial to local economies, especially in rural and coastal areas where other employment options might be limited.",
+        "sources": [
+          {
+            "url": "https://www.groupaccommodation.com/blog/news/pasc-uk-form-and-value-report-2025",
+            "publisher": "groupaccommodation.com",
+            "title": "groupaccommodation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Across England and Wales, holiday lets sustain approximately 139,000 jobs and contribute \u00a36.6 billion in Gross Value Added (GVA) annually to the economy.",
+        "sources": [
+          {
+            "url": "https://www.groupaccommodation.com/blog/news/pasc-uk-form-and-value-report-2025",
+            "publisher": "groupaccommodation.com",
+            "title": "groupaccommodation.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i21797-the-market-for-holiday-lets-in-england-and-wales/",
+            "publisher": "frontier-economics.com",
+            "title": "frontier-economics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "In areas with higher concentrations of holiday lets, wages have grown faster than the national average, making residents about \u00a3575 per year better off, according to Frontier Economics.",
+        "sources": [
+          {
+            "url": "https://www.groupaccommodation.com/blog/news/pasc-uk-form-and-value-report-2025",
+            "publisher": "groupaccommodation.com",
+            "title": "groupaccommodation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Holiday lets also provide affordable travel options for UK tourists, with over 90% of visitors coming from within the UK.",
+        "sources": [
+          {
+            "url": "https://www.groupaccommodation.com/blog/news/pasc-uk-form-and-value-report-2025",
+            "publisher": "groupaccommodation.com",
+            "title": "groupaccommodation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Potential Negative Impacts (from tighter regulations):** The UK Short Term Accommodation Association and Tourism Alliance have expressed concerns that new planning reforms could negatively affect the tourism economy.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8395/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Some argue that stringent measures could harm UK tourism, suggesting that legislation allowing differentiation between short and long-term lets would be more beneficial to understand the impact on housing supply.",
+        "sources": [
+          {
+            "url": "https://www.cbre.co.uk/insights/articles/should-we-tighten-the-regulations-for-holiday-and-short-term-lets",
+            "publisher": "cbre.co.uk",
+            "title": "cbre.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Local authorities in Wales that increased council tax premiums on second homes saw some buyers sell up, leading to an increase in empty holiday houses and concerns about pricing out the tourism sector.",
+        "sources": [
+          {
+            "url": "https://ww3.rics.org/uk/en/modus/built-environment/homes-and-communities/banning-short-term-lets-housing-crisis.html",
+            "publisher": "ww3.rics.org",
+            "title": "rics.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Owner Income:** In 2025, the average UK holiday let generated \u00a325,600 in gross income, an increase from \u00a324,700 the previous year.",
+        "sources": [
+          {
+            "url": "https://www.coastandcountry.co.uk/blog/are-holiday-lets-a-good-investment",
+            "publisher": "coastandcountry.co.uk",
+            "title": "coastandcountry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://england.landlordsguild.com/article/uk-holiday-let-earnings-rise-despite-tax-changes",
+            "publisher": "england.landlordsguild.com",
+            "title": "landlordsguild.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Owners typically spend around \u00a37,360 a year on operating expenses such as cleaning, utilities, maintenance, and marketing.",
+        "sources": [
+          {
+            "url": "https://www.coastandcountry.co.uk/blog/are-holiday-lets-a-good-investment",
+            "publisher": "coastandcountry.co.uk",
+            "title": "coastandcountry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Holiday lets often generate higher rental income than standard buy-to-let properties, particularly during peak seasons, with gross rental yields ranging from 8% to 10%, compared to 5% to 8% for traditional rentals.",
+        "sources": [
+          {
+            "url": "https://help.getground.co.uk/learning-centre/holiday-let-investment-uk-2025",
+            "publisher": "help.getground.co.uk",
+            "title": "getground.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   The government's policy directly addresses concerns about holiday lets causing nuisance and impacting community cohesion.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Using residential areas for short-term accommodation can lead to issues like increased anti-social behaviour, noise, and a loss of community feeling, especially where properties are let full-time as holiday lets, resulting in constant \"visitor use\" rather than residential use.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/static/0165201f-6a7e-46cb-987444e6862ab403/The-impact-of-short-term-lets.pdf",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.scot/publications/research-impact-short-term-lets-communities-scotland/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The top four for guest nights between July 2024 and June 2025 were Westminster (4,107,880), Cornwall (3,574,320), City of Edinburgh (3,030,570), and Highland (2,698,780).",
+        "sources": [
+          {
+            "url": "https://www.i4me.co.uk/blog-posts/what-the-latest-ons-data-on-short-term-lets-means-for-uk-holiday-let-owners/",
+            "publisher": "i4me.co.uk",
+            "title": "i4me.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/shorttermletsthroughonlinecollaborativeeconomyplatformsuk/januarytodecember2024",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/shorttermletsthroughonlinecollaborativeeconomyplatformsuk/july2024tojune2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   The abolition of the FHL regime from April 1, 2025, will remove tax advantages previously available to holiday let owners, such as mortgage interest relief and capital allowances.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10121/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.guesty.com/blog/holiday-let-invest-finance/",
+            "publisher": "guesty.com",
+            "title": "guesty.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "This aligns the tax treatment with standard long-term residential lets.",
+        "sources": [
+          {
+            "url": "https://www.guesty.com/blog/holiday-let-invest-finance/",
+            "publisher": "guesty.com",
+            "title": "guesty.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, average gross incomes for holiday let owners still rose from \u00a324,700 in 2024 to \u00a325,600 in 2025, suggesting resilience in the market, possibly due to continued demand for staycations.",
+        "sources": [
+          {
+            "url": "https://england.landlordsguild.com/article/uk-holiday-let-earnings-rise-despite-tax-changes",
+            "publisher": "england.landlordsguild.com",
+            "title": "landlordsguild.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The 2025 Autumn Budget also included proposals for property income tax rates to rise by 2 percentage points from April 2027 and potential local visitor/overnight-stay levies.",
+        "sources": [
+          {
+            "url": "https://www.holidaycottagemortgages.co.uk/the-impact-of-2025-autumn-budget-on-uk-holiday-let-owners/",
+            "publisher": "holidaycottagemortgages.co.uk",
+            "title": "holidaycottagemortgages.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Frontier Economics (for PASC UK) found no link between holiday let concentration and house price growth or affordability issues, attributing price changes to broader economic factors.",
+        "sources": [
+          {
+            "url": "https://www.groupaccommodation.com/blog/news/pasc-uk-form-and-value-report-2025",
+            "publisher": "groupaccommodation.com",
+            "title": "groupaccommodation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "In contrast, the government and housing advocacy groups like Generation Rent explicitly state that high numbers of short-term lets *are* preventing local people from finding affordable housing.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/short-term-lets-rules-to-protect-communities-and-keep-homes-available",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.generationrent.org/2024/02/20/government-plans-to-tackle-holiday-lets-must-go-further-say-generation-rent/",
+            "publisher": "generationrent.org",
+            "title": "generationrent.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Propertymark also notes that high short-term let rents incentivize owners, potentially reducing long-term rental stock and impacting affordability.",
+        "sources": [
+          {
+            "url": "https://www.propertymark.co.uk/resource/councils-to-wield-greater-powers-over-short-term-lets.html",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.propertymark.co.uk/static/0165201f-6a7e-46cb-987444e6862ab403/The-impact-of-short-term-lets.pdf",
+            "publisher": "propertymark.co.uk",
+            "title": "propertymark.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Frontier Economics argues that dedicated holiday lets are a very small percentage (0.6% of homes in England and Wales) and their growth is steady, not rapid.",
+        "sources": [
+          {
+            "url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i21797-the-market-for-holiday-lets-in-england-and-wales/",
+            "publisher": "frontier-economics.com",
+            "title": "frontier-economics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "However, others highlight the significant growth in listings on platforms like Airbnb, particularly in hotspots, and the estimated 175,000 flats and houses that could be permanent homes being used as short-term lets.",
+        "sources": [
+          {
+            "url": "https://www.cbre.co.uk/insights/articles/should-we-tighten-the-regulations-for-holiday-and-short-term-lets",
+            "publisher": "cbre.co.uk",
+            "title": "cbre.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **House of Commons Library:** Provides background briefings on second homes and holiday lets, noting the complex, multi-faceted impacts on local communities, including potential reduction in housing supply and increased house prices, but also economic boosts from tourism.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0001/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CDP-2022-0001/CDP-2022-0001.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "They have also tracked the growth in short-term lettings in England.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8395/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "For example, from July 2024 to June 2025, there were 93.8 million guest nights in UK short-term lets, an increase of 10.2% from the previous year.",
+        "sources": [
+          {
+            "url": "https://www.i4me.co.uk/blog-posts/what-the-latest-ons-data-on-short-term-lets-means-for-uk-holiday-let-owners/",
+            "publisher": "i4me.co.uk",
+            "title": "i4me.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/shorttermletsthroughonlinecollaborativeeconomyplatformsuk/july2024tojune2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Health Foundation:** While not directly commenting on holiday lets, the Health Foundation emphasizes the broader UK housing crisis, noting that nearly a fifth of families live in the private rented sector, and 3.7 million homes in England are non-decent, costing the NHS \u00a31.1 billion annually.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlk3LXO13h4ukr6fSY1jsRzHI9G35iqqXF0kVq8Op-FwovB5WTjcL9TDI_pL_KAk-owqflPNkYGyXXy2ufSB1hPOdAT5zB3NwCVz1nSgbyQedMXyCpIFKAwq_XrCHPE5gbH1vXVlj4DJDIxpxJdP1FUrgbU-TnGpegXTv464jks2VcARRgqeiJzX7F",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   **IFS (Institute for Fiscal Studies) / OBR (Office for Budget Responsibility):** Direct analysis from the IFS and OBR specifically on this holiday let policy was not found in the provided search results, though the IFS has commented on broader housing market issues like young adults living with parents due to affordability.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/hotel-mum-and-dad-co-residence-parents-among-those-aged-25-34",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

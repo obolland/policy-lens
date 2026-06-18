@@ -1,0 +1,488 @@
+{
+  "policy_id": "con-38-pass-veterans-bill",
+  "party": "Conservative",
+  "policy_title": "Pass Veterans' Bill",
+  "outcome": "O7",
+  "verdict": {
+    "outcome": "O7",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "The Veterans' Bill aims to help veterans get their military qualifications recognised in civilian life, which could ease career transitions \u2014 but this affects a small population (under 4% of working-age adults) and the qualification recognition measure is a stated commitment without detailed mechanism. The main O7 effect is marginal.",
+    "biggest_unknown": "Whether formal legal recognition of military qualifications meaningfully improves civilian employment or skills outcomes beyond what veterans already achieve, given they already outperform the UK employment average.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to ensuring qualifications from service are recognised in civilian life.",
+        "evidence_id": "M",
+        "quote": "ensuring qualifications from service are recognized in civilian life"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Veterans number 1.85 million in England and Wales, representing 3.8% of the population aged 16 or over.",
+        "evidence_id": "E14",
+        "quote": "The Census 2021 found 1.85 million veterans in England and Wales, representing 3.8% of the population aged 16 or over."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The overall employment rate for veterans has reportedly risen from 80% to 89% since 2015, surpassing the UK average.",
+        "evidence_id": "E9",
+        "quote": "The overall employment rate for veterans has reportedly risen from 80% to 89% since 2015, surpassing the UK average."
+      },
+      {
+        "tier": "projected",
+        "claim": "Legal recognition of military qualifications is aimed at facilitating a smoother transition for veterans into civilian employment.",
+        "evidence_id": "E7",
+        "quote": "This measure is aimed at facilitating a smoother transition for veterans into civilian employment, allowing society to benefit more systematically from their acquired skills."
+      },
+      {
+        "tier": "projected",
+        "claim": "Expanding the Armed Forces Covenant duty is expected to drive further improvements, but effectiveness depends on clear guidance and consistent implementation.",
+        "evidence_id": "E13",
+        "quote": "They generally welcome the expansion of the Covenant but emphasize that its effectiveness will depend on clear guidance and consistent, proper implementation."
+      }
+    ],
+    "rationale": "O7 covers school standards, attainment gaps, FE/skills, and access to higher education. The Veterans' Bill's primary O7-relevant element is the commitment to recognise military qualifications in civilian life \u2014 a skills and opportunity measure. However, the population affected is small (3.8% of working-age adults), and veterans already outperform the UK employment average at 89% vs the national rate, limiting the headroom for further gains. The qualification recognition commitment is stated without a specific mechanism, budget, or statutory instrument detailed in the evidence. The Covenant expansion could improve consistency of education-related support for veterans and their families (state-funded schools were already covered under the 2021 Act), but again effectiveness is projected to depend on implementation quality. There is no evidence provided that this policy would meaningfully move school standards, the attainment gap for disadvantaged pupils, or FE/skills funding at population scale. The effect on O7 is real but marginal \u2014 confined to a small sub-population where employment outcomes are already strong \u2014 making 'negligible' the most defensible direction, though a minor improvement for veterans specifically cannot be ruled out.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqiCR3gE90IMCGrnJcNbyN5VnzCf9jIHkFB2SS-xP92ePfVOEpzSoSpeHVGgSqf82NipgT7lHMQazpBlAu3bxPowIF4eO_rTzi7cjgzfNdk8It3VR6ZGp1qM3-fEwNPwA-wfgIxIC33R0ARNHxfW5QWyuALswZjHgp0UbMavla0gHkFrfGcLs6fypJuNcbBx-mTUaxAQWXxHVZouh1f180QaPRaJU9hSxRMJMoCZhOz0ftyfA6SEpUFHpQ_Po8Ca1uAuKXzwQ4yc_U0LLkKlyao1evN8fbuxpV_2SGdLu9f1XJ_HwpQkri5Ak",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "oecd.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102mrrp/what-is-the-armed-forces-bill-2026-and-why-should-you-care",
+        "publisher": "irwinmitchell.com",
+        "title": "irwinmitchell.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://committees.parliament.uk/publications/52862/documents/294854/default/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10471/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0316,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is sound. The E9 claim (veterans employment rate) is sourced from irwinmitchell.com, a commercial/legal firm \u2014 this is flagged as a warning since it cannot be sole basis for a measurable fact, but the claim is used only as supporting context and the verdict's direction does not hinge on it. The direction of 'negligible' with 'minor' magnitude creates a mild internal tension (if magnitude is 'minor', direction arguably should be 'positive' rather than 'negligible'), but the rationale explains this as a deliberate judgment that the effect is real but population-scale impact on O7 is marginal \u2014 this is defensible. All tiers are correctly assigned. No lever leakage, no party identity smuggling, no false balance issue (the negligible/minor direction is consistently supported by the claims). The biggest_unknown is genuine and well-grounded."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will pass the UK's first ever Veterans' Bill to enshrine Veterans' rights in law, ensuring qualifications from service are recognized in civilian life, creating a legal duty on government to look after veterans, and widening the scope of the Armed Forces Covenant.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Enshrining Veterans' Rights in Law and Widening the Scope of the Armed Forces Covenant:**\n    The Armed Forces Act 2021 initially placed a legal duty on specific public bodies, such as local authorities, state-funded schools, and NHS organisations, to have \"due regard\" to the principles of the Armed Forces Covenant in the areas of housing, healthcare, and education.",
+        "sources": [
+          {
+            "url": "https://www.progressivepolicy.org/new-ppi-analysis-examines-strengths-and-shortcomings-in-2026-defense-authorization-bill/",
+            "publisher": "progressivepolicy.org",
+            "title": "progressivepolicy.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/collections/armed-forces-bill-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Armed Forces Bill 2026 expands this legal duty to all UK government departments and devolved administrations.",
+        "sources": [
+          {
+            "url": "https://heligangroup.com/blog/the-uk-armed-forces-bill-2026",
+            "publisher": "heligangroup.com",
+            "title": "heligangroup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.progressivepolicy.org/new-ppi-analysis-examines-strengths-and-shortcomings-in-2026-defense-authorization-bill/",
+            "publisher": "progressivepolicy.org",
+            "title": "progressivepolicy.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/52862/documents/294854/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10471/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/collections/armed-forces-bill-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The scope of policy areas covered by this duty is also significantly broadened to include employment, social care, personal taxation, welfare benefits, criminal justice, immigration, citizenship, pensions, service-related compensation, and transport.",
+        "sources": [
+          {
+            "url": "https://www.progressivepolicy.org/new-ppi-analysis-examines-strengths-and-shortcomings-in-2026-defense-authorization-bill/",
+            "publisher": "progressivepolicy.org",
+            "title": "progressivepolicy.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/collections/armed-forces-bill-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "**Real-world effects:** This expansion is intended to ensure that the unique sacrifices and circumstances of service personnel, veterans, and their families are actively considered in a much broader range of public services and policy decisions, aiming to prevent disadvantage and, in some cases, provide special consideration",
+        "sources": [
+          {
+            "url": "https://www.progressivepolicy.org/new-ppi-analysis-examines-strengths-and-shortcomings-in-2026-defense-authorization-bill/",
+            "publisher": "progressivepolicy.org",
+            "title": "progressivepolicy.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The existing legal duty has already led to increased awareness of the Covenant at the local level, and the expanded duty is expected to drive further improvements.",
+        "sources": [
+          {
+            "url": "https://www.canadianaffairs.news/2026/01/18/u-k-to-increase-age-reservists-can-be-called-up-to-65/",
+            "publisher": "canadianaffairs.news",
+            "title": "canadianaffairs.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "**Recognition of Qualifications from Service in Civilian Life:**\n    A key objective of the Veterans' Bill (as committed to by the Conservatives) is to ensure military qualifications are recognised on an equal footing with civilian qualifications in law.",
+        "sources": [
+          {
+            "url": "https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102mrrp/what-is-the-armed-forces-bill-2026-and-why-should-you-care",
+            "publisher": "irwinmitchell.com",
+            "title": "irwinmitchell.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This measure is aimed at facilitating a smoother transition for veterans into civilian employment, allowing society to benefit more systematically from their acquired skills.",
+        "sources": [
+          {
+            "url": "https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102mrrp/what-is-the-armed-forces-bill-2026-and-why-should-you-care",
+            "publisher": "irwinmitchell.com",
+            "title": "irwinmitchell.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The Veterans' Survey 2022 indicated that 85.4% of veterans felt they possessed transferable skills from their military service, and 81.4% had utilised these skills in a civilian role.",
+        "sources": [
+          {
+            "url": "https://www.quiverquant.com/news/New+Bill%3A+Representative+Mike+Bost+introduces+H.R.+9237%3A+Take+Care+of+America%E2%80%99s+Veterans+Act",
+            "publisher": "quiverquant.com",
+            "title": "quiverquant.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The overall employment rate for veterans has reportedly risen from 80% to 89% since 2015, surpassing the UK average.",
+        "sources": [
+          {
+            "url": "https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102mrrp/what-is-the-armed-forces-bill-2026-and-why-should-you-care",
+            "publisher": "irwinmitchell.com",
+            "title": "irwinmitchell.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Creating a Legal Duty on Government to Look After Veterans:**\n    This is central to the Armed Forces Bill 2026, extending the \"due regard\" principle across national government departments and devolved administrations.",
+        "sources": [
+          {
+            "url": "https://heligangroup.com/blog/the-uk-armed-forces-bill-2026",
+            "publisher": "heligangroup.com",
+            "title": "heligangroup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.progressivepolicy.org/new-ppi-analysis-examines-strengths-and-shortcomings-in-2026-defense-authorization-bill/",
+            "publisher": "progressivepolicy.org",
+            "title": "progressivepolicy.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/52862/documents/294854/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10471/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/collections/armed-forces-bill-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**Real-world effects:** This legal duty means that decision-makers across the UK are legally obliged to consider how their policies and services affect the armed forces community.",
+        "sources": [
+          {
+            "url": "https://heligangroup.com/blog/the-uk-armed-forces-bill-2026",
+            "publisher": "heligangroup.com",
+            "title": "heligangroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "This could lead to more tailored services and a more consistent approach to veteran support nationwide, reducing disparities based on location or the specific government department involved.",
+        "sources": [
+          {
+            "url": "https://heligangroup.com/blog/the-uk-armed-forces-bill-2026",
+            "publisher": "heligangroup.com",
+            "title": "heligangroup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10471/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They generally welcome the expansion of the Covenant but emphasize that its effectiveness will depend on clear guidance and consistent, proper implementation.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/52862/documents/294854/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10471/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The Census 2021 found 1.85 million veterans in England and Wales, representing 3.8% of the population aged 16 or over.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqiCR3gE90IMCGrnJcNbyN5VnzCf9jIHkFB2SS-xP92ePfVOEpzSoSpeHVGgSqf82NipgT7lHMQazpBlAu3bxPowIF4eO_rTzi7cjgzfNdk8It3VR6ZGp1qM3-fEwNPwA-wfgIxIC33R0ARNHxfW5QWyuALswZjHgp0UbMavla0gHkFrfGcLs6fypJuNcbBx-mTUaxAQWXxHVZouh1f180QaPRaJU9hSxRMJMoCZhOz0ftyfA6SEpUFHpQ_Po8Ca1uAuKXzwQ4yc_U0LLkKlyao1evN8fbuxpV_2SGdLu9f1XJ_HwpQkri5Ak",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "oecd.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The ONS also publishes data on veterans' labor market status, health, and engagement in volunteering, which will be crucial for monitoring the effects of such policies.",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-06-02/debates/79F8DFEC-32B6-48FB-9F4A-FED8ABE1B4E0/ArmedForcesBill",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/public-finances/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "However, NHS England has committed \u00a318 million over three years for veteran health services as part of the broader Veterans' Strategy Action Plan 2022-2024, including services like Op COURAGE for mental health and the Veterans Trauma Network for physical health.",
+        "sources": [
+          {
+            "url": "https://www.rusi.org/explore-our-research/publications/commentary/sticking-power-or-plaster-uk-armed-forces-bill-2026-and-preparedness",
+            "publisher": "rusi.org",
+            "title": "rusi.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "While acknowledging its merits in improving flexibility and correcting outdated legal thresholds, RUSI critiques the Bill for avoiding the central question of preparedness and for offering a \"sticking plaster where sticking power is needed,\" without truly increasing force generation.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Defence Housing:** The Bill establishes a new Defence Housing Service, backed by a significant **\u00a39 billion, 10-year investment programme**, aiming for better homes and clearer standards for service families.",
+        "sources": [
+          {
+            "url": "https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102mrrp/what-is-the-armed-forces-bill-2026-and-why-should-you-care",
+            "publisher": "irwinmitchell.com",
+            "title": "irwinmitchell.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10471/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/collections/armed-forces-bill-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Reserve Forces:** The Bill includes measures to increase the maximum recall age for some reservists to 65 (from 55) and is expected to bolster the \"on paper\" strength of the UK Armed Forces by approximately **100,000 troops**.",
+        "sources": [
+          {
+            "url": "https://heligangroup.com/blog/the-uk-armed-forces-bill-2026",
+            "publisher": "heligangroup.com",
+            "title": "heligangroup.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Disagreement:** While the government views these changes as strengthening readiness, RUSI argues that these measures primarily enhance flexibility rather than genuinely increasing military capability or solving deeper issues of funding and generating usable mass.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They also note that \"fewer than five per cent of the veteran population are affected\" by the recall age changes, as those already left the military are not affected unless they opt in.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Implementation of the Covenant:** The House of Commons Library and other witnesses, including veterans' charities, agree that while the principle of expanding the Covenant is welcome, its effective delivery will hinge on clear guidance and consistent application, noting that the existing Covenant has not always been consistently delivered.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmarmedforcesbill/1712/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/52862/documents/294854/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

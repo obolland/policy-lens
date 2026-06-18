@@ -1,0 +1,38 @@
+{
+  "policy_id": "ref-103-evict-foreign-nationals-from-social-housing",
+  "party": "Reform UK",
+  "policy_title": "Evict foreign nationals from social housing (three-month rule)",
+  "stated": "Reform UK would require non-UK citizens living in social (council) housing to leave it for private rented accommodation within three months; those who fail to do so would lose their right to remain in the UK and face deportation. Social housing would be prioritised for military veterans and long-term local residents, with the most vulnerable exempt from the stricter rules. Announced by party leader Nigel Farage in June 2026 (his first Substack essay), ahead of the Makerfield by-election.",
+  "source": {
+    "quote": "Non-UK citizens who fail to leave social housing after a three-month grace period would lose their right to remain in Britain; social housing would be prioritised for veterans and long-term local residents, with the most vulnerable exempt.",
+    "url": "https://www.itv.com/news/2026-06-14/farage-says-reform-would-evict-all-foreign-nationals-from-social-housing",
+    "publisher": "ITV News"
+  },
+  "candidate_outcomes": [
+    "O1",
+    "O5",
+    "O9"
+  ],
+  "consolidated_from": [],
+  "_added": "post-extraction manual addition 2026-06-15 \u2014 policy announced after the corpus extraction; verified against ITV News + Irish Times reporting of Farage's Substack announcement.",
+  "bearing_set": [
+    {
+      "outcome": "O1",
+      "reason": "The policy directly reallocates social housing stock by removing all non-UK citizens from it, materially changing who can access social/affordable tenure and on what terms \u2014 a primary effect on the affordable housing fundamental."
+    },
+    {
+      "outcome": "O9",
+      "reason": "The policy deploys loss of the right to remain and deportation as a sanction for occupying social housing, raising due-process and proportionality concerns, and makes a nationality-based distinction in the allocation of a public entitlement \u2014 directly engaging equal-treatment and legal-rights-framework questions within O9's strict scope."
+    },
+    {
+      "outcome": "O10",
+      "reason": "Using loss of the right to remain (deportation) as the enforcement mechanism for a housing-compliance rule is a significant coercive state power directed at residents' lives and homes; this directly bears on freedom from state coercion indicators."
+    },
+    {
+      "outcome": "O15",
+      "reason": "A policy that gives existing residents of a defined national group a three-month ultimatum to vacate their homes under threat of expulsion has a plausible, concrete mechanism for worsening inter-group trust, sense of belonging, and community integration for affected groups and their wider networks."
+    }
+  ],
+  "membership_note": "Four fundamentals bear genuinely: O1 (social housing reallocation and private-rental knock-on), O9 (differential treatment by nationality with deportation sanction), O10 (deportation as coercive enforcement of a housing rule), and O15 (targeted expulsion threat's effect on belonging and inter-group trust). Public-finance effects are too uncertain in net (enforcement costs vs. subsidy savings) to clear the non-negligible bar for O12.",
+  "membership_pass": "v2frame"
+}

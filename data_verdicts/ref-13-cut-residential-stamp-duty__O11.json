@@ -1,0 +1,743 @@
+{
+  "policy_id": "ref-13-cut-residential-stamp-duty",
+  "party": "Reform UK",
+  "policy_title": "Cut residential stamp duty",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy cuts stamp duty to zero for homes below \u00a3750,000, directly reducing the upfront tax bill for most buyers. However, evidence suggests a significant share of the saving may be captured by sellers through higher prices rather than staying in buyers' pockets.",
+    "biggest_unknown": "How much of the stamp duty saving is absorbed by sellers via higher house prices, reducing the net money-in-pocket gain for buyers.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy sets stamp duty at 0% below \u00a3750,000, 2% from \u00a3750,000\u2013\u00a31.5 million, and 4% over \u00a31.5 million.",
+        "evidence_id": "M",
+        "quote": "Reform UK will cut residential stamp duty to 0% below \u00a3750,000, 2% from \u00a3750,000-\u00a31.5 million, and 4% over \u00a31.5 million"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current stamp duty rates charge 0% only up to \u00a3125,000, then 2% to \u00a3250,000, then 5% up to \u00a3925,000.",
+        "evidence_id": "E3",
+        "quote": "\u00a3250,001 to \u00a3925,000:** 5%"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current rates charge 10% from \u00a3925,001 to \u00a31.5 million.",
+        "evidence_id": "E4",
+        "quote": "\u00a3925,001 to \u00a31.5 million:** 10%"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current rates charge 12% over \u00a31.5 million.",
+        "evidence_id": "E5",
+        "quote": "Over \u00a31.5 million:** 12%"
+      },
+      {
+        "tier": "projected",
+        "claim": "Research on the 2008\u201309 stamp duty holiday found around 40% of the tax saving was captured by sellers through higher prices, reducing the buyer's net gain.",
+        "evidence_id": "E15",
+        "quote": "approximately 40% of the tax saving was captured by sellers through higher prices"
+      },
+      {
+        "tier": "projected",
+        "claim": "The absolute financial savings are larger for buyers of more expensive properties, so wealthier purchasers receive the greatest benefit.",
+        "evidence_id": "E27",
+        "quote": "The absolute financial savings from stamp duty cuts are generally larger for those buying more expensive properties, meaning wealthier individuals and those moving to higher-value homes would see the greatest benefit"
+      }
+    ],
+    "rationale": "On the O11 metric \u2014 how much of what people spend do they keep \u2014 a stamp duty cut is unambiguously a reduction in the tax burden on property transactions. Under current rates, a buyer at \u00a3400,000 pays 5% on a large portion of the price; under the proposal they pay nothing. A buyer at \u00a31 million currently pays up to 10% on the upper portion; under the proposal they pay 2%. The nominal saving is real and immediate at point of transaction. The distributional picture is regressive in absolute terms: the largest cash savings accrue to buyers of the most expensive homes, while buyers in the lowest price bands (already paying 0\u20132%) see smaller absolute gains. The main O11 caveat is seller capture: evidence from the 2008\u201309 holiday suggests roughly 40% of the tax saving was absorbed by sellers through higher prices, meaning buyers' net money-in-pocket gain is materially less than the headline tax cut implies. Still, buyers retain an estimated 60% of the saving on that evidence, so the direction remains 'improves' for most buyers. The effect is felt at the point of purchase rather than in weekly take-home pay, but it is a genuine reduction in the tax burden on a major transaction. Magnitude is moderate: the cuts are substantial across most price bands (0% threshold rises from \u00a3125k to \u00a3750k, and upper rates fall sharply), but the seller-capture effect and the concentration of benefit among higher-value purchases tempers the rating. Confidence is moderate because the price-capture dynamic is well-evidenced but varies with market conditions.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.stampdutyrates.co.uk/",
+        "publisher": "stampdutyrates.co.uk",
+        "title": "stampdutyrates.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.clarionsolicitors.com/articles/know-the-new-stamp-duty-rates-from-1st-april-2025",
+        "publisher": "clarionsolicitors.com",
+        "title": "clarionsolicitors.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+        "publisher": "mortgagesoup.co.uk",
+        "title": "mortgagesoup.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.rickmanproperties.com/articles/what-would-be-the-effect-of-the-conservatives-abolishing-stamp-duty-sdlt",
+        "publisher": "rickmanproperties.com",
+        "title": "rickmanproperties.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.blickrothenberg.com/insights/detail/abolishing-stamp-duty-land-tax-who-really-benefits/",
+        "publisher": "blickrothenberg.com",
+        "title": "blickrothenberg.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://todaysconveyancer.co.uk/ifs-calls-on-government-to-reform-sdlt/",
+        "publisher": "todaysconveyancer.co.uk",
+        "title": "todaysconveyancer.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0427,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are appropriately tiered and the quoted evidence entails the claims as stated. The 40% seller-capture figure (E15) is correctly labelled projected and attributed to historical research. The distributional claim (E27) is accurately quoted. The rationale correctly focuses on O11 (tax burden/take-home) and does not score the policy as a lever for its own sake. No party identity or motive attribution detected. The direction 'improves' is justified given the 60% residual buyer gain on the seller-capture evidence, and the moderate magnitude/confidence reflect genuine uncertainty about price capture \u2014 no false balance issue. The second measurable claim cites only E3 (the 5% band) without separately quoting E1/E2 for the lower bands, but the claim as stated is narrowly accurate for the portion E3 covers. Minor note: E15 is sourced solely from mortgagesoup.co.uk (media), which is not an authoritative primary source for this research finding \u2014 ideally the underlying academic study would be cited. This is a warning rather than blocking given the claim is labelled projected and hedged with 'approximately'."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will cut residential stamp duty to 0% below \u00a3750,000, 2% from \u00a3750,000-\u00a31.5 million, and 4% over \u00a31.5 million, aiming to boost economic activity and housebuilding.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "*   **Up to \u00a3125,000:** 0%",
+        "sources": [
+          {
+            "url": "https://www.stampdutyrates.co.uk/",
+            "publisher": "stampdutyrates.co.uk",
+            "title": "stampdutyrates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.clarionsolicitors.com/articles/know-the-new-stamp-duty-rates-from-1st-april-2025",
+            "publisher": "clarionsolicitors.com",
+            "title": "clarionsolicitors.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **\u00a3125,001 to \u00a3250,000:** 2%",
+        "sources": [
+          {
+            "url": "https://www.stampdutyrates.co.uk/",
+            "publisher": "stampdutyrates.co.uk",
+            "title": "stampdutyrates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.clarionsolicitors.com/articles/know-the-new-stamp-duty-rates-from-1st-april-2025",
+            "publisher": "clarionsolicitors.com",
+            "title": "clarionsolicitors.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **\u00a3250,001 to \u00a3925,000:** 5%",
+        "sources": [
+          {
+            "url": "https://www.stampdutyrates.co.uk/",
+            "publisher": "stampdutyrates.co.uk",
+            "title": "stampdutyrates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.clarionsolicitors.com/articles/know-the-new-stamp-duty-rates-from-1st-april-2025",
+            "publisher": "clarionsolicitors.com",
+            "title": "clarionsolicitors.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **\u00a3925,001 to \u00a31.5 million:** 10%",
+        "sources": [
+          {
+            "url": "https://www.stampdutyrates.co.uk/",
+            "publisher": "stampdutyrates.co.uk",
+            "title": "stampdutyrates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.clarionsolicitors.com/articles/know-the-new-stamp-duty-rates-from-1st-april-2025",
+            "publisher": "clarionsolicitors.com",
+            "title": "clarionsolicitors.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Over \u00a31.5 million:** 12%",
+        "sources": [
+          {
+            "url": "https://www.stampdutyrates.co.uk/",
+            "publisher": "stampdutyrates.co.uk",
+            "title": "stampdutyrates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.clarionsolicitors.com/articles/know-the-new-stamp-duty-rates-from-1st-april-2025",
+            "publisher": "clarionsolicitors.com",
+            "title": "clarionsolicitors.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "First-time buyers currently benefit from relief, paying 0% on properties up to \u00a3300,000 and 5% on the portion between \u00a3300,001 and \u00a3500,000, with no relief for properties over \u00a3500,000",
+        "sources": [
+          {
+            "url": "https://www.stampdutyrates.co.uk/",
+            "publisher": "stampdutyrates.co.uk",
+            "title": "stampdutyrates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.clarionsolicitors.com/articles/know-the-new-stamp-duty-rates-from-1st-april-2025",
+            "publisher": "clarionsolicitors.com",
+            "title": "clarionsolicitors.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbreresidential.com/uk-resi/stamp-duty-calculator",
+            "publisher": "cbreresidential.com",
+            "title": "cbreresidential.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Additional property purchases (e.g., buy-to-let or second homes) incur an extra 3% (or 5% in some recent updates) on top of the standard rates",
+        "sources": [
+          {
+            "url": "https://www.stampdutyrates.co.uk/",
+            "publisher": "stampdutyrates.co.uk",
+            "title": "stampdutyrates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbreresidential.com/uk-resi/stamp-duty-calculator",
+            "publisher": "cbreresidential.com",
+            "title": "cbreresidential.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hoa.org.uk/stamp-duty-calculator/",
+            "publisher": "hoa.org.uk",
+            "title": "hoa.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Non-UK residents typically pay a 2% surcharge",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cbreresidential.com/uk-resi/stamp-duty-calculator",
+            "publisher": "cbreresidential.com",
+            "title": "cbreresidential.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hoa.org.uk/stamp-duty-calculator/",
+            "publisher": "hoa.org.uk",
+            "title": "hoa.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Stamp duty is often described as a \"distortionary\" or \"bad tax\" that acts as a \"monetary boulder,\" deterring people from moving, including those looking to downsize",
+        "sources": [
+          {
+            "url": "https://www.investcentre.co.uk/articles/what-does-stamp-duty-cut-mean-housebuilders",
+            "publisher": "investcentre.co.uk",
+            "title": "investcentre.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://todaysconveyancer.co.uk/ifs-calls-on-government-to-reform-sdlt/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://compass.tech/stamp-duty-obr-2025-property-market/",
+            "publisher": "compass.tech",
+            "title": "compass.tech",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/case-abolition-stamp-duty",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.housingtoday.co.uk/news/reform-stamp-duty-to-help-first-time-buyers-mps-urge-government/5142640.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/ciot-ifs-debate-how-is-tax-damaging-the-housing-market-and-how-can-we-fix-it",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mpamag.com/uk/news/general/stamp-duty-reform-welcome-but-mortgage-interest-is-homeowners-real-burden/578305",
+            "publisher": "mpamag.com",
+            "title": "mpamag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   The Adam Smith Institute (ASI) estimated that abolishing SDLT on primary residences could increase homeowner mobility by 56% and lead to an additional 349,000 housing sales annually",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/research/stamped-out-the-economics-of-abolishing-stamp-duty-on-primary-residences",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The Office for Budget Responsibility (OBR) has noted that previous increases in SDLT have suppressed mobility, becoming a \"structural feature of the market\"",
+        "sources": [
+          {
+            "url": "https://compass.tech/stamp-duty-obr-2025-property-market/",
+            "publisher": "compass.tech",
+            "title": "compass.tech",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   Past \"stamp duty holidays,\" such as the one in 2020, led to immediate and dramatic surges in transactions, with a 19% jump in the year to June 2021",
+        "sources": [
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   Many credible analysts, including the Institute for Fiscal Studies (IFS) and the Resolution Foundation, warn that a significant cut to stamp duty is likely to primarily translate into higher house prices rather than making homes more affordable for buyers",
+        "sources": [
+          {
+            "url": "https://www.rickmanproperties.com/articles/what-would-be-the-effect-of-the-conservatives-abolishing-stamp-duty-sdlt",
+            "publisher": "rickmanproperties.com",
+            "title": "rickmanproperties.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.blickrothenberg.com/insights/detail/abolishing-stamp-duty-land-tax-who-really-benefits/",
+            "publisher": "blickrothenberg.com",
+            "title": "blickrothenberg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/09/stamp_duty_terrible_how_to_abolish/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mpamag.com/uk/news/general/stamp-duty-reform-welcome-but-mortgage-interest-is-homeowners-real-burden/578305",
+            "publisher": "mpamag.com",
+            "title": "mpamag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The logic is that reducing the cost of buying boosts demand, and if the supply of homes doesn't increase commensurately, prices will be bid up",
+        "sources": [
+          {
+            "url": "https://www.rickmanproperties.com/articles/what-would-be-the-effect-of-the-conservatives-abolishing-stamp-duty-sdlt",
+            "publisher": "rickmanproperties.com",
+            "title": "rickmanproperties.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/09/stamp_duty_terrible_how_to_abolish/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   Research on the 2008-09 stamp duty holiday found that approximately 40% of the tax saving was captured by sellers through higher prices",
+        "sources": [
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Similarly, during the 2020 stamp duty holiday, average UK house prices rose by approximately 13% in the same year that transactions jumped",
+        "sources": [
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "It was inflation.\"",
+        "sources": [
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "They also argue that developers might absorb the stamp duty saving as an incentive rather than lowering headline prices, which helps sustain elevated price levels",
+        "sources": [
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   The IFS has estimated that abolishing SDLT on residential properties entirely could cost the Treasury around \u00a39 billion annually by 2029-30",
+        "sources": [
+          {
+            "url": "https://www.blickrothenberg.com/insights/detail/abolishing-stamp-duty-land-tax-who-really-benefits/",
+            "publisher": "blickrothenberg.com",
+            "title": "blickrothenberg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://todaysconveyancer.co.uk/ifs-calls-on-government-to-reform-sdlt/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The ASI, after accounting for wider economic benefits (increased construction, wages, consumer spending), calculated a net fiscal cost of \u00a35.1 billion annually for full abolition",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/research/stamped-out-the-economics-of-abolishing-stamp-duty-on-primary-residences",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Current residential SDLT receipts were \u00a310.17 billion in 2021/22 and projected to be \u00a311.5 billion in 2023/24",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn07050/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The proposed cuts are drastic, suggesting a significant portion of this revenue would be lost, potentially necessitating cuts in public spending or increases in other taxes to compensate",
+        "sources": [
+          {
+            "url": "https://www.rickmanproperties.com/articles/what-would-be-the-effect-of-the-conservatives-abolishing-stamp-duty-sdlt",
+            "publisher": "rickmanproperties.com",
+            "title": "rickmanproperties.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.blickrothenberg.com/insights/detail/abolishing-stamp-duty-land-tax-who-really-benefits/",
+            "publisher": "blickrothenberg.com",
+            "title": "blickrothenberg.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "**Economic Activity and Housebuilding:**\n    *   **Partial Agreement:** Proponents argue that increased transactions would stimulate wider economic activity, benefiting related services like surveyors, removal companies, and legal firms",
+        "sources": [
+          {
+            "url": "https://www.rickmanproperties.com/articles/what-would-be-the-effect-of-the-conservatives-abolishing-stamp-duty-sdlt",
+            "publisher": "rickmanproperties.com",
+            "title": "rickmanproperties.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The ASI suggested full abolition could boost economic activity by nearly \u00a320 billion annually, with \u00a312.9 billion from increased construction, \u00a31.2 billion from higher wages due to mobility, and \u00a33.2 billion from greater consumer spending",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/research/stamped-out-the-economics-of-abolishing-stamp-duty-on-primary-residences",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "While the ASI forecasts 38,000 additional homes could be built annually",
+        "sources": [
+          {
+            "url": "https://www.adamsmith.org/research/stamped-out-the-economics-of-abolishing-stamp-duty-on-primary-residences",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": ", others argue that demand-side interventions like stamp duty cuts don't directly address the fundamental issue of housing supply, which requires tackling planning constraints and land availability",
+        "sources": [
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/ciot-ifs-debate-how-is-tax-damaging-the-housing-market-and-how-can-we-fix-it",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "**Distributional Effects:**\n    *   **Consensus:** The absolute financial savings from stamp duty cuts are generally larger for those buying more expensive properties, meaning wealthier individuals and those moving to higher-value homes would see the greatest benefit",
+        "sources": [
+          {
+            "url": "https://www.rickmanproperties.com/articles/what-would-be-the-effect-of-the-conservatives-abolishing-stamp-duty-sdlt",
+            "publisher": "rickmanproperties.com",
+            "title": "rickmanproperties.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.blickrothenberg.com/insights/detail/abolishing-stamp-duty-land-tax-who-really-benefits/",
+            "publisher": "blickrothenberg.com",
+            "title": "blickrothenberg.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://todaysconveyancer.co.uk/ifs-calls-on-government-to-reform-sdlt/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "While it could help some younger people \"get on the ladder\" by reducing upfront costs, the risk of house price inflation could erode or even reverse these benefits, potentially leading to larger lifetime mortgage costs",
+        "sources": [
+          {
+            "url": "https://www.rickmanproperties.com/articles/what-would-be-the-effect-of-the-conservatives-abolishing-stamp-duty-sdlt",
+            "publisher": "rickmanproperties.com",
+            "title": "rickmanproperties.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, many argue that simply cutting or abolishing it without addressing housing supply issues risks exacerbating house price inflation and making long-term affordability worse",
+        "sources": [
+          {
+            "url": "https://mortgagesoup.co.uk/cutting-stamp-duty-will-make-the-housing-crisis-worse/",
+            "publisher": "mortgagesoup.co.uk",
+            "title": "mortgagesoup.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/09/stamp_duty_terrible_how_to_abolish/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mpamag.com/uk/news/general/stamp-duty-reform-welcome-but-mortgage-interest-is-homeowners-real-burden/578305",
+            "publisher": "mpamag.com",
+            "title": "mpamag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The House of Commons Library and the Housing, Communities and Local Government (HCLG) Committee have also called for stamp duty reform, suggesting a consultation on alternatives that consider revenue-raising power, market friction, progressiveness, and fairness, often alongside reforms to council tax",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9814/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.housingtoday.co.uk/news/reform-stamp-duty-to-help-first-time-buyers-mps-urge-government/5142640.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.elystandard.co.uk/news/national/26177121.stamp-duty-reform-needed-help-first-time-buyers-afford-homes-say-mps/",
+            "publisher": "elystandard.co.uk",
+            "title": "elystandard.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mpamag.com/uk/news/general/stamp-duty-reform-welcome-but-mortgage-interest-is-homeowners-real-burden/578305",
+            "publisher": "mpamag.com",
+            "title": "mpamag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Some, like Tax Policy Associates, advocate for replacing stamp duty and council tax with a Land Value Tax to encourage housebuilding and boost growth without inflating property values",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/09/stamp_duty_terrible_how_to_abolish/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

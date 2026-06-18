@@ -1,0 +1,749 @@
+{
+  "policy_id": "ld-94-accelerate-environmental-land-management-schemes-with",
+  "party": "Liberal Democrat",
+  "policy_title": "Accelerate Environmental Land Management Schemes with Extra Funding",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy commits an extra \u00a31 billion per year in public spending with no stated funding source, adding to borrowing. The spending supports productive environmental investment, but no evidence provided quantifies fiscal returns sufficient to offset the near-term cost.",
+    "biggest_unknown": "Whether the extra \u00a31bn is funded by a tax rise or spending cut elsewhere, or is genuinely net new borrowing \u2014 the policy text states none.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits an extra \u00a31 billion a year in new public spending on ELMS.",
+        "evidence_id": "M",
+        "quote": "properly funding it with an extra \u00a31 billion a year"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Defra's existing ELMS budget is projected to rise to \u00a32 billion by 2028/29 within an overall farming and nature recovery budget averaging \u00a32.7 billion per year from 2026/27 to 2028/29.",
+        "evidence_id": "E7",
+        "quote": "funding for ELMS is projected to rise to \u00a32 billion by 2028/29, within an overall farming and nature recovery budget averaging \u00a32.7 billion per year from 2026/27 to 2028/29"
+      },
+      {
+        "tier": "projected",
+        "claim": "ELMS spending supports activities such as flood prevention and carbon sequestration that could reduce long-run public costs, though no fiscal return is quantified in the evidence provided.",
+        "evidence_id": "E4",
+        "quote": "mitigating and adapting to climate change (e.g., through carbon sequestration), preventing floods"
+      }
+    ],
+    "rationale": "The policy adds \u00a31 billion per year to public spending. No funding mechanism \u2014 tax rise, bond issuance, or offsetting cut \u2014 is stated in the policy text or referenced in any of the provided evidence units. On O12, unfunded spending commitments worsen the near-term debt path symmetrically with unfunded tax cuts. The extra spending would raise ELMS funding by roughly 35\u201350% above the existing Defra trajectory (from ~\u00a32bn to ~\u00a33bn per year), a material but not transformative increment against total UK public spending. The investment case is genuinely plausible \u2014 ELMS funds flood resilience, carbon sequestration, and soil health, all of which could reduce future public costs \u2014 but none of the provided evidence units quantify a fiscal return that would offset the \u00a31bn annual cost on any realistic horizon. The NFU and environmental NGOs (advocacy sources, flagged accordingly) argue the current budget is already insufficient, which contextualises demand but does not address fiscal sustainability. The magnitude is scored minor because \u00a31bn represents roughly 0.04% of UK GDP and a small fraction of total public spending, limiting the debt-path effect even if entirely unfunded. The long-term picture is genuinely uncertain \u2014 productive environmental investment could in principle improve sustainability \u2014 but absent quantified evidence of fiscal returns, the near-term verdict on O12 is a modest worsening.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.nfuonline.com/news/spending-review-2025-defra-publishes-detail/",
+        "publisher": "nfuonline.com",
+        "title": "nfuonline.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://defrafarming.blog.gov.uk/2025/06/16/spending-review-2025-a-commitment-to-farming/",
+        "publisher": "defrafarming.blog.gov.uk",
+        "title": "blog.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.the-ies.org/resources/essential-environment-environmental-land-management-farming",
+        "publisher": "the-ies.org",
+        "title": "the-ies.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/environmental-land-management-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services/environmental-land-management-elm-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0412,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-constructed. Claim 1 (stated tier) is directly supported by the policy text. Claim 2 is labelled measurable but the quote contains 'projected' \u2014 this is a mild tier_integrity concern since Defra's forward budget figures are projections not confirmed outturn facts; however the claim itself acknowledges the projection language and the evidence_id source is a government/NFU report, so this is a warning rather than blocking. Claim 3 is correctly labelled projected and appropriately hedged. The core O12 reasoning \u2014 unfunded spending worsens near-term debt path absent evidence of offsetting fiscal returns \u2014 is sound and symmetric with how unfunded tax cuts would be treated. Advocacy sources (NFU, Wildlife Trusts) are correctly flagged and used only for context, not as the sole basis for the verdict. The magnitude (minor) is defensible at ~0.04% GDP. No motive attribution, no party identity leakage, no false balance issues. One warning: E7 is cited as 'measurable' but contains forward projections; consider reclassifying to 'projected' in a revision."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Accelerate the rollout of the new Environmental Land Management schemes, properly funding it with an extra \u00a31 billion a year to support profitable, sustainable and nature-friendly farming.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "ELMS comprises three main components:\n*   **Sustainable Farming Incentive (SFI):** Pays farmers for everyday sustainable practices, such as improving soil health and managing hedgerows",
+        "sources": [
+          {
+            "url": "https://www.financebiodiversity.org/case-studies-3-4",
+            "publisher": "financebiodiversity.org",
+            "title": "financebiodiversity.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4EjrKov8sYFrCNPE4kH88Jl5y2I8vWZ7RwyzlHDpOhisxP_7MaejEDxgxFlp2Os5gAUp-V-dQb9th8weVV0K-jO-b9YXGnb6XnOgfLAmAx2UPY_9shLTMyHLrZ0aexihWV-lpAXzrvDGR3dbqxt70yXYAvkCSuYzPt5Bzw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "tandfonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Countryside Stewardship (CS):** Supports more targeted actions for specific locations, features, and habitats, with \"Higher Tier\" agreements focusing on more ambitious environmental outcomes",
+        "sources": [
+          {
+            "url": "https://www.financebiodiversity.org/case-studies-3-4",
+            "publisher": "financebiodiversity.org",
+            "title": "financebiodiversity.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4EjrKov8sYFrCNPE4kH88Jl5y2I8vWZ7RwyzlHDpOhisxP_7MaejEDxgxFlp2Os5gAUp-V-dQb9th8weVV0K-jO-b9YXGnb6XnOgfLAmAx2UPY_9shLTMyHLrZ0aexihWV-lpAXzrvDGR3dbqxt70yXYAvkCSuYzPt5Bzw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "tandfonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Landscape Recovery (LR):** Funds bespoke, long-term, large-scale projects aimed at significant environmental and ecosystem recovery, such as peatland restoration and woodland creation",
+        "sources": [
+          {
+            "url": "https://www.financebiodiversity.org/case-studies-3-4",
+            "publisher": "financebiodiversity.org",
+            "title": "financebiodiversity.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4EjrKov8sYFrCNPE4kH88Jl5y2I8vWZ7RwyzlHDpOhisxP_7MaejEDxgxFlp2Os5gAUp-V-dQb9th8weVV0K-jO-b9YXGnb6XnOgfLAmAx2UPY_9shLTMyHLrZ0aexihWV-lpAXzrvDGR3dbqxt70yXYAvkCSuYzPt5Bzw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "tandfonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The overarching goals of ELMS include improving water quality, enhancing biodiversity, mitigating and adapting to climate change (e.g., through carbon sequestration), preventing floods, and protecting heritage",
+        "sources": [
+          {
+            "url": "https://www.the-ies.org/resources/essential-environment-environmental-land-management-farming",
+            "publisher": "the-ies.org",
+            "title": "the-ies.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/environmental-land-management-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services/environmental-land-management-elm-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Department for Environment, Food & Rural Affairs (Defra) aims for at least 70% of farmers and 70% of farmed land to be engaged in ELMS by 2028",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4EjrKov8sYFrCNPE4kH88Jl5y2I8vWZ7RwyzlHDpOhisxP_7MaejEDxgxFlp2Os5gAUp-V-dQb9th8weVV0K-jO-b9YXGnb6XnOgfLAmAx2UPY_9shLTMyHLrZ0aexihWV-lpAXzrvDGR3dbqxt70yXYAvkCSuYzPt5Bzw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "tandfonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/environmental-land-management-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services/environmental-land-management-elm-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The current agricultural transition sees ELMS funding increasing as direct payments (Basic Payment Scheme, BPS) are phased out, set to end completely by 2027",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9431/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/new-approaches-to-farm-funding-in-england/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Defra states that funding for ELMS is projected to rise to \u00a32 billion by 2028/29, within an overall farming and nature recovery budget averaging \u00a32.7 billion per year from 2026/27 to 2028/29",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/spending-review-2025-defra-publishes-detail/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://defrafarming.blog.gov.uk/2025/06/16/spending-review-2025-a-commitment-to-farming/",
+            "publisher": "defrafarming.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **National Farmers' Union (NFU):** The NFU has consistently warned that there is a \"significant gap between government and farmers' ambition for ELMs and the funding to deliver it\"",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/nfu-responds-to-defras-elms-announcements/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/26184485.farm-leaders-frustrated-defras-290m-environment-funding/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://insideecology.com/2026/06/11/nature-groups-and-nfu-warn-new-sfi-funding-will-not-meet-demand/",
+            "publisher": "insideecology.com",
+            "title": "insideecology.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/business/payments-schemes/elm/240m-for-new-sfi-scheme-insufficient-says-nfu",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "They argue that current budgets are insufficient to meet demand or cover the necessary investment for environmental benefits, particularly given rising farm costs",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/nfu-responds-to-defras-elms-announcements/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/26184485.farm-leaders-frustrated-defras-290m-environment-funding/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://insideecology.com/2026/06/11/nature-groups-and-nfu-warn-new-sfi-funding-will-not-meet-demand/",
+            "publisher": "insideecology.com",
+            "title": "insideecology.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://justfarm.app/blog/what-the-new-defra-budget-means-for-farmers-on-sfi-and-why-its-not-time-to-relax/",
+            "publisher": "justfarm.app",
+            "title": "justfarm.app",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The NFU previously estimated that approximately \u00a34 billion per year would be needed to meet the government's statutory environmental targets",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/business/payments-schemes/elm/240m-for-new-sfi-scheme-insufficient-says-nfu",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "With over 13,000 Countryside Stewardship Mid-Tier schemes due to end, the NFU warns that the budget may not stretch far enough to support these farmers in transitioning to new schemes",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/nfu-responds-to-defras-elms-announcements/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/26184485.farm-leaders-frustrated-defras-290m-environment-funding/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/business/payments-schemes/elm/240m-for-new-sfi-scheme-insufficient-says-nfu",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Environmental NGOs (The Wildlife Trusts, RSPB, National Trust):** Independent analysis commissioned by these organisations found that \u00a33.1 billion needs to be spent annually on nature-friendly farming and land management in England to meet the UK Government's own legally binding targets",
+        "sources": [
+          {
+            "url": "https://insideecology.com/2026/06/11/nature-groups-and-nfu-warn-new-sfi-funding-will-not-meet-demand/",
+            "publisher": "insideecology.com",
+            "title": "insideecology.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wildlifetrusts.org/sites/default/files/2025-01/The%20case%20for%20increased%20investment%20in%20Nature%20for%20UK%20Food%20Security.pdf",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They express concern that much of the current funding is directed towards lower-ambition SFI schemes, potentially at the expense of higher-impact Countryside Stewardship Higher Tier and Landscape Recovery schemes",
+        "sources": [
+          {
+            "url": "https://www.wildlifetrusts.org/sites/default/files/2025-01/The%20case%20for%20increased%20investment%20in%20Nature%20for%20UK%20Food%20Security.pdf",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wcl.org.uk/docs/Link%20briefing%20on%20farming%20review%20-%2027.10.22.pdf",
+            "publisher": "wcl.org.uk",
+            "title": "wcl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Game and Wildlife Conservation Trust (GWCT):** While generally supportive of the ELMS structure, the GWCT questions whether the schemes will adequately compensate for the withdrawal of BPS payments, noting that Defra's own analysis showed 38% of farmers would have made a loss without direct payments between 2017 and 2020",
+        "sources": [
+          {
+            "url": "https://www.gwct.org.uk/blogs/news/2023/july/environmental-land-management-scheme-%E2%80%93-mind-the-gaps!/",
+            "publisher": "gwct.org.uk",
+            "title": "gwct.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **House of Commons Library:** Provides factual briefings on the policy shift and notes previous underspends in farm budgets, but does not offer direct commentary on the sufficiency of current ELMS funding",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9431/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/new-approaches-to-farm-funding-in-england/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **National Audit Office (NAO):** While reporting improvements in SFI uptake, the NAO highlighted in 2024 that \"uncertainty remains for farmers about how the scheme might change\" and that \"advice and support currently available is not yet adequate\"",
+        "sources": [
+          {
+            "url": "https://www.sustainweb.org/blogs/aug24-reports-ne-nao-elms-nature/",
+            "publisher": "sustainweb.org",
+            "title": "sustainweb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They also noted in 2021 that important elements were not yet in place, posing risks to environmental outcomes and value for money",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2021/09/The-Environmental-Land-Management-scheme.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This would likely speed up progress towards ambitious environmental targets, such as restoring 500,000 hectares of wildlife-rich habitat outside protected areas by 2042 and bringing 50% of protected sites into favourable condition by 2042",
+        "sources": [
+          {
+            "url": "https://www.the-ies.org/resources/essential-environment-environmental-land-management-farming",
+            "publisher": "the-ies.org",
+            "title": "the-ies.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Enhanced Nature Recovery:** More funding could facilitate a greater number of high-impact projects under Landscape Recovery and Countryside Stewardship Higher Tier, which are crucial for large-scale habitat restoration, improved water quality, increased tree cover, and reduced carbon emissions",
+        "sources": [
+          {
+            "url": "https://www.wildlifetrusts.org/sites/default/files/2025-01/The%20case%20for%20increased%20investment%20in%20Nature%20for%20UK%20Food%20Security.pdf",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-ies.org/resources/essential-environment-environmental-land-management-farming",
+            "publisher": "the-ies.org",
+            "title": "the-ies.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sustainweb.org/blogs/nov24-farming-budget-elms/",
+            "publisher": "sustainweb.org",
+            "title": "sustainweb.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4EjrKov8sYFrCNPE4kH88Jl5y2I8vWZ7RwyzlHDpOhisxP_7MaejEDxgxFlp2Os5gAUp-V-dQb9th8weVV0K-jO-b9YXGnb6XnOgfLAmAx2UPY_9shLTMyHLrZ0aexihWV-lpAXzrvDGR3dbqxt70yXYAvkCSuYzPt5Bzw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "tandfonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Broader Environmental Benefits:** The acceleration would likely lead to more widespread adoption of sustainable farming practices, contributing to improved soil health, better air quality, and enhanced resilience to flooding and drought across a larger proportion of agricultural land",
+        "sources": [
+          {
+            "url": "https://www.the-ies.org/resources/essential-environment-environmental-land-management-farming",
+            "publisher": "the-ies.org",
+            "title": "the-ies.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.financebiodiversity.org/case-studies-3-4",
+            "publisher": "financebiodiversity.org",
+            "title": "financebiodiversity.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4EjrKov8sYFrCNPE4kH88Jl5y2I8vWZ7RwyzlHDpOhisxP_7MaejEDxgxFlp2Os5gAUp-V-dQb9th8weVV0K-jO-b9YXGnb6XnOgfLAmAx2UPY_9shLTMyHLrZ0aexihWV-lpAXzrvDGR3dbqxt70yXYAvkCSuYzPt5Bzw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "tandfonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "**Increased Farmer Participation and Financial Stability:**\n    *   **Closing the Funding Gap:** An extra \u00a31 billion would substantially close the \"significant gap\" identified by the NFU and environmental NGOs, making ELMS more attractive and financially viable for a wider range of farmers",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/nfu-responds-to-defras-elms-announcements/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/26184485.farm-leaders-frustrated-defras-290m-environment-funding/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://insideecology.com/2026/06/11/nature-groups-and-nfu-warn-new-sfi-funding-will-not-meet-demand/",
+            "publisher": "insideecology.com",
+            "title": "insideecology.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/business/payments-schemes/elm/240m-for-new-sfi-scheme-insufficient-says-nfu",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wildlifetrusts.org/sites/default/files/2025-01/The%20case%20for%20increased%20investment%20in%20Nature%20for%20UK%20Food%20Security.pdf",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Support for Transition:** This increased funding would provide greater financial certainty for farmers transitioning from the Basic Payment Scheme, potentially reducing the risk of farmers cutting back on environmental efforts due to economic pressures",
+        "sources": [
+          {
+            "url": "https://www.edp24.co.uk/news/26184485.farm-leaders-frustrated-defras-290m-environment-funding/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eadt.co.uk/news/26187468.suffolk-essex-farmers-fear-will-lose-funding/",
+            "publisher": "eadt.co.uk",
+            "title": "eadt.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gwct.org.uk/blogs/news/2023/july/environmental-land-management-scheme-%E2%80%93-mind-the-gaps!/",
+            "publisher": "gwct.org.uk",
+            "title": "gwct.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Investment in Sustainable Practices:** Farmers would have more resources to invest in necessary equipment, technology, and infrastructure that supports both environmental goals and farm productivity",
+        "sources": [
+          {
+            "url": "https://www.financebiodiversity.org/case-studies-3-4",
+            "publisher": "financebiodiversity.org",
+            "title": "financebiodiversity.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Improved Accessibility:** The additional funds could support further simplification of scheme applications and increased advisory services, addressing current concerns about complexity and inadequate support",
+        "sources": [
+          {
+            "url": "https://www.naturebasedsolutionsinitiative.org/news/comment-elm/",
+            "publisher": "naturebasedsolutionsinitiative.org",
+            "title": "naturebasedsolutionsinitiative.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sustainweb.org/blogs/aug24-reports-ne-nao-elms-nature/",
+            "publisher": "sustainweb.org",
+            "title": "sustainweb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Addressing Expert Concerns:**\n    *   **Funding Adequacy:** The additional \u00a31 billion would directly respond to the calls from the NFU and environmental groups for increased investment to meet statutory targets and farmer ambitions",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/nfu-responds-to-defras-elms-announcements/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://insideecology.com/2026/06/11/nature-groups-and-nfu-warn-new-sfi-funding-will-not-meet-demand/",
+            "publisher": "insideecology.com",
+            "title": "insideecology.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/business/payments-schemes/elm/240m-for-new-sfi-scheme-insufficient-says-nfu",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wildlifetrusts.org/sites/default/files/2025-01/The%20case%20for%20increased%20investment%20in%20Nature%20for%20UK%20Food%20Security.pdf",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wcl.org.uk/docs/Link%20briefing%20on%20farming%20review%20-%2027.10.22.pdf",
+            "publisher": "wcl.org.uk",
+            "title": "wcl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Scheme Balance:** With more funding, Defra would have greater flexibility to allocate resources to higher-ambition schemes (CSHT and LR) that deliver significant environmental gains, potentially addressing concerns about an imbalance towards lower-ambition SFI schemes",
+        "sources": [
+          {
+            "url": "https://www.wildlifetrusts.org/sites/default/files/2025-01/The%20case%20for%20increased%20investment%20in%20Nature%20for%20UK%20Food%20Security.pdf",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wcl.org.uk/docs/Link%20briefing%20on%20farming%20review%20-%2027.10.22.pdf",
+            "publisher": "wcl.org.uk",
+            "title": "wcl.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **National Farmers' Union (NFU):** Explicitly states a \"significant gap\" in funding, noting that \u00a3240 million for the SFI26 and \u00a350 million for CSHT are insufficient, and previously estimated \u00a34 billion/year is needed",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/nfu-responds-to-defras-elms-announcements/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/26184485.farm-leaders-frustrated-defras-290m-environment-funding/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://insideecology.com/2026/06/11/nature-groups-and-nfu-warn-new-sfi-funding-will-not-meet-demand/",
+            "publisher": "insideecology.com",
+            "title": "insideecology.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/business/payments-schemes/elm/240m-for-new-sfi-scheme-insufficient-says-nfu",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://justfarm.app/blog/what-the-new-defra-budget-means-for-farmers-on-sfi-and-why-its-not-time-to-relax/",
+            "publisher": "justfarm.app",
+            "title": "justfarm.app",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **The Wildlife Trusts, RSPB, and National Trust:** Collaboratively advocate for \u00a33.1 billion per year for nature-friendly farming to meet legally binding targets",
+        "sources": [
+          {
+            "url": "https://insideecology.com/2026/06/11/nature-groups-and-nfu-warn-new-sfi-funding-will-not-meet-demand/",
+            "publisher": "insideecology.com",
+            "title": "insideecology.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wildlifetrusts.org/sites/default/files/2025-01/The%20case%20for%20increased%20investment%20in%20Nature%20for%20UK%20Food%20Security.pdf",
+            "publisher": "wildlifetrusts.org",
+            "title": "wildlifetrusts.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Department for Environment, Food & Rural Affairs (Defra):** Outlines the objectives, current funding trajectory (rising to \u00a32 billion for ELMS by 2028/29), and targets for scheme uptake",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/spending-review-2025-defra-publishes-detail/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-ies.org/resources/essential-environment-environmental-land-management-farming",
+            "publisher": "the-ies.org",
+            "title": "the-ies.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://defrafarming.blog.gov.uk/2025/06/16/spending-review-2025-a-commitment-to-farming/",
+            "publisher": "defrafarming.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/environmental-land-management-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services/environmental-land-management-elm-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **National Audit Office (NAO):** Highlights ongoing challenges in ELMS implementation, including farmer uncertainty and inadequate advice, and the need for robust environmental impact monitoring",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2021/09/The-Environmental-Land-Management-scheme.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.sustainweb.org/blogs/aug24-reports-ne-nao-elms-nature/",
+            "publisher": "sustainweb.org",
+            "title": "sustainweb.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **House of Commons Library:** Provides background on the agricultural transition and funding redirection",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9431/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/new-approaches-to-farm-funding-in-england/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Game and Wildlife Conservation Trust (GWCT):** Raises concerns about whether ELMS payments will fully compensate for lost BPS income",
+        "sources": [
+          {
+            "url": "https://www.gwct.org.uk/blogs/news/2023/july/environmental-land-management-scheme-%E2%80%93-mind-the-gaps!/",
+            "publisher": "gwct.org.uk",
+            "title": "gwct.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

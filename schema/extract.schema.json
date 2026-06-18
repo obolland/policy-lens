@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens extraction output — all material policies for one party",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["party", "policies", "excluded", "coverage_note"],
+  "properties": {
+    "party": { "type": "string" },
+    "policies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["policy_title", "stated", "candidate_outcomes", "source"],
+        "properties": {
+          "policy_title": { "type": "string" },
+          "stated": { "type": "string" },
+          "candidate_outcomes": { "type": "array", "items": { "type": "string" } },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["quote", "url", "publisher"],
+            "properties": {
+              "quote": { "type": "string" },
+              "url": { "type": "string" },
+              "publisher": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "excluded": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["item", "reason"],
+        "properties": {
+          "item": { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "coverage_note": { "type": "string" }
+  }
+}
