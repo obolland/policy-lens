@@ -1,0 +1,569 @@
+{
+  "policy_id": "ref-01-freeze-non-essential-immigration",
+  "party": "Reform UK",
+  "policy_title": "Freeze non-essential immigration",
+  "outcome": "O8",
+  "verdict": {
+    "outcome": "O8",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "Freezing non-essential immigration would likely damage social care, which relies heavily on overseas workers, and could put pension commitments under pressure by shrinking the public finances. The healthcare exemption helps but leaves the care sector exposed.",
+    "biggest_unknown": "Whether a healthcare carve-out can be defined broadly enough to cover social care workers, and whether fiscal deterioration is large enough to force cuts to the triple lock or pension credit.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy freezes all non-essential immigration but exempts essential healthcare skills.",
+        "evidence_id": "M",
+        "quote": "freeze all non-essential immigration, with the exception of essential skills in healthcare"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Social care has been entirely reliant on non-UK nationals, and large drops in immigration will have huge consequences for the fragile care sector.",
+        "evidence_id": "E22",
+        "quote": "social care has been \"entirely reliant\" on non-UK nationals, and a large drop in immigration numbers for work, particularly with restrictions on care workers bringing family members, will have huge consequences for the \"fragile care sector\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "Because migrants are typically of working age, net migration reduces the dependency ratio and alleviates age-related pressures on public finances.",
+        "evidence_id": "E5",
+        "quote": "because inward migrants are typically of working age, net migration reduces the dependency ratio and thus alleviates age-related pressures on public finances"
+      },
+      {
+        "tier": "projected",
+        "claim": "A 100,000 reduction in annual net migration could increase the deficit by approximately \u00a37 billion over a five-year period, increasing fiscal pressure.",
+        "evidence_id": "E6",
+        "quote": "a 100,000 reduction in annual net migration could increase the deficit by approximately \u00a37 billion over a five-year forecast period"
+      },
+      {
+        "tier": "projected",
+        "claim": "Zero net migration could force the government to consider abandoning the triple lock on pensions.",
+        "evidence_id": "E9",
+        "quote": "a scenario of zero net migration would likely result in lower tax revenue offsetting the impact of a smaller population on spending, forcing the government to consider abandoning the triple lock on pensions and a broader rethink of government spending"
+      },
+      {
+        "tier": "projected",
+        "claim": "Higher labour income taxes needed to offset fiscal deficits could leave average households' net income lower, with net wages potentially 3.3% lower by 2060.",
+        "evidence_id": "E12",
+        "quote": "higher labor income taxes (needed to offset fiscal deficits) would lead to average households' net income declining, with net wages potentially 3.3% lower by 2060"
+      }
+    ],
+    "rationale": "The policy's healthcare exemption limits some damage to NHS staffing, but social care \u2014 which is entirely reliant on non-UK workers \u2014 receives no such carve-out. Reduced access to care workers directly worsens the care dimension of O8, which covers 'care when old'. On the pension side, restricting immigration removes workers who are typically of working age and net fiscal contributors, increasing the dependency ratio and worsening public finances. Projections from multiple credible bodies (OBR via E5/E6, Oxford Economics via E9) indicate that a significant immigration reduction raises borrowing and could force a rethink of the triple lock. If the triple lock were abandoned or pension credit squeezed to fill fiscal gaps, pensioner poverty indicators would worsen directly. The fiscal pathway is contested in magnitude but consistent in direction across credible sources. Absent the policy, social care access would remain constrained but not sharply worsened by worker supply shocks; pensions would remain under their current fiscal path. The policy adds marginal deterioration on both dimensions \u2014 social care staffing and pension fiscal sustainability \u2014 with the social care effect being more certain and near-term, and the pension fiscal effect more uncertain but potentially larger. Confidence is moderate: the direction of effect is consistent across institutional sources, but the scale depends on how broadly 'healthcare' is defined in the exemption and how aggressively the fiscal deterioration translates to policy cuts.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.nuffieldtrust.org.uk/news-item/falling-immigration-presents-problems-for-social-care-sector-0",
+        "publisher": "nuffieldtrust.org.uk",
+        "title": "nuffieldtrust.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://obr.uk/box/migration-and-fiscal-sustainability/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/151695/html/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.oxfordeconomics.com/resource/what-different-migration-profiles-mean-for-the-uk-economy-and-public-finances/",
+        "publisher": "oxfordeconomics.com",
+        "title": "oxfordeconomics.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://res.org.uk/mediabriefing/curbing-immigration-harms-the-uk-economy/",
+        "publisher": "res.org.uk",
+        "title": "res.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0407,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. E22 (Nuffield Trust) is classified measurable \u2014 it is a recent institutional assessment of current reliance, which is appropriate. E5 is an OBR statement of fiscal mechanism, also reasonably measurable. E6, E9, E12 are correctly tiered as projected. The triple-lock claim (E9) uses 'forcing the government to consider' which the claim accurately reflects. The 3.3% net wage claim (E12) is correctly attributed to a specific modelled scenario. The verdict does not lean on party identity, scores only O8 effects, and the 'worsens/moderate' direction is consistent with the weight of institutional evidence. No false balance issue: the verdict is directional and the evidence supports that direction. Minor observation: E9 is from Oxford Economics (commercial source) and is the sole basis for the triple-lock claim \u2014 this is worth flagging as a warning but not blocking given the broader fiscal deterioration argument is corroborated by OBR and parliamentary sources."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will freeze all non-essential immigration, with the exception of essential skills in healthcare, to relieve pressure on housing and public services, and increase wages.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Royal Economic Society estimated in 2014 that reducing net migration by 50% could lead to an 11% decrease in aggregate GDP and a 2.7% decrease in GDP per person by 2060.",
+        "sources": [
+          {
+            "url": "https://res.org.uk/mediabriefing/curbing-immigration-harms-the-uk-economy/",
+            "publisher": "res.org.uk",
+            "title": "res.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "More recent analysis by Oxford Economics suggests that if net inward migration were zero over the long term, GDP could be more than 15% below their baseline forecast by 2060, leading to government borrowing rising sharply.",
+        "sources": [
+          {
+            "url": "https://www.oxfordeconomics.com/resource/what-different-migration-profiles-mean-for-the-uk-economy-and-public-finances/",
+            "publisher": "oxfordeconomics.com",
+            "title": "oxfordeconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Office for Budget Responsibility (OBR) also indicated in March 2026 that lower net migration could reduce population growth and hold back the UK's economic growth potential, leading to marginally lower aggregate potential output growth.",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/lower-net-migration-could-hold-151823837.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "In November 2025, the UK in a Changing Europe also reported that the OBR believes lower net migration could reduce GDP by about 1.5 percentage points by 2028-2029.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/lower-migration-is-bad-news-for-the-uk-economy/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The OBR noted that because inward migrants are typically of working age, net migration reduces the dependency ratio and thus alleviates age-related pressures on public finances.",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/migration-and-fiscal-sustainability/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "They estimate that a 100,000 reduction in annual net migration could increase the deficit by approximately \u00a37 billion over a five-year forecast period.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/151695/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Royal Economic Society's research suggested that a significant reduction in net migration would lead to a 1.4 percentage point increase in total government spending as a share of GDP by 2060, requiring a 2.2 percentage point increase in the effective labor income tax rate to balance the budget.",
+        "sources": [
+          {
+            "url": "https://res.org.uk/mediabriefing/curbing-immigration-harms-the-uk-economy/",
+            "publisher": "res.org.uk",
+            "title": "res.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Oxford Economics also projected in February 2026 that lower immigration could lead to government borrowing being \u00a319 billion (0.5% of GDP) higher by 2029-2030, wiping out most of the Chancellor's headroom.",
+        "sources": [
+          {
+            "url": "https://www.oxfordeconomics.com/resource/lower-immigration-will-hit-uk-growth-and-raise-borrowing/",
+            "publisher": "oxfordeconomics.com",
+            "title": "oxfordeconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Furthermore, a scenario of zero net migration would likely result in lower tax revenue offsetting the impact of a smaller population on spending, forcing the government to consider abandoning the triple lock on pensions and a broader rethink of government spending.",
+        "sources": [
+          {
+            "url": "https://www.oxfordeconomics.com/resource/what-different-migration-profiles-mean-for-the-uk-economy-and-public-finances/",
+            "publisher": "oxfordeconomics.com",
+            "title": "oxfordeconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The House of Commons Library noted in 2016 that most literature concludes a rise in migrant workers has little effect on wages on average, but adverse effects tend to be focused on low-skilled workers.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7659/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-7659/CBP-7659.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The IFS found that immigration slightly stretches the native earnings distribution by putting downward pressure on native wages at the bottom and benefiting native wages at the top, though the overall effects are very small.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/inequality-and-immigration",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/Inequality-and-immigration-IFS-Deaton-Review-of-Inequalities.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "However, the Royal Economic Society's research indicated that while gross wages might initially increase due to lower labor supply in a low migration scenario, higher labor income taxes (needed to offset fiscal deficits) would lead to average households' net income declining, with net wages potentially 3.3% lower by 2060.",
+        "sources": [
+          {
+            "url": "https://res.org.uk/mediabriefing/curbing-immigration-harms-the-uk-economy/",
+            "publisher": "res.org.uk",
+            "title": "res.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Some argue that wage gains from skills shortages due to reduced immigration would be temporary, as companies would respond by raising prices, canceling out initial wage benefits and leaving consumers poorer.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/AskBrits/comments/1nv2xsn/what_do_you_think_will_happen_if_we_reduce/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Immigration is one factor contributing to housing demand and higher prices, with forecasts suggesting that persistent current rates of net immigration could lead to house prices being over 10% higher in 20 years compared to zero net immigration.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/ld200708/ldselect/ldeconaf/82/8209.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, experts like John Perry, a policy advisor, argue that cutting immigration is not a substitute for reforming the housing market.",
+        "sources": [
+          {
+            "url": "https://www.insidehousing.co.uk/comment/migration-and-housing-what-do-the-stats-say-96656",
+            "publisher": "insidehousing.co.uk",
+            "title": "insidehousing.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/why-cutting-immigration-is-not-a-substitute-for-reforming-the-housing-market/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "He notes that if net migration fell to zero, the economy would be significantly impacted, and a sluggish economy and high public borrowing are detrimental to housing as fewer people can afford to rent or buy, and developers are reluctant to build.",
+        "sources": [
+          {
+            "url": "https://www.insidehousing.co.uk/comment/migration-and-housing-what-do-the-stats-say-96656",
+            "publisher": "insidehousing.co.uk",
+            "title": "insidehousing.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Some research even suggests that in certain local areas, an increase in immigrants can lead to native out-migration and a *reduction* in local house prices, particularly where immigrants have lower education levels, which can reduce overall community income and housing demand.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/104oyo5/what_do_you_think_the_impact_of_immigration_on/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://res.org.uk/mediabriefing/immigration-and-house-prices-evidence-of-the-impact-in-uk-local-areas/",
+            "publisher": "res.org.uk",
+            "title": "res.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Fewer workers would mean fewer new homes and a reduced chance of meeting government housing targets.",
+        "sources": [
+          {
+            "url": "https://www.insidehousing.co.uk/comment/migration-and-housing-what-do-the-stats-say-96656",
+            "publisher": "insidehousing.co.uk",
+            "title": "insidehousing.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Health Foundation highlights that migrants are an essential part of the healthcare workforce, with 13.3% of NHS staff in England being non-British in June 2019, and 28.4% of doctors.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrnAhvCJGrJnvFoRGLyv09JdjjumYEd_VlHoLfxt3l0r5zsQON0X82ppZK4f3OuBfJI1afpgRMzer4F7WT2Bs3ZiM7CY08DNwNeeeA8o2D9FszMj8jXU48ln3052zHozslilyGdQDkpvXRMzvogSdwNiefrWRUEVS-FYsDn2mInLFKhfwxPxIOnZ8YRvhiMvCW_nfs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Staffing shortages in the NHS were around 100,000 in 2019 and could grow to 250,000 or more by 2030.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrnAhvCJGrJnvFoRGLyv09JdjjumYEd_VlHoLfxt3l0r5zsQON0X82ppZK4f3OuBfJI1afpgRMzer4F7WT2Bs3ZiM7CY08DNwNeeeA8o2D9FszMj8jXU48ln3052zHozslilyGdQDkpvXRMzvogSdwNiefrWRUEVS-FYsDn2mInLFKhfwxPxIOnZ8YRvhiMvCW_nfs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The NHS has relied heavily on international recruitment, particularly for nurses, with two-thirds of the increase in registered nurses in England since 2020 coming from staff trained outside the UK or EEA.",
+        "sources": [
+          {
+            "url": "https://healthcaretoday.com/article/nhs-overreliance-on-migrant-staff",
+            "publisher": "healthcaretoday.com",
+            "title": "healthcaretoday.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Nuffield Trust noted in November 2025 that social care has been \"entirely reliant\" on non-UK nationals, and a large drop in immigration numbers for work, particularly with restrictions on care workers bringing family members, will have huge consequences for the \"fragile care sector\".",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/news-item/falling-immigration-presents-problems-for-social-care-sector-0",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Other Public Services:** Immigrants are generally less represented in public employment relative to their share of the working-age population, but are more likely to work in the health and social work sector.",
+        "sources": [
+          {
+            "url": "https://www.christiandustmann.com/content/4-research/50-the-impact-of-migration-on-the-provision-of-uk-public-services/dustmann_frattini_2011_mac.pdf",
+            "publisher": "christiandustmann.com",
+            "title": "christiandustmann.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Studies suggest that migrants tend to use fewer NHS services than UK-born residents, partly because they are often young and healthy.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrnAhvCJGrJnvFoRGLyv09JdjjumYEd_VlHoLfxt3l0r5zsQON0X82ppZK4f3OuBfJI1afpgRMzer4F7WT2Bs3ZiM7CY08DNwNeeeA8o2D9FszMj8jXU48ln3052zHozslilyGdQDkpvXRMzvogSdwNiefrWRUEVS-FYsDn2mInLFKhfwxPxIOnZ8YRvhiMvCW_nfs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The net fiscal impact of migration on public services, considering both contributions and costs, is generally found to be relatively small compared to the size of the economy.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrnAhvCJGrJnvFoRGLyv09JdjjumYEd_VlHoLfxt3l0r5zsQON0X82ppZK4f3OuBfJI1afpgRMzer4F7WT2Bs3ZiM7CY08DNwNeeeA8o2D9FszMj8jXU48ln3052zHozslilyGdQDkpvXRMzvogSdwNiefrWRUEVS-FYsDn2mInLFKhfwxPxIOnZ8YRvhiMvCW_nfs",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "However, the House of Commons Library also notes that the impact on public services depends on migrants' age, skills, income, and whether they have children, and can vary significantly by local area.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7659/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-7659/CBP-7659.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "For example, regarding housing, while it's acknowledged that immigration increases demand, there is \"a lot of disagreement about its magnitude.\"",
+        "sources": [
+          {
+            "url": "https://iea.org.uk/why-cutting-immigration-is-not-a-substitute-for-reforming-the-housing-market/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The OBR estimates that a \"high wage\" migrant could contribute approximately \u00a31 million over their lifetime, even after accounting for public service expenditure.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/151695/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The IFS also states that immigrants are net fiscal contributors, which does not aggravate economic inequality.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/inequality-and-immigration",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/Inequality-and-immigration-IFS-Deaton-Review-of-Inequalities.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Home Office data suggests recent immigrants are more likely to be working and earn higher wages than the average native-born person.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/lower-migration-is-bad-news-for-the-uk-economy/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Productivity:** While a freeze on non-essential immigration could, in theory, force firms to invest in productivity, training, and automation rather than relying on population growth, there is no strong evidence that a restrictive migration regime will significantly change the UK's economy-wide productivity problems.",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/AskBrits/comments/1ta525y/if_we_took_net_migration_to_zero_going_forward/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Unworkability of Policy:** Some legal experts and political adversaries criticize Reform UK's broader immigration proposals, including the abolition of Indefinite Leave to Remain (ILR) and mass deportation plans, as \"unworkable\" and potentially creating \"legal chaos, economic disruption, and social uncertainty\" due to conflicts with human rights acts and international agreements.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG53L9llJxpvVkVgoRpjec2B4S2tJfYJ4zrHBxdr74HJVv9JQPxcnzff-hW9qAfkzoM1ug6M0ZZT-15fo1grRA5NfMmRYlYAwl0L3BFhfbzHUqjDxjI9zUMVmesquBfsXdKcrf_GBfV_jfmKT7wSfrGhnK9Qcf3R0KHYn0=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lse.ac.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://atlasinstitute.org/reform-uk-and-the-politics-of-exclusion/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://reissedwards.co.uk/immigration-blog/nigel-farage-immigration-plan/",
+            "publisher": "reissedwards.co.uk",
+            "title": "reissedwards.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The Migration Observatory notes that lengthening the route to settlement, as implicitly suggested by such a freeze, makes the UK \"more restrictive than most other high income countries\" and comes with trade-offs between financial benefits from fees and negative effects on migrant integration and wellbeing.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10575/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

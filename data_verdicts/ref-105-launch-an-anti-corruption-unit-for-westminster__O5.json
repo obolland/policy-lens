@@ -1,0 +1,196 @@
+{
+  "policy_id": "ref-105-launch-an-anti-corruption-unit-for-westminster",
+  "party": "Reform UK",
+  "policy_title": "Launch an Anti-Corruption Unit for Westminster",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "A new anti-corruption unit with legal investigative powers could improve accountability for public officials, but the vague terms of reference mean it is genuinely unclear whether it would function as an impartial enforcer or a politicised body. Without clearer institutional design, the net effect on justice and public order cannot be called.",
+    "biggest_unknown": "Whether the unit would operate with genuine independence and clear terms of reference, or whether broad and vague powers would enable political targeting rather than impartial enforcement.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to a new unit with legal powers to investigate scandals and impose sanctions including prison on public officials who break the rules.",
+        "evidence_id": "M",
+        "quote": "launch a new Anti-Corruption Unit for Westminster with legal powers to investigate past and future scandals, ensuring public officials face sanctions, including prison, if they break the rules"
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics have raised concern that vague terms of reference could allow the unit to be used to harass political opponents rather than serve as a genuine anti-corruption body.",
+        "evidence_id": "E2",
+        "quote": "the unit, particularly due to its \"vague terms of reference,\" could be used to \"harass and even jail political opponents, while masquerading as a vehicle to 'clean up' democracy\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK already has an existing Anti-Corruption Strategy emphasising stronger enforcement and public trust.",
+        "evidence_id": "E3",
+        "quote": "The current UK Anti-Corruption Strategy 2025 emphasizes strengthening existing enforcement, restoring public trust, and increasing transparency"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Institutional independence and specificity of remit",
+      "estimate_range": "Could range from a meaningful improvement in accountability for public officials to a net negative if used for politically motivated prosecution"
+    },
+    "rationale": "The policy commits a body with real legal powers and a prison sanction \u2014 on paper, a plausible mechanism for improving justice and accountability for public officials (O5). The UK already has an anti-corruption strategy, so additionality depends on whether this new unit goes meaningfully beyond existing enforcement. The critical and unresolved question is institutional design: the policy text is silent on independence, governance, appointment of investigators, and scope. The only non-advocacy evidence on this question (E2, E9, both from the same advocacy-leaning source) flags that vague terms of reference create genuine risk the unit operates as a political instrument rather than an impartial one. That risk is not merely theoretical \u2014 a body that targets political opponents under the guise of anti-corruption would worsen justice (O5) rather than improve it. Because both the upside (real accountability mechanism) and the downside (politicised enforcement) are plausible and the deciding parameter \u2014 institutional independence \u2014 is entirely unspecified in the policy text, the verdict is too-uncertain. No credible independent institutional source in the evidence set resolves this crux.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://writesbright.substack.com/p/the-most-dangerous-reform-policy",
+        "publisher": "writesbright.substack.com",
+        "title": "substack.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/uk-anti-corruption-strategy-2025/uk-anti-corruption-strategy-2025-accessible",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0233,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims survive entailment checks. The stated claim (M) is directly supported. The projected claim (E2) is correctly tiered and labelled as a critic's concern, not asserted as fact. The measurable claim (E3) is a factual government source describing an existing strategy \u2014 appropriate tier. The too-uncertain direction is genuinely supported by countervailing plausible outcomes (real accountability vs politicised misuse), and the crux_parameter and estimate_range are substantive rather than lazy. The rationale correctly flags that E2 and E9 are advocacy-leaning and does not let them drive magnitude \u2014 it uses them only to establish that a risk exists, which is appropriate given no independent source resolves it. No lever leakage, no party-blind issues, no false balance. One minor note: the source classification of gov.uk as 'media' in the sources array is incorrect (should be 'government/institutional'), but this does not affect the verdict's evidential integrity and is not blocking."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will launch a new Anti-Corruption Unit for Westminster with legal powers to investigate past and future scandals, ensuring public officials face sanctions, including prison, if they break the rules.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's proposed \"Anti-Corruption Unit for Westminster\" aims to establish a body with legal powers to investigate past and future scandals, ensuring public officials face sanctions, including imprisonment, if they break the rules",
+        "sources": [
+          {
+            "url": "https://writesbright.substack.com/p/the-most-dangerous-reform-policy",
+            "publisher": "writesbright.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Risk of Politicization and Abuse of Power:** Critics, such as Sam Bright, have expressed concern that the unit, particularly due to its \"vague terms of reference,\" could be used to \"harass and even jail political opponents, while masquerading as a vehicle to 'clean up' democracy\"",
+        "sources": [
+          {
+            "url": "https://writesbright.substack.com/p/the-most-dangerous-reform-policy",
+            "publisher": "writesbright.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The current UK Anti-Corruption Strategy 2025 emphasizes strengthening existing enforcement, restoring public trust, and increasing transparency",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/uk-anti-corruption-strategy-2025/uk-anti-corruption-strategy-2025-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The OBR's role is primarily to provide independent forecasts for the UK economy and public finances",
+        "sources": [
+          {
+            "url": "https://www.inkl.com/news/starmer-to-back-embattled-rachel-reeves-as-he-launches-defence-of-budget-tax-hikes-uk-politics-live",
+            "publisher": "inkl.com",
+            "title": "inkl.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Office for National Statistics (ONS):** The ONS focuses on collecting and publishing official statistics, including efforts to improve data on fraud and computer misuse",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/improvingthequalityoffraudandcomputermisusestatisticsinenglandandwales/december2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Resolution Foundation:** This think tank focuses on improving living standards for low to middle-income households",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **House of Commons Library:** The House of Commons Library provides impartial research and briefing papers for Members of Parliament and the public",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Health Foundation:** The Health Foundation is concerned with improving health and healthcare in the UK",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/140379/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   In contrast, **Sam Bright**'s concerns about Reform UK's proposed unit highlight a potential for a new unit, particularly one with broad powers and vague terms, to be used for political targeting rather than impartial investigations",
+        "sources": [
+          {
+            "url": "https://writesbright.substack.com/p/the-most-dangerous-reform-policy",
+            "publisher": "writesbright.substack.com",
+            "title": "substack.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

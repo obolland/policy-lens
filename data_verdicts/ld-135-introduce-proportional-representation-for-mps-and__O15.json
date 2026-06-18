@@ -1,0 +1,886 @@
+{
+  "policy_id": "ld-135-introduce-proportional-representation-for-mps-and",
+  "party": "Liberal Democrat",
+  "policy_title": "Introduce Proportional Representation for MPs and Local Councillors",
+  "outcome": "O15",
+  "verdict": {
+    "outcome": "O15",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "Switching to STV could boost civic participation and political trust by making more votes count and encouraging positive campaigning, but none of the provided evidence directly measures effects on social trust, sense of belonging, loneliness, or inter-group relations. The pathway to community cohesion is plausible but unproven.",
+    "biggest_unknown": "Whether increased voter engagement and positive-campaigning incentives under STV actually translate into measurable gains in social trust, civic participation beyond voting, and inter-group relations \u2014 none of the evidence directly measures these O15 indicators.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to introducing STV for MPs and local councillors in England.",
+        "evidence_id": "M",
+        "quote": "introducing proportional representation by the Single Transferable Vote for electing MPs, and local councillors in England"
+      },
+      {
+        "tier": "projected",
+        "claim": "STV is expected to increase voter engagement and turnout, as more people would feel their vote makes a difference.",
+        "evidence_id": "E10",
+        "quote": "This greater choice is expected to increase voter engagement and turnout, as more people would feel their vote makes a difference, particularly in areas currently considered \"safe seats\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "Under FPTP, 70% of constituencies are currently considered safe seats.",
+        "evidence_id": "E11",
+        "quote": "70% of constituencies are considered \"safe\" under the current First Past the Post (FPTP) system"
+      },
+      {
+        "tier": "projected",
+        "claim": "STV encourages positive campaigning as candidates need to win second and third preferences from voters who might favour other parties.",
+        "evidence_id": "E16",
+        "quote": "STV encourages positive campaigning, as candidates need to win second and third preferences from voters who might initially favour other parties or candidates"
+      },
+      {
+        "tier": "projected",
+        "claim": "STV in Scotland led to councils under no overall control, requiring consensus democracy.",
+        "evidence_id": "E7",
+        "quote": "In Scottish local government, the introduction of STV in 2007 led to many councils being under \"no overall control,\" requiring parties to embrace coalition administration and consensus democracy"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A record 60% of the public supported changing to PR in late 2024, suggesting low perceived legitimacy of the current system.",
+        "evidence_id": "E30",
+        "quote": "The NatCen British Social Attitudes (BSA) survey in late 2024 reported a record high of 60% public support for changing to PR, with only 36% wanting to keep the current system"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether improvements in electoral fairness and civic engagement from STV translate into higher social trust, stronger sense of belonging, or better inter-group relations at population scale \u2014 no provided evidence measures this linkage directly.",
+      "estimate_range": "Effect on O15 indicators could range from negligible (electoral reform has no direct community cohesion mechanism) to modest positive (higher turnout and positive campaigning improve civic participation and political trust)"
+    },
+    "rationale": "The policy's connection to O15 runs through two plausible but indirect channels. First, by making more votes count \u2014 evidenced by the current system leaving large numbers unrepresented \u2014 STV is projected to raise voter engagement and turnout (E10), which is a form of civic participation, one of O15's core indicators. Second, STV's incentive structure encourages positive campaigning (E16) and consensus-building in coalition settings (E7), which could reduce adversarial inter-group political dynamics and modestly improve political trust. However, the mechanism plausibility rule applies strictly here: plausibility is not effect. None of the provided evidence measures actual changes in social trust surveys, sense of belonging, loneliness, hate crime, or segregation following STV adoption. The Scottish and Irish comparators cited address government formation and MP accountability, not community cohesion outcomes. Voter turnout itself is only a proxy for civic participation, and increased engagement with elections does not straightforwardly translate into the richer forms of belonging and inter-group trust that O15 tracks. On the other side, no evidence suggests STV would worsen cohesion \u2014 concerns raised (clientelistic politics, E22; internal party competition, E17) relate to political dynamics, not social fabric. The honest verdict is that the mechanism is candidate but undemonstrated at O15's indicator level, warranting too-uncertain rather than a direction call.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/52116/pdf/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/55937/html/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://makevotesmatter.org.uk/single-transferable-vote/",
+        "publisher": "makevotesmatter.org.uk",
+        "title": "makevotesmatter.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://electoral-reform.org.uk/latest-news-and-research/publications/working-with-stv/",
+        "publisher": "electoral-reform.org.uk",
+        "title": "electoral-reform.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://electoral-reform.org.uk/support-for-proportional-representation-hits-record-high-according-to-new-research/",
+        "publisher": "electoral-reform.org.uk",
+        "title": "electoral-reform.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0515,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-structured and appropriately cautious. The too-uncertain direction is genuinely warranted: no provided evidence directly measures O15 indicators (social trust, belonging, inter-group relations, loneliness) following STV adoption. The crux_parameter and estimate_range are substantive, not lazy hedges. All claims are tier-appropriate \u2014 E10's 'expected to increase' is correctly labelled projected; E11 and E30 are measurable baselines. The E30 claim (60% support PR) is used only to note perceived legitimacy of current system, which is a reasonable inference from the quote without overstating. The E16 (positive campaigning) claim from makevotesmatter.org.uk is advocacy but is labelled projected and not the sole basis for any verdict. Rationale is party-blind and mechanism-focused. No lever leakage \u2014 the verdict explicitly declines to score electoral reform as a good in itself and routes only through O15 indicators. No false balance issue \u2014 the mixed/too-uncertain call is supported by genuine absence of O15-level evidence on both the positive and negative sides."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Ensure no politician can take you for granted, by introducing proportional representation by the Single Transferable Vote for electing MPs, and local councillors in England.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Increased Proportionality and Representation:**\n    Under STV, the distribution of parliamentary seats would more closely reflect the proportion of votes cast for each party",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pin-communications.com/resources/pin-insights/what-are-the-advantages-and-disadvantages-of-using-the-single-transferable-vote-stv-system/",
+            "publisher": "pin-communications.com",
+            "title": "pin-communications.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parliament.uk/site-information/glossary/proportional-representation/",
+            "publisher": "parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tutor2u.net/politics/reference/proportional-voting",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/what-are-voting-systems/proportional-representation/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/how-would-proportional-representation-work-in-the-uk/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://makevotesmatter.org.uk/proportional-representation/",
+            "publisher": "makevotesmatter.org.uk",
+            "title": "makevotesmatter.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://effectivegov.uchicago.edu/primers/proportional-representation",
+            "publisher": "effectivegov.uchicago.edu",
+            "title": "uchicago.edu",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "For instance, the House of Commons Library notes that in the 2024 UK General Election, Labour secured 63.2% of seats with only 33.5% of the national vote, while Reform UK gained 14.3% of votes but only 0.8% of seats (5 in total)",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/prvfptp-pratical-ethical-tradeoffs/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Conservatives might have seen a slight increase to 139 seats (from 121)",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Proportional_representation_in_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consoc.org.uk/prvfptp-pratical-ethical-tradeoffs/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This means a significantly higher percentage of votes would contribute to electing a candidate, reducing \"wasted\" votes",
+        "sources": [
+          {
+            "url": "https://www.pin-communications.com/resources/pin-insights/what-are-the-advantages-and-disadvantages-of-using-the-single-transferable-vote-stv-system/",
+            "publisher": "pin-communications.com",
+            "title": "pin-communications.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/how-would-proportional-representation-work-in-the-uk/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "**Shift in Government Formation: Towards Coalitions:**\n    STV is highly likely to result in coalition or minority governments, as it makes it difficult for any single party to achieve an outright majority unless their support is exceptionally widespread",
+        "sources": [
+          {
+            "url": "https://senecalearning.com/en-GB/revision-notes/a-level/political-studies/edexcel/3-1-1-fptp-and-stv",
+            "publisher": "senecalearning.com",
+            "title": "senecalearning.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.commoncause.org/north-carolina/articles/building-democracy-2-0-the-promise-of-proportional-voting/",
+            "publisher": "commoncause.org",
+            "title": "commoncause.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/politics/reference/proportional-voting",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This is already seen in jurisdictions using STV, such as the Republic of Ireland and Malta, which tend to produce relatively stable, legitimate governments comprising one or two main parties",
+        "sources": [
+          {
+            "url": "https://aceproject.org/ace-en/topics/es/esd/esd02/esd02d/esd02d01/mobile_browsing/onePag",
+            "publisher": "aceproject.org",
+            "title": "aceproject.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "In Scottish local government, the introduction of STV in 2007 led to many councils being under \"no overall control,\" requiring parties to embrace coalition administration and consensus democracy",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/55937/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/latest-news-and-research/publications/working-with-stv/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "**Enhanced Voter Choice and Engagement:**\n    Voters would rank candidates in multi-member constituencies, allowing them to express preferences across different parties and even between candidates of the same party",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://aceproject.org/ace-en/topics/es/esd/esd02/esd02d/esd02d01/mobile_browsing/onePag",
+            "publisher": "aceproject.org",
+            "title": "aceproject.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Single_transferable_vote",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://makevotesmatter.org.uk/single-transferable-vote/",
+            "publisher": "makevotesmatter.org.uk",
+            "title": "makevotesmatter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This system allows voters to support independent candidates without fear of wasting their vote",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "This greater choice is expected to increase voter engagement and turnout, as more people would feel their vote makes a difference, particularly in areas currently considered \"safe seats\"",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/52116/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/55937/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "For example, 70% of constituencies are considered \"safe\" under the current First Past the Post (FPTP) system",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/52116/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Changes to Constituency Link and MP Accountability:**\n    Constituencies under STV would be larger, electing multiple MPs (e.g., 3-5 MPs per area)",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/how-would-proportional-representation-work-in-the-uk/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Critics argue this could weaken the direct link between a single MP and their constituency",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://senecalearning.com/en-GB/revision-notes/a-level/political-studies/edexcel/3-1-1-fptp-and-stv",
+            "publisher": "senecalearning.com",
+            "title": "senecalearning.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, proponents suggest that voters can identify with at least one MP they helped elect, and that MPs become more accountable due to the need to secure preferences from a broader range of voters, including those from other parties",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/52116/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.pin-communications.com/resources/pin-insights/what-are-the-advantages-and-disadvantages-of-using-the-single-transferable-vote-stv-system/",
+            "publisher": "pin-communications.com",
+            "title": "pin-communications.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://makevotesmatter.org.uk/single-transferable-vote/",
+            "publisher": "makevotesmatter.org.uk",
+            "title": "makevotesmatter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Evidence from the Republic of Ireland suggests that Irish MPs may dedicate more time to constituency work than their British counterparts",
+        "sources": [
+          {
+            "url": "https://makevotesmatter.org.uk/single-transferable-vote/",
+            "publisher": "makevotesmatter.org.uk",
+            "title": "makevotesmatter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Impact on Party System and Campaigning:**\n    STV encourages positive campaigning, as candidates need to win second and third preferences from voters who might initially favour other parties or candidates",
+        "sources": [
+          {
+            "url": "https://makevotesmatter.org.uk/single-transferable-vote/",
+            "publisher": "makevotesmatter.org.uk",
+            "title": "makevotesmatter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "It can also lead to internal party competition, as candidates from the same party may effectively run against each other",
+        "sources": [
+          {
+            "url": "https://aceproject.org/ace-en/topics/es/esd/esd02/esd02d/esd02d01/mobile_browsing/onePag",
+            "publisher": "aceproject.org",
+            "title": "aceproject.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This system makes all seats contestable, encouraging parties to campaign more widely across the country rather than focusing solely on marginal constituencies",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/latest-news-and-research/publications/working-with-stv/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "In multi-member constituencies, parties may field more balanced teams of candidates, promoting the advancement of women and ethnic minority candidates who might be overlooked under FPTP",
+        "sources": [
+          {
+            "url": "https://www.amacad.org/ourcommonpurpose/publication/congressional-reform-proportional-representation/section/6",
+            "publisher": "amacad.org",
+            "title": "amacad.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pin-communications.com/resources/pin-insights/what-are-the-advantages-and-disadvantages-of-using-the-single-transferable-vote-stv-system/",
+            "publisher": "pin-communications.com",
+            "title": "pin-communications.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Potential for Policy Stability and \"Clientelistic\" Politics:**\n    While some critics express concern about potential government instability due to coalitions",
+        "sources": [
+          {
+            "url": "https://senecalearning.com/en-GB/revision-notes/a-level/political-studies/edexcel/3-1-1-fptp-and-stv",
+            "publisher": "senecalearning.com",
+            "title": "senecalearning.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.commoncause.org/north-carolina/articles/building-democracy-2-0-the-promise-of-proportional-voting/",
+            "publisher": "commoncause.org",
+            "title": "commoncause.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/politics/reference/proportional-voting",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": ", others argue that governments founded on majority support from the electorate are strong and stable, with changes requiring broader consensus",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "A potential drawback raised is the possibility of \"clientelistic\" politics, where politicians target specific groups with electoral promises",
+        "sources": [
+          {
+            "url": "https://aceproject.org/ace-en/topics/es/esd/esd02/esd02d/esd02d01/mobile_browsing/onePag",
+            "publisher": "aceproject.org",
+            "title": "aceproject.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **House of Commons Library:** Provides neutral briefings on electoral systems, outlining the pros and cons of different systems, including STV",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2019-0094/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn04458/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They note the current government's view that FPTP is the best system for House of Commons elections",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2019-0094/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Electoral Reform Society (ERS):** A strong advocate for STV, viewing it as a system that puts power in the hands of the public and ensures parliament reflects voter views",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://makevotesmatter.org.uk/single-transferable-vote/",
+            "publisher": "makevotesmatter.org.uk",
+            "title": "makevotesmatter.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/what-are-voting-systems/proportional-representation/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/how-would-proportional-representation-work-in-the-uk/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They frequently publish analyses, such as projections for the 2024 general election showing how seats would be redistributed under PR",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Proportional_representation_in_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/how-the-2024-election-could-have-looked-with-proportional-representation/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The ERS highlights that in the 2024 election, 57.8% of voters were unrepresented under FPTP",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/how-would-proportional-representation-work-in-the-uk/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **The Constitution Society:** Discusses the ethical and practical tradeoffs between FPTP and PR, noting the discrepancy between votes and seats under FPTP and arguing that electoral rules shape voter and party behaviour",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/prvfptp-pratical-ethical-tradeoffs/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "A January 2026 YouGov poll found 45% of Britons preferred PR over FPTP (25%), with majorities of Labour, Lib Dem, and Green voters backing PR",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/53890-support-for-proportional-representation-has-fallen-among-reform-uk-voters",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The NatCen British Social Attitudes (BSA) survey in late 2024 reported a record high of 60% public support for changing to PR, with only 36% wanting to keep the current system",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/support-for-proportional-representation-hits-record-high-according-to-new-research/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "This included a doubling of Conservative voter support for PR, from 24% in 2023 to 52% in 2024",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/support-for-proportional-representation-hits-record-high-according-to-new-research/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** While the IFS frequently analyses public finance and inequality",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/books/tax-reform-analysis-effect-proportional-tax-system",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/Political-Inequality-IFS-Deaton-Review-of-Inequality-1.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/more-more-more/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Their work on \"political inequality\" touches on how voting behaviour changes with economic inequality and perceived legitimacy of government but doesn't quantify the direct fiscal or economic effects of a switch to STV",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/Political-Inequality-IFS-Deaton-Review-of-Inequality-1.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Resolution Foundation:** This think-tank focuses on living standards",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/more-more-more/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Health Foundation:** Their work focuses on health and social care policy",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEgnrQcDoBcPzltDTNrdcWmiQbTdi0sHocDYXmDApfk2xzjXIuQMfMiwv0LLhqvo0XkI_kiVok566cP03GCFo0gRJ_qxp7e5wxpkHJl1avCz2d6xECldYWxEY7P2gIuMlwF9SYA4_uxkEmPkQpVGD9_Q==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcpNinY8VTS0bAOx5Kx7pDgiX0XOgkCcayLn5uJ92vRCy07FOuqxPBUxT3f0RRPe6OAvBFZI2oGv3SS8eU0T2Ecsqojc_J6aZs1Y-vV3ZRJpj_rkoj-t9y7CuTpJwoExYoTlTFovNQ2EG5-GregCcvTDhbVJg7NeNcakk80rbocDFFkuVmWOrEVNiCcpUcil5znhSwAAqm1Q==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "They cite examples like Ireland where MPs maintain a strong local connection and do significant constituency work",
+        "sources": [
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://makevotesmatter.org.uk/single-transferable-vote/",
+            "publisher": "makevotesmatter.org.uk",
+            "title": "makevotesmatter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "Critics, however, contend that multi-member constituencies inherently dilute the direct, individual link between an MP and their constituents found in single-member systems",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://senecalearning.com/en-GB/revision-notes/a-level/political-studies/edexcel/3-1-1-fptp-and-stv",
+            "publisher": "senecalearning.com",
+            "title": "senecalearning.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "**Government Stability and Effectiveness:** Supporters claim STV produces strong, stable governments built on majority support and encourages consensus",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/latest-news-and-research/publications/working-with-stv/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Opponents express concern that it could lead to weaker, unstable coalition governments or minority governments, making effective policymaking more difficult",
+        "sources": [
+          {
+            "url": "https://senecalearning.com/en-GB/revision-notes/a-level/political-studies/edexcel/3-1-1-fptp-and-stv",
+            "publisher": "senecalearning.com",
+            "title": "senecalearning.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.commoncause.org/north-carolina/articles/building-democracy-2-0-the-promise-of-proportional-voting/",
+            "publisher": "commoncause.org",
+            "title": "commoncause.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/politics/reference/proportional-voting",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "**Complexity for Voters:** While some argue STV is simple for voters to use and reduces the need for tactical voting",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://electoral-reform.org.uk/voting-systems/types-of-voting-system/single-transferable-vote/",
+            "publisher": "electoral-reform.org.uk",
+            "title": "electoral-reform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": ", others suggest its preferential voting and vote transfer mechanisms are more intricate than FPTP and could deter some voters",
+        "sources": [
+          {
+            "url": "https://aceproject.org/ace-en/topics/es/esd/esd02/esd02d/esd02d01/mobile_browsing/onePag",
+            "publisher": "aceproject.org",
+            "title": "aceproject.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://senecalearning.com/en-GB/revision-notes/a-level/political-studies/edexcel/3-1-1-fptp-and-stv",
+            "publisher": "senecalearning.com",
+            "title": "senecalearning.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "However, examples like Northern Ireland's 70% turnout in its first STV election are cited to counter this",
+        "sources": [
+          {
+            "url": "https://www.hcpc-uk.org/globalassets/meetings-attachments3/council-meeting/2005/february/council_meeting_20050201_enclosure01i/",
+            "publisher": "hcpc-uk.org",
+            "title": "hcpc-uk.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

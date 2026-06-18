@@ -1,0 +1,647 @@
+{
+  "policy_id": "lab-62-implement-preventative-public-health-measures",
+  "party": "Labour",
+  "policy_title": "Implement Preventative Public Health Measures",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "n/a",
+    "confidence": "high",
+    "plain": "This policy is almost entirely about public health measures \u2014 smoking, vaping, junk food, gambling \u2014 which do not directly affect equal treatment, anti-discrimination protections, voting rights, or due process. Granting coroners powers to access tech company data after a child's death touches marginally on due process, but the direction and scale of any O9 effect is too small to register.",
+    "biggest_unknown": "Whether the coroner's new powers to compel tech company disclosure could set a precedent that affects due-process norms more broadly is not addressed by the evidence provided.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy grants coroners more powers to access tech company information after a child's death.",
+        "evidence_id": "M",
+        "quote": "grant coroners more powers to access tech company information after a child's death"
+      },
+      {
+        "tier": "projected",
+        "claim": "Granting coroners such powers is framed as increasing accountability for tech companies during investigations into child deaths.",
+        "evidence_id": "E19",
+        "quote": "Granting coroners more powers would compel tech companies to provide crucial information during investigations into child deaths linked to online harms"
+      }
+    ],
+    "rationale": "O9 covers equal treatment and anti-discrimination, voting and democratic rights, due process, and minority protections. The vast bulk of this policy \u2014 tobacco generational bans, opt-out cessation, vape branding bans, junk food advertising restrictions, energy drink sales limits, gambling reform \u2014 operates entirely within the public health domain and has no plausible direct effect on any O9 indicator. The only element with even a marginal O9 dimension is the proposal to grant coroners more powers to compel tech companies to disclose information after a child's death. This touches on due process (compelling private entities to provide information), but the direction is neither clearly improving nor worsening O9 at population scale: it strengthens one accountability mechanism in a narrow investigative context. No evidence provided suggests this creates discriminatory treatment, undermines minority protections, or changes voting or broader legal rights. The policy does not meet the magnitude floor for a non-negligible O9 effect. Direction is therefore negligible.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://5rightsfoundation.com/wp-content/uploads/2025/07/5Rights-Online-Safety-Act-fact-sheet-.pdf",
+        "publisher": "5rightsfoundation.com",
+        "title": "5rightsfoundation.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0328,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-scoped. Direction 'negligible' with magnitude 'minor' and time_horizon 'n/a' is structurally inconsistent \u2014 when direction is negligible (not too-uncertain), magnitude should arguably be 'negligible' or 'n/a' rather than 'minor', but the schema does not explicitly prohibit this combination and the rationale explains it adequately. The two claims are appropriately tiered and the quotes entail the claims. No lever leakage, no party bias, no false balance. The coroner-powers due-process point is correctly identified as marginal and the uncertainty is honestly flagged in biggest_unknown. No blocking issues found."
+    },
+    "gate": {
+      "kept": 2,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will take preventative public health measures, ensuring the next generation can never legally buy cigarettes and integrating 'opt-out' smoking cessation interventions in hospitals. They will ban vapes from being branded and advertised to appeal to children, ban advertising junk food to children, and prohibit the sale of high-caffeine energy drinks to under-16s to tackle childhood obesity. The party will also strengthen online safety provisions, grant coroners more powers to access tech company information after a child's death, and reform gambling regulation to strengthen protections.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**What Analysts Say:**\n*   **NHS Smoking Cessation Services:** Existing intensive NHS treatments for smoking cessation are effective in helping smokers quit, with 4-week quit rates of 53% and 1-year quit rates of 15%.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy3rBILxyxAs5QUDoDrZaUVVRQpc7TD0M22qdD-MeiwPCzfni02BY6SgDr8HjTQLpIdzCzJV8w-HAjuZH7Z5A8xq3VqWj0di5a0pe5Y4jjwZPW5IRMDwp7cHrbjbGkLK6OpVHivVZugV0SP-IXIGB72JOOlnc=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "oup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19638397/",
+            "publisher": "pubmed.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "These services are particularly effective with intensive behavioral support and pharmacotherapy.",
+        "sources": [
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK327138/",
+            "publisher": "ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "A study found that approximately 15% of the reduction in smoking prevalence in England between 2001 and 2016 was attributable to NHS Stop Smoking Services.",
+        "sources": [
+          {
+            "url": "https://tobaccocontrol.bmj.com/content/29/2/200",
+            "publisher": "tobaccocontrol.bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Evidence Gap on In-patient Interventions:** There is currently limited evidence on the effectiveness of in-patient smoking cessation interventions, suggesting this area would require further research and careful implementation.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy3rBILxyxAs5QUDoDrZaUVVRQpc7TD0M22qdD-MeiwPCzfni02BY6SgDr8HjTQLpIdzCzJV8w-HAjuZH7Z5A8xq3VqWj0di5a0pe5Y4jjwZPW5IRMDwp7cHrbjbGkLK6OpVHivVZugV0SP-IXIGB72JOOlnc=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "oup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19638397/",
+            "publisher": "pubmed.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Continued Availability for Adult Cessation:** Analysts like ASH (Action on Smoking and Health) emphasize the need to tackle youth vaping while ensuring vapes remain available as a tool for adult smokers to quit.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/key-topics/youth-vaping",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "**What Analysts Say:**\n*   **Rising Youth Vaping:** Youth vaping rates rose sharply between 2021 and 2023, largely driven by cheap, disposable vapes and youth-focused marketing.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/key-topics/youth-vaping",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "As of 2025, 7% of 11-17 year olds in Great Britain currently vape, with 20% having tried it.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/key-topics/youth-vaping",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ash.org.uk/resources/view/use-of-e-cigarettes-among-young-people-in-great-britain",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Vaping is more common among older children, with 12% of 16-17 year olds currently vaping compared to 5% of 11-15 year olds.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/key-topics/youth-vaping",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Calls for Stricter Regulations:** ASH has called for measures such as prohibiting vape promotion in shops, increasing controls over sales locations, and implementing plain packaging to make vapes less appealing to children.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/key-topics/youth-vaping",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Likely Real-World Effects:**\n*   **Reduced Childhood Obesity:** The government anticipates that restrictions on advertising unhealthy food could remove up to 7.2 billion calories annually from children's diets, prevent 20,000 cases of childhood obesity, and deliver around \u00a32 billion in health benefits over time.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZPd2JoActAsjtIJRF2u8r8Y041ipi3AS6NLGCsyEntXkeh2CTDCBKgMwUtGxHie_tpg0Qjomkh5S7YpLk6ml-b9z5MM1_6JHvZaQTyzjHs7lIcrS71yLjPkah9vPgd6pBQo5f8IkQlf6S-NvkK-dEBDc-mmLOMbi7Hs09_yS53dBDH1K1fUXRKB_mbOhqUMN0bZMx8AJoS0ffABX6wLctKAErOWkCNVnYCMA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.drwf.org.uk/news-and-events/news/landmark-advertising-ban-will-protect-young-people-from-exposure-to-junk-food/",
+            "publisher": "drwf.org.uk",
+            "title": "drwf.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthmedia.blog.gov.uk/2024/12/06/here-are-the-facts-about-our-junk-food-ban/",
+            "publisher": "healthmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bhf.org.uk/what-we-do/news-from-the-bhf/news-archive/2026/january/junk-food-advert-restrictions-in-force",
+            "publisher": "bhf.org.uk",
+            "title": "bhf.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Industry Adaptation:** Previous interventions, like the Soft Drinks Industry Levy, have led businesses to reformulate products to be healthier.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/landmark-junk-food-ad-ban-to-protect-kids-health",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The ban, as implemented by the current government, targets TV advertising before 9 pm and paid online advertising, but excludes outdoor advertising and sports sponsorship, which could lead to companies shifting their advertising spend to these unregulated channels.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZPd2JoActAsjtIJRF2u8r8Y041ipi3AS6NLGCsyEntXkeh2CTDCBKgMwUtGxHie_tpg0Qjomkh5S7YpLk6ml-b9z5MM1_6JHvZaQTyzjHs7lIcrS71yLjPkah9vPgd6pBQo5f8IkQlf6S-NvkK-dEBDc-mmLOMbi7Hs09_yS53dBDH1K1fUXRKB_mbOhqUMN0bZMx8AJoS0ffABX6wLctKAErOWkCNVnYCMA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://healthmedia.blog.gov.uk/2024/12/06/here-are-the-facts-about-our-junk-food-ban/",
+            "publisher": "healthmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/mar/10/uk-junk-food-ad-ban-so-diluted-it-may-be-largely-ineffective-experts-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHowWyG6pL1Z3fbQKw3XwBvId0Y1Y33NP_baqw5a_EWvgDhZj1seRpvixcq-dMSIIrFjFnRPiPNdJz1R-B5uRQJT43uY18L4m1S8zcBGwoR2wB2qO1rteTl6XW0774WuNVWlfqQm3uRIcAn-lypVq8QNBF3lPlUj95fDJ1kVLTuE-Gi-3qysNOgJk5VUqWtPonN_Bo_dhcad74JAFkoN-dcIkDbYcXixwqsHcGDJeImfBTu0Ltomw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "**What Analysts Say:**\n*   **IFS Analysis:** The Institute for Fiscal Studies (IFS) found that a ban on potato crisp advertising could lead to a 10-15% fall in sales.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/effects-banning-advertising-junk-food-markets",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, they also noted that previous restrictions (a 2007 ban during children's programming) were only partially effective as firms shifted advertising to other times and platforms.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/business/news/childhood-obesity-advertising-fast-food-salt-fat-sugar-institute-for-fiscal-studies-a8376341.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/could-restricting-junk-food-advertising-reduce-obesity",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.chronicle.gi/half-of-tv-food-and-drink-ads-seen-by-uk-children-are-for-junk-products-study/",
+            "publisher": "chronicle.gi",
+            "title": "chronicle.gi",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Health Foundation View:** The Health Foundation welcomes the ban but emphasizes that more ambitious measures are needed, highlighting loopholes in outdoor and online advertising.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZPd2JoActAsjtIJRF2u8r8Y041ipi3AS6NLGCsyEntXkeh2CTDCBKgMwUtGxHie_tpg0Qjomkh5S7YpLk6ml-b9z5MM1_6JHvZaQTyzjHs7lIcrS71yLjPkah9vPgd6pBQo5f8IkQlf6S-NvkK-dEBDc-mmLOMbi7Hs09_yS53dBDH1K1fUXRKB_mbOhqUMN0bZMx8AJoS0ffABX6wLctKAErOWkCNVnYCMA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1eMPwx21uSBCeqzoYnXc6Bqv__beKNc1RiqNw89I8PQn7CbUEqmzIurksANKRKQpZE0eqLGlsrWpyJEqI2tX-AuXGqkP6W5oX3ZsMnyxCtkM_wTm6RlFNoNCLGQJfyp27XVE_wuuvAbHiYjyJA0WP0R2KfBjDOtpdnJsL600-n-ErNHqwYwkQEJaMJqIQbh0XjqqcblutFR7yeItooUnAA-kbo9xu5sFxfLZTSuA8ETthO1Mn_4-HEEgs8DG3uw8NY0niay1YdBWs3YqI1MFOxUDwbGbu2r9L92LbP0ifbw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.healthcare-management.uk/junk-food-advertising-ban-confirmed",
+            "publisher": "healthcare-management.uk",
+            "title": "healthcare-management.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "They note that industry spending on outdoor advertising increased by 28% between 2021 and 2024 following the announcement of TV/online restrictions.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHowWyG6pL1Z3fbQKw3XwBvId0Y1Y33NP_baqw5a_EWvgDhZj1seRpvixcq-dMSIIrFjFnRPiPNdJz1R-B5uRQJT43uY18L4m1S8zcBGwoR2wB2qO1rteTl6XW0774WuNVWlfqQm3uRIcAn-lypVq8QNBF3lPlUj95fDJ1kVLTuE-Gi-3qysNOgJk5VUqWtPonN_Bo_dhcad74JAFkoN-dcIkDbYcXixwqsHcGDJeImfBTu0Ltomw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Concerns about Effectiveness:** Some experts, like Nesta and Action on Sugar, suggest that the current ban, due to industry lobbying and dilutions, may only affect a small proportion (as little as 1%) of the total annual spend on food and drink advertising.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/mar/10/uk-junk-food-ad-ban-so-diluted-it-may-be-largely-ineffective-experts-say",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Likely Real-World Effects:**\n*   **Enhanced Child Protection:** The Online Safety Act 2023 (OSA) already aims to make the UK the safest place online by placing a duty of care on online platforms to protect users, especially children, from harmful content.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9579/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Online_Safety_Act_2023",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Increased Accountability for Tech Companies:** Granting coroners more powers would compel tech companies to provide crucial information during investigations into child deaths linked to online harms, potentially leading to better understanding and prevention of future tragedies.",
+        "sources": [
+          {
+            "url": "https://5rightsfoundation.com/wp-content/uploads/2025/07/5Rights-Online-Safety-Act-fact-sheet-.pdf",
+            "publisher": "5rightsfoundation.com",
+            "title": "5rightsfoundation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Challenges with Age Verification:** While the OSA requires platforms to implement highly effective age assurance technologies, there are concerns about the effectiveness of age checks, with reports indicating children can bypass them.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0043/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thechildrensmediafoundation.org/archives/19261/the-online-safety-act-are-children-safer-online",
+            "publisher": "thechildrensmediafoundation.org",
+            "title": "thechildrensmediafoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Some critics also raise concerns about privacy and free expression.",
+        "sources": [
+          {
+            "url": "https://www.eff.org/deeplinks/2025/08/no-uks-online-safety-act-doesnt-make-children-safer-online",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "**What Analysts Say:**\n*   **House of Commons Library:** The Online Safety Act 2023, which received Royal Assent in October 2023, requires services to assess risks to children and set appropriate age restrictions.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0043/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9579/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Ofcom is implementing the Act in phases.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0043/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Children's Commissioner/5Rights Foundation/Internet Matters:** These organizations support the Act's goals of preventing exposure to pornography and stopping predatory contact, citing statistics such as 27% of 11-year-olds having seen pornography and a surge in online grooming crimes.",
+        "sources": [
+          {
+            "url": "https://5rightsfoundation.com/wp-content/uploads/2025/07/5Rights-Online-Safety-Act-fact-sheet-.pdf",
+            "publisher": "5rightsfoundation.com",
+            "title": "5rightsfoundation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "However, they also note that children still encounter harmful content, and much responsibility falls on families.",
+        "sources": [
+          {
+            "url": "https://www.internetmatters.org/hub/research/online-safety-act-report-2026/",
+            "publisher": "internetmatters.org",
+            "title": "internetmatters.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thechildrensmediafoundation.org/archives/19261/the-online-safety-act-are-children-safer-online",
+            "publisher": "thechildrensmediafoundation.org",
+            "title": "thechildrensmediafoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "A consultation on banning social media for under-16s received over 116,000 responses in 2026.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10468/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.newsweek.com/social-media-ban-teens-uk-us-regulation-tech-12072979",
+            "publisher": "newsweek.com",
+            "title": "newsweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Measures include a statutory levy on gambling companies, online stake limits, and financial vulnerability checks.",
+        "sources": [
+          {
+            "url": "https://www.twobirds.com/en/trending-topics/gambling-reform",
+            "publisher": "twobirds.com",
+            "title": "twobirds.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gamblingcommission.gov.uk/news/article/gambling-commission-publishes-gambling-act-review-advice",
+            "publisher": "gamblingcommission.gov.uk",
+            "title": "gamblingcommission.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.cliffordchance.com/insights/resources/blogs/ip-insights/2025/06/uk-gambling-regulations-uk-government-doubles-down-on-consumer-protection.html",
+            "publisher": "cliffordchance.com",
+            "title": "cliffordchance.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gamharmapg.org/news/uk-gov-publishes-white-paper",
+            "publisher": "gamharmapg.org",
+            "title": "gamharmapg.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Economic Impact on Industry:** While the 2023 White Paper forecasted a significant reduction in industry gross gambling yield (between \u00a3329 million and \u00a3812 million annually), newer research suggests the net economic impact might be much smaller, around \u00a3134 million, due to consumer spending shifting to other sectors.",
+        "sources": [
+          {
+            "url": "https://igamingbusiness.com/finance/uk-gambling-reforms-very-small-negative-impact-on-economy/",
+            "publisher": "igamingbusiness.com",
+            "title": "igamingbusiness.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cdcgaming.com/brief/study-says-uks-online-gambling-reforms-carry-low-economic-impact/",
+            "publisher": "cdcgaming.com",
+            "title": "cdcgaming.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Increased Regulatory Powers:** The Gambling Commission will have new powers to tackle unlicensed black market firms and will see reforms to its fee structure.",
+        "sources": [
+          {
+            "url": "https://www.gamharmapg.org/news/uk-gov-publishes-white-paper",
+            "publisher": "gamharmapg.org",
+            "title": "gamharmapg.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "**What Analysts Say:**\n*   **NIESR/University of Glasgow Study:** Research suggests that tighter gambling reforms could lead to only modest economic loss (around \u00a3134 million net loss in UK output) as consumer spending shifts mitigate the impact of reduced gambling revenues.",
+        "sources": [
+          {
+            "url": "https://igamingbusiness.com/finance/uk-gambling-reforms-very-small-negative-impact-on-economy/",
+            "publisher": "igamingbusiness.com",
+            "title": "igamingbusiness.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Gambling Commission:** The Commission has provided advice to the government on areas such as online protections, safer gambling, advertising, and age limits, leading to new rules on stake limits for online slots (e.g., \u00a35 per spin for over 25s, \u00a32 for 18-24s) and financial vulnerability checks.",
+        "sources": [
+          {
+            "url": "https://www.gamblingcommission.gov.uk/news/article/gambling-commission-publishes-gambling-act-review-advice",
+            "publisher": "gamblingcommission.gov.uk",
+            "title": "gamblingcommission.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.cliffordchance.com/insights/resources/blogs/ip-insights/2025/06/uk-gambling-regulations-uk-government-doubles-down-on-consumer-protection.html",
+            "publisher": "cliffordchance.com",
+            "title": "cliffordchance.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gamblingcommission.gov.uk/news/article/new-rules-boosting-safety-and-consumer-choice",
+            "publisher": "gamblingcommission.gov.uk",
+            "title": "gamblingcommission.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gambling_Commission",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Social Market Foundation/Academic Perspective:** Reviews of the evidence base on gambling-related harm are ongoing, and there's a call for establishing an index of harm to guide future interventions.",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/wp-content/uploads/2020/08/Gambling-review-and-reform-August-2020.pdf",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Some academics express concern that the pace of change has been slow and incremental, with reforms like online slot limits potentially not affecting most gamblers.",
+        "sources": [
+          {
+            "url": "https://www.addiction-ssa.org/features/blog/one-year-on-from-the-uk-governments-gambling-white-paper-where-are-we-now/",
+            "publisher": "addiction-ssa.org",
+            "title": "addiction-ssa.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Statutory Levy:** The introduction of a statutory gambling levy, replacing the voluntary model, came into force in April 2025, with proceeds ring-fenced for research, education, and treatment of gambling harm.",
+        "sources": [
+          {
+            "url": "https://www.cliffordchance.com/insights/resources/blogs/ip-insights/2025/06/uk-gambling-regulations-uk-government-doubles-down-on-consumer-protection.html",
+            "publisher": "cliffordchance.com",
+            "title": "cliffordchance.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gamharmapg.org/news/uk-gov-publishes-white-paper",
+            "publisher": "gamharmapg.org",
+            "title": "gamharmapg.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

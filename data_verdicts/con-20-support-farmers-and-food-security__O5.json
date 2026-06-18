@@ -1,0 +1,641 @@
+{
+  "policy_id": "con-20-support-farmers-and-food-security",
+  "party": "Conservative",
+  "policy_title": "Support Farmers and Food Security",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This is primarily an agricultural support policy; its only plausible link to O5 is through food-supply resilience as a component of national security. The budget increase may only keep pace with inflation rather than genuinely expanding domestic production capacity, so any security gain is speculative and long-term.",
+    "biggest_unknown": "Whether the \u00a31 billion budget increase delivers a real-terms uplift in domestic food production beyond merely offsetting inflation \u2014 which would determine whether UK food-supply resilience actually improves.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy introduces a legally binding target for food security and increases the farming budget by \u00a31 billion over the Parliament.",
+        "evidence_id": "M",
+        "quote": "introducing a legally binding target for food security"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK currently produces approximately 60% of the food it consumes, indicating meaningful import dependency.",
+        "evidence_id": "E16",
+        "quote": "the UK produced approximately 60% of the food it consumed in 2023"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Food security has been described as being 'very low on the political agenda' despite fragility of the food system.",
+        "evidence_id": "E17",
+        "quote": "food security has been \"very low on the political agenda\" in the UK, despite the fragility of the food system"
+      },
+      {
+        "tier": "projected",
+        "claim": "The NFU frames food security explicitly as a national security matter, calling for a shift away from a just-in-time supply model.",
+        "evidence_id": "E14",
+        "quote": "The NFU considers food security as \"national security\" and calls for a long-term plan for farming and food production, moving away from a \"just-in-time\" model to a more resilient \"just-in-case\" approach"
+      },
+      {
+        "tier": "projected",
+        "claim": "The \u00a31 billion budget increase may only offset inflation rather than represent a genuine real-terms increase in farming support.",
+        "evidence_id": "E3",
+        "quote": "To merely negate the effect of inflation, the farming budget would need to increase by at least \u00a31 billion to \u00a33.4 billion"
+      }
+    ],
+    "rationale": "O5 covers national security and resilience to external threats alongside crime and justice. This policy's only plausible connection to O5 is through food-supply resilience: a country producing only 60% of its food is exposed to supply-chain shocks, and the NFU explicitly frames food security as national security. A legally binding food security target and a meaningful uplift in farming support could, over the long run, nudge domestic production upward and reduce that vulnerability. However, the effect is minor and speculative for two reasons. First, the \u00a31 billion increase over the Parliament may do little more than offset inflation \u2014 the evidence suggests this sum is roughly what is needed just to maintain the real value of existing budgets, not to expand capacity. Second, a legally binding target sets a goal but does not guarantee delivery; the mechanism (increased budget + procurement changes + planning reform) needs to actually raise domestic production at scale for any security benefit to materialise. The direct O5 indicators \u2014 crime rates, court backlogs, policing \u2014 are not touched at all. The only pathway to O5 is the narrow national-security-resilience channel, and that pathway is long-term and uncertain. 'Negligible' with a minor caveat is the honest verdict: the policy is pointing in the right direction on food-supply resilience, but the instruments as described are unlikely to move the national security needle materially within any foreseeable parliamentary timeframe.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.nfuonline.com/news/campaigning-for-a-secure-supply-of-british-food/",
+        "publisher": "nfuonline.com",
+        "title": "nfuonline.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.carbonbrief.org/qa-the-state-of-the-uks-food-security-in-a-fast-warming-world/",
+        "publisher": "carbonbrief.org",
+        "title": "carbonbrief.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.farminguk.com/news/food-security-must-be-treated-as-national-security-nfu-warns_68645.html",
+        "publisher": "farminguk.com",
+        "title": "farminguk.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ahdb.org.uk/trade-and-policy-total-farm-support-eroded-by-underspend-and-inflation",
+        "publisher": "ahdb.org.uk",
+        "title": "ahdb.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0438,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by the cited evidence. The E17 quote (Tim Lang) is an advocacy/expert opinion correctly placed at measurable tier as a characterisation of political attention rather than a forecast \u2014 acceptable. The E14 NFU claim is correctly tiered as projected (NFU framing/advocacy). The direction 'negligible' with magnitude 'minor' is internally consistent and the rationale correctly identifies the narrow O5 pathway (food-supply resilience as national security) without lever leakage into agricultural policy for its own sake. No party identity or motive attribution detected. The inflation-offset argument (E3) is fairly presented as a caveat, not overstated. No false balance issue \u2014 the verdict does not claim mixed; it reaches negligible with appropriate uncertainty. The stated claim quote only covers the food security target portion of the full claim, but the budget figure is in M and the verdict does not overstate what the quote says. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will back farmers by increasing the UK-wide farming budget by \u00a31 billion over the Parliament, introducing a legally binding target for food security, improving public sector procurement of local food, and reforming planning to fast-track farm infrastructure.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Conservative Party has pledged to increase the UK-wide farming budget by \u00a31 billion over the Parliament, ensuring it rises with inflation annually",
+        "sources": [
+          {
+            "url": "https://www.farmersguardian.com/news/4321082/farming-budget-increase-gbp-billion-prime-minister-rishi-sunak-unveils-conservative-partysmanifesto",
+            "publisher": "farmersguardian.com",
+            "title": "farmersguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/tory-farming-budget-pledge-falls-short-of-industry-demands",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This commitment also includes a new UK-wide \u00a320 million Farming Innovation Fund",
+        "sources": [
+          {
+            "url": "https://www.farmersguardian.com/news/4321082/farming-budget-increase-gbp-billion-prime-minister-rishi-sunak-unveils-conservative-partysmanifesto",
+            "publisher": "farmersguardian.com",
+            "title": "farmersguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nfuonline.com/news/commitment-checklist/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "To merely negate the effect of inflation, the farming budget would need to increase by at least \u00a31 billion to \u00a33.4 billion, without considering any additional spending required to support the sector",
+        "sources": [
+          {
+            "url": "https://ahdb.org.uk/trade-and-policy-total-farm-support-eroded-by-underspend-and-inflation",
+            "publisher": "ahdb.org.uk",
+            "title": "ahdb.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The National Farmers' Union (NFU) president, Tom Bradshaw, has called for a more substantial increase, advocating for the UK agricultural budget to rise by \u00a32 billion to \u00a35.5 billion a year to enable the industry to meet both food production and environmental goals",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/tory-farming-budget-pledge-falls-short-of-industry-demands",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Liberal Democrats, for example, have proposed an additional \u00a31 billion per year for farming, noting that farming subsidies experienced an 8.3% real-terms cut since 2019",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/business/business-management/agricultural-transition/libs-dems-demand-extra-1bn-a-year-for-farming",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The House of Commons Library noted that the government had previously committed to maintaining an overall farm support budget of around \u00a32.4 billion per year during the 2019-2024 parliament, but this has been limited by underspend and inflation",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/business/business-management/agricultural-transition/libs-dems-demand-extra-1bn-a-year-for-farming",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ahdb.org.uk/trade-and-policy-total-farm-support-eroded-by-underspend-and-inflation",
+            "publisher": "ahdb.org.uk",
+            "title": "ahdb.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "For the 2024/25 and 2025/26 period, the government announced \u00a35 billion over two years for farming support, with \u00a32.4 billion allocated for 2025/26, described by Ministers as the \"highest ever funding\" levels",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0060/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://defrafarming.blog.gov.uk/2025/03/12/update-on-the-farming-budget/",
+            "publisher": "defrafarming.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The Conservative Party aims to introduce a legally binding target to enhance food security, which will apply UK-wide alongside the existing UK Food Security Index and feed into the Land Use Framework",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/tory-farming-budget-pledge-falls-short-of-industry-demands",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nfuonline.com/news/commitment-checklist/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/qa-the-state-of-the-uks-food-security-in-a-fast-warming-world/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The policy also pledges to continue the UK Farm to Fork Summit annually",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/commitment-checklist/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Food Foundation has been consistently tracking household food insecurity, reporting that 12% of UK households experienced food insecurity in January 2026, affecting 6.3 million adults",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/press-release/rising-food-insecurity-levels-lead-calls-good-food-bill-protect-citizens-next-cost",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This figure was up from 11% in June 2025",
+        "sources": [
+          {
+            "url": "https://foodfoundation.org.uk/press-release/rising-food-insecurity-levels-lead-calls-good-food-bill-protect-citizens-next-cost",
+            "publisher": "foodfoundation.org.uk",
+            "title": "foodfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The Food Foundation, along with other NGOs like Sustain and Green Alliance, advocates for a \"Good Food Bill\" with legally binding targets to ensure a more sustainable and resilient food system, arguing that current strategies have collectively failed to achieve this",
+        "sources": [
+          {
+            "url": "https://foodservicefootprint.com/uk-food-bill-policy/",
+            "publisher": "foodservicefootprint.com",
+            "title": "foodservicefootprint.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They suggest such targets could provide long-term stability against political changes and industry lobbying",
+        "sources": [
+          {
+            "url": "https://foodservicefootprint.com/uk-food-bill-policy/",
+            "publisher": "foodservicefootprint.com",
+            "title": "foodservicefootprint.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The NFU considers food security as \"national security\" and calls for a long-term plan for farming and food production, moving away from a \"just-in-time\" model to a more resilient \"just-in-case\" approach",
+        "sources": [
+          {
+            "url": "https://www.farminguk.com/news/food-security-must-be-treated-as-national-security-nfu-warns_68645.html",
+            "publisher": "farminguk.com",
+            "title": "farminguk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The union has consistently called for the establishment of a food security index and target, including a statutory duty to monitor and report on domestic food production levels annually, rather than the current triennial reporting required by the Agriculture Act 2020",
+        "sources": [
+          {
+            "url": "https://www.food.gov.uk/research/food-insecurity/household-food-insecurity-in-the-uk-data-and-research-landscape?print=1",
+            "publisher": "food.gov.uk",
+            "title": "food.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nfuonline.com/media/2umesomm/food-security.pdf",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "DEFRA's 2024 UK Food Security Report indicated that the UK produced approximately 60% of the food it consumed in 2023",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/campaigning-for-a-secure-supply-of-british-food/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Tim Lang, an emeritus professor of food policy at City University of London, notes that food security has been \"very low on the political agenda\" in the UK, despite the fragility of the food system",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/qa-the-state-of-the-uks-food-security-in-a-fast-warming-world/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The IPPR (Institute for Public Policy Research) also warns that the climate and nature crises significantly threaten domestic food production and calls for a \"significant shift\" and \"robust intervention\" by the government, including \u00a32.4 billion a year for the next decade for farm support in England to achieve food security and net-zero targets",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/government-s-failure-to-support-sustainable-farming-undermines-uk-s-food-security-warns-report",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The policy aims for a public sector procurement goal of at least 50% of food expenditure to be spent on food produced locally or to higher environmental production standards",
+        "sources": [
+          {
+            "url": "https://www.countryside-alliance.org/general-election-2024/our-analysis-of-the-conservative-manifesto",
+            "publisher": "countryside-alliance.org",
+            "title": "countryside-alliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/tory-farming-budget-pledge-falls-short-of-industry-demands",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nfuonline.com/news/commitment-checklist/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/qa-the-state-of-the-uks-food-security-in-a-fast-warming-world/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The UK public sector spends approximately \u00a35 billion annually on food and catering",
+        "sources": [
+          {
+            "url": "https://ukfoodsystems.ukri.org/wp-content/uploads/2025/10/Policy-and-Practice-Note-Catapulting-Sustainable-and-Healthy-Public-Food-Procurement-in-the-UK.pdf",
+            "publisher": "ukfoodsystems.ukri.org",
+            "title": "ukri.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://procurementmag.com/news/uk-government-improving-local-food-procurement",
+            "publisher": "procurementmag.com",
+            "title": "procurementmag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Public procurement can act as a powerful lever to deliver benefits for local economies, health, and the environment",
+        "sources": [
+          {
+            "url": "https://ukfoodsystems.ukri.org/wp-content/uploads/2025/10/Policy-and-Practice-Note-Catapulting-Sustainable-and-Healthy-Public-Food-Procurement-in-the-UK.pdf",
+            "publisher": "ukfoodsystems.ukri.org",
+            "title": "ukri.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0155/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ore.exeter.ac.uk/articles/journal_contribution/Transforming_public_food_procurement_Stakeholder_understandings_of_barriers_and_opportunities_for_more_localised_procurement/29809184/1/files/56855255.pdf",
+            "publisher": "ore.exeter.ac.uk",
+            "title": "exeter.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Campaign for Rural England (CPRE) reported that spending in smaller independent local food outlets supports three times the number of jobs compared to national grocery chains",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2022-0155/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Only one central government department (Foreign, Commonwealth and Development Office) reported a policy of deliberately procuring British food, and only 12% of contacted councils could provide data on UK-produced food",
+        "sources": [
+          {
+            "url": "https://www.countryside-alliance.org/news-content-type/public-sector-overlooking-british-food-report-finds",
+            "publisher": "countryside-alliance.org",
+            "title": "countryside-alliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Sustain and FixOurFood highlight systemic challenges, including a lack of transparency, patchy data, budgetary pressures, staff capacity constraints, and restrictive procurement rules that make it difficult for public bodies to buy from local producers",
+        "sources": [
+          {
+            "url": "https://ukfoodsystems.ukri.org/wp-content/uploads/2025/10/Policy-and-Practice-Note-Catapulting-Sustainable-and-Healthy-Public-Food-Procurement-in-the-UK.pdf",
+            "publisher": "ukfoodsystems.ukri.org",
+            "title": "ukri.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ore.exeter.ac.uk/articles/journal_contribution/Transforming_public_food_procurement_Stakeholder_understandings_of_barriers_and_opportunities_for_more_localised_procurement/29809184/1/files/56855255.pdf",
+            "publisher": "ore.exeter.ac.uk",
+            "title": "exeter.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://cles.org.uk/backing-local-food-with-public-spend/",
+            "publisher": "cles.org.uk",
+            "title": "cles.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "There is also a \"missing middle\" infrastructure for mid-scale processing, aggregation, and distribution that prevents small and medium-sized enterprises (SMEs) from effectively supplying public sector contracts",
+        "sources": [
+          {
+            "url": "https://ukfoodsystems.ukri.org/wp-content/uploads/2025/10/Policy-and-Practice-Note-Catapulting-Sustainable-and-Healthy-Public-Food-Procurement-in-the-UK.pdf",
+            "publisher": "ukfoodsystems.ukri.org",
+            "title": "ukri.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Some councils have received grants from the UK Government to improve food procurement practices, focusing on healthier, more sustainable, and locally sourced meals",
+        "sources": [
+          {
+            "url": "https://procurementmag.com/news/uk-government-improving-local-food-procurement",
+            "publisher": "procurementmag.com",
+            "title": "procurementmag.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Experts recommend strengthening Government Buying Standards, making them mandatory across the public sector, and developing clearer definitions and metrics for \"local\" and \"British\" produce",
+        "sources": [
+          {
+            "url": "https://ukfoodsystems.ukri.org/wp-content/uploads/2025/10/Policy-and-Practice-Note-Catapulting-Sustainable-and-Healthy-Public-Food-Procurement-in-the-UK.pdf",
+            "publisher": "ukfoodsystems.ukri.org",
+            "title": "ukri.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0210/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The policy includes reforming the planning system to deliver fast-track permissions for farm infrastructure such as glasshouses, slurry and grain stores, and small-scale reservoirs",
+        "sources": [
+          {
+            "url": "https://www.fwi.co.uk/news/farm-policy/tory-farming-budget-pledge-falls-short-of-industry-demands",
+            "publisher": "fwi.co.uk",
+            "title": "fwi.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nfuonline.com/news/commitment-checklist/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Recent changes have already extended permitted development rights, making it easier for farmers to convert unused buildings for diversification into homes, shops, or other businesses without full planning applications",
+        "sources": [
+          {
+            "url": "https://mhclgmedia.blog.gov.uk/2024/05/21/farming-planning-law-changes-coverage/",
+            "publisher": "mhclgmedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The broader Planning and Infrastructure Bill aims to reform the planning system to be more favorable to development, delivering 1.5 million homes and fast-tracking 150 major economic infrastructure projects",
+        "sources": [
+          {
+            "url": "https://www.nfuonline.com/news/planning-and-infrastructure-bill-explainer/",
+            "publisher": "nfuonline.com",
+            "title": "nfuonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/economic-and-planning-policies-impact-on-farming-and-rural-communities/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://the-european.eu/story-44863/planning-shake-up-to-fast-track-britains-roads-railways-and-wind-farms.html",
+            "publisher": "the-european.eu",
+            "title": "the-european.eu",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Ministers argue these changes will cut red tape and speed up approvals, potentially saving over \u00a31 billion for industry and taxpayers",
+        "sources": [
+          {
+            "url": "https://the-european.eu/story-44863/planning-shake-up-to-fast-track-britains-roads-railways-and-wind-farms.html",
+            "publisher": "the-european.eu",
+            "title": "the-european.eu",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Environmental groups and experts, such as Communities Against Factory Farming and Professor Paul Behrens from the University of Oxford, have raised alarms that relaxing planning rules could lead to \"megafarm expansion,\" with potential negative impacts on water pollution, air quality, local opposition, and the environment more broadly",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2026/apr/02/uk-looks-to-relax-planning-rules-for-factory-farms-after-industry-lobbying",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "They argue that prioritizing \"domestic food production\" in planning could give a \"green light to megafarm expansion\" despite environmental damage",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2026/apr/02/uk-looks-to-relax-planning-rules-for-factory-farms-after-industry-lobbying",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "The government maintains that these proposals are not solely linked to lobbying and are carefully considering how to support all sectors while safeguarding the environment and achieving food security",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2026/apr/02/uk-looks-to-relax-planning-rules-for-factory-farms-after-industry-lobbying",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The NFU, for its part, welcomes efforts to streamline planning, seeing it as crucial for farm profitability and addressing a \"biggest ask\" from the industry",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2026/apr/02/uk-looks-to-relax-planning-rules-for-factory-farms-after-industry-lobbying",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

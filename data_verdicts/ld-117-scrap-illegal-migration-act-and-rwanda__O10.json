@@ -1,0 +1,95 @@
+{
+  "policy_id": "ld-117-scrap-illegal-migration-act-and-rwanda",
+  "party": "Liberal Democrat",
+  "policy_title": "Scrap Illegal Migration Act and Rwanda Scheme, Uphold Refugee Convention",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Scrapping the Illegal Migration Act and Rwanda scheme removes state coercive powers over asylum seekers and commits to upholding the Refugee Convention, which is a net improvement to personal liberty. The effect is limited in scale and the evidence base is thin.",
+    "biggest_unknown": "Whether replacement enforcement frameworks reinstate comparable coercive powers, which would reduce or eliminate any liberty gain.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to upholding the Refugee Convention and providing safe and legal routes to sanctuary.",
+        "evidence_id": "M",
+        "quote": "uphold the Refugee Convention, and provide safe and legal routes to sanctuary for refugees"
+      }
+    ],
+    "rationale": "The two stated claims point in one direction for O10: removing the Illegal Migration Act withdraws state coercive powers applied to asylum seekers, and committing to the Refugee Convention and legal routes further reduces the coercive apparatus. Under O10's criteria, withdrawing state coercion and expanding legal routes improves personal liberty. No cited evidence supports a countervailing liberty-reducing effect from this specific policy \u2014 E1 and E2 describe a separate March 2026 government policy on time-limited refugee status, which is not the policy under review and cannot be attributed here. The magnitude is minor: the directly affected population is a small share of the overall population, and no independent institutional source quantifies the liberty effect at scale. Confidence is low because the evidence base consists only of the policy's own text and advocacy-adjacent commentary, with no independent institutional analysis of the liberty implications of removing the IMA specifically.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0499,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 2,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Single stated-tier claim is well-supported by verbatim quote from policy text. Tier integrity is sound. Direction, magnitude and time_horizon are consistent. E1/E2 correctly excluded as unrelated policy. No party-blind issues, no lever leakage, no false balance (no counter-claims exist in the evidence). Low confidence appropriately flagged. No blocking issues found."
+    },
+    "gate": {
+      "kept": 1,
+      "dropped": [
+        {
+          "claim": "The policy commits to scrapping the Illegal Migration Act and Rwanda scheme.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Scrap the Conservatives\u2019 Illegal Migration Act and their Rwanda scheme, uphold the Refugee Convention, and provide safe and legal routes to sanctuary for refugees, helping to prevent dangerous Channel crossings. Cancel the Conservatives\u2019 unworkable Rwanda scheme and invest the savings in clearing the asylum backlog.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Analyst Disagreements/Challenges:**\nA new UK government policy, announced in March 2026, involves scrapping permanent refugee status and replacing it with 30-month grants subject to mandatory reviews.",
+        "sources": [
+          {
+            "url": "https://impactpolicies.org/news/818/uk-refugee-policy-shift-undermines-global-humanitarian-standards",
+            "publisher": "impactpolicies.org",
+            "title": "impactpolicies.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Critics argue this shift risks \"plunging refugees into cycles of uncertainty\" and challenges the 1951 Refugee Convention's promise of \"durable solutions.\"",
+        "sources": [
+          {
+            "url": "https://impactpolicies.org/news/818/uk-refugee-policy-shift-undermines-global-humanitarian-standards",
+            "publisher": "impactpolicies.org",
+            "title": "impactpolicies.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

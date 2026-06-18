@@ -1,0 +1,824 @@
+{
+  "policy_id": "ld-07-reform-capital-gains-tax",
+  "party": "Liberal Democrat",
+  "policy_title": "Reform Capital Gains Tax",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Reforming CGT to close loopholes and raise revenue would increase the tax burden on people with capital gains, reducing their take-home returns \u2014 but this is heavily concentrated among the very wealthiest. The main caveat is that the policy text is vague, and behavioural responses could mean less tax is actually collected than projected.",
+    "biggest_unknown": "Whether the reform includes a well-designed investment allowance and base changes (which could offset some burden) or simply raises rates, which is what determines both the scale and distribution of the take-home pay effect.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy aims to close CGT loopholes exploited by the super wealthy and raise revenue for investment.",
+        "evidence_id": "M",
+        "quote": "Fairly reform capital gains tax to close loopholes currently exploited by the super wealthy, aiming to raise money for investment plans."
+      },
+      {
+        "tier": "measurable",
+        "claim": "92% of taxable capital gains accrue to the top 1% of earners, so any CGT increase falls overwhelmingly on the highest earners.",
+        "evidence_id": "E5",
+        "quote": "92% of taxable capital gains go to the top 1% of earners"
+      },
+      {
+        "tier": "measurable",
+        "claim": "CGT rates are almost always significantly lower than income tax rates, creating distortions.",
+        "evidence_id": "E4",
+        "quote": "CGT rates vary significantly across assets and are \"almost always significantly lower than tax rates on income,\" creating \"unfair and undesirable distortions.\""
+      },
+      {
+        "tier": "projected",
+        "claim": "Simply raising CGT rates without reforming the tax base could weaken saving and investment incentives.",
+        "evidence_id": "E8",
+        "quote": "simply raising rates without reforming the tax base could \"weaken saving and investment incentives and further distort which assets people buy and how long they hold them for.\""
+      }
+    ],
+    "rationale": "O11 judges policies by their effect on household tax burden and take-home pay, including who is affected. Any CGT reform aimed at closing loopholes and raising revenue is, by design, a tax increase on capital gains \u2014 it worsens O11 for those affected by reducing their after-tax returns on asset disposals. The distributional evidence is stark: 92% of taxable gains go to the top 1%, and two-thirds of current CGT revenue comes from just 12,000 people. The worsening of O11 is therefore heavily concentrated among very high earners; the overwhelming majority of households are unaffected. This does not make the verdict 'negligible' \u2014 the affected group does face a real increase in tax burden \u2014 but it does bound the distributional scope tightly. The magnitude is moderate rather than major: the policy text is aspirational and unspecified ('fairly reform', 'close loopholes'), leaving the precise mechanism undefined. A simple rate rise would mechanically reduce after-tax returns for sellers of assets; a more comprehensive reform including an investment allowance might partially offset this for some. Behavioural responses complicate the picture: the OBR's downward revision of \u00a323 billion in forecast revenues by 2030 signals that higher rates may cause wealthy individuals to defer, restructure, or emigrate \u2014 limiting actual revenue collected but also meaning fewer transactions where the burden lands. HMRC modelling even suggested revenue could fall. Confidence is moderate: the direction (higher tax burden on capital gains holders) is clear and well-evidenced, but the magnitude is uncertain given the vague policy text and unresolved behavioural dynamics. The counterfactual \u2014 absent reform, CGT rates remain significantly below income tax rates and existing loopholes persist \u2014 confirms that any enacted reform would represent a genuine increase in tax burden on affected individuals.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/who-gains/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/app/uploads/2020/05/Who-gains.pdf",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0482,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are well-supported by their cited evidence at the correct tier. The stated claim quotes the policy text verbatim. The two measurable claims (E5 concentration, E4 rate differential) are factual baselines from credible institutional sources and are not overstated. The projected claim (E8) correctly uses 'could' language and is tier-labelled projected. Direction 'worsens' is coherent: any revenue-raising CGT reform mechanically increases the tax burden on capital gains holders; the distributional bounding (top 1%) is correctly drawn from E5. Magnitude 'moderate' is defensible given the vague policy text and unresolved design. No lever leakage, no party identity smuggled in, no false balance \u2014 the verdict does not claim mixed/too-uncertain while evidence points one way. Minor observation: the rationale references OBR behavioural revision and HMRC modelling (E14, E35) which are not in the claims array, but these are used only as qualifications to magnitude/confidence rather than load-bearing directional claims, so this does not rise to blocking. E3 (Tax Justice UK) and E13 (grantthorntonni.com) from the evidence pool are not used, which is appropriate given their advocacy/commercial provenance."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "CGT currently raises around \u00a315 billion per year, with two-thirds coming from just 12,000 people with average gains of \u00a34 million.",
+          "evidence_id": "E19",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "A comprehensive CGT reform package could generate an additional \u00a314 billion per year, nearly doubling current receipts.",
+          "evidence_id": "E1",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The OBR has revised down its long-term CGT revenue forecast by \u00a323 billion by 2030 due to underestimated behavioural responses to rate rises.",
+          "evidence_id": "E20",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "HMRC estimates suggest a 10 percentage point CGT rate rise could reduce revenue by \u00a32 billion due to behavioural responses.",
+          "evidence_id": "E35",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Fairly reform capital gains tax to close loopholes currently exploited by the super wealthy, aiming to raise money for investment plans.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Centre for the Analysis of Taxation (CenTax), in collaboration with the IFS, estimates a comprehensive reform package could generate an additional **\u00a314 billion per year**, nearly doubling the OBR's forecast for 2025/26.",
+        "sources": [
+          {
+            "url": "https://centax.org.uk/reform-capital-gains-tax-to-make-it-fairer-and-more-efficient-and-raise-14bn/",
+            "publisher": "centax.org.uk",
+            "title": "centax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Resolution Foundation suggests that aligning marginal CGT rates for shares with dividend tax rates and taxing property gains like wages (with inflation indexing) could raise approximately **\u00a38 billion annually**.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/revenue-and-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Tax Justice UK, citing CenTax, estimates that increasing rates and closing loopholes could raise \u00a311.3 billion a year.",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/how-to-raise-50-billion-for-public-services-our-ten-tax-reforms/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The IFS highlights that CGT rates vary significantly across assets and are \"almost always significantly lower than tax rates on income,\" creating \"unfair and undesirable distortions.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Resolution Foundation notes that 92% of taxable capital gains go to the top 1% of earners, and including capital gains significantly increases the estimated share of income held by the top 1% and 0.1%.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/who-gains/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2020/05/Who-gains.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Reforming CGT is seen as a way to make the tax system more progressive.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/how-to-raise-50-billion-for-public-services-our-ten-tax-reforms/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/is-the-chancellor-about-to-change-capital-gains-tax/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Changes in Investment Behavior:** Higher CGT rates could lead investors to hold assets for longer to defer tax liabilities or shift their portfolios towards tax-advantaged vehicles like ISAs and pensions.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiQR19-y6Cw3KSCg9HqTo8tTuEwhUhI-9K5B_A3BKfGLL5I_3pRX3ibPV0u8RzrtIkAUGfx3vIhF02nBNBuds8UpeayJxNCmoQIl79-A8bDsEE-_By7QK7gWfNBXznfVXKbMGZhuMhTDScQ3TU7bxN3S_C8eoZXuQQn4IcJd7Lm4pvGB6tB8BJ8_IM9TQ4dm_5zjA0AbGJoXGYD7-J7ii82LVXNwhPxX1lE53HCQoU4w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "alz.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOkPVcEwzPK8h7_r5fQyQBoEAFya4X_hx8yctbFLF2BgVaKSs8FMAZhUNdCPx-7F-NuaqYspEHCN8vZ62Uju8JlCe9MCtnChlCGosbrX3cFQuJWOIahKrwF37A-bm1dhJgKuABkCIowkwOVJw1otDQ15ORUPHpg1hw6drzPY508J3hUncN44IFADxSab5l4rWDYoVnOiIcxl0bafU54lBqHi-rgJYii_IzJ05zbMRdezQ=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "vnsgu.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/investingUK/comments/1qsybjf/how_to_legally_avoidminimise_capital_gains_tax_uk/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The IFS suggests that simply raising rates without reforming the tax base could \"weaken saving and investment incentives and further distort which assets people buy and how long they hold them for.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "However, a well-designed reform, potentially including a new investment allowance, could improve investment incentives and boost growth.",
+        "sources": [
+          {
+            "url": "https://centax.org.uk/reform-capital-gains-tax-to-make-it-fairer-and-more-efficient-and-raise-14bn/",
+            "publisher": "centax.org.uk",
+            "title": "centax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Capital-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/how-to-raise-50-billion-for-public-services-our-ten-tax-reforms/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Impact on Entrepreneurs and Business Sales:** Changes to reliefs like Business Asset Disposal Relief (BADR) have been described as a \"further tax on small businesses and a disincentive for entrepreneurs to establish new ventures in the UK.\"",
+        "sources": [
+          {
+            "url": "https://theintermediary.co.uk/2025/03/obr-slashes-2030-capital-gains-tax-forecast-by-23bn/",
+            "publisher": "theintermediary.co.uk",
+            "title": "theintermediary.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "While BADR's lifetime limit was reduced from \u00a310 million to \u00a31 million, and rates are increasing (from 10% to 14% in April 2025, then to 18% in April 2026), its effectiveness in genuinely promoting entrepreneurship is questioned by the IFS.",
+        "sources": [
+          {
+            "url": "https://theintermediary.co.uk/2025/03/obr-slashes-2030-capital-gains-tax-forecast-by-23bn/",
+            "publisher": "theintermediary.co.uk",
+            "title": "theintermediary.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Captial-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05572/SN05572.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Potential for Wealthy Migration:** Increased CGT rates, especially when combined with other tax reforms (such as changes to the non-dom regime and Inheritance Tax), could incentivize some wealthy individuals, particularly the internationally mobile, to leave the UK before realizing gains to avoid UK CGT.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Captial-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.grantthorntonni.com/insights/articles/uk-tax-reforms-wealthy-leaving-offshore-planning/",
+            "publisher": "grantthorntonni.com",
+            "title": "grantthorntonni.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/box/behavioural-responses-to-capital-tax-measures/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Reports indicate a rising number of high-net-worth individuals relocating to more financially favorable jurisdictions.",
+        "sources": [
+          {
+            "url": "https://www.grantthorntonni.com/insights/articles/uk-tax-reforms-wealthy-leaving-offshore-planning/",
+            "publisher": "grantthorntonni.com",
+            "title": "grantthorntonni.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Behavioral Responses and Revenue Volatility:** The OBR has significantly revised down its CGT revenue forecasts by \u00a323 billion by 2030, partly due to underestimating taxpayer behavioral responses to recent rate hikes and reductions in reliefs.",
+        "sources": [
+          {
+            "url": "https://theintermediary.co.uk/2025/03/obr-slashes-2030-capital-gains-tax-forecast-by-23bn/",
+            "publisher": "theintermediary.co.uk",
+            "title": "theintermediary.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifamagazine.com/chancellor-faces-23-billion-capital-gains-tax-black-hole/",
+            "publisher": "ifamagazine.com",
+            "title": "ifamagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/box/behavioural-responses-to-capital-tax-measures/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "These responses include \"forestalling\" (bringing forward disposals before tax increases) and \"locking in\" (delaying disposals to defer tax).",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/behavioural-responses-to-capital-tax-measures/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** The IFS strongly advocates for \"serious reform\" of CGT, not just minor adjustments to rates.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.mitchells.org/news/business-news/archive/article/2024/October/strong-case-for-capital-gains-tax-reform-says-ifs",
+            "publisher": "mitchells.org",
+            "title": "mitchells.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They recommend aligning marginal tax rates across all forms of gains and income while reforming the tax base, which would include \"substantially higher CGT rates.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Captial-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Key proposals include removing the \"uplift at death\" (where unrealized gains are \"forgiven\" at death) and replacing Business Asset Disposal Relief with more generous deductions for investment costs, as BADR is \"not well targeted at entrepreneurship.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Capital-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Captial-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The IFS highlights that CGT raises around **\u00a315 billion per year**, but two-thirds of this revenue comes from just **12,000 people** (0.02% of the adult population) with average gains of \u00a34 million.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.mitchells.org/news/business-news/archive/article/2024/October/strong-case-for-capital-gains-tax-reform-says-ifs",
+            "publisher": "mitchells.org",
+            "title": "mitchells.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/is-the-chancellor-about-to-change-capital-gains-tax/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "While it projected CGT to raise **\u00a320.3 billion in 2025-26** (1.6% of all receipts), it has *slashed* its long-term CGT revenue forecast by **\u00a323 billion by 2030**.",
+        "sources": [
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/capital-gains-tax/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifamagazine.com/chancellor-faces-23-billion-capital-gains-tax-black-hole/",
+            "publisher": "ifamagazine.com",
+            "title": "ifamagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This downward revision is attributed to underestimating the behavioral impact of recent tax changes, such as increases in main CGT rates (from 10% to 18% for basic-rate taxpayers, and 20% to 24% for higher-rate taxpayers) and phased increases for BADR.",
+        "sources": [
+          {
+            "url": "https://theintermediary.co.uk/2025/03/obr-slashes-2030-capital-gains-tax-forecast-by-23bn/",
+            "publisher": "theintermediary.co.uk",
+            "title": "theintermediary.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/capital-gains-tax/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifamagazine.com/chancellor-faces-23-billion-capital-gains-tax-black-hole/",
+            "publisher": "ifamagazine.com",
+            "title": "ifamagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The OBR notes that CGT is a volatile revenue stream, highly sensitive to equity and property prices.",
+        "sources": [
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/capital-gains-tax/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Resolution Foundation:** The Resolution Foundation views the current CGT regime as a \"source of unfairness\" and proposes significant reforms to make the tax system more consistent and efficient.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/revenue-and-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.adamsmith.org/blog/reforming-capital-gains-tax-wont-increase-tax-revenues",
+            "publisher": "adamsmith.org",
+            "title": "adamsmith.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They suggest aligning marginal CGT rates for shares with dividend tax rates and taxing property capital gains like wages (with inflation indexing), estimating this could raise around **\u00a38 billion per year**.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/revenue-and-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They also advocate for CGT exit charges when moving country and applying CGT at death to prevent complete avoidance.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/revenue-and-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Their research shows that capital gains are \"big and concentrated,\" with \u00a355 billion of realized, taxable gains in 2017-18, and 62% going to just 9,000 people.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/who-gains/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2020/05/Who-gains.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Recent developments in the Autumn 2024 Budget included increases in basic and higher CGT rates to 18% and 24% respectively (excluding residential property, which remained at these rates).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05572/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://creativeplanning.com/international/insights/taxes/uk-tax-law-changes/",
+            "publisher": "creativeplanning.com",
+            "title": "creativeplanning.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cedarhousefinancial.co.uk/what-2025-tax-changes-mean-for-your-wealth/",
+            "publisher": "cedarhousefinancial.co.uk",
+            "title": "cedarhousefinancial.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The rate on 'carried interest' increased to 32% from April 2025 and will transition to be taxed as income from April 2026.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05572/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/how-to-raise-50-billion-for-public-services-our-ten-tax-reforms/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/capital-gains-tax/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The annual exempt amount has also been significantly reduced, to **\u00a33,000 for 2025/26**.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05572/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/capital-gains-tax/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.cedarhousefinancial.co.uk/what-2025-tax-changes-mean-for-your-wealth/",
+            "publisher": "cedarhousefinancial.co.uk",
+            "title": "cedarhousefinancial.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Their report in October 2024 proposed a package of five reforms, including equalizing CGT with Income Tax rates, introducing an investment allowance, removing uplift at death, introducing rebasing on arrival and deemed disposal on departure, and increasing the generosity of loss treatment.",
+        "sources": [
+          {
+            "url": "https://centax.org.uk/reform-capital-gains-tax-to-make-it-fairer-and-more-efficient-and-raise-14bn/",
+            "publisher": "centax.org.uk",
+            "title": "centax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "They estimate these reforms could raise an additional **\u00a314 billion in total revenues**, with most (68%) coming from the top 0.1% richest taxpayers.",
+        "sources": [
+          {
+            "url": "https://centax.org.uk/reform-capital-gains-tax-to-make-it-fairer-and-more-efficient-and-raise-14bn/",
+            "publisher": "centax.org.uk",
+            "title": "centax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "They also argue that such a reform, if well-designed, would boost growth and make most CGT payers better off or unaffected.",
+        "sources": [
+          {
+            "url": "https://centax.org.uk/reform-capital-gains-tax-to-make-it-fairer-and-more-efficient-and-raise-14bn/",
+            "publisher": "centax.org.uk",
+            "title": "centax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Revenue Estimates:** While CenTax and the IFS project substantial revenue increases (e.g., \u00a314 billion) from comprehensive CGT reform, the OBR has significantly *reduced* its long-term CGT revenue forecasts (by \u00a323 billion by 2030) despite recent rate increases.",
+        "sources": [
+          {
+            "url": "https://theintermediary.co.uk/2025/03/obr-slashes-2030-capital-gains-tax-forecast-by-23bn/",
+            "publisher": "theintermediary.co.uk",
+            "title": "theintermediary.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://centax.org.uk/reform-capital-gains-tax-to-make-it-fairer-and-more-efficient-and-raise-14bn/",
+            "publisher": "centax.org.uk",
+            "title": "centax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/capital-gains-tax/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifamagazine.com/chancellor-faces-23-billion-capital-gains-tax-black-hole/",
+            "publisher": "ifamagazine.com",
+            "title": "ifamagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "The OBR's revisions suggest that the government may have underestimated how taxpayers will react to higher rates, leading to less revenue than initially expected.",
+        "sources": [
+          {
+            "url": "https://theintermediary.co.uk/2025/03/obr-slashes-2030-capital-gains-tax-forecast-by-23bn/",
+            "publisher": "theintermediary.co.uk",
+            "title": "theintermediary.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifamagazine.com/chancellor-faces-23-billion-capital-gains-tax-black-hole/",
+            "publisher": "ifamagazine.com",
+            "title": "ifamagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "HMRC's own estimates, cited by the IFS, even suggested that a 10 percentage point increase in higher CGT rates could *reduce* revenue by \u00a32 billion due to behavioral responses, although the IFS noted difficulty in assessing HMRC's credibility without more information on their methodology.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Captial-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "While the IFS and CenTax argue that a *holistic* reform (including an investment allowance and a reformed tax base) could boost investment, there are concerns that simply raising rates without addressing the underlying design flaws could disincentivize saving, investment, and risk-taking.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/capital-gains-tax-needs-serious-reform-not-just-more-tweaks",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Capital-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The negative sentiment around changes to Business Asset Disposal Relief (BADR) as a disincentive for small businesses and entrepreneurs highlights this tension.",
+        "sources": [
+          {
+            "url": "https://theintermediary.co.uk/2025/03/obr-slashes-2030-capital-gains-tax-forecast-by-23bn/",
+            "publisher": "theintermediary.co.uk",
+            "title": "theintermediary.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Credibility of Reform:** The IFS emphasizes the importance of making any reform \"credibly lasting\" to avoid instability and unpredictability, which are detrimental to investment.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Capital-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2024-10/Captial-gains-tax-reform.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

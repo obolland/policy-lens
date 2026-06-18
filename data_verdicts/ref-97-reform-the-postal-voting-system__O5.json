@@ -1,0 +1,629 @@
+{
+  "policy_id": "ref-97-reform-the-postal-voting-system",
+  "party": "Reform UK",
+  "policy_title": "Reform the postal voting system",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy aims to reduce electoral fraud by restricting postal voting, but independent evidence shows proven postal fraud is extremely rare, so the safety/security gain is minimal. The problem it targets is not demonstrably large-scale.",
+    "biggest_unknown": "Whether there is undetected, systematic postal fraud that official conviction data underestimates \u2014 if so, the verdict could shift toward a modest improvement.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy restricts postal voting to the elderly, disabled, or those unable to leave their homes, citing electoral fraud concerns.",
+        "evidence_id": "M",
+        "quote": "stopping postal voting except for the elderly, disabled, or those unable to leave their homes, citing electoral fraud concerns"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Electoral Commission states there is no evidence of large-scale electoral fraud in the UK over the past five years.",
+        "evidence_id": "E13",
+        "quote": "no evidence of large-scale electoral fraud"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Only two convictions were for postal vote fraud, both in local elections, with none in the 2019 General Election.",
+        "evidence_id": "E14",
+        "quote": "just two convictions were for postal vote fraud, both occurring in local elections"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The House of Commons Library also cites the Electoral Commission's research indicating low levels of proven electoral fraud.",
+        "evidence_id": "E17",
+        "quote": "low levels of proven electoral fraud"
+      },
+      {
+        "tier": "projected",
+        "claim": "A 2007 Joseph Rowntree Reform Trust report argued that greater use of postal voting made UK elections far more vulnerable to fraud, citing 42 convictions between 2000\u20132007.",
+        "evidence_id": "E18",
+        "quote": "greater use of postal voting has made UK elections far more vulnerable to fraud and resulted in several instances of large-scale fraud"
+      },
+      {
+        "tier": "projected",
+        "claim": "A 2016 government report noted postal voting's vulnerability to fraud, undue influence, and pressure on vulnerable members of some ethnic minority communities.",
+        "evidence_id": "E20",
+        "quote": "fraud, undue influence, theft and tampering"
+      }
+    ],
+    "rationale": "O5 here concerns electoral integrity as a component of national security and justice. The policy's stated mechanism is to reduce electoral fraud by restricting postal voting access. However, the measurable baseline from the Electoral Commission \u2014 an independent body \u2014 records no evidence of large-scale postal fraud, and conviction data shows only two postal fraud convictions in recent years, with none at the 2019 General Election. The House of Commons Library corroborates this picture. Against this baseline, the marginal security gain from restricting postal votes is very small: the fraud problem being targeted is not demonstrably large in scale. There is a genuine counter-signal \u2014 the 2007 JRRT report and a 2016 government report both flagged structural vulnerability and some historical instances \u2014 but these are older sources and the more current institutional evidence does not support the claim of widespread ongoing fraud. The existing system already has verification controls (National Insurance number, date of birth, three-year reapplication). On balance, the evidence does not support a meaningful improvement to electoral security from this reform. A minor direction is noted only because some historical vulnerability evidence exists, but the dominant weight of current institutional evidence shows the fraud risk is already low, making the protective gain negligible to minor. Magnitude is set to minor rather than negligible to acknowledge the residual historical evidence of some vulnerability, but confidence is moderate given the tension between older and more recent sources.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+        "publisher": "pa.media",
+        "title": "pa.media",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/uk/politics/reform-uk-farage-postal-votes-b2929654.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/38405/html/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/voter-id-key-facts-and-figures/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.jrrt.org.uk/wp-content/uploads/2019/06/Purity-of-Elections-in-the-UK-Executive-Summary-2008.pdf",
+        "publisher": "jrrt.org.uk",
+        "title": "jrrt.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn03667/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Absentee_voting_in_the_United_Kingdom",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0336,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-structured and internally consistent. All claims are supported by quoted evidence. Tier assignments are appropriate: Electoral Commission and House of Commons Library statements are cited as measurable baselines (institutional records of current evidence), while the older JRRT and 2016 government report findings are correctly labelled projected (contested, older forecasts/assessments). The direction 'negligible' with magnitude 'minor' is slightly in tension \u2014 the rationale acknowledges this and explains the residual uncertainty from historical sources, which is acceptable. The biggest_unknown is genuine (dark-figure fraud). No party identity or motive imputation found. No lever leakage \u2014 the verdict correctly focuses on the electoral security effect (O5) rather than democratic participation or civil liberties. No false balance issue: the mixed signals from JRRT/2016 report versus current institutional evidence are handled with appropriate weighting toward current evidence. One minor note: E13 quote 'no evidence of large-scale electoral fraud' is a fragment and the claim adds 'over the past five years' \u2014 this temporal qualifier is not in the quote, but this is a minor overstatement rather than a material distortion given the surrounding context. Not blocking."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will reform the postal voting system, stopping postal voting except for the elderly, disabled, or those unable to leave their homes, citing electoral fraud concerns.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The party justifies this reform by citing concerns about electoral fraud",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/reform-uk-farage-postal-votes-b2929654.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This policy would mark a departure from the current system, which has allowed any eligible voter to apply for a postal vote on demand since 2001",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Absentee_voting_in_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Impact on Voter Turnout and Accessibility:**\nThe current \"postal voting on demand\" system has seen a significant increase in popularity, accounting for 21.0% of all valid votes cast in the 2019 General Election, representing 6.7 million votes",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/reform-uk-greenwich-contract-house-of-commons-library-barnet-b2565423.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Historically, pilots in 2003 and 2004 that involved all-postal voting showed a \"significant increase in turnout\" without evidence of increased electoral fraud",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Absentee_voting_in_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Research indicates that older individuals and those with physical mobility limitations are \"significantly more inclined\" to use mail-in ballots",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Absentee_voting_in_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Adults with health problems and disabilities are generally less likely to vote, and removing an accessible voting method could further disenfranchise them, despite the exemptions",
+        "sources": [
+          {
+            "url": "https://journalistsresource.org/politics-and-government/adults-health-problems-vote/",
+            "publisher": "journalistsresource.org",
+            "title": "journalistsresource.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7329475/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The existing system for overseas postal voting is described as \"failing\" by Democracy Volunteers, with alarmingly low return rates (an average of 52% compared to 81% domestically) due to tight timetables and logistical issues with international post",
+        "sources": [
+          {
+            "url": "https://democracyvolunteers.org/overseas-postal-voting-at-breaking-point-millions-at-risk-of-losing-their-vote/",
+            "publisher": "democracyvolunteers.org",
+            "title": "democracyvolunteers.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Reform UK's policy, by limiting postal voting generally, does not explicitly address the specific challenges faced by a substantial number of overseas electors who depend on it, potentially exacerbating their disenfranchisement",
+        "sources": [
+          {
+            "url": "https://democracyvolunteers.org/overseas-postal-voting-at-breaking-point-millions-at-risk-of-losing-their-vote/",
+            "publisher": "democracyvolunteers.org",
+            "title": "democracyvolunteers.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "(Reform UK's proposals also aim to strip Commonwealth citizens of their right to vote in UK elections",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/reform-uk-farage-postal-votes-b2929654.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.restorebritain.org.uk/election_integrity",
+            "publisher": "restorebritain.org.uk",
+            "title": "restorebritain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The current system already requires applicants to provide a National Insurance Number and date of birth for verification against government records",
+        "sources": [
+          {
+            "url": "https://www.electoralcommission.org.uk/voting-and-elections/reporting-electoral-fraud/security-postal-voting",
+            "publisher": "electoralcommission.org.uk",
+            "title": "electoralcommission.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/about/our-meetings-and-leadership/political-composition/local-government-elections/changes-postal-0",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": ", and all postal votes now require reapplication every three years",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/about/our-meetings-and-leadership/political-composition/local-government-elections/changes-postal-0",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.kirklees.gov.uk/beta/voting-and-elections/postal-voting.aspx",
+            "publisher": "kirklees.gov.uk",
+            "title": "kirklees.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**On Electoral Fraud:**\nReform UK's central argument for reforming postal voting is based on concerns about electoral fraud",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/reform-uk-farage-postal-votes-b2929654.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Electoral Commission:** The independent body states there is \"no evidence of large-scale electoral fraud\" in the UK over the past five years",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/reform-uk-farage-postal-votes-b2929654.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Of these, just two convictions were for postal vote fraud, both occurring in local elections",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Notably, there were no convictions for postal fraud in the 2019 General Election",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/reform-uk-greenwich-contract-house-of-commons-library-barnet-b2565423.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Most reported cases (around 48-49%) typically relate to campaigning offences, not voting offences",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/38405/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/voter-id-key-facts-and-figures/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **House of Commons Library:** This body also cites the Electoral Commission's research, indicating low levels of proven electoral fraud",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/38405/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/voter-id-key-facts-and-figures/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Genuine Disagreement / Historical Concerns:**\n    *   A 2007 report by the **Joseph Rowntree Reform Trust** argued that \"greater use of postal voting has made UK elections far more vulnerable to fraud and resulted in several instances of large-scale fraud,\" citing 42 convictions between 2000-2007",
+        "sources": [
+          {
+            "url": "https://www.jrrt.org.uk/wp-content/uploads/2019/06/Purity-of-Elections-in-the-UK-Executive-Summary-2008.pdf",
+            "publisher": "jrrt.org.uk",
+            "title": "jrrt.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn03667/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The report also suggested that public confidence in the electoral process had declined with the extension of postal voting",
+        "sources": [
+          {
+            "url": "https://www.jrrt.org.uk/wp-content/uploads/2019/06/Purity-of-Elections-in-the-UK-Executive-Summary-2008.pdf",
+            "publisher": "jrrt.org.uk",
+            "title": "jrrt.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   A 2016 government report also noted postal voting's vulnerability to \"fraud, undue influence, theft and tampering,\" specifically highlighting \"pressure being put on vulnerable members of some ethnic minority communities\"",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Absentee_voting_in_the_United_Kingdom",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** While the IFS frequently analyzes election manifestos and economic policies",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/elections",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=WgvTIinF_xU",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3V3VYASDae43CCTUF56vVU8u1Ncq5OBHhcGJDtZ3qvAhADh4YDhJmFiawS0tvFFyGw2sjJDDS3vTY4Cnn0kKcRyMBjw5VLEUZQyqGWad6QMwQ2yCaKrzhu5JdjFLT9sZBDO_N4Q7bbVThH1GHedAvZp_eL80cw8xbvBBmZq9MyKzWLxztfeLJ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Their work on historical electoral reforms, such as the Second Reform Act, has shown that changes in voting rules can impact electoral competition and candidate selection, even if not directly changing overall party support",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/wp1008.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Office for Budget Responsibility (OBR):** The OBR's primary role is to provide independent forecasts for the UK economy and public finances, and to cost political parties' policies",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/162209/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://obr.uk/docs/dlm_uploads/TSC_pre_election_costings.pdf",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.brownbutler.com/blog/understanding-the-impact-of-labours-election-win-on-your-finances/",
+            "publisher": "brownbutler.com",
+            "title": "brownbutler.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Reform UK itself has previously proposed reforms to the OBR",
+        "sources": [
+          {
+            "url": "https://www.neweconomybrief.net/the-digest/rhetoric-and-reality-the-economics-of-reform",
+            "publisher": "neweconomybrief.net",
+            "title": "neweconomybrief.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Resolution Foundation:** This think tank focuses on living standards and economic issues affecting low-to-middle-income households",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/major-programme/election-2024/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/unsung-britain/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "While not directly addressing postal voting reform, their work has highlighted a \"generational turnout gap,\" with younger generations voting less than older ones",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2016/09/Generational-voting.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Health Foundation:** The Health Foundation focuses on health and social care",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFksAA1jfuQRBh7PNjWDGgibeIvcPF--cUCs7LvZeSXvTlkuGeYojloP6ivZIqXdiI_U2uiVrOXkyTyYldX6Jxi-aCkiGl3kaxUD4qhL0d1Z06dLpy0TBeY_ZFpgF0VECVaKCUfyRziHOoGV_IPRWJzHokvnBzfJFDuFBaHECslL9qjwabhg5uHNRNP_HBpQtIgtHUvDGpH8N8WGzm4Npw4Ctlyrsz5nvTnBgw=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK28SjIePJ9_ipXwmikpRl_uQ6gtDF_s_IH9BeLkSjorWIhh_dN6jX5j4EGNCIVKfsSVtAiEe-0Wu5vN3YhGWxBKW69M6wc_nfaDrFjprdqvnIq_8W_JqQlSpFFz9rEVy47JJ0hp-ZtSXISXhkqsWDghqvOr8b8s6snk0X666DTeooN0qsJHo40lTmmCKpqhksnbc0DXD5HZMyFFPNN5xW-7X1DMxiWwt9ox9jGHaLW57M-4b4J8QH",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Their research indicates that people with health problems and disabilities are less likely to vote",
+        "sources": [
+          {
+            "url": "https://journalistsresource.org/politics-and-government/adults-health-problems-vote/",
+            "publisher": "journalistsresource.org",
+            "title": "journalistsresource.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7329475/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Therefore, any restriction on postal voting, even with exemptions, could inadvertently create further obstacles for these groups to exercise their democratic rights and potentially diminish their political voice",
+        "sources": [
+          {
+            "url": "https://journalistsresource.org/politics-and-government/adults-health-problems-vote/",
+            "publisher": "journalistsresource.org",
+            "title": "journalistsresource.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7329475/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "In summary, while Reform UK cites electoral fraud concerns, current data from the Electoral Commission suggests such instances are rare and not widespread",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-little-evidence-of-postal-vote-fraud-in-the-uk/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/reform-uk-farage-postal-votes-b2929654.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

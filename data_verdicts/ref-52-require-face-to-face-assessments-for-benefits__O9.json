@@ -1,0 +1,544 @@
+{
+  "policy_id": "ref-52-require-face-to-face-assessments-for-benefits",
+  "party": "Reform UK",
+  "policy_title": "Require face-to-face assessments for benefits",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Requiring face-to-face assessments in a system already shown to produce incorrect decisions at high rates risks deepening unfair treatment of disabled claimants before they can appeal. The caveat is that most evidence comes from advocacy sources, and the exemption for severe conditions softens the effect somewhat.",
+    "biggest_unknown": "Whether the mandatory face-to-face requirement would be paired with reforms to the assessment criteria and assessor training that address the systemic flaws driving the existing high overturn rate \u2014 if so, due-process harms could be smaller than the baseline evidence suggests.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy mandates face-to-face assessments for PIP and WCA, with exemptions for those with severe disabilities or serious long-term illnesses.",
+        "evidence_id": "M",
+        "quote": "Reform UK will require Personal Independence Payment and Work Capability Assessments to be face-to-face, with independent medical assessments to prove eligibility. Those with severe disabilities or serious long-term illnesses would be exempt from regular checks."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Tribunal overturn rates for PIP and ESA have consistently been over 50% since 2014/15, peaking at 77% in 2019/20, indicating systemic flaws in initial decision-making.",
+        "evidence_id": "E12",
+        "quote": "tribunal overturn rates for PIP and ESA have consistently been over 50% since 2014/15, peaking at 77% in 2019/20"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The high overturn rate is characterised as suggesting fundamental flaws in the assessment system.",
+        "evidence_id": "E13",
+        "quote": "This high overturn rate suggests \"fundamental flaws in the assessment system\""
+      },
+      {
+        "tier": "projected",
+        "claim": "Face-to-face assessments are associated with lower award rates, meaning a mandatory shift would likely reduce successful claims substantially.",
+        "evidence_id": "E3",
+        "quote": "A mandatory shift to face-to-face assessments, as proposed by Reform UK, would therefore likely lead to a substantial reduction in the number of successful claims for PIP and potentially WCA"
+      },
+      {
+        "tier": "projected",
+        "claim": "Face-to-face assessments create opportunities for assessors to make informal observations that can unfairly undermine a claimant's case.",
+        "evidence_id": "E6",
+        "quote": "face-to-face assessments offer opportunities for assessors to make \"baseless 'informal observations'\" (e.g., about a claimant's appearance) that can unfairly undermine a claim"
+      },
+      {
+        "tier": "projected",
+        "claim": "Despite the stated aim of improving accuracy, the lower award rates for face-to-face assessments directly contradict this goal.",
+        "evidence_id": "E11",
+        "quote": "this is directly contradicted by statistics showing significantly lower award rates for face-to-face assessments"
+      }
+    ],
+    "rationale": "O9 is concerned with due process and equal treatment. The most credible evidence here \u2014 from the House of Commons Library \u2014 shows that initial assessment decisions are overturned more than half the time at tribunal, with a peak of 77%, suggesting the current system already fails due process standards. Mandating face-to-face assessments, which are associated with lower award rates, into this already-flawed system would likely push more claimants into incorrect initial refusals, forcing them to navigate a stressful and slow appeals process to vindicate their entitlement. That is a due-process harm: the formal right of appeal exists but is an inadequate substitute for a system that gets decisions right first time. The exemption for severe disabilities softens but does not eliminate this concern, since the boundary between 'severe' and other conditions is itself subject to the same assessment process. The informal-observation concern (E6) raises an equal-treatment risk \u2014 claimants presenting differently in person from their clinical condition may be judged on irrelevant criteria. However, most evidence beyond E12/E13 comes from advocacy sources (benefitsandwork.co.uk, fightback4justice.co.uk) that are not on the institutional allowlist and must be down-weighted; this holds the confidence to low and the magnitude to minor. The direction nonetheless leans negative because the independent, credible evidence on tribunal overturn rates alone is sufficient to ground a due-process concern, and there is no cited independent evidence that mandatory face-to-face assessments improve decision accuracy.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmworpen/128/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.benefitsandwork.co.uk/news/pip-face-to-face-assessments-seriously-reduce-success-rates",
+        "publisher": "benefitsandwork.co.uk",
+        "title": "benefitsandwork.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.benefitsandwork.co.uk/personal-independence-payment-pip/pip-uc-changes",
+        "publisher": "benefitsandwork.co.uk",
+        "title": "benefitsandwork.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.benefitsandwork.co.uk/news/fewer-pip-reviews,-more-wca-reassessments,-more-face-to-face",
+        "publisher": "benefitsandwork.co.uk",
+        "title": "benefitsandwork.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0613,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E3, E6, and E11 are all from benefitsandwork.co.uk, an advocacy source. The rationale correctly down-weights them, but E11's claim that lower award rates 'directly contradict' the accuracy goal relies entirely on this source's characterisation of statistics rather than the statistics themselves being quoted. The verdict handles this by holding confidence to low, but reviewers should note the causal chain from 'face-to-face mandate' to 'worse due process outcomes' rests largely on advocacy-tier evidence beyond the tribunal-overturn baseline."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "The claim on E12 appends 'indicating systemic flaws in initial decision-making' to the overturn-rate quote, but the quote itself does not include that characterisation \u2014 that comes from E13. The two claims are split correctly across E12/E13, but the E12 claim adds an interpretive conclusion not present in its own quoted span. Minor overstatement; does not rise to blocking given E13 independently supports it."
+        }
+      ],
+      "notes": "The verdict's core logic is sound: parliament.uk evidence (E12/E13) establishes high tribunal overturn rates as a measurable baseline; the direction 'worsens' is grounded in the due-process angle (more incorrect initial decisions \u2192 more appellants bearing the burden of an already-flawed system) rather than in advocacy sources alone. Tier assignments are correct throughout. Magnitude 'minor' and confidence 'low' are appropriately calibrated given source limitations. No lever leakage, no party-blind issues, no false balance \u2014 the 'worsens' direction is consistent with the surviving credible claims. The biggest_unknown is substantive and honest."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will require Personal Independence Payment and Work Capability Assessments to be face-to-face, with independent medical assessments to prove eligibility. Those with severe disabilities or serious long-term illnesses would be exempt from regular checks.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The policy also includes exemptions from regular checks for individuals with severe disabilities or serious long-term illnesses.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/reform-uk-election-manifesto-welfare-benefits-promises",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This disparity has been growing, from an 11% difference in 2022 to 13% in 2024.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/pip-face-to-face-assessments-seriously-reduce-success-rates",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/personal-independence-payment-pip/pip-uc-changes",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/fewer-pip-reviews,-more-wca-reassessments,-more-face-to-face",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Impact:** A mandatory shift to face-to-face assessments, as proposed by Reform UK, would therefore likely lead to a substantial reduction in the number of successful claims for PIP and potentially WCA, acting as a direct mechanism to cut welfare spending.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/pip-face-to-face-assessments-seriously-reduce-success-rates",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "**Increased Burden and Stress for Claimants:**\n    *   **Expert Opinion:** Organisations like Benefits and Work highlight that face-to-face assessments can be particularly challenging for individuals with mobility impairments, mental health conditions, or fluctuating illnesses, as travel and in-person interactions may worsen their symptoms.",
+        "sources": [
+          {
+            "url": "https://www.fightback4justice.co.uk/15310/",
+            "publisher": "fightback4justice.co.uk",
+            "title": "fightback4justice.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Claimant Preference:** A poll conducted by Benefits and Work revealed that only 20% of their readers preferred face-to-face PIP assessments, with 59% preferring paper-based and 20% preferring phone assessments.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/reform-uk-election-manifesto-welfare-benefits-promises",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Assessment Observations:** Concerns exist that face-to-face assessments offer opportunities for assessors to make \"baseless 'informal observations'\" (e.g., about a claimant's appearance) that can unfairly undermine a claim.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/pip-face-to-face-assessments-seriously-reduce-success-rates",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Duplication and Stress:** The DWP itself acknowledges that existing multiple assessments can be \"complex, time-consuming, duplicative and cause stress for claimants\".",
+        "sources": [
+          {
+            "url": "https://www.dailyrecord.co.uk/lifestyle/money/dwp-work-capability-assessment-update-37230345",
+            "publisher": "dailyrecord.co.uk",
+            "title": "dailyrecord.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "**Administrative and Fiscal Implications:**\n    *   **Increased Assessment Costs:** While potentially reducing overall payouts, face-to-face assessments are generally more expensive to conduct per individual than remote ones, which could partially offset some savings on award costs.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/fewer-pip-reviews,-more-wca-reassessments,-more-face-to-face",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The current government's plan to increase face-to-face PIP assessments from 6% to 30% and WCAs from 13% to 30% by Autumn 2025/April 2026 already involves \"freeing up health professionals\" by extending PIP review periods for many.",
+        "sources": [
+          {
+            "url": "https://cpag.org.uk/welfare-rights/whats-new/welfare-reform-health-and-disability-benefits",
+            "publisher": "cpag.org.uk",
+            "title": "cpag.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/personal-independence-payment-pip/pip-uc-changes",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fightback4justice.co.uk/15310/",
+            "publisher": "fightback4justice.co.uk",
+            "title": "fightback4justice.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/fewer-pip-reviews,-more-wca-reassessments,-more-face-to-face",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.walesonline.co.uk/news/cost-of-living/pip-tips-dwp-increase-face-33322916",
+            "publisher": "walesonline.co.uk",
+            "title": "walesonline.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-welfare-system-set-to-save-19-billion-by-the-end-of-203031",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Outcome:** While the DWP (and implicitly Reform UK) has stated that increasing in-person assessments aims to improve accuracy and reduce disputes",
+        "sources": [
+          {
+            "url": "https://www.fightback4justice.co.uk/15310/",
+            "publisher": "fightback4justice.co.uk",
+            "title": "fightback4justice.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": ", this is directly contradicted by statistics showing significantly lower award rates for face-to-face assessments.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/pip-face-to-face-assessments-seriously-reduce-success-rates",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/personal-independence-payment-pip/pip-uc-changes",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/fewer-pip-reviews,-more-wca-reassessments,-more-face-to-face",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Underlying System Flaws:** The House of Commons Library highlights that tribunal overturn rates for PIP and ESA have consistently been over 50% since 2014/15, peaking at 77% in 2019/20.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmworpen/128/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This high overturn rate suggests \"fundamental flaws in the assessment system\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmworpen/128/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The OBR forecasts annual spending on disability benefits to rise from \u00a345 billion to \u00a365 billion by 2030-31",
+        "sources": [
+          {
+            "url": "https://atlasinstitute.org/disability-benefits-as-a-fiscal-and-labour-supply-risk-quantifying-the-caseload-surge/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/welfare-spending-disability-benefits/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": ", and the Resolution Foundation notes that government reforms aim to cut spending by \u00a35 billion by 2029-30, partly by reducing PIP entitlements for 800,000 to 1.2 million people.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/a-dangerous-road/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/03/A-dangerous-road.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-march-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "However, the IFS cautions that similar past reforms have \"often failed to deliver expected savings.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/incapacity-benefits-changes-strengthen-work-incentives-over-million-hundreds-thousands-left",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Exemptions for Severe Disabilities/Long-term Illnesses:**\n    *   Reform UK's proposal for exemptions for those with severe disabilities or serious long-term illnesses from regular checks",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/reform-uk-election-manifesto-welfare-benefits-promises",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Under current rules, if a WCA determines a claimant has a severe, lifelong health condition or disability, they will not usually require further reassessments.",
+        "sources": [
+          {
+            "url": "https://www.caresyncexperts.co.uk/blogs/what-is-work-capability-assessment-2026",
+            "publisher": "caresyncexperts.co.uk",
+            "title": "caresyncexperts.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/universal-credit-what-you-could-get-if-you-have-a-health-condition-or-disability",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "It is important to note that the current government is already implementing significant reforms to health and disability benefits, some of which interact with Reform UK's proposals:\n*   The DWP plans to increase face-to-face PIP assessments from 6% to 30% and WCA from 13% to 30% by Autumn 2025/April 2026, with anticipated savings of \u00a31.9 billion by 2030/31.",
+        "sources": [
+          {
+            "url": "https://cpag.org.uk/welfare-rights/whats-new/welfare-reform-health-and-disability-benefits",
+            "publisher": "cpag.org.uk",
+            "title": "cpag.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/personal-independence-payment-pip/pip-uc-changes",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/fewer-pip-reviews,-more-wca-reassessments,-more-face-to-face",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-welfare-system-set-to-save-19-billion-by-the-end-of-203031",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   The Work Capability Assessment is currently slated for abolition from 2028/29, with eligibility for the Universal Credit health element instead determined by the PIP assessment.",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/personal-independence-payment-pip/pip-uc-changes",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dailyrecord.co.uk/lifestyle/money/dwp-work-capability-assessment-update-37230345",
+            "publisher": "dailyrecord.co.uk",
+            "title": "dailyrecord.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/effects-reforms-work-capability-assessment-incapacity-benefits",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/a-dangerous-road/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/03/A-dangerous-road.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-good-the-bad-and-the-messy/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.homecare.co.uk/advice/personal-independence-payment-pip-rates-and-eligibility",
+            "publisher": "homecare.co.uk",
+            "title": "homecare.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-march-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.equity.org.uk/media/tmjmqh5r/equity_wca-consultation-response_october-2023_final-301023.pdf",
+            "publisher": "equity.org.uk",
+            "title": "equity.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/box/the-potential-impacts-of-welfare-reforms-that-have-not-been-incorporated-into-this-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The OBR notes that the full fiscal impact of scrapping the WCA has not yet been costed due to outstanding policy details.",
+        "sources": [
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-march-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/box/the-potential-impacts-of-welfare-reforms-that-have-not-been-incorporated-into-this-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "While potentially contributing to reduced welfare expenditure in the short term, experts express concerns about the fairness and long-term effectiveness of such measures, particularly given historical evidence of high appeal rates against initial decisions.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmworpen/128/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "policy_id": "ld-72-compensate-1950s-born-women-waspi",
+  "party": "Liberal Democrat",
+  "policy_title": "Compensate 1950s-Born Women (WASPI)",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "major",
+    "time_horizon": "immediate",
+    "confidence": "moderate",
+    "plain": "Compensating 1950s-born women for pension age changes would cost between \u00a33.5 billion and \u00a310.5 billion at minimum, with no identified funding source \u2014 adding directly to public borrowing or requiring cuts elsewhere. The main uncertainty is the final compensation level and whether any scheme would be funded or deficit-financed.",
+    "biggest_unknown": "The compensation level chosen \u2014 ranging from the PHSO's \u00a33.5\u2013\u00a310.5bn to much larger sums \u2014 and whether any payment would be funded through taxation, cuts, or borrowing determines how severely the debt path is affected.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to compensation for 1950s-born women but specifies no funding mechanism or amount.",
+        "evidence_id": "M",
+        "quote": "Ensure that women born in the 1950s are finally treated fairly and properly compensated"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Approximately 3.6 million women are affected by the pension age changes.",
+        "evidence_id": "E24",
+        "quote": "estimated 3.62 million women born between 6 April 1950 and 5 April 1960 who are affected"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS judged a broader \u00a358 billion compensation pledge would cause public finances to go 'off target'.",
+        "evidence_id": "E20",
+        "quote": "arguing it would compensate \"relatively well off on average\" individuals and would cause public finances to go \"off target\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "The current government rejected the PHSO compensation recommendation as neither fair nor feasible and not good value for taxpayers.",
+        "evidence_id": "E13",
+        "quote": "The current Labour government has rejected the PHSO's recommendation for financial compensation, deeming it \"neither fair nor feasible\" and stating it would not be \"good value for taxpayers\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "The government explicitly stated a compensation scheme would not be affordable given the state of public finances.",
+        "evidence_id": "E30",
+        "quote": "The government has explicitly stated that a compensation scheme would not be affordable or good value for taxpayers given the state of public finances"
+      }
+    ],
+    "rationale": "The policy commits to compensation but states no funding source, budget envelope, or financing instrument. The minimum credible cost estimate \u2014 using the PHSO's own recommended range \u2014 is \u00a33.5\u2013\u00a310.5 billion for roughly 3.62 million affected women. Campaigners seek significantly more, and a broader framing could push costs much higher. None of the evidence units identify a funding mechanism; the policy text is silent on this. Absent a specified offset \u2014 a tax rise, spending cut, or ring-fenced fund \u2014 a commitment of this scale would be deficit-financed, worsening the near-term debt path. The IFS specifically warned that a \u00a358 billion version would put public finances 'off target', and the government's own assessment called even the PHSO minimum 'not affordable'. On the O12 criteria, this is unfunded spending financing consumption (one-off payments to retirees), not productive investment \u2014 the borrowing-to-invest carve-out that can improve long-run sustainability does not apply here. The effect on the debt path is therefore negative at any plausible compensation level. The magnitude is major because even the floor estimate (\u00a33.5bn) represents a substantial one-off addition to borrowing in a constrained fiscal environment; higher compensation levels would compound this. The PHSO maladministration finding is relevant to O9 (fair treatment) but does not alter the fiscal arithmetic scored here. Confidence is moderate rather than high because the final compensation level is unresolved and a funded scheme (e.g. tax-financed) would reduce \u2014 though not eliminate \u2014 the O12 impact.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://meetings.cotswold.gov.uk/Data/Cabinet/201707061600/Agenda/UAiGXVEBpSSeVOInUf2b9pJ6WJvJu.pdf",
+        "publisher": "meetings.cotswold.gov.uk",
+        "title": "cotswold.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9967/CBP-9967.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9967/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+        "publisher": "closethegap.org.uk",
+        "title": "closethegap.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0412,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their quoted evidence. Tier assignments are correct: the government rejection (E13, E30) is a measurable stated position, the IFS \u00a358bn warning (E20) is correctly projected. The cost range used (\u00a33.5\u201310.5bn from E17) is not directly cited as a claim but is accurately characterised in the rationale and plain text; this is a minor gap but not blocking since E17 is in the evidence pool and the figures are accurately represented. No motive attribution or party identity leakage. The 'major' magnitude is defensible given the \u00a33.5\u201310.5bn floor. The consumption-vs-investment distinction is correctly applied per O12 criteria. No false balance \u2014 direction is correctly 'worsens' with claims pointing that way. No lever leakage \u2014 judged on fiscal effect, not on the fairness of the underlying pension change."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "At the PHSO's recommended compensation levels, the total cost would be between \u00a33.5 billion and \u00a310.5 billion.",
+          "evidence_id": "E17",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "WASPI campaigners have sought higher payouts of \u00a310,000 or more per person, which would raise costs far above the PHSO estimate.",
+          "evidence_id": "E18",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Ensure that women born in the 1950s are finally treated fairly and properly compensated.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The core of the WASPI campaign stems from two legislative changes: the 1995 Pensions Act, which increased the women's SPA from 60 to 65 to align with men's, and the 2011 Pensions Act, which accelerated this timetable, bringing the SPA to 66 for both genders",
+        "sources": [
+          {
+            "url": "https://harperlees.co.uk/revealed-the-story-behind-waspi-and-what-you-can-do-if-your-retirement-income-is-affected/",
+            "publisher": "harperlees.co.uk",
+            "title": "harperlees.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9967/CBP-9967.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "These changes affected approximately 3.6 million women born in the 1950s, particularly those born after April 5, 1950, and before April 5, 1960",
+        "sources": [
+          {
+            "url": "https://harperlees.co.uk/revealed-the-story-behind-waspi-and-what-you-can-do-if-your-retirement-income-is-affected/",
+            "publisher": "harperlees.co.uk",
+            "title": "harperlees.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9967/CBP-9967.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://waspi.co.uk/",
+            "publisher": "waspi.co.uk",
+            "title": "waspi.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The primary real-world effect on these women has been financial hardship and emotional distress due to insufficient notice about the changes",
+        "sources": [
+          {
+            "url": "https://harperlees.co.uk/revealed-the-story-behind-waspi-and-what-you-can-do-if-your-retirement-income-is-affected/",
+            "publisher": "harperlees.co.uk",
+            "title": "harperlees.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Many had made retirement plans based on an SPA of 60 and found themselves unable to retire as expected, facing a reduced income or needing to continue working longer than anticipated",
+        "sources": [
+          {
+            "url": "https://harperlees.co.uk/revealed-the-story-behind-waspi-and-what-you-can-do-if-your-retirement-income-is-affected/",
+            "publisher": "harperlees.co.uk",
+            "title": "harperlees.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Some reportedly discovered the changes only after having already ceased work",
+        "sources": [
+          {
+            "url": "https://harperlees.co.uk/revealed-the-story-behind-waspi-and-what-you-can-do-if-your-retirement-income-is-affected/",
+            "publisher": "harperlees.co.uk",
+            "title": "harperlees.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Research is emerging about the adverse impact on WASPI women's health and well-being, including \"pension poverty.\" This is linked to limited access to occupational pensions, reduced National Insurance contributions, and a disproportionate responsibility for unpaid care work throughout their lives",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/9319/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Institute for Fiscal Studies (IFS) has noted that previous rises in the state pension age led to an additional 100,000 65-year-olds falling into absolute income poverty and reduced life satisfaction among those affected",
+        "sources": [
+          {
+            "url": "https://www.liverpoolecho.co.uk/news/cost-of-living/dwp-confirms-state-pension-2026-34101893",
+            "publisher": "liverpoolecho.co.uk",
+            "title": "liverpoolecho.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The Resolution Foundation's work indicates that women, generally, retire with significantly less savings than men due to disrupted work patterns and lower-paying roles",
+        "sources": [
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "In 2023/24, 22% (876,000 individuals) of the 50+ demographic (pre-pensioners) were experiencing poverty",
+        "sources": [
+          {
+            "url": "https://www.liverpoolecho.co.uk/news/cost-of-living/dwp-confirms-state-pension-2026-34101893",
+            "publisher": "liverpoolecho.co.uk",
+            "title": "liverpoolecho.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Parliamentary and Health Service Ombudsman (PHSO)**: In March 2024, the PHSO concluded that the Department for Work and Pensions (DWP) was guilty of maladministration, specifically a 28-month delay between 2005 and 2006 in notifying affected women by direct mail",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9967/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This delay \"diminished their sense of personal autonomy and financial control\" and constituted an injustice",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9967/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The PHSO recommended financial compensation, suggesting amounts between \u00a31,000 and \u00a32,950 per woman",
+        "sources": [
+          {
+            "url": "https://spectator.com/article/the-waspi-women-are-grifters/",
+            "publisher": "spectator.com",
+            "title": "spectator.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cityam.com/burnham-rows-back-on-10bn-waspi-women-offer/",
+            "publisher": "cityam.com",
+            "title": "cityam.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "**Government Response (as of December 2024)**: The current Labour government has rejected the PHSO's recommendation for financial compensation, deeming it \"neither fair nor feasible\" and stating it would not be \"good value for taxpayers\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9967/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The government argued that improving public services was a higher priority",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "They cited a 2006 survey which they claim indicated that 90% of women in the relevant age group were aware of the planned changes, and questioned the impact of earlier postal notifications",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "However, in November 2025, following judicial review proceedings brought by WASPI, the government agreed to reconsider its refusal to compensate women, acknowledging that crucial evidence had been withheld from ministers",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bindmans.com/news-insights/news/as-waspis-judicial-review-hearing-date-approaches-government-concedes-significant-evidence-was-withheld-from-ministers/",
+            "publisher": "bindmans.com",
+            "title": "bindmans.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Cost Estimates**:\n    *   The PHSO's recommended compensation levels (\u00a31,000-\u00a32,950 per person) for the 3.5 million-plus women affected would cost between **\u00a33.5 billion and \u00a310.5 billion**",
+        "sources": [
+          {
+            "url": "https://spectator.com/article/the-waspi-women-are-grifters/",
+            "publisher": "spectator.com",
+            "title": "spectator.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cityam.com/burnham-rows-back-on-10bn-waspi-women-offer/",
+            "publisher": "cityam.com",
+            "title": "cityam.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   WASPI campaigners have called for higher payouts, some advocating for **\u00a310,000-plus**",
+        "sources": [
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   Former Labour leader Jeremy Corbyn, in 2019, pledged **\u00a358 billion** to compensate all women born in the 1950s",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cityam.com/burnham-rows-back-on-10bn-waspi-women-offer/",
+            "publisher": "cityam.com",
+            "title": "cityam.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Institute for Fiscal Studies (IFS)**: The IFS was critical of the \u00a358 billion Labour pledge in 2019, arguing it would compensate \"relatively well off on average\" individuals and would cause public finances to go \"off target\"",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Their analysis also highlights the poverty impacts of pension age rises",
+        "sources": [
+          {
+            "url": "https://www.liverpoolecho.co.uk/news/cost-of-living/dwp-confirms-state-pension-2026-34101893",
+            "publisher": "liverpoolecho.co.uk",
+            "title": "liverpoolecho.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They project state pension spending to rise significantly, and increases in the SPA are expected to reduce annual state pension spending by approximately 1% of GDP by the early 2070s",
+        "sources": [
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "While not taking a direct stance on WASPI compensation in the provided searches, their research consistently illustrates the financial disparities faced by women in retirement and the impact of pension changes on poverty rates",
+        "sources": [
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.liverpoolecho.co.uk/news/cost-of-living/dwp-confirms-state-pension-2026-34101893",
+            "publisher": "liverpoolecho.co.uk",
+            "title": "liverpoolecho.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**House of Commons Library**: Provides impartial briefings, detailing the history of the pension age changes, the WASPI campaign's arguments, and the estimated 3.62 million women born between 6 April 1950 and 5 April 1960 who are affected",
+        "sources": [
+          {
+            "url": "https://meetings.cotswold.gov.uk/Data/Cabinet/201707061600/Agenda/UAiGXVEBpSSeVOInUf2b9pJ6WJvJu.pdf",
+            "publisher": "meetings.cotswold.gov.uk",
+            "title": "cotswold.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9967/CBP-9967.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Office for National Statistics (ONS)**: The ONS provides demographic data crucial for estimating the number of affected women",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9967/CBP-9967.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Necessity and Fairness of Compensation**: WASPI campaigners and their supporters argue that compensation is a matter of justice due to inadequate communication, leading to financial detriment",
+        "sources": [
+          {
+            "url": "https://harperlees.co.uk/revealed-the-story-behind-waspi-and-what-you-can-do-if-your-retirement-income-is-affected/",
+            "publisher": "harperlees.co.uk",
+            "title": "harperlees.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Conversely, the government and some commentators argue that the equalisation of pension ages was necessary and fair, and that information about the changes was sufficiently available",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spectator.com/article/the-waspi-women-are-grifters/",
+            "publisher": "spectator.com",
+            "title": "spectator.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://henrytapper.com/2025/11/13/a-dozen-or-a-bakers-dozen-for-arguments-for-and-against-waspi-pt-94/",
+            "publisher": "henrytapper.com",
+            "title": "henrytapper.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Cost and Affordability**: There are vast differences in cost estimates, from the PHSO's \u00a33.5-\u00a310.5 billion to a former Labour leader's \u00a358 billion",
+        "sources": [
+          {
+            "url": "https://spectator.com/article/the-waspi-women-are-grifters/",
+            "publisher": "spectator.com",
+            "title": "spectator.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cityam.com/burnham-rows-back-on-10bn-waspi-women-offer/",
+            "publisher": "cityam.com",
+            "title": "cityam.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Critics, including the IFS, highlight the significant burden on public finances",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The government has explicitly stated that a compensation scheme would not be affordable or good value for taxpayers given the state of public finances",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9967/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Responsibility for Awareness**: The government maintains that individuals had a personal responsibility to check their pension age, citing surveys suggesting high awareness",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://academyoflifeplanning.blog/2025/05/06/is-the-governments-stance-on-waspi-fair-a-closer-look-at-the-judicial-review-response/",
+            "publisher": "academyoflifeplanning.blog",
+            "title": "academyoflifeplanning.blog",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "WASPI argues that the DWP's communication was inadequate, causing many to be genuinely unaware",
+        "sources": [
+          {
+            "url": "https://harperlees.co.uk/revealed-the-story-behind-waspi-and-what-you-can-do-if-your-retirement-income-is-affected/",
+            "publisher": "harperlees.co.uk",
+            "title": "harperlees.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.closethegap.org.uk/content/resources/Close-the-Gap-briefing-for-Members-Business-debate-WASPI-compensation.pdf",
+            "publisher": "closethegap.org.uk",
+            "title": "closethegap.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://henrytapper.com/2025/11/13/a-dozen-or-a-bakers-dozen-for-arguments-for-and-against-waspi-pt-94/",
+            "publisher": "henrytapper.com",
+            "title": "henrytapper.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/62890/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The PHSO's finding of maladministration supports the view of communication failures",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9967/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Severity of Injustice**: While the PHSO found maladministration, the government rejected the extent of \"direct financial loss\" claimed by some women",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/money/2024/dec/18/what-are-waspi-women-and-why-do-they-feel-betrayed-over-pensions",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Some commentators dismiss the WASPI campaign as an \"entitled lobby group\"",
+        "sources": [
+          {
+            "url": "https://spectator.com/article/the-waspi-women-are-grifters/",
+            "publisher": "spectator.com",
+            "title": "spectator.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://henrytapper.com/2025/11/13/a-dozen-or-a-bakers-dozen-for-arguments-for-and-against-waspi-pt-94/",
+            "publisher": "henrytapper.com",
+            "title": "henrytapper.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": ", while others, like the Scottish Liberal Democrats, describe the impact as \"shocking\" and call for comprehensive compensation",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/uk-government-waspi-scotland-scottish-government-liz-kendall-b2683197.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The pensions industry also largely opposes reconsidering compensation, with some arguing \"ignorance of the rules is not a reason to be compensated\"",
+        "sources": [
+          {
+            "url": "https://www.professionalpensions.com/news/4522518/industry-opposes-government-decision-reassess-waspi-compensation",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

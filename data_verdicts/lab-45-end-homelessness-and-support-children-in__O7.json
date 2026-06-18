@@ -1,0 +1,749 @@
+{
+  "policy_id": "lab-45-end-homelessness-and-support-children-in",
+  "party": "Labour",
+  "policy_title": "End Homelessness and Support Children in Care",
+  "outcome": "O7",
+  "verdict": {
+    "outcome": "O7",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "By stabilising care placements and legally enshrining support for kinship carers, this policy could modestly improve educational outcomes for some of the most disadvantaged children \u2014 but the main commitments use soft verbs and the IFS warns the resources may be too small for the scale of the problem.",
+    "biggest_unknown": "Whether the funding committed is sufficient to materially reduce placement instability and improve educational trajectories for children in care at population scale.",
+    "claims": [
+      {
+        "tier": "measurable",
+        "claim": "Children in care generally have below-average outcomes across various measures including education.",
+        "evidence_id": "E13",
+        "quote": "Children in care generally have below-average outcomes across various measures, including health and education."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around 81,770 children were looked after by local authorities in England in 2025.",
+        "evidence_id": "E9",
+        "quote": "81,770 children were looked after by local authorities in 2025, a 2% decrease from 2024 but still a high figure"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A significant minority of looked-after children experience multiple care placements within a year, disrupting stability.",
+        "evidence_id": "E12",
+        "quote": "A significant minority of looked-after children experience multiple care placements within a year."
+      },
+      {
+        "tier": "measurable",
+        "claim": "At least 175,025 children were homeless at Christmas 2025, many in temporary accommodation, which disrupts schooling.",
+        "evidence_id": "E2",
+        "quote": "at least 382,000 people, including 175,025 children, were homeless at Christmas 2025"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Children's Wellbeing and Schools Act 2026 requires local authorities to publish information and provide financial support for kinship carers, a concrete legislative step.",
+        "evidence_id": "E33",
+        "quote": "This Act requires local authorities to publish information and provide financial support for children in kinship care."
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS concluded that Labour's pledged spending increases for public services including social care are 'tiny, going on trivial' relative to the scale of the problems identified.",
+        "evidence_id": "E41",
+        "quote": "the pledged spending increases for public services, including social care and tackling homelessness, are \"tiny, going on trivial\" relative to the scale of the problems Labour has identified."
+      }
+    ],
+    "rationale": "O7 is about whether children can get a good education and adults can acquire skills. This policy does not directly target school standards, curriculum, or FE/skills funding. Its relevance to O7 is indirect: children in care and homeless children are among the most educationally disadvantaged groups, and placement stability and housing security are prerequisites for educational engagement. The evidence shows children in care have below-average educational outcomes (E13), many experience multiple placements in a year (E12), and 175,000+ children were homeless (E2) \u2014 so the population affected is real and large. The concrete legislative step \u2014 the Children's Wellbeing and Schools Act requiring financial support for kinship carers (E33) \u2014 goes beyond a soft commitment and could reduce placement churn for a subset of children, with downstream educational benefits over time. Data sharing via a unique identifier could help schools and social care identify and support at-risk children earlier. However, the main policy language is aspirational ('work with local government', 'develop a strategy'), and the IFS warns that spending increases are 'tiny, going on trivial' (E41) relative to identified need. Without sufficient resources, stabilising care placements at scale is unlikely. The educational benefit, even in a well-resourced scenario, would be indirect and long-term \u2014 stable placements improve attendance and attainment gradually, not immediately. The absence of any direct school-standards or skills mechanism caps the magnitude at minor. Confidence is low because the decisive variable \u2014 whether resources will match ambition \u2014 remains genuinely unresolved.",
+    "sources": [
+      {
+        "url": "https://learning.nspcc.org.uk/research-resources/statistics-briefings/children-in-care",
+        "publisher": "learning.nspcc.org.uk",
+        "title": "nspcc.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://explore-education-statistics.service.gov.uk/find-statistics/children-looked-after-in-england-including-adoptions/2025",
+        "publisher": "explore-education-statistics.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://england.shelter.org.uk/media/press_release/at_least_382000_people_are_homeless_in_england_today_",
+        "publisher": "england.shelter.org.uk",
+        "title": "shelter.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ccinform.co.uk/practice-guidance/childrens-social-care-reforms/",
+        "publisher": "ccinform.co.uk",
+        "title": "ccinform.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://labourlist.org/2024/06/ifs-labour-party-manifesto-2024-institute-fiscal-studies/",
+        "publisher": "labourlist.org",
+        "title": "labourlist.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0497,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-structured and defensible. The claimed legislative step (E33/Children's Wellbeing and Schools Act 2026) is technically classified as 'projected' tier \u2014 acceptable given the Act post-dates the manifesto. The claim that disrupted temporary accommodation 'disrupts schooling' slightly extends E2 (which only states homelessness numbers), but this is a well-established causal link and used only in rationale, not as a formal claim. The IFS concern is correctly cited and balanced. Direction 'improves' with 'minor' magnitude and 'low' confidence appropriately reflects indirect, resource-constrained educational benefit. No lever_leakage: the verdict is consistently framed through educational outcomes, not homelessness policy for its own sake. No party_blind issues. No false_balance concerns \u2014 a single direction with low confidence is appropriate here rather than mixed/too-uncertain given surviving claims lean positive but weakly."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [
+        {
+          "claim": "The policy commits to working with local government to support children in care through kinship, foster care, and adoption, and to improve data sharing using a single unique identifier.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Analysts suggest the intent and strategy are welcomed but resources committed may not be sufficient to deliver genuine change.",
+          "evidence_id": "E42",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will develop a new cross-government strategy, working with Mayors and Councils, to put Britain back on track to ending homelessness. They will also work with local government to support children in care through kinship, foster care, and adoption, strengthening regulation of the children\u2019s social care sector. Improved data sharing across services, using a single unique identifier, will better support children and families.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This involves developing a new cross-government strategy, working with local authorities, prioritising different forms of care (kinship, foster, adoption), and improving data sharing.",
+        "sources": [
+          {
+            "url": "https://www.nyas.net/about-us/news/what-a-new-government-means-for-care-experienced-children-and-young-people/",
+            "publisher": "nyas.net",
+            "title": "nyas.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "In England, Shelter estimated that at least 382,000 people, including 175,025 children, were homeless at Christmas 2025.",
+        "sources": [
+          {
+            "url": "https://england.shelter.org.uk/media/press_release/at_least_382000_people_are_homeless_in_england_today_",
+            "publisher": "england.shelter.org.uk",
+            "title": "shelter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This figure represents a 8% increase in one year.",
+        "sources": [
+          {
+            "url": "https://england.shelter.org.uk/media/press_release/at_least_382000_people_are_homeless_in_england_today_",
+            "publisher": "england.shelter.org.uk",
+            "title": "shelter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The majority of homeless individuals, over 90%, are in temporary accommodation, with over 84,000 families in this situation.",
+        "sources": [
+          {
+            "url": "https://england.shelter.org.uk/media/press_release/at_least_382000_people_are_homeless_in_england_today_",
+            "publisher": "england.shelter.org.uk",
+            "title": "shelter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Households spend an average of nearly three years in temporary accommodation due to a lack of stable housing options.",
+        "sources": [
+          {
+            "url": "https://england.shelter.org.uk/media/press_release/at_least_382000_people_are_homeless_in_england_today_",
+            "publisher": "england.shelter.org.uk",
+            "title": "shelter.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "In autumn 2025, an estimated 4,793 people slept rough in England on a single night, a record high and 171% higher than in 2010.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/housing/britains-homelessness-shame-cold-hard-facts/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The total number of households owed support to prevent or relieve homelessness by councils in England was 330,410 in 2024-25, a 0.9% increase from the previous year.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/housing/britains-homelessness-shame-cold-hard-facts/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The number of looked-after children in the UK was approximately 107,000 in 2022/23, an 8% increase over the preceding five years.",
+        "sources": [
+          {
+            "url": "https://bettercarenetwork.org/sites/default/files/2025-08/statistics-briefing-children-care.pdf",
+            "publisher": "bettercarenetwork.org",
+            "title": "bettercarenetwork.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://learning.nspcc.org.uk/research-resources/statistics-briefings/children-in-care",
+            "publisher": "learning.nspcc.org.uk",
+            "title": "nspcc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "In England specifically, 81,770 children were looked after by local authorities in 2025, a 2% decrease from 2024 but still a high figure",
+        "sources": [
+          {
+            "url": "https://explore-education-statistics.service.gov.uk/find-statistics/children-looked-after-in-england-including-adoptions/2025",
+            "publisher": "explore-education-statistics.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Abuse or neglect is the most common reason for children entering care, accounting for 65% of cases in England and Wales in 2022/23.",
+        "sources": [
+          {
+            "url": "https://bettercarenetwork.org/sites/default/files/2025-08/statistics-briefing-children-care.pdf",
+            "publisher": "bettercarenetwork.org",
+            "title": "bettercarenetwork.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Foster care remains the most common placement type for children in care.",
+        "sources": [
+          {
+            "url": "https://bettercarenetwork.org/sites/default/files/2025-08/statistics-briefing-children-care.pdf",
+            "publisher": "bettercarenetwork.org",
+            "title": "bettercarenetwork.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://learning.nspcc.org.uk/research-resources/statistics-briefings/children-in-care",
+            "publisher": "learning.nspcc.org.uk",
+            "title": "nspcc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://corambaaf.org.uk/resources/statistics/statistics-england",
+            "publisher": "corambaaf.org.uk",
+            "title": "corambaaf.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "A significant minority of looked-after children experience multiple care placements within a year.",
+        "sources": [
+          {
+            "url": "https://learning.nspcc.org.uk/research-resources/statistics-briefings/children-in-care",
+            "publisher": "learning.nspcc.org.uk",
+            "title": "nspcc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Children in care generally have below-average outcomes across various measures, including health and education.",
+        "sources": [
+          {
+            "url": "https://learning.nspcc.org.uk/research-resources/statistics-briefings/children-in-care",
+            "publisher": "learning.nspcc.org.uk",
+            "title": "nspcc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Labour's approach to ending homelessness includes:\n*   **A new cross-government strategy:** This strategy, published in December 2025, aims to \"get back on track to ending homelessness and rough sleeping.\"",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-the-labour-party-manifesto/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bigissue.com/news/housing/homelessness-strategy-england-labour-explained/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "It includes a national target to halve the number of long-term rough sleepers by 2029.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/housing/homelessness-strategy-england-labour-explained/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Increased social and affordable housing:** Labour plans for \"the biggest increase in social and affordable house-building in a generation,\" pledging to build 1.5 million homes and reviewing Right to Buy discounts to protect existing social housing stock.",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-the-labour-party-manifesto/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.connection-at-stmartins.org.uk/news-item/manifestos/",
+            "publisher": "connection-at-stmartins.org.uk",
+            "title": "connection-at-stmartins.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Strengthening renters' rights:** This includes immediately abolishing Section 21 \"no-fault\" evictions, empowering tenants to challenge unreasonable rent increases, and extending \"Awaab's Law\" to the private rented sector to raise quality standards.",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-the-labour-party-manifesto/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/break-down-barriers-to-opportunity/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Investment:** The strategy includes a \u00a33.5 billion investment in homelessness and rough sleeping services over three years, with a \u00a3124 million supported housing programme to prevent homelessness and move people off the streets.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02007/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bigissue.com/news/housing/homelessness-strategy-england-labour-explained/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "It also pledges to increase the supply of good-quality temporary accommodation through a \u00a3950 million fund and eliminate the use of B&Bs for families (except in emergencies) by the end of the current Parliament.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/housing/homelessness-strategy-england-labour-explained/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Prevention efforts:** The policy aims to reduce homelessness among individuals leaving public institutions like hospitals and prisons.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/housing/homelessness-strategy-england-labour-explained/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The commitment to reviewing Right to Buy and building more social housing could increase the supply of genuinely affordable homes, which is a major factor in reducing homelessness.",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-the-labour-party-manifesto/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.connection-at-stmartins.org.uk/news-item/manifestos/",
+            "publisher": "connection-at-stmartins.org.uk",
+            "title": "connection-at-stmartins.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Improved housing security for renters:** Abolishing no-fault evictions could provide greater stability for private renters and reduce a significant cause of homelessness.",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-the-labour-party-manifesto/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/break-down-barriers-to-opportunity/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Financial relief for local authorities:** Councils in England collectively spent \u00a32.8 billion a year on temporary accommodation in 2025.",
+        "sources": [
+          {
+            "url": "https://www.bigissue.com/news/housing/homelessness-strategy-england-labour-explained/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The Ministry of Housing, Communities and Local Government announced almost \u00a31 billion in new funding for 2025/26 for homelessness prevention, including a \u00a3185.6 million Rough Sleeping Prevention and Recovery Grant.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02007/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Analyst commentary:**\n*   **Crisis**, a homelessness charity, welcomed Labour's manifesto commitment, calling the aspiration to rebuild housing stock and a cross-government strategy a \"game changer.\"",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-the-labour-party-manifesto/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They believe that ending no-fault evictions will bring hope to thousands of renters.",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-the-labour-party-manifesto/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   The **House of Commons Library** has extensively documented the drivers of homelessness, including housing shortages and issues with housing benefits, suggesting that Labour's focus on social housing and renters' rights addresses key structural issues.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10067/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10173/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "They also noted that between 1997 and 2010, rough sleeping decreased by three-quarters under previous Labour governments, suggesting a precedent for success with similar strategic approaches.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02007/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://historyandpolicy.org/policy-papers/papers/new-labour-and-street-homelessness-1997-2010/",
+            "publisher": "historyandpolicy.org",
+            "title": "historyandpolicy.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   The **Institute for Fiscal Studies (IFS)**, while not specifically costing the homelessness elements in detail, noted that Labour's manifesto, in general, offered \"tiny, going on trivial\" public service spending increases, despite diagnosing \"deep-seated problems across child poverty, homelessness, higher education funding, adult social care, local government finances, pensions and much more besides.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://labourlist.org/2024/06/ifs-labour-party-manifesto-2024-institute-fiscal-studies/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They suggest that delivering genuine change will \"almost certainly also require putting actual resources on the table,\" implying that the stated funding might be insufficient for the scale of the problem.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://labourlist.org/2024/06/ifs-labour-party-manifesto-2024-institute-fiscal-studies/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Labour's policy commits to:\n*   **Working with local government** to support children in care through kinship, foster care, and adoption.",
+        "sources": [
+          {
+            "url": "https://www.nyas.net/about-us/news/what-a-new-government-means-for-care-experienced-children-and-young-people/",
+            "publisher": "nyas.net",
+            "title": "nyas.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Following the 2024 election, the Labour government largely sustained and developed reforms initiated by the Conservatives, publishing the \"Keeping Children Safe, Helping Families Thrive\" policy paper in November 2024 and subsequently enacting the Children's Wellbeing and Schools Act 2026.",
+        "sources": [
+          {
+            "url": "https://www.ccinform.co.uk/practice-guidance/childrens-social-care-reforms/",
+            "publisher": "ccinform.co.uk",
+            "title": "ccinform.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "This Act requires local authorities to publish information and provide financial support for children in kinship care.",
+        "sources": [
+          {
+            "url": "https://www.ccinform.co.uk/practice-guidance/childrens-social-care-reforms/",
+            "publisher": "ccinform.co.uk",
+            "title": "ccinform.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Support for kinship carers:** Legally enshrining support for kinship carers acknowledges their vital role and could provide much-needed financial and practical assistance.",
+        "sources": [
+          {
+            "url": "https://www.ccinform.co.uk/practice-guidance/childrens-social-care-reforms/",
+            "publisher": "ccinform.co.uk",
+            "title": "ccinform.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "**Analyst commentary:**\n*   **NYAS** (National Youth Advocacy Service) welcomed Labour's commitment, emphasising the need to put care-experienced children and young people at the heart of the government's work and calling for the full incorporation of the UN Convention on the Rights of the Child (UNCRC) into UK law.",
+        "sources": [
+          {
+            "url": "https://www.nyas.net/about-us/news/what-a-new-government-means-for-care-experienced-children-and-young-people/",
+            "publisher": "nyas.net",
+            "title": "nyas.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Article 39** noted that the Labour government has \"largely sustained and developed the reforms initiated by the Conservatives\" in children's social care, particularly regarding kinship care and a duty for local authorities to consider 'Staying Close' support for care leavers up to age 25.",
+        "sources": [
+          {
+            "url": "https://article39.org.uk/resources/resources-for-advocates/labour-unveils-its-plans/",
+            "publisher": "article39.org.uk",
+            "title": "article39.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ccinform.co.uk/practice-guidance/childrens-social-care-reforms/",
+            "publisher": "ccinform.co.uk",
+            "title": "ccinform.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   The **Health Foundation** highlights that social care spending in England has not kept pace with rising demand and cost pressures, despite recent increases.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6xKkoEV9AIgaNH3zDW-O-pTjLw6e7NyfXoDNoZB8yDCqyTDGOfttxJ0S0-D_aDCivqz15IuU_CoBaTGRLgI0vkNPvWtApRdB1scRVRp8YkqcMB4n5ULV8EEd2PKFGbpOfGTjB1HegFZ8gzZ1K8EUzW5od3Hk-9-0gP1lVCpKTf1wE3g49ug==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "While their analysis is broad across adult and children's social care, it suggests that any new policies will require substantial and sustained funding to be effective.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6xKkoEV9AIgaNH3zDW-O-pTjLw6e7NyfXoDNoZB8yDCqyTDGOfttxJ0S0-D_aDCivqz15IuU_CoBaTGRLgI0vkNPvWtApRdB1scRVRp8YkqcMB4n5ULV8EEd2PKFGbpOfGTjB1HegFZ8gzZ1K8EUzW5od3Hk-9-0gP1lVCpKTf1wE3g49ug==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   The **Office for National Statistics (ONS)** data indicates that children entering care often come from lone parent households and frequently experience abuse or neglect, highlighting the complex social factors policies need to address.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/socialcare/articles/whoarethechildrenenteringcareinengland/2022-11-04",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   The **Institute for Fiscal Studies (IFS)** noted that Labour's manifesto made no \"definite promises on spending\" for adult social care and children's social care, despite identifying \"deep-seated problems.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://labourlist.org/2024/06/ifs-labour-party-manifesto-2024-institute-fiscal-studies/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "The IFS suggests that the pledged spending increases for public services, including social care and tackling homelessness, are \"tiny, going on trivial\" relative to the scale of the problems Labour has identified.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://labourlist.org/2024/06/ifs-labour-party-manifesto-2024-institute-fiscal-studies/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "This implies that while the *intent* and *strategy* are welcomed by charities, the *resources* committed may not be sufficient to deliver the \"genuine change\" Labour aims for, posing a significant challenge to the likely real-world effects of the policy.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labour-party-manifesto-initial-response",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://labourlist.org/2024/06/ifs-labour-party-manifesto-2024-institute-fiscal-studies/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "The **Local Government Association (LGA)** also consistently stresses that new duties for councils must be \"fully funded into the future\" to be effective in preventing and resolving homelessness.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/homelessness-house-commons",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1067 @@
+{
+  "policy_id": "lab-35-strengthen-animal-welfare-protections",
+  "party": "Labour",
+  "policy_title": "Strengthen Animal Welfare Protections",
+  "outcome": "O3",
+  "verdict": {
+    "outcome": "O3",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "n/a",
+    "confidence": "high",
+    "plain": "This policy is entirely about animal welfare \u2014 banning hunting practices, puppy smuggling, snare traps, and phasing out animal testing. None of these measures directly affect NHS waiting lists, GP access, hospital capacity, or any other healthcare indicator for people.",
+    "biggest_unknown": "Whether phasing out animal testing could indirectly slow drug development timelines, but this effect is highly speculative and long-term.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy covers banning trail hunting, hunting trophy imports, puppy smuggling and farming, snare traps, and working towards phasing out animal testing.",
+        "evidence_id": "M",
+        "quote": "banning trail hunting, the import of hunting trophies, puppy smuggling and farming, and the use of snare traps. They will also partner with scientists and industry to work towards phasing out animal testing"
+      },
+      {
+        "tier": "projected",
+        "claim": "Scientists caution that reliable alternatives to animal testing are not yet available for all types of testing, especially where human safety is paramount.",
+        "evidence_id": "E45",
+        "quote": "Scientists and industry experts caution that reliable and effective alternative methods are not yet available for all types of testing, especially for complex biological systems and drug development where human safety is paramount"
+      },
+      {
+        "tier": "projected",
+        "claim": "Prematurely abandoning animal research without validated alternatives could hinder biomedical advancements.",
+        "evidence_id": "E46",
+        "quote": "Prematurely abandoning animal research without validated alternatives could hinder biomedical advancements and affect the UK's research capabilities"
+      }
+    ],
+    "rationale": "The O3 fundamental is about whether people can get treated when they need it \u2014 measured by NHS waiting lists, A&E times, GP access, and mental health access. This policy has no direct mechanism touching any of these indicators. It addresses animal welfare across hunting, pet trade, and research contexts. The only conceivable indirect link to healthcare is via the animal testing phase-out: if phasing out animal testing were to slow drug development, it could hypothetically reduce the pipeline of new treatments available to patients. However, the policy text uses soft verbs ('work towards phasing out') with no committed instrument or timeline, and the government's own strategy sets only long-term, partial targets. This is squarely a 'soft-verb / no-deliverable' case. Even if taken as a firm commitment, the effect on patient-facing healthcare access would be indirect, distant, and contested. The magnitude floor is not met for O3. The verdict is negligible \u2014 this policy simply does not touch the healthcare fundamental in any material, near-term way.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.drugtargetreview.com/replacing-animals-in-science-what-the-uks-new-strategy-means/1866311.article",
+        "publisher": "drugtargetreview.com",
+        "title": "drugtargetreview.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://hansard.parliament.uk/commons/2025-06-16/debates/04C61987-9E73-480C-8034-5A220CFF2E0E/AnimalExperimentsMedicalResearch",
+        "publisher": "hansard.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.sciencemediacentre.org/expert-reaction-to-government-strategy-on-animal-testing-and-new-alternative-methods/",
+        "publisher": "sciencemediacentre.org",
+        "title": "sciencemediacentre.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0406,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is coherent and well-scoped. The direction 'negligible' with magnitude 'minor' and time_horizon 'n/a' is a slight schema tension \u2014 if direction is negligible (not 'too-uncertain'), n/a for time_horizon is acceptable given no material effect is asserted. All three claims are correctly tiered: the stated claim quotes verbatim from M; the two projected claims accurately reflect their sources without overstating ('could hinder', 'caution that... not yet available' \u2014 no upgrades to certainty). No lever leakage: the verdict explicitly judges effect on O3, not the animal welfare policy on its own terms. No party blind issues; rationale is mechanism-based. No false balance issue: a single direction (negligible) is asserted with supporting reasoning rather than a mixed verdict lacking evidence on one side. The indirect drug-pipeline pathway is acknowledged as speculative and correctly treated as not meeting the magnitude floor for O3."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will improve animal welfare by banning trail hunting, the import of hunting trophies, puppy smuggling and farming, and the use of snare traps. They will also partner with scientists and industry to work towards phasing out animal testing.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "It would also protect non-target animals, such as domestic pets and livestock, that can be disturbed, attacked, or killed when hunts veer off course.",
+        "sources": [
+          {
+            "url": "https://www.ad-international.org/conservation/go.php?id=5066&ssi=16",
+            "publisher": "ad-international.org",
+            "title": "ad-international.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-04-01/debates/3F9D289E-4A7E-41D5-9F53-6B8AD2E3A479/TrailHunting",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Many believe it would close a \"loophole\" in the Hunting Act 2004, which they argue allows illegal hunting to continue under the guise of trail hunting.",
+        "sources": [
+          {
+            "url": "https://www.ad-international.org/conservation/go.php?id=5066&ssi=16",
+            "publisher": "ad-international.org",
+            "title": "ad-international.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Negative/Concerns:** Opponents, such as the Countryside Alliance, contend that a ban would have a detrimental impact on the rural economy and the mental welfare of communities where hunting with hounds is a significant social activity.",
+        "sources": [
+          {
+            "url": "https://wearehunting.com/broken-countryside-briefing-paper-2025/",
+            "publisher": "wearehunting.com",
+            "title": "wearehunting.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://yougov.com/en-gb/articles/53792-britons-support-trail-hunting-ban-by-50-to-29",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "A major concern is the fate of an estimated 10,000 hounds, which are pack animals and difficult to re-home as pets, potentially leading to many being put down.",
+        "sources": [
+          {
+            "url": "https://wearehunting.com/broken-countryside-briefing-paper-2025/",
+            "publisher": "wearehunting.com",
+            "title": "wearehunting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "There are also fears it could affect gundog and deer dog training that uses animal-based scents and might lead to attempts to re-open the Hunting Act 2004, potentially challenging existing exemptions for shooting and deer stalking.",
+        "sources": [
+          {
+            "url": "https://www.countryside-alliance.org/news-content-type/the-real-impact-of-trail-hunting-ban-consultation-on-shooting",
+            "publisher": "countryside-alliance.org",
+            "title": "countryside-alliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Crucially, 50% of rural residents also support a ban.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/53792-britons-support-trail-hunting-ban-by-50-to-29",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   The National Trust, Natural Resources Wales, Forestry England, the Ministry of Defence, United Utilities, and the Lake District National Park have already banned or suspended trail hunting on their land.",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-04-01/debates/3F9D289E-4A7E-41D5-9F53-6B8AD2E3A479/TrailHunting",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   The House of Commons Library notes that the nature of trail hunting, where trails are not consistently laid and scents of wild animals can be picked up, makes it challenging to ensure wild mammals are not endangered.",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-04-01/debates/3F9D289E-4A7E-41D5-9F53-6B8AD2E3A479/TrailHunting",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**Expert Disagreement:** There is significant disagreement between animal welfare groups, who view trail hunting as a \"smokescreen\" for illegal hunting, and hunting organisations, who consider it a legitimate activity and a humane alternative to traditional hunting.",
+        "sources": [
+          {
+            "url": "https://www.ad-international.org/conservation/go.php?id=5066&ssi=16",
+            "publisher": "ad-international.org",
+            "title": "ad-international.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://wearehunting.com/broken-countryside-briefing-paper-2025/",
+            "publisher": "wearehunting.com",
+            "title": "wearehunting.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-04-01/debates/3F9D289E-4A7E-41D5-9F53-6B8AD2E3A479/TrailHunting",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Likely Real-World Effects:**\n*   **Positive:** A ban would reduce the import of hunting trophies, particularly from endangered species, and could be seen as demonstrating UK leadership in animal welfare.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/bills/cbill/58-03/0026/HuntingTrophies(ImportProhibition)BillImpactAssessment.pdf",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This aligns with public sentiment, with polls showing high support for such a ban.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2026/apr/26/a-british-ban-on-imports-of-hunting-trophies-is-long-overdue",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Negative/Concerns:** An Oxford-led study from 2024 suggests that a blanket ban might be disproportionate and could cause more harm than good to biodiversity by undermining conservation efforts and local livelihoods in countries where regulated trophy hunting contributes financially to wildlife management and anti-poaching initiatives.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOjvyoo3TtymLcpPO_5ne8dhIx4TpaggL61XCfTXiiZ9Q335p2Mb2oM-4OrymqnuKdfXWzJgmMxvwa-mSDdxbMwb9oauIkFLkeHtIjQigtpEyX0d7g4LQNASsQhWHKE4GIA0F83UpG-6pFaRf0rMVQwty-QqHO_HvG8mYmFt5y2322E2jeFiaH7xtxwkF3rMYk6ePW9SSIok10PtNPm04BafNgJ-Hpe1zN",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ox.ac.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/publications/elephant-in-the-room-why-a-trophy-hunting-ban-would-hurt-conservation-and-development-2/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.iucnsuli.org/news/the-hunting-trophies-bill",
+            "publisher": "iucnsuli.org",
+            "title": "iucnsuli.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Critics argue it could also be viewed as \"illiberal\" and contrary to the UK's commitments under the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), which recognises well-managed trophy hunting as a conservation tool.",
+        "sources": [
+          {
+            "url": "https://smartthinking.org.uk/report/why-a-trophy-hunting-ban-would-hurt-conservation-and-development/",
+            "publisher": "smartthinking.org.uk",
+            "title": "smartthinking.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/publications/elephant-in-the-room-why-a-trophy-hunting-ban-would-hurt-conservation-and-development-2/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Credible Data and Analysts:**\n*   The House of Commons Library has consistently highlighted the ongoing debate regarding the contribution of trophy hunting to conservation.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9991/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7908/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Previous attempts to pass a similar bill, even with government support, faced numerous amendments and ultimately fell.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9991/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   The 2021 Government's own impact assessment on a ban identified potential benefits such as public well-being, reduced imports, and enhanced protection of species.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9991/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/bills/cbill/58-03/0026/HuntingTrophies(ImportProhibition)BillImpactAssessment.pdf",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   The IUCN (International Union for Conservation of Nature) states that \"with effective governance and management trophy hunting can and does have positive impacts\" on species conservation.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7908/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://smartthinking.org.uk/report/why-a-trophy-hunting-ban-would-hurt-conservation-and-development/",
+            "publisher": "smartthinking.org.uk",
+            "title": "smartthinking.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   However, organisations like Born Free and the Campaign for the Ban of Trophy Hunting reject this notion, advocating for non-consumptive income from wildlife.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9684/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7908/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2026/apr/26/a-british-ban-on-imports-of-hunting-trophies-is-long-overdue",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   The UK's share of global CITES-listed hunting trophy imports is less than 1%.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOjvyoo3TtymLcpPO_5ne8dhIx4TpaggL61XCfTXiiZ9Q335p2Mb2oM-4OrymqnuKdfXWzJgmMxvwa-mSDdxbMwb9oauIkFLkeHtIjQigtpEyX0d7g4LQNASsQhWHKE4GIA0F83UpG-6pFaRf0rMVQwty-QqHO_HvG8mYmFt5y2322E2jeFiaH7xtxwkF3rMYk6ePW9SSIok10PtNPm04BafNgJ-Hpe1zN",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ox.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "A 2021 IUCN-commissioned survey found that fewer than half of UK adults would support a ban if it increased threats to wildlife or negatively impacted marginalised communities.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOjvyoo3TtymLcpPO_5ne8dhIx4TpaggL61XCfTXiiZ9Q335p2Mb2oM-4OrymqnuKdfXWzJgmMxvwa-mSDdxbMwb9oauIkFLkeHtIjQigtpEyX0d7g4LQNASsQhWHKE4GIA0F83UpG-6pFaRf0rMVQwty-QqHO_HvG8mYmFt5y2322E2jeFiaH7xtxwkF3rMYk6ePW9SSIok10PtNPm04BafNgJ-Hpe1zN",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ox.ac.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "**Expert Disagreement:** There is a significant divergence of opinion, primarily between animal welfare advocates who see trophy hunting as inherently cruel and detrimental, and some conservationists and economic analysts who argue it can be a vital funding mechanism for wildlife conservation and local communities in certain contexts.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7908/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOjvyoo3TtymLcpPO_5ne8dhIx4TpaggL61XCfTXiiZ9Q335p2Mb2oM-4OrymqnuKdfXWzJgmMxvwa-mSDdxbMwb9oauIkFLkeHtIjQigtpEyX0d7g4LQNASsQhWHKE4GIA0F83UpG-6pFaRf0rMVQwty-QqHO_HvG8mYmFt5y2322E2jeFiaH7xtxwkF3rMYk6ePW9SSIok10PtNPm04BafNgJ-Hpe1zN",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ox.ac.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/publications/elephant-in-the-room-why-a-trophy-hunting-ban-would-hurt-conservation-and-development-2/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.iucnsuli.org/news/the-hunting-trophies-bill",
+            "publisher": "iucnsuli.org",
+            "title": "iucnsuli.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2026/apr/26/a-british-ban-on-imports-of-hunting-trophies-is-long-overdue",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "**Likely Real-World Effects:**\n*   **Positive:** This policy aims to significantly improve the welfare and health of puppies imported into the UK.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8539/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2017-0205/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "It is expected to reduce the risk of diseases such as rabies and Brucella canis entering the country.",
+        "sources": [
+          {
+            "url": "https://www.bva.co.uk/news-and-blog/news-article/massive-win-for-animal-welfare-as-new-vet-backed-law-set-to-clamp-down-on-puppy-smuggling/",
+            "publisher": "bva.co.uk",
+            "title": "bva.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.petsmag.co.uk/new-law-to-end-puppy-smuggling-and-ban-cruel-pet-imports/",
+            "publisher": "petsmag.co.uk",
+            "title": "petsmag.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The legislation is also intended to disrupt criminal gangs profiting from abusing pet travel rules and to tackle the import of dogs with illegal mutilations like cropped ears.",
+        "sources": [
+          {
+            "url": "https://www.bva.co.uk/news-and-blog/news-article/massive-win-for-animal-welfare-as-new-vet-backed-law-set-to-clamp-down-on-puppy-smuggling/",
+            "publisher": "bva.co.uk",
+            "title": "bva.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.petsmag.co.uk/new-law-to-end-puppy-smuggling-and-ban-cruel-pet-imports/",
+            "publisher": "petsmag.co.uk",
+            "title": "petsmag.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Responsible UK breeders may see an increased market share.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/105346/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Negative/Concerns:** While widely supported, a blanket ban on importing all dogs under six months could unintentionally affect individuals legitimately relocating with their pets or breeders seeking to diversify genetic lines.",
+        "sources": [
+          {
+            "url": "https://www.royalkennelclub.com/about-us/about-the-rkc/campaigns/puppy-imports/",
+            "publisher": "royalkennelclub.com",
+            "title": "royalkennelclub.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Some analysts have suggested that a ban solely on third-party sales might not be sufficient on its own and could inadvertently cause the illegal trade to flourish if not coupled with robust enforcement and consumer education.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/105313/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "**Credible Data and Analysts:**\n*   The British Veterinary Association (BVA) reported in December 2025 that 1 in 5 UK small animal vets had encountered puppies they believed were illegally imported in the previous year, with French Bulldogs being the most common breed of concern (48%).",
+        "sources": [
+          {
+            "url": "https://www.bva.co.uk/news-and-blog/news-article/massive-win-for-animal-welfare-as-new-vet-backed-law-set-to-clamp-down-on-puppy-smuggling/",
+            "publisher": "bva.co.uk",
+            "title": "bva.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   Organisations like Dogs Trust, RSPCA, and Battersea have consistently campaigned against puppy smuggling, highlighting the poor welfare and health of these animals.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8539/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2017-0205/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bva.co.uk/news-and-blog/news-article/massive-win-for-animal-welfare-as-new-vet-backed-law-set-to-clamp-down-on-puppy-smuggling/",
+            "publisher": "bva.co.uk",
+            "title": "bva.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9981/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.petsmag.co.uk/new-law-to-end-puppy-smuggling-and-ban-cruel-pet-imports/",
+            "publisher": "petsmag.co.uk",
+            "title": "petsmag.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   The Kennel Club has proposed measures such as reducing the number of puppies an individual can import to make smuggling less financially viable.",
+        "sources": [
+          {
+            "url": "https://www.royalkennelclub.com/about-us/about-the-rkc/campaigns/puppy-imports/",
+            "publisher": "royalkennelclub.com",
+            "title": "royalkennelclub.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   The Animal Welfare (Import of Dogs, Cats and Ferrets) Act, which passed in December 2025, already introduced measures to tackle puppy smuggling, including increasing the minimum age for imported puppies and banning mutilated animals.",
+        "sources": [
+          {
+            "url": "https://www.bva.co.uk/news-and-blog/news-article/massive-win-for-animal-welfare-as-new-vet-backed-law-set-to-clamp-down-on-puppy-smuggling/",
+            "publisher": "bva.co.uk",
+            "title": "bva.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.petsmag.co.uk/new-law-to-end-puppy-smuggling-and-ban-cruel-pet-imports/",
+            "publisher": "petsmag.co.uk",
+            "title": "petsmag.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "**Expert Disagreement:** While the goal of combating puppy smuggling is broadly supported, there has been some discussion regarding the most effective legislative approach, particularly concerning the scope of import restrictions (e.g., minimum age versus a blanket ban).",
+        "sources": [
+          {
+            "url": "https://www.royalkennelclub.com/about-us/about-the-rkc/campaigns/puppy-imports/",
+            "publisher": "royalkennelclub.com",
+            "title": "royalkennelclub.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/105346/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/105313/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "**Likely Real-World Effects:**\n*   **Positive:** This policy aims to significantly improve the welfare standards for breeding dogs and puppies within the UK, reducing unethical breeding practices and increasing transparency for consumers.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/105346/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "**Credible Data and Analysts:**\n*   UFAW (Universities Federation for Animal Welfare) has indicated that banning commercial third-party sales of puppies can encourage responsible purchasing and increase the market share for ethical breeders.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/105346/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   New dog breeding regulations include provisions to prevent over-mating and breeding from dogs with genetic conditions detrimental to offspring.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/105346/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   A YouGov survey found that 78% of Britons support a ban on puppy farms.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/53792-britons-support-trail-hunting-ban-by-50-to-29",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "**Likely Real-World Effects:**\n*   **Positive:** A ban would lead to a significant reduction in suffering and death for both target animals (such as foxes and rabbits) and non-target animals (including badgers, deer, and domestic pets) that are indiscriminately caught in snares.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2016-0148/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theyworkforyou.com/debates/?id=2016-07-21c.1000.0",
+            "publisher": "theyworkforyou.com",
+            "title": "theyworkforyou.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "**Credible Data and Analysts:**\n*   The House of Commons Library highlights the controversial nature of snares due to their potential to cause injury and death, and their indiscriminate nature in catching non-target species.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2016-0148/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theyworkforyou.com/debates/?id=2016-07-21c.1000.0",
+            "publisher": "theyworkforyou.com",
+            "title": "theyworkforyou.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Around 1.7 million wild and domestic animals are killed by snares each year.\"",
+        "sources": [
+          {
+            "url": "https://www.theyworkforyou.com/debates/?id=2016-07-21c.1000.0",
+            "publisher": "theyworkforyou.com",
+            "title": "theyworkforyou.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   A YouGov survey reported that 61% of Britons support banning snare traps.",
+        "sources": [
+          {
+            "url": "https://yougov.com/en-gb/articles/53792-britons-support-trail-hunting-ban-by-50-to-29",
+            "publisher": "yougov.com",
+            "title": "yougov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   Even the previous Conservative government, in March 2026, expressed a commitment to ending the use of snare traps, recognising them as cruel and indiscriminate.",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-03-19/debates/ACB33E23-5848-4667-BE6B-D762E1DD617C/SnareTraps",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "**Likely Real-World Effects:**\n*   **Positive:** This policy aims to accelerate the development, validation, and adoption of non-animal methods (e.g., organ-on-a-chip systems, AI, 3D bioprinted tissues), leading to more human-relevant scientific outcomes.",
+        "sources": [
+          {
+            "url": "https://www.drugtargetreview.com/replacing-animals-in-science-what-the-uks-new-strategy-means/1866311.article",
+            "publisher": "drugtargetreview.com",
+            "title": "drugtargetreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "It could strengthen the UK's leadership in this field globally and bring economic and scientific benefits.",
+        "sources": [
+          {
+            "url": "https://www.drugtargetreview.com/replacing-animals-in-science-what-the-uks-new-strategy-means/1866311.article",
+            "publisher": "drugtargetreview.com",
+            "title": "drugtargetreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "The government's \"Replacing animals in science\" strategy sets specific targets, such as ending regulatory testing for skin and eye irritation by the end of 2026 and reducing pharmacokinetic studies on dogs and non-human primates by 2030.",
+        "sources": [
+          {
+            "url": "https://www.drugtargetreview.com/replacing-animals-in-science-what-the-uks-new-strategy-means/1866311.article",
+            "publisher": "drugtargetreview.com",
+            "title": "drugtargetreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://replacinganimalresearch.org.uk/what-does-the-phase-out-plan-mean/",
+            "publisher": "replacinganimalresearch.org.uk",
+            "title": "replacinganimalresearch.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "Scientists and industry experts caution that reliable and effective alternative methods are not yet available for all types of testing, especially for complex biological systems and drug development where human safety is paramount.",
+        "sources": [
+          {
+            "url": "https://www.drugtargetreview.com/replacing-animals-in-science-what-the-uks-new-strategy-means/1866311.article",
+            "publisher": "drugtargetreview.com",
+            "title": "drugtargetreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-06-16/debates/04C61987-9E73-480C-8034-5A220CFF2E0E/AnimalExperimentsMedicalResearch",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "Prematurely abandoning animal research without validated alternatives could hinder biomedical advancements and affect the UK's research capabilities.",
+        "sources": [
+          {
+            "url": "https://www.sciencemediacentre.org/expert-reaction-to-government-strategy-on-animal-testing-and-new-alternative-methods/",
+            "publisher": "sciencemediacentre.org",
+            "title": "sciencemediacentre.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E47",
+        "snippet": "**Credible Data and Analysts:**\n*   Labour's 2024 manifesto committed to this goal.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10644/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.animalfreeresearchuk.org/little-change-as-millions-of-animals-still-suffering-in-british-laboratories/",
+            "publisher": "animalfreeresearchuk.org",
+            "title": "animalfreeresearchuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.understandinganimalresearch.org.uk/news/what-has-the-labour-party-said-about-animal-testing",
+            "publisher": "understandinganimalresearch.org.uk",
+            "title": "understandinganimalresearch.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://replacinganimalresearch.org.uk/what-does-the-phase-out-plan-mean/",
+            "publisher": "replacinganimalresearch.org.uk",
+            "title": "replacinganimalresearch.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.peta.org.uk/news/labour-party-animal-testing/",
+            "publisher": "peta.org.uk",
+            "title": "peta.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E48",
+        "snippet": "*   The UK government published a strategy, \"Replacing animals in science: A strategy to support the development, validation and uptake of alternative methods\" in November 2025.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10644/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E49",
+        "snippet": "This strategy outlines a long-term aim to eliminate animal testing, except in exceptional circumstances, and includes specific commitments.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10644/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy/replacing-animals-in-science-a-strategy-to-support-the-development-validation-and-uptake-of-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E50",
+        "snippet": "*   Home Office data for 2024 showed 2.6 million procedures involving living animals in Great Britain, a 1% decrease from 2023 and the lowest since 2001.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10644/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E51",
+        "snippet": "The number of animals used for the first time in scientific procedures in 2024 was 2.6 million, a 37% decrease from the 2015 peak of 4.1 million.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10644/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E52",
+        "snippet": "However, over 3.8 million animals were licensed for use in experiments over the next five years from 2025.",
+        "sources": [
+          {
+            "url": "https://www.animalfreeresearchuk.org/little-change-as-millions-of-animals-still-suffering-in-british-laboratories/",
+            "publisher": "animalfreeresearchuk.org",
+            "title": "animalfreeresearchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E53",
+        "snippet": "*   Animal Free Research UK advocates for \"Herbie's Law\" to end animal experiments in medical research by 2035, a goal supported by 70% of Britons in a YouGov poll.",
+        "sources": [
+          {
+            "url": "https://www.animalfreeresearchuk.org/landmark-bill-to-phase-out-animal-testing-introduced-in-parliament/",
+            "publisher": "animalfreeresearchuk.org",
+            "title": "animalfreeresearchuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E54",
+        "snippet": "*   Experts generally welcome the strategy but emphasise the need for sustained investment, transparent work plans, and the recognition that some animal research remains necessary until robust alternatives exist.",
+        "sources": [
+          {
+            "url": "https://www.drugtargetreview.com/replacing-animals-in-science-what-the-uks-new-strategy-means/1866311.article",
+            "publisher": "drugtargetreview.com",
+            "title": "drugtargetreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/animal-testing-to-be-phased-out-faster-as-uk-unveils-roadmap-for-alternative-methods",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-06-16/debates/04C61987-9E73-480C-8034-5A220CFF2E0E/AnimalExperimentsMedicalResearch",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.sciencemediacentre.org/expert-reaction-to-government-strategy-on-animal-testing-and-new-alternative-methods/",
+            "publisher": "sciencemediacentre.org",
+            "title": "sciencemediacentre.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E55",
+        "snippet": "**Expert Disagreement:** While the ultimate goal of reducing and replacing animal testing is broadly accepted, there is disagreement among scientists and industry stakeholders regarding the feasible timeline and the current maturity of non-animal alternatives to fully replace animal models across all research and safety testing domains.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10644/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.drugtargetreview.com/replacing-animals-in-science-what-the-uks-new-strategy-means/1866311.article",
+            "publisher": "drugtargetreview.com",
+            "title": "drugtargetreview.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-06-16/debates/04C61987-9E73-480C-8034-5A220CFF2E0E/AnimalExperimentsMedicalResearch",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.sciencemediacentre.org/expert-reaction-to-government-strategy-on-animal-testing-and-new-alternative-methods/",
+            "publisher": "sciencemediacentre.org",
+            "title": "sciencemediacentre.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

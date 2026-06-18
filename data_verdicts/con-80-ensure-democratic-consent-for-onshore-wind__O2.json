@@ -1,0 +1,663 @@
+{
+  "policy_id": "con-80-ensure-democratic-consent-for-onshore-wind",
+  "party": "Conservative",
+  "policy_title": "Ensure Democratic Consent for Onshore Wind and Protect Agricultural Land from Solar",
+  "outcome": "O2",
+  "verdict": {
+    "outcome": "O2",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "Reimposing democratic-consent requirements for onshore wind and restricting solar on agricultural land would likely slow cheap renewable deployment, keeping energy bills higher for most households over time. The bill discounts for hosting communities are a real benefit but limited in reach.",
+    "biggest_unknown": "Whether the democratic-consent requirement would be interpreted as strictly as the pre-2023 regime \u2014 if thresholds are light-touch, the deployment slowdown and bill impact would be much smaller.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would require democratic consent for onshore wind and offer energy bill discounts to hosting communities.",
+        "evidence_id": "M",
+        "quote": "ensure democratic consent for onshore wind, ensuring local areas that host it directly benefit through measures like energy bill discounts"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy would block solar on prime agricultural land and prevent clustering of multiple solar farms.",
+        "evidence_id": "M",
+        "quote": "support solar in appropriate places, not on prime agricultural land, and prevent clustering of multiple solar farms"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The previous democratic-consent regime required community support, often interpreted as needing unanimous local backing, which severely constrained deployment.",
+        "evidence_id": "E2",
+        "quote": "had community support, often interpreted as requiring unanimous local backing"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Under that previous regime, only 16 new turbines received planning permission between 2016 and 2020, a 96% drop compared to earlier years.",
+        "evidence_id": "E3",
+        "quote": "only 16 new turbines receiving planning permission between 2016 and 2020, a 96% drop compared to earlier years"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Renewable energy groups argued that even the liberalised 2023 planning changes did not go far enough to enable deployment.",
+        "evidence_id": "E12",
+        "quote": "renewable energy groups have argued that the 2023 planning changes did not go far enough to enable deployment"
+      },
+      {
+        "tier": "projected",
+        "claim": "Extending BMV categorisation to Grade 3b land could prohibit solar farms on 58% of England's agricultural land, significantly impacting new projects.",
+        "evidence_id": "E30",
+        "quote": "Extending the \"best and most versatile\" (BMV) categorization to include Grade 3b land could prohibit solar farms on 41% of England's land or 58% of its agricultural land, significantly impacting new projects"
+      }
+    ],
+    "rationale": "The policy's main lever on cost of living is its effect on renewable energy deployment and thus energy prices. The measurable baseline is clear: the previous community-consent regime \u2014 which required support 'often interpreted as requiring unanimous local backing' \u2014 produced a 96% drop in new turbine approvals between 2016 and 2020. Reimposing comparable consent requirements would predictably suppress new low-cost onshore wind capacity, keeping the energy mix more dependent on gas and therefore more expensive for households generally. Even after the 2023 liberalisation, renewable energy groups argued the planning regime still did not go far enough \u2014 suggesting the sector is sensitive to any tightening. The bill discounts for hosting communities are a stated benefit, but the policy text is vague about their scope and reach; only communities that host wind farms would gain, which is a small fraction of UK households. The solar restrictions add a second constraint on the renewable pipeline: if BMV protections are extended to Grade 3b land, the majority of England's agricultural land would be effectively off-limits for solar, substantially reducing cheap generation capacity. The net effect on ordinary households' energy bills is therefore negative over the long run: slower renewable deployment means higher and more volatile electricity prices for most people, while only a minority near wind farms gain discounts. Magnitude is moderate rather than major because the policy operates at the margin of an existing planning system and some deployment would continue regardless.",
+    "sources": [
+      {
+        "quote": "We will ensure democratic consent for onshore wind, striking the right balance between energy security and the views of their local communities. ...We will support solar in the right places, not on our best agricultural land.",
+        "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+        "publisher": "Conservative and Unionist Party"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn04370/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/policy-statement-on-onshore-wind/policy-statement-on-onshore-wind",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://lordslibrary.parliament.uk/onshore-wind-bill-hl/",
+        "publisher": "lordslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://lumifyenergy.com/blog/opinions-on-wind-farms/",
+        "publisher": "lumifyenergy.com",
+        "title": "lumifyenergy.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.energy-uk.org.uk/wp-content/uploads/2023/03/EnergyUKresponsetothereformsofthenationalplanningpolicyframework.pdf",
+        "publisher": "energy-uk.org.uk",
+        "title": "energy-uk.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ratedpower.com/blog/the-future-of-solar-farms/",
+        "publisher": "ratedpower.com",
+        "title": "ratedpower.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1656,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": false
+      },
+      {
+        "attempt": 2,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim on E3 ('only 16 new turbines\u2026 96% drop') is labelled measurable and used as a key factual pillar, but E3 is backed solely by lumifyenergy.com, a commercial source. Per sourcing rules, a commercial/advocacy source may not be the sole basis for a factual verdict claim. The figure should be corroborated by a government or parliamentary source (e.g. BEIS stats) or downgraded to projected."
+        },
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "The rationale treats 'reimposing comparable consent requirements' as near-certain from the stated policy text, but the policy says only 'ensure democratic consent' without specifying thresholds. The inference that the new regime would replicate the pre-2023 strict interpretation is a projection, not a measurable fact. The biggest_unknown correctly flags this, but the rationale language ('would predictably suppress') overstates the certainty beyond what the stated claims support. Consider softening rationale language or nudging confidence to low."
+        }
+      ],
+      "notes": "Overall the verdict is coherent and evidence-grounded. The direction of 'worsens' is defensible given the measurable baseline of the previous consent regime's effect on deployment, provided the E3 sourcing issue is resolved. The bill-discount benefit is correctly scoped as limited in reach. No lever leakage, party bias, or false balance detected."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will ensure democratic consent for onshore wind, ensuring local areas that host it directly benefit through measures like energy bill discounts. They will support solar in appropriate places, not on prime agricultural land, and prevent clustering of multiple solar farms.",
+        "sources": [
+          {
+            "quote": "We will ensure democratic consent for onshore wind, striking the right balance between energy security and the views of their local communities. ...We will support solar in the right places, not on our best agricultural land.",
+            "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+            "publisher": "Conservative and Unionist Party"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This involved revising planning policies to treat onshore wind on the same footing as other energy development",
+        "sources": [
+          {
+            "url": "https://www.tlt.com/insights-and-events/insight/a-change-in-the-wind-how-planning-reforms-are-powering-onshore-wind-development",
+            "publisher": "tlt.com",
+            "title": "tlt.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/onshore-wind-strategy/onshore-wind-taskforce-strategy-accessible-webpage",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/policy-statement-on-onshore-wind/policy-statement-on-onshore-wind",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.walkermorris.co.uk/comment-opinion/a-return-to-onshore-wind/",
+            "publisher": "walkermorris.co.uk",
+            "title": "walkermorris.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lumifyenergy.com/blog/conservatives-vs-labour-comparing-their-approach-to-renewables/",
+            "publisher": "lumifyenergy.com",
+            "title": "lumifyenergy.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Prior to this, planning permission was only granted if a project was in an area identified as suitable in a local plan *and* had community support, often interpreted as requiring unanimous local backing",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn04370/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/policy-statement-on-onshore-wind/policy-statement-on-onshore-wind",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/onshore-wind-bill-hl/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lumifyenergy.com/blog/opinions-on-wind-farms/",
+            "publisher": "lumifyenergy.com",
+            "title": "lumifyenergy.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This previous policy significantly constrained new onshore wind development, with only 16 new turbines receiving planning permission between 2016 and 2020, a 96% drop compared to earlier years",
+        "sources": [
+          {
+            "url": "https://lumifyenergy.com/blog/opinions-on-wind-farms/",
+            "publisher": "lumifyenergy.com",
+            "title": "lumifyenergy.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Increased Deployment:** The lifting of the ban has \"reopened the project pipeline in England\"",
+        "sources": [
+          {
+            "url": "https://www.tlt.com/insights-and-events/insight/a-change-in-the-wind-how-planning-reforms-are-powering-onshore-wind-development",
+            "publisher": "tlt.com",
+            "title": "tlt.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Onshore Wind Taskforce Strategy, published in July 2025, outlines 42 actions to overcome deployment barriers and aims to deliver 27-29 gigawatts (GW) of onshore wind capacity across Great Britain by 2030, with England contributing approximately 2 GW",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/onshore-wind-strategy/onshore-wind-taskforce-strategy-accessible-webpage",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.osborneclarke.com/insights/winds-change-uk-government-moves-accelerate-onshore-wind-energy",
+            "publisher": "osborneclarke.com",
+            "title": "osborneclarke.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.turley.co.uk/comment/unlocking-englands-wind-power-potential",
+            "publisher": "turley.co.uk",
+            "title": "turley.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This represents a significant increase over the 14.8 GW installed capacity in Great Britain",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/onshore-wind-strategy/onshore-wind-taskforce-strategy-accessible-webpage",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Local Benefits and Energy Bill Discounts:** The government published updated voluntary guidance on community benefits for onshore wind in England in July 2025",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFbG1BTpDm8UBiD7DEQk_VpcCwufFXLN6bfj3XAAqRjtEqZIa_ui1xbxhH25v80S9jjlI_S59hwXA8-ioSOKyKLJnXRlYq6ftv7kjEuCzOUwVh1iOBr1H7A7ziMRgKwKdRdJ4FOps9YPcI9yYPjYoUtozZjiOulJ33nSsua17-BTlnM3ogGZIKeEN47XAHztLLtj8s7HK8kA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This guidance includes best practice models for community benefit funds, local electricity bill discounts, and shared ownership",
+        "sources": [
+          {
+            "url": "https://www.osborneclarke.com/insights/winds-change-uk-government-moves-accelerate-onshore-wind-energy",
+            "publisher": "osborneclarke.com",
+            "title": "osborneclarke.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFbG1BTpDm8UBiD7DEQk_VpcCwufFXLN6bfj3XAAqRjtEqZIa_ui1xbxhH25v80S9jjlI_S59hwXA8-ioSOKyKLJnXRlYq6ftv7kjEuCzOUwVh1iOBr1H7A7ziMRgKwKdRdJ4FOps9YPcI9yYPjYoUtozZjiOulJ33nSsua17-BTlnM3ogGZIKeEN47XAHztLLtj8s7HK8kA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "A trial offering discounted power to households and businesses in grid-constrained areas near wind turbines is expected to begin in Winter 2025, funded by up to \u00a320 million",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-03-24/hcws1444",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Octopus Energy had already launched a pilot scheme in 2021, offering customers living near turbines up to 50% off their electricity bills during windy periods",
+        "sources": [
+          {
+            "url": "https://www.britainremade.co.uk/ditch_onshore_wind_ban_to_allow_families_money_off_bills_government_urged",
+            "publisher": "britainremade.co.uk",
+            "title": "britainremade.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Correspondingly, opposition to a local wind farm increased from 13% to 18% during the same period",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/desnz-public-attitudes-tracker-spring-2025/desnz-public-attitudes-tracker-renewable-energy-spring-2025-uk",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "House of Commons Library notes that renewable energy groups have argued that the 2023 planning changes did not go far enough to enable deployment",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn04370/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.energy-uk.org.uk/wp-content/uploads/2023/03/EnergyUKresponsetothereformsofthenationalplanningpolicyframework.pdf",
+            "publisher": "energy-uk.org.uk",
+            "title": "energy-uk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "If agricultural land is necessary, the NPPF advises using poorer-quality land",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0168/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, the NPPF does not *prohibit* solar farms on agricultural land, including BMV land",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0168/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7434/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Conservative politicians have advocated for solar panels on commercial buildings, roofs, or non-productive land to protect prime agricultural land",
+        "sources": [
+          {
+            "url": "https://earth.org/uk-ban-solar-projects/",
+            "publisher": "earth.org",
+            "title": "earth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/factcheck-is-solar-power-a-threat-to-uk-farmland/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://elementallondon.show/opinion/can-the-conservative-party-be-trusted-with-solar-farm-policy/",
+            "publisher": "elementallondon.show",
+            "title": "elementallondon.show",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.conservativeruralforum.org.uk/robertjenrick",
+            "publisher": "conservativeruralforum.org.uk",
+            "title": "conservativeruralforum.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Current and Projected Land Use:** Ground-mounted solar currently occupies a small fraction of UK land, around 0.1%",
+        "sources": [
+          {
+            "url": "https://earth.org/uk-ban-solar-projects/",
+            "publisher": "earth.org",
+            "title": "earth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/factcheck-is-solar-power-a-threat-to-uk-farmland/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Even with the government's target of a fivefold increase in solar power to 70 GW by 2035 (from 14 GW)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0168/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": ", or the Clean Power 2030 Action Plan's target of 45-57 GW by 2030",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7434/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": ", ground-mounted solar is expected to occupy only about 0.3% of UK land, equivalent to approximately 0.5% of land currently used for farming",
+        "sources": [
+          {
+            "url": "https://earth.org/uk-ban-solar-projects/",
+            "publisher": "earth.org",
+            "title": "earth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/factcheck-is-solar-power-a-threat-to-uk-farmland/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nextenergysolarfund.com/reports-and-publications/thought-leadership-white-papers/land-use/",
+            "publisher": "nextenergysolarfund.com",
+            "title": "nextenergysolarfund.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Climate Change Committee estimates that 90 GW of solar by 2050 would account for roughly 0.6% of UK land, less than that covered by golf courses",
+        "sources": [
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Expert Disagreement on Agricultural Land Impact:**\n        *   **CPRE (Countryside Charity):** CPRE's July 2025 research indicates that 59% of England's largest operational solar farms are located on productive farmland, with almost one-third (31%) of the area covering BMV land, totaling 827 hectares (approximately 1,300 football pitches)",
+        "sources": [
+          {
+            "url": "https://www.cpre.org.uk/news/two-thirds-of-mega-solar-farms-built-on-productive-farmland/",
+            "publisher": "cpre.org.uk",
+            "title": "cpre.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They argue that large-scale solar farms remove \"key agricultural areas from food production for up to 60 years\" and call for a target of at least 60% of solar energy to come from rooftops, car parks, and brownfield land",
+        "sources": [
+          {
+            "url": "https://www.cpre.org.uk/news/two-thirds-of-mega-solar-farms-built-on-productive-farmland/",
+            "publisher": "cpre.org.uk",
+            "title": "cpre.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Solar Energy UK and Government Reports:** Solar Energy UK counters that solar farms pose no threat to the UK's food security and that land used for solar can still accommodate farming activities like livestock grazing",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7434/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.carbonbrief.org/factcheck-is-solar-power-a-threat-to-uk-farmland/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They also highlight that poorer quality land is often unsuitable for solar development due to factors such as a lack of suitable grid access, flood risk, or difficult terrain",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7434/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The UK Government Food Security Report (2021) suggests that solar farms do not risk food security, identifying climate change and environmental pressures as the biggest long-term risks to domestic production",
+        "sources": [
+          {
+            "url": "https://solarenergyuk.org/wp-content/uploads/2024/06/FactSheet-Solar-Farms-and-Agricultural-Land-2024.pdf",
+            "publisher": "solarenergyuk.org",
+            "title": "solarenergyuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Defra also stated in March 2026 that solar plants represent \"small land use changes in percentage terms\" and allow for continued farming alongside solar",
+        "sources": [
+          {
+            "url": "https://www.solarpowerportal.co.uk/energy-policy/defra-confirms-enough-land-in-england-for-solar-housing-and-farming-to-coexist",
+            "publisher": "solarpowerportal.co.uk",
+            "title": "solarpowerportal.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Prevention of Clustering:** Some MPs and organizations like CPRE have raised concerns about the clustering of large-scale solar farms around grid connections and the cumulative impact of multiple solar farms in a specific area",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7434/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://elementallondon.show/opinion/can-the-conservative-party-be-trusted-with-solar-farm-policy/",
+            "publisher": "elementallondon.show",
+            "title": "elementallondon.show",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Secretary of State for Energy Security and Net Zero, Claire Coutinho, has reinforced that \"cumulative impacts\" of multiple solar farms on \"local villages\" should be considered by planning authorities",
+        "sources": [
+          {
+            "url": "https://elementallondon.show/opinion/can-the-conservative-party-be-trusted-with-solar-farm-policy/",
+            "publisher": "elementallondon.show",
+            "title": "elementallondon.show",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Proposed Policy Tightening:** Former Prime Minister Liz Truss's administration had plans in October 2022 to effectively ban new solar farms on agricultural land, which were later dropped but have seen indications of potential revival",
+        "sources": [
+          {
+            "url": "https://ratedpower.com/blog/the-future-of-solar-farms/",
+            "publisher": "ratedpower.com",
+            "title": "ratedpower.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Extending the \"best and most versatile\" (BMV) categorization to include Grade 3b land could prohibit solar farms on 41% of England's land or 58% of its agricultural land, significantly impacting new projects, as many are currently built on Grade 3b sites",
+        "sources": [
+          {
+            "url": "https://ratedpower.com/blog/the-future-of-solar-farms/",
+            "publisher": "ratedpower.com",
+            "title": "ratedpower.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

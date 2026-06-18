@@ -1,0 +1,18 @@
+{
+  "_comment": "Source list for the extraction step. hint_urls guide the extractor; it should ALSO web-search to find/verify the current manifesto + major attributable stated positions (don't trust a stale hint). Scope v1 = 2024 GE manifesto backbone + verifiable current positions. Same thoroughness for every party.",
+  "parties": [
+    { "name": "Labour",            "slug": "lab", "hint_urls": ["https://labour.org.uk/change/"] },
+    { "name": "Conservative",      "slug": "con", "hint_urls": ["https://www.conservatives.com/our-plan"] },
+    { "name": "Liberal Democrat",  "slug": "ld",  "hint_urls": ["https://www.libdems.org.uk/manifesto"] },
+    { "name": "Reform UK",         "slug": "ref", "hint_urls": ["https://www.reformparty.uk/policies"] },
+    { "name": "Green",             "slug": "grn", "hint_urls": ["https://greenparty.org.uk/about/our-manifesto/"] }
+  ],
+  "_manifesto_note": "Canonical, verified per-party source for the manifesto evidence unit (M). The extractor GUESSED per-policy manifesto URLs and several 404'd (e.g. Reform's). M-tier claims now always link to each party's OWN canonical manifesto/plan page (source_type 'manifesto' — the party's own words, not a third-party source). Applied at build time (overrides M-cited claims in existing verdicts — no re-run) and in run_verdict.evidence_units for future runs. The model never sees this metadata, so party-blindness holds. URLs verified resolving 2026-06-16 (Reform 403s to bots but serves in-browser).",
+  "manifesto_source": {
+    "Labour":           { "url": "https://labour.org.uk/plan-for-change/",            "publisher": "labour.org.uk",     "source_type": "manifesto" },
+    "Conservative":     { "url": "https://www.conservatives.com/our-plan-for-britain", "publisher": "conservatives.com", "source_type": "manifesto" },
+    "Liberal Democrat": { "url": "https://www.libdems.org.uk/manifesto",               "publisher": "libdems.org.uk",    "source_type": "manifesto" },
+    "Reform UK":        { "url": "https://www.reformparty.uk/policies",                "publisher": "reformparty.uk",    "source_type": "manifesto" },
+    "Green":            { "url": "https://greenparty.org.uk/about/our-manifesto/",     "publisher": "greenparty.org.uk", "source_type": "manifesto" }
+  }
+}

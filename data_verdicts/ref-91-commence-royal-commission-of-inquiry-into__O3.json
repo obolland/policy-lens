@@ -1,0 +1,483 @@
+{
+  "policy_id": "ref-91-commence-royal-commission-of-inquiry-into",
+  "party": "Reform UK",
+  "policy_title": "Commence Royal Commission of Inquiry into Social Care",
+  "outcome": "O3",
+  "verdict": {
+    "outcome": "O3",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "This policy launches an inquiry into social care rather than delivering any immediate change \u2014 given that past commissions took years and their recommendations were often ignored, it is unlikely to improve healthcare access in the near term. The sector faces a severe and well-documented crisis, but more study alone will not resolve it.",
+    "biggest_unknown": "Whether a new commission would produce recommendations that actually get implemented, given the consistent historical failure to act on past commission findings.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to commencing a Royal Commission of Inquiry and providing more funding only once a national plan is agreed.",
+        "evidence_id": "M",
+        "quote": "More funding will be provided once a national plan is agreed."
+      },
+      {
+        "tier": "projected",
+        "claim": "Experts warn the commission could take years to produce conclusions with no guarantee of implementation.",
+        "evidence_id": "E1",
+        "quote": "a commission could take years to produce conclusions and recommendations, with no guarantee of implementation."
+      },
+      {
+        "tier": "projected",
+        "claim": "The 1999 Royal Commission's main recommendations were not implemented due to cost, illustrating the historical pattern.",
+        "evidence_id": "E3",
+        "quote": "their main recommendations (like free personal care) were not implemented due to cost, highlighting the challenges of achieving true consensus and political will."
+      },
+      {
+        "tier": "projected",
+        "claim": "The Health Foundation states a new commission may not be needed as consensus already exists on key reform areas.",
+        "evidence_id": "E22",
+        "quote": "a new commission \"may not be needed\" as consensus already exists on key reform areas."
+      },
+      {
+        "tier": "projected",
+        "claim": "Despite numerous past commissions, social care reform remains unresolved largely due to lack of government funding to implement proposed changes.",
+        "evidence_id": "E24",
+        "quote": "despite numerous ideas and proposals from past commissions (including the 1999 Royal Commission and the 2011 Dilnot Commission), the issue of social care reform remains unresolved, largely due to a lack of government funding to implement proposed changes."
+      }
+    ],
+    "rationale": "The social care system faces a severe and well-evidenced crisis: 400,000 people awaiting care, a 7% vacancy rate, and an estimated \u00a38.3bn annual funding gap just to stand still. The policy's only committed instrument is a Royal Commission. No funding is released until a plan is agreed \u2014 meaning the timeline for any real-world effect is open-ended. Historical precedent is damning: the 1999 Royal Commission's core recommendations were rejected on cost grounds, and the House of Commons Library documents that reform has remained unresolved across multiple commissions due to lack of funding. Expert bodies including the Health Foundation argue a new commission is not needed because the problems and solutions are already well understood. A parallel Casey Commission is already underway, further reducing the additionality of this policy. The direction is therefore negligible: the mechanism (inquiry \u2192 plan \u2192 funding) is theoretically coherent but has repeatedly failed to fire in comparable real-world cases, and no committed funding or statutory duty is attached. The magnitude is rated minor rather than negligible because there is a non-zero chance the commission generates political will or a funding stream \u2014 but this is a weak projected upside against a strong measurable baseline of unmet need and institutional inertia. Confidence is moderate because the historical evidence on commission outcomes is clear, though future political will remains genuinely unknowable.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.caremanagementmatters.co.uk/feature/royal-commission-on-social-care/",
+        "publisher": "caremanagementmatters.co.uk",
+        "title": "caremanagementmatters.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/adult-social-care-in-england-possible-reforms/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.kingsfund.org.uk/insight-and-analysis/blogs/new-royal-commission-social-care-tackle-fundamental-problem-means-test",
+        "publisher": "kingsfund.org.uk",
+        "title": "kingsfund.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDOoyukQjiF6pksJRuOOHJkcu5cgLzUZwIxgwPZca802h7nAx4iQgne88JO14ChQ5QCCfLxpBDPIrWAXVwL4-D4n-7mHZx26vW6YeD9xysoYMJBUN24o3C0YR0mQNpsgeX30ARacudWnIZyp2UNF8iHboilifnH0m2AG2qtMLS6P8ip0ZZENSU8xdZbjiUjrAepuhJ04rwbFoVDBwR0UQBJCLi0BY8bII=",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "health.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0366,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are well-supported by their quoted evidence and correctly tiered as stated or projected. The stated claim accurately quotes the policy text. The projected claims from E1, E3, E22, and E24 are accurately represented \u2014 none overstate what the quotes say (hedged language preserved). Tier integrity is sound: no projection is dressed as measurable fact. Direction 'negligible' with magnitude 'minor' and time_horizon 'long-term' is internally consistent and justified by the evidence. The magnitude/time_horizon combination is coherent (neither is n/a, which is correct for a non-too-uncertain direction). The rationale correctly identifies lever (Royal Commission) vs fundamental effect (healthcare access/O3). No party identity smuggled in. The mixed signals are genuine: there is a weak projected upside but strong historical precedent of failure \u2014 the verdict leans with the evidence rather than manufacturing balance. The 'minor' magnitude for a non-zero upside is a marginal call but defensible given the explicit hedging. No false balance issue \u2014 the verdict clearly leans negative (negligible direction) while acknowledging uncertainty."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "There are currently 400,000 people waiting for an assessment or for care to begin.",
+          "evidence_id": "E17",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The sector has a vacancy rate of 7%, nearly three times the economy-wide average, and almost a quarter of the workforce left their role in 2024-25.",
+          "evidence_id": "E14",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The Health Foundation estimated an additional \u00a38.3 billion annually by 2032/33 is needed just to maintain current service levels.",
+          "evidence_id": "E8",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will commence a Royal Commission of Inquiry into the social care system to develop a national plan for a sustainable sector, focusing on flexibility, tax incentives, VAT breaks, reduced waste, and a single funding stream. More funding will be provided once a national plan is agreed.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Experts from organizations like the Health Foundation and the Social Care Institute for Excellence (SCIE) express \"understandable apprehension\" that a commission could take years to produce conclusions and recommendations, with no guarantee of implementation.",
+        "sources": [
+          {
+            "url": "https://www.caremanagementmatters.co.uk/feature/royal-commission-on-social-care/",
+            "publisher": "caremanagementmatters.co.uk",
+            "title": "caremanagementmatters.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The current Labour government has also recently established an independent commission chaired by Baroness Louise Casey, which aims to achieve cross-party consensus for a National Care Service, with recommendations due in phases by 2026 and 2028.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-reforms-and-independent-commission-to-transform-social-care",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.caremanagementmatters.co.uk/social-care-reforms-and-independent-commission-announced/",
+            "publisher": "caremanagementmatters.co.uk",
+            "title": "caremanagementmatters.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "However, past commissions, such as the 1999 Royal Commission on Long Term Care (the Sutherland Commission), were \"wracked by internal dissent,\" and their main recommendations (like free personal care) were not implemented due to cost, highlighting the challenges of achieving true consensus and political will.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/adult-social-care-in-england-possible-reforms/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/blogs/new-royal-commission-social-care-tackle-fundamental-problem-means-test",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Office for National Statistics (ONS) has previously highlighted significant challenges in social care data across the UK, including the need for better data collection on the private market and unpaid carers.",
+        "sources": [
+          {
+            "url": "https://analysisfunction.civilservice.gov.uk/government-statistical-service-and-statistician-group/user-facing-pages/theme-based-support-for-users/adult-social-care-statistics/",
+            "publisher": "analysisfunction.civilservice.gov.uk",
+            "title": "civilservice.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Widespread Consensus:** The Institute for Fiscal Studies (IFS), Office for Budget Responsibility (OBR), ONS, Resolution Foundation, House of Commons Library, and Health Foundation all agree that the adult social care system in England is in desperate need of reform and significant long-term investment.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDOoyukQjiF6pksJRuOOHJkcu5cgLzUZwIxgwPZca802h7nAx4iQgne88JO14ChQ5QCCfLxpBDPIrWAXVwL4-D4n-7mHZx26vW6YeD9xysoYMJBUN24o3C0YR0mQNpsgeX30ARacudWnIZyp2UNF8iHboilifnH0m2AG2qtMLS6P8ip0ZZENSU8xdZbjiUjrAepuhJ04rwbFoVDBwR0UQBJCLi0BY8bII=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJjBAs7E4vNtrMn6cyM87jEquJx34u-XLDk4QfCAdEQU4Aedn6dQwaPHBMHfOlYPtiqR4PqEAlpR5rA9nLlv5jTp928Hl6NQXdfjT-9OqZg7faEDbFQmGAxHV_wKmfMJn5eifyIf3LdXcbKmt0UpIEcsLkLCVhhhn6Y1BGEmU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwuqcqlx6x5b_Rpy5lXjEYt1NDo5U1ErTvyxygIhC1exqlwER-euMkYFDYMWoBcz1jwkGDnGLk3zWdvY0ee3ydYqGoMMDQ8rYDlgeP45URlJBbmu3k-4DE9uUlTTowMF0TI-DgEuPC",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yMj5i9xBvMI1s0-WspSU-tj2uLxEq_ogka2SLEWGB3MArMsb3I_oiCxpYwY6IDJpAf7fXsF1y2KHlm0-MvSPpRhjaa1G-vdure969EEHfvi6GtmiHywaFQNnekj2fcAhBvLEJEJWQ6T0Hm_CIb_w9jOct92fXRZvNFUfMg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "resolutionfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **\"Threadbare Safety Net\":** The Health Foundation describes the current system as a \"threadbare safety net,\" where state-funded support is only available to those with the highest needs and lowest means.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwuqcqlx6x5b_Rpy5lXjEYt1NDo5U1ErTvyxygIhC1exqlwER-euMkYFDYMWoBcz1jwkGDnGLk3zWdvY0ee3ydYqGoMMDQ8rYDlgeP45URlJBbmu3k-4DE9uUlTTowMF0TI-DgEuPC",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Public Dissatisfaction:** Public satisfaction with social care stood at just 13% in the last British Social Attitudes survey, the lowest recorded level since the survey began in 1983.",
+        "sources": [
+          {
+            "url": "https://www.opendemocracy.net/en/royal-commission-care-disabled-people-social-reform-needed-labour-government-policy/",
+            "publisher": "opendemocracy.net",
+            "title": "opendemocracy.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Funding Gap:**\n    *   The Health Foundation estimated in 2025 that an additional **\u00a38.3 billion** would be required annually by 2032/33 just to keep adult social care services in England running at their current level and meet growing demand.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-7903/CBP-7903.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This would see spending rise from **1.3% of national income in 2023/24 to around 1.5% in 2033/34, and 1.9% in 2053/54**.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-7903/CBP-7903.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJjBAs7E4vNtrMn6cyM87jEquJx34u-XLDk4QfCAdEQU4Aedn6dQwaPHBMHfOlYPtiqR4PqEAlpR5rA9nLlv5jTp928Hl6NQXdfjT-9OqZg7faEDbFQmGAxHV_wKmfMJn5eifyIf3LdXcbKmt0UpIEcsLkLCVhhhn6Y1BGEmU=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   Another projection indicates that total public expenditure on social services for older and younger adults is set to rise by **73%** under the current funding system, from approximately **\u00a322.9 billion (1.19% of GDP) in 2022 to \u00a339.6 billion (1.47% of GDP) in 2042** (at constant 2022 prices).",
+        "sources": [
+          {
+            "url": "https://ascru.nihr.ac.uk/wp-content/uploads/2025/02/CPEC_DP_Projection_Final_22Feb25.pdf",
+            "publisher": "ascru.nihr.ac.uk",
+            "title": "nihr.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "However, real-terms spending per person was still **2.6% lower in 2023/24 than in 2009/10**.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOyIpFv3Vl1jUoEzaqiIJ80p5pTlUnSVXgw44ZUIi9l2JF8RclQXFGlLHoQyeu4pswi_BkTbmG6HSEuzpVDyMc4oSH32kuXTV2weIJQNuiR7-j9LT3jQRwXTrffy4CDvZekjg7w1HNvAKnarGCNq9g5OAvlTarLTMFZ6dp7SgmbT0VDI-jsg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   The Health Foundation estimates that comprehensive social care reform could cost up to **\u00a317 billion**.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/publications/47713/documents/249329/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Workforce Crisis:**\n    *   The Resolution Foundation highlights that average pay for frontline care workers in 2024-25 was **\u00a312.23 per hour**, only 79p above the minimum wage.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-must-start-small-move-quickly-and-give-its-new-fair-pay-agreement-teeth-to-improve-the-lives-of-englands-1-5-million-care-workers/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   The sector faces a significant recruitment and retention crisis, with a vacancy rate of **7%** (nearly three times the economy-wide average of 2.5%) and almost a quarter (**23%**) of the workforce leaving their role in 2024-25.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-must-start-small-move-quickly-and-give-its-new-fair-pay-agreement-teeth-to-improve-the-lives-of-englands-1-5-million-care-workers/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/12/Social-care-FPA.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   An estimated **21,000 social care workers are underpaid the minimum wage**.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-must-start-small-move-quickly-and-give-its-new-fair-pay-agreement-teeth-to-improve-the-lives-of-englands-1-5-million-care-workers/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/12/Social-care-FPA.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   Almost **161,000 hours of homecare** could not be delivered between January and March 2024 due to staffing capacity issues.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/publications/47713/documents/249329/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Unmet Need:**\n    *   In 2024, there were **400,000 people waiting** either for an assessment or for care to begin.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/publications/47713/documents/249329/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   On 30 September 2024, **673,000 people** were receiving long-term local authority arranged or provided adult social care in England, representing 1,470 people per 100,000 adults.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/adult-social-care-in-england-monthly-statistics-january-2025/adult-social-care-in-england-monthly-statistics-january-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The number of unpaid carers ranges from 6.8 million to 10.5 million.",
+        "sources": [
+          {
+            "url": "https://www.agespace.org/care/casey-commission-social-care-england",
+            "publisher": "agespace.org",
+            "title": "agespace.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Urgency:** Organizations like the Health Foundation and SCIE, along with Disabled people's organizations, express concern that a Royal Commission could be a \"can-kicking-down-the-road manoeuvre,\" delaying the urgent action needed.",
+        "sources": [
+          {
+            "url": "https://www.caremanagementmatters.co.uk/feature/royal-commission-on-social-care/",
+            "publisher": "caremanagementmatters.co.uk",
+            "title": "caremanagementmatters.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.opendemocracy.net/en/royal-commission-care-disabled-people-social-reform-needed-labour-government-policy/",
+            "publisher": "opendemocracy.net",
+            "title": "opendemocracy.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They argue that many issues are already well understood and numerous reports have already identified solutions.",
+        "sources": [
+          {
+            "url": "https://www.caremanagementmatters.co.uk/feature/royal-commission-on-social-care/",
+            "publisher": "caremanagementmatters.co.uk",
+            "title": "caremanagementmatters.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Health Foundation, for example, states that a new commission \"may not be needed\" as consensus already exists on key reform areas.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDOoyukQjiF6pksJRuOOHJkcu5cgLzUZwIxgwPZca802h7nAx4iQgne88JO14ChQ5QCCfLxpBDPIrWAXVwL4-D4n-7mHZx26vW6YeD9xysoYMJBUN24o3C0YR0mQNpsgeX30ARacudWnIZyp2UNF8iHboilifnH0m2AG2qtMLS6P8ip0ZZENSU8xdZbjiUjrAepuhJ04rwbFoVDBwR0UQBJCLi0BY8bII=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Focus of the Commission:** The King's Fund emphasizes that any new commission *must* directly tackle the \"means test,\" which fundamentally differentiates social care from the free-at-the-point-of-use NHS and caused significant dissent in the 1999 Royal Commission.",
+        "sources": [
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/blogs/new-royal-commission-social-care-tackle-fundamental-problem-means-test",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Implementation Challenges:** The House of Commons Library highlights that despite numerous ideas and proposals from past commissions (including the 1999 Royal Commission and the 2011 Dilnot Commission), the issue of social care reform remains unresolved, largely due to a lack of government funding to implement proposed changes.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/adult-social-care-in-england-possible-reforms/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "For example, the 1999 Royal Commission's proposal for free personal care was rejected by the government due to its \"very substantial cost.\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/adult-social-care-in-england-possible-reforms/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/blogs/new-royal-commission-social-care-tackle-fundamental-problem-means-test",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

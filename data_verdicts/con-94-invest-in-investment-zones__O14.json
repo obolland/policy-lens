@@ -1,0 +1,788 @@
+{
+  "policy_id": "con-94-invest-in-investment-zones",
+  "party": "Conservative",
+  "policy_title": "Invest in Investment Zones",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "Investment Zones offer tax reliefs and funding to specific areas, which could help reduce regional inequality if the jobs created are genuinely new. But credible analysts warn that much of the activity may simply move from elsewhere, meaning the gap between regions \u2014 and between capital owners and workers \u2014 may not actually narrow.",
+    "biggest_unknown": "Whether the jobs and investment generated are genuinely additional or mostly displaced from other UK areas \u2014 if displacement dominates, any inequality-narrowing effect disappears.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits \u00a3160 million to Investment Zones to catalyse local growth.",
+        "evidence_id": "M",
+        "quote": "giving areas \u00a3160 million to catalyse local growth and investment"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Each Investment Zone receives up to \u00a3160 million over 10 years, usable for spending or tax reliefs.",
+        "evidence_id": "E1",
+        "quote": "Each Investment Zone is allocated up to \u00a3160 million over 10 years, which can be flexibly used for direct spending or tax reliefs."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Tax reliefs include enhanced capital allowances, structures allowance, employer NIC relief for new employees, and SDLT relief.",
+        "evidence_id": "E4",
+        "quote": "enhanced capital allowances for plant and machinery, enhanced structures and buildings allowance, relief from employer National Insurance contributions (NICs) for new employees, and Stamp Duty Land Tax relief in England"
+      },
+      {
+        "tier": "projected",
+        "claim": "The government projects over 89,000 jobs and \u00a311 billion in private investment over 10 years.",
+        "evidence_id": "E13",
+        "quote": "Investment Zones will create over 89,000 jobs and attract more than \u00a311 billion in private investment over the next 10 years."
+      },
+      {
+        "tier": "projected",
+        "claim": "A significant proportion of jobs from similar past enterprise zones \u2014 modest estimates suggest 34% \u2014 came from business relocation rather than new employment, and were often low-skilled.",
+        "evidence_id": "E17",
+        "quote": "a significant proportion of \"created\" jobs (modest estimates suggest 34%) were due to businesses relocating, rather than new employment, and these jobs were often low-skilled"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "share of activity that is genuinely additional versus displaced from other UK regions",
+      "estimate_range": "If additionality is high, regional inequality narrows; if displacement dominates (as enterprise zone evidence suggests, ~34%+ relocation), the inequality effect is negligible or the fiscal transfer worsens wealth distribution"
+    },
+    "rationale": "O14 is about whether the gap between richest and rest \u2014 including regional gaps \u2014 narrows or widens. Investment Zones have two competing distributional effects. On the one hand, zones are targeted at specific areas seeking to attract investment, which could in principle reduce regional inequality. On the other, the primary instruments are tax reliefs (capital allowances, employer NIC relief, SDLT relief) that flow to businesses and capital owners in designated areas, financed by the general taxpayer. If additionality is high, workers in left-behind areas gain jobs and regional inequality narrows. But the IFS flags that additionality is 'fundamentally difficult' to establish, and evidence from analogous enterprise zones shows that roughly 34% of 'created' jobs came from relocation rather than new activity, with jobs often low-skilled. The OBR-cited evidence finds little systematic performance difference between cities with and without zones. If displacement dominates, the inequality arithmetic changes: the fiscal cost (up to \u00a32 billion over 10 years) is spread across all taxpayers while tax reliefs concentrate gains among businesses in zones, potentially worsening the wealth gap even if nominal jobs move between regions. The Business and Trade Committee also raises the risk of inter-regional competition that reshuffles rather than creates activity. Because the direction of effect on inequality turns entirely on the additionality question \u2014 which credible institutional analysts (IFS, OBR, LSE) identify as genuinely unresolved \u2014 a confident direction verdict is not supportable. This is a real crux, not a lazy hedge: displacement versus additionality spans a range that determines whether O14 improves, is negligible, or marginally worsens.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.scot/policies/cities-regions/investment-zones/",
+        "publisher": "gov.scot",
+        "title": "gov.scot",
+        "source_type": "government"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NGZ_Se4I-2M",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/69df6711a68b527bd9408e9c/External_HMRC_IZs_Information_Pack_-_FEB_26.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://industrialcommunitiesalliance.org.uk/wp-content/uploads/2023/04/The-New-Investment-Zones.pdf",
+        "publisher": "industrialcommunitiesalliance.org.uk",
+        "title": "industrialcommunitiesalliance.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.tax.org.uk/conservative-conference-2022-part-3",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ukandeu.ac.uk/do-investment-zones-hold-the-key-to-unlocking-the-uks-growth-problem/",
+        "publisher": "ukandeu.ac.uk",
+        "title": "ukandeu.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://blogs.lse.ac.uk/politicsandpolicy/investments-zones-can-drive-innovation-if-we-learn-from-past-mistakes/",
+        "publisher": "blogs.lse.ac.uk",
+        "title": "lse.ac.uk",
+        "source_type": "academic"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0524,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are correct: the E1/E4 'measurable' claims describe the policy's stated design parameters (appropriate as measurable facts about the scheme's structure), E13 is correctly projected, and E17 is correctly projected with appropriate hedging. The too-uncertain direction is genuinely supported by competing projected claims \u2014 additionality vs displacement \u2014 with credible institutional sources (IFS, OBR, LSE) cited for the counter-evidence. The crux_parameter and estimate_range are substantive, not lazy. No motive attribution or party-identity language detected. No lever leakage \u2014 the analysis consistently returns to distributional effects on inequality rather than scoring the zone policy for its own sake. The rationale's point about fiscal cost being spread across all taxpayers while gains concentrate in zones is a legitimate distributional observation, not a political judgment. Minor note: one source listed as source_type 'media' for gov.uk guidance (should be 'government') but this does not affect the verdict's integrity."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The IFS identifies whether activity is truly additional as a key but fundamentally difficult question to answer.",
+          "evidence_id": "E18",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The OBR cited evidence showing little difference in performance between cities with and without zones, with infrastructure being a stronger determinant.",
+          "evidence_id": "E20",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "There is concern that Investment Zones could create competition between regions for private investment rather than generating net new regional gains.",
+          "evidence_id": "E24",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will continue backing Investment Zones across the country, giving areas \u00a3160 million to catalyse local growth and investment.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Each Investment Zone is allocated up to \u00a3160 million over 10 years, which can be flexibly used for direct spending or tax reliefs.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.scot/policies/cities-regions/investment-zones/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NGZ_Se4I-2M",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Investment Zones are designed to be locally-led initiatives, focusing on developing clusters within five priority sectors: advanced manufacturing, creative industries, digital and tech, green industries, and life sciences.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69df6711a68b527bd9408e9c/External_HMRC_IZs_Information_Pack_-_FEB_26.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.deloitte.com/uk/en/services/tax/analysis/freeports-and-investment-zones-part-2.html",
+            "publisher": "deloitte.com",
+            "title": "deloitte.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENM96MzSE8I43USdIFYFp5rw4bX_mRn0ExIxYz9FVyRpSfnqz66X-JA_MK7-pOSHWDTA6eA45UglRZaDiW_63cDnw8LQT1Oxa0NuxTvSbcdzSSTbQu5hLAYyTWnqw9DpPEcyeIM35K_aW1cBJix0E=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "hktdc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NGZ_Se4I-2M",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Financial Support:** Up to \u00a3160 million over 10 years per zone.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.scot/policies/cities-regions/investment-zones/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NGZ_Se4I-2M",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Tax Reliefs:** These can include enhanced capital allowances for plant and machinery, enhanced structures and buildings allowance, relief from employer National Insurance contributions (NICs) for new employees, and Stamp Duty Land Tax relief in England.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69df6711a68b527bd9408e9c/External_HMRC_IZs_Information_Pack_-_FEB_26.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://industrialcommunitiesalliance.org.uk/wp-content/uploads/2023/04/The-New-Investment-Zones.pdf",
+            "publisher": "industrialcommunitiesalliance.org.uk",
+            "title": "industrialcommunitiesalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/conservative-conference-2022-part-3",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NGZ_Se4I-2M",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "These reliefs are generally available for a limited time, such as until September 2034.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69df6711a68b527bd9408e9c/External_HMRC_IZs_Information_Pack_-_FEB_26.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Business Rates Retention:** Local authorities hosting an Investment Zone can retain 100% of the growth in business rates above an agreed baseline for 25 years, to be reinvested locally.",
+        "sources": [
+          {
+            "url": "https://realestateuk.org/our-work/conservative-manifesto-bpf-analysis/",
+            "publisher": "realestateuk.org",
+            "title": "realestateuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://industrialcommunitiesalliance.org.uk/wp-content/uploads/2023/04/The-New-Investment-Zones.pdf",
+            "publisher": "industrialcommunitiesalliance.org.uk",
+            "title": "industrialcommunitiesalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.arup.com/insights/how-does-the-uk-maximise-the-success-of-its-new-investment-zones/",
+            "publisher": "arup.com",
+            "title": "arup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/investment-zones/investment-zones-policy-prospectus",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENM96MzSE8I43USdIFYFp5rw4bX_mRn0ExIxYz9FVyRpSfnqz66X-JA_MK7-pOSHWDTA6eA45UglRZaDiW_63cDnw8LQT1Oxa0NuxTvSbcdzSSTbQu5hLAYyTWnqw9DpPEcyeIM35K_aW1cBJix0E=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "hktdc.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Planning Mechanisms:** The policy aims to simplify planning rules to accelerate development.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tcpa.org.uk/the-zombie-economics-of-investment-zones/",
+            "publisher": "tcpa.org.uk",
+            "title": "tcpa.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Innovation, Skills, and Business Support:** This includes bespoke skills and retraining programmes, grants for research and development (R&D), and support to commercialise innovative research.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.scot/policies/cities-regions/investment-zones/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NGZ_Se4I-2M",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Collaboration:** A strong emphasis is placed on collaboration between industry and research institutions, such as universities.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/investment-zones-in-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69df6711a68b527bd9408e9c/External_HMRC_IZs_Information_Pack_-_FEB_26.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.arup.com/insights/how-does-the-uk-maximise-the-success-of-its-new-investment-zones/",
+            "publisher": "arup.com",
+            "title": "arup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.deloitte.com/uk/en/services/tax/analysis/freeports-and-investment-zones-part-2.html",
+            "publisher": "deloitte.com",
+            "title": "deloitte.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/investment-zones/investment-zones-policy-prospectus",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENM96MzSE8I43USdIFYFp5rw4bX_mRn0ExIxYz9FVyRpSfnqz66X-JA_MK7-pOSHWDTA6eA45UglRZaDiW_63cDnw8LQT1Oxa0NuxTvSbcdzSSTbQu5hLAYyTWnqw9DpPEcyeIM35K_aW1cBJix0E=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "hktdc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2023/investment-zones-and-uk-regional-economic-policy-a-place-focussed-but-exclusionary-solution",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NGZ_Se4I-2M",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The government plans for 12 Investment Zones across the UK: eight in England, two in Scotland, and two in Wales.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69df6711a68b527bd9408e9c/External_HMRC_IZs_Information_Pack_-_FEB_26.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/do-investment-zones-hold-the-key-to-unlocking-the-uks-growth-problem/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://industrialcommunitiesalliance.org.uk/wp-content/uploads/2023/04/The-New-Investment-Zones.pdf",
+            "publisher": "industrialcommunitiesalliance.org.uk",
+            "title": "industrialcommunitiesalliance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2023/investment-zones-and-uk-regional-economic-policy-a-place-focussed-but-exclusionary-solution",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "An additional \u00a3150 million Enhanced Investment Zone is being established for Northern Ireland.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69df6711a68b527bd9408e9c/External_HMRC_IZs_Information_Pack_-_FEB_26.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Investment Zones are expected to become operational and receive initial funding in the 2024-25 financial year.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.deloitte.com/uk/en/services/tax/analysis/freeports-and-investment-zones-part-2.html",
+            "publisher": "deloitte.com",
+            "title": "deloitte.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "**Expected Outcomes:**\nThe government anticipates that Investment Zones will create over 89,000 jobs and attract more than \u00a311 billion in private investment over the next 10 years.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "For example, the Tees Valley Investment Zone aims to create over 2,000 jobs and unlock \u00a3175 million of investment in its digital and creative technology sectors.",
+        "sources": [
+          {
+            "url": "https://teesvalley-ca.gov.uk/news/game-changing-160million-investment-zone-to-supercharge-regions-digital-and-creative-strengths/",
+            "publisher": "teesvalley-ca.gov.uk",
+            "title": "teesvalley-ca.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tees.ac.uk/sections/news/pressreleases_story.cfm?story_id=8479",
+            "publisher": "tees.ac.uk",
+            "title": "tees.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Similarly, the South Yorkshire Investment Zone is estimated to benefit from \u00a31.2 billion of private sector investment by 2030, leading to new advanced manufacturing jobs.",
+        "sources": [
+          {
+            "url": "https://www.birmingham.ac.uk/news/2023/investment-zones-and-uk-regional-economic-policy-a-place-focussed-but-exclusionary-solution",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Displacement:** A primary concern raised by experts, including the Institute for Fiscal Studies (IFS), is whether Investment Zones will generate genuinely *new* economic activity and jobs or simply displace them from other parts of the UK.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/freeports-and-investment-zones-what-sorts-things-should-we-consider-when-assessing-whether",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2023/investment-zones-and-uk-regional-economic-policy-a-place-focussed-but-exclusionary-solution",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Analysis of previous \"enterprise zones,\" a similar policy, suggests a significant proportion of \"created\" jobs (modest estimates suggest 34%) were due to businesses relocating, rather than new employment, and these jobs were often low-skilled.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/do-investment-zones-hold-the-key-to-unlocking-the-uks-growth-problem/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/investments-zones-can-drive-innovation-if-we-learn-from-past-mistakes/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The IFS states that calculating the \"overall net effect\" and determining if activity is truly additional is a \"key consideration\" and \"fundamentally difficult.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/freeports-and-investment-zones-what-sorts-things-should-we-consider-when-assessing-whether",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Effectiveness of Tax Incentives:** Evaluations of past enterprise zones, which also offered tax incentives, indicated they were \"very underwhelming\" in terms of total job creation.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/do-investment-zones-hold-the-key-to-unlocking-the-uks-growth-problem/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Office for Budget Responsibility (OBR), as cited by the Town and Country Planning Association, has referenced a 2019 UN World Investment Report suggesting \"little difference in performance between cities with zones and those without,\" with existing infrastructure and transportation links being \"stronger determinants of performance.\"",
+        "sources": [
+          {
+            "url": "https://www.tcpa.org.uk/the-zombie-economics-of-investment-zones/",
+            "publisher": "tcpa.org.uk",
+            "title": "tcpa.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Cost and Evaluation Challenges:** The OBR has warned that estimates of the cost of such zones are \"highly uncertain.\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "While the government initially estimated the cost of Investment Zones at \u00a31 billion over five years, the extension of tax reliefs could increase this to \u00a32 billion over 10 years, or \u00a3200 million per year.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The Business and Trade Committee and the IFS both highlight the difficulty in accurately assessing the economic impacts and the benefit-to-cost ratio due to the challenge of establishing a clear counterfactual (what would have happened without the policy).",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Competition and Concentration of Investment:** The Business and Trade Committee has voiced concerns that the policy risks creating competition between regions for private investment, or that private investment could be too spread out to create substantial positive \"spillover effects.\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They note that while the government requires regions to name a priority sector, hotspots of firm clustering rarely focus on a single industry.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Lack of Long-Term Strategy:** Critics like those at the London School of Economics (LSE) argue that Investment Zones need to support long-term industrial strategies and reduce policy uncertainty, which has often been lacking in subnational policy over the last decade.",
+        "sources": [
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/investments-zones-can-drive-innovation-if-we-learn-from-past-mistakes/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The Resolution Foundation, while not providing specific analysis on Investment Zones in the available data, consistently highlights the UK's issue as a \"low investment nation\" and emphasizes the need for a clear economic strategy to boost private investment and achieve shared growth.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/investment/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/10/Finance-for-the-future.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Health Foundation's research primarily focuses on health investment and social determinants of health and does not directly address the \"Invest in Investment Zones\" policy.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3Semcqoq_0fjnKlYj4SZTWniV763nq5ZoQkMWkDtB2rFwGwdpBcybOyKd9CWYbyoGaX3HD4WYuwdsvH6wpO7QOiFqdAXTtPt3aKwMjgl2TaD-TnfeN3WImTFMIXU1UlWQw9d1SR4mdk3-k8Fe58f_Kd3PMQcgKk9qANB7becBJGrOuc3jT6-0F-uLi6m89ZS-kw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "senate.gov",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.policymap.com/blog/sdoh-funding-opportunity-zones",
+            "publisher": "policymap.com",
+            "title": "policymap.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd0tlxV1phjTW8tQSNBv3doX2bfQP5FfJ4P_0oGbYf23NfgYesPAeJxO4dmkvVzXfqw3W8_9tBo7TdqP93XtgVN7FS7mQyP_9WdBNwJ251AkFPac0eGnFcWPtb8hg5L5oNjHk_tvPyXm0TPQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.investhealth.org/news/2023/06/driving-private-investment-toward-health-equity-using-people-centered-local-policy/",
+            "publisher": "investhealth.org",
+            "title": "investhealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://buildhealthyplaces.org/tools-resources/healthy-neighborhood-investments-policy-scan/",
+            "publisher": "buildhealthyplaces.org",
+            "title": "buildhealthyplaces.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "In summary, while the Investment Zones policy aims for significant job creation and private investment, credible analysts express concerns about the potential for displacement over genuine additionality, the proven effectiveness of similar policies, the accuracy of cost estimations, and the challenges in comprehensive evaluation.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/freeports-and-investment-zones-what-sorts-things-should-we-consider-when-assessing-whether",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/do-investment-zones-hold-the-key-to-unlocking-the-uks-growth-problem/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/investments-zones-can-drive-innovation-if-we-learn-from-past-mistakes/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmbeis/272/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tcpa.org.uk/the-zombie-economics-of-investment-zones/",
+            "publisher": "tcpa.org.uk",
+            "title": "tcpa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birmingham.ac.uk/news/2023/investment-zones-and-uk-regional-economic-policy-a-place-focussed-but-exclusionary-solution",
+            "publisher": "birmingham.ac.uk",
+            "title": "birmingham.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      }
+    ]
+  }
+}

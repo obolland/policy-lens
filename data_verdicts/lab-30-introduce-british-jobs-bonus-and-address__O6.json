@@ -1,0 +1,596 @@
+{
+  "policy_id": "lab-30-introduce-british-jobs-bonus-and-address",
+  "party": "Labour",
+  "policy_title": "Introduce British Jobs Bonus and Address Mineworkers' Pension",
+  "outcome": "O6",
+  "verdict": {
+    "outcome": "O6",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "The British Jobs Bonus channels up to \u00a3500 million a year into clean energy supply chains \u2014 wind, solar, hydrogen and carbon capture \u2014 which should help accelerate the UK's low-carbon transition. But the environmental gain is indirect and depends on whether stronger domestic supply chains actually speed up clean energy deployment at scale.",
+    "biggest_unknown": "Whether building UK manufacturing capacity for offshore wind and other renewables meaningfully accelerates deployment speed and emissions reductions, or whether it mainly shifts where components are made without changing the overall pace of the energy transition.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy allocates up to \u00a3500 million per year from 2026 to incentivise clean energy firms and build supply chains in industrial heartlands.",
+        "evidence_id": "M",
+        "quote": "allocating up to \u00a3500 million per year from 2026, to incentivise clean energy firms offering good jobs, terms and conditions, and building supply chains in industrial heartlands"
+      },
+      {
+        "tier": "stated",
+        "claim": "Grants target low-carbon industries including wind, solar, hydrogen, and carbon capture and storage.",
+        "evidence_id": "E1",
+        "quote": "capital grants to companies in low-carbon industries such as wind and solar energy, hydrogen, and carbon capture and storage"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Despite the UK having the second-largest offshore wind capacity globally, a typical North Sea turbine contains three times as much material from abroad than from the UK, indicating a weak domestic supply chain.",
+        "evidence_id": "E8",
+        "quote": "despite the UK having the second-largest offshore wind capacity globally, a typical North Sea turbine contains three times as much material from abroad than from the UK"
+      },
+      {
+        "tier": "projected",
+        "claim": "A well-funded Jobs Bonus could ensure approximately 50% of the manufacturing content in the offshore wind pipeline is produced in the UK, supported by 30 new or upgraded manufacturing facilities.",
+        "evidence_id": "E9",
+        "quote": "A properly resourced Jobs Bonus could ensure that approximately 50% of the manufacturing content in the offshore wind pipeline is produced in the UK, supported by 30 new or upgraded manufacturing facilities"
+      },
+      {
+        "tier": "projected",
+        "claim": "A related scheme is projected to attract up to \u00a33.4 billion of private investment into supply chains.",
+        "evidence_id": "E10",
+        "quote": "projected to attract up to \u00a33.4 billion of private investment into supply chains"
+      },
+      {
+        "tier": "projected",
+        "claim": "An advocacy-backed analysis suggests an additional \u00a3300 million to \u00a31 billion may be needed beyond the stated allocation to fully drive the required investment.",
+        "evidence_id": "E12",
+        "quote": "an additional \u00a3300 million to \u00a31 billion might be needed to fully drive the necessary investment into UK manufacturing supply chains"
+      }
+    ],
+    "rationale": "The British Jobs Bonus is primarily a jobs and industrial policy, but it operates squarely within clean energy sectors \u2014 wind, solar, hydrogen, CCS. To the extent it strengthens domestic supply chains and makes UK clean energy projects cheaper or faster to develop, it supports the emissions trajectory that defines O6's long-term indicator. The measurable baseline (E8) shows the UK's offshore wind supply chain is heavily import-dependent despite leading capacity; a domestic manufacturing base (E9) could reduce project costs and delivery risk, indirectly accelerating deployment. The projected leverage of private investment (E10) is plausible but comes from a parliamentary source citing a related scheme, not independent modelling of this specific policy. Critically, the mechanism is indirect: this policy does not directly build wind farms or set emissions targets \u2014 it incentivises firms to locate supply chains in the UK. Whether that translates into faster or deeper decarbonisation, rather than just reshoring production, is unproven. The advocacy-sourced analysis (E6, E12 \u2014 Uplift/Transition Economics) suggests funding may be insufficient; this should be weighted as advocacy and treated with caution. Near-term, the policy mainly creates industrial infrastructure; long-term, if domestic supply chains lower the cost and friction of deploying clean energy, there is a credible if modest improvement in the emissions trajectory. The MPS component of the policy has no plausible bearing on O6 and is excluded. Overall: a real but indirect and modest long-term improvement, with low confidence given the supply-chain-to-deployment link remains projected rather than evidenced.",
+    "time_split": {
+      "near_direction": "negligible",
+      "long_direction": "improves",
+      "note": "Near-term the policy builds manufacturing infrastructure with no direct emissions effect; over the long term, a stronger domestic clean energy supply chain could lower deployment friction and support faster decarbonisation."
+    },
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.theguardian.com/politics/2023/jun/19/labour-pledges-british-jobs-bonus-as-it-sets-out-green-energy-strategy",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+        "publisher": "labour.org.uk",
+        "title": "labour.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://prospect.org.uk/news/prospect-welcomes-labours-british-industry-bonus",
+        "publisher": "prospect.org.uk",
+        "title": "prospect.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.upliftuk.org/post/clean-energy-made-in-the-uk-2",
+        "publisher": "upliftuk.org",
+        "title": "upliftuk.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.businessgreen.com/news/4383199/study-government-jobs-bonus-deliver-wind-manufacturing-jobs",
+        "publisher": "businessgreen.com",
+        "title": "businessgreen.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://hansard.parliament.uk/Commons/2026-02-10/debates/EB591F29-719F-42DB-8BE8-AA3FB2EB8AF4/CleanIndustryBonusJobs",
+        "publisher": "hansard.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0452,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E8 is backed by theguardian.com, businessgreen.com, and upliftuk.org \u2014 the last is an advocacy source. The claim is treated as 'measurable' tier; the underlying statistic should be verified against a non-advocacy source. It is not sole-advocacy (Guardian and BusinessGreen also back it), so not blocking, but worth flagging."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E9 and E6/E12 derive from Uplift/Transition Economics, an advocacy-backed analysis. The rationale correctly labels these as advocacy and urges caution, which satisfies the handling requirement, but readers should note these projected figures rest entirely on advocacy modelling with no independent replication in evidence."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E10 references a 'related scheme' (Clean Industry Bonus) projected to attract \u00a33.4 billion, not the British Jobs Bonus itself. The claim accurately says 'a related scheme' so this is not a misrepresentation, but the evidential link to this specific policy's leverage is weak."
+        }
+      ],
+      "notes": "The verdict is well-structured and passes all blocking checks. Tiers are correctly assigned; projected claims are not stated as facts; the indirect mechanism is honestly described; the MPS component is correctly excluded from O6 scoring; no party-identity language or motive attribution is present; the mixed near/long-term split is supported by the claims. The three warnings above are minor source-quality caveats that do not require blocking."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will introduce a 'British Jobs Bonus', allocating up to \u00a3500 million per year from 2026, to incentivise clean energy firms offering good jobs, terms and conditions, and building supply chains in industrial heartlands. The party will also address the injustice of the Mineworkers' Pension Scheme by reviewing surplus arrangements and transferring the Investment Reserve Fund back to members.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The bonus will take the form of capital grants to companies in low-carbon industries such as wind and solar energy, hydrogen, and carbon capture and storage.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/jun/19/labour-pledges-british-jobs-bonus-as-it-sets-out-green-energy-strategy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://prospect.org.uk/news/prospect-welcomes-labours-british-industry-bonus",
+            "publisher": "prospect.org.uk",
+            "title": "prospect.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.upliftuk.org/post/clean-energy-made-in-the-uk-2",
+            "publisher": "upliftuk.org",
+            "title": "upliftuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Companies seeking to supply clean energy in the UK would need to demonstrate the creation of high-quality jobs in the UK.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/jun/19/labour-pledges-british-jobs-bonus-as-it-sets-out-green-energy-strategy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Job Creation:** Labour estimates that its broader clean energy mission could create 65,000 new high-quality jobs across the country by 2030.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "More specifically, the British Jobs Bonus is projected to support over 35,000 new jobs in clean energy and its supply chains in England by 2030.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Other estimates suggest the initiative could create 29,000 UK jobs by 2050",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/updates/press-releases/starmers-energy-ambition-how-labours-british-jobs-bonus-will-create-jobs-and-boost-investment-into-scottish-and-uk-energy-heartlands/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "A report by campaign group Uplift and analysts Transition Economics indicates a well-funded and targeted Jobs Bonus could create 10,000 permanent renewable energy jobs and up to 13,300 indirect jobs, particularly in areas experiencing decline, helping oil and gas workers transition into new industries.",
+        "sources": [
+          {
+            "url": "https://www.businessgreen.com/news/4383199/study-government-jobs-bonus-deliver-wind-manufacturing-jobs",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Industrial Heartlands and Supply Chains:** The policy specifically targets industrial heartlands and coastal communities, including areas with past or current coal, oil, and gas industries.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/jun/19/labour-pledges-british-jobs-bonus-as-it-sets-out-green-energy-strategy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/03/Make-Britain-a-Clean-Energy-Superpower.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This is intended to address the current situation where, despite the UK having the second-largest offshore wind capacity globally, a typical North Sea turbine contains three times as much material from abroad than from the UK.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/jun/19/labour-pledges-british-jobs-bonus-as-it-sets-out-green-energy-strategy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businessgreen.com/news/4383199/study-government-jobs-bonus-deliver-wind-manufacturing-jobs",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.upliftuk.org/post/clean-energy-made-in-the-uk-2",
+            "publisher": "upliftuk.org",
+            "title": "upliftuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "A properly resourced Jobs Bonus could ensure that approximately 50% of the manufacturing content in the offshore wind pipeline is produced in the UK, supported by 30 new or upgraded manufacturing facilities.",
+        "sources": [
+          {
+            "url": "https://www.businessgreen.com/news/4383199/study-government-jobs-bonus-deliver-wind-manufacturing-jobs",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.upliftuk.org/post/clean-energy-made-in-the-uk-2",
+            "publisher": "upliftuk.org",
+            "title": "upliftuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Investment:** The related \"Clean Industry Bonus\" (a similar scheme) is projected to attract up to \u00a33.4 billion of private investment into supply chains.",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/Commons/2026-02-10/debates/EB591F29-719F-42DB-8BE8-AA3FB2EB8AF4/CleanIndustryBonusJobs",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They believe net zero offers a \"once in a generation opportunity\" to create good, unionised jobs across the country and see the bonus as a positive response to policies like the US Inflation Reduction Act.",
+        "sources": [
+          {
+            "url": "https://prospect.org.uk/news/prospect-welcomes-labours-british-industry-bonus",
+            "publisher": "prospect.org.uk",
+            "title": "prospect.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "They argue that an additional \u00a3300 million to \u00a31 billion might be needed to fully drive the necessary investment into UK manufacturing supply chains and ensure quality jobs and transition pathways for workers.",
+        "sources": [
+          {
+            "url": "https://www.upliftuk.org/post/clean-energy-made-in-the-uk-2",
+            "publisher": "upliftuk.org",
+            "title": "upliftuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They note that such policies could lead to \"pass-through\" into lower wages for employees due to higher employer costs, although for policies of a relatively small scale, the wage changes would be modest.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/labours-policies-workers-rights-and-mandated-workplace-benefits",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Labour's policy is to address the \"injustice\" of the Mineworkers' Pension Scheme (MPS) by reviewing unfair surplus arrangements and transferring the Investment Reserve Fund back to members.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/make-britain-a-clean-energy-superpower/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Investment Reserve Fund Transfer:** In the Autumn Budget 2024, the government announced it would review the MPS surplus sharing arrangements and transfer the remaining investment reserve to the scheme's trustees.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN01189/SN01189.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This action, effectively implementing Labour's commitment, involved transferring \u00a31.5 billion to the MPS.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-ends-miners-pension-injustice",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Reeves-confirms-transfer-of-British-Coal-Staff-Superannuation-Scheme-investment-reserve-to-members.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipe.com/news/british-coal-staff-handed-back-23bn-pension-pot-in-uk-budget/10133953.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "This resulted in an average increase of \u00a329 per week for each of the 112,000 former mineworkers, representing a 32% boost to their annual pensions.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-ends-miners-pension-injustice",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Reeves-confirms-transfer-of-British-Coal-Staff-Superannuation-Scheme-investment-reserve-to-members.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN01189/SN01189.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/question/11067/mineworkers-pension-scheme-investment",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipe.com/news/british-coal-staff-handed-back-23bn-pension-pot-in-uk-budget/10133953.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "These bonus payments were expected to start in November 2024.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-ends-miners-pension-injustice",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/question/11067/mineworkers-pension-scheme-investment",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **British Coal Staff Superannuation Scheme (BCSSS):** Following this, in Budget 2025, Chancellor Rachel Reeves confirmed a similar transfer for the British Coal Staff Superannuation Scheme (BCSSS) investment reserve fund to its members.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reeves-confirms-transfer-of-British-Coal-Staff-Superannuation-Scheme-investment-reserve-to-members.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipe.com/news/british-coal-staff-handed-back-23bn-pension-pot-in-uk-budget/10133953.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This decision saw \u00a31.97 billion transferred to the BCSSS, with further payments planned over the next five financial years.",
+        "sources": [
+          {
+            "url": "https://www.ipe.com/news/british-coal-staff-handed-back-23bn-pension-pot-in-uk-budget/10133953.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Historical Context:** The Investment Reserve Fund was established in 1992 using scheme profits and was originally due to revert to the government in 2029.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-ends-miners-pension-injustice",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Reeves-confirms-transfer-of-British-Coal-Staff-Superannuation-Scheme-investment-reserve-to-members.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The government had previously received substantial amounts from the schemes: \u00a34.8 billion from the MPS and \u00a33.1 billion from the BCSSS between October 1994 and July 2024.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn01189/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN01189/SN01189.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ipe.com/news/british-coal-staff-handed-back-23bn-pension-pot-in-uk-budget/10133953.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Trustee Welcome and Further Demands:** The transfer of the investment reserve fund has been widely welcomed by retired miners and the MPS trustees, who had campaigned for this for many years.",
+        "sources": [
+          {
+            "url": "https://www.actuarialpost.co.uk/article/investment-reserve-fund-for-mineworkers-pension-transferred-24207.htm",
+            "publisher": "actuarialpost.co.uk",
+            "title": "actuarialpost.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-ends-miners-pension-injustice",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "In April 2026, MPS trustees met with the Minister for Industry to discuss these rules.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Permanence of Increases and Future Surpluses:** The main point of contention is that while the BCSSS decision led to permanent increases in member benefits, the initial 32% bonus payment for MPS members in 2024 was not explicitly permanent.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The MPS trustees are advocating for these 2024 bonus payments to be made permanent, for an additional \u00a31 billion in undistributed surplus to be used for a further bonus payment, and for 100% of future funding surpluses to be used to boost member benefits, including linking all bonus payments to inflation.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The trustees noted that while discussions have been \"constructive,\" \"significant work\" remains before an \"acceptable and fair agreement\" can be reached on future surplus sharing.",
+        "sources": [
+          {
+            "url": "https://www.pensions-expert.com/defined-benefit/mineworkers-pension-scheme-trustees-hail-progress-on-surplus-discussions/70236.article",
+            "publisher": "pensions-expert.com",
+            "title": "pensions-expert.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

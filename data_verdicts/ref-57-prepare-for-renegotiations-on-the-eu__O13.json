@@ -1,0 +1,844 @@
+{
+  "policy_id": "ref-57-prepare-for-renegotiations-on-the-eu",
+  "party": "Reform UK",
+  "policy_title": "Prepare for renegotiations on the EU Trade and Cooperation Agreement",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy only commits to 'preparing' for renegotiations \u2014 there is no guaranteed outcome, and whether any actual renegotiation would help or hurt living standards depends entirely on what terms emerge. The evidence suggests the EU would strongly resist weakening the level-playing-field rules, and that regulatory divergence so far has yielded limited benefits while increased trade barriers have already hurt productivity.",
+    "biggest_unknown": "Whether the EU would agree to any meaningful weakening of LPF provisions, or instead trigger the TCA's rebalancing mechanism imposing new tariffs on UK goods, is entirely unresolved \u2014 the direction of effect on living standards flips depending on that answer.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to preparing for renegotiations on the TCA, characterising the level-playing-field provisions as holding Britain back.",
+        "evidence_id": "M",
+        "quote": "Reform UK will prepare for renegotiations on the EU Trade and Cooperation Agreement, stating that a 'level playing field' is holding Britain back."
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR projects the post-Brexit TCA trading relationship will reduce long-run UK productivity by 4% relative to remaining in the EU.",
+        "evidence_id": "E10",
+        "quote": "The OBR forecasts that the post-Brexit trading relationship, as set out in the TCA, will reduce long-run UK productivity by 4% relative to remaining in the EU, largely due to increased non-tariff barriers"
+      },
+      {
+        "tier": "measurable",
+        "claim": "UK goods exports to the EU were 14% below their 2019 real-terms level as of 2025.",
+        "evidence_id": "E12",
+        "quote": "In 2025, UK goods exports to the EU were 14% below their 2019 real-terms level"
+      },
+      {
+        "tier": "projected",
+        "claim": "Any attempt to significantly weaken LPF provisions would likely face strong EU resistance and potential retaliatory measures.",
+        "evidence_id": "E34",
+        "quote": "Any attempt to significantly weaken these provisions would likely be met with strong resistance and potential retaliatory measures from the EU"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether renegotiations result in meaningful LPF relaxation accepted by the EU without triggering rebalancing tariffs, or instead provoke EU countermeasures that further restrict goods trade",
+      "estimate_range": "If EU imposes rebalancing tariffs, further productivity drag compounds the already-projected 4% OBR reduction; if divergence yields new competitive advantages, Resolution Foundation and UK in a Changing Europe evidence suggests gains historically have been small and have not offset trade-barrier costs"
+    },
+    "rationale": "The policy as stated is purely preparatory \u2014 'prepare for renegotiations' involves no committed instrument, no quantified target, and no guaranteed outcome. Under the soft-verb rule alone, this would score negligible. However, the aspiration is directionally clear: weakening or removing LPF provisions. The genuine uncertainty arises at the next level: what would actually happen if renegotiations were pursued in earnest?\n\nThe evidence points in two opposed directions. On the downside: the OBR projects a 4% long-run productivity loss from the current TCA, and UK goods exports are already 14% below 2019 levels. If renegotiations triggered EU rebalancing countermeasures, this would compound existing trade damage \u2014 directly harming business investment and real living standards. The institutional consensus is that the EU views LPF as foundational and would resist weakening it. On the upside: proponents argue regulatory freedom could unlock dynamism, but Resolution Foundation and UK in a Changing Europe find divergence benefits to date have been limited and outweighed by integration costs.\n\nThe policy does not reach a renegotiation outcome \u2014 it only 'prepares'. The actual effect on O13 is entirely contingent on: (a) whether renegotiations are formally triggered; (b) what the EU agrees to; (c) whether greater regulatory freedom materialises in productive investment gains; and (d) whether countermeasures are imposed. No provided evidence resolves this chain. The crux \u2014 EU acceptance vs. retaliation \u2014 spans outcomes from modest productivity gain to accelerated trade deterioration. This is genuine uncertainty: credible analysts disagree on mechanism and magnitude, and the deciding parameter is unobservable in advance. 'Too-uncertain' is therefore the honest verdict.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://obr.uk/box/the-initial-impact-of-brexit-on-uk-trade-with-the-eu/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://brexitfactbase.com/5-2-trade/brexit-impact-quantitative/",
+        "publisher": "brexitfactbase.com",
+        "title": "brexitfactbase.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7851/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.export.org.uk/insights/trade-news/the-week-ahead-in-international-trade-eu-seeks-reassurance-on-sps-deal-in-event-of-reform-uk-government/",
+        "publisher": "export.org.uk",
+        "title": "export.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1082,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are well-supported by their quoted evidence. Tiers are correctly assigned: OBR projection is 'projected', goods export figure is 'measurable' from a cited source, stated claim is 'stated'. The too-uncertain direction correctly triggers n/a for magnitude and time_horizon. The crux_parameter and estimate_range are substantive, not lazy hedges. No lever leakage \u2014 the verdict judges effect on living standards/productivity, not the policy lever itself. No party identity or motive attribution detected. The mixed/uncertain verdict is genuinely backed by claims on both sides (downside: OBR productivity drag, EU resistance; upside: divergence proponents acknowledged). E34 source (export.org.uk) is media/trade body but is used only for the 'EU resistance' projected claim which is also corroborated by E33 (Commons Library, European Commission). No false balance \u2014 the rationale notes the institutional weight leans negative but the preparatory nature of the policy and genuine EU-response uncertainty justify too-uncertain. Verdict passes."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "Analysts find that economic benefits of regulatory divergence have been limited and are outweighed by costs of increased trade barriers and reduced integration.",
+          "evidence_id": "E32",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will prepare for renegotiations on the EU Trade and Cooperation Agreement, stating that a 'level playing field' is holding Britain back.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The \"level playing field\" (LPF) provisions in the EU-UK Trade and Cooperation Agreement are designed to ensure open and fair competition between the UK and EU, preventing either party from gaining an unfair competitive advantage by lowering standards",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8852/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-trade-and-cooperation-agreement_en",
+            "publisher": "commission.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.researchgate.net/publication/396583177_The_Level_Playing_Field_and_Determining_Trade_Impact_under_Trade_Agreements_Implications_from_the_EU-UK_Trade_and_Cooperation_Agreement",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMUzrbUE177LkfZolawhyTnPV_TbBzSisKMZuSL58NZmPy-vazqHU70a1awh0pbf0A3-zwzz3Ely_ckvGu7NTYvPvmG0iY53UQwI2q3J_uxmpmFr6dVpaw6ai1qM1p8khGeGTkydTq5F3a8s7sAGDeWAcLX1659Y05dQ0XQUOrSt5SjxBLltPSkNwhrUfPrHuZ8Y3iPzTYPbVnKp5YkAUOxYVgA7zsX4bDiERdFWhpTJtJ5cY=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "policycommons.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ippr-org.files.svdcdn.com/production/Downloads/brexit-level-playing-field-march20.pdf?dm=1702046549",
+            "publisher": "ippr-org.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://capreform.eu/level-playing-field-provisions-in-the-eu-uk-tca/",
+            "publisher": "capreform.eu",
+            "title": "capreform.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2021)690576",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "These provisions cover crucial areas including:\n*   **Subsidy control**: Rules on government financial assistance to businesses",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ideas.repec.org/p/bde/opaper/2221.html",
+            "publisher": "ideas.repec.org",
+            "title": "repec.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Competition policy**: Measures to prevent anti-competitive practices",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ideas.repec.org/p/bde/opaper/2221.html",
+            "publisher": "ideas.repec.org",
+            "title": "repec.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Labour and social standards**: Protections for workers' rights",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/world-trade-review/article/level-playing-field-and-determining-trade-impact-under-trade-agreements-implications-from-the-euuk-trade-and-cooperation-agreement/1F2BDEB89C8AABD3168411F1909C594B",
+            "publisher": "cambridge.org",
+            "title": "cambridge.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ideas.repec.org/p/bde/opaper/2221.html",
+            "publisher": "ideas.repec.org",
+            "title": "repec.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Environmental protection and climate change**: Commitments to maintain and improve environmental and climate standards",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/world-trade-review/article/level-playing-field-and-determining-trade-impact-under-trade-agreements-implications-from-the-euuk-trade-and-cooperation-agreement/1F2BDEB89C8AABD3168411F1909C594B",
+            "publisher": "cambridge.org",
+            "title": "cambridge.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMUzrbUE177LkfZolawhyTnPV_TbBzSisKMZuSL58NZmPy-vazqHU70a1awh0pbf0A3-zwzz3Ely_ckvGu7NTYvPvmG0iY53UQwI2q3J_uxmpmFr6dVpaw6ai1qM1p8khGeGTkydTq5F3a8s7sAGDeWAcLX1659Y05dQ0XQUOrSt5SjxBLltPSkNwhrUfPrHuZ8Y3iPzTYPbVnKp5YkAUOxYVgA7zsX4bDiERdFWhpTJtJ5cY=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "policycommons.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://capreform.eu/level-playing-field-provisions-in-the-eu-uk-tca/",
+            "publisher": "capreform.eu",
+            "title": "capreform.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ideas.repec.org/p/bde/opaper/2221.html",
+            "publisher": "ideas.repec.org",
+            "title": "repec.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2021)690576",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Taxation**: Transparency and fair tax practices",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ideas.repec.org/p/bde/opaper/2221.html",
+            "publisher": "ideas.repec.org",
+            "title": "repec.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "A key aspect of the LPF is the \"non-regression\" clause, which commits both parties not to weaken or reduce their existing levels of protection in these areas in a manner affecting trade or investment",
+        "sources": [
+          {
+            "url": "https://www.cambridge.org/core/journals/world-trade-review/article/level-playing-field-and-determining-trade-impact-under-trade-agreements-implications-from-the-euuk-trade-and-cooperation-agreement/1F2BDEB89C8AABD3168411F1909C594B",
+            "publisher": "cambridge.org",
+            "title": "cambridge.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMUzrbUE177LkfZolawhyTnPV_TbBzSisKMZuSL58NZmPy-vazqHU70a1awh0pbf0A3-zwzz3Ely_ckvGu7NTYvPvmG0iY53UQwI2q3J_uxmpmFr6dVpaw6ai1qM1p8khGeGTkydTq5F3a8s7sAGDeWAcLX1659Y05dQ0XQUOrSt5SjxBLltPSkNwhrUfPrHuZ8Y3iPzTYPbVnKp5YkAUOxYVgA7zsX4bDiERdFWhpTJtJ5cY=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "policycommons.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://capreform.eu/level-playing-field-provisions-in-the-eu-uk-tca/",
+            "publisher": "capreform.eu",
+            "title": "capreform.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2021)690576",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/690576/EPRS_BRI(2021)690576_EN.pdf",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Should significant divergence occur and materially impact trade or investment, the TCA includes a \"rebalancing mechanism\" allowing either side to take countermeasures, including the imposition of tariffs",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9106-2/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.researchgate.net/publication/396583177_The_Level_Playing_Field_and_Determining_Trade_Impact_under_Trade_Agreements_Implications_from_the_EU-UK_Trade_and_Cooperation_Agreement",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2021)690576",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/690576/EPRS_BRI(2021)690576_EN.pdf",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Reform UK's assertion that the LPF is \"holding Britain back\" suggests a desire for greater regulatory freedom and the ability to diverge from EU standards to potentially create a perceived competitive advantage",
+        "sources": [
+          {
+            "url": "https://www.nextcenturyfoundation.org/reform-uk-a-foreign-policy-of-withdrawal/",
+            "publisher": "nextcenturyfoundation.org",
+            "title": "nextcenturyfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Increased Trade Barriers and Reduced Trade Flows:**\n*   **OBR**: The OBR forecasts that the post-Brexit trading relationship, as set out in the TCA, will reduce long-run UK productivity by 4% relative to remaining in the EU, largely due to increased non-tariff barriers",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-initial-impact-of-brexit-on-uk-trade-with-the-eu/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They also predict that both UK exports and imports will be around 15% lower in the long run than if the UK had remained in the EU",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-initial-impact-of-brexit-on-uk-trade-with-the-eu/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "In 2025, UK goods exports to the EU were 14% below their 2019 real-terms level",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/5-2-trade/brexit-impact-quantitative/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7851/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "While services exports to the EU performed better, increasing by 28% above 2019 levels in real terms by 2025, the overall picture for goods trade, which is heavily impacted by regulatory friction, remains negative",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7851/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Resolution Foundation**: Highlights that the UK's weak post-Brexit goods trade performance underscores the need for a \"reset\" in the relationship, but notes that current policy (even with EU-friendly rhetoric) has firm \"red lines\" against rejoining the single market or customs union",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/trade/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/eu-turn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "They also indicate that the impact of lost regulatory freedom is likely limited by existing international commitments, including the TCA's LPF provisions",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Trading-Up.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This could lead to the EU imposing tariffs or other countermeasures on UK goods, increasing costs for businesses and consumers",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9106-2/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.hsfkramer.com/notes/brexit/2021-01/the-view-from-brussels-eu-uk-trade-and-cooperation-agreement-level-playing-field-provisions-and-their-enforcement",
+            "publisher": "hsfkramer.com",
+            "title": "hsfkramer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The EU has even discussed demanding compensation clauses from the UK should future governments reverse regulatory alignment",
+        "sources": [
+          {
+            "url": "https://www.export.org.uk/insights/trade-news/the-week-ahead-in-international-trade-eu-seeks-reassurance-on-sps-deal-in-event-of-reform-uk-government/",
+            "publisher": "export.org.uk",
+            "title": "export.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Such actions would directly undermine the current tariff-free, quota-free trade in goods between the UK and the EU",
+        "sources": [
+          {
+            "url": "https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-trade-and-cooperation-agreement_en",
+            "publisher": "commission.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Limited Benefits from Divergence:**\n*   **UK in a Changing Europe**: Suggests that while regulatory divergence *can* create opportunities in specific areas, these benefits have so far been limited and are small compared to the costs of reduced EU integration",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/brexit-ten-years-on-the-economy/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Divergence increases costs in many other areas",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/brexit-ten-years-on-the-economy/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Resolution Foundation**: Modelling indicates that the overall value of new trade agreements the UK has signed or is negotiating (e.g., CPTPP) is small, estimated to increase goods trade by just 0.4%",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/eu-turn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The EU has strengthened its regulations (e.g., through the European Green Deal), passing 28 new environmental laws that the UK has not adopted",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/9-environment-and-climate-change/post-brexit-divergence/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The UK permits 14 pesticides that the EU has banned since Brexit",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/9-environment-and-climate-change/post-brexit-divergence/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   The EU's urban wastewater treatment directive has tightened requirements on member states for dealing with sewage and requires cost recovery from pharmaceutical and cosmetics companies for micro-pollutants; the UK has not adopted corresponding new laws",
+        "sources": [
+          {
+            "url": "https://brexitfactbase.com/9-environment-and-climate-change/post-brexit-divergence/",
+            "publisher": "brexitfactbase.com",
+            "title": "brexitfactbase.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Labour and Social Standards:**\n*   While the UK government stated its intention to maintain high standards in LPF areas, the ability to set its own laws was central to its vision during TCA negotiations",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8852/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Experts anticipate impacts throughout the food value chain, potentially affecting trade flows, investment, and food safety standards for up to a decade",
+        "sources": [
+          {
+            "url": "https://www.food.gov.uk/print/pdf/node/17706",
+            "publisher": "food.gov.uk",
+            "title": "food.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Health Foundation (via Nuffield Trust)**: The UK's departure from the EU has meant \"substantial change\" for health and social care",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElOhZS1sAJgu9nazpoHpGCKkGjv6tj0NLdfnKDc_7NhqeSsa1Bgjupw6-0B4v-tdkRMMOHtZ0YJYMLQP3GJ8cNYP_si4b5zvheXQMBR1iGvxR-v5lQEOS7oidron0HQ_bF4oglN5RSXkEcBmNAAjmrwdsum6sCLawfoDZpN1Y9bpWggSYbXr_1yUTiCKdUFpmFKpNIqXuAVhG6uXD2cxYfoEGa3MxB_e8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Data confirms the UK has had the lowest import growth in medicines of any G7 country, driven by a reduction in EU imports, illustrating the particular impacts of leaving the EU",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/research/health-in-the-uk-after-brexit-moving-apart-or-stuck-together",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   The legal settlement post-Brexit (TCA) does not strongly support positive health and social care outcomes in most areas and, without mitigating action, is likely to be detrimental, particularly concerning NHS staffing, funding, and capital financing",
+        "sources": [
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/188587/1/impact-on-the-nhs-and-health-of-the-uks-trade-and-cooperation-relationship-with-the-eu-and-beyond.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7294072/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "While there is a broad consensus among the cited institutions that Brexit, including the terms of the TCA, has had a negative economic impact on the UK compared to remaining in the EU",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/brexit-ten-years-on-the-economy/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://obr.uk/box/the-initial-impact-of-brexit-on-uk-trade-with-the-eu/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/the-economy-forecast/brexit-analysis/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/how-uk-economy-changed-since-brexit-vote-charts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Benefits of Divergence**: Reform UK and proponents of further divergence argue that the LPF \"holds Britain back,\" implying that freedom from these rules would allow the UK to innovate, deregulate, and create a more dynamic economy",
+        "sources": [
+          {
+            "url": "https://www.nextcenturyfoundation.org/reform-uk-a-foreign-policy-of-withdrawal/",
+            "publisher": "nextcenturyfoundation.org",
+            "title": "nextcenturyfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "However, analysts from the **Resolution Foundation** and **UK in a Changing Europe** generally contend that the economic benefits of regulatory divergence have been limited so far and are outweighed by the costs of increased trade barriers and reduced integration",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/brexit-ten-years-on-the-economy/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Trading-Up.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/eu-turn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **EU's Response**: While some might argue the EU would be open to significant changes to the LPF, the consensus from institutions like the **House of Commons Library** and the **European Commission** is that the LPF was a highly contentious and essential part of the original negotiations, given the UK's geographical proximity and economic interdependence with the EU",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9190/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8852/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ippr-org.files.svdcdn.com/production/Downloads/brexit-level-playing-field-march20.pdf?dm=1702046549",
+            "publisher": "ippr-org.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2021)690576",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/690576/EPRS_BRI(2021)690576_EN.pdf",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Any attempt to significantly weaken these provisions would likely be met with strong resistance and potential retaliatory measures from the EU, as highlighted by discussions around \"Farage clauses\" for compensation",
+        "sources": [
+          {
+            "url": "https://www.export.org.uk/insights/trade-news/the-week-ahead-in-international-trade-eu-seeks-reassurance-on-sps-deal-in-event-of-reform-uk-government/",
+            "publisher": "export.org.uk",
+            "title": "export.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Feasibility of \"Unshackling\"**: The **Resolution Foundation** suggests that the UK's existing international commitments, including the TCA itself, limit the scope for \"de-liberalisation\" through the LPF",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Trading-Up.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ideas.repec.org/p/bde/opaper/2221.html",
+            "publisher": "ideas.repec.org",
+            "title": "repec.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

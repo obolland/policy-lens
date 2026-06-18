@@ -1,0 +1,604 @@
+{
+  "policy_id": "con-120-introduce-new-bbc-complaints-process",
+  "party": "Conservative",
+  "policy_title": "Introduce New BBC Complaints Process",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "A reformed BBC complaints process could improve diversity of thought on a major public broadcaster, but the same mechanism could equally allow political pressure to chill editorial independence \u2014 both effects are plausible and neither is resolved by the evidence. The policy lacks a specified instrument, so its real-world liberty impact is genuinely unclear.",
+    "biggest_unknown": "Whether the new process would be structurally independent of government or become a lever for political interference in BBC editorial decisions \u2014 the policy text commits to no design detail that would settle this.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to introducing a new complaints process so the BBC does not mark its own homework, upholding diversity of thought, accuracy and impartiality.",
+        "evidence_id": "M",
+        "quote": "introduce a new complaints process for the BBC to ensure it does not 'mark its own homework', upholding principles of diversity of thought, accuracy, and impartiality"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The current BBC First system requires audiences to complain directly to the BBC before escalating to Ofcom, creating a self-policing structure.",
+        "evidence_id": "E2",
+        "quote": "The current system, known as \"BBC First,\" requires audiences to complain directly to the BBC before escalating their concerns to the external regulator, Ofcom"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Only 18% of complainants were satisfied with the BBC First process, indicating significant public dissatisfaction.",
+        "evidence_id": "E10",
+        "quote": "only 18% of complainants were satisfied with the BBC First process"
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics argue the BBC First system allows the BBC to act as judge and jury over its own content, undermining impartiality accountability.",
+        "evidence_id": "E4",
+        "quote": "the \"BBC First\" system allows the BBC to act as \"judge and jury\" over its own content, fostering an institutional tendency to narrowly interpret complaints and resist findings that might challenge its impartiality"
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics have labelled government proposals as an attempt to undermine the BBC.",
+        "evidence_id": "E25",
+        "quote": "critics have labeled the government's proposals as \"another 'kick' at the broadcaster\" and an attempt to undermine the BBC"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether the new complaints body is structurally independent of government or susceptible to political direction",
+      "estimate_range": "Ranges from a net O10 improvement (genuine editorial accountability, greater diversity of thought on a dominant public broadcaster) to a net O10 worsening (state leverage over BBC editorial line, chilling effect on journalism)"
+    },
+    "rationale": "O10 asks whether people are freer from state control over speech and expression. This policy sits at a genuine tension: on one side, a credibly independent external complaints mechanism could strengthen diversity of thought by disciplining a dominant public broadcaster that currently upholds very few impartiality complaints through internal review. On the other, without a committed structural design, the same mechanism could become an instrument of political pressure on BBC editorial decisions \u2014 precisely the state-coercion-over-speech concern O10 guards against. The evidence shows the current BBC First system has real accountability problems (low satisfaction, low uphold rates, funnelling effect), which a well-designed reform could address in liberty-positive ways. But the policy text is aspirational \u2014 it names the goal but commits to no design, no independent adjudicator structure, no statutory safeguard against political direction. Credible observers (E24, E25) raise a non-fringe concern about political interference; credible observers (E23) argue the opposite, that genuine independence would improve accountability. Because the crux \u2014 structural independence vs. political leverage \u2014 cannot be resolved from the stated text or provided evidence, and both directions have cited support, 'too-uncertain' is the honest verdict. Neither 'improves' nor 'worsens' can be earned without knowing the mechanism.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/bbc/how-ofcom-deals-with-bbc-complaints--what-you-need-to-know",
+        "publisher": "ofcom.org.uk",
+        "title": "ofcom.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/222191-how-ofcom-regulates-the-bbc/associated-documents/3-bbc-first-complaints-research-report.pdf?v=328091",
+        "publisher": "ofcom.org.uk",
+        "title": "ofcom.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+        "publisher": "committees.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+        "publisher": "news-watch.co.uk",
+        "title": "news-watch.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+        "publisher": "publicmediaalliance.org",
+        "title": "publicmediaalliance.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0468,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are well-supported by their cited evidence. Tier assignments are correct: E2 and E10 are measurable baselines from Ofcom data; E4 and E25 are appropriately flagged as projected/advocacy. The too-uncertain direction is genuinely earned: the rationale identifies credible voices on both sides (E23 vs E24/E25) and the crux_parameter (structural independence vs political leverage) is specific and unresolved by the stated text. Magnitude and time_horizon are both n/a as required. No lever leakage \u2014 the verdict judges the liberty effect, not process reform as a good in itself. No party-blind issues: E24 and E25 are cited as counter-views without endorsing their framing, and no motive is imputed. No false-balance concern: both directions have cited evidentiary backing. Minor observation: news-watch.co.uk is an advocacy/monitoring source and drives several measurable-tier claims (E6\u2013E12) via the parliamentary committee submission route; this is acceptable since it is filtered through a parliamentary evidence unit and labelled, but a future revision should note its interest explicitly in the source object."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The Media Reform Coalition views the pledge as potentially enabling further political attacks on the BBC's independence.",
+          "evidence_id": "E24",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will introduce a new complaints process for the BBC to ensure it does not 'mark its own homework', upholding principles of diversity of thought, accuracy, and impartiality.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Conservative Party's policy to introduce a new BBC complaints process aims to ensure the broadcaster does not \"mark its own homework\" and to uphold principles of diversity of thought, accuracy, and impartiality",
+        "sources": [
+          {
+            "url": "https://www.mediareform.org.uk/blog/election-2024-manifestos-compared",
+            "publisher": "mediareform.org.uk",
+            "title": "mediareform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The current system, known as \"BBC First,\" requires audiences to complain directly to the BBC before escalating their concerns to the external regulator, Ofcom",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/bbc/how-ofcom-deals-with-bbc-complaints--what-you-need-to-know",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/222191-how-ofcom-regulates-the-bbc/associated-documents/3-bbc-first-complaints-research-report.pdf?v=328091",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Lack of Public Confidence:** There is a notable \"lack of public confidence in the way the BBC currently handles complaints\"",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **\"Marking its own homework\":** Critics argue that the \"BBC First\" system allows the BBC to act as \"judge and jury\" over its own content, fostering an institutional tendency to narrowly interpret complaints and resist findings that might challenge its impartiality",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Conservative Party's manifesto explicitly uses this phrase",
+        "sources": [
+          {
+            "url": "https://www.mediareform.org.uk/blog/election-2024-manifestos-compared",
+            "publisher": "mediareform.org.uk",
+            "title": "mediareform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Low Upholding Rate for Impartiality Complaints:** A detailed survey by News-watch, an independent media monitoring organization, found that between 2017 and 2025, the BBC's Editorial Complaints Unit (ECU), the final internal review stage, upheld only 38 impartiality complaints out of approximately 2.27 million total complaints received by the BBC",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "During the same period, Ofcom recorded just one breach related to due impartiality",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Research from Cardiff University's School of Journalism, Media and Culture indicated that 72.9% of all complaints to the BBC between January and August 2025 concerned impartiality",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Opacity and Lack of Transparency:** Neither the BBC nor Ofcom publishes comprehensive, accessible data on the volume, subject matter, and outcomes of complaints, making independent scrutiny difficult and undermining accountability",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Complainant Dissatisfaction:** Independent research commissioned by Ofcom revealed that only 18% of complainants were satisfied with the BBC First process",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/222191-how-ofcom-regulates-the-bbc/associated-documents/3-bbc-first-complaints-research-report.pdf?v=328091",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **\"Funnelling Effect\":** The system's design, characterized by mandatory internal stages, strict deadlines, and programme-specific complaint requirements, creates a \"funnelling effect.\" This results in a vast number of initial complaints leading to very few formal investigations by Ofcom\u2014only nine across the entire Charter period, with just four breaches identified",
+        "sources": [
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Exclusion of Thematic Analysis:** The current process primarily handles complaints about single programme items, which limits the ability to examine broader thematic or longitudinal patterns of potential bias across the BBC's output",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Low Awareness:** Only 21% of UK adults were aware of the BBC First process for editorial complaints, and a mere 7% understood the full three-stage process",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-2-6-weeks/222191-how-ofcom-regulates-the-bbc/associated-documents/3-bbc-first-complaints-research-report.pdf?v=328091",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The government's Mid-Term Review of the BBC's Royal Charter, published in January 2024, recommended several reforms to enhance public confidence in the BBC's impartiality and complaints system",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Enhanced BBC Board Oversight:** The BBC Board will be given a new, legally binding responsibility to actively oversee how the complaints process functions in practice, rather than merely overseeing its establishment",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0093/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Greater Scrutiny Powers:** Non-executive directors and external advisors on the BBC's Editorial Guidelines and Standards Committee will receive greater powers to scrutinize and challenge how BBC senior management responds to complaints",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0093/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Separation of Functions:** The role responsible for complaints handling will now report directly to the Director-General, separating post-broadcast complaints resolution from pre-broadcast editorial policy",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0093/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Extended Ofcom Oversight:** Ofcom's regulatory oversight will be extended to include parts of the BBC's online public services, such as the BBC News website, granting Ofcom enforcement powers in these areas",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://camera-uk.org/2024/01/26/mid-term-review-of-the-bbc-highlights-impartiality-and-complaints/",
+            "publisher": "camera-uk.org",
+            "title": "camera-uk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Ofcom will also gain a new legally binding responsibility to review more of the BBC's complaints decisions, aiming to give audiences greater confidence in the fairness of complaint handling",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Improved Audience Experience:** The review recommends the BBC significantly improve the experience for complainants by providing clearer explanations of the process and the roles of both the BBC and Ofcom",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Ofcom is also developing plans for better communication to increase audience understanding of its rules and complaint handling",
+        "sources": [
+          {
+            "url": "https://camera-uk.org/2024/01/26/mid-term-review-of-the-bbc-highlights-impartiality-and-complaints/",
+            "publisher": "camera-uk.org",
+            "title": "camera-uk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The BBC has also undertaken its own internal reforms following the Huw Edwards scandal, including developing a centralized system for managing non-editorial complaints and introducing clearer escalation mechanisms for serious issues",
+        "sources": [
+          {
+            "url": "https://www.hrdconnect.com/2024/02/29/bbc-revamps-complaints-procedure-after-scandal-rocks-broadcaster/",
+            "publisher": "hrdconnect.com",
+            "title": "hrdconnect.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Support for Independence:** Organizations like News-watch strongly advocate for a \"genuinely independent external adjudicatory mechanism\" for complaints, arguing that the current system's failures have seriously undermined public trust",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Skepticism about Government Intentions:** The Media Reform Coalition views the Conservative manifesto pledge as potentially \"even more political attacks on the BBC's independence,\" suggesting an ironic choice of words given the Conservatives' support for other press self-regulation models",
+        "sources": [
+          {
+            "url": "https://www.mediareform.org.uk/blog/election-2024-manifestos-compared",
+            "publisher": "mediareform.org.uk",
+            "title": "mediareform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The Public Media Alliance noted that critics have labeled the government's proposals as \"another 'kick' at the broadcaster\" and an attempt to undermine the BBC",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **BBC's View:** A BBC spokesperson expressed satisfaction that some of the BBC's own implemented reforms to strengthen complaints procedures were recognized and included in the Mid-Term Review's conclusions",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Focus on Impartiality:** The government's Mid-Term Review itself highlighted that \"impartiality continues to be an ongoing issue for audiences\" and that more can be done to address audience perception that the BBC is not sufficiently impartial",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://camera-uk.org/2024/01/26/mid-term-review-of-the-bbc-highlights-impartiality-and-complaints/",
+            "publisher": "camera-uk.org",
+            "title": "camera-uk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The current system has been criticized for failing to adequately address concerns, particularly around impartiality, with a very low number of such complaints being upheld",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165583/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://news-watch.co.uk/wp-content/uploads/2026/03/News-watch-Submission-to-the-BBC-Charter-Review-Ofcom-and-the-BBC-2017-2025-research-paper.pdf",
+            "publisher": "news-watch.co.uk",
+            "title": "news-watch.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The extension of Ofcom's powers to online content is also relevant given the increasing consumption of news in digital formats",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/government-review-proposes-a-range-of-changes-at-the-bbc/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/reforms-to-boost-confidence-in-the-bbcs-impartiality-and-complaints-system-set-out-in-mid-term-review",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://camera-uk.org/2024/01/26/mid-term-review-of-the-bbc-highlights-impartiality-and-complaints/",
+            "publisher": "camera-uk.org",
+            "title": "camera-uk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "While the policy aims to boost public confidence, the Media Reform Coalition's perspective suggests that political interference could also be a concern, potentially leading to different interpretations of \"impartiality\" and \"diversity of thought\"",
+        "sources": [
+          {
+            "url": "https://www.mediareform.org.uk/blog/election-2024-manifestos-compared",
+            "publisher": "mediareform.org.uk",
+            "title": "mediareform.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

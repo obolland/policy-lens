@@ -1,0 +1,665 @@
+{
+  "policy_id": "con-76-implement-import-carbon-pricing-mechanism",
+  "party": "Conservative",
+  "policy_title": "Implement Import Carbon Pricing Mechanism",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "An import carbon levy creates a new revenue stream for the Exchequer \u2014 estimated around \u00a3800 million a year \u2014 without adding unfunded spending, so it modestly improves the public finances position. The main caveat is that official OBR forecasts have not been published, so the actual yield is uncertain.",
+    "biggest_unknown": "The actual revenue yield depends heavily on the carbon price, import volumes, and how overseas producers respond \u2014 the OBR has not yet published detailed forecasts.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to implementing an import carbon pricing mechanism by 2027 on carbon-intensive goods.",
+        "evidence_id": "M",
+        "quote": "implement a new import carbon pricing mechanism by 2027 to ensure that imports of carbon-intensive goods from countries with lower or no carbon prices face a comparable carbon price to UK-produced goods"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Finance Act 2026 already made legal provision for the UK CBAM, granting HMRC enforcement powers.",
+        "evidence_id": "E15",
+        "quote": "the Finance Act 2026 made provision for the UK CBAM in law, granting HMRC powers for its operation and enforcement"
+      },
+      {
+        "tier": "projected",
+        "claim": "An LSE analysis estimated the CBAM could generate close to \u00a3800 million per annum at a carbon price adjustment rate of \u20ac50/tonne CO2.",
+        "evidence_id": "E12",
+        "quote": "estimated that a UK CBAM, if applied to raw materials such as steel, cement, plastic, paper, and cement, could generate close to \u00a3800 million per annum, assuming a carbon price adjustment rate of \u20ac50/tonne of CO2"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR recognises CBAM as a new tax but has not published specific revenue forecasts.",
+        "evidence_id": "E11",
+        "quote": "the Office for Budget Responsibility (OBR) acknowledges the CBAM as a new tax, specific revenue forecasts have not yet been publicly detailed in their March 2026 outlook"
+      },
+      {
+        "tier": "measurable",
+        "claim": "UK businesses and overseas exporters will incur administrative compliance costs, including one-off and ongoing costs.",
+        "evidence_id": "E6",
+        "quote": "one-off expenses for familiarisation with the new requirements, staff training, and setting up new systems, as well as ongoing costs for collating and reporting information to HMRC"
+      },
+      {
+        "tier": "projected",
+        "claim": "Overseas businesses may pass administrative costs on to UK importers, raising procurement costs for downstream sectors.",
+        "evidence_id": "E7",
+        "quote": "Overseas businesses exporting to the UK may also incur increased administrative costs, which could be passed on to UK importers"
+      }
+    ],
+    "rationale": "This policy introduces a new tax on imports of carbon-intensive goods. From an O12 perspective, the key question is whether it raises net revenue for the Exchequer or worsens the fiscal position. The mechanism is explicitly a revenue-raising instrument: the OBR acknowledges it as a new tax, and the LSE projects yields of around \u00a3800 million per year at a \u20ac50/tonne carbon price \u2014 a non-trivial sum, though modest relative to total public spending. Crucially, no new unfunded spending is attached; the policy is self-financing by design. This contrasts with the standard 'worsens' scenario of unfunded giveaways. Compliance costs fall primarily on importing businesses and overseas exporters, not on the Exchequer directly, though some cost pass-through to UK importers could modestly dent economic activity and hence tax receipts. The near-term horizon (2027 launch) means fiscal effects land within this parliament. The direction is a modest improvement to the fiscal position \u2014 new revenue with no new borrowing commitment. The magnitude is minor rather than moderate because: (a) OBR has not published its own forecast, making the \u00a3800m figure a single academic projection; (b) reduced import volumes in affected sectors (E10) could erode the base; and (c) the divergence from EU CBAM scope (excluding indirect emissions, E25) may allow trade diversion that caps revenue. Confidence is low because the decisive parameter \u2014 actual revenue yield \u2014 lacks an official OBR estimate.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9935/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9935/CBP-9935.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2021/04/What-does-an-EU-Carbon-Border-Adjustment-Mechanism-mean-for-the-UK_SUMMARY.pdf",
+        "publisher": "lse.ac.uk",
+        "title": "lse.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.customs-declarations.uk/uk-carbon-border-adjustment-mechanism-what-you-need-to-know/",
+        "publisher": "customs-declarations.uk",
+        "title": "customs-declarations.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0419,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are appropriately tiered and the quotes entail the claims as stated. The \u00a3800m figure is correctly attributed to a single LSE projection at a specified assumption (\u20ac50/tonne), not overstated as consensus. OBR absence of forecast is accurately characterised. Tier integrity holds: E15 (Finance Act 2026 provision) is treated as measurable, which is reasonable as enacted legislation is a verifiable fact. Compliance costs (E6) classified as measurable is acceptable \u2014 these are stated government impact assessment costs, not projections. Direction of 'improves' is supportable given a new revenue instrument with no attached unfunded spending, and the rationale correctly keeps magnitude minor and confidence low given the single-source revenue estimate. No party-identity language, no lever leakage, no false balance concerns."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will implement a new import carbon pricing mechanism by 2027 to ensure that imports of carbon-intensive goods from countries with lower or no carbon prices face a comparable carbon price to UK-produced goods, reducing carbon leakage.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The CBAM is intended to ensure that imports of carbon-intensive goods face a comparable carbon price to those produced within the UK under the UK Emissions Trading Scheme (ETS), thereby supporting the UK's decarbonisation efforts and encouraging a true reduction in global emissions.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9935/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPcgQMDuzOOd2qcpbRL0z-qaD9b5cYFH4c_G2NXjZhUc4AtTqSj1PluGKAQC9IRdjkooXOkiuZoDdLNEDnKjNL2KMPAKFnCk5TQREbQkUos1x1glgKc_MwL0_vSzG9rbJLqKPYVUi-3Pi63pDxdOoot4_kxJcvZsXnkWbJCC4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "energyinst.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TCG1mamb2Oc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Prevention of Carbon Leakage and Support for UK Industry:**\n    The primary goal is to mitigate carbon leakage, ensuring that UK efforts to reduce emissions genuinely contribute to global reductions rather than just displacing emissions overseas.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TCG1mamb2Oc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "By levelling the playing field, the CBAM is expected to give UK industries, particularly those in carbon-intensive sectors, the confidence to invest in decarbonisation",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tradefinanceglobal.com/posts/britain-to-launch-cbam-by-2027-targeting-carbon-intensive-imports/",
+            "publisher": "tradefinanceglobal.com",
+            "title": "tradefinanceglobal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Domestic producers have actively called for its introduction",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "It could also support the growth of a low-carbon manufacturing base within the UK",
+        "sources": [
+          {
+            "url": "https://www.tlt.com/insights-and-events/insight/the-uk-carbon-border-adjustment-mechanism-and-potential-impacts-on-projects",
+            "publisher": "tlt.com",
+            "title": "tlt.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "These include one-off expenses for familiarisation with the new requirements, staff training, and setting up new systems, as well as ongoing costs for collating and reporting information to HMRC",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.customs-declarations.uk/uk-carbon-border-adjustment-mechanism-what-you-need-to-know/",
+            "publisher": "customs-declarations.uk",
+            "title": "customs-declarations.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Overseas businesses exporting to the UK may also incur increased administrative costs, which could be passed on to UK importers",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Downstream sectors that rely on imported CBAM products could experience higher procurement costs and related pricing pressures",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPcgQMDuzOOd2qcpbRL0z-qaD9b5cYFH4c_G2NXjZhUc4AtTqSj1PluGKAQC9IRdjkooXOkiuZoDdLNEDnKjNL2KMPAKFnCk5TQREbQkUos1x1glgKc_MwL0_vSzG9rbJLqKPYVUi-3Pi63pDxdOoot4_kxJcvZsXnkWbJCC4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "energyinst.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tlt.com/insights-and-events/insight/the-uk-carbon-border-adjustment-mechanism-and-potential-impacts-on-projects",
+            "publisher": "tlt.com",
+            "title": "tlt.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The mechanism applies to businesses importing \u00a350,000 or more of specified goods over a 12-month period.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPcgQMDuzOOd2qcpbRL0z-qaD9b5cYFH4c_G2NXjZhUc4AtTqSj1PluGKAQC9IRdjkooXOkiuZoDdLNEDnKjNL2KMPAKFnCk5TQREbQkUos1x1glgKc_MwL0_vSzG9rbJLqKPYVUi-3Pi63pDxdOoot4_kxJcvZsXnkWbJCC4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "energyinst.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TCG1mamb2Oc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Conversely, trade in these sectors may decrease with regions characterized by emissions-intensive production or the absence of carbon pricing.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**Revenue Generation:**\n    While the Office for Budget Responsibility (OBR) acknowledges the CBAM as a new tax, specific revenue forecasts have not yet been publicly detailed in their March 2026 outlook",
+        "sources": [
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "However, an analysis by the London School of Economics (LSE) (though not one of the explicitly requested core institutions, it offers a credible academic perspective) estimated that a UK CBAM, if applied to raw materials such as steel, cement, plastic, paper, and cement, could generate close to \u00a3800 million per annum, assuming a carbon price adjustment rate of \u20ac50/tonne of CO2.",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2021/04/What-does-an-EU-Carbon-Border-Adjustment-Mechanism-mean-for-the-UK_SUMMARY.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "**Environmental Effectiveness:**\n    The policy aims to support the effectiveness of UK decarbonisation efforts in the targeted sectors and lead to a genuine reduction in global emissions.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism/carbon-border-adjustment-mechanism",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The Office for National Statistics (ONS) highlights that emissions embedded in UK imports increased from 34% to 61% of the UK's consumption-based emissions between 1990 and 2022, underscoring the importance of addressing imported emissions.",
+        "sources": [
+          {
+            "url": "https://www.escoe.ac.uk/the-uks-hidden-carbon-footprint/",
+            "publisher": "escoe.ac.uk",
+            "title": "escoe.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "It outlines that the Finance Act 2026 made provision for the UK CBAM in law, granting HMRC powers for its operation and enforcement.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9935/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9935/CBP-9935.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The HCL notes the aim is to ensure imported carbon-intensive goods, such as aluminium, cement, fertilisers, hydrogen, and iron and steel, face equivalent carbon costs to domestic production.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9935/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9935/CBP-9935.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** The IFS views the CBAM as a significant step away from a purely territorial emissions model towards a consumption-based approach, which taxes the carbon content of goods consumed in the UK, irrespective of their origin.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIH6hVL6Fr9xBynygOYH2YN65pWIsz57_4gCLh4ejJ9SkkbD6T4N4RM-NxdXJ8NCtBhQsER-gxha4Ep__znoKiNpRCBLZ_mOGALCbJGs2cspuCTVMqjSeGlNpRH3cXkmRDijM9MA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The IFS considers it a potential \"blueprint for preventing firms relocating their dirty factories elsewhere, giving carbon taxes in deindustrialising countries real bite.\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIH6hVL6Fr9xBynygOYH2YN65pWIsz57_4gCLh4ejJ9SkkbD6T4N4RM-NxdXJ8NCtBhQsER-gxha4Ep__znoKiNpRCBLZ_mOGALCbJGs2cspuCTVMqjSeGlNpRH3cXkmRDijM9MA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Office for National Statistics (ONS):** The ONS provides data context, stating that UK consumption of goods involved 1.2 million tonnes of carbon dioxide equivalent per billion pounds of imports in 2021.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/economy/environmentalaccounts/articles/greenhousegasemissionsandtradeuk/2024",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "It shows that while overall UK greenhouse gas emissions have fallen, consumption emissions (which include emissions embedded in imports) have declined at a slower rate, partly due to increased reliance on certain imported goods.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/economy/environmentalaccounts/articles/greenhousegasemissionsandtradeuk/2024",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The ONS highlights that EU countries were the largest source region for consumption emissions embedded in imports in 2021.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/economy/environmentalaccounts/articles/greenhousegasemissionsandtradeuk/2024",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They suggest that the priority within the Emissions Trading Scheme should be to phase out the \u00a32.4 billion a year of free emission allowances, while simultaneously accounting for un-priced emissions embedded in key categories of imports via a CBAM.",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Tax-planning.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They also emphasize the importance of alignment with EU carbon pricing policies to mitigate negative trade impacts, noting that the UK and EU ETS schemes are generally aligned.",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/06/Trading-Up.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The EU CBAM began its transitional reporting phase in October 2023, with charges commencing in 2026, a year ahead of the UK.",
+        "sources": [
+          {
+            "url": "https://independent-freight.com/ifs-quick-guide-to-cbam-carbon-border-adjustment-mechanism/",
+            "publisher": "independent-freight.com",
+            "title": "independent-freight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tradefinanceglobal.com/posts/britain-to-launch-cbam-by-2027-targeting-carbon-intensive-imports/",
+            "publisher": "tradefinanceglobal.com",
+            "title": "tradefinanceglobal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-to-introduce-a-carbon-border-tax-in-2027",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Crucially, the UK CBAM will *not* initially include indirect emissions (Scope 2 and 3, related to electricity consumption during manufacturing) in its scope from January 2027, unlike the EU CBAM.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPcgQMDuzOOd2qcpbRL0z-qaD9b5cYFH4c_G2NXjZhUc4AtTqSj1PluGKAQC9IRdjkooXOkiuZoDdLNEDnKjNL2KMPAKFnCk5TQREbQkUos1x1glgKc_MwL0_vSzG9rbJLqKPYVUi-3Pi63pDxdOoot4_kxJcvZsXnkWbJCC4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "energyinst.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europeantax.blog/post/102jnou/borders-of-smoke-and-steel-the-uk-cbam-consultation-response",
+            "publisher": "europeantax.blog",
+            "title": "europeantax.blog",
+            "source_type": "media"
+          },
+          {
+            "url": "https://icapcarbonaction.com/en/news/uk-outlines-details-carbon-border-adjustment-mechanism-introduction-2027",
+            "publisher": "icapcarbonaction.com",
+            "title": "icapcarbonaction.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "This divergence has been flagged as a \"risk for trade diversions, where the UK could become a more attractive market for carbon-intensive goods\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPcgQMDuzOOd2qcpbRL0z-qaD9b5cYFH4c_G2NXjZhUc4AtTqSj1PluGKAQC9IRdjkooXOkiuZoDdLNEDnKjNL2KMPAKFnCk5TQREbQkUos1x1glgKc_MwL0_vSzG9rbJLqKPYVUi-3Pi63pDxdOoot4_kxJcvZsXnkWbJCC4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "energyinst.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Unlike the EU, the UK has not introduced a specific scheme to support manufacturers exporting to markets that do not impose a carbon tax.",
+        "sources": [
+          {
+            "url": "https://gmk.center/en/news/british-cbam-could-hurt-the-country-s-industry-industry-groups/",
+            "publisher": "gmk.center",
+            "title": "gmk.center",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "This could make UK manufacturers who export less competitive in overseas markets due to the unilateral carbon cost they bear for production in the UK.",
+        "sources": [
+          {
+            "url": "https://www.cia.org.uk/energy-and-climate-change/uk-carbon-pricing-and-border-adjustment/1148.article",
+            "publisher": "cia.org.uk",
+            "title": "cia.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Global producers of carbon-intensive goods (like steel, cement, and fertilisers) might divert products to the UK to avoid the earlier-imposed European carbon tax.",
+        "sources": [
+          {
+            "url": "https://gmk.center/en/news/british-cbam-could-hurt-the-country-s-industry-industry-groups/",
+            "publisher": "gmk.center",
+            "title": "gmk.center",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/uk-to-introduce-a-carbon-border-tax-in-2027",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Some industry groups also argue that the Treasury has not adequately addressed their concerns, potentially putting British manufacturers at a disadvantage.",
+        "sources": [
+          {
+            "url": "https://gmk.center/en/news/british-cbam-could-hurt-the-country-s-industry-industry-groups/",
+            "publisher": "gmk.center",
+            "title": "gmk.center",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The government intends to use a single default value per product, based on global averages.",
+        "sources": [
+          {
+            "url": "https://www.europeantax.blog/post/102jnou/borders-of-smoke-and-steel-the-uk-cbam-consultation-response",
+            "publisher": "europeantax.blog",
+            "title": "europeantax.blog",
+            "source_type": "media"
+          },
+          {
+            "url": "https://icapcarbonaction.com/en/news/uk-outlines-details-carbon-border-adjustment-mechanism-introduction-2027",
+            "publisher": "icapcarbonaction.com",
+            "title": "icapcarbonaction.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "However, some industry representatives argue that using an average value might allow some imports to declare lower emissions, which they see as unacceptable for ensuring fair treatment of carbon costs.",
+        "sources": [
+          {
+            "url": "https://gmk.center/en/news/british-cbam-could-hurt-the-country-s-industry-industry-groups/",
+            "publisher": "gmk.center",
+            "title": "gmk.center",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "They advocate for a joined-up policy approach and emphasize that free allocations for UK industry must effectively mitigate carbon leakage until low-carbon alternatives are competitively available.",
+        "sources": [
+          {
+            "url": "https://www.cia.org.uk/energy-and-climate-change/uk-carbon-pricing-and-border-adjustment/1148.article",
+            "publisher": "cia.org.uk",
+            "title": "cia.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "The mechanism specifies that the CBAM rate will be adjusted to reflect free allowances provided to UK industry under the ETS.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary/carbon-border-adjustment-mechanism-cbam-policy-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "There are \"substantial practical and legal questions\" to be addressed, particularly regarding whether a CBAM can be justified on environmental grounds without discriminating against foreign products.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/carbon-border-adjustment-ciot-ifs-debate",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taxadvisermagazine.com/article/ciotifs-debate-carbon-border-adjustment",
+            "publisher": "taxadvisermagazine.com",
+            "title": "taxadvisermagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Aligning the UK's ETS with the EU's could help mitigate potential challenges and avoid additional costs for UK firms exporting to the EU.",
+        "sources": [
+          {
+            "url": "https://citp.ac.uk/publications/the-economic-significance-of-the-eu-cbam-in-the-uk",
+            "publisher": "citp.ac.uk",
+            "title": "citp.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      }
+    ]
+  }
+}

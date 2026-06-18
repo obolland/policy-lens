@@ -1,0 +1,227 @@
+{
+  "policy_id": "lab-05-reduce-household-costs-and-support-families",
+  "party": "Labour",
+  "policy_title": "Reduce Household Costs and Support Families",
+  "outcome": "O2",
+  "verdict": {
+    "outcome": "O2",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "This policy aims to cut household costs through cheaper energy, lower food prices by removing trade barriers, and a tax-lock on income tax, NI and VAT \u2014 but most of the bigger gains depend on reforms that take years to deliver. The immediate relief is modest; the long-run picture is more promising if the energy and trade commitments are delivered.",
+    "biggest_unknown": "Whether the Green Prosperity Plan actually delivers cheaper household energy bills by 2030, and whether meaningful trade barrier reductions are achievable outside the EU's single market.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to reducing energy costs, lowering food prices by removing trade barriers, expanding childcare access, and ensuring work pays.",
+        "evidence_id": "M",
+        "quote": "reducing energy costs, lowering food prices by removing trade barriers, making housing more affordable, expanding childcare access, and ensuring work pays"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy commits to free breakfast clubs in every primary school, reducing a direct cost burden for families.",
+        "evidence_id": "M",
+        "quote": "introduce free breakfast clubs in every primary school"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy commits to no increases in National Insurance, Income Tax (basic, higher, or additional rates), or VAT.",
+        "evidence_id": "M",
+        "quote": "commit to no increases in National Insurance, Income Tax (basic, higher, or additional rates), or VAT"
+      },
+      {
+        "tier": "projected",
+        "claim": "Labour estimates the Green Prosperity Plan could save UK households \u00a393 billion over the rest of the decade by transitioning to cheaper renewables over gas.",
+        "evidence_id": "E1",
+        "quote": "party estimating this could save UK households \u00a393 billion over the rest of the decade, primarily by transitioning to cheaper renewable energy sources over gas"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Brexit-related trade barriers cost UK households an estimated \u00a37 billion between December 2019 and March 2023, increasing food prices by an average of \u00a3250 per household.",
+        "evidence_id": "E5",
+        "quote": "Brexit-related trade barriers cost UK households an estimated \u00a37 billion between December 2019 and March 2023, increasing food prices by an average of \u00a3250 per household"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The LSE analysis found food prices rose 25% over that period but would have been roughly 17% without post-Brexit restrictions \u2014 about 8 percentage points lower.",
+        "evidence_id": "E6",
+        "quote": "without these post-Brexit restrictions, the 25% increase in food prices over that period would have been approximately 17% (8 percentage points lower)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "70% of the UK's gross food imports come from the EU, meaning trade barrier changes have an outsized effect on food prices.",
+        "evidence_id": "E8",
+        "quote": "70% of the UK's gross food imports come from the EU"
+      }
+    ],
+    "rationale": "The policy operates on several levers that plausibly improve cost of living for ordinary households. On energy, the commitment to a zero-carbon electricity system is the centrepiece: the claimed \u00a393 billion saving is a party estimate rather than an independent projection, so must be treated as contested, but the direction \u2014 cheaper renewables replacing volatile gas \u2014 is directionally supported. Any gains here are long-term (post-2030) and conditional on delivery. On food, the trade barrier evidence is the strongest in the pack: LSE research quantifies post-Brexit food price inflation at around 8 percentage points above what it would otherwise have been, costing households ~\u00a3250 over roughly three years. Given that 70% of gross food imports come from the EU, any meaningful reduction in trade barriers could deliver real savings, particularly for lower-income households who spend a higher share of income on food. The tax-lock (no rises in NI, income tax, or VAT) protects take-home pay but is a floor, not an improvement \u2014 it prevents a worsening rather than delivering an active gain. Free breakfast clubs directly reduce out-of-pocket costs for families with primary-school children, a modest but immediate benefit. Taken together, the policy contains credible pathways to genuine cost-of-living improvement \u2014 particularly on energy (long-term) and food (medium-term, if trade policy delivers). The magnitude is moderate rather than major because the biggest gains are projected and conditional, delivery timelines are long, and past energy support schemes have disproportionately benefited higher-income households. Confidence is moderate: evidence supports the direction, but the scale and timing of gains are genuinely uncertain.",
+    "sources": [
+      {
+        "quote": "Labour will take action to support families, by tackling the underlying causes of the crisis. We will bring down the cost of energy. We will reduce food prices by removing barriers to businesses trading. We will make housing more affordable, expand access to childcare, and make work pay. We will support families with children by introducing free breakfast clubs in every primary school. Labour will also keep mortgage rates as low as possible, with a strong, independent Bank of England \u2013 which will continue to target stable inflation of 2 per cent. We will ensure taxes on working people are kept as low as possible. Labour will not increase taxes on working people, which is why we will not increase National Insurance, the basic, higher, or additional rates of Income Tax, or VAT.",
+        "url": "https://labour.org.uk/wp-content/uploads/2024/06/Labour-manifesto-2024.pdf",
+        "publisher": "Labour Party"
+      },
+      {
+        "url": "https://ifs.org.uk/publications/welfare-effects-price-shocks-and-household-relief-packages-evidence-energy-crisis-0",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.theguardian.com/politics/2023/may/24/brexit-food-trade-barriers-have-cost-uk-households-7bn-report-finds",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/how-might-brexit-affect-food-prices",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://ifs.org.uk/sites/default/files/output_url_files/BN213.pdf",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0792,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims check out. Stated-tier claims are verbatim from policy text. The \u00a393bn saving (E1) is correctly labelled projected and attributed to the party, not an independent body. The food price claims (E5, E6) are labelled measurable and the quotes entail the claims \u2014 these are retrospective LSE findings reported via The Guardian, which is appropriate for media-sourced empirical research (labelled accordingly). E8 (IFS, 2017) supports the 70% import share claim; the vintage is noted in the rationale implicitly via 'biggest unknown'. No tier blurring, no lever leakage, no party bias, no false balance \u2014 direction 'improves' is supported by claims pointing that way with appropriate uncertainty caveats. Magnitude 'moderate' and time_horizon 'long-term' are well-justified given conditional delivery. One minor observation: E2 and E3 are in the evidence units but unused in claims \u2014 that is fine. The tax-lock characterisation as 'a floor, not an improvement' is analytically sound and not biased."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will take action to support families by tackling the underlying causes of the cost-of-living crisis: reducing energy costs, lowering food prices by removing trade barriers, making housing more affordable, expanding childcare access, and ensuring work pays. They will introduce free breakfast clubs in every primary school, keep mortgage rates low via an independent Bank of England, and commit to no increases in National Insurance, Income Tax (basic, higher, or additional rates), or VAT.",
+        "sources": [
+          {
+            "quote": "Labour will take action to support families, by tackling the underlying causes of the crisis. We will bring down the cost of energy. We will reduce food prices by removing barriers to businesses trading. We will make housing more affordable, expand access to childcare, and make work pay. We will support families with children by introducing free breakfast clubs in every primary school. Labour will also keep mortgage rates as low as possible, with a strong, independent Bank of England \u2013 which will continue to target stable inflation of 2 per cent. We will ensure taxes on working people are kept as low as possible. Labour will not increase taxes on working people, which is why we will not increase National Insurance, the basic, higher, or additional rates of Income Tax, or VAT.",
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/Labour-manifesto-2024.pdf",
+            "publisher": "Labour Party"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Labour's \"Green Prosperity Plan\" seeks to establish a cheaper, zero-carbon electricity system by 2030, with the party estimating this could save UK households \u00a393 billion over the rest of the decade, primarily by transitioning to cheaper renewable energy sources over gas.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/welfare-effects-price-shocks-and-household-relief-packages-evidence-energy-crisis-0",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "For example, a Labour proposal from August 2022 to cap prices at \u00a31,971 for winter would have cost \u00a336 billion, with the richest fifth of households gaining 22% of the benefits.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2022/08/A-chilling-crisis.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This move could reduce energy spending by approximately \u00a350 per household from January 2026, incurring an estimated cost to the Treasury of around \u00a31.3 billion annually.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/10/Splitting-the-bill.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The OBR also acknowledges that government policy measures, such as the fuel duty freeze extension, influence household energy bills and inflation.",
+        "sources": [
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-november-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Research from the London School of Economics (LSE) found that Brexit-related trade barriers cost UK households an estimated \u00a37 billion between December 2019 and March 2023, increasing food prices by an average of \u00a3250 per household.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/may/24/brexit-food-trade-barriers-have-cost-uk-households-7bn-report-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The LSE analysis suggests that without these post-Brexit restrictions, the 25% increase in food prices over that period would have been approximately 17% (8 percentage points lower).",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/may/24/brexit-food-trade-barriers-have-cost-uk-households-7bn-report-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The International Monetary Fund (IMF) has also urged the UK government to reduce non-tariff barriers to trade to help lower inflation.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/may/24/brexit-food-trade-barriers-have-cost-uk-households-7bn-report-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The IFS highlighted in 2017 that changes in tariffs and exchange rates have a significant impact on food prices, especially given that 70% of the UK's gross food imports come from the EU.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/how-might-brexit-affect-food-prices",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/BN213.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

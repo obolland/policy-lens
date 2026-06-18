@@ -1,0 +1,33 @@
+# secrets — NEVER commit
+.env
+.env.*
+*.key
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# run logs / scratch (the JSON records + web/data.js ARE committed — they're the content + audit trail)
+*.log
+data/*.log
+corpus_*_test.log
+.DS_Store
+
+# cached Gemini grounding — raw Google-Search-grounded results: regenerable, and republishing it
+# would compound the grounding ToS issue (task #15)
+corpus/grounding/
+
+# pipeline working artifacts: backups, snapshots, temp render files (the real corpus/ + data_verdicts/
+# ARE committed as the open dataset; only the underscore-prefixed temp/backup junk is excluded)
+data_verdicts/_*
+corpus/_*
+web/data.*.bak.js
+web/_*.html
+
+# party manifesto PDFs — copyrighted + ~23MB of binary bloat; we link to them, don't host them
+manifestos/*.pdf
+# dev scratch / early prototypes / experiment logs (not part of the auditable pipeline or dataset)
+compare/
+data/
+policies/

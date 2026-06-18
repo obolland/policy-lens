@@ -1,0 +1,473 @@
+{
+  "policy_id": "ref-32-increase-police-numbers-by-40000",
+  "party": "Reform UK",
+  "policy_title": "Increase police numbers by 40,000",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Adding 40,000 front-line officers would meaningfully increase police presence and is associated with some crime reduction, especially property crime, though the actual safety gain depends heavily on how those officers are deployed, not just their numbers.",
+    "biggest_unknown": "Whether deployment strategy and funding mechanisms are in place to translate raw officer numbers into measurable crime reductions \u2014 research suggests deployment matters as much as headcount.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to recruiting 40,000 new front-line officers over a five-year parliament, raising the ratio to 300 per 100,000 population.",
+        "evidence_id": "M",
+        "quote": "adding 40,000 new front-line officers over a five-year parliament"
+      },
+      {
+        "tier": "measurable",
+        "claim": "England and Wales currently have 235 officers per 100,000 resident population, well below the proposed 300 target.",
+        "evidence_id": "E1",
+        "quote": "235 officers per 100,000 resident population"
+      },
+      {
+        "tier": "measurable",
+        "claim": "England and Wales have a lower officer-to-population ratio than Scotland (316), France (332), Germany (298), and the European average of 357.",
+        "evidence_id": "E4",
+        "quote": "England and Wales had 228 officers per 100,000 people, compared to Scotland's 316, France's 332, and Germany's 298, while the European average across 32 nations was 357"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around 8,795 officers left England and Wales forces in the year ending March 2025, a leaver rate of 6.0%, meaning recruitment must substantially outpace departures to achieve net growth.",
+        "evidence_id": "E8",
+        "quote": "8,795 FTE police officers left the 43 territorial police forces in England and Wales, representing a leaver rate of 6.0%"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The previous Police Uplift Programme successfully recruited 20,000 additional officers between 2019 and 2023, demonstrating large-scale recruitment is achievable.",
+        "evidence_id": "E5",
+        "quote": "successfully recruited 20,000 additional officers in England and Wales between September 2019 and March 2023"
+      },
+      {
+        "tier": "projected",
+        "claim": "Research cited by the College of Policing suggests a 10% increase in officers could be linked to a 3% reduction in property crime, indicating a real but modest effect.",
+        "evidence_id": "E15",
+        "quote": "a 10% increase in officers could be linked to a 3% reduction in property crime"
+      },
+      {
+        "tier": "projected",
+        "claim": "The NAO noted that crime-reduction benefits from increased officer numbers would depend on a complex range of factors and would take several years to materialise.",
+        "evidence_id": "E17",
+        "quote": "the benefits in reducing crime and improving public safety would depend on a complex range of factors beyond just officer numbers and would take several years to materialise"
+      },
+      {
+        "tier": "projected",
+        "claim": "The College of Policing notes that simply increasing numbers without considering how officers use their time may not be effective.",
+        "evidence_id": "E19",
+        "quote": "simply increasing numbers without considering how officers use their time may not be effective"
+      }
+    ],
+    "rationale": "The policy commits to a large, concrete increase in officer numbers \u2014 from roughly 235 to 300 per 100,000 \u2014 representing a ~28% uplift on current England and Wales figures. The UK's comparatively low ratio relative to European peers provides a plausible baseline rationale. The prior Police Uplift Programme shows that recruiting at scale (20,000 officers in ~3.5 years) is operationally feasible, which supports delivery plausibility for 40,000 over five years, though the attrition rate of ~8,800 leavers per year means gross recruitment must be substantially higher to achieve net additions.\n\nOn crime-reduction effect, the evidence is real but conditional. The College of Policing's cited estimate suggests a 10% officer increase links to roughly a 3% reduction in property crime \u2014 a genuine but modest signal. However, two credible research findings temper optimism: a study of 42 forces over 13 years found officer numbers per se are 'unrelated to crime rates'; and the College of Policing itself warns that numbers without effective deployment may not reduce crime. The NAO similarly noted benefits depend on 'a complex range of factors beyond just officer numbers.' These are not fringe views \u2014 they are institutional and academic assessments from within the provided evidence.\n\nAbsent the policy, officer numbers remain at a comparatively low ratio and the evidence base (particularly the SMF argument cited) links this to public confidence and capacity to tackle evolving crime types like fraud. The counterfactual gain is therefore real: more officers, if well-deployed, plausibly improve the O5 indicators of crime rates and public safety. The direction is 'improves' because the weight of evidence supports a positive effect, and the delivery mechanism (recruitment) is concrete and precedented. However, magnitude is 'moderate' rather than 'major' because the crime-reduction per officer is modest per the evidence and contingent on deployment quality. Confidence is moderate because the deployment-vs-numbers debate introduces genuine uncertainty, but the baseline case for more officers having some positive safety effect is well-supported.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-30-september-2025/police-workforce-england-and-wales-30-september-2025",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://policeprofessional.com/news/england-and-wales-have-fewer-police-officers-than-any-major-european-nation/",
+        "publisher": "policeprofessional.com",
+        "title": "policeprofessional.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-31-march-2025/police-workforce-england-and-wales-31-march-2025",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZhh39H65Zxh6R689999RL0SDqDywYOfcXd9mys2oj18St2kYkeGM36nsohwP76pZj2-pQ6olLf4-OyvXIMH-gt-7VkHoGIja3IG_BkrD9aZXCFj8BN9hyRXo-FVNeFppI1GgO1JJwc2HBxoHS8H96zFPkOXUfjA==",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "npcc.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://polfed.org/news/latest-news/2023/police-uplift-programme-a-flawed-success-story/",
+        "publisher": "polfed.org",
+        "title": "polfed.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/what-works-the-impact-of-police-numbers-on-crime-rates.pdf",
+        "publisher": "assets-hmicfrs.justiceinspectorates.gov.uk",
+        "title": "justiceinspectorates.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+        "publisher": "college.police.uk",
+        "title": "college.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nao.org.uk/reports/the-police-uplift-programme/",
+        "publisher": "nao.org.uk",
+        "title": "nao.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0414,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are correct: stated claims draw from policy text, measurable claims from government statistics, projected claims from research/institutional assessments. The E4 comparative data is from 2022 while E1 baseline is 2025 (235 vs 228), but the claim accurately uses E4's own figure and the direction of the comparison remains valid. The direction of 'improves' is justified by the weight of evidence; the counter-evidence on deployment (E18, E19) is incorporated into magnitude and confidence rather than ignored, avoiding false balance. No party identity or motive attribution detected. Magnitude 'moderate' and confidence 'moderate' are proportionate given the genuine deployment-vs-numbers uncertainty documented in institutional sources. No lever leakage \u2014 the verdict is scored on O5 safety outcomes, not on police numbers as a lever for their own sake."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [
+        {
+          "claim": "A study of 42 police forces over 13 years found officer numbers appear unrelated to crime rates in themselves; how officers are deployed is the crucial variable.",
+          "evidence_id": "E18",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will commence recruitment to increase UK per capita police numbers to 300 per 100,000 population, adding 40,000 new front-line officers over a five-year parliament.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "As of September 30, 2025, there were 145,550 full-time equivalent (FTE) police officers in the 43 territorial police forces in England and Wales, which translates to 235 officers per 100,000 resident population",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-30-september-2025/police-workforce-england-and-wales-30-september-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Including British Transport Police, Central Service Secondments, and officers in Scotland and Northern Ireland, the total number of police officers in the United Kingdom was 169,348 as of March 31, 2025",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN00634/SN00634.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn00634/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "England and Wales currently have one of the lowest officer-to-population ratios in Europe",
+        "sources": [
+          {
+            "url": "https://www.politics.co.uk/reference/police-numbers-and-recruitment/",
+            "publisher": "politics.co.uk",
+            "title": "politics.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://policinginsight.com/feature/analysis/the-thinning-blue-line-police-numbers-and-the-impact-on-crime-in-society/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://policeprofessional.com/news/england-and-wales-have-fewer-police-officers-than-any-major-european-nation/",
+            "publisher": "policeprofessional.com",
+            "title": "policeprofessional.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "For example, in 2022, England and Wales had 228 officers per 100,000 people, compared to Scotland's 316, France's 332, and Germany's 298, while the European average across 32 nations was 357",
+        "sources": [
+          {
+            "url": "https://policeprofessional.com/news/england-and-wales-have-fewer-police-officers-than-any-major-european-nation/",
+            "publisher": "policeprofessional.com",
+            "title": "policeprofessional.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The UK has recent experience with large-scale police recruitment through the Police Uplift Programme, which successfully recruited 20,000 additional officers in England and Wales between September 2019 and March 2023",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZhh39H65Zxh6R689999RL0SDqDywYOfcXd9mys2oj18St2kYkeGM36nsohwP76pZj2-pQ6olLf4-OyvXIMH-gt-7VkHoGIja3IG_BkrD9aZXCFj8BN9hyRXo-FVNeFppI1GgO1JJwc2HBxoHS8H96zFPkOXUfjA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://polfed.org/news/latest-news/2023/police-uplift-programme-a-flawed-success-story/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This program required recruiting approximately 50,000 officers over three years to offset departures due to retirements and resignations",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/reports/the-police-uplift-programme/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Police Federation of England and Wales (PFEW) has highlighted that to genuinely achieve an \"uplift,\" recruitment would need to continue at a substantial pace due to ongoing leavers",
+        "sources": [
+          {
+            "url": "https://polfed.org/news/latest-news/2023/police-uplift-programme-a-flawed-success-story/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "In the year ending March 31, 2025, 8,795 FTE police officers left the 43 territorial police forces in England and Wales, representing a leaver rate of 6.0%",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/police-workforce-england-and-wales-31-march-2025/police-workforce-england-and-wales-31-march-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Voluntary resignations accounted for 42% of all leavers in 2022, and this figure has been increasing year-on-year",
+        "sources": [
+          {
+            "url": "https://polfed.org/news/latest-news/2023/police-uplift-programme-a-flawed-success-story/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "A 2023 survey of new recruits found a decrease in job satisfaction and support compared to 2021, with long-term career intentions being lower among new officers from minority ethnic backgrounds and those over 40 years of age",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/police-uplift-programme-new-recruits-onboarding-survey-2023/police-uplift-programme-new-recruits-onboarding-survey-2023-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "While the precise cost for this specific proposal is not available, the Institute for Fiscal Studies (IFS) noted that the Labour Party's pledge to recruit 10,000 additional police officers by 2021-22 was costed at \u00a3300 million",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/bn208.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Police funding is derived from a combination of central government grants and local council tax precepts",
+        "sources": [
+          {
+            "url": "https://www.governmentevents.co.uk/ge-insights/managing-uk-police-finance-effectively-current-budgets-initiatives-and-grants/",
+            "publisher": "governmentevents.co.uk",
+            "title": "governmentevents.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Office for Budget Responsibility (OBR) provides forecasts for GDP deflators used in police funding statistics, which are crucial for real-terms comparisons",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/police-funding-for-england-and-wales-2015-to-2026/police-funding-for-england-and-wales-2015-to-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/statistics/police-funding-for-england-and-wales-2015-to-2025/police-funding-for-england-and-wales-2015-to-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/police-funding-for-england-and-wales-user-guide/police-funding-for-england-and-wales-user-guide",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Any substantial increase in officer numbers would necessitate a review of the police funding formula, which has seen a pronounced shift towards local precept funding since 2015-16",
+        "sources": [
+          {
+            "url": "https://www.police-foundation.org.uk/2024/07/now-is-the-best-opportunity-to-reform-the-police-funding-formula/",
+            "publisher": "police-foundation.org.uk",
+            "title": "police-foundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Research cited by the College of Policing indicates a stronger potential association for property and acquisitive crime, with one estimate suggesting a 10% increase in officers could be linked to a 3% reduction in property crime",
+        "sources": [
+          {
+            "url": "https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/what-works-the-impact-of-police-numbers-on-crime-rates.pdf",
+            "publisher": "assets-hmicfrs.justiceinspectorates.gov.uk",
+            "title": "justiceinspectorates.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The Social Market Foundation (SMF) has argued that the \"relative lack of police personnel\" in England and Wales contributes to falling public confidence and a failure to tackle evolving crime types like fraud",
+        "sources": [
+          {
+            "url": "https://policinginsight.com/feature/analysis/the-thinning-blue-line-police-numbers-and-the-impact-on-crime-in-society/",
+            "publisher": "policinginsight.com",
+            "title": "policinginsight.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://policeprofessional.com/news/england-and-wales-have-fewer-police-officers-than-any-major-european-nation/",
+            "publisher": "policeprofessional.com",
+            "title": "policeprofessional.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The National Audit Office (NAO), while confirming the Police Uplift Programme was on track for recruitment, noted that the benefits in reducing crime and improving public safety would depend on a complex range of factors beyond just officer numbers and would take several years to materialise",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/reports/the-police-uplift-programme/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Importance of Deployment over Numbers:** Conversely, a recent British study examining data from 42 police forces over 13 years concluded that the absolute number of police officers appears \"unrelated to crime rates or trends,\" but rather, *how* police are deployed is crucial",
+        "sources": [
+          {
+            "url": "https://johnhoward.ca/blog/how-police-work-more-important-than-how-many-there-are/",
+            "publisher": "johnhoward.ca",
+            "title": "johnhoward.ca",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The College of Policing similarly notes that simply increasing numbers without considering how officers use their time may not be effective, suggesting that crime could be reduced by spending more time on effective activities",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Reduction:** An important nuance highlighted by research is that higher numbers of police can not only reduce crime rates but also increase the share of crime, particularly violent crime, that is reported and recorded in police statistics",
+        "sources": [
+          {
+            "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/666614",
+            "publisher": "journals.uchicago.edu",
+            "title": "uchicago.edu",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/police-numbers",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "They highlight that a significant portion of crime is attributed to repeat offenders (e.g., 10% of offenders are responsible for approximately half of all crimes)",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/reformuk/comments/1htce5e/reform_want_to_recruit_40000_new_front_line/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "From this perspective, more police might just lead to arresting the same individuals repeatedly if there are insufficient prison spaces or reforms within the justice system to deter reoffending",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/reformuk/comments/1htce5e/reform_want_to_recruit_40000_new_front_line/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

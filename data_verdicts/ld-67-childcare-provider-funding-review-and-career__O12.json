@@ -1,0 +1,743 @@
+{
+  "policy_id": "ld-67-childcare-provider-funding-review-and-career",
+  "party": "Liberal Democrat",
+  "policy_title": "Childcare Provider Funding Review and Career Strategy",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Raising provider rates to cover actual costs and funding a career and training strategy would both require significant new public spending, with no funding source identified in the policy. Because the policy commits only to reviews and strategies rather than specific budgets, the exact fiscal hit is uncertain \u2014 but the directional pressure is upward on spending.",
+    "biggest_unknown": "Whether any rate increases resulting from the review would be fully funded by new Treasury allocation or would add to an already-overrunning childcare budget.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy proposes reviewing provider rates to ensure they cover actual delivery costs, and developing a career and training strategy for the early years workforce.",
+        "evidence_id": "M",
+        "quote": "Reviewing the rates paid to providers for free hours to ensure they cover the actual costs of delivering high-quality childcare and early years education. Developing a career strategy for nursery staff, including a training programme"
+      },
+      {
+        "tier": "projected",
+        "claim": "Total public spending on childcare support is projected to reach \u00a310.5 billion in 2025/26, with the IFS estimating the expansion could cost \u00a31 billion more than initial government estimates.",
+        "evidence_id": "E10",
+        "quote": "the expansion of childcare entitlements, driven by high take-up, could cost \u00a31 billion more than initial estimates, with total public spending on childcare support programmes projected to reach \u00a310.5 billion in 2025/26"
+      },
+      {
+        "tier": "measurable",
+        "claim": "92% of nurseries report that current government funding rates do not cover their costs, implying a large gap between current rates and the actual cost level the policy aims to reach.",
+        "evidence_id": "E3",
+        "quote": "92% of nurseries reported current government funding rates did not cover their costs, with 85% expecting to make a loss on each funded place in 2025/26"
+      },
+      {
+        "tier": "measurable",
+        "claim": "An average funding shortfall of \u00a32 per child per hour exists for free-hours provision, indicating the scale of the rate increase that closing the gap would require.",
+        "evidence_id": "E1",
+        "quote": "an average funding shortfall of \u00a32 per child, per hour, for \"free hours\" provision"
+      },
+      {
+        "tier": "projected",
+        "claim": "Rising employer costs such as National Insurance contributions and the National Living Wage continue to add cost pressure on top of any rate increases, meaning the fiscal gap may widen over the parliament even after a review.",
+        "evidence_id": "E11",
+        "quote": "rising employer costs (like National Insurance contributions) and National Living Wage increases continue to put pressure on providers"
+      }
+    ],
+    "rationale": "The policy signals a clear direction of travel: rates should be raised to cover actual costs, and a new career/training programme should be built. Both represent upward pressure on public spending. The baseline is already stretched \u2014 the IFS projects \u00a310.5bn on childcare in 2025/26, already projected to be \u00a31bn over original estimates. Closing the \u00a32/hour average shortfall across the funded-hours programme at scale would require substantial additional public money. The career strategy and training programme add a further, uncosted line. Neither commitment comes with an identified funding source or fiscal envelope in the policy text. Against O12's criteria, unfunded spending that finances consumption-side subsidies (rather than productive public investment with a credible long-run return) worsens the debt path. The sector does face genuine supply-side failure \u2014 provider closures and workforce shortages \u2014 so there is a plausible argument that better-funded provision reduces future welfare and EHCP costs, but the policy text offers no mechanism or quantified projection to support a net-positive fiscal case. The verdict is therefore 'worsens', held to 'moderate' rather than 'major' because (a) the policy uses soft verbs ('reviewing', 'developing') with no committed budget, so the actual spend is uncertain, and (b) the low confidence reflects genuine uncertainty about the size and timing of any resulting rate uplift. The direction is nevertheless clear: the policy is designed to close a funding shortfall; that costs money; no offsetting revenue or savings are cited.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://ifs.org.uk/education-spending/early-years",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8052/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://ndna.org.uk/underfundedchildcare/",
+        "publisher": "ndna.org.uk",
+        "title": "ndna.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://cheqdin.com/underfunded-childcare-in-the-uk",
+        "publisher": "cheqdin.com",
+        "title": "cheqdin.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.109,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are adequately supported by cited evidence. The stated-tier claim accurately reflects the policy text. The projected-tier claims (E10, E11) are correctly labelled as projections and the quotes entail the claims without overstating. The measurable-tier claims (E1, E3) come from advocacy/industry sources (Early Years Alliance, NDNA) \u2014 these are labelled and not sole basis for the verdict; the IFS evidence anchors the fiscal picture. No tier_integrity issues: no projection is presented as measurable fact. The direction ('worsens') is consistent with the surviving claims, which all point toward increased unfunded spending pressure \u2014 no false_balance concern. The rationale acknowledges the plausible counter-argument (supply-side investment reducing future costs) but correctly notes no mechanism or quantification is offered in the policy text. Magnitude ('moderate') and time_horizon ('this-parliament') are reasonable given the soft verbs in the policy and the uncertainty acknowledged. No party identity or motive attribution detected. No lever_leakage \u2014 judged purely on fiscal impact on O12."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Ensure that all parents can access childcare that is flexible, affordable and fair by: Reviewing the rates paid to providers for free hours to ensure they cover the actual costs of delivering high-quality childcare and early years education. Developing a career strategy for nursery staff, including a training programme with the majority of those working with children aged two to four to have a relevant Early Years qualification or be working towards one. Including a specific emphasis on identifying and supporting children with special educational needs and disabilities in the new training programme for early years staff.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Early Years Alliance reports an average funding shortfall of \u00a32 per child, per hour, for \"free hours\" provision.",
+        "sources": [
+          {
+            "url": "https://cheqdin.com/underfunded-childcare-in-the-uk",
+            "publisher": "cheqdin.com",
+            "title": "cheqdin.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "More than a third of nurseries are operating at a loss, and over 3,000 nurseries have closed since 2015 due to financial pressures.",
+        "sources": [
+          {
+            "url": "https://cheqdin.com/underfunded-childcare-in-the-uk",
+            "publisher": "cheqdin.com",
+            "title": "cheqdin.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The National Day Nurseries Association (NDNA) found in its 2025 survey that 92% of nurseries reported current government funding rates did not cover their costs, with 85% expecting to make a loss on each funded place in 2025/26.",
+        "sources": [
+          {
+            "url": "https://ndna.org.uk/underfundedchildcare/",
+            "publisher": "ndna.org.uk",
+            "title": "ndna.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This underfunding has several consequences:\n*   **Increased Fees for Parents:** A significant majority of nurseries (96%) are forced to increase fees for parents to bridge the funding gap.",
+        "sources": [
+          {
+            "url": "https://connectchildcare.com/blog/the-impact-of-underfunded-childcare/",
+            "publisher": "connectchildcare.com",
+            "title": "connectchildcare.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ndna.org.uk/underfundedchildcare/",
+            "publisher": "ndna.org.uk",
+            "title": "ndna.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The average cost of a part-time nursery place for a child under two was \u00a39,438 per year (50 weeks) in England in 2026, excluding funded hours.",
+        "sources": [
+          {
+            "url": "https://www.daynurseries.co.uk/advice/childcare-costs-how-much-do-you-pay-in-the-uk",
+            "publisher": "daynurseries.co.uk",
+            "title": "daynurseries.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Reduced Quality and Availability:** Nurseries may cut spending on essential resources (69%) and premises (48%).",
+        "sources": [
+          {
+            "url": "https://connectchildcare.com/blog/the-impact-of-underfunded-childcare/",
+            "publisher": "connectchildcare.com",
+            "title": "connectchildcare.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ndna.org.uk/underfundedchildcare/",
+            "publisher": "ndna.org.uk",
+            "title": "ndna.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Many are forced to offer fewer places (39%), contributing to a shortage of childcare, particularly for children under two and those with disabilities.",
+        "sources": [
+          {
+            "url": "https://connectchildcare.com/blog/the-impact-of-underfunded-childcare/",
+            "publisher": "connectchildcare.com",
+            "title": "connectchildcare.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ndna.org.uk/underfundedchildcare/",
+            "publisher": "ndna.org.uk",
+            "title": "ndna.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cpc.ac.uk/res/docs/PB73_Who_uses_childcare_in_the_UK_and_how_much_does_it_cost.pdf",
+            "publisher": "cpc.ac.uk",
+            "title": "cpc.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Workforce Impact:** Underfunding contributes to low pay for childcare workers, with almost half (45%) reportedly claiming state benefits and earning around 40% less than the average female worker.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/debate-affordability-and-availability-childcare-house-commons-21",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/early-years-education-funding-house-commons-21-july-2021",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This exacerbates recruitment and retention difficulties.",
+        "sources": [
+          {
+            "url": "https://connectchildcare.com/blog/the-impact-of-underfunded-childcare/",
+            "publisher": "connectchildcare.com",
+            "title": "connectchildcare.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ndna.org.uk/underfundedchildcare/",
+            "publisher": "ndna.org.uk",
+            "title": "ndna.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/debate-affordability-and-availability-childcare-house-commons-21",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Government Spending:** The Institute for Fiscal Studies (IFS) suggests that the expansion of childcare entitlements, driven by high take-up, could cost \u00a31 billion more than initial estimates, with total public spending on childcare support programmes projected to reach \u00a310.5 billion in 2025/26.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/education-spending/early-years",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8052/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "While increased funding rates for under-3s have smoothed the rollout of new entitlements, rising employer costs (like National Insurance contributions) and National Living Wage increases continue to put pressure on providers.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/education-spending/early-years",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8052/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The IFS notes that recent significant increases in per-hour funding for younger children have been higher than market prices, contributing to positive take-up.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/education-spending/early-years",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "However, organizations like the Local Government Association (LGA) consistently argue that funding for early entitlements remains insufficient.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/debate-affordability-and-availability-childcare-house-commons-21",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/early-years-education-funding-house-commons-21-july-2021",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Current Situation and Challenges:**\nThe Early Years Foundation Stage (EYFS) framework mandates that at least one staff member in a setting holds a relevant Level 3 childcare qualification, and at least 50% of other staff working with children hold a Level 2 qualification.",
+        "sources": [
+          {
+            "url": "https://ncfeearlyyearsqualifications.co.uk/2025/02/13/early-years-qualifications-what-are-the-benefits-of-studying-for-an-early-years-qualification/",
+            "publisher": "ncfeearlyyearsqualifications.co.uk",
+            "title": "ncfeearlyyearsqualifications.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a816cd740f0b623026973c4/Workforce_strategy_02-03-2017.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, a significant proportion of the workforce lacks higher-level qualifications; for instance, only one in ten early years settings employs an Early Years Teacher Status (EYTS) qualified teacher.",
+        "sources": [
+          {
+            "url": "https://www.justteachers.co.uk/qualified-early-years-teacher-incentive/",
+            "publisher": "justteachers.co.uk",
+            "title": "justteachers.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The early years sector faces a \"workforce crisis\" due to low pay, high stress, and limited career progression, hindering the attraction and retention of qualified staff.",
+        "sources": [
+          {
+            "url": "https://cheqdin.com/underfunded-childcare-in-the-uk",
+            "publisher": "cheqdin.com",
+            "title": "cheqdin.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The House of Commons Education Committee (July 2023) identified difficulties in recruiting qualified staff, a lack of professional development, long hours, and low professional status as key issues.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9948/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The National Audit Office expressed concern in 2024 about the \"ambitious\" target of recruiting an additional 40,000 early years workers by September 2025 to support childcare expansion.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9948/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Likely Real-World Effects of a Career Strategy and Enhanced Qualifications:**\n*   **Improved Quality of Childcare:** A more highly qualified workforce is strongly linked to improved quality of early years education and better developmental outcomes for children, particularly those from disadvantaged backgrounds.",
+        "sources": [
+          {
+            "url": "https://www.justteachers.co.uk/qualified-early-years-teacher-incentive/",
+            "publisher": "justteachers.co.uk",
+            "title": "justteachers.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://epi.org.uk/publications-and-research/early-years-workforce-development/",
+            "publisher": "epi.org.uk",
+            "title": "epi.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://equalitas.co.uk/5-benefits-to-gaining-eyts/",
+            "publisher": "equalitas.co.uk",
+            "title": "equalitas.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Higher qualifications ensure practitioners have a deeper understanding of child development and effective teaching methods.",
+        "sources": [
+          {
+            "url": "https://ncfeearlyyearsqualifications.co.uk/2025/02/13/early-years-qualifications-what-are-the-benefits-of-studying-for-an-early-years-qualification/",
+            "publisher": "ncfeearlyyearsqualifications.co.uk",
+            "title": "ncfeearlyyearsqualifications.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://equalitas.co.uk/5-benefits-to-gaining-eyts/",
+            "publisher": "equalitas.co.uk",
+            "title": "equalitas.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This, alongside improved remuneration (as recommended by stakeholders), could help address recruitment and retention challenges.",
+        "sources": [
+          {
+            "url": "https://cheqdin.com/underfunded-childcare-in-the-uk",
+            "publisher": "cheqdin.com",
+            "title": "cheqdin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.earlychildhoodireland.ie/professionalising-the-early-years-workforce-in-the-uk/",
+            "publisher": "earlychildhoodireland.ie",
+            "title": "earlychildhoodireland.ie",
+            "source_type": "media"
+          },
+          {
+            "url": "https://equalitas.co.uk/5-benefits-to-gaining-eyts/",
+            "publisher": "equalitas.co.uk",
+            "title": "equalitas.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Career Progression:** A defined career pathway and training programme, including progression to Early Years Educator (Level 3) and potentially Early Years Teacher Status (Level 6), would offer staff clear opportunities for advancement and specialisation.",
+        "sources": [
+          {
+            "url": "https://www.earlychildhoodireland.ie/professionalising-the-early-years-workforce-in-the-uk/",
+            "publisher": "earlychildhoodireland.ie",
+            "title": "earlychildhoodireland.ie",
+            "source_type": "media"
+          },
+          {
+            "url": "https://equalitas.co.uk/5-benefits-to-gaining-eyts/",
+            "publisher": "equalitas.co.uk",
+            "title": "equalitas.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.zeneducate.com/resources/teaching-hub/what-qualifications-do-i-need-to-work-in-early-years",
+            "publisher": "zeneducate.com",
+            "title": "zeneducate.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Government Initiatives:** The government's \"Best Start for Life\" strategy includes plans to introduce a professional register and a career framework for the early years workforce.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0163/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "There are also initiatives like a \u00a34,500 tax-free bonus for EYTS-qualified teachers in the 20 most disadvantaged areas, along with fully funded EYTS training and a \u00a37,000 employer bonus for settings employing trainees.",
+        "sources": [
+          {
+            "url": "https://www.justteachers.co.uk/qualified-early-years-teacher-incentive/",
+            "publisher": "justteachers.co.uk",
+            "title": "justteachers.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Expert Disagreement/Nuance:**\nThe Education Policy Institute (EPI) highlights the lack of a consistent long-term strategy for workforce development.",
+        "sources": [
+          {
+            "url": "https://epi.org.uk/publications-and-research/early-years-workforce-development/",
+            "publisher": "epi.org.uk",
+            "title": "epi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They cite the success of the Graduate Leader Fund (2007-2011), which significantly increased the number of early years workers with degrees (76% increase in bachelor's degrees), but qualifications stagnated after its funding was no longer ring-fenced.",
+        "sources": [
+          {
+            "url": "https://epi.org.uk/publications-and-research/early-years-workforce-development/",
+            "publisher": "epi.org.uk",
+            "title": "epi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "**Current Situation and Challenges:**\nThe proportion of early years providers supporting children with SEND has increased, with 88% of group-based and 85% of school-based providers reporting this in 2024.",
+        "sources": [
+          {
+            "url": "https://www.supportingeducation.com/content-hub/building-send-skills-and-confidence-for-early-years-professionals/",
+            "publisher": "supportingeducation.com",
+            "title": "supportingeducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Despite this, early SEND support needs often go unmet due to a \"slow, overly complex and grossly underfunded system.\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUC-JvvMOj4tr2M-4Jf-3l9H08spxzBk6-P3pr48AEinbPYi0XWk96-CsDAKQnKBpJDLW92nqG5d9RmTsWUPM4q3V9EnmMt6YuEBQbzvzuv3xA8u3nAjk_RPYOGr0jNWgaNQLdJ3CXdaxXrcGUPmcRppePgarvVw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "magonlinelibrary.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Only 6% of councils reported sufficient childcare for children with SEND in 2024, a 12% decrease from the previous year.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUC-JvvMOj4tr2M-4Jf-3l9H08spxzBk6-P3pr48AEinbPYi0XWk96-CsDAKQnKBpJDLW92nqG5d9RmTsWUPM4q3V9EnmMt6YuEBQbzvzuv3xA8u3nAjk_RPYOGr0jNWgaNQLdJ3CXdaxXrcGUPmcRppePgarvVw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "magonlinelibrary.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Many providers lack the necessary training and confidence to effectively meet diverse SEND needs.",
+        "sources": [
+          {
+            "url": "https://www.kids.org.uk/wp-content/uploads/2026/01/Kids-Early-Years-SEND-Policy-Priorities.pdf",
+            "publisher": "kids.org.uk",
+            "title": "kids.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://realisetraining.com/news-and-events/news/supporting-special-educational-needs-in-early-years-best-practices-and-the-value-of-apprenticeships",
+            "publisher": "realisetraining.com",
+            "title": "realisetraining.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Around eight in ten settings have reported a significant increase in children with SEND, and over half state they have no more spaces for new children with SEND.",
+        "sources": [
+          {
+            "url": "https://www.tes.com/magazine/teaching-learning/early-years/how-to-support-send-in-eyfs",
+            "publisher": "tes.com",
+            "title": "tes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "This can result in children with SEND being offered reduced hours or even being turned away from settings.",
+        "sources": [
+          {
+            "url": "https://www.kids.org.uk/wp-content/uploads/2026/01/Kids-Early-Years-SEND-Policy-Priorities.pdf",
+            "publisher": "kids.org.uk",
+            "title": "kids.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tes.com/magazine/teaching-learning/early-years/how-to-support-send-in-eyfs",
+            "publisher": "tes.com",
+            "title": "tes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Early identification and support are crucial, with research by the IFS linking them to lower levels of Education, Health and Care Plans (EHCPs) in secondary school.",
+        "sources": [
+          {
+            "url": "https://www.tes.com/magazine/teaching-learning/early-years/how-to-support-send-in-eyfs",
+            "publisher": "tes.com",
+            "title": "tes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "99% of participants reported increased confidence, and 80% of setting managers observed improved SEND outcomes in their settings.",
+        "sources": [
+          {
+            "url": "https://www.supportingeducation.com/content-hub/building-send-skills-and-confidence-for-early-years-professionals/",
+            "publisher": "supportingeducation.com",
+            "title": "supportingeducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **More Inclusive Environments:** A workforce with enhanced SEND knowledge and skills would create more inclusive early years settings, ensuring children with additional needs can access high-quality early education and socialise with peers.",
+        "sources": [
+          {
+            "url": "https://www.kids.org.uk/wp-content/uploads/2026/01/Kids-Early-Years-SEND-Policy-Priorities.pdf",
+            "publisher": "kids.org.uk",
+            "title": "kids.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://realisetraining.com/news-and-events/news/supporting-special-educational-needs-in-early-years-best-practices-and-the-value-of-apprenticeships",
+            "publisher": "realisetraining.com",
+            "title": "realisetraining.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "This could reduce instances of children being turned away or placed on part-time timetables.",
+        "sources": [
+          {
+            "url": "https://www.tes.com/magazine/teaching-learning/early-years/how-to-support-send-in-eyfs",
+            "publisher": "tes.com",
+            "title": "tes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Reduced Pressure on Later Stages of Education:** Effective early intervention and support for SEND children can help address developmental gaps, potentially reducing the need for more intensive support in primary and secondary education.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUC-JvvMOj4tr2M-4Jf-3l9H08spxzBk6-P3pr48AEinbPYi0XWk96-CsDAKQnKBpJDLW92nqG5d9RmTsWUPM4q3V9EnmMt6YuEBQbzvzuv3xA8u3nAjk_RPYOGr0jNWgaNQLdJ3CXdaxXrcGUPmcRppePgarvVw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "magonlinelibrary.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://realisetraining.com/news-and-events/news/supporting-special-educational-needs-in-early-years-best-practices-and-the-value-of-apprenticeships",
+            "publisher": "realisetraining.com",
+            "title": "realisetraining.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Government Commitment:** The \"Best Start in Life\" strategy aims to increase funding for early years providers to support children with SEND and promote \"inclusive practice as standard practice\" through high-quality SEND training.",
+        "sources": [
+          {
+            "url": "https://www.kids.org.uk/wp-content/uploads/2026/01/Kids-Early-Years-SEND-Policy-Priorities.pdf",
+            "publisher": "kids.org.uk",
+            "title": "kids.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0163/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "The current SEND system is financially unsustainable, with many providers struggling to meet costs for resources and specialised staff.",
+        "sources": [
+          {
+            "url": "https://realisetraining.com/news-and-events/news/supporting-special-educational-needs-in-early-years-best-practices-and-the-value-of-apprenticeships",
+            "publisher": "realisetraining.com",
+            "title": "realisetraining.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Experts emphasize that \"SEND funding must match the actual cost of support.\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUC-JvvMOj4tr2M-4Jf-3l9H08spxzBk6-P3pr48AEinbPYi0XWk96-CsDAKQnKBpJDLW92nqG5d9RmTsWUPM4q3V9EnmMt6YuEBQbzvzuv3xA8u3nAjk_RPYOGr0jNWgaNQLdJ3CXdaxXrcGUPmcRppePgarvVw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "magonlinelibrary.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "The effectiveness of training is also linked to continuous professional development and access to multi-agency support, such as educational psychologists and speech and language therapists, which currently faces barriers.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTiOcOZSaK0loh1V9ShGeirjlKlxVBxbtt2omYA_IQ9I2wHBlPspAd8XICkmFUzg-LLOrGo29K-RiOof1kWrf-Mg3Evi9f0s9pIokmvt-wcixgYqTa4bcEokT3ld-oiFbXkkh4ervfimw-KMCKw1hfr1cMgoRTBDpxoQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "magonlinelibrary.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

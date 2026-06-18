@@ -1,0 +1,737 @@
+{
+  "policy_id": "grn-43-introduce-a-digital-bill-of-rights",
+  "party": "Green",
+  "policy_title": "Introduce a Digital Bill of Rights and regulate AI",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "mixed",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "A precautionary AI regulatory approach could constrain the UK's AI-driven productivity growth in the near term, but greater regulatory clarity and public trust might support longer-run investment; the policy's soft commitments and lack of specific mechanisms make any real-world effect hard to predict. The biggest risk is that aligning with the EU's stricter framework raises compliance costs for UK AI businesses without clear offsetting gains.",
+    "biggest_unknown": "Whether a precautionary/EU-aligned AI regulatory framework materially reduces UK AI investment and productivity gains compared to the current pro-innovation approach, or whether regulatory certainty and trust produce compensating economic benefits.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy proposes a precautionary regulatory approach to AI, aligning with European and global efforts.",
+        "evidence_id": "M",
+        "quote": "Push for a precautionary regulatory approach to AI, aligning with European and global efforts."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK's current approach to AI regulation is explicitly 'pro-innovation' and principles-based, contrasting with the EU's more prescriptive, risk-based legislative framework.",
+        "evidence_id": "E15",
+        "quote": "The UK has adopted a \"pro-innovation\" and \"principles-based, context-driven\" approach to AI regulation, contrasting with the EU's more prescriptive, risk-based legislative framework (the EU AI Act)."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK government's current AI policies have mainly focused on boosting the AI sector, promoting innovation, and driving growth and productivity.",
+        "evidence_id": "E21",
+        "quote": "The government's policies have mainly focused on boosting the AI sector, promoting innovation, and driving growth and productivity."
+      },
+      {
+        "tier": "projected",
+        "claim": "Companies may adopt EU AI standards globally to avoid managing multiple competing requirements, limiting the UK's ability to differentiate its regulatory environment.",
+        "evidence_id": "E30",
+        "quote": "Some analysts suggest the EU's AI Act may exert an \"extraterritorial policy influence\" on the UK due to the EU's market size and regulatory capacity, potentially leading companies to adopt EU standards globally to avoid managing multiple competing requirements."
+      },
+      {
+        "tier": "projected",
+        "claim": "An impact assessment for AI regulation anticipated only 'low' monetised benefits for businesses from increased public trust in AI.",
+        "evidence_id": "E27",
+        "quote": "An impact assessment in March 2023 anticipated \"low\" monetized benefits for businesses in the form of greater demand for AI products and services due to increased public trust."
+      },
+      {
+        "tier": "projected",
+        "claim": "There is a debate about whether a principles-based approach is sufficient to mitigate AI risks without stifling innovation.",
+        "evidence_id": "E28",
+        "quote": "There is a debate about whether the UK's targeted, principles-based approach is sufficient to mitigate a broad range of current and future AI risks without stifling innovation."
+      }
+    ],
+    "rationale": "The existing UK framework is deliberately pro-innovation (E15, E21), treating AI investment and productivity as key economic levers. This policy pushes in the opposite direction \u2014 toward a precautionary, EU-aligned stance. Near-term, a more prescriptive regulatory framework would raise compliance costs for UK AI businesses, potentially dampening the investment and firm-formation the current approach is designed to foster. The Brussels Effect (E30) means UK businesses may face EU-level compliance demands regardless, which could either reduce the cost of aligning or, if the UK gold-plates further, add to it. The anticipated benefits from greater public trust were independently assessed as 'low' in monetised terms (E27). On the Digital Bill of Rights side, social media is already independently regulated via Ofcom under the Online Safety Act (E3, E4), so the additionality for prosperity is limited. The debate over whether precautionary regulation stifles or enables innovation is genuine (E28), and the policy's soft-verb framing ('push for') means no committed instrument is in place, limiting the certainty of any effect. On balance, the evidence slightly favours a mild near-term drag on AI-driven productivity and investment relative to the counterfactual, with uncertain longer-run effects from trust and regulatory clarity \u2014 hence 'mixed/minor'.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.baringa.com/en/industries/financial-services/finance-risk-compliance/ai-regulation-eu-vs-uk/",
+        "publisher": "baringa.com",
+        "title": "baringa.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://gdprlocal.com/regulations-on-ai/",
+        "publisher": "gdprlocal.com",
+        "title": "gdprlocal.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2025)769531",
+        "publisher": "europarl.europa.eu",
+        "title": "europa.eu",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10003/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://policyreview.info/articles/analysis/artificial-intelligence-regulation-united-kingdom-path-good-governance",
+        "publisher": "policyreview.info",
+        "title": "policyreview.info",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/6424208f3d885d000cdadddf/uk_ai_regulation_impact_assessment.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://lordslibrary.parliament.uk/ai-regulation-in-the-uk-debate-on-the-need-for-cross-sector-legislation/",
+        "publisher": "lordslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0519,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are appropriately tiered and the quoted evidence entails the claims as stated. The 'measurable' claims (E15, E21) reflect sourced factual baselines about the current UK regulatory posture, not projections. The projected claims use appropriately hedged language ('may', 'debate', 'anticipated'). The mixed/minor verdict is justified: the rationale acknowledges near-term drag risk and uncertain long-run effects without overstating either. The 'Brussels Effect' claim (E30) is correctly marked projected and the quote supports the claim. The low-monetised-benefit claim (E27) accurately reflects the impact assessment quote. No party identity or motive attribution detected. No lever leakage \u2014 the analysis is consistently tied back to AI investment, productivity, and living standards (O13). The soft-verb framing caveat ('push for') is appropriately noted as limiting certainty. No false balance issue: both sides of the mixed verdict have genuine claims behind them (near-term compliance cost drag vs. uncertain trust/clarity gains). Minor observation: E15 is backed partly by baringa.com (commercial/media), but is corroborated by gdprlocal.com and europarl.europa.eu and is used only for a factual characterisation of the existing UK approach, not to drive magnitude \u2014 acceptable."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Introduce a Digital Bill of Rights to establish UK standards for rule of law and democracy in digital spaces, ensuring independent regulation of social media, safeguarding elections, and giving the public control over data. Push for a precautionary regulatory approach to AI, aligning with European and global efforts.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "However, this bill was not passed; its passage was halted in September 2022 and the Justice Secretary confirmed in June 2023 that the government would not be proceeding with it.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Bill_of_Rights_Bill",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This proposed Bill of Rights focused on reforming human rights law, strengthening freedom of speech, recognizing the right to jury trial, and limiting courts' powers regarding certain rights, particularly in deportation cases.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/bill-of-rights-bill-documents",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bill_of_Rights_Bill",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Online Safety Act 2023 (previously the Online Safety Bill) aims to make the UK \"the safest place in the world to be online\" by imposing duties on \"regulated services\" (user-to-user services and search services with links to the UK).",
+        "sources": [
+          {
+            "url": "https://www.eff.org/pages/uk-online-safety-bill-massive-threat-online-privacy-security-and-speech",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Ofcom is designated as the independent regulator for this Act.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Regulation of Social Media:** The Act imposes duties on online platforms regarding illegal content, content harmful to children, and, for the largest and riskiest platforms (Category 1 providers), legal but harmful content to adults.",
+        "sources": [
+          {
+            "url": "https://www.eff.org/pages/uk-online-safety-bill-massive-threat-online-privacy-security-and-speech",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This includes protecting democratic debate and journalistic user-generated content, and a duty to prevent fraudulent advertising.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "However, campaigners like the Open Rights Group have warned that the Data Use and Access Bill (a separate but related legislative effort) contains provisions that could make it harder for people to control their personal data and lives, and that the government has made it easier for \"Big Tech to make automated decisions about us.\"",
+        "sources": [
+          {
+            "url": "https://www.openrightsgroup.org/press-releases/dangerous-data-bill-affects-us-all-not-just-creative-industries/",
+            "publisher": "openrightsgroup.org",
+            "title": "openrightsgroup.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "They also note concerns that ministers can change how data is shared with minimal parliamentary scrutiny.",
+        "sources": [
+          {
+            "url": "https://www.openrightsgroup.org/press-releases/dangerous-data-bill-affects-us-all-not-just-creative-industries/",
+            "publisher": "openrightsgroup.org",
+            "title": "openrightsgroup.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Freedom of Expression and Privacy:** Critics, including Global Partners Digital and the Electronic Frontier Foundation (EFF), have raised serious concerns that the Online Safety Act poses risks to freedom of expression and privacy online.",
+        "sources": [
+          {
+            "url": "https://www.gp-digital.org/the-uks-online-safety-bill-poses-serious-risk-to-human-rights/",
+            "publisher": "gp-digital.org",
+            "title": "gp-digital.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/pages/uk-online-safety-bill-massive-threat-online-privacy-security-and-speech",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.matrixlaw.co.uk/wp-content/uploads/2022/05/Legal-analysis-of-the-impact-of-the-Online-Safety-Bill-on-freedom-of-expression.pdf",
+            "publisher": "matrixlaw.co.uk",
+            "title": "matrixlaw.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "They argue that the vast scope of content covered may force platforms to employ general monitoring and automated removal tools, despite known inaccuracies and biases.",
+        "sources": [
+          {
+            "url": "https://www.gp-digital.org/the-uks-online-safety-bill-poses-serious-risk-to-human-rights/",
+            "publisher": "gp-digital.org",
+            "title": "gp-digital.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.eff.org/pages/uk-online-safety-bill-massive-threat-online-privacy-security-and-speech",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Concerns have also been raised about the Bill's potential to undermine end-to-end encryption, with some viewing it as a blueprint for repression.",
+        "sources": [
+          {
+            "url": "https://www.eff.org/pages/uk-online-safety-bill-massive-threat-online-privacy-security-and-speech",
+            "publisher": "eff.org",
+            "title": "eff.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Matrix Chambers has highlighted that the Bill may violate freedom of speech as defined in UK and international law, with protections for media content not as wide as existing human rights for journalists.",
+        "sources": [
+          {
+            "url": "https://www.matrixlaw.co.uk/wp-content/uploads/2022/05/Legal-analysis-of-the-impact-of-the-Online-Safety-Bill-on-freedom-of-expression.pdf",
+            "publisher": "matrixlaw.co.uk",
+            "title": "matrixlaw.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Over-removal of Content:** There is an incentive for platforms to \"play it safe\" and over-remove content due to significant penalties and sanctions.",
+        "sources": [
+          {
+            "url": "https://www.gp-digital.org/the-uks-online-safety-bill-poses-serious-risk-to-human-rights/",
+            "publisher": "gp-digital.org",
+            "title": "gp-digital.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Ofcom's Capacity:** Concerns exist that Ofcom may not be able to effectively undertake its new role given its other regulatory remits and potential lack of human and technical capacity.",
+        "sources": [
+          {
+            "url": "https://verfassungsblog.de/uk-osb/",
+            "publisher": "verfassungsblog.de",
+            "title": "verfassungsblog.de",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The UK has adopted a \"pro-innovation\" and \"principles-based, context-driven\" approach to AI regulation, contrasting with the EU's more prescriptive, risk-based legislative framework (the EU AI Act).",
+        "sources": [
+          {
+            "url": "https://www.baringa.com/en/industries/financial-services/finance-risk-compliance/ai-regulation-eu-vs-uk/",
+            "publisher": "baringa.com",
+            "title": "baringa.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gdprlocal.com/regulations-on-ai/",
+            "publisher": "gdprlocal.com",
+            "title": "gdprlocal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2025)769531",
+            "publisher": "europarl.europa.eu",
+            "title": "europa.eu",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The UK's strategy relies on existing regulators to apply cross-sectoral AI governance principles within their remits, rather than introducing a single, comprehensive AI-specific law or a new regulatory body at the outset.",
+        "sources": [
+          {
+            "url": "https://gdprlocal.com/regulations-on-ai/",
+            "publisher": "gdprlocal.com",
+            "title": "gdprlocal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cov.com/-/media/files/corporate/publications/2023/11/the-united-kingdom-diverges-from-the-european-union-in-its-proposed-proinnovation-approach-to-regulating-artificial-intelligence--the-journal-of-robotics-artificia.pdf",
+            "publisher": "cov.com",
+            "title": "cov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Sector-Specific Regulation:** Existing regulators (e.g., Ofcom for communications, MHRA for healthcare, FCA for financial services) are expected to issue sector-specific guidance on how to apply the AI principles.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgKsr5BecXeDTxIHO5TwbHEF4L1dtTk1K_q8jx3X3IOyO4hAzgY-m9vswGuOcGkcGCjLeMZQESu-MEv8elBa_iIPY9CsUrpT3DsZRDgersYYRErQC6G8TqjL25HndzhNSDS5UphvkvqVrasxYntovrcRV7649sTGmmp6L_e-9cw_ZMt6_XcBKANeRo_Up9OqDwrgXb8TTFNOG6",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "whitecase.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.baringa.com/en/industries/financial-services/finance-risk-compliance/ai-regulation-eu-vs-uk/",
+            "publisher": "baringa.com",
+            "title": "baringa.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.twobirds.com/en/insights/2026/uk/ai-regulation-in-the-uk-the-role-of-the-regulators",
+            "publisher": "twobirds.com",
+            "title": "twobirds.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10003/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "For example, the MHRA has undertaken extensive engagement to inform future rules on AI in healthcare, recognizing potential benefits but also the need for adapted regulatory approaches for safety and efficacy.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/mhra-landmark-report-reveals-public-views-on-ai-in-healthcare",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The FCA has expanded its sandbox initiatives for AI and launched an \"AI live testing\" scheme.",
+        "sources": [
+          {
+            "url": "https://www.twobirds.com/en/insights/2026/uk/ai-regulation-in-the-uk-the-role-of-the-regulators",
+            "publisher": "twobirds.com",
+            "title": "twobirds.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Fostering Innovation:** The \"pro-innovation\" approach aims to promote the AI sector's growth and establish the UK as a global leader in AI.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgKsr5BecXeDTxIHO5TwbHEF4L1dtTk1K_q8jx3X3IOyO4hAzgY-m9vswGuOcGkcGCjLeMZQESu-MEv8elBa_iIPY9CsUrpT3DsZRDgersYYRErQC6G8TqjL25HndzhNSDS5UphvkvqVrasxYntovrcRV7649sTGmmp6L_e-9cw_ZMt6_XcBKANeRo_Up9OqDwrgXb8TTFNOG6",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "whitecase.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://policyreview.info/articles/analysis/artificial-intelligence-regulation-united-kingdom-path-good-governance",
+            "publisher": "policyreview.info",
+            "title": "policyreview.info",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cov.com/-/media/files/corporate/publications/2023/11/the-united-kingdom-diverges-from-the-european-union-in-its-proposed-proinnovation-approach-to-regulating-artificial-intelligence--the-journal-of-robotics-artificia.pdf",
+            "publisher": "cov.com",
+            "title": "cov.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6424208f3d885d000cdadddf/uk_ai_regulation_impact_assessment.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The government's policies have mainly focused on boosting the AI sector, promoting innovation, and driving growth and productivity.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10003/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Addressing Risks:** The framework intends to address risks such as damage to physical and mental health, bias and discrimination, and infringements on privacy and individual rights.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgKsr5BecXeDTxIHO5TwbHEF4L1dtTk1K_q8jx3X3IOyO4hAzgY-m9vswGuOcGkcGCjLeMZQESu-MEv8elBa_iIPY9CsUrpT3DsZRDgersYYRErQC6G8TqjL25HndzhNSDS5UphvkvqVrasxYntovrcRV7649sTGmmp6L_e-9cw_ZMt6_XcBKANeRo_Up9OqDwrgXb8TTFNOG6",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "whitecase.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6424208f3d885d000cdadddf/uk_ai_regulation_impact_assessment.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The government plans to introduce legislation in 2025 to make voluntary agreements with AI developers legally binding and grant independence to the AI Safety Institute.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgKsr5BecXeDTxIHO5TwbHEF4L1dtTk1K_q8jx3X3IOyO4hAzgY-m9vswGuOcGkcGCjLeMZQESu-MEv8elBa_iIPY9CsUrpT3DsZRDgersYYRErQC6G8TqjL25HndzhNSDS5UphvkvqVrasxYntovrcRV7649sTGmmp6L_e-9cw_ZMt6_XcBKANeRo_Up9OqDwrgXb8TTFNOG6",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "whitecase.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Global Alignment and Leadership:** The UK aims to lead the international conversation on AI governance and has hosted the first Global Summit on AI Safety.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/ai-in-the-eu-and-uk-two-approaches-to-regulation-and-international-leadership/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://policyreview.info/articles/analysis/artificial-intelligence-regulation-united-kingdom-path-good-governance",
+            "publisher": "policyreview.info",
+            "title": "policyreview.info",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The focus has been on longer-term AI safety issues and threats that could \"endanger humanity.\"",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/ai-in-the-eu-and-uk-two-approaches-to-regulation-and-international-leadership/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   The government's vision includes sub-objectives like increasing investment in UK AI SMEs relative to international AI SMEs and increasing the proportion of the UK public positive about AI.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6424208f3d885d000cdadddf/uk_ai_regulation_impact_assessment.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   An impact assessment in March 2023 anticipated \"low\" monetized benefits for businesses in the form of greater demand for AI products and services due to increased public trust.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6424208f3d885d000cdadddf/uk_ai_regulation_impact_assessment.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Innovation:** There is a debate about whether the UK's targeted, principles-based approach is sufficient to mitigate a broad range of current and future AI risks without stifling innovation.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/ai-regulation-in-the-uk-debate-on-the-need-for-cross-sector-legislation/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Contrast with EU AI Act (\"Brussels Effect\"):** The UK's approach differs significantly from the EU's comprehensive, horizontal, risk-based AI Act, which categorizes AI systems into risk tiers (unacceptable, high, limited, minimal) with corresponding obligations.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/ai-in-the-eu-and-uk-two-approaches-to-regulation-and-international-leadership/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/ai-regulation-in-the-uk-debate-on-the-need-for-cross-sector-legislation/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.baringa.com/en/industries/financial-services/finance-risk-compliance/ai-regulation-eu-vs-uk/",
+            "publisher": "baringa.com",
+            "title": "baringa.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://gdprlocal.com/regulations-on-ai/",
+            "publisher": "gdprlocal.com",
+            "title": "gdprlocal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cambridgemc.com/legislating-ai-a-comparison-between-the-eu-and-the-uk",
+            "publisher": "cambridgemc.com",
+            "title": "cambridgemc.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Some analysts suggest the EU's AI Act may exert an \"extraterritorial policy influence\" on the UK due to the EU's market size and regulatory capacity, potentially leading companies to adopt EU standards globally to avoid managing multiple competing requirements.",
+        "sources": [
+          {
+            "url": "https://policyreview.info/articles/analysis/artificial-intelligence-regulation-united-kingdom-path-good-governance",
+            "publisher": "policyreview.info",
+            "title": "policyreview.info",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Present Harms:** While the UK focuses on longer-term catastrophic risks, some argue that an excessive focus here without supporting regulators in tackling present harms (like AI bias) could undermine domestic governance efforts.",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/ai-in-the-eu-and-uk-two-approaches-to-regulation-and-international-leadership/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Inconsistent Enforcement:** Concerns exist about the potential for inconsistent enforcement or guidance across different regulators due to the decentralized framework.",
+        "sources": [
+          {
+            "url": "https://www.cov.com/-/media/files/corporate/publications/2023/11/the-united-kingdom-diverges-from-the-european-union-in-its-proposed-proinnovation-approach-to-regulating-artificial-intelligence--the-journal-of-robotics-artificia.pdf",
+            "publisher": "cov.com",
+            "title": "cov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **House of Commons Library:** Provides briefings and research on AI regulation in the UK, outlining the government's approach and key policy documents.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/ai-regulation-in-the-uk-debate-on-the-need-for-cross-sector-legislation/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10003/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/artificial-intelligence/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Health Foundation:** Participated in research informing future rules on AI in healthcare, highlighting public desire for strong safeguards, transparency, and clear accountability.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/mhra-landmark-report-reveals-public-views-on-ai-in-healthcare",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Jennifer Dixon, Chief Executive, noted that people \"see potential for AI to improve their care, but they want to see strong safeguards, transparency, and clear accountability for how it is used and governed.\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/mhra-landmark-report-reveals-public-views-on-ai-in-healthcare",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Open Rights Group:** Has expressed strong warnings about provisions in the Data Use and Access Bill, which they argue threaten individual control over personal data and democratic procedures, potentially paving the way for an \"AI surveillance state.\"",
+        "sources": [
+          {
+            "url": "https://www.openrightsgroup.org/press-releases/dangerous-data-bill-affects-us-all-not-just-creative-industries/",
+            "publisher": "openrightsgroup.org",
+            "title": "openrightsgroup.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The Resolution Foundation is noted for its work on living standards and analysis of the cost of living crisis and its impact on rights, but not directly on digital rights or AI policy in these snippets.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.rcp.ac.uk/news-and-media/news-and-opinion/the-cost-of-living-crisis-and-the-right-to-health/",
+            "publisher": "rcp.ac.uk",
+            "title": "rcp.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The House of Commons Library does reference a 2022 House of Commons Library document in an impact assessment for AI regulation.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6424208f3d885d000cdadddf/uk_ai_regulation_impact_assessment.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

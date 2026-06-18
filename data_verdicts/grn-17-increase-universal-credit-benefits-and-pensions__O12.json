@@ -1,0 +1,937 @@
+{
+  "policy_id": "grn-17-increase-universal-credit-benefits-and-pensions",
+  "party": "Green",
+  "policy_title": "Increase Universal Credit, benefits, and pensions",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "major",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This package of benefit and pension increases would add very large amounts to public spending with no stated funding source, worsening the public finances. The main uncertainty is whether any tax rises or savings could fund it, but none are mentioned in the policy.",
+    "biggest_unknown": "Whether the proposing party would offset these costs through tax rises or spending cuts elsewhere \u2014 the policy text states none, so the verdict is based on the policy as written.",
+    "claims": [
+      {
+        "tier": "projected",
+        "claim": "UC spending alone was projected to reach \u00a388.1 billion by 2028-29, making any large percentage increase in entitlements extremely costly.",
+        "evidence_id": "E2",
+        "quote": "spending on Universal Credit alone was projected to be \u00a351.2 billion, rising to \u00a388.1 billion by 2028-29 due to ongoing rollout"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A \u00a340/week increase represents a very large rise relative to standard upratings.",
+        "evidence_id": "E1",
+        "quote": "A weekly increase of \u00a340 would equate to approximately \u00a3160 a month, a much larger rise than recent standard upratings."
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR projects triple-lock pension spending to rise from 5% of GDP to 7.7% by the early 2070s, creating long-term structural fiscal pressure.",
+        "evidence_id": "E28",
+        "quote": "they project that the triple lock alone accounts for more than half of the projected increase in State Pension spending, which is set to rise from 5% of GDP (\u00a3138 billion a year) to 7.7% by the early 2070s."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The bedroom tax currently generates approximately \u00a3434 million a year in deductions; scrapping it would reverse this saving.",
+        "evidence_id": "E40",
+        "quote": "In 2021/22, \u00a3434 million worth of deductions were made nationwide due to this policy."
+      }
+    ],
+    "rationale": "The policy commits to multiple large unfunded spending increases simultaneously. Abolishing the two-child cap alone costs \u00a32.5\u20133.6bn; the triple-lock pension commitment adds \u00a315.5bn/yr by 2029-30 and carries a long-run structural trajectory to 7.7% of GDP; ending the five-week wait via grants costs ~\u00a31.5bn; and scrapping the bedroom tax reverses ~\u00a3434m in annual savings. The centrepiece \u2014 a \u00a340/week increase to UC and legacy benefits applied to a projected baseline of \u00a388bn/yr \u2014 is described as 'a much larger rise than recent standard upratings', implying additional cost likely in the tens of billions annually, though no precise aggregate figure is available in the provided evidence. None of these are funded within the policy text. Under O12's criteria, unfunded spending that is primarily consumption-side (income transfers rather than productive investment) worsens the near-term deficit and places the bill on future taxpayers unless offset. The long-run pension commitment is particularly significant given the OBR's projection. This verdict does not assess the merits of redistribution \u2014 those appear under O14 and O8 \u2014 but straightforwardly assesses that adding very large unfunded expenditure worsens the debt path. Confidence is moderate rather than high because the \u00a340/week UC increase lacks a precise aggregate cost estimate in the provided evidence, and because reduced poverty could lower other public costs, but no cited evidence quantifies such offsets at scale.",
+    "sources": [
+      {
+        "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/welfare-spending-universal-credit/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.birminghammail.co.uk/news/cost-of-living/universal-credit-cost-living-boost-29296783",
+        "publisher": "birminghammail.co.uk",
+        "title": "birminghammail.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+        "publisher": "if.org.uk",
+        "title": "if.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://exchangeaccountants.com/triple-lock-costs-soar/",
+        "publisher": "exchangeaccountants.com",
+        "title": "exchangeaccountants.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsylqargeLTQcIXsfjUch_avgANBH8fcx0k98eMrpBpJbpBAJ7_eOfco11d-8Ocpe0akhdyxOnL15nQM-IWNLShJTboJol90g_XhB60VUS0buWtDfm5FzU3j1Yx9Yzcah9WLALcdMbf62ILySmcEgTW-UjL8NS69vtNT1u6ty66-ymxBTkDdaiJsGivgrB",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "itv.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1494,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 2,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claims 3 and the rationale attribute the OBR's triple-lock cost figures (\u00a315.5bn/yr by 2029-30, 5%\u21927.7% GDP trajectory) as fiscal worsening caused by THIS policy. However, the triple lock is already current UK government policy. The incremental fiscal cost of this policy's pension commitment is the cost of maintaining (or preventing reform of) an existing baseline, not adding a new cost. The evidence (E27, E28) does not distinguish marginal cost from baseline cost. This overstates the fiscal attribution to this specific policy on pensions, though it remains a legitimate constraint (the policy forecloses reform options)."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "The verdict's 'major' magnitude relies heavily on the centrepiece \u00a340/week UC increase, which the rationale itself acknowledges has no precise aggregate cost estimate in the cited evidence ('likely in the tens of billions annually' is unsubstantiated by any cited source). E1 (Birmingham Mail) shows the per-claimant quantum but no total cost is cited. Magnitude of 'major' for the overall verdict therefore rests partly on an unquantified claim."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E1 (birminghammail.co.uk) is a media source used to establish a key comparator ('much larger rise than recent standard upratings'). It is the sole basis for this characterisation and is not corroborated by an institutional source. Should be labelled accordingly and not treated as a strong evidential anchor."
+        }
+      ],
+      "notes": "The verdict's core direction ('worsens') is well-supported: multiple large spending commitments are explicitly unfunded in the policy text, and the quantified items alone (~\u00a34\u20135bn from two-child cap abolition, waiting period reform, and bedroom tax reversal) are materially significant. The O12 criteria's symmetry between unfunded spending and tax cuts is correctly applied. The biggest analytical vulnerability is that the pension section conflates existing triple-lock costs with costs incremental to this policy. Confidence 'moderate' is appropriate given unquantified UC costs. No blocking issues found; warnings relate to source robustness and attribution precision."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "The policy proposes increasing UC and legacy benefits by \u00a340 a week, ending the five-week wait, abolishing the two-child cap, increasing disability benefits by 5%, uprating pensions with inflation and wage rises, increasing carer's allowance by at least 10% a month, and scrapping the bedroom tax.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Abolishing the two-child cap is estimated to cost \u00a32.5 billion in 2024-25, rising to \u00a33.6 billion when fully rolled out.",
+          "evidence_id": "E18",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The OBR estimates the triple lock will cost \u00a315.5 billion a year by 2029-30, nearly three times higher than initial expectations.",
+          "evidence_id": "E27",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Ending the five-week wait with non-repayable grants would cost around \u00a31.5 billion annually.",
+          "evidence_id": "E7",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Increase Universal Credit and legacy benefits by \u00a340 a week, end the five-week waiting period, abolish the two-child benefit cap, increase all disability benefits by 5%, uprate pensions with inflation and wage rises, and increase carer\u2019s allowance by at least 10% a month. Scrap the bedroom tax.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "A weekly increase of \u00a340 would equate to approximately \u00a3160 a month, a much larger rise than recent standard upratings.",
+        "sources": [
+          {
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/universal-credit-cost-living-boost-29296783",
+            "publisher": "birminghammail.co.uk",
+            "title": "birminghammail.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "For example, in 2023-24, spending on Universal Credit alone was projected to be \u00a351.2 billion, rising to \u00a388.1 billion by 2028-29 due to ongoing rollout",
+        "sources": [
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/welfare-spending-universal-credit/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Currently, new Universal Credit claimants must wait five weeks for their first payment, with payments made in arrears.",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lawcentreni.org/key-ask-1/",
+            "publisher": "lawcentreni.org",
+            "title": "lawcentreni.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/1908/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bigissue.com/opinion/universal-credit-benefits-five-week-wait-cap/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9109/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The five-week wait has been identified as a significant cause of debt, increased poverty, and reliance on food banks.",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lawcentreni.org/key-ask-1/",
+            "publisher": "lawcentreni.org",
+            "title": "lawcentreni.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/1908/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bigissue.com/opinion/universal-credit-benefits-five-week-wait-cap/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/testing-times-for-universal-credit/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/economic-affairs-committee-report-on-universal-credit/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Many claimants are forced to take out advance payments, which are loans that reduce future benefit entitlements, creating a cycle of debt.",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lawcentreni.org/key-ask-1/",
+            "publisher": "lawcentreni.org",
+            "title": "lawcentreni.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/overcoming-the-5-week-wait-a-discussion-paper/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/1908/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.bigissue.com/opinion/universal-credit-benefits-five-week-wait-cap/",
+            "publisher": "bigissue.com",
+            "title": "bigissue.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Improved Mental Health:** The wait has also been linked to negative impacts on mental health due to stress and anxiety.",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/2020-11/Universal%20credit%20and%20the%20five%20week%20wait%202020.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Credible Data and Analysts:**\n    *   **Citizens Advice** estimates that providing non-repayable grants instead of loans to cover this period would cost around \u00a31.5 billion annually.",
+        "sources": [
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/overcoming-the-5-week-wait-a-discussion-paper/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **The Joseph Rowntree Foundation** (JRF) highlights the five-week wait as a key structural element in the benefit system that increases poverty.",
+        "sources": [
+          {
+            "url": "https://www.lawcentreni.org/key-ask-1/",
+            "publisher": "lawcentreni.org",
+            "title": "lawcentreni.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/1908/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "They recommended a non-repayable, two-week initial grant for all claimants.",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/economic-affairs-committee-report-on-universal-credit/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Introduced in 2017, this cap limits Universal Credit and Child Tax Credit to the first two children in most households.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Benefit_cap",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The policy has pushed more than 1.6 million children into deprivation.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/restoring-security-understanding-the-effects-of-removing-the-two-child-limit-across-the-uk",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The House of Commons Library estimates that in 2030/31, around 570,000 households would gain an average of \u00a3450 a month (or \u00a35,400 a year).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10474/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Around 2 million children would live in households benefiting from this change by 2029/30.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/poverty-impacts-of-social-security-changes-at-budget-2025/removing-the-two-child-limit-on-universal-credit-impact-on-low-income-poverty-levels-in-the-united-kingdom",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10474/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Credible Data and Analysts:**\n    *   **GOV.UK and House of Commons Library** estimate that abolishing the cap would result in 450,000 fewer children in relative low income after housing costs by FYE 2030, reducing child poverty rates by over 3 percentage points.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/poverty-impacts-of-social-security-changes-at-budget-2025/removing-the-two-child-limit-on-universal-credit-impact-on-low-income-poverty-levels-in-the-united-kingdom",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.savethechildren.org.uk/blogs/2026/removal-two-child-limit-benefits",
+            "publisher": "savethechildren.org.uk",
+            "title": "savethechildren.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10474/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **The Resolution Foundation** estimates that scrapping the cap would lift 490,000 children out of poverty if abolished today",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": ", or 330,000 children immediately and a further 150,000 by 2029-30",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/no-half-measures/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.theguardian.com/society/2025/oct/30/only-full-abolition-of-two-child-benefit-cap-will-substantially-cut-poverty-thinktank-says",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They consistently argue that it is the most powerful and cost-effective lever to drive down child poverty rates.",
+        "sources": [
+          {
+            "url": "https://www.savethechildren.org.uk/blogs/2026/removal-two-child-limit-benefits",
+            "publisher": "savethechildren.org.uk",
+            "title": "savethechildren.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/no-half-measures/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.theguardian.com/society/2025/oct/30/only-full-abolition-of-two-child-benefit-cap-will-substantially-cut-poverty-thinktank-says",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Cost Estimates:**\n        *   **Resolution Foundation:** Estimates the cost at \u00a32.5 billion in 2024-25, rising to \u00a33.6 billion when fully rolled out (by 2035)",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Benefit_cap",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://new-economicsf.files.svdcdn.com/production/files/Capping-Ambitions-FINAL.pdf",
+            "publisher": "new-economicsf.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Another estimate suggests \u00a33 billion if the benefit cap is abolished alongside it.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/01/Catastrophic-Caps.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **IFS:** Estimates the cost at about \u00a33.4 billion a year",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5JZTlS2_18G45EnKmPalxyfLK0Gu88JgE9G0CxZo7xn4qq1WkxwtOQSSxnmTlniWI50sB5mNkv5tLK3J-QHWWSnWm7gCmmYXCAWr_pPrnkgWaNLLSxjFGZcMVm1kBWMgnSFSI0JR63c10n6NNEpdQZroGRA1iwNrjT1M9ZvcunWw=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "or around \u00a33.6 billion to lift 630,000 children out of poverty.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/twochild-benefit-cap-poverty-reeves-chancellor-budget-b2850325.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They note that abolishing the limit would ironically lead to 70,000 more households being affected by the overall household benefit cap, partially or fully negating the gains for some of the poorest families.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPbeFbX1XYoiO0W9U_PBhg9HdALDqQaq070tyRsytQiTiTR4r1DEZqT0c3q1zAM4FT_qfD3KstgZ3LcNe-KEcU0nWAyM93bzLMLg2gNBVATKGFdXnsk4gxl6f7nNHX3tnsm4OYIYZ1zTxj8REDTQWRKy0Qnr2DEbmYltczotWYqqSCpz13wDwBgK3-tgSSEfcb-gm6jSIn09XFrnDINWD9ellrP3zRa9XlupH45X9o9g==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Likely Real-World Effects:** This would provide a direct financial boost to disabled individuals and their carers, who disproportionately experience lower incomes and living standards.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/dont-forget-about-us/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The **Resolution Foundation** highlights that disability disproportionately affects the poorer half of Britain and calls for policy reform to make the social security system more effective at supporting disabled people and carers.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/dont-forget-about-us/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The triple lock ensures that the State Pension increases each year by the highest of: Consumer Prices Index (CPI) inflation, average earnings growth, or 2.5%.",
+        "sources": [
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://exchangeaccountants.com/triple-lock-costs-soar/",
+            "publisher": "exchangeaccountants.com",
+            "title": "exchangeaccountants.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8ghkVDTo2rQGY_laGDe-gsmOVFlijhAK6G3J1OxluNu2pcvhDVvIZbVMbujJ1rfG1fTLm7fJzphNJdbY1U8TAznJHs5He4JqNiUH21pBq3c-SO-PFtbIkRyk8UhKA4olBBw-IZJ5ISRnUEEyQyNxYME5S2pDt7wUk8uqHVh9ZIgWL7yhpQDigS4iOkGV8mw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1lum293/office_for_budget_responsibility_the_triple_lock/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The value of the State Pension has risen much faster than average earnings or prices since its introduction in 2011.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8ghkVDTo2rQGY_laGDe-gsmOVFlijhAK6G3J1OxluNu2pcvhDVvIZbVMbujJ1rfG1fTLm7fJzphNJdbY1U8TAznJHs5He4JqNiUH21pBq3c-SO-PFtbIkRyk8UhKA4olBBw-IZJ5ISRnUEEyQyNxYME5S2pDt7wUk8uqHVh9ZIgWL7yhpQDigS4iOkGV8mw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Credible Data and Analysts:**\n    *   **OBR:** Estimates that the triple lock will cost \u00a315.5 billion a year by 2029-30, which is nearly three times higher than initial expectations.",
+        "sources": [
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://exchangeaccountants.com/triple-lock-costs-soar/",
+            "publisher": "exchangeaccountants.com",
+            "title": "exchangeaccountants.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "They project that the triple lock alone accounts for more than half of the projected increase in State Pension spending, which is set to rise from 5% of GDP (\u00a3138 billion a year) to 7.7% by the early 2070s.",
+        "sources": [
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://exchangeaccountants.com/triple-lock-costs-soar/",
+            "publisher": "exchangeaccountants.com",
+            "title": "exchangeaccountants.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The OBR also highlights that it introduces significant uncertainty into long-term fiscal planning due to its sensitivity to economic volatility.",
+        "sources": [
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **IFS:** Notes that the triple lock pushed up spending by \u00a312 billion a year in 2025-26 compared to if it had been indexed only to average earnings since 2011.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8ghkVDTo2rQGY_laGDe-gsmOVFlijhAK6G3J1OxluNu2pcvhDVvIZbVMbujJ1rfG1fTLm7fJzphNJdbY1U8TAznJHs5He4JqNiUH21pBq3c-SO-PFtbIkRyk8UhKA4olBBw-IZJ5ISRnUEEyQyNxYME5S2pDt7wUk8uqHVh9ZIgWL7yhpQDigS4iOkGV8mw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "They also emphasize that it creates unpredictability in public spending and disproportionately benefits better-off pensioners.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8ghkVDTo2rQGY_laGDe-gsmOVFlijhAK6G3J1OxluNu2pcvhDVvIZbVMbujJ1rfG1fTLm7fJzphNJdbY1U8TAznJHs5He4JqNiUH21pBq3c-SO-PFtbIkRyk8UhKA4olBBw-IZJ5ISRnUEEyQyNxYME5S2pDt7wUk8uqHVh9ZIgWL7yhpQDigS4iOkGV8mw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Carer's Allowance is currently the lowest-value benefit, at \u00a383.30 per week.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/jul/17/ministers-urged-to-overhaul-and-raise-carers-allowance",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Addressing Inadequacy (Partially):** The Resolution Foundation points out that unpaid carers on low incomes pay a \"very heavy price,\" with a typical penalty of 10% or up to \u00a37,000 a year compared to non-carers.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/jul/17/ministers-urged-to-overhaul-and-raise-carers-allowance",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "They note the value of Carer's Allowance has fallen significantly relative to the minimum wage over the last two decades.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/jul/17/ministers-urged-to-overhaul-and-raise-carers-allowance",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Credible Data and Analysts:**\n    *   The **Resolution Foundation** has called for the basic rate of Carer's Allowance to be raised to at least the Jobseeker's Allowance rate (\u00a392.05 a week) to improve living standards for the poorest carers.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/jul/17/ministers-urged-to-overhaul-and-raise-carers-allowance",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "They also suggested boosting it to 1999 levels (32% of minimum wage) which would be \u00a3136.75 a week, at a cost of \u00a32.9 billion a year.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2025/jul/17/ministers-urged-to-overhaul-and-raise-carers-allowance",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Carers UK** supports calls for improved carers' benefits due to the profound financial impact of unpaid care on families, leading to higher rates of poverty and ill-health.",
+        "sources": [
+          {
+            "url": "https://www.carersuk.org/press-releases/carers-uk-responds-to-resolution-foundations-unsung-britain/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The \"bedroom tax,\" formally known as the Removal of the Spare Room Subsidy, reduces Housing Benefit for working-age social housing tenants deemed to have one (14% reduction) or two or more (25% reduction) \"spare\" bedrooms.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Bedroom_tax",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsylqargeLTQcIXsfjUch_avgANBH8fcx0k98eMrpBpJbpBAJ7_eOfco11d-8Ocpe0akhdyxOnL15nQM-IWNLShJTboJol90g_XhB60VUS0buWtDfm5FzU3j1Yx9Yzcah9WLALcdMbf62ILySmcEgTW-UjL8NS69vtNT1u6ty66-ymxBTkDdaiJsGivgrB",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Likely Real-World Effects:**\n    *   **Increased Income for Affected Households:** Scraping the tax would restore Housing Benefit entitlements for around 660,000 working-age social housing tenants.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4894481/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "In 2021/22, \u00a3434 million worth of deductions were made nationwide due to this policy.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsylqargeLTQcIXsfjUch_avgANBH8fcx0k98eMrpBpJbpBAJ7_eOfco11d-8Ocpe0akhdyxOnL15nQM-IWNLShJTboJol90g_XhB60VUS0buWtDfm5FzU3j1Yx9Yzcah9WLALcdMbf62ILySmcEgTW-UjL8NS69vtNT1u6ty66-ymxBTkDdaiJsGivgrB",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Reduced Poverty and Debt:** Critics argue the tax increases poverty and debt, disproportionately affecting disabled people, and can lead to homelessness.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4894481/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bedroom_tax",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsylqargeLTQcIXsfjUch_avgANBH8fcx0k98eMrpBpJbpBAJ7_eOfco11d-8Ocpe0akhdyxOnL15nQM-IWNLShJTboJol90g_XhB60VUS0buWtDfm5FzU3j1Yx9Yzcah9WLALcdMbf62ILySmcEgTW-UjL8NS69vtNT1u6ty66-ymxBTkDdaiJsGivgrB",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "However, the **Resolution Foundation** found it largely unsuccessful in achieving this, instead primarily imposing a financial cost on those unable or unwilling to move due to a lack of suitable smaller properties.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE41NQ6tCRT3FXPvW4CJbcvMk20HyMvENdvgzCKYc56tci-LKR24G5qcQk64uNsHmQe1vwBnBXtl4J6HNw10BtdMPNNdsMN6oVyVVQC4NQlw5odZcPa4pL_Qo48sN5FXzeR2-maHQYtvaHjSw4BYUAtO1zbwe9GyyPcxCzCo1QglNFvDJcKMZ8OONAbMw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "moneysavingexpert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/08/Housing-Outlook-Q2-2024.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/housing-outlook-q2-2024/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsylqargeLTQcIXsfjUch_avgANBH8fcx0k98eMrpBpJbpBAJ7_eOfco11d-8Ocpe0akhdyxOnL15nQM-IWNLShJTboJol90g_XhB60VUS0buWtDfm5FzU3j1Yx9Yzcah9WLALcdMbf62ILySmcEgTW-UjL8NS69vtNT1u6ty66-ymxBTkDdaiJsGivgrB",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "*   **Credible Data and Analysts:**\n    *   A 2015 qualitative study found the bedroom tax increased poverty and had broad-ranging adverse effects on health, wellbeing, and social relationships, strengthening arguments for its revocation.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4894481/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "*   The **National Housing Federation** estimated that the housing benefit bill could actually increase by \u00a3143 million if affected tenants downsized into more expensive privately rented accommodation.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Bedroom_tax",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "*   **Martin Lewis** (MoneySavingExpert) has argued it could be a \"false economy\" as councils might end up housing people put out on the street, at greater cost.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE41NQ6tCRT3FXPvW4CJbcvMk20HyMvENdvgzCKYc56tci-LKR24G5qcQk64uNsHmQe1vwBnBXtl4J6HNw10BtdMPNNdsMN6oVyVVQC4NQlw5odZcPa4pL_Qo48sN5FXzeR2-maHQYtvaHjSw4BYUAtO1zbwe9GyyPcxCzCo1QglNFvDJcKMZ8OONAbMw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "moneysavingexpert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "*   The **House of Commons Library** has detailed the impact, noting that early research warned tenants would struggle to find appropriately sized homes to downsize into.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06896/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsylqargeLTQcIXsfjUch_avgANBH8fcx0k98eMrpBpJbpBAJ7_eOfco11d-8Ocpe0akhdyxOnL15nQM-IWNLShJTboJol90g_XhB60VUS0buWtDfm5FzU3j1Yx9Yzcah9WLALcdMbf62ILySmcEgTW-UjL8NS69vtNT1u6ty66-ymxBTkDdaiJsGivgrB",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

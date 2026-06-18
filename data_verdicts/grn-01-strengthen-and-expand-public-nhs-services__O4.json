@@ -1,0 +1,995 @@
+{
+  "policy_id": "grn-01-strengthen-and-expand-public-nhs-services",
+  "party": "Green",
+  "policy_title": "Strengthen and expand public NHS services",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy commits to immediate pay rises for NHS staff and capital investment that could improve working conditions, which evidence links to better retention and workforce stability. However, the pay trade-off between staff wages and waiting list recovery means real-world gains depend heavily on how additional funding is allocated.",
+    "biggest_unknown": "Whether the additional NHS funding is large enough to deliver both fair pay settlements and waiting list recovery simultaneously, given NHS England's own estimate that every 0.5% above budgeted pay costs ~\u00a3700m equivalent to 300,000 fewer patients treated.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to an immediate budget increase for fair wage settlements for NHS staff.",
+        "evidence_id": "M",
+        "quote": "including an immediate budget increase for fair wage settlements for staff"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Two in three NHS staff believe improved pay is crucial for boosting retention, a key factor in addressing workforce problems.",
+        "evidence_id": "E5",
+        "quote": "two in three NHS staff believe improved pay is crucial for boosting retention, a key factor in addressing workforce problems and their impact on patients"
+      },
+      {
+        "tier": "measurable",
+        "claim": "High levels of staff intending to leave cause rota gaps, overstretched staff, and demotivation, all of which affect patient care.",
+        "evidence_id": "E6",
+        "quote": "high levels of staff intending to leave indicate significant workforce issues, leading to rota gaps, overstretched staff, and demotivation, all of which affect patient care"
+      },
+      {
+        "tier": "projected",
+        "claim": "NHS England warned that a pay rise exceeding the 2.8% budgeted for 2025-26 would hinder waiting list recovery, with every 0.5% increase above that costing ~\u00a3700m.",
+        "evidence_id": "E4",
+        "quote": "every 0.5% increase above 2.8% would cost approximately \u00a3700m, equivalent to reducing the elective waiting list by at least 300,000"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Underinvestment in capital leads to worse working conditions and higher future costs.",
+        "evidence_id": "E12",
+        "quote": "Underinvestment in capital can lead to worse working conditions, patient outcomes, and higher future costs due to postponed maintenance"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The NHS maintenance backlog has more than doubled in real terms over the last decade, reaching \u00a315.9 billion in 2024/25.",
+        "evidence_id": "E8",
+        "quote": "maintenance backlog, the amount needed to restore buildings, has more than doubled in real terms over the last decade, reaching \u00a315.9 billion in 2024/25"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy commits \u00a320bn in capital spending over five years for hospital building and repair.",
+        "evidence_id": "M",
+        "quote": "\u00a320bn in capital spending over five years for hospital building and repair"
+      }
+    ],
+    "rationale": "The policy's most direct relevance to O4 is its commitment to fair wage settlements for NHS staff and capital investment in hospital infrastructure. The evidence shows a clear workforce crisis: high staff turnover intention, rota gaps, and poor working conditions rooted partly in a maintenance backlog of nearly \u00a316 billion. Two-thirds of NHS staff link pay to retention, and poor working environments demonstrably worsen conditions for remaining workers. The \u00a320bn capital commitment, if delivered, would address a real and growing deficit \u2014 NHS capital averaged only \u00a33bn annually 2010-2019 and the maintenance backlog has doubled. However, the improvement is constrained by a genuine trade-off: NHS England itself estimates that above-budgeted pay rises cost roughly \u00a3700m per 0.5% increment, resources that would otherwise reduce waiting lists. Better pay for NHS workers is a clear gain for those workers (a population of over 1 million), improving job security and real wages. But the magnitude is 'minor' at the O4 level because: (a) this policy applies to a specific workforce subset rather than workers broadly; (b) the pay-vs-capacity trade-off limits net benefit; and (c) the commitment uses no specific pay uplift figure beyond 'fair', making precise effect uncertain. The capital investment plausibly improves working conditions, but is a slower-burn effect. Absent the policy, the evidence suggests continued workforce attrition and deteriorating physical infrastructure \u2014 so additional investment is genuinely additive. Confidence is moderate because the pay commitment is real but unquantified, and the allocation choices between pay and throughput remain unresolved.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://leicesterbrc.nihr.ac.uk/survey-suggest-higher-pay/",
+        "publisher": "leicesterbrc.nihr.ac.uk",
+        "title": "nihr.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.hsj.co.uk/workforce/pay-deal-could-extend-waiting-list-and-make-day-job-even-harder-says-nhse/7038339.article",
+        "publisher": "hsj.co.uk",
+        "title": "hsj.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/funding/capital-funding-analysis",
+        "publisher": "bma.org.uk",
+        "title": "bma.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn00724/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0514,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are appropriate: E5 and E6 are survey/expert observations correctly labelled measurable; E4 is NHS England's own projection correctly labelled projected; E12 is a general expert observation (borderline, but the 'can lead to' framing matches the quote). The pay trade-off tension is honestly presented in both the rationale and biggest_unknown. The direction 'improves' with 'minor' magnitude and 'moderate' confidence is defensible given the genuine unquantified pay commitment and allocation uncertainty. No lever leakage, no party identity, no false balance issues detected."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Commit to increasing NHS annual expenditure, rising to \u00a328bn by 2030, and \u00a320bn in capital spending over five years for hospital building and repair, including an immediate budget increase for fair wage settlements for staff. This will reduce hospital waiting lists, guarantee rapid access to a GP (same-day for urgent needs), and ensure universal access to NHS dentistry with an additional \u00a33bn a year by 2030. The policy also aims to restore public health budgets to 2015/16 levels with an immediate \u00a31.5bn increase, properly funding services like smoking cessation, drug and alcohol treatment, and sexual health. It will introduce a National Cancer Control Plan to reduce cases, meet early diagnosis targets, and deliver treatment through publicly funded research. Investment will also improve mental health care access, ensuring evidence-based therapies within 28 days, with trained counsellors in every primary and secondary school. The NHS will be defended against privatisation by abolishing wasteful competition, re-establishing public bodies and accountability, restricting commercial companies, and backing the NHS Reinstatement Bill.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Current Context & Analyst Views:**\n*   The Office for Budget Responsibility (OBR) estimates that public spending on healthcare in the UK could rise from 7.4% of GDP in 2015/16 to between 8.8% and 8.9% by 2030/31, representing a rise of nearly \u00a3100 billion over 15 years.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/73236/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   The Institute for Fiscal Studies (IFS) suggests that merely maintaining current standards would require spending to increase by a projected 3.3% a year over the next 15 years, while modernizing the NHS would require funding to grow by 4.0% a year.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/R143-Chapter3-new.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Health Foundation similarly estimates that achieving sustained improvement would require average annual real-terms funding growth of 3.8% over the next 10 years, with a higher rate in the first five years.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJMjYff1Lo-fu0MQflHPZsTGkafB9BOtt6clehdNVH80_fFZoN1ctakUpIiHU0jAViSrEZoKst3rBNFq7WiYZjkgMAjWO6cXRW23L_Ff1zhxTXK_8vA9BfjUCpH5WiB9-dWTpVoAgqP3JXosiBbeQHYCWSrkNgq6JhIi9PMPIAwdBd86XKFVUggJEDIF0CbdERL4zUpRYHYmYy_2LDJea7WtQziOue1XMl9us=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   NHS England has stated that a pay rise exceeding the 2.8% budgeted for 2025-26 would hinder waiting list recovery and make the \"day-to-day job of NHS staff even harder.\" They estimated that every 0.5% increase above 2.8% would cost approximately \u00a3700m, equivalent to reducing the elective waiting list by at least 300,000.",
+        "sources": [
+          {
+            "url": "https://www.hsj.co.uk/workforce/pay-deal-could-extend-waiting-list-and-make-day-job-even-harder-says-nhse/7038339.article",
+            "publisher": "hsj.co.uk",
+            "title": "hsj.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   However, two in three NHS staff believe improved pay is crucial for boosting retention, a key factor in addressing workforce problems and their impact on patients.",
+        "sources": [
+          {
+            "url": "https://leicesterbrc.nihr.ac.uk/survey-suggest-higher-pay/",
+            "publisher": "leicesterbrc.nihr.ac.uk",
+            "title": "nihr.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Experts note that high levels of staff intending to leave indicate significant workforce issues, leading to rota gaps, overstretched staff, and demotivation, all of which affect patient care.",
+        "sources": [
+          {
+            "url": "https://leicesterbrc.nihr.ac.uk/survey-suggest-higher-pay/",
+            "publisher": "leicesterbrc.nihr.ac.uk",
+            "title": "nihr.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Current Context & Analyst Views:**\n*   NHS capital expenditure in England was \u00a311.5 billion in 2024/25.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn00724/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   The maintenance backlog, the amount needed to restore buildings, has more than doubled in real terms over the last decade, reaching \u00a315.9 billion in 2024/25, compared to \u00a36.7 billion in 2014/15.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn00724/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   The NHS Confederation highlights that annual capital spending averaged \u00a33bn between 2010-2019, with the current Spending Review period (2022/23 - 2024/25) averaging \u00a38bn per annum.",
+        "sources": [
+          {
+            "url": "https://thenhsalliance.org/resources/no-more-sticking-plasters-repairing-and-transforming-the-nhs-estate/capital-spending-across-the-nhs",
+            "publisher": "thenhsalliance.org",
+            "title": "thenhsalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   The Health Foundation's REAL Centre estimated that the Department of Health and Social Care's capital budget needed to increase to around \u00a310bn by 2024/25 just to cover core day-to-day spending.",
+        "sources": [
+          {
+            "url": "https://thenhsalliance.org/resources/the-case-for-capital-funding/what-the-nhs-needs-now",
+            "publisher": "thenhsalliance.org",
+            "title": "thenhsalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The British Medical Association (BMA), following the NHS Confederation, is asking for a 39% increase in capital budgets plus funding to address the maintenance backlog, which for 2024/25 would require an additional \u00a38bn in England.",
+        "sources": [
+          {
+            "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/funding/capital-funding-analysis",
+            "publisher": "bma.org.uk",
+            "title": "bma.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   Underinvestment in capital can lead to worse working conditions, patient outcomes, and higher future costs due to postponed maintenance.",
+        "sources": [
+          {
+            "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/funding/capital-funding-analysis",
+            "publisher": "bma.org.uk",
+            "title": "bma.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "**Current Context & Analyst Views:**\n*   The hospital waiting list in England was 7.22 million cases in April 2026, an increase of more than 110,000 cases from the previous month.",
+        "sources": [
+          {
+            "url": "https://www.covermagazine.co.uk/news/4531044/nhs-waiting-list-increases-722m",
+            "publisher": "covermagazine.co.uk",
+            "title": "covermagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/nhs-backlog-data-analysis",
+            "publisher": "bma.org.uk",
+            "title": "bma.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/qualitywatch/nhs-performance-dashboard",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "This is up from 4.41 million in April 2019, pre-pandemic.",
+        "sources": [
+          {
+            "url": "https://www.covermagazine.co.uk/news/4531044/nhs-waiting-list-increases-722m",
+            "publisher": "covermagazine.co.uk",
+            "title": "covermagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   The median wait time from referral to treatment in April 2026 was 11.9 weeks, a significant increase from 7.2 weeks in April 2019.",
+        "sources": [
+          {
+            "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/nhs-backlog-data-analysis",
+            "publisher": "bma.org.uk",
+            "title": "bma.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   In April 2026, 64.9% of patients were seen within the government's 18-week wait time, below the operational target of 92%.",
+        "sources": [
+          {
+            "url": "https://www.covermagazine.co.uk/news/4531044/nhs-waiting-list-increases-722m",
+            "publisher": "covermagazine.co.uk",
+            "title": "covermagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/nhs-backlog-data-analysis",
+            "publisher": "bma.org.uk",
+            "title": "bma.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/qualitywatch/nhs-performance-dashboard",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "This figure had seen a downturn after six months of progress.",
+        "sources": [
+          {
+            "url": "https://www.covermagazine.co.uk/news/4531044/nhs-waiting-list-increases-722m",
+            "publisher": "covermagazine.co.uk",
+            "title": "covermagazine.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The 18-week target has not been met since 2016.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7281/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Current Context & Analyst Views:**\n*   Making it easier to get GP appointments is consistently the public's top priority for the NHS.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjANXOd5xF-8N5mn6jhrs8BbQCcJYZRsLo0iRsFsIr-sUSsQIkzwVkeS5KuKlEt-m1XJNjpYAaZQMt_dtXXKJAqM5ZDDWW3dfRznsRJkt0ydfOaE_BaZtFnDkWtHoiuZKDLV3IGo6uyzmqzfUyuzxDzpXV81ZTCo1THRxAQ7zT-ARqSFdbgvcv5ezfbe7QbT_mIuaquAZ5k4HAkk511Ck_g7T8jDA07qCiRyEG1yjkdvvi",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   In February 2026, GP teams delivered over 1.5 million appointments every working day, a record high.",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/2026/03/record-gp-access-figures/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "83.1% of all appointments were delivered within two weeks of booking in February 2026.",
+        "sources": [
+          {
+            "url": "https://www.rcgp.org.uk/representing-you/key-statistics-insights",
+            "publisher": "rcgp.org.uk",
+            "title": "rcgp.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   However, the proportion of patients finding it easy to contact their GP practice by phone fell from 81% in 2012 to 50% in 2023.",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/access-to-gp-services",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "In 2025, after a rephrased question, 74% found it \"very easy\" or \"fairly easy\" to contact their GP by phone.",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/access-to-gp-services",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   Between March 2020 and March 2024, the number of people waiting more than two weeks for a GP appointment increased by 18%, from 4.2 million to 5 million.",
+        "sources": [
+          {
+            "url": "https://www.cqc.org.uk/publications/major-report/state-care/2023-2024/access/primary",
+            "publisher": "cqc.org.uk",
+            "title": "cqc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The number waiting over 28 days increased from approximately 1 million to 1.4 million in the same period.",
+        "sources": [
+          {
+            "url": "https://www.cqc.org.uk/publications/major-report/state-care/2023-2024/access/primary",
+            "publisher": "cqc.org.uk",
+            "title": "cqc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   The number of fully qualified GPs per 100,000 patients decreased by 15% between March 2016 and March 2024.",
+        "sources": [
+          {
+            "url": "https://www.cqc.org.uk/publications/major-report/state-care/2023-2024/access/primary",
+            "publisher": "cqc.org.uk",
+            "title": "cqc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "**Current Context & Analyst Views:**\n*   In April 2025, only one-fifth (20.5%) of patients who tried to get an NHS dental appointment in the last month were successful, with 79.5% unsuccessful.",
+        "sources": [
+          {
+            "url": "https://dentistry.co.uk/2025/04/29/nhs-dental-access-latest-statistics-revealed/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Of those unsuccessful, 81.4% received no care at all.",
+        "sources": [
+          {
+            "url": "https://dentistry.co.uk/2025/04/29/nhs-dental-access-latest-statistics-revealed/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   Unmet need for NHS dentistry in England stands at 13 million, or over one in four of the adult population (28%).",
+        "sources": [
+          {
+            "url": "https://www.bda.org/media-centre/13-million-unable-to-access-nhs-dentistry/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "This includes 5.6 million adults who tried and failed to get an appointment in the last two years, and 5.4 million who gave up trying because they didn't think they could secure care.",
+        "sources": [
+          {
+            "url": "https://www.bda.org/media-centre/13-million-unable-to-access-nhs-dentistry/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   Prior to the pandemic, unmet need for NHS dentistry was around 4 million (1 in 10 adults).",
+        "sources": [
+          {
+            "url": "https://www.bda.org/media-centre/13-million-unable-to-access-nhs-dentistry/",
+            "publisher": "bda.org",
+            "title": "bda.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   There are significant regional disparities in access, with lower provision in the South West and South East compared to the North East and Yorkshire.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/how-does-access-to-nhs-dentistry-compare-across-areas-in-england/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "In March 2024, 32% of adults in the South West had been seen by a dentist in the last two years, 12 percentage points lower than in the North East and North West.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/how-does-access-to-nhs-dentistry-compare-across-areas-in-england/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   The Office for National Statistics (ONS) Health Insight Survey in January 2025 found that 12% of individuals in England do not have a dentist at all, while 52.8% use NHS services and 35% go private.",
+        "sources": [
+          {
+            "url": "https://www.polimapper.co.uk/2025/dentistry-access-in-great-britain/",
+            "publisher": "polimapper.co.uk",
+            "title": "polimapper.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   Satisfaction with NHS dental care, when received, is high (89.5% in the ONS survey), but overall dissatisfaction is linked to access issues.",
+        "sources": [
+          {
+            "url": "https://dentistry.co.uk/2025/04/29/nhs-dental-access-latest-statistics-revealed/",
+            "publisher": "dentistry.co.uk",
+            "title": "dentistry.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.polimapper.co.uk/2025/dentistry-access-in-great-britain/",
+            "publisher": "polimapper.co.uk",
+            "title": "polimapper.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "By 2024, the budget was 26% lower in real terms compared to 2015/16.",
+        "sources": [
+          {
+            "url": "https://nhscampaign.org/issues/staff-shortages-copy-4/",
+            "publisher": "nhscampaign.org",
+            "title": "nhscampaign.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The Health Foundation calculated a 26% real-terms per person cut between 2015/16 and 2025/26.",
+        "sources": [
+          {
+            "url": "https://nhscampaign.org/issues/staff-shortages-copy-4/",
+            "publisher": "nhscampaign.org",
+            "title": "nhscampaign.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   An immediate \u00a31.5 billion increase would partially offset these cuts, as the budget was \u00a3850 million lower in 2022 than in 2015/16.",
+        "sources": [
+          {
+            "url": "https://nhscampaign.org/issues/staff-shortages-copy-4/",
+            "publisher": "nhscampaign.org",
+            "title": "nhscampaign.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   These cuts have disproportionately affected the most deprived areas, which bore almost 15% of all cuts.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/public-health-cuts",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   Cuts have impacted services like smoking cessation, drug and alcohol treatment, children's health services, and sexual health.",
+        "sources": [
+          {
+            "url": "https://nhscampaign.org/issues/staff-shortages-copy-4/",
+            "publisher": "nhscampaign.org",
+            "title": "nhscampaign.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "For example, two-thirds of local authorities reduced spending on smoking cessation in 2016/17.",
+        "sources": [
+          {
+            "url": "https://nhscampaign.org/issues/staff-shortages-copy-4/",
+            "publisher": "nhscampaign.org",
+            "title": "nhscampaign.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "Diagnoses of diseases like syphilis and gonorrhoea rose sharply during the period of cuts to sexual health services.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/public-health-cuts",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "**Current Context & Analyst Views:**\n*   A National Cancer Plan for England was published in February 2026, aiming for three in four people diagnosed with cancer to survive five years or more by 2035.",
+        "sources": [
+          {
+            "url": "https://northerncanceralliance.nhs.uk/our-work/the-national-cancer-plan/",
+            "publisher": "northerncanceralliance.nhs.uk",
+            "title": "northerncanceralliance.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oncology-central.com/landmark-national-cancer-plan-for-england-unveiled/",
+            "publisher": "oncology-central.com",
+            "title": "oncology-central.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.iccp-portal.org/news/england-marks-world-cancer-day-launch-new-national-cancer-control-plan",
+            "publisher": "iccp-portal.org",
+            "title": "iccp-portal.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "*   Key focuses include accelerated diagnostics with a \u00a32.3 billion investment to deliver 9.5 million additional tests by 2029.",
+        "sources": [
+          {
+            "url": "https://www.oncology-central.com/landmark-national-cancer-plan-for-england-unveiled/",
+            "publisher": "oncology-central.com",
+            "title": "oncology-central.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.iccp-portal.org/news/england-marks-world-cancer-day-launch-new-national-cancer-control-plan",
+            "publisher": "iccp-portal.org",
+            "title": "iccp-portal.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "*   The government aims to meet all cancer waiting time standards by 2029, including 80% of patients getting a diagnosis or all-clear within 28 days of an urgent suspected cancer referral, and 96% starting treatment within 31 days of a decision to treat.",
+        "sources": [
+          {
+            "url": "https://www.oncology-central.com/landmark-national-cancer-plan-for-england-unveiled/",
+            "publisher": "oncology-central.com",
+            "title": "oncology-central.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "*   However, the NHS has not met its central cancer performance target (85% of patients starting treatment within 62 days of referral) since 2014.",
+        "sources": [
+          {
+            "url": "https://www.oncology-central.com/landmark-national-cancer-plan-for-england-unveiled/",
+            "publisher": "oncology-central.com",
+            "title": "oncology-central.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E47",
+        "snippet": "In March 2026, on the new 62-day standard (which includes more referral routes), 72.8% of patients were treated within 62 days of referral.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7281/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E48",
+        "snippet": "Provisional estimates for the four-week wait from urgent referral to confirmed outcome was 75.9% in April 2026, below the 80% operational standard.",
+        "sources": [
+          {
+            "url": "https://www.covermagazine.co.uk/news/4531044/nhs-waiting-list-increases-722m",
+            "publisher": "covermagazine.co.uk",
+            "title": "covermagazine.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/qualitywatch/nhs-performance-dashboard",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E49",
+        "snippet": "*   The NHS Long Term Plan, published in January 2019, set ambitions for 55,000 more people to survive cancer for five years or more by 2028, and 75% of people to be diagnosed at an early stage (stage one or two) by 2028.",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/cancer/strategy/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E50",
+        "snippet": "In February 2025, 16,522 people were waiting for mental health treatment after 18 months, compared to 2,059 for elective physical health treatments.",
+        "sources": [
+          {
+            "url": "https://www.rethink.org/news-and-stories/media-centre/2025/02/new-analysis-of-nhs-data-on-mental-health-waiting-times",
+            "publisher": "rethink.org",
+            "title": "rethink.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E51",
+        "snippet": "The longest waits for mental health care are nearly two years (658 days).",
+        "sources": [
+          {
+            "url": "https://www.rethink.org/news-and-stories/media-centre/2025/02/new-analysis-of-nhs-data-on-mental-health-waiting-times",
+            "publisher": "rethink.org",
+            "title": "rethink.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://therachange.co.uk/blog/nhs-mental-health-waiting-times-going-private/",
+            "publisher": "therachange.co.uk",
+            "title": "therachange.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E52",
+        "snippet": "*   The mental health waiting list stands at an estimated 1.7 million people in the UK.",
+        "sources": [
+          {
+            "url": "https://therachange.co.uk/blog/nhs-mental-health-waiting-times-going-private/",
+            "publisher": "therachange.co.uk",
+            "title": "therachange.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E53",
+        "snippet": "*   Demand for mental health services has risen sharply, with over five times as many children and young people in contact with services in 2025 than in 2016.",
+        "sources": [
+          {
+            "url": "https://therachange.co.uk/blog/nhs-mental-health-waiting-times-going-private/",
+            "publisher": "therachange.co.uk",
+            "title": "therachange.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E54",
+        "snippet": "Adults in contact with services rose by 71% between April 2016 and January 2025.",
+        "sources": [
+          {
+            "url": "https://therachange.co.uk/blog/nhs-mental-health-waiting-times-going-private/",
+            "publisher": "therachange.co.uk",
+            "title": "therachange.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E55",
+        "snippet": "*   Despite this, funding for mental health fell as a proportion of NHS spending in England by 3.2% in the last year, even with a real-terms increase of \u00a3140m.",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/about-us/news/uk-government-announces-reduction-share-nhs-spend",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E56",
+        "snippet": "*   A 2025 CQC report noted that 9% of mental health trust roles in the NHS were unfilled as of March 2025.",
+        "sources": [
+          {
+            "url": "https://therachange.co.uk/blog/nhs-mental-health-waiting-times-going-private/",
+            "publisher": "therachange.co.uk",
+            "title": "therachange.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E57",
+        "snippet": "*   For children and young people's mental health services, 255,000 were on a waiting list in March 2025.",
+        "sources": [
+          {
+            "url": "https://www.centreformentalhealth.org.uk/mental-health-services-in-the-uk-in-2025-what-the-latest-nhs-benchmarking-survey-tells-us/",
+            "publisher": "centreformentalhealth.org.uk",
+            "title": "centreformentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E58",
+        "snippet": "Just under a third (30%) waited less than four weeks from referral to treatment, but 27% waited more than 18 weeks.",
+        "sources": [
+          {
+            "url": "https://www.centreformentalhealth.org.uk/mental-health-services-in-the-uk-in-2025-what-the-latest-nhs-benchmarking-survey-tells-us/",
+            "publisher": "centreformentalhealth.org.uk",
+            "title": "centreformentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E59",
+        "snippet": "*   For adults, median wait times increased slightly from 46 to 48 days in April 2024, with 246,640 adults with serious mental illness still waiting for treatment.",
+        "sources": [
+          {
+            "url": "https://thenhsalliance.org/resources/nhs-activity-tracker-202425/july-2024/mental-health-sector",
+            "publisher": "thenhsalliance.org",
+            "title": "thenhsalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E60",
+        "snippet": "In January 2026, 88.7% of referrals waited less than 6 weeks to access these services.",
+        "sources": [
+          {
+            "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-talking-therapies-monthly-statistics-including-employment-advisors/performance-january-2026/waiting-times",
+            "publisher": "digital.nhs.uk",
+            "title": "digital.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E61",
+        "snippet": "*   Experts highlight that four in five people whose mental health deteriorated while waiting for NHS treatment experienced a crisis, with 64% experiencing a full mental health crisis, 42% seeking urgent or emergency care, and 25% attempting suicide.",
+        "sources": [
+          {
+            "url": "https://therachange.co.uk/blog/nhs-mental-health-waiting-times-going-private/",
+            "publisher": "therachange.co.uk",
+            "title": "therachange.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E62",
+        "snippet": "**Current Context & Analyst Views:**\n*   The NHS Reinstatement Bill, introduced as a Private Member's Bill in 2015 and 2018, aims to restore the NHS as an accountable public service by reversing marketization, abolishing the purchaser-provider split, ending contracting, and re-establishing public bodies.",
+        "sources": [
+          {
+            "url": "https://allysonpollock.com/?p=2663",
+            "publisher": "allysonpollock.com",
+            "title": "allysonpollock.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7526/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/society/2016/jan/26/caroline-lucas-green-party-labour-repeal-tory-nhs-reforms",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.savelewishamhospital.com/nhs-reintstatement-bill/",
+            "publisher": "savelewishamhospital.com",
+            "title": "savelewishamhospital.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E63",
+        "snippet": "It proposes to reinstate the Secretary of State's duty to provide core NHS services and restrict commercial companies to providing services only if essential and not deliverable by the NHS itself.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2016/jan/26/caroline-lucas-green-party-labour-repeal-tory-nhs-reforms",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.savelewishamhospital.com/nhs-reintstatement-bill/",
+            "publisher": "savelewishamhospital.com",
+            "title": "savelewishamhospital.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E64",
+        "snippet": "*   Analysts have noted that implementing such a bill would entail a significant reorganization, potentially winding up over 500 organizations and transferring over 1 million staff, which some argue could disrupt care delivery.",
+        "sources": [
+          {
+            "url": "https://sochealth.co.uk/2015/11/05/nhs-reinstatement-bill/",
+            "publisher": "sochealth.co.uk",
+            "title": "sochealth.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E65",
+        "snippet": "The bill seeks to address these by abolishing competition.",
+        "sources": [
+          {
+            "url": "https://www.savelewishamhospital.com/nhs-reintstatement-bill/",
+            "publisher": "savelewishamhospital.com",
+            "title": "savelewishamhospital.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E66",
+        "snippet": "*   Some experts argue that passing legislation alone may not prevent future governments from reintroducing private involvement, emphasizing that a government genuinely against privatization is key.",
+        "sources": [
+          {
+            "url": "https://sochealth.co.uk/2015/11/05/nhs-reinstatement-bill/",
+            "publisher": "sochealth.co.uk",
+            "title": "sochealth.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

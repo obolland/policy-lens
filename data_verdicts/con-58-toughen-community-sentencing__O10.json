@@ -1,0 +1,611 @@
+{
+  "policy_id": "con-58-toughen-community-sentencing",
+  "party": "Conservative",
+  "policy_title": "Toughen Community Sentencing",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy expands electronic tagging \u2014 which involves GPS location tracking, curfew monitoring, and alcohol monitoring via skin sensors \u2014 meaning more people will be subject to continuous state surveillance of their movements and behaviour. The liberty cost is real but falls only on convicted offenders, not the general population.",
+    "biggest_unknown": "Whether courts use expanded tagging as a direct alternative to custody (substituting a lesser liberty restriction) or as an add-on to existing community orders (net increase in coercive control) determines the scale of the O10 impact.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to increasing the use of community payback (compulsory unpaid work) and electronic tagging for offenders on community sentences.",
+        "evidence_id": "M",
+        "quote": "increasing the use of community payback and electronic tagging"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Electronic tagging in the UK uses GPS tracking of movements, radio-frequency curfew monitoring, and alcohol monitoring via skin sensors \u2014 all forms of continuous physiological and locational surveillance.",
+        "evidence_id": "E12",
+        "quote": "Electronic tagging in the UK utilizes radio-frequency (RF) identification for curfew monitoring and Global Positioning System (GPS) tracking for broader movements, with alcohol monitoring via skin sensors also in use."
+      },
+      {
+        "tier": "measurable",
+        "claim": "GPS tagging has already grown 34% and alcohol monitoring 38% since June 2023, indicating an existing expansion trajectory this policy would accelerate.",
+        "evidence_id": "E13",
+        "quote": "The Ministry of Justice reported an increase in GPS tagging by 34% (to about 10,800 individuals) and alcohol monitoring by 38% (to some 3,200 individuals) since June 2023"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Individuals subject to tagging frequently lack informed consent about the scope of data collection, including that locational data is collected and potentially used indefinitely.",
+        "evidence_id": "E18",
+        "quote": "Concerns include a lack of informed consent, with individuals often not provided crucial information such as the potential for indefinite tagging or the collection and use of personal locational data."
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics characterise electronic tagging as overly intrusive and an abuse of individual rights.",
+        "evidence_id": "E19",
+        "quote": "Critics also argue that tagging can be \"overly intrusive and an abuse of an individual's rights.\""
+      },
+      {
+        "tier": "projected",
+        "claim": "Adding punitive requirements to community sentences risks increasing technical breaches, disproportionately affecting vulnerable people including those with mental health conditions or learning disabilities.",
+        "evidence_id": "E34",
+        "quote": "adding too many punitive measures could lead to an increase in technical breaches, particularly among vulnerable groups like young people or those with mental health, learning disabilities, or substance misuse issues."
+      }
+    ],
+    "rationale": "O10 covers freedom from state surveillance and coercion. This policy directly expands two instruments of state coercive control: compulsory unpaid labour (community payback) and continuous electronic monitoring (GPS location tracking, curfew enforcement, and alcohol biosensing via skin). Both are applied to individuals by court order; expanding their use means more people subject to each instrument, and potentially at higher intensity. The liberty cost is not speculative \u2014 GPS tagging by definition tracks and logs an individual's movements continuously; alcohol monitoring intrudes on bodily data in real time. The evidence shows individuals are frequently not informed about the scope of data collection or its duration, compounding the coercive impact. Critics characterise tagging as an abuse of individual rights. The policy also risks net-adding coercive requirements on top of existing orders rather than substituting custody \u2014 the Prison Reform Trust warns that toughening community sentences through more punitive requirements increases the likelihood of technical breaches, which would result in custodial sentences and a further, more severe liberty restriction. The liberty cost is bounded: it falls on convicted offenders rather than the general population, and community sentences remain less restrictive than imprisonment. This limits magnitude to minor at population scale. Nevertheless, the O10 rubric scores the liberty effect on its own terms \u2014 expanding surveillance infrastructure and compulsory labour unambiguously withdraws liberty from those affected, regardless of whether it also improves O5. Direction is worsens/minor with moderate confidence; the main uncertainty is whether courts treat expanded tagging as a custody substitute (which would partially offset the O10 harm by avoiding incarceration) or as an additive imposition.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHN3eSegfe5gXGPqi7689KXgNjG0Solhj-q3O1Yc2RerGaPUiBjP6vtyFUsGzN6IkEfc-oVgJhZImr1cE5icjAnyBGh1NUVtvXJmre1knpXZWLhjj8JO56ztD0l6NCgnK1HlWkOxHRD2QKk1rgRCkkOk80dVfbMn4Js7FSxFtVBJAPgvD8uN9SP9eXydC-v4ePHpMfdhsgIQ==",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "college.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/687108f2fe1a249e937cc05f/Electronic_Monitoring_PNC_report_updated_acknowldgement_.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://privacyinternational.org/advocacy/5717/uk-justice-and-home-affairs-committee-publishes-report-electronic-monitoring",
+        "publisher": "privacyinternational.org",
+        "title": "privacyinternational.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ojp.gov/",
+        "publisher": "ojp.gov",
+        "title": "ojp.gov",
+        "source_type": "government"
+      },
+      {
+        "url": "https://prisonreformtrust.org.uk/wp-content/uploads/old_files/Documents/effective%20community%20sentences.pdf",
+        "publisher": "prisonreformtrust.org.uk",
+        "title": "prisonreformtrust.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1044,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-grounded in cited evidence. The E18 claim (lack of informed consent) is sourced from privacyinternational.org, an advocacy source, and is presented as 'measurable' \u2014 this is borderline, as it reports 'concerns' rather than a verified baseline fact. However, the claim is appropriately hedged ('frequently lack') and the tier could arguably be 'projected'; this is a warning rather than blocking. The E19 claim is correctly tiered as 'projected' and attributed to critics. Direction of 'worsens' is well-supported: GPS tracking, curfew monitoring, and alcohol biosensing are unambiguously forms of state surveillance/coercion expanded by this policy, and the O10 rubric explicitly scores liberty effects on their own terms. No false balance issue \u2014 the verdict does not pretend this is mixed; it acknowledges the liberty cost is bounded (convicted offenders, less restrictive than custody) which is honest scoping, not false balance. No party_blind issues detected; rationale judges the modelled effect, not Conservative Party identity or motives. Magnitude and time_horizon are appropriate given the bounded population affected."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will toughen community sentencing by increasing the use of community payback and electronic tagging, ensuring criminals repay their debt to society and communities see justice served.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Conservative Party's policy aims to toughen community sentencing in the UK by increasing the use of community payback and electronic tagging, with the stated goals of ensuring criminals repay their debt to society and communities see justice served.",
+        "sources": [
+          {
+            "url": "https://www.changing-lives.org.uk/insights/understanding-party-positions-on-criminal-justice",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.russellwebster.com/the-conservatives-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Community Payback:**\nCommunity Payback is intended as a visible punishment that improves local areas harmed by crime, while also offering offenders opportunities to learn new skills and increase their employability.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/641d8fb332a8e00012fa93af/20230306_ANNEX_A_Community_Payback_Guidance.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The government has invested an additional \u00a393 million in Community Payback over three years (2022-2025) to increase delivery from a pre-COVID baseline of approximately five million hours to up to eight million hours annually.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/641d8fb332a8e00012fa93af/20230306_ANNEX_A_Community_Payback_Guidance.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Rehabilitation and Reoffending:** Evidence suggests that community sentences, which include community payback, are associated with lower reoffending rates compared to short custodial sentences (those under 12 months).",
+        "sources": [
+          {
+            "url": "https://www.justiceinnovation.org/sites/default/files/media/documents/2020-09/smarter_community_sentences.pdf",
+            "publisher": "justiceinnovation.org",
+            "title": "justiceinnovation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/66e83dadf8082e9740881b7f/cstr-proven-reoffending-report.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "A 2019 study indicated that \"sentencing offenders to short term custody with supervision on release was associated with higher proven reoffending than if they had instead received community orders and/or suspended sentence orders.\"",
+        "sources": [
+          {
+            "url": "https://www.justiceinnovation.org/sites/default/files/media/documents/2020-09/smarter_community_sentences.pdf",
+            "publisher": "justiceinnovation.org",
+            "title": "justiceinnovation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Specifically, the average number of re-offences per sentencing occasion was found to be \"around 65 re-offences more per 100 sentencing occasions\" following short custodial sentences of less than 12 months compared to court orders.",
+        "sources": [
+          {
+            "url": "https://www.justiceinnovation.org/sites/default/files/media/documents/2020-09/smarter_community_sentences.pdf",
+            "publisher": "justiceinnovation.org",
+            "title": "justiceinnovation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "An ICM poll found that 76% of those surveyed believed unpaid community work was effective in preventing crime and disorder.",
+        "sources": [
+          {
+            "url": "https://prisonreformtrust.org.uk/wp-content/uploads/old_files/Documents/effective%20community%20sentences.pdf",
+            "publisher": "prisonreformtrust.org.uk",
+            "title": "prisonreformtrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Compliance and Effectiveness Factors:** Successful engagement and compliance with Community Payback Orders (CPOs) are more likely when the orders are tailored to an offender's individual needs and interests.",
+        "sources": [
+          {
+            "url": "https://www.gov.scot/publications/evaluation-community-payback-orders-criminal-justice-social-work-reports-presumption-against-short-sentences-research-findings/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "CPOs with a single requirement also show higher completion rates than those with multiple requirements.",
+        "sources": [
+          {
+            "url": "https://www.gov.scot/publications/evaluation-community-payback-orders-criminal-justice-social-work-reports-presumption-against-short-sentences-research-findings/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "However, some offenders may perceive unpaid work as \"pointless\" or \"easy,\" failing to understand its purpose.",
+        "sources": [
+          {
+            "url": "https://justiceinnovation.org/sites/default/files/media/document/2022/20220608_the_future_of_unpaid_work_vfinal.pdf",
+            "publisher": "justiceinnovation.org",
+            "title": "justiceinnovation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Evidence-Based Approaches:** While the policy emphasizes visible payback to assure communities that justice is being served, some analyses suggest that a strong focus on visibility has at times superseded an evidence-based approach to reducing reoffending.",
+        "sources": [
+          {
+            "url": "https://www.crimeandjustice.org.uk/publications/cjm/article/moving-forwards-or-paying-back-unpaid-work-element-community-order",
+            "publisher": "crimeandjustice.org.uk",
+            "title": "crimeandjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Electronic Tagging:**\nElectronic tagging in the UK utilizes radio-frequency (RF) identification for curfew monitoring and Global Positioning System (GPS) tracking for broader movements, with alcohol monitoring via skin sensors also in use.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHN3eSegfe5gXGPqi7689KXgNjG0Solhj-q3O1Yc2RerGaPUiBjP6vtyFUsGzN6IkEfc-oVgJhZImr1cE5icjAnyBGh1NUVtvXJmre1knpXZWLhjj8JO56ztD0l6NCgnK1HlWkOxHRD2QKk1rgRCkkOk80dVfbMn4Js7FSxFtVBJAPgvD8uN9SP9eXydC-v4ePHpMfdhsgIQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/687108f2fe1a249e937cc05f/Electronic_Monitoring_PNC_report_updated_acknowldgement_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Ministry of Justice reported an increase in GPS tagging by 34% (to about 10,800 individuals) and alcohol monitoring by 38% (to some 3,200 individuals) since June 2023, while RF EM saw a 4% decrease (to about 15,000 individuals) over the same period.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/687108f2fe1a249e937cc05f/Electronic_Monitoring_PNC_report_updated_acknowldgement_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Reoffending:** The overall evidence on the effectiveness of electronic monitoring (EM) in reducing reoffending is limited and shows mixed results, with some studies indicating it has \"increased or decreased reoffending overall.\"",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/687108f2fe1a249e937cc05f/Electronic_Monitoring_PNC_report_updated_acknowldgement_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHN3eSegfe5gXGPqi7689KXgNjG0Solhj-q3O1Yc2RerGaPUiBjP6vtyFUsGzN6IkEfc-oVgJhZImr1cE5icjAnyBGh1NUVtvXJmre1knpXZWLhjj8JO56ztD0l6NCgnK1HlWkOxHRD2QKk1rgRCkkOk80dVfbMn4Js7FSxFtVBJAPgvD8uN9SP9eXydC-v4ePHpMfdhsgIQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, a meta-analysis specifically on sex offenders found that electronic monitoring led to a statistically significant decrease in reoffending.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHN3eSegfe5gXGPqi7689KXgNjG0Solhj-q3O1Yc2RerGaPUiBjP6vtyFUsGzN6IkEfc-oVgJhZImr1cE5icjAnyBGh1NUVtvXJmre1knpXZWLhjj8JO56ztD0l6NCgnK1HlWkOxHRD2QKk1rgRCkkOk80dVfbMn4Js7FSxFtVBJAPgvD8uN9SP9eXydC-v4ePHpMfdhsgIQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Impact on Individuals and Concerns:** Electronic monitoring can severely impact the wellbeing of individuals.",
+        "sources": [
+          {
+            "url": "https://privacyinternational.org/advocacy/5717/uk-justice-and-home-affairs-committee-publishes-report-electronic-monitoring",
+            "publisher": "privacyinternational.org",
+            "title": "privacyinternational.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The UK House of Lords Justice and Home Affairs Committee expressed skepticism regarding the efficacy of GPS tagging in immigration contexts, citing a lack of evidence and raising ethical, legal, and human rights concerns.",
+        "sources": [
+          {
+            "url": "https://privacyinternational.org/advocacy/5717/uk-justice-and-home-affairs-committee-publishes-report-electronic-monitoring",
+            "publisher": "privacyinternational.org",
+            "title": "privacyinternational.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Concerns include a lack of informed consent, with individuals often not provided crucial information such as the potential for indefinite tagging or the collection and use of personal locational data.",
+        "sources": [
+          {
+            "url": "https://privacyinternational.org/advocacy/5717/uk-justice-and-home-affairs-committee-publishes-report-electronic-monitoring",
+            "publisher": "privacyinternational.org",
+            "title": "privacyinternational.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Critics also argue that tagging can be \"overly intrusive and an abuse of an individual's rights.\"",
+        "sources": [
+          {
+            "url": "https://www.ojp.gov/",
+            "publisher": "ojp.gov",
+            "title": "ojp.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Overall Community Sentences and Reoffending Rates:**\nOfficial statistics indicate that the proven reoffending rate for adult offenders starting a court order (which includes community sentences) was 34.3% for the January to March 2024 cohort, an increase of 1.6 percentage points from the same quarter in 2023.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/proven-reoffending-statistics-january-to-march-2024/proven-reoffending-statistics-january-to-march-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This compares favorably to adults released from custody, who had a proven reoffending rate of 43.8% in the same period, an increase of 6.6 percentage points.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/proven-reoffending-statistics-january-to-march-2024/proven-reoffending-statistics-january-to-march-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Notably, adults released from custodial sentences of less than 12 months had a proven reoffending rate of 66.0%.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/proven-reoffending-statistics-january-to-march-2024/proven-reoffending-statistics-january-to-march-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The Ministry of Justice advises caution when comparing the effectiveness of different sentences without controlling for offender characteristics.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/proven-reoffending-statistics-january-to-march-2024/proven-reoffending-statistics-january-to-march-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Despite their proven effectiveness in reducing reoffending compared to short prison sentences, the use of community sentences in England and Wales has declined by 46% over the past decade.",
+        "sources": [
+          {
+            "url": "https://www.justiceinnovation.org/sites/default/files/media/documents/2020-09/smarter_community_sentences.pdf",
+            "publisher": "justiceinnovation.org",
+            "title": "justiceinnovation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Cost Implications:**\nReoffending carries a significant cost to society, estimated at \u00a318 billion annually, encompassing expenses for detection, sentencing, and imprisonment.",
+        "sources": [
+          {
+            "url": "https://www.futuresunlocked.org/what-is-reoffending",
+            "publisher": "futuresunlocked.org",
+            "title": "futuresunlocked.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Oklahoma's Community Sentencing program, for example, had an average cost of $4.44 per offender per day in 2024, a \"substantial savings in lieu of incarceration.\"",
+        "sources": [
+          {
+            "url": "https://oklahoma.gov/content/dam/ok/en/osbi/documents/sac-documents/community-sentencing/2024%20Community%20Sentencing%20Annual%20Report.pdf",
+            "publisher": "oklahoma.gov",
+            "title": "oklahoma.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "**Mental Health and Support Needs:**\nCommunity-based sentences are recognized as more effective for reducing reoffending and providing support for individuals with mental healthcare needs.",
+        "sources": [
+          {
+            "url": "https://www.penalreform.org/blog/a-community-sentence-for-women-with-mental-health/",
+            "publisher": "penalreform.org",
+            "title": "penalreform.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Mental Health Treatment Requirements (MHTRs) within community sentences have been associated with significant reductions in reoffending, with recipients showing an 8 percentage point lower reoffending rate compared to those on a community sentence without an MHTR.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/66e83dadf8082e9740881b7f/cstr-proven-reoffending-report.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, long waiting times for certain treatments, such as residential detox and psychological interventions, can limit their practical application and effectiveness.",
+        "sources": [
+          {
+            "url": "https://www.gov.scot/publications/evaluation-community-payback-orders-criminal-justice-social-work-reports-presumption-against-short-sentences-research-findings/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Rehabilitation:** The focus on \"visible payback\" in Community Payback, while aiming to assure communities, has been critiqued for potentially prioritizing public perception over evidence-based practices that effectively reduce reoffending.",
+        "sources": [
+          {
+            "url": "https://www.crimeandjustice.org.uk/publications/cjm/article/moving-forwards-or-paying-back-unpaid-work-element-community-order",
+            "publisher": "crimeandjustice.org.uk",
+            "title": "crimeandjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Effectiveness of Electronic Tagging:** There's a notable lack of robust evidence on the general effectiveness of electronic monitoring in reducing reoffending, leading to mixed conclusions.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/687108f2fe1a249e937cc05f/Electronic_Monitoring_PNC_report_updated_acknowldgement_.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHN3eSegfe5gXGPqi7689KXgNjG0Solhj-q3O1Yc2RerGaPUiBjP6vtyFUsGzN6IkEfc-oVgJhZImr1cE5icjAnyBGh1NUVtvXJmre1knpXZWLhjj8JO56ztD0l6NCgnK1HlWkOxHRD2QKk1rgRCkkOk80dVfbMn4Js7FSxFtVBJAPgvD8uN9SP9eXydC-v4ePHpMfdhsgIQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The House of Lords Justice and Home Affairs Committee specifically highlighted concerns about the efficacy of GPS tagging in immigration contexts and broader human rights implications.",
+        "sources": [
+          {
+            "url": "https://privacyinternational.org/advocacy/5717/uk-justice-and-home-affairs-committee-publishes-report-electronic-monitoring",
+            "publisher": "privacyinternational.org",
+            "title": "privacyinternational.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Risk of Increasing Breaches:** The Prison Reform Trust expresses concern that an excessive emphasis on making community sentences more \"punitive\" could undermine their success in reducing reoffending.",
+        "sources": [
+          {
+            "url": "https://prisonreformtrust.org.uk/wp-content/uploads/old_files/Documents/effective%20community%20sentences.pdf",
+            "publisher": "prisonreformtrust.org.uk",
+            "title": "prisonreformtrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "They suggest that adding too many punitive measures could lead to an increase in technical breaches, particularly among vulnerable groups like young people or those with mental health, learning disabilities, or substance misuse issues.",
+        "sources": [
+          {
+            "url": "https://prisonreformtrust.org.uk/wp-content/uploads/old_files/Documents/effective%20community%20sentences.pdf",
+            "publisher": "prisonreformtrust.org.uk",
+            "title": "prisonreformtrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Community Solutions:** While the Conservative policy focuses on toughening community sentences, the party also plans to build four new prisons and aims for 20,000 new prison places by 2030, in part to address rising prison populations and longer sentences for serious offenses.",
+        "sources": [
+          {
+            "url": "https://www.changing-lives.org.uk/insights/understanding-party-positions-on-criminal-justice",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://clinks.org/community/blog-posts/what-parties-said-about-sentencing-and-what-impact-their-plans-could-have",
+            "publisher": "clinks.org",
+            "title": "clinks.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thejusticegap.com/analysis-labour-and-the-conservatives-set-out-their-plans-to-fix-a-crumbling-criminal-justice-system/",
+            "publisher": "thejusticegap.com",
+            "title": "thejusticegap.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "However, analysis from the Prison Reform Trust in 2023 suggested that even meeting this target might still leave a shortfall in prison places by March 2025, indicating that increased community sentencing alone may not fully alleviate pressure on the prison system if other sentencing policies also lean towards harsher custodial penalties.",
+        "sources": [
+          {
+            "url": "https://clinks.org/community/blog-posts/what-parties-said-about-sentencing-and-what-impact-their-plans-could-have",
+            "publisher": "clinks.org",
+            "title": "clinks.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The Ministry of Justice's own Impact Assessment of the Sentencing Bill noted that any reduction in prison demand from such measures is likely to be \"filled by new offenders,\" meaning \"no prison place savings from these measures.\"",
+        "sources": [
+          {
+            "url": "https://howardleague.org/briefing-on-sentencing-bill-second-reading/",
+            "publisher": "howardleague.org",
+            "title": "howardleague.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

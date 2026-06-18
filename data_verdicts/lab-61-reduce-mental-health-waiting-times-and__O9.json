@@ -1,0 +1,695 @@
+{
+  "policy_id": "lab-61-reduce-mental-health-waiting-times-and",
+  "party": "Labour",
+  "policy_title": "Reduce Mental Health Waiting Times and Modernise Legislation",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy commits to modernising mental health legislation to tackle well-documented discrimination against Black patients, and that legislation appears to have been enacted. The real question is whether implementation will close the large gap in how Black people are treated under the Act.",
+    "biggest_unknown": "Whether the new Mental Health Act's provisions will be implemented with sufficient cultural competency and enforcement to meaningfully reduce the nearly four-times-higher detention rate for Black people in practice.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to modernising mental health legislation to give patients greater choice, autonomy, enhanced rights, and support, and to address discrimination against Black people.",
+        "evidence_id": "M",
+        "quote": "modernise mental health legislation to give patients greater choice, autonomy, enhanced rights, and support, addressing discrimination against Black people, and ensuring dignity in treatment"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Black African and Caribbean people are almost four times more likely to be detained under the Mental Health Act compared to White people, and more likely to be subject to coercive measures.",
+        "evidence_id": "E31",
+        "quote": "People from Black African and Caribbean communities are almost four times more likely to be detained under the Act compared to White people, more likely to be subject to coercive measures like forcible restraint, and more likely to enter treatment via the police or criminal justice system"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Black people are also more frequently placed on Community Treatment Orders and experience repeated detentions.",
+        "evidence_id": "E32",
+        "quote": "They are also more frequently placed on Community Treatment Orders (CTOs) and experience repeated detentions"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The Race Equality Foundation highlighted in January 2024 the urgent need for mental health reform, noting that Black people remained nearly four times more likely to be detained.",
+        "evidence_id": "E35",
+        "quote": "Black people remained nearly four times more likely to be detained"
+      },
+      {
+        "tier": "projected",
+        "claim": "A new Mental Health Act has received Royal Assent, intended to give patients greater control and dignity and tackle unacceptable disparities faced by Black people.",
+        "evidence_id": "E37",
+        "quote": "This new Act is intended to give patients greater control and dignity, and to tackle the \"unacceptable disparities\" faced by Black people"
+      }
+    ],
+    "rationale": "The O9-relevant core of this policy is the Mental Health Act modernisation, not the workforce or waiting-times commitments (which belong primarily to O3). The baseline evidence is stark: Black African and Caribbean people are almost four times more likely to be detained under the Act, more frequently subject to coercive measures, and more often enter treatment via the police or criminal justice system \u2014 a clear, well-documented anti-discrimination problem within scope of O9. The policy names this explicitly, committing to 'addressing discrimination against Black people' and giving patients 'enhanced rights.' Critically, this is not merely aspirational: the evidence indicates a new Mental Health Act has received Royal Assent, moving beyond a soft-verb pledge to a delivered legislative instrument. Institutional bodies \u2014 the RCPsych and Centre for Mental Health \u2014 welcomed the reform in terms directly tied to equal treatment and minority protections, which are the indicators for O9. The direction is therefore 'improves': a legislated mechanism exists, it targets a documented discrimination gap, and credible bodies assess it positively. Magnitude is 'moderate' rather than 'major' because legislation alone does not automatically close a disparity of this scale; cultural competency in implementation, enforcement, and staff training determine real-world effect, and no cited evidence quantifies how much of the gap will close. Confidence is moderate: the enacted law is a stronger foundation than a manifesto promise, but projected implementation effects remain uncertain. The counterfactual matters \u2014 absent reform, the four-times disparity persists; with reform, the gap should narrow but by how much is unresolved.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.rcpsych.ac.uk/docs/default-source/improving-care/better-mh-policy/position-statements/ps01_22.pdf?sfvrsn=dad49604_8",
+        "publisher": "rcpsych.ac.uk",
+        "title": "rcpsych.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://labourlist.org/2024/04/what-labour-manifesto-2024-election-policies-party/",
+        "publisher": "labourlist.org",
+        "title": "labourlist.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/66471322bd01f5ed32793d88/20240129_Opposition_costing_-_8500_mental_health_professionals.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0464,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. The stated claim quotes directly from the policy text. The measurable claims on racial disparity are backed by E31/E32/E35 from parliamentary and RCPsych sources. The projected claim on Royal Assent (E37) is correctly tiered as projected given uncertainty about implementation effects. Direction of 'improves' is justified: legislation has moved beyond aspiration, and credible institutional bodies support the equal-treatment framing. Magnitude 'moderate' is appropriately cautious. No motive attribution, no lever leakage (workforce/waiting times correctly set aside), no false balance issues. Minor note: E36 (Royal Assent timing) has no source URL listed, but E37 from assets.publishing.service.gov.uk corroborates the legislative claim sufficiently. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The Royal College of Psychiatrists welcomed the modernised Mental Health Act, hoping it would lead to increased patient choice, enhanced safeguards, and address racial disparities and structural discrimination.",
+          "evidence_id": "E38",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The Centre for Mental Health welcomed Labour's pledge to modernise the Act as essential measures to protect people's rights, dignity and safety.",
+          "evidence_id": "E39",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will bring down mental health waiting times and intervene earlier, recruiting an additional 8,500 new staff to treat children and adults in their first term, specifically trained to support those at risk of suicide. The new Young Futures hubs will provide open-access mental health services for children and young people. Labour will also modernise mental health legislation to give patients greater choice, autonomy, enhanced rights, and support, addressing discrimination against Black people, and ensuring dignity in treatment.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Over half a million young people are awaiting NHS mental health treatment, with half of them waiting for more than a year.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/42979/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.innovationunit.org/latest-updates/young-futures-hubs-if-not-now-when",
+            "publisher": "innovationunit.org",
+            "title": "innovationunit.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.centreformentalhealth.org.uk/news/item/centre-for-mental-health-responds-to-labour-general-election-2024-manifesto/",
+            "publisher": "centreformentalhealth.org.uk",
+            "title": "centreformentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "As of March 31, 2025, 255,000 children and young people were on a mental health waiting list, with 27% waiting over 18 weeks.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmjDJosA11Qxoy1tLD-a7YsvXyn4POMUmX5rLeisJC2_SdboU4wqC4Sfm0-X6JSOeIgCmRnMhxI3UuDH4pKbXCJgNg56SGXfJnlCz0pBuTP8y1LA1jb7V7QU6Q8p_PIYYJYYkSw9v8XQcFewBj1MyiHhMbOhTHFI7Gnjc6qSX2tCM4p7bzYkrjSBRLTDp3I0c33q2oENRV5ZiDN9YjUkqd-KNXiQ6tO2TQVoM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "For adults, approximately 1.7 million people are on NHS mental health waiting lists in the UK.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/news-and-features/latest-news/detail/2024/07/17/rcpsych-thrilled-government-acknowledges-mental-health-as-important-as-physical-health",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "In February 2025, 16,522 individuals had been waiting over 18 months for mental health treatment, with the longest waits extending to nearly two years (658 days), significantly longer than waits for physical health treatments.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/improving-care/campaigning-for-better-mental-health-policy",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.rcpsych.ac.uk/news-and-features/latest-news/detail/2024/07/17/rcpsych-thrilled-government-acknowledges-mental-health-as-important-as-physical-health",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "During these waiting periods, four out of five people with severe mental illness reported their condition deteriorating, leading to mental health crises, A&E visits, and in some cases, suicide attempts.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/improving-care/campaigning-for-better-mental-health-policy",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.rcpsych.ac.uk/news-and-features/latest-news/detail/2024/07/17/rcpsych-thrilled-government-acknowledges-mental-health-as-important-as-physical-health",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The Centre for Mental Health views Labour's pledges to expand the mental health workforce and invest in early support hubs as \"necessary improvements\" for the availability of support.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "However, the Health Foundation describes Labour's plans to tackle waiting lists as \"ambitious\" but notes they \"lack critical detail on funding\" and may place further strain on \"already exhausted staff\".",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2024/04/what-labour-manifesto-2024-election-policies-party/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "They stress that achieving these improvements would necessitate \"significantly more investment than has been set out so far\".",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2024/04/what-labour-manifesto-2024-election-policies-party/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This included 1,700 medical and 13,300 nursing vacancies.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/news-and-features/latest-news/detail/2026/04/30/extra-mental-health-staff-in-england-welcome-but-far-more-still-needed--says-rcpsych",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Vacancy rates in mental health services are consistently higher than the overall NHS vacancy rate across England.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/news-and-features/latest-news/detail/2026/04/30/extra-mental-health-staff-in-england-welcome-but-far-more-still-needed--says-rcpsych",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Only 9% of mental health trust leaders expressed confidence in having adequate staff numbers and skills.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWk55IAwFZS0kDfQUowYGi602wtoCqgtgt_C4opbeyIGlv1dfNVJujctz6F2MeoOYGXOVx2rotHImW2EmQBJX33e73L0dLsx_tHStJe62whTWE0I7PjkXsoF30Foz2De5NKkk_5R_3Yo-a_UXv1A93sbKznTe5LQnoAvPxYRWA27ymqfS30A==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Labour's Proposal:** Labour proposes to recruit an additional 8,500 new staff, specifically trained to support individuals at risk of suicide, within their first term.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/66471322bd01f5ed32793d88/20240129_Opposition_costing_-_8500_mental_health_professionals.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youthaccess.org.uk/publications/policy/early-support-hubs-focus",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Labour intends to fund this recruitment by closing tax loopholes.",
+        "sources": [
+          {
+            "url": "https://www.youthaccess.org.uk/publications/policy/early-support-hubs-focus",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The Royal College of Psychiatrists (RCPsych) welcomed a recent government announcement that 8,500 additional mental health workers had been recruited since June 2024, meeting an existing government target.",
+        "sources": [
+          {
+            "url": "https://www.youthaccess.org.uk/sites/default/files/documents/A%20blueprint%20for%20Young%20Futures%20hubs%20by%20Youth%20Access%20and%20partners.pdf",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Lade Smith CBE, President of the RCPsych, stated that this figure \"falls far short of the number of staff services actually need,\" highlighting that more than a quarter of consultant psychiatrist posts are vacant or temporarily filled.",
+        "sources": [
+          {
+            "url": "https://www.youthaccess.org.uk/sites/default/files/documents/A%20blueprint%20for%20Young%20Futures%20hubs%20by%20Youth%20Access%20and%20partners.pdf",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The RCPsych has called for more ambitious goals, including doubling medical school places, and measures to retain existing staff who are experiencing burnout.",
+        "sources": [
+          {
+            "url": "https://cypmhc.org.uk/wp-content/uploads/2025/04/Summary-A-blueprint-for-Young-Futures-hubs-4.pdf",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youthaccess.org.uk/sites/default/files/documents/A%20blueprint%20for%20Young%20Futures%20hubs%20by%20Youth%20Access%20and%20partners.pdf",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Rethink Mental Illness echoed this sentiment, welcoming the increase but cautioning that it \"must not be mistaken for solving the workforce crisis\" and advocating for a more ambitious target.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/young-futures-hubs",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Centre for Mental Health also welcomed Labour's commitment to expanding the mental health workforce with at least 8,500 more staff.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "A government costing analysis from June 2023 on Labour's pledge assumed that the cost of 8,500 new professionals would cover training, development, and ongoing pay, and would be in addition to existing workforce plan increases.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/docs/default-source/improving-care/better-mh-policy/position-statements/ps01_22.pdf?sfvrsn=dad49604_8",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Labour's Proposal:** Labour plans to establish new \"Young Futures hubs\" to provide open-access mental health services for children and young people.",
+        "sources": [
+          {
+            "url": "https://www.youthaccess.org.uk/publications/policy/early-support-hubs-focus",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Labour's manifesto states that these hubs will be staffed with youth workers, mental health support workers, and careers advisors, and will receive \u00a395 million in annual funding by 2029.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "**Likely Effects & Analyst Commentary:**\nThere is broad support among mental health organisations for the concept of youth hubs, building on existing \"Early Support Hubs.\" These hubs provide integrated advice, mental health, and wellbeing support on a self-referral basis, often covering ages 10-25.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/42979/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.centreformentalhealth.org.uk/news/item/centre-for-mental-health-responds-to-labour-general-election-2024-manifesto/",
+            "publisher": "centreformentalhealth.org.uk",
+            "title": "centreformentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Youth Access** and the **Fund the Hubs campaign** are strong advocates, arguing that these hubs are \"vital components\" for early help, reducing demand on specialist NHS services, and supporting young people who fall through service gaps due to high thresholds or long waiting lists.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/42979/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.centreformentalhealth.org.uk/news/item/centre-for-mental-health-responds-to-labour-general-election-2024-manifesto/",
+            "publisher": "centreformentalhealth.org.uk",
+            "title": "centreformentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They stress the importance of mental health and wellbeing as the *core* service offer within these hubs, extending the age range to 25, and ensuring sustainable funding.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Mind** supports the scaling up of early intervention mental health hubs, noting their effectiveness, accessibility, and the fact that they offer a less intimidating entry point for young people seeking help without needing a GP referral.",
+        "sources": [
+          {
+            "url": "https://www.innovationunit.org/latest-updates/young-futures-hubs-if-not-now-when",
+            "publisher": "innovationunit.org",
+            "title": "innovationunit.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   The **Innovation Unit** views Young Futures Hubs as a \"powerful solution\" for providing person-centred, multidisciplinary support.",
+        "sources": [
+          {
+            "url": "https://www.innovationunit.org/latest-updates/young-futures-hubs-if-not-now-when",
+            "publisher": "innovationunit.org",
+            "title": "innovationunit.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They have highlighted concerns about ensuring mental health support is central and holistic, rather than diluted by other priorities, and that hubs are co-designed with young people.",
+        "sources": [
+          {
+            "url": "https://www.innovationunit.org/latest-updates/young-futures-hubs-if-not-now-when",
+            "publisher": "innovationunit.org",
+            "title": "innovationunit.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "It is important to note that the *current government* has also committed to establishing \"Young Futures Hubs,\" with plans to open 50 hubs for 10-18 year olds, backed by \u00a370 million in funding until March 2029, with eight early adopter sites already being implemented.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "These government hubs also aim to improve mental health and wellbeing alongside increasing opportunities and reducing crime.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Labour's proposal appears to build on this existing direction, potentially expanding the scale (Labour has pledged a \"national network\" and Youth Access refers to Labour's pledge for \"every community\"",
+        "sources": [
+          {
+            "url": "https://www.youthaccess.org.uk/publications/policy/early-support-hubs-focus",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "People from Black African and Caribbean communities are almost four times more likely to be detained under the Act compared to White people, more likely to be subject to coercive measures like forcible restraint, and more likely to enter treatment via the police or criminal justice system.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/docs/default-source/improving-care/better-mh-policy/position-statements/ps01_22.pdf?sfvrsn=dad49604_8",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://labourlist.org/2024/04/what-labour-manifesto-2024-election-policies-party/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "They are also more frequently placed on Community Treatment Orders (CTOs) and experience repeated detentions.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/docs/default-source/improving-care/better-mh-policy/position-statements/ps01_22.pdf?sfvrsn=dad49604_8",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "**Likely Effects & Analyst Commentary:**\nOrganisations such as Mind, the Race Equality Foundation, and the Royal College of Psychiatrists have consistently called for reform of the MHA to address these deep-seated racial disparities and ensure culturally competent care.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/docs/default-source/improving-care/better-mh-policy/position-statements/ps01_22.pdf?sfvrsn=dad49604_8",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWk55IAwFZS0kDfQUowYGi602wtoCqgtgt_C4opbeyIGlv1dfNVJujctz6F2MeoOYGXOVx2rotHImW2EmQBJX33e73L0dLsx_tHStJe62whTWE0I7PjkXsoF30Foz2De5NKkk_5R_3Yo-a_UXv1A93sbKznTe5LQnoAvPxYRWA27ymqfS30A==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "fullfact.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "The Independent Review of the Mental Health Act in 2018 made recommendations to address these inequalities.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/docs/default-source/improving-care/better-mh-policy/position-statements/ps01_22.pdf?sfvrsn=dad49604_8",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The **Race Equality Foundation** highlighted in January 2024 the \"urgent need for mental health reform,\" noting that Black people remained nearly four times more likely to be detained.",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "It's crucial to note that the *current government* has already acted on this, with a new Mental Health Act having received Royal Assent at the end of 2025 or early 2026.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/66471322bd01f5ed32793d88/20240129_Opposition_costing_-_8500_mental_health_professionals.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youthaccess.org.uk/publications/policy/early-support-hubs-focus",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "This new Act is intended to give patients greater control and dignity, and to tackle the \"unacceptable disparities\" faced by Black people.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/66471322bd01f5ed32793d88/20240129_Opposition_costing_-_8500_mental_health_professionals.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The **Royal College of Psychiatrists** welcomed the modernised Mental Health Act under the new Labour Government (in July 2024), hoping it would lead to increased patient choice, enhanced safeguards, and address both racial disparities and structural discrimination.",
+        "sources": [
+          {
+            "url": "https://www.rcpsych.ac.uk/news-and-features/latest-news/detail/2026/04/30/extra-mental-health-staff-in-england-welcome-but-far-more-still-needed--says-rcpsych",
+            "publisher": "rcpsych.ac.uk",
+            "title": "rcpsych.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "The **Centre for Mental Health** also welcomed Labour's pledge to modernise the Act as \"essential measures to protect people's rights, dignity and safety\".",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2024-0036/LLN-2024-0036.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "The Patient and Carer Race Equality Framework (PCREF) is being developed to improve how patients from ethnic minority backgrounds access and experience treatment.",
+        "sources": []
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Sufficiency of Staffing:** Although the recruitment of 8,500 additional mental health staff is seen as a positive step, the Royal College of Psychiatrists and Rethink Mental Illness both contend that this number is insufficient to resolve the profound workforce crisis and meet the escalating demand for services.",
+        "sources": [
+          {
+            "url": "https://www.youthaccess.org.uk/sites/default/files/documents/A%20blueprint%20for%20Young%20Futures%20hubs%20by%20Youth%20Access%20and%20partners.pdf",
+            "publisher": "youthaccess.org.uk",
+            "title": "youthaccess.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/young-futures-hubs",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   **Funding and Implementation Detail:** The Health Foundation, while acknowledging the ambition of Labour's plans, points to a lack of detailed funding strategies, raising concerns that the proposals might rely too heavily on an already overstretched workforce.",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2024/04/what-labour-manifesto-2024-election-policies-party/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "They also advocate for the age range to consistently extend to 25.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/42979/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.innovationunit.org/latest-updates/young-futures-hubs-if-not-now-when",
+            "publisher": "innovationunit.org",
+            "title": "innovationunit.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

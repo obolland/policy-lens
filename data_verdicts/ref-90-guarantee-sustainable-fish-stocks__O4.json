@@ -1,0 +1,569 @@
+{
+  "policy_id": "ref-90-guarantee-sustainable-fish-stocks",
+  "party": "Reform UK",
+  "policy_title": "Guarantee sustainable fish stocks",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy aims to protect fish stocks long-term, which could help fishing communities, but it is too vague to be confident it would meaningfully improve pay or job security for fishing workers. The main caveat is that the policy says almost nothing about worker rights, wages, or employment conditions.",
+    "biggest_unknown": "Whether sustainable stock recovery would translate into better pay and job security for fishing workers, or simply benefit quota-holding vessel owners.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to implementing a 'dynamic management system' and working with bodies like NEAFC to guarantee sustainable fish stocks.",
+        "evidence_id": "M",
+        "quote": "Reform UK will guarantee sustainable fish stocks by implementing a 'dynamic management system' and working with national and regional partners such as the North East Atlantic Fisheries Commission."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The seafood industry has faced increased bureaucracy, costs, and labour shortages since Brexit, affecting livelihoods in the sector.",
+        "evidence_id": "E20",
+        "quote": "The seafood industry has also faced increased bureaucracy, costs, and labor shortages since Brexit."
+      },
+      {
+        "tier": "measurable",
+        "claim": "There is low trust in fisheries institutions post-Brexit, driven by perceived incompetence and inadequate consultation.",
+        "evidence_id": "E19",
+        "quote": "Research indicates low levels of trust in fisheries institutions post-Brexit, driven by perceived incompetence, indifference to fishers' livelihoods, and inadequate consultation."
+      },
+      {
+        "tier": "projected",
+        "claim": "A rebuilt and sustainably managed resource base could offer greater long-term stability and profitability for the fishing industry, though short-term reductions in fishing opportunities might occur.",
+        "evidence_id": "E10",
+        "quote": "a rebuilt and sustainably managed resource base would offer greater long-term stability and profitability for the fishing industry"
+      },
+      {
+        "tier": "projected",
+        "claim": "Concerns exist that the current quota system disproportionately benefits large-scale operations, impacting small-scale coastal fisheries.",
+        "evidence_id": "E24",
+        "quote": "Concerns exist that the current system disproportionately benefits large-scale operations, impacting small-scale coastal fisheries."
+      }
+    ],
+    "rationale": "This policy is primarily an environmental and fisheries management measure, not a labour or pay policy. Its connection to O4 (good work and fair pay) is indirect: healthy fish stocks are a prerequisite for a viable fishing industry, and a viable industry supports fishing livelihoods over the long term. The evidence confirms the fishing sector faces real economic pressures \u2014 bureaucracy, labour shortages, and institutional distrust \u2014 that erode worker security. Sustainable stock management could, in principle, stabilise the industry and protect fishing jobs and incomes over the long term. However, the policy says nothing about wages, employment rights, quota distribution, or conditions for workers. The projected long-term stability benefit is real but modest and highly conditional \u2014 it depends on the 'dynamic management system' actually following scientific advice (a known failure point under current arrangements) and on stock recovery benefiting workers rather than just vessel owners. The concern about quota allocation disproportionately favouring large operators is relevant: even successful stock management does not automatically improve pay or security for ordinary fishing workers. The effect on O4 is therefore at most minor and long-term, and confidence is low given the policy's vagueness and the structural challenges it does not address.",
+    "sources": [
+      {
+        "quote": "Guarantee Sustainable Stocks Implement a \u2018dynamic management system\u2019. Work with national and regional partners such as the North East Atlantic Fisheries Commission.",
+        "url": "https://www.reformparty.uk/our-contract-with-you-2024",
+        "publisher": "Reform UK"
+      },
+      {
+        "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+        "publisher": "seafoodsource.com",
+        "title": "seafoodsource.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/uk/politics/brexit-fishing-uk-fisheries-act-b2866310.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/environment/2025/oct/08/brexit-nothing-stem-decline-uk-fish-populations-study",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+        "publisher": "oceanographicmagazine.com",
+        "title": "oceanographicmagazine.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0316,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-reasoned and appropriately cautious. The direction 'negligible' with 'minor' magnitude and 'low' confidence is defensible given the policy's near-total silence on labour conditions. All claims are supported by their cited quotes. Tier assignments are correct: E19 and E20 are labelled measurable and the quotes do support the claims as stated (noting E19 says 'research indicates' which the claim faithfully hedges). E10 is correctly labelled projected. The 'negligible' direction with non-n/a magnitude and time_horizon is a slight schema tension \u2014 the schema rule says 'too-uncertain' requires n/a, but 'negligible' is a directional verdict and n/a is not required here, so no violation. No lever leakage, no party identity smuggled in, no false balance. The biggest_unknown correctly identifies the quota-distribution crux."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will guarantee sustainable fish stocks by implementing a 'dynamic management system' and working with national and regional partners such as the North East Atlantic Fisheries Commission.",
+        "sources": [
+          {
+            "quote": "Guarantee Sustainable Stocks Implement a \u2018dynamic management system\u2019. Work with national and regional partners such as the North East Atlantic Fisheries Commission.",
+            "url": "https://www.reformparty.uk/our-contract-with-you-2024",
+            "publisher": "Reform UK"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's policy to \"guarantee sustainable fish stocks by implementing a 'dynamic management system' and working with national and regional partners such as the North East Atlantic Fisheries Commission\" aims to ensure the long-term health of UK fisheries.",
+        "sources": [
+          {
+            "url": "https://uk.oceana.org/wp-content/uploads/sites/14/2023/09/An-Introduction-to-UK-Fisheries-Management.pdf",
+            "publisher": "uk.oceana.org",
+            "title": "oceana.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The UK's current approach to fisheries management is governed by the Fisheries Act 2020, which replaced the EU's Common Fisheries Policy (CFP) post-Brexit.",
+        "sources": [
+          {
+            "url": "https://www.fisheriesappg.org/blog/2020/12/16/the-fisheries-act-2020-what-you-need-to-know",
+            "publisher": "fisheriesappg.org",
+            "title": "fisheriesappg.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.legislation.gov.uk/ukpga/2020/22/notes/division/3/index.htm",
+            "publisher": "legislation.gov.uk",
+            "title": "legislation.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This Act established a domestic system with eight objectives, including sustainability, the precautionary principle, an ecosystem approach, reliance on scientific evidence, and consideration of climate change.",
+        "sources": [
+          {
+            "url": "https://www.fisheriesappg.org/blog/2020/12/16/the-fisheries-act-2020-what-you-need-to-know",
+            "publisher": "fisheriesappg.org",
+            "title": "fisheriesappg.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Joint Fisheries Statement (JFS) sets the overall direction, and Fisheries Management Plans (FMPs) are the key tools for implementing these objectives.",
+        "sources": [
+          {
+            "url": "https://www.seafish.org/responsible-sourcing/uk-fisheries-management-and-supply-chain-initiatives/fisheries-management-plans-fmps/",
+            "publisher": "seafish.org",
+            "title": "seafish.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/fisheries-management-plans-policy-information/fisheries-management-plans",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fisheriesappg.org/blog/2020/12/16/the-fisheries-act-2020-what-you-need-to-know",
+            "publisher": "fisheriesappg.org",
+            "title": "fisheriesappg.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/report-on-the-joint-fisheries-statement/report-on-the-joint-fisheries-statement",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "FMPs are designed to be evidence-based action plans, developed in collaboration with stakeholders, and are intended to restore or maintain fish stocks at sustainable levels.",
+        "sources": [
+          {
+            "url": "https://www.seafish.org/responsible-sourcing/uk-fisheries-management-and-supply-chain-initiatives/fisheries-management-plans-fmps/",
+            "publisher": "seafish.org",
+            "title": "seafish.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/fisheries-management-plans-policy-information/fisheries-management-plans",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The current framework itself \"reflects the dynamic nature of fisheries management,\" suggesting an existing intent for adaptability.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/62068f21d3bf7f4f0981a0c7/fisheries-management-provisional-common-framework.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The North East Atlantic Fisheries Commission (NEAFC) is a crucial regional fisheries management organisation (RFMO) responsible for ensuring the long-term conservation and optimum utilisation of fishery resources in the North East Atlantic, with the UK as a contracting party.",
+        "sources": [
+          {
+            "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+            "publisher": "seafoodsource.com",
+            "title": "seafoodsource.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.seafish.org/responsible-sourcing/uk-fisheries-management-and-supply-chain-initiatives/fisheries-management-plans-fmps/",
+            "publisher": "seafish.org",
+            "title": "seafish.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://defrafmp.blog.gov.uk/2025/12/23/two-years-of-fisheries-management-plans-progress-and-whats-next/",
+            "publisher": "defrafmp.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "NEAFC adopts management measures, sets fishing limits, and employs monitoring, control, and surveillance, relying on scientific advice from the International Council for the Exploration of the Sea (ICES).",
+        "sources": [
+          {
+            "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+            "publisher": "seafoodsource.com",
+            "title": "seafoodsource.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://defrafmp.blog.gov.uk/2025/12/23/two-years-of-fisheries-management-plans-progress-and-whats-next/",
+            "publisher": "defrafmp.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Enhanced Marine Biodiversity:** A focus on sustainable fishing practices and ecosystem health would contribute to the protection and enhancement of marine biodiversity, a goal also enshrined in the current UK framework.",
+        "sources": [
+          {
+            "url": "https://www.fisheriesappg.org/blog/2020/12/16/the-fisheries-act-2020-what-you-need-to-know",
+            "publisher": "fisheriesappg.org",
+            "title": "fisheriesappg.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **More Resilient Fishing Industry:** While short-term reductions in fishing opportunities might occur for some stocks, a rebuilt and sustainably managed resource base would offer greater long-term stability and profitability for the fishing industry.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/brexit-fishing-uk-fisheries-act-b2866310.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2025/oct/08/brexit-nothing-stem-decline-uk-fish-populations-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Stronger International Cooperation:** Effective collaboration with NEAFC and other regional partners would be crucial for managing shared stocks, potentially leading to more harmonized and effective conservation efforts across the North East Atlantic.",
+        "sources": [
+          {
+            "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+            "publisher": "seafoodsource.com",
+            "title": "seafoodsource.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://static1.squarespace.com/static/5c3f248bb10598f8fdb7fbf6/t/62a0d34eda95bd441e415791/1654707049239/Brexit_Voices+of+the+Fishing+Industry_Web.pdf",
+            "publisher": "static1.squarespace.com",
+            "title": "squarespace.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.seafish.org/responsible-sourcing/uk-fisheries-management-and-supply-chain-initiatives/fisheries-management-plans-fmps/",
+            "publisher": "seafish.org",
+            "title": "seafish.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Only 45% were considered sustainably fished, with data lacking for the rest.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05957/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Three stocks (Celtic Sea cod, West of Scotland cod, and Irish Sea whiting) were in such severe decline that ICES advised a total ban on catches.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05957/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Disregard for Scientific Advice:** Environmental organizations such as the Blue Marine Foundation reported in April 2026 that nearly 60% of UK catch limits continue to be set above scientific advice, leading to ongoing stock collapse despite the legal framework of the Fisheries Act 2020.",
+        "sources": [
+          {
+            "url": "https://www.legislation.gov.uk/ukpga/2020/22/notes/division/3/index.htm",
+            "publisher": "legislation.gov.uk",
+            "title": "legislation.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "This figure is corroborated by other reports indicating that over 50% of fishing opportunities were allocated above scientific advice in both 2024 and 2025.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/brexit-fishing-uk-fisheries-act-b2866310.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This continued overfishing is seen as undermining post-Brexit sustainability promises.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/brexit-fishing-uk-fisheries-act-b2866310.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.legislation.gov.uk/ukpga/2020/22/notes/division/3/index.htm",
+            "publisher": "legislation.gov.uk",
+            "title": "legislation.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Lack of Ambition in Current Plans:** Environmental advocates, including Oceana UK and Open Seas, have criticized existing Fisheries Management Plans (FMPs) for being \"too vague,\" \"not ambitious enough,\" and lacking concrete, near-term measures.",
+        "sources": [
+          {
+            "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pearl.plymouth.ac.uk/cgi/viewcontent.cgi?article=1133&context=plcjr",
+            "publisher": "pearl.plymouth.ac.uk",
+            "title": "plymouth.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Concerns have also been raised that the Fisheries Act 2020 lacks a firm legal duty and a specified timeframe for achieving healthy fish stocks.",
+        "sources": [
+          {
+            "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://uk.oceana.org/wp-content/uploads/sites/14/2023/09/An-Introduction-to-UK-Fisheries-Management.pdf",
+            "publisher": "uk.oceana.org",
+            "title": "oceana.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Distrust and Economic Impacts Post-Brexit:** Research indicates low levels of trust in fisheries institutions post-Brexit, driven by perceived incompetence, indifference to fishers' livelihoods, and inadequate consultation.",
+        "sources": [
+          {
+            "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+            "publisher": "seafoodsource.com",
+            "title": "seafoodsource.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The seafood industry has also faced increased bureaucracy, costs, and labor shortages since Brexit.",
+        "sources": [
+          {
+            "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+            "publisher": "seafoodsource.com",
+            "title": "seafoodsource.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This perspective also argued that some reports, like Oceana's \"Taking Stock,\" might be misleading due to differing definitions of \"overfished.\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/report-on-the-joint-fisheries-statement/report-on-the-joint-fisheries-statement",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "However, based on the expert commentary regarding the current state of UK fisheries, any successful \"dynamic management system\" would need to:\n*   **Rigorously adhere to scientific advice:** This is a primary point of failure in the current system, where catch limits frequently exceed scientific recommendations.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/brexit-fishing-uk-fisheries-act-b2866310.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2025/oct/08/brexit-nothing-stem-decline-uk-fish-populations-study",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.legislation.gov.uk/ukpga/2020/22/notes/division/3/index.htm",
+            "publisher": "legislation.gov.uk",
+            "title": "legislation.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Include clear, legally binding targets and timeframes:** Experts criticize the current Act for lacking these, leading to a perception of insufficient ambition.",
+        "sources": [
+          {
+            "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://uk.oceana.org/wp-content/uploads/sites/14/2023/09/An-Introduction-to-UK-Fisheries-Management.pdf",
+            "publisher": "uk.oceana.org",
+            "title": "oceana.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Ensure equitable quota allocation:** Concerns exist that the current system disproportionately benefits large-scale operations, impacting small-scale coastal fisheries.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/brexit-fishing-uk-fisheries-act-b2866310.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Address post-Brexit trade and labor challenges:** The practical difficulties faced by the seafood industry post-Brexit would need to be considered.",
+        "sources": [
+          {
+            "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+            "publisher": "seafoodsource.com",
+            "title": "seafoodsource.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Foster genuine stakeholder involvement:** While FMPs aim for this, there's still perceived inadequacy in consultation and a lack of trust in regulators.",
+        "sources": [
+          {
+            "url": "https://oceanographicmagazine.com/news/our-seas-cannot-wait-uk-fisheries-consultation-criticised/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.seafoodsource.com/news/premium/supply-trade/four-years-on-brexit-continues-to-undermine-uk-seafood-industry",
+            "publisher": "seafoodsource.com",
+            "title": "seafoodsource.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.seafish.org/responsible-sourcing/uk-fisheries-management-and-supply-chain-initiatives/fisheries-management-plans-fmps/",
+            "publisher": "seafish.org",
+            "title": "seafish.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "However, the ongoing disagreements among NEAFC members regarding adherence to scientific advice for key stocks like mackerel demonstrate that international cooperation alone does not guarantee sustainable outcomes without strong political will to follow scientific recommendations.",
+        "sources": [
+          {
+            "url": "https://static1.squarespace.com/static/5c3f248bb10598f8fdb7fbf6/t/62a0d34eda95bd441e415791/1654707049239/Brexit_Voices+of+the+Fishing+Industry_Web.pdf",
+            "publisher": "static1.squarespace.com",
+            "title": "squarespace.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.legislation.gov.uk/ukpga/2020/22/notes/division/3/index.htm",
+            "publisher": "legislation.gov.uk",
+            "title": "legislation.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

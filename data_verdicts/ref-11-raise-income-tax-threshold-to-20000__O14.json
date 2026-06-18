@@ -1,0 +1,480 @@
+{
+  "policy_id": "ref-11-raise-income-tax-threshold-to-20000",
+  "party": "Reform UK",
+  "policy_title": "Raise income tax threshold to \u00a320,000",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "worsens",
+    "magnitude": "major",
+    "time_horizon": "this-parliament",
+    "confidence": "high",
+    "plain": "Raising the income tax threshold to \u00a320,000 and the higher rate threshold to \u00a370,000 would give the biggest gains to higher earners, widening the gap between rich and poor. Independent analysts find the top 20% of households would get 80% of the benefit from the higher-rate change, while the bottom 10% receive just 2p for every \u00a31 spent.",
+    "biggest_unknown": "Whether large spending cuts needed to fund the policy would fall disproportionately on lower-income households, which could worsen inequality further \u2014 but even without that, the tax cuts themselves are regressive.",
+    "claims": [
+      {
+        "tier": "projected",
+        "claim": "IPPR estimates 80% of the higher-rate threshold tax break would benefit the richest 20% of households.",
+        "evidence_id": "E15",
+        "quote": "A significant 80% of this tax break would benefit the richest 20% of households."
+      },
+      {
+        "tier": "projected",
+        "claim": "IPPR estimates 32% of the personal allowance tax break would go to the richest 20% of households.",
+        "evidence_id": "E13",
+        "quote": "32% of this tax break would go to the richest 20% of households."
+      },
+      {
+        "tier": "projected",
+        "claim": "For every \u00a31 spent on these tax cuts, the top 10% receive 28p compared to just 2p for the bottom 10%.",
+        "evidence_id": "E17",
+        "quote": "For every \u00a31 spent on these tax cuts, the top 10% would receive 28p, compared to just 2p for the bottom 10%."
+      },
+      {
+        "tier": "projected",
+        "claim": "The highest earners could save \u00a34,000 a year from the higher rate threshold increase alone.",
+        "evidence_id": "E10",
+        "quote": "For the higher rate threshold increase, the highest earners could save \u00a34,000 a year."
+      },
+      {
+        "tier": "projected",
+        "claim": "An individual earning \u00a375,000 could see a combined saving of nearly \u00a35,500 per year.",
+        "evidence_id": "E11",
+        "quote": "An individual earning \u00a375,000 could see a combined saving of nearly \u00a35,500 per year."
+      },
+      {
+        "tier": "projected",
+        "claim": "Analysts widely agree these policies would be highly regressive, disproportionately benefiting wealthier households.",
+        "evidence_id": "E12",
+        "quote": "Analysts widely agree that these policies would be highly regressive, disproportionately benefiting wealthier households."
+      },
+      {
+        "tier": "projected",
+        "claim": "Tax Policy Associates characterises these as badly designed tax cuts that primarily offer windfalls rather than significantly altering marginal rates.",
+        "evidence_id": "E22",
+        "quote": "Tax Policy Associates characterizes these as \"badly designed tax cuts\" for driving economic growth because they primarily offer windfalls rather than significantly altering marginal tax rates"
+      }
+    ],
+    "rationale": "The policy has two components with distinct distributional profiles. The personal allowance increase to \u00a320,000 does remove lower earners from income tax, but because every taxpayer above \u00a320,000 also receives the same flat cash gain (around \u00a31,634), the benefit accrues to all earners above the threshold \u2014 with IPPR estimating 32% going to the richest fifth. The higher-rate threshold increase to \u00a370,000 is far more concentrated: 80% of that benefit goes to the richest 20% of households, and the highest earners save \u00a34,000 a year from this component alone. Together, for every \u00a31 spent, the top 10% receive 28p versus 2p for the bottom 10%.\n\nThe counterfactual is straightforward: absent the policy, the current thresholds remain, and the income gap between top and bottom does not widen through this mechanism. The policy does direct some gains to those just under \u00a320,000 who currently pay tax, but this is dwarfed by the gains flowing to higher earners \u2014 particularly from the higher-rate threshold change. Analysts across IPPR and Tax Policy Associates converge on the regressive verdict. The evidence uniformly points in one direction; there is no credible cited counter-argument that the distributional effect narrows the gap. The verdict is worsens, with major magnitude given the scale of the higher-rate component's concentration at the top.",
+    "sources": [
+      {
+        "url": "https://www.ippr.org/media-office/analysis-of-reforms-tax-plans",
+        "publisher": "ippr.org",
+        "title": "ippr.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.international-adviser.com/uks-reform-party-pledges-70bn-of-cuts-in-income-tax-iht-and-stamp-duty/",
+        "publisher": "international-adviser.com",
+        "title": "international-adviser.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.taxjournal.com/articles/self-s-assessment-reform-uk-s-tax-policies-",
+        "publisher": "taxjournal.com",
+        "title": "taxjournal.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+        "publisher": "taxpolicy.org.uk",
+        "title": "taxpolicy.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0378,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are correctly tiered as projected. E15 and E13 both appear to reference IPPR analysis of different policy components (higher-rate threshold and personal allowance respectively), which matches the claims. E17 covers the combined distributional ratio and entails the claim. E12 labels sources as 'analysts widely agree' which is slightly broad but is backed by ippr.org, international-adviser.com, and taxjournal.com per the evidence metadata, so not blocking. The direction 'worsens' is well-supported by multiple independent institutional sources (IPPR, Tax Policy Associates) converging on a regressive distributional verdict; no credible counter-claim exists in the evidence units. Magnitude 'major' is justified given the scale (80% of higher-rate benefit to top quintile, 28p vs 2p per \u00a31). No party-blind issues; rationale is effect-based throughout. No lever leakage \u2014 scored on distributional effect on inequality gap. No false balance issue \u2014 the evidence uniformly points one way and direction is correctly 'worsens' not mixed. One minor note: E15 says '80% of this tax break' referring to the higher-rate threshold change specifically, while the plain text summary conflates it slightly, but the claims and rationale correctly attribute it to the higher-rate component, so not blocking."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [
+        {
+          "claim": "The policy raises the income tax starting threshold to \u00a320,000 and the higher rate threshold to \u00a370,000.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will lift the income tax starting threshold to \u00a320,000, which they state will take 7 million people out of income tax and save every worker almost \u00a31,500 per year. The higher rate threshold will be raised to \u00a370,000.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK states that these changes would take 7 million people out of income tax and save every worker almost \u00a31,500 per year.",
+        "sources": [
+          {
+            "url": "https://www.international-adviser.com/uks-reform-party-pledges-70bn-of-cuts-in-income-tax-iht-and-stamp-duty/",
+            "publisher": "international-adviser.com",
+            "title": "international-adviser.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taxjournal.com/articles/self-s-assessment-reform-uk-s-tax-policies-",
+            "publisher": "taxjournal.com",
+            "title": "taxjournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   The Institute for Fiscal Studies (IFS) estimates that raising the income tax threshold to \u00a320,000 alone could cost the Treasury between \u00a350 billion and \u00a380 billion annually.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/live/2025/may/27/uk-politics-live-labour-reform-nigel-farage-keir-starmer-welfare-news-updates",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://macemagazine.com/reform-uk-proposes-20000-tax-free-threshold-in-pre-election-pitch/",
+            "publisher": "macemagazine.com",
+            "title": "macemagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFiufvn5Xhfgls3rV4vcg1vmuRvknu0PYbjdNI5l9W0E6N6a6JeTEvgvDb4WolzMD_cHcRKJ5J46RqK9jGv7H9rYImwgzRxLALG_zmc89H6Zri2Vu5cLviPw_YAmdQzkRliNebmJagt_DWTFbu6O96sdFeDVVDp1qrlsKhT2TUO-r7ug==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   The IPPR (Institute for Public Policy Research) estimates the personal allowance increase at \u00a341 billion for 2024-25 and the higher rate threshold increase at \u00a318 billion for the same period, totaling \u00a359 billion for these two policies.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/analysis-of-reforms-tax-plans",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   Tax Policy Associates estimates the \u00a320,000 personal allowance increase would cost \u00a360 billion, and the \u00a370,000 higher rate threshold increase would cost \u00a322 billion.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   The House of Commons Library has previously estimated a similar proposal to raise the personal allowance to \u00a320,000 would cost between \u00a350 billion and \u00a365 billion, comparable to the entire defence budget.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   Reform UK's broader manifesto, which includes these income tax changes and other tax cuts (e.g., inheritance tax, corporation tax), is estimated by them to cost around \u00a370 billion, but analysts suggest the true figure could be up to \u00a390 billion, with the income tax changes being the most significant component.",
+        "sources": [
+          {
+            "url": "https://www.taxjournal.com/articles/self-s-assessment-reform-uk-s-tax-policies-",
+            "publisher": "taxjournal.com",
+            "title": "taxjournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Number of People Taken Out of Income Tax:**\n    *   Reform UK claims the personal allowance increase would take 7 million of \"the least well-off\" out of income tax.",
+        "sources": [
+          {
+            "url": "https://www.taxjournal.com/articles/self-s-assessment-reform-uk-s-tax-policies-",
+            "publisher": "taxjournal.com",
+            "title": "taxjournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "**Savings for Workers:**\n    *   Reform UK states that raising the tax-free personal allowance to \u00a320,000 would save workers \"almost \u00a31,500 a year\".",
+        "sources": [
+          {
+            "url": "https://www.international-adviser.com/uks-reform-party-pledges-70bn-of-cuts-in-income-tax-iht-and-stamp-duty/",
+            "publisher": "international-adviser.com",
+            "title": "international-adviser.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   Tax Policy Associates calculates that taxpayers earning more than \u00a320,000 would receive a \u00a31,634 tax cut due to the personal allowance change.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   For the higher rate threshold increase, the highest earners could save \u00a34,000 a year.",
+        "sources": [
+          {
+            "url": "https://www.international-adviser.com/uks-reform-party-pledges-70bn-of-cuts-in-income-tax-iht-and-stamp-duty/",
+            "publisher": "international-adviser.com",
+            "title": "international-adviser.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "An individual earning \u00a375,000 could see a combined saving of nearly \u00a35,500 per year.",
+        "sources": [
+          {
+            "url": "https://www.international-adviser.com/uks-reform-party-pledges-70bn-of-cuts-in-income-tax-iht-and-stamp-duty/",
+            "publisher": "international-adviser.com",
+            "title": "international-adviser.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Distributional Effects (Who Benefits Most):**\n    Analysts widely agree that these policies would be highly regressive, disproportionately benefiting wealthier households.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/analysis-of-reforms-tax-plans",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.international-adviser.com/uks-reform-party-pledges-70bn-of-cuts-in-income-tax-iht-and-stamp-duty/",
+            "publisher": "international-adviser.com",
+            "title": "international-adviser.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taxjournal.com/articles/self-s-assessment-reform-uk-s-tax-policies-",
+            "publisher": "taxjournal.com",
+            "title": "taxjournal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Overall, 32% of this tax break would go to the richest 20% of households.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/analysis-of-reforms-tax-plans",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   While individuals earning just under \u00a320,000 would see their marginal tax rate fall significantly (e.g., from 28% to 19% for someone on \u00a319,000), the overall effect of the personal allowance increase primarily provides a windfall to all taxpayers above the new threshold.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "A significant 80% of this tax break would benefit the richest 20% of households.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/analysis-of-reforms-tax-plans",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   Taxpayers earning between \u00a350,000 and \u00a370,000 would see a reduction in their marginal tax rate, but those earning more than \u00a370,000 would receive a \u00a34,000 tax cut that doesn't alter their marginal incentive to earn more.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "For every \u00a31 spent on these tax cuts, the top 10% would receive 28p, compared to just 2p for the bottom 10%.",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/analysis-of-reforms-tax-plans",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Reform UK suggests financing these cuts through measures like scrapping Net Zero policies (\u00a345 billion), ending Diversity, Equity, and Inclusion (DEI) initiatives (\u00a37 billion), and cutting asylum accommodation costs (\u00a34 billion), alongside general government efficiency savings.",
+        "sources": [
+          {
+            "url": "https://accountancyage.com/2025/05/28/farage-promises-20k-tax-free-threshold-but-at-what-cost/",
+            "publisher": "accountancyage.com",
+            "title": "accountancyage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taxjournal.com/articles/self-s-assessment-reform-uk-s-tax-policies-",
+            "publisher": "taxjournal.com",
+            "title": "taxjournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://macemagazine.com/reform-uk-proposes-20000-tax-free-threshold-in-pre-election-pitch/",
+            "publisher": "macemagazine.com",
+            "title": "macemagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "However, these estimated savings often fall short of the projected costs of the tax cuts.",
+        "sources": [
+          {
+            "url": "https://accountancyage.com/2025/05/28/farage-promises-20k-tax-free-threshold-but-at-what-cost/",
+            "publisher": "accountancyage.com",
+            "title": "accountancyage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Fiscal Risks:** Economists warn that the lack of detailed costings and independent review of the funding proposals presents significant fiscal risks.",
+        "sources": [
+          {
+            "url": "https://macemagazine.com/reform-uk-proposes-20000-tax-free-threshold-in-pre-election-pitch/",
+            "publisher": "macemagazine.com",
+            "title": "macemagazine.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Tax Policy Associates estimates that the unfunded cost of Reform UK's tax plans could be at least \u00a333 billion, which they note is \"about twice the unfunded cost of Liz Truss' ill-fated 2022 'mini-Budget'.\"",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Incentive Effects:** Tax Policy Associates characterizes these as \"badly designed tax cuts\" for driving economic growth because they primarily offer windfalls rather than significantly altering marginal tax rates for those most likely to respond to such incentives.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Helen Miller, Deputy Director of the IFS, stated that there is a need for \"much more detail about 'the big cuts to spending on public services that would be needed for the plan to be implementable',\" implying that the current proposals lack credibility regarding their funding.",
+        "sources": [
+          {
+            "url": "https://www.taxjournal.com/articles/self-s-assessment-reform-uk-s-tax-policies-",
+            "publisher": "taxjournal.com",
+            "title": "taxjournal.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFiufvn5Xhfgls3rV4vcg1vmuRvknu0PYbjdNI5l9W0E6N6a6JeTEvgvDb4WolzMD_cHcRKJ5J46RqK9jGv7H9rYImwgzRxLALG_zmc89H6Zri2Vu5cLviPw_YAmdQzkRliNebmJagt_DWTFbu6O96sdFeDVVDp1qrlsKhT2TUO-r7ug==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Dynamic Effects:** While Reform UK might imply that such significant tax cuts would stimulate growth, Tax Policy Associates explicitly argues that these particular tax cuts are \"unlikely to drive growth\" because they do not effectively target marginal rates to incentivize increased work or investment.",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

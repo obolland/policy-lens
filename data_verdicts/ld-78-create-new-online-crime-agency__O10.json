@@ -1,0 +1,563 @@
+{
+  "policy_id": "ld-78-create-new-online-crime-agency",
+  "party": "Liberal Democrat",
+  "policy_title": "Create New Online Crime Agency",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "The agency targets activity already illegal \u2014 fraud, revenge porn, threats \u2014 so it does not extend state coercion over lawful speech or choices. The one liberty-adjacent concern is expanded data-sharing between agencies, but the evidence gives no detail on new surveillance powers over ordinary citizens.",
+    "biggest_unknown": "Whether the agency is granted new data-collection or interception powers that extend beyond existing law \u2014 nothing in the evidence confirms or rules this out.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The agency is scoped to 'illegal content and activity online' \u2014 fraud, revenge porn, threats and incitement to violence \u2014 not lawful speech or behaviour.",
+        "evidence_id": "M",
+        "quote": "tackle illegal content and activity online, such as personal fraud, revenge porn and threats and incitement to violence on social media"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A core function is shutting down criminal infrastructure such as fraudulent accounts, websites and phone numbers.",
+        "evidence_id": "E3",
+        "quote": "identify and shut down criminal infrastructure, including fraudulent accounts, websites, and phone numbers, as well as blocking scam texts and removing scam social media accounts"
+      },
+      {
+        "tier": "projected",
+        "claim": "The agency's model relies on data-sharing between government, law enforcement, intelligence agencies, banks, mobile networks and tech firms \u2014 raising implementation questions about data governance.",
+        "evidence_id": "E16",
+        "quote": "it remains an \"open question\" whether it can effectively address existing legal and operational barriers to efficient and compliant data sharing between agencies and industry"
+      }
+    ],
+    "rationale": "O10 is concerned with state coercion over lawful speech, bodily autonomy, surveillance and mandates. This policy targets conduct already criminalised \u2014 fraud, revenge porn, incitement \u2014 so it does not extend prohibitions into new expressive territory. The stated aim is operational efficiency for local policing, not an expansion of the categories of illegal speech. The one plausible liberty-adjacent mechanism is the intelligence-sharing model between agencies, banks and tech firms (E4, E16), which could in principle involve broader data collection on individuals. However, the evidence provides no detail on whether new surveillance or interception powers are granted; it only notes that data-sharing barriers remain an open question. Without evidence that lawful speech, privacy or freedom from state coercion is materially affected, the effect on O10 is at most minor \u2014 and even that rests on speculation about implementation detail not grounded in the provided evidence. The direction is therefore negligible on current evidence, with low confidence because the absence of detail about the agency's legal powers is itself informative only up to a point.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ourwatch.org.uk/news/new-fraud-disruption-unit-launched",
+        "publisher": "ourwatch.org.uk",
+        "title": "ourwatch.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://cms.law/en/gbr/legal-updates/stop!-what-should-organisations-think-of-the-new-uk-fraud-strategy",
+        "publisher": "cms.law",
+        "title": "cms.law",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+        "publisher": "hoganlovells.com",
+        "title": "hoganlovells.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0331,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims are supported by their quoted evidence. Tier assignments are correct. The E3 claim is labelled measurable \u2014 this describes the agency's intended function (stated in policy/government documents), which is borderline projected but acceptable as a stated operational design rather than a forecast outcome. Direction of negligible with magnitude minor is internally inconsistent per schema rules (if negligible, magnitude should arguably be n/a), but the schema does not explicitly prohibit this combination and the rationale coherently explains why the effect is at most minor \u2014 this is a warning-level concern at most and not clearly blocking given the rubric. No party identity or motive attribution. No false balance \u2014 the verdict does not reach mixed/too-uncertain. Data-sharing concern is appropriately hedged as projected. No lever leakage \u2014 the verdict correctly judges liberty effect rather than anti-fraud efficacy."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "The stated rationale is freeing up local officers, not expanding state reach over individuals.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Free up local officers\u2019 time to focus on their communities by: Creating a new Online Crime Agency to effectively tackle illegal content and activity online, such as personal fraud, revenge porn and threats and incitement to violence on social media.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "It aims to free up local police officers' time to concentrate on community issues.",
+        "sources": [
+          {
+            "url": "https://cms.law/en/gbr/legal-updates/stop!-what-should-organisations-think-of-the-new-uk-fraud-strategy",
+            "publisher": "cms.law",
+            "title": "cms.law",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uk-launches-new-anti-fraud-strategy",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalcrimeagency.gov.uk/news/fraud-strategy-supports-national-crime-agency-s-commitment-in-fight-against-fraud",
+            "publisher": "nationalcrimeagency.gov.uk",
+            "title": "nationalcrimeagency.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/moving-in-the-right-direction-the-governments-new-fraud-strategy/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ourwatch.org.uk/news/new-fraud-disruption-unit-launched",
+            "publisher": "ourwatch.org.uk",
+            "title": "ourwatch.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Fraud is currently the most prevalent crime in the UK, costing the economy over \u00a314 billion annually, with one in fourteen adults and one in four businesses falling victim.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ourwatch.org.uk/news/new-fraud-disruption-unit-launched",
+            "publisher": "ourwatch.org.uk",
+            "title": "ourwatch.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The OCC is intended to identify and shut down criminal infrastructure, including fraudulent accounts, websites, and phone numbers, as well as blocking scam texts and removing scam social media accounts.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ourwatch.org.uk/news/new-fraud-disruption-unit-launched",
+            "publisher": "ourwatch.org.uk",
+            "title": "ourwatch.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Increased Collaboration and Intelligence Sharing:**\nA core aim of the OCC is to foster collaboration between government, law enforcement (including the National Crime Agency and City of London Police), intelligence agencies, banks, mobile networks, and major tech firms.",
+        "sources": [
+          {
+            "url": "https://cms.law/en/gbr/legal-updates/stop!-what-should-organisations-think-of-the-new-uk-fraud-strategy",
+            "publisher": "cms.law",
+            "title": "cms.law",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uk-launches-new-anti-fraud-strategy",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalcrimeagency.gov.uk/news/fraud-strategy-supports-national-crime-agency-s-commitment-in-fight-against-fraud",
+            "publisher": "nationalcrimeagency.gov.uk",
+            "title": "nationalcrimeagency.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ourwatch.org.uk/news/new-fraud-disruption-unit-launched",
+            "publisher": "ourwatch.org.uk",
+            "title": "ourwatch.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This integrated approach seeks to address the historical challenge of fragmented data landscapes, allowing for a more comprehensive picture of global fraud networks and faster interventions.",
+        "sources": [
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Streamlining Policing and Freeing up Local Officers:**\nThe policy is aligned with broader reforms, including the proposed creation of a National Police Service (NPS), which would centralize the fight against serious, non-local, and technology-enabled crimes like fraud and cybercrime.",
+        "sources": [
+          {
+            "url": "https://therecord.media/uk-national-policing-overhaul-cybercrime",
+            "publisher": "therecord.media",
+            "title": "therecord.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commscouncil.uk/press/home-office-white-paper-proposes-new-national-police-service-with-lead-role-on-fraud-and-cyber/",
+            "publisher": "commscouncil.uk",
+            "title": "commscouncil.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This restructuring is intended to alleviate the burden on local police forces, allowing them to redirect resources to community policing.",
+        "sources": [
+          {
+            "url": "https://therecord.media/uk-national-policing-overhaul-cybercrime",
+            "publisher": "therecord.media",
+            "title": "therecord.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Proactive Disruption of Criminal Networks:**\nExperts suggest that a central strength of the strategy is its focus on cutting off fraud \"at source\" rather than primarily relying on post-incident investigation.",
+        "sources": [
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uk-launches-new-anti-fraud-strategy",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/moving-in-the-right-direction-the-governments-new-fraud-strategy/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The National Crime Agency (NCA), which will lead the OCC alongside the Home Office, has already seen a 75% increase in open fraud investigations and a 27% rise in convictions over the last three years, indicating a trend towards more proactive disruption.",
+        "sources": [
+          {
+            "url": "https://www.nationalcrimeagency.gov.uk/news/fraud-strategy-supports-national-crime-agency-s-commitment-in-fight-against-fraud",
+            "publisher": "nationalcrimeagency.gov.uk",
+            "title": "nationalcrimeagency.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Funding and Investment:**\nThe government has committed \u00a331 million to launch the Online Crime Centre, which is part of a larger \u00a3250 million investment over the next three years for the overall Fraud Strategy.",
+        "sources": [
+          {
+            "url": "https://cms.law/en/gbr/legal-updates/stop!-what-should-organisations-think-of-the-new-uk-fraud-strategy",
+            "publisher": "cms.law",
+            "title": "cms.law",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uk-launches-new-anti-fraud-strategy",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/moving-in-the-right-direction-the-governments-new-fraud-strategy/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ourwatch.org.uk/news/new-fraud-disruption-unit-launched",
+            "publisher": "ourwatch.org.uk",
+            "title": "ourwatch.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Support for the Collaborative Model:** Analysts from legal firms like Pinsent Masons and Hogan Lovells view the Online Crime Centre as an \"ambitious attempt to improve the UK's response to economic crime\" and a \"serious plan built around a deeper partnership with the private sector.\"",
+        "sources": [
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uk-launches-new-anti-fraud-strategy",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "They consider the public-private model credible, reflecting a growing trend of coordinated action.",
+        "sources": [
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalcrimeagency.gov.uk/news/fraud-strategy-supports-national-crime-agency-s-commitment-in-fight-against-fraud",
+            "publisher": "nationalcrimeagency.gov.uk",
+            "title": "nationalcrimeagency.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The focus on prevention and early intervention is also welcomed.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uk-launches-new-anti-fraud-strategy",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/moving-in-the-right-direction-the-governments-new-fraud-strategy/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Concerns over Funding Adequacy:** Despite the significant figures, some analysts express \"considerable cause for concern\" that the \u00a3250 million allocated over three years for the entire fraud strategy is \"comparatively small\" when weighed against the estimated \u00a314.4 billion annual cost of fraud to the UK economy.",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/moving-in-the-right-direction-the-governments-new-fraud-strategy/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "One analysis highlights that for every \u00a31 of new financial resources, society bears \u00a358 in fraud costs.",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/moving-in-the-right-direction-the-governments-new-fraud-strategy/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Challenges in Data Sharing and Implementation:** While the OCC is designed to overcome fragmented data landscapes, it remains an \"open question\" whether it can effectively address existing legal and operational barriers to efficient and compliant data sharing between agencies and industry.",
+        "sources": [
+          {
+            "url": "https://cms.law/en/gbr/legal-updates/stop!-what-should-organisations-think-of-the-new-uk-fraud-strategy",
+            "publisher": "cms.law",
+            "title": "cms.law",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Concerns have also been raised that past reliance on voluntary action from digital and telecoms companies has led to slow progress in tackling fraud risks.",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/moving-in-the-right-direction-the-governments-new-fraud-strategy/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Risk of Obsolescence:** Given the rapid evolution of technology-enabled fraud, the effectiveness of specific responses implemented by the OCC risks obsolescence before they can be fully established and deliver sustained change.",
+        "sources": [
+          {
+            "url": "https://cms.law/en/gbr/legal-updates/stop!-what-should-organisations-think-of-the-new-uk-fraud-strategy",
+            "publisher": "cms.law",
+            "title": "cms.law",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Other online harms are broadly addressed by the existing Online Safety Bill (introduced in 2022), which imposes duties on regulated services to protect users from illegal content, content harmful to children, and legal but harmful content to adults, including fraudulent advertising and changes to communications offenses.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Organisations like the **National Crime Agency (NCA)** have welcomed the Fraud Strategy, emphasizing its role in bolstering their commitment to protecting the public from fraudsters operating upstream, overseas, and online.",
+        "sources": [
+          {
+            "url": "https://www.nationalcrimeagency.gov.uk/news/fraud-strategy-supports-national-crime-agency-s-commitment-in-fight-against-fraud",
+            "publisher": "nationalcrimeagency.gov.uk",
+            "title": "nationalcrimeagency.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "law, Pinsent Masons, and Hogan Lovells** have provided detailed analysis, generally supportive of the strategy's ambition and design, particularly the collaborative aspects.",
+        "sources": [
+          {
+            "url": "https://cms.law/en/gbr/legal-updates/stop!-what-should-organisations-think-of-the-new-uk-fraud-strategy",
+            "publisher": "cms.law",
+            "title": "cms.law",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pinsentmasons.com/out-law/news/uk-launches-new-anti-fraud-strategy",
+            "publisher": "pinsentmasons.com",
+            "title": "pinsentmasons.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/new-fraud-strategy-a-serious-plan-built-around-a-deeper-partnership-with-the-private-sector",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "However, groups like the **House of Commons Library** primarily offer impartial research on legislation (like the Online Safety Bill)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9506/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": ", and institutions such as the **Resolution Foundation** and the **Office for Budget Responsibility (OBR)** have not, in the provided search results, published specific analyses on this particular policy, focusing instead on broader economic trends or living standards",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/coronavirus-analysis/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://iea.org.uk/review-of-the-resolution-foundations-housing-outlook-report/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

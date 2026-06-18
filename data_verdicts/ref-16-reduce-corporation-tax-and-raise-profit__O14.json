@@ -1,0 +1,531 @@
+{
+  "policy_id": "ref-16-reduce-corporation-tax-and-raise-profit",
+  "party": "Reform UK",
+  "policy_title": "Reduce Corporation Tax and raise profit threshold",
+  "outcome": "O14",
+  "verdict": {
+    "outcome": "O14",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "The headline rate cut from 25% to 15% primarily benefits the shareholders of large profitable companies, who are disproportionately wealthy, while the very large revenue cost risks crowding out the public services and transfers that narrow inequality. The SME threshold change helps smaller business owners but is dwarfed by the distributional impact of the main rate cut.",
+    "biggest_unknown": "How much of the CT cut flows through to workers as higher wages versus to shareholders as higher returns, and whether the fiscal gap is filled by spending cuts or other taxes that fall differently across the income distribution.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The main Corporation Tax rate would be cut from 25% to 20% and then to 15% from Year 3.",
+        "evidence_id": "M",
+        "quote": "reduce the main Corporation Tax rate from 25% to 20%, then to 15% from Year 3"
+      },
+      {
+        "tier": "stated",
+        "claim": "Over 1.2 million SMEs would be freed from Corporation Tax by raising the minimum profit threshold to \u00a3100,000.",
+        "evidence_id": "M",
+        "quote": "free over 1.2 million Small and Medium Sized Businesses (SMEs) from Corporation Tax by lifting the minimum profit threshold to \u00a3100,000"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around 66% of companies with a tax liability pay under \u00a310,000 in CT, collectively accounting for only 4% of total CT receipts.",
+        "evidence_id": "E8",
+        "quote": "Approximately 1 million companies (66% of all companies with a tax liability) pay less than \u00a310,000 in Corporation Tax, collectively accounting for only 4% (\u00a33.3 billion) of total Corporation Tax liabilities in 2023-24"
+      },
+      {
+        "tier": "measurable",
+        "claim": "CT raised \u00a379.7 billion in 2022/23, making it the fourth-largest source of government revenue.",
+        "evidence_id": "E9",
+        "quote": "Corporation Tax raised \u00a379.7 billion in 2022/23, making it the fourth-largest contributor to government tax revenues"
+      },
+      {
+        "tier": "projected",
+        "claim": "Tax Policy Associates estimated a cut from 25% to 20% alone would cost \u00a314.2 billion.",
+        "evidence_id": "E7",
+        "quote": "Tax Policy Associates more conservatively estimated that a cut from 25% to 20% would cost \u00a314.2 billion"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS noted that proposed spending increases such as \u00a317 billion for the NHS would not be nearly enough to meet commitments given the scale of tax cuts.",
+        "evidence_id": "E17",
+        "quote": "the IFS noted that Reform UK's proposed spending increases, such as \u00a317 billion for the NHS, would "
+      },
+      {
+        "tier": "projected",
+        "claim": "HMRC modelling suggested some revenue loss from CT cuts could be recovered through increased economic activity, between 45% and 60% in the long term.",
+        "evidence_id": "E21",
+        "quote": "some revenue loss from CT cuts could be recovered through increased economic activity (between 45% and 60% in the long term)"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Resolution Foundation argues that simply cutting corporation tax is not a silver bullet for addressing issues like the cost of living crisis.",
+        "evidence_id": "E25",
+        "quote": "simply cutting corporation tax is not a \"silver bullet\" for boosting growth and addressing issues like the cost of living crisis"
+      }
+    ],
+    "rationale": "The distributional impact of this policy on the gap between the richest and the rest is likely negative, for two reinforcing reasons.\n\nFirst, the structure of who pays CT means the main rate cut overwhelmingly benefits large profitable companies. The evidence shows that companies paying under \u00a310,000 in CT collectively contribute only 4% of total receipts, meaning the vast bulk of the \u00a314\u201340bn revenue giveaway flows to companies with large profits. The shareholders of such companies are concentrated among wealthier households. The SME threshold change benefits a broad base of smaller business owners, but this component is marginal relative to the main rate cut in fiscal terms.\n\nSecond, the scale of the revenue cost \u2014 which independent analysts place far above the policy's own costing \u2014 creates a major fiscal gap. If this gap constrains public spending on services (health, education, transfers) that are progressive in their incidence, the net effect on the income and wealth distribution worsens further. The IFS has already noted that spending commitments within the same platform would not be nearly enough, suggesting the fiscal space for redistribution narrows materially.\n\nDynamic effects (investment, wage spillovers, growth) could partially offset these distributional concerns, and HMRC modelling does show some recovery of revenues through economic activity. However, the IFS cautions that past CT cuts did not pay for themselves through the mechanism claimed; other factors drove revenue trends. The OBR has similarly revised down investment estimates from rate cuts. These dynamic offsets are therefore projected and uncertain, not established.\n\nE19 (TUC) is an advocacy source and has been down-weighted; the core distributional logic rests on the structural evidence about CT incidence and revenue concentration. The direction is 'worsens' at moderate magnitude, with moderate confidence given genuine uncertainty about the wage-versus-shareholder pass-through and the fiscal response.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/corporation-tax-statistics-2025/corporation-tax-statistics-commentary-2025",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9178/CBP-9178.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+        "publisher": "taxpolicy.org.uk",
+        "title": "taxpolicy.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/reform-uk-manifesto-reaction",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/analysis-of-the-dynamic-effects-of-corporation-tax-reductions",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/comment/straight-talking-on-tax-cuts/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0503,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are correct: stated claims from M, measurable baselines from gov.uk statistics, projections clearly labelled. The E17 quote is truncated but the claim accurately reflects the IFS point. E19 (TUC advocacy) is explicitly down-weighted in the rationale as required. The distributional logic (CT incidence concentrated in large profitable firms whose shareholders are wealthier) is a standard and well-evidenced economic point, not a lever-level judgement. The 'worsens' direction is supported by the weight of evidence; no false balance issue. No party-blind issues detected \u2014 rationale is effect-based throughout. Magnitude and time_horizon are consistent with the evidence and confidence level."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [
+        {
+          "claim": "The current main CT rate is 25% for companies with profits above \u00a3250,000, while small profits under \u00a350,000 attract only 19%.",
+          "evidence_id": "E2",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The IFS estimates the cost of cutting CT to 15% alone far exceeds the policy's own stated costing of \u00a318 billion, describing it as less than half of what official estimates suggest.",
+          "evidence_id": "E6",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The IFS cautions that previous UK CT cuts between 2010 and 2016 did not lead to revenue stability solely because they paid for themselves; other factors including base-broadening measures played a significant role.",
+          "evidence_id": "E22",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will free over 1.2 million Small and Medium Sized Businesses (SMEs) from Corporation Tax by lifting the minimum profit threshold to \u00a3100,000, and reduce the main Corporation Tax rate from 25% to 20%, then to 15% from Year 3.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Currently, the UK operates a tiered Corporation Tax system:\n*   A main rate of **25%** applies to companies with augmented profits exceeding \u00a3250,000",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://taxsummaries.pwc.com/united-kingdom/corporate/taxes-on-corporate-income",
+            "publisher": "taxsummaries.pwc.com",
+            "title": "pwc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://aspireapp.com/blog/uk-corporate-tax-rate",
+            "publisher": "aspireapp.com",
+            "title": "aspireapp.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rossmartin.co.uk/running-the-business/183-company-tax-rates-and-allowances",
+            "publisher": "rossmartin.co.uk",
+            "title": "rossmartin.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   A small profits rate of **19%** applies to companies with profits under \u00a350,000",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://taxsummaries.pwc.com/united-kingdom/corporate/taxes-on-corporate-income",
+            "publisher": "taxsummaries.pwc.com",
+            "title": "pwc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://aspireapp.com/blog/uk-corporate-tax-rate",
+            "publisher": "aspireapp.com",
+            "title": "aspireapp.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rossmartin.co.uk/running-the-business/183-company-tax-rates-and-allowances",
+            "publisher": "rossmartin.co.uk",
+            "title": "rossmartin.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   Marginal relief exists for companies with profits between \u00a350,000 and \u00a3250,000, creating a tapered rate between 19% and 25%",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://taxsummaries.pwc.com/united-kingdom/corporate/taxes-on-corporate-income",
+            "publisher": "taxsummaries.pwc.com",
+            "title": "pwc.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://aspireapp.com/blog/uk-corporate-tax-rate",
+            "publisher": "aspireapp.com",
+            "title": "aspireapp.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rossmartin.co.uk/running-the-business/183-company-tax-rates-and-allowances",
+            "publisher": "rossmartin.co.uk",
+            "title": "rossmartin.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The UK has approximately 5.69 million SMEs in 2025, constituting 99.85% of all private sector businesses",
+        "sources": [
+          {
+            "url": "https://leyton.com/uk/insights/articles/uk-sme-statistics/",
+            "publisher": "leyton.com",
+            "title": "leyton.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "A large proportion of companies, around 66% of those with tax liabilities, have liabilities under \u00a310,000, contributing only 4% of total Corporation Tax receipts",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/corporation-tax-statistics-2025/corporation-tax-statistics-commentary-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Rate Cuts:** The Institute for Fiscal Studies (IFS) reacted to Reform UK's proposal to cut the Corporation Tax rate from 25% to 15%, stating that Reform UK's manifesto costing of \u00a318 billion a year for *all* its business tax cuts is \"less than half of what official estimates suggest the long-run cost of just this cut in the corporation tax rate to 15% would be.\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/reform-uk-manifesto-reaction",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Tax Policy Associates more conservatively estimated that a cut from 25% to 20% would cost \u00a314.2 billion",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2024/06/17/reform_uk_manifesto_2024/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Approximately 1 million companies (66% of all companies with a tax liability) pay less than \u00a310,000 in Corporation Tax, collectively accounting for only 4% (\u00a33.3 billion) of total Corporation Tax liabilities in 2023-24",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/corporation-tax-statistics-2025/corporation-tax-statistics-commentary-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Corporation Tax raised \u00a379.7 billion in 2022/23, making it the fourth-largest contributor to government tax revenues",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9178/CBP-9178.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Previous corporation tax cuts between 2010 and 2016 were estimated by the IFS to reduce revenues by at least \u00a316.5 billion annually",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/BN206.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The cancellation of a planned increase in the main CT rate to 25% in 2022 was forecast to save companies \u00a318.7 billion per year by 2026/27",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-growth-plan-2022-factsheet-on-corporation-tax/corporation-tax-rise-cancellation-factsheet",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   Many SMEs already struggle with tax bills; a 2025 study found over 550,000 SMEs were struggling to pay tax bills, with Corporation Tax being a primary concern for 54% of them",
+        "sources": [
+          {
+            "url": "https://www.premiumcredit.com/news-and-events/more-than-550-000-smes-are-struggling-to-pay-tax-bills",
+            "publisher": "premiumcredit.com",
+            "title": "premiumcredit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "HMRC modelling from 2013, when CT rates were significantly cut (from 28% to 20%), suggested an increase in investment of 2.5-4.5% and GDP by 0.6-0.8% in the long term",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a7c1391ed915d210ade16dd/4069_CT_Dynamic_effects_paper_20130312_IW_v2.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/analysis-of-the-dynamic-effects-of-corporation-tax-reductions",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Historically, the UK's investment allowances have been \"unusually ungenerous\" compared to other developed nations, meaning that even with a low headline rate, the \"effective tax rates\" on investment can be middling",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtXAt1jpbO-K3NVroA2OS9X8n-0GiN_URB7H2sKNaSmJnmlIZnyTg3vUFCGEPnPH_dbLFrz2v1Ea7hCR3b2oHP_rgX4AlZo1D5L6mdPSEHXCmkD7B6Gf6N-U39KxX5yyWk746kPN4A3rW7MHBZK-nH6p8XUoCuWBYc",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2022-10/Green-Budget-2022-Corporation-tax-and-investment_0.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The OBR has also, at times, revised down its estimates of new investment generated by corporate tax reforms",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "HMRC modelling (2013) indicated that a reduction in Corporation Tax could lead to increased demand for labour, higher wages, and increased consumption",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a7c1391ed915d210ade16dd/4069_CT_Dynamic_effects_paper_20130312_IW_v2.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/analysis-of-the-dynamic-effects-of-corporation-tax-reductions",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The IFS noted that Reform UK's proposed spending increases, such as \u00a317 billion for the NHS, would \"not be nearly enough\" to meet ambitious commitments like eliminating waiting lists, given the scale of their proposed tax cuts",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/reform-uk-manifesto-reaction",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "For example, the top 10% of households are expected to gain an average of \u00a35,980 per year in disposable income from Reform UK's proposed income tax changes, while the bottom 10% would gain only \u00a3230",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/media-office/analysis-of-reforms-tax-plans",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "While this specific analysis focuses on income tax, the TUC has historically argued that corporation tax cuts disproportionately benefit large companies, creating an unfair competitive advantage over smaller ones",
+        "sources": [
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/corporate_tax_reform_and_competitiveness.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Revenue Costing:** Reform UK's own costing for its business tax cuts (\u00a318 billion a year) is significantly lower than what the IFS suggests for just the cut to 15% Corporation Tax rate alone",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/reform-uk-manifesto-reaction",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Dynamic Effects and Self-financing:** While HMRC modelling (2013) suggested that some revenue loss from CT cuts could be recovered through increased economic activity (between 45% and 60% in the long term)",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/analysis-of-the-dynamic-effects-of-corporation-tax-reductions",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": ", the IFS cautions that previous UK corporation tax cuts between 2010 and 2016 did not lead to a decline in revenues *solely* because they \"paid for themselves.\" Instead, other factors such as base-broadening measures and a recovery in financial sector profits played a significant role",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/BN206.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The OBR has also noted that past rate cuts were offset by \"progressively tighter restrictions on the scope of allowances and reliefs\"",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/corporation-tax-in-historical-and-international-context/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The IFS emphasizes that the UK's relatively ungenerous investment allowances mean the effective tax rate on investment may not be as low as the headline rate suggests, and policy instability can also deter long-term investment",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtXAt1jpbO-K3NVroA2OS9X8n-0GiN_URB7H2sKNaSmJnmlIZnyTg3vUFCGEPnPH_dbLFrz2v1Ea7hCR3b2oHP_rgX4AlZo1D5L6mdPSEHXCmkD7B6Gf6N-U39KxX5yyWk746kPN4A3rW7MHBZK-nH6p8XUoCuWBYc",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2022-10/Green-Budget-2022-Corporation-tax-and-investment_0.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The Resolution Foundation argues that simply cutting corporation tax is not a \"silver bullet\" for boosting growth and addressing issues like the cost of living crisis",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/comment/straight-talking-on-tax-cuts/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

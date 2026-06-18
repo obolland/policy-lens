@@ -1,0 +1,896 @@
+{
+  "policy_id": "con-42-raise-skilled-worker-and-family-visa",
+  "party": "Conservative",
+  "policy_title": "Raise Skilled Worker and Family Visa Income Thresholds with Inflation",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "mixed",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Automatically raising visa salary thresholds with inflation would protect some UK workers' pay by stopping employers from hiring cheaper overseas workers, but it also restricts the supply of workers in sectors like care, construction and hospitality where shortages already push down service quality and job conditions. The net effect on ordinary workers depends heavily on which sectors feel the squeeze most.",
+    "biggest_unknown": "Whether labour shortages in care, construction and hospitality caused by tighter thresholds would push up wages for UK workers or instead lead to service cuts and worse conditions for remaining staff.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would automatically raise the Skilled Worker visa salary threshold with inflation to stop migrants undercutting UK workers.",
+        "evidence_id": "M",
+        "quote": "automatically raise the Skilled Worker visa salary threshold and the Family visa minimum income requirement with inflation to ensure they do not undercut UK workers"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The minimum skill level for Skilled Worker visa eligibility was raised from A-level to degree-level (RQF Level 6) from July 2025, excluding around 180 job categories.",
+        "evidence_id": "E6",
+        "quote": "excludes approximately 180 job categories, including many roles in hospitality, construction, and some technician positions"
+      },
+      {
+        "tier": "projected",
+        "claim": "NHS Employers noted that maintaining lower thresholds for healthcare support workers could ease recruitment difficulties.",
+        "evidence_id": "E18",
+        "quote": "NHS Employers noted that maintaining lower thresholds for healthcare support workers on the Immigration Salary List could ease recruitment difficulties"
+      },
+      {
+        "tier": "projected",
+        "claim": "Threshold increases have already had a notable impact on some businesses, including major UK employers rescinding job offers to overseas graduates.",
+        "evidence_id": "E14",
+        "quote": "increases have already had a \"notable impact on some businesses,\" reportedly leading to major UK employers rescinding job offers to overseas graduates"
+      }
+    ],
+    "rationale": "The policy has two competing effects on O4. On the upside, indexing visa salary thresholds to inflation prevents real-terms erosion: if the threshold stagnates, employers can hire overseas workers at wages that drift below rising UK median pay, putting downward pressure on domestic wages in those roles. Keeping thresholds pegged to inflation preserves the floor. This is the stated rationale, and it is coherent for sectors where migrant and domestic workers genuinely compete on wage-sensitive terms. On the downside, the evidence shows that aggressive thresholds already in place have produced a 90% collapse in care-sector work visas and exclusion of roughly 180 job categories including construction and hospitality. These are sectors with documented domestic shortages. When labour is scarce and thresholds prevent recruitment, employers face a choice: raise wages (good for O4) or cut services, reduce hours, or exit the market (bad for remaining workers' conditions and job security). The MAC's own modelling suggests the current calibration \u2014 pushing going rates to the 50th percentile \u2014 may be tighter than optimal for fiscal and labour-market outcomes, and recommends a lower occupation-specific floor. The evidence therefore supports both a genuine protective effect for workers in directly competing roles and a real risk of labour-market disruption in shortage sectors. Both effects are evidenced; hence 'mixed'. The magnitude is moderate because the affected sectors (social care, hospitality, construction) are large employers of lower-paid UK workers, but exemptions for health and education workers limit the worst spillovers.",
+    "sources": [
+      {
+        "quote": "Going forward, we will raise the Skilled Worker threshold and Family income requirement with inflation automatically to make sure they don\u2019t undercut UK workers.",
+        "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+        "publisher": "Conservative and Unionist Party"
+      },
+      {
+        "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+        "publisher": "assessnow.co.uk",
+        "title": "assessnow.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.morganlewis.com/pubs/2025/07/uk-to-raise-eligibility-requirements-and-salaries-for-sponsored-workers",
+        "publisher": "morganlewis.com",
+        "title": "morganlewis.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.sableinternational.com/blog/the-uk-skilled-worker-visa-salary-threshold-increase-explained",
+        "publisher": "sableinternational.com",
+        "title": "sableinternational.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nhsemployers.org/news/health-and-care-worker-visa-salary-threshold",
+        "publisher": "nhsemployers.org",
+        "title": "nhsemployers.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.mishcon.com/news/key-immigration-takeaways-from-conservative-manifesto",
+        "publisher": "mishcon.com",
+        "title": "mishcon.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0427,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are adequately supported by their quoted evidence. The stated claim correctly reflects the policy text. The measurable claim on 180 job categories is a minor concern \u2014 the quote from E6 does not explicitly mention RQF Level 6 or July 2025 (those details come from E5), but the 180-job-category exclusion is directly quoted and the broader context is not materially overstated. The two projected claims are appropriately tiered and the quotes entail the claims. The mixed direction is genuinely supported by competing evidenced claims: protective wage-floor effect (stated rationale, coherent) vs. labour-market disruption in shortage sectors (E14, E17 referenced in rationale). The rationale references E17 (90% care sector drop) in text but it does not appear as a formal claim \u2014 this is a gap but not blocking since it is cited in sources and used illustratively. No tier blurring, no party bias, no false balance \u2014 both sides have real evidence behind them. Magnitude 'moderate' and 'this-parliament' horizon are plausible given the scale of affected sectors."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "The general Skilled Worker minimum salary threshold already rose from \u00a326,200 to \u00a338,700 in April 2024, then to \u00a341,700 in July 2025.",
+          "evidence_id": "E2",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Work visas granted to adult social care staff fell by 90% in 2024 compared to 2023 under similar threshold increases.",
+          "evidence_id": "E17",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Occupation-specific going rates have already shifted from the 25th to the 50th percentile of UK earnings.",
+          "evidence_id": "E4",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "A MAC review suggested that reducing the occupation-specific threshold back to the 25th percentile while holding the general threshold at ~\u00a341,700 could generate \u00a3660 million net present value in lifetime fiscal benefits per annual cohort of Skilled Worker migrants.",
+          "evidence_id": "E30",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will automatically raise the Skilled Worker visa salary threshold and the Family visa minimum income requirement with inflation to ensure they do not undercut UK workers.",
+        "sources": [
+          {
+            "quote": "Going forward, we will raise the Skilled Worker threshold and Family income requirement with inflation automatically to make sure they don\u2019t undercut UK workers.",
+            "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+            "publisher": "Conservative and Unionist Party"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The UK policy to automatically raise Skilled Worker visa salary thresholds and Family visa minimum income requirements with inflation is a key part of the Conservative Party's strategy to reduce net migration and ensure migrants do not undercut UK workers",
+        "sources": [
+          {
+            "url": "https://www.mishcon.com/news/key-immigration-takeaways-from-conservative-manifesto",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.burges-salmon.com/articles/102j9sd/manifesto-and-private-wealth-immigration-the-conservatives/",
+            "publisher": "burges-salmon.com",
+            "title": "burges-salmon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.caabu.org/advocacy/conservative-party-manifesto-2024",
+            "publisher": "caabu.org",
+            "title": "caabu.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Skilled Worker Visa:**\n*   **Current Thresholds:** The general minimum salary threshold for a Skilled Worker visa increased from \u00a326,200 to \u00a338,700 in April 2024, and then to **\u00a341,700 in July 2025**",
+        "sources": [
+          {
+            "url": "https://www.mayerbrown.com/en/insights/publications/2024/04/raising-the-bar-new-uk-immigration-rules-increase-salary-thresholds-for-sponsored-workers",
+            "publisher": "mayerbrown.com",
+            "title": "mayerbrown.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.y-axis.co.uk/blog/uk-skilled-worker-visa-salary-threshold/",
+            "publisher": "y-axis.co.uk",
+            "title": "y-axis.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.morganlewis.com/pubs/2025/07/uk-to-raise-eligibility-requirements-and-salaries-for-sponsored-workers",
+            "publisher": "morganlewis.com",
+            "title": "morganlewis.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iasservices.org.uk/major-changes-to-skilled-worker-visas-coming-this-month/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSzASN4Z4n83l6QBfUZC2pXgKIH-B9rsCy4LOAQNYFWSLtRqhEvy-f5ZdbZH0WzB1_fHiSl7wgqN1pVRWAxDPBavvVPrIKW3eVYaIhoq1S0k3mPn4vYqexjtov_wEGkGSTlZnsfA-CxJSxXKSZkKeKHiJIfezA081RLg7Qf3YAtbhyuuxPOo2sCJo0Km7XY8aTmcXopYF438Sp5bDM8gTJIw2I9zh8MK0VaO67UC0W",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "eversheds-sutherland.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cromwellwilkes.co.uk/skilled-worker-visa-salary-update-employers-2025/",
+            "publisher": "cromwellwilkes.co.uk",
+            "title": "cromwellwilkes.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sableinternational.com/blog/the-uk-skilled-worker-visa-salary-threshold-increase-explained",
+            "publisher": "sableinternational.com",
+            "title": "sableinternational.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bararassociates.com/skilled-worker-visa-salary-thresholds-in-2025-2026/",
+            "publisher": "bararassociates.com",
+            "title": "bararassociates.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This represents a 59% rise in under 18 months",
+        "sources": [
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Going Rates:** Occupation-specific \"going rates\" for salaries have also shifted from the 25th percentile to the 50th percentile of UK earnings data",
+        "sources": [
+          {
+            "url": "https://www.mayerbrown.com/en/insights/publications/2024/04/raising-the-bar-new-uk-immigration-rules-increase-salary-thresholds-for-sponsored-workers",
+            "publisher": "mayerbrown.com",
+            "title": "mayerbrown.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Skill Level:** The minimum required skill level for eligible roles has been raised from RQF Level 3 (A-level equivalent) to **RQF Level 6 (degree-level)** from July 22, 2025",
+        "sources": [
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.morganlewis.com/pubs/2025/07/uk-to-raise-eligibility-requirements-and-salaries-for-sponsored-workers",
+            "publisher": "morganlewis.com",
+            "title": "morganlewis.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSzASN4Z4n83l6QBfUZC2pXgKIH-B9rsCy4LOAQNYFWSLtRqhEvy-f5ZdbZH0WzB1_fHiSl7wgqN1pVRWAxDPBavvVPrIKW3eVYaIhoq1S0k3mPn4vYqexjtov_wEGkGSTlZnsfA-CxJSxXKSZkKeKHiJIfezA081RLg7Qf3YAtbhyuuxPOo2sCJo0Km7XY8aTmcXopYF438Sp5bDM8gTJIw2I9zh8MK0VaO67UC0W",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "eversheds-sutherland.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sableinternational.com/blog/the-uk-skilled-worker-visa-salary-threshold-increase-explained",
+            "publisher": "sableinternational.com",
+            "title": "sableinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This change excludes approximately 180 job categories, including many roles in hospitality, construction, and some technician positions",
+        "sources": [
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.morganlewis.com/pubs/2025/07/uk-to-raise-eligibility-requirements-and-salaries-for-sponsored-workers",
+            "publisher": "morganlewis.com",
+            "title": "morganlewis.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sableinternational.com/blog/the-uk-skilled-worker-visa-salary-threshold-increase-explained",
+            "publisher": "sableinternational.com",
+            "title": "sableinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Exemptions:** Lower salary thresholds apply to certain categories, including Health and Care Worker visas (minimum \u00a325,000 or \u00a331,300 for general roles with discounts), education workers on national pay scales, and \"new entrants\" (e.g., graduates under 26)",
+        "sources": [
+          {
+            "url": "https://www.y-axis.co.uk/blog/uk-skilled-worker-visa-salary-threshold/",
+            "publisher": "y-axis.co.uk",
+            "title": "y-axis.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/helpful-new-house-commons-library-briefing-changes-legal-migration-rules-family-and-work-visas",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iasservices.org.uk/major-changes-to-skilled-worker-visas-coming-this-month/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sableinternational.com/blog/the-uk-skilled-worker-visa-salary-threshold-increase-explained",
+            "publisher": "sableinternational.com",
+            "title": "sableinternational.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bararassociates.com/skilled-worker-visa-salary-thresholds-in-2025-2026/",
+            "publisher": "bararassociates.com",
+            "title": "bararassociates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/health-care-worker-visa/different-salary-requirements",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/how-will-new-salary-thresholds-affect-uk-migration/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.rovelegal.com/insights/health-and-care-worker-visa-changes-in-2025-complete-guide/",
+            "publisher": "rovelegal.com",
+            "title": "rovelegal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Transitional arrangements exist for those whose Certificates of Sponsorship were issued before April 4, 2024",
+        "sources": [
+          {
+            "url": "https://www.mayerbrown.com/en/insights/publications/2024/04/raising-the-bar-new-uk-immigration-rules-increase-salary-thresholds-for-sponsored-workers",
+            "publisher": "mayerbrown.com",
+            "title": "mayerbrown.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://staffimmigration.admin.ox.ac.uk/article/skilled-worker-changes-july-2025",
+            "publisher": "staffimmigration.admin.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://iasservices.org.uk/major-changes-to-skilled-worker-visas-coming-this-month/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSzASN4Z4n83l6QBfUZC2pXgKIH-B9rsCy4LOAQNYFWSLtRqhEvy-f5ZdbZH0WzB1_fHiSl7wgqN1pVRWAxDPBavvVPrIKW3eVYaIhoq1S0k3mPn4vYqexjtov_wEGkGSTlZnsfA-CxJSxXKSZkKeKHiJIfezA081RLg7Qf3YAtbhyuuxPOo2sCJo0Km7XY8aTmcXopYF438Sp5bDM8gTJIw2I9zh8MK0VaO67UC0W",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "eversheds-sutherland.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cromwellwilkes.co.uk/skilled-worker-visa-salary-update-employers-2025/",
+            "publisher": "cromwellwilkes.co.uk",
+            "title": "cromwellwilkes.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bararassociates.com/skilled-worker-visa-salary-thresholds-in-2025-2026/",
+            "publisher": "bararassociates.com",
+            "title": "bararassociates.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**Family Visa (Partner Visa):**\n*   **Current Threshold:** The minimum income requirement for family visas (partner visas) increased from \u00a318,600 to **\u00a329,000 on April 11, 2024**",
+        "sources": [
+          {
+            "url": "https://www.mishcon.com/news/key-immigration-takeaways-from-conservative-manifesto",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/family-fortunes-the-uks-new-income-requirement-for-partner-visas/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/uk-election-2024-immigration-policy-tracker/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://immigrationbarrister.co.uk/family-visa-income-requirement-analysis-of-the-parliamentary-debate/",
+            "publisher": "immigrationbarrister.co.uk",
+            "title": "immigrationbarrister.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/house-commons-library-publishes-updated-report-financial-minimum-income-requirement-partner-or",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bararassociates.com/family-visa-minimum-income-requirement-in-2025-2026/",
+            "publisher": "bararassociates.com",
+            "title": "bararassociates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vanessaganguin.com/news/2024-uk-immigration-changes-for-family-visas/",
+            "publisher": "vanessaganguin.com",
+            "title": "vanessaganguin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iasservices.org.uk/the-spouse-visa-minimum-income-threshold-increase-one-year-on/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ashnorton-solicitors.com/changes-in-income-requirements-for-uk-family-visa-what-you-need-to-know/",
+            "publisher": "ashnorton-solicitors.com",
+            "title": "ashnorton-solicitors.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Planned Increases (Paused):** The previous Conservative government had announced further phased increases to \u00a334,500 and then to **\u00a338,700 by early 2025**",
+        "sources": [
+          {
+            "url": "https://www.mishcon.com/news/key-immigration-takeaways-from-conservative-manifesto",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/family-fortunes-the-uks-new-income-requirement-for-partner-visas/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://bararassociates.com/family-visa-minimum-income-requirement-in-2025-2026/",
+            "publisher": "bararassociates.com",
+            "title": "bararassociates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vanessaganguin.com/news/2024-uk-immigration-changes-for-family-visas/",
+            "publisher": "vanessaganguin.com",
+            "title": "vanessaganguin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ashnorton-solicitors.com/changes-in-income-requirements-for-uk-family-visa-what-you-need-to-know/",
+            "publisher": "ashnorton-solicitors.com",
+            "title": "ashnorton-solicitors.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "However, following the election of the Labour government in July 2024, these planned further increases were **paused at \u00a329,000**, and the Migration Advisory Committee (MAC) was commissioned to review the requirement",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/family-fortunes-the-uks-new-income-requirement-for-partner-visas/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://immigrationbarrister.co.uk/family-visa-income-requirement-analysis-of-the-parliamentary-debate/",
+            "publisher": "immigrationbarrister.co.uk",
+            "title": "immigrationbarrister.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bararassociates.com/family-visa-minimum-income-requirement-in-2025-2026/",
+            "publisher": "bararassociates.com",
+            "title": "bararassociates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iasservices.org.uk/the-spouse-visa-minimum-income-threshold-increase-one-year-on/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/family-visa-financial-requirements-review/family-visa-financial-requirements-review-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.otssolicitors.co.uk/news/uk-family-visa-review-of-the-29000-minimum-income-financial-requirement/",
+            "publisher": "otssolicitors.co.uk",
+            "title": "otssolicitors.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Around 140,000 of this reduction is attributed to student dependant rules",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/helpful-new-house-commons-library-briefing-changes-legal-migration-rules-family-and-work-visas",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/box/net-migration-forecast-and-its-impact-on-the-economy/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   The Office for Budget Responsibility (OBR) projects that net migration will fall to **315,000 from 2027-28**",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/net-migration-forecast-and-its-impact-on-the-economy/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Economic Impact:**\n*   **Impact on Businesses and Recruitment:** The increases have already had a \"notable impact on some businesses,\" reportedly leading to major UK employers rescinding job offers to overseas graduates",
+        "sources": [
+          {
+            "url": "https://www.mishcon.com/news/key-immigration-takeaways-from-conservative-manifesto",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The higher skill level requirement (RQF Level 6) means many previously eligible lower-skilled roles are now excluded, impacting sectors like social care, construction, and hospitality",
+        "sources": [
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.morganlewis.com/pubs/2025/07/uk-to-raise-eligibility-requirements-and-salaries-for-sponsored-workers",
+            "publisher": "morganlewis.com",
+            "title": "morganlewis.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sableinternational.com/blog/the-uk-skilled-worker-visa-salary-threshold-increase-explained",
+            "publisher": "sableinternational.com",
+            "title": "sableinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The ability for care workers to bring dependants has been ended",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm15x8VLgdtC8bI0F33BcXs5l7clypDjSx4P3z3jag6qkWlOQNmQNA7gUB1VlB4SXD_lhz5KbC2VKzLBGvuCqrLNdsW6wHQ19oLGOukx4P7hv64d5ceIAUzUQQ2JG-4GxDBtjRAL4MuTGFLaVdGsC9M8kQzS0zmSQrkztfq8vU0idyuEC13Tdpf9RJOVmL1iMyYowyvCB1fvndA7SG5eqJ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lisaslaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/helpful-new-house-commons-library-briefing-changes-legal-migration-rules-family-and-work-visas",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The Health Foundation reported a **90% reduction** in work visas granted to adult social care staff in 2024 compared to 2023, highlighting the sector's reliance on migrant workers",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx7vdA31GvCtowfB7xyXEm4hP7-BuuTZ1WJp_Ozp2qAxGqu-AFCFVO-qKSCG7PMcDDnF-1DHRBDuejF3WLUv4qynrkQ0RkSQhpJPm6LdJtCJ0MnwTVu6P5dsSZr_NhHJazlZE2PH1C8tJ0aCFrTyOkEayTzevuCPP4manthlrpdFB08A9BTvsPIins4tepY3tX5dziVOaRRiAoZ_ik1_WZNS5pUGkK_azpa2wQng==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "NHS Employers noted that maintaining lower thresholds for healthcare support workers on the Immigration Salary List could ease recruitment difficulties",
+        "sources": [
+          {
+            "url": "https://www.nhsemployers.org/news/health-and-care-worker-visa-salary-threshold",
+            "publisher": "nhsemployers.org",
+            "title": "nhsemployers.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "This figure was projected to rise to **70%** if the threshold reached \u00a338,700",
+        "sources": [
+          {
+            "url": "https://immigrationbarrister.co.uk/family-visa-income-requirement-analysis-of-the-parliamentary-debate/",
+            "publisher": "immigrationbarrister.co.uk",
+            "title": "immigrationbarrister.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assessnow.co.uk/blog/skilled-worker-salary-threshold-what-it-means",
+            "publisher": "assessnow.co.uk",
+            "title": "assessnow.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vanessaganguin.com/news/2024-uk-immigration-changes-for-family-visas/",
+            "publisher": "vanessaganguin.com",
+            "title": "vanessaganguin.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This means a substantial proportion of British citizens cannot sponsor a foreign spouse",
+        "sources": [
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Family Separation:** Critics argue these changes will have \"devastating effects on people exercising their rights to family life,\" leading to family separation and disproportionately affecting lower earners, women, young people, and those outside higher-wage regions like the South East",
+        "sources": [
+          {
+            "url": "https://immigrationbarrister.co.uk/family-visa-income-requirement-analysis-of-the-parliamentary-debate/",
+            "publisher": "immigrationbarrister.co.uk",
+            "title": "immigrationbarrister.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://righttoremain.org.uk/an-immigration-system-for-the-rich-increases-to-the-minimum-income-requirements-for-spousal-visas/",
+            "publisher": "righttoremain.org.uk",
+            "title": "righttoremain.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **\"Panic Applications\":** The initial announcement of planned increases led to a surge in \"panic applications\" for family visas towards the end of 2023",
+        "sources": [
+          {
+            "url": "https://iasservices.org.uk/the-spouse-visa-minimum-income-threshold-increase-one-year-on/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/family-visa-financial-requirements-review/family-visa-financial-requirements-review-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Projected Reduction in Entrants:** The Home Office expects the changes to the spouse visa rules to reduce the number of people qualifying via the family route by between **10,000 and 30,000**",
+        "sources": [
+          {
+            "url": "https://reunitefamiliesuk.co.uk/wp-content/uploads/2024/02/Increase-to-the-Minimum-Income-Requirement-Briefing-Updated-February-2024-FINAL.pdf",
+            "publisher": "reunitefamiliesuk.co.uk",
+            "title": "reunitefamiliesuk.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Cost of Visas:**\n*   The House of Commons Library highlights that the UK's policy of setting immigration fees above processing costs results in significantly higher upfront immigration costs compared to many other developed countries",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/updated-research-briefing-immigration-fees-published-house-commons-library",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9859/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   The Immigration Health Surcharge (IHS) increased by **66% to \u00a31,035 per year** in February 2024, and other visa application fees have also risen significantly (e.g., work and visitor visas by 15%, family visas by 20%, student visas by 35%)",
+        "sources": [
+          {
+            "url": "https://www.mishcon.com/news/key-immigration-takeaways-from-conservative-manifesto",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/updated-research-briefing-immigration-fees-published-house-commons-library",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9859/CBP-9859.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9859/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://iasservices.org.uk/major-changes-to-skilled-worker-visas-coming-this-month/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Labour government paused the Conservative Party's planned increases to \u00a338,700 and sought a review from the Migration Advisory Committee (MAC)",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/family-fortunes-the-uks-new-income-requirement-for-partner-visas/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://bararassociates.com/family-visa-minimum-income-requirement-in-2025-2026/",
+            "publisher": "bararassociates.com",
+            "title": "bararassociates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iasservices.org.uk/the-spouse-visa-minimum-income-threshold-increase-one-year-on/",
+            "publisher": "iasservices.org.uk",
+            "title": "iasservices.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/family-visa-financial-requirements-review/family-visa-financial-requirements-review-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.otssolicitors.co.uk/news/uk-family-visa-review-of-the-29000-minimum-income-financial-requirement/",
+            "publisher": "otssolicitors.co.uk",
+            "title": "otssolicitors.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The MAC's 2025 review concluded that the current \u00a329,000 is high by international standards and suggested a more reasonable range would be around **\u00a323,000\u2013\u00a325,000** for most partners",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/family-fortunes-the-uks-new-income-requirement-for-partner-visas/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/family-visa-financial-requirements-review/family-visa-financial-requirements-review-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.otssolicitors.co.uk/news/uk-family-visa-review-of-the-29000-minimum-income-financial-requirement/",
+            "publisher": "otssolicitors.co.uk",
+            "title": "otssolicitors.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Many MPs from Labour, Green, Liberal Democrat, and Scottish Nationalist parties also criticized the increase to \u00a338,700",
+        "sources": [
+          {
+            "url": "https://immigrationbarrister.co.uk/family-visa-income-requirement-analysis-of-the-parliamentary-debate/",
+            "publisher": "immigrationbarrister.co.uk",
+            "title": "immigrationbarrister.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Economic Rationale for Skilled Worker Thresholds:** While the Conservative Party's stated aim for Skilled Worker thresholds is to prevent undercutting UK workers and align with median earnings",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/how-will-new-salary-thresholds-affect-uk-migration/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": ", the MAC's 2025 review on Skilled Worker visas suggests that *reducing* the occupation-specific threshold to the 25th percentile while keeping the general threshold at around \u00a341,700 (uprated annually) could bring lifetime fiscal benefits worth **\u00a3660 million** in net present value terms for each annual cohort of Skilled Worker migrants",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/review-of-salary-requirements/review-of-salary-requirements-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

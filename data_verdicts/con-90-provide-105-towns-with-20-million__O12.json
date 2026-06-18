@@ -1,0 +1,605 @@
+{
+  "policy_id": "con-90-provide-105-towns-with-20-million",
+  "party": "Conservative",
+  "policy_title": "Provide 105 Towns with \u00a320 Million Endowment Funds",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "The policy commits around \u00a32.1 billion of public spending over ten years; the 30 additional towns are said to be funded by a tax-avoidance crackdown whose yield is uncertain, leaving the net fiscal position unclear. At this scale the effect on the overall debt path is small, but spending reliant on unverified revenue projections represents a modest fiscal risk.",
+    "biggest_unknown": "Whether the projected tax-avoidance revenues that are supposed to fund the additional 30 towns actually materialise \u2014 if they fall short, the spending is unfunded.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits \u00a320 million per town to 105 towns, totalling \u00a32.1 billion of public spending.",
+        "evidence_id": "M",
+        "quote": "provide 105 towns across the UK with a \u00a320 million endowment fund"
+      },
+      {
+        "tier": "stated",
+        "claim": "The funding is intended to be spent over a ten-year period.",
+        "evidence_id": "E1",
+        "quote": "This funding is intended to be spent over a 10-year period"
+      },
+      {
+        "tier": "projected",
+        "claim": "The additional 30 towns are said to be funded by a tax-avoidance crackdown projected to raise \u00a36 billion a year, with other commitments also drawing from this same source.",
+        "evidence_id": "E24",
+        "quote": "the additional 30 towns would be funded by a crackdown on tax avoidance, projected to raise \u00a36 billion a year, with other commitments also drawing from this"
+      }
+    ],
+    "rationale": "At 105 towns \u00d7 \u00a320m, the total commitment is approximately \u00a32.1 billion spread over a decade \u2014 roughly \u00a3210m per year. In the context of overall public expenditure this is a modest sum, so even if entirely unfunded it would move the debt path only marginally. However, the extent to which this spending is fiscally neutral depends entirely on whether the tax-avoidance revenues cited as the funding source materialise. The evidence notes that these revenues are projected \u2014 not banked \u2014 and that multiple other commitments draw from the same pot. Tax-avoidance yield projections are notoriously uncertain and historically over-estimated; the OBR's role in scrutinising such costings is noted but no independent OBR assessment of this specific policy is available in the evidence. The spending has some investment characteristics (regeneration, housing, transport) that could in principle yield future economic returns, but the evidence provides no quantified estimate of such returns. In the absence of a credible, independently verified funding source, the policy represents a modest unfunded spending commitment, which on balance slightly worsens the near- and long-term fiscal position. The magnitude is minor because the total sum, while real, is small relative to overall public finances. Confidence is low because the key fiscal question \u2014 whether revenues cover the cost \u2014 cannot be resolved from the provided evidence.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.greaterbirminghamchambers.com/resource/what-does-the-conservative-party-s-manifesto-mean-for-businesses.html",
+        "publisher": "greaterbirminghamchambers.com",
+        "title": "greaterbirminghamchambers.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+        "publisher": "bournemouthecho.co.uk",
+        "title": "bournemouthecho.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.lgcplus.com/services/regeneration-and-planning/government-unveils-1-1bn-funding-for-55-towns-02-10-2023/",
+        "publisher": "lgcplus.com",
+        "title": "lgcplus.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.standard.co.uk/news/politics/prime-minister-michael-gove-labour-scotland-wales-b1110541.html",
+        "publisher": "standard.co.uk",
+        "title": "standard.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/politics/article/2024/may/31/tories-pledge-20m-each-of-levelling-up-funds-to-30-more-towns",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0373,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is internally consistent. The \u00a32.1bn arithmetic (105\u00d7\u00a320m) follows directly from the stated policy text. The ten-year spend profile is correctly tiered as 'stated' using E1. The funding-source uncertainty is correctly tiered as 'projected' using E24. The rationale acknowledges the modest scale, does not attribute motive, applies symmetric scrutiny, and does not lean on advocacy sources for magnitude. Direction 'worsens' at 'minor' magnitude with 'low' confidence is proportionate given the unverified revenue offset. No tier-blurring, no party-identity leakage, no false balance issue (no counter-claims exist in the evidence to warrant 'mixed'). One minor observation: E1 is sourced partly from greaterbirminghamchambers.com (advocacy/media) but is corroborated by gov.uk and multiple outlets, so not sole-advocacy reliance. No blocking issues found."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "The OBR's role includes scrutinising government policy costings and their impact on public debt, but no OBR costing of this specific policy is provided in the evidence.",
+          "evidence_id": "E25",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will provide 105 towns across the UK with a \u00a320 million endowment fund for local people to invest in their town's future, including reviving high streets or bringing new housing to town centres.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This funding is intended to be spent over a 10-year period",
+        "sources": [
+          {
+            "url": "https://www.greaterbirminghamchambers.com/resource/what-does-the-conservative-party-s-manifesto-mean-for-businesses.html",
+            "publisher": "greaterbirminghamchambers.com",
+            "title": "greaterbirminghamchambers.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lgcplus.com/services/regeneration-and-planning/government-unveils-1-1bn-funding-for-55-towns-02-10-2023/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.standard.co.uk/news/politics/prime-minister-michael-gove-labour-scotland-wales-b1110541.html",
+            "publisher": "standard.co.uk",
+            "title": "standard.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/31/tories-pledge-20m-each-of-levelling-up-funds-to-30-more-towns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Each participating town is expected to establish a \"Town Board,\" comprising community leaders, employers, local authorities, and the local MP, to develop and implement a long-term plan for their town",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lgcplus.com/services/regeneration-and-planning/government-unveils-1-1bn-funding-for-55-towns-02-10-2023/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Conservative Party's 2024 General Election manifesto then pledged to add another 30 towns, bringing the total to over 100, and specifically mentioned 105 towns in their commitments",
+        "sources": [
+          {
+            "url": "https://www.greaterbirminghamchambers.com/resource/what-does-the-conservative-party-s-manifesto-mean-for-businesses.html",
+            "publisher": "greaterbirminghamchambers.com",
+            "title": "greaterbirminghamchambers.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/election-2024-conservatives-manifesto-tax",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9460/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lgcplus.com/services/regeneration-and-planning/government-unveils-1-1bn-funding-for-55-towns-02-10-2023/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.standard.co.uk/news/politics/prime-minister-michael-gove-labour-scotland-wales-b1110541.html",
+            "publisher": "standard.co.uk",
+            "title": "standard.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/31/tories-pledge-20m-each-of-levelling-up-funds-to-30-more-towns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The stated aims of the policy include:\n*   **High Street Revival:** Regenerating local high streets, repurposing empty shops for housing, creating green spaces, and improving street aesthetics",
+        "sources": [
+          {
+            "url": "https://www.greaterbirminghamchambers.com/resource/what-does-the-conservative-party-s-manifesto-mean-for-businesses.html",
+            "publisher": "greaterbirminghamchambers.com",
+            "title": "greaterbirminghamchambers.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lgcplus.com/services/regeneration-and-planning/government-unveils-1-1bn-funding-for-55-towns-02-10-2023/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **New Housing:** Bringing new housing to town centres",
+        "sources": [
+          {
+            "url": "https://www.greaterbirminghamchambers.com/resource/what-does-the-conservative-party-s-manifesto-mean-for-businesses.html",
+            "publisher": "greaterbirminghamchambers.com",
+            "title": "greaterbirminghamchambers.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Tackling Anti-Social Behaviour:** Using funds to improve public safety and address anti-social behaviour",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lgcplus.com/services/regeneration-and-planning/government-unveils-1-1bn-funding-for-55-towns-02-10-2023/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.standard.co.uk/news/politics/prime-minister-michael-gove-labour-scotland-wales-b1110541.html",
+            "publisher": "standard.co.uk",
+            "title": "standard.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Improved Transport and Connectivity:** Enhancing transport links and connections to make travel easier for residents and increase visitor numbers",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lgcplus.com/services/regeneration-and-planning/government-unveils-1-1bn-funding-for-55-towns-02-10-2023/",
+            "publisher": "lgcplus.com",
+            "title": "lgcplus.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Economic Growth:** Boosting visitor numbers and stimulating local economies",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.standard.co.uk/news/politics/prime-minister-michael-gove-labour-scotland-wales-b1110541.html",
+            "publisher": "standard.co.uk",
+            "title": "standard.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Local Control:** Empowering local people through Town Boards to make long-term decisions that reflect local priorities",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "They note that the \"Long-Term Plan for Towns\" was announced in October 2023 for 55 towns, extended to 75 in March 2024, and reformed into the \"Plan for Neighbourhoods\" in March 2025",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9460/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Concerns were raised regarding the transparency of the selection process for the 2019 Towns Fund, with suggestions that selections might have been politically motivated",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9460/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/work/478/selecting-towns-for-the-towns-fund/publications/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Their reports point to \"arbitrary funding allocations,\" \"short-term financial settlements,\" \"limited revenue-raising powers,\" \"weak financial incentives,\" and \"confused accountability\" within the current system",
+        "sources": [
+          {
+            "url": "https://www.publicsectorexecutive.com/articles/transforming-local-government-funding-ifs-report-highlights-key-issues-and-innovative",
+            "publisher": "publicsectorexecutive.com",
+            "title": "publicsectorexecutive.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "They have noted that cuts to some council services are likely even with significant council tax increases, especially in more deprived areas, underscoring the broader financial pressures on local authorities",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/economic-fiscal-and-funding-outlook-1",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Office for Budget Responsibility (OBR):** The OBR provides independent economic forecasts and analysis of the UK's public finances, assessing government performance against fiscal targets and scrutinizing policy costings",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/organisations/office-for-budget-responsibility",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Office_for_Budget_Responsibility",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Resolution Foundation notes that having independent fiscal institutions like the OBR helps reduce government borrowing costs, with estimates suggesting savings of \u00a337-55 billion a year in cash terms at current debt levels for the UK",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-obr-15-years-on/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Resolution Foundation:** This think tank focuses on improving living standards for low-to-middle income families and has undertaken extensive research on economic policy and social investment",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2022/06/Resolution-Foundation_Annual-Report_20.21_signed.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Resolution_Foundation",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/about-us/mission/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They have explored the concept of \"catalytic funding providers,\" including philanthropic organizations and endowments, in attracting private sector investment for sustainable development",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2023/10/Finance-for-the-future.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Their work on the \"Economy 2030 Inquiry\" aims to set out a new economic strategy for the UK, and this policy could be seen as one component of such a strategy",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/about-us/mission/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "They spend around \u00a340 million per year on improving health and care",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkb-8-0-NVhzYkQ9wZ3CM1YFm_FjQHVqgM0_Jd_Qu_QCI-BqutKoO3q6zrxSFPtEZ0CT0pITLeshfwlVf8z7H4jJMOrKJgBvpEUQb_TH6cLd_Lj4q0gGW_WPXePmWt_Bp9r64wg72BPjexFfgME33-38EJKs_OoYA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Local Control:** The policy emphasizes local control through Town Boards",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/prime-minister-puts-local-people-in-control-of-more-than-1-billion-with-long-term-plan-for-left-behind-towns",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bournemouthecho.co.uk/news/national/uk-today/23825587.rishi-sunak-unveils-list-55-towns-will-receive-20m/",
+            "publisher": "bournemouthecho.co.uk",
+            "title": "bournemouthecho.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "However, previous government initiatives, such as the 2019 Towns Fund, faced criticism regarding the transparency of the selection process and allegations of political motivation",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/478/selecting-towns-for-the-towns-fund/publications/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The IFS's ongoing analysis of pressures on local government funding suggests a broader need for reform beyond \"ad hoc bolt-ons\"",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/economic-fiscal-and-funding-outlook-1",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.publicsectorexecutive.com/articles/transforming-local-government-funding-ifs-report-highlights-key-issues-and-innovative",
+            "publisher": "publicsectorexecutive.com",
+            "title": "publicsectorexecutive.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Sustainability and Long-Term Impact:** While framed as an \"endowment-style fund,\" the \u00a320 million is a fixed sum disbursed over a decade, rather than a permanent endowment generating annual income like the Health Foundation's model",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkb-8-0-NVhzYkQ9wZ3CM1YFm_FjQHVqgM0_Jd_Qu_QCI-BqutKoO3q6zrxSFPtEZ0CT0pITLeshfwlVf8z7H4jJMOrKJgBvpEUQb_TH6cLd_Lj4q0gGW_WPXePmWt_Bp9r64wg72BPjexFfgME33-38EJKs_OoYA=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Opportunity Cost and Broader Fiscal Context:** The Conservative Party states the additional 30 towns would be funded by a crackdown on tax avoidance, projected to raise \u00a36 billion a year, with other commitments also drawing from this",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/31/tories-pledge-20m-each-of-levelling-up-funds-to-30-more-towns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The OBR's role includes scrutinizing government policy costings and their impact on public debt",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Office_for_Budget_Responsibility",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

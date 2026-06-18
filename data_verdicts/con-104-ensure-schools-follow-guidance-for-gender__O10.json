@@ -1,0 +1,803 @@
+{
+  "policy_id": "con-104-ensure-schools-follow-guidance-for-gender",
+  "party": "Conservative",
+  "policy_title": "Ensure Schools Follow Guidance for Gender Questioning Students",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "mixed",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy restricts gender-questioning students' control over their own identity and personal information by mandating parental disclosure, while simultaneously protecting teachers from compelled speech. Both liberty effects are real, pulling in opposite directions.",
+    "biggest_unknown": "Whether courts will uphold the mandatory parental disclosure framework as compatible with children's rights under the Equality Act and ECHR, which could determine whether the coercive elements survive in practice.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy will legislate to require schools follow guidance including clarifying parents' right to know if their child wants to be treated as the opposite sex.",
+        "evidence_id": "M",
+        "quote": "pass legislation to ensure schools must follow guidance for teachers on supporting gender questioning students, clarifying parents' right to know if their child wants to be treated as the opposite sex and involving them in decisions"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The guidance makes parental involvement the default with only narrow exceptions.",
+        "evidence_id": "E2",
+        "quote": "parental involvement should be the default, with exceptions only in rare circumstances where it would pose a greater risk to the child"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Teachers cannot be compelled to use preferred pronouns and face no sanction for honest mistakes, protecting their expressive freedom.",
+        "evidence_id": "E7",
+        "quote": "teachers and staff are not compelled to use preferred pronouns and should not be sanctioned for honest mistakes"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Requests for name or pronoun changes by students will not be agreed to automatically, restricting students' autonomy over their identity presentation.",
+        "evidence_id": "E5",
+        "quote": "Requests for changes to names or pronouns should not be agreed to automatically"
+      },
+      {
+        "tier": "projected",
+        "claim": "Galop's research found that 43% of trans and non-binary people experienced abuse from family, raising concerns that mandatory parental disclosure exposes vulnerable children to harm.",
+        "evidence_id": "E16",
+        "quote": "43% of trans and non-binary people experienced higher levels of abuse from family"
+      }
+    ],
+    "rationale": "O10 asks whether people are free from undue state control over speech, bodies and choices. This policy produces liberty effects running in two directions simultaneously.\n\nOn the worsening side: the legislation mandates that students' wishes regarding their own identity be disclosed to parents without the student's consent, as the default. This removes a child's control over personal information about themselves \u2014 a core aspect of autonomy and privacy. The guidance also restricts how students may present their identity in school (name, pronouns, social transition), with schools directed not to agree to such requests automatically. These are state-imposed constraints on self-expression and personal choice, not merely the state abstaining from action.\n\nThe liberty cost is amplified by the risk context: evidence from Galop indicates 43% of trans and non-binary people experienced family abuse, suggesting mandatory parental disclosure is not a liberty-neutral administrative rule but can expose vulnerable young people to coercive home environments. This is a projected harm, but from a sourced advocacy organisation (flagged accordingly) \u2014 the institutional bodies (RCPCH, British Sociological Association) corroborate the underlying concern.\n\nOn the improving side: teachers are explicitly protected from compelled speech \u2014 they cannot be required to use preferred pronouns and face no sanction for mistakes. This is a genuine O10 gain, withdrawing a potential speech mandate from one group.\n\nThe net verdict is mixed: both effects are real, both are cited. The student autonomy restriction is larger in scale (affects all gender-questioning pupils navigating disclosure) than the teacher speech protection (which the evidence suggests was already disputed rather than established compulsion). The RCPCH's legal challenge warning introduces genuine uncertainty about whether the coercive elements survive. Confidence is moderate because the mechanism is clear but the legal durability is contested.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.mishcon.com/news/are-schools-ready-landmark-guidance-on-gender-questioning-children",
+        "publisher": "mishcon.com",
+        "title": "mishcon.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.galop.org.uk/news/response-to-proposed-guidance-on-trans-and-gender-questioning-students-in-england",
+        "publisher": "galop.org.uk",
+        "title": "galop.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.moorebarlow.com/blog/what-schools-need-to-know-about-supporting-gender-questioning-children/",
+        "publisher": "moorebarlow.com",
+        "title": "moorebarlow.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.highspeedtraining.co.uk/hub/gender-questioning-children/",
+        "publisher": "highspeedtraining.co.uk",
+        "title": "highspeedtraining.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/including-guidance-on-children-who-are-questioning-their-gender-in-kcsie/including-guidance-on-children-who-are-questioning-their-gender-in-keeping-children-safe-in-education-kcsie",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0488,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims survive entailment checks. Tier assignments are correct: the two 'measurable' claims draw from existing published guidance text (E2, E5, E7), not projections. The Galop claim is correctly tiered as 'projected' and flagged as an advocacy source. The mixed direction is genuinely supported by claims on both sides (student autonomy restriction vs. teacher speech protection), so no false_balance issue. The rationale judges liberty effects of the policy, not the party proposing it \u2014 no motive-attribution or loaded language that rises to blocking level. The note that the student restriction is 'larger in scale' than the teacher protection is an analytical judgment adequately grounded in the cited evidence. The biggest_unknown identifies a real legal crux. No lever_leakage: the verdict stays on O10 throughout. One minor observation: E16's quote ('43% of trans and non-binary people experienced higher levels of abuse from family') slightly understates the full E16 context (which also notes 29% experienced abuse from a family member, and 63% were under 18 at first occurrence), but the claim as stated does not overstate the quote \u2014 it accurately reflects what the quote says. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The RCPCH believes the guidance is likely to breach the Equality Act 2010, the UN Convention on the Rights of the Child, and the European Convention on Human Rights.",
+          "evidence_id": "E24",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will pass legislation to ensure schools must follow guidance for teachers on supporting gender questioning students, clarifying parents' right to know if their child wants to be treated as the opposite sex and involving them in decisions.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This guidance is slated to be integrated into the statutory \"Keeping Children Safe in Education (KCSIE)\" framework, making adherence compulsory for schools in England by September 2026.",
+        "sources": [
+          {
+            "url": "https://www.brownejacobson.com/about/news-media/gender-questioning-children-guidance-for-schools-legal-comment",
+            "publisher": "brownejacobson.com",
+            "title": "brownejacobson.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618297/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sex-matters.org/posts/schools-and-safeguarding/guidance-released-on-gender-questioning-children/",
+            "publisher": "sex-matters.org",
+            "title": "sex-matters.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mishcon.com/news/are-schools-ready-landmark-guidance-on-gender-questioning-children",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.moorebarlow.com/blog/what-schools-need-to-know-about-supporting-gender-questioning-children/",
+            "publisher": "moorebarlow.com",
+            "title": "moorebarlow.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The guidance states that parental involvement should be the default, with exceptions only in rare circumstances where it would pose a greater risk to the child.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mishcon.com/news/are-schools-ready-landmark-guidance-on-gender-questioning-children",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.galop.org.uk/news/response-to-proposed-guidance-on-trans-and-gender-questioning-students-in-england",
+            "publisher": "galop.org.uk",
+            "title": "galop.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.moorebarlow.com/blog/what-schools-need-to-know-about-supporting-gender-questioning-children/",
+            "publisher": "moorebarlow.com",
+            "title": "moorebarlow.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.highspeedtraining.co.uk/hub/gender-questioning-children/",
+            "publisher": "highspeedtraining.co.uk",
+            "title": "highspeedtraining.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Social Transition:** Schools should adopt a \"very careful approach\" when a child requests to socially transition (e.g., changing name or pronouns).",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mishcon.com/news/are-schools-ready-landmark-guidance-on-gender-questioning-children",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The guidance notes that caution is necessary due to limited evidence on the long-term impact of social transition.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://schoolsweek.co.uk/trans-guidance-dfe-lawyers-said-schools-face-high-risk-of-being-sued/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.highspeedtraining.co.uk/hub/gender-questioning-children/",
+            "publisher": "highspeedtraining.co.uk",
+            "title": "highspeedtraining.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Names and Pronouns:** Requests for changes to names or pronouns should not be agreed to automatically.",
+        "sources": [
+          {
+            "url": "https://www.highspeedtraining.co.uk/hub/gender-questioning-children/",
+            "publisher": "highspeedtraining.co.uk",
+            "title": "highspeedtraining.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "While the 2023 draft guidance prohibited primary-aged children from using different pronouns, the February 2026 version allows for this in \"very rare\" cases, following proper procedures including parental involvement and clinical advice.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/13/what-is-new-gender-guidance-schools-colleges-england-explainer",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "However, teachers and staff are not compelled to use preferred pronouns and should not be sanctioned for honest mistakes.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/including-guidance-on-children-who-are-questioning-their-gender-in-kcsie/including-guidance-on-children-who-are-questioning-their-gender-in-keeping-children-safe-in-education-kcsie",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Mixed-sex sleeping arrangements on overnight trips are also prohibited.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mishcon.com/news/are-schools-ready-landmark-guidance-on-gender-questioning-children",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.moorebarlow.com/blog/what-schools-need-to-know-about-supporting-gender-questioning-children/",
+            "publisher": "moorebarlow.com",
+            "title": "moorebarlow.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/including-guidance-on-children-who-are-questioning-their-gender-in-kcsie/including-guidance-on-children-who-are-questioning-their-gender-in-keeping-children-safe-in-education-kcsie",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "No child should be made to feel unsafe through inappropriate mixed-sex sport.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mishcon.com/news/are-schools-ready-landmark-guidance-on-gender-questioning-children",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Record Keeping:** Schools must accurately record a child's biological sex in official records.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.highspeedtraining.co.uk/hub/gender-questioning-children/",
+            "publisher": "highspeedtraining.co.uk",
+            "title": "highspeedtraining.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Clinical Advice:** Schools should consider any clinical advice a family has received and, where possible, seek such advice themselves.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Impact on Students (Mental Health, Safety, Educational Outcomes):**\n*   **Mental Health Concerns:** Many organizations, including **Galop (an LGBT+ anti-abuse charity)**, the **Race Equality Foundation**, **The Proud Trust**, and the **Royal College of Paediatrics and Child Health (RCPCH)**, express serious concerns that the guidance could worsen mental health outcomes for gender-questioning and trans young people.",
+        "sources": [
+          {
+            "url": "https://raceequalityfoundation.org.uk/news/foundation-response-to-guidance-on-schools-gender-questioning-children/",
+            "publisher": "raceequalityfoundation.org.uk",
+            "title": "raceequalityfoundation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theproudtrust.org/about-us/blog/challenging-the-harmful-draft-guidance-for-schools-and-colleges-gender-questioning-children/",
+            "publisher": "theproudtrust.org",
+            "title": "theproudtrust.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.galop.org.uk/news/response-to-proposed-guidance-on-trans-and-gender-questioning-students-in-england",
+            "publisher": "galop.org.uk",
+            "title": "galop.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Research consistently shows that gender-diverse adolescents already experience worse mental health, higher levels of bullying, self-harm, and suicidal behaviors compared to their cisgender counterparts.",
+        "sources": [
+          {
+            "url": "https://www.tooledupeducation.com/research/what-is-school-like-for-gender-diverse-teens-in-the-uk",
+            "publisher": "tooledupeducation.com",
+            "title": "tooledupeducation.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618297/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tandfonline.com/action/cookieAbsent",
+            "publisher": "tandfonline.com",
+            "title": "tandfonline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://community.amhie.com/wp-content/uploads/Gender-minority-stress-in-education-Protecting-trans-childrens-mental-health-in-UK-schools.pdf",
+            "publisher": "community.amhie.com",
+            "title": "amhie.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10128455/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Inclusive approaches are generally linked to better mental health for these young people.",
+        "sources": [
+          {
+            "url": "https://www.tooledupeducation.com/research/what-is-school-like-for-gender-diverse-teens-in-the-uk",
+            "publisher": "tooledupeducation.com",
+            "title": "tooledupeducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Increased Bullying and Discrimination:** Critics argue the guidance risks perpetuating harmful stereotypes, denying gender expression, and creating barriers to an inclusive environment, potentially increasing bullying and discrimination.",
+        "sources": [
+          {
+            "url": "https://raceequalityfoundation.org.uk/news/foundation-response-to-guidance-on-schools-gender-questioning-children/",
+            "publisher": "raceequalityfoundation.org.uk",
+            "title": "raceequalityfoundation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Risk to Safety (Parental Disclosure):** **Galop's 2022 research** found that 29% of LGBT+ people surveyed had experienced abuse from a family member, with 63% under 18 when it first occurred, and 43% of trans and non-binary people experienced higher levels of abuse from family.",
+        "sources": [
+          {
+            "url": "https://www.galop.org.uk/news/response-to-proposed-guidance-on-trans-and-gender-questioning-students-in-england",
+            "publisher": "galop.org.uk",
+            "title": "galop.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "This leads them to strongly disagree with the guidance's premise that involving parents would \"rarely\" constitute a greater risk, fearing it could obstruct support for vulnerable trans+ children and force them to hide their identity.",
+        "sources": [
+          {
+            "url": "https://www.galop.org.uk/news/response-to-proposed-guidance-on-trans-and-gender-questioning-students-in-england",
+            "publisher": "galop.org.uk",
+            "title": "galop.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The **British Sociological Association** also warned against making parental 'outing' a default, as parents are not always safe for children.",
+        "sources": [
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Potential Conflict:** The policy clarifies parents' right to know and be involved in decisions, which is welcomed by some groups, such as **Sex Matters**, who advocate for parental primacy.",
+        "sources": [
+          {
+            "url": "https://www.tooledupeducation.com/research/what-is-school-like-for-gender-diverse-teens-in-the-uk",
+            "publisher": "tooledupeducation.com",
+            "title": "tooledupeducation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "However, it could also create conflict for parents who are unsupportive or abusive, placing children at risk.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Confusion and Legal Risks:** While some, like the **Association of School and College Leaders (ASCL)**, initially welcomed clearer national guidance amidst a \"polarised public debate\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-publish-new-gender-guidance-for-schools",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Lawyers reportedly advised the **Department for Education (DfE)** that some aspects of the December 2023 draft, particularly on pronouns in primary schools and the application of Equality Act tests, carried a \"high risk of successful legal challenge.\"",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/trans-guidance-dfe-lawyers-said-schools-face-high-risk-of-being-sued/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The **National Education Union (NEU)** emphasizes that the Equality Act 2010 protects individuals who \"propose to reassign their gender,\" including those who wish to use new names or pronouns without medical intervention.",
+        "sources": [
+          {
+            "url": "https://sex-matters.org/posts/schools-and-safeguarding/guidance-released-on-gender-questioning-children/",
+            "publisher": "sex-matters.org",
+            "title": "sex-matters.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The **RCPCH** believes the guidance is \"likely to be in breach\" of the Equality Act 2010, the UN Convention on the Rights of the Child, and the European Convention on Human Rights.",
+        "sources": [
+          {
+            "url": "https://www.hppc.co.uk/wp-content/uploads/2026/01/Gender-Questioning-and-Transgender-Guidance-v2.pdf",
+            "publisher": "hppc.co.uk",
+            "title": "hppc.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Administrative Burden:** Schools will need to develop or review policies on gender questioning children, audit facilities, and review sports and record-keeping policies to align with the new framework.",
+        "sources": [
+          {
+            "url": "https://www.mishcon.com/news/are-schools-ready-landmark-guidance-on-gender-questioning-children",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.moorebarlow.com/blog/what-schools-need-to-know-about-supporting-gender-questioning-children/",
+            "publisher": "moorebarlow.com",
+            "title": "moorebarlow.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Chilling Effect on Support:** **Galop** is concerned that the guidance empowers schools to refuse social transition requests rather than providing support, potentially leading to a less inclusive environment.",
+        "sources": [
+          {
+            "url": "https://www.galop.org.uk/news/response-to-proposed-guidance-on-trans-and-gender-questioning-students-in-england",
+            "publisher": "galop.org.uk",
+            "title": "galop.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "**The Proud Trust** stated that the draft guidance contains many recommendations that \"will make life harder for trans young people.\"",
+        "sources": [
+          {
+            "url": "https://www.theproudtrust.org/about-us/blog/challenging-the-harmful-draft-guidance-for-schools-and-colleges-gender-questioning-children/",
+            "publisher": "theproudtrust.org",
+            "title": "theproudtrust.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Critics argue the guidance misinterprets the Act by not adequately recognizing \"gender reassignment\" as a protected characteristic that applies to children who are socially transitioning.",
+        "sources": [
+          {
+            "url": "https://raceequalityfoundation.org.uk/news/foundation-response-to-guidance-on-schools-gender-questioning-children/",
+            "publisher": "raceequalityfoundation.org.uk",
+            "title": "raceequalityfoundation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sex-matters.org/posts/schools-and-safeguarding/guidance-released-on-gender-questioning-children/",
+            "publisher": "sex-matters.org",
+            "title": "sex-matters.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theproudtrust.org/about-us/blog/challenging-the-harmful-draft-guidance-for-schools-and-colleges-gender-questioning-children/",
+            "publisher": "theproudtrust.org",
+            "title": "theproudtrust.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The government's framing of \"gender identity as a contested belief\" and the avoidance of \"transgender\" to describe children is seen by some as an ideological bias that contradicts existing legal protections.",
+        "sources": [
+          {
+            "url": "https://raceequalityfoundation.org.uk/news/foundation-response-to-guidance-on-schools-gender-questioning-children/",
+            "publisher": "raceequalityfoundation.org.uk",
+            "title": "raceequalityfoundation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/13/what-is-new-gender-guidance-schools-colleges-england-explainer",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.highspeedtraining.co.uk/hub/gender-questioning-children/",
+            "publisher": "highspeedtraining.co.uk",
+            "title": "highspeedtraining.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Organizations like the **RCPCH** and the **British Sociological Association** argue that the guidance risks dissuading schools from placing the child's best interests at the heart of decision-making, particularly concerning parental involvement when there might be a risk of harm.",
+        "sources": [
+          {
+            "url": "https://cypmhc.org.uk/cypmhc-responds-to-government-guidance-on-gender-questioning-children/",
+            "publisher": "cypmhc.org.uk",
+            "title": "cypmhc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hppc.co.uk/wp-content/uploads/2026/01/Gender-Questioning-and-Transgender-Guidance-v2.pdf",
+            "publisher": "hppc.co.uk",
+            "title": "hppc.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "**Specific Figures and Data:**\n*   A **2017 Stonewall School Report** found that 45% of 500 surveyed secondary school trans pupils had attempted to take their own life, and 84% reported self-harm.",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10128455/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   A **2023 survey by The Proud Trust** found that 52% of young people were not confident their school would adequately support a trans student, and 90% of teachers felt they needed more training.",
+        "sources": [
+          {
+            "url": "https://www.theproudtrust.org/about-us/blog/challenging-the-harmful-draft-guidance-for-schools-and-colleges-gender-questioning-children/",
+            "publisher": "theproudtrust.org",
+            "title": "theproudtrust.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "74% and 73% of respondents expressed dissatisfaction with the sections on engaging parents and pronouns, respectively.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/including-guidance-on-children-who-are-questioning-their-gender-in-kcsie/including-guidance-on-children-who-are-questioning-their-gender-in-keeping-children-safe-in-education-kcsie",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   The **Office for National Statistics (ONS)** has identified a clear user need for data on gender identity but noted that few existing surveys or administrative data sources provide reliable national-level estimates for those whose gender identity differs from their sex registered at birth.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2026/feb/12/new-gender-guidance-for-uk-primary-school-children-permits-use-of-different-pronouns",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The **Health Foundation** was also requested, but the relevant input found was from the **Race Equality Foundation**.",
+        "sources": [
+          {
+            "url": "https://raceequalityfoundation.org.uk/news/foundation-response-to-guidance-on-schools-gender-questioning-children/",
+            "publisher": "raceequalityfoundation.org.uk",
+            "title": "raceequalityfoundation.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

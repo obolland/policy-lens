@@ -1,0 +1,741 @@
+{
+  "policy_id": "con-91-extend-community-ownership-fund",
+  "party": "Conservative",
+  "policy_title": "Extend Community Ownership Fund",
+  "outcome": "O15",
+  "verdict": {
+    "outcome": "O15",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "Extending the Community Ownership Fund would help more communities take control of local spaces like pubs and libraries, which evidence links to volunteering, social participation and reduced isolation. The gains are real but modest in scale, and less-resourced communities face structural barriers to accessing the fund.",
+    "biggest_unknown": "Whether the extension addresses the equity gap \u2014 communities in the most deprived areas have historically been least able to navigate the fund, so the cohesion gains may concentrate in already-capable communities unless specific targeting measures are built in.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would extend the Community Ownership Fund to help communities take control of assets including pubs, music venues, libraries, green spaces, and leisure centres.",
+        "evidence_id": "M",
+        "quote": "extend its Community Ownership Fund to help more communities across the UK take control of vital local assets like pubs, music venues, libraries, green spaces, and leisure centres"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The original fund awarded over \u00a3135 million to 409 projects across the UK.",
+        "evidence_id": "E11",
+        "quote": "the COF had awarded over \u00a3135 million to 409 projects across the UK"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Community-owned assets often provide vital services and social spaces which can improve local well-being and reduce social isolation.",
+        "evidence_id": "E17",
+        "quote": "Community-owned assets often provide vital services and social spaces, which can improve local well-being and reduce social isolation"
+      },
+      {
+        "tier": "projected",
+        "claim": "Communities with stronger organisational capacity are better placed to benefit, and structural inequalities remain a significant factor limiting access for less advantaged areas.",
+        "evidence_id": "E24",
+        "quote": "communities with stronger organisational capacity, access to professional skills and existing funding networks are better placed to take advantage of the opportunity,\" with \"less advantaged areas\" facing greater barriers"
+      },
+      {
+        "tier": "projected",
+        "claim": "Structural inequalities persisted despite programme adjustments such as reducing match funding requirements.",
+        "evidence_id": "E25",
+        "quote": "structural inequalities remain a significant factor"
+      }
+    ],
+    "rationale": "The evidence establishes a plausible and partially demonstrated mechanism: community ownership of local assets \u2014 pubs, libraries, leisure centres \u2014 creates physical spaces for civic life, generates volunteering opportunities, and reduces social isolation. The government's own interim evaluation (a measurable-tier finding from gov.uk) confirms the fund delivered on these dimensions in its first iteration: assets were saved that would otherwise have been lost, and volunteering and community capacity measurably increased. These are direct indicators of O15 (civic participation, sense of belonging, social trust). Extending the fund continues and expands this mechanism, giving a directional verdict of 'improves'. The magnitude is constrained to 'minor' for three reasons. First, 409 projects across the UK over four years is a real but limited footprint relative to the population scale needed to move national social-trust indicators. Second, the fund's own evaluation and critics (Co-operative Party, inlogov.com) identify a persistent equity gap: better-resourced communities capture most benefit, so the cohesion gains are unevenly distributed and may not reach the places with the lowest social trust. Third, the policy text is aspirational \u2014 'extend' with no committed budget, target number of projects, or structural reform to address the access barriers identified in the evaluation. This limits confidence that the extension will outperform the original. Time horizon is long-term: community ownership projects take years to mature, and the evaluation itself notes economic and social effects are still developing. The direction is nonetheless 'improves' rather than 'negligible' because the mechanism is not merely plausible \u2014 it has partial real-world evidence from the preceding fund. The main caveat is whether the extension addresses the structural inequality in access; without that, gains may concentrate in already-cohesive communities.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://mycommunity.org.uk/community-ownership-fund",
+        "publisher": "mycommunity.org.uk",
+        "title": "mycommunity.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.sharedassets.org.uk/resources/community-ownership-needs-more-than-a-new-right-to-buy",
+        "publisher": "sharedassets.org.uk",
+        "title": "sharedassets.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+        "publisher": "inlogov.com",
+        "title": "inlogov.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0403,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are supported by their quoted evidence without material overstatement. Tier assignments are appropriate: E17 (inlogov.com) makes a general empirical observation about community-owned assets rather than a projection specific to this policy, which is borderline but acceptable as a measurable baseline claim given the source is citing general evidence rather than a forecast about this extension. E24/E25 are correctly tiered as projected in the context of the extended fund. The 'improves/minor/long-term/moderate' verdict is well-grounded: the mechanism has partial real-world support from the interim evaluation, the footprint is limited, and the equity caveat is properly surfaced as the biggest unknown. No lever leakage, no party framing, no false balance issues. The Co-operative Party is correctly labelled as an advocacy source and used only to corroborate a concern also raised by the official evaluation, not to drive a standalone verdict."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The interim evaluation found the fund successfully enabled project teams to purchase, rescue or extend assets for community use.",
+          "evidence_id": "E21",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The evaluation found strong evidence of the fund supporting diverse volunteering opportunities and a positive effect on wider community capacity.",
+          "evidence_id": "E22",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Critics argued the original fund was insufficiently targeted at broader community development, focusing too narrowly on asset acquisition.",
+          "evidence_id": "E29",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will extend its Community Ownership Fund to help more communities across the UK take control of vital local assets like pubs, music venues, libraries, green spaces, and leisure centres.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy would build upon the previous iteration of the fund, which closed in late 2024/early 2025.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-prospectus",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sharedassets.org.uk/resources/community-ownership-needs-more-than-a-new-right-to-buy",
+            "publisher": "sharedassets.org.uk",
+            "title": "sharedassets.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The original Community Ownership Fund was a \u00a3150 million programme launched in July 2021, designed to run for four years until 2024/25.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Its primary goal was to support communities in purchasing or renovating assets at risk of being lost to community use.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The fund had four strategic objectives:\n*   To provide targeted investment for communities to save and sustain community assets.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   To strengthen community capacity and capability.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   To empower communities in \"left behind\" places for \"levelling up.\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   To strengthen direct links between local places and the UK government.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Initially, the fund offered up to \u00a3250,000 in capital funding (up to \u00a31 million for sporting assets), requiring projects to match 50% of the funding from external sources.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "From Round 3, the capital cap increased to \u00a32 million, and the match funding requirement decreased to 20%.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Revenue funding, for running costs, was also available, capped at 20% of the capital request or \u00a350,000, whichever was smaller.",
+        "sources": [
+          {
+            "url": "https://www.actiontogether.org.uk/community-ownership-fund-0",
+            "publisher": "actiontogether.org.uk",
+            "title": "actiontogether.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "As of its closure, the COF had awarded over \u00a3135 million to 409 projects across the UK, including 283 projects in England, 57 in Scotland, 30 in Wales, and 39 in Northern Ireland.",
+        "sources": [
+          {
+            "url": "https://mycommunity.org.uk/community-ownership-fund",
+            "publisher": "mycommunity.org.uk",
+            "title": "mycommunity.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sharedassets.org.uk/resources/community-ownership-needs-more-than-a-new-right-to-buy",
+            "publisher": "sharedassets.org.uk",
+            "title": "sharedassets.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Approximately \u00a315 million of the original \u00a3150 million remained unspent.",
+        "sources": [
+          {
+            "url": "https://www.sharedassets.org.uk/resources/community-ownership-needs-more-than-a-new-right-to-buy",
+            "publisher": "sharedassets.org.uk",
+            "title": "sharedassets.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The government indicated a commitment to replacing the community 'Right to Bid' with a strengthened 'Right to Buy' and promised further announcements on community asset ownership.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-prospectus",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The previous fund was effective in enabling communities to secure assets that were at genuine risk.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "**Strengthened Community Capacity and Participation:** By providing funding for community groups to take ownership, the extension would foster greater local identity and pride, increase community participation, and boost volunteering opportunities.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Projects supported by the fund have shown positive effects on wider community capacity by providing physical spaces and enabling project teams to convene local businesses and groups.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Improved Access to Services and Social Spaces:** Community-owned assets often provide vital services and social spaces, which can improve local well-being and reduce social isolation.",
+        "sources": [
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Economic and Social Value:** While the interim evaluation of the initial fund noted that early outcomes showed more visible social value than economic impact, with longer-term economic effects still developing, the continuation of the fund could lead to more sustained economic benefits over time.",
+        "sources": [
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Community assets are seen as important for local growth and for reducing social disadvantage and spatial inequality.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "An extended fund, particularly with continued or enhanced targeted support, could help build an asset base in economically disadvantaged areas, contributing to local wealth generation.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-feasibility-study-report/evaluation-of-the-community-ownership-fund-feasibility-study-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.powertochange.org.uk/evidence-and-ideas/news-and-events/joint-letter-community-ownership-funding-can-drive-growth-that-is-seen-and-felt-in-all-places/",
+            "publisher": "powertochange.org.uk",
+            "title": "powertochange.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "**GOV.UK Interim Evaluation (January 2026):**\nAn interim report on the COF evaluation found that the fund \"has successfully enabled case study project teams to purchase, rescue or extend assets for community use.\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "It noted \"strong evidence of the COF funding supporting diverse opportunities for volunteering,\" and a \"positive effect on wider community capacity.\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The report highlighted that the fund \"addressed a need in the sector within a challenging economic environment,\" allowing groups to save assets that \"would have otherwise been lost.\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "However, it also pointed out that \"communities with stronger organisational capacity, access to professional skills and existing funding networks are better placed to take advantage of the opportunity,\" with \"less advantaged areas\" facing greater barriers.",
+        "sources": [
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Programme adjustments, such as reducing match funding requirements and targeting support, helped to address this, but \"structural inequalities remain a significant factor.\"",
+        "sources": [
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "**House of Commons Library:**\nWhile the House of Commons Library provides general guidance on finding funding for constituents and notes the COF's existence, specific analyses from them on the *extension* of the fund are not immediately available in the search results.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPAre8hi7PZZzi-v-x71YL2wNuzZz9nTI0c1zCg7xQ5VeOV5ZSLPAzCeMCumPJieJiKuz8hWocio4kJc7pesyMD9tkD0l4gGxCPwHWHcQCy60TTjUXO4aAPI-oOkh3w5PXRHenuCbWWG_EXepjJoI6prK5Lio-lI2KOfgLSKa41aDWxiSpJrPUqXYZDyzKUSCDjO3-jXgSR7nQEYTI5RSRn1_ZLZWNxnHEGgcA1xE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10735/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Concerns about previous COF:** An analysis from the Co-operative Party noted that the COF appeared to be \"underperforming\" in its first two years, allocating only \u00a336.83 million to 150 projects, less than a quarter of its total funding and below the rate needed to spend the full amount within its initial four-year timeframe.",
+        "sources": [
+          {
+            "url": "https://party.coop/wp-content/blogs.dir/5/files/2024/01/20240104-community-ownership-report-final-compress.pdf",
+            "publisher": "party.coop",
+            "title": "party.coop",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "(Note: Later figures show a total of \u00a3135 million awarded, suggesting an acceleration in later rounds or the Co-operative Party analysis was an early snapshot.",
+        "sources": [
+          {
+            "url": "https://mycommunity.org.uk/community-ownership-fund",
+            "publisher": "mycommunity.org.uk",
+            "title": "mycommunity.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sharedassets.org.uk/resources/community-ownership-needs-more-than-a-new-right-to-buy",
+            "publisher": "sharedassets.org.uk",
+            "title": "sharedassets.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": ")\n*   **\"Asset-centric\" approach and lack of early-stage support:** The Co-operative Party argued the COF was \"almost exclusively asset centric\" with insufficient attention to \"developing communities or creating the environment for community ownership to flourish.\"",
+        "sources": [
+          {
+            "url": "https://party.coop/wp-content/blogs.dir/5/files/2024/01/20240104-community-ownership-report-final-compress.pdf",
+            "publisher": "party.coop",
+            "title": "party.coop",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They highlighted a lack of funding for early-stage capability development, opportunity pre-feasibility, and feasibility development activity.",
+        "sources": [
+          {
+            "url": "https://party.coop/wp-content/blogs.dir/5/files/2024/01/20240104-community-ownership-report-final-compress.pdf",
+            "publisher": "party.coop",
+            "title": "party.coop",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Match funding barriers:** Analysis showed that the ability to raise matched funding varied greatly by asset type, with community hubs, for example, typically needing 71% grant funding compared to pubs, which often raised 75% of costs through community shares.",
+        "sources": [
+          {
+            "url": "https://party.coop/wp-content/blogs.dir/5/files/2024/01/20240104-community-ownership-report-final-compress.pdf",
+            "publisher": "party.coop",
+            "title": "party.coop",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Recommendations for Improvement:** The Co-operative Party recommended allocating a share of COF funds to early-stage development and ensuring alignment with Dormant Assets funding, suggesting that \"a minimum of 50% of all COF public funding for projects should be awarded to projects originating in the 30% of areas with the highest levels of need.\"",
+        "sources": [
+          {
+            "url": "https://party.coop/wp-content/blogs.dir/5/files/2024/01/20240104-community-ownership-report-final-compress.pdf",
+            "publisher": "party.coop",
+            "title": "party.coop",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Beyond 'Right to Buy':** Shared Assets emphasized that \"community ownership needs more than a new 'right to buy'\" and requires adequate funding and support alongside any new powers.",
+        "sources": [
+          {
+            "url": "https://www.sharedassets.org.uk/resources/community-ownership-needs-more-than-a-new-right-to-buy",
+            "publisher": "sharedassets.org.uk",
+            "title": "sharedassets.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "The \"Health Foundation\" searches yielded information primarily on health-related community investment funds in the US, not the UK COF.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgBFJd3_M7wQjrsdi9FoEQ2sl2w4L6ZbRzItaeb1yHeXIHbHsZ7rzJlYj1YP6QZ6Q-fkzIEpC_xu8P_3Ky-NibwcWn5PV15P3OsYyMz8DagTCsavN8x_xd3DOmHn8-yeqMvRjanqZEiW1ZgC_XNHJKFODk6uNpKSrsw9UBse4VK8Rv9wZI-OMmMdvM79_Tgr83RnQ1XAYcrstlpVua7oxsGSyhkwmatGDvGVDRR7rroA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "coloradohealth.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hfsf.org/",
+            "publisher": "hfsf.org",
+            "title": "hfsf.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hfsf.org/health-foundation-makes-impact-investments/",
+            "publisher": "hfsf.org",
+            "title": "hfsf.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTVZRoaZ7k5VQ5ypai-TvuOKeX32F2CD1kGRToAVuTUf3gRUxvVXMbBRtM_pfxuWgfFVHLfqySd1gldznb_YAa-6Dhvj-w3ntNayTFieD-3WHYc1oolqOpSoCrOYJlS5lDWpOEI_JD3lumwQGZ2TT08ypPEGopuWBi86brerQ6oEodLWvFHA54u1IvZKb7bmg85dvFTkrDaWrfYqsNtWFkxXdW7sbUGfSpQ_tS5xFsGLR-cgRPWqqitGiBNqTJSq1SNoO33ZkztiyAe4-7tdoU43d5SaIqxTYEPtKJkuks7_idyXalIIHTs09N7mAytRO6RJz3-TgEExzqM8be68y9V84r",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "southfloridaanchoralliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hcfdn.org/",
+            "publisher": "hcfdn.org",
+            "title": "hcfdn.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "While there isn't a direct \"disagreement\" on the *principle* of extending the fund among the types of expert bodies sought, there are clear disagreements and calls for significant adjustments on *how* the fund operates and its scope:\n*   **Effectiveness of current model:** The government's interim evaluation points to positive impacts in saving assets and building social capital",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-evaluation-interim-report/community-ownership-fund-evaluation-interim-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "However, organizations like the Co-operative Party criticized the fund's initial underperformance in allocation and its \"asset-centric\" nature, arguing it didn't adequately support broader community development",
+        "sources": [
+          {
+            "url": "https://party.coop/wp-content/blogs.dir/5/files/2024/01/20240104-community-ownership-report-final-compress.pdf",
+            "publisher": "party.coop",
+            "title": "party.coop",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Equity and Accessibility:** The official evaluation acknowledges that communities with existing capacity are better positioned to benefit, despite efforts to mitigate this.",
+        "sources": [
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "Critics call for more direct targeting of funds to deprived areas and early-stage support to level the playing field for less-resourced communities.",
+        "sources": [
+          {
+            "url": "https://party.coop/wp-content/blogs.dir/5/files/2024/01/20240104-community-ownership-report-final-compress.pdf",
+            "publisher": "party.coop",
+            "title": "party.coop",
+            "source_type": "media"
+          },
+          {
+            "url": "https://inlogov.com/2026/05/29/what-works-in-community-ownership-and-local-assets/",
+            "publisher": "inlogov.com",
+            "title": "inlogov.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Scope of \"Extension\":** While the Conservative Party policy indicates an \"extension,\" the previous fund officially closed with an unspent amount.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/community-ownership-fund-prospectus",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sharedassets.org.uk/resources/community-ownership-needs-more-than-a-new-right-to-buy",
+            "publisher": "sharedassets.org.uk",
+            "title": "sharedassets.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "policy_id": "ld-147-strengthen-armed-forces-covenant-and-improve",
+  "party": "Liberal Democrat",
+  "policy_title": "Strengthen Armed Forces Covenant and Improve MOD Housing",
+  "outcome": "O1",
+  "verdict": {
+    "outcome": "O1",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy aims to improve housing conditions for armed forces families by reviewing MOD maintenance contracts and strengthening the Armed Forces Covenant \u2014 both real steps for a group facing documented poor housing. The effect is real but narrow, covering only service family accommodation rather than the broader housing market.",
+    "biggest_unknown": "Whether reviewing maintenance contracts translates into actual, sustained improvements in repair quality and speed, given the Defence Infrastructure Organisation's admitted past failures and the scale of rebuilding estimated as needed.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to improving MOD housing standards by reviewing maintenance contracts.",
+        "evidence_id": "M",
+        "quote": "Improving the standard of Ministry of Defence housing, including by reviewing maintenance contracts."
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy commits to strengthening the Armed Forces Covenant by placing a legal duty on the Defence Secretary and government departments to give it due regard.",
+        "evidence_id": "M",
+        "quote": "Strengthening the Armed Forces Covenant by placing a legal duty on the Defence Secretary and government departments to give it due regard."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The due regard duty under the Armed Forces Covenant does not mandate specific outcomes or preferential treatment, but seeks to ensure the armed forces community does not face disadvantage.",
+        "evidence_id": "E7",
+        "quote": "it does not mandate specific outcomes or preferential treatment, but rather seeks to ensure the Armed Forces community does not face disadvantage compared to other citizens due to their service"
+      },
+      {
+        "tier": "projected",
+        "claim": "Expanding the Covenant duty is expected to create a consistent, system-wide approach ensuring equitable access to support regardless of location.",
+        "evidence_id": "E8",
+        "quote": "it will create a \"consistent, system-wide approach,\" ensuring equitable access to support regardless of location or service required"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Kerslake review expressed doubt about MOD 'Decent Homes' ratings, saying they were hard to square with the lived experience of service personnel.",
+        "evidence_id": "E27",
+        "quote": "expressed doubt regarding the MOD's \"Decent Homes\" standard ratings, stating they were \"hard to square with the lived experience of service personnel\""
+      }
+    ],
+    "rationale": "The evidence establishes a clear and documented problem: MOD housing for service families is in poor condition, with low satisfaction (25%), a third of properties awaiting repairs in 2022, and two-thirds estimated to need rebuilding. Poor housing is directly linked to retention \u2014 29% of leavers cited it as a factor. The policy intervenes on both fronts: reviewing maintenance contracts addresses the operational failures that have plagued repair delivery, and strengthening the Covenant's legal reach could embed housing considerations more firmly in public-body decision-making. However, 'reviewing maintenance contracts' is a soft instrument \u2014 it does not commit to a new contract, a budget, or a timeline. Given that the DIO already 'lost control' in the first year of existing contracts and satisfaction remains very low despite years of concern, a review alone carries real implementation risk. The Covenant duty extension is also meaningful but, by design, imposes no specific outcomes \u2014 it requires due regard, not delivery. The net effect for service families' housing is likely positive but modest and contingent on follow-through. The population affected (roughly 47,900 SFA households) is a small subset of the UK housing market, so the effect on the O1 indicator at national scale is minor. The direction is nonetheless genuinely 'improves' for this targeted group, given the documented baseline harm and the policy's direct focus on it \u2014 but magnitude is minor and confidence only moderate because the mechanism (a review) is weak and past contract failures give reason for scepticism.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://nff.org.uk/expansion-of-the-armed-forces-covenant-legal-duty-announced/",
+        "publisher": "nff.org.uk",
+        "title": "nff.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.armedforcescovenant.gov.uk/covenant-legal-duty/armed-forces-covenant-duty-toolkit/the-armed-forces-covenant-legal-duty-extension-what-it-means-for-bodies-in-scope/",
+        "publisher": "armedforcescovenant.gov.uk",
+        "title": "armedforcescovenant.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.armedforcesnetwork.org/the-covenant/the-armed-forces-covenant/",
+        "publisher": "armedforcesnetwork.org",
+        "title": "armedforcesnetwork.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://sharedintelligence.net/strengthening-support-for-the-armed-forces-community-how-the-expansion-of-the-armed-forces-covenant-duty-and-recent-research-can-drive-impact/",
+        "publisher": "sharedintelligence.net",
+        "title": "sharedintelligence.net",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0402,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are appropriate: stated claims draw from policy text, measurable claim (E7) reflects a documented legal characteristic of the duty, and projected claims are correctly flagged as such. The E27 claim is labelled projected though it describes a past review's finding \u2014 this is a minor point but not blocking since the review's challenge to official ratings involves some interpretive uncertainty. Magnitude 'minor' and time horizon 'this-parliament' are reasonable given the scope (SFA-only, review mechanism rather than committed spend). The direction 'improves' is justified by the documented baseline harm and direct policy focus. No lever leakage, party identity references, or false balance detected."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "In November 2022, nearly a third of service family accommodation properties \u2014 around 13,900 homes \u2014 were awaiting repairs.",
+          "evidence_id": "E13",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Satisfaction with maintenance and repair quality among service personnel was only 25% in 2024, up from 19% in 2023.",
+          "evidence_id": "E17",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Poor accommodation was cited by 29% of service personnel in 2023 as a factor in their decision to leave the forces.",
+          "evidence_id": "E18",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The Defence Committee labelled military accommodation conditions 'unacceptable' in December 2024, particularly regarding damp and mould.",
+          "evidence_id": "E25",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The DIO's Chief Executive estimated in December 2024 that two-thirds of service family accommodation needs rebuilding to meet modern standards.",
+          "evidence_id": "E20",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Securing a fair deal for the armed forces community, and improve recruitment, retention and resettlement, by: Strengthening the Armed Forces Covenant by placing a legal duty on the Defence Secretary and government departments to give it due regard. Improving the standard of Ministry of Defence housing, including by reviewing maintenance contracts.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Policy Details and Real-World Effects:**\nThe Armed Forces Covenant is a moral obligation between the nation, government, and the armed forces, recognising the sacrifices made by service personnel, veterans, and their families",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9072/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.armedforcesnetwork.org/the-covenant/the-armed-forces-covenant/",
+            "publisher": "armedforcesnetwork.org",
+            "title": "armedforcesnetwork.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Its core principles were first enshrined in law through the Armed Forces Act 2011",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9072/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Armed Forces Act 2021 further introduced a statutory \"due regard\" duty for specific public bodies\u2014local authorities, state-funded schools, and NHS bodies\u2014when delivering services in healthcare, education, and housing, which came into force in November 2022",
+        "sources": [
+          {
+            "url": "https://sharedintelligence.net/strengthening-support-for-the-armed-forces-community-how-the-expansion-of-the-armed-forces-covenant-duty-and-recent-research-can-drive-impact/",
+            "publisher": "sharedintelligence.net",
+            "title": "sharedintelligence.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9072/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://nff.org.uk/expansion-of-the-armed-forces-covenant-legal-duty-announced/",
+            "publisher": "nff.org.uk",
+            "title": "nff.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://s22009.pcdn.co/wp-content/uploads/Armed-Forces-Covenant-Duty.pdf",
+            "publisher": "s22009.pcdn.co",
+            "title": "pcdn.co",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.armedforcescovenant.gov.uk/covenant-legal-duty/",
+            "publisher": "armedforcescovenant.gov.uk",
+            "title": "armedforcescovenant.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Beyond the existing healthcare, education, and housing, new areas will include social care, employment, welfare, transport, criminal justice, immigration, citizenship, pensions, and service-related compensation",
+        "sources": [
+          {
+            "url": "https://sharedintelligence.net/strengthening-support-for-the-armed-forces-community-how-the-expansion-of-the-armed-forces-covenant-duty-and-recent-research-can-drive-impact/",
+            "publisher": "sharedintelligence.net",
+            "title": "sharedintelligence.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://nff.org.uk/expansion-of-the-armed-forces-covenant-legal-duty-announced/",
+            "publisher": "nff.org.uk",
+            "title": "nff.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.armedforcescovenant.gov.uk/covenant-legal-duty/armed-forces-covenant-duty-toolkit/the-armed-forces-covenant-legal-duty-extension-what-it-means-for-bodies-in-scope/",
+            "publisher": "armedforcescovenant.gov.uk",
+            "title": "armedforcescovenant.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.raf-ff.org.uk/expansion-of-the-armed-forces-covenant-legal-duty-announced/",
+            "publisher": "raf-ff.org.uk",
+            "title": "raf-ff.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This expansion, announced by the Prime Minister in June 2025 and expected to be legislated in the 2026 Armed Forces Bill, aims to embed Covenant principles more widely across public life",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9072/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The \"due regard\" duty means actively considering the Covenant's principles during policy development, delivery, and review, giving appropriate weight to them alongside other factors",
+        "sources": [
+          {
+            "url": "https://nff.org.uk/expansion-of-the-armed-forces-covenant-legal-duty-announced/",
+            "publisher": "nff.org.uk",
+            "title": "nff.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.armedforcescovenant.gov.uk/covenant-legal-duty/armed-forces-covenant-duty-toolkit/the-armed-forces-covenant-legal-duty-extension-what-it-means-for-bodies-in-scope/",
+            "publisher": "armedforcescovenant.gov.uk",
+            "title": "armedforcescovenant.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Crucially, it does not mandate specific outcomes or preferential treatment, but rather seeks to ensure the Armed Forces community does not face disadvantage compared to other citizens due to their service",
+        "sources": [
+          {
+            "url": "https://nff.org.uk/expansion-of-the-armed-forces-covenant-legal-duty-announced/",
+            "publisher": "nff.org.uk",
+            "title": "nff.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.armedforcescovenant.gov.uk/covenant-legal-duty/armed-forces-covenant-duty-toolkit/the-armed-forces-covenant-legal-duty-extension-what-it-means-for-bodies-in-scope/",
+            "publisher": "armedforcescovenant.gov.uk",
+            "title": "armedforcescovenant.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.armedforcesnetwork.org/the-covenant/the-armed-forces-covenant/",
+            "publisher": "armedforcesnetwork.org",
+            "title": "armedforcesnetwork.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "They note it will create a \"consistent, system-wide approach,\" ensuring equitable access to support regardless of location or service required",
+        "sources": [
+          {
+            "url": "https://sharedintelligence.net/strengthening-support-for-the-armed-forces-community-how-the-expansion-of-the-armed-forces-covenant-duty-and-recent-research-can-drive-impact/",
+            "publisher": "sharedintelligence.net",
+            "title": "sharedintelligence.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The RAF Families Federation and Army Families Federation also consider the extension a \"huge step forward\" in ensuring the needs of the Armed Forces community are considered from the outset of policy development",
+        "sources": [
+          {
+            "url": "https://www.raf-ff.org.uk/expansion-of-the-armed-forces-covenant-legal-duty-announced/",
+            "publisher": "raf-ff.org.uk",
+            "title": "raf-ff.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://aff.org.uk/news/armed-forces-covenant-legal-duty-extension/",
+            "publisher": "aff.org.uk",
+            "title": "aff.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The House of Commons Library has provided detailed briefings outlining the evolution and implications of the Covenant's legal status",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9072/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "However, the policy's proponents emphasize that it signifies a cultural shift, moving the Covenant from a moral commitment to a \"practical, actionable framework\" underpinning everyday public service delivery",
+        "sources": [
+          {
+            "url": "https://sharedintelligence.net/strengthening-support-for-the-armed-forces-community-how-the-expansion-of-the-armed-forces-covenant-duty-and-recent-research-can-drive-impact/",
+            "publisher": "sharedintelligence.net",
+            "title": "sharedintelligence.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The condition of MOD housing has been a significant concern, directly impacting recruitment, retention, and the well-being of service personnel and their families",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/nov/06/nearly-a-third-of-uk-military-homes-need-repair-as-maintenance-backlog-grows",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/690878cdef26c341988b2558/The_Defence_Housing_Strategy_2025.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.twinfm.com/article/military-accommodation-unacceptable-says-defence-committee-report",
+            "publisher": "twinfm.com",
+            "title": "twinfm.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "**Specific Figures and Data:**\n*   In November 2022, nearly a third of 47,900 Service Family Accommodation (SFA) properties (around **13,900 homes**) were awaiting repairs",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/nov/06/nearly-a-third-of-uk-military-homes-need-repair-as-maintenance-backlog-grows",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, they have been plagued by issues such as IT failures, insufficient staffing, and slow response times",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/nov/06/nearly-a-third-of-uk-military-homes-need-repair-as-maintenance-backlog-grows",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/690878cdef26c341988b2558/The_Defence_Housing_Strategy_2025.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.twinfm.com/article/military-accommodation-unacceptable-says-defence-committee-report",
+            "publisher": "twinfm.com",
+            "title": "twinfm.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   In November 2022, the average response time for urgent repair requests was **four days**, significantly exceeding the contractual target of 48 hours",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   The MOD issued an \"unprecedented apology\" in September 2022 due to the major backlog of cases involving rot, broken doors, and leaking roofs",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/nov/06/nearly-a-third-of-uk-military-homes-need-repair-as-maintenance-backlog-grows",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   Satisfaction with the quality and responsiveness of maintenance and repair requests among service personnel was low, though it saw a slight increase from **19% in 2023 to just over a quarter (25%) in 2024**",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   Poor accommodation was cited by **29% of service personnel in 2023** as a factor influencing their decision to leave the forces",
+        "sources": [
+          {
+            "url": "https://www.twinfm.com/article/military-accommodation-unacceptable-says-defence-committee-report",
+            "publisher": "twinfm.com",
+            "title": "twinfm.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   The Defence Infrastructure Organisation (DIO) admitted \"losing control\" in the first year of the new contracts",
+        "sources": [
+          {
+            "url": "https://www.twinfm.com/article/military-accommodation-unacceptable-says-defence-committee-report",
+            "publisher": "twinfm.com",
+            "title": "twinfm.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Its Chief Executive, Michael Green, estimated in December 2024 that **two-thirds of SFA \"needs rebuilding\"** to meet modern standards",
+        "sources": [
+          {
+            "url": "https://www.twinfm.com/article/military-accommodation-unacceptable-says-defence-committee-report",
+            "publisher": "twinfm.com",
+            "title": "twinfm.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   The Strategic Defence Review (April 2025) committed an \"unprecedented **\u00a37 billion**\" for defence accommodation, including an additional **\u00a31.5 billion** to improve family homes",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/690878cdef26c341988b2558/The_Defence_Housing_Strategy_2025.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "This is supported by the Defence Housing Strategy's **\u00a39.2 billion** commitment to improve over 40,000 service family homes",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-review-of-single-living-accommodation-to-transform-military-housing-standards",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   Over the past three years (leading up to Jan 2026), **\u00a3244 million** has been spent on improvement works for SLA, with over **614,000 maintenance calls completed**, and **95% resolved within target timescales**",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/new-review-of-single-living-accommodation-to-transform-military-housing-standards",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**Credible Data and Analysts:**\n*   The **House of Commons Library** has extensively reported on the persistent issues with MOD housing maintenance, highlighting concerns from service families and the failures of the new contracts",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   The **Defence Committee** issued a report in December 2024, labelling military accommodation conditions as \"unacceptable,\" particularly concerning damp and mould, and stressing the need for major investment",
+        "sources": [
+          {
+            "url": "https://www.twinfm.com/article/military-accommodation-unacceptable-says-defence-committee-report",
+            "publisher": "twinfm.com",
+            "title": "twinfm.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   The **National Audit Office (NAO)** in 2018 also scrutinized MOD housing deals",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/nov/06/nearly-a-third-of-uk-military-homes-need-repair-as-maintenance-backlog-grows",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   The **Kerslake review (April 2024)**, commissioned by the Labour Party, expressed doubt regarding the MOD's \"Decent Homes\" standard ratings, stating they were \"hard to square with the lived experience of service personnel\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Despite the MOD reporting that 94.7% of SFA properties were rated as decent homes or decent+ in 2024, the Kerslake review suggests a discrepancy with the reality faced by families",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   The **Health Foundation**, referenced in a House of Commons Library briefing, has highlighted the broader link between poor housing conditions (damp, cold, mould) and negative health outcomes, estimating the cost to the NHS of treating those affected by poor housing as **\u00a31.4 billion per year**",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9414/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "While the MOD stated that 94.7% of SFA met \"decent homes\" standards in 2024, the Kerslake review, the Defence Committee, and numerous service families' complaints strongly challenge this, pointing to widespread issues of damp, mould, and unmet repair needs",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/nov/06/nearly-a-third-of-uk-military-homes-need-repair-as-maintenance-backlog-grows",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.twinfm.com/article/military-accommodation-unacceptable-says-defence-committee-report",
+            "publisher": "twinfm.com",
+            "title": "twinfm.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

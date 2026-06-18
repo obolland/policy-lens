@@ -1,0 +1,628 @@
+{
+  "policy_id": "ref-81-protect-country-sports",
+  "party": "Reform UK",
+  "policy_title": "Protect country sports",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Country sports already support rural jobs and economic activity, but a 'protect' commitment with no specific instrument, budget, or statutory duty is unlikely to add materially to what already exists. The main caveat is that we don't know what threat is being protected against, which determines whether any gain is real.",
+    "biggest_unknown": "What specific regulatory or legislative threat to country sports is being countered \u2014 without a credible counterfactual threat, 'protection' adds nothing to the current baseline.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to protecting country sports on the grounds they increase investment, boost rural jobs and communities, and aid conservation.",
+        "evidence_id": "M",
+        "quote": "Reform UK will protect country sports, stating that they increase investment, aid conservation, and boost rural jobs, communities, and local economies."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Shooting activities are estimated to generate the equivalent of 67,000 full-time jobs across the UK.",
+        "evidence_id": "E13",
+        "quote": "Shooting activities generate the equivalent of 67,000 full-time jobs across the UK"
+      },
+      {
+        "tier": "measurable",
+        "claim": "One industry-commissioned study estimated broader shooting activities generate \u00a39.3 billion of wider economic activity in the UK.",
+        "evidence_id": "E4",
+        "quote": "Broader shooting activities generate \u00a39.3 billion of wider economic activity in the UK"
+      },
+      {
+        "tier": "projected",
+        "claim": "A 2014 PACEC survey found shooting contributed \u00a32 billion to the UK economy and supported 74,000 full-time jobs, though this is now dated.",
+        "evidence_id": "E33",
+        "quote": "A 2014 independent survey by Public and Corporate Economic Consultants (PACEC) found that two million hectares were actively managed for shooting, contributing \u00a32 billion to the UK economy and supporting 74,000 full-time jobs"
+      }
+    ],
+    "rationale": "Country sports \u2014 primarily shooting, hunting, and fishing \u2014 do support measurable rural employment (67,000 full-time equivalent jobs per an industry-commissioned estimate) and supply-chain spending. These are real, existing economic flows. However, almost all quantified claims come from industry or advocacy sources (valueofshooting.co.uk, countryside-alliance.org), which must be treated with caution; no independent institutional analysis (OBR, IFS, ONS) specifically quantifies the country sports sector's contribution at national scale in the provided evidence.\n\nCritically, the policy verb is 'protect' \u2014 a soft commitment with no identified instrument, budget, statutory duty, or quantified target. Applying the soft-verb rule: without a specified mechanism or a credible threat being countered, 'protection' merely proposes to leave the status quo intact, not to expand it. There is no committed additional investment or reform that would grow rural employment or productivity above baseline. The counterfactual (no policy) plausibly looks identical unless there is an active regulatory threat \u2014 which the policy text does not identify and the evidence does not establish.\n\nThe economic activity attributed to country sports is real but already occurring; the policy's marginal effect on O13 \u2014 additional real living standards, productivity, or opportunity gains \u2014 is therefore negligible absent a specific mechanism to grow or defend against a demonstrated threat. The magnitude floor is not met for 'improves': the policy cannot plausibly move the O13 indicator at population scale via a pure 'protect' commitment. I rate the direction as negligible rather than 'improves/minor' to avoid the dustbin of well-intentioned but immaterial signals.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://valueofshooting.co.uk/wp-content/uploads/2024/05/The-Value-of-Shooting-2024-.pdf",
+        "publisher": "valueofshooting.co.uk",
+        "title": "valueofshooting.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.countryandtownhouse.com/culture/future-of-country-sports-in-britain/",
+        "publisher": "countryandtownhouse.com",
+        "title": "countryandtownhouse.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0404,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E13 and E4 are from valueofshooting.co.uk, an industry advocacy source. The claims are labelled as industry-commissioned in the rationale, but the tier is 'measurable' \u2014 these figures are not independently verified baselines. They should arguably be 'projected' or at minimum flagged as advocacy-sourced estimates, not treated as neutral measurable facts. The rationale does flag this caveat, which mitigates to a warning."
+        },
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "E33 (PACEC 2014 survey) is classified as 'projected' in claims, which is unusual for a past survey finding \u2014 it would normally be 'measurable'. The rationale notes it is dated, which is a reasonable basis for downgrading confidence, but the tier label is slightly non-standard. Low severity as it does not inflate the verdict."
+        }
+      ],
+      "notes": "The verdict is well-reasoned and appropriately cautious. The 'negligible' direction with 'minor' magnitude is internally consistent \u2014 the soft-verb rule is correctly applied. The biggest unknown is genuine and well-articulated. The main structural weakness is that industry advocacy figures (valueofshooting.co.uk) are cited at measurable tier without independent corroboration, but the rationale explicitly flags this limitation, which is sufficient for a warning rather than a block. No party-blind, false_balance, or lever_leakage issues detected."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will protect country sports, stating that they increase investment, aid conservation, and boost rural jobs, communities, and local economies.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's policy to \"Protect country sports\" is based on the premise that these activities increase investment, aid conservation, and boost rural jobs, communities, and local economies",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1d8trek/new_voting_intention_23_jun/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ucrel.lancs.ac.uk/wmatrix/ukmanifestos2024/text/ReformUK.txt",
+            "publisher": "ucrel.lancs.ac.uk",
+            "title": "lancs.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.mishcon.com/news/rural-views-on-the-reform-manifesto",
+            "publisher": "mishcon.com",
+            "title": "mishcon.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Economic Value:** Shooting alone is estimated to be worth \u00a32 billion to the UK economy",
+        "sources": [
+          {
+            "url": "https://www.countryside-alliance.org/hubfs/Imported_Blog_Media/FACE_Statement_EU-Brexit.pdf",
+            "publisher": "countryside-alliance.org",
+            "title": "countryside-alliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.countryandtownhouse.com/culture/future-of-country-sports-in-britain/",
+            "publisher": "countryandtownhouse.com",
+            "title": "countryandtownhouse.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "and generates \u00a33.3 billion annually in Gross Value Added (GVA) to the UK economy",
+        "sources": [
+          {
+            "url": "https://valueofshooting.co.uk/wp-content/uploads/2024/05/The-Value-of-Shooting-2024-.pdf",
+            "publisher": "valueofshooting.co.uk",
+            "title": "valueofshooting.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Broader shooting activities generate \u00a39.3 billion of wider economic activity in the UK",
+        "sources": [
+          {
+            "url": "https://valueofshooting.co.uk/wp-content/uploads/2024/05/The-Value-of-Shooting-2024-.pdf",
+            "publisher": "valueofshooting.co.uk",
+            "title": "valueofshooting.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Spending:** Participants in shooting are estimated to spend \u00a34.4 billion on their UK-based supply chain each year",
+        "sources": [
+          {
+            "url": "https://valueofshooting.co.uk/wp-content/uploads/2024/05/The-Value-of-Shooting-2024-.pdf",
+            "publisher": "valueofshooting.co.uk",
+            "title": "valueofshooting.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "In Scotland, the country sports tourism sector is estimated to be worth \u00a3155 million",
+        "sources": [
+          {
+            "url": "https://www.scottishlandandestates.co.uk/our-work/country-sports",
+            "publisher": "scottishlandandestates.co.uk",
+            "title": "scottishlandandestates.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Rural Areas:** New shoots have reportedly brought millions of pounds into deprived rural areas, boosting hotels, local services, and rural employment",
+        "sources": [
+          {
+            "url": "https://www.countryandtownhouse.com/culture/future-of-country-sports-in-britain/",
+            "publisher": "countryandtownhouse.com",
+            "title": "countryandtownhouse.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Habitat Management:** Around 7.6 million hectares of land in the UK are subject to habitat and wildlife management and other conservation work carried out as a result of shooting",
+        "sources": [
+          {
+            "url": "https://valueofshooting.co.uk/wp-content/uploads/2024/05/The-Value-of-Shooting-2024-.pdf",
+            "publisher": "valueofshooting.co.uk",
+            "title": "valueofshooting.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Sporting interests in Scotland spend \u00a343 million on habitat improvement, such as planting woodlands for gamebirds and creating wetland areas for wildfowl, as well as on wildlife management",
+        "sources": [
+          {
+            "url": "https://countrysportscotland.com/useful-information/conservation-and-country-sports/",
+            "publisher": "countrysportscotland.com",
+            "title": "countrysportscotland.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Gamekeepers control pest and predatory species like foxes, crows, stoats, and mink, which is crucial for the survival of ground-nesting birds such as curlew, golden plover, and snipe",
+        "sources": [
+          {
+            "url": "https://countrysportscotland.com/useful-information/conservation-and-country-sports/",
+            "publisher": "countrysportscotland.com",
+            "title": "countrysportscotland.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Deer management, often linked to sporting deer stalking, aims to protect the health of herds and environmental features, and to ensure native woodland regeneration",
+        "sources": [
+          {
+            "url": "https://www.scottishlandandestates.co.uk/our-work/country-sports",
+            "publisher": "scottishlandandestates.co.uk",
+            "title": "scottishlandandestates.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://countrysportscotland.com/useful-information/conservation-and-country-sports/",
+            "publisher": "countrysportscotland.com",
+            "title": "countrysportscotland.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **River and Loch Maintenance:** Sporting interests have also maintained the condition of many of Scotland's rivers and lochs, which are important for trout and salmon fishing, through ongoing management, restocking, improving riverbeds, reducing predation, and combating illegal fishing",
+        "sources": [
+          {
+            "url": "https://countrysportscotland.com/useful-information/conservation-and-country-sports/",
+            "publisher": "countrysportscotland.com",
+            "title": "countrysportscotland.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Employment Figures:** Shooting activities generate the equivalent of 67,000 full-time jobs across the UK",
+        "sources": [
+          {
+            "url": "https://valueofshooting.co.uk/wp-content/uploads/2024/05/The-Value-of-Shooting-2024-.pdf",
+            "publisher": "valueofshooting.co.uk",
+            "title": "valueofshooting.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "In Scotland, the sector provides 4,400 full-time equivalent jobs",
+        "sources": [
+          {
+            "url": "https://www.scottishlandandestates.co.uk/our-work/country-sports",
+            "publisher": "scottishlandandestates.co.uk",
+            "title": "scottishlandandestates.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Types of Roles:** These jobs include gamekeepers, deer stalkers, fishing ghillies, and lodge staff, as well as roles in estate maintenance, agriculture, and gardening",
+        "sources": [
+          {
+            "url": "https://www.ruralrecruits.co.uk/",
+            "publisher": "ruralrecruits.co.uk",
+            "title": "ruralrecruits.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Recruitment agencies specialize in filling these roles on sporting and country estates",
+        "sources": [
+          {
+            "url": "https://www.ruralrecruits.co.uk/",
+            "publisher": "ruralrecruits.co.uk",
+            "title": "ruralrecruits.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://jmosborne.co.uk/situations-vacant/",
+            "publisher": "jmosborne.co.uk",
+            "title": "jmosborne.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Social Cohesion:** Country sports, particularly hunting, are seen by some as providing \"social glue\" in many rural areas, fostering bonds of friendship",
+        "sources": [
+          {
+            "url": "https://www.nickherbert.com/news/2019/12/26/country-sports-are-a-major-force-for-rural-good",
+            "publisher": "nickherbert.com",
+            "title": "nickherbert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Cultural Heritage:** Hunting, fishing, and shooting are considered an important part of the cultural heritage of communities and landscapes across the UK and Europe",
+        "sources": [
+          {
+            "url": "https://www.countryside-alliance.org/hubfs/Imported_Blog_Media/FACE_Statement_EU-Brexit.pdf",
+            "publisher": "countryside-alliance.org",
+            "title": "countryside-alliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Office for National Statistics (ONS):** The ONS provides data on \"recreational and sporting services\" and sports engagement at the local authority level",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/sportsengagementbylocalauthoritydistrictladinengland",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ons.gov.uk/explore-local-statistics/indicators/sports-facilities",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ons.gov.uk/economy/nationalaccounts/satelliteaccounts/timeseries/adxd/ct",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "However, this data typically covers a wide range of sports and physical activities, not specifically \"country sports.\" In 2021, the broader sport sector contributed \u00a353.6 billion in direct Gross Value Added (GVA) to the UK economy, representing 2.6% of total UK GVA, and directly supported approximately 1.25 million jobs (3.9% of total UK employment)",
+        "sources": [
+          {
+            "url": "https://www.shu.ac.uk/news/all-articles/latest-news/economic-impact-of-sport",
+            "publisher": "shu.ac.uk",
+            "title": "shu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/sport-satellite-account-for-the-uk-2024-research-into-a-new-measure-for-estimating-the-value-of-sport/sport-satellite-account-for-the-uk-2024-key-findings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "For instance, in 2022, the sport sector (broadly defined) contributed \u00a318.1 billion to the economy and supported around 550,000 jobs, growing by 32.2% from 2010 to 2022",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "These reports often highlight the benefits of sport for physical and mental well-being, individual development, and social/community development",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5d027726ed915d0a7c17e172/Sector_Specific_Guidance__Sport.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "However, specific breakdowns for \"country sports\" are not detailed in the provided snippets",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/topic/home-affairs/culture-media-sport/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2019-0027/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8181/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Resolution Foundation:** This independent think tank focuses on improving the living standards of low- to middle-income families",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Resolution_Foundation",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Their work primarily addresses broader economic challenges like wage growth, low pay, and productivity",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Resolution_Foundation",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/mountain-climbing/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The provided search results do not contain specific analyses from the Resolution Foundation on country sports or their direct economic and social impacts",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/comment/its-time-to-scrap-the-triple-lock/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/to-everything-turn-turn-turn/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Office for Budget Responsibility (OBR):** The OBR provides independent and authoritative analysis of the UK's public finances and economic forecasts",
+        "sources": [
+          {
+            "url": "https://www.thenational.scot/news/25652131.obr-involved-budget-leak/",
+            "publisher": "thenational.scot",
+            "title": "thenational.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Their focus is on macroeconomics and the impact of government spending and tax decisions",
+        "sources": [
+          {
+            "url": "https://britishprogress.org/briefings/how-can-we-strengthen-the-obrs-forecasting",
+            "publisher": "britishprogress.org",
+            "title": "britishprogress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-march-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/obr-macroeconomic-model/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The provided information does not show any specific OBR analysis on the policy of protecting country sports",
+        "sources": [
+          {
+            "url": "https://obr.uk/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Health Foundation:** The Health Foundation is an independent charitable organization dedicated to building a healthier UK, focusing on physical and mental well-being and the healthcare system",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_Ir0pWlKGCsKJnCaaiaAr-odGpFag3Bdw8nw3oM4yHrH5Z1sw-U7VJePJYdJcYo9j9phgDNUhHZgIjuwRAY_bdUt8v1Z0tgQ53kxRnLmDKa-RPg7M",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "While sport in general is recognized for its positive impact on public health",
+        "sources": [
+          {
+            "url": "https://essexcountyhungerrelief.org/sports/understanding-the-impact-of-uk-sports-on-society.php",
+            "publisher": "essexcountyhungerrelief.org",
+            "title": "essexcountyhungerrelief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/contribution-of-sport-to-society-and-the-economy/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/contribution-sport-society-and-economy-particular-reference",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.who.int/initiatives/sports-and-health",
+            "publisher": "who.int",
+            "title": "who.int",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": ", there is no specific analysis from the Health Foundation on country sports in the provided results",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/get-involved/events-and-fundraising/sports-challenges",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Independent Research (e.g., PACEC):** A 2014 independent survey by Public and Corporate Economic Consultants (PACEC) found that two million hectares were actively managed for shooting, contributing \u00a32 billion to the UK economy and supporting 74,000 full-time jobs",
+        "sources": [
+          {
+            "url": "https://www.countryandtownhouse.com/culture/future-of-country-sports-in-britain/",
+            "publisher": "countryandtownhouse.com",
+            "title": "countryandtownhouse.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Social License:** Nick Herbert, a proponent of country sports, acknowledged in 2019 the need to \"comprehensively rebuilt\" the case for country sports, focusing on \"science, standards and social licence\"",
+        "sources": [
+          {
+            "url": "https://www.nickherbert.com/news/2019/12/26/country-sports-are-a-major-force-for-rural-good",
+            "publisher": "nickherbert.com",
+            "title": "nickherbert.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

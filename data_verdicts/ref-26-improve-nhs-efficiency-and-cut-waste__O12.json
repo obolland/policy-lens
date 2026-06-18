@@ -1,0 +1,880 @@
+{
+  "policy_id": "ref-26-improve-nhs-efficiency-and-cut-waste",
+  "party": "Reform UK",
+  "policy_title": "Improve NHS efficiency and cut waste",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This package of NHS efficiency measures could save some public money on procurement and missed appointments, but the net fiscal effect is genuinely unclear: weekend theatre expansion requires costly extra staffing, and the IFS says Reform UK's NHS cost-saving measures would likely save less than estimated. Without independent costings of the whole package, the bill to or saving for the public finances cannot be pinned down.",
+    "biggest_unknown": "Whether the staffing and implementation costs of weekend theatre expansion and rota reform exceed the savings from procurement, missed-appointment charges, and PFI reviews \u2014 no independent costing of the package as a whole is available.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy proposes negotiating better procurement prices, reviewing PFI contracts, charging missed-appointment non-attenders, and abolishing the NHS Race and Health Observatory as efficiency measures.",
+        "evidence_id": "M",
+        "quote": "negotiating better procurement prices, reviewing Private Finance Contracts, charging those who fail to attend appointments without notice, and abolishing the NHS Race and Health Observatory"
+      },
+      {
+        "tier": "measurable",
+        "claim": "NHS trusts spent over \u00a33 billion outside NHS Supply Chain in 2022-23, suggesting real procurement savings are available.",
+        "evidence_id": "E19",
+        "quote": "Trusts spent over \u00a33 billion outside NHS Supply Chain, the dedicated procurement route, in 2022-23"
+      },
+      {
+        "tier": "measurable",
+        "claim": "There is significant price variation: individual trusts paid up to \u00a3490 for a hip replacement stem versus \u00a3258 through NHS Supply Chain.",
+        "evidence_id": "E21",
+        "quote": "for a hip replacement stem, individual trusts paid up to \u00a3490, with a median price of \u00a3333, while NHS Supply Chain's price for the same product was \u00a3258"
+      },
+      {
+        "tier": "projected",
+        "claim": "PFI financing costs added substantially to capital costs for NHS schemes, according to some studies.",
+        "evidence_id": "E27",
+        "quote": "some studies finding these costs added an average of 39% to total capital costs for NHS PFI schemes"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Missed hospital appointments are estimated to cost the NHS \u00a3165 each, amounting to around \u00a31.2 billion annually.",
+        "evidence_id": "E35",
+        "quote": "Missed hospital appointments are estimated to cost the NHS \u00a3165 each, amounting to around \u00a31.2 billion annually"
+      },
+      {
+        "tier": "projected",
+        "claim": "Expanding weekend theatre capacity requires additional staffing costs; experts say motivated staff need appropriate remuneration and the involvement of entire teams including theatre practitioners and porters.",
+        "evidence_id": "E6",
+        "quote": "expanding weekend operating capacity requires motivated staff with appropriate remuneration and incentives, and the involvement of the entire team, including theatre practitioners, radiographers, and porters"
+      },
+      {
+        "tier": "projected",
+        "claim": "Charging for missed appointments may shift costs to emergency services rather than eliminate waste.",
+        "evidence_id": "E40",
+        "quote": "Charging could also lead to patients delaying seeking care until conditions become more serious and costly, or diverting costs to other parts of the system, such as emergency care"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS has noted that Reform UK's NHS cost-saving measures would likely save less than estimated.",
+        "evidence_id": "E51",
+        "quote": "some proposed cost-saving measures would likely save less than estimated"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Net fiscal effect of the full package: procurement and PFI savings versus additional staffing costs for weekend theatres and rota reform, and whether missed-appointment charges raise net revenue or simply shift costs.",
+      "estimate_range": "Procurement savings could reach hundreds of millions (NHS Supply Chain target is \u00a31 billion by 2030); weekend staffing uplift costs are unquantified; missed-appointment charge net revenue is contested. Overall net effect could range from a small saving to a net cost."
+    },
+    "rationale": "Several components of this policy point toward fiscal savings: the NAO has documented real procurement inefficiencies (trusts paying up to 90% more than NHS Supply Chain prices), PFI contracts impose costly obligations that a review could reduce, and missed hospital appointments represent around \u00a31.2 billion in annual waste. These are genuine fiscal levers. However, the counterweights are also significant. Weekend theatre expansion requires higher-paid weekend staffing across entire clinical teams \u2014 not just surgeons \u2014 and BMJ evidence is clear that remuneration and whole-team involvement are prerequisites. Without a costed staffing model, this component could be a net fiscal cost rather than a saving. The missed-appointment charging proposal faces administrative overhead costs and, on international evidence, may shift costs to more expensive emergency pathways rather than eliminate them. The IFS \u2014 the most relevant independent fiscal monitor in the evidence set \u2014 explicitly judged that Reform UK's NHS savings measures would deliver less than claimed. No independent end-to-end costing of the package exists in the evidence provided. The procurement and PFI components have credible savings potential, but whether they outweigh the costs of the operational changes cannot be established from the evidence available. This is a genuine crux: the answer turns on a parameter (net staffing cost of weekend expansion) that is unquantified in any provided source.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.nao.org.uk/press-releases/nhs-supply-chain-and-efficiencies-in-procurement/",
+        "publisher": "nao.org.uk",
+        "title": "nao.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSSIqXGCAYr4LL9oztBBUWm791K0cG05IpDhRgPEetExsAY6e4DNtXSOW21Yccq1po_jDItPO_tS6pFzAU79b1Cwj-pF4YjrzD8K-5aRYSAJ_Te0i2pewL8cO0JhYiRAgwP8guakvnj3Zx3o5AZXKVWp_Addnrye4wl5a8aO_hViIZPn075Ez9UBMqf1N4dmwgH34AzXAwYg==",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "parliament.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1123165/",
+        "publisher": "pmc.ncbi.nlm.nih.gov",
+        "title": "nih.gov",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.deep-medical.ai/cost-of-missed-nhs-appointments/",
+        "publisher": "deep-medical.ai",
+        "title": "deep-medical.ai",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.bmj.com/content/380/bmj.p384",
+        "publisher": "bmj.com",
+        "title": "bmj.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhMu68kuqD1YgGeOnQvheYIuTw4VKKSURebDz5WaLcwkM_1Hx5pDi3n7OMebHNFcP__PYTS51jPwnZ0k7JDDmLlaH5oxvFJzOU8WCAVQT7lOwmOQLE4RzDc0gP0sMQ",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "bjgp.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.oncall.news/p/should-patients-pay-for-missed-appointments",
+        "publisher": "oncall.news",
+        "title": "oncall.news",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/articles/reform-uk-manifesto-reaction",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1252,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 2,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-structured and the too-uncertain direction is genuinely supported by claims on both sides (savings potential vs. unquantified staffing costs). Tier assignments are appropriate: the missed-appointment cost figure (E35) is from deep-medical.ai, a commercial/media source, but it is used to establish the scale of the problem rather than as the sole basis for the verdict direction, so it does not rise to blocking. The IFS claim (E51) is accurately restated \u2014 the quote says 'some proposed cost-saving measures would likely save less than estimated' and the claim faithfully reflects this. No lever leakage, no party-blind issues, no motive attribution. The magnitude/time_horizon n/a fields are correctly applied to a too-uncertain direction. The crux parameter and estimate range are substantive rather than a lazy hedge. One minor note: E35 (deep-medical.ai) is a commercial source used to support a measurable claim about missed-appointment costs; ideally this would be corroborated by an institutional source, but it is not the sole or decisive basis for the verdict."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will improve NHS efficiency by opening operating theatres on weekends, planning rotas further in advance, negotiating better procurement prices, reviewing Private Finance Contracts, charging those who fail to attend appointments without notice, and abolishing the NHS Race and Health Observatory.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Opening Operating Theatres on Weekends**\nReform UK suggests opening operating theatres on weekends to improve efficiency",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "One Shropshire trust, by improving the efficiency of vacant theatres on Saturdays, saw an income increase of up to 20% by performing extra cases that couldn't be done during weekdays due to full capacity",
+        "sources": [
+          {
+            "url": "https://www.hsj.co.uk/leadership/weekend-surgery-just-got-safer/5067069.article",
+            "publisher": "hsj.co.uk",
+            "title": "hsj.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Research from the Dr Foster Intelligence Unit at Imperial College London, analysing over 4 million elective procedures from 2008-2011, found that the risk of death was 44% higher if a patient was operated on a Friday and 82% higher if operated on over the weekend",
+        "sources": [
+          {
+            "url": "https://www.hsj.co.uk/leadership/weekend-surgery-just-got-safer/5067069.article",
+            "publisher": "hsj.co.uk",
+            "title": "hsj.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This higher risk was observed despite patients often having better preoperative health and less complex procedures",
+        "sources": [
+          {
+            "url": "https://www.hsj.co.uk/leadership/weekend-surgery-just-got-safer/5067069.article",
+            "publisher": "hsj.co.uk",
+            "title": "hsj.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Other studies also indicate increased mortality risks for elective weekend admissions",
+        "sources": [
+          {
+            "url": "https://publishing.rcseng.ac.uk/action/cookieAbsent",
+            "publisher": "publishing.rcseng.ac.uk",
+            "title": "rcseng.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Experts suggest that expanding weekend operating capacity requires motivated staff with appropriate remuneration and incentives, and the involvement of the entire team, including theatre practitioners, radiographers, and porters",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/380/bmj.p384",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Without considering the requirements of all staff groups, planned elective theatre work might not proceed",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/380/bmj.p384",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The British Medical Association (BMA) has published suggested rate cards to standardise terms for weekend work",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/380/bmj.p384",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Furthermore, sharing already scarce resources at weekends could adversely affect emergency patient outcomes",
+        "sources": [
+          {
+            "url": "https://publishing.rcseng.ac.uk/action/cookieAbsent",
+            "publisher": "publishing.rcseng.ac.uk",
+            "title": "rcseng.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Planning Rotas Further in Advance**\nThe policy aims to improve staff morale and efficiency by planning rotas further in advance",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Current NHS organisations often struggle with staffing challenges due to outdated rota systems, including reliance on spreadsheets, leading to wasted hours on manual planning, last-minute changes, and high agency spending to fill gaps",
+        "sources": [
+          {
+            "url": "https://jms-one.uk/blog/view/transforming-nhs-staff-scheduling-how-jms-one-fixes-the-rotas-problem",
+            "publisher": "jms-one.uk",
+            "title": "jms-one.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "This can result in stressed staff and impact work-life balance",
+        "sources": [
+          {
+            "url": "https://jms-one.uk/blog/view/transforming-nhs-staff-scheduling-how-jms-one-fixes-the-rotas-problem",
+            "publisher": "jms-one.uk",
+            "title": "jms-one.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Advanced digital scheduling solutions, like those developed by STFC Hartree Centre with Alder Hey Children's NHS Foundation Trust, have shown benefits in reducing administrative workload for clinicians and providing more predictable patterns, supporting staff wellbeing, retention, and performance",
+        "sources": [
+          {
+            "url": "https://www.hartree.stfc.ac.uk/case-studies/2026/03/09/modernising-nhs-staffing-schedules-with-advanced-rota-optimisation/",
+            "publisher": "hartree.stfc.ac.uk",
+            "title": "stfc.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Annualised rotas, supported by the Royal College of Emergency Medicine, have transformed workforce management in Emergency Departments, allowing doctors more choice over shifts and improved work-life balance",
+        "sources": [
+          {
+            "url": "https://www.healthrota.co.uk/case-studies/eu-osha-validates-healthrotas-impact-on-nhs-rostering/",
+            "publisher": "healthrota.co.uk",
+            "title": "healthrota.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Surveys at UHSussex showed 67% of doctors found such rotas very beneficial professionally, and 73% reported a significant improvement in their overall quality of life, with the ability to plan personal time up to a year in advance",
+        "sources": [
+          {
+            "url": "https://www.healthrota.co.uk/case-studies/eu-osha-validates-healthrotas-impact-on-nhs-rostering/",
+            "publisher": "healthrota.co.uk",
+            "title": "healthrota.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "NHS England has also committed to working with employers to release rota schedules earlier, recommending work schedules at least eight weeks in advance and finalised rosters six weeks in advance for doctors in training",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRYRWEFDbdzc2NsSnPAq6Egm4SiWotGTMrvhbWHagqhfuQMPARu5PabpoplA2OA6acponZoxEiXXhCqEWtumQsnTDAel8TSG0eWNbb-xNuU8_TaS-fI_mRlJZW1IKLDBl91js=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Negotiating Better Procurement Prices**\nReform UK intends to negotiate better procurement prices, leveraging economies of scale",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The National Audit Office (NAO) reported in January 2024 that the NHS is not fully utilising its spending power to save money on medical equipment and consumables",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/nhs-supply-chain-and-efficiencies-in-procurement/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmpubacc/453/summary.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Trusts spent over \u00a33 billion outside NHS Supply Chain, the dedicated procurement route, in 2022-23",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/nhs-supply-chain-and-efficiencies-in-procurement/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Customer satisfaction with NHS Supply Chain has declined, from a peak of 67% in 2021-22 to 54% in 2023-24, with over two-thirds of trusts purchasing elsewhere due to limited availability",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmpubacc/453/summary.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "There is significant variation in prices paid by trusts; for example, for a hip replacement stem, individual trusts paid up to \u00a3490, with a median price of \u00a3333, while NHS Supply Chain's price for the same product was \u00a3258",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/nhs-supply-chain-and-efficiencies-in-procurement/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "NHS Supply Chain aims to achieve \u00a31 billion in savings from January 2022 to 2030 (\u00a3500 million by 2026), though a reliable baseline for previous savings has been lacking",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/press-releases/nhs-supply-chain-and-efficiencies-in-procurement/",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Public Policy Projects (PPP) highlights that current budgeting structures, siloed decision-making, and inconsistent definitions of \"value\" are key barriers to adopting value-based procurement, which could revolutionise NHS care by focusing on long-term outcomes over short-term cost-cutting",
+        "sources": [
+          {
+            "url": "https://publicpolicyprojects.com/value-based-procurement-offers-transformative-opportunities-for-nhs-but-cultural-and-financial-reform-essential-for-success/",
+            "publisher": "publicpolicyprojects.com",
+            "title": "publicpolicyprojects.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "NHS England has developed a single procurement value and savings methodology to encourage consistent reporting of efficiencies across organisations",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/nhs-commercial/central-commercial-function-ccf/value-and-savings-methodology/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "PFI was introduced to finance the building, maintenance, and operation of new NHS hospitals, with trusts making annual payments to private consortia",
+        "sources": [
+          {
+            "url": "https://www.chpi.org.uk/private-finance-initiative",
+            "publisher": "chpi.org.uk",
+            "title": "chpi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Centre for Health and the Public Interest (CHPI) reports that PFI companies have made substantial profits, with 99 NHS PFI companies recording \u00a31.9 billion in pre-tax profits between 2004 and 2021, and paying out \u00a31.07 billion in dividends to shareholders",
+        "sources": [
+          {
+            "url": "https://www.chpi.org.uk/private-finance-initiative",
+            "publisher": "chpi.org.uk",
+            "title": "chpi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "PFI projects often incur higher financing costs than public debt, with some studies finding these costs added an average of 39% to total capital costs for NHS PFI schemes",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSSIqXGCAYr4LL9oztBBUWm791K0cG05IpDhRgPEetExsAY6e4DNtXSOW21Yccq1po_jDItPO_tS6pFzAU79b1Cwj-pF4YjrzD8K-5aRYSAJ_Te0i2pewL8cO0JhYiRAgwP8guakvnj3Zx3o5AZXKVWp_Addnrye4wl5a8aO_hViIZPn075Ez9UBMqf1N4dmwgH34AzXAwYg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1123165/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "These contracts are problematic as trusts must pay the PFI company regardless of their financial position, sometimes spending more on PFI schemes than on patient drugs",
+        "sources": [
+          {
+            "url": "https://www.chpi.org.uk/private-finance-initiative",
+            "publisher": "chpi.org.uk",
+            "title": "chpi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Critics, such as Allyson Pollock, argue that PFI is an expensive way to build capacity, often reducing hospital beds and forcing a transfer of resources from clinical care to financial obligations",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1123165/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.soas.ac.uk/sites/default/files/2022-10/economics-swp001.pdf",
+            "publisher": "soas.ac.uk",
+            "title": "soas.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The King's Fund notes that PFI contracts have been controversial since their inception, with concerns escalating as some of the initial 25-30 year contracts begin to end, leading to \"toxic\" relationships and disputes over exit arrangements",
+        "sources": [
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/blogs/unhealthy-end-looms-private-finance-initiative",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The government abandoned the use of PFI in 2018 but still needs private investment",
+        "sources": [
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/blogs/unhealthy-end-looms-private-finance-initiative",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Options for policymakers to address PFI issues include centralising PFI debt, taxing company profits, enforcing contracts more rigorously, or buying out schemes",
+        "sources": [
+          {
+            "url": "https://www.chpi.org.uk/private-finance-initiative",
+            "publisher": "chpi.org.uk",
+            "title": "chpi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Charging Those Who Fail to Attend Appointments Without Notice**\nReform UK proposes charging patients who fail to attend appointments without notice",
+        "sources": [
+          {
+            "url": "https://keepournhspublic.com/reform-uk-a-clear-threat-to-our-nhs-and-the-health-of-the-nation/",
+            "publisher": "keepournhspublic.com",
+            "title": "keepournhspublic.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Each missed GP appointment costs an average of \u00a330, totalling almost \u00a3450 million annually for over 15 million missed general practice appointments",
+        "sources": [
+          {
+            "url": "https://www.patientclaimline.com/expert-information/the-cost-of-missed-gp-appointments-for-the-nhs/",
+            "publisher": "patientclaimline.com",
+            "title": "patientclaimline.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Missed hospital appointments are estimated to cost the NHS \u00a3165 each, amounting to around \u00a31.2 billion annually",
+        "sources": [
+          {
+            "url": "https://www.deep-medical.ai/cost-of-missed-nhs-appointments/",
+            "publisher": "deep-medical.ai",
+            "title": "deep-medical.ai",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Proponents argue that charges could act as a deterrent and encourage personal responsibility",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/351/bmj.h3663",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "Jeremy Hunt, a former health secretary, expressed no \"problem in principle\" with charging, highlighting that missed appointments cost the NHS nearly \u00a31 billion a year",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/351/bmj.h3663",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The British Journal of General Practice highlights that flat-rate user fees could create a financial barrier for low-income groups, potentially increasing health inequalities",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhMu68kuqD1YgGeOnQvheYIuTw4VKKSURebDz5WaLcwkM_1Hx5pDi3n7OMebHNFcP__PYTS51jPwnZ0k7JDDmLlaH5oxvFJzOU8WCAVQT7lOwmOQLE4RzDc0gP0sMQ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bjgp.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "In Ireland, after implementing primary care user fees, low and middle-income individuals were five times more likely to forgo appointments than wealthier patients",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhMu68kuqD1YgGeOnQvheYIuTw4VKKSURebDz5WaLcwkM_1Hx5pDi3n7OMebHNFcP__PYTS51jPwnZ0k7JDDmLlaH5oxvFJzOU8WCAVQT7lOwmOQLE4RzDc0gP0sMQ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bjgp.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Charging could also lead to patients delaying seeking care until conditions become more serious and costly, or diverting costs to other parts of the system, such as emergency care",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhMu68kuqD1YgGeOnQvheYIuTw4VKKSURebDz5WaLcwkM_1Hx5pDi3n7OMebHNFcP__PYTS51jPwnZ0k7JDDmLlaH5oxvFJzOU8WCAVQT7lOwmOQLE4RzDc0gP0sMQ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "bjgp.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oncall.news/p/should-patients-pay-for-missed-appointments",
+            "publisher": "oncall.news",
+            "title": "oncall.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "Practical difficulties in administration and the potential for increased bureaucracy for already stretched GP teams are also cited",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/351/bmj.h3663",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "Experts note that missed appointments often stem from social, economic, and communication barriers, rather than deliberate intent, and penalising vulnerable groups could be problematic",
+        "sources": [
+          {
+            "url": "https://www.patientclaimline.com/expert-information/the-cost-of-missed-gp-appointments-for-the-nhs/",
+            "publisher": "patientclaimline.com",
+            "title": "patientclaimline.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oncall.news/p/should-patients-pay-for-missed-appointments",
+            "publisher": "oncall.news",
+            "title": "oncall.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "The idea of fining patients for missed appointments has been floated by previous governments but quickly dropped, partly due to concerns about deterring necessary healthcare access",
+        "sources": [
+          {
+            "url": "https://www.oncall.news/p/should-patients-pay-for-missed-appointments",
+            "publisher": "oncall.news",
+            "title": "oncall.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "The Observatory was established by NHS England in April 2021 to identify and tackle ethnic inequities in health and care, facilitate research, make policy recommendations, and drive transformational change",
+        "sources": [
+          {
+            "url": "https://nhsrho.org/",
+            "publisher": "nhsrho.org",
+            "title": "nhsrho.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://thenhsalliance.org/nhs-race-and-health-observatory",
+            "publisher": "thenhsalliance.org",
+            "title": "thenhsalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12038093/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.england.nhs.uk/long-read/annual-report-on-nhs-englands-work-on-healthcare-inequalities-and-the-nhs-race-and-health-observatory/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "Its mission is to ensure racial equity within health and care systems",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/annual-report-on-nhs-englands-work-on-healthcare-inequalities-and-the-nhs-race-and-health-observatory/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "The Observatory has published and overseen work across areas such as maternity and neonatal health, mental health, sickle cell disease, and genomics, making recommendations for policy and practice",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/annual-report-on-nhs-englands-work-on-healthcare-inequalities-and-the-nhs-race-and-health-observatory/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E47",
+        "snippet": "It has also directly contributed to government policy discussions, including on the Major Conditions Strategy and the public inquiry into COVID-19, which disproportionately affected ethnic minority communities",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/annual-report-on-nhs-englands-work-on-healthcare-inequalities-and-the-nhs-race-and-health-observatory/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E48",
+        "snippet": "Its work focuses on providing evidence-based recommendations to improve health outcomes and combat discriminatory practices",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12038093/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E49",
+        "snippet": "This could be seen as a step back in addressing institutional racism within the health and care system, which experts acknowledge exists and negatively impacts health outcomes for ethnic minority people",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/149029/pdf",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12038093/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E50",
+        "snippet": "The failure to address reproductive inequities, for example, has real costs for the economy and impacts the lives of ethnic minority women",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/149029/pdf",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E51",
+        "snippet": "### Overall Expert Disagreement and Context:\nThe Institute for Fiscal Studies (IFS) has commented on Reform UK's broader spending plans, noting that some proposed cost-saving measures would likely save less than estimated",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/reform-uk-manifesto-reaction",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E52",
+        "snippet": "While Reform UK pledges \u00a317 billion per year in healthcare-related spending, the IFS suggests this would not be nearly enough to meet ambitious commitments like eliminating waiting lists within two years, a feat not achieved in NHS history",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=WJSDqGdvnDA",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/reform-uk-manifesto-reaction",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E53",
+        "snippet": "Some analyses suggest Reform UK's healthcare plans might involve channelling public money towards private healthcare, rather than directly investing in the NHS, despite pledges to keep care \"free at the point of use\"",
+        "sources": [
+          {
+            "url": "https://bylinetimes.com/2026/03/30/reform-uk-promised-17-billion-in-new-healthcare-spending-but-none-of-it-is-for-the-nhs/",
+            "publisher": "bylinetimes.com",
+            "title": "bylinetimes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E54",
+        "snippet": "Public sentiment on NHS reform shows a mix of optimism about reducing waste and bureaucracy (47% hopeful) but also concerns about job losses, service disruption (41% concerned), and increased political interference (33% concerned)",
+        "sources": [
+          {
+            "url": "https://business.pureprofile.com/nhs-reform-how-brits-view-the-changes/",
+            "publisher": "business.pureprofile.com",
+            "title": "pureprofile.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E55",
+        "snippet": "The House of Commons Library also highlights that NHS productivity is 5-11% lower now than it was in 2019/20, underscoring the challenge of achieving significant efficiency gains",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10313/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

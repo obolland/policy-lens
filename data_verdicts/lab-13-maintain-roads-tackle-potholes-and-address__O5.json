@@ -1,0 +1,701 @@
+{
+  "policy_id": "lab-13-maintain-roads-tackle-potholes-and-address",
+  "party": "Labour",
+  "policy_title": "Maintain Roads, Tackle Potholes, and Address Car Insurance Costs",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "n/a",
+    "confidence": "high",
+    "plain": "This policy is about road repairs and car insurance costs \u2014 it does not touch crime, policing, the justice system, or national security. Its effect on O5 is negligible.",
+    "biggest_unknown": "Whether improved road surfaces might marginally reduce emergency-service response times is theoretically possible but wholly unaddressed by the evidence provided.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to fixing an additional one million potholes annually and working to tackle car insurance costs.",
+        "evidence_id": "M",
+        "quote": "Labour commits to maintaining and renewing the UK's road network, fixing an additional one million potholes across England annually by deferring the A27 bypass. The party will also work to tackle the soaring cost of car insurance for drivers."
+      }
+    ],
+    "rationale": "O5 covers crime rates, antisocial behaviour, charge and conviction times, court backlogs, and national security posture. This policy addresses road surface condition and motor insurance premiums \u2014 neither of which connects to any O5 indicator. The evidence units provided confirm the policy's scope is road maintenance and insurance affordability; none of them discuss crime, policing, the justice system, or defence. There is no mechanism by which pothole repair or insurance regulation materially moves any O5 indicator at population scale. The direction is therefore negligible.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0306,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is clean. Direction 'negligible' with magnitude 'minor' and time_horizon 'n/a' is technically inconsistent with the schema rule (n/a must not appear unless direction is too-uncertain), but the verdict uses 'negligible' not 'too-uncertain'. However, 'n/a' for time_horizon on a 'negligible' direction is a borderline warning \u2014 if the policy has any effect at all (even minor), a time horizon should be stated. That said, the single claim is correctly tiered, the quote entails the claim, the rationale correctly identifies no O5 mechanism, and no lever leakage, party bias, or false balance issues are present. Flagging time_horizon as a warning only."
+    },
+    "gate": {
+      "kept": 1,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour commits to maintaining and renewing the UK's road network, fixing an additional one million potholes across England annually by deferring the A27 bypass. The party will also work to tackle the soaring cost of car insurance for drivers.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Only 51% of local roads are reported to be in good condition.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj3diUDZj2bRVyYSylq7Q-y00uqp_V3unm_lODolgTPQ9qa8z_XNaiW7lTYk_JwcEIYpSvFxb3SccK2xMTYT4TnKhTPwvZyHPZr_RcLI1nRZq93JgcM3sNQflpHqLeE15k88kRTrNIX9ClNb1fX3LxMhILFk517chVnGr3fLw1wuo_PvlnR87gBrR3pPON4Y-yusFI4sguWb5mBh4zBpsx5GqPmb1_JHE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The estimated cost to bring local roads in England and Wales up to scratch has reached a record \u00a318.6 billion, and the Asphalt Industry Alliance (AIA) estimates it would take 12 years to complete this backlog.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj3diUDZj2bRVyYSylq7Q-y00uqp_V3unm_lODolgTPQ9qa8z_XNaiW7lTYk_JwcEIYpSvFxb3SccK2xMTYT4TnKhTPwvZyHPZr_RcLI1nRZq93JgcM3sNQflpHqLeE15k88kRTrNIX9ClNb1fX3LxMhILFk517chVnGr3fLw1wuo_PvlnR87gBrR3pPON4Y-yusFI4sguWb5mBh4zBpsx5GqPmb1_JHE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rac.co.uk/drive/news/motoring-news/potholes-will-cost-18bn-to-fix/",
+            "publisher": "rac.co.uk",
+            "title": "rac.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Derbyshire, Richmond upon Thames, Wandsworth, and Merton are among the areas in England with the worst road conditions.",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/potholes-uk-worst-councils-derbyshire-london-b2994647.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "A survey by Hagerty found that 98% of UK drivers believe roads are in disrepair, and 73% have experienced vehicle damage due to potholes.",
+        "sources": [
+          {
+            "url": "https://www.hagerty.co.uk/articles/uk-potholes-put-drivers-off/",
+            "publisher": "hagerty.co.uk",
+            "title": "hagerty.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Pothole-related breakdowns increased by 25% between July and September 2025 compared to the same period in 2024, according to RAC data.",
+        "sources": [
+          {
+            "url": "https://pegasuscouriers.co.uk/2025/11/pothole-uk-index-for-roads/",
+            "publisher": "pegasuscouriers.co.uk",
+            "title": "pegasuscouriers.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "**Likely Real-World Effects of the Policy:**\n*   **Increased Pothole Repairs:** Labour pledges to fix an additional one million potholes annually across England.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/world/article/2024/jun/12/well-fix-1-million-potholes-a-year-and-end-tory-neglect-of-roads-say-labour",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.themj.co.uk/labour-pledges-fix-million-potholes",
+            "publisher": "themj.co.uk",
+            "title": "themj.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This would contribute to addressing the estimated one million potholes drivers encounter each year.",
+        "sources": [
+          {
+            "url": "https://pegasuscouriers.co.uk/2025/11/pothole-uk-index-for-roads/",
+            "publisher": "pegasuscouriers.co.uk",
+            "title": "pegasuscouriers.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Funding Source and Adequacy:** The \u00a3320 million for pothole repairs will be funded by deferring the planned A27 bypass.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/world/article/2024/jun/12/well-fix-1-million-potholes-a-year-and-end-tory-neglect-of-roads-say-labour",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.themj.co.uk/labour-pledges-fix-million-potholes",
+            "publisher": "themj.co.uk",
+            "title": "themj.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.constructionenquirer.com/2024/06/14/labour-to-mothball-320m-a27-job-to-fix-potholes/",
+            "publisher": "constructionenquirer.com",
+            "title": "constructionenquirer.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "While this investment is welcomed, the RAC suggests that this amount \"simply doesn't scratch the surface of the problem,\" given the estimated \u00a318.6 billion backlog in road repairs.",
+        "sources": [
+          {
+            "url": "https://media.rac.co.uk/government-scraps-unaffordable-a27-arundel-bypass-rac-comment-486539",
+            "publisher": "media.rac.co.uk",
+            "title": "rac.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The deferral of the A27 bypass has been described as \"poor value for money\" for the bypass project itself but may offer relief to local campaigners in areas like Walberton, Fontwell, and Binsted.",
+        "sources": [
+          {
+            "url": "https://www.constructionenquirer.com/2024/06/14/labour-to-mothball-320m-a27-job-to-fix-potholes/",
+            "publisher": "constructionenquirer.com",
+            "title": "constructionenquirer.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sussexbylines.co.uk/news/environment/could-a-manifesto-potholes-pledge-finally-derail-a27-plans/",
+            "publisher": "sussexbylines.co.uk",
+            "title": "sussexbylines.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Economic and Safety Benefits:** Improved road maintenance offers significant benefits including enhanced safety, improved journey reliability, and environmental advantages.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2024/07/condition-and-maintenance-of-local-roads-in-england-report.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.racfoundation.org/assets/rac_foundation/content/downloadables/economics_of_road_maintenance-gould_et_al-june_2013.pdf",
+            "publisher": "racfoundation.org",
+            "title": "racfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Poorly maintained roads contribute to vehicle damage, costing UK drivers an estimated \u00a3579 million yearly in repairs, with an average pothole damage claim costing \u00a33,863 according to insurer Aviva.",
+        "sources": [
+          {
+            "url": "https://totalsurfacingsolutions.co.uk/pothole-repair-costs-in-the-uk/",
+            "publisher": "totalsurfacingsolutions.co.uk",
+            "title": "totalsurfacingsolutions.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/potholes-uk-worst-councils-derbyshire-london-b2994647.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/world/article/2024/jun/12/well-fix-1-million-potholes-a-year-and-end-tory-neglect-of-roads-say-labour",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Planned preventative maintenance is significantly more cost-effective than reactive repairs, costing as little as \u00a32 per square meter for surface dressing compared to \u00a357 per square meter for reactive pothole repair, or an average of \u00a345.83 for a planned repair versus \u00a371.40 for a reactive one.",
+        "sources": [
+          {
+            "url": "https://www.outco.co.uk/save-time-and-money-understand-the-true-cost-of-pothole-repairs/",
+            "publisher": "outco.co.uk",
+            "title": "outco.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rsta-uk.org/the-case-for-road-maintenance",
+            "publisher": "rsta-uk.org",
+            "title": "rsta-uk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/publications/improving-highways-maintenance-productivity",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Expert Commentary:**\n    *   The **Asphalt Industry Alliance (AIA)** consistently highlights the \"national disgrace\" of deteriorating local roads and the growing backlog of repairs, noting that extra investment has \"failed to deliver noticeable improvements\" previously.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj3diUDZj2bRVyYSylq7Q-y00uqp_V3unm_lODolgTPQ9qa8z_XNaiW7lTYk_JwcEIYpSvFxb3SccK2xMTYT4TnKhTPwvZyHPZr_RcLI1nRZq93JgcM3sNQflpHqLeE15k88kRTrNIX9ClNb1fX3LxMhILFk517chVnGr3fLw1wuo_PvlnR87gBrR3pPON4Y-yusFI4sguWb5mBh4zBpsx5GqPmb1_JHE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   The **House of Commons Library** notes ongoing concerns about the condition of the local road network and the increasing cost of repairs.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9975/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   The **National Audit Office (NAO)** indicated in 2024 that while Department for Transport (DfT) funds could deliver \u00a37 of benefits for every \u00a31 spent, data limitations hinder a full understanding of the actual benefits delivered.",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2024/07/condition-and-maintenance-of-local-roads-in-england-report.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   The **Local Government Association (LGA)** emphasizes that road maintenance is a top cause of resident dissatisfaction (59% dissatisfied in October 2024 polling) and advocates for increased, long-term funding.",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/publications/improving-highways-maintenance-productivity",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Current Trends and Drivers of Costs:**\nCar insurance premiums reached record highs at the end of 2023, peaking at an average of \u00a3995.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn0qxZyaaPdiC7rKQR48gAv0-DqjxasKMO_O5yvW45aMrVGeVz6LRifj6jgp6CUq5T0ZuZYtDjczkjVuzTYHbqjYJJB3uZ4Q9GhRYmN9JxE18SJQFU1D3KxNVWo-YI86ByV9XGPGzl4y2u0AC4AYRVeOMc2y7105O2dLS0gGQ-x4eg9eIvu1Lk8gSYo6Nvg53l5el3wklhhW9x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "wtwco.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.confused.com/compare-car-insurance/guides/has-car-insurance-gone-up",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "As of March 2026, the average cost of comprehensive car insurance in the UK was \u00a3711, a 9% (\u00a366) decrease over the preceding 12 months.",
+        "sources": [
+          {
+            "url": "https://www.confused.com/compare-car-insurance/average-car-insurance-cost-uk",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn0qxZyaaPdiC7rKQR48gAv0-DqjxasKMO_O5yvW45aMrVGeVz6LRifj6jgp6CUq5T0ZuZYtDjczkjVuzTYHbqjYJJB3uZ4Q9GhRYmN9JxE18SJQFU1D3KxNVWo-YI86ByV9XGPGzl4y2u0AC4AYRVeOMc2y7105O2dLS0gGQ-x4eg9eIvu1Lk8gSYo6Nvg53l5el3wklhhW9x",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "wtwco.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.confused.com/compare-car-insurance/guides/has-car-insurance-gone-up",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Other data points from early 2026 show average premiums between \u00a3527 and \u00a3560.",
+        "sources": [
+          {
+            "url": "https://www.which.co.uk/news/article/whats-happening-to-car-insurance-premiums-arTnq0Z643Yh",
+            "publisher": "which.co.uk",
+            "title": "which.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1SFIYKUSCMxGl874lImC2Ab9kb_YQ2urY7Mq-cI_Tnhw2yQsGSF66lFA63ipZA0K24fd-h7ul19ebya7nbrpvcWqvGbHQ_HmxsFIhvpx0BJWi2VSw6Qz4jC-_ZD9mewsDrW6vYndTR8e9nh1k_LlCZo-TJE1c-rckXsXFl536hBjZjw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "moneysupermarket.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.uswitch.com/car-insurance/guides/factors-affecting-car-insurance/",
+            "publisher": "uswitch.com",
+            "title": "uswitch.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Despite the average fall, 39% of drivers still experienced a rise in their renewal price.",
+        "sources": [
+          {
+            "url": "https://www.confused.com/compare-car-insurance/guides/has-car-insurance-gone-up",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Key factors driving car insurance costs include:\n*   **Age:** Younger drivers (e.g., 17-year-olds paying \u00a31,741 on average) face significantly higher premiums due to higher perceived risk.",
+        "sources": [
+          {
+            "url": "https://www.confused.com/compare-car-insurance/average-car-insurance-cost-uk",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gocompare.com/car-insurance/guide/how-much-does-car-insurance-cost/",
+            "publisher": "gocompare.com",
+            "title": "gocompare.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.confused.com/compare-car-insurance/guides/has-car-insurance-gone-up",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.moneyhelper.org.uk/en/blog/car-insurance/what-is-the-average-cost-of-car-insurance",
+            "publisher": "moneyhelper.org.uk",
+            "title": "moneyhelper.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.uswitch.com/car-insurance/guides/factors-affecting-car-insurance/",
+            "publisher": "uswitch.com",
+            "title": "uswitch.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Location:** Inner London remains the most expensive region, with average premiums of \u00a31,093, while the South West is the cheapest at \u00a3492.",
+        "sources": [
+          {
+            "url": "https://www.confused.com/compare-car-insurance/average-car-insurance-cost-uk",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gocompare.com/car-insurance/guide/how-much-does-car-insurance-cost/",
+            "publisher": "gocompare.com",
+            "title": "gocompare.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1SFIYKUSCMxGl874lImC2Ab9kb_YQ2urY7Mq-cI_Tnhw2yQsGSF66lFA63ipZA0K24fd-h7ul19ebya7nbrpvcWqvGbHQ_HmxsFIhvpx0BJWi2VSw6Qz4jC-_ZD9mewsDrW6vYndTR8e9nh1k_LlCZo-TJE1c-rckXsXFl536hBjZjw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "moneysupermarket.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Claims and Repair Costs:** Rising costs for vehicle repairs and an increase in theft claims are major contributors to high premiums.",
+        "sources": [
+          {
+            "url": "https://www.which.co.uk/news/article/whats-happening-to-car-insurance-premiums-arTnq0Z643Yh",
+            "publisher": "which.co.uk",
+            "title": "which.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.moneyhelper.org.uk/en/blog/car-insurance/what-is-the-average-cost-of-car-insurance",
+            "publisher": "moneyhelper.org.uk",
+            "title": "moneyhelper.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.abi.org.uk/globalassets/files/subject/public/motor/2024/motor-insurance-affordability-roadmap.pdf",
+            "publisher": "abi.org.uk",
+            "title": "abi.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/motor-insurance-taskforce-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Modern cars, with their complex systems, are more expensive to repair.",
+        "sources": [
+          {
+            "url": "https://www.moneyhelper.org.uk/en/blog/car-insurance/what-is-the-average-cost-of-car-insurance",
+            "publisher": "moneyhelper.org.uk",
+            "title": "moneyhelper.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Insurance Premium Tax (IPT):** This tax adds an average of \u00a367 to motor policies.",
+        "sources": [
+          {
+            "url": "https://www.abi.org.uk/globalassets/files/subject/public/motor/2024/motor-insurance-affordability-roadmap.pdf",
+            "publisher": "abi.org.uk",
+            "title": "abi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Fraud and Uninsured Driving:** These issues increase costs for law-abiding drivers.",
+        "sources": [
+          {
+            "url": "https://www.abi.org.uk/globalassets/files/subject/public/motor/2024/motor-insurance-affordability-roadmap.pdf",
+            "publisher": "abi.org.uk",
+            "title": "abi.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.letstalkfleet.co.uk/news/what-is-the-uk-government-motor-insurance-taskforce",
+            "publisher": "letstalkfleet.co.uk",
+            "title": "letstalkfleet.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "**Likely Real-World Effects of the Policy:**\nLabour's commitment to \"calling in regulators to crack down on the causes of the rises\" aims to directly address the factors pushing up premiums.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/world/article/2024/jun/12/well-fix-1-million-potholes-a-year-and-end-tory-neglect-of-roads-say-labour",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Expert Commentary and Policy Recommendations:**\n    *   The **House of Commons Library** noted a significant divergence between UK and EU car insurance inflation rates, with the UK's rising 82% between May 2021 and June 2024, compared to 19% in the EU over the same period.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/the-rising-cost-of-uk-car-insurance/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theargus.co.uk/news/national/uk-today/23689657.brits-warned-skyrocketing-car-insurance-costs/",
+            "publisher": "theargus.co.uk",
+            "title": "theargus.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They also highlighted that industry statistics (based on actual payments) showed lower price rises (45%) than the Office for National Statistics' (ONS) quote-based data (82%).",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/the-rising-cost-of-uk-car-insurance/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   The **Resolution Foundation** and **Fair By Design** highlight a \"poverty premium\" where low-income households can pay over \u00a3300 extra annually for car insurance, a figure that increases to nearly \u00a3400 if they pay monthly.",
+        "sources": [
+          {
+            "url": "https://assets.ctfassets.net/mfz4nbgura3g/23PFIw4fvu3jyicTOgF1wa/2b84c7f6157684df71a9934420fe1ff9/Driven_Apart_-_The_unequal_impacts_of_high_car_insurance_costs.pdf",
+            "publisher": "assets.ctfassets.net",
+            "title": "ctfassets.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairbydesign.com/wp-content/uploads/Driving-Change-Policy-Ideas-to-Tackle-the-Car-Insurance-Poverty-Premium-V2-1.pdf",
+            "publisher": "fairbydesign.com",
+            "title": "fairbydesign.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Their research also indicates that people of colour in debt pay significantly more (\u00a3451 above the national average) compared to white people in debt (\u00a3144 above the national average).",
+        "sources": [
+          {
+            "url": "https://assets.ctfassets.net/mfz4nbgura3g/23PFIw4fvu3jyicTOgF1wa/2b84c7f6157684df71a9934420fe1ff9/Driven_Apart_-_The_unequal_impacts_of_high_car_insurance_costs.pdf",
+            "publisher": "assets.ctfassets.net",
+            "title": "ctfassets.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "They advocate for the Competition and Markets Authority (CMA) to investigate potential market failures or unfair pricing practices and for the Motor Insurance Taskforce to identify and reduce risk factors impacting low-income drivers.",
+        "sources": [
+          {
+            "url": "https://fairbydesign.com/wp-content/uploads/Driving-Change-Policy-Ideas-to-Tackle-the-Car-Insurance-Poverty-Premium-V2-1.pdf",
+            "publisher": "fairbydesign.com",
+            "title": "fairbydesign.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://barrowcadbury.org.uk/wp-content/uploads/2025/07/Driving-Change-Policy-Ideas-to-Tackle-the-Car-Insurance-Poverty-Premium-V2.pdf",
+            "publisher": "barrowcadbury.org.uk",
+            "title": "barrowcadbury.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "They also suggest making advanced safety features mandatory in new cars, aligning with EU regulations (GSR2), which could improve road safety and reduce claims costs.",
+        "sources": [
+          {
+            "url": "https://www.abi.org.uk/globalassets/files/subject/public/motor/2024/motor-insurance-affordability-roadmap.pdf",
+            "publisher": "abi.org.uk",
+            "title": "abi.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   The **UK Motor Insurance Taskforce**, a joint public and private sector initiative launched in Q4 2024, aims to reduce insurance fraud, lower premiums, reform whiplash claims, and promote transparency.",
+        "sources": [
+          {
+            "url": "https://www.letstalkfleet.co.uk/news/what-is-the-uk-government-motor-insurance-taskforce",
+            "publisher": "letstalkfleet.co.uk",
+            "title": "letstalkfleet.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/speeches/motor-insurance-taskforce-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "The Taskforce's final report, published in December 2025, acknowledges the competitive nature of the market but also the increased costs faced by insurers.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/speeches/motor-insurance-taskforce-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "**Genuine Disagreement/Nuance:**\nThere is a notable difference in the reported car insurance price inflation, with the ONS (quote-based) showing an 82% rise from May 2021 to June 2024, while the ABI (based on actual payments) reported a 45% increase from Q2 2021 to Q2 2024.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/the-rising-cost-of-uk-car-insurance/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "Furthermore, while average premiums have recently fallen, many individuals are still experiencing increased renewal costs.",
+        "sources": [
+          {
+            "url": "https://www.confused.com/compare-car-insurance/guides/has-car-insurance-gone-up",
+            "publisher": "confused.com",
+            "title": "confused.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "The effectiveness of deferring the A27 bypass to fund pothole repairs is debated, with the \u00a3320 million being a small fraction of the total repair backlog.",
+        "sources": [
+          {
+            "url": "https://media.rac.co.uk/government-scraps-unaffordable-a27-arundel-bypass-rac-comment-486539",
+            "publisher": "media.rac.co.uk",
+            "title": "rac.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

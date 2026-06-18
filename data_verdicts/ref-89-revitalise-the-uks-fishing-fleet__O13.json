@@ -1,0 +1,456 @@
+{
+  "policy_id": "ref-89-revitalise-the-uks-fishing-fleet",
+  "party": "Reform UK",
+  "policy_title": "Revitalise the UK's fishing fleet",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "The UK fishing industry is too small a share of the economy for this policy to move living standards at a national scale, and the measures proposed are vague with no committed budget or targets. Even if the fleet revitalised, systemic stock pressures could cap any gains.",
+    "biggest_unknown": "Whether tax incentives would be genuinely additional given substantial concessions already exist, and whether fish stocks can sustain a larger fleet without collapse.",
+    "claims": [
+      {
+        "tier": "measurable",
+        "claim": "Fishing contributes approximately 0.03% of total UK economic output, making it a very small part of the national economy.",
+        "evidence_id": "E19",
+        "quote": "Fishing remains a very small part of the UK's overall economy, contributing approximately 0.03% of total UK economic output in 2021"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The industry already benefits from substantial fuel tax concessions estimated at \u00a3150-180 million annually, accounting for 15-18% of industry income.",
+        "evidence_id": "E1",
+        "quote": "The UK fishing industry already benefits from significant fuel tax concessions for diesel, which were estimated to be between \u00a3150-180 million annually from 2009-2019, accounting for 15% to 18% of the industry's income"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The number of fishers has fallen to around 11,000 in 2021, a 48% decline since 1995.",
+        "evidence_id": "E6",
+        "quote": "The number of fishers in the UK has fallen to around 11,000 in 2021, a decline from approximately 20,000 in the mid-1990s, and a 48% decrease since 1995"
+      },
+      {
+        "tier": "projected",
+        "claim": "Persistent overfishing risks limiting any fleet expansion: UK fishing quotas exceeded scientific recommendations in 58% of cases in 2026.",
+        "evidence_id": "E21",
+        "quote": "A government assessment in 2026 found that UK fishing quotas exceeded scientific recommendations in 58% of cases, continuing a six-year pattern"
+      },
+      {
+        "tier": "projected",
+        "claim": "Targeted training could attract younger workers by highlighting safer, technology-focused careers.",
+        "evidence_id": "E11",
+        "quote": "Analysts suggest that targeted training could attract a new generation by highlighting safer, tech-focused, and better-paid careers"
+      }
+    ],
+    "rationale": "The fundamental test for O13 is whether a policy can materially move real living standards, productivity, economic opportunity, or business dynamism at population scale. This policy fails that threshold primarily because of the sector's size: fishing contributes just 0.03% of UK economic output. Even a transformative doubling of the fleet's output would have no detectable effect on aggregate living standards. The policy text itself is aspirational \u2014 'tax incentives and vocational training' without committed budgets, statutory duties, or quantified targets \u2014 so the soft-verb rule limits the verdict further. On the supply side, substantial tax concessions already exist (\u00a3150-180m annually, 15-18% of industry income), so the additionality of further incentives is questionable. Workforce decline is real (48% since 1995), and training is a plausible lever, but current training infrastructure already exists via Seafish and MCA frameworks. The stock sustainability constraint is the most important ceiling: with quotas already exceeding scientific recommendations in 58% of cases, expanding the fleet's capacity risks accelerating stock depletion rather than delivering durable gains. Within fishing communities themselves \u2014 the 11,000 remaining fishers \u2014 there may be modest living-standard improvements, and this is where the policy has its strongest claim. But at population scale, the magnitude floor is not met. The direction is negligible for O13 as a national-level outcome, with a marginal minor positive possible for affected coastal communities over the long term if training and community involvement translate into productivity gains and retention.",
+    "sources": [
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn02788/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://uploads.guim.co.uk/2024/01/12/Vaughan_2023_Revisiting_Fuel_Tax_Concessions_for_the_UK_Fishing_Fleet.pdf",
+        "publisher": "uploads.guim.co.uk",
+        "title": "guim.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/environment/2024/jan/13/polluting-tax-breaks-on-diesel-for-british-fishing-fleet-worth-up-to-18bn-a-decade",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nafish.co.uk/news/reeling-in-the-next-generation/",
+        "publisher": "nafish.co.uk",
+        "title": "nafish.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://oceanographicmagazine.com/news/against-the-evidence-the-uk-contiues-to-overfish-its-own-waters/",
+        "publisher": "oceanographicmagazine.com",
+        "title": "oceanographicmagazine.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.bluemarinefoundation.com/against-the-evidence-the-uk-continues-to-overfish-its-own-waters/",
+        "publisher": "bluemarinefoundation.com",
+        "title": "bluemarinefoundation.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0374,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are well-supported by their quoted evidence. Tiers are correctly assigned: the overfishing quota figure (E21) is correctly labelled projected (it is a forward-looking government assessment framing). Magnitude/time_horizon are consistent with a negligible direction verdict \u2014 though direction is 'negligible' rather than 'too-uncertain', so n/a rules do not apply and minor/long-term are permissible. No lever leakage: the rationale judges by effect on living standards, not fishing policy for its own sake. No party-blind issues or motive attribution. The E11 source (nafish.co.uk) is an industry body but is used only for a projected/soft claim about training potential, not as the sole basis for the verdict, which is acceptable. The negligible direction is well-justified by the 0.03% GDP share argument \u2014 no false balance concern. One minor note: E21 is dated 2026 which is a future date relative to a plausible drafting window; the claim cites it as a government assessment and labels it projected, which is the correct handling."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "Policy proposes tax incentives, vocational training, and inclusion of fishing communities in policy making to revitalise the fleet.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will revitalise the UK\u2019s fishing fleet through tax incentives and vocational training, and include fishing communities in policy making.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The UK fishing industry already benefits from significant fuel tax concessions for diesel, which were estimated to be between \u00a3150-180 million annually from 2009-2019, accounting for 15% to 18% of the industry's income",
+        "sources": [
+          {
+            "url": "https://uploads.guim.co.uk/2024/01/12/Vaughan_2023_Revisiting_Fuel_Tax_Concessions_for_the_UK_Fishing_Fleet.pdf",
+            "publisher": "uploads.guim.co.uk",
+            "title": "guim.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2024/jan/13/polluting-tax-breaks-on-diesel-for-british-fishing-fleet-worth-up-to-18bn-a-decade",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Without these existing concessions, several parts of the fleet, particularly those using fuel-intensive methods like mobile demersal trawls and dredges, would be unprofitable",
+        "sources": [
+          {
+            "url": "https://uploads.guim.co.uk/2024/01/12/Vaughan_2023_Revisiting_Fuel_Tax_Concessions_for_the_UK_Fishing_Fleet.pdf",
+            "publisher": "uploads.guim.co.uk",
+            "title": "guim.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2024/jan/13/polluting-tax-breaks-on-diesel-for-british-fishing-fleet-worth-up-to-18bn-a-decade",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "They argue that these are \"polluting tax breaks\" that disincentivize fuel efficiency, promote carbon emissions, and contribute to overfishing",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2024/jan/13/polluting-tax-breaks-on-diesel-for-british-fishing-fleet-worth-up-to-18bn-a-decade",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The UK had previously pledged to ratify a World Trade Organization (WTO) agreement to end fishing subsidies, including fuel subsidies",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2024/jan/13/polluting-tax-breaks-on-diesel-for-british-fishing-fleet-worth-up-to-18bn-a-decade",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The number of R&D claims in these industries saw a 1% growth from 2019-20 to 2020-21, reaching 1,275 claims",
+        "sources": [
+          {
+            "url": "https://leyton.com/uk/insights/articles/agriculture-forestry-and-fishing-uk-rd-tax-credit-expenditure/",
+            "publisher": "leyton.com",
+            "title": "leyton.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The number of fishers in the UK has fallen to around 11,000 in 2021, a decline from approximately 20,000 in the mid-1990s, and a 48% decrease since 1995",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02788/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.nafish.co.uk/news/reeling-in-the-next-generation/",
+            "publisher": "nafish.co.uk",
+            "title": "nafish.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "A worrying trend shows 61% of young people from coastal communities would not consider a career in fishing",
+        "sources": [
+          {
+            "url": "https://www.nafish.co.uk/news/reeling-in-the-next-generation/",
+            "publisher": "nafish.co.uk",
+            "title": "nafish.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Existing Frameworks & Need:** Current training, supported by Seafish, includes essential safety courses (e.g., sea survival, fire fighting, first aid, health & safety) and advanced qualifications for skippers, mates, and engineers through Maritime and Coastguard Agency (MCA) Certificates of Competence",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/fishing-certification-and-training",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Apprenticeships for fishers typically last 18 months",
+        "sources": [
+          {
+            "url": "https://skillsengland.education.gov.uk/apprenticeships/st0952-v1-1?view=epa",
+            "publisher": "skillsengland.education.gov.uk",
+            "title": "education.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Institute of Fisheries Management (IFM) also offers Diploma and Certificate courses",
+        "sources": [
+          {
+            "url": "https://ifm.org.uk/ifm-training/",
+            "publisher": "ifm.org.uk",
+            "title": "ifm.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Analyst View:** Analysts suggest that targeted training could attract a new generation by highlighting safer, tech-focused, and better-paid careers",
+        "sources": [
+          {
+            "url": "https://www.nafish.co.uk/news/reeling-in-the-next-generation/",
+            "publisher": "nafish.co.uk",
+            "title": "nafish.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The fishing industry is projected to expand by 18% in the next five years, indicating a rising demand for skilled professionals",
+        "sources": [
+          {
+            "url": "https://www.lsib.co.uk/2022/searchcourse1.aspx?id=74615&CourseTitle=Fast+Track+Fisheries+Management+Training&Subject=&Award=Diploma",
+            "publisher": "lsib.co.uk",
+            "title": "lsib.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Context:** The policy's emphasis on involving fishing communities directly responds to a perception among many in the industry of feeling \"left behind by politicians in London,\" particularly in the wake of Brexit",
+        "sources": [
+          {
+            "url": "https://pulitzercenter.org/stories/fishy-business-how-brexit-failed-help-dying-industry",
+            "publisher": "pulitzercenter.org",
+            "title": "pulitzercenter.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "While UK vessel landings increased by 14% in volume and 8% in value between 2019 and 2023, exports to the EU simultaneously fell by 29% in volume and 10% in value",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/explainers/explainer-fisheries/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Smaller businesses reported significant financial difficulties and declining incomes, with some leaving the industry",
+        "sources": [
+          {
+            "url": "https://static1.squarespace.com/static/5c3f248bb10598f8fdb7fbf6/t/62a0d34eda95bd441e415791/1654707049239/Brexit_Voices+of+the+Fishing+Industry_Web.pdf",
+            "publisher": "static1.squarespace.com",
+            "title": "squarespace.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The Resolution Foundation noted that Brexit would lead to \"significant change\" for sectors like fishing",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/the-big-brexit/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2022/06/The_Big-Brexit.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Current Government Initiatives:** The government has acknowledged the need for support, establishing a \u00a3360 million Fishing and Coastal Growth Fund to invest in technology, equipment, training, and seafood exports",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYMRVSzkU_a5GWpi_rfETvSu1vmpNa2Fkj4Oiog_nSzP1uBQ32PTQQ2kyFWswt5H-yG9k5elckAHyUZpflcufnyEjCZlWcF4xnXfUCh0DU_I_8lx-PEpovRn-z8ciJSiVsJyIMnkvinzw5TR4BiPcc_KPla0RiFd2aM1p91Qi5mN4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Regular debates on government support for the fishing industry are scheduled in the House of Commons",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYMRVSzkU_a5GWpi_rfETvSu1vmpNa2Fkj4Oiog_nSzP1uBQ32PTQQ2kyFWswt5H-yG9k5elckAHyUZpflcufnyEjCZlWcF4xnXfUCh0DU_I_8lx-PEpovRn-z8ciJSiVsJyIMnkvinzw5TR4BiPcc_KPla0RiFd2aM1p91Qi5mN4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/topic/science/environment/farming-and-fishing/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Economic Contribution:** Fishing remains a very small part of the UK's overall economy, contributing approximately 0.03% of total UK economic output in 2021",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02788/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The broader agriculture, forestry, and fishing sector accounts for about 0.7% of total UK economic output",
+        "sources": [
+          {
+            "url": "https://leyton.com/uk/insights/articles/agriculture-forestry-and-fishing-uk-rd-tax-credit-expenditure/",
+            "publisher": "leyton.com",
+            "title": "leyton.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "A government assessment in 2026 found that UK fishing quotas exceeded scientific recommendations in 58% of cases, continuing a six-year pattern",
+        "sources": [
+          {
+            "url": "https://oceanographicmagazine.com/news/against-the-evidence-the-uk-contiues-to-overfish-its-own-waters/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bluemarinefoundation.com/against-the-evidence-the-uk-continues-to-overfish-its-own-waters/",
+            "publisher": "bluemarinefoundation.com",
+            "title": "bluemarinefoundation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Environmental campaigners, such as the Blue Marine Foundation, warn that persistent overfishing is pushing fish populations towards collapse, with the International Council for the Exploration of the Sea (ICES) recommending zero catch limits for several cod stocks",
+        "sources": [
+          {
+            "url": "https://oceanographicmagazine.com/news/against-the-evidence-the-uk-contiues-to-overfish-its-own-waters/",
+            "publisher": "oceanographicmagazine.com",
+            "title": "oceanographicmagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.mongabay.com/short-article/2025/10/uk-fish-stocks-in-trouble-as-catch-limits-exceed-scientific-advice-report/",
+            "publisher": "news.mongabay.com",
+            "title": "mongabay.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bluemarinefoundation.com/against-the-evidence-the-uk-continues-to-overfish-its-own-waters/",
+            "publisher": "bluemarinefoundation.com",
+            "title": "bluemarinefoundation.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Oceana UK reported in 2025 that 17 out of 105 UK fish stocks are overfished and overexploited, and five previously healthy stocks have been downgraded",
+        "sources": [
+          {
+            "url": "https://news.mongabay.com/short-article/2025/10/uk-fish-stocks-in-trouble-as-catch-limits-exceed-scientific-advice-report/",
+            "publisher": "news.mongabay.com",
+            "title": "mongabay.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Conversely, some experts, like Professor Michel Kaiser from Heriot-Watt University, acknowledge that while certain stocks are in trouble, eight out of the top ten stocks are healthy",
+        "sources": [
+          {
+            "url": "https://news.mongabay.com/short-article/2025/10/uk-fish-stocks-in-trouble-as-catch-limits-exceed-scientific-advice-report/",
+            "publisher": "news.mongabay.com",
+            "title": "mongabay.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

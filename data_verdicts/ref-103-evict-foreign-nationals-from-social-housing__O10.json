@@ -1,0 +1,701 @@
+{
+  "policy_id": "ref-103-evict-foreign-nationals-from-social-housing",
+  "party": "Reform UK",
+  "policy_title": "Evict foreign nationals from social housing (three-month rule)",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "major",
+    "time_horizon": "immediate",
+    "confidence": "moderate",
+    "plain": "This policy would use the threat of deportation to force legal residents out of their homes within three months, which is a direct and major expansion of state coercion over where people can live. The main caveat is uncertainty about whether courts would uphold compelled eviction and deportation of people with settled or refugee status.",
+    "biggest_unknown": "Whether existing human rights and public law frameworks would permit compelled eviction and deportation of people with settled or refugee status, which could block or drastically narrow implementation.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy requires non-UK citizens in social housing to vacate within three months or face loss of the right to remain and deportation.",
+        "evidence_id": "M",
+        "quote": "those who fail to do so would lose their right to remain in the UK and face deportation"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy exempts 'the most vulnerable' from the stricter rules.",
+        "evidence_id": "M",
+        "quote": "with the most vulnerable exempt from the stricter rules"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current eligibility for social housing already requires naturalised citizenship, ILR, settled status, or specific humanitarian status \u2014 meaning those targeted are legal long-term residents.",
+        "evidence_id": "E6",
+        "quote": "Eligibility typically requires naturalised citizenship, indefinite leave to remain (ILR), settled status under the EU Settlement Scheme, or specific humanitarian statuses like refugee status."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Those with 'No Recourse to Public Funds' status are generally already ineligible for social housing, so the policy targets those who passed existing legal tests.",
+        "evidence_id": "E5",
+        "quote": "Individuals with \"No Recourse to Public Funds\" (NRPF) status, which applies to those on work, student, or family visas, and often asylum seekers, are generally ineligible for social housing."
+      },
+      {
+        "tier": "projected",
+        "claim": "Forcing affected residents into the private rented sector within three months would place them under acute pressure given already strained private rental conditions.",
+        "evidence_id": "E14",
+        "quote": "Forcing foreign nationals into private rented accommodation within a three-month grace period would exert immense pressure on an already strained private rental market."
+      }
+    ],
+    "rationale": "O10 scores a policy on whether it expands or contracts state coercion over individuals' lives and choices. This policy does so in two interlocking ways. First, it mandates that a defined class of legal residents vacate their homes within a fixed period \u2014 a direct state-imposed constraint on housing choice backed by legal sanction. Second, and more severely, it attaches a deportation threat to non-compliance, making the right to remain in the country contingent on vacating one's lawfully-occupied home. Those targeted are not unlawfully present: current social housing eligibility already requires ILR, settled status, or equivalent \u2014 these are people who have passed existing legal thresholds. People with NRPF status are already excluded. Compelling legal residents to move under threat of deportation is qualitatively different from changing future allocation rules: it retroactively withdraws a right already secured and attaches a coercive sanction to non-compliance. The exemption for 'the most vulnerable' moderates the population affected but does not alter the character of the power being exercised. The magnitude is major because the coercive instrument is deportation \u2014 among the most serious state powers over an individual \u2014 applied to people in lawful residence. The time horizon is immediate because the three-month window is the operative mechanism. Confidence is moderate rather than high because the policy was announced via a Substack essay with no legislative text, and it is genuinely uncertain how courts would treat compelled eviction and deportation of settled-status or refugee-status holders \u2014 if struck down, the liberty harm would not materialise at scale. But judging the policy as stated, the direction is clearly a worsening of O10.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.housingtoday.co.uk/news/farage-says-reform-government-would-force-foreign-nationals-to-leave-social-tenancies-or-face-deportation/5142727.article",
+        "publisher": "housingtoday.co.uk",
+        "title": "housingtoday.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/migrants-and-housing-in-the-uk/",
+        "publisher": "migrationobservatory.ox.ac.uk",
+        "title": "ox.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2016/04/2024-Briefing-Migrants-and-housing-in-the-UK.pdf",
+        "publisher": "migrationobservatory.ox.ac.uk",
+        "title": "ox.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-comments-from-nigel-farage-mp-on-social-housing/",
+        "publisher": "crisis.org.uk",
+        "title": "crisis.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.housingexecutive.co.uk/farage-vows-to-ban-foreign-nationals-from-social-housing/",
+        "publisher": "housingexecutive.co.uk",
+        "title": "housingexecutive.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0897,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 2,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-anchored. Stated-tier claims quote directly from policy text (M). Measurable-tier claims (E5, E6) are sourced from academic/institutional sources and the entailment holds \u2014 the logical inference that those targeted must have passed existing legal tests is a valid deduction, not an overstatement. The projected claim (E14) is correctly tiered; the quote entails the claim. No tier blurring detected. Magnitude 'major' is justified by the deportation sanction on legal residents, not inflated. Time horizon 'immediate' matches the three-month mechanism. The rationale does not impute motive or use party identity \u2014 it judges the modelled coercive effect. E19 and E18 (motive-laden evidence about Farage's essay language) are not cited in the verdict's claims or rationale, so no party_blind leak. No false_balance issue \u2014 direction is 'worsens' with consistent supporting claims. The caveat about legal challenge is appropriately reflected in 'moderate' confidence and biggest_unknown. No lever_leakage \u2014 the verdict judges the coercion effect on O10, not housing policy merit as such."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK would require non-UK citizens living in social (council) housing to leave it for private rented accommodation within three months; those who fail to do so would lose their right to remain in the UK and face deportation. Social housing would be prioritised for military veterans and long-term local residents, with the most vulnerable exempt from the stricter rules. Announced by party leader Nigel Farage in June 2026 (his first Substack essay), ahead of the Makerfield by-election.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The policy prioritises social housing for military veterans and long-term local residents, with an exemption for \"the most vulnerable.\" This policy was outlined by party leader Nigel Farage in a Substack essay in June 2026, ahead of the Makerfield by-election.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/nigel-farage-vows-ban-social-housing-foreign-nationals-makerfield-byelection",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.housingtoday.co.uk/news/farage-says-reform-government-would-force-foreign-nationals-to-leave-social-tenancies-or-face-deportation/5142727.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz3Yu4xzm7qfd5s5ptpJgdgM93vC0PmryoLew4t5qgqOj7nI8Lgc-NwcmCk8x6h9uArXr_OA1-oHU73bLWP0PN6XQRplgRt1-qyBu52xPzIPnOP0SjWrpYBawLxjSELVCrJCESW6gidIvBquzd-iW3ykDrcrF4LY2aPv2RN9RMHLlXtnLmzA5LMprTbtbz8AHHTrFc3PNMwXSuAF0ktAg04wL1j3d-",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/farage-substack-housing-migrant-policy-b2995420.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.irishtimes.com/world/uk/2026/06/14/nigel-farage-vows-to-ban-foreign-nationals-from-social-housing/",
+            "publisher": "irishtimes.com",
+            "title": "irishtimes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "In 2021, 7% of people living in social housing in England and Wales held a non-UK passport, compared to 10% of non-UK passport holders in the general population.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2016/04/2024-Briefing-Migrants-and-housing-in-the-UK.pdf",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Another source notes that fewer than one in ten UK social housing residents have a non-UK passport.",
+        "sources": [
+          {
+            "url": "https://www.housingtoday.co.uk/news/farage-says-reform-government-would-force-foreign-nationals-to-leave-social-tenancies-or-face-deportation/5142727.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "In London, 2021 census data showed that 47.6% of household reference persons in social homes were born outside the UK; however, 68% of these foreign-born tenants held UK passports, with only 29% having non-UK passports.",
+        "sources": [
+          {
+            "url": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/questions-mayor/find-an-answer/social-housing-provision-immigrants",
+            "publisher": "london.gov.uk",
+            "title": "london.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tYguXgELvXI",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Individuals with \"No Recourse to Public Funds\" (NRPF) status, which applies to those on work, student, or family visas, and often asylum seekers, are generally ineligible for social housing.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/migrants-and-housing-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-comments-from-nigel-farage-mp-on-social-housing/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2016/04/2024-Briefing-Migrants-and-housing-in-the-UK.pdf",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Eligibility typically requires naturalised citizenship, indefinite leave to remain (ILR), settled status under the EU Settlement Scheme, or specific humanitarian statuses like refugee status.",
+        "sources": [
+          {
+            "url": "https://www.housingtoday.co.uk/news/farage-says-reform-government-would-force-foreign-nationals-to-leave-social-tenancies-or-face-deportation/5142727.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/migrants-and-housing-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2016/04/2024-Briefing-Migrants-and-housing-in-the-UK.pdf",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Reform UK's policy appears to target even those foreign nationals who are currently legally eligible and resident in social housing.",
+        "sources": [
+          {
+            "url": "https://www.housingtoday.co.uk/news/farage-says-reform-government-would-force-foreign-nationals-to-leave-social-tenancies-or-face-deportation/5142727.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The party has also pledged to abolish Indefinite Leave to Remain, which would further restrict migrant eligibility.",
+        "sources": [
+          {
+            "url": "https://leftfootforward.org/2026/06/nigel-farage-condemned-for-racist-and-morally-wrong-pledge-to-evict-non-uk-nationals-from-social-housing/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Sarah Elliott, Chief Executive of Shelter, stated that the plans \"risk kicking thousands of our friends, neighbours and colleagues out of their homes\" and would result in \"increasing homelessness\" and \"extreme pressure on councils\".",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/nigel-farage-vows-ban-social-housing-foreign-nationals-makerfield-byelection",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.housingexecutive.co.uk/farage-vows-to-ban-foreign-nationals-from-social-housing/",
+            "publisher": "housingexecutive.co.uk",
+            "title": "housingexecutive.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://leftfootforward.org/2026/06/nigel-farage-condemned-for-racist-and-morally-wrong-pledge-to-evict-non-uk-nationals-from-social-housing/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Matt Downie, Chief Executive of Crisis, emphasised that the housing crisis is due to a lack of affordable homes, not immigration, and that the policy would increase homelessness and \"stoke division.\"",
+        "sources": [
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-comments-from-nigel-farage-mp-on-social-housing/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The Refugee Council has reported a 239% increase in homelessness among newly recognised refugees in the past two years.",
+        "sources": [
+          {
+            "url": "https://www.praxis.org.uk/news/how-hostile-immigration-rules-push-people-into-poverty-and-onto-the-streets",
+            "publisher": "praxis.org.uk",
+            "title": "praxis.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Figures:** In the financial year 2024/25, non-UK citizens were the head of 22% of households assessed as being either homeless or at risk of homelessness.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/migrants-and-housing-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2016/04/2024-Briefing-Migrants-and-housing-in-the-UK.pdf",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Resolution Foundation reported in July 2025 that a record 128,000 households were living in temporary accommodation in England, a 160% increase since 2010, attributing this to a decline in social housing and benefit support.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/record-number-of-families-are-living-in-temporary-accommodation-as-the-availability-of-social-housing-and-government-support-for-renters-lags-behind/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Pressure on the Private Rented Sector:** Forcing foreign nationals into private rented accommodation within a three-month grace period would exert immense pressure on an already strained private rental market.",
+        "sources": [
+          {
+            "url": "https://www.housingexecutive.co.uk/farage-vows-to-ban-foreign-nationals-from-social-housing/",
+            "publisher": "housingexecutive.co.uk",
+            "title": "housingexecutive.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Resolution Foundation's research highlights that private renters already pay more than three times per square metre of housing compared to mortgagors, and social renters pay twice the price.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/02/Heritage-and-home.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/heritage-and-home/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Ethnic minorities disproportionately experience higher housing costs and are more likely to live in substandard or overcrowded conditions, with discrimination identified as a contributing factor.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/ethnic-minorities-spend-more-on-housing/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/heritage-and-home/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The House of Commons Library notes the complexity of eligibility rules and that \"there is no automatic entitlement to social housing for anyone in England, including British citizens\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn04737/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05433/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Social Cohesion and Division:** Critics argue the policy is \"racist and morally wrong\" and designed to \"stoke division.\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/nigel-farage-vows-ban-social-housing-foreign-nationals-makerfield-byelection",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.housingexecutive.co.uk/farage-vows-to-ban-foreign-nationals-from-social-housing/",
+            "publisher": "housingexecutive.co.uk",
+            "title": "housingexecutive.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://leftfootforward.org/2026/06/nigel-farage-condemned-for-racist-and-morally-wrong-pledge-to-evict-non-uk-nationals-from-social-housing/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-comments-from-nigel-farage-mp-on-social-housing/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Nigel Farage's Substack essay, in which he announced the policy, reportedly mentioned \"white people\" over 60 times and alleged \"anti-whiteness is institutionalised\" in the UK, signaling a divisive intent.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/nigel-farage-vows-ban-social-housing-foreign-nationals-makerfield-byelection",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.housingtoday.co.uk/news/farage-says-reform-government-would-force-foreign-nationals-to-leave-social-tenancies-or-face-deportation/5142727.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Reform UK also plans to abolish the Equality Act, which aims to protect against discrimination.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/nigel-farage-vows-ban-social-housing-foreign-nationals-makerfield-byelection",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz3Yu4xzm7qfd5s5ptpJgdgM93vC0PmryoLew4t5qgqOj7nI8Lgc-NwcmCk8x6h9uArXr_OA1-oHU73bLWP0PN6XQRplgRt1-qyBu52xPzIPnOP0SjWrpYBawLxjSELVCrJCESW6gidIvBquzd-iW3ykDrcrF4LY2aPv2RN9RMHLlXtnLmzA5LMprTbtbz8AHHTrFc3PNMwXSuAF0ktAg04wL1j3d-",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "itv.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/farage-substack-housing-migrant-policy-b2995420.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.irishtimes.com/world/uk/2026/06/14/nigel-farage-vows-to-ban-foreign-nationals-from-social-housing/",
+            "publisher": "irishtimes.com",
+            "title": "irishtimes.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thejournal.ie/nigel-farage-vows-to-ban-foreign-nationals-from-social-housing-in-first-substack-essay-7070730-Jun2026/",
+            "publisher": "thejournal.ie",
+            "title": "thejournal.ie",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **ONS (Office for National Statistics):** Provides the demographic data on foreign-born individuals in social housing, indicating they are not overrepresented.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/migrants-and-housing-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2016/04/2024-Briefing-Migrants-and-housing-in-the-UK.pdf",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **House of Commons Library:** Offers factual briefings on the existing legal framework for social housing eligibility for foreign nationals, noting its complexity and current restrictions.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn04737/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05433/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05433/SN05433.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Resolution Foundation:** Their broader research on housing and living standards highlights the severity of the UK's housing crisis, primarily attributing it to a long-standing shortage of genuinely affordable homes rather than migration.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/record-number-of-families-are-living-in-temporary-accommodation-as-the-availability-of-social-housing-and-government-support-for-renters-lags-behind/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They also point out that ethnic minorities face greater housing affordability challenges and worse conditions.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/ethnic-minorities-spend-more-on-housing/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/02/Heritage-and-home.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/heritage-and-home/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They also note that immigration's impact on overall wage inequality is \"very small\" and that while there's some evidence of immigration increasing house prices, the effect is not as substantial as often perceived and is more pronounced in areas with restrictive planning policies.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/inequality-and-immigration",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/Inequality-and-immigration-IFS-Deaton-Review-of-Inequalities.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=wUb3bVAA9ZE",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "They argue the focus should be on building more social homes.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/nigel-farage-vows-ban-social-housing-foreign-nationals-makerfield-byelection",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.housingexecutive.co.uk/farage-vows-to-ban-foreign-nationals-from-social-housing/",
+            "publisher": "housingexecutive.co.uk",
+            "title": "housingexecutive.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://leftfootforward.org/2026/06/nigel-farage-condemned-for-racist-and-morally-wrong-pledge-to-evict-non-uk-nationals-from-social-housing/",
+            "publisher": "leftfootforward.org",
+            "title": "leftfootforward.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-comments-from-nigel-farage-mp-on-social-housing/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Reform UK asserts that the policy is necessary to prioritise \"veterans and long-term local residents\" and address what it perceives as \"anti-whiteness.\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2026/jun/14/nigel-farage-vows-ban-social-housing-foreign-nationals-makerfield-byelection",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.housingtoday.co.uk/news/farage-says-reform-government-would-force-foreign-nationals-to-leave-social-tenancies-or-face-deportation/5142727.article",
+            "publisher": "housingtoday.co.uk",
+            "title": "housingtoday.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/farage-substack-housing-migrant-policy-b2995420.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.irishtimes.com/world/uk/2026/06/14/nigel-farage-vows-to-ban-foreign-nationals-from-social-housing/",
+            "publisher": "irishtimes.com",
+            "title": "irishtimes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "In contrast, data from the ONS and analysis from the Resolution Foundation and housing charities suggest that the number of non-UK citizens in social housing is relatively low, many already hold British passports, and the core issue is a systemic lack of affordable housing and insufficient new builds.",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/migrants-and-housing-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/questions-mayor/find-an-answer/social-housing-provision-immigrants",
+            "publisher": "london.gov.uk",
+            "title": "london.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tYguXgELvXI",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.crisis.org.uk/about-us/crisis-media-centre/crisis-responds-to-comments-from-nigel-farage-mp-on-social-housing/",
+            "publisher": "crisis.org.uk",
+            "title": "crisis.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/wp-content/uploads/2016/04/2024-Briefing-Migrants-and-housing-in-the-UK.pdf",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/record-number-of-families-are-living-in-temporary-accommodation-as-the-availability-of-social-housing-and-government-support-for-renters-lags-behind/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

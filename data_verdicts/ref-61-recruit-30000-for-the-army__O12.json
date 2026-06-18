@@ -1,0 +1,411 @@
+{
+  "policy_id": "ref-61-recruit-30000-for-the-army",
+  "party": "Reform UK",
+  "policy_title": "Recruit 30,000 for the army",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "major",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Recruiting 30,000 extra full-time soldiers would cost billions of pounds that the policy does not explain how to fund; independent analysts warn this could require large tax rises or cuts to other public services. Until a credible funding plan is published, this worsens the public finances.",
+    "biggest_unknown": "Whether the broader defence spending increase (to 2.5\u20133% GDP) would be fully funded by tax rises, borrowing, or cuts to other departments \u2014 and which \u2014 is unresolved and determines whether the debt path deteriorates.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to recruiting 30,000 full-time army personnel.",
+        "evidence_id": "M",
+        "quote": "Reform UK will recruit 30,000 full-time personnel for the army"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The average salary for armed forces personnel is around \u00a345,710, implying a salary bill alone of over \u00a31.3 billion for 30,000 new recruits before equipment, training, or accommodation costs.",
+        "evidence_id": "E16",
+        "quote": "The average salary for Armed Forces personnel was around \u00a345,710 as of April 2026"
+      },
+      {
+        "tier": "measurable",
+        "claim": "This recruitment pledge sits within a broader plan to raise defence spending to 3% of GDP within six years.",
+        "evidence_id": "E10",
+        "quote": "Reform UK's recruitment pledge is part of a broader commitment to increase defence spending to 2.5% of GDP by the third year of government, and to 3% within six years"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS further stated such an increase would likely require 'chunky tax rises'.",
+        "evidence_id": "E12",
+        "quote": "such an increase would likely require \"chunky tax rises\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "The House of Commons Library notes the Strategic Defence Review 2025 found budgetary restraints mean increasing regular forces 'cannot yet be considered'.",
+        "evidence_id": "E8",
+        "quote": "budgetary restraints meant increasing the number of Regular Forces cannot yet be considered"
+      }
+    ],
+    "rationale": "The policy commits to a large, concrete personnel expansion \u2014 30,000 full-time soldiers. At the measurable average salary alone (around \u00a345,710), this implies a recurring payroll cost exceeding \u00a31.3 billion annually, before factoring in training, equipment, accommodation, or the wider recruitment infrastructure. The policy sits inside a broader defence spending escalation to 3% of GDP, which both the IFS and OBR independently project would cost approximately \u00a317 billion more per year than current plans \u2014 with no identified funding source. The IFS explicitly warns this would likely require 'chunky tax rises', which is a form of funded spending but still implies a significant fiscal burden on households or the economy. The alternative \u2014 borrowing \u2014 would worsen the debt path directly. The Resolution Foundation's analysis, though modelling a slightly higher target, illustrates the real trade-off: other departmental budgets would face \u00a36.4 billion in real-terms cuts. There is no credible, costed funding plan in the policy text itself. Absent that, the near-term and medium-term debt-path effect is negative: a large unfunded or under-specified expenditure commitment. The current Strategic Defence Review (cited by the House of Commons Library) explicitly concluded regular force increases cannot yet be considered due to budgetary constraints, reinforcing the gap between ambition and fiscal reality. The verdict is 'worsens/major': the spending commitment is large, the funding gap is independently quantified by OBR and IFS, and no countervailing revenue or offset mechanism is cited in the policy or the evidence. Borrowing to finance consumption (salaries) rather than productive capital investment is the relevant O12 dimension here.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.the-independent.com/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+        "publisher": "the-independent.com",
+        "title": "the-independent.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.progressonline.org.uk/the-challenge-facing-labour-on-armed-forces-recruitment-and-retention/",
+        "publisher": "progressonline.org.uk",
+        "title": "progressonline.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.parallelparliament.co.uk/question/11972/armed-forces-recruitment",
+        "publisher": "parallelparliament.co.uk",
+        "title": "parallelparliament.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/strategic-defence-review-2025-armed-forces-personnel/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0142/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0377,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-anchored to quoted evidence. The salary-bill arithmetic (\u00a345,710 \u00d7 30,000 \u2248 \u00a31.37bn) is a reasonable inference from E16 and is appropriately flagged as a floor. E10 is drawn from a mixed-provenance source (progressonline) but the claim is corroborated by the policy text context and is tier 'measurable' only in the sense of restating the stated commitment \u2014 acceptable. The IFS/OBR figures (E11\u2013E13) are correctly tiered as 'projected'. The 'chunky tax rises' quote (E12) is correctly tier 'projected'. The rationale's distinction between borrowing for consumption vs. productive investment is the right O12 lens and is applied consistently. No motive-attribution or party-identity language detected. The Resolution Foundation figure (E14) is used illustratively and appropriately caveated in the rationale. No false balance issue: the surviving evidence does point toward worsening, and the verdict correctly reaches 'worsens'. Magnitude 'major' is justified by the independently-quantified ~\u00a317bn funding gap. One minor observation: E16 is dated 'April 2026' which is a future date relative to a typical drafting window \u2014 the verifier notes this but it does not rise to blocking given it is the sole salary datapoint and is used conservatively."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The IFS warns that meeting a 3% defence spending target by 2030 would require an additional \u00a317 billion that is 'yet to be accounted for'.",
+          "evidence_id": "E11",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The OBR estimated reaching 3% by the next parliament would cost an additional \u00a317.3 billion in 2029-30.",
+          "evidence_id": "E13",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The Resolution Foundation found that a rise to 3.5% of GDP alongside other spending could imply cuts of \u00a36.4 billion in real terms to other departments by 2029-30, illustrating the trade-off pressure even at lower ambitions.",
+          "evidence_id": "E14",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will recruit 30,000 full-time personnel for the army, stating that military national service for young people is not the answer.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "In 2023-24, the Army recruited 6,720 personnel against a target of 10,450, achieving only 64% of its goal",
+        "sources": [
+          {
+            "url": "https://defence24.com/armed-forces/uk-armed-forces-recruitment-crisis-gap-year-fix",
+            "publisher": "defence24.com",
+            "title": "defence24.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Overall, between 2000 and 2023, there were only five years where more people joined the armed forces than left",
+        "sources": [
+          {
+            "url": "https://www.progressonline.org.uk/the-challenge-facing-labour-on-armed-forces-recruitment-and-retention/",
+            "publisher": "progressonline.org.uk",
+            "title": "progressonline.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **High Outflow Rates:** In the 12 months to March 31, 2025, approximately 1,140 more Regular Forces personnel left than joined, although this was a lower net decrease than the previous year",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/strategic-defence-review-2025-armed-forces-personnel/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Voluntary outflow accounts for 62% of departures among trained personnel",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/strategic-defence-review-2025-armed-forces-personnel/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Underlying Issues:** Analysts point to a \"workforce crisis\" driven by poor recruitment and retention, inadequate accommodation, low morale, and cultural issues within the armed forces",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0142/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Challenges also include stringent medical requirements, prolonged recruitment processes, and competition from the private sector where pay increases have generally outpaced those in the public sector",
+        "sources": [
+          {
+            "url": "https://www.progressonline.org.uk/the-challenge-facing-labour-on-armed-forces-recruitment-and-retention/",
+            "publisher": "progressonline.org.uk",
+            "title": "progressonline.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/question/11972/armed-forces-recruitment",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://defence24.com/armed-forces/uk-armed-forces-recruitment-crisis-gap-year-fix",
+            "publisher": "defence24.com",
+            "title": "defence24.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Expert Opinion on Feasibility:** The Chief of the Defence Staff, Admiral Sir Tony Radakin, acknowledged recruitment and retention problems in April 2025 but expressed a forecast that numbers would \"bottom out\" and begin to rise across the armed forces in the next two to three years",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/strategic-defence-review-2025-armed-forces-personnel/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0142/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "However, the House of Commons Library, citing the Strategic Defence Review 2025, noted that \"budgetary restraints meant increasing the number of Regular Forces cannot yet be considered\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0142/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "One defense analyst, Nicholas Drummond, suggested in September 2025 that the Army needs 90,000 regular personnel to be credible, up from the current approximately 73,000",
+        "sources": [
+          {
+            "url": "https://defence-blog.com/u-k-needs-90000-regular-personnel-and-30000-reservists-analyst-warns/",
+            "publisher": "defence-blog.com",
+            "title": "defence-blog.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Fiscal Implications \u2013 Substantial Costs and Funding Gaps:**\n    *   **Increased Defence Spending Targets:** Reform UK's recruitment pledge is part of a broader commitment to increase defence spending to 2.5% of GDP by the third year of government, and to 3% within six years",
+        "sources": [
+          {
+            "url": "https://www.progressonline.org.uk/the-challenge-facing-labour-on-armed-forces-recruitment-and-retention/",
+            "publisher": "progressonline.org.uk",
+            "title": "progressonline.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/question/11972/armed-forces-recruitment",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/strategic-defence-review-2025-armed-forces-personnel/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Cost Estimates:** The Institute for Fiscal Studies (IFS) warned in June 2025 that meeting a 3% defence spending target by 2030 would necessitate an additional **\u00a317 billion** that is \"yet to be accounted for\"",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The IFS further stated that such an increase would likely require \"chunky tax rises\"",
+        "sources": [
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Office for Budget Responsibility (OBR) also estimated that reaching 3% by the next parliament (after 2029) would cost an additional **\u00a317.3 billion** in 2029-30",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Trade-offs with Other Public Services:** The Resolution Foundation's analysis in November 2025 indicated that if defence spending were to rise to 3.5% of GDP by 2035 (a higher target than Reform UK's initial 3%, but illustrative of the pressures), alongside other spending commitments, it could imply cuts to \"other\" government departments of **\u00a36.4 billion** in real terms between 2028-29 and 2029-30",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/11/Stairway-to-headroom.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Ministry of Defence spent nearly \u00a370 million on recruitment advertising for all armed forces over two years (2019-2021) to recruit 31,660 people",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The average salary for Armed Forces personnel was around \u00a345,710 as of April 2026",
+        "sources": [
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/defence-spending-tax-rises-budget-b2765455.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Government Stance on Funding:** Labour's Defence Secretary, John Healey, in June 2025, acknowledged a \"recruitment and retention crisis\" and indicated that increasing the Army's size would be delayed until after the next election (beyond 2029), citing the need to reverse current trends first",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2025/jun/01/british-army-will-not-be-increased-in-size-this-parliament-john-healey-says",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "While Reform UK proposes immediate recruitment of 30,000 personnel",
+        "sources": [
+          {
+            "url": "https://www.progressonline.org.uk/the-challenge-facing-labour-on-armed-forces-recruitment-and-retention/",
+            "publisher": "progressonline.org.uk",
+            "title": "progressonline.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": ", the House of Commons Library, drawing on the Strategic Defence Review 2025, states that increasing regular forces cannot yet be considered due to budgetary constraints",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0142/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Labour's Defence Secretary also explicitly stated that any increase would be deferred until after 2029",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2025/jun/01/british-army-will-not-be-increased-in-size-this-parliament-john-healey-says",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

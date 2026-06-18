@@ -1,0 +1,874 @@
+{
+  "policy_id": "ref-93-review-pension-provision",
+  "party": "Reform UK",
+  "policy_title": "Review pension provision",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy commits only to a 'review' of pension provision \u2014 no specific reforms, budgets, or statutory duties are yet defined. Whether any resulting changes would improve living standards depends entirely on what the review recommends and whether those recommendations are implemented effectively.",
+    "biggest_unknown": "What concrete reforms would actually emerge from the review, and whether implementation mechanisms would be sufficient to deliver population-scale improvements to retirement living standards.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to a review of pension provision, aiming to simplify the current system by learning from models like Australia, but specifies no concrete instruments or targets.",
+        "evidence_id": "M",
+        "quote": "Reform UK will review pension provision, aiming to simplify the current system, which they describe as complex, costly, and yielding poor returns, by learning from models like Australia."
+      },
+      {
+        "tier": "stated",
+        "claim": "Reform UK suggests countries like Australia 'do savings and pensions much better and cheaper' but details remain aspirational.",
+        "evidence_id": "E2",
+        "quote": "countries like Australia \"do savings and pensions much better and cheaper.\""
+      },
+      {
+        "tier": "measurable",
+        "claim": "The IFS acknowledges the need for such a review due to economic and policy shifts.",
+        "evidence_id": "E15",
+        "quote": "The Institute for Fiscal Studies (IFS) also highlights the necessity of such a review due to economic and policy shifts over the last two decades."
+      },
+      {
+        "tier": "projected",
+        "claim": "Policy Exchange estimates that adopting an Australian-style regulatory approach could boost a typical UK retirement pot of \u00a3100,000 by \u00a312,000.",
+        "evidence_id": "E16",
+        "quote": "Policy Exchange suggests that adopting an Australian-style regulatory approach, focusing on outcomes, could boost a typical UK retirement pot of \u00a3100,000 by \u00a312,000."
+      },
+      {
+        "tier": "projected",
+        "claim": "Experts warn that fully implementing the Australian model would entail substantial financial and logistical challenges, with effectiveness depending on implementation quality.",
+        "evidence_id": "E18",
+        "quote": "fully implementing the Australian model in the UK would entail \"substantial financial implications and logistical challenges\" and that the effectiveness of reforms would \"heavily depend on the thoroughness of their implementation strategies.\""
+      },
+      {
+        "tier": "projected",
+        "claim": "The specific mechanisms for adopting elements of the Australian system remain largely undefined.",
+        "evidence_id": "E41",
+        "quote": "The specific mechanisms for adopting elements of the Australian system remain largely undefined by Reform UK."
+      },
+      {
+        "tier": "projected",
+        "claim": "Implementation details remain scant.",
+        "evidence_id": "E19",
+        "quote": "Details on how Reform UK plans to implement such changes remain \"scant.\""
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "What specific reforms the review would produce and whether implementation capacity is sufficient to deliver them at scale",
+      "estimate_range": "Retirement pot uplift estimates range from negligible (if review yields no action) to ~\u00a312,000 per pot (Policy Exchange optimistic scenario under full Australian-model adoption)"
+    },
+    "rationale": "The policy text commits to a review \u2014 a soft verb with no deliverable instrument, budget, statutory duty, or quantified target. Under the soft-verb/no-deliverable rule, this cannot earn an 'improves' verdict: the goal pointing in a plausible direction is not the same as an effect being delivered. The IFS acknowledges genuine need for pension reform, and Policy Exchange projects meaningful retirement pot gains if an Australian-style approach were adopted. However, expert commentary explicitly warns that full implementation would face substantial financial and logistical challenges, and that the specific mechanisms remain undefined. The projected uplift of \u00a312,000 per pot is conditional on a reform path that has not been committed to. On O13, pension wealth and retirement income are direct components of long-term living standards and economic security; a well-executed simplification and contribution uplift could materially improve these outcomes over the long run. But a review alone cannot be credited with those gains. The crux is what the review would actually produce and whether it would be implemented \u2014 a parameter that spans from no change to substantial reform, making the direction genuinely too uncertain to call.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+        "publisher": "pensionsage.com",
+        "title": "pensionsage.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+        "publisher": "professionalpensions.com",
+        "title": "professionalpensions.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/microsite/pensions-review",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.pensionsage.com/pa/Policy-Exchange-outlines-recommendations-for-UK-pension-market-regulation.php",
+        "publisher": "pensionsage.com",
+        "title": "pensionsage.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.professionalpensions.com/news/4323748/reform-manifesto-pledges-review-pension-riddled-complexity",
+        "publisher": "professionalpensions.com",
+        "title": "professionalpensions.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.actuarialpost.co.uk/article/reform-party-push-for-australian-pensions-system-23550.htm",
+        "publisher": "actuarialpost.co.uk",
+        "title": "actuarialpost.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0483,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-structured and disciplined. The too-uncertain direction is genuinely supported: one projected claim (E16, Policy Exchange) points positive, multiple claims (E18, E19, E41) flag implementation uncertainty, and the policy text itself commits only to a review with no concrete instruments. The crux_parameter and estimate_range are substantive, not lazy hedges. Tier assignments are appropriate \u2014 E15 (IFS acknowledging need for review) is labelled measurable, which is borderline since it is a normative judgment from IFS rather than a baseline statistic, but it does not drive the direction verdict so is not blocking. E16 (Policy Exchange) is an advocacy/think-tank source cited for a projected uplift figure and is correctly labelled projected with appropriate caveats; it is not the sole basis for any directional claim. No motive attribution or party-identity language detected. Magnitude and time_horizon are both n/a consistent with too-uncertain. No lever leakage \u2014 the verdict judges pension reform by its effect on retirement living standards (O13), not by the policy lever itself."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will review pension provision, aiming to simplify the current system, which they describe as complex, costly, and yielding poor returns, by learning from models like Australia.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's policy to \"review pension provision\" aims to simplify the current system, which it describes as complex, costly, and yielding poor returns, by learning from models such as Australia's.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**System Simplification and Learning from Australia:** Reform UK intends to review the UK pension system, suggesting that countries like Australia \"do savings and pensions much better and cheaper.\"",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This could involve a push to increase minimum pension contributions and move towards scheme consolidation.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "**Public Sector Pension Reform:** The party plans to abolish \"gold-plated\" defined benefit (DB) pension schemes for new public sector workers from 2030, replacing them with defined contribution (DC) arrangements.",
+        "sources": [
+          {
+            "url": "https://www.pensionpolicyinternational.com/reform-uk-plans-to-scrap-gold-plated-public-sector-pensions-for-new-workers/",
+            "publisher": "pensionpolicyinternational.com",
+            "title": "pensionpolicyinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This policy would apply to new doctors, teachers, and civil servants, but would not affect the estimated six million existing public sector workers.",
+        "sources": [
+          {
+            "url": "https://www.pensionpolicyinternational.com/reform-uk-plans-to-scrap-gold-plated-public-sector-pensions-for-new-workers/",
+            "publisher": "pensionpolicyinternational.com",
+            "title": "pensionpolicyinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Reform UK cites unfunded public sector pension liabilities of \u00a31.4 trillion as a rationale.",
+        "sources": [
+          {
+            "url": "https://www.pensionpolicyinternational.com/reform-uk-plans-to-scrap-gold-plated-public-sector-pensions-for-new-workers/",
+            "publisher": "pensionpolicyinternational.com",
+            "title": "pensionpolicyinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**National Infrastructure Ownership:** A new ownership model for critical national infrastructure is proposed, where 50% of each utility would be brought into public ownership, with the other 50% owned by UK pension funds.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://loupedin.blog/2024/06/election-2024-reform-uk-manifesto-and-pensions/",
+            "publisher": "loupedin.blog",
+            "title": "loupedin.blog",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4323748/reform-manifesto-pledges-review-pension-riddled-complexity",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Reform UK suggests this would bring \"new expertise\" and \"better management.\"",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**Mineworkers Pension Scandal:** Reform UK pledges to \"end the Mineworkers Pension Scandal\" by accepting the 2021 recommendations to ensure all scheme surpluses accrue to mineworkers.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4323748/reform-manifesto-pledges-review-pension-riddled-complexity",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "(Note: The Labour Party has already taken action on this, releasing the Mineworkers' Pension Scheme Investment Reserve in the 2024 Autumn Budget).",
+        "sources": [
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**Income Tax Threshold Increase:** The party also proposes increasing the minimum income threshold for income tax to \u00a320,000, which it claims would save \"every worker almost \u00a31,500 per year.\"",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "This could benefit pensioners whose incomes have been drawn into tax-paying territory by frozen thresholds.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "**State Pension Triple Lock:** Reform UK's manifesto does not explicitly mention the triple lock, leading to speculation that it could be abolished.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://loupedin.blog/2024/06/election-2024-reform-uk-manifesto-and-pensions/",
+            "publisher": "loupedin.blog",
+            "title": "loupedin.blog",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Helen Morrissey of Hargreaves Lansdown notes that an \"overarching review... is sorely needed to make sure people get the best retirement outcomes they can.\"",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Institute for Fiscal Studies (IFS) also highlights the necessity of such a review due to economic and policy shifts over the last two decades.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/microsite/pensions-review",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Adopting the Australian Model:**\n    *   **Potential Benefits:** The think tank Policy Exchange suggests that adopting an Australian-style regulatory approach, focusing on outcomes, could boost a typical UK retirement pot of \u00a3100,000 by \u00a312,000.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Policy-Exchange-outlines-recommendations-for-UK-pension-market-regulation.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "They also recommend increasing auto-enrolment minimum contribution rates from the current 8% to 10% (by 0.5% annually over four years, with employers covering the increase) to better align with Australia's 12% rate and improve retirement living standards.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Policy-Exchange-outlines-recommendations-for-UK-pension-market-regulation.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "He warns that fully implementing the Australian model in the UK would entail \"substantial financial implications and logistical challenges\" and that the effectiveness of reforms would \"heavily depend on the thoroughness of their implementation strategies.\"",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4323748/reform-manifesto-pledges-review-pension-riddled-complexity",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actuarialpost.co.uk/article/reform-party-push-for-australian-pensions-system-23550.htm",
+            "publisher": "actuarialpost.co.uk",
+            "title": "actuarialpost.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Details on how Reform UK plans to implement such changes remain \"scant.\"",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4323748/reform-manifesto-pledges-review-pension-riddled-complexity",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Public Sector Pension Reform (Scrapping DB for New Workers):**\n    *   **Fiscal Impact:** Reform UK believes this would address the \u00a31.4 trillion in unfunded public sector pension liabilities.",
+        "sources": [
+          {
+            "url": "https://www.pensionpolicyinternational.com/reform-uk-plans-to-scrap-gold-plated-public-sector-pensions-for-new-workers/",
+            "publisher": "pensionpolicyinternational.com",
+            "title": "pensionpolicyinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The move would align public sector pensions with the private sector, where most employers have already closed DB schemes to new members due to rising costs and increasing life expectancy.",
+        "sources": [
+          {
+            "url": "https://www.pensionpolicyinternational.com/reform-uk-plans-to-scrap-gold-plated-public-sector-pensions-for-new-workers/",
+            "publisher": "pensionpolicyinternational.com",
+            "title": "pensionpolicyinternational.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **State Pension Triple Lock:**\n    *   **Fiscal Unsustainability:** The Office for Budget Responsibility (OBR) has repeatedly highlighted the triple lock as a major long-term pressure on public finances, describing it as \"unsustainable, unpredictable, and unfair.\"",
+        "sources": [
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.riskassured.co.uk/app/uploads/2025/07/OBR-fiscal-risks-and-sustainability-report-11.07.2025.pdf",
+            "publisher": "riskassured.co.uk",
+            "title": "riskassured.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The OBR estimates the policy will cost \u00a315.5 billion a year by 2029\u201330, almost three times its initial forecast.",
+        "sources": [
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.riskassured.co.uk/app/uploads/2025/07/OBR-fiscal-risks-and-sustainability-report-11.07.2025.pdf",
+            "publisher": "riskassured.co.uk",
+            "title": "riskassured.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "It projects that the triple lock alone accounts for 1.6 percentage points of the 2.7 percentage point increase in State Pension spending as a share of GDP by the early 2070s.",
+        "sources": [
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The OBR also notes its \"unpredictable ratchet effect\" adds significant uncertainty to fiscal planning.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-should-call-time-on-the-costly-triple-lock-ratchet/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.scottishfinancialnews.com/articles/resolution-foundation-ps650m-a-year-could-be-saved-by-scrapping-triple-lock",
+            "publisher": "scottishfinancialnews.com",
+            "title": "scottishfinancialnews.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Resolution-Foundation-proposes-smoothed-earnings-link-to-replace-unsustainable-triple-lock.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Ineffectiveness in Reducing Poverty:** The Resolution Foundation argues that the triple lock has been \"far too expensive\" (contributing an additional \u00a313.8 billion to welfare spending by 2029-30) and \"remarkably ineffective at reducing poverty.\"",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-should-call-time-on-the-costly-triple-lock-ratchet/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.scottishfinancialnews.com/articles/resolution-foundation-ps650m-a-year-could-be-saved-by-scrapping-triple-lock",
+            "publisher": "scottishfinancialnews.com",
+            "title": "scottishfinancialnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They point out that in the 12 years following its introduction, pensioner poverty rose by 2.3 percentage points, contrasting sharply with a 15.8 percentage point fall in the 15 years prior.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-should-call-time-on-the-costly-triple-lock-ratchet/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.scottishfinancialnews.com/articles/resolution-foundation-ps650m-a-year-could-be-saved-by-scrapping-triple-lock",
+            "publisher": "scottishfinancialnews.com",
+            "title": "scottishfinancialnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Proposed Alternatives:** The Resolution Foundation advocates replacing the triple lock with a \"smoothed earnings link,\" which they estimate could save \u00a3650 million annually by the end of the current Parliament (2029-30).",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-should-call-time-on-the-costly-triple-lock-ratchet/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.scottishfinancialnews.com/articles/resolution-foundation-ps650m-a-year-could-be-saved-by-scrapping-triple-lock",
+            "publisher": "scottishfinancialnews.com",
+            "title": "scottishfinancialnews.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Resolution-Foundation-proposes-smoothed-earnings-link-to-replace-unsustainable-triple-lock.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "This alternative could cost an estimated \u00a315 billion more per year by 2050 if the target is set at 33% of average earnings (compared to the current 30.2%).",
+        "sources": [
+          {
+            "url": "https://millencc.co.uk/pensions-under-the-spotlight-government-revives-commission-as-ifs-review-calls-for-reform/",
+            "publisher": "millencc.co.uk",
+            "title": "millencc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/pensions-review-final-recommendations",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **State Pension Age (SPA):** The SPA is already set to increase to 67 between 2026 and 2028, and to 68 between 2044 and 2046.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10139/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://obr.uk/box/the-fiscal-impact-of-increases-in-the-state-pension-age/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The Health Foundation warns that these increases risk pushing more people into \"worse health and poverty,\" particularly those in deprived areas or with existing health conditions that limit their ability to work.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFScwf7UTBMV1XimwLF0hQVH7pn0l7Y-2JJt5wvFuzyGrcC1yyXIj217NeoblmltGQM4u0DiAsGVL7Fbd47wfjWfodBaj9iyzkUIRLFSE6CTzCrGURY-vpb2dQmhqNuFWdHy2yDUPxtmPyJNYnRXi--_leBMvvfyQCDK8g--x0IolKk7Eecr988zv8zvef26JuSsBzj0Sy9jV7HjijDJY0MdolUxsdcKlAfcwrxXGFhjFo=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGysG48nnwduzYX3pA7NE93AOfM1agnCMP4MR3S-mXj2zGZ1x8KpDb0XVNEqCuL80aOHcd_7EhICmsApqN5L71RYxoz94Z5IoI9Y9Y3eaNhgVSmm5iLRCQEOQNRRrl5e6pwNkoRDVQdQhQD4INd8GX3SpOErZSTe8lj_4QR6DIAuhzUOhqSTzk=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "carehomeprofessional.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsZaxSGJgM7tZZwEbOX_qatSRFgpevwxr7w1KhGbem8fnaXjr4Rf_fPqE3idz5CJWOLzNuIX6VfxjVD-KPata4OG5K7pasjoxrMesQgFAZxRAgrPTahudO0piFKP5JT3uujBkZ-459l6RRBa0PdLOmsXGEm0CtmQDRUVTFQB44H5gdbPCGZIkV7YqhGFElc0BlqStTczBRuRNOqhi4u7fcwhGaf4QP0ew=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "IFS analysis showed that the increase from 65 to 66 led to a significant loss of income for many, with absolute income poverty rates for 65-year-olds rising to 24% (from an estimated 10% if the SPA remained at 65).",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/140547/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Critically, over 90% of people in the UK now experience illness before reaching the SPA of 66.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2026/apr/27/people-in-uk-spend-fewer-years-in-good-health-than-a-decade-ago-study-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Pension Pot Fragmentation:** The success of auto-enrolment has led to a significant increase in small, deferred pension pots, estimated at 23 million pots worth under \u00a310,000 in 2024.",
+        "sources": [
+          {
+            "url": "https://millencc.co.uk/pensions-under-the-spotlight-government-revives-commission-as-ifs-review-calls-for-reform/",
+            "publisher": "millencc.co.uk",
+            "title": "millencc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/pensions-review-final-recommendations",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "This fragmentation is burdensome for savers and inefficient for providers.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/pensions-review-final-recommendations",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Current legislation, the Pension Schemes Act, aims to address this by enabling automatic consolidation of small pots, potentially boosting an average worker's retirement savings by up to \u00a329,000.",
+        "sources": [
+          {
+            "url": "https://www.cspa.co.uk/news/landmark-uk-pensions-reform-becomes-law/",
+            "publisher": "cspa.co.uk",
+            "title": "cspa.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ipe.com/country-reports/pensions-in-the-uk-report-2026-reforms-courting-controversy/10136929.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Investment in UK Assets:** Reform UK's proposal for pension funds to own 50% of national utilities aims to direct pension capital into UK infrastructure.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://loupedin.blog/2024/06/election-2024-reform-uk-manifesto-and-pensions/",
+            "publisher": "loupedin.blog",
+            "title": "loupedin.blog",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "This aligns with ambitions from other parties, with Labour's Pension Scheme Bill (2025) also aiming to encourage investment in UK infrastructure and private assets, potentially unlocking \u00a380 billion.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFURvFPSRo6qZ_SuMl5nI2B2r6FupdoRbK1fwnrPyN8LIX32YyBmNwArpauqtmyP17lxsspVdcNUaduHJTXcCpqRCO4LulyDGJHSZS-43eYWTgsHm1DcymAmEM1zJfC2thlQEHuegcuIkJSntNAorxGb0OdBwhctz9Gv4q0198JZuY6ScBw2mFTW-5fgxnZ2hUX5b1vEiNzaaGxHmMifULT5w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "investmentmagazine.com.au",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Rachel Reeves has noted that Australian super funds invest significantly more in infrastructure (three times) and private equity (ten times) than UK DC funds.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFURvFPSRo6qZ_SuMl5nI2B2r6FupdoRbK1fwnrPyN8LIX32YyBmNwArpauqtmyP17lxsspVdcNUaduHJTXcCpqRCO4LulyDGJHSZS-43eYWTgsHm1DcymAmEM1zJfC2thlQEHuegcuIkJSntNAorxGb0OdBwhctz9Gv4q0198JZuY6ScBw2mFTW-5fgxnZ2hUX5b1vEiNzaaGxHmMifULT5w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "investmentmagazine.com.au",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "The IFS, while acknowledging issues, proposes a different reform approach for the State Pension.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4518595/reform-uks-position-pensions",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://millencc.co.uk/pensions-under-the-spotlight-government-revives-commission-as-ifs-review-calls-for-reform/",
+            "publisher": "millencc.co.uk",
+            "title": "millencc.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/pensions-review-final-recommendations",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.if.org.uk/2025/07/15/unsustainable-unpredictable-and-unfair-the-obr-highlights-why-the-triple-lock-on-the-state-pension-must-go/",
+            "publisher": "if.org.uk",
+            "title": "if.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/government-should-call-time-on-the-costly-triple-lock-ratchet/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.scottishfinancialnews.com/articles/resolution-foundation-ps650m-a-year-could-be-saved-by-scrapping-triple-lock",
+            "publisher": "scottishfinancialnews.com",
+            "title": "scottishfinancialnews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "The specific mechanisms for adopting elements of the Australian system remain largely undefined by Reform UK.",
+        "sources": [
+          {
+            "url": "https://www.pensionsage.com/pa/Reform-Party-manifesto-reveals-key-pension-policy-commitments.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.professionalpensions.com/news/4323748/reform-manifesto-pledges-review-pension-riddled-complexity",
+            "publisher": "professionalpensions.com",
+            "title": "professionalpensions.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.actuarialpost.co.uk/article/reform-party-push-for-australian-pensions-system-23550.htm",
+            "publisher": "actuarialpost.co.uk",
+            "title": "actuarialpost.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   **Utility Ownership:** The practicalities and implications of Reform UK's proposal for pension funds to own 50% of national utilities are unclear, including whether such ownership would be gifted or require market-rate investment by pension schemes.",
+        "sources": [
+          {
+            "url": "https://loupedin.blog/2024/06/election-2024-reform-uk-manifesto-and-pensions/",
+            "publisher": "loupedin.blog",
+            "title": "loupedin.blog",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

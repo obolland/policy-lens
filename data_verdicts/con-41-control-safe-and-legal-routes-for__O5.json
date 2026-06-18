@@ -1,0 +1,431 @@
+{
+  "policy_id": "con-41-control-safe-and-legal-routes-for",
+  "party": "Conservative",
+  "policy_title": "Control Safe and Legal Routes for Refugees",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Giving Parliament a vote on refugee caps and tying numbers to local capacity is primarily an immigration management measure; its direct effect on crime, justice, and national security is too indirect and weakly evidenced to register a meaningful change in safety or security outcomes. The main uncertainty is whether capping safe routes affects irregular arrivals and associated smuggling networks.",
+    "biggest_unknown": "Whether a parliamentary cap on safe and legal routes materially reduces or increases irregular arrivals \u2014 and thereby affects people-smuggling criminal networks \u2014 is contested and unresolved in the evidence.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would give Parliament control over the number of refugee places on safe and legal routes, with a cap based on local capacity.",
+        "evidence_id": "M",
+        "quote": "give Parliament control over the number of places offered on safe and legal routes for refugees, with a cap based on the capacity of local areas"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around 50,000 people were granted permission to come to the UK through a safe and legal route in 2025, 23% fewer than in 2024.",
+        "evidence_id": "E4",
+        "quote": "in 2025, around 50,000 people were granted permission to come to the UK through a safe and legal route, which was 23% fewer than in 2024 (excluding Ukrainians and Hong Kongers who received visa extensions)"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Refugee Council argues that availability of safe routes reduces irregular arrivals, while their absence drives people to other means including people smugglers.",
+        "evidence_id": "E6",
+        "quote": "the availability of safe routes (like the Ukraine schemes) significantly reduces irregular arrivals, while their absence drives people to other means"
+      },
+      {
+        "tier": "projected",
+        "claim": "Others argue that some individuals will always need to make unauthorised journeys regardless of safe route availability.",
+        "evidence_id": "E14",
+        "quote": "others have expressed doubt, suggesting that some individuals will always need to make unauthorized journeys to seek asylum"
+      },
+      {
+        "tier": "projected",
+        "claim": "Some argue that safe routes would reduce demand for people smugglers.",
+        "evidence_id": "E13",
+        "quote": "the availability of such routes would reduce demand for people smugglers"
+      }
+    ],
+    "rationale": "O5 is concerned with crime rates, national security, antisocial behaviour, and justice system functioning. This policy is primarily an immigration governance measure \u2014 it transfers a decision about refugee admission numbers from the executive to Parliament, and ties that number to local authority capacity. The direct pathway to O5 outcomes runs through one contested channel: whether capping safe and legal routes affects irregular migration and thereby the criminal networks (people smugglers) that facilitate it. The evidence here is genuinely split: the Refugee Council projects that safe routes reduce irregular arrivals and smuggling demand, while others project that some irregular movement occurs regardless. Neither side provides population-scale evidence of a crime or security effect specific to this cap mechanism. The policy does not commit new policing, border enforcement, or justice resources. It does not directly address court backlogs, charge/conviction times, or national security posture. The Illegal Migration Act legislative framework underpins the cap, but no cited evidence connects the parliamentary vote mechanism specifically to measurable O5 indicators. Given that the only plausible O5 pathway (smuggling networks) is genuinely contested and the policy instrument is governance-focused rather than enforcement-focused, the direction is negligible rather than improves or worsens. The minor magnitude flag reflects the non-zero but weakly evidenced possibility that the smuggling-route effect could matter at the margin.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9630/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www-media.refugeecouncil.org.uk/media/documents/APPG_Refugees_Report_-Safe_Routes_inquiry_Feb_2025.pdf",
+        "publisher": "www-media.refugeecouncil.org.uk",
+        "title": "refugeecouncil.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0314,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-structured and disciplined. Direction 'negligible' with low confidence is appropriately supported: the only plausible O5 pathway (people-smuggling networks) is genuinely contested by E6/E13 vs E14, and no claim overstates its quote. Tier assignments are correct \u2014 E6 and E13/E14 are rightly marked projected. The measurable baseline (E4) is a factual statistic, appropriately tiered. Magnitude 'minor' alongside direction 'negligible' is a slight tension (the schema does not strictly require n/a for negligible, only for too-uncertain), so no block raised. No party identity or motive attribution detected. No false balance issue \u2014 both sides of the smuggling debate have genuine claims behind them. Advocacy sources (Refugee Council) are used for a projected claim only and are not the sole basis for any verdict direction. One warning: E6 is sourced partly from refugeecouncil.org.uk (advocacy), and the claim relies on it for a projection about safe routes reducing irregular arrivals \u2014 this is labelled projected, which is appropriate, but the verdict could make the advocacy provenance more explicit. Not blocking."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will give Parliament control over the number of places offered on safe and legal routes for refugees, with a cap based on the capacity of local areas.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy was outlined in the Conservative Party Manifesto 2024, stating an intention to maintain existing visa schemes (e.g., for Hong Kong, Ukraine, and Afghan settlement schemes) while introducing a parliamentary vote on the level of the cap",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/conservative-manifesto-pledges-new-cap-reduce-record-net-migration-levels-and-promises-regular",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.caabu.org/advocacy/conservative-party-manifesto-2024",
+            "publisher": "caabu.org",
+            "title": "caabu.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVCeIeCDcBOdOIeww9koapypqwVmov-MZK75yE_YcBJwPgI1fb998Q9gZ1tqM0dYoWLRaYJtUbgV-IpEIPMaMuQvTMoRjBHo_wlDSRY95hmr9NtjDUzgPCP2pWxDfGfkiYyxQV06ZCG06NNkHD4lGxenkANbNGJBGCPqplv3zVpVICyqgZyH5hkCJIDvbVV3VlV24rPBOZVwOlHmpApD4C",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lisaslaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://public.conservatives.com/static/documents/GE2024/Conservative-Manifesto-GE2024.pdf",
+            "publisher": "public.conservatives.com",
+            "title": "conservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Illegal Migration Act 2023 provides the legislative framework, including a statutory duty for the Home Secretary to set an annual cap after consulting with local authorities",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9630/CBP-9630.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-consults-on-safe-and-legal-routes-for-refugees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/safe-and-legal-routes/report-on-safe-and-legal-routes-section-61-illegal-migration-act-2023-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/safe-and-legal-routes-cap-consultation",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The cap is intended to ensure that the number of arrivals aligns with the capacity of local authorities to provide support",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9630/CBP-9630.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-consults-on-safe-and-legal-routes-for-refugees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/safe-and-legal-routes/report-on-safe-and-legal-routes-section-61-illegal-migration-act-2023-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The House of Commons Library noted that, in 2025, around 50,000 people were granted permission to come to the UK through a safe and legal route, which was 23% fewer than in 2024 (excluding Ukrainians and Hong Kongers who received visa extensions)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9630/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "They highlight that for the majority of refugees, there are currently no safe routes to seek asylum in the UK",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/new-house-commons-library-briefing-safe-and-legal-routes-uk-people-seeking-protection",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.amnesty.org.uk/knowledge-hub/all-resources/truth-about-safe-and-legal-routes/",
+            "publisher": "amnesty.org.uk",
+            "title": "amnesty.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rescue.org/uk/press-release/immigration-statistics-reveal-urgent-need-safe-routes-says-irc-uk",
+            "publisher": "rescue.org",
+            "title": "rescue.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www-media.refugeecouncil.org.uk/media/documents/Safe-Legal-Routes-Briefing-March-2021.pdf",
+            "publisher": "www-media.refugeecouncil.org.uk",
+            "title": "refugeecouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The Refugee Council points to evidence that the availability of safe routes (like the Ukraine schemes) significantly reduces irregular arrivals, while their absence drives people to other means",
+        "sources": [
+          {
+            "url": "https://www-media.refugeecouncil.org.uk/media/documents/APPG_Refugees_Report_-Safe_Routes_inquiry_Feb_2025.pdf",
+            "publisher": "www-media.refugeecouncil.org.uk",
+            "title": "refugeecouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Office for Budget Responsibility (OBR) has highlighted the substantial financial strain of asylum accommodation, predicting these costs will reach \u00a315.3 billion over the next decade, a significant increase from previous Home Office estimates of \u00a34.5 billion",
+        "sources": [
+          {
+            "url": "https://www.insidehousing.co.uk/news/asylum-accommodation-to-cost-153bn-over-next-decade-obr-predicts-94933",
+            "publisher": "insidehousing.co.uk",
+            "title": "insidehousing.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1p77nzf/cost_of_asylum_accomodation_to_triple_to_152bn/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1p77t4y/obr_asylum_accommodation_costs_more_than_triple/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Local authority housing services costs rose by an average of 20% per year between 2022-23 and 2024-25, with an annual bill of \u00a32.8 billion last year for temporary accommodation, exacerbated by the homelessness crisis",
+        "sources": [
+          {
+            "url": "https://www.insidehousing.co.uk/news/asylum-accommodation-to-cost-153bn-over-next-decade-obr-predicts-94933",
+            "publisher": "insidehousing.co.uk",
+            "title": "insidehousing.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Resolution Foundation's work on \"localisation\" indicates that while localised support has grown, English councils have faced significant financial pressures, limiting their ability to design generous or consistent schemes",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-localisation-era/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/11/The-localisation-era.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "It estimates that each refugee accepted in the UK could contribute \u00a3266,000 to the UK economy over 12.5 years, with a net benefit to the public purse of \u00a353,000, particularly if asylum claims are processed within six months and adequate support is provided",
+        "sources": [
+          {
+            "url": "https://togetherwithrefugees.org.uk/welcoming-growth-press-release/",
+            "publisher": "togetherwithrefugees.org.uk",
+            "title": "togetherwithrefugees.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The OBR also generally notes that migrants, including refugees, contribute to the exchequer through visa fees and taxes, with an average migrant paying around \u00a31,900 in visa fees and \u00a32,600 on the Immigration Health Surcharge, and contributing approximately \u00a319,500 per year in general taxation",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "It highlights how housing instability and lack of access to public transport and services impede integration efforts and can lead to increased isolation and mental health problems for asylum seekers and refugees",
+        "sources": [
+          {
+            "url": "https://www.mentalhealth.org.uk/explore-mental-health/blogs/importance-community-refugees-and-asylum-seekers",
+            "publisher": "mentalhealth.org.uk",
+            "title": "mentalhealth.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "While some, like the Refugee Council, argue that the availability of such routes would reduce demand for people smugglers",
+        "sources": [
+          {
+            "url": "https://www-media.refugeecouncil.org.uk/media/documents/APPG_Refugees_Report_-Safe_Routes_inquiry_Feb_2025.pdf",
+            "publisher": "www-media.refugeecouncil.org.uk",
+            "title": "refugeecouncil.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": ", others have expressed doubt, suggesting that some individuals will always need to make unauthorized journeys to seek asylum",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9630/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Legal experts from several UK universities and immigration organizations describe the Illegal Migration Act 2023, which underpins the drive for \"safe and legal routes,\" as \"legally and economically unworkable\" and incompatible with international human rights obligations, potentially undermining the UK's humanitarian reputation",
+        "sources": [
+          {
+            "url": "https://news.exeter.ac.uk/faculty-of-humanities-arts-and-social-sciences/legal-experts-voice-concerns-over-uk-governments-immigration-legislation/",
+            "publisher": "news.exeter.ac.uk",
+            "title": "exeter.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "They argue that there is no visa category for individuals to apply for asylum from overseas, and if someone applying for a visa is thought to want to seek asylum, the visa may be refused",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/new-house-commons-library-briefing-safe-and-legal-routes-uk-people-seeking-protection",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.amnesty.org.uk/knowledge-hub/all-resources/truth-about-safe-and-legal-routes/",
+            "publisher": "amnesty.org.uk",
+            "title": "amnesty.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Economic Impact of Migration:** The Resolution Foundation has suggested that while migration has significantly impacted the size and composition of the UK labour market, the new restrictive migration regime is unlikely to dramatically alter the UK's overall economic trajectory or address core issues like low investment and productivity",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/demographics/migration/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This contrasts with the LSE report's findings, which underscore the potential economic benefits of a more welcoming asylum system",
+        "sources": [
+          {
+            "url": "https://togetherwithrefugees.org.uk/welcoming-growth-press-release/",
+            "publisher": "togetherwithrefugees.org.uk",
+            "title": "togetherwithrefugees.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Consultation on Local Capacity:** The Local Government Association (LGA) has been involved in consultations regarding the cap, welcoming confirmation that existing local authority tariffs for resettlement would apply (e.g., \u00a320,520 per person over five years for UK Resettlement Scheme arrivals)",
+        "sources": [
+          {
+            "url": "https://www.local.gov.uk/parliament/briefings-and-responses/safe-and-legal-routes-cap-consultation",
+            "publisher": "local.gov.uk",
+            "title": "local.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "However, the ability of local authorities to absorb refugees varies significantly due to existing pressures on housing and services, an issue acknowledged by the Home Office",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/safe-and-legal-routes/report-on-safe-and-legal-routes-section-61-illegal-migration-act-2023-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "policy_id": "ref-07-halt-interest-payments-on-qe-reserves",
+  "party": "Reform UK",
+  "policy_title": "Halt interest payments on QE reserves",
+  "outcome": "O2",
+  "verdict": {
+    "outcome": "O2",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy claims to save \u00a335 billion a year by stopping interest payments on Bank of England reserves, but experts say the real saving is likely far lower \u2014 and the side-effects could push up borrowing costs and prices for ordinary households. Whether it helps or hurts people's cost of living depends on contested economic questions no one can resolve with confidence.",
+    "biggest_unknown": "Whether banks would pass lost reserve income onto customers through higher lending rates or lower deposit rates \u2014 which would directly raise household borrowing costs and worsen cost of living.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would stop the Bank of England paying interest on QE reserves, saving around \u00a335 billion per year.",
+        "evidence_id": "M",
+        "quote": "Reform UK will stop the Bank of England from paying interest to commercial banks on Quantitative Easing (QE) reserves, which they project would save around \u00a335 billion per year."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Central bank reserves stood at approximately \u00a3654 billion as of early November 2025, down from around \u00a3697.6 billion in June 2024.",
+        "evidence_id": "E1",
+        "quote": "central bank reserves stood at approximately \u00a3654 billion"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS says the policy would raise 'a lot less than \u00a335 billion per year', meaning the headline saving is overstated.",
+        "evidence_id": "E5",
+        "quote": "whether a good idea or not, it would raise a lot less than \u00a335 billion per year"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Resolution Foundation estimated a tiered reserves system would save only \u00a34\u20135 billion by 2029-30, with benefits diminishing as QE unwinds.",
+        "evidence_id": "E9",
+        "quote": "a tiered reserves system could save the government \u00a34 billion to \u00a35 billion by 2029-30, noting that the fiscal benefits would diminish as the BoE reduces its gilt holdings through quantitative tightening (QT)"
+      },
+      {
+        "tier": "projected",
+        "claim": "The House of Commons Library noted that reserves and Bank Rate have fallen since Reform's estimate was made, implying lower potential savings now.",
+        "evidence_id": "E10",
+        "quote": "current Bank Rate and the size of reserves have decreased since Reform's initial estimate, implying lower potential savings now"
+      },
+      {
+        "tier": "projected",
+        "claim": "If banks no longer receive interest on reserves, they would likely pass losses to customers through higher lending rates, lower deposit rates, or increased fees.",
+        "evidence_id": "E17",
+        "quote": "if banks no longer receive interest on reserves, they would likely pass these losses on to customers through higher lending rates, lower deposit rates, or increased banking fees"
+      },
+      {
+        "tier": "projected",
+        "claim": "Stopping interest payments could undermine the Bank of England's ability to control interest rates and transmit monetary policy through the economy.",
+        "evidence_id": "E11",
+        "quote": "stopping interest payments would severely weaken the BoE's ability to control interest rates and implement monetary policy"
+      },
+      {
+        "tier": "projected",
+        "claim": "Loss of monetary policy transmission could lead to higher inflation, directly harming cost of living.",
+        "evidence_id": "E20",
+        "quote": "Politicising interest rate decisions and undermining the BoE's operational independence could jeopardise the UK's fiscal credibility, potentially leading to instability and higher inflation"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether banks absorb reserve income losses or pass them to households via lending/deposit rates, and whether monetary policy disruption triggers inflation",
+      "estimate_range": "Fiscal saving range: \u00a34\u20135bn (Resolution Foundation) to \u00a335bn (Reform UK claim), with IFS confirming the true figure is well below \u00a335bn; pass-through to household costs unquantified"
+    },
+    "rationale": "The policy's stated rationale \u2014 freeing up \u00a335 billion a year \u2014 is the mechanism by which it might improve cost of living, either by enabling tax cuts or public spending. But the IFS and Resolution Foundation both project the actual saving is far smaller, and the House of Commons Library notes the headline figure is already outdated. This deflates the potential upside materially. On the downside, the more serious risk to O2 is the projected pass-through: if commercial banks lose interest income on reserves, the evidence suggests they would recover it by raising lending rates or cutting deposit rates, directly increasing household borrowing costs and reducing returns on savings. This is a concrete cost-of-living mechanism working in the wrong direction for ordinary households. Beyond that, disruption to the Bank of England's monetary policy transmission \u2014 flagged by the Bank's own Governor and multiple analysts \u2014 could weaken inflation control, which is the single biggest driver of cost-of-living pressure. These two projected harms are credible and structurally grounded, but their magnitude depends on how banks respond and whether policy disruption is short-lived or sustained. Both the upside (fiscal saving recycled to households) and the downside (higher borrowing costs, inflation risk) are plausible but unresolved by the evidence. No credible source provides a net household-level cost-of-living estimate. The verdict is genuinely too uncertain \u2014 not a hedge, but a reflection that the crux parameters span ranges that honest analysis cannot resolve.",
+    "sources": [
+      {
+        "quote": "Bank of England Must Stop Paying Interest to Commercial Banks on QE Reserves This approach would save around \u00a335 billion per year and has been endorsed by senior figures at the Financial Times, New Economics Foundation, and IFS, as well as two former Deputy Governors of the Bank of England.",
+        "url": "https://www.reformparty.uk/our-contract-with-you-2024",
+        "publisher": "Reform UK"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10455/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://pa.media/blogs/fact-check/fact-check-changing-bank-interest-payments-could-save-11-5bn-estimate-shows/",
+        "publisher": "pa.media",
+        "title": "pa.media",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.investmentweek.co.uk/news/4323665/reform-uk-pledges-tackle-boe-interest-payments-banks-qe-reserves",
+        "publisher": "investmentweek.co.uk",
+        "title": "investmentweek.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/comment/turbulent-times/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10455/CBP-10455.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+        "publisher": "lyddonconsulting.com",
+        "title": "lyddonconsulting.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://capx.co/what-reform-dont-understand-about-monetary-policy",
+        "publisher": "capx.co",
+        "title": "capx.co",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.reddit.com/r/ukpolitics/comments/1o18f7n/why_doesnt_labour_push_boe_to_stop_paying/",
+        "publisher": "reddit.com",
+        "title": "reddit.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/business/2025/sep/25/nigel-farage-bank-of-england-halt-bond-sales-reform-uk",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0409,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are properly tiered and sourced. The stated claim (M) accurately reflects the policy text. Measurable claim (E1) is a factual baseline appropriately labelled. Projected claims are correctly tier-labelled and the quotes entail the claims as stated \u2014 notably E17 (pass-through) is from Lyddon Consulting, an advocacy/commercial source, but is corroborated by general economic reasoning and is labelled projected rather than measurable, so not a sole-source issue. The too-uncertain direction is genuinely supported by claims pointing in both directions (upside: fiscal saving; downside: pass-through costs, monetary policy disruption), so no false_balance issue. The crux_parameter and estimate_range are substantive and specific. Magnitude and time_horizon are correctly n/a. No party-blind or lever-leakage issues detected."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will stop the Bank of England from paying interest to commercial banks on Quantitative Easing (QE) reserves, which they project would save around \u00a335 billion per year.",
+        "sources": [
+          {
+            "quote": "Bank of England Must Stop Paying Interest to Commercial Banks on QE Reserves This approach would save around \u00a335 billion per year and has been endorsed by senior figures at the Financial Times, New Economics Foundation, and IFS, as well as two former Deputy Governors of the Bank of England.",
+            "url": "https://www.reformparty.uk/our-contract-with-you-2024",
+            "publisher": "Reform UK"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "As of early November 2025, central bank reserves stood at approximately \u00a3654 billion",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10455/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "In June 2024, the Bank held around \u00a3697.6 billion in its Asset Purchase Facility (APF)",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-changing-bank-interest-payments-could-save-11-5bn-estimate-shows/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "However, as Bank Rate has risen, these operations have resulted in losses, which the Treasury is committed to indemnifying",
+        "sources": [
+          {
+            "url": "https://neweconomics.org/2023/11/government-could-save-55bn-over-next-five-years-by-limiting-bank-of-englands-interest-payments-to-commercial-banks",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://positivemoney.org/uk/update/reform-s-proposal-to-ban-qe-won-t-work-but-we-should-take-calls-for-more-democrat/",
+            "publisher": "positivemoney.org",
+            "title": "positivemoney.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/box/the-lifetime-impact-of-quantitative-easing-and-quantitative-tightening/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/box/the-fiscal-impact-of-quantitative-easing-and-quantitative-tightening/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This figure likely stems from a calculation based on the total QE reserves (around \u00a3700 billion at the time of their proposal) and a Bank Rate of approximately 5.25% (as of June 2024)",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-changing-bank-interest-payments-could-save-11-5bn-estimate-shows/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   The **Institute for Fiscal Studies (IFS)** states that \"whether a good idea or not, it would raise a lot less than \u00a335 billion per year\"",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-changing-bank-interest-payments-could-save-11-5bn-estimate-shows/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.investmentweek.co.uk/news/4323665/reform-uk-pledges-tackle-boe-interest-payments-banks-qe-reserves",
+            "publisher": "investmentweek.co.uk",
+            "title": "investmentweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "A 2022 IFS report by former Bank of England Deputy Governor Sir Paul Tucker suggested potential savings of more than \u00a330 billion in each of the two subsequent financial years if the bulk of reserves were unremunerated, but highlighted that this figure was highly sensitive to the future path of Bank Rate",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/quantitative-easing-monetary-policy-implementation-and-public-finances",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   The **New Economics Foundation (NEF)**, while advocating for changes to reduce interest payments, estimated annual savings of \u00a311.5 billion through a \"tiered reserves\" policy, where interest is paid on only a portion of reserves",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-changing-bank-interest-payments-could-save-11-5bn-estimate-shows/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://neweconomics.org/2023/11/government-could-save-55bn-over-next-five-years-by-limiting-bank-of-englands-interest-payments-to-commercial-banks",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://neweconomics.org/2024/06/scrap-fiscal-rules-and-stop-subsidising-banks-to-fix-our-broken-economy",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://positivemoney.org/uk/update/reform-s-proposal-to-ban-qe-won-t-work-but-we-should-take-calls-for-more-democrat/",
+            "publisher": "positivemoney.org",
+            "title": "positivemoney.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "They further suggested that a 10% reserve requirement (where 10% of liquid assets are held in non-interest-bearing reserves) could save \u00a355 billion over five years",
+        "sources": [
+          {
+            "url": "https://neweconomics.org/2023/11/government-could-save-55bn-over-next-five-years-by-limiting-bank-of-englands-interest-payments-to-commercial-banks",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   The **Resolution Foundation** projected that a tiered reserves system could save the government \u00a34 billion to \u00a35 billion by 2029-30, noting that the fiscal benefits would diminish as the BoE reduces its gilt holdings through quantitative tightening (QT)",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/comment/turbulent-times/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   The **House of Commons Library** observed that Reform UK's estimate likely pertains to the total interest paid on reserves, not a partial cessation, and pointed out that current Bank Rate and the size of reserves have decreased since Reform's initial estimate, implying lower potential savings now",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10455/CBP-10455.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "**Monetary Policy Control and Financial Stability:**\n    *   **Undermining Monetary Policy:** The most critical concern, voiced by Bank of England Governor Andrew Bailey and other experts, is that stopping interest payments would severely weaken the BoE's ability to control interest rates and implement monetary policy",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10455/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.investmentweek.co.uk/news/4323665/reform-uk-pledges-tackle-boe-interest-payments-banks-qe-reserves",
+            "publisher": "investmentweek.co.uk",
+            "title": "investmentweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10455/CBP-10455.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Paying Bank Rate on reserves is fundamental to anchoring short-term market rates and ensuring that policy changes transmit effectively through the economy",
+        "sources": [
+          {
+            "url": "https://www.investmentweek.co.uk/news/4323665/reform-uk-pledges-tackle-boe-interest-payments-banks-qe-reserves",
+            "publisher": "investmentweek.co.uk",
+            "title": "investmentweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://capx.co/what-reform-dont-understand-about-monetary-policy",
+            "publisher": "capx.co",
+            "title": "capx.co",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Risk to Financial Stability:** Commercial banks use reserves for interbank payments, liquidity management, and to meet regulatory requirements",
+        "sources": [
+          {
+            "url": "https://capx.co/what-reform-dont-understand-about-monetary-policy",
+            "publisher": "capx.co",
+            "title": "capx.co",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Removing interest payments could reduce banks' incentive to hold these reserves, potentially destabilising the financial system",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10455/CBP-10455.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://capx.co/what-reform-dont-understand-about-monetary-policy",
+            "publisher": "capx.co",
+            "title": "capx.co",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Critics describe the proposal as \"reckless\" and akin to \"cutting power to the grid\"",
+        "sources": [
+          {
+            "url": "https://capx.co/what-reform-dont-understand-about-monetary-policy",
+            "publisher": "capx.co",
+            "title": "capx.co",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Loss of Transmission Mechanism:** Lyddon Consulting argues that ceasing interest payments would \"destroy the BoE's 'transmission mechanism',\" meaning the BoE's decisions would no longer effectively influence the wider economy",
+        "sources": [
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Impact on Commercial Banks and the Economy:**\n    *   **Passing Costs to Customers:** While Reform UK argues banks are \"profiting,\" opponents contend that if banks no longer receive interest on reserves, they would likely pass these losses on to customers through higher lending rates, lower deposit rates, or increased banking fees",
+        "sources": [
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This could be seen as a \"shadow taxation\" on the banking sector",
+        "sources": [
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "This could force the Treasury to issue new gilts to fund the BoE, effectively converting a \"shadow debt\" into a \"real debt\" and increasing the national debt",
+        "sources": [
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Government Debt and Fiscal Credibility:**\n    *   **Politicisation of the BoE:** Politicising interest rate decisions and undermining the BoE's operational independence could jeopardise the UK's fiscal credibility, potentially leading to instability and higher inflation",
+        "sources": [
+          {
+            "url": "https://capx.co/what-reform-dont-understand-about-monetary-policy",
+            "publisher": "capx.co",
+            "title": "capx.co",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/ukpolitics/comments/1o18f7n/why_doesnt_labour_push_boe_to_stop_paying/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2025/sep/25/nigel-farage-bank-of-england-halt-bond-sales-reform-uk",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Indemnified Losses:** The current system means that when the BoE incurs losses on its QE portfolio (as it has with rising interest rates), the Treasury covers these losses",
+        "sources": [
+          {
+            "url": "https://neweconomics.org/2023/11/government-could-save-55bn-over-next-five-years-by-limiting-bank-of-englands-interest-payments-to-commercial-banks",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://positivemoney.org/uk/update/reform-s-proposal-to-ban-qe-won-t-work-but-we-should-take-calls-for-more-democrat/",
+            "publisher": "positivemoney.org",
+            "title": "positivemoney.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/box/the-lifetime-impact-of-quantitative-easing-and-quantitative-tightening/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/box/the-fiscal-impact-of-quantitative-easing-and-quantitative-tightening/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The **Office for Budget Responsibility (OBR)** forecast in autumn 2024 cumulative losses of \u00a3240 billion from the full wind-down of the bond portfolio from the end of 2022",
+        "sources": [
+          {
+            "url": "https://iea.org.uk/the-cost-of-quantitative-tightening/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Stopping interest payments on reserves would affect how these losses are accounted for, but the underlying cost to the public finances remains",
+        "sources": [
+          {
+            "url": "https://www.lyddonconsulting.com/richard-tice-of-reform-uk-is-wrong-the-bank-of-england-should-not-stop-paying-interest-on-financial-institutions-reserves/",
+            "publisher": "lyddonconsulting.com",
+            "title": "lyddonconsulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Under this system, a portion of reserves would receive lower or no interest, while a smaller, operational portion would continue to earn the Bank Rate, allowing monetary policy to function effectively",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10455/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10455/CBP-10455.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://neweconomics.org/2023/11/government-could-save-55bn-over-next-five-years-by-limiting-bank-of-englands-interest-payments-to-commercial-banks",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://neweconomics.org/2024/06/scrap-fiscal-rules-and-stop-subsidising-banks-to-fix-our-broken-economy",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://positivemoney.org/uk/update/reform-s-proposal-to-ban-qe-won-t-work-but-we-should-take-calls-for-more-democrat/",
+            "publisher": "positivemoney.org",
+            "title": "positivemoney.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/turbulent-times/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "This approach has been adopted by other central banks, such as the European Central Bank (ECB), which stopped paying interest on minimum reserves, saving around \u00a35.2 billion (or \u20ac6 billion)",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10455/CBP-10455.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Switzerland has also implemented a similar policy",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10455/CBP-10455.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

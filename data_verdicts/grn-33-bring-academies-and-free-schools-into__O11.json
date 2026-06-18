@@ -1,0 +1,785 @@
+{
+  "policy_id": "grn-33-bring-academies-and-free-schools-into",
+  "party": "Green",
+  "policy_title": "Bring academies and free schools into local authority control and reform private school status",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "immediate",
+    "confidence": "moderate",
+    "plain": "Charging VAT on private school fees directly increases the cost for households paying those fees, reducing the money they keep. The hit is real but falls only on the roughly 7% of pupils in private schools, mostly higher-income families.",
+    "biggest_unknown": "How much of the VAT burden schools absorb versus pass on to parents determines the actual household tax hit; early data suggest an average pass-through of around 14\u201323%, not the full 20%.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy charges full VAT on private school fees, with an interim exemption for SEND children funded by local authorities.",
+        "evidence_id": "M",
+        "quote": "charge full VAT on private school fees, with an interim exemption for SEND children while public capacity is built"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The OBR forecast an effective VAT rate of 15.4% on private school fees.",
+        "evidence_id": "E5",
+        "quote": "The OBR forecasts an effective rate of 15.4%"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Schools passed on an average of about 14% VAT to parents rather than the full 20%.",
+        "evidence_id": "E7",
+        "quote": "schools effectively passed on an average of 14% VAT to parents"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Average private school fees including VAT rose by 23% between January 2024 and January 2025.",
+        "evidence_id": "E8",
+        "quote": "average fees, including VAT, rose by 23% between January 2024 and January 2025 due to annual increases and the new tax"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR estimated approximately 37,000 pupils would leave private schools as a result of VAT, representing about 6% of the private school population.",
+        "evidence_id": "E10",
+        "quote": "imposing VAT would lead to approximately 37,000 pupils (about 6% of the private school population) leaving the private sector and entering the state sector"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS estimated VAT revenue of approximately \u00a31.9 billion including boarding fees.",
+        "evidence_id": "E1",
+        "quote": "levying VAT at a net rate of about 15% on private school fees could generate approximately \u00a31.9 billion in total, including around \u00a3170 million from boarding fees"
+      }
+    ],
+    "rationale": "O11 asks specifically about household tax burden and take-home pay. The central mechanism here is straightforward: VAT on private school fees is a new tax cost borne by households paying those fees. Schools are passing on roughly 14% on average (E7), with total fee rises of around 23% over a year (E8), meaning fee-paying families are materially worse off in terms of money kept. The OBR's effective rate of 15.4% (E5) and the IFS estimate of ~15% net (E6) both confirm a significant real cost. The policy does not reduce taxes for anyone \u2014 there is no offsetting household tax cut in the stated text. The revenue generated (\u00a31.6\u20131.9bn per year) flows to the Exchequer; its use on state education touches O7, not O11. The removal of charitable status (business rates relief) is a tax on institutions, not directly on household income, so its O11 effect is negligible by comparison (E19 notes it generates less revenue than the VAT). The impact is concentrated on private school fee-paying households, who are disproportionately higher-income (E21 notes private school pupils are 'mostly from high-income families'). For the ~93% of families with children in state schools, this policy has no direct O11 effect. On the distributional criterion the rubric requires: this worsens the tax position of a relatively affluent minority of households. The direction is 'worsens' for those affected, with moderate magnitude given the real fee increases documented. Confidence is moderate because pass-through rates vary by school and the full steady-state effect is still emerging.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/vat-on-private-school-fees/applying-vat-to-private-school-fees",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.indeparent.com/blog/post/private-school-vat-a-complex-picture",
+        "publisher": "indeparent.com",
+        "title": "indeparent.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://schoolsweek.co.uk/private-school-vat-raids-whats-the-actual-impact/",
+        "publisher": "schoolsweek.co.uk",
+        "title": "schoolsweek.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+        "publisher": "goodschoolsguide.co.uk",
+        "title": "goodschoolsguide.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10125/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://ifs.org.uk/publications/tax-private-school-fees-and-state-school-spending",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.044,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are appropriate: OBR effective rate and pass-through data are correctly labelled measurable (observed/forecast rates); OBR pupil-exit and IFS revenue figures are correctly labelled projected. The 23% fee rise (E8) is from goodschoolsguide.co.uk (media/advocacy-adjacent) but is corroborated by E7 and E9 and not used as the sole basis for direction. The direction 'worsens' is evidence-led and correctly scoped to fee-paying households. No party identity or motive imputation. No lever leakage \u2014 revenue use is explicitly routed to O7. Distribution is addressed. Magnitude 'moderate' is defensible given the concentrated but real cost on a minority. One minor note: the source list references greenparty.org.uk manifesto, which appears irrelevant to the policy described (this seems like a pipeline data artefact), but this does not affect the verdict's factual backbone."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Move academies and free schools into local authority control, remove charitable status from private schools, and charge full VAT on private school fees, with an interim exemption for SEND children while public capacity is built.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Revenue Generation:**\n*   The Institute for Fiscal Studies (IFS) estimated in July 2023 that levying VAT at a net rate of about 15% on private school fees could generate approximately \u00a31.9 billion in total, including around \u00a3170 million from boarding fees",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/tax-private-school-fees-and-state-school-spending",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The OBR anticipated an average increase of \u00a31.6 billion in VAT receipts each year over the forecast period",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10125/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/vat/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "An updated OBR forecast in the 2025 Budget slightly revised this yield upwards by an average of \u00a340 million per year",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   The Labour Party's 2024 manifesto estimated the policy would raise over \u00a31.5 billion by 2028/29, which would be invested in 6,500 new state school teachers, 3,000 new nurseries, and breakfast clubs in all primary schools",
+        "sources": [
+          {
+            "url": "https://www.indeparent.com/blog/post/private-school-vat-a-complex-picture",
+            "publisher": "indeparent.com",
+            "title": "indeparent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The OBR forecasts an effective rate of 15.4%",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/vat-on-private-school-fees/applying-vat-to-private-school-fees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.indeparent.com/blog/post/private-school-vat-a-complex-picture",
+            "publisher": "indeparent.com",
+            "title": "indeparent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The IFS also estimated a net VAT rate of about 15%",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/tax-private-school-fees-and-state-school-spending",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "This meant schools effectively passed on an average of 14% VAT to parents",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/private-school-vat-raids-whats-the-actual-impact/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Another report indicated average fees, including VAT, rose by 23% between January 2024 and January 2025 due to annual increases and the new tax",
+        "sources": [
+          {
+            "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+            "publisher": "goodschoolsguide.co.uk",
+            "title": "goodschoolsguide.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Many schools have reportedly attempted to reduce costs to mitigate the full 20% increase for parents",
+        "sources": [
+          {
+            "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+            "publisher": "goodschoolsguide.co.uk",
+            "title": "goodschoolsguide.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Impact on Enrollment and the State Sector:**\n*   The OBR forecast that imposing VAT would lead to approximately 37,000 pupils (about 6% of the private school population) leaving the private sector and entering the state sector",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10125/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/vat-on-private-school-fees/applying-vat-to-private-school-fees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.indeparent.com/blog/post/private-school-vat-a-complex-picture",
+            "publisher": "indeparent.com",
+            "title": "indeparent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The OBR also estimated an increase of 35,000 pupils in the state sector in the steady state, which is less than 0.5% of total UK state school pupils",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/vat-on-private-school-fees/applying-vat-to-private-school-fees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   The IFS estimated a 3-7% reduction in private school attendance, equating to 17,000 to 40,000 children",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-vat-on-private-school-fees-unlikely-to-increase-state-class-sizes/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This suggests that an influx of pupils from the private sector is \"unlikely that state school class sizes will increase\"",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-vat-on-private-school-fees-unlikely-to-increase-state-class-sizes/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   Despite government estimates, data from the ISC in May 2025 indicated a drop of 13,000 pupils in a year, which was above the initial government estimates",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/private-school-vat-raids-whats-the-actual-impact/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The OBR has accounted for an estimated \u00a3270 million annual cost of absorbing these displaced pupils into the state sector",
+        "sources": [
+          {
+            "url": "https://www.indeparent.com/blog/post/private-school-vat-a-complex-picture",
+            "publisher": "indeparent.com",
+            "title": "indeparent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Removal of Charitable Status:**\n*   Private schools with charitable status currently benefit from tax exemptions, including relief from business rates",
+        "sources": [
+          {
+            "url": "https://pa.media/blogs/fact-check/fact-check-vat-on-private-school-fees-unlikely-to-increase-state-class-sizes/",
+            "publisher": "pa.media",
+            "title": "pa.media",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+            "publisher": "goodschoolsguide.co.uk",
+            "title": "goodschoolsguide.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The removal of charitable status (specifically the associated business rates relief) began in April 2025 in England, with an exception for schools primarily serving pupils with Education, Health and Care Plans (EHCPs)",
+        "sources": [
+          {
+            "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+            "publisher": "goodschoolsguide.co.uk",
+            "title": "goodschoolsguide.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Scotland implemented a similar change in 2022",
+        "sources": [
+          {
+            "url": "https://www.goodschoolsguide.co.uk/uk-schools/advice/private-schools-vat-labour-party-tax",
+            "publisher": "goodschoolsguide.co.uk",
+            "title": "goodschoolsguide.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "This measure is generally considered to generate less revenue than the VAT on fees",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/tax-private-school-fees-and-state-school-spending",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "**Expert Disagreement on Socioeconomic Mobility:**\n*   The policy's objective is to improve social mobility and fairness by using the generated revenue to enhance state education, particularly for disadvantaged pupils",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/tax-private-school-fees-and-state-school-spending",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/vat-on-private-school-fees/applying-vat-to-private-school-fees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.indeparent.com/blog/post/private-school-vat-a-complex-picture",
+            "publisher": "indeparent.com",
+            "title": "indeparent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The IFS acknowledges that private school pupils, mostly from high-income families, benefit from significant advantages in later life, raising concerns about inequality",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/tax-private-school-fees-and-state-school-spending",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   However, a Zeus Press study from October 2025 concluded that imposing VAT \"exacerbates educational opportunity inequality\"",
+        "sources": [
+          {
+            "url": "https://journals.zeuspress.org/index.php/FER/article/view/401",
+            "publisher": "journals.zeuspress.org",
+            "title": "zeuspress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "This study suggests a \"class differentiation\" in responses: the wealthiest 10% maintain private education, 53% of the middle 40% switch to public schools (potentially disrupting \"cultural capital inheritance\"), and 82% of the bottom 50% move to public or informal education, which could worsen \"intergenerational educational poverty\"",
+        "sources": [
+          {
+            "url": "https://journals.zeuspress.org/index.php/FER/article/view/401",
+            "publisher": "journals.zeuspress.org",
+            "title": "zeuspress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The study recommended progressive VAT exemptions to mitigate these effects",
+        "sources": [
+          {
+            "url": "https://journals.zeuspress.org/index.php/FER/article/view/401",
+            "publisher": "journals.zeuspress.org",
+            "title": "zeuspress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "This policy reverses a significant trend in UK education, where academies and free schools have operated independently of local authority (LA) control, funded directly by central government and having greater autonomy over curriculum, staff pay, and term times",
+        "sources": [
+          {
+            "url": "https://anticapitalistresistance.org/converting-local-authority-schools-into-academies-privatising-the-state-school-system-in-england/",
+            "publisher": "anticapitalistresistance.org",
+            "title": "anticapitalistresistance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://educationhub.blog.gov.uk/2022/06/what-the-schools-bill-means-for-academies/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "**Arguments for Local Authority Control:**\n*   **Accountability:** Proponents argue that returning schools to LA control would increase local accountability",
+        "sources": [
+          {
+            "url": "https://www.socialistparty.org.uk/articles/135093/29-01-2025/academy-funding-scandal-return-all-schools-to-local-authority-control/",
+            "publisher": "socialistparty.org.uk",
+            "title": "socialistparty.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mylondon.news/news/uk-world-news/academies-should-returned-local-authority-31423136",
+            "publisher": "mylondon.news",
+            "title": "mylondon.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "The NEU advocates for re-nationalising schools and placing them under LA control to curb these excesses",
+        "sources": [
+          {
+            "url": "https://www.socialistparty.org.uk/articles/135093/29-01-2025/academy-funding-scandal-return-all-schools-to-local-authority-control/",
+            "publisher": "socialistparty.org.uk",
+            "title": "socialistparty.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mylondon.news/news/uk-world-news/academies-should-returned-local-authority-31423136",
+            "publisher": "mylondon.news",
+            "title": "mylondon.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Equity and Inclusion:** The NEU suggests that the academy system has resulted in a \"less equal and less inclusive education system\"",
+        "sources": [
+          {
+            "url": "https://www.mylondon.news/news/uk-world-news/academies-should-returned-local-authority-31423136",
+            "publisher": "mylondon.news",
+            "title": "mylondon.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The LGA also found that 98% of \"inadequate\" council schools improved in subsequent inspections, versus 88% of academies",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2016/apr/25/local-authority-schools-outperform-academies-research-suggests",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Mechanisms for Reversal:** There is currently no legal mechanism for academies to revert to local authority control, but teaching unions are calling for the creation of such a route",
+        "sources": [
+          {
+            "url": "https://www.mylondon.news/news/uk-world-news/academies-should-returned-local-authority-31423136",
+            "publisher": "mylondon.news",
+            "title": "mylondon.news",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/schools-government-mps-harrogate-bill-b2744293.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.localgovernmentlawyer.co.uk/child-protection/309-children-protection-features/3638-lessons-from-the-academies-act",
+            "publisher": "localgovernmentlawyer.co.uk",
+            "title": "localgovernmentlawyer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "**Arguments Against / Concerns with Local Authority Control (Current Academy Perspective):**\n*   **Autonomy and Innovation:** Supporters of the academy system argue that freedom from LA control allows for innovation, better leadership, and higher attainment",
+        "sources": [
+          {
+            "url": "https://www.parliament.uk/business/publications/research/key-issues-parliament-2015/education/academies-and-free-schools/",
+            "publisher": "parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The Department for Education (DfE) has emphasized that the Schools Bill (2022), while establishing a common rulebook for minimum standards, will \"not take independence from schools or trusts\"",
+        "sources": [
+          {
+            "url": "https://educationhub.blog.gov.uk/2022/06/what-the-schools-bill-means-for-academies/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Context of Performance Data:** The DfE has previously countered LGA claims by stating that the worst-performing schools were often converted to academies, making direct performance comparisons potentially misleading",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/education/2016/apr/25/local-authority-schools-outperform-academies-research-suggests",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "The policy includes an interim exemption for SEND children from VAT on private school fees when their place is funded by the local authority because their acute needs cannot be met in the state system",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/tax-private-school-fees-and-state-school-spending",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/vat-on-private-school-fees/applying-vat-to-private-school-fees",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10125/CBP-10125.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Without reforms, councils are projected to accrue another \u00a39 billion in SEND-related debt by 2027-28",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8Zb62qCXABNNlSQdfNo0gabwOv-BAIy3y2jz2BSMRvBqNtJ2Jb50K5aQgcpSGbwTSv1ywaJ7i-AjiTuwEVQTO11cP8_aZT3ZK1AeUbfzY-Y3t2hZfV6adBuQcN6cTjpPJApG8Q7taBEXs4EOM4ks64-w744I_jOWHc8eob_eYv9HDi4FOgLM12biR515IN4HEFHQu3Ef9DYV37Nk6lT12bt0OKVOhDA2gJ8KqAcBl",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   More than half (56%) of pupils with EHCPs are currently educated in mainstream schools, a rise from 49% in 2015/16",
+        "sources": [
+          {
+            "url": "https://www.nfer.ac.uk/press-releases/stark-inequalities-in-distribution-of-send-pupils-across-england-s-mainstream-schools-revealed-in-new-nfer-report/",
+            "publisher": "nfer.ac.uk",
+            "title": "nfer.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   There are \"stark inequalities in distribution of SEND pupils across England's mainstream schools,\" potentially straining some schools more than others",
+        "sources": [
+          {
+            "url": "https://www.nfer.ac.uk/press-releases/stark-inequalities-in-distribution-of-send-pupils-across-england-s-mainstream-schools-revealed-in-new-nfer-report/",
+            "publisher": "nfer.ac.uk",
+            "title": "nfer.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "**Capacity Building Initiatives:**\n*   The government has pledged \"generational reforms\" to improve outcomes for children with SEND",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/radical-expansion-in-rights-for-children-with-send",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   This includes a \u00a31.8 billion investment over three years (from September 2026) for an \"Experts at Hand\" service, providing health professionals and specialist teachers in mainstream schools",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/experts-at-hand-send-support-should-be-time-limited-says-guidance/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/radical-expansion-in-rights-for-children-with-send",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   An additional \u00a33.7 billion investment is planned to create over 60,000 more specialist places, with an expectation for every secondary school to have an inclusion base",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/radical-expansion-in-rights-for-children-with-send",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   A \u00a31.6 billion inclusion grant is designated for proven programs such as small-group speech and language support",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/radical-expansion-in-rights-for-children-with-send",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   New legal requirements will mandate Individual Support Plans (ISPs) for all children with SEND, and EHCPs will be based on specialist provision packages to improve consistency and quality of support",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/radical-expansion-in-rights-for-children-with-send",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "**Expert Concerns and Challenges:**\n*   The IFS notes that while the government is compensating councils for 90% of historic SEND deficits, this may reduce incentives for councils to contain costs without fundamental system reforms",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8Zb62qCXABNNlSQdfNo0gabwOv-BAIy3y2jz2BSMRvBqNtJ2Jb50K5aQgcpSGbwTSv1ywaJ7i-AjiTuwEVQTO11cP8_aZT3ZK1AeUbfzY-Y3t2hZfV6adBuQcN6cTjpPJApG8Q7taBEXs4EOM4ks64-w744I_jOWHc8eob_eYv9HDi4FOgLM12biR515IN4HEFHQu3Ef9DYV37Nk6lT12bt0OKVOhDA2gJ8KqAcBl",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "*   Research from the Nuffield Foundation indicates that parental preferences for special education have \"stymied attempts in many jurisdictions to educate more children in mainstream schools\"",
+        "sources": [
+          {
+            "url": "https://www.nuffieldfoundation.org/news/opinion/send-new-insights-and-key-questions",
+            "publisher": "nuffieldfoundation.org",
+            "title": "nuffieldfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "There is a risk that if mainstream inclusion is pushed too aggressively, some parents may feel compelled to withdraw their children from the school system",
+        "sources": [
+          {
+            "url": "https://www.nuffieldfoundation.org/news/opinion/send-new-insights-and-key-questions",
+            "publisher": "nuffieldfoundation.org",
+            "title": "nuffieldfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "*   Concerns have also been raised that shifting SEND assessment and provision planning from councils to schools could negatively impact parental engagement and potentially lead to an increase in legal challenges against schools",
+        "sources": [
+          {
+            "url": "https://www.nuffieldfoundation.org/news/opinion/send-new-insights-and-key-questions",
+            "publisher": "nuffieldfoundation.org",
+            "title": "nuffieldfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

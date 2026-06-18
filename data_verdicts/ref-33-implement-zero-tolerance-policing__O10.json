@@ -1,0 +1,905 @@
+{
+  "policy_id": "ref-33-implement-zero-tolerance-policing",
+  "party": "Reform UK",
+  "policy_title": "Implement zero-tolerance policing",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "immediate",
+    "confidence": "moderate",
+    "plain": "This policy substantially expands stop and search, introduces mandatory prison sentences, and creates new criminal offences \u2014 all of which increase state coercive power over individuals' bodies and choices. The main caveat is that some of these powers already exist in law, so the marginal liberty cost depends on how aggressively they are applied.",
+    "biggest_unknown": "How much additional coercive power is genuinely new versus already on the statute book, and whether courts would apply mandatory sentences rigidly or find departures.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy substantially increases stop and search.",
+        "evidence_id": "M",
+        "quote": "substantially increasing Stop and Search"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy mandates prison for violent crimes and knife possession.",
+        "evidence_id": "M",
+        "quote": "mandating prison for violent crimes and knife possession"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy imposes mandatory life imprisonment for drug dealing and trafficking.",
+        "evidence_id": "M",
+        "quote": "imposing mandatory life imprisonment for drug dealing and trafficking"
+      },
+      {
+        "tier": "stated",
+        "claim": "A new offence of Substantial Possession of Drugs is created, carrying heavy fines.",
+        "evidence_id": "M",
+        "quote": "A new offence of Substantial Possession of Drugs will carry heavy fines"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Black people are currently stopped and searched 5.5 times more often than white people under existing powers.",
+        "evidence_id": "E16",
+        "quote": "Black people are stopped and searched 5.5 times more often than white people"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The maximum penalty for trafficking Class A drugs is already life imprisonment under existing law.",
+        "evidence_id": "E28",
+        "quote": "the maximum penalty for trafficking Class A drugs (e.g., heroin, cocaine) is already life imprisonment and an unlimited fine"
+      },
+      {
+        "tier": "measurable",
+        "claim": "There is already a mandatory minimum sentence for a second conviction of possessing an offensive weapon or bladed article.",
+        "evidence_id": "E21",
+        "quote": "There is also a mandatory minimum sentence for a second conviction of possessing an offensive weapon or bladed article"
+      },
+      {
+        "tier": "projected",
+        "claim": "Mandatory minimum sentences limit judicial discretion, which critics argue can lead to rigid penalties that may not fit individual circumstances.",
+        "evidence_id": "E22",
+        "quote": "Mandatory minimum sentences limit judicial discretion, which critics argue can lead to rigid penalties that may not fit individual circumstances"
+      },
+      {
+        "tier": "projected",
+        "claim": "Stop and search's disproportionate use on ethnic minorities can lead to mistrust, trauma, and poorer mental and physical health outcomes.",
+        "evidence_id": "E15",
+        "quote": "Stop and search is a controversial police power due to its disproportionate use on ethnic minorities, particularly young Black men, which can lead to mistrust, trauma, and poorer mental and physical health outcomes"
+      }
+    ],
+    "rationale": "O10 concerns freedom from state coercion \u2014 including stop and search, bodily autonomy, and freedom from mandatory penalties. This policy expands all three coercive instruments simultaneously: it substantially increases stop and search (a physical intrusion on persons without arrest), mandates imprisonment for a wider set of offences (removing judicial discretion over custodial sentences), and creates an entirely new criminal offence (Substantial Possession of Drugs) that did not previously exist. Each element extends the reach of state coercive power over individuals.\n\nSome of the underlying powers already exist \u2014 life imprisonment for Class A trafficking is already the maximum, and mandatory minimums for repeat knife offences are already on the statute book. This limits the marginal liberty worsening to some degree. However, the policy converts existing maxima into mandatory minima across a broader range, which removes judicial discretion that currently allows courts to avoid disproportionate outcomes. The new Substantial Possession offence also creates a genuinely new coercive instrument.\n\nThe expansion of stop and search is unambiguously a liberty cost: it empowers police to detain and search individuals without charge, and existing evidence shows it already falls heavily and disproportionately on Black men. A substantial increase compounds that coercive reach.\n\nThese are all direct, immediate extensions of state power over bodies and choices \u2014 the core of O10. The magnitude is moderate rather than major because some of the headline measures (e.g. life sentences for Class A trafficking) duplicate existing law, and the new offence applies to possession rather than imposing surveillance infrastructure. Confidence is moderate because the real-world effect depends on implementation intensity and judicial application.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.stop-watch.org/news-opinion/why-do-londoners-back-stop-and-search/",
+        "publisher": "stop-watch.org",
+        "title": "stop-watch.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.drugpolicyfacts.org/node/4059",
+        "publisher": "drugpolicyfacts.org",
+        "title": "drugpolicyfacts.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.birdandco.co.uk/blog/criminal-law-blog/what-are-the-consequences-of-drug-trafficking/",
+        "publisher": "birdandco.co.uk",
+        "title": "birdandco.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://mcgeemcgeeagarlaw.co.uk/blog/do-first-time-drug-dealers-go-to-jail-in-the-uk/",
+        "publisher": "mcgeemcgeeagarlaw.co.uk",
+        "title": "mcgeemcgeeagarlaw.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.olliers.com/criminal-law/drugs-offences/drug-offences-sentencing/",
+        "publisher": "olliers.com",
+        "title": "olliers.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.defence-barrister.co.uk/mandatory-minimum-term-sentences",
+        "publisher": "defence-barrister.co.uk",
+        "title": "defence-barrister.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ergsy.com/information/can-sentencing-after-serious-violent-crime-include-mandatory-minimum-penalties",
+        "publisher": "ergsy.com",
+        "title": "ergsy.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Zero_tolerance",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/law/article/2024/aug/21/stop-and-search-study-in-england-and-wales-casts-doubt-on-effectiveness",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://idebate.net/this-house-believes-that-zero-tolerance-policing-is-a-good-tactic-for-fighting-crime~b1037/",
+        "publisher": "idebate.net",
+        "title": "idebate.net",
+        "source_type": "media"
+      },
+      {
+        "url": "https://youthendowmentfund.org.uk/toolkit/stop-and-search/",
+        "publisher": "youthendowmentfund.org.uk",
+        "title": "youthendowmentfund.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0057/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0438,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-grounded. Stated claims quote verbatim from policy text. Measurable claims (E16, E28, E21) are appropriately sourced baseline facts, not projections. Projected claims are correctly tiered and qualified. Direction 'worsens' is straightforwardly supported by the stated expansion of coercive instruments (stop and search, mandatory sentences, new offence) \u2014 no false balance concern. The rationale correctly notes partial overlap with existing law, which moderates magnitude to 'moderate' rather than 'major'; this is a defensible, evidence-grounded call. No party-blind issues \u2014 the rationale judges the policy's structural effect on liberty, not Reform UK's motives. No lever leakage \u2014 the verdict explicitly judges liberty costs, not crime-reduction effectiveness. Stop-watch.org is used only for a measurable baseline statistic (E16) that is attributed to Home Office statistics, which is acceptable. The verdict is publication-ready."
+    },
+    "gate": {
+      "kept": 9,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will implement zero-tolerance policing, clamping down on all crime and antisocial behaviour, substantially increasing Stop and Search, mandating prison for violent crimes and knife possession, and imposing mandatory life imprisonment for drug dealing and trafficking. A new offence of Substantial Possession of Drugs will carry heavy fines.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's proposed \"zero-tolerance policing\" policy outlines a strict approach to crime and antisocial behaviour, including substantial increases in Stop and Search, mandated prison sentences for violent crimes and knife possession, mandatory life imprisonment for drug dealing and trafficking, and a new offence of \"Substantial Possession of Drugs\" with heavy fines",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/reform-uk-nigel-farage-richard-tice-bill-gdp-b2563936.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Zero-tolerance policing, often associated with the \"broken windows\" theory, involves aggressively enforcing laws against even minor disorder and incivilities",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/crime-reduction-toolkit/zero-tolerance-policing",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ukessays.com/essays/criminology/zero-tolerance-policing.php",
+            "publisher": "ukessays.com",
+            "title": "ukessays.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/zero-tolerance",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rand.org/pubs/tools/TL261/better-policing-toolkit/all-strategies/zero-tolerance/in-depth.html",
+            "publisher": "rand.org",
+            "title": "rand.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://study.com/academy/lesson/video/zero-tolerance-policing-definition-lesson.html",
+            "publisher": "study.com",
+            "title": "study.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "While advocates suggest it can deter criminals and improve public safety, research generally indicates that it does not lead to statistically significant reductions in overall crime",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/crime-reduction-toolkit/zero-tolerance-policing",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/zero-tolerance",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rand.org/pubs/tools/TL261/better-policing-toolkit/all-strategies/zero-tolerance.html",
+            "publisher": "rand.org",
+            "title": "rand.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Effectiveness:** A meta-analysis of 19 studies found no statistically significant effect of zero-tolerance policing on recorded crime, with most studies showing no impact and a few even indicating a statistically significant increase in crime",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/crime-reduction-toolkit/zero-tolerance-policing",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The College of Policing concludes that it is not an effective crime reduction strategy",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/zero-tolerance",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Community Relations:** Critics argue that zero-tolerance approaches can lead to negative consequences, such as racial disparities in police contacts, excessive punishment of young people of colour, and erosion of public trust and cooperation with the police",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/crime-reduction-toolkit/zero-tolerance-policing",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://idebate.net/this-house-believes-that-zero-tolerance-policing-is-a-good-tactic-for-fighting-crime~b1037/",
+            "publisher": "idebate.net",
+            "title": "idebate.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ukessays.com/essays/criminology/zero-tolerance-policing.php",
+            "publisher": "ukessays.com",
+            "title": "ukessays.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/zero-tolerance",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Zero_tolerance",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://incite-national.org/wp-content/uploads/2018/08/toolkitrev-qualitylife.pdf",
+            "publisher": "incite-national.org",
+            "title": "incite-national.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The approach may redefine social problems as security issues and disproportionately target lower social classes",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Zero_tolerance",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Distinction from Problem-Oriented Policing:** Experts, including former NYPD chief William Bratton, who is often mistakenly associated with zero-tolerance, clarify that effective policing in New York in the 1990s involved targeted problem-solving and community policing, not indiscriminate zero-tolerance",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/zero-tolerance",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/what-works-evidence-on-zero-tolerance-policing.pdf",
+            "publisher": "assets-hmicfrs.justiceinspectorates.gov.uk",
+            "title": "justiceinspectorates.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.rand.org/pubs/tools/TL261/better-policing-toolkit/all-strategies/zero-tolerance.html",
+            "publisher": "rand.org",
+            "title": "rand.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://civitas.org.uk/content/files/cw351.pdf",
+            "publisher": "civitas.org.uk",
+            "title": "civitas.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Reform UK pledges to substantially increase Stop and Search",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/reform-uk-nigel-farage-richard-tice-bill-gdp-b2563936.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Effectiveness:** Studies in the UK show a low impact of stop and search on crime reduction",
+        "sources": [
+          {
+            "url": "https://youthendowmentfund.org.uk/toolkit/stop-and-search/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0057/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "A 2018 study in the British Journal of Criminology analysing London data from 2004 to 2014 concluded that the effect of stop and search on crime is \"likely to be marginal, at best\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0057/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "While some association was found with drug crime (a 10% increase in stop and search correlated with a 1.9% decrease in drug-related offending in one study), researchers caution against concluding that it necessarily deters drug offences",
+        "sources": [
+          {
+            "url": "https://www.stop-watch.org/news-opinion/why-do-londoners-back-stop-and-search/",
+            "publisher": "stop-watch.org",
+            "title": "stop-watch.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Youth Endowment Fund (YEF), a charity funded by the Home Office, found that stop and search achieved only a 5% cut in violence in England and Wales, compared to a 13% reduction in the US",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/law/article/2024/aug/21/stop-and-search-study-in-england-and-wales-casts-doubt-on-effectiveness",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://youthendowmentfund.org.uk/toolkit/stop-and-search/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "They suggest other tactics like focused deterrence (33% reduction) and mentoring (21% reduction) are more effective",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/law/article/2024/aug/21/stop-and-search-study-in-england-and-wales-casts-doubt-on-effectiveness",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Disproportionality and Trust:** Stop and search is a controversial police power due to its disproportionate use on ethnic minorities, particularly young Black men, which can lead to mistrust, trauma, and poorer mental and physical health outcomes",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/law/article/2024/aug/21/stop-and-search-study-in-england-and-wales-casts-doubt-on-effectiveness",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://idebate.net/this-house-believes-that-zero-tolerance-policing-is-a-good-tactic-for-fighting-crime~b1037/",
+            "publisher": "idebate.net",
+            "title": "idebate.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://youthendowmentfund.org.uk/toolkit/stop-and-search/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.stop-watch.org/news-opinion/why-do-londoners-back-stop-and-search/",
+            "publisher": "stop-watch.org",
+            "title": "stop-watch.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0057/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Home Office statistics show Black people are stopped and searched 5.5 times more often than white people",
+        "sources": [
+          {
+            "url": "https://www.stop-watch.org/news-opinion/why-do-londoners-back-stop-and-search/",
+            "publisher": "stop-watch.org",
+            "title": "stop-watch.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Baroness Casey's review (2023) found the Metropolitan Police had not adequately explored the \"humiliating and traumatic\" impact of stop and searches on community trust",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0057/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Cost:** The YEF estimates that around \u00a310-16 million was spent on stop and search in England and Wales in 2022",
+        "sources": [
+          {
+            "url": "https://youthendowmentfund.org.uk/toolkit/stop-and-search/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Reform UK proposes mandating prison for all violent crimes and knife possession",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Current Law:** In the UK, some serious violent offences already carry mandatory minimum penalties, especially those involving firearms, repeat serious offending, or dangerous weapons",
+        "sources": [
+          {
+            "url": "https://ergsy.com/information/can-sentencing-after-serious-violent-crime-include-mandatory-minimum-penalties",
+            "publisher": "ergsy.com",
+            "title": "ergsy.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sentencing_in_England_and_Wales",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "There is also a mandatory minimum sentence for a second conviction of possessing an offensive weapon or bladed article",
+        "sources": [
+          {
+            "url": "https://www.defence-barrister.co.uk/mandatory-minimum-term-sentences",
+            "publisher": "defence-barrister.co.uk",
+            "title": "defence-barrister.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Judicial Discretion:** Mandatory minimum sentences limit judicial discretion, which critics argue can lead to rigid penalties that may not fit individual circumstances",
+        "sources": [
+          {
+            "url": "https://ergsy.com/information/can-sentencing-after-serious-violent-crime-include-mandatory-minimum-penalties",
+            "publisher": "ergsy.com",
+            "title": "ergsy.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Zero_tolerance",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Judges can sometimes depart from minimums if it would be \"unjust\"",
+        "sources": [
+          {
+            "url": "https://ergsy.com/information/can-sentencing-after-serious-violent-crime-include-mandatory-minimum-penalties",
+            "publisher": "ergsy.com",
+            "title": "ergsy.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sentencing_in_England_and_Wales",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Impact on Reoffending and Prison Population:** Analysis from Politics Home (2018) highlighted that despite mandatory sentences for knife carrying introduced in 2015, knife crime had soared, with fatal stabbings up by 43% since then",
+        "sources": [
+          {
+            "url": "https://www.politicshome.com/thehouse/article/mandatory-prison-sentences-dont-work--we-need-a-real-cure-for-the-epidemic-of-violent-crime",
+            "publisher": "politicshome.com",
+            "title": "politicshome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They also noted that government analysis shows people given community sentences are less likely to reoffend than those given short prison sentences",
+        "sources": [
+          {
+            "url": "https://www.politicshome.com/thehouse/article/mandatory-prison-sentences-dont-work--we-need-a-real-cure-for-the-epidemic-of-violent-crime",
+            "publisher": "politicshome.com",
+            "title": "politicshome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Increasing mandatory sentences could exacerbate existing pressures on prison capacity, which is already a concern in the UK criminal justice system",
+        "sources": [
+          {
+            "url": "https://policyexchange.org.uk/wp-content/uploads/A-Portrait-of-Modern-Britain-Crime-and-closing-the-Toughness-Gap.pdf",
+            "publisher": "policyexchange.org.uk",
+            "title": "policyexchange.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Life_imprisonment_in_England_and_Wales",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Reform UK's policy mandates life imprisonment for all drug dealing and trafficking",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/reform-uk-nigel-farage-richard-tice-bill-gdp-b2563936.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.talkingdrugs.org/uk-elections-cheat-sheet-what-does-each-party-say-about-drug-policy/",
+            "publisher": "talkingdrugs.org",
+            "title": "talkingdrugs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Current Law:** Under the Misuse of Drugs Act 1971, the maximum penalty for trafficking Class A drugs (e.g., heroin, cocaine) is already life imprisonment and an unlimited fine",
+        "sources": [
+          {
+            "url": "https://www.drugpolicyfacts.org/node/4059",
+            "publisher": "drugpolicyfacts.org",
+            "title": "drugpolicyfacts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birdandco.co.uk/blog/criminal-law-blog/what-are-the-consequences-of-drug-trafficking/",
+            "publisher": "birdandco.co.uk",
+            "title": "birdandco.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mcgeemcgeeagarlaw.co.uk/blog/do-first-time-drug-dealers-go-to-jail-in-the-uk/",
+            "publisher": "mcgeemcgeeagarlaw.co.uk",
+            "title": "mcgeemcgeeagarlaw.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.olliers.com/criminal-law/drugs-offences/drug-offences-sentencing/",
+            "publisher": "olliers.com",
+            "title": "olliers.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "For Class B and C drugs, the maximum is 14 years",
+        "sources": [
+          {
+            "url": "https://www.drugpolicyfacts.org/node/4059",
+            "publisher": "drugpolicyfacts.org",
+            "title": "drugpolicyfacts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.birdandco.co.uk/blog/criminal-law-blog/what-are-the-consequences-of-drug-trafficking/",
+            "publisher": "birdandco.co.uk",
+            "title": "birdandco.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mcgeemcgeeagarlaw.co.uk/blog/do-first-time-drug-dealers-go-to-jail-in-the-uk/",
+            "publisher": "mcgeemcgeeagarlaw.co.uk",
+            "title": "mcgeemcgeeagarlaw.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "A minimum sentence of 7 years was introduced for a third conviction for trafficking Class A drugs",
+        "sources": [
+          {
+            "url": "https://www.drugpolicyfacts.org/node/4059",
+            "publisher": "drugpolicyfacts.org",
+            "title": "drugpolicyfacts.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sentencing_in_England_and_Wales",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.defence-barrister.co.uk/mandatory-minimum-term-sentences",
+            "publisher": "defence-barrister.co.uk",
+            "title": "defence-barrister.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Historically, a rise in imprisonment rates in New York City in the 1990s did not demonstrably cause the crime drop, suggesting that increased imprisonment alone may not be the primary solution",
+        "sources": [
+          {
+            "url": "https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/what-works-evidence-on-zero-tolerance-policing.pdf",
+            "publisher": "assets-hmicfrs.justiceinspectorates.gov.uk",
+            "title": "justiceinspectorates.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Public Opinion on Drug Sentencing:** While public opposition to legalisation of hard drugs is high, a 2023 LSE British Politics article notes that 61% of Britons support community service or less for personal drug use, and 54% favour education or treatment over prison for personal possession",
+        "sources": [
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/has-the-time-come-for-reform-of-the-uks-drug-policy/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Reform UK plans a new offence of \"Substantial Possession of Drugs\" carrying heavy fines",
+        "sources": [
+          {
+            "url": "https://www.russellwebster.com/reforms-manifesto-commitments-on-justice/",
+            "publisher": "russellwebster.com",
+            "title": "russellwebster.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.changing-lives.org.uk/insights/party-positions-recovery-general-election-2024",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.talkingdrugs.org/uk-elections-cheat-sheet-what-does-each-party-say-about-drug-policy/",
+            "publisher": "talkingdrugs.org",
+            "title": "talkingdrugs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Alternatives in Drug Policy:** The Home Affairs Committee (2023) called for a \"health-led drug strategy\" focused on harm reduction, including safe consumption facilities and drug-checking services, to address public health risks and help people escape addiction and related criminality",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/work/6534/drugs/news/197223/reform-law-and-expand-treatment-options-to-tackle-cost-of-drugs-on-society-home-affairs-committee-finds",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The Green Party and Liberal Democrats also advocate for evidence-based approaches, decriminalisation of personal possession, and investment in addiction services, contrasting with a purely punitive approach",
+        "sources": [
+          {
+            "url": "https://www.changing-lives.org.uk/insights/party-positions-recovery-general-election-2024",
+            "publisher": "changing-lives.org.uk",
+            "title": "changing-lives.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.talkingdrugs.org/uk-elections-cheat-sheet-what-does-each-party-say-about-drug-policy/",
+            "publisher": "talkingdrugs.org",
+            "title": "talkingdrugs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Zero-Tolerance:** The College of Policing and the Youth Endowment Fund largely conclude that zero-tolerance policing and increased stop and search have a low or statistically insignificant impact on crime reduction in the UK and can damage community trust",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/crime-reduction-toolkit/zero-tolerance-policing",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/law/article/2024/aug/21/stop-and-search-study-in-england-and-wales-casts-doubt-on-effectiveness",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://youthendowmentfund.org.uk/toolkit/stop-and-search/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2025-0057/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/zero-tolerance",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "Conversely, proponents of zero-tolerance argue it deters criminals and improves policing standards",
+        "sources": [
+          {
+            "url": "https://idebate.net/this-house-believes-that-zero-tolerance-policing-is-a-good-tactic-for-fighting-crime~b1037/",
+            "publisher": "idebate.net",
+            "title": "idebate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Mandatory Sentences:** Supporters argue mandatory minimums promote deterrence, public confidence, and tougher punishment, and can reduce inconsistent sentencing",
+        "sources": [
+          {
+            "url": "https://ergsy.com/information/can-sentencing-after-serious-violent-crime-include-mandatory-minimum-penalties",
+            "publisher": "ergsy.com",
+            "title": "ergsy.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Critics, including some within government (e.g., former Justice Secretary David Gauke on short sentences), argue they are too rigid, limit judicial discretion, can be ineffective, costly, and may not lead to reduced reoffending compared to community sentences",
+        "sources": [
+          {
+            "url": "https://ergsy.com/information/can-sentencing-after-serious-violent-crime-include-mandatory-minimum-penalties",
+            "publisher": "ergsy.com",
+            "title": "ergsy.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.politicshome.com/thehouse/article/mandatory-prison-sentences-dont-work--we-need-a-real-cure-for-the-epidemic-of-violent-crime",
+            "publisher": "politicshome.com",
+            "title": "politicshome.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

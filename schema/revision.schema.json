@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens revision output (corrected steel-man + red-team + synthesis)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["steelman", "redteam", "synthesis"],
+  "properties": {
+    "steelman": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["by_lens"],
+      "properties": {
+        "by_lens": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["market", "equity", "fiscal", "delivery"],
+          "properties": {
+            "market":   { "$ref": "#/$defs/steelLens" },
+            "equity":   { "$ref": "#/$defs/steelLens" },
+            "fiscal":   { "$ref": "#/$defs/steelLens" },
+            "delivery": { "$ref": "#/$defs/steelLens" }
+          }
+        }
+      }
+    },
+    "redteam": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["by_lens"],
+      "properties": {
+        "by_lens": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["market", "equity", "fiscal", "delivery"],
+          "properties": {
+            "market":   { "$ref": "#/$defs/redLens" },
+            "equity":   { "$ref": "#/$defs/redLens" },
+            "fiscal":   { "$ref": "#/$defs/redLens" },
+            "delivery": { "$ref": "#/$defs/redLens" }
+          }
+        }
+      }
+    },
+    "synthesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["per_outcome", "false_balance_check"],
+      "properties": {
+        "per_outcome": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["outcome", "direction", "confidence", "biggest_unknown", "evidence_tier", "rationale", "sources"],
+            "properties": {
+              "outcome":   { "type": "string" },
+              "direction": { "type": "string", "enum": ["improves", "worsens", "mixed", "negligible", "too-uncertain"] },
+              "confidence":{ "type": "string", "enum": ["low", "moderate", "high"] },
+              "biggest_unknown": { "type": "string" },
+              "evidence_tier": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["stated", "measurable", "projected"],
+                "properties": {
+                  "stated":     { "type": "string" },
+                  "measurable": { "type": "string" },
+                  "projected":  { "type": "string" }
+                }
+              },
+              "uncertainty": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["is_genuine", "crux_parameter", "estimate_range"],
+                "properties": {
+                  "is_genuine":     { "type": "boolean" },
+                  "crux_parameter": { "type": "string" },
+                  "estimate_range": { "type": "string" }
+                }
+              },
+              "rationale": { "type": "string" },
+              "sources":   { "type": "array", "items": { "$ref": "#/$defs/source" } }
+            }
+          }
+        },
+        "false_balance_check": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["headline_verdict", "sub_claims", "note"],
+          "properties": {
+            "headline_verdict": { "type": "string", "enum": ["leans", "genuinely-split"] },
+            "sub_claims": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["claim", "verdict", "why"],
+                "properties": {
+                  "claim":   { "type": "string" },
+                  "verdict": { "type": "string", "enum": ["leans-for", "leans-against", "split"] },
+                  "why":     { "type": "string" }
+                }
+              }
+            },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "publisher", "source_type", "interest"],
+      "properties": {
+        "url":         { "type": "string" },
+        "publisher":   { "type": "string" },
+        "source_type": { "type": "string", "enum": ["government", "institutional", "academic", "advocacy", "commercial", "media"] },
+        "interest":    { "type": "string" }
+      }
+    },
+    "steelLens": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["argument", "sources"],
+      "properties": {
+        "argument": { "type": "string" },
+        "sources":  { "type": "array", "items": { "$ref": "#/$defs/source" } }
+      }
+    },
+    "redLens": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["critique", "sources"],
+      "properties": {
+        "critique": { "type": "string" },
+        "sources":  { "type": "array", "items": { "$ref": "#/$defs/source" } }
+      }
+    }
+  }
+}

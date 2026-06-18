@@ -1,0 +1,809 @@
+{
+  "policy_id": "grn-18-introduce-a-wealth-tax-and-reform",
+  "party": "Green",
+  "policy_title": "Introduce a wealth tax and reform capital gains and inheritance taxes",
+  "outcome": "O1",
+  "verdict": {
+    "outcome": "O1",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy is primarily a tax reform targeting the very wealthy, with no direct housing mechanism. Any effect on housing affordability would depend entirely on how the government chose to spend the revenue raised \u2014 which is not specified.",
+    "biggest_unknown": "Whether any revenue raised would be directed toward social or affordable housing supply, rather than other spending priorities.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy introduces an annual wealth tax, aligns CGT with income tax rates, reforms inheritance tax, and removes the Upper Earnings Limit on NI \u2014 but makes no specific commitment to housing spending.",
+        "evidence_id": "M",
+        "quote": "Introduce an annual wealth tax of 1% on assets above \u00a310 million and 2% on assets above \u00a31bn. Align Capital Gains Tax rates with income tax and NIC rates on employment income, reform inheritance tax, and remove the Upper Earnings Limit on National Insurance."
+      },
+      {
+        "tier": "projected",
+        "claim": "Aligning CGT rates with income tax could raise up to \u00a316.7 billion annually, providing potential fiscal headroom that could in principle be directed to housing.",
+        "evidence_id": "E18",
+        "quote": "Tax Justice UK estimates that aligning rates on income from wealth with income tax could raise \u00a316.7 billion annually"
+      }
+    ],
+    "rationale": "This policy package is a tax reform aimed at raising revenue from high-wealth individuals. It has no direct mechanism affecting housing supply, rents, house prices, social housing stock, or tenure security \u2014 the core indicators for O1. Any positive effect on housing affordability would require the revenue raised to be hypothecated or directed toward housing investment, which the policy does not state. The CGT alignment in particular could theoretically affect the buy-to-let and second-home market (by making disposal less attractive), but the evidence provided does not address this channel. Given the absence of any housing-specific commitment in the policy text and no evidence linking these tax changes to housing outcomes, the effect on O1 is best characterised as negligible in direct terms, with a minor and highly uncertain indirect potential if revenues were spent on housing. Confidence is low because the causal chain from tax reform to housing affordability is entirely unspecified and evidence-free in the provided units.",
+    "sources": [
+      {
+        "quote": "Elected Greens will push for a wealth tax. This will tax the wealth of individual taxpayers with assets above \u00a310 million at 1% and assets above \u00a31bn at 2% annually. Elected Greens will push too for the reform Capital Gains Tax (CGT) by aligning the rates paid by taxpayers on income and taxable gains. Elected Greens will also call for the reform of tax rates on investment income, by aligning them with the tax and NIC rates on employment income. We would remove the Upper Earnings Limit that restricts the amount of National Insurance paid by high earners. We would reform inheritance tax, ensuring that intergenerational transfers of wealth are taxed more fairly.",
+        "url": "https://greenparty.org.uk/our-manifesto/manifesto-2024.pdf",
+        "publisher": "Green Party"
+      },
+      {
+        "url": "https://taxjustice.uk/campaign/taxing-wealth/",
+        "publisher": "taxjustice.uk",
+        "title": "taxjustice.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0376,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E18 (Tax Justice UK) is an advocacy source and sole basis for the \u00a316.7bn CGT revenue claim. The claim is labelled projected and caveated, but the advocacy-only sourcing should be flagged."
+        }
+      ],
+      "notes": "The verdict is well-constructed. Direction 'negligible' with low confidence is appropriate: the policy has no housing-specific mechanism and the causal chain to O1 is entirely speculative. The tier_integrity is sound \u2014 the CGT revenue claim is correctly marked projected. The magnitude/time_horizon combination (minor/long-term) is coherent with a negligible direction (treated as the outer bound of indirect effect). No lever_leakage: the verdict explicitly avoids scoring the tax reform for its own sake. No party_blind issues. No false_balance issue \u2014 negligible is not mixed/too-uncertain so the false_balance rule does not apply. The only concern is the advocacy-only sourcing for E18, which is a warning rather than blocking given the claim is clearly hedged and not load-bearing for the direction verdict."
+    },
+    "gate": {
+      "kept": 2,
+      "dropped": [
+        {
+          "claim": "Higher CGT rates could deter investment and asset transactions, with HMRC modelling suggesting a large rate rise might paradoxically reduce revenue due to behavioural responses.",
+          "evidence_id": "E29",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Introduce an annual wealth tax of 1% on assets above \u00a310 million and 2% on assets above \u00a31bn. Align Capital Gains Tax rates with income tax and NIC rates on employment income, reform inheritance tax, and remove the Upper Earnings Limit on National Insurance.",
+        "sources": [
+          {
+            "quote": "Elected Greens will push for a wealth tax. This will tax the wealth of individual taxpayers with assets above \u00a310 million at 1% and assets above \u00a31bn at 2% annually. Elected Greens will push too for the reform Capital Gains Tax (CGT) by aligning the rates paid by taxpayers on income and taxable gains. Elected Greens will also call for the reform of tax rates on investment income, by aligning them with the tax and NIC rates on employment income. We would remove the Upper Earnings Limit that restricts the amount of National Insurance paid by high earners. We would reform inheritance tax, ensuring that intergenerational transfers of wealth are taxed more fairly.",
+            "url": "https://greenparty.org.uk/our-manifesto/manifesto-2024.pdf",
+            "publisher": "Green Party"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Researchers at the University of Warwick estimate that a 2% annual tax on net worth above \u00a310 million could raise \u00a324 billion per year",
+        "sources": [
+          {
+            "url": "https://sterlingcooperconsultants.co.uk/blogs/wealth-tax-uk-guide/",
+            "publisher": "sterlingcooperconsultants.co.uk",
+            "title": "sterlingcooperconsultants.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/blog/why-we-need-to-tax-wealth/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Tax Justice UK similarly advocates for a 2% wealth tax on net assets over \u00a310 million, suggesting it could generate an estimated \u00a324 billion annually and affect approximately 25,000 individuals",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/why-we-need-to-tax-wealth/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oxfam.org.uk/get-involved/campaign-with-oxfam/fight-inequality/tax-the-rich/",
+            "publisher": "oxfam.org.uk",
+            "title": "oxfam.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/campaign/taxing-wealth/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Ben Tippet indicated that a 2% wealth tax on assets over \u00a310 million could have raised at least \u00a3160 billion over the past three decades (1994-2025)",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/news/wealth-tax-rich-list-could-raise-billions",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://theweek.com/personal-finance/how-a-uk-wealth-tax-could-work",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Some economists broadly suggest a carefully targeted wealth tax could raise around \u00a310 billion a year",
+        "sources": [
+          {
+            "url": "https://theweek.com/personal-finance/how-a-uk-wealth-tax-could-work",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Institute for Fiscal Studies (IFS) modelled a 0.17% annual wealth tax on wealth above \u00a3500,000, which could generate \u00a310 billion before administrative costs",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/journals/revenue-and-distributional-modelling-uk-wealth-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Economic Impact:** Critics, including Tax Policy Associates and FEE.org, argue that a wealth tax is \"anti-growth\" as it penalises saving and capital formation, makes savings and investments less attractive, and could lead to \"capital flight\" where wealthy individuals and their assets leave the UK",
+        "sources": [
+          {
+            "url": "https://fee.org/articles/wealth-tax-a-simplistic-answer-to-complex-problems/",
+            "publisher": "fee.org",
+            "title": "fee.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/2025/07/22/uk-wealth-tax-anti-growth/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/micro-macro-effects-of-a-uk-wealth-tax-a-level-economics-revision",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "International modeling of comparable proposals suggests potential long-run GDP reductions of 2% (US) to 5% (Germany), alongside significant impacts on employment",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2025/07/22/uk-wealth-tax-anti-growth/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "It could also disincentivize entrepreneurship by increasing the risk and cost of owning a startup",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/2025/07/22/uk-wealth-tax-anti-growth/",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLUev1KyeQjKCU_tSFPzlzBcYcfy1yYXkms_-QuKkoj0NV6C3GFRamzx1lFC9F7k_CkKARAcCxtaagYza1ljRj0RdG3LfLuIJDrvOrwdYk2dax2QmGL3CVjVN6andje3hq0nDhF0ivwpaaE-A_2KMhEE6rIcLCsKC3VLBncNFa4pu8e-LQjaKNCCpt4tOjb7oq6nua7LDI",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Valuing illiquid assets such as private businesses, artwork, and intellectual property is complex and subjective, potentially leading to disputes and requiring frequent re-evaluations",
+        "sources": [
+          {
+            "url": "https://fee.org/articles/wealth-tax-a-simplistic-answer-to-complex-problems/",
+            "publisher": "fee.org",
+            "title": "fee.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ergsy.com/information/what-are-challenges-implementing-wealth-tax",
+            "publisher": "ergsy.com",
+            "title": "ergsy.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The UK's Wealth Tax Commission (2020) estimated the initial administrative cost of establishing such a system at \u00a3600 million",
+        "sources": [
+          {
+            "url": "https://fee.org/articles/wealth-tax-a-simplistic-answer-to-complex-problems/",
+            "publisher": "fee.org",
+            "title": "fee.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Avoidance and Evasion:** High-net-worth individuals are highly mobile and may employ various strategies to minimise their tax liabilities, including relocating to other jurisdictions or transferring assets",
+        "sources": [
+          {
+            "url": "https://fee.org/articles/wealth-tax-a-simplistic-answer-to-complex-problems/",
+            "publisher": "fee.org",
+            "title": "fee.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ergsy.com/information/what-are-challenges-implementing-wealth-tax",
+            "publisher": "ergsy.com",
+            "title": "ergsy.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/micro-macro-effects-of-a-uk-wealth-tax-a-level-economics-revision",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "FEE.org notes that existing wealth taxes in other countries have generated less revenue than predicted due to such behaviours, citing Spain collecting only 40% of its predicted Solidarity Tax revenue",
+        "sources": [
+          {
+            "url": "https://fee.org/articles/wealth-tax-a-simplistic-answer-to-complex-problems/",
+            "publisher": "fee.org",
+            "title": "fee.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Legal Challenges:** Wealth taxes have faced legal challenges in several European countries, with the Dutch wealth tax being declared unconstitutional multiple times",
+        "sources": [
+          {
+            "url": "https://fee.org/articles/wealth-tax-a-simplistic-answer-to-complex-problems/",
+            "publisher": "fee.org",
+            "title": "fee.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   The Wealth Tax Commission (2020) concluded that an *annual* wealth tax is a \"non-starter\" for the UK due to complexity and avoidance issues, but suggested a *one-off* wealth tax could be workable and raise significant revenue (\u00a3250 billion over five years)",
+        "sources": [
+          {
+            "url": "https://www.lse.ac.uk/International-Inequalities/Assets/Documents/OLDWealthTaxCommission-Final-reportold.pdf",
+            "publisher": "lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-social-policy/article/abs/what-are-the-barriers-to-taxing-wealth-the-case-of-a-wealth-tax-proposal-in-the-uk/2109AF0B1296BA5740AAEBE8E5E39EC0",
+            "publisher": "cambridge.org",
+            "title": "cambridge.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   Conversely, organisations like Tax Justice UK and Oxfam strongly advocate for an annual wealth tax to address surging wealth inequality and generate funds for public services",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/blog/why-we-need-to-tax-wealth/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oxfam.org.uk/get-involved/campaign-with-oxfam/fight-inequality/tax-the-rich/",
+            "publisher": "oxfam.org.uk",
+            "title": "oxfam.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxjustice.uk/campaign/taxing-wealth/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   The Institute of Economic Affairs argues that the UK already levies more in wealth and wealth-related taxes as a share of GDP than any other OECD country, weakening the case for a new wealth tax",
+        "sources": [
+          {
+            "url": "https://iea.org.uk/media/britain-raises-more-tax-from-wealth-than-any-other-oecd-country/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Estimates suggest this could raise more than \u00a312 billion a year, potentially up to \u00a316 billion",
+        "sources": [
+          {
+            "url": "https://taxingwealth.uk/2023/09/11/aligning-capital-gains-tax-and-income-tax-rates-might-raise-more-than-12-billion-in-tax-a-year/",
+            "publisher": "taxingwealth.uk",
+            "title": "taxingwealth.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Tax Justice UK estimates that aligning rates on income from wealth with income tax could raise \u00a316.7 billion annually",
+        "sources": [
+          {
+            "url": "https://taxjustice.uk/campaign/taxing-wealth/",
+            "publisher": "taxjustice.uk",
+            "title": "taxjustice.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Oxfam similarly estimates this reform could raise \u00a314 billion a year",
+        "sources": [
+          {
+            "url": "https://www.oxfam.org.uk/get-involved/campaign-with-oxfam/fight-inequality/tax-the-rich/",
+            "publisher": "oxfam.org.uk",
+            "title": "oxfam.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The Resolution Foundation suggests that aligning marginal CGT rates for shares with dividend tax rates, and taxing property capital gains like wages (with inflation-indexing), could raise approximately \u00a38 billion per year",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/09/Revenue-and-Reform-updated.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/revenue-and-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/wealth-check/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Fairness and Efficiency:** The IFS advocates for aligning marginal tax rates across all forms of gains and income to improve fairness and reduce economic inefficiency, arguing that the current disparity constitutes a bias towards wealth",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://taxingwealth.uk/2023/09/11/aligning-capital-gains-tax-and-income-tax-rates-might-raise-more-than-12-billion-in-tax-a-year/",
+            "publisher": "taxingwealth.uk",
+            "title": "taxingwealth.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The House of Commons Library also highlights that aligning CGT and income tax rates would be less distorting than the current system",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05572/SN05572.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Investment and Entrepreneurship:** Higher CGT rates could deter investment, particularly in early-stage companies, and make entrepreneurship less attractive",
+        "sources": [
+          {
+            "url": "https://www.corumgroup.com/insights/what-you-need-know-about-changes-uk-capital-gains-tax-laws",
+            "publisher": "corumgroup.com",
+            "title": "corumgroup.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk9Mha1uvCXRbrAft-4lqwBnuwV81cSWN3immTOMoBbyk6aT76mmZKz8gfHOUmVxVf2lP_Zni4mIWQtN1HjjP3Ag995F0NMO3MnsAJBleF_b3yj9sBqWN6U7gk99w4YRtUSyudIKnP4vNinAITHWf9lnZxV4lWA0SX4nr9dgf5jdhlm_Brs3DcT6JZ1fz2tZWFTCSVBjtSDGvLWNX0NVr4hdk93k9TATzQ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lwvgeauga.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "It could also disincentivise saving and encourage investors to hold onto assets for longer, or move assets overseas to avoid higher taxes, leading to a decline in asset transactions",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://cps.org.uk/research/capital-losses-why-increasing-cgt-will-deter-investment-slow-growth-and-reduce-revenue/",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk9Mha1uvCXRbrAft-4lqwBnuwV81cSWN3immTOMoBbyk6aT76mmZKz8gfHOUmVxVf2lP_Zni4mIWQtN1HjjP3Ag995F0NMO3MnsAJBleF_b3yj9sBqWN6U7gk99w4YRtUSyudIKnP4vNinAITHWf9lnZxV4lWA0SX4nr9dgf5jdhlm_Brs3DcT6JZ1fz2tZWFTCSVBjtSDGvLWNX0NVr4hdk93k9TATzQ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lwvgeauga.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Behavioral Responses:** There is concern that individuals might delay asset sales or seek tax-friendlier jurisdictions, potentially reducing the expected revenue, at least in the short term",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://cps.org.uk/research/capital-losses-why-increasing-cgt-will-deter-investment-slow-growth-and-reduce-revenue/",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk9Mha1uvCXRbrAft-4lqwBnuwV81cSWN3immTOMoBbyk6aT76mmZKz8gfHOUmVxVf2lP_Zni4mIWQtN1HjjP3Ag995F0NMO3MnsAJBleF_b3yj9sBqWN6U7gk99w4YRtUSyudIKnP4vNinAITHWf9lnZxV4lWA0SX4nr9dgf5jdhlm_Brs3DcT6JZ1fz2tZWFTCSVBjtSDGvLWNX0NVr4hdk93k9TATzQ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lwvgeauga.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Current Context:** CGT currently raises around \u00a315 billion per year, representing less than 2% of total tax revenue",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Most of this revenue comes from a small number of taxpayers",
+        "sources": [
+          {
+            "url": "https://cps.org.uk/research/capital-losses-why-increasing-cgt-will-deter-investment-slow-growth-and-reduce-revenue/",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05572/SN05572.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Recent changes (Autumn Budget 2024) already increased main CGT rates for most assets to 18% (for basic rate taxpayers) and 24% (for higher rate taxpayers), and reduced the annual exemption",
+        "sources": [
+          {
+            "url": "https://www.armstrongwatson.co.uk/news/2024/12/how-do-recent-changes-capital-gains-tax-affect-your-investments",
+            "publisher": "armstrongwatson.co.uk",
+            "title": "armstrongwatson.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/changes-to-the-rates-of-capital-gains-tax/capital-gains-tax-rates-of-tax",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "HMRC estimates a 1 percentage point increase in higher CGT rates could raise \u00a3100 million, but a 10 percentage point increase might paradoxically *reduce* revenue by about \u00a32 billion in the longer term due to taxpayer behaviour",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/capital-gains-tax-reform",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://cps.org.uk/research/capital-losses-why-increasing-cgt-will-deter-investment-slow-growth-and-reduce-revenue/",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The Centre for Policy Studies suggests that raising CGT rates to 33%, 39%, or 45% could make the UK's tax regime one of the least competitive in the OECD, potentially reducing revenue and driving away investment",
+        "sources": [
+          {
+            "url": "https://cps.org.uk/research/capital-losses-why-increasing-cgt-will-deter-investment-slow-growth-and-reduce-revenue/",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "For example:\n    *   Abolishing business relief could increase annual revenue by up to \u00a31.4 billion",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   Levying Capital Gains Tax at the point of death could raise around \u00a31.6 billion a year",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/reforming-inheritance-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   Including pension pots in taxable estates could initially raise around \u00a3200 million, with this amount projected to grow rapidly over time",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   Combining reforms such as eliminating the additional exemption for residential property passed to direct descendants, including pensions in taxable estates, and capping business relief, could collectively increase annual revenue by around \u00a34.5 billion",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   Oxfam estimates that closing inheritance tax loopholes could raise \u00a31.4 billion a year",
+        "sources": [
+          {
+            "url": "https://www.oxfam.org.uk/get-involved/campaign-with-oxfam/fight-inequality/tax-the-rich/",
+            "publisher": "oxfam.org.uk",
+            "title": "oxfam.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   Even without reform, the IFS forecasts IHT revenues to rise significantly, from \u00a37.2 billion in 2023\u201324 to \u00a310.3 billion by 2027\u201328 and \u00a315.3 billion by 2032\u201333 (in 2023 prices), driven by increasing wealth among older generations",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/reforming-inheritance-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Fairness and Efficiency:** The IFS highlights that the current IHT system is in need of reform to improve efficiency and fairness",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/reforming-inheritance-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/events/reforming-inheritance-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "Special reliefs and exemptions, such as business relief and agricultural relief, cost an estimated \u00a31.1 billion for transfers on death and disproportionately benefit the wealthiest estates",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/reforming-inheritance-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Removing these could allow for a reduction in the headline tax rate or an increase in the nil-rate band in a revenue-neutral way",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   **Impact on Estates:** While less than 4% of estates paid IHT in 2020-21, this proportion is projected to rise to over 7% by 2032-33, affecting a growing number of individuals",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/reforming-inheritance-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "Abolishing IHT entirely would largely benefit the wealthiest 1% of estates",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   **Public Opinion:** IHT is a \"highly-charged topic\" with public hostility well-documented, despite its relatively limited direct impact on most estates",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-would-be-the-effects-of-abolishing-or-reforming-inheritance-tax",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-social-policy/article/abs/what-are-the-barriers-to-taxing-wealth-the-case-of-a-wealth-tax-proposal-in-the-uk/2109AF0B1296BA5740AAEBE8E5E39EC0",
+            "publisher": "cambridge.org",
+            "title": "cambridge.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/events/reforming-inheritance-tax",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "This includes an estimated \u00a311 billion from employees and \u00a31.5 billion from the self-employed",
+        "sources": [
+          {
+            "url": "https://taxingwealth.uk/2023/09/08/abolishing-the-lower-rate-of-national-insurance-for-high-earning-employees/",
+            "publisher": "taxingwealth.uk",
+            "title": "taxingwealth.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "These figures are based on cautiously extrapolated, potentially outdated, data and may be understated",
+        "sources": [
+          {
+            "url": "https://taxingwealth.uk/2023/09/08/abolishing-the-lower-rate-of-national-insurance-for-high-earning-employees/",
+            "publisher": "taxingwealth.uk",
+            "title": "taxingwealth.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "Analysts argue that this reduced rate for higher earners undermines the integrity and \"vertical equity\" of the UK tax system and has encouraged tax avoidance",
+        "sources": [
+          {
+            "url": "https://taxingwealth.uk/2023/09/08/abolishing-the-lower-rate-of-national-insurance-for-high-earning-employees/",
+            "publisher": "taxingwealth.uk",
+            "title": "taxingwealth.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "The argument for this change posits that NI contributions are effectively a tax like any other, rather than a direct insurance payment",
+        "sources": [
+          {
+            "url": "https://taxingwealth.uk/2023/09/08/abolishing-the-lower-rate-of-national-insurance-for-high-earning-employees/",
+            "publisher": "taxingwealth.uk",
+            "title": "taxingwealth.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

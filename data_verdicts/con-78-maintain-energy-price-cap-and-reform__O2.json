@@ -1,0 +1,469 @@
+{
+  "policy_id": "con-78-maintain-energy-price-cap-and-reform",
+  "party": "Conservative",
+  "policy_title": "Maintain Energy Price Cap and Reform Standing Charges",
+  "outcome": "O2",
+  "verdict": {
+    "outcome": "O2",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Keeping the energy price cap protects most households from sudden spikes in energy bills, and reforming standing charges could help lower-income families who pay a fixed daily fee regardless of how much energy they use. The actual benefit depends heavily on what 'reform' of standing charges turns out to mean in practice.",
+    "biggest_unknown": "Whether standing charge reform means shifting policy costs to general taxation (progressive, helps low-income households) or merely reallocating costs to unit rates, which Ofgem warns could have regressive distributional impacts.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to maintaining the energy price cap to protect households from overcharging.",
+        "evidence_id": "M",
+        "quote": "maintain the energy price cap to protect households from overcharging"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy commits to reviewing and reforming standing charges to keep them as low as possible.",
+        "evidence_id": "M",
+        "quote": "review and reform standing charges to keep them as low as possible"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The price cap limits the maximum unit rate and standing charge on standard variable tariffs.",
+        "evidence_id": "E1",
+        "quote": "limits the maximum unit rate and standing charge that suppliers can charge for gas and electricity on standard variable tariffs (SVTs)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around 60% of homes in England, Scotland and Wales are on standard variable tariffs and benefit from price cap protection.",
+        "evidence_id": "E3",
+        "quote": "shield households on SVTs (around 60% of homes in England, Scotland, and Wales"
+      },
+      {
+        "tier": "projected",
+        "claim": "Without government intervention during the 2022 energy crisis, typical annual bills were forecast to reach as much as \u00a35,000.",
+        "evidence_id": "E5",
+        "quote": "without government intervention during the 2022 energy crisis, typical annual bills were forecast to reach as much as \u00a35,000"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Standing charges are fixed daily fees paid regardless of energy consumption, currently averaging 86.2 pence per day for dual fuel customers.",
+        "evidence_id": "E11",
+        "quote": "average standing charges for dual fuel customers are 86.2 pence per day (57.2p for electricity, 29.1p for gas)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "High standing charges disproportionately affect low-income and low-consumption households, for whom fixed charges represent a larger share of their total bill.",
+        "evidence_id": "E13",
+        "quote": "high standing charges disproportionately affect households with low energy consumption, including many low-income and vulnerable households, for whom fixed charges represent a larger percentage of their total bill"
+      },
+      {
+        "tier": "projected",
+        "claim": "Some analysts argue that capping prices can blunt the incentive for households to reduce energy consumption.",
+        "evidence_id": "E7",
+        "quote": "capping prices can \"blunt the incentive\" for households to reduce their energy consumption, as the true economic cost is subsidized"
+      },
+      {
+        "tier": "projected",
+        "claim": "Ofgem cautions against universal changes to standing charges due to complex and potentially regressive distributional impacts.",
+        "evidence_id": "E22",
+        "quote": "experts at Ofgem and Energy UK caution against universal changes due to the complex and potentially regressive distributional impacts"
+      }
+    ],
+    "rationale": "The price cap is a well-established mechanism protecting roughly 60% of households on standard variable tariffs from runaway energy costs. Its maintenance offers continued, immediate protection against wholesale price volatility \u2014 the 2022 crisis illustrates the scale of risk without it (bills forecast at \u00a35,000). This clearly improves cost-of-living for ordinary households in the near term. The standing charge reform element adds potential upside but with genuine uncertainty in direction. Fixed daily charges disproportionately burden low-income, low-consumption households, so meaningful reform could be progressive. However, the policy only commits to a 'review and reform' without specifying the mechanism, and Ofgem explicitly warns that universal changes carry complex and potentially regressive distributional impacts. The price-cap maintenance is the stronger and more certain element; the standing charge reform adds potential but unquantified benefit depending entirely on implementation choices not yet specified. On balance, the policy improves cost-of-living moderately for most households, primarily through cap continuity. The main caveat is that maintaining a price cap may blunt efficiency incentives, but this does not outweigh the direct household affordability benefit within this parliament's horizon.",
+    "sources": [
+      {
+        "quote": "Maintaining our energy price cap, protecting millions of households from being overcharged by their supplier. ...Reviewing and reforming standing charges to keep them as low as possible.",
+        "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+        "publisher": "Conservative and Unionist Party"
+      },
+      {
+        "url": "https://www.moneysavingexpert.com/utilities/are-there-any-cheap-fixed-energy-deals-currently-worth-it/",
+        "publisher": "moneysavingexpert.com",
+        "title": "moneysavingexpert.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8081/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://cps.org.uk/wp-content/uploads/2023/08/CPS-The-Case-Against-the-Energy-Price-Cap.pdf",
+        "publisher": "cps.org.uk",
+        "title": "cps.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+        "publisher": "ofgem.gov.uk",
+        "title": "ofgem.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/power-cut/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0949,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 2,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. Tier assignments are appropriate. The E5 claim about \u00a35,000 bills is correctly marked projected. E3's 60% figure is from moneysavingexpert.com (advocacy-adjacent/commercial media) but is corroborated by Commons Library cited alongside it, so not sole-sourced from a commercial/advocacy outlet. E13 is sourced from Ofgem and Resolution Foundation. The 'improves/moderate' direction is justified by the price-cap continuity claim (strong, well-evidenced) with standing charge uncertainty appropriately flagged in biggest_unknown rather than inflating confidence. No lever leakage, no party identity smuggled in, no false balance \u2014 the verdict correctly does not manufacture a mixed verdict given that the dominant element (cap maintenance) has clear positive direction. Minor note: E12, E14, E17-E19, E23-E25, E27-E28 have no publisher backing listed but none of these are used in the claims array, so this does not block publication."
+    },
+    "gate": {
+      "kept": 9,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will maintain the energy price cap to protect households from overcharging and will review and reform standing charges to keep them as low as possible.",
+        "sources": [
+          {
+            "quote": "Maintaining our energy price cap, protecting millions of households from being overcharged by their supplier. ...Reviewing and reforming standing charges to keep them as low as possible.",
+            "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+            "publisher": "Conservative and Unionist Party"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The energy price cap, set quarterly by Ofgem, limits the maximum unit rate and standing charge that suppliers can charge for gas and electricity on standard variable tariffs (SVTs)",
+        "sources": [
+          {
+            "url": "https://www.moneysavingexpert.com/utilities/are-there-any-cheap-fixed-energy-deals-currently-worth-it/",
+            "publisher": "moneysavingexpert.com",
+            "title": "moneysavingexpert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8081/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "It does not cap a household's total bill, which still depends on energy consumption",
+        "sources": [
+          {
+            "url": "https://www.moneysavingexpert.com/utilities/are-there-any-cheap-fixed-energy-deals-currently-worth-it/",
+            "publisher": "moneysavingexpert.com",
+            "title": "moneysavingexpert.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8081/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Protection for Households:** The primary effect is to shield households on SVTs (around 60% of homes in England, Scotland, and Wales",
+        "sources": [
+          {
+            "url": "https://www.moneysavingexpert.com/utilities/are-there-any-cheap-fixed-energy-deals-currently-worth-it/",
+            "publisher": "moneysavingexpert.com",
+            "title": "moneysavingexpert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": ") from excessive charges, especially during periods of volatile wholesale energy prices",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLdXoo5wpTmeyvG3TgbDocKS-guLjbyTP7OizcKJXN_l02Hq-47mdDT8A9cprOmyRJfJy9xWTBE0BqGfaQfV-bS8BM42B4xxA9Bu6izvvih916SW-FKnMNGem0f50_DbLayHkWR7btqPuqYHuGvRS0efB_VH7AwCkqRY1Ai37wLw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8081/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "For instance, without government intervention during the 2022 energy crisis, typical annual bills were forecast to reach as much as \u00a35,000, compared to an actual cap of \u00a32,500 under the Energy Price Guarantee",
+        "sources": [
+          {
+            "url": "https://cps.org.uk/wp-content/uploads/2023/08/CPS-The-Case-Against-the-Energy-Price-Cap.pdf",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Past government interventions to subsidize energy prices, like the Energy Price Guarantee, cost tens of billions (e.g., \u00a351.1 billion in 2022-23)",
+        "sources": [
+          {
+            "url": "https://www.energy-uk.org.uk/publications/energy-uk-explains-standing-charges/",
+            "publisher": "energy-uk.org.uk",
+            "title": "energy-uk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Impact on Market Competition and Incentives:** Some analysts, such as the Institute for Fiscal Studies (IFS), argue that capping prices can \"blunt the incentive\" for households to reduce their energy consumption, as the true economic cost is subsidized",
+        "sources": [
+          {
+            "url": "https://cps.org.uk/wp-content/uploads/2023/08/CPS-The-Case-Against-the-Energy-Price-Cap.pdf",
+            "publisher": "cps.org.uk",
+            "title": "cps.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Furthermore, the cap has been criticised for reducing competition in the retail energy market by removing incentives for suppliers to offer cheaper tariffs below the cap, making the cap the de facto market price for a significant portion of consumers",
+        "sources": [
+          {
+            "url": "https://energyangels.co.uk/why-energy-bill-standing-charges-matter/",
+            "publisher": "energyangels.co.uk",
+            "title": "energyangels.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Health Impacts:** The Health Foundation highlights that high energy costs contribute to fuel poverty, leading to cold, damp homes and exacerbating various health problems, thereby increasing pressure on the NHS",
+        "sources": [
+          {
+            "url": "https://energyangels.co.uk/why-energy-bill-standing-charges-matter/",
+            "publisher": "energyangels.co.uk",
+            "title": "energyangels.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://atlasinstitute.org/energy-bills-as-political-risk-unpacking-the-april-june-2026-price-cap-into-the-drivers-that-shape-net-zero-consent/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.endfuelpoverty.org.uk/wp-content/uploads/Standing_Charges_Final.pdf",
+            "publisher": "endfuelpoverty.org.uk",
+            "title": "endfuelpoverty.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Standing charges are fixed daily fees paid regardless of energy consumption, covering costs like network maintenance, operating costs, and some policy costs",
+        "sources": [
+          {
+            "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+            "publisher": "ofgem.gov.uk",
+            "title": "ofgem.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/power-cut/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8081/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Current Figures:** Under the April to June 2026 direct debit energy price cap, average standing charges for dual fuel customers are 86.2 pence per day (57.2p for electricity, 29.1p for gas)",
+        "sources": [
+          {
+            "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+            "publisher": "ofgem.gov.uk",
+            "title": "ofgem.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "These charges have increased significantly in recent years, with electricity standing charges rising by 17% from Q1 to Q2 2026 due to network infrastructure investment",
+        "sources": []
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Distributional Impact:** Credible bodies largely agree that high standing charges disproportionately affect households with low energy consumption, including many low-income and vulnerable households, for whom fixed charges represent a larger percentage of their total bill",
+        "sources": [
+          {
+            "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+            "publisher": "ofgem.gov.uk",
+            "title": "ofgem.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/power-cut/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Their reasoning was that while many consumers might see modest benefits, a smaller number of vulnerable, high-energy-use households (often for medical or health reasons) would face significantly higher costs, exacerbating affordability challenges and impacting their health and well-being",
+        "sources": []
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Energy UK also notes that shifting these fixed costs to unit rates would increase suppliers' risk of not recouping true costs, potentially leading to higher unit rates",
+        "sources": [
+          {
+            "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+            "publisher": "ofgem.gov.uk",
+            "title": "ofgem.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Proposed Solutions and Expert Disagreement:**\n    *   **Shifting Policy Costs to Taxation:** The End Fuel Poverty Coalition, and indirectly the Resolution Foundation, suggest that moving policy costs (such as those for renewables, efficiency levies, and the Warm Home Discount, which currently contribute to standing charges",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/power-cut/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": ") from energy bills to general taxation would significantly alleviate the financial burden on low-income households",
+        "sources": []
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The government already reduced some policy costs from bills in April 2026, driven by an \"energy bill discount\" of \u00a36.9 billion over three years, which disproportionately benefited lower-income households",
+        "sources": []
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Reducing Network Costs from Profits:** The End Fuel Poverty Coalition also proposes a 10% reduction in the standing charge element of network costs, funded by excess shareholder profits of network companies",
+        "sources": []
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **\"Zero Standing Charge\" Tariffs:** Ofgem has consulted on introducing a \"zero standing charge\" price cap tariff, which would require suppliers to offer a default tariff without standing charges but with a higher unit rate",
+        "sources": [
+          {
+            "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+            "publisher": "ofgem.gov.uk",
+            "title": "ofgem.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "However, Ofgem anticipates only a small minority of customers would be financially better off, and it could undermine consumer trust if not clearly communicated",
+        "sources": [
+          {
+            "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+            "publisher": "ofgem.gov.uk",
+            "title": "ofgem.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "This highlights a genuine disagreement: while many consumers desire lower or no standing charges, experts at Ofgem and Energy UK caution against universal changes due to the complex and potentially regressive distributional impacts",
+        "sources": [
+          {
+            "url": "https://www.ofgem.gov.uk/publications/standing-charges-update-our-review",
+            "publisher": "ofgem.gov.uk",
+            "title": "ofgem.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "However, as the July-September 2026 cap shows (a 13.5% rise to \u00a31,862 for a typical household",
+        "sources": []
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Broad Impact from Standing Charge Reform:** The \"review and reform\" of standing charges, if it leads to shifting policy costs to general taxation, could offer more progressive relief to lower-income, lower-consumption households, aligning with recommendations from the Resolution Foundation and End Fuel Poverty Coalition",
+        "sources": []
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "However, if \"reform\" involves simply reallocating costs within bills (e.g., to unit rates), it risks harming vulnerable high-energy users, as highlighted by Ofgem",
+        "sources": []
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Potential for Lower \"Green Levies\":** The Conservative Party's broader commitment to \"cut the cost of net zero for consumers by taking a more pragmatic approach, guaranteeing no new green levies or charges\"",
+        "sources": [
+          {
+            "url": "https://www.moneysavingexpert.com/utilities/are-there-any-cheap-fixed-energy-deals-currently-worth-it/",
+            "publisher": "moneysavingexpert.com",
+            "title": "moneysavingexpert.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "and previously mentioning axing the Carbon Tax and wind subsidies",
+        "sources": []
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Resolution Foundation found that policy cuts were a primary driver of the April-June 2026 price cap reduction",
+        "sources": []
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "However, critics argue such moves might undermine long-term decarbonization goals or shift costs elsewhere",
+        "sources": [
+          {
+            "url": "https://www.moneysavingexpert.com/utilities/are-there-any-cheap-fixed-energy-deals-currently-worth-it/",
+            "publisher": "moneysavingexpert.com",
+            "title": "moneysavingexpert.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

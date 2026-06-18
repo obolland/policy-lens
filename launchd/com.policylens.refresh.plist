@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Policy Lens scheduled refresh (Option A: Mac + Claude Code subscription).
+  NOT YET ACTIVE. To enable:
+    cp launchd/com.policylens.refresh.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.policylens.refresh.plist
+  Runs weekly (Sunday 06:00). Adjust the path below to your checkout location.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.policylens.refresh</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/olly.bolland/Desktop/policy-lens/pipeline/refresh.sh</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>0</integer>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/olly.bolland/Desktop/policy-lens/data/refresh.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/olly.bolland/Desktop/policy-lens/data/refresh.err.log</string>
+</dict>
+</plist>

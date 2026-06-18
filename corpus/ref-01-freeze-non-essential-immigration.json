@@ -1,0 +1,48 @@
+{
+  "policy_id": "ref-01-freeze-non-essential-immigration",
+  "party": "Reform UK",
+  "policy_title": "Freeze non-essential immigration",
+  "stated": "Reform UK will freeze all non-essential immigration, with the exception of essential skills in healthcare, to relieve pressure on housing and public services, and increase wages.",
+  "source": {
+    "quote": "Freeze Non-Essential Immigration Strict limits on immigration are the only way to relieve the pressure on our housing, public services, increase wages and protect our culture, identity and values. Essential skills, mainly around healthcare, must be the only exception.",
+    "url": "https://www.reformparty.uk/our-contract-with-you-2024",
+    "publisher": "Reform UK"
+  },
+  "candidate_outcomes": [
+    "O1",
+    "O4"
+  ],
+  "consolidated_from": [],
+  "bearing_set": [
+    {
+      "outcome": "O1",
+      "reason": "The policy explicitly targets housing pressure as a primary mechanism; a large reduction in net migration would materially reduce housing demand, directly affecting house-price-to-income ratios and rents."
+    },
+    {
+      "outcome": "O4",
+      "reason": "Raising wages is an explicit stated aim; restricting labour supply in lower-paid sectors is the primary theoretical transmission mechanism, earning a real verdict on pay levels and job quality."
+    },
+    {
+      "outcome": "O3",
+      "reason": "The healthcare carve-out signals direct awareness of NHS workforce dependency on migrant labour; the scope of 'essential healthcare' leaves social care and allied health workers ambiguous, earning a real verdict on whether healthcare delivery capacity improves or suffers."
+    },
+    {
+      "outcome": "O8",
+      "reason": "A non-essential immigration freeze with a carve-out only for 'healthcare' (typically read as NHS/clinical settings) would plausibly restrict international recruitment into social care, a sector with high migrant-worker share \u2014 concretely worsening social care access and waiting times, an O8 indicator."
+    },
+    {
+      "outcome": "O12",
+      "reason": "Working-age immigrants are generally net fiscal contributors (OBR/MAC evidence); a broad freeze reduces the tax base while also reducing some service demand \u2014 a non-negligible and contested effect on public finance sustainability."
+    },
+    {
+      "outcome": "O13",
+      "reason": "A broad labour-supply freeze constrains productive capacity, business investment, and sector output across multiple industries, bearing on aggregate real living standards and economic opportunity."
+    },
+    {
+      "outcome": "O14",
+      "reason": "Reduced non-essential labour supply at lower wage levels could narrow the wage gap at the bottom; but the aggregate growth drag may offset distributional gains \u2014 a real and contested inequality effect."
+    }
+  ],
+  "membership_note": "The policy directly targets O1 and O4 (its stated goals) while generating genuine cross-outcome spillovers on O12 (fiscal base), O13 (labour supply and output), and O14 (wage distribution). The healthcare carve-out means O3 is not materially affected on the supply side. O15 (cohesion) effects are real but too mechanism-indeterminate to include at the required specificity.",
+  "membership_pass": "v2frame"
+}

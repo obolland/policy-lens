@@ -1,0 +1,503 @@
+{
+  "policy_id": "con-11-introduce-a-legal-cap-on-migration",
+  "party": "Conservative",
+  "policy_title": "Introduce a Legal Cap on Migration",
+  "outcome": "O1",
+  "verdict": {
+    "outcome": "O1",
+    "direction": "mixed",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Cutting migration could ease some demand pressure on house prices, but the resulting hit to public finances may reduce the government's ability to fund social and affordable housing \u2014 so it is unclear whether ordinary renters and buyers would actually benefit. The overall effect on affordability for lower-income households is hard to call.",
+    "biggest_unknown": "Whether any moderation in house-price growth from lower demand would outweigh the loss of fiscal headroom needed to build social and affordable homes.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy aims to reduce work and family migration every year of the next Parliament, explicitly to protect housing.",
+        "evidence_id": "M",
+        "quote": "ensuring that numbers fall every year of the next Parliament to protect public services and housing"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Academic research shows house prices are where the effects of migration are most noticeable, with migration contributing to higher prices due to slow housing stock growth.",
+        "evidence_id": "E21",
+        "quote": "house prices are where the effects of migration are most noticeable, with migration contributing to higher house prices due to the slower pace of increasing housing stock compared to population growth"
+      },
+      {
+        "tier": "projected",
+        "claim": "Lower net migration would increase government borrowing \u2014 the OBR estimated 200,000 fewer migrants would add \u00a313.1 billion to borrowing and push debt 2.5% of GDP higher by 2028-29 \u2014 reducing fiscal capacity for affordable housing investment.",
+        "evidence_id": "E2",
+        "quote": "net migration was 200,000 lower than their central forecast, the OBR estimated borrowing would be \u00a313.1 billion higher and debt 2.5% of GDP higher by 2028-29"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Resolution Foundation warned a sharp fall in net migration could increase government borrowing by around \u00a33 billion, as lower working-age migration reduces tax intake without necessarily cutting public service costs.",
+        "evidence_id": "E8",
+        "quote": "a sharp fall in net migration, largely due to government crackdowns, could increase government borrowing by around \u00a33 billion, as lower migration, particularly of working-age individuals, is expected to reduce tax intake without necessarily cutting public service costs"
+      },
+      {
+        "tier": "projected",
+        "claim": "Predicting how migration caps translate into actual population and housing-demand changes is highly uncertain, as migration flows depend on many factors beyond government control.",
+        "evidence_id": "E28",
+        "quote": "The ONS and other analysts consistently highlight the difficulty in predicting how changes to immigration policy will affect actual migration flows, as these are influenced by many factors beyond government control"
+      }
+    ],
+    "rationale": "The policy explicitly promises to reduce migration to protect housing. The clearest mechanism supporting improved affordability is demand-side: if fewer people arrive, competition for homes should ease, and E21 confirms house prices are where migration's impact is most visible. On that narrow point, the evidence leans toward modest improvement in house-price growth rates.\n\nHowever, the housing affordability rubric requires looking beyond headline prices to social/affordable tenure and lower-income households. Here, the fiscal channel cuts the other way. E2 and E8 both indicate that substantially lower net migration raises government borrowing by billions, squeezing the public finances that fund social and affordable housebuilding. A government facing higher deficits has less capacity to subsidise affordable homes, support housing associations, or invest in planning infrastructure \u2014 all of which matter most to lower-income renters and buyers.\n\nThe net result is a genuine two-sided picture: some easing of demand pressure on market prices (a benefit concentrated among prospective buyers in high-demand areas) offset by reduced fiscal capacity that could worsen the social housing situation (a harm concentrated among lower-income households). Neither side is strong enough to dominate clearly in the evidence provided, making this a genuine 'mixed' verdict rather than a lazy hedge.\n\nMagnitude is minor because: the demand moderation from a migration cap is diffuse and slow-moving relative to the UK's structural housing supply deficit; and the fiscal drag, while real, does not automatically translate into fewer affordable homes built (that depends on spending choices). Confidence is low because E28 highlights the genuine difficulty of predicting actual migration flows from policy changes, and the evidence on construction-sector labour (which is crucial for supply) is not provided here.",
+    "sources": [
+      {
+        "quote": "Introduce a legal cap on migration to guarantee that numbers will fall every year, so public services are protected while bringing in the skills our businesses and NHS needs.",
+        "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+        "publisher": "Conservative and Unionist Party"
+      },
+      {
+        "url": "https://www.economicsobservatory.com/how-might-the-uks-new-approach-to-migration-affect-the-economy",
+        "publisher": "economicsobservatory.com",
+        "title": "economicsobservatory.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.independent.co.uk/bulletin/news/net-migration-economic-impact-reeves-b2923734.html",
+        "publisher": "independent.co.uk",
+        "title": "independent.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://obr.uk/box/net-migration-forecast-and-its-impact-on-the-economy/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/long-term-international-migration-flows-to-and-from-the-uk/",
+        "publisher": "migrationobservatory.ox.ac.uk",
+        "title": "ox.ac.uk",
+        "source_type": "academic"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0637,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their cited evidence. The 'measurable' label on E21 is borderline \u2014 academic research findings can shade toward projected \u2014 but the quote does reflect an established empirical finding rather than a forecast, so it passes. The 'mixed' direction is genuinely two-sided: E21 supports demand-side house price moderation while E2 and E8 support fiscal drag reducing affordable housing capacity. Neither side is fabricated. The magnitude (minor) and low confidence are justified given E28's uncertainty caveat and the structural supply-deficit context. No lever leakage, party bias, or tier integrity issues detected."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will introduce a binding, legal cap on migration, specifically for work and family visas, ensuring that numbers fall every year of the next Parliament to protect public services and housing, with Parliament voting annually on the level.",
+        "sources": [
+          {
+            "quote": "Introduce a legal cap on migration to guarantee that numbers will fall every year, so public services are protected while bringing in the skills our businesses and NHS needs.",
+            "url": "https://pledge.conservatives.com/wp-content/uploads/2024/06/Conservative-Manifesto-2024.pdf",
+            "publisher": "Conservative and Unionist Party"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "*   **Public Finances:** The OBR has consistently indicated that higher net migration generally leads to lower deficits and debt, primarily because migrants tend to be of working age and contribute more in taxes than they consume in welfare benefits, at least initially",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "In a scenario where net migration was 200,000 lower than their central forecast, the OBR estimated borrowing would be \u00a313.1 billion higher and debt 2.5% of GDP higher by 2028-29",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Conversely, a scenario with zero net inward migration over the long term could result in government borrowing rising sharply, as lower tax revenue would more than offset the impact of a smaller population on spending",
+        "sources": [
+          {
+            "url": "https://www.oxfordeconomics.com/resource/what-different-migration-profiles-mean-for-the-uk-economy-and-public-finances/",
+            "publisher": "oxfordeconomics.com",
+            "title": "oxfordeconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Official impact assessments in early 2024 projected that restricting skilled work migration would have a negative fiscal impact, while restricting family members of care workers would have a positive fiscal impact",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "In March 2026, the OBR forecast that lower net migration, averaging 235,000 a year between 2026 and 2030 (down from 295,000), would marginally lower aggregate potential output growth by 0.1 percentage points a year on average, leaving the level of potential output 0.25 percentage points lower in 2030",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/lower-net-migration-could-hold-151823837.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Earlier OBR analysis in March 2024 suggested that if the capital stock did not adjust to higher migration, GDP per person could be 0.4% below the central forecast by 2028-29",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/net-migration-forecast-and-its-impact-on-the-economy/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Public Spending:** While additional migrants increase specific fees and general tax revenue (e.g., an increase of \u00a36.2 billion in general tax revenue by 2028-29 from an additional 300,000 adult migrants in one OBR scenario), an equivalent provision of public services to these migrants could require an additional \u00a36.1 billion in spending by 2028-29",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The Resolution Foundation warned in February 2026 that a sharp fall in net migration, largely due to government crackdowns, could increase government borrowing by around \u00a33 billion, as lower migration, particularly of working-age individuals, is expected to reduce tax intake without necessarily cutting public service costs",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/bulletin/news/net-migration-economic-impact-reeves-b2923734.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Labour Shortages:** The Resolution Foundation noted in February 2022 that reduced immigration from the EU was highly likely to drive up labour shortages in specific sectors in the short term, such as food manufacturing, warehousing, and accommodation, with many roles excluded from the \"skilled worker visa\" (SWV)",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/under-new-management/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Overall, migrants constituted over three-quarters (77%) of UK labour force growth between 1994 and 2019",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Wages and Productivity:** While some argue that restricting migration could lead to higher wages for domestic workers, the Resolution Foundation's research suggests this is unlikely, finding that an increase in migrant workers only had a \"small, negative impact on the wages of domestic born workers in lower-skilled occupations\"",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2022/02/Under-new-management_.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/under-new-management/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Therefore, a reduction in migrant workers is not expected to automatically drive up wages in these sectors",
+        "sources": [
+          {
+            "url": "https://economy2030.resolutionfoundation.org/wp-content/uploads/2022/02/Under-new-management_.pdf",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://economy2030.resolutionfoundation.org/reports/under-new-management/",
+            "publisher": "economy2030.resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The OBR also noted significant uncertainties about how lower net migration would impact productivity and living standards",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/lower-net-migration-could-hold-151823837.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Similar changes were made to the Shortage Occupation List, which was made shorter and renamed the Immigration Salary List",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9920/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "In 2019, 13.3% of NHS staff in hospitals and community services in England reported a non-British nationality, rising to 28.4% for doctors",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8V1pm_OpLJI5fkk6vSESr18zlVoNN_eMoiEJiG5EUcMVxZqVmCNPtnf9hl_6XpphSU_uw2qD95gnyIghSNjWWmw7g4sP2eJWL6J9mETkTQQjIukFmx7Fi7ODZbxaJVrPXeHMDGKnplyFF23yGHHQItF0OM9f7WzN_MkJROpcwoVk0GpYOYD1eK7hKuPszPJGdM6TP",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Staffing shortages in the NHS stood at around 100,000 in 2019 and were projected to grow to 250,000 or more by 2030",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8V1pm_OpLJI5fkk6vSESr18zlVoNN_eMoiEJiG5EUcMVxZqVmCNPtnf9hl_6XpphSU_uw2qD95gnyIghSNjWWmw7g4sP2eJWL6J9mETkTQQjIukFmx7Fi7ODZbxaJVrPXeHMDGKnplyFF23yGHHQItF0OM9f7WzN_MkJROpcwoVk0GpYOYD1eK7hKuPszPJGdM6TP",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The Health Foundation estimated the NHS would need to recruit an additional 5,000 international nurses a year until 2023/24 just to stay afloat",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8V1pm_OpLJI5fkk6vSESr18zlVoNN_eMoiEJiG5EUcMVxZqVmCNPtnf9hl_6XpphSU_uw2qD95gnyIghSNjWWmw7g4sP2eJWL6J9mETkTQQjIukFmx7Fi7ODZbxaJVrPXeHMDGKnplyFF23yGHHQItF0OM9f7WzN_MkJROpcwoVk0GpYOYD1eK7hKuPszPJGdM6TP",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Impact of Restrictions:** Policy changes already implemented in early 2024, such as restricting care workers from bringing family members and increasing salary thresholds for Skilled Worker visas, have contributed to a decline in work-related immigration",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingjune2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Health Foundation has welcomed the addition of care workers to the Shortage Occupation List (now Immigration Salary List) to help with recruitment, but stresses that an accommodating immigration system alone will not solve workforce problems",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/42827/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Service Usage:** Contrary to some public perceptions, research from the Health Foundation and Migration Observatory indicates that migrants, particularly recent arrivals, tend to use NHS services less frequently than UK-born residents, partly because they are often younger and healthier",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8V1pm_OpLJI5fkk6vSESr18zlVoNN_eMoiEJiG5EUcMVxZqVmCNPtnf9hl_6XpphSU_uw2qD95gnyIghSNjWWmw7g4sP2eJWL6J9mETkTQQjIukFmx7Fi7ODZbxaJVrPXeHMDGKnplyFF23yGHHQItF0OM9f7WzN_MkJROpcwoVk0GpYOYD1eK7hKuPszPJGdM6TP",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCu_GojmVDxJa4MX6RXom2s01Y0m3tKKObhZtYixCeU8UQF7FSUrEVSsky3dyUO-7RSr1oQ7f1phAjooJPACOyzLoBKS-jEeHHuwbjpR3hCBB1uwoZ0WUOdRvAAdUgWtHqWI5HkKTmnCTEfxyTRytDOEiX9CDvjAFiJ-bMbWniYuJLrR6zAc6ndH80hfNC5h6kTR9vtoRIPWounEhX2RkiPQCHHqC_CVT_XqcB6v6Etw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **House Prices:** Academic research suggests that house prices are where the effects of migration are most noticeable, with migration contributing to higher house prices due to the slower pace of increasing housing stock compared to population growth",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/how-might-the-uks-new-approach-to-migration-affect-the-economy",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Minimum Income Requirements:** The minimum income required to sponsor a spouse/partner visa rose from \u00a318,600 to \u00a329,000 in April 2024",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9920/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The previous Conservative government had planned further increases to \u00a338,700 by early 2025, but the Labour government (elected in July 2024) commissioned a review and held the threshold at \u00a329,000",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9920/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/family-migration-to-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Dependants:** From April 2024, sponsored higher education students (unless enrolled in research postgraduate programs) and care workers in the Health and Care Worker route became ineligible to bring dependants",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/family-migration-to-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "This has dramatically reduced the number of dependants arriving, with study and work dependants falling from a peak of 374,000 in 2023 to 98,000 in the year ending June 2025",
+        "sources": [
+          {
+            "url": "https://blog.ons.gov.uk/2025/11/27/what-is-driving-the-current-fall-in-net-migration/",
+            "publisher": "blog.ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Long-term Fiscal Impact:** The OBR acknowledges that the overall long-term impact of migration on public finances is more uncertain, as fiscal benefits may become \"less beneficial over time, reflecting that after a minimum of 5-years, migrants can apply for indefinite leave to remain and therefore become eligible for welfare benefits\"",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-impact-of-migration-on-the-fiscal-forecast/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Economic Trajectory:** The Resolution Foundation, while acknowledging migration's significant effect on the labour force, argues that the post-Brexit migration regime (which includes some restrictions) will \"do little to change the UK's economic trajectory, or its central low investment, low productivity challenges\"",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/migration-has-changed-the-size-and-shape-of-the-uks-workforce-but-economic-impact-of-new-migration-regime-is-overdone-by-opponents-and-supporters/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Predicting Migration Flows:** The ONS and other analysts consistently highlight the difficulty in predicting how changes to immigration policy will affect actual migration flows, as these are influenced by many factors beyond government control, such as the state of the UK and global economies, and international events",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/net-migration-forecast-and-its-impact-on-the-economy/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/how-might-the-uks-new-approach-to-migration-affect-the-economy",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/long-term-international-migration-flows-to-and-from-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The ONS itself has revised net migration estimates significantly in recent years due to improved methods and updated data",
+        "sources": [
+          {
+            "url": "https://blog.ons.gov.uk/2025/11/27/what-is-driving-the-current-fall-in-net-migration/",
+            "publisher": "blog.ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

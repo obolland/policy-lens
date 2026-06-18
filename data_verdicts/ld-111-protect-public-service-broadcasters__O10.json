@@ -1,0 +1,581 @@
+{
+  "policy_id": "ld-111-protect-public-service-broadcasters",
+  "party": "Liberal Democrat",
+  "policy_title": "Protect Public Service Broadcasters",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "This policy maintains existing publicly-owned broadcasters and supports BBC media literacy work, but introduces no new coercive powers, surveillance, or speech restrictions \u2014 and removes none either. Its effect on personal liberty is essentially neutral.",
+    "biggest_unknown": "Whether continued licence-fee funding (a compulsory charge) is implicitly cemented or whether the Charter Review produces a less coercive funding model would be the main liberty-relevant variable, but the policy text does not commit either way.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to protecting the BBC, S4C, BBC Alba and Channel 4 as independent, publicly owned broadcasters and supporting the BBC's role in media literacy and tackling fake news.",
+        "evidence_id": "M",
+        "quote": "Protect the BBC, S4C, BBC Alba and Channel 4 as independent, publicly owned, public service broadcasters. Support the BBC both to provide impartial news and information, and to take a leading role in increasing media literacy and educating all generations in tackling the impact of fake news."
+      },
+      {
+        "tier": "measurable",
+        "claim": "The government is already considering alternative funding models including advertising, subscription or hybrid approaches as part of the Charter Review.",
+        "evidence_id": "E18",
+        "quote": "The government is currently reviewing the BBC's Charter, which expires in December 2027, and is considering alternative funding models such as advertising, subscription, or a hybrid approach."
+      },
+      {
+        "tier": "projected",
+        "claim": "Concerns exist that direct government funding of the BBC could undermine political independence.",
+        "evidence_id": "E25",
+        "quote": "concerns exist that direct government funding could undermine political independence"
+      }
+    ],
+    "rationale": "O10 scores 'improves' when state coercion, surveillance or speech restrictions are withdrawn, and 'worsens' when new ones are introduced. This policy does neither. It preserves the status quo of publicly-owned PSBs and adds a media literacy aspiration for the BBC \u2014 neither instrument is coercive. The licence fee (a mandatory charge and the closest liberty-relevant element) is not addressed in the policy text; it neither confirms nor removes that obligation. The Charter Review already contemplates alternative models regardless of this policy. The 'fake news' and media literacy framing is aspirational and educational in character; the policy text commits no statutory duty, regulatory power, or enforcement mechanism that would restrict what people say or access. No cited evidence supports a material positive or negative liberty shift at population scale from this policy's specific marginal effect. A minor residual concern \u2014 that state-backed arbiters of 'fake news' could chill speech \u2014 is not evidenced by any cited source and cannot be asserted as fact. The direction is therefore negligible.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.globalbankingandfinance.com/britain-bbc/",
+        "publisher": "globalbankingandfinance.com",
+        "title": "globalbankingandfinance.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.investing.com/news/economy-news/analysisbbc-crisis-exposes-fractures-at-renowned-british-institution-4346989",
+        "publisher": "investing.com",
+        "title": "investing.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.publicmediaalliance.org/the-two-questions-shaping-the-public-media-funding-debate-in-2026/",
+        "publisher": "publicmediaalliance.org",
+        "title": "publicmediaalliance.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmcumeds/156/15609.htm",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.iicom.org/wp-content/uploads/IM-January-2022-Vol-49-Issue-4-Challenges-Facing-Public-Service-Broadcasters.pdf",
+        "publisher": "iicom.org",
+        "title": "iicom.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0364,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is clean. Direction 'negligible' is well-reasoned: the policy neither introduces nor removes coercive powers, surveillance, or speech restrictions. The three claims are appropriately tiered and the quotes entail the claims as stated. Tier integrity is sound \u2014 E18 is correctly labelled 'measurable' as a factual description of a current government review process (not a projection). The magnitude/time_horizon pair is consistent with a negligible direction (minor/this-parliament is a slight inconsistency \u2014 negligible direction arguably warrants n/a magnitude \u2014 but the schema does not mandate n/a for 'negligible', only for 'too-uncertain', so this is not a blocking issue). No party identity or motive attribution. No false balance. The rationale appropriately acknowledges the licence-fee liberty concern but correctly declines to assert it as fact without evidence support."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "The BBC is currently funded primarily by the television licence fee, which is a compulsory charge.",
+          "evidence_id": "E17",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Protect the BBC, S4C, BBC Alba and Channel 4 as independent, publicly owned, public service broadcasters. Support the BBC both to provide impartial news and information, and to take a leading role in increasing media literacy and educating all generations in tackling the impact of fake news.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The report indicated that every \u00a31 of the BBC's economic activity generates \u00a32.63 in the wider economy.",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-children/childrens",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/adults-media-use-and-attitudes",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The BBC's \"Across the UK\" plans, involving an additional \u00a3700 million spend outside London by 2027/28, are projected to create 4,750 new creative businesses and 45,000 additional jobs in these regions.",
+        "sources": [
+          {
+            "url": "https://www.advanced-television.com/2026/04/02/ofcom-trust-in-news-sources-mixed-social-media-usage-down/",
+            "publisher": "advanced-television.com",
+            "title": "advanced-television.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The BBC is the largest single investor in UK content, investing \u00a31.2 billion in original UK content in 2023.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmcumeds/156/15609.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Analysis by EY estimated that in 2019, Channel 4 created over **3,000 jobs** and generated **\u00a3274 million** of Gross Value Added (GVA) in the nations and regions.",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/high-media-literacy-among-adults-and-children/exploring-high-media-literacy-among-adults-and-children?v=330526",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Its unique \"publisher-broadcaster\" model, where it commissions all content from external producers, is pivotal to the UK's independent production sector, which is worth almost \u00a33 billion annually.",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/high-media-literacy-among-adults-and-children/exploring-high-media-literacy-among-adults-and-children?v=330526",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.dunmowbroadcast.co.uk/news/national/uk-today/19675936.obr-mean-help-budget/",
+            "publisher": "dunmowbroadcast.co.uk",
+            "title": "dunmowbroadcast.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "It supports an estimated **2,229 jobs** in Wales.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/The-distribution-of-public-service-spending-Inequality-The-IFS-Deaton-Review.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://pec.ac.uk/wp-content/uploads/2024/01/What-is-the-Public-Value-of-Public-Service-Broadcasting-PEC-Discussion-Paper-Jan-2022.pdf",
+            "publisher": "pec.ac.uk",
+            "title": "pec.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "S4C exists to address a market failure, providing Welsh-language content that commercial markets would not.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10465/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2025/dec/01/obr-budget-leak-investigation",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **BBC Alba:** Operated in partnership by MG ALBA and the BBC, this Gaelic-language service is also a significant commissioner of content from Scotland's independent production sector, accounting for over 50% of all Scottish commissions by hour in 2010.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/59433/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Public Trust:** Ofcom's 2026 research indicates that while 85% of UK adults use mainstream media for news, trust levels vary, with 19% always trusting it and 21% always questioning its accuracy.",
+        "sources": [
+          {
+            "url": "https://www.advanced-television.com/2026/04/02/ofcom-trust-in-news-sources-mixed-social-media-usage-down/",
+            "publisher": "advanced-television.com",
+            "title": "advanced-television.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/passive-social-media-use-ai-companionship-and-online-side-hustles-uk-adults-media-and-online-lives-revealed",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Some individuals express deep mistrust of mainstream media, preferring independent online content creators.",
+        "sources": [
+          {
+            "url": "https://www.advanced-television.com/2026/04/02/ofcom-trust-in-news-sources-mixed-social-media-usage-down/",
+            "publisher": "advanced-television.com",
+            "title": "advanced-television.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/passive-social-media-use-ai-companionship-and-online-side-hustles-uk-adults-media-and-online-lives-revealed",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The government's objectives for the ongoing BBC Charter Review include ensuring the BBC \"commands the public's trust\" and is \"independent and accountable\".",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmcumeds/156/15609.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10465/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "In 2025, BBC research indicated 77% trust in the BBC, which was higher than trust in some international state-backed media services.",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/how-western-governments-are-failing-to-support-international-public-service-media/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Media Literacy:** Ofcom has a statutory duty to promote and research media literacy, defined as \"the ability to use, understand and create media and communications in a variety of contexts.\"",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-children/childrens",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/high-media-literacy-among-adults-and-children/exploring-high-media-literacy-among-adults-and-children?v=330526",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/adults",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Their 2025 and 2026 reports provide extensive evidence on media use and understanding among adults and children.",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-children/childrens",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/adults-media-use-and-attitudes",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.computingatschool.org.uk/forum-news-blogs/2025/may/understanding-media-use-among-children-aged-3-11-key-insights-from-ofcom-s-2025-media-literacy-report/",
+            "publisher": "computingatschool.org.uk",
+            "title": "computingatschool.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/adults",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "For example, 40% of UK adults reported encountering misinformation or deepfake content within a four-week period in 2024.",
+        "sources": [
+          {
+            "url": "https://www.ofcom.org.uk/media-use-and-attitudes/attitudes-to-news",
+            "publisher": "ofcom.org.uk",
+            "title": "ofcom.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Online safety education is widespread and valued, with 92% of children aged 8-17 recalling such lessons in 2024, and 45% finding them \"very useful\".",
+        "sources": [
+          {
+            "url": "https://www.computingatschool.org.uk/forum-news-blogs/2025/may/understanding-media-use-among-children-aged-3-11-key-insights-from-ofcom-s-2025-media-literacy-report/",
+            "publisher": "computingatschool.org.uk",
+            "title": "computingatschool.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **BBC Funding:** The BBC is primarily funded by the annual television licence fee, which generated approximately **\u00a33.7 billion** in 2024/2025.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165723/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The government is currently reviewing the BBC's Charter, which expires in December 2027, and is considering alternative funding models such as advertising, subscription, or a hybrid approach.",
+        "sources": [
+          {
+            "url": "https://www.globalbankingandfinance.com/britain-bbc/",
+            "publisher": "globalbankingandfinance.com",
+            "title": "globalbankingandfinance.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/analysisbbc-crisis-exposes-fractures-at-renowned-british-institution-4346989",
+            "publisher": "investing.com",
+            "title": "investing.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.publicmediaalliance.org/the-two-questions-shaping-the-public-media-funding-debate-in-2026/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmcumeds/156/15609.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The freezing of the licence fee is projected to create a **\u00a3285 million** funding gap by 2027.",
+        "sources": [
+          {
+            "url": "https://www.equity.org.uk/news/2022/public-service-broadcasting-is-under-attack-we-must-defend-it",
+            "publisher": "equity.org.uk",
+            "title": "equity.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Channel 4 has committed to doubling new roles outside London to **600** and increasing its skills investment from \u00a35 million to **\u00a310 million** by 2025.",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/the-two-questions-shaping-the-public-media-funding-debate-in-2026/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **S4C Funding:** Since April 2022, all of S4C's public funding comes from the licence fee, amounting to **\u00a388.85 million per annum**.",
+        "sources": [
+          {
+            "url": "https://pec.ac.uk/wp-content/uploads/2024/01/What-is-the-Public-Value-of-Public-Service-Broadcasting-PEC-Discussion-Paper-Jan-2022.pdf",
+            "publisher": "pec.ac.uk",
+            "title": "pec.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10465/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "MG ALBA advocates for funding parity with S4C, noting a gap of almost \u00a3100 million in funding levels.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165723/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://mgalba.com/bbc-charter-renewal/?lang=en",
+            "publisher": "mgalba.com",
+            "title": "mgalba.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "BBC Funding Model:**\n*   **Pro-licence fee:** Supporters argue that the licence fee ensures universal access, independence from political and commercial pressures, and allows the BBC to invest in diverse, non-commercial content, contributing significantly to the creative industries and media literacy.",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmcumeds/156/15609.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165723/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They suggest exploring advertising, subscription, or hybrid models to improve accountability and competitiveness with global streamers.",
+        "sources": [
+          {
+            "url": "https://www.globalbankingandfinance.com/britain-bbc/",
+            "publisher": "globalbankingandfinance.com",
+            "title": "globalbankingandfinance.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.publicmediaalliance.org/the-two-questions-shaping-the-public-media-funding-debate-in-2026/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "However, concerns exist that direct government funding could undermine political independence, and increased advertising could negatively impact other commercial broadcasters.",
+        "sources": [
+          {
+            "url": "https://www.globalbankingandfinance.com/britain-bbc/",
+            "publisher": "globalbankingandfinance.com",
+            "title": "globalbankingandfinance.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5801/cmselect/cmcumeds/156/15609.htm",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.iicom.org/wp-content/uploads/IM-January-2022-Vol-49-Issue-4-Challenges-Facing-Public-Service-Broadcasters.pdf",
+            "publisher": "iicom.org",
+            "title": "iicom.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Increased commercial freedom:** The government, while deciding against full privatisation, granted Channel 4 more commercial flexibility, including the ability to produce some of its own content.",
+        "sources": [
+          {
+            "url": "https://www.publicmediaalliance.org/the-two-questions-shaping-the-public-media-funding-debate-in-2026/",
+            "publisher": "publicmediaalliance.org",
+            "title": "publicmediaalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "EY analysis, cited in a House of Commons Library briefing, suggested that removing the publisher-broadcaster model could increase Channel 4's direct GVA, but potentially reduce its contribution to the wider creative economy if it commissions less from external producers.",
+        "sources": [
+          {
+            "url": "https://www.dunmowbroadcast.co.uk/news/national/uk-today/19675936.obr-mean-help-budget/",
+            "publisher": "dunmowbroadcast.co.uk",
+            "title": "dunmowbroadcast.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Parity in Funding for Minority Language Broadcasters:**\n*   MG ALBA, which runs BBC Alba, strongly argues for a \"parity of esteem\" with S4C, advocating for more stable, certain, and sufficient funding for Gaelic broadcasting, along with increased content contributions from the BBC.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/165723/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/59433/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://mgalba.com/bbc-charter-renewal/?lang=en",
+            "publisher": "mgalba.com",
+            "title": "mgalba.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

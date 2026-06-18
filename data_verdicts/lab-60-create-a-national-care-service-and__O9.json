@@ -1,0 +1,725 @@
+{
+  "policy_id": "lab-60-create-a-national-care-service-and",
+  "party": "Labour",
+  "policy_title": "Create a National Care Service and Reform Social Care",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "The policy strengthens a specific right for care home residents \u2014 the right to see family \u2014 and introduces national standards to reduce unequal care quality across the country. The effect on O9 is real but narrow, and the actual delivery of the visiting-rights guarantee depends on legislation that has not yet passed.",
+    "biggest_unknown": "Whether visiting-rights legislation is actually enacted, and whether national standards are enforceable enough to reduce the existing geographic inequality in care quality.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to guaranteeing rights for residential care residents to see their families.",
+        "evidence_id": "M",
+        "quote": "guaranteeing rights for residential care residents to see families"
+      },
+      {
+        "tier": "stated",
+        "claim": "New national standards will be introduced to ensure consistent, high-quality care across the country.",
+        "evidence_id": "M",
+        "quote": "New standards will ensure high-quality care and provider responsibility"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Existing legal rights to family contact under the Human Rights Act 1998, Care Act 2014, and Equality Act 2010 already exist but were not consistently upheld.",
+        "evidence_id": "E15",
+        "quote": "strengthen the existing legal rights of care home residents, which include the right to contact with family and friends under the Human Rights Act 1998, Care Act 2014, and Equality Act 2010"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Concerns about denial of family visits were raised during the COVID-19 pandemic.",
+        "evidence_id": "E16",
+        "quote": "address concerns raised during the COVID-19 pandemic when many residents were denied visits"
+      },
+      {
+        "tier": "stated",
+        "claim": "Legislation is sought to grant residents the right to nominate essential visitors.",
+        "evidence_id": "E17",
+        "quote": "Legislation is sought to grant residents the right to nominate essential visitors, subject to infection control"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The social care system currently suffers from inconsistent quality, described as widely in crisis.",
+        "evidence_id": "E1",
+        "quote": "facing issues of underfunding, workforce instability, and inconsistent quality"
+      },
+      {
+        "tier": "projected",
+        "claim": "National standards are intended to reduce geographic inconsistency in care quality, but the pace of NCS implementation is estimated at up to 2036.",
+        "evidence_id": "E35",
+        "quote": "timeline for its full implementation is extensive, estimated up to 2036"
+      }
+    ],
+    "rationale": "O9 covers equal treatment, minority protections, due process, and rights. Two elements of this policy are directly relevant. First, the commitment to guarantee visiting rights for care home residents addresses a concrete rights failure \u2014 during COVID-19, residents (a protected, vulnerable group) were denied contact with family despite existing legal entitlements under the Human Rights Act and Care Act. Legislating an explicit right to nominate essential visitors would close this gap and provide a clearer due-process mechanism. This is a modest but genuine improvement to the enforceable rights of a specific minority group. Second, the introduction of national standards targets the current inconsistency in care quality. Unequal quality depending on geography or provider amounts to unequal treatment for people with the same entitlement \u2014 national standards, if enforced, would address this. However, the magnitude must be kept low. The visiting-rights guarantee depends on legislation not yet passed. National standards are aspirational at this stage, and the full NCS implementation timeline extends to 2036. The Health Foundation assessed the pace of change as 'glacial'. Neither mechanism has yet fired at scale. The core rights improvement \u2014 visiting rights \u2014 is real and evidenced by a demonstrated past failure, but it is narrow in scope (it applies specifically to residential care residents). No evidence is provided that this policy materially affects voting rights, anti-discrimination law more broadly, or due process outside the care context. Direction is therefore 'improves', but magnitude is minor and confidence is low given legislative uncertainty and the extended implementation horizon.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.leeds.gov.uk/care-quality-team/family-and-friends-of-care-home-residents/rights-of-people-living-in-care-homes",
+        "publisher": "leeds.gov.uk",
+        "title": "leeds.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.carehome.co.uk/advice/what-rights-do-care-home-residents-have",
+        "publisher": "carehome.co.uk",
+        "title": "carehome.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/society/2021/nov/20/uk-care-homes-deny-family-visits-human-rights",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/jt5803/jtselect/jtrights/216/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+        "publisher": "vwv.co.uk",
+        "title": "vwv.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://labour.org.uk/wp-content/uploads/2019/09/12703_19-Towards-the-National-Care-Service.pdf",
+        "publisher": "labour.org.uk",
+        "title": "labour.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/society/2026/jun/04/why-is-andy-burnham-talking-about-fixing-englands-social-care-system",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0428,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-scoped to O9. Claims are appropriately tiered: stated claims quote directly from policy text, measurable claims are grounded in sourced baselines (E15, E16, E1), and the projected claim (E35) is correctly labelled. The E17 claim is labelled 'stated' but E17 is a parliamentary source rather than policy text \u2014 however this is a minor sourcing question, not a blocking entailment failure, as the quote does support the claim. The rationale is party-blind, avoids motive attribution, and correctly limits scope to visiting rights and national standards. Magnitude (minor) and confidence (low) are appropriately conservative given legislative uncertainty and the 2036 implementation horizon. No lever leakage, false balance, or asymmetric sourcing detected."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will undertake a programme of reform to create a National Care Service, underpinned by national standards and locally delivered with a 'home first' principle. New standards will ensure high-quality care and provider responsibility. Local partnerships between the NHS and social care will improve hospital discharge. A Fair Pay Agreement in adult social care will set fair pay, terms, conditions, and training standards. The party commits to guaranteeing rights for residential care residents to see families and will explore long-term reforms for an ageing population and integration with the NHS.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Labour Party's proposed National Care Service (NCS) and associated social care reforms aim to overhaul a system widely considered to be in crisis, facing issues of underfunding, workforce instability, and inconsistent quality",
+        "sources": [
+          {
+            "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+            "publisher": "vwv.co.uk",
+            "title": "vwv.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2019/09/12703_19-Towards-the-National-Care-Service.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/society/2026/jun/04/why-is-andy-burnham-talking-about-fixing-englands-social-care-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Creation of a National Care Service (NCS)**\n    *   **Shift to Home-Based Care:** The 'home first' principle aims to support individuals to live independently in their homes for as long as possible, potentially alleviating pressure on residential care facilities and improving quality of life for service users",
+        "sources": [
+          {
+            "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+            "publisher": "vwv.co.uk",
+            "title": "vwv.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hcrlaw.com/news-and-insights/national-care-service-what-care-homes-need-to-know/",
+            "publisher": "hcrlaw.com",
+            "title": "hcrlaw.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This aligns with approaches like \"Discharge to Assess\" (D2A), where individuals are discharged home for care assessments, which can reduce hospital stays and improve patient outcomes",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/urgent-emergency-care/improving-hospital-discharge/reducing-long-term-stays/home-first/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwCNxay2FoMac81_kwy0V9bytwCuoi2kvJRQOTRVLSbDycrWmF_XgbN0G2g3HWWNhxNNnL5ZLlnnUjK-h9IhjOvf4F3_gJAXm-7CmZ9ebIiYRk4lMtRrp5lPM2DLidhrNkFFWAvkWkMaAUm7cMLykxApVT5bnxvlLuEZMxboeV4Q==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "nhsinform.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Greater Integration with NHS:** The NCS envisions a more seamless and coordinated approach between health and social care services, aiming for better outcomes and reduced pressure on the NHS, particularly concerning hospital discharges",
+        "sources": [
+          {
+            "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+            "publisher": "vwv.co.uk",
+            "title": "vwv.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Historically, a lack of integration has contributed to \"bed blocking,\" with an estimated 10,000 patients occupying hospital beds due to delayed discharge in 2021",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9358590/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **National Standards:** The introduction of national standards is intended to ensure consistent, high-quality care across the country and promote provider responsibility",
+        "sources": [
+          {
+            "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+            "publisher": "vwv.co.uk",
+            "title": "vwv.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**New Standards for High-Quality Care and Provider Responsibility**\n    *   Labour plans to focus on ethical commissioning, ensuring care providers meet standards of transparency, compliance, and potentially profit capping",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2019/09/12703_19-Towards-the-National-Care-Service.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "**Local Partnerships between NHS and Social Care to Improve Hospital Discharge**\n    *   These partnerships are expected to streamline the process of discharging patients from hospitals, improving outcomes and reducing NHS backlogs by ensuring appropriate care is in place for individuals returning home",
+        "sources": [
+          {
+            "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+            "publisher": "vwv.co.uk",
+            "title": "vwv.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/urgent-emergency-care/improving-hospital-discharge/reducing-long-term-stays/home-first/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The \"Home First\" approach aims to prevent unnecessary hospital admissions and facilitate timely discharge",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/urgent-emergency-care/improving-hospital-discharge/case-studies/home-first-service/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Fair Pay Agreement (FPA) in Adult Social Care**\n    *   **Improved Pay and Conditions:** The FPA seeks to establish fair pay, terms, conditions, and training standards, including a proposed \u00a312 per hour minimum wage",
+        "sources": [
+          {
+            "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+            "publisher": "vwv.co.uk",
+            "title": "vwv.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labourlist.org/2025/12/fair-pay-agreement-adult-social-care-what-when-how-workers-employers-funding/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This is intended to professionalise the adult social care workforce, make the sector more attractive, reduce high turnover, and ultimately improve the quality of care",
+        "sources": [
+          {
+            "url": "https://www.vwv.co.uk/insights/articles/the-impact-of-the-new-uk-labour-governments-policies-on-social-care/",
+            "publisher": "vwv.co.uk",
+            "title": "vwv.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labourlist.org/2025/12/fair-pay-agreement-adult-social-care-what-when-how-workers-employers-funding/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Around one in five residential care workers currently lives in poverty",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2025/12/fair-pay-agreement-adult-social-care-what-when-how-workers-employers-funding/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmPowXqMoQgdpz8BuUbJpDeu5ySfzwUfKM5N8fyW-Ll4semCi_eriL0oXu6lOcfMuYU3RRrEexjaug6NP9RW9ZWVNcURae_BCEqgkHkV6WbkE7acwpYD-lwyM0ar_x5KG8bIgwGAQnQACX2aJknSZ4oS_qpoG8PAzWl3gWQFN8AUDqj-4qHPNIngRB1SWTjYuyySTgZHut5OfweNSxFztedASX7OD1TJWxcWM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG03tUPpJ1u4xZex684Rg2DceAzWbRW6l9-48i8GgefulgeDJAOT9_SSmwQceWNRRbToNaEUUoA3Dd0BnxBgRBnovUis8fu9u5gkpkBSSBvMZ1wd-tKQXB8Xa97SavCvYfGrNUplqNY9879uhjCqSCQZL4BJ8MmfPHqB_8tTs5nEwIggZVA9lhURMB0IOInMLhAgJDsj9dPL7kI",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "kingsfund.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Collective Bargaining:** The FPA will oblige employer representatives and unions to negotiate legally binding pay and conditions annually, covering all adult social care workers",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2025/12/fair-pay-agreement-adult-social-care-what-when-how-workers-employers-funding/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The first pay increases are anticipated to be implemented from 2028",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2025/12/fair-pay-agreement-adult-social-care-what-when-how-workers-employers-funding/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "**Guaranteeing Rights for Residential Care Residents to See Families**\n    *   This policy aims to strengthen the existing legal rights of care home residents, which include the right to contact with family and friends under the Human Rights Act 1998, Care Act 2014, and Equality Act 2010",
+        "sources": [
+          {
+            "url": "https://www.leeds.gov.uk/care-quality-team/family-and-friends-of-care-home-residents/rights-of-people-living-in-care-homes",
+            "publisher": "leeds.gov.uk",
+            "title": "leeds.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.carehome.co.uk/advice/what-rights-do-care-home-residents-have",
+            "publisher": "carehome.co.uk",
+            "title": "carehome.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This would address concerns raised during the COVID-19 pandemic when many residents were denied visits",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2021/nov/20/uk-care-homes-deny-family-visits-human-rights",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Legislation is sought to grant residents the right to nominate essential visitors, subject to infection control",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/jt5803/jtselect/jtrights/216/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Long-Term Reforms for an Ageing Population and Integration with the NHS**\n    *   The government intends to publish a 10-Year Health Plan, with key shifts from hospital to community care, analogue to digital, and sickness to prevention",
+        "sources": [
+          {
+            "url": "https://www.hcrlaw.com/news-and-insights/national-care-service-what-care-homes-need-to-know/",
+            "publisher": "hcrlaw.com",
+            "title": "hcrlaw.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalcareforum.org.uk/voice/ncf-policy-agenda/",
+            "publisher": "nationalcareforum.org.uk",
+            "title": "nationalcareforum.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "A strong social care system is considered vital for achieving better population health",
+        "sources": [
+          {
+            "url": "https://www.nationalcareforum.org.uk/voice/ncf-policy-agenda/",
+            "publisher": "nationalcareforum.org.uk",
+            "title": "nationalcareforum.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Increased Public Spending:** The Resolution Foundation predicts that by 2028-29, health and social care spending could account for 49% of all day-to-day public service spending, a significant rise from 34% in 2009-10, transforming the UK into a \"National Health State\"",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/britain-is-turning-into-a-national-health-state-as-lower-income-families-gain-most-from-spending-review/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "For instance, data on the ageing population (expected to increase demand for care costing an additional \u00a38.3bn by 2032/33",
+        "sources": [
+          {
+            "url": "https://www.nationalcareforum.org.uk/voice/ncf-policy-agenda/",
+            "publisher": "nationalcareforum.org.uk",
+            "title": "nationalcareforum.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "**Resolution Foundation:**\n*   They highlight the trend of the UK becoming a \"National Health State,\" with health and social care consuming an increasing proportion of public service spending (49% by 2028-29)",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/britain-is-turning-into-a-national-health-state-as-lower-income-families-gain-most-from-spending-review/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "This rise in health spending often comes at the expense of other public services",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/britain-is-turning-into-a-national-health-state-as-lower-income-families-gain-most-from-spending-review/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "**House of Commons Library:**\n*   The House of Commons Committee of Public Accounts has \"repeatedly highlighted the need for reform\" and stressed the importance of long-term funding and addressing social care workforce problems",
+        "sources": [
+          {
+            "url": "https://www.hcrlaw.com/news-and-insights/national-care-service-what-care-homes-need-to-know/",
+            "publisher": "hcrlaw.com",
+            "title": "hcrlaw.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They estimate that meeting the expected growth in demand from an ageing population alone could cost an additional \u00a38.3bn by 2032/33",
+        "sources": [
+          {
+            "url": "https://www.nationalcareforum.org.uk/voice/ncf-policy-agenda/",
+            "publisher": "nationalcareforum.org.uk",
+            "title": "nationalcareforum.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Fair Pay Agreement Funding:** They critically assess the \u00a3500m allocated for the first FPA in 2028/29, stating it would only cover approximately an extra 20p per hour if distributed across the 1.5 million social care workforce",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/good-intentions-aren-t-enough-implementing-a-fair-pay-agreement-that-works-for-social-care",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpeigv_G61f0_34SOdxdEL9Ng43k8UgTwMCbE3xByu4wqogKJNx3RdVmIACdXhaHwdu3i2hkhXfTD5kOpUfCMk8EkBQqMmNR7x8rtbh0EHsraHgKMjK4FiTfDXkGXFcNpL_eQfnxdic3QRYsP62QyRlero1ucsngXJ0rnWxMwk2GdUpmiuwUR70eE6pTRQ1NvRLRLXa4eygQqSX59PRc8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They previously estimated that \u00a32.3bn would be needed to raise care worker pay to at least the NHS Agenda for Change Upper Band 3 (\u00a313.13 in 2024/25)",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmPowXqMoQgdpz8BuUbJpDeu5ySfzwUfKM5N8fyW-Ll4semCi_eriL0oXu6lOcfMuYU3RRrEexjaug6NP9RW9ZWVNcURae_BCEqgkHkV6WbkE7acwpYD-lwyM0ar_x5KG8bIgwGAQnQACX2aJknSZ4oS_qpoG8PAzWl3gWQFN8AUDqj-4qHPNIngRB1SWTjYuyySTgZHut5OfweNSxFztedASX7OD1TJWxcWM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/good-intentions-aren-t-enough-implementing-a-fair-pay-agreement-that-works-for-social-care",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Pace of Reform:** In October 2025, the Health Foundation assessed Labour's first year in power, concluding that social care \"remains a Cinderella service\" and that the pace of change is \"glacial,\" not \"transformational\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpeigv_G61f0_34SOdxdEL9Ng43k8UgTwMCbE3xByu4wqogKJNx3RdVmIACdXhaHwdu3i2hkhXfTD5kOpUfCMk8EkBQqMmNR7x8rtbh0EHsraHgKMjK4FiTfDXkGXFcNpL_eQfnxdic3QRYsP62QyRlero1ucsngXJ0rnWxMwk2GdUpmiuwUR70eE6pTRQ1NvRLRLXa4eygQqSX59PRc8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "They noted that the \u00a34bn extra annual funding by 2028/29 for social care, while better than expected, will largely come from local council taxpayers rather than central Treasury funds",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpeigv_G61f0_34SOdxdEL9Ng43k8UgTwMCbE3xByu4wqogKJNx3RdVmIACdXhaHwdu3i2hkhXfTD5kOpUfCMk8EkBQqMmNR7x8rtbh0EHsraHgKMjK4FiTfDXkGXFcNpL_eQfnxdic3QRYsP62QyRlero1ucsngXJ0rnWxMwk2GdUpmiuwUR70eE6pTRQ1NvRLRLXa4eygQqSX59PRc8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "**Nuffield Trust:**\n*   The Nuffield Trust supports the FPA as a \"radical attempt to reform workforce pay and conditions\" but warns that its success hinges on careful design and \"proper funding\"",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/good-intentions-aren-t-enough-implementing-a-fair-pay-agreement-that-works-for-social-care",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "They echo the Health Foundation's concern that the \u00a3500m allocated for the FPA is insufficient to deliver meaningful pay improvements",
+        "sources": [
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/good-intentions-aren-t-enough-implementing-a-fair-pay-agreement-that-works-for-social-care",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "The Health Foundation and Nuffield Trust suggest this sum is insufficient to achieve meaningful pay rises (around 20p extra per hour)",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmPowXqMoQgdpz8BuUbJpDeu5ySfzwUfKM5N8fyW-Ll4semCi_eriL0oXu6lOcfMuYU3RRrEexjaug6NP9RW9ZWVNcURae_BCEqgkHkV6WbkE7acwpYD-lwyM0ar_x5KG8bIgwGAQnQACX2aJknSZ4oS_qpoG8PAzWl3gWQFN8AUDqj-4qHPNIngRB1SWTjYuyySTgZHut5OfweNSxFztedASX7OD1TJWxcWM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nuffieldtrust.org.uk/resource/good-intentions-aren-t-enough-implementing-a-fair-pay-agreement-that-works-for-social-care",
+            "publisher": "nuffieldtrust.org.uk",
+            "title": "nuffieldtrust.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpeigv_G61f0_34SOdxdEL9Ng43k8UgTwMCbE3xByu4wqogKJNx3RdVmIACdXhaHwdu3i2hkhXfTD5kOpUfCMk8EkBQqMmNR7x8rtbh0EHsraHgKMjK4FiTfDXkGXFcNpL_eQfnxdic3QRYsP62QyRlero1ucsngXJ0rnWxMwk2GdUpmiuwUR70eE6pTRQ1NvRLRLXa4eygQqSX59PRc8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": ", with a much higher figure (\u00a32.3bn) needed to match even the lower NHS pay bands",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmPowXqMoQgdpz8BuUbJpDeu5ySfzwUfKM5N8fyW-Ll4semCi_eriL0oXu6lOcfMuYU3RRrEexjaug6NP9RW9ZWVNcURae_BCEqgkHkV6WbkE7acwpYD-lwyM0ar_x5KG8bIgwGAQnQACX2aJknSZ4oS_qpoG8PAzWl3gWQFN8AUDqj-4qHPNIngRB1SWTjYuyySTgZHut5OfweNSxFztedASX7OD1TJWxcWM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "The Local Government Association (LGA) also warned that proposals might exceed the \u00a3500m envelope",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2025/12/fair-pay-agreement-adult-social-care-what-when-how-workers-employers-funding/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Pace of National Care Service Implementation:** While Labour has outlined a vision for a National Care Service, the timeline for its full implementation is extensive, estimated up to 2036, with the independent Casey Commission's full review not due until 2028",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2026/jun/04/why-is-andy-burnham-talking-about-fixing-englands-social-care-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "Charities and social care directors have criticised this extended timeline, arguing it does not reflect the urgency of the crisis",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/society/2026/jun/04/why-is-andy-burnham-talking-about-fixing-englands-social-care-system",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "The Health Foundation describes the pace of change as \"glacial\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpeigv_G61f0_34SOdxdEL9Ng43k8UgTwMCbE3xByu4wqogKJNx3RdVmIACdXhaHwdu3i2hkhXfTD5kOpUfCMk8EkBQqMmNR7x8rtbh0EHsraHgKMjK4FiTfDXkGXFcNpL_eQfnxdic3QRYsP62QyRlero1ucsngXJ0rnWxMwk2GdUpmiuwUR70eE6pTRQ1NvRLRLXa4eygQqSX59PRc8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Overall Funding Adequacy:** The Health Foundation highlights that while spending on health and care has increased, the planned funding growth for the NHS is below the long-term average, and social care funding \"will only have enough to meet rising demand and costs, leaving little room for improving pay or services\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECiPpTatDa-X2n_nahh3T-VCvHhvC1a9buoYMFAq8lhYewhKOvVg7FpUx43EyfuYuEFJSLRewzJVdNu2ncfr2H-1Oh0BUNOeEwnM1rNd2usP0L8VI0tUPCdliGJzHLyWxpx-I_4cNtJpCtWWsU6G4CXn2mAweOBMQPAitmvh2EoXg3SM41yiNvMiwWPyZnLJ1DtOaBoEX-h25iA0-zMGAAd9QBVQhqD6p0lDXH17cu1VfE7AkcaA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Previous Reforms Scrapped:** The scrapping of the previous government's planned \u00a386,000 lifetime care cost cap and changes to asset thresholds by the Labour government in 2024 demonstrates the ongoing political and financial challenges in achieving long-term social care reform",
+        "sources": [
+          {
+            "url": "https://hoa.org.uk/advice/guides-for-homeowners/for-owners/social-care-reforms/",
+            "publisher": "hoa.org.uk",
+            "title": "hoa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmd4nR_G57bKeTkofyy00yHO6sowTjN6XfjMfRZVDI-S7Ryfqx8hkbdhwH_98fy2UvAn5ET7OLZJVvpVd8bGjqkw06rSaiVrOmEnkIu9eEzrxh4hwcK966PXuFXWxu1dwQ6qxuUddSrUn_BL090T-qaS-d36CyFdQt7ncsn0NspvmyuxBNDfFMoEIdDBGRt13ovfLrk9QMcJCJ6jM77vku8msnAQ09zbkAMxgcXZW3jpXrSN_D58q3J3rewexgLW4iKVQrPAM=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "daytoncyclingclub.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "Public opinion itself is split, with 40% favouring quicker reforms without consensus, and 43% preferring to build consensus even if it takes longer",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs7t381pbRiUHYaneiFTJLRiEMX9dH3E0lnFS4BO1wIYvvJGIYzEFmm-lLJXGtzmigH7vHjx0b3xCDFD1Kd3Eo-WdSBfVKmHQcXv4WLKpfbv3mlxcnQS8ZiRA7tqveB8gZb7tmeR2Th_nzza-Azy9VzUHVomQGZhk988yfWkNkAoQY4lOSjcHVc3omFnI=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Public Awareness:** As of November 2024, public awareness of the government's proposals for a National Care Service was low, with 76% unaware of the plans",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs7t381pbRiUHYaneiFTJLRiEMX9dH3E0lnFS4BO1wIYvvJGIYzEFmm-lLJXGtzmigH7vHjx0b3xCDFD1Kd3Eo-WdSBfVKmHQcXv4WLKpfbv3mlxcnQS8ZiRA7tqveB8gZb7tmeR2Th_nzza-Azy9VzUHVomQGZhk988yfWkNkAoQY4lOSjcHVc3omFnI=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

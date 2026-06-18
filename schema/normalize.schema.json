@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens normalisation output — one party's policies at a consistent grain + strict tagging",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["party", "policies", "normalization_note"],
+  "properties": {
+    "party": { "type": "string" },
+    "policies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["policy_title", "stated", "candidate_outcomes", "source", "consolidated_from"],
+        "properties": {
+          "policy_title": { "type": "string" },
+          "stated": { "type": "string", "description": "fairly represents the consolidated policy, with merged mechanisms folded in" },
+          "candidate_outcomes": { "type": "array", "items": { "type": "string" }, "description": "strictly only the fundamentals the policy genuinely bears on; usually 1, rarely >2" },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["quote", "url", "publisher"],
+            "properties": {
+              "quote": { "type": "string" },
+              "url": { "type": "string" },
+              "publisher": { "type": "string" }
+            }
+          },
+          "consolidated_from": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "titles of the input policies merged into this one (empty array if unchanged) — the audit trail for consolidation"
+          }
+        }
+      }
+    },
+    "normalization_note": { "type": "string", "description": "what was consolidated and re-tagged, and why — so the pass is auditable" }
+  }
+}

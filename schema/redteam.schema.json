@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens red-team stage output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["by_lens"],
+  "properties": {
+    "by_lens": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["market", "equity", "fiscal", "delivery"],
+      "properties": {
+        "market":   { "$ref": "#/$defs/lensCase" },
+        "equity":   { "$ref": "#/$defs/lensCase" },
+        "fiscal":   { "$ref": "#/$defs/lensCase" },
+        "delivery": { "$ref": "#/$defs/lensCase" }
+      }
+    }
+  },
+  "$defs": {
+    "lensCase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["critique", "sources"],
+      "properties": {
+        "critique": { "type": "string" },
+        "sources":  { "type": "array", "items": { "$ref": "#/$defs/source" } }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "publisher", "source_type", "interest"],
+      "properties": {
+        "url":         { "type": "string" },
+        "publisher":   { "type": "string" },
+        "source_type": { "type": "string", "enum": ["government", "institutional", "academic", "advocacy", "commercial", "media"] },
+        "interest":    { "type": "string" }
+      }
+    }
+  }
+}

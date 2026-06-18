@@ -1,0 +1,731 @@
+{
+  "policy_id": "con-115-prevent-new-waste-incinerators",
+  "party": "Conservative",
+  "policy_title": "Prevent New Waste Incinerators",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "Banning new waste incinerators is primarily a planning and environmental regulation \u2014 it does not directly commit or save public money in a way that materially shifts the national debt path. Any indirect fiscal effects on waste-management costs are speculative and not evidenced by OBR or IFS analysis.",
+    "biggest_unknown": "Whether higher landfill and alternative waste-processing costs borne by local authorities or the Exchequer would exceed savings from avoided incineration subsidy or carbon liabilities \u2014 no independent fiscal estimate is provided in the evidence.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy prevents new waste incinerators, including those with recent permits where substantial construction has not yet started.",
+        "evidence_id": "M",
+        "quote": "prevent new waste incinerators from being built, including those with recent permit approvals where substantial construction has not taken place"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Landfill tax has risen to \u00a3126.15 per tonne, increasing disposal costs for waste that cannot go to incinerators.",
+        "evidence_id": "E38",
+        "quote": "From \u00a3103.70 per tonne to \u00a3126.15 per tonne"
+      },
+      {
+        "tier": "projected",
+        "claim": "A \u00a340/tonne carbon cost on EfW could add \u00a3400,000 annually per 10,000-tonne facility, illustrating that incineration itself carries rising fiscal externalities.",
+        "evidence_id": "E39",
+        "quote": "A \u00a340/tonne carbon tax could add \u00a3400,000 annually for a facility managing 10,000 tonnes"
+      },
+      {
+        "tier": "projected",
+        "claim": "UKWIN argues existing and consented capacity already exceeds projected residual waste volumes, suggesting new incinerators would create overcapacity at public expense.",
+        "evidence_id": "E14",
+        "quote": "if all currently consented incineration capacity were built, it could exceed 28 million tonnes, while the genuinely residual waste feedstock is projected to fall to around 13.4 million tonnes by 2042"
+      }
+    ],
+    "rationale": "O12 is concerned with the national debt path, debt-interest burden, and whether spending is funded or borrowed. This policy is a regulatory prohibition on private-sector construction \u2014 it neither appropriates public funds nor creates a statutory spending commitment. The principal fiscal interactions are indirect: local authorities face rising landfill tax costs if waste cannot be incinerated, and incinerators themselves face growing carbon liabilities under an ETS regime. These partly offset each other in fiscal terms. The overcapacity argument (E14) suggests avoiding new builds could prevent local authorities from being locked into 'put-or-pay' contracts that would constitute contingent public liabilities, but this is an advocacy-sourced projection (UKWIN) with no independent fiscal quantification. No OBR, IFS, or Treasury costing of this policy is present in the evidence. Because the policy imposes no direct Exchequer cost or saving of material size relative to total public finances, and no credible macro-fiscal analysis is available to judge indirect effects, the verdict is negligible \u2014 leaning very slightly positive in the long term (avoided overcapacity lock-in, avoided carbon externalities) but not supported strongly enough by independent evidence to score higher than negligible.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://recyclinginside.com/news/why-uk-waste-management-costs-will-rise-in-2025-is-your-business-ready/",
+        "publisher": "recyclinginside.com",
+        "title": "recyclinginside.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ukwin.org.uk/oppose-incineration/",
+        "publisher": "ukwin.org.uk",
+        "title": "ukwin.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0391,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is internally consistent. Direction 'negligible' with low confidence is appropriate given no OBR/IFS/Treasury costing exists in the evidence. UKWIN sourcing (E14) is correctly labelled as advocacy-sourced projection in the rationale. Tier assignments are accurate. Magnitude/time_horizon are consistent with direction (non-n/a, and direction is not too-uncertain). No lever leakage \u2014 the rationale correctly focuses on indirect fiscal effects rather than scoring the policy as an environmental measure. No party identity or motive attribution detected. False balance not applicable for 'negligible'. One minor observation: E38 (recyclinginside.com) is a commercial/media source used as the sole basis for the landfill tax figure; this is a warning-level concern but the figure is plausibly verifiable from HMRC and does not drive the verdict direction, so not blocking."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will prevent new waste incinerators from being built, including those with recent permit approvals where substantial construction has not taken place, recognising the impact on local communities and increased recycling rates.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy forms part of the broader UK Resources and Waste Strategy, which aims to achieve a circular economy, double resource productivity, and eliminate avoidable waste by 2050",
+        "sources": [
+          {
+            "url": "https://wikiwaste.org.uk/index.php/component/content/article/resources-and-waste-strategy",
+            "publisher": "wikiwaste.org.uk",
+            "title": "wikiwaste.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/resources-and-waste-strategy-for-england",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/60103f71d3bf7f05bc42d294/waste-management-plan-for-england-2021.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmpubacc/333/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The UK's waste management policy is guided by the waste hierarchy: prevention, reuse, recycling, other recovery (including energy from waste like incineration), and disposal (landfill)",
+        "sources": [
+          {
+            "url": "https://www.encyclis.com/news/waste-hierarchy-resource-recovery-uk/",
+            "publisher": "encyclis.com",
+            "title": "encyclis.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.constructionproducts.org.uk/our-expertise/sustainability/resource-efficiency-zero-avoidable-waste-and-the-circular-economy/what-is-the-waste-hierarchy/",
+            "publisher": "constructionproducts.org.uk",
+            "title": "constructionproducts.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.daera-ni.gov.uk/articles/waste-hierarchy",
+            "publisher": "daera-ni.gov.uk",
+            "title": "daera-ni.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://wastebolt.app/waste-blog/uk-waste-hierarchy-explained-business-impact-2026",
+            "publisher": "wastebolt.app",
+            "title": "wastebolt.app",
+            "source_type": "media"
+          },
+          {
+            "url": "https://cwrecycling.co.uk/waste-hierarchy",
+            "publisher": "cwrecycling.co.uk",
+            "title": "cwrecycling.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The government has a target for England to achieve a 65% recycling rate for municipal waste by 2035 and to send no more than 10% to landfill",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/60103f71d3bf7f05bc42d294/waste-management-plan-for-england-2021.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "In 2022/23, almost half (49%) of all municipal waste collected by local authorities in England was incinerated, while only 40% was recycled",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-crack-down-on-waste-incinerators-with-stricter-standards-for-new-builds",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2024/12/30/coverage-following-government-crackdown-on-waste-incinerators-with-stricter-standards-for-new-builds/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2024/dec/29/labour-under-fire-over-plans-for-40-more-greenwashing-waste-incinerators",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This marks a shift where the amount of household waste incinerated in England has exceeded the amount recycled since 2019",
+        "sources": [
+          {
+            "url": "https://www.opendemocracy.net/en/incinerators-more-polluting-than-coal-stations-greenwashing-uk-carbon-plastic-renewable/",
+            "publisher": "opendemocracy.net",
+            "title": "opendemocracy.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Total waste incinerated in the UK nearly trebled between 2010 and 2020, rising from 6.5 million tonnes to 19.0 million tonnes",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10229/CBP-10229.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "As of 2024, the total permitted capacity of operational Energy from Waste (EfW) plants in the UK reached 19.3 million tonnes per year",
+        "sources": [
+          {
+            "url": "https://www.euwid-recycling.com/news/business/uk-waste-to-energy-capacity-grows-to-193-million-tonnes-13-plants-under-construction-160425/",
+            "publisher": "euwid-recycling.com",
+            "title": "euwid-recycling.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "In 2020, England accounted for 74% of all UK incinerators and 82% of its incineration capacity",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10229/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10229/CBP-10229.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**Impact on Recycling Rates and the Circular Economy:**\n    *   **Potential Increase in Recycling:** The policy is explicitly linked to increasing recycling rates",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-crack-down-on-waste-incinerators-with-stricter-standards-for-new-builds",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2024/12/30/coverage-following-government-crackdown-on-waste-incinerators-with-stricter-standards-for-new-builds/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Many analysts, particularly environmental groups like the UK Without Incineration Network (UKWIN), argue that the proliferation of incinerators has undermined recycling efforts by creating a demand for waste feedstock",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10229/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10229/CBP-10229.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://foe.scot/press-release/scottish-government-has-lost-control-on-incineration/",
+            "publisher": "foe.scot",
+            "title": "foe.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They highlight that many councils are bound by long-term contracts with incinerators, often with \"put-or-pay\" clauses, which penalize them for not supplying enough waste, thus disincentivizing recycling and waste reduction",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Defra reported in 2020 that an estimated 53% of residual household waste in England could be readily recyclable",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The \"Simpler Recycling\" initiative, requiring consistent collections of dry recyclables and weekly food waste collections, is expected to increase England's recycling rate from 42% to 52-60% by 2035, although this still falls short of the 65% target",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5804/cmselect/cmpubacc/333/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "They state that if all currently consented incineration capacity were built, it could exceed 28 million tonnes, while the genuinely residual waste feedstock is projected to fall to around 13.4 million tonnes by 2042",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Preventing new builds would cap this overcapacity, which they contend leads to \"avoidable pollution and expense whilst harming waste reduction and recycling efforts\"",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/files/pdf/UKWIN-Policy-Suggestions-November-2020.pdf",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   The government's \"Residual waste infrastructure capacity note\" suggests that stricter requirements for new incinerators will *not* negatively affect the country's capacity to process waste and *should* decrease the amount sent to landfill, implying existing or permitted capacity, if efficiently used, is sufficient",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-crack-down-on-waste-incinerators-with-stricter-standards-for-new-builds",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2024/12/30/coverage-following-government-crackdown-on-waste-incinerators-with-stricter-standards-for-new-builds/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Environmental Impacts:**\n    *   **Reduced Emissions from New Incinerators:** Incinerators emit large quantities of CO2, with approximately one tonne of CO2 released for every tonne incinerated, about half of which comes from fossil sources like plastic",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/facts/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "In 2020, UK incinerators released 6.4 million tonnes of fossil CO2, incurring an estimated unpaid cost to society of over \u00a31.5 billion",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Push for Carbon Capture:** The Climate Change Committee (CCC) has recommended that Carbon Capture and Storage (CCS) technologies be installed at all EfW plants by 2045 to capture 90-95% of emissions",
+        "sources": [
+          {
+            "url": "https://www.circularonline.co.uk/news/carbon-budget-calls-for-near-elimination-of-all-waste-to-landfill/",
+            "publisher": "circularonline.co.uk",
+            "title": "circularonline.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theccc.org.uk/wp-content/uploads/2020/12/Sector-summary-Waste.pdf",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The government's policy states that any *new* incinerator projects (before the ban) would need to be \"Carbon Capture ready\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-crack-down-on-waste-incinerators-with-stricter-standards-for-new-builds",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Analysis by openDemocracy and UKWIN found that the average UK incinerator produces more than twice as much CO2 per unit of electricity as gas-fired power plants, and some have a higher carbon intensity than coal plants",
+        "sources": [
+          {
+            "url": "https://www.opendemocracy.net/en/incinerators-more-polluting-than-coal-stations-greenwashing-uk-carbon-plastic-renewable/",
+            "publisher": "opendemocracy.net",
+            "title": "opendemocracy.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Air Quality and Local Pollution:** Preventing new incinerators would alleviate concerns from local communities and environmental groups about air quality, increased traffic, and localized pollution",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10229/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10229/CBP-10229.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2024/12/30/coverage-following-government-crackdown-on-waste-incinerators-with-stricter-standards-for-new-builds/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2024/dec/29/labour-under-fire-over-plans-for-40-more-greenwashing-waste-incinerators",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "**Economic Considerations:**\n    *   **Cost of Waste Management:** Incinerators are very expensive to build, costing hundreds of millions of pounds",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Historically, landfilling was considered a cost-effective method compared to incineration, though landfill tax increases (e.g., from \u00a3103.70/tonne to \u00a3126.15/tonne) are making it more expensive",
+        "sources": [
+          {
+            "url": "https://www.cld-services.co.uk/Articles/Latest-Articles/Incineration-of-Hygiene-Waste-vs-Landfill",
+            "publisher": "cld-services.co.uk",
+            "title": "cld-services.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://recyclinginside.com/news/why-uk-waste-management-costs-will-rise-in-2025-is-your-business-ready/",
+            "publisher": "recyclinginside.com",
+            "title": "recyclinginside.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "An estimated \u00a340 per tonne increase could mean an extra \u00a3400,000 in annual costs for a facility processing 10,000 tonnes",
+        "sources": [
+          {
+            "url": "https://recyclinginside.com/news/why-uk-waste-management-costs-will-rise-in-2025-is-your-business-ready/",
+            "publisher": "recyclinginside.com",
+            "title": "recyclinginside.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Environmental Services Association (ESA):** The ESA, representing the waste management industry, generally views EfW facilities as a vital part of a sustainable waste management system and a source of low-carbon energy from residual waste",
+        "sources": [
+          {
+            "url": "https://www.taforum.org/membership/member-directory/environmental-services-association-esa/",
+            "publisher": "taforum.org",
+            "title": "taforum.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.commercialwastequotes.co.uk/blog/incinerators/",
+            "publisher": "commercialwastequotes.co.uk",
+            "title": "commercialwastequotes.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://esauk.org/",
+            "publisher": "esauk.org",
+            "title": "esauk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ess-expo.co.uk/partner-profile/environmental-services-association-esa",
+            "publisher": "ess-expo.co.uk",
+            "title": "ess-expo.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They emphasize the role of their members in building sustainable infrastructure and achieving a low-carbon, circular economy",
+        "sources": [
+          {
+            "url": "https://www.taforum.org/membership/member-directory/environmental-services-association-esa/",
+            "publisher": "taforum.org",
+            "title": "taforum.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Climate Change Committee (CCC):** The CCC acknowledges the need to address waste emissions, noting that stagnant recycling and increased EfW emissions have hindered decarbonization",
+        "sources": [
+          {
+            "url": "https://www.circularonline.co.uk/news/carbon-budget-calls-for-near-elimination-of-all-waste-to-landfill/",
+            "publisher": "circularonline.co.uk",
+            "title": "circularonline.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theccc.org.uk/wp-content/uploads/2020/12/Sector-summary-Waste.pdf",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Their recommendations for achieving net-zero by 2050 include the near elimination of waste to landfill by 2045 and the installation of CCS at EfW plants, suggesting a future role for EfW if decarbonized",
+        "sources": [
+          {
+            "url": "https://www.circularonline.co.uk/news/carbon-budget-calls-for-near-elimination-of-all-waste-to-landfill/",
+            "publisher": "circularonline.co.uk",
+            "title": "circularonline.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **NGOs (e.g., UKWIN, Friends of the Earth):** These organizations strongly advocate for a moratorium on new incinerators, arguing that current capacity is already sufficient or in oversupply for genuinely residual waste, and that new incinerators lock the UK into a \"burn rather than recycle\" mentality",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/files/pdf/UKWIN-Policy-Suggestions-November-2020.pdf",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://foe.scot/press-release/scottish-government-has-lost-control-on-incineration/",
+            "publisher": "foe.scot",
+            "title": "foe.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Scotland and Wales have already banned new incinerator plants due to environmental concerns",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2024/dec/29/labour-under-fire-over-plans-for-40-more-greenwashing-waste-incinerators",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Incineration Capacity (2024):** 19.3 million tonnes per year of permitted operational EfW capacity in the UK",
+        "sources": [
+          {
+            "url": "https://www.euwid-recycling.com/news/business/uk-waste-to-energy-capacity-grows-to-193-million-tonnes-13-plants-under-construction-160425/",
+            "publisher": "euwid-recycling.com",
+            "title": "euwid-recycling.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Municipal Waste Incinerated (England 2022/23):** 49% of all local authority collected waste",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/government-to-crack-down-on-waste-incinerators-with-stricter-standards-for-new-builds",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2024/12/30/coverage-following-government-crackdown-on-waste-incinerators-with-stricter-standards-for-new-builds/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2024/dec/29/labour-under-fire-over-plans-for-40-more-greenwashing-waste-incinerators",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Household Recycling Rate (UK 2023 provisional):** 44.6%",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/uk-waste-data/uk-statistics-on-waste",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Household Recycling Rate (England 2023 provisional):** 44.0%",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/uk-waste-data/uk-statistics-on-waste",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Residual Waste Recyclability (England 2017, Defra):** An estimated 53% of household residual waste was readily recyclable",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Fossil CO2 from Incinerators (UK 2020):** 6.4 million tonnes, with an unpaid cost to society of over \u00a31.5 billion",
+        "sources": [
+          {
+            "url": "https://ukwin.org.uk/oppose-incineration/",
+            "publisher": "ukwin.org.uk",
+            "title": "ukwin.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Landfill Tax (rising):** From \u00a3103.70 per tonne to \u00a3126.15 per tonne",
+        "sources": [
+          {
+            "url": "https://recyclinginside.com/news/why-uk-waste-management-costs-will-rise-in-2025-is-your-business-ready/",
+            "publisher": "recyclinginside.com",
+            "title": "recyclinginside.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Estimated Cost Increase from ETS for EfW:** A \u00a340/tonne carbon tax could add \u00a3400,000 annually for a facility managing 10,000 tonnes",
+        "sources": [
+          {
+            "url": "https://recyclinginside.com/news/why-uk-waste-management-costs-will-rise-in-2025-is-your-business-ready/",
+            "publisher": "recyclinginside.com",
+            "title": "recyclinginside.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

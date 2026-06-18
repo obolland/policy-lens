@@ -1,0 +1,101 @@
+{
+  "policy_id": "ld-117-scrap-illegal-migration-act-and-rwanda",
+  "party": "Liberal Democrat",
+  "policy_title": "Scrap Illegal Migration Act and Rwanda Scheme, Uphold Refugee Convention",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Scrapping the Illegal Migration Act and Rwanda scheme and upholding the Refugee Convention restores standard due-process and non-refoulement protections for asylum seekers, a modest improvement to equal treatment. The practical scale of improvement depends on whether safe legal routes and backlog-clearing are given real mechanisms and funding.",
+    "biggest_unknown": "Whether the savings from cancelling Rwanda are sufficient to meaningfully clear the asylum backlog, and whether 'safe and legal routes' are given a concrete funded mechanism.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to upholding the Refugee Convention.",
+        "evidence_id": "M",
+        "quote": "uphold the Refugee Convention"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy commits to providing safe and legal routes to sanctuary for refugees.",
+        "evidence_id": "M",
+        "quote": "provide safe and legal routes to sanctuary for refugees"
+      },
+      {
+        "tier": "stated",
+        "claim": "Savings from cancelling the Rwanda scheme would be invested in clearing the asylum backlog.",
+        "evidence_id": "M",
+        "quote": "invest the savings in clearing the asylum backlog"
+      }
+    ],
+    "rationale": "Repealing the Illegal Migration Act and affirming the Refugee Convention restores standard due-process and non-refoulement protections for asylum seekers \u2014 a direct improvement to equal treatment and rule-of-law indicators under O9. The Rwanda scheme, had it operated at scale, would have removed asylum seekers to a third country without individual determination of their claims; scrapping it restores individual due-process rights. Upholding the Refugee Convention anchors refugee protections in international legal norms, strengthening minority and asylum-seeker protections. The magnitude is minor rather than moderate because the policy is largely restorative \u2014 it reverses measures that had not yet operated at scale \u2014 and because the stated commitments on safe legal routes and backlog-clearing lack specified mechanisms or funded timelines in the policy text itself. Confidence is low because the provided evidence units do not include independent institutional assessment of the Illegal Migration Act's actual impact on due process at scale, so the magnitude of reversal cannot be precisely quantified from the evidence given.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0511,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims are stated-tier and directly entailed by verbatim quotes from the policy text. The direction (improves) is coherent with the rationale: repealing the Illegal Migration Act and affirming the Refugee Convention restores due-process and non-refoulement protections under O9. Magnitude (minor) and confidence (low) are appropriately conservative given the absence of independent institutional evidence. No tier confusion, no motive attribution, no lever leakage, no false balance. E1/E2 are not used in the claims, so their advocacy provenance is not an issue. The rationale is policy-effect focused and party-blind."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Scrap the Conservatives\u2019 Illegal Migration Act and their Rwanda scheme, uphold the Refugee Convention, and provide safe and legal routes to sanctuary for refugees, helping to prevent dangerous Channel crossings. Cancel the Conservatives\u2019 unworkable Rwanda scheme and invest the savings in clearing the asylum backlog.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "**Analyst Disagreements/Challenges:**\nA new UK government policy, announced in March 2026, involves scrapping permanent refugee status and replacing it with 30-month grants subject to mandatory reviews.",
+        "sources": [
+          {
+            "url": "https://impactpolicies.org/news/818/uk-refugee-policy-shift-undermines-global-humanitarian-standards",
+            "publisher": "impactpolicies.org",
+            "title": "impactpolicies.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Critics argue this shift risks \"plunging refugees into cycles of uncertainty\" and challenges the 1951 Refugee Convention's promise of \"durable solutions.\"",
+        "sources": [
+          {
+            "url": "https://impactpolicies.org/news/818/uk-refugee-policy-shift-undermines-global-humanitarian-standards",
+            "publisher": "impactpolicies.org",
+            "title": "impactpolicies.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

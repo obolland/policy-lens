@@ -1,0 +1,701 @@
+{
+  "policy_id": "con-36-increase-faith-school-places",
+  "party": "Conservative",
+  "policy_title": "Increase Faith School Places",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Lifting the cap allows publicly-funded schools to fill more places based on religion, which by design excludes non-religious and differently-religious families from those places. The effect is real but limited to newly expanded or created faith free schools, not the existing estate.",
+    "biggest_unknown": "How many new fully-selective faith free schools actually open, and whether over-subscription in practice forces exclusion of non-faith pupils in areas where alternatives are scarce.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy allows faith schools to offer more places selected by faith and encourages their expansion.",
+        "evidence_id": "M",
+        "quote": "allowing them to offer more places to children based on faith and encouraging their expansion"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Critics argue the change will disadvantage non-religious families and families of different faiths who may find their children excluded from local taxpayer-funded schools.",
+        "evidence_id": "E11",
+        "quote": "critics suggest that lifting the cap will disadvantage non-religious families and families of different faiths, who may find their children excluded from local schools funded by taxpayers"
+      },
+      {
+        "tier": "projected",
+        "claim": "Research from Humanists UK (an advocacy source) suggests 100% religious selection drives racial segregation relative to the capped model.",
+        "evidence_id": "E17",
+        "quote": "100% religious selection drives racial segregation"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Education Policy Institute concluded in 2017 that the policy risks increased social segregation.",
+        "evidence_id": "E18",
+        "quote": "The Education Policy Institute (EPI) concluded in 2017 that such a policy is \"unlikely to be effective\" in increasing social mobility and risks increased social segregation"
+      },
+      {
+        "tier": "stated",
+        "claim": "The government argues the existing cap has not significantly improved diversity and faith schools must still promote community cohesion.",
+        "evidence_id": "E20",
+        "quote": "the cap has not significantly improved diversity and that all faith-designated free schools will still be required to demonstrate their commitment to community cohesion and promote fundamental British values"
+      }
+    ],
+    "rationale": "The core O9 question is whether this policy advances or undermines equal treatment \u2014 specifically, whether publicly-funded school places are accessible without discrimination on protected characteristics. The policy's own text is unambiguous: additional places are allocated 'based on faith', meaning religious belief becomes a formal criterion for access to state-funded education. That is, by design, differential treatment on grounds of religion. Non-religious families and families of a different faith are structurally disadvantaged in competing for those additional places. This is a direct equal-treatment concern under O9, regardless of educational quality arguments (which belong to O7). The magnitude is constrained to 'minor' rather than 'moderate' because the mechanism only applies to new or newly expanded faith free schools \u2014 existing schools' admissions are unaffected \u2014 and uptake depends on how many faith bodies actually open or expand schools. The advocacy-heavy source base (Humanists UK, Accord Coalition, fairadmissions.org.uk) is noted; their segregation projections are treated as illustrative, not dispositive. However, the equal-treatment harm does not require those projections: it flows directly from the policy text. The government's counter \u2014 that the cap failed to improve diversity and that cohesion duties remain \u2014 addresses community outcomes (O15) rather than the individual equal-treatment question on O9. Confidence is moderate because the scale of real-world exclusion depends on how many schools open and local school availability, which the evidence does not settle.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://hansard.parliament.uk/lords/2024-05-07/debates/E1059320-E441-4397-A65D-7255D0E99B34/FaithSchoolsImpactOfRemovingAdmissionsCap",
+        "publisher": "hansard.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://humanists.uk/2026/04/17/revealed-faith-school-religious-selection-drives-racial-segregation/",
+        "publisher": "humanists.uk",
+        "title": "humanists.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+        "publisher": "fairadmissions.org.uk",
+        "title": "fairadmissions.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://faithschoolersanonymous.uk/2017/12/the-50-cap-on-religious-selection-in-free-schools-whos-for-keeping-it-and-whos-for-lifting-it/",
+        "publisher": "faithschoolersanonymous.uk",
+        "title": "faithschoolersanonymous.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://hansard.parliament.uk/commons/2024-05-01/debates/24050121000008/FaithSchoolDesignationReforms",
+        "publisher": "hansard.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0414,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are properly tiered and the quotes entail the claims as stated. The 'measurable' tier on claim 2 (E11) is borderline \u2014 it reports critics' views rather than a measured baseline \u2014 but is acceptable as a characterisation of the opposition position rather than a contested projection. The equal-treatment harm is correctly derived from the policy text itself rather than relying on advocacy projections, which are appropriately labelled and treated as illustrative. The government counter-argument is included and correctly scoped. No motive attribution, no party identity leakage, no false balance (direction is 'worsens' with a genuine counter noted but correctly weighed). Magnitude 'minor' and horizon 'this-parliament' are defensible given the mechanism is limited to new/expanded faith free schools. Source interest flags (Humanists UK, fairadmissions.org.uk as advocacy) are acknowledged in the rationale. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will lift the cap on faith schools, allowing them to offer more places to children based on faith and encouraging their expansion.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This change has been a long-standing aim of the Conservative Party, having appeared in their 2017 manifesto",
+        "sources": [
+          {
+            "url": "https://www.premierchristianity.com/opinion/scrapping-the-cap-on-faith-schools-is-good-news-for-everyone-not-just-catholics/17605.article",
+            "publisher": "premierchristianity.com",
+            "title": "premierchristianity.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://conservativehome.com/2023/09/26/edward-leigh-lift-the-cap-on-faith-based-admissions-and-stop-bright-catholic-pupils-being-turned-away-for-their-beliefs/",
+            "publisher": "conservativehome.com",
+            "title": "conservativehome.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://schoolsweek.co.uk/conservatives-manifesto-2024-all-the-schools-policies/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thetablet.co.uk/news/government-plans-to-lift-cap-on-faith-school-places/",
+            "publisher": "thetablet.co.uk",
+            "title": "thetablet.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Arguments by the Conservative Party and Supporters:**\nThe government argues that lifting the cap will lead to the creation of more \"good school places\" and offer parents greater choice in education",
+        "sources": [
+          {
+            "url": "https://educationhub.blog.gov.uk/2024/05/how-reducing-the-cap-on-faith-school-admissions-will-help-to-raise-standards/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-lift-cap-on-faith-school-places",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2024-05-01/debates/24050121000008/FaithSchoolDesignationReforms",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://consult.education.gov.uk/faith-schools-policy-team/faith-school-designation-reforms/supporting_documents/Faith%20schools%20consultation.pdf",
+            "publisher": "consult.education.gov.uk",
+            "title": "education.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "They highlight that faith groups operate some of the country's highest-performing schools, with a strong track record in delivering quality education",
+        "sources": [
+          {
+            "url": "https://educationhub.blog.gov.uk/2024/05/how-reducing-the-cap-on-faith-school-admissions-will-help-to-raise-standards/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-lift-cap-on-faith-school-places",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consult.education.gov.uk/faith-schools-policy-team/faith-school-designation-reforms/supporting_documents/Faith%20schools%20consultation.pdf",
+            "publisher": "consult.education.gov.uk",
+            "title": "education.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "As of May 2024, 91% of faith primary schools and 84% of faith secondary schools were rated \"good\" or \"outstanding\" by Ofsted, compared to 90% of non-faith primary and 82% of non-faith secondary schools, respectively",
+        "sources": [
+          {
+            "url": "https://consult.education.gov.uk/faith-schools-policy-team/faith-school-designation-reforms/supporting_documents/Faith%20schools%20consultation.pdf",
+            "publisher": "consult.education.gov.uk",
+            "title": "education.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Faith schools also tend to show higher Key Stage 2 and GCSE results on average",
+        "sources": [
+          {
+            "url": "https://www.durham.ac.uk/research/current/thought-leadership/2024/05/new-faith-schools-in-england-could-soon-allocate-all-their-places-on-religious-grounds/",
+            "publisher": "durham.ac.uk",
+            "title": "durham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-lift-cap-on-faith-school-places",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consult.education.gov.uk/faith-schools-policy-team/faith-school-designation-reforms/supporting_documents/Faith%20schools%20consultation.pdf",
+            "publisher": "consult.education.gov.uk",
+            "title": "education.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The Catholic Church has stated that the 50% cap prevents them from establishing new free schools because it conflicts with Canon Law to turn away Catholic pupils when a school is oversubscribed",
+        "sources": [
+          {
+            "url": "https://www.premierchristianity.com/opinion/scrapping-the-cap-on-faith-schools-is-good-news-for-everyone-not-just-catholics/17605.article",
+            "publisher": "premierchristianity.com",
+            "title": "premierchristianity.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://schoolsweek.co.uk/will-the-conservatives-really-remove-the-faith-school-50-cap/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://conservativehome.com/2023/09/26/edward-leigh-lift-the-cap-on-faith-based-admissions-and-stop-bright-catholic-pupils-being-turned-away-for-their-beliefs/",
+            "publisher": "conservativehome.com",
+            "title": "conservativehome.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-lift-cap-on-faith-school-places",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2024-05-01/debates/24050121000008/FaithSchoolDesignationReforms",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thetablet.co.uk/news/government-plans-to-lift-cap-on-faith-school-places/",
+            "publisher": "thetablet.co.uk",
+            "title": "thetablet.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Supporters emphasize that Catholic schools, which educate around 850,000 pupils (almost 1 in 10 school pupils in England), are often oversubscribed, ethnically diverse, cater to a higher proportion of pupils from deprived backgrounds, and achieve strong academic results",
+        "sources": [
+          {
+            "url": "https://www.premierchristianity.com/opinion/scrapping-the-cap-on-faith-schools-is-good-news-for-everyone-not-just-catholics/17605.article",
+            "publisher": "premierchristianity.com",
+            "title": "premierchristianity.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://conservativehome.com/2023/09/26/edward-leigh-lift-the-cap-on-faith-based-admissions-and-stop-bright-catholic-pupils-being-turned-away-for-their-beliefs/",
+            "publisher": "conservativehome.com",
+            "title": "conservativehome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The government also believes that the cap has not effectively increased diversity in faith-designated free schools and that all faith schools are still required to promote community cohesion and fundamental British values",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/lords/2024-05-07/debates/E1059320-E441-4397-A65D-7255D0E99B34/FaithSchoolsImpactOfRemovingAdmissionsCap",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2024-05-01/debates/24050121000008/FaithSchoolDesignationReforms",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The policy is stated to not require new legislation or additional Treasury funds",
+        "sources": [
+          {
+            "url": "https://www.premierchristianity.com/opinion/scrapping-the-cap-on-faith-schools-is-good-news-for-everyone-not-just-catholics/17605.article",
+            "publisher": "premierchristianity.com",
+            "title": "premierchristianity.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://conservativehome.com/2023/09/26/edward-leigh-lift-the-cap-on-faith-based-admissions-and-stop-bright-catholic-pupils-being-turned-away-for-their-beliefs/",
+            "publisher": "conservativehome.com",
+            "title": "conservativehome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "This is particularly expected to benefit the Catholic Church, allowing them to open new free schools which they previously refrained from doing due to the cap",
+        "sources": [
+          {
+            "url": "https://www.premierchristianity.com/opinion/scrapping-the-cap-on-faith-schools-is-good-news-for-everyone-not-just-catholics/17605.article",
+            "publisher": "premierchristianity.com",
+            "title": "premierchristianity.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://educationhub.blog.gov.uk/2024/05/how-reducing-the-cap-on-faith-school-admissions-will-help-to-raise-standards/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://conservativehome.com/2023/09/26/edward-leigh-lift-the-cap-on-faith-based-admissions-and-stop-bright-catholic-pupils-being-turned-away-for-their-beliefs/",
+            "publisher": "conservativehome.com",
+            "title": "conservativehome.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-lift-cap-on-faith-school-places",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2024-05-01/debates/24050121000008/FaithSchoolDesignationReforms",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thetablet.co.uk/news/government-plans-to-lift-cap-on-faith-school-places/",
+            "publisher": "thetablet.co.uk",
+            "title": "thetablet.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Expert View:** While proponents argue for increased parental choice, critics suggest that lifting the cap will disadvantage non-religious families and families of different faiths, who may find their children excluded from local schools funded by taxpayers",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/lords/2024-05-07/debates/E1059320-E441-4397-A65D-7255D0E99B34/FaithSchoolsImpactOfRemovingAdmissionsCap",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Educational Standards and Outcomes:**\n*   **Government View:** The government anticipates that by supporting high-performing faith providers, overall school standards will improve, leveraging their proven track record",
+        "sources": [
+          {
+            "url": "https://educationhub.blog.gov.uk/2024/05/how-reducing-the-cap-on-faith-school-admissions-will-help-to-raise-standards/",
+            "publisher": "educationhub.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/government-to-lift-cap-on-faith-school-places",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consult.education.gov.uk/faith-schools-policy-team/faith-school-designation-reforms/supporting_documents/Faith%20schools%20consultation.pdf",
+            "publisher": "consult.education.gov.uk",
+            "title": "education.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "He states there is \"no evidence that children actually have better attainment because they attend a faith school\"",
+        "sources": [
+          {
+            "url": "https://www.durham.ac.uk/research/current/thought-leadership/2024/05/new-faith-schools-in-england-could-soon-allocate-all-their-places-on-religious-grounds/",
+            "publisher": "durham.ac.uk",
+            "title": "durham.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Similarly, the National Foundation for Educational Research (NFER) notes that while faith schools are popular and achieve good results, it's unclear if this is due to their status or other factors like pupil intake characteristics, stressing the need for value-added analysis",
+        "sources": [
+          {
+            "url": "https://www.nfer.ac.uk/media/nzcn320q/91015.pdf",
+            "publisher": "nfer.ac.uk",
+            "title": "nfer.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Sutton Trust in 2017 also highlighted that faith schools tend to take fewer pupils from poorer backgrounds",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/will-the-conservatives-really-remove-the-faith-school-50-cap/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Expert Disagreement:**\n    *   **Critics (Sutton Trust, Education Policy Institute, Humanists UK, Accord Coalition, Children's Rights Alliance for England):** These organizations strongly argue that lifting the cap will worsen segregation and undermine community cohesion",
+        "sources": [
+          {
+            "url": "https://faithschoolersanonymous.uk/2017/12/the-50-cap-on-religious-selection-in-free-schools-whos-for-keeping-it-and-whos-for-lifting-it/",
+            "publisher": "faithschoolersanonymous.uk",
+            "title": "faithschoolersanonymous.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://accordcoalition.org.uk/2017/05/29/overwhelming-majority-of-the-public-want-to-maintain-the-50-religious-selection-cap-for-new-faith-schools/",
+            "publisher": "accordcoalition.org.uk",
+            "title": "accordcoalition.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.durham.ac.uk/research/current/thought-leadership/2024/05/new-faith-schools-in-england-could-soon-allocate-all-their-places-on-religious-grounds/",
+            "publisher": "durham.ac.uk",
+            "title": "durham.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://hansard.parliament.uk/lords/2024-05-07/debates/E1059320-E441-4397-A65D-7255D0E99B34/FaithSchoolsImpactOfRemovingAdmissionsCap",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://humanists.uk/2026/04/17/revealed-faith-school-religious-selection-drives-racial-segregation/",
+            "publisher": "humanists.uk",
+            "title": "humanists.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://journals.lwbooks.co.uk/forum/vol-49-issue-3/article-3091/",
+            "publisher": "journals.lwbooks.co.uk",
+            "title": "lwbooks.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+            "publisher": "fairadmissions.org.uk",
+            "title": "fairadmissions.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Research from Humanists UK suggests that schools with a 50% cap are more ethnically diverse than those that select 100% of their pupils by religion, and that 100% religious selection drives racial segregation",
+        "sources": [
+          {
+            "url": "https://humanists.uk/2026/04/17/revealed-faith-school-religious-selection-drives-racial-segregation/",
+            "publisher": "humanists.uk",
+            "title": "humanists.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+            "publisher": "fairadmissions.org.uk",
+            "title": "fairadmissions.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Education Policy Institute (EPI) concluded in 2017 that such a policy is \"unlikely to be effective\" in increasing social mobility and risks increased social segregation",
+        "sources": [
+          {
+            "url": "https://faithschoolersanonymous.uk/2017/12/the-50-cap-on-religious-selection-in-free-schools-whos-for-keeping-it-and-whos-for-lifting-it/",
+            "publisher": "faithschoolersanonymous.uk",
+            "title": "faithschoolersanonymous.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+            "publisher": "fairadmissions.org.uk",
+            "title": "fairadmissions.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Accord Coalition also warns that scrapping the cap could lead to schools becoming \"cultural silos\"",
+        "sources": [
+          {
+            "url": "https://accordcoalition.org.uk/2017/05/29/overwhelming-majority-of-the-public-want-to-maintain-the-50-religious-selection-cap-for-new-faith-schools/",
+            "publisher": "accordcoalition.org.uk",
+            "title": "accordcoalition.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Government View:** The government maintains that the cap has not significantly improved diversity and that all faith-designated free schools will still be required to demonstrate their commitment to community cohesion and promote fundamental British values",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/lords/2024-05-07/debates/E1059320-E441-4397-A65D-7255D0E99B34/FaithSchoolsImpactOfRemovingAdmissionsCap",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2024-05-01/debates/24050121000008/FaithSchoolDesignationReforms",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Public Opinion:** A 2017 poll commissioned by the Accord Coalition for Inclusive Education found that four out of five voters preferred to maintain the 50% cap, including a majority from every religious group",
+        "sources": [
+          {
+            "url": "https://accordcoalition.org.uk/2017/05/29/overwhelming-majority-of-the-public-want-to-maintain-the-50-religious-selection-cap-for-new-faith-schools/",
+            "publisher": "accordcoalition.org.uk",
+            "title": "accordcoalition.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+            "publisher": "fairadmissions.org.uk",
+            "title": "fairadmissions.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Financial Implications:**\n*   **Effect:** The policy is not expected to require new legislation or additional money from the Treasury",
+        "sources": [
+          {
+            "url": "https://www.premierchristianity.com/opinion/scrapping-the-cap-on-faith-schools-is-good-news-for-everyone-not-just-catholics/17605.article",
+            "publisher": "premierchristianity.com",
+            "title": "premierchristianity.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://conservativehome.com/2023/09/26/edward-leigh-lift-the-cap-on-faith-based-admissions-and-stop-bright-catholic-pupils-being-turned-away-for-their-beliefs/",
+            "publisher": "conservativehome.com",
+            "title": "conservativehome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **House of Commons Library:** Provides neutral, factual information on faith schools, explaining the existing 50% cap for new religious free schools and the government's consultation on lifting it",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN06972/SN06972.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06972/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Sutton Trust:** Criticized the policy in 2017, stating it would likely make faith schools \"even more unrepresentative of their local areas,\" reducing access for a broad socio-economic spectrum and advocating for fairer admissions",
+        "sources": [
+          {
+            "url": "https://faithschoolersanonymous.uk/2017/12/the-50-cap-on-religious-selection-in-free-schools-whos-for-keeping-it-and-whos-for-lifting-it/",
+            "publisher": "faithschoolersanonymous.uk",
+            "title": "faithschoolersanonymous.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+            "publisher": "fairadmissions.org.uk",
+            "title": "fairadmissions.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Education Policy Institute (EPI):** Expressed concerns in 2017 that the policy would not be effective in increasing social mobility and carried a risk of increased social segregation",
+        "sources": [
+          {
+            "url": "https://faithschoolersanonymous.uk/2017/12/the-50-cap-on-religious-selection-in-free-schools-whos-for-keeping-it-and-whos-for-lifting-it/",
+            "publisher": "faithschoolersanonymous.uk",
+            "title": "faithschoolersanonymous.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+            "publisher": "fairadmissions.org.uk",
+            "title": "fairadmissions.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Humanists UK:** Are strong opponents, citing their own research that shows 100% religious selection drives racial segregation, making schools less diverse than those with the 50% cap",
+        "sources": [
+          {
+            "url": "https://humanists.uk/2026/04/17/revealed-faith-school-religious-selection-drives-racial-segregation/",
+            "publisher": "humanists.uk",
+            "title": "humanists.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://fairadmissions.org.uk/new-research-survey-condemns-government-proposals-for-an-end-to-limits-on-faith-school-selection/",
+            "publisher": "fairadmissions.org.uk",
+            "title": "fairadmissions.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Accord Coalition for Inclusive Education:** Advocates for maintaining the cap to prevent increased segregation and ensure schools do not become \"cultural silos\"",
+        "sources": [
+          {
+            "url": "https://accordcoalition.org.uk/2017/05/29/overwhelming-majority-of-the-public-want-to-maintain-the-50-religious-selection-cap-for-new-faith-schools/",
+            "publisher": "accordcoalition.org.uk",
+            "title": "accordcoalition.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Children's Rights Alliance for England (CRAE):** Has raised concerns that removing the cap would entrench segregation and undermine community cohesion",
+        "sources": [
+          {
+            "url": "https://faithschoolersanonymous.uk/2017/12/the-50-cap-on-religious-selection-in-free-schools-whos-for-keeping-it-and-whos-for-lifting-it/",
+            "publisher": "faithschoolersanonymous.uk",
+            "title": "faithschoolersanonymous.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The IFS was mentioned in a broader context of the Conservative manifesto and schools spending",
+        "sources": [
+          {
+            "url": "https://schoolsweek.co.uk/conservatives-manifesto-2024-all-the-schools-policies/",
+            "publisher": "schoolsweek.co.uk",
+            "title": "schoolsweek.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

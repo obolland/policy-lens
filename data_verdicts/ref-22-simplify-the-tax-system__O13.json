@@ -1,0 +1,592 @@
+{
+  "policy_id": "ref-22-simplify-the-tax-system",
+  "party": "Reform UK",
+  "policy_title": "Simplify the tax system",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "Simplifying the tax code could boost productivity and business investment, but the package's fiscal costs are disputed by tens of billions \u2014 if the savings don't materialise, the resulting public-service cuts or borrowing could offset or reverse any growth gains. The net effect on living standards is genuinely unresolvable without knowing how the fiscal gap is closed.",
+    "biggest_unknown": "Whether the claimed spending savings are large enough to fund the tax cuts without severe cuts to public services or unsustainable borrowing \u2014 the IFS estimates the shortfall runs to tens of billions per year.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to a major simplification of the UK tax code, currently over 21,000 pages.",
+        "evidence_id": "M",
+        "quote": "Reform UK will undertake a major simplification of the UK's tax code, citing its current complexity of over 21,000 pages."
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy aims to reduce the tax code to a length similar to Hong Kong's, under 500 pages.",
+        "evidence_id": "E1",
+        "quote": "aiming to reduce it to a similar length as Hong Kong's (under 500 pages)"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK tax system contains 1,180 tax reliefs, creating compliance burdens, confusion, and disincentives.",
+        "evidence_id": "E18",
+        "quote": "the system is \"littered with 1,180 tax reliefs,\" according to HMRC, leading to compliance burdens, confusion, and disincentives"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The VAT registration threshold creates a cliff-edge, causing a large pile-up of companies just below it.",
+        "evidence_id": "E21",
+        "quote": "the Treasury Committee noted causes a \"huge pile-up of companies just under the [current \u00a385,000] threshold\""
+      },
+      {
+        "tier": "projected",
+        "claim": "A simpler tax system could reduce compliance burdens and remove disincentives to invest or grow a business.",
+        "evidence_id": "E15",
+        "quote": "A simpler tax system could reduce compliance burdens, clarify rules, and remove disincentives to work, save, invest, or grow a business, fostering economic dynamism"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS estimates that raising the income tax personal allowance to \u00a320,000 alone could cost \u00a350\u201380 billion a year.",
+        "evidence_id": "E9",
+        "quote": "the IFS estimates that increasing the income tax personal allowance to \u00a320,000 could cost between \u00a350 billion and \u00a380 billion a year"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS argues the overall package would require cuts to public services going far beyond a crackdown on waste.",
+        "evidence_id": "E28",
+        "quote": "the IFS strongly challenges this, arguing that the claimed savings are highly unrealistic and would necessitate severe cuts to the quality or quantity of public services, amounting to tens of billions of pounds per year more than stated"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS cautions against extremely optimistic growth assumptions as a means of balancing the books.",
+        "evidence_id": "E16",
+        "quote": "the IFS cautions against \"extremely optimistic assumptions about how much economic growth would increase\" as a means to balance the books for Reform UK's proposals"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Size of genuine fiscal savings versus cost of tax cuts \u2014 determines whether net effect on investment and living standards is positive or whether public-service deterioration offsets gains",
+      "estimate_range": "IFS estimates shortfall of tens of billions per year; policy claims full funding from spending reductions \u2014 a range of roughly \u00a30 to \u00a380bn+ annual fiscal gap"
+    },
+    "rationale": "The case for O13 improvement rests on two real mechanisms: (1) reduced complexity lowers compliance costs and removes disincentives to invest and grow, supported by parliamentary evidence on the 1,180-relief tangle and the VAT cliff-edge; (2) lower marginal tax rates and higher thresholds could lift work and investment incentives. Both are plausible and grounded in cited evidence. However, the policy's fiscal arithmetic is the decisive crux. The IFS \u2014 an independent institutional source \u2014 estimates the personal-allowance change alone costs \u00a350\u201380bn annually, and that the overall package understates costs and overstates savings by tens of billions per year. If that gap is not closed, the government must either borrow heavily (threatening debt sustainability and crowding out investment) or cut public services substantially. Either path carries significant downward pressure on real living standards that could offset the supply-side gains from simplification. The policy itself provides no committed mechanism \u2014 no statutory process, no independent body, no quantified fiscal framework \u2014 for achieving the simplification or demonstrating its funding. 'Improves' requires evidence the mechanism fires at scale; the IFS challenge to the fiscal base is strong enough that no honest single verdict can be reached. The direction is therefore too-uncertain: the supply-side logic is real and cited, but so is the fiscal risk, and the deciding parameter \u2014 the true fiscal gap \u2014 is unresolved across a very wide range.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmtreasy/1425/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://ifs.org.uk/news/response-mornings-reform-uk-policy-announcements",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHT1eli8oFEkCom8MNhlWMzN2zPpqPiZ_HPU38k3yoMTqY46fjA0fjYL8j6g1xG1abBZyOfOX77zynXg4VRpz0ia8oa5IuhdPuI6XSoUXEzA86FVerhAUGaWzvn9QqXAPJsW2f326DNgnFIBCSt_0lcBtY",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "ifs.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0438,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their quoted evidence. Tier assignments are correct \u2014 stated claims draw from policy text/E1, measurable claims from parliamentary/HMRC sources, projected claims appropriately flagged. The too-uncertain direction is genuinely supported by real claims on both sides: supply-side benefits (E15, E18, E21) vs. fiscal risk (E9, E16, E28). Magnitude and time_horizon are both n/a as required. The crux_parameter and estimate_range are specific and grounded. No lever leakage \u2014 scored by effect on living standards/productivity, not tax policy per se. No party-blind issues \u2014 rationale attributes positions to named institutions (IFS) not to party identity or motive. No false balance \u2014 both directions have substantive cited claims. E1 is from tax.org.uk (media/advocacy-adjacent) used only to support a stated-tier claim about the policy's own aspirations, which is acceptable. E14 (Centre for Policy Studies via taxfoundation.org) is not used in the verdict claims, so no concern. Minor note: E1 is cited for a 'stated' claim but E1 is a secondary source summarising the policy; the claim about Hong Kong target is not in the primary policy text [M]. This is a warning-level issue since the claim is plausible but not directly verifiable from [M] alone."
+    },
+    "gate": {
+      "kept": 8,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will undertake a major simplification of the UK's tax code, citing its current complexity of over 21,000 pages.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK proposes a \"major simplification\" of the UK's tax code, citing its current complexity of over 21,000 pages and aiming to reduce it to a similar length as Hong Kong's (under 500 pages)",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Income Tax:** Lift the personal allowance to \u00a320,000 per year and the higher rate threshold to \u00a370,000",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "They also propose a 25% transferable marriage tax allowance and zero basic rate tax for three years for frontline NHS and social care staff",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Inheritance Tax:** Abolish inheritance tax for all estates under \u00a32 million, with a 20% rate above \u00a32 million, offering an option to donate to charity instead",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Abolish IR35 rules and Business Rates for high street-based SMEs, offsetting the latter with a 4% Online Delivery Tax for large multinational enterprises",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Abolish VAT on school fees, introduce 20% tax relief on independent education, and abolish the VAT 'tourist tax'",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "However, the IFS's Deputy Director, Carl Emmerson, states that \"the package as a whole is problematic.\" He believes the spending reductions would save less than stated, and the tax cuts would cost more, by \"tens of billions of pounds per year.\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHT1eli8oFEkCom8MNhlWMzN2zPpqPiZ_HPU38k3yoMTqY46fjA0fjYL8j6g1xG1abBZyOfOX77zynXg4VRpz0ia8oa5IuhdPuI6XSoUXEzA86FVerhAUGaWzvn9QqXAPJsW2f326DNgnFIBCSt_0lcBtY",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "For instance, the proposed cut to corporation tax to 15% alone would cost more than half of the \u00a318 billion allocated for all business tax cuts in Reform UK's manifesto",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHT1eli8oFEkCom8MNhlWMzN2zPpqPiZ_HPU38k3yoMTqY46fjA0fjYL8j6g1xG1abBZyOfOX77zynXg4VRpz0ia8oa5IuhdPuI6XSoUXEzA86FVerhAUGaWzvn9QqXAPJsW2f326DNgnFIBCSt_0lcBtY",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Similarly, the IFS estimates that increasing the income tax personal allowance to \u00a320,000 could cost between \u00a350 billion and \u00a380 billion a year",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/response-mornings-reform-uk-policy-announcements",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The IFS further argues that achieving the claimed savings would necessitate \"substantial cuts to the quantity or quality of public services\" that go \"far beyond a crackdown on waste.\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHT1eli8oFEkCom8MNhlWMzN2zPpqPiZ_HPU38k3yoMTqY46fjA0fjYL8j6g1xG1abBZyOfOX77zynXg4VRpz0ia8oa5IuhdPuI6XSoUXEzA86FVerhAUGaWzvn9QqXAPJsW2f326DNgnFIBCSt_0lcBtY",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/news/response-mornings-reform-uk-policy-announcements",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The Health Foundation, while not directly commenting on Reform UK, consistently points to significant funding pressures on health and social care, noting that increased ill health in the working-age population could cost \"at least 2p on the rate of income tax,\" highlighting the difficulty of funding public services amidst large tax cuts",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpy3qtRd5yrzt0XroHIyIcEAUO_2NJr2Dz-SciKKj3mu4DkWCuA5fX7ICPqNYSf_mOyL0wDQ8qZdmF9su5anGUyYfaLxpzdHdBEgdZm5CtS0eHR68yqvzPjaBhGJdbH7uLkl5HaHKvPKmGddYZw4uj6pyTxmUDFAhrGyZRQqBtyN5YvCwho25GRCrOE-19ImlYIKKlP1MpJnoPog==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The Office for Budget Responsibility (OBR) notes that the UK's tax-to-GDP ratio was 33.5% in 2021 and is forecast to rise to a post-war high of 37.7% by 2027-28 on a UK ONS National Accounts basis",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/the-uks-tax-burden-in-historical-and-international-context/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Economic Growth and Competitiveness:**\nReform UK positions its tax simplification and cuts as measures to boost economic growth",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Historically, bodies like the Centre for Policy Studies have argued that comprehensive tax reform could significantly improve the UK's standing on the International Tax Competitiveness Index, potentially moving it from 22nd to 9th among OECD countries",
+        "sources": [
+          {
+            "url": "https://taxfoundation.org/research/all/eu/uk-tax-reform/",
+            "publisher": "taxfoundation.org",
+            "title": "taxfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "A simpler tax system could reduce compliance burdens, clarify rules, and remove disincentives to work, save, invest, or grow a business, fostering economic dynamism",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmtreasy/1425/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "However, the IFS cautions against \"extremely optimistic assumptions about how much economic growth would increase\" as a means to balance the books for Reform UK's proposals",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHT1eli8oFEkCom8MNhlWMzN2zPpqPiZ_HPU38k3yoMTqY46fjA0fjYL8j6g1xG1abBZyOfOX77zynXg4VRpz0ia8oa5IuhdPuI6XSoUXEzA86FVerhAUGaWzvn9QqXAPJsW2f326DNgnFIBCSt_0lcBtY",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "The OBR also considers the \"indirect effects of policy\" on the economy, which can sometimes reduce borrowing but may also lead to lower receipts from reduced consumption due to personal tax rises",
+        "sources": [
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-november-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The House of Commons Library reported in 2023 that the system is \"littered with 1,180 tax reliefs,\" according to HMRC, leading to compliance burdens, confusion, and disincentives",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmtreasy/1425/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Treasury Committee expressed concern over the abolition of the Office of Tax Simplification (OTS) in 2022, suggesting it might signal a de-prioritisation of simplification and recommended annual reports on progress",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmtreasy/1425/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/publications/40360/documents/197061/default/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmtreasy/1425/summary.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Reform UK's aspiration to significantly shorten the tax code aligns with this concern",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Specific proposals like increasing the VAT threshold to \u00a3150,000 could alleviate the \"cliff edge\" effect for small businesses, which the Treasury Committee noted causes a \"huge pile-up of companies just under the [current \u00a385,000] threshold\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmtreasy/1425/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The current government has also announced measures to simplify tax administration, such as raising Income Tax Self Assessment reporting thresholds to \u00a33,000, potentially removing an estimated 300,000 taxpayers from needing to file a return",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/summary-of-tax-update-spring-2025-simplification-administration-and-reform/tax-update-spring-2025-simplification-administration-and-reform-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-04-28/debates/2504285000007/TaxSimplificationAdministrationAndReform",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The increase in the income tax personal allowance and higher rate threshold, the abolition of inheritance tax for estates under \u00a32 million, and cuts to Stamp Duty Land Tax would largely favor those with higher earnings and assets",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2019/11/The-shifting-shape-of-UK-tax.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The income gap between the richest and poorest fifth of people reduced from 12.2 times before taxes and benefits to 3.3 times after",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/taxesandrevenue",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Indirect taxes, such as VAT and duties, tend to increase income inequality, with the poorest fifth of people paying a greater proportion of their disposable income on them (28.1%) compared to the richest fifth (9.8%) in FYE 2022",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/theeffectsoftaxesandbenefitsonhouseholdincome/financialyearending2022",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Resolution Foundation notes that while raising the tax allowance could offer a \u00a3480 tax cut for most workers, it would cost \u00a311 billion and would generally favor richer households, potentially reducing Universal Credit payments for some working individuals",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2019/11/The-shifting-shape-of-UK-tax.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Reform UK asserts that its significant tax cuts and spending increases can be entirely funded by massive reductions in \"wasteful\" public spending",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHT1eli8oFEkCom8MNhlWMzN2zPpqPiZ_HPU38k3yoMTqY46fjA0fjYL8j6g1xG1abBZyOfOX77zynXg4VRpz0ia8oa5IuhdPuI6XSoUXEzA86FVerhAUGaWzvn9QqXAPJsW2f326DNgnFIBCSt_0lcBtY",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "However, the IFS strongly challenges this, arguing that the claimed savings are highly unrealistic and would necessitate severe cuts to the quality or quantity of public services, amounting to tens of billions of pounds per year more than stated",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHT1eli8oFEkCom8MNhlWMzN2zPpqPiZ_HPU38k3yoMTqY46fjA0fjYL8j6g1xG1abBZyOfOX77zynXg4VRpz0ia8oa5IuhdPuI6XSoUXEzA86FVerhAUGaWzvn9QqXAPJsW2f326DNgnFIBCSt_0lcBtY",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/news/response-mornings-reform-uk-policy-announcements",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The OBR, in its general assessments, consistently points to the \"significant risk\" and narrow headroom in fiscal forecasts, making substantial unfunded changes highly uncertain",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/economic-and-taxation-policy-impact-on-growth-jobs-and-prosperity/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "There is also a difference in the **conception of \"simplification.\"** While many agree on the need for it, Reform UK's proposals primarily focus on reducing the overall tax burden and making specific taxes less complex, often through abolition or higher thresholds",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/general-election-2024-reform-uk-propose-big-cuts-in-income-inheritance-and-corporation-taxes",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bralreform.uk/wp-content/uploads/2025/02/reform-pledges-summary.pdf",
+            "publisher": "bralreform.uk",
+            "title": "bralreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "Other analysts and government bodies often emphasize streamlining administration, reducing \"cliff edges,\" and rationalizing the multitude of reliefs and exemptions, which may not always equate to large-scale tax cuts",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/summary-of-tax-update-spring-2025-simplification-administration-and-reform/tax-update-spring-2025-simplification-administration-and-reform-summary",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2025-04-28/debates/2504285000007/TaxSimplificationAdministrationAndReform",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmtreasy/1425/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a82dd2040f0b6230269d1ac/OTS_Thresholds_paper_updated_Feb17.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

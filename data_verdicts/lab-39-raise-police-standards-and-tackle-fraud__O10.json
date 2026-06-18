@@ -1,0 +1,809 @@
+{
+  "policy_id": "lab-39-raise-police-standards-and-tackle-fraud",
+  "party": "Labour",
+  "policy_title": "Raise Police Standards and Tackle Fraud",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy's most direct effect on personal liberty is introducing legal safeguards against strip-searching children \u2014 a genuinely coercive and invasive state practice \u2014 which improves bodily autonomy for young people. The rest of the policy is largely internal police-governance reform with little direct liberty effect, though the fraud strategy's collaboration with tech firms carries a modest unresolved surveillance risk.",
+    "biggest_unknown": "Whether the fraud strategy's collaboration with technology companies involves new state-facilitated surveillance or data-sharing powers that would erode digital privacy at scale \u2014 the policy text does not specify the instruments.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy introduces new legal safeguards for strip-searching children and young people.",
+        "evidence_id": "M",
+        "quote": "New legal safeguards will be introduced for strip-searching children and young people."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Strip-searching of children is described as inherently traumatic, degrading and a violation of children's rights.",
+        "evidence_id": "E25",
+        "quote": "The practice is described as inherently traumatic, degrading, and a violation of children's rights"
+      },
+      {
+        "tier": "measurable",
+        "claim": "377 strip searches of children were recorded in 2024, with Black children almost 8 times more likely to be strip-searched than White children.",
+        "evidence_id": "E28",
+        "quote": "between 2023 and 2024, Black children were almost 8 times more likely to be strip-searched than White children and around 5 times more likely than Asian children, indicating no improvement in disproportionality"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UN Committee on the Rights of the Child called in 2023 for legislative measures to explicitly prohibit strip-searching of children without exception.",
+        "evidence_id": "E26",
+        "quote": "The UN Committee on the Rights of the Child called for legislative measures to explicitly prohibit, without exception, the strip-searching of children in 2023"
+      },
+      {
+        "tier": "stated",
+        "claim": "The fraud strategy involves working with technology companies to prevent platform exploitation.",
+        "evidence_id": "M",
+        "quote": "Labour will also introduce a new expanded fraud strategy, working with technology companies to prevent platform exploitation."
+      },
+      {
+        "tier": "projected",
+        "claim": "More aggressive AI-driven fraud detection raises ethical and fairness risks that could affect individual privacy.",
+        "evidence_id": "E44",
+        "quote": "Concerns have also been raised about the ethical and fairness risks associated with more aggressive, AI-driven fraud detection"
+      }
+    ],
+    "rationale": "The clearest O10 signal in this policy is the strip-search safeguards for children. Strip-searching is an acutely invasive, coercive state power exercised directly on bodies \u2014 squarely within O10's scope of bodily autonomy and freedom from state coercion. The evidence shows the practice remains active (377 searches in 2024), is described as traumatic and rights-violating, and the UN has called for its prohibition. Introducing statutory safeguards directly restricts the state's capacity to use this power arbitrarily, improving O10 for a vulnerable group in a concrete and measurable way. The effect is real but limited in population scale \u2014 it affects a relatively small number of individuals annually.\n\nThe rest of the policy is principally internal police-governance reform: HMICFRS intervention powers, vetting standards, misconduct rules, and suspension of abusive officers. These reshape how police institutions operate but do not directly expand or withdraw coercive powers over the general public. They therefore have negligible direct O10 effect (though they may have O5 effects).\n\nThe fraud strategy introduces an ambiguity. Collaboration between government and technology companies on fraud detection could \u2014 depending on implementation \u2014 involve expanded data-sharing or AI-driven profiling of citizens' digital activity, which would be an O10 cost. Evidence flags that AI-driven fraud detection carries 'ethical and fairness risks'. However, the policy text commits only to 'working with technology companies to prevent platform exploitation' \u2014 no surveillance mandate, no data-retention power, no compulsory disclosure instrument is stated. Under the soft-verb rule, this ambiguity cannot be resolved into a worsening without a committed instrument.\n\nOn balance, the concrete bodily-autonomy gain from strip-search safeguards tips the verdict to a minor improvement, with the fraud strategy's privacy implications the main caveat.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://yjlc.uk/resources/legal-updates/police-powers-and-children-strip-searching-and-use-force",
+        "publisher": "yjlc.uk",
+        "title": "yjlc.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/uk-news/2026/apr/22/black-children-in-england-and-wales-almost-eight-times-more-likely-to-be-strip-searched-than-white-peers-report",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.weightmans.com/media-centre/news/uk-fraud-strategy-2026-2029-key-implications-for-organisations/",
+        "publisher": "weightmans.com",
+        "title": "weightmans.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0498,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims check out. The E25 quote is from an advocacy/legal charity source (yjlc.uk) and is labelled 'measurable' \u2014 it is arguably a normative characterisation rather than a measurable fact, but the verdict does not hinge on it for direction; flag as warning only. The E28 quote is used to support two figures (377 and 8x) but E27 supplies the 377 figure while E28 supplies the 8x figure \u2014 a minor sourcing inconsistency but the quote from E28 does contain the 8x figure so entailment holds. The strip-search safeguards provide a genuine, evidence-supported O10 improvement. The fraud strategy ambiguity is correctly handled as a caveat rather than a scored worsening. No tier blurring, no lever leakage, no party-blind issues, no false balance \u2014 direction is 'improves' and the surviving claims support that."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will reform the police by giving His Majesty\u2019s Inspectorate new powers to intervene with failing forces. They will introduce mandatory professional standards for vetting, checks, and misconduct, with stronger training on racism and violence against women and girls. Individuals with a history of violence against women and girls will be barred, and officers investigated for domestic abuse/sexual offences automatically suspended. New legal safeguards will be introduced for strip-searching children and young people. Labour will also introduce a new expanded fraud strategy, working with technology companies to prevent platform exploitation.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "New Powers for His Majesty\u2019s Inspectorate (HMICFRS) to Intervene with Failing Forces:**\nLabour proposes giving His Majesty\u2019s Inspectorate new powers to intervene with failing forces",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/take-back-our-streets/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The government has also committed to strengthening HMICFRS's ability to issue \"directions\" to police forces that fail to implement recommendations, requiring the Home Secretary's agreement",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/from-local-to-national-a-new-model-for-policing/from-local-to-national-a-new-model-for-policing-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "HMICFRS reports have previously highlighted poor police performance, with some forces spending years in special measures and half of English police forces failing to meet standards in crime investigations in 2022",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/take-back-our-streets/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/nov/26/revealed-half-of-english-police-forces-fail-to-meet-standards-in-investigations",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Analyst Views:** The House of Commons Library notes this is part of a broader reform aiming for a less fragmented system, potentially involving a reduction in the number of police forces",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8582/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/white-paper-sets-out-reforms-to-policing",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "However, the Police Federation of England and Wales has criticised government police reform plans, arguing that underlying issues of unsafe workloads, inadequate pay, and insufficient training must be tackled first, and expressing concern that \"top-down reform\" might undermine local policing",
+        "sources": [
+          {
+            "url": "https://polfed.org/news/latest-news/2025/hmicfrs-report-shows-policing-is-broken-and-is-breaking-its-best-and-bravest/",
+            "publisher": "polfed.org",
+            "title": "polfed.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PKlwyKD34hg",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jan/24/police-federation-criticises-plans-for-mandatory-licence-to-practise-for-officers",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Some police chiefs also fear that national targets could create \"perverse incentives\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jan/24/police-federation-criticises-plans-for-mandatory-licence-to-practise-for-officers",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Mandatory Professional Standards for Vetting, Checks, and Misconduct:**\nThe policy intends to introduce mandatory professional standards for vetting, checks, and misconduct",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/take-back-our-streets/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Past failings in vetting have allowed officers who later committed serious misconduct or criminal offences to remain in service",
+        "sources": [
+          {
+            "url": "https://news.met.police.uk/news/met-continues-drive-to-raise-standards-following-historical-vetting-review-504908",
+            "publisher": "news.met.police.uk",
+            "title": "met.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jan/08/failure-to-properly-vet-officers-resulted-in-serial-rapists-within-met-ranks-review-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "For instance, a Metropolitan Police review, \"Operation Jorica,\" found that vetting refusal rates declined between 2020 and 2022, and 1,400 officers who should have been flagged were still in the force with police powers, with 131 committing criminal or misconduct offences",
+        "sources": [
+          {
+            "url": "https://news.met.police.uk/news/met-continues-drive-to-raise-standards-following-historical-vetting-review-504908",
+            "publisher": "news.met.police.uk",
+            "title": "met.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jan/08/failure-to-properly-vet-officers-resulted-in-serial-rapists-within-met-ranks-review-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The policing watchdog is probing the Met's vetting standards amid fears that up to 22,000 staff may have been recruited without proper checks due to relaxed standards between 2018 and 2023",
+        "sources": [
+          {
+            "url": "https://www.ft.com/content/4ff97a36-dc73-4202-a28f-851a86d7fbae?syn-25a6b1a6=1",
+            "publisher": "ft.com",
+            "title": "ft.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Analyst Views/Data:** A March 2023 study indicated that existing vetting processes were poor at identifying high-risk officers, but criminal history data at recruitment was effective",
+        "sources": [
+          {
+            "url": "https://www.researchgate.net/publication/369621662_The_value_of_criminal_history_and_police_intelligence_in_vetting_and_selection_of_police",
+            "publisher": "researchgate.net",
+            "title": "researchgate.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The College of Policing updated its guidance in December 2024, and the Police (Vetting) Regulations 2025 now provide a statutory route to dismiss officers who fail vetting clearance",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10589/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The government also committed in January 2026 to place national vetting standards on a statutory footing",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10589/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/white-paper-sets-out-reforms-to-policing",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Stronger Training on Racism and Violence Against Women and Girls (VAWG):**\nThe policy includes stronger training on racism and violence against women and girls",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/take-back-our-streets/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The College of Policing has developed anti-racism training to increase officers' confidence in addressing racism, awareness of bias, and ability to challenge unacceptable behaviours",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/support-forces/practices/anti-racism-training-package-officers-and-staff",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Police Scotland introduced anti-racism training in 2023 after being labelled institutionally racist and discriminatory",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/support-forces/practices/anti-racism-training-package-officers-and-staff",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Analyst Views/Data:** The National Police Chiefs' Council (NPCC) and College of Policing launched a VAWG National Policing Statement in July 2024 and a framework in December 2021, advocating for a \"call-out\" culture to challenge sexism and misogyny within policing",
+        "sources": [
+          {
+            "url": "https://www.endviolenceagainstwomen.org.uk/national-policing-vawg-framework/",
+            "publisher": "endviolenceagainstwomen.org.uk",
+            "title": "endviolenceagainstwomen.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.npcc.police.uk/our-work/violence-against-women-and-girls/",
+            "publisher": "npcc.police.uk",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.npcc.police.uk/releases/call-to-action-as-violence-against-women-and-girls-epidemic-deepens-1",
+            "publisher": "news.npcc.police.uk",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "A \"licence to practise\" for police officers, as proposed by the government, would also set clear standards in areas including VAWG",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/jan/24/police-federation-criticises-plans-for-mandatory-licence-to-practise-for-officers",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Barring Individuals with a History of VAWG and Automatic Suspension for Officers Investigated for Domestic Abuse/Sexual Offences:**\nLabour will bar individuals with a history of violence against women and girls and automatically suspend officers investigated for domestic abuse or sexual offences",
+        "sources": [
+          {
+            "url": "https://pledgeprogress.co.uk/pledge/anyone-with-a-history-of-violence-against-women-and-girls-will-be-barred-from-the-police-service-and-automatic-suspensions-for-officers-investigated-for-domestic-and-sexual-abuse.html",
+            "publisher": "pledgeprogress.co.uk",
+            "title": "pledgeprogress.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Analyst Views/Data:** The government has also moved to amend Police (Conduct) Regulations to ensure automatic suspension for officers charged with domestic abuse or VAWG-related crimes and automatic dismissal for convictions",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/transforming-the-criminal-justice-response-to-domestic-abuse/shifting-the-scales-transforming-the-criminal-justice-response-to-domestic-abuse-accessible",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/white-paper-sets-out-reforms-to-policing",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "However, data from May 2022 to May 2023 showed that only 24% of police investigated for domestic abuse, sexual assault, rape, and abuse of position were suspended across England and Wales",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/police-domestic-abuse-sex-offences-b2394822.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Metropolitan Police suspended only 12% of officers accused of VAWG offences during that period",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/police-domestic-abuse-sex-offences-b2394822.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "As of June 2023, 40 Met officers were suspended due to domestic abuse allegations, and 78 for sexual offence allegations",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwIwEPPtLf8tP4fvtCtKym3SdZWccg0sGXDUW7mzmNmCJJ3ERhwLCKN656akK6cdkJZF2Wbkb7xxMgozjaGJknpXM3Lkk4v-rY_I91dmP6m_0JKGXVl8CaICnSKFezkJWEBFW0jv74VroZYtCppchy53XkINDjKWzLiF3kNPWKaws12czjlQCjpkRbaS8WEfR7_p4eOL4408jqPr0R_FOuvpc5K6f4qTALiEToavhXA8pz13Kev-GlWJNgVk1XfpX6Xme2_jvBo_UWKa99_MVs3PoSaRpDwxC9JRnu5Q==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "met.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Across UK forces, 334 officers were suspended over sexual allegations and 133 for domestic abuse as of summer 2023, though most accused officers continued working on restricted duties",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=3ilwpHkcJFk",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The practice is described as inherently traumatic, degrading, and a violation of children's rights",
+        "sources": [
+          {
+            "url": "https://yjlc.uk/resources/legal-updates/police-powers-and-children-strip-searching-and-use-force",
+            "publisher": "yjlc.uk",
+            "title": "yjlc.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Analyst Views/Data:** The UN Committee on the Rights of the Child called for legislative measures to explicitly prohibit, without exception, the strip-searching of children in 2023",
+        "sources": [
+          {
+            "url": "https://yjlc.uk/resources/legal-updates/police-powers-and-children-strip-searching-and-use-force",
+            "publisher": "yjlc.uk",
+            "title": "yjlc.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Despite a downward trend, 377 strip searches of children were recorded in 2024",
+        "sources": [
+          {
+            "url": "https://yjlc.uk/resources/legal-updates/police-powers-and-children-strip-searching-and-use-force",
+            "publisher": "yjlc.uk",
+            "title": "yjlc.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Critically, between 2023 and 2024, Black children were almost 8 times more likely to be strip-searched than White children and around 5 times more likely than Asian children, indicating no improvement in disproportionality",
+        "sources": [
+          {
+            "url": "https://yjlc.uk/resources/legal-updates/police-powers-and-children-strip-searching-and-use-force",
+            "publisher": "yjlc.uk",
+            "title": "yjlc.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/apr/22/black-children-in-england-and-wales-almost-eight-times-more-likely-to-be-strip-searched-than-white-peers-report",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The Children's Commissioner for England's research highlighted systemic failings and a misunderstanding of safeguarding practices",
+        "sources": [
+          {
+            "url": "https://www.childrenscommissioner.gov.uk/resource/police-powers-and-children-strip-searching-and-use-of-force/",
+            "publisher": "childrenscommissioner.gov.uk",
+            "title": "childrenscommissioner.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "JUSTICE, a UK legal reform charity, has provided recommendations for improving safeguards, focusing on changes to PACE Codes A, C, H, and I to establish a safeguarding-based approach",
+        "sources": [
+          {
+            "url": "https://www.justice.org.uk/work/recommendations-for-strip-search-legal-safeguards",
+            "publisher": "justice.org.uk",
+            "title": "justice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The Home Office has stated it is introducing extensive safeguards for children and young people for strip-searching",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/apr/22/black-children-in-england-and-wales-almost-eight-times-more-likely-to-be-strip-searched-than-white-peers-report",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "New Expanded Fraud Strategy, Working with Technology Companies to Prevent Platform Exploitation:**\nLabour will introduce a new expanded fraud strategy, working with technology companies to prevent platform exploitation",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/take-back-our-streets/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Likely Effects:** A coordinated approach involving government, law enforcement, and technology companies is expected to enhance fraud prevention and disruption, given that fraud is the largest crime type in the UK",
+        "sources": [
+          {
+            "url": "https://www.symphonyai.com/resources/blog/financial-services/uk-fraud-strategy-2026-2029-financial-crime-compliance/",
+            "publisher": "symphonyai.com",
+            "title": "symphonyai.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Fraud accounts for 45% of all crime in England and Wales, costing the economy an estimated \u00a314.4 billion in 2023-2024",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEOs0Hnx_mYFgVMPk_PrZEewr5APJkqejeoN0IWDZSFloIUtzw1TeVEBd2K21nbxLvvUFxh4L-1sBBQ7g3h0dK8DW4tg3ntwyMTMhoAXkdvRz6uJZUNBZdbx5SyKjnt0vhsy5Zsz_knchwDjAEwRmlwFa-NK89mw33TOLsp0ZRHGjtOQfnRsphqn4jyAcTdrdTrUbSUuHqsrglZITKBgS2lm3Xmw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.symphonyai.com/resources/blog/financial-services/uk-fraud-strategy-2026-2029-financial-crime-compliance/",
+            "publisher": "symphonyai.com",
+            "title": "symphonyai.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69ae77ddc78869bf8eb8a509/fraud-strategy-web.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "In the year ending March 2024, 74% of frauds involved some financial loss, with 3% losing \u00a310,000 or more",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69ae77ddc78869bf8eb8a509/fraud-strategy-web.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Analyst Views/Data:** The UK government already launched an updated \"Fraud Strategy 2026-2029\" in March 2026, committing over \u00a3250 million over three years",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEOs0Hnx_mYFgVMPk_PrZEewr5APJkqejeoN0IWDZSFloIUtzw1TeVEBd2K21nbxLvvUFxh4L-1sBBQ7g3h0dK8DW4tg3ntwyMTMhoAXkdvRz6uJZUNBZdbx5SyKjnt0vhsy5Zsz_knchwDjAEwRmlwFa-NK89mw33TOLsp0ZRHGjtOQfnRsphqn4jyAcTdrdTrUbSUuHqsrglZITKBgS2lm3Xmw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.symphonyai.com/resources/blog/financial-services/uk-fraud-strategy-2026-2029-financial-crime-compliance/",
+            "publisher": "symphonyai.com",
+            "title": "symphonyai.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.klgates.com/UK-Governments-Fraud-Strategy-Framework-2026-to-2029-5-6-2026",
+            "publisher": "klgates.com",
+            "title": "klgates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "This strategy is built on three pillars: Disrupt, Safeguard, and Respond",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEOs0Hnx_mYFgVMPk_PrZEewr5APJkqejeoN0IWDZSFloIUtzw1TeVEBd2K21nbxLvvUFxh4L-1sBBQ7g3h0dK8DW4tg3ntwyMTMhoAXkdvRz6uJZUNBZdbx5SyKjnt0vhsy5Zsz_knchwDjAEwRmlwFa-NK89mw33TOLsp0ZRHGjtOQfnRsphqn4jyAcTdrdTrUbSUuHqsrglZITKBgS2lm3Xmw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.symphonyai.com/resources/blog/financial-services/uk-fraud-strategy-2026-2029-financial-crime-compliance/",
+            "publisher": "symphonyai.com",
+            "title": "symphonyai.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.klgates.com/UK-Governments-Fraud-Strategy-Framework-2026-to-2029-5-6-2026",
+            "publisher": "klgates.com",
+            "title": "klgates.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "*   **Disrupt:** Includes a \u00a331 million Online Crime Centre (OCC) launched in April 2026, which brings together specialists from various sectors, including major tech firms, to share intelligence, identify criminal online infrastructure, and shut it down at scale",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEOs0Hnx_mYFgVMPk_PrZEewr5APJkqejeoN0IWDZSFloIUtzw1TeVEBd2K21nbxLvvUFxh4L-1sBBQ7g3h0dK8DW4tg3ntwyMTMhoAXkdvRz6uJZUNBZdbx5SyKjnt0vhsy5Zsz_knchwDjAEwRmlwFa-NK89mw33TOLsp0ZRHGjtOQfnRsphqn4jyAcTdrdTrUbSUuHqsrglZITKBgS2lm3Xmw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69ae77ddc78869bf8eb8a509/fraud-strategy-web.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.klgates.com/UK-Governments-Fraud-Strategy-Framework-2026-to-2029-5-6-2026",
+            "publisher": "klgates.com",
+            "title": "klgates.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-disruption-unit-launched-in-crackdown-on-fraud",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Think Fraud\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEOs0Hnx_mYFgVMPk_PrZEewr5APJkqejeoN0IWDZSFloIUtzw1TeVEBd2K21nbxLvvUFxh4L-1sBBQ7g3h0dK8DW4tg3ntwyMTMhoAXkdvRz6uJZUNBZdbx5SyKjnt0vhsy5Zsz_knchwDjAEwRmlwFa-NK89mw33TOLsp0ZRHGjtOQfnRsphqn4jyAcTdrdTrUbSUuHqsrglZITKBgS2lm3Xmw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.symphonyai.com/resources/blog/financial-services/uk-fraud-strategy-2026-2029-financial-crime-compliance/",
+            "publisher": "symphonyai.com",
+            "title": "symphonyai.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "*   **Respond:** Involves a new \"Report Fraud\" service and a planned \"Fraud Victims Charter\" by mid-2027",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEOs0Hnx_mYFgVMPk_PrZEewr5APJkqejeoN0IWDZSFloIUtzw1TeVEBd2K21nbxLvvUFxh4L-1sBBQ7g3h0dK8DW4tg3ntwyMTMhoAXkdvRz6uJZUNBZdbx5SyKjnt0vhsy5Zsz_knchwDjAEwRmlwFa-NK89mw33TOLsp0ZRHGjtOQfnRsphqn4jyAcTdrdTrUbSUuHqsrglZITKBgS2lm3Xmw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.weightmans.com/media-centre/news/uk-fraud-strategy-2026-2029-key-implications-for-organisations/",
+            "publisher": "weightmans.com",
+            "title": "weightmans.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.symphonyai.com/resources/blog/financial-services/uk-fraud-strategy-2026-2029-financial-crime-compliance/",
+            "publisher": "symphonyai.com",
+            "title": "symphonyai.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.klgates.com/UK-Governments-Fraud-Strategy-Framework-2026-to-2029-5-6-2026",
+            "publisher": "klgates.com",
+            "title": "klgates.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Analyst Views/Disagreement:** The strategy explicitly shifts more responsibility onto telecom companies, technology platforms, and financial firms, supported by legislation like the Online Safety Act and the Economic Crime and Corporate Transparency Act",
+        "sources": [
+          {
+            "url": "https://therecord.media/uk-plans-to-shift-fraud-fight-to-telecoms-tech",
+            "publisher": "therecord.media",
+            "title": "therecord.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "techUK, representing technology companies, notes that many of its members are already active in fraud detection and prevention, advocating for a collaborative \"ecosystem-wide\" approach using advanced technologies like AI and machine learning",
+        "sources": [
+          {
+            "url": "https://www.techuk.org/static/45a58911-f5db-4337-b92db1742d40c54a/techUKCombattingFraud290524-1.pdf",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.techuk.org/resource/anti-fraud-report-2025-technology-s-role-in-combatting-fraud.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "However, critics question whether the strategy goes far enough in compelling major platforms to take greater responsibility",
+        "sources": [
+          {
+            "url": "https://therecord.media/uk-plans-to-shift-fraud-fight-to-telecoms-tech",
+            "publisher": "therecord.media",
+            "title": "therecord.media",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "Concerns have also been raised about the ethical and fairness risks associated with more aggressive, AI-driven fraud detection",
+        "sources": [
+          {
+            "url": "https://www.weightmans.com/media-centre/news/uk-fraud-strategy-2026-2029-key-implications-for-organisations/",
+            "publisher": "weightmans.com",
+            "title": "weightmans.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "The previous fraud strategy failed to meet its target of a 10% reduction in fraud by 2025",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEOs0Hnx_mYFgVMPk_PrZEewr5APJkqejeoN0IWDZSFloIUtzw1TeVEBd2K21nbxLvvUFxh4L-1sBBQ7g3h0dK8DW4tg3ntwyMTMhoAXkdvRz6uJZUNBZdbx5SyKjnt0vhsy5Zsz_knchwDjAEwRmlwFa-NK89mw33TOLsp0ZRHGjtOQfnRsphqn4jyAcTdrdTrUbSUuHqsrglZITKBgS2lm3Xmw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ukfinance.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.symphonyai.com/resources/blog/financial-services/uk-fraud-strategy-2026-2029-financial-crime-compliance/",
+            "publisher": "symphonyai.com",
+            "title": "symphonyai.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

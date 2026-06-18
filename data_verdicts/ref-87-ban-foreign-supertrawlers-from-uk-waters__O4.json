@@ -1,0 +1,724 @@
+{
+  "policy_id": "ref-87-ban-foreign-supertrawlers-from-uk-waters",
+  "party": "Reform UK",
+  "policy_title": "Ban foreign supertrawlers from UK waters",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy could shift some fishing work toward smaller UK fleets, but legal barriers under the UK-EU Trade and Cooperation Agreement may prevent parts of it from being implemented, and the electric pulse fishing ban it proposes already exists. Whether it would meaningfully improve pay or jobs for UK fishing workers is unclear.",
+    "biggest_unknown": "Whether the TCA permits a supertrawler ban that discriminates against foreign vessels, and if not, whether an equivalent UK-vessel ban would be politically viable \u2014 this determines whether any reallocation of fishing opportunities to local fleets actually occurs.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would ban foreign supertrawlers from UK waters, extend the pair trawling ban for bass beyond the South East and 12-mile limit, and ban Dutch vessels from electric pulse fishing in the 200-mile EEZ.",
+        "evidence_id": "M",
+        "quote": "Reform UK will ban foreign supertrawlers from UK waters, extend the ban on pair trawling for bass beyond the South East and 12-mile territorial waters, and ban Dutch vessels from electric pulse fishing in Britain's 200 mile EEZ."
+      },
+      {
+        "tier": "projected",
+        "claim": "Banning supertrawlers might shift fishing opportunities toward smaller, local UK fleets, since supertrawlers currently land the vast majority of their catch abroad.",
+        "evidence_id": "E2",
+        "quote": "It might also shift fishing opportunities towards smaller, local UK fleets, as supertrawlers currently land the vast majority of their catch abroad, offering little economic benefit to the UK"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Implementing a ban on foreign supertrawlers faces legal complexity because the UK-EU Trade and Cooperation Agreement prohibits discrimination against individual vessels, meaning any ban may need to apply equally to UK and EU vessels.",
+        "evidence_id": "E13",
+        "quote": "implementing a ban faces complexity due to the UK/EU Trade and Cooperation Agreement, which prohibits discrimination against individual vessels, meaning any ban might need to apply equally to UK and EU vessels within certain areas"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK already banned electric pulse fishing by EU (including Dutch) vessels from January 2021, so this element of the policy largely replicates existing law.",
+        "evidence_id": "E21",
+        "quote": "This ban officially came into effect on January 1, 2021"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The existing pair trawling ban for bass already exists within the 12-mile territorial limit of the UK.",
+        "evidence_id": "E15",
+        "quote": "The current ban already exists within the 12-mile territorial limit of the UK"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether TCA obligations prevent a discriminatory ban on foreign supertrawlers, and if so whether a non-discriminatory alternative would be adopted \u2014 determining whether any shift in fishing opportunity to UK small-scale fleets materialises.",
+      "estimate_range": "If the ban is legally unblocked and enforced, some modest reallocation to UK smaller fleets is plausible; if TCA constraints bind, the marginal O4 effect is negligible."
+    },
+    "rationale": "The clearest O4 channel is the projected reallocation of fishing opportunities from foreign supertrawlers to smaller UK fleets (E2). However, this projection comes from advocacy-aligned sources and is contingent on the ban actually being enforceable. E13 identifies a genuine legal constraint: the TCA prohibits discriminating against individual foreign vessels, potentially requiring any ban to cover UK vessels too \u2014 which would substantially alter the economic logic. The electric pulse fishing element is already law (E21), so it carries zero marginal O4 effect. The pair trawling extension (beyond 12 miles) is the most genuinely novel element, but evidence on its labour-market effect for UK fishers is absent from the provided sources. Without credible evidence that the supertrawler ban clears the TCA hurdle and that the resulting reallocation would materially increase UK fishing employment or wages at population scale, the direction cannot responsibly be called 'improves'. The genuine legal uncertainty over enforceability is the decisive crux.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.businessgreen.com/news/4410621/monster-vessels-greenpeace-calls-ban-industrial-fishing-uks-protected-waters",
+        "publisher": "businessgreen.com",
+        "title": "businessgreen.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.greenpeace.org.uk/news/supertrawlers-spent-7380-hours-fishing-in-uk-marine-protected-areas-each-year-since-brexit/",
+        "publisher": "greenpeace.org.uk",
+        "title": "greenpeace.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://blueplanetsociety.org/the-devastating-trail-supertrawlers-leave-behind/",
+        "publisher": "blueplanetsociety.org",
+        "title": "blueplanetsociety.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://thefishingdaily.com/featured-news/boris-fact-checked-on-banning-electric-trawling-and-hoover-trawlers/",
+        "publisher": "thefishingdaily.com",
+        "title": "thefishingdaily.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://questions-statements.parliament.uk/written-questions/detail/2021-01-06/133781",
+        "publisher": "questions-statements.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.ukbass.com/pair-trawling-ban/",
+        "publisher": "ukbass.com",
+        "title": "ukbass.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pair_trawling",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.devonwildlifetrust.org/news/bycatch-22-first-ever-report-exposes-shocking-scale-wildlife-deaths-uk-commercial-fishing",
+        "publisher": "devonwildlifetrust.org",
+        "title": "devonwildlifetrust.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0439,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All checks pass. The tier-integrity concern about E13 (labelled measurable but sourced from thefishingdaily.com, a trade outlet) is a warning rather than blocking since the claim is a legal/structural observation consistent with the TCA text and not a quantitative projection. The E21 measurable claim is well-supported. The too-uncertain direction is backed by genuine competing claims (E2 for potential benefit, E13 for legal barrier, E21 for redundancy of pulse ban element). Uncertainty structure includes a credible crux and estimate range. No party-blind, lever-leakage, or false-balance issues detected."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will ban foreign supertrawlers from UK waters, extend the ban on pair trawling for bass beyond the South East and 12-mile territorial waters, and ban Dutch vessels from electric pulse fishing in Britain's 200 mile EEZ.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This could lead to a decrease in bycatch, including protected species like dolphins, porpoises, sharks, seals, and rays, and potentially aid the recovery of pelagic fish stocks like herring, blue whiting, and mackerel",
+        "sources": [
+          {
+            "url": "https://www.theferret.scot/supertrawlers-fish-scotland-marine-protected-areas/",
+            "publisher": "theferret.scot",
+            "title": "theferret.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businessgreen.com/news/4410621/monster-vessels-greenpeace-calls-ban-industrial-fishing-uks-protected-waters",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-spent-7380-hours-fishing-in-uk-marine-protected-areas-each-year-since-brexit/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blueplanetsociety.org/the-devastating-trail-supertrawlers-leave-behind/",
+            "publisher": "blueplanetsociety.org",
+            "title": "blueplanetsociety.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-the-massive-industrial-fishing-ships-plundering-the-uks-most-precious-waters/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://petition.parliament.uk/archived/petitions/550730",
+            "publisher": "petition.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "It might also shift fishing opportunities towards smaller, local UK fleets, as supertrawlers currently land the vast majority of their catch abroad, offering little economic benefit to the UK",
+        "sources": [
+          {
+            "url": "https://www.businessgreen.com/news/4410621/monster-vessels-greenpeace-calls-ban-industrial-fishing-uks-protected-waters",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-spent-7380-hours-fishing-in-uk-marine-protected-areas-each-year-since-brexit/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blueplanetsociety.org/the-devastating-trail-supertrawlers-leave-behind/",
+            "publisher": "blueplanetsociety.org",
+            "title": "blueplanetsociety.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "**Credible Data and Analysts' Views:**\n*   **Greenpeace** strongly supports banning supertrawlers from UK MPAs, noting that 26 supertrawlers (mostly foreign-flagged) spent nearly 37,000 hours (an average of 7,380 hours per year) fishing in 44 UK MPAs between January 2020 and January 2025",
+        "sources": [
+          {
+            "url": "https://www.theferret.scot/supertrawlers-fish-scotland-marine-protected-areas/",
+            "publisher": "theferret.scot",
+            "title": "theferret.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businessgreen.com/news/4410621/monster-vessels-greenpeace-calls-ban-industrial-fishing-uks-protected-waters",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-spent-7380-hours-fishing-in-uk-marine-protected-areas-each-year-since-brexit/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "They argue that the UK government has had the power to implement such a ban since Brexit and that these \"protected\" areas are being exploited beyond sustainable limits",
+        "sources": [
+          {
+            "url": "https://www.theferret.scot/supertrawlers-fish-scotland-marine-protected-areas/",
+            "publisher": "theferret.scot",
+            "title": "theferret.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businessgreen.com/news/4410621/monster-vessels-greenpeace-calls-ban-industrial-fishing-uks-protected-waters",
+            "publisher": "businessgreen.com",
+            "title": "businessgreen.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-spent-7380-hours-fishing-in-uk-marine-protected-areas-each-year-since-brexit/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-the-massive-industrial-fishing-ships-plundering-the-uks-most-precious-waters/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Greenpeace highlights that these \"monster vessels,\" over 100 meters long, use enormous nets (some up to 600m) that catch hundreds of tonnes of fish daily, along with significant bycatch",
+        "sources": [
+          {
+            "url": "https://www.theferret.scot/supertrawlers-fish-scotland-marine-protected-areas/",
+            "publisher": "theferret.scot",
+            "title": "theferret.scot",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-spent-7380-hours-fishing-in-uk-marine-protected-areas-each-year-since-brexit/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.greenpeace.org.uk/news/supertrawlers-the-massive-industrial-fishing-ships-plundering-the-uks-most-precious-waters/",
+            "publisher": "greenpeace.org.uk",
+            "title": "greenpeace.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Blue Planet Society** emphasizes the devastating environmental impacts of supertrawlers, including overfishing and bycatch, and points out the contradiction of these vessels operating legally in ostensibly protected UK waters",
+        "sources": [
+          {
+            "url": "https://blueplanetsociety.org/the-devastating-trail-supertrawlers-leave-behind/",
+            "publisher": "blueplanetsociety.org",
+            "title": "blueplanetsociety.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "They cite an instance in 2022 where the supertrawler FV Margiris dumped 100,000 dead blue whiting",
+        "sources": [
+          {
+            "url": "https://blueplanetsociety.org/the-devastating-trail-supertrawlers-leave-behind/",
+            "publisher": "blueplanetsociety.org",
+            "title": "blueplanetsociety.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Wild Justice (Ruth Tingay)** agrees that supertrawlers should be banned due to their unsustainable practices, irrespective of their flag",
+        "sources": [
+          {
+            "url": "https://wildjustice.org.uk/guest-election-blog-reform-by-dr-ruth-tingay/",
+            "publisher": "wildjustice.org.uk",
+            "title": "wildjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Oceana UK** highlights that bottom trawling is permitted in 90% of UK MPAs, classifying them as \"paper parks\"",
+        "sources": [
+          {
+            "url": "https://uk.oceana.org/reports/the-case-for-banning-bottom-trawling-in-uk-mpas/",
+            "publisher": "uk.oceana.org",
+            "title": "oceana.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.mongabay.com/short-article/2025/10/uk-rejects-total-ban-on-bottom-trawling-in-offshore-marine-protected-areas/",
+            "publisher": "news.mongabay.com",
+            "title": "mongabay.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://for-the-ocean.org/bottom-trawling-ban/",
+            "publisher": "for-the-ocean.org",
+            "title": "for-the-ocean.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "While supertrawlers are primarily pelagic (mid-water) trawlers and generally do not make contact with the seabed",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2021-01-06/133781",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://petition.parliament.uk/archived/petitions/550730",
+            "publisher": "petition.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Oceana UK estimated that offshore MPAs suffered over 31,000 hours of suspected bottom trawling in 2024",
+        "sources": [
+          {
+            "url": "https://uk.oceana.org/reports/the-case-for-banning-bottom-trawling-in-uk-mpas/",
+            "publisher": "uk.oceana.org",
+            "title": "oceana.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Expert Disagreement:**\nThe **UK Government's** previous stance, as of January 2021, noted that supertrawlers are mostly pelagic and therefore \"unlikely to damage the seabed habitats\" for which most MPAs are designated",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2021-01-06/133781",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://petition.parliament.uk/archived/petitions/550730",
+            "publisher": "petition.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Furthermore, implementing a ban faces complexity due to the UK/EU Trade and Cooperation Agreement, which prohibits discrimination against individual vessels, meaning any ban might need to apply equally to UK and EU vessels within certain areas",
+        "sources": [
+          {
+            "url": "https://thefishingdaily.com/featured-news/boris-fact-checked-on-banning-electric-trawling-and-hoover-trawlers/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2021-01-06/133781",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Likely Real-World Effects:**\nExtending the ban on pair trawling for bass would likely further protect European seabass stocks and reduce the bycatch of marine mammals, particularly dolphins and porpoises, which has been directly attributed to this fishing method",
+        "sources": [
+          {
+            "url": "https://www.ukbass.com/pair-trawling-ban/",
+            "publisher": "ukbass.com",
+            "title": "ukbass.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pair_trawling",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The current ban already exists within the 12-mile territorial limit of the UK",
+        "sources": [
+          {
+            "url": "https://www.ukbass.com/pair-trawling-ban/",
+            "publisher": "ukbass.com",
+            "title": "ukbass.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pair_trawling",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.devonwildlifetrust.org/news/bycatch-22-first-ever-report-exposes-shocking-scale-wildlife-deaths-uk-commercial-fishing",
+            "publisher": "devonwildlifetrust.org",
+            "title": "devonwildlifetrust.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Credible Data and Analysts' Views:**\n*   The **Bass Anglers' Sportfishing Society (BASS)**, which campaigned for the initial ban since 1997, expressed satisfaction with the 12-mile limit but wished it would extend \"more than 12 miles offshore\" to further protect spawning bass and cetaceans",
+        "sources": [
+          {
+            "url": "https://www.ukbass.com/pair-trawling-ban/",
+            "publisher": "ukbass.com",
+            "title": "ukbass.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Wildlife and Countryside Link** noted that while the existing 12-nautical-mile ban had \"some impact on cetacean strandings,\" deaths have unfortunately \"begun climbing again in recent years,\" suggesting the need for further protective measures",
+        "sources": [
+          {
+            "url": "https://www.devonwildlifetrust.org/news/bycatch-22-first-ever-report-exposes-shocking-scale-wildlife-deaths-uk-commercial-fishing",
+            "publisher": "devonwildlifetrust.org",
+            "title": "devonwildlifetrust.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Wikipedia** confirms that pair trawling for bass in the English Channel was banned due to the \"high level of marine mammal bycatch associated\" with the method",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Pair_trawling",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Specific Figures:**\nCommercial fishing in UK waters is estimated to kill over 1,000 cetaceans annually as bycatch",
+        "sources": [
+          {
+            "url": "https://www.devonwildlifetrust.org/news/bycatch-22-first-ever-report-exposes-shocking-scale-wildlife-deaths-uk-commercial-fishing",
+            "publisher": "devonwildlifetrust.org",
+            "title": "devonwildlifetrust.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The UK government announced in February 2019 that EU vessels, including over 80 Dutch vessels, would no longer be able to carry out electric pulse fishing in UK waters after Brexit",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/eu-vessels-prevented-from-electric-shock-fishing-post-brexit",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2019/02/14/eu-vessels-prevented-from-electric-shock-fishing-post-brexit-and-fungi-sites-to-be-protected-for-future-generations/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/local-council/20786516.they-killing-marine-environment-joy-electric-shock-fishing-banned-brexit/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "This ban officially came into effect on January 1, 2021",
+        "sources": [
+          {
+            "url": "https://thefishingdaily.com/featured-news/boris-fact-checked-on-banning-electric-trawling-and-hoover-trawlers/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The European Union itself also implemented an EU-wide ban on pulse fishing in June 2019, which took full effect on July 1, 2021",
+        "sources": [
+          {
+            "url": "https://thefishingdaily.com/featured-news/boris-fact-checked-on-banning-electric-trawling-and-hoover-trawlers/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bluemarinefoundation.com/all-campaigns/stop-electric-fishing/",
+            "publisher": "bluemarinefoundation.com",
+            "title": "bluemarinefoundation.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://britishseafishing.co.uk/pulse-trawling/",
+            "publisher": "britishseafishing.co.uk",
+            "title": "britishseafishing.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://thefishingdaily.com/latest-news/dutch-parliament-pushes-research-to-revive-electric-pulse-fishing/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2018/jan/16/european-parliament-votes-to-end-electric-pulse-fishing",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "**Credible Data and Analysts' Views:**\n*   **Former Fisheries Minister George Eustice (UK Government)** stated in 2019 that there were \"serious concerns about pulse fishing\" and that it was \"wrong that the EU has allowed it to happen\"",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/eu-vessels-prevented-from-electric-shock-fishing-post-brexit",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2019/02/14/eu-vessels-prevented-from-electric-shock-fishing-post-brexit-and-fungi-sites-to-be-protected-for-future-generations/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/local-council/20786516.they-killing-marine-environment-joy-electric-shock-fishing-banned-brexit/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Environmental organizations like Blue Marine Foundation and Bloom Association,** along with small-scale fishermen, successfully campaigned for the EU-wide ban, citing the \"widespread harm\" and \"devastating\" environmental impact of the method, including creating \"deserts\" on the seabed",
+        "sources": [
+          {
+            "url": "https://www.bluemarinefoundation.com/all-campaigns/stop-electric-fishing/",
+            "publisher": "bluemarinefoundation.com",
+            "title": "bluemarinefoundation.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2018/jan/16/european-parliament-votes-to-end-electric-pulse-fishing",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theparliamentmagazine.eu/news/article/eu-parliament-votes-to-ban-pulse-fishing",
+            "publisher": "theparliamentmagazine.eu",
+            "title": "theparliamentmagazine.eu",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **The Scottish Wildlife Trust** notes that understanding of the long-term environmental impact is still \"in its infancy,\" raising concerns about the survival rate of non-target or uncaught animals that are shocked",
+        "sources": [
+          {
+            "url": "https://scottishwildlifetrust.org.uk/wp-content/uploads/2016/09/002_433__electricpulsefishingfactsheet_1467884193.pdf",
+            "publisher": "scottishwildlifetrust.org.uk",
+            "title": "scottishwildlifetrust.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   Proponents, largely from the **Dutch fishing industry**, argued that pulse trawling could offer benefits such as reduced seabed disturbance, lower fuel consumption, and more selective catches compared to traditional beam trawling",
+        "sources": [
+          {
+            "url": "https://scottishwildlifetrust.org.uk/wp-content/uploads/2016/09/002_433__electricpulsefishingfactsheet_1467884193.pdf",
+            "publisher": "scottishwildlifetrust.org.uk",
+            "title": "scottishwildlifetrust.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://thefishingdaily.com/latest-news/dutch-parliament-pushes-research-to-revive-electric-pulse-fishing/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2018/jan/16/european-parliament-votes-to-end-electric-pulse-fishing",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "**Specific Figures:**\nBefore the UK ban, over 80 Dutch vessels held permissions to use pulse fishing in parts of the southern North Sea, including UK waters outside the 12-mile zone",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/eu-vessels-prevented-from-electric-shock-fishing-post-brexit",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2019/02/14/eu-vessels-prevented-from-electric-shock-fishing-post-brexit-and-fungi-sites-to-be-protected-for-future-generations/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.edp24.co.uk/news/local-council/20786516.they-killing-marine-environment-joy-electric-shock-fishing-banned-brexit/",
+            "publisher": "edp24.co.uk",
+            "title": "edp24.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Between January 2019 and June 2020, 8 vessels (7 Dutch, 1 UK) were reportedly using this technique in UK waters",
+        "sources": [
+          {
+            "url": "https://thefishingdaily.com/featured-news/boris-fact-checked-on-banning-electric-trawling-and-hoover-trawlers/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "**Expert Disagreement:**\nHistorically, there was a clear disagreement between the Dutch fishing industry (which developed and heavily utilized pulse fishing) and environmental groups and many small-scale fishermen",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2018/jan/15/european-parliament-to-decide-future-of-pulse-fishing",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://thefishingdaily.com/latest-news/dutch-parliament-pushes-research-to-revive-electric-pulse-fishing/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2018/jan/16/european-parliament-votes-to-end-electric-pulse-fishing",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "While some within the Dutch Parliament have recently pushed for renewed research into small-scale pulse fishing",
+        "sources": [
+          {
+            "url": "https://thefishingdaily.com/latest-news/dutch-parliament-pushes-research-to-revive-electric-pulse-fishing/",
+            "publisher": "thefishingdaily.com",
+            "title": "thefishingdaily.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

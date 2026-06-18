@@ -1,0 +1,551 @@
+{
+  "policy_id": "lab-23-reduce-net-migration-and-reform-the",
+  "party": "Labour",
+  "policy_title": "Reduce Net Migration and Reform the Immigration System",
+  "outcome": "O7",
+  "verdict": {
+    "outcome": "O7",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This immigration policy touches on skills and workforce training, which could in theory nudge domestic skills development, but the training plans are aspirational with no committed budget or statutory mechanism. There is no direct effect on school standards, the attainment gap, or FE funding.",
+    "biggest_unknown": "Whether the promised 'workforce and training plans' translate into funded, delivered domestic skills provision \u2014 or remain aspirational commitments with no legislative teeth.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to linking immigration to skills policy and introducing workforce and training plans for sectors reliant on overseas workers, aiming to end reliance on immigration shortage lists.",
+        "evidence_id": "M",
+        "quote": "workforce and training plans introduced for sectors reliant on overseas workers, ending long-term reliance on immigration shortage lists"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy aims to reform the points-based system by aligning immigration with domestic skills development.",
+        "evidence_id": "E3",
+        "quote": "aligning immigration with domestic skills development"
+      },
+      {
+        "tier": "projected",
+        "claim": "There is genuine uncertainty about whether increasing the domestically trained workforce will automatically lead to a corresponding reduction in migration or improvement in skills supply.",
+        "evidence_id": "E29",
+        "quote": "There is uncertainty about whether increasing the domestically trained workforce will automatically lead to a corresponding reduction in migration"
+      },
+      {
+        "tier": "projected",
+        "claim": "A reduction in migrant labour could lead to skill shortages if domestic training plans are not effectively implemented.",
+        "evidence_id": "E24",
+        "quote": "A reduction in migrant labour, particularly in sectors with high turnover, could lead to skill shortages if not effectively counteracted by increased domestic training and workforce planning"
+      }
+    ],
+    "rationale": "The policy's connection to O7 (education and opportunity) runs primarily through its stated ambition to link immigration restriction to domestic skills development and introduce workforce training plans. These commitments point in a direction that could, in principle, stimulate domestic apprenticeships and FE participation in sectors like health, social care, and construction. However, the policy text contains only soft commitments \u2014 'plans introduced', 'linking immigration to skills policy' \u2014 with no committed budget, statutory duty, or quantified training target cited in the evidence. Under the soft-verb rule, this is insufficient to award an 'improves' direction. The policy says nothing about school standards, the pupil attainment gap, early years provision, or higher education access \u2014 the core O7 indicators. The skills/training angle is real but marginal and contested: evidence notes genuine uncertainty about whether domestic training supply can substitute for migrant labour at scale. On balance, the policy is largely an immigration-restriction measure that gestures at a skills link without delivering a concrete educational mechanism. The effect on O7 fundamentals at population scale is minimal and speculative \u2014 meeting the threshold for 'negligible' rather than a directional verdict. The magnitude is set to minor only because a long-run domestic-training stimulus is logically plausible, but confidence is low given the absence of evidenced delivery mechanisms.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.ibanet.org/labour-emerging-immigration-agenda",
+        "publisher": "ibanet.org",
+        "title": "ibanet.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+        "publisher": "labour.org.uk",
+        "title": "labour.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/labours-pledges-on-migration-the-data/",
+        "publisher": "migrationobservatory.ox.ac.uk",
+        "title": "ox.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/comment/migration-and-the-past-present-and-future-of-the-british-labour-market/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0389,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All four claims are well-supported by their quoted evidence. The tier assignments are correct: the two stated-tier claims draw from the policy text (M) and E3 respectively, and both quotes entail the claims without overstatement. The two projected-tier claims accurately reflect uncertainty language in E29 and E24. The direction 'negligible' with magnitude 'minor' and confidence 'low' is coherent with the rationale: the policy has no direct O7 mechanism (school standards, attainment gap, early years, HE access) and only a speculative skills-training linkage. No lever leakage detected \u2014 the verdict judges the training/skills angle's effect on O7, not immigration policy for its own sake. No party identity language. No false balance issue \u2014 'negligible' is not mixed/too-uncertain so the false_balance rule does not apply. The magnitude/time_horizon pairing ('minor'/'long-term') is consistent with a non-n/a direction. One minor observation: E3 is backed by ibanet.org and labour.org.uk; ibanet.org is a media/advocacy source, but it is used only for a stated-tier claim that is also directly supported by the policy text (M), so this does not rise to a blocking issue."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will reduce net migration by reforming the points-based immigration system with appropriate visa restrictions and linking immigration to skills policy. They will bar employers who abuse the visa system or flout employment law from hiring workers from abroad. The Migration Advisory Committee will be strengthened, and workforce and training plans introduced for sectors reliant on overseas workers, ending long-term reliance on immigration shortage lists.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "They also propose to bar employers who exploit the visa system or flout employment law from hiring workers from abroad",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "However, this reduction was largely influenced by policies initiated by the previous government and an increase in international student emigration, and was largely anticipated irrespective of a change in administration",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/labours-pledges-on-migration-the-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2026/may/21/net-migration-uk-falls-labour-vow-cut-numbers",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Labour's commitment to reducing net migration involves reforming the points-based system with visa restrictions and aligning immigration with domestic skills development",
+        "sources": [
+          {
+            "url": "https://www.ibanet.org/labour-emerging-immigration-agenda",
+            "publisher": "ibanet.org",
+            "title": "ibanet.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Restrictions were also imposed on dependants accompanying workers in these categories",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/labours-pledges-on-migration-the-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Migration Advisory Committee (MAC) Role:** Labour intends to strengthen the MAC, an independent body that advises the government on skilled labour shortages",
+        "sources": [
+          {
+            "url": "https://www.ibanet.org/labour-emerging-immigration-agenda",
+            "publisher": "ibanet.org",
+            "title": "ibanet.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a7eeed240f0b6230268c729/Migration-shortage.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The MAC has reviewed salary thresholds for sponsored work routes, suggesting occupation-specific thresholds based on 25th percentile salary data, while maintaining the general threshold at \u00a341,700",
+        "sources": [
+          {
+            "url": "https://www.fragomen.com/insights/united-kingdom-migration-advisory-committee-review-of-sponsored-work-route-salary-thresholds-published.html",
+            "publisher": "fragomen.com",
+            "title": "fragomen.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The policy includes measures to penalise employers who misuse the visa system or violate employment law",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/labours-pledges-on-migration-the-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "They found that \"tied visas\" can trap workers in poor-quality employment, making it difficult for them to leave abusive situations",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/04/precariousprospects.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/one-in-six-foreign-born-workers-experience-precarious-work/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Proposed Solutions:** To combat this, the Resolution Foundation recommends making it easier for migrant workers to switch sponsors and introducing \"bridging visas.\" They also advocate for a \"data firewall\" between a new Fair Work Agency (FWA) and Immigration Enforcement to enable workers to report abuse without fear of immigration consequences",
+        "sources": [
+          {
+            "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/one-in-six-foreign-born-workers-experience-precarious-work/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "A core element of Labour's policy is to introduce workforce and training plans for sectors reliant on overseas workers, such as health, social care, and construction, aiming to reduce long-term dependence on immigration shortage lists",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/change/kickstart-economic-growth/",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They advocate for comprehensive, long-term national strategies for training, recruiting, and retaining domestic staff",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/42827/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "In June 2019, 13.3% of NHS staff in England were non-British, rising to 28.4% among doctors",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ohAQ8Bue8mqZY0fp1GSiyYnxadssD8yFSaEOENRyErV_EeUgU9cFmyn4DxF8GYovIt92-tAsN49DQ-8oUDmB3ZDaxF1xqkrxSGrLho4RKlyJYqJrzzRbLM7NBffwY_bQnFcq4TlNmZ19M0G35doJm4bPKCVY9iZtFURBG4-yDSZE38DcAB9W2z78atUfb-AwcLo=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "NHS staffing shortages were around 100,000, projected to increase to 250,000 by 2030",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ohAQ8Bue8mqZY0fp1GSiyYnxadssD8yFSaEOENRyErV_EeUgU9cFmyn4DxF8GYovIt92-tAsN49DQ-8oUDmB3ZDaxF1xqkrxSGrLho4RKlyJYqJrzzRbLM7NBffwY_bQnFcq4TlNmZ19M0G35doJm4bPKCVY9iZtFURBG4-yDSZE38DcAB9W2z78atUfb-AwcLo=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Restrictive immigration policies risk worsening these shortages, particularly in social care, where many workers earn below visa salary thresholds",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ohAQ8Bue8mqZY0fp1GSiyYnxadssD8yFSaEOENRyErV_EeUgU9cFmyn4DxF8GYovIt92-tAsN49DQ-8oUDmB3ZDaxF1xqkrxSGrLho4RKlyJYqJrzzRbLM7NBffwY_bQnFcq4TlNmZ19M0G35doJm4bPKCVY9iZtFURBG4-yDSZE38DcAB9W2z78atUfb-AwcLo=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Impact on Shortage Lists:** The closure of the Skilled Worker route for social care in July 2025 and the ineligibility of some middle-skilled occupations for work visas illustrate the move away from reliance on such lists",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/labours-pledges-on-migration-the-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The MAC's ongoing review of shortage occupations will be central to this shift",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a7eeed240f0b6230268c729/Migration-shortage.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "**Economic Impact:**\n*   **GDP and Tax Receipts:** The Office for Budget Responsibility (OBR) generally finds that higher net migration contributes to lower deficits and national debt, as migrants are typically of working age and contribute to the tax base",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/rachel-reeves-labour-tax-immigration-ifs-b2927375.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The Institute for Fiscal Studies (IFS) has warned that a significant reduction in immigration could lead to a shortfall in tax receipts",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/politics/rachel-reeves-labour-tax-immigration-ifs-b2927375.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.the-independent.com/news/uk/politics/rachel-reeves-labour-tax-immigration-ifs-b2927375.html",
+            "publisher": "the-independent.com",
+            "title": "the-independent.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "However, they also noted that these gains could be offset by a rise in the number of working-age adults inactive due to long-term illness",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2024/mar/09/immigration-is-good-for-tax-receipts-and-five-other-things-we-learned-from-the-budget",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "A MAC analysis indicated that \"Skilled Workers\" arriving in 2022/23 had a net positive fiscal impact of \u00a316,300, with households including dependants showing a positive impact of about \u00a312,000",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/how-might-the-uks-new-approach-to-migration-affect-the-economy",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **GDP per Capita:** While overall GDP might decrease with reduced migration, GDP per capita could potentially rise over time",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2026/may/05/reform-uk-immigration-policies-uk-economy-election",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Labour Market:** The Resolution Foundation highlights the substantial impact of migration on the UK labour market",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/demographics/migration/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The OBR notes that migrants arriving for work reasons generally have high labour participation rates, often exceeding 90%",
+        "sources": [
+          {
+            "url": "https://obr.uk/box/net-migration-and-its-impact-on-labour-supply/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "A reduction in migrant labour, particularly in sectors with high turnover, could lead to skill shortages if not effectively counteracted by increased domestic training and workforce planning",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/comment/migration-and-the-past-present-and-future-of-the-british-labour-market/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The IFS suggests that unskilled immigration can increase labour competition for low-skilled workers, potentially leading to falling wages at the lower end of the income distribution",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2026-03/Inequality-and-immigration-IFS-Deaton-Review-of-Inequalities.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Migrants constitute a vital part of the health and care workforce and tend to use NHS services less frequently than the UK-born population, especially recent arrivals",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ohAQ8Bue8mqZY0fp1GSiyYnxadssD8yFSaEOENRyErV_EeUgU9cFmyn4DxF8GYovIt92-tAsN49DQ-8oUDmB3ZDaxF1xqkrxSGrLho4RKlyJYqJrzzRbLM7NBffwY_bQnFcq4TlNmZ19M0G35doJm4bPKCVY9iZtFURBG4-yDSZE38DcAB9W2z78atUfb-AwcLo=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUjlzdiq1S5OhRGP6db-DzVkhZ3SLZrCdawue2WLYz5etnm8QsS43WdXJ-ga-noMfKSVSbceZF95LqbkEVg7h__rvvrLHRR0Xgfa_wushUu7Z3BcThW-7XjCnCtTIMD0jwkOQO8wbKNhfgCTlSw2gljBQzVg9IbBV0ErfXwUwof3kKUHbjdqgel6gNjEOk6MmFRsOIJX7yJfBWtSVAjl0B4hL1ZmCscWmJUJAsqnPQ",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They warn that restrictive immigration policies could worsen existing staffing crises in these sectors",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ohAQ8Bue8mqZY0fp1GSiyYnxadssD8yFSaEOENRyErV_EeUgU9cFmyn4DxF8GYovIt92-tAsN49DQ-8oUDmB3ZDaxF1xqkrxSGrLho4RKlyJYqJrzzRbLM7NBffwY_bQnFcq4TlNmZ19M0G35doJm4bPKCVY9iZtFURBG4-yDSZE38DcAB9W2z78atUfb-AwcLo=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Past official forecasts have often underestimated actual migration figures, and the precise impact of policy changes can be difficult to predict",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/long-term-international-migration-flows-to-and-from-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://obr.uk/box/net-migration-and-its-impact-on-labour-supply/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/how-might-the-uks-new-approach-to-migration-affect-the-economy",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Effectiveness of Domestic Training:** There is uncertainty about whether increasing the domestically trained workforce will automatically lead to a corresponding reduction in migration",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/commentaries/labours-pledges-on-migration-the-data/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Migration can act as a symbolic issue, reflecting broader anxieties about public services or economic insecurity, leading the public to believe migration is rising even when figures indicate a decline",
+        "sources": [
+          {
+            "url": "https://blogs.lse.ac.uk/politicsandpolicy/why-public-attitudes-to-immigration-dont-respond-to-falling-migration/",
+            "publisher": "blogs.lse.ac.uk",
+            "title": "lse.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "For example, restricting skilled worker migration may have a negative fiscal impact, whereas restricting family members of care workers might have a positive one",
+        "sources": [
+          {
+            "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/the-fiscal-impact-of-immigration-in-the-uk/",
+            "publisher": "migrationobservatory.ox.ac.uk",
+            "title": "ox.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "policy_id": "ld-141-strengthen-intelligence-and-security-committee",
+  "party": "Liberal Democrat",
+  "policy_title": "Strengthen Intelligence and Security Committee",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy reforms how the ISC is controlled and staffed, which could improve security scrutiny \u2014 but whether that translates into better real-world national security outcomes is genuinely unclear. It might equally risk sensitive disclosures, and the evidence provided addresses governance, not security effectiveness.",
+    "biggest_unknown": "Whether greater ISC independence meaningfully improves intelligence quality and national-security outcomes, or whether removing executive clearance raises the risk of damaging disclosures.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy gives the ISC power to decide what it publishes and when, and has Parliament elect its members.",
+        "evidence_id": "M",
+        "quote": "giving it the power to decide what it publishes and when, and enabling the Houses of Parliament to elect its members"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Currently the Prime Minister can redact ISC reports on national security grounds before publication.",
+        "evidence_id": "E1",
+        "quote": "ISC reports must be cleared by the Prime Minister (PM) in consultation with the agencies before they can be published, and the PM can redact any material deemed prejudicial to national security"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The current framework has been assessed as having constrained and obstructed the ISC's activities.",
+        "evidence_id": "E3",
+        "quote": "the current framework \"has constrained and obstructed\" the ISC's activities"
+      },
+      {
+        "tier": "projected",
+        "claim": "The traditional government argument is that PM clearance is essential to prevent genuinely harmful disclosures.",
+        "evidence_id": "E4",
+        "quote": "the Prime Minister's ultimate power to clear reports is essential to prevent the disclosure of highly sensitive information that could genuinely harm national security or compromise intelligence operations"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The current ISC chairman has stated governance arrangements are inadequate and preventing proper scrutiny.",
+        "evidence_id": "E14",
+        "quote": "the current governance arrangements and resources of the ISC are \"inadequate and preventing proper scrutiny\""
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether removing executive clearance and shifting member selection improves the quality and independence of security oversight enough to strengthen national security outcomes, or whether it raises the risk of sensitive disclosures that damage operational security.",
+      "estimate_range": "Evidence provided addresses governance legitimacy, not security-outcome effect sizes; no quantified estimates exist in the supplied units."
+    },
+    "rationale": "The policy makes two structural changes: removing the PM's veto over ISC publications, and shifting member selection to Parliament. The evidence confirms the current system constrains the ISC (E3, E14) and has led to controversial delays (E1, E2). However, the evidence provided is almost entirely about democratic accountability and governance legitimacy \u2014 it does not address whether more independent ISC scrutiny produces better intelligence outcomes, fewer security failures, or stronger national resilience at a population scale. The government's counter-position (E4) identifies a plausible harm: that removing executive clearance could allow genuinely sensitive material into the public domain, with real operational costs. Both the 'improves security through better accountability' channel and the 'worsens security through disclosure risk' channel are plausible but unquantified in the evidence supplied. This policy primarily registers on O9 (democratic accountability and oversight). Its effect on O5 \u2014 actual national security posture and resilience \u2014 depends on an empirical question the evidence does not resolve: whether parliamentary oversight quality drives intelligence effectiveness, and at what magnitude. On that specific question, honest assessment is too-uncertain.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/SN02178/SN02178.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://isc.independent.gov.uk/how-the-committee-works/",
+        "publisher": "isc.independent.gov.uk",
+        "title": "independent.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://isc.independent.gov.uk/statements/",
+        "publisher": "isc.independent.gov.uk",
+        "title": "independent.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+        "publisher": "blogs.ucl.ac.uk",
+        "title": "ucl.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://bfpg.co.uk/2025/06/effective-parliamentary-scrutiny-of-foreign-defence-and-security-policy/",
+        "publisher": "bfpg.co.uk",
+        "title": "bfpg.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0408,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-constructed. The too-uncertain direction is genuinely supported by competing plausible channels (better accountability vs. disclosure risk) with no quantified evidence to resolve the question. Tier assignments are appropriate: E3 (Andrew Tyrie/Constitution Unit assessment) is borderline \u2014 an expert opinion stated as measurable fact \u2014 but it is quoted with attribution and the claim hedges slightly ('has been assessed as'), making it acceptable rather than blocking. E14 (Lord Beamish) is advocacy from a directly interested party but is used only to illustrate a corroborating governance concern, not to drive magnitude. The rationale correctly notes evidence addresses governance legitimacy rather than security-outcome effect sizes. Crux parameter and estimate range are substantive, not lazy hedges. No party identity or motive attribution detected. No lever leakage \u2014 the verdict explicitly notes the policy primarily registers on O9 and correctly reasons through the O5 channel only. False balance check passes: both channels are named and grounded in evidence (E3/E14 for accountability improvement; E4 for disclosure risk)."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Strengthen the Intelligence and Security Committee by giving it the power to decide what it publishes and when, and enabling the Houses of Parliament to elect its members.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Currently, ISC reports must be cleared by the Prime Minister (PM) in consultation with the agencies before they can be published, and the PM can redact any material deemed prejudicial to national security",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN02178/SN02178.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/how-the-committee-works/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/statements/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This power has led to significant controversy, such as the protracted delay in publishing the ISC's report on Russia, which was submitted in October 2019 but not released until July 2020, well after the 2019 General Election",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://consoc.org.uk/time-to-reform-the-isc/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Andrew Tyrie, in a report for the Constitution Unit, argues that the current framework \"has constrained and obstructed\" the ISC's activities, and proposes narrowing the scope for ministerial veto",
+        "sources": [
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Potential for National Security Risks (Government's Perspective):** The counter-argument, traditionally made by governments, is that the Prime Minister's ultimate power to clear reports is essential to prevent the disclosure of highly sensitive information that could genuinely harm national security or compromise intelligence operations",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN02178/SN02178.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "**Enabling the Houses of Parliament to Elect its Members:**\n    *   **Greater Independence from the Executive:** Currently, ISC members are nominated by the Prime Minister in consultation with the Leader of the Opposition and then formally appointed by their respective Houses",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/committee-membership/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjwrDYubMhmuo2p0uV9yhIh7LY1QRT2dI-da8LMhPRBAEQyA31bz8qkvJmJtrLU1Lf8YciYeZ-skahcNEDJ42oEoKliK5u6mFm76Wm1noz1Dbqi0pmF-tGF4BhZkA3OWdMx0x6mSdOE6_a3maZjVHdaU6bSw2j1HQoUfoaTFJP-3W1CGsxLznwQvju7H9LDcJbtQ4KZFXRow==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "raggeduniversity.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "While the Committee itself elects its Chair",
+        "sources": [
+          {
+            "url": "https://isc.independent.gov.uk/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/committee-membership/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://constitution-unit.com/2020/07/24/the-intelligence-and-security-committee-and-democratic-accountability/",
+            "publisher": "constitution-unit.com",
+            "title": "constitution-unit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Controversies, such as attempts to influence the election of the ISC Chair (e.g., the situation with Chris Grayling and Julian Lewis), highlight existing tensions",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://constitution-unit.com/2020/07/24/the-intelligence-and-security-committee-and-democratic-accountability/",
+            "publisher": "constitution-unit.com",
+            "title": "constitution-unit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The Constitution Society notes that the ISC has historically \"toed a much finer line\" than standard parliamentary select committees due to its dependence on the government",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/time-to-reform-the-isc/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **House of Commons Library:** Provides detailed, impartial briefings on the ISC's functions, powers, and past reforms, including the Justice and Security Act 2013 which made the ISC a Committee of Parliament but retained the Prime Minister's role in report clearance and member nomination",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn06126/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN02178/SN02178.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjwrDYubMhmuo2p0uV9yhIh7LY1QRT2dI-da8LMhPRBAEQyA31bz8qkvJmJtrLU1Lf8YciYeZ-skahcNEDJ42oEoKliK5u6mFm76Wm1noz1Dbqi0pmF-tGF4BhZkA3OWdMx0x6mSdOE6_a3maZjVHdaU6bSw2j1HQoUfoaTFJP-3W1CGsxLznwQvju7H9LDcJbtQ4KZFXRow==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "raggeduniversity.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **The Constitution Unit (Andrew Tyrie):** A report by Andrew Tyrie for the Constitution Unit explicitly assesses the ISC's powers and concludes that the current framework \"has constrained and obstructed its activities\"",
+        "sources": [
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The report sets out \"detailed proposals for wide-ranging reform,\" including narrowing the scope for ministerial veto over publications and removing limitations on who can be called to give evidence",
+        "sources": [
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Dominic Grieve (former ISC Chair):** As a former Chair, Grieve has been a vocal proponent of reform, citing the controversy over the delayed \"Russia report\" and government attempts to influence the election of the committee's Chair as evidence of the need for greater independence",
+        "sources": [
+          {
+            "url": "https://constitution-unit.com/2020/07/24/the-intelligence-and-security-committee-and-democratic-accountability/",
+            "publisher": "constitution-unit.com",
+            "title": "constitution-unit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consoc.org.uk/time-to-reform-the-isc/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "He has stated that the ISC's ability to act in the public interest ultimately depends on the government's willingness to allow it to do so",
+        "sources": [
+          {
+            "url": "https://constitution-unit.com/2020/07/24/the-intelligence-and-security-committee-and-democratic-accountability/",
+            "publisher": "constitution-unit.com",
+            "title": "constitution-unit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Lord Beamish (current ISC Chairman):** Lord Beamish has publicly stated that the current governance arrangements and resources of the ISC are \"inadequate and preventing proper scrutiny\"",
+        "sources": [
+          {
+            "url": "https://bfpg.co.uk/2025/06/effective-parliamentary-scrutiny-of-foreign-defence-and-security-policy/",
+            "publisher": "bfpg.co.uk",
+            "title": "bfpg.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "He has also criticised the lack of consultation from government departments on intelligence-related reforms, highlighting ongoing issues with the committee's independence and authority",
+        "sources": [
+          {
+            "url": "https://isc.independent.gov.uk/news/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/statements/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Lord Macdonald (former Director of Public Prosecutions):** His ideas for reform, such as ensuring the ISC Chair is always an opposition politician and having an independent secretariat, are seen as valuable contributions to the debate on strengthening the committee",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/time-to-reform-the-isc/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "However, the existing figures illuminate the *problems* the policy aims to address:\n*   The conventional timeframe for the Prime Minister to clear an ISC report for publication is 10 working days, though the \"Russia report\" famously experienced a nine-month delay between submission and release",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/how-the-committee-works/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://consoc.org.uk/time-to-reform-the-isc/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Advocates for strengthened ISC independence** (e.g., Andrew Tyrie, Dominic Grieve, Lord Beamish) argue that the current system grants the executive too much power, hindering the committee's effectiveness and undermining public confidence",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://constitution-unit.com/2020/07/24/the-intelligence-and-security-committee-and-democratic-accountability/",
+            "publisher": "constitution-unit.com",
+            "title": "constitution-unit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/statements/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://consoc.org.uk/time-to-reform-the-isc/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://bfpg.co.uk/2025/06/effective-parliamentary-scrutiny-of-foreign-defence-and-security-policy/",
+            "publisher": "bfpg.co.uk",
+            "title": "bfpg.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **The Executive's traditional position** is implicitly reflected in the current legal framework, notably the Justice and Security Act 2013, which explicitly grants the Prime Minister the authority to redact material and clear reports for publication based on national security concerns",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN02178/SN02178.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://isc.independent.gov.uk/how-the-committee-works/",
+            "publisher": "isc.independent.gov.uk",
+            "title": "independent.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The delays in publishing reports, while controversial, are typically justified by the government on these grounds",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn02178/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Intelligence_and_Security_Committee_of_Parliament",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/06/10/watching-the-watchers-the-intelligence-and-security-committee-from-form-to-substance/",
+            "publisher": "blogs.ucl.ac.uk",
+            "title": "ucl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Their expertise lies in economic, fiscal, social, and health policy respectively",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/major-programme/resolution-foundation-advisory-council/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/about-us/mission/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1NIe75mWMcjZesKK38r15HEX6zyC9mk6zTsIQYoy_oHwXdElnYowZRgLqCwVvSzNf1f2BwlMv17LV7ZE8GZvrMHEWr6j7PT4ICLmp7eZa0vJPJye2euYK-uJ6XL7YBt32_anCbvqyznKOEI13eMfJcgCc4icAgQFHnD7P58JPU6FWAeABDrk0_iRNCE2vWFc=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.chcf.org/resource/how-will-executive-order-artificial-intelligence-impact-health-care/",
+            "publisher": "chcf.org",
+            "title": "chcf.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1URpAJ2i28yy3HC6l_yBCIDkzTyoQXqZPniPDvO4natF2s9E74Qrb1pKp1OKDQd2yOCKojO3d14nrRI3xrAb7qEpNi2Ocx_v2Z7ADD1QjoejTOmc6DQb9A7GOs-uxdnusnTA0x6AYdbp0vdRItfcnlNaMDpZMSNi75cT64zLN-LFcaAga8bL_Wz4=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/mhra-landmark-report-reveals-public-views-on-ai-in-healthcare",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBpM4NkHFaDBJl2vs_hYs3lQNwukPYnpoxmIZ37M8v0wrlMQjBVppMAegfaQSTl0ZtrabI1qu0cGrR9gVYva501hlCMZeNz8go9T2ZTMeRH3xXAmudVZXla3fxATGory0-an9FH3iLJ12Op8rUFkstoiOfS7xaSNxeLA8fJ6HA3VrB_u3sf3BCTmIXPMvsfPvm8r_MiSSz-BCoQXbcjLaebZLMPM730V1Re_Sne5istvhPgPsOSNdxOV6b8w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "senate.gov",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

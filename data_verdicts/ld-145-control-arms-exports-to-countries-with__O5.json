@@ -1,0 +1,492 @@
+{
+  "policy_id": "ld-145-control-arms-exports-to-countries-with",
+  "party": "Liberal Democrat",
+  "policy_title": "Control Arms Exports to Countries with Poor Human Rights Records",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy tightens rules on selling weapons to countries with poor human rights records, which could reduce UK arms fuelling conflicts abroad \u2014 but its effect on the safety and security of people in the UK itself is too indirect to move the O5 needle materially. The main uncertainty is whether restricting UK arms exports meaningfully changes conflict outcomes overseas or UK national security posture.",
+    "biggest_unknown": "Whether reducing UK arms exports to human-rights-concern states would materially alter conflict intensity abroad or UK defence/security relationships in ways that feed back into UK national security.",
+    "claims": [
+      {
+        "tier": "measurable",
+        "claim": "Between 2011 and 2020, the UK licensed \u00a316.8 billion in arms to 39 countries criticised for human rights by Freedom House.",
+        "evidence_id": "E3",
+        "quote": "Between 2011 and 2020, the UK licensed \u00a316.8 billion in arms to 39 countries criticized for human rights by Freedom House"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Parliamentary committees found that in the case of Yemen, the arms export licensing regime 'has not worked' and that UK-supplied weapons have 'inevitably' been involved in IHL violations.",
+        "evidence_id": "E10",
+        "quote": "the arms export licensing regime \"has not worked\" and that UK-supplied weapons have \"inevitably\" been involved in IHL violations by the Saudi-led coalition"
+      },
+      {
+        "tier": "projected",
+        "claim": "A 'presumption of denial' policy would likely result in lost contracts and decreased arms export revenue, particularly from key Middle East markets.",
+        "evidence_id": "E17",
+        "quote": "A \"presumption of denial\" policy would likely result in lost contracts and a decrease in arms export revenue, particularly from key markets in the Middle East, which accounted for 26% of UK defence exports from 2020-2024"
+      }
+    ],
+    "rationale": "O5 is defined as the protective good \u2014 crime, justice, national security, and safety for people in the UK. This policy operates primarily on the export side of the UK defence industry, restricting arms sales to states with poor human rights records. Its connection to O5 is indirect: the main mechanism would be that fewer UK weapons reach conflict zones, potentially reducing armed violence abroad. However, there is no cited evidence that this feeds back into UK streets being safer, UK national security being stronger, or the UK justice system functioning better. The evidence shows substantial past arms exports to human-rights-concern states (E3, E10), and that existing controls have demonstrably failed in cases like Yemen (E10). The policy would tighten those controls. But the O5 rubric scores safety and security for people in the UK \u2014 not the humanitarian consequences for people in recipient countries (which are real but belong to other frameworks). There is a theoretical argument that arms proliferation to unstable states eventually creates blowback security risks for the UK, but no provided evidence supports this mechanism at a scale that would move UK national security indicators. The verdict is therefore negligible on O5: the policy addresses a real problem (arms to abusive states) but its primary effects land on O6/O9/O15-type outcomes, not on UK crime rates, court backlogs, or defence posture as measured by O5 indicators.",
+    "sources": [
+      {
+        "url": "https://www.middleeasteye.net/news/uk-arms-sales-dozens-countries-criticised-human-rights",
+        "publisher": "middleeasteye.net",
+        "title": "middleeasteye.net",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/world/2021/dec/12/new-rules-on-uk-arms-trade-make-it-easier-to-sideline-human-rights",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.parliament.uk/external/committees/commons-select/business-innovation-and-skills/news/2016/uk-arms-yemen-report-published-16-17/",
+        "publisher": "parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8310/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8310/CBP-8310.pdf",
+        "publisher": "researchbriefings.files.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.gov.uk/government/statistics/uk-defence-export-statistics-2024/uk-defence-export-statistics-2024",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0325,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims are supported by their quoted evidence. Tier assignments are correct: E3 is a measurable historical figure from cited media/advocacy sources (appropriately flagged as low confidence); E10 is a parliamentary committee finding, reasonably classified measurable; E17 is a projection, correctly tiered. The direction 'negligible' with magnitude 'minor' and time_horizon 'long-term' is internally consistent \u2014 the hard rule applies only to 'too-uncertain', which is not used here. The rationale is party-blind, avoids motive attribution, and correctly distinguishes O5 (UK safety/security) from humanitarian effects abroad. No lever leakage: the verdict judges the policy's effect on UK national security/safety, not on arms export policy for its own sake. No false balance issue: 'negligible' is a directional verdict, not mixed/too-uncertain, and the reasoning is coherent. One minor note: E3 and E4 originate partly from CAAT (advocacy), but they are used only as measurable baseline figures for scale, not as the sole basis for the verdict direction, so this is acceptable under the sourcing rules."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "The policy introduces a 'presumption of denial' for arms exports to governments listed as human rights concerns in the Foreign Office's annual human rights report.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Controlling arms exports to countries with poor human rights records. Introduce a \u2018presumption of denial\u2019 for arms exports to governments listed as human rights concerns in the Foreign Office\u2019s annual human rights report.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The UK government maintains that it operates \"one of the most robust arms export control regimes in the world\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8312/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.middleeasteye.net/news/revealed-britains-secret-arms-sales-middle-east-human-rights-abusers",
+            "publisher": "middleeasteye.net",
+            "title": "middleeasteye.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "These criteria consider, among other things, the risk that exported goods might be used to violate human rights or international humanitarian law (IHL)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8312/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://aoav.org.uk/wp-content/uploads/2023/12/8a98eb02-6a88-46bc-9074-50ee9adf7c00.pdf",
+            "publisher": "aoav.org.uk",
+            "title": "aoav.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Between 2011 and 2020, the UK licensed \u00a316.8 billion in arms to 39 countries criticized for human rights by Freedom House",
+        "sources": [
+          {
+            "url": "https://www.middleeasteye.net/news/uk-arms-sales-dozens-countries-criticised-human-rights",
+            "publisher": "middleeasteye.net",
+            "title": "middleeasteye.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/world/2021/dec/12/new-rules-on-uk-arms-trade-make-it-easier-to-sideline-human-rights",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "CAAT further found that \u00a311.8 billion of arms were authorized to countries on the Foreign, Commonwealth and Development Office's (FCDO) own list of repressive regimes during the same period",
+        "sources": [
+          {
+            "url": "https://www.middleeasteye.net/news/uk-arms-sales-dozens-countries-criticised-human-rights",
+            "publisher": "middleeasteye.net",
+            "title": "middleeasteye.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "From 2008 to 2017, an estimated \u00a312 billion of \u00a339 billion in military arms deals went to states on the FCO's human rights \"priority countries\" list",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/global-development/2018/dec/21/one-third-of-uk-arms-sales-go-to-states-on-human-rights-watchlist-say-analysts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "In 2019 alone, \u00a31.3 billion in export licences were approved for countries categorized by Freedom House as \"not free\"",
+        "sources": [
+          {
+            "url": "https://bylinetimes.com/2021/01/14/brexit-boost-for-arms-industry-and-human-rights-abusers-as-global-britain-gets-underway/",
+            "publisher": "bylinetimes.com",
+            "title": "bylinetimes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "More recently, over half of Single Individual Export Licences (SIELs) issued in 2020 and 2021 were to human rights-abusing states, including \u00a3241 million to Saudi Arabia, \u00a3271 million to India, and \u00a3306 million to Turkey",
+        "sources": [
+          {
+            "url": "https://caat.org.uk/news/new-research-shows-over-half-of-uk-arms-exports-are-to-human-rights-abusers/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "CAAT estimates these account for roughly half of all UK arms exports",
+        "sources": [
+          {
+            "url": "https://caat.org.uk/news/new-research-shows-over-half-of-uk-arms-exports-are-to-human-rights-abusers/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecanary.co/uk/news/2026/03/18/uk-arms-exports-soar-to-a-record-9-2bn-as-transparency-declines/",
+            "publisher": "thecanary.co",
+            "title": "thecanary.co",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.middleeasteye.net/news/revealed-britains-secret-arms-sales-middle-east-human-rights-abusers",
+            "publisher": "middleeasteye.net",
+            "title": "middleeasteye.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Interpretation of \"Clear Risk\":** The existing criteria stipulate that a licence should not be granted if there is a \"clear risk\" that the items might be used for internal repression or serious violations of IHL",
+        "sources": [
+          {
+            "url": "https://aoav.org.uk/wp-content/uploads/2023/12/8a98eb02-6a88-46bc-9074-50ee9adf7c00.pdf",
+            "publisher": "aoav.org.uk",
+            "title": "aoav.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "However, reports from the House of Commons International Development Committee and Business, Innovation and Skills Committee, for example, have stated that in the case of Yemen, the arms export licensing regime \"has not worked\" and that UK-supplied weapons have \"inevitably\" been involved in IHL violations by the Saudi-led coalition",
+        "sources": [
+          {
+            "url": "https://www.parliament.uk/external/committees/commons-select/business-innovation-and-skills/news/2016/uk-arms-yemen-report-published-16-17/",
+            "publisher": "parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Oxfam similarly criticizes that ministers appear to have discretion, allowing exports even if they deem the risk of a breach \"theoretical,\" thereby making it easier to overlook human rights concerns",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/world/2021/dec/12/new-rules-on-uk-arms-trade-make-it-easier-to-sideline-human-rights",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oxfam.org.uk/documents/786/Oxfam_GB_Briefing_-_Humanitarian_Impact_of_Arms_Sales_1.pdf",
+            "publisher": "oxfam.org.uk",
+            "title": "oxfam.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "A new provision stating that a licence would not be refused for a \"purely theoretical risk\" was particularly contentious",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/world/2021/dec/12/new-rules-on-uk-arms-trade-make-it-easier-to-sideline-human-rights",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Specific Figures (Illustrative based on past exports):** If applied retrospectively, this could have impacted a significant portion of the \u00a316.8 billion in arms licensed to 39 human rights-criticized countries between 2011 and 2020",
+        "sources": [
+          {
+            "url": "https://www.middleeasteye.net/news/uk-arms-sales-dozens-countries-criticised-human-rights",
+            "publisher": "middleeasteye.net",
+            "title": "middleeasteye.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "More recently, it would directly affect countries like Saudi Arabia, India, and Turkey, which received hundreds of millions in SIELs even with human rights concerns",
+        "sources": [
+          {
+            "url": "https://caat.org.uk/news/new-research-shows-over-half-of-uk-arms-exports-are-to-human-rights-abusers/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "**Enhanced UK Credibility on Human Rights:** Adopting a \"presumption of denial\" would align the UK's arms export policy more closely with its stated commitment to human rights and international law, potentially enhancing its international standing and reducing accusations of hypocrisy",
+        "sources": [
+          {
+            "url": "https://worldpeacefoundation.org/blog/missing-in-action-uk-arms-export-controls-during-war-and-armed-conflict/",
+            "publisher": "worldpeacefoundation.org",
+            "title": "worldpeacefoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wilpf.org/a-legal-duty-and-a-moral-imperative-the-uk-must-halt-its-arms-transfers-to-israel/",
+            "publisher": "wilpf.org",
+            "title": "wilpf.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Economic Impact on the UK Defence Industry:** The defence industry is a significant sector for the UK, with defence orders worth an estimated \u00a313.2 billion in 2024",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8310/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/statistics/uk-defence-export-statistics-2024/uk-defence-export-statistics-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "A \"presumption of denial\" policy would likely result in lost contracts and a decrease in arms export revenue, particularly from key markets in the Middle East, which accounted for 26% of UK defence exports from 2020-2024",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8310/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8310/CBP-8310.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/statistics/uk-defence-export-statistics-2024/uk-defence-export-statistics-2024",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The aerospace sector, which dominates UK defence exports (53% of total value from 2020-2024), could be particularly affected",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8310/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "**Increased Transparency:** The implementation of such a policy might necessitate greater transparency in identifying \"human rights concern\" countries and in the licensing process itself, potentially reducing the reliance on opaque \"open licences\" that currently limit public scrutiny",
+        "sources": [
+          {
+            "url": "https://caat.org.uk/news/new-research-shows-over-half-of-uk-arms-exports-are-to-human-rights-abusers/",
+            "publisher": "caat.org.uk",
+            "title": "caat.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecanary.co/uk/news/2026/03/18/uk-arms-exports-soar-to-a-record-9-2bn-as-transparency-declines/",
+            "publisher": "thecanary.co",
+            "title": "thecanary.co",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.middleeasteye.net/news/revealed-britains-secret-arms-sales-middle-east-human-rights-abusers",
+            "publisher": "middleeasteye.net",
+            "title": "middleeasteye.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ipisresearch.be/wp-content/uploads/2023/02/20230206_Vredesactie_IPIS_a-human-rights-perspective-on-arms-export-licensing-and-access-to-information.pdf",
+            "publisher": "ipisresearch.be",
+            "title": "ipisresearch.be",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oxfam.org.uk/documents/786/Oxfam_GB_Briefing_-_Humanitarian_Impact_of_Arms_Sales_1.pdf",
+            "publisher": "oxfam.org.uk",
+            "title": "oxfam.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Government Position:** The government consistently asserts the robustness of its controls and its adherence to international obligations",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/global-development/2018/dec/21/one-third-of-uk-arms-sales-go-to-states-on-human-rights-watchlist-say-analysts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8312/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://worldpeacefoundation.org/blog/missing-in-action-uk-arms-export-controls-during-war-and-armed-conflict/",
+            "publisher": "worldpeacefoundation.org",
+            "title": "worldpeacefoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.middleeasteye.net/news/revealed-britains-secret-arms-sales-middle-east-human-rights-abusers",
+            "publisher": "middleeasteye.net",
+            "title": "middleeasteye.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **NGOs and Academics:** Groups like CAAT, Oxfam, and the World Peace Foundation argue that the current system is inherently flawed, with a \"narrow interpretation of risk\"",
+        "sources": [
+          {
+            "url": "https://worldpeacefoundation.org/blog/missing-in-action-uk-arms-export-controls-during-war-and-armed-conflict/",
+            "publisher": "worldpeacefoundation.org",
+            "title": "worldpeacefoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "and ministerial discretion allowing for continued sales despite clear human rights concerns",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/world/2021/dec/12/new-rules-on-uk-arms-trade-make-it-easier-to-sideline-human-rights",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.oxfam.org.uk/documents/786/Oxfam_GB_Briefing_-_Humanitarian_Impact_of_Arms_Sales_1.pdf",
+            "publisher": "oxfam.org.uk",
+            "title": "oxfam.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They contend that the existing controls serve a \"legitimising function\" rather than truly restricting exports",
+        "sources": [
+          {
+            "url": "https://worldpeacefoundation.org/blog/missing-in-action-uk-arms-export-controls-during-war-and-armed-conflict/",
+            "publisher": "worldpeacefoundation.org",
+            "title": "worldpeacefoundation.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

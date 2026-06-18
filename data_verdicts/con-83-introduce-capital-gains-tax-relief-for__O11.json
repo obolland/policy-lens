@@ -1,0 +1,448 @@
+{
+  "policy_id": "con-83-introduce-capital-gains-tax-relief-for",
+  "party": "Conservative",
+  "policy_title": "Introduce Capital Gains Tax Relief for Landlords Selling to Tenants",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "Landlords who sell to existing tenants would pay no CGT on those gains, directly raising the money they keep from the sale. However, the policy is estimated to cost only \u00a320 million a year, meaning very few households are affected at population scale.",
+    "biggest_unknown": "Whether and how much of the tax saving landlords pass on to tenants through a lower sale price, and whether tenants can actually afford to buy at all.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy introduces a two-year temporary CGT relief for landlords selling to existing tenants.",
+        "evidence_id": "M",
+        "quote": "introduce a two-year temporary Capital Gains Tax relief for landlords who sell their properties to their existing tenants"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Current CGT rates on residential property are 18% for basic-rate taxpayers and 24% for higher and additional-rate taxpayers on gains above the \u00a33,000 annual exempt amount.",
+        "evidence_id": "E4",
+        "quote": "current CGT rates on residential property for 2025/26 are 18% for basic-rate taxpayers and 24% for higher and additional-rate taxpayers on gains above the \u00a33,000 annual exempt amount"
+      },
+      {
+        "tier": "projected",
+        "claim": "A 2018 Onward report suggested the relief could deliver an average CGT saving of around \u00a315,000 per property, potentially shared between landlord and tenant at \u00a37,500 each.",
+        "evidence_id": "E6",
+        "quote": "a 100% CGT relief for landlords selling to a long-term tenant could lead to an average CGT saving of \u00a315,000 per property, which could potentially be shared, gifting both landlord and tenant \u00a37,500 each"
+      },
+      {
+        "tier": "projected",
+        "claim": "The Conservative manifesto estimates the policy will cost \u00a320 million a year, implying limited uptake.",
+        "evidence_id": "E7",
+        "quote": "The Conservative manifesto estimates the policy will cost \u00a320 million a year, implying a relatively limited uptake"
+      },
+      {
+        "tier": "projected",
+        "claim": "Many tenants may be unable to purchase even with a potential saving, constraining take-up further.",
+        "evidence_id": "E8",
+        "quote": "many tenants not being in a financial position to purchase their rented property, even with a potential saving"
+      }
+    ],
+    "rationale": "The policy directly reduces the CGT liability of landlords who sell to sitting tenants, raising the net proceeds they keep from the transaction \u2014 a clear O11 improvement for that group. At current rates of 18\u201324% on gains above \u00a33,000, the relief is financially meaningful per transaction, with one estimate suggesting savings of around \u00a315,000 per property. However, the policy's own costings imply only a small number of transactions will occur annually (\u00a320m at roughly \u00a315,000 saving per sale implies roughly 1,300 transactions a year at most). This is a real but narrow benefit concentrated among a small subset of landlords. The O11 gain to tenants is conditional and uncertain: it depends on landlords passing savings through as a price discount, which is not guaranteed and is not a stated policy requirement. Many tenants also lack the financial capacity to buy regardless, further limiting reach. The policy does not affect the broader tax burden of the general household population. On balance, the direction is a genuine O11 improvement \u2014 landlords in scope keep more of their gains \u2014 but the magnitude is minor because the population affected is very small. The IFS and Resolution Foundation advocate for broader CGT reform rather than targeted reliefs of this kind, but those are reform preferences rather than evidence that this specific measure fails to deliver its narrow tax benefit to those who use it.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://landlordassociation.org.uk/capital-gains-tax-and-selling-a-rental-property-smart-tax-strategies-for-landlords-in-england/",
+        "publisher": "landlordassociation.org.uk",
+        "title": "landlordassociation.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://danielwolfson.co.uk/capital-gains-tax-buy-to-let-uk/",
+        "publisher": "danielwolfson.co.uk",
+        "title": "danielwolfson.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn05572/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.totallandlordinsurance.co.uk/knowledge-centre/taxes-for-uk-landlords",
+        "publisher": "totallandlordinsurance.co.uk",
+        "title": "totallandlordinsurance.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://thenegotiator.co.uk/news/neil-obrien-cgt-landlords-long-term-tenants/",
+        "publisher": "thenegotiator.co.uk",
+        "title": "thenegotiator.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.landlordtoday.co.uk/breaking-news/2024/06/capital-gains-tax-scrapped-for-landlords-selling-to-tenants-tory-pledge/",
+        "publisher": "landlordtoday.co.uk",
+        "title": "landlordtoday.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://todaysconveyancer.co.uk/sunak-pledges-tax-relief-landlords-first-time-buyers-conservative-manifesto/",
+        "publisher": "todaysconveyancer.co.uk",
+        "title": "todaysconveyancer.co.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0364,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim 3 cites a 2018 Onward report (described in E6 as 'a centre-right think tank with links to the Conservative Party') as the basis for the \u00a315,000/\u00a37,500 saving estimate. This is an advocacy source with a party affiliation. The verdict does use it only as a projected illustration and attributes it correctly, but the rationale then uses it to anchor a transaction-count calculation (~1,300/year). This arithmetic inference is not itself sourced and compounds the reliance on a single partisan estimate."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim 4 quotes E7 which is from landlordtoday.co.uk paraphrasing the Conservative manifesto. The \u00a320m figure is attributed to the manifesto but the evidence unit is a trade media source, not the manifesto itself. The verdict should ideally source this directly from the manifesto or OBR; E15 explicitly notes no direct OBR statement was found."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Direction (improves), magnitude (minor), and time horizon are well-justified and internally consistent. The biggest_unknown is honest and relevant. The IFS/Resolution Foundation references are used appropriately as context rather than to negate the narrow benefit. No tier confusion, no lever leakage, no party bias, no false balance. The two warnings above are about sourcing robustness rather than logical errors \u2014 the verdict can pass with these caveats noted."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will introduce a two-year temporary Capital Gains Tax relief for landlords who sell their properties to their existing tenants.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This policy aims to incentivize landlords to sell to their renters and assist tenants in becoming homeowners.",
+        "sources": [
+          {
+            "url": "https://www.mylondonhome.com/blog/conservatives-promise-no-capital-gains-tax-for-landlords-selling-to-tenants",
+            "publisher": "mylondonhome.com",
+            "title": "mylondonhome.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.landlordtoday.co.uk/breaking-news/2024/06/capital-gains-tax-scrapped-for-landlords-selling-to-tenants-tory-pledge/",
+            "publisher": "landlordtoday.co.uk",
+            "title": "landlordtoday.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://todaysconveyancer.co.uk/sunak-pledges-tax-relief-landlords-first-time-buyers-conservative-manifesto/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Increased Sales to Sitting Tenants:** The primary expected effect is to facilitate smoother transactions and potentially increase the number of properties sold directly to existing tenants.",
+        "sources": [
+          {
+            "url": "https://www.mylondonhome.com/blog/conservatives-promise-no-capital-gains-tax-for-landlords-selling-to-tenants",
+            "publisher": "mylondonhome.com",
+            "title": "mylondonhome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Financial Benefit for Landlords:** Landlords stand to gain significant financial savings by being exempt from CGT, which could increase the profitability of selling to their tenants compared to an open market sale.",
+        "sources": [
+          {
+            "url": "https://www.mylondonhome.com/blog/conservatives-promise-no-capital-gains-tax-for-landlords-selling-to-tenants",
+            "publisher": "mylondonhome.com",
+            "title": "mylondonhome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "For context, current CGT rates on residential property for 2025/26 are 18% for basic-rate taxpayers and 24% for higher and additional-rate taxpayers on gains above the \u00a33,000 annual exempt amount.",
+        "sources": [
+          {
+            "url": "https://landlordassociation.org.uk/capital-gains-tax-and-selling-a-rental-property-smart-tax-strategies-for-landlords-in-england/",
+            "publisher": "landlordassociation.org.uk",
+            "title": "landlordassociation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://danielwolfson.co.uk/capital-gains-tax-buy-to-let-uk/",
+            "publisher": "danielwolfson.co.uk",
+            "title": "danielwolfson.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05572/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.totallandlordinsurance.co.uk/knowledge-centre/taxes-for-uk-landlords",
+            "publisher": "totallandlordinsurance.co.uk",
+            "title": "totallandlordinsurance.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Opportunity for Tenants to Buy:** For tenants, this relief could increase their chances of getting onto the housing ladder.",
+        "sources": [
+          {
+            "url": "https://www.landlordtoday.co.uk/breaking-news/2024/06/capital-gains-tax-scrapped-for-landlords-selling-to-tenants-tory-pledge/",
+            "publisher": "landlordtoday.co.uk",
+            "title": "landlordtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "A 2018 report by Onward, a centre-right think tank with links to the Conservative Party, suggested that a 100% CGT relief for landlords selling to a long-term tenant could lead to an average CGT saving of \u00a315,000 per property, which could potentially be shared, gifting both landlord and tenant \u00a37,500 each.",
+        "sources": [
+          {
+            "url": "https://thenegotiator.co.uk/news/neil-obrien-cgt-landlords-long-term-tenants/",
+            "publisher": "thenegotiator.co.uk",
+            "title": "thenegotiator.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Limited Uptake Expected:** The Conservative manifesto estimates the policy will cost \u00a320 million a year, implying a relatively limited uptake.",
+        "sources": [
+          {
+            "url": "https://www.landlordtoday.co.uk/breaking-news/2024/06/capital-gains-tax-scrapped-for-landlords-selling-to-tenants-tory-pledge/",
+            "publisher": "landlordtoday.co.uk",
+            "title": "landlordtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "This could be due to a number of factors, including many tenants not being in a financial position to purchase their rented property, even with a potential saving.",
+        "sources": [
+          {
+            "url": "https://todaysconveyancer.co.uk/sunak-pledges-tax-relief-landlords-first-time-buyers-conservative-manifesto/",
+            "publisher": "todaysconveyancer.co.uk",
+            "title": "todaysconveyancer.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Impact on Housing Supply:** The policy is designed to \"free up more housing stock\"",
+        "sources": [
+          {
+            "url": "https://www.landlordtoday.co.uk/breaking-news/2024/06/capital-gains-tax-scrapped-for-landlords-selling-to-tenants-tory-pledge/",
+            "publisher": "landlordtoday.co.uk",
+            "title": "landlordtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "They have suggested that CGT should ideally be reformed to be charged only on real (inflation-adjusted) increases in value.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/its-time-stamp-tax-penalises-landlords-and-renters",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They also note that landlords' returns are both \"under-taxed\" (in terms of rates compared to income from work) and \"over-taxed\" (by taxing purely inflationary returns).",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2025-11/Reforming-the-taxation-of-housing-Stuart-Adam-Nov-2025.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "They have suggested aligning marginal CGT rates on property with income tax rates, and taxing property capital gains like wages, with inflation-indexing.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/09/Revenue-and-Reform.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/revenue-and-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.landlordzone.co.uk/news/report-thinktank-says-landlords-should-pay-more-tax-to-balance-inequality",
+            "publisher": "landlordzone.co.uk",
+            "title": "landlordzone.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "A 2014 report by the Resolution Foundation also explored incentivizing landlords through tax relief linked to accreditation standards.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/comment/a-fair-deal-for-tenants-and-landlords/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "For example, for 2025/26, the annual exempt amount for CGT is \u00a33,000.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05572/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.getground.co.uk/resources/blog/tax-strategies-for-landlords-property-investment-tax-efficiency",
+            "publisher": "getground.co.uk",
+            "title": "getground.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Office for Budget Responsibility (OBR):** While the Conservative manifesto's costing of \u00a320 million annually for this policy would likely have been scrutinised by the OBR, the search results do not contain a direct OBR report or statement specifically detailing their assessment of this particular relief.",
+        "sources": [
+          {
+            "url": "https://www.landlordtoday.co.uk/breaking-news/2024/06/capital-gains-tax-scrapped-for-landlords-selling-to-tenants-tory-pledge/",
+            "publisher": "landlordtoday.co.uk",
+            "title": "landlordtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The low estimated cost of \u00a320 million",
+        "sources": [
+          {
+            "url": "https://www.landlordtoday.co.uk/breaking-news/2024/06/capital-gains-tax-scrapped-for-landlords-selling-to-tenants-tory-pledge/",
+            "publisher": "landlordtoday.co.uk",
+            "title": "landlordtoday.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Fairness and Broader Tax Reform:** The policy introduces a specific relief that could be seen as advantageous to a subset of landlords, while organizations like the IFS and Resolution Foundation often advocate for more comprehensive reforms to CGT that aim to either broaden the tax base, increase rates, or introduce inflation-indexing to address wider issues of fairness and economic efficiency.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/its-time-stamp-tax-penalises-landlords-and-renters",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2024/09/Revenue-and-Reform.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/revenue-and-reform/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.landlordzone.co.uk/news/report-thinktank-says-landlords-should-pay-more-tax-to-balance-inequality",
+            "publisher": "landlordzone.co.uk",
+            "title": "landlordzone.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/2025-11/Reforming-the-taxation-of-housing-Stuart-Adam-Nov-2025.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The 2018 Onward suggestion of sharing the saving",
+        "sources": [
+          {
+            "url": "https://thenegotiator.co.uk/news/neil-obrien-cgt-landlords-long-term-tenants/",
+            "publisher": "thenegotiator.co.uk",
+            "title": "thenegotiator.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **\"Accidental Landlords\":** The policy might be particularly attractive to \"accidental landlords\" (those who let out a former main residence) who are looking to exit the rental market, especially given the significant tightening of \"Lettings Relief\" since April 2020, which now only applies in very specific circumstances where the landlord shared occupancy with the tenant.",
+        "sources": [
+          {
+            "url": "https://landlordassociation.org.uk/capital-gains-tax-and-selling-a-rental-property-smart-tax-strategies-for-landlords-in-england/",
+            "publisher": "landlordassociation.org.uk",
+            "title": "landlordassociation.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.taxd.co.uk/taxdpedia/lettings-relief",
+            "publisher": "taxd.co.uk",
+            "title": "taxd.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=gITZ-Vm-cuE",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

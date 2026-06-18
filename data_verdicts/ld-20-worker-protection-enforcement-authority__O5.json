@@ -1,0 +1,599 @@
+{
+  "policy_id": "ld-20-worker-protection-enforcement-authority",
+  "party": "Liberal Democrat",
+  "policy_title": "Worker Protection Enforcement Authority",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Consolidating labour enforcement agencies into one body \u2014 including powers to tackle modern slavery \u2014 could improve justice for victims of serious labour crimes. However, the effect on O5 specifically depends on how much enforcement capacity actually improves; funding and implementation are uncertain.",
+    "biggest_unknown": "Whether the new body receives adequate funding and powers to materially increase detection and prosecution of modern slavery and labour exploitation, versus being a structural reorganisation with little practical gain.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy explicitly includes tackling modern slavery as one of the unified enforcement responsibilities.",
+        "evidence_id": "M",
+        "quote": "tackling modern slavery and protecting agency workers"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Labour market enforcement is currently fragmented across multiple agencies, limiting coordinated action against exploitation.",
+        "evidence_id": "E3",
+        "quote": "consolidating fragmented enforcement functions across bodies like HMRC's National Minimum Wage unit, the Gangmasters and Labour Abuse Authority (GLAA), and the Employment Agency Standards Inspectorate (EAS)"
+      },
+      {
+        "tier": "projected",
+        "claim": "Consolidation is expected to enable more coordinated and effective tackling of labour market abuses including exploitation.",
+        "evidence_id": "E3",
+        "quote": "the new authority is expected to enable a more coordinated and effective approach to tackling labour market abuses"
+      },
+      {
+        "tier": "projected",
+        "claim": "Migrant workers' fear of immigration repercussions currently deters reporting of abuse; a firewall could improve detection of non-compliance.",
+        "evidence_id": "E17",
+        "quote": "vulnerable migrant workers feel safe reporting abuses without fear of immigration repercussions, thus improving the agency's ability to detect non-compliance"
+      },
+      {
+        "tier": "projected",
+        "claim": "Without adequate protections for migrant workers, fear of reporting exploitation may undermine the authority's effectiveness.",
+        "evidence_id": "E29",
+        "quote": "migrant workers may remain fearful of reporting exploitation, undermining the authority's effectiveness"
+      }
+    ],
+    "rationale": "Modern slavery is both a serious crime and a justice concern squarely within O5. The policy directly names 'tackling modern slavery' as a remit of the new authority. Currently enforcement is fragmented across the GLAA, HMRC NMW unit, and EAS, limiting the coordinated response needed to detect and prosecute exploitation networks. Consolidation could improve investigative capacity and create a clearer route for victims to report crimes, which in principle supports better justice outcomes. The projected benefit to migrant worker reporting is real but conditional on an immigration firewall being established \u2014 without it, fear of reporting remains a barrier. The magnitude is kept minor rather than moderate because: (1) all positive effects are projected, not measured; (2) the evidence base is primarily from one institutional source (Resolution Foundation \u2014 institutional, not advocacy, but concentrated); (3) funding adequacy is flagged as genuinely uncertain; and (4) the O5 effect is specifically the crime/justice dimension (modern slavery, exploitation prosecutions) of what is primarily a labour-rights policy \u2014 the bulk of the policy's impact falls on O4. The direction is nonetheless 'improves' because the evidence, while uncertain in magnitude, consistently points toward better enforcement of serious crimes with no credible cited counter-evidence that consolidation worsens safety outcomes.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+        "publisher": "resolutionfoundation.org",
+        "title": "resolutionfoundation.org",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10109/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+        "publisher": "ein.org.uk",
+        "title": "ein.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0352,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are well-supported by their quoted evidence at the correct tier. The measurable claim in E3 is drawn from a description of the consolidation rationale rather than a hard statistic, but it is adequately supported as a factual description of the current fragmented structure (corroborated by E23 from the Commons Library). The projected claims are correctly tiered and do not overstate their quotes. Tier integrity holds: no projections presented as measurable facts. Magnitude (minor) and time_horizon (this-parliament) are justified given the concentration of uncertainty around funding and implementation. The too-uncertain rule does not apply here. No lever leakage: the rationale correctly focuses on modern slavery and exploitation prosecution as the O5 mechanism, explicitly noting the bulk of policy impact falls on O4. No party identity language or motive attribution detected. The direction 'improves' is supported by consistently pro-enforcement claims with no counter-claim evidence cited, so false_balance is not an issue. One minor observation: E17 and E29 both originate from sources that include ein.org.uk (media), but neither is the sole basis for the verdict \u2014 the direction rests on the stated policy and institutional sources. Resolution Foundation concentration is noted in the rationale itself, which is appropriate transparency."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "Adequate powers and funding are identified as essential for the new agency's success.",
+          "evidence_id": "E27",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Establish a powerful new Worker Protection Enforcement Authority unifying responsibilities currently spread across three agencies \u2013 including enforcing the minimum wage, tackling modern slavery and protecting agency workers.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This body is frequently referred to as a \"Single Enforcement Body\" (SEB) or \"Fair Work Agency\" (FWA) by key analysts and political parties.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.shrm.org/topics-tools/employment-law-compliance/uk--unpacking-the-labor-party-s-proposed-employment-law-reforms",
+            "publisher": "shrm.org",
+            "title": "shrm.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The policy seeks to address widespread non-compliance with labour laws and improve protections for vulnerable workers.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "**Improved Enforcement and Reduced Labour Market Abuses:** By consolidating fragmented enforcement functions across bodies like HMRC's National Minimum Wage unit, the Gangmasters and Labour Abuse Authority (GLAA), and the Employment Agency Standards Inspectorate (EAS), the new authority is expected to enable a more coordinated and effective approach to tackling labour market abuses.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10109/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This could lead to a significant reduction in practices such as minimum wage underpayment, denial of holiday pay, and lack of payslips.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "**Enhanced Worker Protection:** The authority would provide a single, clear point of contact for workers to report concerns, which is expected to increase reporting rates.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "It would also bring new rights into its scope, such as the enforcement of sick and holiday pay, which were previously not covered by any dedicated enforcement agency.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The Labour Party's proposal for a Single Enforcement Body includes strong powers to inspect workplaces and act against exploitation, particularly discriminatory practices targeting migrant workers.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/MakeWorkPay.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "**Fairer Competition for Businesses:** By ensuring compliance across the board, the new authority aims to prevent non-compliant firms from gaining an unfair competitive advantage over businesses that adhere to labour laws.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This levels the playing field for responsible employers.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Widespread Non-Compliance:** A 2023 report found that almost one-third (32%) of workers paid at or around the wage floor were underpaid the minimum wage.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Holiday and Sick Pay:** Approximately 900,000 workers reported receiving no paid holiday, despite it being a day-one entitlement.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "An estimated 2.2 million jobs in 2025 did not provide paid annual leave.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The loss of holiday pay is estimated to cost workers over \u00a32 billion per year.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2023/04/Enforce-for-good.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Payslips:** A staggering 1.8 million workers reported not receiving a payslip, a legal right vital for checking pay accuracy.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Financial Impact:** Minimum wage underpayment alone denies the lowest-paid workers a combined \u00a3255 million per year.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2023/04/Enforce-for-good.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "This places the UK 27th out of 33 comparable OECD countries.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/enforce-for-good/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "This is crucial to ensure that vulnerable migrant workers feel safe reporting abuses without fear of immigration repercussions, thus improving the agency's ability to detect non-compliance.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Labour Party:**\nThe Labour Party has actively proposed the establishment of a \"Single Enforcement Body\" as a core part of its \"New Deal for Working People,\" promising to introduce legislation within 100 days of entering government (by October 12, 2024, following a July 2024 general election).",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/MakeWorkPay.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bdbf.co.uk/the-labour-partys-manifesto-five-key-proposals-that-employers-need-to-know-about/",
+            "publisher": "bdbf.co.uk",
+            "title": "bdbf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Strong Enforcement Powers:** Granting the body robust powers to inspect workplaces and tackle exploitation.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/MakeWorkPay.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **\"Day One\" Rights:** Introducing basic individual rights for all workers from their first day, including protection against unfair dismissal, parental leave, and sick pay, which would be enforced by the new body.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/MakeWorkPay.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bdbf.co.uk/the-labour-partys-manifesto-five-key-proposals-that-employers-need-to-know-about/",
+            "publisher": "bdbf.co.uk",
+            "title": "bdbf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reedsmith.com/articles/labour-partys-proposed-employment-reforms-what-uk-employers-need-to-know/",
+            "publisher": "reedsmith.com",
+            "title": "reedsmith.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Tackling Precarious Work:** Banning exploitative zero-hours contracts and ending \"fire and rehire\" practices.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/MakeWorkPay.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.shrm.org/topics-tools/employment-law-compliance/uk--unpacking-the-labor-party-s-proposed-employment-law-reforms",
+            "publisher": "shrm.org",
+            "title": "shrm.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "The Single Enforcement Body, alongside HMRC, would enforce this \"genuine living wage.\"",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/MakeWorkPay.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "**House of Commons Library:**\nThe House of Commons Library's briefing on the Employment Rights Bill 2024-25 confirms that it includes provisions for bringing together powers of existing labour market enforcement bodies, along with some new powers, under a Secretary of State and enforcement officers.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10109/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "It also notes that the bill will require additional expenditure, partly due to the establishment of this new body.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10109/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "A money resolution is noted as being required for the Employment Rights Bill due to additional expenditure for a new labour market enforcement body.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10109/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Health Foundation:** The searches did not yield relevant information from the Health Foundation on this specific UK worker protection policy.",
+        "sources": [
+          {
+            "url": "https://nyhealthfoundation.org/",
+            "publisher": "nyhealthfoundation.org",
+            "title": "nyhealthfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Funding:** The Resolution Foundation explicitly states that \"adequate powers and funding\" are essential for the success of the new agency, implying that the level of resource allocation could be a point of contention.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The House of Commons Library also notes that additional expenditure will be required.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10109/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Without such a firewall, migrant workers may remain fearful of reporting exploitation, undermining the authority's effectiveness.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-enforcement-body-marks-welcome-milestone-for-employment-rights-but-government-must-give-it-more-powers-to-protect-all-workers-2/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/comment/enforcing-rights-the-new-fair-work-agency-is-a-creature-of-the-right-shape-but-will-it-have-the-eyes-and-teeth-it-needs/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.ein.org.uk/news/resolution-foundation-highlights-deep-rooted-insecurity-among-substantial-minority-uks-migrant",
+            "publisher": "ein.org.uk",
+            "title": "ein.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The Labour Party has indicated it will \"consult fully with businesses, workers and civil society on how to put our plans into practice before legislation is passed.\"",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/wp-content/uploads/2024/06/MakeWorkPay.pdf",
+            "publisher": "labour.org.uk",
+            "title": "labour.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

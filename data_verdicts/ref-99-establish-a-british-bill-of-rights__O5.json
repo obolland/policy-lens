@@ -1,0 +1,575 @@
+{
+  "policy_id": "ref-99-establish-a-british-bill-of-rights",
+  "party": "Reform UK",
+  "policy_title": "Establish a British Bill of Rights",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "A British Bill of Rights is primarily about rights and governance architecture, not directly about crime rates, policing, courts backlogs, or national security posture. Any indirect effects on O5 \u2014 such as changes to judicial oversight of security powers \u2014 are speculative and contested.",
+    "biggest_unknown": "Whether reducing domestic courts' ability to check executive action would in practice improve or worsen the delivery of justice and security outcomes for ordinary people.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy aims to codify and guarantee freedoms, limit public surveillance, and ensure accountability for monitors.",
+        "evidence_id": "M",
+        "quote": "data/privacy are protected with limited public surveillance and accountability for monitors"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The UK's existing Civil Contingencies Act 2004 already allows emergency regulations subject to parliamentary scrutiny.",
+        "evidence_id": "E16",
+        "quote": "These powers are intended as a last resort, requiring urgency, necessity, and proportionality, and are subject to parliamentary scrutiny"
+      },
+      {
+        "tier": "measurable",
+        "claim": "During COVID-19 the government side-lined the 2004 Act, suggesting existing frameworks may not prevent such actions.",
+        "evidence_id": "E17",
+        "quote": "During the COVID-19 pandemic, the UK government notably side-lined the 2004 Act, finding it insufficiently flexible, indicating that existing frameworks might not fully prevent government actions"
+      },
+      {
+        "tier": "projected",
+        "claim": "The proposal would give primacy to Parliament over courts and remove the duty on UK courts to interpret legislation compatibly with Convention rights.",
+        "evidence_id": "E10",
+        "quote": "This would remove the duty on UK courts to interpret legislation compatibly with Convention rights and allow them to depart from the case law of the European Court of Human Rights"
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics argue weakening judicial oversight of the executive undermines the rule of law.",
+        "evidence_id": "E11",
+        "quote": "critics argue it weakens the crucial legal check that courts provide on government actions"
+      }
+    ],
+    "rationale": "O5 concerns crime rates, policing, courts, national security and defence posture. This policy is principally a constitutional and rights-framework reform. Its stated goals \u2014 preventing lockdowns and limiting surveillance \u2014 do not directly address any of the core O5 indicators (crime, charge/conviction times, antisocial behaviour, court backlogs, national security). The COVID lockdown framing is a real-world motivation, but the evidence shows existing emergency powers frameworks already face parliamentary scrutiny, and the government bypassed them anyway \u2014 so a constitutional rights instrument is an indirect lever at best. On national security and justice delivery, the projected effects are genuinely uncertain and contested: reducing courts' ability to check executive action could either streamline security operations (an O5 argument) or weaken rule-of-law protections that underpin a functioning justice system (also an O5 concern). Neither side of this argument has cited evidence of population-scale effect on O5 indicators. The dominant effects of this policy land on O10 (personal liberty, surveillance, state coercion) and O9 (due process, equal treatment). The marginal, real-world effect specifically on safety, crime, courts, and national security posture is not evidenced at scale in the provided sources. The direction is therefore negligible on O5, with low confidence given genuine uncertainty about indirect rule-of-law effects.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://ready.campaign.gov.scot/publications/2016/june/philosophy-principles-structures-regulatory-duties/pages/philosophy-structures/emergency-powers",
+        "publisher": "ready.campaign.gov.scot",
+        "title": "gov.scot",
+        "source_type": "government"
+      },
+      {
+        "url": "https://consoc.org.uk/emergency-powers-in-the-united-kingdom/",
+        "publisher": "consoc.org.uk",
+        "title": "consoc.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsmZbsMdf9mtYYl7ZZcObB-81KJK86w0NLBB2_Qcoy-ROAujlRpkVlQjh1G4p5Mjm6tSZKqR8Nv4cDtAPLL0os0021jvkpkpiKL77Bd5XHVLI2I7qltikywMP-7RDDdVcsyLmd4PVYqhfQe2jp9IQlMp5nS1ZPumIow7mpWSB9sb16oqMX",
+        "publisher": "vertexaisearch.cloud.google.com",
+        "title": "lawsociety.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ukandeu.ac.uk/explainers/the-bill-of-rights-bill/",
+        "publisher": "ukandeu.ac.uk",
+        "title": "ukandeu.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=E40AXGZ2Nrc",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://consoc.org.uk/modern-bill-of-rights/",
+        "publisher": "consoc.org.uk",
+        "title": "consoc.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.agora-parl.org/sites/default/files/agora-documents/Interpreting%20a%20Bill%20of%20Rights%20-%20The%20Importance%20of%20Legislative%20Rights%20Review.pdf",
+        "publisher": "agora-parl.org",
+        "title": "agora-parl.org",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0347,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-contained. Direction 'negligible' with low confidence is defensible: the policy is a constitutional architecture reform with no direct O5 levers. Claims are appropriately tiered \u2014 stated claim draws from M, measurable claims draw from government/institutional sources (E16, E17), projected claims from contested commentary (E10, E11). No tier inflation detected. The magnitude_timing hard rule is not triggered (direction is not too-uncertain). The rationale correctly identifies that primary effects land on O10/O9 and is neutral on party identity. Advocacy sources (Liberty, Law Society) are referenced in the evidence pool but do not drive this verdict's direction or magnitude. No false balance issue: the verdict does not claim mixed \u2014 it claims negligible, which is a separate judgment that effects simply don't reach O5 at scale, and that is adequately supported. One minor note: E10 is sourced partly from ukandeu.ac.uk (academic) which is appropriate for a projected claim about legal effects. No blocking issues found."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The policy is framed around preventing lockdowns on 'shoddy evidence and lies'.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will establish a British Bill of Rights to codify and guarantee freedoms, ensuring the country cannot be locked down on 'shoddy evidence and lies,' and that data/privacy are protected with limited public surveillance and accountability for monitors.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This proposal involves repealing the Human Rights Act 1998 (HRA) and withdrawing from the European Convention on Human Rights (ECHR)",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2025/08/comment-bill-of-rights-asylum-reform/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukconstitutionallaw.org/2025/09/15/richard-brant-and-lauren-butler-reform-uks-plans-for-getting-tough-on-illegal-immigration-from-legal-reset-to-sunset/",
+            "publisher": "ukconstitutionallaw.org",
+            "title": "ukconstitutionallaw.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://thecritic.co.uk/reforms-reality-gap/",
+            "publisher": "thecritic.co.uk",
+            "title": "thecritic.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   **Weakening of Rights Protection:** Critics argue that replacing the Human Rights Act 1998 (HRA) with a British Bill of Rights, as previously proposed by the government and now by Reform UK, would significantly *lower* the level of protection afforded to human rights in the UK and weaken the ability to enforce these rights through domestic courts",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsmZbsMdf9mtYYl7ZZcObB-81KJK86w0NLBB2_Qcoy-ROAujlRpkVlQjh1G4p5Mjm6tSZKqR8Nv4cDtAPLL0os0021jvkpkpiKL77Bd5XHVLI2I7qltikywMP-7RDDdVcsyLmd4PVYqhfQe2jp9IQlMp5nS1ZPumIow7mpWSB9sb16oqMX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7aTExAMagSDO_nnXiPcNUh_z8uqTumR0c7d_fWEUfRHSshlomBti99o1Og42_LN2gyrVZfahKjw0zyTSFkPm-0UGFnjwMRbRFStuj1BeTX0qKudNyht7NPPZn4OtedLIL0uAwriMWxQvBEbq2hNZsmXKfy7MH1E-T2I_v6uRHzntpPLcn399L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The HRA currently incorporates the ECHR into UK law, providing protections for rights such as life, liberty, fair trial, free speech, assembly, and protection from torture and discrimination",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=E40AXGZ2Nrc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.strath.ac.uk/humanities/lawschool/blog/thebritishbillofrightswhatarewealltodoaboutit/",
+            "publisher": "strath.ac.uk",
+            "title": "strath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.cpl.law.cam.ac.uk/background-bill-rights",
+            "publisher": "cpl.law.cam.ac.uk",
+            "title": "cam.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Reduced Access to Justice:** The Law Society stated that a previous Bill of Rights Bill would have made it harder to access courts and limited the protection they could provide for human rights violations",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsmZbsMdf9mtYYl7ZZcObB-81KJK86w0NLBB2_Qcoy-ROAujlRpkVlQjh1G4p5Mjm6tSZKqR8Nv4cDtAPLL0os0021jvkpkpiKL77Bd5XHVLI2I7qltikywMP-7RDDdVcsyLmd4PVYqhfQe2jp9IQlMp5nS1ZPumIow7mpWSB9sb16oqMX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7aTExAMagSDO_nnXiPcNUh_z8uqTumR0c7d_fWEUfRHSshlomBti99o1Og42_LN2gyrVZfahKjw0zyTSFkPm-0UGFnjwMRbRFStuj1BeTX0qKudNyht7NPPZn4OtedLIL0uAwriMWxQvBEbq2hNZsmXKfy7MH1E-T2I_v6uRHzntpPLcn399L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Liberty referred to such proposals as a \"Rights Removal Bill,\" noting that they could require claimants to prove \"significant disadvantage\" before taking a claim to court, which would be incredibly difficult against the state",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/3-facts-that-expose-the-governments-bill-of-rights-as-a-rights-removal-bill/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This could mean justice might only be accessible to those who can afford it",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/3-facts-that-expose-the-governments-bill-of-rights-as-a-rights-removal-bill/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Impact on Specific Groups:** Analysts suggest that such a bill could explicitly identify or lead to fewer rights for certain categories of people, particularly non-British citizens, migrants, and asylum seekers",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=E40AXGZ2Nrc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/3-facts-that-expose-the-governments-bill-of-rights-as-a-rights-removal-bill/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://labourlist.org/2025/08/comment-bill-of-rights-asylum-reform/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "For instance, proposals have been criticized for paving the way to ramp up the \"hostile environment\" and removing rights from individuals challenging deportation",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/3-facts-that-expose-the-governments-bill-of-rights-as-a-rights-removal-bill/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Judicial Oversight:** Reform UK's proposal, like previous government attempts, aims to give primacy to decision-making by Parliament over courts",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=E40AXGZ2Nrc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/explainers/the-bill-of-rights-bill/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "This would remove the duty on UK courts to interpret legislation compatibly with Convention rights and allow them to depart from the case law of the European Court of Human Rights (ECtHR)",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsmZbsMdf9mtYYl7ZZcObB-81KJK86w0NLBB2_Qcoy-ROAujlRpkVlQjh1G4p5Mjm6tSZKqR8Nv4cDtAPLL0os0021jvkpkpiKL77Bd5XHVLI2I7qltikywMP-7RDDdVcsyLmd4PVYqhfQe2jp9IQlMp5nS1ZPumIow7mpWSB9sb16oqMX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/explainers/the-bill-of-rights-bill/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "While proponents view this as restoring parliamentary sovereignty, critics argue it weakens the crucial legal check that courts provide on government actions",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=E40AXGZ2Nrc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://consoc.org.uk/modern-bill-of-rights/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.agora-parl.org/sites/default/files/agora-documents/Interpreting%20a%20Bill%20of%20Rights%20-%20The%20Importance%20of%20Legislative%20Rights%20Review.pdf",
+            "publisher": "agora-parl.org",
+            "title": "agora-parl.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **International Standing and Obligations:** Withdrawal from the ECHR and undermining its principles could damage the UK's reputation and influence within the broader international community, potentially serving as an encouragement to repressive regimes",
+        "sources": [
+          {
+            "url": "https://www.strath.ac.uk/humanities/lawschool/blog/thebritishbillofrightswhatarewealltodoaboutit/",
+            "publisher": "strath.ac.uk",
+            "title": "strath.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "It also risks undermining peace agreements, particularly the Good Friday Agreement in Northern Ireland, which relies on the ECHR",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=E40AXGZ2Nrc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "The University of Strathclyde noted that such a move could even lead to the UK's withdrawal or expulsion from the Council of Europe",
+        "sources": [
+          {
+            "url": "https://www.strath.ac.uk/humanities/lawschool/blog/thebritishbillofrightswhatarewealltodoaboutit/",
+            "publisher": "strath.ac.uk",
+            "title": "strath.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   The UK's existing framework, primarily the Civil Contingencies Act 2004, allows the government to make temporary emergency regulations when an event threatens serious damage to human welfare, the environment, or national security",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/emergency-powers-in-the-united-kingdom/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ready.campaign.gov.scot/publications/2016/june/philosophy-principles-structures-regulatory-duties/pages/philosophy-structures/emergency-powers",
+            "publisher": "ready.campaign.gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "These powers are intended as a last resort, requiring urgency, necessity, and proportionality, and are subject to parliamentary scrutiny",
+        "sources": [
+          {
+            "url": "https://ready.campaign.gov.scot/publications/2016/june/philosophy-principles-structures-regulatory-duties/pages/philosophy-structures/emergency-powers",
+            "publisher": "ready.campaign.gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "During the COVID-19 pandemic, the UK government notably side-lined the 2004 Act, finding it insufficiently flexible, indicating that existing frameworks might not fully prevent government actions",
+        "sources": [
+          {
+            "url": "https://consoc.org.uk/emergency-powers-in-the-united-kingdom/",
+            "publisher": "consoc.org.uk",
+            "title": "consoc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   Currently, data privacy in the UK is governed by the Data Protection Act 2018 (DPA) and UK GDPR, which set out stringent guidelines for the collection, storage, and processing of personal data, often requiring consent and transparency",
+        "sources": [
+          {
+            "url": "https://rsisinternational.org/journals/ijrias/articles/data-privacy-and-public-surveillance-in-the-uk-a-legal-perspective-using-irac-framework/",
+            "publisher": "rsisinternational.org",
+            "title": "rsisinternational.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The UK's GDPR regime has been deemed \"essentially equivalent\" to the EU GDPR",
+        "sources": [
+          {
+            "url": "https://www.openrightsgroup.org/publications/analysis-the-uk-data-protection-and-digital-information-bill/",
+            "publisher": "openrightsgroup.org",
+            "title": "openrightsgroup.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   Public surveillance is primarily regulated by the Investigatory Powers Act 2016 (IPA), also known as the \"Snooper's Charter.\" This Act allows public authorities to intercept and gather communications data, including social media activities, but requires judicial or Secretary of State permission for surveillance and includes provisions for privacy considerations",
+        "sources": [
+          {
+            "url": "https://rsisinternational.org/journals/ijrias/articles/data-privacy-and-public-surveillance-in-the-uk-a-legal-perspective-using-irac-framework/",
+            "publisher": "rsisinternational.org",
+            "title": "rsisinternational.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ohchr.org/sites/default/files/Documents/Issues/DigitalAge/ReportPrivacyinDigitalAge/UK.pdf",
+            "publisher": "ohchr.org",
+            "title": "ohchr.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Organisations like the Open Rights Group have criticized existing surveillance legislation for enshrining broad surveillance practices and raised concerns about proposals (like the UK Data Protection and Digital Information Bill) potentially weakening legal standards, hindering rights, and expanding ministerial powers, thereby lowering protections against widespread online surveillance",
+        "sources": [
+          {
+            "url": "https://www.openrightsgroup.org/publications/analysis-the-uk-data-protection-and-digital-information-bill/",
+            "publisher": "openrightsgroup.org",
+            "title": "openrightsgroup.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hrw.org/news/2015/11/09/uk-surveillance-bill-threat-privacy",
+            "publisher": "hrw.org",
+            "title": "hrw.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Public Opinion:** A YouGov poll found that 51% of British adults surveyed believed the UK should remain a member of the ECHR, compared to 27% who believed it should withdraw",
+        "sources": [
+          {
+            "url": "https://labourlist.org/2025/08/comment-bill-of-rights-asylum-reform/",
+            "publisher": "labourlist.org",
+            "title": "labourlist.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **ECtHR Violations:** The UK in a Changing Europe notes that the European Court of Human Rights has, on average, issued only three judgments a year finding violations against the UK, compared to higher figures for other European countries",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/explainers/the-bill-of-rights-bill/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "However, if a British Bill of Rights makes it harder to enforce rights domestically, more individuals are likely to seek recourse to the ECtHR, as acknowledged by a government impact assessment",
+        "sources": [
+          {
+            "url": "https://ukandeu.ac.uk/explainers/the-bill-of-rights-bill/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "The Resolution Foundation's work cited in searches focused on an unrelated Employment Rights Bill",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/new-employment-protections-will-improve-workers-wellbeing-but-wont-make-any-difference-to-economic-growth/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/employment-rights-bill-a-major-step-forward-in-improving-working-life-for-low-earners-but-it-is-far-from-job-done/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/events/new-deal-or-no-deal/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "Proponents argue it enhances national sovereignty and aligns with \"British values,\" while critics, including legal bodies like The Law Society and human rights organisations like Liberty, argue it would lead to a diminution of human rights protections, greater executive power, and undermine the rule of law by weakening judicial oversight and international obligations",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsmZbsMdf9mtYYl7ZZcObB-81KJK86w0NLBB2_Qcoy-ROAujlRpkVlQjh1G4p5Mjm6tSZKqR8Nv4cDtAPLL0os0021jvkpkpiKL77Bd5XHVLI2I7qltikywMP-7RDDdVcsyLmd4PVYqhfQe2jp9IQlMp5nS1ZPumIow7mpWSB9sb16oqMX",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7aTExAMagSDO_nnXiPcNUh_z8uqTumR0c7d_fWEUfRHSshlomBti99o1Og42_LN2gyrVZfahKjw0zyTSFkPm-0UGFnjwMRbRFStuj1BeTX0qKudNyht7NPPZn4OtedLIL0uAwriMWxQvBEbq2hNZsmXKfy7MH1E-T2I_v6uRHzntpPLcn399L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "lawsociety.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=E40AXGZ2Nrc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.libertyhumanrights.org.uk/issue/3-facts-that-expose-the-governments-bill-of-rights-as-a-rights-removal-bill/",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/consultations/human-rights-act-reform-a-modern-bill-of-rights/human-rights-act-reform-a-modern-bill-of-rights-consultation",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ukandeu.ac.uk/explainers/the-bill-of-rights-bill/",
+            "publisher": "ukandeu.ac.uk",
+            "title": "ukandeu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "policy_id": "ld-05-raise-income-tax-personal-allowance",
+  "party": "Liberal Democrat",
+  "policy_title": "Raise Income Tax Personal Allowance",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "The policy commits to raising the personal allowance only 'when public finances allow', with no stated target level, timeline, or funding mechanism \u2014 so its actual fiscal effect cannot be judged. If implemented at material scale, the Exchequer cost could be very large and worsen the debt path unless offset.",
+    "biggest_unknown": "Whether and to what degree the allowance is actually raised, and whether any increase is offset by spending cuts or other revenue \u2014 the policy text leaves all three entirely open.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy is explicitly conditional on public finances allowing it, with no committed instrument, target level, or budget.",
+        "evidence_id": "M",
+        "quote": "when public finances allow"
+      },
+      {
+        "tier": "projected",
+        "claim": "Raising the personal allowance to \u00a320,000 could cost over \u00a360 billion annually.",
+        "evidence_id": "E4",
+        "quote": "increasing the personal allowance to \u00a320,000, along with corresponding increases to the higher rate tax threshold and National Insurance threshold, could cost over \u00a360 billion"
+      },
+      {
+        "tier": "projected",
+        "claim": "The IFS estimates the cost range at between \u00a340 billion and \u00a390 billion depending on related tax choices.",
+        "evidence_id": "E5",
+        "quote": "estimating between \u00a340 billion and \u00a390 billion, depending on related tax choices"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The OBR estimates the current freeze on income tax thresholds from 2022/23 to 2030/31 will raise an additional \u00a355.5 billion in 2030/31, illustrating the scale of revenue at stake in threshold decisions.",
+        "evidence_id": "E12",
+        "quote": "The Office for Budget Responsibility (OBR) estimates that the freeze in income tax thresholds from 2022/23 to 2030/31 will raise an additional \u00a355.5 billion in 2030/31"
+      },
+      {
+        "tier": "stated",
+        "claim": "The government's stated aim is to benefit most families and remove low-paid workers from income tax.",
+        "evidence_id": "M",
+        "quote": "aiming to benefit most families and remove more low-paid workers from paying income tax"
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "The scale of any allowance increase and whether it is funded or unfunded",
+      "estimate_range": "Exchequer cost ranges from negligible (if never triggered or very modest) to \u00a340\u201390bn+ annually (if raised to \u00a318,000\u2013\u00a320,000 without offsetting measures)"
+    },
+    "rationale": "The soft conditionality \u2014 'when public finances allow' \u2014 combined with no specified target level, no committed funding mechanism, and no timeline means this policy contains no deliverable instrument against which a fiscal verdict can be registered. Under the soft-verb/no-deliverable rule, the default is negligible or too-uncertain; here 'too-uncertain' is more accurate because the evidence shows that IF implemented at material scale, the fiscal consequences would be very large. The cost estimates from IFS and the House of Commons Library span \u00a340\u201390 billion annually depending on the chosen level, dwarfing the current freeze's revenue contribution of \u00a355.5 billion. An unfunded reduction of that magnitude would clearly worsen the debt path, failing O12's sustainability test. However, the policy could in principle be implemented modestly and with offsetting measures \u2014 or never triggered at all. Without a committed scale or funding plan, no honest direction can be assigned. The crux is entirely about implementation choices the policy text leaves open.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.parallelparliament.co.uk/mp/wendy-morton/debate/2025-05-12/commons/westminster-hall/income-tax-personal-allowance",
+        "publisher": "parallelparliament.co.uk",
+        "title": "parallelparliament.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+        "publisher": "tax.org.uk",
+        "title": "tax.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=KEI8WbYRHCw",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9186/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0399,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All checks pass. The too-uncertain direction is well-supported: the policy's soft conditionality ('when public finances allow') with no target level, timeline, or funding mechanism genuinely prevents a directional verdict. The crux_parameter and estimate_range are substantive and evidence-grounded (IFS \u00a340\u201390bn range from E5; OBR freeze figure from E12 as a measurable comparator). magnitude and time_horizon are both n/a as required. Claims are appropriately tiered: cost estimates from E4/E5 correctly labelled projected, OBR freeze figure from E12 correctly measurable, M-sourced claims correctly stated. The E4 claim notes 'along with corresponding increases to the higher rate tax threshold and National Insurance threshold' \u2014 the verdict claim echoes this caveat ('could cost over \u00a360 billion') without overstating. No party identity or motive attribution in the rationale. No lever leakage \u2014 the analysis stays focused on the debt-path/sustainability effect. No false balance issue: the too-uncertain verdict is not manufactured balance but genuine indeterminacy from the policy's undefined parameters."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Prioritise cutting income tax by raising the tax-free personal allowance when public finances allow, aiming to benefit most families and remove more low-paid workers from paying income tax.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "For instance, an IFS analysis in 2012 suggested that raising the personal allowance to \u00a310,000 would remove approximately 200,000 people from income tax, costing the Exchequer \u00a35.3 billion in 2015-16.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3QcHrKjpqsmNh3jSmIuV86DsGDgYOHowNMPdyrqb2q4oNnjrJ4NRdI2JVzKJl25t1ZB_bw3Z_QKj0YvBgXNJoWnmoXbxxEMvppM8N4LHYvR9sB9zD6wzfCJjbohUdph6oXmY-2pYVhB9K_DMdGmQeNZsk-V3mH4hf2RCx8CJZdf3UKisAR_KLoseIFi0v3Jtovp-4SMXCB8q0-drr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Similarly, a Resolution Foundation analysis in 2014 estimated that raising it to \u00a310,500 would lift around 200,000 people out of income tax at an annual cost of \u00a31.4 billion.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/analysing-impact-increasing-personal-tax-allowance-10500-2015/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Strengthened Work Incentives:** The Institute for Fiscal Studies (IFS) notes that increasing the personal allowance can strengthen work incentives, especially for low earners.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3QcHrKjpqsmNh3jSmIuV86DsGDgYOHowNMPdyrqb2q4oNnjrJ4NRdI2JVzKJl25t1ZB_bw3Z_QKj0YvBgXNJoWnmoXbxxEMvppM8N4LHYvR9sB9zD6wzfCJjbohUdph6oXmY-2pYVhB9K_DMdGmQeNZsk-V3mH4hf2RCx8CJZdf3UKisAR_KLoseIFi0v3Jtovp-4SMXCB8q0-drr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   The House of Commons Library estimates that increasing the personal allowance to \u00a320,000, along with corresponding increases to the higher rate tax threshold and National Insurance threshold, could cost over \u00a360 billion.",
+        "sources": [
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/wendy-morton/debate/2025-05-12/commons/westminster-hall/income-tax-personal-allowance",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KEI8WbYRHCw",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   The IFS provides a range for this, estimating between \u00a340 billion and \u00a390 billion, depending on related tax choices.",
+        "sources": [
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/wendy-morton/debate/2025-05-12/commons/westminster-hall/income-tax-personal-allowance",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KEI8WbYRHCw",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   The government has indicated that increasing the Personal Allowance to \u00a318,000 would cost over \u00a340 billion per year.",
+        "sources": [
+          {
+            "url": "https://petition.parliament.uk/petitions/762815",
+            "publisher": "petition.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Such a substantial reduction in tax receipts would decrease funds available for essential public services like the NHS and education.",
+        "sources": [
+          {
+            "url": "https://petition.parliament.uk/petitions/762815",
+            "publisher": "petition.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/wendy-morton/debate/2025-05-12/commons/westminster-hall/income-tax-personal-allowance",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   The IFS and House of Commons Library state that those with the lowest incomes, who already earn below the current personal allowance, would not benefit at all.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3QcHrKjpqsmNh3jSmIuV86DsGDgYOHowNMPdyrqb2q4oNnjrJ4NRdI2JVzKJl25t1ZB_bw3Z_QKj0YvBgXNJoWnmoXbxxEMvppM8N4LHYvR9sB9zD6wzfCJjbohUdph6oXmY-2pYVhB9K_DMdGmQeNZsk-V3mH4hf2RCx8CJZdf3UKisAR_KLoseIFi0v3Jtovp-4SMXCB8q0-drr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/wendy-morton/debate/2025-05-12/commons/westminster-hall/income-tax-personal-allowance",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   The greatest cash gains often go to those who are better off, including two-earner couples (who can benefit twice) and potentially the second-richest tenth of the income distribution.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3QcHrKjpqsmNh3jSmIuV86DsGDgYOHowNMPdyrqb2q4oNnjrJ4NRdI2JVzKJl25t1ZB_bw3Z_QKj0YvBgXNJoWnmoXbxxEMvppM8N4LHYvR9sB9zD6wzfCJjbohUdph6oXmY-2pYVhB9K_DMdGmQeNZsk-V3mH4hf2RCx8CJZdf3UKisAR_KLoseIFi0v3Jtovp-4SMXCB8q0-drr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   The New Economics Foundation (NEF) found that not extending the freeze on thresholds (which is effectively the opposite of raising them) would benefit the richest households eight times more than the poorest, with the richest 25% saving \u00a3550 a year compared to just \u00a370 for the poorest quarter in 2029/30.",
+        "sources": [
+          {
+            "url": "https://neweconomics.org/2024/10/raising-tax-thresholds-will-benefit-richest-households-eight-times-more-than-poorest",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Interaction with Other Tax Thresholds and Allowances:**\n    *   **Fiscal Drag:** The current policy trend has been to freeze income tax thresholds (including the personal allowance) rather than raise them, leading to \"fiscal drag.\" This means that as wages rise with inflation, more people are \"dragged\" into paying income tax, or into higher tax brackets, increasing the overall tax burden without a change in tax rates.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9687/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/ng-interactive/2025/nov/26/how-does-freezing-tax-thresholds-affect-your-own-tax-bill",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9186/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/households-on-track-to-be-400-worse-off/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://obr.uk/box/the-impact-of-frozen-or-reduced-personal-tax-thresholds/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/its-personal-taxation/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The Office for Budget Responsibility (OBR) estimates that the freeze in income tax thresholds from 2022/23 to 2030/31 will raise an additional \u00a355.5 billion in 2030/31.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9186/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This creates an effective marginal income tax rate of 60% (or even higher in Scotland) within this income band.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE145lK-IftSAM92PPrhV22WB4D5y5v4i3arJ-vm3etjIxDDB6-d7dNCwZ6DTnN4xmaKNPi95Q093Qod4OcX_Exdos4GhUr3z2SP5oEAwNvXAV5qx7nku8Cd10wXcRAKj_tbJqdXgtah4DMUO85g4T68ikF2e_fuV59uRF4hjBEABXPTJKbqCwGAUeL3vJklAbSABQ=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rsmuk.com/insights/tax-voice/the-true-cost-of-the-personal-allowance-stealth-tax",
+            "publisher": "rsmuk.com",
+            "title": "rsmuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Personal_allowance",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.themgroup.co.uk/how-rising-income-can-cost-you-valuable-tax-allowances-and-benefits/",
+            "publisher": "themgroup.co.uk",
+            "title": "themgroup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Pensioners:** Freezing the personal allowance impacts pensioners, as the State Pension can approach or exceed the threshold, bringing more pensioners into income tax.",
+        "sources": [
+          {
+            "url": "https://macemagazine.com/resolution-foundation-urges-6bn-tax-burden-on-pensioners-via-income-tax-shift/",
+            "publisher": "macemagazine.com",
+            "title": "macemagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ifs.org.uk/publications/distributional-impact-tax-and-benefit-reforms-2010",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/articles/how-are-frozen-tax-thresholds-reshaping-who-pays-personal-taxes",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "In 2025-26, the personal allowance is expected to exceed the basic and full new state pension, meaning those whose sole income is the state pension would not pay income tax.",
+        "sources": [
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KEI8WbYRHCw",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Childcare Benefits:** The \u00a3100,000 income threshold also affects eligibility for childcare support schemes (30 hours free childcare and Tax-Free Childcare), where a small income increase above this level can lead to a significant net loss in benefits.",
+        "sources": [
+          {
+            "url": "https://www.rsmuk.com/insights/tax-voice/the-true-cost-of-the-personal-allowance-stealth-tax",
+            "publisher": "rsmuk.com",
+            "title": "rsmuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Personal_allowance",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.themgroup.co.uk/how-rising-income-can-cost-you-valuable-tax-allowances-and-benefits/",
+            "publisher": "themgroup.co.uk",
+            "title": "themgroup.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   The **government's current stance** (as of early 2026) is against significantly raising the personal allowance, citing the \"significant fiscal cost\" and the need for fiscal responsibility, especially given recent freezes to thresholds.",
+        "sources": [
+          {
+            "url": "https://petition.parliament.uk/petitions/762815",
+            "publisher": "petition.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://petition.parliament.uk/petitions/702844",
+            "publisher": "petition.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Instead, the current policy has been to freeze personal tax thresholds, a measure forecast by the OBR to bring an additional 5.2 million individuals into income tax and 4.8 million more into the higher rate by 2030/31.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9186/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   While the policy aims to benefit \"most families and remove more low-paid workers from paying income tax,\" organisations like the **IFS** argue that it is not well-targeted as it doesn't help the very lowest earners and the highest average cash gain can go to wealthier households.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3QcHrKjpqsmNh3jSmIuV86DsGDgYOHowNMPdyrqb2q4oNnjrJ4NRdI2JVzKJl25t1ZB_bw3Z_QKj0YvBgXNJoWnmoXbxxEMvppM8N4LHYvR9sB9zD6wzfCJjbohUdph6oXmY-2pYVhB9K_DMdGmQeNZsk-V3mH4hf2RCx8CJZdf3UKisAR_KLoseIFi0v3Jtovp-4SMXCB8q0-drr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.parallelparliament.co.uk/mp/wendy-morton/debate/2025-05-12/commons/westminster-hall/income-tax-personal-allowance",
+            "publisher": "parallelparliament.co.uk",
+            "title": "parallelparliament.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tax.org.uk/raising-income-tax-threshold-boost-for-vulnerable-or-blow-to-public-services",
+            "publisher": "tax.org.uk",
+            "title": "tax.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "They have previously suggested that increased investment spending or spending on benefits could deliver a larger direct boost to the economy.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3QcHrKjpqsmNh3jSmIuV86DsGDgYOHowNMPdyrqb2q4oNnjrJ4NRdI2JVzKJl25t1ZB_bw3Z_QKj0YvBgXNJoWnmoXbxxEMvppM8N4LHYvR9sB9zD6wzfCJjbohUdph6oXmY-2pYVhB9K_DMdGmQeNZsk-V3mH4hf2RCx8CJZdf3UKisAR_KLoseIFi0v3Jtovp-4SMXCB8q0-drr",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   The **Resolution Foundation** has also highlighted the regressive nature of tax threshold freezes, which, while the opposite policy, underscores their concern for lower and middle-income households when discussing tax changes.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/households-on-track-to-be-400-worse-off/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/11/Stairway-to-headroom.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/its-personal-taxation/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They have, in other contexts, proposed alternative tax reforms to raise revenue while protecting employees.",
+        "sources": [
+          {
+            "url": "https://macemagazine.com/resolution-foundation-urges-6bn-tax-burden-on-pensioners-via-income-tax-shift/",
+            "publisher": "macemagazine.com",
+            "title": "macemagazine.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/call-of-duties/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

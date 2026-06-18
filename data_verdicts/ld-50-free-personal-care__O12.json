@@ -1,0 +1,711 @@
+{
+  "policy_id": "ld-50-free-personal-care",
+  "party": "Liberal Democrat",
+  "policy_title": "Free Personal Care",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "major",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "Introducing free personal care would require billions of pounds in new public spending each year, and the policy text gives no funding source \u2014 meaning it would likely add significantly to public borrowing or require large tax rises. The main uncertainty is whether NHS savings and economic gains from releasing unpaid carers into work could materially offset the gross cost.",
+    "biggest_unknown": "Whether NHS savings and increased tax revenues from carers returning to work would materially close the multi-billion-pound annual funding gap \u2014 no independent estimate in the evidence fully nets these off against the gross cost.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to introducing free personal care based on the Scottish model, with no stated funding mechanism.",
+        "evidence_id": "M",
+        "quote": "Introduce free personal care based on the model introduced by the Liberal Democrats in government in Scotland in 2002, so that provision is based on need, not ability to pay, and providing predictable, consistent funding."
+      },
+      {
+        "tier": "measurable",
+        "claim": "In Scotland in 2023-24, free personal care cost approximately \u00a3739 million across age groups.",
+        "evidence_id": "E31",
+        "quote": "In 2023-24, an estimated \u00a3473 million was spent on FPC for Care at Home clients aged 65 and over, and \u00a3266 million for those aged 18 to 64"
+      },
+      {
+        "tier": "projected",
+        "claim": "Audit Scotland's review noted persistent concerns about funding and limited monitoring of long-term financial impacts in the Scottish model.",
+        "evidence_id": "E33",
+        "quote": "Audit Scotland's review of the Scottish model noted persistent concerns about funding and the limited monitoring of long-term financial impacts"
+      },
+      {
+        "tier": "projected",
+        "claim": "Free personal care will only deliver benefits if introduced with sufficient funding and a long-term stable funding settlement.",
+        "evidence_id": "E32",
+        "quote": "FPC will only deliver benefits if introduced with \"sufficient funding\" and a \"long-term stable funding settlement\""
+      },
+      {
+        "tier": "projected",
+        "claim": "IPPR suggests FPC could save billions in NHS costs, which would partially offset gross expenditure.",
+        "evidence_id": "E35",
+        "quote": "advocates like IPPR suggest FPC could save billions in NHS costs"
+      }
+    ],
+    "rationale": "The fiscal case against this policy on O12 rests on a clear and independently corroborated cost estimate: the Health Foundation puts the gross annual cost in England at \u00a35.5 billion in 2020/21 rising to \u00a37.9 billion by 2030/31, endorsed by IPPR. The policy text names no funding source, no tax instrument, and no spending offset. Without one, the default assumption must be that this is unfunded or borrowing-financed spending, which worsens the debt path and the debt-interest burden \u2014 the core indicators for O12.\n\nThe Scottish comparator confirms ongoing fiscal pressure: Audit Scotland flagged persistent funding concerns and limited long-term financial monitoring. Scotland's actual spend reached ~\u00a3739m for a much smaller population, consistent with the English cost estimates scaling upward over time.\n\nThe partial offset from NHS savings (IPPR claims 'billions') is a projected, contested figure from an advocacy-adjacent source and is not independently quantified net of gross cost in any provided evidence. These offsets may reduce the net cost, but no evidence unit demonstrates they close the multi-billion gap.\n\nBorrowing to fund consumption-side social care \u2014 even socially valuable consumption \u2014 does not meet the 'productive investment raising future capacity' standard that would justify a neutral or improving verdict on O12. At a magnitude of \u00a35.5\u20137.9bn per year, with no stated funding mechanism and a rising cost trajectory to 2030, the effect on the debt path is major and long-term. Confidence is moderate rather than high because the NHS and carer-participation offsets are real but unquantified in net terms.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.scot/publications/free-personal-and-nursing-care-scotland-2023-24/pages/section-5---expenditure-on-free-personal-care-for-care-at-home-clients/",
+        "publisher": "gov.scot",
+        "title": "gov.scot",
+        "source_type": "government"
+      },
+      {
+        "url": "https://audit.scot/uploads/docs/report/2008/nr_080201_free_personal_care_km.pdf",
+        "publisher": "audit.scot",
+        "title": "audit.scot",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+        "publisher": "independentage.org",
+        "title": "independentage.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://hansard.parliament.uk/Lords/2019-06-26/debates/931C9EF0-5CFE-4F50-8140-A9045E95C24F/SocialCareFreePersonalCare",
+        "publisher": "hansard.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.1207,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "magnitude_timing",
+          "severity": "warning",
+          "detail": "The verdict's 'major' magnitude rests primarily on the Health Foundation estimate of \u00a35.5bn\u2013\u00a37.9bn/year (E27, endorsed by IPPR in E29), but neither evidence unit appears as a formal claim in the claims[] array. The factual backbone of the magnitude assessment is therefore not traceable through the claims structure, only through the rationale narrative. The evidence does exist and would support 'major', but it should be surfaced as a claim."
+        },
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "E33 (Audit Scotland review finding 'persistent concerns about funding and limited monitoring') is tiered as 'projected' but is an auditor's published finding \u2014 a measurable institutional assessment, not a forecast. Should be 'measurable'."
+        }
+      ],
+      "notes": "The verdict is directionally well-supported: the policy text contains no funding mechanism, independently corroborated cost estimates (Health Foundation, IPPR) are large and consistently cited, and the Scottish comparator (E31) is consistent. The partial-offset caveat (NHS savings) is correctly treated as projected and from an advocacy-adjacent source. The 'worsens / major / long-term / moderate confidence' verdict is defensible. The two issues flagged are structural (missing claim for the core cost estimate; minor tier misclassification) and do not undermine the direction or magnitude if corrected. Party-blind and false-balance checks pass: no motive attribution, no manufactured counter-evidence."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The Health Foundation estimated that introducing free personal care in England would cost an extra \u00a35.5 billion in 2020/21, rising to \u00a37.9 billion by 2030/31.",
+          "evidence_id": "E27",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "IPPR endorsed the Health Foundation's \u00a35.5 billion per year estimate for the cost of free personal care.",
+          "evidence_id": "E29",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Introduce free personal care based on the model introduced by the Liberal Democrats in government in Scotland in 2002, so that provision is based on need, not ability to pay, and providing predictable, consistent funding.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "In Scotland, Free Personal Care (FPC) was initially introduced in 2002 for people aged 65 and over, with eligibility extended to all adults assessed as needing it from April 2019, following \"Frank's Law\"",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carersuk.org/scotland/help-and-advice/practical-support/arranging-care-and-support-for-someone/free-personal-care/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**What it covers:** Personal care in Scotland includes assistance with tasks such as:\n*   Personal hygiene (bathing, showering, hair washing, shaving, oral hygiene, nail care)",
+        "sources": [
+          {
+            "url": "https://www.carersuk.org/scotland/help-and-advice/practical-support/arranging-care-and-support-for-someone/free-personal-care/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   Continence management (toileting, catheter/stoma care, skin care, laundry)",
+        "sources": [
+          {
+            "url": "https://www.carersuk.org/scotland/help-and-advice/practical-support/arranging-care-and-support-for-someone/free-personal-care/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   Food and diet (help with eating, special diets, food preparation)",
+        "sources": [
+          {
+            "url": "https://www.carersuk.org/scotland/help-and-advice/practical-support/arranging-care-and-support-for-someone/free-personal-care/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   Immobility problems (getting in and out of bed, using hoists)",
+        "sources": [
+          {
+            "url": "https://www.carersuk.org/scotland/help-and-advice/practical-support/arranging-care-and-support-for-someone/free-personal-care/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   Counselling and support (psychological support, behaviour management, reminding devices)",
+        "sources": [
+          {
+            "url": "https://www.carersuk.org/scotland/help-and-advice/practical-support/arranging-care-and-support-for-someone/free-personal-care/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   Simple treatments (medication assistance, application of creams, dressings, oxygen therapy)",
+        "sources": [
+          {
+            "url": "https://www.carersuk.org/scotland/help-and-advice/practical-support/arranging-care-and-support-for-someone/free-personal-care/",
+            "publisher": "carersuk.org",
+            "title": "carersuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   Personal assistance (dressing, surgical appliances, prostheses, mechanical and manual aids)",
+        "sources": [
+          {
+            "url": "https://spice-spotlight.scot/2025/09/04/free-personal-and-nursing-care-in-scotland/",
+            "publisher": "spice-spotlight.scot",
+            "title": "spice-spotlight.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "**What it does not cover:** FPC does not cover \"hotel costs\" (accommodation, food, and utilities) for those in residential care, nor does it typically cover domestic tasks such as cleaning and shopping, although there was initial public confusion and debate over these inclusions",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ippr-org.files.svdcdn.com/production/Downloads/social-care-free-at-the-point-of-need-may-19.pdf",
+            "publisher": "ippr-org.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Financial Impact on Individuals:**\n*   **Elimination of Catastrophic Costs (for many):** FPC would significantly reduce the financial burden on individuals, potentially eliminating \"catastrophic care costs\" for those receiving care at home",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Currently, individuals in England can face weekly costs for residential care amounting to more than \u00a330,000 per year, which can rapidly deplete savings and assets",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "This means some individuals could still face significant expenses, potentially exceeding \u00a3100,000",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiOHuFhey01CBM9wKxzsTmQ5fGP_KT4ZGntOV0bFBm_0bUibuFqkxIgwV7LZUkLCxONDcCY2bUy34-Z4RTg121akUFIP5GQSOvbNQmcC5quHnawAjXTJghXNpqT50xDD2J7cpyRTVZTNwL6jY6dlSzVPu9LjxiG28ZiO2J0Hj7BjgRsYqg4MJyu0KvkS0Vddsl3sADOgFuaoElS6LiNU9yq9ejAE7CzAZGUIFkcpCkjPmQzBuK",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Independent Age research, cited by IPPR, suggests that while FPC could almost halve the number of people facing catastrophic costs over \u00a3100,000, up to 80,000 people (nearly 1 in 5) in residential care might still incur such costs due to \"hotel costs\"",
+        "sources": [
+          {
+            "url": "https://ippr-org.files.svdcdn.com/production/Downloads/social-care-free-at-the-point-of-need-may-19.pdf",
+            "publisher": "ippr-org.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Impact on Attendance Allowance:** In Scotland, care home residents receiving FPC are ineligible for Attendance Allowance (AA), unlike in England, which could affect individuals' overall financial support",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiOHuFhey01CBM9wKxzsTmQ5fGP_KT4ZGntOV0bFBm_0bUibuFqkxIgwV7LZUkLCxONDcCY2bUy34-Z4RTg121akUFIP5GQSOvbNQmcC5quHnawAjXTJghXNpqT50xDD2J7cpyRTVZTNwL6jY6dlSzVPu9LjxiG28ZiO2J0Hj7BjgRsYqg4MJyu0KvkS0Vddsl3sADOgFuaoElS6LiNU9yq9ejAE7CzAZGUIFkcpCkjPmQzBuK",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ippr-org.files.svdcdn.com/production/Downloads/social-care-free-at-the-point-of-need-may-19.pdf",
+            "publisher": "ippr-org.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Increased Access and Reduced Unmet Need:**\n*   **Higher Uptake of Care:** The policy is expected to increase the number of people receiving care, particularly in their own homes, as fear of high costs is removed",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Scotland saw a 72% increase in people receiving free personal care in their own homes since 2002",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Addressing Unmet Need:** Currently, many people with significant care needs go without support due to means-testing",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/social-care-free-at-the-point-of-need",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://neweconomics.org/2021/04/is-free-personal-care-enough",
+            "publisher": "neweconomics.org",
+            "title": "neweconomics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hansard.parliament.uk/Lords/2019-06-26/debates/931C9EF0-5CFE-4F50-8140-A9045E95C24F/SocialCareFreePersonalCare",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "FPC could address this \"unmet need\" and promote dignity and independence",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Age UK estimates that nearly 1.3 million people have an unmet need for basic care support",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/Lords/2019-06-26/debates/931C9EF0-5CFE-4F50-8140-A9045E95C24F/SocialCareFreePersonalCare",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Impact on the Care System and Workforce:**\n*   **Shift Towards Home Care:** The Scottish experience shows a trend towards increased personal care provision at home and a reduction in care home residents, aligning with preferences for care in one's own home",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Reduced Pressure on NHS:** By enabling more people to be supported at home and reducing delayed discharges, FPC could free up NHS resources and reduce instances of \"bed blocking\"",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1482368/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://scvo.scot/about/work/campaigns/archive/20-years-delivering-change/free-personal-care-for-older-people",
+            "publisher": "scvo.scot",
+            "title": "scvo.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "IPPR suggests it could \"save billions of pounds in hospital costs\"",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/Lords/2019-06-26/debates/931C9EF0-5CFE-4F50-8140-A9045E95C24F/SocialCareFreePersonalCare",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Demand Management Challenges:** The Scottish system has faced challenges with demand, leading to waiting lists for assessments and services, and some local authorities have implemented eligibility criteria or priority levels to manage demand",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1482368/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://audit.scot/uploads/docs/report/2008/nr_080201_free_personal_care_km.pdf",
+            "publisher": "audit.scot",
+            "title": "audit.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Impact on Unpaid Carers:**\n*   **Reduced Burden:** FPC could significantly alleviate the burden on informal (unpaid) carers, allowing them to provide more emotional support rather than direct personal care",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2019-04/Final%20Report_Web_0.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1482368/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Increased Labour Market Participation:** Research on the Scottish model suggests that FPC can reduce co-residential informal caregiving (by about 18%) and increase labour market participation and hours worked for carers, particularly those aged 55 and above",
+        "sources": [
+          {
+            "url": "https://figshare.le.ac.uk/articles/journal_contribution/The_impacts_of_free_universal_elderly_care_on_the_supply_of_informal_care_and_labour_supply/16988902/3/files/33952445.pdf",
+            "publisher": "figshare.le.ac.uk",
+            "title": "le.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "NEF Consulting highlights that unpaid carers contribute \u00a354bn-\u00a386bn per year in England, and intelligent support for carers could yield high social benefit-cost ratios",
+        "sources": [
+          {
+            "url": "https://www.nefconsulting.com/our-work/clients/nhs-england-modelling-the-socioeconomics-of-unpaid-care/",
+            "publisher": "nefconsulting.com",
+            "title": "nefconsulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Implementing FPC across the UK would require significant additional public funding:\n*   **Health Foundation (2018):** Estimated that introducing free personal care would cost an extra **\u00a35.5 billion in 2020/21**, rising to **\u00a37.9 billion by 2030/31** (these figures are in addition to current funding pressures, increasing the overall funding gap to \u00a37bn in 2020/21 and \u00a314bn in 2030/31)",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7K6zN-TDxUnRN0vn0ToquBuC-DrNWKvUjgFhHo-E93Z6gUfihsac2ih2XCrdGCPhYAScLt1RS6X_pkExF5rsBac11HwnbF4ZnU_y78nN-aCCVP5PgEdhQzIN4z7-u8LaB-SsAyOLfPutOghh1kcV0UOg7AHIM6QGeYLWDKrT1LU9JA6r9S_0lhdwd9w=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://reader.health.org.uk/social-care-funding-options/key-points",
+            "publisher": "reader.health.org.uk",
+            "title": "health.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Their central estimate for 2015/16 was \u00a34.3 billion, with a range of \u00a33.1 billion to \u00a36.7 billion",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiOHuFhey01CBM9wKxzsTmQ5fGP_KT4ZGntOV0bFBm_0bUibuFqkxIgwV7LZUkLCxONDcCY2bUy34-Z4RTg121akUFIP5GQSOvbNQmcC5quHnawAjXTJghXNpqT50xDD2J7cpyRTVZTNwL6jY6dlSzVPu9LjxiG28ZiO2J0Hj7BjgRsYqg4MJyu0KvkS0Vddsl3sADOgFuaoElS6LiNU9yq9ejAE7CzAZGUIFkcpCkjPmQzBuK",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **IPPR (2019):** Endorses the Health Foundation's estimate of \u00a35.5 billion per year",
+        "sources": [
+          {
+            "url": "https://www.ippr.org/articles/social-care-free-at-the-point-of-need",
+            "publisher": "ippr.org",
+            "title": "ippr.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Scottish Costs (for comparison):** The cost of free personal care in Scotland alone topped \u00a3500 million for the first time in 2016-17",
+        "sources": [
+          {
+            "url": "https://www.publicfinance.co.uk/news/2018/08/cost-free-personal-care-scotland-rises-ps500m",
+            "publisher": "publicfinance.co.uk",
+            "title": "publicfinance.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "In 2023-24, an estimated \u00a3473 million was spent on FPC for Care at Home clients aged 65 and over, and \u00a3266 million for those aged 18 to 64",
+        "sources": [
+          {
+            "url": "https://www.gov.scot/publications/free-personal-and-nursing-care-scotland-2023-24/pages/section-5---expenditure-on-free-personal-care-for-care-at-home-clients/",
+            "publisher": "gov.scot",
+            "title": "gov.scot",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Funding Sustainability:** Organizations like Independent Age emphasize that FPC will only deliver benefits if introduced with \"sufficient funding\" and a \"long-term stable funding settlement\"",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Audit Scotland's review of the Scottish model noted persistent concerns about funding and the limited monitoring of long-term financial impacts",
+        "sources": [
+          {
+            "url": "https://audit.scot/uploads/docs/report/2008/nr_080201_free_personal_care_km.pdf",
+            "publisher": "audit.scot",
+            "title": "audit.scot",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "Clear legislative definition would be crucial to avoid similar issues",
+        "sources": [
+          {
+            "url": "https://www.independentage.org/sites/default/files/2020-10/Report_Final.pdf",
+            "publisher": "independentage.org",
+            "title": "independentage.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ippr-org.files.svdcdn.com/production/Downloads/social-care-free-at-the-point-of-need-may-19.pdf",
+            "publisher": "ippr-org.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "Benefits:** While advocates like IPPR suggest FPC could save billions in NHS costs",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/Lords/2019-06-26/debates/931C9EF0-5CFE-4F50-8140-A9045E95C24F/SocialCareFreePersonalCare",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "The Health Foundation notes the \"additional funding required for social care is large\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7K6zN-TDxUnRN0vn0ToquBuC-DrNWKvUjgFhHo-E93Z6gUfihsac2ih2XCrdGCPhYAScLt1RS6X_pkExF5rsBac11HwnbF4ZnU_y78nN-aCCVP5PgEdhQzIN4z7-u8LaB-SsAyOLfPutOghh1kcV0UOg7AHIM6QGeYLWDKrT1LU9JA6r9S_0lhdwd9w=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **\"Subsidy for the Better Off\" Argument:** Historically, when FPC was introduced in Scotland, some critics, including Scottish Labour politicians, viewed it as a \"subsidy for the better off\" because wealthier individuals would also benefit from free care they might otherwise have paid for",
+        "sources": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172214/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

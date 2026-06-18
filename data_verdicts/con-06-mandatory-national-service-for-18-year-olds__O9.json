@@ -1,0 +1,749 @@
+{
+  "policy_id": "con-06-mandatory-national-service-for-18-year-olds",
+  "party": "Conservative",
+  "policy_title": "Mandatory National Service for 18-Year-Olds",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "worsens",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Mandatory service for all 18-year-olds is described as compulsory but without criminal sanctions for refusal, which creates a legally ambiguous duty. Research from comparable European programmes finds that those who completed national service ended up less trusting of democratic institutions than those exempted \u2014 the opposite of the policy's civic aims.",
+    "biggest_unknown": "Whether the UK scheme's design (opt between military and civic tracks, no criminal sanction) would replicate the institutional-trust harms seen in the European programmes studied, or whether a voluntary-in-practice scheme would have negligible O9 impact.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy makes national service mandatory for all school leavers at 18, with a choice of military placement or civic service roles.",
+        "evidence_id": "M",
+        "quote": "mandatory National Service for all school leavers at 18, offering a choice between a competitive year-long military placement or 25 days a year of civic service roles"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Despite being described as mandatory, no criminal sanctions are attached to refusal.",
+        "evidence_id": "E4",
+        "quote": "Despite being mandatory, Home Secretary James Cleverly has stated there would be no criminal sanctions for those who refuse to participate"
+      },
+      {
+        "tier": "projected",
+        "claim": "Specifically, those marginally exempted showed five per cent higher trust in legislative, judicial and political institutions later in life.",
+        "evidence_id": "E12",
+        "quote": "those marginally exempted had a \"five per cent higher trust in the legislative and judicial systems, politicians and political parties later in life\""
+      },
+      {
+        "tier": "projected",
+        "claim": "The scheme has been criticised for failing to account for the socio-economic challenges of disadvantaged young people, with potential for disproportionate disruption to their plans.",
+        "evidence_id": "E9",
+        "quote": "fails to consider the broader socio-economic challenges faced by many young people\" and could disrupt their employment, education, and personal plans"
+      },
+      {
+        "tier": "projected",
+        "claim": "Critics argue compelled participation contradicts the principle of volunteering and risks poor outcomes for participants and organisations.",
+        "evidence_id": "E10",
+        "quote": "if participation is not by choice, it \"goes against the principle of volunteering,\" potentially resulting in poor outcomes and negative experiences for both young people and the organisations involved"
+      }
+    ],
+    "rationale": "O9 covers equal treatment, due process, minority protections, and democratic rights including trust in democratic institutions. Three threads are relevant here. First, the legal status of the obligation: the policy is framed as mandatory but carries no criminal sanction for refusal (E4). This creates an ambiguous legal duty \u2014 a form of state compulsion without clear due-process enforcement \u2014 which is unusual from a rule-of-law standpoint, though its practical O9 effect is limited since there is no punitive consequence. Second, and most directly relevant, academic research on European national service programmes (cited from King's College London/Warwick) finds that alumni of such schemes show lower trust in legislative, judicial and political institutions than those exempted \u2014 a five per cent gap (E11, E12). Trust in democratic institutions is a core O9 indicator; evidence that mandatory service erodes it, rather than building civic attachment as intended, points to a modest worsening direction. Third, the scheme's socio-economic blindness (E9) raises equal-treatment concerns: if disadvantaged young people face greater disruption to employment and education from mandatory participation, the burden falls unequally \u2014 but this falls at the margins of O9 and the evidence here comes from a voluntary-sector advocacy source (NCVO) which must be down-weighted. Overall, the O9 case for 'worsens' rests primarily on the institutional-trust research, which is the most directly relevant and independently sourced evidence available. The magnitude is minor because the scheme as described has no criminal enforcement, the trust effect is modest in absolute terms, and the full design is still subject to a Royal Commission (E3), meaning delivery could shift significantly. Confidence is low given limited O9-specific evidence and the speculative nature of applying European findings to this specific UK design.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.businesstimes.com.sg/international/uk-tories-pledge-bring-back-national-service-18-year-olds",
+        "publisher": "businesstimes.com.sg",
+        "title": "businesstimes.com.sg",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=eeNuiD9jwck",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.kcl.ac.uk/news/compulsory-national-service-not-the-solution-many-think-it-is-research-finds",
+        "publisher": "kcl.ac.uk",
+        "title": "kcl.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://www.ncvo.org.uk/news-and-insights/news-index/national-service-volunteering-conservative-partys-policy/",
+        "publisher": "ncvo.org.uk",
+        "title": "ncvo.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0799,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are appropriately tiered and the quotes entail the claims made. The E4 claim is marked 'measurable' for a reported statement by a named official \u2014 borderline but acceptable as a reported fact rather than a projection. The KCL research (E11/E12) is correctly marked 'projected' given it applies findings from European programmes to a future UK scheme. The rationale explicitly down-weights the NCVO advocacy source (E9/E10) and does not use it as primary basis for the worsening verdict. No party identity or motive attribution detected \u2014 'electoral opportunism' quote from E17 is not used in the verdict rationale. The false_balance check is satisfied: direction is 'worsens' with evidence pointing that way; no artificial balance manufactured. Magnitude 'minor' and confidence 'low' are well-justified given no criminal enforcement and design uncertainty via Royal Commission. The biggest_unknown is substantive and addresses the key crux. No lever_leakage: the verdict is scored on institutional trust and equal treatment, not on defence or economic policy for their own sake."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "Research on comparable European national service programmes found participants ended up less trusting of state institutions than those who were exempted.",
+          "evidence_id": "E11",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will introduce mandatory National Service for all school leavers at 18, offering a choice between a competitive year-long military placement or 25 days a year of civic service roles, backed by a Royal Commission and funding rising to \u00a32.5 billion.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The policy aims to foster a \"shared sense of purpose\" and provide \"real-world skills\" to young people, with an estimated annual cost of \u00a32.5 billion",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/LabourUK/comments/1d0lkd8/conservatives_plan_to_bring_back_mandatory/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kitchener.citynews.ca/2024/05/26/sunaks-plan-to-make-18-year-olds-do-national-service-grabs-attention-on-uk-election-trail/",
+            "publisher": "kitchener.citynews.ca",
+            "title": "citynews.ca",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/wp-content/assets/conservative_2024_tax_avoidance_briefing_Redacted.pdf",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businesstimes.com.sg/international/uk-tories-pledge-bring-back-national-service-18-year-olds",
+            "publisher": "businesstimes.com.sg",
+            "title": "businesstimes.com.sg",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2024/5/28/uks-sunak-eyes-national-service-what-is-it-and-which-countries-have-it",
+            "publisher": "aljazeera.com",
+            "title": "aljazeera.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The remaining majority would be required to volunteer for 25 days a year (equivalent to one weekend per month) in civic roles with organisations such as the fire service, police, NHS, or charities",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/LabourUK/comments/1d0lkd8/conservatives_plan_to_bring_back_mandatory/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kitchener.citynews.ca/2024/05/26/sunaks-plan-to-make-18-year-olds-do-national-service-grabs-attention-on-uk-election-trail/",
+            "publisher": "kitchener.citynews.ca",
+            "title": "citynews.ca",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/wp-content/assets/conservative_2024_tax_avoidance_briefing_Redacted.pdf",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businesstimes.com.sg/international/uk-tories-pledge-bring-back-national-service-18-year-olds",
+            "publisher": "businesstimes.com.sg",
+            "title": "businesstimes.com.sg",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2024/5/28/uks-sunak-eyes-national-service-what-is-it-and-which-countries-have-it",
+            "publisher": "aljazeera.com",
+            "title": "aljazeera.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "A Royal Commission would be established to design the program, with a pilot phase projected for September 2025 and full implementation by 2029/2030",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/wp-content/assets/conservative_2024_tax_avoidance_briefing_Redacted.pdf",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/25/sunak-promises-to-bring-back-national-service-for-18-year-olds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Despite being mandatory, Home Secretary James Cleverly has stated there would be no criminal sanctions for those who refuse to participate",
+        "sources": [
+          {
+            "url": "https://www.businesstimes.com.sg/international/uk-tories-pledge-bring-back-national-service-18-year-olds",
+            "publisher": "businesstimes.com.sg",
+            "title": "businesstimes.com.sg",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=eeNuiD9jwck",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "The Conservative Party estimates the policy will cost \u00a32.5 billion per year by 2029/2030",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/LabourUK/comments/1d0lkd8/conservatives_plan_to_bring_back_mandatory/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kitchener.citynews.ca/2024/05/26/sunaks-plan-to-make-18-year-olds-do-national-service-grabs-attention-on-uk-election-trail/",
+            "publisher": "kitchener.citynews.ca",
+            "title": "citynews.ca",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/wp-content/assets/conservative_2024_tax_avoidance_briefing_Redacted.pdf",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businesstimes.com.sg/international/uk-tories-pledge-bring-back-national-service-18-year-olds",
+            "publisher": "businesstimes.com.sg",
+            "title": "businesstimes.com.sg",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/26/rishi-sunaks-national-service-pledge-is-bonkers-says-ex-military-chief",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This funding is planned to come from two sources: \u00a31 billion from a crackdown on tax avoidance and evasion, and \u00a31.5 billion by diverting funds from the UK Shared Prosperity Fund (UKSPF)",
+        "sources": [
+          {
+            "url": "https://taxpolicy.org.uk/wp-content/assets/conservative_2024_tax_avoidance_briefing_Redacted.pdf",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/29/national-service-proposal-conservative-party-uk-poorest-regions-ifs",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/26/rishi-sunaks-national-service-pledge-is-bonkers-says-ex-military-chief",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Impact on Individuals and Social Cohesion:**\n*   **Proponents' Aims:** Prime Minister Rishi Sunak has argued the policy would help foster a \"national spirit\" and a \"renewed sense of pride in our country,\" providing young people with opportunities to learn \"real-world skills\" and contribute to their communities",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/LabourUK/comments/1d0lkd8/conservatives_plan_to_bring_back_mandatory/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kitchener.citynews.ca/2024/05/26/sunaks-plan-to-make-18-year-olds-do-national-service-grabs-attention-on-uk-election-trail/",
+            "publisher": "kitchener.citynews.ca",
+            "title": "citynews.ca",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/wp-content/assets/conservative_2024_tax_avoidance_briefing_Redacted.pdf",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.businesstimes.com.sg/international/uk-tories-pledge-bring-back-national-service-18-year-olds",
+            "publisher": "businesstimes.com.sg",
+            "title": "businesstimes.com.sg",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2024/5/28/uks-sunak-eyes-national-service-what-is-it-and-which-countries-have-it",
+            "publisher": "aljazeera.com",
+            "title": "aljazeera.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Some also suggest it could improve mental wellbeing, increase a sense of belonging, and broaden young people's outlooks",
+        "sources": [
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   **Criticisms and Data:**\n    *   **Disruption and Wellbeing:** The proposed scheme \"fails to consider the broader socio-economic challenges faced by many young people\" and could disrupt their employment, education, and personal plans, potentially leading to \"negative impacts on wellbeing and economic stability,\" according to analysis from a voluntary sector perspective",
+        "sources": [
+          {
+            "url": "https://www.ncvo.org.uk/news-and-insights/news-index/national-service-volunteering-conservative-partys-policy/",
+            "publisher": "ncvo.org.uk",
+            "title": "ncvo.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "\"Volunteering\":** Critics argue that if participation is not by choice, it \"goes against the principle of volunteering,\" potentially resulting in poor outcomes and negative experiences for both young people and the organisations involved",
+        "sources": [
+          {
+            "url": "https://www.ncvo.org.uk/news-and-insights/news-index/national-service-volunteering-conservative-partys-policy/",
+            "publisher": "ncvo.org.uk",
+            "title": "ncvo.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Trust in Institutions:** Research from King's College London and Warwick University found that previous generations who completed national service in various European countries, including the UK, were actually *less* trusting of state institutions than those who were exempted",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/news/compulsory-national-service-not-the-solution-many-think-it-is-research-finds",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Specifically, those marginally exempted had a \"five per cent higher trust in the legislative and judicial systems, politicians and political parties later in life\"",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/news/compulsory-national-service-not-the-solution-many-think-it-is-research-finds",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This contradicts the policy's aim to boost patriotism and civic duty",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/news/compulsory-national-service-not-the-solution-many-think-it-is-research-finds",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Educational Disruption:** Mandatory service could potentially reduce the number of students enrolling in higher education or interrupt their studies",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-do-we-know-about-the-effects-of-military-conscription",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/academia/comments/1d1mnq2/if_the_uk_was_to_introduce_the_national_service/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "Impact on the Military and Defence:**\n*   **Proponents' Aims:** The Conservative Party suggests military placements would provide valuable experience in fields like logistics and cyber defence, potentially bolstering national defence",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/LabourUK/comments/1d0lkd8/conservatives_plan_to_bring_back_mandatory/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://kitchener.citynews.ca/2024/05/26/sunaks-plan-to-make-18-year-olds-do-national-service-grabs-attention-on-uk-election-trail/",
+            "publisher": "kitchener.citynews.ca",
+            "title": "citynews.ca",
+            "source_type": "media"
+          },
+          {
+            "url": "https://taxpolicy.org.uk/wp-content/assets/conservative_2024_tax_avoidance_briefing_Redacted.pdf",
+            "publisher": "taxpolicy.org.uk",
+            "title": "taxpolicy.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Criticisms from Military Analysts:** The proposal has faced strong opposition from former military leaders and defence experts:\n    *   **Drain on Resources:** Admiral Lord West, a former chief of the naval staff, called the plan \"bonkers\" and warned it would \"deplete the defence budget\" by diverting funds from essential defence spending",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/29/national-service-proposal-conservative-party-uk-poorest-regions-ifs",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/26/rishi-sunaks-national-service-pledge-is-bonkers-says-ex-military-chief",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Ineffectiveness:** General Sir Richard Dannatt, a former chief of the general staff, described it as \"electoral opportunism\" and stated that such a task \"cannot just be imposed on the armed forces as an extra thing to do,\" citing considerable costs in trainers and infrastructure",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/26/rishi-sunaks-national-service-pledge-is-bonkers-says-ex-military-chief",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Professional Force:** The Royal United Services Institute (RUSI) argues that conscription is \"neither the right question nor the answer to the UK's needs\"",
+        "sources": [
+          {
+            "url": "https://www.rusi.org/explore-our-research/publications/commentary/conscription-uk-national-disservice",
+            "publisher": "rusi.org",
+            "title": "rusi.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "They highlight that short engagements offer a \"poor return on investment,\" as modern warfare requires highly trained, professional forces with complex skills and deep expertise that take years to develop",
+        "sources": [
+          {
+            "url": "https://www.rusi.org/explore-our-research/publications/commentary/conscription-uk-national-disservice",
+            "publisher": "rusi.org",
+            "title": "rusi.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Conscription would generate \"quantity not necessarily quality\"",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=u7f9a7qsMFs",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Morale and Training:** Defence Minister Andrew Murrison had previously stated that having unwilling national service recruits \"could damage morale, recruitment and retention and would consume professional military and naval resources\"",
+        "sources": [
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "RUSI also noted that opening the floodgates to national service personnel would negatively impact the training of regular and reserve forces",
+        "sources": [
+          {
+            "url": "https://www.rusi.org/explore-our-research/publications/commentary/conscription-uk-national-disservice",
+            "publisher": "rusi.org",
+            "title": "rusi.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "Economic and Public Service Impacts:**\n*   **Cost and Funding Concerns (IFS):** The Institute for Fiscal Studies (IFS) has issued a strong warning that diverting \u00a31.5 billion from the UK Shared Prosperity Fund (UKSPF) to fund the National Service scheme would leave the UK's poorest regions \"millions of pounds worse off\"",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/29/national-service-proposal-conservative-party-uk-poorest-regions-ifs",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "The UKSPF was specifically designed to \"level up\" economically disadvantaged areas, and reallocating its funds would \"severely downgrade efforts to level up the country,\" as the National Service funding would be spread across the country rather than targeted at areas most in need",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/29/national-service-proposal-conservative-party-uk-poorest-regions-ifs",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Economic Efficiency and Growth:** Economists from the Economics Observatory and the Institute for the Study of Labor (IZA) indicate that mandatory national service can undermine economic efficiency and impose significant \"opportunity costs\" on conscripts",
+        "sources": [
+          {
+            "url": "https://www.rand.org/pubs/commentary/2024/06/should-the-uk-bring-back-national-service-considerations.html",
+            "publisher": "rand.org",
+            "title": "rand.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/what-do-we-know-about-the-effects-of-military-conscription",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/the-economics-of-national-service/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://londonlovesbusiness.com/exclusive-economic-implications-for-the-uk-of-military-conscription/",
+            "publisher": "londonlovesbusiness.com",
+            "title": "londonlovesbusiness.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "It could lead to \"long-term earnings losses and educational disruptions,\" thereby reducing national income and economic growth",
+        "sources": [
+          {
+            "url": "https://www.economicsobservatory.com/what-do-we-know-about-the-effects-of-military-conscription",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/the-economics-of-national-service/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "An IZA study found that mandatory national service reduces economic growth by more than a quarter of a percentage point per year across OECD countries",
+        "sources": [
+          {
+            "url": "https://iea.org.uk/the-economics-of-national-service/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Logistical Challenges:** Implementing such a large-scale program would involve substantial investment in staff and infrastructure for management and support, posing significant logistical challenges",
+        "sources": [
+          {
+            "url": "https://www.rand.org/pubs/commentary/2024/06/should-the-uk-bring-back-national-service-considerations.html",
+            "publisher": "rand.org",
+            "title": "rand.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ncvo.org.uk/news-and-insights/news-index/national-service-volunteering-conservative-partys-policy/",
+            "publisher": "ncvo.org.uk",
+            "title": "ncvo.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Public Services Capacity:** While the civic service component could provide additional support to public services like the NHS and police, the diversion of funds from existing community projects through the UKSPF raises concerns about the equitable and effective use of resources",
+        "sources": [
+          {
+            "url": "https://www.ncvo.org.uk/news-and-insights/news-index/national-service-volunteering-conservative-partys-policy/",
+            "publisher": "ncvo.org.uk",
+            "title": "ncvo.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/29/national-service-proposal-conservative-party-uk-poorest-regions-ifs",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Military Efficacy:** Military leaders and defence think tanks like RUSI overwhelmingly disagree with the notion that mandatory national service would strengthen the armed forces, arguing it would be detrimental and inefficient for a modern professional military",
+        "sources": [
+          {
+            "url": "https://www.rusi.org/explore-our-research/publications/commentary/conscription-uk-national-disservice",
+            "publisher": "rusi.org",
+            "title": "rusi.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/94653/should-the-uk-bring-back-national-service",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/26/rishi-sunaks-national-service-pledge-is-bonkers-says-ex-military-chief",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Social Impact:** Academic research directly challenges the idea that such a scheme would improve social cohesion or trust in institutions, suggesting it could have the opposite effect",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/news/compulsory-national-service-not-the-solution-many-think-it-is-research-finds",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Economic Impact:** The IFS and other economic analysts highlight significant negative economic consequences, particularly regarding regional development and overall economic growth",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/article/2024/may/29/national-service-proposal-conservative-party-uk-poorest-regions-ifs",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rusi.org/explore-our-research/publications/commentary/conscription-uk-national-disservice",
+            "publisher": "rusi.org",
+            "title": "rusi.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.economicsobservatory.com/what-do-we-know-about-the-effects-of-military-conscription",
+            "publisher": "economicsobservatory.com",
+            "title": "economicsobservatory.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://iea.org.uk/the-economics-of-national-service/",
+            "publisher": "iea.org.uk",
+            "title": "iea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "However, the existing analysis from the IFS, House of Commons Library (on historical conscription and policy context",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10226/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,627 @@
+{
+  "policy_id": "ref-60-introduce-new-armed-forces-justice-bill",
+  "party": "Reform UK",
+  "policy_title": "Introduce new Armed Forces Justice Bill",
+  "outcome": "O1",
+  "verdict": {
+    "outcome": "O1",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "The policy's housing and welfare watchdog could help service personnel navigate complaints faster, but the effect on the broader affordable housing fundamental is marginal and the mechanism lacks committed detail. The legal immunity provisions are unrelated to housing affordability.",
+    "biggest_unknown": "Whether a new watchdog, without committed funding or statutory teeth beyond existing covenant mechanisms, would materially improve housing outcomes for service personnel beyond what existing bodies already do.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would create an armed forces watchdog to fast-track complaints and appeals in housing and welfare.",
+        "evidence_id": "M",
+        "quote": "create an armed forces watchdog to fast-track complaints and appeals in housing and welfare"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Service accommodation conditions and maintenance have long been a documented problem, with urgent repairs averaging four days instead of the contractual 48 hours.",
+        "evidence_id": "E21",
+        "quote": "urgent requests averaging four days instead of the contractual 48 hours"
+      },
+      {
+        "tier": "projected",
+        "claim": "A watchdog could help fast-track complaints, but existing complaint mechanisms already exist through Pinnacle and the Defence Infrastructure Organisation.",
+        "evidence_id": "E28",
+        "quote": "Housing complaints currently go through a two-stage process involving Pinnacle and the Defence Infrastructure Organisation (DIO) Customer Services Team"
+      }
+    ],
+    "rationale": "The policy has two distinct limbs. The legal immunity provisions (protecting personnel from civil and human rights law) are entirely unrelated to housing affordability for ordinary people and score nothing on O1. The second limb \u2014 a watchdog to fast-track housing and welfare complaints \u2014 is the only element that touches O1, and only for service personnel, a small sub-population. The evidence confirms genuine and serious housing problems for this group: maintenance delays, rising veteran homelessness, and a complaints system that is barely used despite documented failures. A watchdog that genuinely accelerated redress could help, but the policy text offers no committed instrument, budget, or statutory duty beyond what already exists. The Armed Forces Covenant already has statutory underpinning (E19), and existing oversight bodies already handle housing complaints (E28); the record shows low uptake (E23), suggesting the bottleneck is not the absence of a watchdog but funding, contractor performance, and enforcement. The policy does not commit to funding or enforceable penalties. Even if the watchdog worked as hoped, its reach is limited to service personnel \u2014 a small fraction of the population with housing need \u2014 and would not move the broader O1 indicators (house-price-to-income ratio, social housing stock, net supply additions) at population scale. The direction is therefore negligible rather than improves: the aspiration points the right way for a narrow group, but no delivered mechanism with scale is evidenced.",
+    "sources": [
+      {
+        "url": "https://www.reformparty.uk/policies",
+        "publisher": "reformparty.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://aff.org.uk/advice/housing/complaints/",
+        "publisher": "aff.org.uk",
+        "title": "aff.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://defencehomes.mod.gov.uk/how-to-make-a-complaint/",
+        "publisher": "defencehomes.mod.gov.uk",
+        "title": "mod.gov.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0641,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All three claims are well-supported by their quoted evidence. Tier assignments are correct: stated/measurable/projected used appropriately. The measurable claim (E21) reports a documented fact from a Commons Library briefing, not a projection. Magnitude (minor) and direction (negligible) are consistent and well-reasoned given the narrow scope. The hard rule on n/a is not triggered. No lever leakage \u2014 the legal immunity limb is correctly excluded from scoring O1. No party identity or motive attribution in the rationale. No false balance issue \u2014 negligible is not mixed/too-uncertain. The rationale is grounded, evidence-based, and treats the policy on its merits."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [
+        {
+          "claim": "Homelessness among veterans increased by 25% since 2018.",
+          "evidence_id": "E25",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Only one complaint had been lodged under the Armed Forces Covenant's statutory duty by September 2023, despite widespread documented shortcomings in housing, health and welfare.",
+          "evidence_id": "E23",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "There is already a widening gap between legislative aspiration and operational reality in supporting veterans.",
+          "evidence_id": "E22",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will introduce a new Armed Forces Justice Bill to protect service personnel on active duty from civil law and human rights lawyers, and create an armed forces watchdog to fast-track complaints and appeals in housing and welfare.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Reform UK's policy aims to protect service personnel \"inside and outside the UK from civil law and human rights lawyers\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYl7Twl2yGMAES8DGdnUKj1ofwsY7AkdDjNVhKs36fl19sRenrnbjGfuSzQvpN3MXq679jFh5ekx5KrlMvpPPeQaXjPAQZDQ8trmuum4-lFQY0ZVu_C_orTCUtWznCmPz9l0bJ6W035AcdQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "maidenheadreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "A former head of policy for Reform UK indicated the party would grant \"full immunity from prosecution\" for conduct on combat operations, pardon those convicted for historic operations, and leave the jurisdiction of the International Criminal Court (ICC)",
+        "sources": [
+          {
+            "url": "https://eastangliabylines.co.uk/politics/justice/reforms-defence-proposals-spark-human-rights-concerns/",
+            "publisher": "eastangliabylines.co.uk",
+            "title": "eastangliabylines.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Reform UK also pledges to leave the European Convention on Human Rights (ECHR)",
+        "sources": [
+          {
+            "url": "https://bihr.org.uk/get-informed/legislation-explainers/uk-general-election-2024-manifestos-and-human-rights-what-do-they-say",
+            "publisher": "bihr.org.uk",
+            "title": "bihr.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYl7Twl2yGMAES8DGdnUKj1ofwsY7AkdDjNVhKs36fl19sRenrnbjGfuSzQvpN3MXq679jFh5ekx5KrlMvpPPeQaXjPAQZDQ8trmuum4-lFQY0ZVu_C_orTCUtWznCmPz9l0bJ6W035AcdQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "maidenheadreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Increased operational confidence (proponents' view):** Proponents, including Reform UK, argue that such protections would provide armed forces personnel with greater confidence during combat operations by reducing the threat of what they term \"unjustified lawsuits\" or \"lawfare\"",
+        "sources": [
+          {
+            "url": "https://eastangliabylines.co.uk/politics/justice/reforms-defence-proposals-spark-human-rights-concerns/",
+            "publisher": "eastangliabylines.co.uk",
+            "title": "eastangliabylines.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://humanrights.blogs.sas.ac.uk/2021/08/19/the-overseas-operations-bill-counter-lawfare-or-lawfare/",
+            "publisher": "humanrights.blogs.sas.ac.uk",
+            "title": "sas.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/overseas-operations-service-personnel-and-veterans-bill",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   **Risk of impunity and reduced accountability (critics' view):** Critics argue that these measures could lead to an increase in unlawful activities, weaken accountability for serious crimes, and undermine the UK's commitment to international law",
+        "sources": [
+          {
+            "url": "https://eastangliabylines.co.uk/politics/justice/reforms-defence-proposals-spark-human-rights-concerns/",
+            "publisher": "eastangliabylines.co.uk",
+            "title": "eastangliabylines.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://humanrights.blogs.sas.ac.uk/2021/08/19/the-overseas-operations-bill-counter-lawfare-or-lawfare/",
+            "publisher": "humanrights.blogs.sas.ac.uk",
+            "title": "sas.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://redress.org/news/overseas-operations-bill-passes-but-with-crucial-amendments-thanks-to-concerted-campaign/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.libertyhumanrights.org.uk/wp-content/uploads/2019/02/Libertys-Second-Reading-Briefing-for-the-Overseas-Operations-Bill-HOC-September-2020.pdf",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Research charity Action on Armed Violence (AOAV) noted that Britain's Ministry of Defence is already \"suffering a crisis of accountability,\" citing only one British soldier jailed for abuse during the entire 'War on Terror' despite multiple inquiries",
+        "sources": [
+          {
+            "url": "https://eastangliabylines.co.uk/politics/justice/reforms-defence-proposals-spark-human-rights-concerns/",
+            "publisher": "eastangliabylines.co.uk",
+            "title": "eastangliabylines.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   **Impact on UK's international standing:** Withdrawal from international legal bodies like the ICC or ECHR, as suggested by Reform UK, could damage the UK's reputation as a country adhering to the rule of law and respecting the international legal order",
+        "sources": [
+          {
+            "url": "https://eastangliabylines.co.uk/politics/justice/reforms-defence-proposals-spark-human-rights-concerns/",
+            "publisher": "eastangliabylines.co.uk",
+            "title": "eastangliabylines.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://redress.org/news/overseas-operations-bill-passes-but-with-crucial-amendments-thanks-to-concerted-campaign/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.libertyhumanrights.org.uk/wp-content/uploads/2019/02/Libertys-Second-Reading-Briefing-for-the-Overseas-Operations-Bill-HOC-September-2020.pdf",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The **Overseas Operations (Service Personnel and Veterans) Act 2021** introduced similar protections, establishing a \"triple lock\" against prosecution for alleged offences committed more than five years ago during overseas operations, making such prosecutions \"exceptional\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8983/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/overseas-operations-service-personnel-and-veterans-bill",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/overseas-operations-service-personnel-and-veterans-bill/overseas-operations-service-personnel-and-veterans-act-2021-guidance",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "It also set a maximum six-year time limit for civil claims for personal injury or death and Human Rights Act claims related to overseas operations",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8983/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/overseas-operations-service-personnel-and-veterans-bill",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://redress.org/news/overseas-operations-bill-passes-but-with-crucial-amendments-thanks-to-concerted-campaign/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Act additionally places a duty on the government to consider derogating from the ECHR for significant overseas military operations",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8983/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://humanrights.blogs.sas.ac.uk/2021/08/19/the-overseas-operations-bill-counter-lawfare-or-lawfare/",
+            "publisher": "humanrights.blogs.sas.ac.uk",
+            "title": "sas.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9198/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **House of Commons Library:** Briefings on the Overseas Operations Act 2021 highlighted the controversy surrounding the Bill, noting its purpose was to provide greater legal protections but also raised concerns about its implications",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8983/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIv_7q06NxU1iaV9x0ZaTeBUSBm5kzzuHxU1aBGHlcKtCY6RHLeyZ9Lvm9kevbu3zGSlED7oDikhTL6NGxsBt6okNFT1CAVybrIEz5-SRSTLHAhMt8UYiskLM6uQbYNWJ2uhGotxKIETM8yU-U",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "parliament.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9198/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "They argued it was \"unconstitutional and misleading,\" breaching UK obligations under international law",
+        "sources": [
+          {
+            "url": "https://humanrights.blogs.sas.ac.uk/2021/08/19/the-overseas-operations-bill-counter-lawfare-or-lawfare/",
+            "publisher": "humanrights.blogs.sas.ac.uk",
+            "title": "sas.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Liberty stated that a statutory presumption against prosecutions \"will inevitably result in the prevention of justice being served\" and that the Bill could \"mandate impunity for some of the most serious criminal offences imaginable\"",
+        "sources": [
+          {
+            "url": "https://www.libertyhumanrights.org.uk/wp-content/uploads/2019/02/Libertys-Second-Reading-Briefing-for-the-Overseas-Operations-Bill-HOC-September-2020.pdf",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Redress noted that while amendments were made to exclude torture, genocide, and crimes against humanity from the presumption against prosecution, the Act still makes it \"more difficult for civilians to sue the Ministry of Defence compared with members of the armed forces\"",
+        "sources": [
+          {
+            "url": "https://redress.org/news/overseas-operations-bill-passes-but-with-crucial-amendments-thanks-to-concerted-campaign/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **Centre for Military Justice:** This organisation has consistently advocated for serious criminal cases involving service personnel (e.g., murder, rape) to be tried in the civilian justice system, highlighting concerns about the service justice system's effectiveness",
+        "sources": [
+          {
+            "url": "https://centreformilitaryjustice.org.uk/guide/briefing-on-the-armed-forces-bill/",
+            "publisher": "centreformilitaryjustice.org.uk",
+            "title": "centreformilitaryjustice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "There is a fundamental disagreement between those who advocate for stronger legal protections for service personnel (like Reform UK) to boost morale and reduce \"lawfare,\" and legal/human rights experts who warn that such measures risk creating a culture of impunity, undermining accountability for grave abuses, and potentially violating international legal obligations",
+        "sources": [
+          {
+            "url": "https://eastangliabylines.co.uk/politics/justice/reforms-defence-proposals-spark-human-rights-concerns/",
+            "publisher": "eastangliabylines.co.uk",
+            "title": "eastangliabylines.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://humanrights.blogs.sas.ac.uk/2021/08/19/the-overseas-operations-bill-counter-lawfare-or-lawfare/",
+            "publisher": "humanrights.blogs.sas.ac.uk",
+            "title": "sas.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://redress.org/news/overseas-operations-bill-passes-but-with-crucial-amendments-thanks-to-concerted-campaign/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.libertyhumanrights.org.uk/wp-content/uploads/2019/02/Libertys-Second-Reading-Briefing-for-the-Overseas-Operations-Bill-HOC-September-2020.pdf",
+            "publisher": "libertyhumanrights.org.uk",
+            "title": "libertyhumanrights.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Reform UK proposes to \"create an armed forces watchdog to fast-track complaints and appeals in housing and welfare\"",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYl7Twl2yGMAES8DGdnUKj1ofwsY7AkdDjNVhKs36fl19sRenrnbjGfuSzQvpN3MXq679jFh5ekx5KrlMvpPPeQaXjPAQZDQ8trmuum4-lFQY0ZVu_C_orTCUtWznCmPz9l0bJ6W035AcdQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "maidenheadreform.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This DHS is intended to provide better homes, faster repairs, and named housing officers",
+        "sources": [
+          {
+            "url": "https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102mrrp/what-is-the-armed-forces-bill-2026-and-why-should-you-care",
+            "publisher": "irwinmitchell.com",
+            "title": "irwinmitchell.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://workplacejournal.co.uk/2026/01/new-defence-housing-service-to-overhaul-military-housing-as-armed-forces-bill-is-introduced/",
+            "publisher": "workplacejournal.co.uk",
+            "title": "workplacejournal.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-defence-housing-service-to-transform-housing-for-forces-families-as-armed-forces-bill-backs-those-who-serve",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The 2026 Bill also extends the Armed Forces Covenant, placing a legal requirement on public bodies to consider the needs of service personnel in services like housing and social care",
+        "sources": [
+          {
+            "url": "https://workplacejournal.co.uk/2026/01/new-defence-housing-service-to-overhaul-military-housing-as-armed-forces-bill-is-introduced/",
+            "publisher": "workplacejournal.co.uk",
+            "title": "workplacejournal.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/new-defence-housing-service-to-transform-housing-for-forces-families-as-armed-forces-bill-backs-those-who-serve",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Existing problems with housing and welfare:**\n    *   **House of Commons Library:** The condition, maintenance, and repair of service accommodation have \"long been an issue\"",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Complaints about new maintenance contractors (Pinnacle, Amey, VIVO) emerged in late 2022, citing slow response times and delays, with urgent requests averaging four days instead of the contractual 48 hours",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9716/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Action on Armed Violence (AOAV):** In their January 2026 report \"After Service,\" AOAV highlighted a \"widening gap between legislative aspiration and operational reality\" in supporting veterans",
+        "sources": [
+          {
+            "url": "https://aoav.org.uk/2026/after-service-the-hidden-costs-of-britains-military-on-its-veterans/",
+            "publisher": "aoav.org.uk",
+            "title": "aoav.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   They found that by September 2023, only **one complaint** had been lodged under the Armed Forces Covenant's statutory duty, despite \"widespread evidence of documented shortcomings across housing, health and welfare provision\"",
+        "sources": [
+          {
+            "url": "https://aoav.org.uk/2026/after-service-the-hidden-costs-of-britains-military-on-its-veterans/",
+            "publisher": "aoav.org.uk",
+            "title": "aoav.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   Between 2019 and 2024, the Ministry of Defence (MOD) made just **170 homelessness referrals** for service leavers nationwide, out of 211,490 total homelessness referrals, representing 0.08%",
+        "sources": [
+          {
+            "url": "https://aoav.org.uk/2026/after-service-the-hidden-costs-of-britains-military-on-its-veterans/",
+            "publisher": "aoav.org.uk",
+            "title": "aoav.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "Homelessness among veterans increased by **25%** since 2018",
+        "sources": [
+          {
+            "url": "https://aoav.org.uk/2026/after-service-the-hidden-costs-of-britains-military-on-its-veterans/",
+            "publisher": "aoav.org.uk",
+            "title": "aoav.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   The veteran compensation system is also \"beset by delay, error and adversarial practice,\" with over **8,000 awards** requiring correction",
+        "sources": [
+          {
+            "url": "https://aoav.org.uk/2026/after-service-the-hidden-costs-of-britains-military-on-its-veterans/",
+            "publisher": "aoav.org.uk",
+            "title": "aoav.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Current Complaints Mechanism:** Serving or former armed forces members can make a Service Complaint for issues arising under service law, with the Armed Forces Commissioner providing independent oversight",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/armed-forces-service-complaints-process",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "Housing complaints currently go through a two-stage process involving Pinnacle and the Defence Infrastructure Organisation (DIO) Customer Services Team",
+        "sources": [
+          {
+            "url": "https://aff.org.uk/advice/housing/complaints/",
+            "publisher": "aff.org.uk",
+            "title": "aff.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://defencehomes.mod.gov.uk/how-to-make-a-complaint/",
+            "publisher": "defencehomes.mod.gov.uk",
+            "title": "mod.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Army Families Federation (AFF):** The AFF welcomed the government's proposed Defence Housing Service, particularly its \"families first\" focus, but stressed the need for \"proper funding\" and \"long-term investment\" to ensure its effectiveness",
+        "sources": [
+          {
+            "url": "https://aff.org.uk/news/defence-housing-service-must-have-long-term-funding/",
+            "publisher": "aff.org.uk",
+            "title": "aff.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They supported recommendations for clear processes and enforceable penalties for poor contractor performance",
+        "sources": [
+          {
+            "url": "https://aff.org.uk/news/defence-housing-service-must-have-long-term-funding/",
+            "publisher": "aff.org.uk",
+            "title": "aff.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **Resolution Foundation:** While not specifically analysing Reform UK's watchdog, the Resolution Foundation focuses on improving living standards for low-to-middle-income households, including through effective public services",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Their broader work highlights the pressures on public spending and the importance of efficient allocation to address welfare needs",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/publications/at-your-service/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

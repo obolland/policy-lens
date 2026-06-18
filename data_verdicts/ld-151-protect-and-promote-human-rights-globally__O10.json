@@ -1,0 +1,905 @@
+{
+  "policy_id": "ld-151-protect-and-promote-human-rights-globally",
+  "party": "Liberal Democrat",
+  "policy_title": "Protect and Promote Human Rights Globally",
+  "outcome": "O10",
+  "verdict": {
+    "outcome": "O10",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy focuses almost entirely on promoting human rights abroad and would not materially change the personal liberty of ordinary UK residents in their daily lives. The one domestic-facing element \u2014 enshrining a legal right to consular access for detained British nationals \u2014 is a genuine liberty-protective step but affects a very small number of people each year.",
+    "biggest_unknown": "Whether enshrining a legal right to consular access would produce meaningfully better outcomes in practice, given that detaining states are not bound by it.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy would enshrine in law a right for British nationals, including dual nationals, who are politically detained abroad to access UK consular services.",
+        "evidence_id": "M",
+        "quote": "Enshrining in law a right for British nationals, including dual nationals, who have been politically detained or face other human rights violations abroad to access UK consular services"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Currently, consular assistance is discretionary, not a legal right, leaving detainees vulnerable to changes in government priorities.",
+        "evidence_id": "E24",
+        "quote": "Currently, consular assistance provided by the UK government is discretionary, not a legal right"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around 100 British nationals are tortured or ill-treated abroad each year, illustrating the population affected.",
+        "evidence_id": "E30",
+        "quote": "around 100 British nationals are tortured or ill-treated abroad each year"
+      },
+      {
+        "tier": "projected",
+        "claim": "Enshrining the right in law would not necessarily compel detaining states to grant access, limiting its practical effect.",
+        "evidence_id": "E33",
+        "quote": "Enshrining a legal right would not necessarily force other countries to recognize dual nationality or grant access"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy would appoint an ambassador-level Champion for Freedom of Belief and develop a strategy for decriminalisation of homosexuality abroad \u2014 both externally focused.",
+        "evidence_id": "M",
+        "quote": "Appointing an ambassador-level Champion for Freedom of Belief"
+      }
+    ],
+    "rationale": "O10 covers personal liberty and freedom from undue state coercion for people within the UK's own jurisdiction \u2014 freedom of expression, privacy, bodily autonomy, freedom from mandates. Almost every element of this policy is externally directed: lobbying for abolition of the death penalty abroad, deploying Magnitsky sanctions against foreign actors, banning imports from Xinjiang, promoting LGBT+ decriminalisation internationally, and appointing a Freedom of Belief envoy. None of these mechanisms impose new coercive powers on UK residents, nor do they expand or restrict domestic speech or privacy rights. The one element that touches O10 is the proposed legal right to consular access for British nationals politically detained abroad. Converting a discretionary government service into an enforceable legal entitlement removes a degree of executive discretion and gives individuals a right they currently lack \u2014 this is marginally liberty-improving in the O10 sense. However, the affected population is tiny (the evidence cites around 100 nationals tortured or ill-treated abroad per year, with the FCDO handling roughly 5,000 arrest/detention cases annually), and the evidence suggests enshrining the right would not override the fundamental constraint that detaining states must respect the Vienna Convention. The effect on O10 indicators at population scale is therefore negligible rather than a meaningful 'improves'. No element of this policy worsens O10 \u2014 it introduces no new surveillance, no domestic speech restrictions, no mandates, and no detention powers. The direction is negligible with low confidence because the consular rights element has a real but immaterial liberty dimension.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://redress.org/news/one-year-on-and-still-no-right-to-consular-assistance-despite-labour-promise/",
+        "publisher": "redress.org",
+        "title": "redress.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.prisonersabroad.org.uk/a-right-to-support-from-the-uk-when-in-prison-abroad",
+        "publisher": "prisonersabroad.org.uk",
+        "title": "prisonersabroad.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://redress.org/wp-content/uploads/2024/01/WEB_2024-01-Protecting-British-Nationals-Abroad-Principles-for-a-legal-obligation-to-provide-consular-assistance.pdf",
+        "publisher": "redress.org",
+        "title": "redress.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmfaff/1596/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0515,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-grounded: stated-tier quotes are verbatim from policy text, measurable claims are sourced from credible institutional sources, and the projected claim (E33) correctly hedges with 'would not necessarily'. Tier integrity is maintained throughout. The direction of 'negligible' is defensible \u2014 the policy is almost entirely externally directed and the one O10-relevant element (consular rights) affects a small population with limited practical enforceability. No lever leakage, no party-blind issues, no false balance. The magnitude/time_horizon fields are unusual ('minor'/'long-term') paired with 'negligible' direction \u2014 this is slightly inconsistent (negligible direction arguably warrants n/a magnitude) but is not strictly a schema violation and the rationale explains the reasoning adequately. Worth flagging as a warning only."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [
+        {
+          "claim": "The policy would use Magnitsky sanctions and import bans to respond to human rights abuses \u2014 these are foreign-facing levers, not domestic liberty restrictions.",
+          "evidence_id": "M",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Protect, defend and promote human rights for all around the world by: Working to abolish the death penalty and end the use of torture. Using the UK\u2019s Magnitsky sanctions to stand up against human rights abuses. Banning imports from areas with egregious abuses such as Xinjiang. Enshrining in law a right for British nationals, including dual nationals, who have been politically detained or face other human rights violations abroad to access UK consular services. Developing a comprehensive strategy for promoting the decriminalisation of homosexuality and advancing LGBT+ rights. Appointing an ambassador-level Champion for Freedom of Belief.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The UK is a signatory to the European Convention on Human Rights (ECHR), which includes the right to life and freedom from torture",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9406/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9958/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This commitment is supported by its obligations under international law to prevent torture wherever it occurs",
+        "sources": [
+          {
+            "url": "https://redress.org/wp-content/uploads/2024/01/WEB_2024-01-Protecting-British-Nationals-Abroad-Principles-for-a-legal-obligation-to-provide-consular-assistance.pdf",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "They note that such inconsistencies harm the UK's own interests and that credibility on the international stage relies on greater consistency between domestic and international policies",
+        "sources": [
+          {
+            "url": "https://www.amnesty.org.uk/knowledge-hub/all-resources/rights-focus-progressive-foreign-policy/",
+            "publisher": "amnesty.org.uk",
+            "title": "amnesty.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The UK established its Global Human Rights Sanctions Regime in 2020, allowing it to impose asset freezes and travel bans on individuals and entities responsible for gross human rights violations and abuses",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/uks-first-post-brexit-sanctions/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-08/debates/81201EE2-559F-4340-BC3B-2E02355859D8/HumanRightsAbusesMagnitskySanctions",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/magnitsky-sanctions/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "These are often referred to as Magnitsky sanctions, named after Sergei Magnitsky, a Russian lawyer who died in prison after exposing fraud",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8374/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/uks-first-post-brexit-sanctions/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-08/debates/81201EE2-559F-4340-BC3B-2E02355859D8/HumanRightsAbusesMagnitskySanctions",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "**Real-world Effects & Analysis:**\n*   **Targeting Perpetrators:** The sanctions are designed to be a \"forensic tool\" to target individuals involved in serious human rights violations without punishing the wider population of a country",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/uks-first-post-brexit-sanctions/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/magnitsky-sanctions/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Initial designations in July 2020 targeted individuals involved in the murder of Jamal Khashoggi and Russian officials implicated in Magnitsky's mistreatment",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8374/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.pillsburylaw.com/en/news-and-insights/the-uks-magnitsky-act-is-an-important-first-step-but-it-is-not-the-end-of-the-road.html",
+            "publisher": "pillsburylaw.com",
+            "title": "pillsburylaw.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kcl.ac.uk/law/assets/docs/collection-of-speeches-targeted-sanctions-and-human-rights.pdf",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Deterrent Effect:** The policy aims to create real-world consequences for human rights violators, impacting their finances and freedom of travel, and potentially deterring others from similar actions",
+        "sources": [
+          {
+            "url": "https://www.wfd.org/what-we-do/resources/magnitsky-sanctions-and-politics-individual-accountability",
+            "publisher": "wfd.org",
+            "title": "wfd.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The National Crime Agency estimated that as much as \u00a3100 billion illegally flows through the UK annually, highlighting the potential impact of effective sanctions on illicit wealth",
+        "sources": [
+          {
+            "url": "https://www.wfd.org/what-we-do/resources/magnitsky-sanctions-and-politics-individual-accountability",
+            "publisher": "wfd.org",
+            "title": "wfd.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "As of January 2026, only 14% of global Magnitsky designations were listed under the UK regime, with another 17% under other UK regimes, meaning 69% of perpetrators sanctioned by allies were not sanctioned by the UK",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-08/debates/81201EE2-559F-4340-BC3B-2E02355859D8/HumanRightsAbusesMagnitskySanctions",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "This gap means the UK is \"failing to act against individuals already identified as human rights abusers or corrupt actors by close allies\"",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-08/debates/81201EE2-559F-4340-BC3B-2E02355859D8/HumanRightsAbusesMagnitskySanctions",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "*   **Slowdown in Designations:** Parliamentary evidence suggests a significant slowdown in new designations, with only three individuals sanctioned under the Magnitsky regime since September 2021, compared to 105 in the preceding period",
+        "sources": [
+          {
+            "url": "https://hansard.parliament.uk/commons/2026-01-08/debates/81201EE2-559F-4340-BC3B-2E02355859D8/HumanRightsAbusesMagnitskySanctions",
+            "publisher": "hansard.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Anti-Money Laundering Deficiencies:** Think tanks like Open Democracy have pointed out deficiencies in the UK's anti-money laundering (AML) regulations, which could undermine the effectiveness of Magnitsky laws by allowing ultimate beneficial owners to maintain anonymity",
+        "sources": [
+          {
+            "url": "https://www.pillsburylaw.com/en/news-and-insights/the-uks-magnitsky-act-is-an-important-first-step-but-it-is-not-the-end-of-the-road.html",
+            "publisher": "pillsburylaw.com",
+            "title": "pillsburylaw.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Inconsistent Application:** King's College London notes inconsistencies in how the British government applies Magnitsky sanctions, suggesting they are sometimes wielded as a geopolitical tool rather than consistently applied to human rights abuses, particularly in cases of arbitrary detention and state hostage-taking",
+        "sources": [
+          {
+            "url": "https://www.kcl.ac.uk/law/assets/docs/collection-of-speeches-targeted-sanctions-and-human-rights.pdf",
+            "publisher": "kcl.ac.uk",
+            "title": "kcl.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The policy aims to address concerns about forced labor in global supply chains, particularly regarding the Xinjiang Uyghur Autonomous Region in China, where systematic forced labor has been widely documented",
+        "sources": [
+          {
+            "url": "https://bendi.ai/articles/toward-a-xinjiang-import-ban-the-uk-s-response-to-forced-labour",
+            "publisher": "bendi.ai",
+            "title": "bendi.ai",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vinciworks.com/blog/xinjiang-imports-the-800m-supply-chain-scandal-britain-cannot-ignore/",
+            "publisher": "vinciworks.com",
+            "title": "vinciworks.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.business-humanrights.org/my/%E1%80%9E%E1%80%90%E1%80%84/nearly-1-billion-worth-of-goods-imported-to-uk-via-direct-flights-from-xinjiang-amid-high-risk-of-forced-labour/",
+            "publisher": "business-humanrights.org",
+            "title": "business-humanrights.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Real-world Effects & Analysis:**\n*   **Current Situation:** As of September 2025, the UK has not implemented an outright ban on imports from Xinjiang, unlike the US, which enacted the Uyghur Forced Labor Prevention Act (UFLPA) in June 2022",
+        "sources": [
+          {
+            "url": "https://vinciworks.com/blog/xinjiang-imports-the-800m-supply-chain-scandal-britain-cannot-ignore/",
+            "publisher": "vinciworks.com",
+            "title": "vinciworks.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.antislavery.org/latest/forced-labour-bans-are-reshaping-global-trade/",
+            "publisher": "antislavery.org",
+            "title": "antislavery.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "This has led to concerns that the UK is becoming a \"dumping ground for goods made by state-imposed forced labour\"",
+        "sources": [
+          {
+            "url": "https://vinciworks.com/blog/xinjiang-imports-the-800m-supply-chain-scandal-britain-cannot-ignore/",
+            "publisher": "vinciworks.com",
+            "title": "vinciworks.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.antislavery.org/latest/forced-labour-bans-are-reshaping-global-trade/",
+            "publisher": "antislavery.org",
+            "title": "antislavery.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "These included nearly 2 million T-shirts, 243,000 bras, and 170,000 toothbrushes",
+        "sources": [
+          {
+            "url": "https://vinciworks.com/blog/xinjiang-imports-the-800m-supply-chain-scandal-britain-cannot-ignore/",
+            "publisher": "vinciworks.com",
+            "title": "vinciworks.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Specific products like cotton, tomatoes, and solar panel components from Xinjiang are identified as high-risk due to documented forced labor",
+        "sources": [
+          {
+            "url": "https://vinciworks.com/blog/xinjiang-imports-the-800m-supply-chain-scandal-britain-cannot-ignore/",
+            "publisher": "vinciworks.com",
+            "title": "vinciworks.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Over \u00a330 million worth of cotton-based goods from Xinjiang were shipped directly to the UK in the last year",
+        "sources": [
+          {
+            "url": "https://vinciworks.com/blog/xinjiang-imports-the-800m-supply-chain-scandal-britain-cannot-ignore/",
+            "publisher": "vinciworks.com",
+            "title": "vinciworks.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Calls for Ban:** The Joint Committee on Human Rights has held inquiries, with witnesses arguing that an Xinjiang-specific import ban, combined with mandatory human rights due diligence, would align the UK with international counterparts and create a level playing field for responsible businesses",
+        "sources": [
+          {
+            "url": "https://bendi.ai/articles/toward-a-xinjiang-import-ban-the-uk-s-response-to-forced-labour",
+            "publisher": "bendi.ai",
+            "title": "bendi.ai",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Anti-Slavery International also calls for a comprehensive and effectively enforced import ban",
+        "sources": [
+          {
+            "url": "https://www.antislavery.org/latest/forced-labour-bans-are-reshaping-global-trade/",
+            "publisher": "antislavery.org",
+            "title": "antislavery.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Economic Impact:** While a ban would uphold ethical standards, its economic impact on UK businesses sourcing from regions with potential indirect supply chain links to Xinjiang could be significant, necessitating effective traceability mechanisms",
+        "sources": [
+          {
+            "url": "https://files.modernslaverypec.org/production/assets/downloads/ImportBans_briefing-updated-final.pdf?dm=1736268036",
+            "publisher": "files.modernslaverypec.org",
+            "title": "modernslaverypec.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Currently, consular assistance provided by the UK government is discretionary, not a legal right",
+        "sources": [
+          {
+            "url": "https://redress.org/news/one-year-on-and-still-no-right-to-consular-assistance-despite-labour-promise/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.prisonersabroad.org.uk/a-right-to-support-from-the-uk-when-in-prison-abroad",
+            "publisher": "prisonersabroad.org.uk",
+            "title": "prisonersabroad.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "This means the level of support can be subject to changes in government priorities or complex international relations",
+        "sources": [
+          {
+            "url": "https://www.prisonersabroad.org.uk/a-right-to-support-from-the-uk-when-in-prison-abroad",
+            "publisher": "prisonersabroad.org.uk",
+            "title": "prisonersabroad.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "**Real-world Effects & Analysis:**\n*   **Current Consular Support:** The Foreign, Commonwealth and Development Office (FCDO) provides consular assistance in approximately 5,000 new cases of arrest or detention overseas each year",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0075/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2021-0210/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "Consular staff work to offer tailored support and raise individual cases with authorities",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0075/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "However, the ability to provide assistance depends on the detaining state respecting the Vienna Convention on Consular Relations and the laws of that country",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0075/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Vulnerability of Detainees:** Human rights organizations like Redress argue that the discretionary nature of consular assistance leaves British nationals, especially those politically detained or facing human rights abuses like torture, vulnerable",
+        "sources": [
+          {
+            "url": "https://redress.org/news/one-year-on-and-still-no-right-to-consular-assistance-despite-labour-promise/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://redress.org/wp-content/uploads/2024/01/WEB_2024-01-Protecting-British-Nationals-Abroad-Principles-for-a-legal-obligation-to-provide-consular-assistance.pdf",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They note that around 100 British nationals are tortured or ill-treated abroad each year",
+        "sources": [
+          {
+            "url": "https://redress.org/wp-content/uploads/2024/01/WEB_2024-01-Protecting-British-Nationals-Abroad-Principles-for-a-legal-obligation-to-provide-consular-assistance.pdf",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The greatest risk of abuse is within the first 48 hours of detention",
+        "sources": [
+          {
+            "url": "https://redress.org/wp-content/uploads/2024/01/WEB_2024-01-Protecting-British-Nationals-Abroad-Principles-for-a-legal-obligation-to-provide-consular-assistance.pdf",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Dual Nationals:** Dual nationals, such as Nazanin Zaghari-Ratcliffe and Alaa Abd-El Fattah, are particularly vulnerable as detaining states often deny consular access, even in high-profile cases",
+        "sources": [
+          {
+            "url": "https://redress.org/news/one-year-on-and-still-no-right-to-consular-assistance-despite-labour-promise/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "Enshrining a legal right would not necessarily force other countries to recognize dual nationality or grant access",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmfaff/1596/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Calls for Reform and Disagreement:**\n    *   **Proposed Legal Right:** Redress and Prisoners Abroad advocate for a legal right to consular assistance, arguing it would provide transparency and consistency for detainees and their families, enable access for those currently refused, and offer protection against mistreatment due to consular visibility",
+        "sources": [
+          {
+            "url": "https://redress.org/news/one-year-on-and-still-no-right-to-consular-assistance-despite-labour-promise/",
+            "publisher": "redress.org",
+            "title": "redress.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.prisonersabroad.org.uk/a-right-to-support-from-the-uk-when-in-prison-abroad",
+            "publisher": "prisonersabroad.org.uk",
+            "title": "prisonersabroad.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "The government maintains that enshrining a legal right would not alter the fundamental constraint of needing other states to respect the Vienna Convention",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmfaff/1596/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "The UK government views the promotion and protection of LGBT+ human rights internationally as a priority",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9403/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9508/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/official-development-assistance-oda-fcdo-international-programme-spend-objectives-2022-to-2023/promoting-and-protecting-the-rights-of-lgbt-people-programme-summary-2022-to-2023",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "**Real-world Effects & Analysis:**\n*   **Global Context:** As of July 2019, engaging in same-sex sexual relations was illegal in 69 of the UN's 193 member states (36%), with some even carrying the death penalty in 2020 (e.g., Brunei, Iran, Mauritania, Nigeria - 12 Northern states only, Saudi Arabia, Yemen)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9403/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "As of March 2023, 67 countries criminalized consensual same-sex sexual activity, with 32 of these in the Commonwealth",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/official-development-assistance-oda-fcdo-international-programme-spend-objectives-2022-to-2023/promoting-and-protecting-the-rights-of-lgbt-people-programme-summary-2022-to-2023",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **UK Diplomatic Efforts and Funding:** The FCDO identifies priority countries for human rights efforts, including LGBT+ rights, and uses its diplomatic network to raise these issues",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9508/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": "In 2020/21, the UK committed \u00a35.5 million to targeted international LGBT+ programs, with calls from the All-Party Parliamentary Group on global LGBT+ rights to increase this to at least \u00a355 million per annum",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9434/CBP-9434.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "*   **Challenges and Setbacks:**\n    *   **Domestic Record's Impact:** Chatham House notes that the UK's domestic record on LGBT+ rights (e.g., issues with conversion therapy bans and transphobia) affects its legitimacy as a global advocate",
+        "sources": [
+          {
+            "url": "https://www.chathamhouse.org/events/all/standard-event/values-action-where-do-lgbtiq-rights-sit-uk-foreign-policy",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "The government's decision to ban conversion therapy for gay or bisexual people but not transgender people led to charities withdrawing from a planned international conference in 2022",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9403/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9508/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "*   **\"Sensitive Issue\" Diplomacy:** Much of the UK's diplomatic lobbying on LGBT+ equality is conducted \"behind closed doors\" due to the sensitive nature of the subject in many countries, making its effectiveness difficult to assess",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9434/CBP-9434.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2017-0196/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "*   **Global Backlash:** UK foreign policy on LGBT+ issues operates in an increasingly contested normative world order with a rising global backlash against LGBT+ rights",
+        "sources": [
+          {
+            "url": "https://www.chathamhouse.org/events/all/standard-event/values-action-where-do-lgbtiq-rights-sit-uk-foreign-policy",
+            "publisher": "chathamhouse.org",
+            "title": "chathamhouse.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": "*   **UN Committee Recommendations:** The UN Committee on Economic, Social and Cultural Rights has called on the UK to improve its protection of LGBTQIA+ rights domestically, including better protections against discrimination, addressing disproportionate poverty rates, reducing healthcare waiting times, and tackling violence and bullying in schools",
+        "sources": [
+          {
+            "url": "https://www.equality-network.org/our-work/policy-team/lgbti-human-rights/un-committee-tells-the-uk-to-improve-lgbtqia-human-rights/",
+            "publisher": "equality-network.org",
+            "title": "equality-network.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "The UK appointed its first dedicated Special Envoy for Freedom of Religion or Belief (FoRB) in 2018, with David Smith MP most recently appointed in December 2024",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E47",
+        "snippet": "**Real-world Effects & Analysis:**\n*   **Role and Mandate:** The Envoy is tasked with promoting FoRB globally, working with foreign governments, and raising awareness of cases of persecution and discrimination",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10023/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10023/CBP-10023.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E48",
+        "snippet": "This includes working through international institutions and prioritizing diplomatic efforts in countries like Afghanistan, China, and Nigeria",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E49",
+        "snippet": "The government also funds the John Bunyan Fund for FoRB work and can apply sanctions against abusers",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E50",
+        "snippet": "Apostasy is punishable by death in at least 10 countries, and blasphemy in seven, including Afghanistan, Iran, and Mauritania",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E51",
+        "snippet": "*   **Legislative Basis:** While the Conservative Government supported a bill to put the envoy role on a statutory footing, it did not pass before the 2024 election",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10023/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E52",
+        "snippet": "Labour has indicated no current plans to legislate on the envoy role",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E53",
+        "snippet": "The government accepted these recommendations",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E54",
+        "snippet": "*   **Membership and Conferences:** The UK is a member of the International Religious Freedom or Belief Alliance and hosted a conference in 2022 where 35 countries signed statements on FoRB",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9849/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E55",
+        "snippet": "*   **Specific Concerns:** The UK has raised concerns about FoRB across the Commonwealth, noting that in 2019, 26 Commonwealth states had blasphemy laws",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9492/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

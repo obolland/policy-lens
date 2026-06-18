@@ -1,0 +1,653 @@
+{
+  "policy_id": "lab-21-support-first-time-buyers-and-improve-building",
+  "party": "Labour",
+  "policy_title": "Support First-Time Buyers and Improve Building Standards",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "mixed",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Most of this policy's fiscal costs are contingent (mortgage guarantees) or offset by levies and developer contributions, so the net debt impact is likely modest \u2014 but the \u00a3500m affordable homes spend is unfunded in the policy text, and a permanent guarantee scheme carries long-run tail risk if house prices fall sharply.",
+    "biggest_unknown": "The scale of contingent losses from the permanent mortgage guarantee scheme under adverse housing-market conditions is unquantified, and could shift the verdict materially.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "A permanent, comprehensive mortgage guarantee scheme will be introduced to support first-time buyers with smaller deposits.",
+        "evidence_id": "M",
+        "quote": "A permanent, comprehensive mortgage guarantee scheme will be introduced to support first-time buyers with lower mortgage costs due to smaller deposits"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The existing predecessor scheme has supported over 44,000\u201353,000 households with mortgages totalling over \u00a310.7 billion, giving a sense of contingent liability scale.",
+        "evidence_id": "E3",
+        "quote": "The current scheme, which began in 2021, has supported over 44,000 to 53,000 households, primarily first-time buyers, with mortgages totalling over \u00a310.7 billion"
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy includes a \u00a3500 million boost to the Affordable Homes Programme.",
+        "evidence_id": "E16",
+        "quote": "The pledge includes a boost of \u00a3500 million to the Affordable Homes Programme, which could deliver up to 5,000 additional affordable social homes"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The government has secured \u00a32 billion in developer contributions and a further \u00a33 billion via a Building Safety Levy for cladding remediation, shifting costs away from the Exchequer.",
+        "evidence_id": "E30",
+        "quote": "The government has also secured agreements with developers to contribute a minimum of \u00a32 billion towards cladding remediation, with a further \u00a33 billion raised through a Building Safety Levy"
+      },
+      {
+        "tier": "projected",
+        "claim": "Making the mortgage guarantee permanent could, without supply increases, contribute to house price inflation, potentially increasing the government's contingent exposure.",
+        "evidence_id": "E7",
+        "quote": "There are concerns that such schemes, without a corresponding increase in housing supply, could contribute to house price inflation"
+      }
+    ],
+    "rationale": "The policy has several distinct fiscal components. The mortgage guarantee scheme is a contingent liability rather than direct spending: the government only pays out if borrowers default and lenders cannot recover. The predecessor scheme covered \u00a310.7bn of mortgages; making it permanent scales this liability indefinitely. If house prices fall sharply, the Exchequer's exposure could be significant \u2014 but under normal conditions the fiscal cost is low. The \u00a3500m Affordable Homes Programme uplift is direct spending with no identified offsetting revenue in the policy text, representing a modest but real addition to borrowing or spending pressure. On the other side, the Building Safety Levy (\u00a33bn) and \u00a32bn developer commitments shift remediation costs away from the state, which is fiscally positive. Nutrient neutrality reforms and planning streamlining, if successful, expand the tax base through increased economic activity \u2014 a second-order positive. The net picture is mixed and minor in scale: the direct spending addition is small in macro terms, the guarantee scheme is contingent and historically low-cost, and remediation is substantially privately funded. However, the permanent nature of the guarantee creates an open-ended tail risk that is unquantified and not addressed in the evidence. The \u00a3500m spend is real but unfunded in the policy text. Neither side is large enough to drive a clear 'worsens' or 'improves' verdict at population scale, and the confidence is low given the absence of any OBR or IFS costing in the provided evidence.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.richardjames.net/blog/2025/08/06/how-will-the-new-mortgage-guarantee-scheme-affect-the-market/",
+        "publisher": "richardjames.net",
+        "title": "richardjames.net",
+        "source_type": "media"
+      },
+      {
+        "url": "https://hoa.org.uk/advice/guides-for-homeowners/i-am-buying/freedom-to-buy-mortgage-scheme/",
+        "publisher": "hoa.org.uk",
+        "title": "hoa.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.sterlingandlaw.com/uk-mortgage-guarantee-scheme/",
+        "publisher": "sterlingandlaw.com",
+        "title": "sterlingandlaw.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://cleararchitects.co.uk/guidance/labours-new-housing-policy",
+        "publisher": "cleararchitects.co.uk",
+        "title": "cleararchitects.co.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8244/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn03668/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.04,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is internally consistent. The 'stated' claim for \u00a3500m (E16) is drawn from a secondary source rather than the policy text itself \u2014 it is not in [M] \u2014 so tier should arguably be 'measurable' or 'projected', but this is a warning-level concern rather than blocking since E16 is a sourced factual claim from a media/analyst source rather than the policy text. The contingent liability framing for the mortgage guarantee is appropriate. The 'mixed/minor' direction is supported by genuine claims on both sides (costs: guarantee tail risk, \u00a3500m spend; offsets: \u00a35bn levy/developer contributions). No party-identity language, no motive attribution, no false balance, no tier blurring that rises to blocking level. The absence of OBR/IFS costing is noted in the rationale itself, which is appropriate epistemic honesty."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will work with local authorities to give first-time buyers the initial opportunity to purchase homes in new developments, preventing sales to international investors before construction is complete. A permanent, comprehensive mortgage guarantee scheme will be introduced to support first-time buyers with lower mortgage costs due to smaller deposits. The party will also ensure more high-quality, well-designed, and sustainable homes are built, implement solutions to unlock building affected by nutrient neutrality, and improve building safety, protecting leaseholders from costs and accelerating remediation.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Permanent, Comprehensive Mortgage Guarantee Scheme:**\nLabour plans to introduce a permanent mortgage guarantee scheme to support first-time buyers with lower mortgage costs due to smaller deposits, making it more attractive for lenders to offer mortgages with deposits as low as 5%",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpnqBBawmaIgpeiC_fu904tNorkSpwnl6ozzqeUKtlDMPbS7p_TkcWfKxoAHW54kSECTfKUPsXZXnXFQVyrFFPm3syCCLmGeh6a7ynW9Msfl2gSl6TlbTfnWXiLNByQBloESh2oavpoGTrVChUU2pHz4OxyPK8kvatvhEYiwwEFAWTv0IEx3v4Jxa8ylyuLd8TMkrRc6mYjTNXm4Mdocrbe3hU1txDD9NpqcDdaA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ensumbrown.com/how-will-the-new-mortgage-guarantee-scheme-affect-the-property-market/",
+            "publisher": "ensumbrown.com",
+            "title": "ensumbrown.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.richardjames.net/blog/2025/08/06/how-will-the-new-mortgage-guarantee-scheme-affect-the-market/",
+            "publisher": "richardjames.net",
+            "title": "richardjames.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hoa.org.uk/advice/guides-for-homeowners/i-am-buying/freedom-to-buy-mortgage-scheme/",
+            "publisher": "hoa.org.uk",
+            "title": "hoa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mojomortgages.com/mortgage-guides/freedom-to-buy",
+            "publisher": "mojomortgages.com",
+            "title": "mojomortgages.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tembomoney.com/learn/what-is-mortgage-guarantee-scheme",
+            "publisher": "tembomoney.com",
+            "title": "tembomoney.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfYnSADvgvAbt0Vfzzeh3MQDPqiYIgatOm0OXeyKk2JmU-9XCEyLExtPk3lv0UULXF3e5Ybs1c19WsSBhJhQS0cYd-ZC_2EOI4aSh-taPKXXUonv76ZKnZNWIUK5uiiMtp-YFGgNzRrbohvxTr6ecp0q4hGgW4S6Ap5TLFSLEg4ViqHS8C_mEEWo0cLxA5xWqsHgDWgR1cNSQifAMivjz46RGrM_wI7KxVLqX0AbAskzyln0ksw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "moneyhelper.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The existing government scheme, which Labour aims to make permanent, was due to end in June 2025",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpnqBBawmaIgpeiC_fu904tNorkSpwnl6ozzqeUKtlDMPbS7p_TkcWfKxoAHW54kSECTfKUPsXZXnXFQVyrFFPm3syCCLmGeh6a7ynW9Msfl2gSl6TlbTfnWXiLNByQBloESh2oavpoGTrVChUU2pHz4OxyPK8kvatvhEYiwwEFAWTv0IEx3v4Jxa8ylyuLd8TMkrRc6mYjTNXm4Mdocrbe3hU1txDD9NpqcDdaA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hoa.org.uk/advice/guides-for-homeowners/i-am-buying/freedom-to-buy-mortgage-scheme/",
+            "publisher": "hoa.org.uk",
+            "title": "hoa.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The current scheme, which began in 2021, has supported over 44,000 to 53,000 households, primarily first-time buyers, with mortgages totalling over \u00a310.7 billion",
+        "sources": [
+          {
+            "url": "https://www.richardjames.net/blog/2025/08/06/how-will-the-new-mortgage-guarantee-scheme-affect-the-market/",
+            "publisher": "richardjames.net",
+            "title": "richardjames.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://hoa.org.uk/advice/guides-for-homeowners/i-am-buying/freedom-to-buy-mortgage-scheme/",
+            "publisher": "hoa.org.uk",
+            "title": "hoa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sterlingandlaw.com/uk-mortgage-guarantee-scheme/",
+            "publisher": "sterlingandlaw.com",
+            "title": "sterlingandlaw.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   **Market Stimulation:** Experts suggest that while the number of direct beneficiaries might be modest, the broader impact on the housing market could be significant, helping to \"unlock stalled housing chains\" as more people can sell their homes to move up the ladder",
+        "sources": [
+          {
+            "url": "https://ensumbrown.com/how-will-the-new-mortgage-guarantee-scheme-affect-the-property-market/",
+            "publisher": "ensumbrown.com",
+            "title": "ensumbrown.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.richardjames.net/blog/2025/08/06/how-will-the-new-mortgage-guarantee-scheme-affect-the-market/",
+            "publisher": "richardjames.net",
+            "title": "richardjames.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "In contrast, the scheme has \"far less impact in London and the South\" where significantly larger deposits than 5% are often needed to bridge the gap between borrowing capacity and house prices",
+        "sources": [
+          {
+            "url": "https://www.capitaleconomics.com/publications/uk-housing-market-update/effectiveness-mortgage-guarantee-varies-region",
+            "publisher": "capitaleconomics.com",
+            "title": "capitaleconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Affordability Concerns:** The Institute for Fiscal Studies (IFS) highlights that while the scheme makes it easier to obtain a high-LTV mortgage, borrowers still need an income high enough to afford the mortgage and repayments",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpnqBBawmaIgpeiC_fu904tNorkSpwnl6ozzqeUKtlDMPbS7p_TkcWfKxoAHW54kSECTfKUPsXZXnXFQVyrFFPm3syCCLmGeh6a7ynW9Msfl2gSl6TlbTfnWXiLNByQBloESh2oavpoGTrVChUU2pHz4OxyPK8kvatvhEYiwwEFAWTv0IEx3v4Jxa8ylyuLd8TMkrRc6mYjTNXm4Mdocrbe3hU1txDD9NpqcDdaA==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "There are concerns that such schemes, without a corresponding increase in housing supply, could contribute to house price inflation",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn03668/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "*   **Lender Confidence:** Making the scheme permanent aims to provide lenders with long-term confidence, potentially encouraging them to consistently offer 95% LTV mortgages throughout economic cycles",
+        "sources": [
+          {
+            "url": "https://hoa.org.uk/advice/guides-for-homeowners/i-am-buying/freedom-to-buy-mortgage-scheme/",
+            "publisher": "hoa.org.uk",
+            "title": "hoa.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://mojomortgages.com/mortgage-guides/freedom-to-buy",
+            "publisher": "mojomortgages.com",
+            "title": "mojomortgages.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "More High-Quality, Well-Designed, and Sustainable Homes Built:**\nLabour's policy pledges to build 1.5 million new homes over five years, with a focus on high-quality, well-designed, and sustainable standards, including energy efficiency and low carbon usage",
+        "sources": [
+          {
+            "url": "https://oneclicklca.com/en-gb/resources/articles/new-labour-govt-prioritises-sustainable-construction",
+            "publisher": "oneclicklca.com",
+            "title": "oneclicklca.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://questions-statements.parliament.uk/written-statements/detail/2024-11-12/hcws209",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.higgsllp.co.uk/articles/labour-governments-housing-pledge-how-is-it-going",
+            "publisher": "higgsllp.co.uk",
+            "title": "higgsllp.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "This includes reforming national building regulations to cut carbon emissions, promoting sustainable materials, and potentially offering incentives like tax benefits and grants for green building practices",
+        "sources": [
+          {
+            "url": "https://oneclicklca.com/en-gb/resources/articles/new-labour-govt-prioritises-sustainable-construction",
+            "publisher": "oneclicklca.com",
+            "title": "oneclicklca.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.weberhaus.co.uk/news/articles/has-the-new-government-signalled-that-it-is-serious-about-planning-reform/",
+            "publisher": "weberhaus.co.uk",
+            "title": "weberhaus.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "*   **Likely Real-World Effects:**\n    *   **Increased Housing Supply:** The target of 1.5 million homes over five years is ambitious, given that new housing supply in England was around 233,000 in 2021/22, below the government's previous ambition of 300,000 per year",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7671/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Achieving this would require significant improvements to the planning system and may involve streamlining planning processes and fast-tracking land acquisition",
+        "sources": [
+          {
+            "url": "https://cleararchitects.co.uk/guidance/labours-new-housing-policy",
+            "publisher": "cleararchitects.co.uk",
+            "title": "cleararchitects.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.higgsllp.co.uk/articles/labour-governments-housing-pledge-how-is-it-going",
+            "publisher": "higgsllp.co.uk",
+            "title": "higgsllp.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Improved Environmental Performance:** Stricter building regulations and incentives could lead to a significant increase in the construction of energy-efficient and low-carbon homes, reducing household energy bills and the UK's carbon footprint",
+        "sources": [
+          {
+            "url": "https://oneclicklca.com/en-gb/resources/articles/new-labour-govt-prioritises-sustainable-construction",
+            "publisher": "oneclicklca.com",
+            "title": "oneclicklca.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Quality Concerns:** Some analysts express concern that the focus on quantity might compromise quality, with some new homes already \"designed to a pastiche of yesteryear\"",
+        "sources": [
+          {
+            "url": "https://cleararchitects.co.uk/guidance/labours-new-housing-policy",
+            "publisher": "cleararchitects.co.uk",
+            "title": "cleararchitects.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, Labour's policy explicitly states a commitment to \"exemplary development\" and improving design and quality",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-statements/detail/2024-11-12/hcws209",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Funding for Affordable Housing:** The pledge includes a boost of \u00a3500 million to the Affordable Homes Programme, which could deliver up to 5,000 additional affordable social homes",
+        "sources": [
+          {
+            "url": "https://cleararchitects.co.uk/guidance/labours-new-housing-policy",
+            "publisher": "cleararchitects.co.uk",
+            "title": "cleararchitects.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Solutions to Unlock Building Affected by Nutrient Neutrality:**\nNutrient neutrality rules require new housing developments in certain areas to prove they will not add more nutrient pollution to local water catchments",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9850/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.ikonic-architecture.co.uk/post/nutrient-neutrality-what-it-means-for-housebuilding-in-the-uk",
+            "publisher": "ikonic-architecture.co.uk",
+            "title": "ikonic-architecture.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/uk-nutrient-neutrality-in-a-nutshell",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Likely Real-World Effects:**\n    *   **Unlocking Stalled Developments:** Natural England's advice on nutrient neutrality has affected 74 local planning authorities, blocking an estimated 120,000 to 160,000 homes nationally and leading to an estimated 41,000 fewer homes built each year",
+        "sources": [
+          {
+            "url": "https://www.hbf.co.uk/policy/campaigns-and-initiatives/nutrient-neutrality/",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://housingindustryleaders.com/around-120000-homes-delayed-due-to-nutrient-neutrality-problem/",
+            "publisher": "housingindustryleaders.com",
+            "title": "housingindustryleaders.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hbf.co.uk/news/nutrient-neutrality-four-years-of-government-failure/",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://deframedia.blog.gov.uk/2023/05/23/coverage-on-nutrient-neutrality-2/",
+            "publisher": "deframedia.blog.gov.uk",
+            "title": "blog.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.hoganlovells.com/en/publications/uk-nutrient-neutrality-in-a-nutshell",
+            "publisher": "hoganlovells.com",
+            "title": "hoganlovells.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The Home Builders Federation (HBF) estimates these delays have resulted in an annual reduction of economic output between \u00a3441.8 million and \u00a32.2 billion",
+        "sources": [
+          {
+            "url": "https://www.hbf.co.uk/documents/11756/Lichfields-HBF_-_Economic_Impacts_Report_-_28_Mar_2022.pdf",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   **Addressing Root Causes:** Credible sources, including the HBF and the House of Commons Library, highlight that agricultural run-off (around 70% of nitrate in rivers) and sewage effluent from water companies are the overwhelming causes of nutrient pollution, with new homes contributing a negligible amount (less than 1% of nutrient levels)",
+        "sources": [
+          {
+            "url": "https://www.hbf.co.uk/policy/campaigns-and-initiatives/nutrient-neutrality/",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9850/CBP-9850.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.hbf.co.uk/news/nutrient-neutrality-four-years-of-government-failure/",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The government has given water companies until March 2030 to improve nutrient performance",
+        "sources": [
+          {
+            "url": "https://www.hbf.co.uk/policy/campaigns-and-initiatives/nutrient-neutrality/",
+            "publisher": "hbf.co.uk",
+            "title": "hbf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "While developers argue that nutrient neutrality disproportionately impacts housebuilding, environmental groups emphasize the importance of mitigation measures to protect legally protected habitats",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9850/CBP-9850.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9850/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "These leaseholders cannot be charged for cladding removal and have non-cladding costs capped at \u00a310,000 (or \u00a315,000 in Greater London)",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/leaseholder-protections-on-building-safety-costs-in-england-frequently-asked-questions",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lewisnedas.co.uk/the-building-safety-act-and-what-it-means-for-leaseholders/",
+            "publisher": "lewisnedas.co.uk",
+            "title": "lewisnedas.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPWNRm05xu2sTSHq1dxy9UbudpecX7y_uInFTVDISDPycScGfGHX8o3UW_e_PqoFx3Gjge2ykEoKJsIob7VbKwn1AecW1XcmmH4OJGMIv9uR3yQDPIwdwxV1IRbC3kj7Y_zr8Fzmnt4CEgel14Yxb8hUH4CDeHbZdwGP1MfsLvIWXRHaLxbD9qwBnjTTp19bjhaoPm3G4tyw5gt1hFRAX2Tg4Jp8Vz7ordI7UlniE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "girlings.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8244/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Furthermore, building owners/developers linked to defects or meeting a wealth threshold are liable for these costs",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/guidance/leaseholder-protections-on-building-safety-costs-in-england-frequently-asked-questions",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Retrospective Application:** A Court of Appeal decision in July 2025 confirmed that elements of the Building Safety Act have retrospective effect, preventing building owners and developers from recovering fire safety remediation costs from leaseholders for defects identified before 2022",
+        "sources": [
+          {
+            "url": "https://www.fia.uk.com/news/leaseholders-win-landmark-ruling-over-fire-safety-costs.html",
+            "publisher": "fia.uk.com",
+            "title": "uk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPWNRm05xu2sTSHq1dxy9UbudpecX7y_uInFTVDISDPycScGfGHX8o3UW_e_PqoFx3Gjge2ykEoKJsIob7VbKwn1AecW1XcmmH4OJGMIv9uR3yQDPIwdwxV1IRbC3kj7Y_zr8Fzmnt4CEgel14Yxb8hUH4CDeHbZdwGP1MfsLvIWXRHaLxbD9qwBnjTTp19bjhaoPm3G4tyw5gt1hFRAX2Tg4Jp8Vz7ordI7UlniE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "girlings.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Ongoing Costs and Challenges:** Despite protections, leaseholders may still face new building safety charges for ongoing maintenance of safety systems",
+        "sources": [
+          {
+            "url": "https://lewisnedas.co.uk/the-building-safety-act-and-what-it-means-for-leaseholders/",
+            "publisher": "lewisnedas.co.uk",
+            "title": "lewisnedas.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9277/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "There are also concerns about additional costs, such as funding expert reports, fire safety inspections, and EWS1 renewals, which can be significant (e.g., \u00a37,000 per building for EWS1 forms)",
+        "sources": [
+          {
+            "url": "https://ringley.co.uk/blogs/the-cost-of-building-safety-legislation-on-leaseholders",
+            "publisher": "ringley.co.uk",
+            "title": "ringley.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The government's estimate of \u00a316 per month for the new Building Safety Charge has been met with skepticism",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9277/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "The Building Safety Act 2022 extends the time leaseholders can claim for defective work to 15 years for new work and 30 years retrospectively for older work, making it easier to pursue developers",
+        "sources": [
+          {
+            "url": "https://lewisnedas.co.uk/the-building-safety-act-and-what-it-means-for-leaseholders/",
+            "publisher": "lewisnedas.co.uk",
+            "title": "lewisnedas.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "The government has also secured agreements with developers to contribute a minimum of \u00a32 billion towards cladding remediation, with a further \u00a33 billion raised through a Building Safety Levy",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8244/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

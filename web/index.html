@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Policy Lens — what the parties' policies mean for you</title>
+  <meta name="description" content="Independent, source-checked analysis of UK party policies, organised around the things that affect your life. We show the evidence and our working.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" style="position:absolute;left:-9999px;top:0;background:#fff;padding:8px 12px;z-index:100;border-radius:0 0 8px 0;"
+     onfocus="this.style.left='0'" onblur="this.style.left='-9999px'">Skip to content</a>
+
+  <header class="site">
+    <div class="wrap bar">
+      <span class="brand">Policy<span class="dot">·</span>Lens</span>
+      <nav class="trustline" aria-label="what we stand for">
+        <span><span class="tick" aria-hidden="true">✓</span> Non-partisan</span>
+        <span><span class="tick" aria-hidden="true">✓</span> Every claim sourced</span>
+        <span><span class="tick" aria-hidden="true">✓</span> Open &amp; auditable</span>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>See what each party's plans would actually do.</h1>
+      <p class="lede">Independent, source-checked analysis of UK party policies — organised around the things that affect your life: housing, the cost of living, the NHS, jobs.</p>
+      <p class="promise">We don't tell you how to vote. We show the evidence, our reasoning, and where the experts disagree — so you can decide.</p>
+      <div class="mock-banner" id="mock-banner"></div>
+    </div>
+  </section>
+
+  <main id="main" class="wrap">
+    <nav class="how" aria-label="how it works">
+      <ol>
+        <li><b>Pick what matters to you</b><span>Choose the issues you care most about.</span></li>
+        <li><b>See where each party lands</b><span>A clear verdict per party, per issue — with how confident we are.</span></li>
+        <li><b>Read the reasoning &amp; sources</b><span>Every verdict opens to its evidence, its working, and where to check it.</span></li>
+      </ol>
+    </nav>
+
+    <section class="picker" aria-labelledby="picker-h">
+      <h2 id="picker-h">What matters most to you?</h2>
+      <p>Pick the things you care about — we'll show where each party's policies land, and why.</p>
+      <div class="chips" id="picker-chips" role="group" aria-label="choose issues to compare"></div>
+      <div class="explainer-cta">
+        <button class="explainer-link" id="explainer-btn" type="button">Don't see energy or childcare? Here's why →</button>
+      </div>
+    </section>
+
+    <div class="gridcard">
+      <div class="grid-scroll">
+        <table class="grid" id="grid"><caption class="vh" style="position:absolute;left:-9999px;">Party verdicts by issue</caption></table>
+      </div>
+      <!-- mobile: stacked issue-cards rendered here instead of the table (see app.js renderCards) -->
+      <div class="grid-cards" id="grid-cards"></div>
+    </div>
+
+    <div class="legend" aria-hidden="false">
+      <span class="key v-improves">↑ Helps</span>
+      <span class="key v-worsens">↓ Hurts</span>
+      <span class="key v-mixed">↕ Mixed</span>
+      <span class="key v-negligible">– Little effect</span>
+      <span class="key v-uncertain">⚖ Genuinely contested</span>
+      <span>· dots show our confidence · select any cell for the full reasoning</span>
+      <span class="order-note" title="The order parties appear in carries no ranking — it's shuffled each visit so position implies nothing.">⇅ Party order is shuffled — position implies no ranking</span>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <div class="trust-row">
+        <span><b>Non-partisan.</b> Same rubric, same scrutiny for every party.</span>
+        <span><b>Sourced.</b> Every claim links to its evidence, with the source's type shown.</span>
+        <span><b>Open.</b> The analysis pipeline and prompts are public.</span>
+        <span><b>Independent.</b> Not funded by any party, donor, or advertiser.</span>
+        <span><b>Private.</b> Cookieless analytics — visitor counts only, no tracking, no personal data.</span>
+      </div>
+      <p class="fine">Policy Lens organises analysis around outcomes people care about and judges each policy only by its modelled effect on them. We don't claim to be neutral — we ask you to check our working. Spotted something wrong? Every verdict can be challenged, and corrections are logged in public. &nbsp;<a href="how-it-works.html"><b>How this works &amp; where it falls short →</b></a> &nbsp;·&nbsp; <a href="about.html"><b>About &amp; who's behind it →</b></a></p>
+    </div>
+  </footer>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-label="detail panel" aria-hidden="true">
+    <div class="drawer-head">
+      <button class="close" id="drawer-close" type="button" aria-label="Close detail">×</button>
+      <div id="drawer-head-inner"></div>
+    </div>
+    <div class="drawer-body" id="drawer-body"></div>
+  </aside>
+
+  <!-- Analytics: GoatCounter (free, open-source, cookieless, no personal data, no consent
+       banner needed). Chosen over Cloudflare Web Analytics because we also need CUSTOM EVENTS
+       (which fundamentals get picked, which party cells get opened) — CF Web Analytics is
+       pageviews-only. GoatCounter gives visitors + country-level location + pageviews + events.
+       To activate at deploy: create a free GoatCounter site, then uncomment the line below with
+       your code. The track() helper in app.js fires events via window.goatcounter automatically;
+       it's a silent no-op until this is present (so local dev sends nothing). Custom events sent:
+       'evt/select-fundamental:<O#>' and 'evt/open-cell:<O#>:<Party>' — labels only, no PII.
+       (Alternative if data should be fully in-house: a Cloudflare Worker + KV endpoint.) -->
+  <!-- <script data-goatcounter="https://YOURCODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
+
+  <script src="data.js"></script>
+  <script>
+    document.getElementById("mock-banner").textContent =
+      window.POLICY_DATA.disclaimer + "  —  " + window.POLICY_DATA.generated_at;
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>

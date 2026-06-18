@@ -1,0 +1,1144 @@
+{
+  "policy_id": "ld-43-levy-on-tobacco-company-profits",
+  "party": "Liberal Democrat",
+  "policy_title": "Levy on Tobacco Company Profits",
+  "outcome": "O3",
+  "verdict": {
+    "outcome": "O3",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "moderate",
+    "plain": "A levy on tobacco company profits could raise hundreds of millions to billions of pounds for NHS and stop-smoking services, and modelling suggests it would cut hospital admissions and save tens of thousands of life-years. The main caveat is that revenue estimates vary widely and depend on how well price caps prevent industry pass-through to consumers.",
+    "biggest_unknown": "Whether price caps successfully stop tobacco companies passing the levy cost on to smokers \u2014 if they do pass it on, revenue and health gains would be significantly lower than projected.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to introducing a levy on tobacco company profits to fund healthcare and smoking cessation services.",
+        "evidence_id": "M",
+        "quote": "Introduce a new levy on tobacco company profits to help fund healthcare and smoking cessation services."
+      },
+      {
+        "tier": "stated",
+        "claim": "Revenue is intended to be ring-fenced for smoking cessation and public health.",
+        "evidence_id": "E4",
+        "quote": "This revenue would be ring-fenced to fund smoking cessation services and broader public health initiatives."
+      },
+      {
+        "tier": "projected",
+        "claim": "The levy is designed so industry revenues decline while consumer prices remain largely unchanged, with the cost borne by company profits.",
+        "evidence_id": "E16",
+        "quote": "Industry revenues are projected to decline, while consumer expenditure on tobacco would remain largely unchanged, as the levy is designed to come from company profits, not consumer price increases."
+      },
+      {
+        "tier": "projected",
+        "claim": "A previous 2014 tobacco levy proposal was dropped after HMRC analysis suggested effectiveness would be significantly reduced due to pass-through risk.",
+        "evidence_id": "E34",
+        "quote": "In 2014, a previous \"Tobacco Levy\" proposal, which aimed to raise \u00a3150 million, was dropped after tobacco manufacturers and business groups argued it would be passed on, and HMRC analysis suggested its effectiveness would be significantly reduced."
+      }
+    ],
+    "rationale": "The policy targets a well-evidenced gap: smoking imposes enormous costs on the NHS (\u00a343.7 billion per year to society, \u00a321.9 billion directly to public finances) while existing taxes recoup far less. By ring-fencing levy revenues for cessation services and healthcare, the policy directly addresses access and capacity under O3. Academic modelling projects up to 10,000 fewer hospital admissions and 44,000 life-years saved over 20 years \u2014 material gains for NHS capacity. Revenue estimates span a wide range (\u00a3700 million/year to \u00a34.9 billion over five years), but even the lower end would meaningfully fund cessation services that reduce future demand on healthcare. The mechanism is designed to fall on company profits (which are high \u2014 ~50% margins) rather than smokers, addressing the historical risk of pass-through that killed a 2014 predecessor proposal. Price caps paired with tax rises are the key structural innovation. The main risks are: (1) whether price caps actually hold and prevent pass-through in practice \u2014 a crux HMRC flagged previously; (2) that most supporting evidence comes from advocacy groups (ASH, SMF) and the academics they funded, with no independent OBR or IFS scoring of this specific design. These caveats reduce confidence from high to moderate, but they do not reverse the direction \u2014 the policy plausibly improves healthcare access by funding cessation and reducing future NHS demand, with the gains materialising over the long term as smoking prevalence falls.",
+    "sources": [
+      {
+        "quote": "Introducing a new levy on tobacco company profits to help fund healthcare and smoking cessation services.",
+        "url": "https://www.libdems.org.uk/FairDeal",
+        "publisher": "Liberal Democrats"
+      },
+      {
+        "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+        "publisher": "ash.org.uk",
+        "title": "ash.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+        "publisher": "ash.org.uk",
+        "title": "ash.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.fph.org.uk/media/dz5b5jrt/faculty-of-public-health-statement-on-the-polluter-pays-levy-scheme.pdf",
+        "publisher": "fph.org.uk",
+        "title": "fph.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.yorkshirecancerresearch.org.uk/insights/its-time-the-tobacco-industry-paid-the-bill-for-the-damage-it-causes",
+        "publisher": "yorkshirecancerresearch.org.uk",
+        "title": "yorkshirecancerresearch.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.bmj.com/content/387/bmj.q2262",
+        "publisher": "bmj.com",
+        "title": "bmj.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://sheffield.ac.uk/news/tobacco-company-levy-could-raise-ps49bn-and-prevent-10000-hospital-admissions",
+        "publisher": "sheffield.ac.uk",
+        "title": "sheffield.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+        "publisher": "eprints.whiterose.ac.uk",
+        "title": "whiterose.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/5a804365e5274a2e8ab4f23e/PU1814_Tobacco_Levy_final_v3.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0483,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E4 (ring-fencing claim) is sourced from ASH \u2014 an advocacy body \u2014 and is not in the policy's own stated text. The policy text only says 'to help fund'; ring-fencing is an advocacy description, not a stated commitment. Tier is 'stated' but the quote is not from the policy text (M). Should be 'projected' or flagged advocacy-only."
+        },
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "The claim about ring-fencing uses evidence_id E4 but is labelled 'stated'. E4 is not the policy's own text; it is from ASH. This is a tier mislabel \u2014 the commitment to ring-fence is at best 'projected' intent."
+        }
+      ],
+      "notes": "Overall the verdict is defensible. Direction 'improves' is supported by plausible mechanism and academic modelling, with appropriate caveats on confidence. The 2014 predecessor risk is correctly flagged. No blocking issues found \u2014 the ring-fencing tier mislabel is a warning but does not reverse the verdict direction. Rationale correctly notes advocacy-heavy sourcing and reduced confidence accordingly."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "Revenue estimates range from \u00a3700 million per year up to \u00a34.9 billion over five years depending on design.",
+          "evidence_id": "E1",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "ASH and the Social Market Foundation estimate around \u00a3700 million per year could be raised.",
+          "evidence_id": "E3",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Smoking currently costs society in England an estimated \u00a343.7 billion a year, far exceeding \u00a36.8 billion raised through existing tobacco taxes.",
+          "evidence_id": "E5",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The levy could prevent up to 10,000 hospital admissions and save almost 44,000 years of life over 20 years.",
+          "evidence_id": "E7",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "An immediate hard cap could lead to 1,636 fewer deaths by 2044.",
+          "evidence_id": "E8",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Tobacco companies earn around 50% profit margins in the UK, generating approximately \u00a3900 million per year in UK profit.",
+          "evidence_id": "E10",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "The current proposal explicitly incorporates price caps and corresponding tax increases to prevent cost pass-through to consumers.",
+          "evidence_id": "E35",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Introduce a new levy on tobacco company profits to help fund healthcare and smoking cessation services.",
+        "sources": [
+          {
+            "quote": "Introducing a new levy on tobacco company profits to help fund healthcare and smoking cessation services.",
+            "url": "https://www.libdems.org.uk/FairDeal",
+            "publisher": "Liberal Democrats"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Modelling by the University of Bath Tobacco Control Research Group and the University of Sheffield's Addictions Research Group suggests that a \"polluter pays\" levy could raise between **\u00a31 billion and \u00a34.9 billion over five years**, depending on the level of price cap and how quickly it is introduced.",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sheffield.ac.uk/news/tobacco-company-levy-could-raise-ps49bn-and-prevent-10000-hospital-admissions",
+            "publisher": "sheffield.ac.uk",
+            "title": "sheffield.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "An immediate \"hard cap\" in England, for instance, could generate **\u00a34.9 billion by 2029**.",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "Other estimates, such as those cited by Action on Smoking and Health (ASH) and the Social Market Foundation, suggest the levy could raise around **\u00a3700 million per year** for vital tobacco control activities.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/case-studies/tackling-tobacco-pricing/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.yorkshirecancerresearch.org.uk/insights/its-time-the-tobacco-industry-paid-the-bill-for-the-damage-it-causes",
+            "publisher": "yorkshirecancerresearch.org.uk",
+            "title": "yorkshirecancerresearch.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/387/bmj.q2262",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "This revenue would be ring-fenced to fund smoking cessation services and broader public health initiatives.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fph.org.uk/media/dz5b5jrt/faculty-of-public-health-statement-on-the-polluter-pays-levy-scheme.pdf",
+            "publisher": "fph.org.uk",
+            "title": "fph.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.yorkshirecancerresearch.org.uk/insights/its-time-the-tobacco-industry-paid-the-bill-for-the-damage-it-causes",
+            "publisher": "yorkshirecancerresearch.org.uk",
+            "title": "yorkshirecancerresearch.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/387/bmj.q2262",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "This is seen as crucial, as smoking currently costs society in England an estimated **\u00a343.7 billion a year** (including lost economic productivity and health/social care costs), far exceeding the **\u00a36.8 billion** raised through existing tobacco taxes.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/387/bmj.q2262",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/new-figures-show-cost-of-smoking-to-society-in-england-dwarfs-tobacco-tax-revenue",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The direct cost to UK public finances in 2023 was \u00a321.9 billion, with a net cost of \u00a313.5 billion.",
+        "sources": [
+          {
+            "url": "https://www.bmj.com/content/387/bmj.q2262",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The University of Bath and University of Sheffield study estimates that the levy could prevent up to **10,000 hospital admissions** and save almost **44,000 years of life** over a 20-year period.",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sheffield.ac.uk/news/tobacco-company-levy-could-raise-ps49bn-and-prevent-10000-hospital-admissions",
+            "publisher": "sheffield.ac.uk",
+            "title": "sheffield.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "An immediate hard cap scenario could lead to **1,636 fewer deaths by 2044**.",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The policy is expected to reduce smoking prevalence.",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sheffield.ac.uk/news/tobacco-company-levy-could-raise-ps49bn-and-prevent-10000-hospital-admissions",
+            "publisher": "sheffield.ac.uk",
+            "title": "sheffield.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Impact on Tobacco Companies and Industry Profits:**\nTobacco companies currently operate with significant profit margins in the UK, estimated at around **50% annually** (compared to an average of 10% for UK manufacturing), generating approximately **\u00a3900 million per year** in UK profit.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fph.org.uk/media/dz5b5jrt/faculty-of-public-health-statement-on-the-polluter-pays-levy-scheme.pdf",
+            "publisher": "fph.org.uk",
+            "title": "fph.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Some sources even report profit margins as high as 61%.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Despite these profits, major tobacco companies have been found to pay \"very little corporation tax in the UK\".",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/major-tobacco-companies-pay-almost-no-corporation-tax-despite-massive-profits/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7044670/",
+            "publisher": "pmc.ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The levy aims to cap wholesale tobacco prices, directly limiting these \"extraordinary profit margins\".",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/case-studies/tackling-tobacco-pricing/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.fph.org.uk/media/dz5b5jrt/faculty-of-public-health-statement-on-the-polluter-pays-levy-scheme.pdf",
+            "publisher": "fph.org.uk",
+            "title": "fph.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.yorkshirecancerresearch.org.uk/insights/its-time-the-tobacco-industry-paid-the-bill-for-the-damage-it-causes",
+            "publisher": "yorkshirecancerresearch.org.uk",
+            "title": "yorkshirecancerresearch.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "This mechanism is intended to prevent the industry from manipulating prices (e.g., absorbing tax increases on cheaper products while raising prices on premium ones to maximize overall profits), a tactic previously observed.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK555627/",
+            "publisher": "ncbi.nlm.nih.gov",
+            "title": "nih.gov",
+            "source_type": "government"
+          },
+          {
+            "url": "https://tobaccocontrol.bmj.com/content/35/3/298",
+            "publisher": "tobaccocontrol.bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "By making tobacco less profitable in the UK, the levy could also reduce the industry's incentive to lobby against government public health measures.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fph.org.uk/media/dz5b5jrt/faculty-of-public-health-statement-on-the-polluter-pays-levy-scheme.pdf",
+            "publisher": "fph.org.uk",
+            "title": "fph.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Industry revenues are projected to decline, while consumer expenditure on tobacco would remain largely unchanged, as the levy is designed to come from company profits, not consumer price increases.",
+        "sources": [
+          {
+            "url": "https://sheffield.ac.uk/news/tobacco-company-levy-could-raise-ps49bn-and-prevent-10000-hospital-admissions",
+            "publisher": "sheffield.ac.uk",
+            "title": "sheffield.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Research indicates that lower price caps and higher tax rises associated with the levy could lead to \"larger changes in consumer behaviour, particularly for the most disadvantaged 20% of the population\".",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "This is crucial because smoking rates are highest in more deprived areas, meaning these communities bear a disproportionately heavy burden of tobacco harm.",
+        "sources": [
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/new-figures-show-cost-of-smoking-to-society-in-england-dwarfs-tobacco-tax-revenue",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "The levy aims to support those facing the greatest disadvantage to quit smoking and reduce health inequalities.",
+        "sources": [
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Economic Benefits Beyond Revenue:**\nBeyond direct revenue, the Social Market Foundation suggests that reallocating money currently spent on tobacco to other goods and services could generate up to **135,000 jobs** and a **\u00a310 billion boost to the economy**, significantly dwarfing the tobacco industry's own estimates of jobs supported.",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Investing in a smoke-free UK is also argued to improve public finances by freeing up healthcare resources and boosting productivity.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/387/bmj.q2262",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **University of Bath Tobacco Control Research Group & University of Sheffield's Addictions Research Group:** These academic groups have conducted the \"first real-world modelling\" of such a \"polluter pays\" tobacco levy, providing the specific figures on potential revenue, hospital admissions, and years of life saved.",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sheffield.ac.uk/news/tobacco-company-levy-could-raise-ps49bn-and-prevent-10000-hospital-admissions",
+            "publisher": "sheffield.ac.uk",
+            "title": "sheffield.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   **Action on Smoking and Health (ASH):** ASH is a strong advocate for the \"polluter pays\" levy, providing detailed briefings on its mechanisms, revenue potential (up to \u00a3700m per year), and public health benefits.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.yorkshirecancerresearch.org.uk/insights/its-time-the-tobacco-industry-paid-the-bill-for-the-damage-it-causes",
+            "publisher": "yorkshirecancerresearch.org.uk",
+            "title": "yorkshirecancerresearch.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/387/bmj.q2262",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/new-figures-show-cost-of-smoking-to-society-in-england-dwarfs-tobacco-tax-revenue",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "They highlight that unlike tobacco taxes (paid by smokers), this levy would be paid by tobacco companies.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/new-figures-show-cost-of-smoking-to-society-in-england-dwarfs-tobacco-tax-revenue",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Faculty of Public Health:** Supports the \"polluter pays\" levy scheme, emphasizing its potential to cap wholesale prices, limit industry profits, and raise much-needed revenue for tobacco control.",
+        "sources": [
+          {
+            "url": "https://www.fph.org.uk/media/dz5b5jrt/faculty-of-public-health-statement-on-the-polluter-pays-levy-scheme.pdf",
+            "publisher": "fph.org.uk",
+            "title": "fph.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   **Social Market Foundation (SMF):** Supports the levy as a \"win-win-win\" for public finances, growth, and health, proposing it could raise hundreds of millions and boost the economy.",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://britishprogress.org/uk-day-one/taxing-alcohol-gambling-and-tobacco-a-win-win-win",
+            "publisher": "britishprogress.org",
+            "title": "britishprogress.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   **Institute for Fiscal Studies (IFS):** While not directly analyzing a \"profit levy,\" IFS research has shown that increases in tobacco taxes can improve the \"relative well-being of likely smokers,\" providing a rationale for government intervention.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/journals/anti-smoking-policies-and-smoker-well-being-evidence-britain",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.frontier-economics.com/uk/en/news-and-insights/news/news-article-i1690-new-research-finds-evidence-that-tobacco-tax-increases-can-improve-smokers-well-being/",
+            "publisher": "frontier-economics.com",
+            "title": "frontier-economics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Office for Budget Responsibility (OBR):** The OBR provides forecasts for existing tobacco duties, which are estimated to raise \u00a38 billion in 2025-26.",
+        "sources": [
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/tobacco-duties/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "Their role is to independently scrutinize and certify government policy costings, and they consider price elasticities and behavioral effects in their models.",
+        "sources": [
+          {
+            "url": "https://obr.uk/docs/dlm_uploads/Supplementary-forecast-information-on-tobacco-and-vaping-duty-elasticities.pdf",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **House of Commons Library:** Provides background on the Tobacco and Vapes Bill, which aims to create a \"smokefree generation,\" and notes that the Liberal Democrats plan to implement a \"polluter-pays\" levy.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/tobacco-and-vaping/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9992/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10150/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10193/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC23e-Cqyetc5LHscx-VUwfoKa9bxJh9UxM68hlV__J9ioYOYLQ4CTO_vKOYdbNTXhLrICCnRG5ip4OhCUlrKI5AH0yELbNOfxXCG_REidOaTouiwZAKHR5Tcb66_KVGwuaWswlMR8TrPYu-Y8_dJjCFe2jqEPVWNi7Z-vwZBKblwyJOtXnaIGOTqABbZb-gMfwnJPhMyne93l_i7X35UTdc2PDW8NdNmrGT3cWw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   **The Health Foundation:** Emphasizes that to reduce unhealthy consumption and obesity, the government must learn from successes in tobacco control, advocating for population-level, low-agency policies like taxes on unhealthy products.",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/147654/html/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC23e-Cqyetc5LHscx-VUwfoKa9bxJh9UxM68hlV__J9ioYOYLQ4CTO_vKOYdbNTXhLrICCnRG5ip4OhCUlrKI5AH0yELbNOfxXCG_REidOaTouiwZAKHR5Tcb66_KVGwuaWswlMR8TrPYu-Y8_dJjCFe2jqEPVWNi7Z-vwZBKblwyJOtXnaIGOTqABbZb-gMfwnJPhMyne93l_i7X35UTdc2PDW8NdNmrGT3cWw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZwBS8vGSuqaCye46Tmm-da5aEDYgurA0Hj_Q2DsDbjOukczAwMwUZgE8CoNjPsJ2t6tC97nfe8OLc4FoKDJub6kbfCWnDVpwy80XttGYt3WCc-2u-Ohx9rwbjczJD3HmCjVKALyEioXBi1M5_52IOLqI67rU94Rc-_3kpi_8csWWPj-t8UZ0p0U9NzrcWz64e8lMdyF3o7OEE_gPoN_TzWAI1pR2BO8_f8vrclh0oPf8=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "For example, some estimates are up to \u00a3700 million annually",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/case-studies/tackling-tobacco-pricing/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.yorkshirecancerresearch.org.uk/insights/its-time-the-tobacco-industry-paid-the-bill-for-the-damage-it-causes",
+            "publisher": "yorkshirecancerresearch.org.uk",
+            "title": "yorkshirecancerresearch.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bmj.com/content/387/bmj.q2262",
+            "publisher": "bmj.com",
+            "title": "bmj.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": ", while others suggest up to \u00a34.9 billion over five years.",
+        "sources": [
+          {
+            "url": "https://www.eurekalert.org/news-releases/1129361",
+            "publisher": "eurekalert.org",
+            "title": "eurekalert.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://sheffield.ac.uk/news/tobacco-company-levy-could-raise-ps49bn-and-prevent-10000-hospital-admissions",
+            "publisher": "sheffield.ac.uk",
+            "title": "sheffield.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.miragenews.com/tobacco-levy-may-raise-4-9bn-cut-10000-hospital-1681530/",
+            "publisher": "miragenews.com",
+            "title": "miragenews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "In 2014, a previous \"Tobacco Levy\" proposal, which aimed to raise \u00a3150 million, was dropped after tobacco manufacturers and business groups argued it would be passed on, and HMRC analysis suggested its effectiveness would be significantly reduced.",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/5a804365e5274a2e8ab4f23e/PU1814_Tobacco_Levy_final_v3.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "**The current \"polluter pays\" levy explicitly incorporates price caps and corresponding tax increases to *prevent* this pass-through**, ensuring the burden falls on company profits, not smokers.",
+        "sources": [
+          {
+            "url": "https://ash.org.uk/uploads/Polluter-pays-levy-briefing.pdf?v=1761314033",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ash.org.uk/media-centre/news/press-releases/those-who-cause-the-harm-must-pay-tobacco-industry-levy-needed-amidst-fiscal-pressures",
+            "publisher": "ash.org.uk",
+            "title": "ash.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/case-studies/tackling-tobacco-pricing/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.fph.org.uk/media/dz5b5jrt/faculty-of-public-health-statement-on-the-polluter-pays-levy-scheme.pdf",
+            "publisher": "fph.org.uk",
+            "title": "fph.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.yorkshirecancerresearch.org.uk/insights/its-time-the-tobacco-industry-paid-the-bill-for-the-damage-it-causes",
+            "publisher": "yorkshirecancerresearch.org.uk",
+            "title": "yorkshirecancerresearch.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tobaccotactics.org/news/new-tcrg-research-finds-that-reducing-tobacco-supplier-profits-and-pricing-power-could-raise-up-to-4-9bn/",
+            "publisher": "tobaccotactics.org",
+            "title": "tobaccotactics.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.bath.ac.uk/announcements/tobacco-company-levy-could-raise-up-to-4-9bn-and-prevent-10-000-hospital-admissions-study-suggests/",
+            "publisher": "bath.ac.uk",
+            "title": "bath.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/id/eprint/240861/1/1-s2.0-S0277953626004016-main.pdf",
+            "publisher": "eprints.whiterose.ac.uk",
+            "title": "whiterose.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **Impact on Illicit Trade:** While the current proposal aims to avoid increasing consumer prices, the OBR has previously noted that high tobacco duties can contribute to an increase in illegal tobacco trade, costing the UK considerable tax revenue (e.g., \u00a32.6 billion in one instance).",
+        "sources": [
+          {
+            "url": "https://www.tobaccojournal.com/news/illegal-tobacco-costs-uk-gbp-2-6-billion/",
+            "publisher": "tobaccojournal.com",
+            "title": "tobaccojournal.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "*   **Economic Impact (Jobs):** While proponents like the Social Market Foundation argue for job creation and economic boosts from reallocating spending",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": ", the tobacco industry would likely counter with arguments about job losses within their sector, though these claims are often downplayed by analysts as small in comparison to the wider economic benefits of reduced smoking.",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/commentary_podcasts/levy-big-tobacco-spur-growth/",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

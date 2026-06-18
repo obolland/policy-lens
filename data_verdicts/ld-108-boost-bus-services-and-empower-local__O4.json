@@ -1,0 +1,899 @@
+{
+  "policy_id": "ld-108-boost-bus-services-and-empower-local",
+  "party": "Liberal Democrat",
+  "policy_title": "Boost Bus Services and Empower Local Authorities",
+  "outcome": "O4",
+  "verdict": {
+    "outcome": "O4",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Better bus services could help workers \u2014 especially in rural areas \u2014 reach jobs they otherwise couldn't access, which matters for employment and pay. But the connection to actual wages or job security is indirect, and delivery depends on councils having capacity they currently often lack.",
+    "biggest_unknown": "Whether local authorities have the capacity and funding certainty to actually restore routes at scale, given that 46% currently rate their own delivery capacity as poor.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy aims to restore or add bus routes where there is local need, especially in rural areas, by giving local authorities franchising powers and simplifying funding.",
+        "evidence_id": "M",
+        "quote": "giving local authorities more powers to franchise services and simplifying funding, so that bus routes can be restored or new routes added where there is local need, especially in rural areas"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Only 30% of people in rural communities have access to a bus, compared to 46% in urban areas, limiting rural workers' job access.",
+        "evidence_id": "E35",
+        "quote": "Only 30% of people in rural communities have access to a bus, compared to 46% in urban areas"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Better connectivity helps address social exclusion by providing access to jobs, particularly for lower-income households.",
+        "evidence_id": "E17",
+        "quote": "Better connectivity helps address social exclusion by providing access to jobs, education, healthcare, and social opportunities, particularly for older people, younger people, and those from lower-income households"
+      },
+      {
+        "tier": "projected",
+        "claim": "Franchising has worked in London, where patronage doubled since 1986/87, suggesting the model can expand ridership and thus job access.",
+        "evidence_id": "E26",
+        "quote": "its success in London where patronage doubled (up 99%) and mileage increased by 75% since 1986/87"
+      },
+      {
+        "tier": "projected",
+        "claim": "Franchising may not be suitable everywhere, particularly in rural areas without profitable urban routes to cross-subsidise less profitable ones.",
+        "evidence_id": "E40",
+        "quote": "some analysts (e.g., Silviya Barrett, Campaign for Better Transport) suggest it may not be suitable everywhere, particularly in predominantly rural areas without profitable urban routes for cross-subsidy"
+      },
+      {
+        "tier": "measurable",
+        "claim": "46% of local authorities rated their capacity to deliver local transport as fairly poor or very poor, raising serious delivery risk.",
+        "evidence_id": "E21",
+        "quote": "46% of authorities rated their capacity to deliver local transport as \"fairly poor\" or \"very poor\""
+      }
+    ],
+    "rationale": "The fundamental question for O4 is whether this policy helps people earn a decent, secure living. The primary mechanism here is indirect: better bus connectivity expands the geographic reach of the labour market for workers \u2014 especially lower-income and rural workers \u2014 who lack access to cars. The measurable baseline is stark: rural bus access is extremely thin (only 30% have access), journeys have fallen 21.7% since 2009, and 56% of small towns are described as transport deserts. Workers in these areas face real barriers to reaching jobs. Franchising, as evidenced by London's experience, can in principle reverse service decline and expand coverage. The policy's stated intent \u2014 restoring routes and simplifying funding \u2014 is well-targeted at this problem. However, three factors constrain the verdict to 'minor' and 'low confidence'. First, the delivery risk is substantial: nearly half of councils rate their own transport delivery capacity as poor, and most have not managed bus networks since 1986. Second, the rural franchising model faces a structural problem: cross-subsidy requires profitable urban routes, which many rural authorities lack. Third, the link from improved bus access to improved wages or job security \u2014 the core O4 indicators \u2014 is real but attenuated; connectivity is an enabler of employment access, not a direct pay or rights intervention. The \u00a32 fare cap element is relevant to cost of living (O2) more than O4, though cheaper commuting marginally improves real take-home pay. On balance, the policy direction is positive for O4 but the magnitude is minor and confidence is low given delivery uncertainty.",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.transporteast.gov.uk/transport-committee-report-on-local-bus-services-draws-on-evidence-from-transport-east/",
+        "publisher": "transporteast.gov.uk",
+        "title": "transporteast.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/892/report.html",
+        "publisher": "publications.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.countycouncilsnetwork.org.uk/news/government-warned-not-to-overlook-county-areas-in-bus-strategy-as-new-report-lays-bare-the-scale-of-decline-in-rural-public-transport",
+        "publisher": "countycouncilsnetwork.org.uk",
+        "title": "countycouncilsnetwork.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.urbantransportgroup.org/system/files/general-docs/Bus%20franchising%20briefing.pdf",
+        "publisher": "urbantransportgroup.org",
+        "title": "urbantransportgroup.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.roadxs.com/insights/rising-bus-fares/",
+        "publisher": "roadxs.com",
+        "title": "roadxs.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0448,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All claims are well-supported by their quoted evidence. Tier assignments are appropriate: stated claims draw from policy text, measurable claims cite parliamentary/government/institutional baselines, projected claims are correctly flagged. The E17 claim ('measurable') draws from a multi-source evidence unit that reads as a policy-framing assertion rather than a hard statistic, but it is sufficiently grounded in parliamentary committee reporting to pass as measurable at warning level \u2014 however it does not rise to blocking. The London franchising claim (E26) is correctly labelled projected as a forward inference. The rural franchising limitation (E40) is correctly labelled projected and sourced to named analysts. Magnitude (minor) and confidence (low) are well-calibrated given the delivery capacity risk and the indirect O4 mechanism. Direction 'improves' is supported by claims on both the positive side (connectivity, London precedent) and the constraint side (rural cross-subsidy limits, council capacity), and the net balance genuinely favours a modest positive direction rather than mixed \u2014 no false_balance issue. No lever_leakage or party_blind issues detected."
+    },
+    "gate": {
+      "kept": 6,
+      "dropped": [
+        {
+          "claim": "Bus journeys outside London fell from 4.6 billion in 2009 to 3.6 billion in 2024, a 21.7% reduction, shrinking the network workers rely on.",
+          "evidence_id": "E19",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Boost bus services by giving local authorities more powers to franchise services and simplifying funding, so that bus routes can be restored or new routes added where there is local need, especially in rural areas. Supporting rural bus services and encouraging alternatives to conventional bus services. Maintaining the \u00a32 cap on bus fares while fares are reviewed.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This model, similar to London's and Greater Manchester's Bee Network, allows for unified ticketing systems, clearer passenger information, and the ability to use profits from busier routes to subsidise socially necessary but less profitable ones",
+        "sources": [
+          {
+            "url": "https://blog.masabi.com/blog/the-pros-and-cons-of-franchising-for-public-transport-in-the-uk",
+            "publisher": "blog.masabi.com",
+            "title": "masabi.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://ctauk.org/news/bus-franchising-england-what-it-could-mean-community-transport",
+            "publisher": "ctauk.org",
+            "title": "ctauk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://intuitiverecruitment.com/the-benefits-and-opportunities-of-bus-franchising/",
+            "publisher": "intuitiverecruitment.com",
+            "title": "intuitiverecruitment.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://blog.optibus.com/revolutionising-uk-buses-the-road-to-franchising-and-the-future-of-public-transport",
+            "publisher": "blog.optibus.com",
+            "title": "optibus.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.urbantransportgroup.org/system/files/general-docs/Bus%20franchising%20briefing.pdf",
+            "publisher": "urbantransportgroup.org",
+            "title": "urbantransportgroup.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "This can enhance overall user experience and potentially increase public transport usage",
+        "sources": [
+          {
+            "url": "https://blog.masabi.com/blog/the-pros-and-cons-of-franchising-for-public-transport-in-the-uk",
+            "publisher": "blog.masabi.com",
+            "title": "masabi.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "There are also concerns that some councils might lack the necessary expertise to manage complex bus networks, given that most have not run services since deregulation in 1986",
+        "sources": [
+          {
+            "url": "https://www.roadxs.com/insights/rising-bus-fares/",
+            "publisher": "roadxs.com",
+            "title": "roadxs.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "From 2010 to 2022, total bus miles in England's county councils reduced by 26.5%, compared to a national average of 19.1%",
+        "sources": [
+          {
+            "url": "https://www.route-one.net/features/the-challenges-and-solutions-for-delivering-rural-bus-services/",
+            "publisher": "route-one.net",
+            "title": "route-one.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Between 2019 and 2024, bus services in county and unitary areas decreased by an average of 18%",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The countryside charity CPRE reported that 56% of small towns are considered \"transport deserts\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://airqualitynews.com/local-government/urgent-action-is-needed-to-reverse-englands-bus-decline/",
+            "publisher": "airqualitynews.com",
+            "title": "airqualitynews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "*   The policy aims to address this by enabling local authorities to restore or add routes where there is local need",
+        "sources": [
+          {
+            "url": "https://www.route-one.net/features/the-challenges-and-solutions-for-delivering-rural-bus-services/",
+            "publisher": "route-one.net",
+            "title": "route-one.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.transporteast.gov.uk/transport-committee-report-on-local-bus-services-draws-on-evidence-from-transport-east/",
+            "publisher": "transporteast.gov.uk",
+            "title": "transporteast.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Demand-Responsive Transport (DRT) systems, where buses operate based on real-time demand, are being explored as a flexible solution for sparsely populated areas, though experts caution it's not a \"silver bullet\"",
+        "sources": [
+          {
+            "url": "https://www.route-one.net/features/the-challenges-and-solutions-for-delivering-rural-bus-services/",
+            "publisher": "route-one.net",
+            "title": "route-one.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vectio.com/blog/the-silent-struggle-lack-of-public-transport-in-the-uk-countryside/",
+            "publisher": "vectio.com",
+            "title": "vectio.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/652e37b46b6fbf0014b757a9/dft-future-transport-supporting-rural-transport-innovation.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.roadxs.com/insights/rising-bus-fares/",
+            "publisher": "roadxs.com",
+            "title": "roadxs.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "For instance, the government made up to \u00a320 million available for 14 DRT networks in 12 local authorities from April 2021 onwards",
+        "sources": [
+          {
+            "url": "https://www.route-one.net/features/the-challenges-and-solutions-for-delivering-rural-bus-services/",
+            "publisher": "route-one.net",
+            "title": "route-one.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Impact on Fares and Ridership (The \u00a32/\u00a33 Fare Cap):**\n    *   The \u00a32 bus fare cap, introduced in January 2023, aimed to reduce the cost of living and boost bus patronage",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/evaluation-of-the-2-bus-fare-cap",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "An evaluation by the Department for Transport (DfT) suggested it led to an approximate **5% increase in patronage recovery** outside London from January to October 2023, out of a total observed 13% increase over that period",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "A survey for this evaluation indicated that 35% of respondents reported making more journeys due to the scheme",
+        "sources": [
+          {
+            "url": "https://tapas.network/43/siraut.php",
+            "publisher": "tapas.network",
+            "title": "tapas.network",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "It was replaced by a **\u00a33 bus fare cap** on single fares in England outside London from January 1, 2025, through December 31, 2025, and has been extended to March 2027",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/evaluation-of-the-2-bus-fare-cap",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tutor2u.net/economics/blog/rising-bus-fares-and-the-battle-over-public-spending-an-economic-analysi",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/the-governments-vision-for-buses-and-approach-to-delivery/the-governments-vision-for-buses-and-approach-to-delivery",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "This increase could reduce the incentive to travel by bus, potentially decreasing ridership in the long term and leading to further service reductions",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/blog/rising-bus-fares-and-the-battle-over-public-spending-an-economic-analysi",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Transport Select Committee also considers the fare caps to be a short-term measure, lacking a clear long-term strategy",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The same analysis suggested that every **\u00a31 invested in bus services yields an economic benefit ranging from \u00a34.55 to \u00a35**",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://airqualitynews.com/local-government/urgent-action-is-needed-to-reverse-englands-bus-decline/",
+            "publisher": "airqualitynews.com",
+            "title": "airqualitynews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   Better connectivity helps address social exclusion by providing access to jobs, education, healthcare, and social opportunities, particularly for older people, younger people, and those from lower-income households",
+        "sources": [
+          {
+            "url": "https://www.transporteast.gov.uk/transport-committee-report-on-local-bus-services-draws-on-evidence-from-transport-east/",
+            "publisher": "transporteast.gov.uk",
+            "title": "transporteast.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/892/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.countycouncilsnetwork.org.uk/news/government-warned-not-to-overlook-county-areas-in-bus-strategy-as-new-report-lays-bare-the-scale-of-decline-in-rural-public-transport",
+            "publisher": "countycouncilsnetwork.org.uk",
+            "title": "countycouncilsnetwork.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "**Transport Select Committee:**\n*   In its August 2025 report, the Committee called for reforms to bus funding and a **national ambition for a minimum level of public transport connectivity** by 2028-29 to protect residents from isolation",
+        "sources": [
+          {
+            "url": "https://www.transporteast.gov.uk/transport-committee-report-on-local-bus-services-draws-on-evidence-from-transport-east/",
+            "publisher": "transporteast.gov.uk",
+            "title": "transporteast.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://bususers.org/uk/transport-committee-report-blog/",
+            "publisher": "bususers.org",
+            "title": "bususers.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://airqualitynews.com/local-government/urgent-action-is-needed-to-reverse-englands-bus-decline/",
+            "publisher": "airqualitynews.com",
+            "title": "airqualitynews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   It highlighted a significant decline, with bus journeys outside London falling from 4.6 billion in 2009 to **3.6 billion in 2024**, a **21.7% reduction**",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://airqualitynews.com/local-government/urgent-action-is-needed-to-reverse-englands-bus-decline/",
+            "publisher": "airqualitynews.com",
+            "title": "airqualitynews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   While welcoming the government's move towards longer-term funding, the Committee recommended **five-year settlements for both capital and revenue funding** to enable sustainable improvements",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/1419/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "**National Audit Office (NAO):**\n*   A June 2025 report by the NAO identified **gaps in local authority capacity and capability** as a critical risk, noting that **46% of authorities rated their capacity to deliver local transport as \"fairly poor\" or \"very poor\"**",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "However, short-notice extensions made commercial decisions difficult for bus operators",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2025/06/local-bus-services-in-england.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   It reported that in 2023-24, bus passenger journeys outside London were **9% lower** and the bus network had shrunk by **15%** (in kilometres travelled) compared to 2019-20",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmpubacc/892/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Public funding now constitutes 50% of the sector's revenue, while passenger fare revenue decreased by 7% since 2019-20",
+        "sources": [
+          {
+            "url": "https://www.nao.org.uk/wp-content/uploads/2025/06/local-bus-services-in-england.pdf",
+            "publisher": "nao.org.uk",
+            "title": "nao.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "While temporarily doubling during the COVID-19 pandemic, funding levels returned to pre-pandemic levels in 2022/23 and 2023/24, remaining **33.5% lower in real terms** than the 2008/09 peak",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBbu6Uroy3OBiaZpIPmjBvpazY1M9Z0IBvLokNen_Xk3-qPdhUK3sYUAyBJ_OA2NMmiVfIS0CACAyw-_wGd2Q9zLrF1U0wS9WWwl1kpkRyKxSSFLIqGjf6XsjmRG_Z5ixycH1OloW5UDs3dNmYQqfc4zBtZ1ivgHbXbA-mUEeG6BxnZgDe8DFm44_pF4wv25n9kh774vQL5kMivDN9gg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "**Urban Transport Group:**\n*   Strongly supports franchising, citing its success in London where patronage doubled (up 99%) and mileage increased by 75% since 1986/87",
+        "sources": [
+          {
+            "url": "https://www.urbantransportgroup.org/system/files/general-docs/Bus%20franchising%20briefing.pdf",
+            "publisher": "urbantransportgroup.org",
+            "title": "urbantransportgroup.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "They emphasize benefits like integrated ticketing, network planning, and cross-subsidy",
+        "sources": [
+          {
+            "url": "https://www.urbantransportgroup.org/system/files/general-docs/Bus%20franchising%20briefing.pdf",
+            "publisher": "urbantransportgroup.org",
+            "title": "urbantransportgroup.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   They have also warned against ending COVID-related support for bus services, stating that operators are \"extremely likely\" to respond by reducing services and increasing fares without long-term funding",
+        "sources": [
+          {
+            "url": "https://cities-today.com/survey-reveals-impact-of-englands-2-bus-fare-cap/",
+            "publisher": "cities-today.com",
+            "title": "cities-today.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "**Centre for Cities:**\n*   Described current bus provision as a \"patchwork of service levels\"",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "They argue that strong local bus networks are crucial for \"levelling up\" and economic recovery, especially for connecting workers to city centre jobs",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/107766/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "*   They believe that only franchising provides mayors with \"meaningful controls\" over city bus networks",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/107766/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **Bus Journeys (England outside London):** Fell from 4.6 billion in 2009 to 3.6 billion in 2024 (21.7% decrease)",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://airqualitynews.com/local-government/urgent-action-is-needed-to-reverse-englands-bus-decline/",
+            "publisher": "airqualitynews.com",
+            "title": "airqualitynews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "*   **Bus Mileage (County Councils):** Reduced by 26.5% from 2010 to 2022",
+        "sources": [
+          {
+            "url": "https://www.route-one.net/features/the-challenges-and-solutions-for-delivering-rural-bus-services/",
+            "publisher": "route-one.net",
+            "title": "route-one.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   **Bus Services (County/Unitary Areas):** Decreased by 18% from 2019 to 2024",
+        "sources": [
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/494/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   **Rural Connectivity:** Only 30% of people in rural communities have access to a bus, compared to 46% in urban areas",
+        "sources": [
+          {
+            "url": "https://www.transporteast.gov.uk/transport-committee-report-on-local-bus-services-draws-on-evidence-from-transport-east/",
+            "publisher": "transporteast.gov.uk",
+            "title": "transporteast.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "*   **\u00a32 Fare Cap Impact:** Contributed an approximate 5% increase in patronage recovery outside London (January-October 2023)",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "In 2023/24, it was at pre-pandemic levels, still 33.5% lower in real terms than 2008/09",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBbu6Uroy3OBiaZpIPmjBvpazY1M9Z0IBvLokNen_Xk3-qPdhUK3sYUAyBJ_OA2NMmiVfIS0CACAyw-_wGd2Q9zLrF1U0wS9WWwl1kpkRyKxSSFLIqGjf6XsjmRG_Z5ixycH1OloW5UDs3dNmYQqfc4zBtZ1ivgHbXbA-mUEeG6BxnZgDe8DFm44_pF4wv25n9kh774vQL5kMivDN9gg==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": "The government has committed over \u00a31 billion per year from 2025/26 to 2028/29",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-governments-vision-for-buses-and-approach-to-delivery/the-governments-vision-for-buses-and-approach-to-delivery",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "*   **Universality of Franchising:** While proponents (e.g., Urban Transport Group, Centre for Cities) advocate for franchising as a powerful tool for service integration and accountability",
+        "sources": [
+          {
+            "url": "https://www.urbantransportgroup.org/system/files/general-docs/Bus%20franchising%20briefing.pdf",
+            "publisher": "urbantransportgroup.org",
+            "title": "urbantransportgroup.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://committees.parliament.uk/writtenevidence/107766/pdf/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E40",
+        "snippet": ", some analysts (e.g., Silviya Barrett, Campaign for Better Transport) suggest it may not be suitable everywhere, particularly in predominantly rural areas without profitable urban routes for cross-subsidy",
+        "sources": [
+          {
+            "url": "https://www.roadxs.com/insights/rising-bus-fares/",
+            "publisher": "roadxs.com",
+            "title": "roadxs.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E41",
+        "snippet": "The Transport Select Committee welcomed steps to expand franchising but did not universally recommend it",
+        "sources": [
+          {
+            "url": "https://www.transporteast.gov.uk/transport-committee-report-on-local-bus-services-draws-on-evidence-from-transport-east/",
+            "publisher": "transporteast.gov.uk",
+            "title": "transporteast.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://airqualitynews.com/local-government/urgent-action-is-needed-to-reverse-englands-bus-decline/",
+            "publisher": "airqualitynews.com",
+            "title": "airqualitynews.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E42",
+        "snippet": "*   **Long-Term Funding Certainty:** The government has moved towards multi-year funding settlements, allocating over \u00a31 billion annually from 2025/26 to 2028/29",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/the-governments-vision-for-buses-and-approach-to-delivery/the-governments-vision-for-buses-and-approach-to-delivery",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E43",
+        "snippet": "However, the Transport Select Committee recommends **five-year settlements for both capital and revenue funding** to provide greater certainty and enable truly sustainable improvements, acknowledging the DfT's current funding constraints",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5901/cmselect/cmtrans/1419/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E44",
+        "snippet": "*   **Fare Cap Strategy and Impact:** While the \u00a32 fare cap was widely seen as positive for affordability and ridership",
+        "sources": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/681b355b9ef97b58cce3e4e0/evaluation-of-the-first-10-months-of-the-2-bus-fare-cap.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://tapas.network/43/siraut.php",
+            "publisher": "tapas.network",
+            "title": "tapas.network",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E45",
+        "snippet": ", the subsequent increase to \u00a33 has been criticised by some as disproportionately affecting low-income and rural communities",
+        "sources": [
+          {
+            "url": "https://www.tutor2u.net/economics/blog/rising-bus-fares-and-the-battle-over-public-spending-an-economic-analysi",
+            "publisher": "tutor2u.net",
+            "title": "tutor2u.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E46",
+        "snippet": "The Transport Select Committee argues for a more strategic, long-term approach to fare setting rather than short-term caps",
+        "sources": [
+          {
+            "url": "https://committees.parliament.uk/committee/153/transport-committee/news/208949/englands-buses-more-ambition-needed-to-undo-a-decade-of-decline-and-get-bums-back-on-seats-transport-committee-tells-govt/",
+            "publisher": "committees.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      }
+    ]
+  }
+}

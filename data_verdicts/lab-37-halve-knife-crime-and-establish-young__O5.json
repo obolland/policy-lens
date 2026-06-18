@@ -1,0 +1,83 @@
+{
+  "policy_id": "lab-37-halve-knife-crime-and-establish-young",
+  "party": "Labour",
+  "policy_title": "Halve Knife Crime and Establish Young Futures Hubs",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "This policy targets knife crime through both tougher enforcement and early intervention, with an ambitious goal to halve it within a decade. The main caveat is that evidence on whether these specific mechanisms will deliver at scale is limited, making the magnitude highly uncertain.",
+    "biggest_unknown": "Whether the Young Futures hubs and mandatory intervention model will be funded, staffed, and delivered at sufficient scale to move national knife crime rates \u2014 implementation capacity is the critical unknown.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy sets a target to halve knife crime within a decade",
+        "evidence_id": "M",
+        "quote": "Labour aims to halve knife crime in a decade"
+      },
+      {
+        "tier": "stated",
+        "claim": "Knife carrying will trigger mandatory prevention plans, curfews, tagging, or custody for young offenders",
+        "evidence_id": "M",
+        "quote": "knife carrying triggers rapid intervention and tough consequences, including mandatory prevention plans, curfews, tagging, or custody for young offenders"
+      },
+      {
+        "tier": "stated",
+        "claim": "Ninja swords, zombie-style blades, and machetes will be banned, with strengthened online sales rules",
+        "evidence_id": "M",
+        "quote": "ban ninja swords, zombie-style blades, and machetes, and strengthen rules to prevent online sales with personal accountability for executives"
+      },
+      {
+        "tier": "stated",
+        "claim": "Young Futures hubs will provide youth workers, mental health support, and careers advice, including in A&E units and Pupil Referral Units",
+        "evidence_id": "M",
+        "quote": "Young Futures programme with hubs across communities will provide youth workers, mental health support, and careers advice, alongside youth workers in A&E units and Pupil Referral Units"
+      },
+      {
+        "tier": "stated",
+        "claim": "A new criminal offence of exploiting children will target gang recruitment",
+        "evidence_id": "M",
+        "quote": "A new offence of criminal exploitation of children will target gangs"
+      }
+    ],
+    "rationale": "The policy combines supply-side restrictions (blade bans, online sales controls), enforcement escalation (mandatory consequences for carriers), early intervention (Young Futures hubs, A&E youth workers), and a new gang-exploitation offence. Each mechanism plausibly connects to the O5 indicators of crime rates and antisocial behaviour: restricting blade availability reduces acquisition; swift enforcement creates deterrence; hubs and A&E workers address upstream risk factors that feed knife violence; the gang exploitation offence targets organised recruitment of young people. The combination of upstream prevention with downstream enforcement mirrors approaches associated with violence reduction in other contexts. However, the evidence units provided do not include independent research on whether this specific combination, at UK scale, has delivered measurable reductions in comparable settings. The 'halve in a decade' target is stated but uncosted and unquantified in mechanism terms. Absent independent evidence that the mechanisms fire at population scale, the direction leans 'improves' because multiple complementary, plausible mechanisms are committed (not merely aspirational soft verbs \u2014 mandatory plans, bans, and hubs are concrete instruments), but confidence is low and the magnitude is uncertain. The long-term horizon reflects the decade-long target and the nature of upstream prevention work. The counterfactual \u2014 no intervention \u2014 would leave knife crime at current elevated levels; the additional gain from this package is real but unquantified.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0218,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "All five claims are stated-tier and accurately quoted from the policy text without overstatement. Tier integrity is sound \u2014 no projections dressed as measurables. Direction 'improves' with low confidence is defensible: the rationale correctly acknowledges no independent evidence is provided and limits itself to plausibility of mechanisms. Magnitude 'moderate' is hedged appropriately given the low confidence. No party-blind issues; rationale judges mechanisms, not motive. No false balance issue \u2014 the verdict does not claim mixed/uncertain. No lever leakage \u2014 scored for effect on knife crime/safety, not policy design per se. One minor observation: the rationale references 'approaches associated with violence reduction in other contexts' without a cited source, but this is framed as contextual reasoning rather than a factual claim driving the verdict, so it does not rise to blocking."
+    },
+    "gate": {
+      "kept": 5,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour aims to halve knife crime in a decade by ensuring knife carrying triggers rapid intervention and tough consequences, including mandatory prevention plans, curfews, tagging, or custody for young offenders. They will ban ninja swords, zombie-style blades, and machetes, and strengthen rules to prevent online sales with personal accountability for executives. A new Young Futures programme with hubs across communities will provide youth workers, mental health support, and careers advice, alongside youth workers in A&E units and Pupil Referral Units. A new offence of criminal exploitation of children will target gangs.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      }
+    ]
+  }
+}

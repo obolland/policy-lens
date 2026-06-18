@@ -1,0 +1,747 @@
+{
+  "policy_id": "grn-05-restore-and-improve-disability-benefits-and",
+  "party": "Green",
+  "policy_title": "Restore and improve disability benefits and support",
+  "outcome": "O12",
+  "verdict": {
+    "outcome": "O12",
+    "direction": "worsens",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "This policy would increase disability benefit spending and mandate new transport costs for councils, without stating any funding source \u2014 adding to an already-rising fiscal burden. The long-run debt path worsens unless growth or employment gains offset the cost, but no such mechanism is committed to here.",
+    "biggest_unknown": "Whether any employment gains from a more supportive benefits system (reducing churn and health deterioration) could partially offset the spending increase over the long run.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to an immediate 5% uplift on disability benefits, ending targeting of disabled people on benefits, opposing PIP-to-voucher replacement, and making free transport mandatory for 16-18 SEND pupils.",
+        "evidence_id": "M",
+        "quote": "Restore disability benefits with an immediate 5% uplift, end the targeting of disabled people on benefits, oppose replacing PIP with vouchers, and make free transport mandatory for 16-18-year-old SEND pupils."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Annual disability benefit payments already total \u00a328 billion for 3.5 million recipients.",
+        "evidence_id": "E1",
+        "quote": "annual payments totalling \u00a328 billion"
+      },
+      {
+        "tier": "projected",
+        "claim": "The OBR projects disability spending to rise from \u00a345 billion to \u00a365 billion annually by 2030-31, indicating an already-deteriorating fiscal baseline.",
+        "evidence_id": "E2",
+        "quote": "projecting disability spending to increase from \u00a345 billion annually to \u00a365 billion by 2030\u201331"
+      },
+      {
+        "tier": "projected",
+        "claim": "Working-age disability benefit caseloads are forecast to reach 8.8 million by 2030-31, up from 6.5 million in early 2026.",
+        "evidence_id": "E3",
+        "quote": "working-age disability benefit caseloads forecast to reach 8.8 million by 2030-31, up from 6.5 million in early 2026"
+      },
+      {
+        "tier": "projected",
+        "claim": "Opposing the government's targeting reforms would mean higher welfare spending than if those reforms proceeded.",
+        "evidence_id": "E17",
+        "quote": "it would also mean higher welfare spending than if the reforms went ahead"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Local authority expenditure on SEND home-to-school transport could reach nearly \u00a32 billion annually, and mandating post-16 provision would add further cost.",
+        "evidence_id": "E31",
+        "quote": "councils' expenditure on home-to-school transport for children with SEND could reach nearly \u00a32 billion annually"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Currently, local authorities are not legally obliged to provide free transport for 16-18 SEND pupils; this is discretionary, meaning mandating it creates a new fiscal obligation.",
+        "evidence_id": "E25",
+        "quote": "local authorities are not legally obliged to provide free transport for 16-18-year-olds with SEND; this provision is discretionary"
+      }
+    ],
+    "rationale": "O12 is judged on the debt path: whether spending is funded or borrowed, and whether it finances consumption or productive investment. This policy commits to three unfunded spending increases \u2014 a 5% benefit uplift, reversal of planned eligibility tightening, and a new statutory transport duty \u2014 against a backdrop where disability spending is already projected by the OBR to rise by \u00a320 billion by 2030-31 on current trajectories. A 5% uplift on a \u00a328 billion base adds roughly \u00a31.4 billion annually, and opposing the cuts in the Pathways to Work reforms foregoes savings that the existing fiscal plan relied upon. Mandatory SEND transport adds a further obligation to councils already facing pressure, with no identified funding stream stated in the policy. The policy does not name a revenue source, a corresponding spending reduction, or a borrowing justification tied to productive investment. The only plausible offsetting mechanism \u2014 that keeping disabled people better supported reduces long-run health deterioration and benefit churn \u2014 is theoretically coherent but is not evidenced at the scale needed to close the fiscal gap, and is not asserted in the policy text itself. On the criteria for O12 \u2014 is spending funded or borrowed, does it worsen the debt path \u2014 this policy plainly increases the spending envelope without a funded offset, on a trajectory already flagged as a fiscal risk by the OBR. That earns a 'worsens/moderate' verdict. It is not scored as 'major' because the transport element, while real, is smaller in macro terms, and some of the benefit-spending increase is reversal of cuts not yet enacted rather than wholly new outlay.",
+    "sources": [
+      {
+        "url": "https://greenparty.org.uk/about/our-manifesto/",
+        "publisher": "greenparty.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.understandingsociety.ac.uk/impact/disability-benefits-wellbeing/",
+        "publisher": "understandingsociety.ac.uk",
+        "title": "understandingsociety.ac.uk",
+        "source_type": "academic"
+      },
+      {
+        "url": "https://atlasinstitute.org/disability-benefits-as-a-fiscal-and-labour-supply-risk-quantifying-the-caseload-surge/",
+        "publisher": "atlasinstitute.org",
+        "title": "atlasinstitute.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/welfare-spending-disability-benefits/",
+        "publisher": "obr.uk",
+        "title": "obr.uk",
+        "source_type": "institutional"
+      },
+      {
+        "url": "https://www.tes.com/magazine/news/general/nearly-half-million-pupils-entitled-free-school-transport",
+        "publisher": "tes.com",
+        "title": "tes.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10730/",
+        "publisher": "commonslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0623,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "tier_integrity",
+          "severity": "warning",
+          "detail": "Claim 6 (SEND transport cost) is labelled 'measurable' but E31 says spending 'could reach nearly \u00a32 billion annually' \u2014 the modal 'could' signals a projection, not a measured baseline. Should be 'projected' tier."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E2 (OBR projection of \u00a345bn\u2192\u00a365bn) is sourced through atlasinstitute.org, listed as source_type 'media', not directly from OBR. The OBR URL appears in the sources list but is not the cited evidence unit. The claim is credible and corroborated, but the primary evidence unit is an intermediary source \u2014 acceptable only because the underlying institution (OBR) is named and separately listed."
+        },
+        {
+          "check": "magnitude_timing",
+          "severity": "warning",
+          "detail": "The rationale calculates the 5% uplift on a \u00a328bn base (E1, PIP+DLA only) yielding ~\u00a31.4bn, but the OBR baseline in E2 puts total disability spending at \u00a345bn. If the uplift applies more broadly, the fiscal estimate could be materially higher. The arithmetic should either be reconciled or the uncertainty noted."
+        }
+      ],
+      "notes": "The verdict is broadly well-constructed and evidence-grounded. Direction 'worsens/moderate' is supported by the claims: unfunded spending increase on an already-rising fiscal trajectory, no stated revenue offset. The biggest-unknown is appropriately flagged. No lever_leakage, party_blind, or false_balance issues found. The three warnings above do not individually block publication but together suggest the magnitude estimate deserves a caveat about scope of the uplift, and the tier label on the transport cost claim should be corrected before final publication."
+    },
+    "gate": {
+      "kept": 7,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Restore disability benefits with an immediate 5% uplift, end the targeting of disabled people on benefits, oppose replacing PIP with vouchers, and make free transport mandatory for 16-18-year-old SEND pupils.",
+        "sources": [
+          {
+            "url": "https://greenparty.org.uk/about/our-manifesto/",
+            "publisher": "greenparty.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "In 2024, there were 3.5 million people in the UK receiving disability benefits such as PIP and Disability Living Allowance (DLA), with annual payments totalling \u00a328 billion",
+        "sources": [
+          {
+            "url": "https://www.understandingsociety.ac.uk/impact/disability-benefits-wellbeing/",
+            "publisher": "understandingsociety.ac.uk",
+            "title": "understandingsociety.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**Credible Data and Analysts:**\n*   The Office for Budget Responsibility (OBR) has highlighted the significant and rising cost of welfare, projecting disability spending to increase from \u00a345 billion annually to \u00a365 billion by 2030\u201331",
+        "sources": [
+          {
+            "url": "https://atlasinstitute.org/disability-benefits-as-a-fiscal-and-labour-supply-risk-quantifying-the-caseload-surge/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This projected increase accounts for factors like rising caseloads, with working-age disability benefit caseloads forecast to reach 8.8 million by 2030-31, up from 6.5 million in early 2026",
+        "sources": [
+          {
+            "url": "https://atlasinstitute.org/disability-benefits-as-a-fiscal-and-labour-supply-risk-quantifying-the-caseload-surge/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   The Institute for Fiscal Studies (IFS) has noted that disability benefit claims have risen steadily, largely driven by an increased prevalence of mental health conditions",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/mental-health-conditions-disability-claims-230159406.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.wired-gov.net/wg/news.nsf/articles/ifs+big+rise+in+claims+means+disability+benefits+bill+70+higher+than+expected++and+claimants+on+average+waiting+five+months+to+receive+06072022122000?open",
+            "publisher": "wired-gov.net",
+            "title": "wired-gov.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Restricting access to these benefits would have a significant negative effect on physical and mental health, and overall wellbeing",
+        "sources": [
+          {
+            "url": "https://www.understandingsociety.ac.uk/impact/disability-benefits-wellbeing/",
+            "publisher": "understandingsociety.ac.uk",
+            "title": "understandingsociety.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "In 2019/20, 29% of people on disability benefits were in relative income poverty, compared to 20% for working-age adults generally",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/cost-of-living-impact-of-rising-costs-on-disabled-people/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The IFS suggests these figures may understate the true poverty rate, as disability benefits are often absorbed by the \"extra costs\" of living with a disability",
+        "sources": [
+          {
+            "url": "https://lordslibrary.parliament.uk/cost-of-living-impact-of-rising-costs-on-disabled-people/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Recent government proposals, such as those in the \"Pathways to Work\" Green Paper (March 2025), include changes to PIP eligibility criteria (e.g., a new \"four-point rule\" for the daily living component) and reductions in the Universal Credit (UC) \"health element\" for those with limited capability for work and work-related activity (LCWRA)",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10283/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/consultations/pathways-to-work-reforming-benefits-and-support-to-get-britain-working-green-paper/spring-statement-2025-health-and-disability-benefit-reforms-impacts",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10302/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "These reforms aim to reduce spending and encourage employment",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10283/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/consultations/pathways-to-work-reforming-benefits-and-support-to-get-britain-working-green-paper/spring-statement-2025-health-and-disability-benefit-reforms-impacts",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/news/biggest-shake-up-to-welfare-system-in-a-generation-to-get-britain-working",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "The Resolution Foundation estimated that the government's plans could boost employment by up to 105,000, but these gains would be \"dwarfed by poverty-inducing income losses,\" pushing hundreds of thousands of families into poverty",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/health-and-disability-benefit-reforms-could-boost-employment/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.reddit.com/r/LabourUK/comments/1kv7sc3/resolution_foundation_assessing_the_impact_of_the/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The government's own assessment in October 2025 estimated an additional 250,000 people (including 50,000 children) in relative poverty by 2029/30 as a result of modelled changes to social security",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/consultations/pathways-to-work-reforming-benefits-and-support-to-get-britain-working-green-paper/spring-statement-2025-health-and-disability-benefit-reforms-impacts",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10296/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Citizens Advice suggests this is likely an underestimate",
+        "sources": [
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/pathways-to-poverty-how-planned-cuts-to-disability-benefits-will-impact-the/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   Citizens Advice estimated that restricting PIP eligibility could affect around 1.3 million current claimants, with an average loss of \u00a34,500 per year for those losing their daily living component",
+        "sources": [
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/pathways-to-poverty-how-planned-cuts-to-disability-benefits-will-impact-the/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   The Bevan Foundation found that proposed reforms in Wales would affect around 190,000 people (6.1% of the population) and could lead to a 68% reduction in household income for a single person on PIP and UC LCWRA, increasing relative poverty among affected households from 24.5% to 78.3%",
+        "sources": [
+          {
+            "url": "https://www.bevanfoundation.org/resources/impact-of-disability-benefit-reforms-in-wales/",
+            "publisher": "bevanfoundation.org",
+            "title": "bevanfoundation.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   Sense reported that nearly a quarter of disabled people with complex needs fear they will no longer be able to afford essentials like energy and food due to proposed benefit cuts, and two in five feel demonised by government rhetoric",
+        "sources": [
+          {
+            "url": "https://www.sense.org.uk/press-releases/welfare-reform-plans-leave-disabled-people-living-in-fear-and-feeling-demonised-new-research-reveals/",
+            "publisher": "sense.org.uk",
+            "title": "sense.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   The IFS found that cuts to non-health-related benefits in the 2010s led to increased disability benefit claims, suggesting that reducing support in one area can shift claimants to other benefits or worsen health",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/news/cuts-non-health-related-benefits-shift-claimants-disability-benefits",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.wired-gov.net/wg/news.nsf/articles/IFS+Cuts+to+nonhealthrelated+benefits+shift+claimants+onto+disability+benefits+15122025110500",
+            "publisher": "wired-gov.net",
+            "title": "wired-gov.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Ending such \"targeting\" would likely prevent these negative impacts, promoting financial stability and reducing poverty for disabled people, though it would also mean higher welfare spending than if the reforms went ahead",
+        "sources": [
+          {
+            "url": "https://atlasinstitute.org/disability-benefits-as-a-fiscal-and-labour-supply-risk-quantifying-the-caseload-surge/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/welfare-spending-disability-benefits/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "The idea of replacing PIP with vouchers or a catalogue of aids was floated in a Conservative consultation paper in June 2024",
+        "sources": [
+          {
+            "url": "https://www.liverpoolecho.co.uk/news/uk-world-news/dwp-questioned-over-pip-voucher-31077039",
+            "publisher": "liverpoolecho.co.uk",
+            "title": "liverpoolecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/pip-disability-benefits-plan-rishi-government-critics-b2537209.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Critics described the idea as \"cruel,\" \"degrading,\" and \"nonsense\"",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/pip-vouchers-%E2%80%9Cnonsense%E2%80%9D-says-chair-of-work-and-pensions-committee",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/pip-disability-benefits-plan-rishi-government-critics-b2537209.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "*   Debbie Abrahams, then Chair of the Commons Work and Pensions Committee, publicly stated that the idea was \"nonsense\" and unworkable in the UK due to the sheer population size",
+        "sources": [
+          {
+            "url": "https://www.benefitsandwork.co.uk/news/pip-vouchers-%E2%80%9Cnonsense%E2%80%9D-says-chair-of-work-and-pensions-committee",
+            "publisher": "benefitsandwork.co.uk",
+            "title": "benefitsandwork.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   Concerns were raised that vouchers would limit autonomy, prevent disabled people from purchasing essential services (like cleaning or personal care), and make it difficult to cover vital costs like fuel for mobility cars or specific dietary needs",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/pip-disability-benefits-plan-rishi-government-critics-b2537209.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   A poll in November 2024 showed that only 23% of adults supported a voucher scheme, with 62% favouring PIP being paid in cash",
+        "sources": [
+          {
+            "url": "https://www.reddit.com/r/uknews/comments/1gysxnm/replacing_pip_cash_benefits_with_vouchers_would/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "*   The DWP Minister for Social Security and Disabilities, Sir Stephen Timms, avoided direct answers when questioned on the potential impact of replacing PIP cash payments with vouchers on claimants' autonomy and financial management",
+        "sources": [
+          {
+            "url": "https://www.liverpoolecho.co.uk/news/uk-world-news/dwp-questioned-over-pip-voucher-31077039",
+            "publisher": "liverpoolecho.co.uk",
+            "title": "liverpoolecho.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.manchestereveningnews.co.uk/news/cost-of-living/dwp-avoids-questions-whether-vouchers-31068608",
+            "publisher": "manchestereveningnews.co.uk",
+            "title": "manchestereveningnews.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Opposing the replacement of PIP with vouchers would ensure that disabled individuals retain the flexibility and autonomy to spend their benefits on the specific goods and services that best meet their unique and often complex needs, thereby preventing the financial hardship and indignity that a voucher system could entail",
+        "sources": [
+          {
+            "url": "https://www.independent.co.uk/news/uk/home-news/pip-disability-benefits-plan-rishi-government-critics-b2537209.html",
+            "publisher": "independent.co.uk",
+            "title": "independent.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "**Likely Real-World Effects:**\nCurrently, local authorities are not legally obliged to provide free transport for 16-18-year-olds with SEND; this provision is discretionary",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10730/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "**Credible Data and Analysts:**\n*   The House of Commons Library noted that local authorities have discretion over transport for post-compulsory school age (16+) SEND pupils, relying on non-ring-fenced central government grants and local income",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10730/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   The Public Accounts Committee (PAC) highlighted in March 2026 that cuts to post-16 transport provision are \"putting access to education at risk\" for SEND pupils",
+        "sources": [
+          {
+            "url": "https://contact.org.uk/about-contact/news-and-views/cuts-to-post-16-school-transport-putting-education-at-risk/",
+            "publisher": "contact.org.uk",
+            "title": "contact.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "They identified a \"sharp cliff edge\" at 16, leading to young people missing learning or failing to start courses due to a lack of suitable transport",
+        "sources": [
+          {
+            "url": "https://contact.org.uk/about-contact/news-and-views/cuts-to-post-16-school-transport-putting-education-at-risk/",
+            "publisher": "contact.org.uk",
+            "title": "contact.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   Local authorities such as Oxfordshire County Council and Leeds City Council have acknowledged the substantial costs of discretionary post-16 SEND transport (e.g., Leeds spending \u00a34m-\u00a34.5m annually) and are reviewing policies, sometimes prioritising independent travel training over direct transport provision",
+        "sources": [
+          {
+            "url": "https://www.leeds.gov.uk/consultations-and-feedback/post-16-transport-policy-review",
+            "publisher": "leeds.gov.uk",
+            "title": "leeds.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.oxfordshire.gov.uk/schools/travelling-school/post-16-transport-policy",
+            "publisher": "oxfordshire.gov.uk",
+            "title": "oxfordshire.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   The Department for Education (DfE) estimated in October 2025 that 50,000 post-16 students use local authority funded transport, though a specific breakdown for 16-18 SEND pupils and the cost of making it mandatory is not readily available",
+        "sources": [
+          {
+            "url": "https://www.tes.com/magazine/news/general/nearly-half-million-pupils-entitled-free-school-transport",
+            "publisher": "tes.com",
+            "title": "tes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The Local Government Association indicated councils' expenditure on home-to-school transport for children with SEND could reach nearly \u00a32 billion annually",
+        "sources": [
+          {
+            "url": "https://www.tes.com/magazine/news/general/nearly-half-million-pupils-entitled-free-school-transport",
+            "publisher": "tes.com",
+            "title": "tes.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "Making free transport mandatory for 16-18-year-old SEND pupils would significantly improve access to education and training for this vulnerable group, reducing a major barrier to their independence and participation",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10730/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://contact.org.uk/about-contact/news-and-views/cuts-to-post-16-school-transport-putting-education-at-risk/",
+            "publisher": "contact.org.uk",
+            "title": "contact.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "It would also alleviate financial and logistical burdens on families",
+        "sources": [
+          {
+            "url": "https://contact.org.uk/about-contact/news-and-views/cuts-to-post-16-school-transport-putting-education-at-risk/",
+            "publisher": "contact.org.uk",
+            "title": "contact.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E34",
+        "snippet": "*   The OBR consistently highlights the escalating costs of disability benefits and the fiscal risks they pose, projecting a significant increase in spending and caseloads",
+        "sources": [
+          {
+            "url": "https://atlasinstitute.org/disability-benefits-as-a-fiscal-and-labour-supply-risk-quantifying-the-caseload-surge/",
+            "publisher": "atlasinstitute.org",
+            "title": "atlasinstitute.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/welfare-spending-disability-benefits/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E35",
+        "snippet": "*   Conversely, organisations like the Resolution Foundation, Citizens Advice, Sense, and the Health Foundation argue that proposed cuts and tightening of eligibility criteria will push more disabled people into poverty, exacerbate inequalities, and negatively impact their health and wellbeing",
+        "sources": [
+          {
+            "url": "https://www.bevanfoundation.org/resources/impact-of-disability-benefit-reforms-in-wales/",
+            "publisher": "bevanfoundation.org",
+            "title": "bevanfoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/health-and-disability-benefit-reforms-could-boost-employment/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHie0hLDNgvqvZb8ZZFDwBp93onoA-v6UxuPKnzp21RCDhTk98UKRzLQnY69x-x7m80DrRuWernmhmRTSTIROngJA_P5jbJIzArqLz3gahzHK14VowNwHNyvKNVJladdfJkJIXy8SE=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/consultations/pathways-to-work-reforming-benefits-and-support-to-get-britain-working-green-paper/spring-statement-2025-health-and-disability-benefit-reforms-impacts",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://appgpovertyinequality.org.uk/wp-content/uploads/2025/06/DisabilityReport-one-page.pdf",
+            "publisher": "appgpovertyinequality.org.uk",
+            "title": "appgpovertyinequality.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.citizensadvice.org.uk/policy/publications/pathways-to-poverty-how-planned-cuts-to-disability-benefits-will-impact-the/",
+            "publisher": "citizensadvice.org.uk",
+            "title": "citizensadvice.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sense.org.uk/press-releases/welfare-reform-plans-leave-disabled-people-living-in-fear-and-feeling-demonised-new-research-reveals/",
+            "publisher": "sense.org.uk",
+            "title": "sense.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E36",
+        "snippet": "They suggest that the long-term societal costs of poverty and ill-health may outweigh the short-term fiscal savings",
+        "sources": [
+          {
+            "url": "https://appgpovertyinequality.org.uk/wp-content/uploads/2025/06/DisabilityReport-one-page.pdf",
+            "publisher": "appgpovertyinequality.org.uk",
+            "title": "appgpovertyinequality.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.understandingsociety.ac.uk/impact/disability-benefits-wellbeing/",
+            "publisher": "understandingsociety.ac.uk",
+            "title": "understandingsociety.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E37",
+        "snippet": "While the government's \"Pathways to Work\" paper aims to boost employment",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/biggest-shake-up-to-welfare-system-in-a-generation-to-get-britain-working",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E38",
+        "snippet": ", the Resolution Foundation's analysis suggests employment gains might not be sufficient to offset income losses and poverty increases for many",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/press-releases/health-and-disability-benefit-reforms-could-boost-employment/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E39",
+        "snippet": "Some argue that removing income support can actually make it harder for disabled people to enter or remain in work",
+        "sources": [
+          {
+            "url": "https://appgpovertyinequality.org.uk/wp-content/uploads/2025/06/DisabilityReport-one-page.pdf",
+            "publisher": "appgpovertyinequality.org.uk",
+            "title": "appgpovertyinequality.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://trustforlondon.org.uk/news/reactions-to-the-proposed-disability-and-sickness-benefits-reforms/",
+            "publisher": "trustforlondon.org.uk",
+            "title": "trustforlondon.org.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "policy_id": "lab-08-increase-pension-fund-investment-in-uk",
+  "party": "Labour",
+  "policy_title": "Increase Pension Fund Investment in UK Markets",
+  "outcome": "O13",
+  "verdict": {
+    "outcome": "O13",
+    "direction": "too-uncertain",
+    "magnitude": "n/a",
+    "time_horizon": "n/a",
+    "confidence": "low",
+    "plain": "This policy aims to channel more pension fund money into UK businesses and infrastructure, which could boost investment and growth \u2014 but whether it will actually raise living standards depends on whether returns hold up and whether consolidation really delivers better outcomes, both of which remain genuinely contested.",
+    "biggest_unknown": "Whether redirecting pension assets toward UK markets improves or reduces risk-adjusted returns for savers and whether the scale of additional domestic investment is large enough to move productivity and living standards at a population level.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy aims to consolidate and scale workplace pension schemes and increase their investment in UK markets, with a review of the pensions landscape to follow.",
+        "evidence_id": "M",
+        "quote": "Labour will implement reforms to encourage workplace pension schemes to consolidate and scale, aiming to increase their investment in UK markets. A review of the pensions landscape will be undertaken to further improve pension outcomes and boost UK market investment."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Around 20% of workplace DC assets are currently invested in the UK, down from about 50% a decade ago.",
+        "evidence_id": "E4",
+        "quote": "around 20% of workplace DC assets are invested in the UK, a substantial fall from about 50% a decade ago, largely due to a shift away from UK listed equities."
+      },
+      {
+        "tier": "measurable",
+        "claim": "UK pension funds allocate around 6% combined to private equity and infrastructure, compared to 34% for Canadian public sector pensions and 14% for Australian supers.",
+        "evidence_id": "E7",
+        "quote": "UK pension funds also have a lower allocation to private equity and infrastructure (around 6% combined) compared to Canadian public sector pensions (34%), Finnish pensions (17%), and Australian \"supers\" (14%)."
+      },
+      {
+        "tier": "measurable",
+        "claim": "ONS data shows a continuous decline in pension fund ownership of UK shares since a peak around 1999.",
+        "evidence_id": "E17",
+        "quote": "ONS data indicates a continuous decline in pension fund ownership of UK shares since a peak around 1999."
+      },
+      {
+        "tier": "stated",
+        "claim": "The Mansion House Accord saw 17 major workplace pension providers agree to invest at least 10% of DC default funds in private markets by 2030, with half allocated to the UK.",
+        "evidence_id": "E9",
+        "quote": "17 major workplace pension providers agree to invest at least 10% of their DC default funds into private markets by 2030, with half of this specifically allocated to the UK."
+      },
+      {
+        "tier": "projected",
+        "claim": "Independent modelling by ShareAction (advocacy) estimates that clarifying investment duties could shift over \u00a3100 billion into UK assets and boost GDP by 0.3\u20131.4% by 2029.",
+        "evidence_id": "E11",
+        "quote": "Independent modelling by ShareAction suggests that clarifying investment duties could lead to over \u00a3100 billion moving into UK assets, potentially boosting GDP by 0.3-1.4% by 2029."
+      },
+      {
+        "tier": "projected",
+        "claim": "TheCityUK (industry body) warns that mandating UK asset allocation could contravene fiduciary duty, undermine trust in pensions, and negatively impact the UK's reputation.",
+        "evidence_id": "E19",
+        "quote": "TheCityUK \"do not support mandating investment in UK assets,\" arguing it could \"contravene fiduciary duty, undermine trust in pensions, and could negatively impact the UK's reputation.\""
+      },
+      {
+        "tier": "projected",
+        "claim": "Some experts argue that a globally diversified portfolio generally offers better long-term risk-adjusted returns than a concentrated domestic focus.",
+        "evidence_id": "E30",
+        "quote": "some experts maintain that a globally diversified portfolio generally offers better long-term risk-adjusted returns than a concentrated domestic focus."
+      },
+      {
+        "tier": "projected",
+        "claim": "There is no consensus on the optimal size of a DC pension fund, indicating ongoing debate about whether consolidation will yield the anticipated benefits.",
+        "evidence_id": "E29",
+        "quote": "There is \"no consensus on the optimal size of a DC pension fund,\" indicating ongoing debate about the extent to which consolidation will yield benefits."
+      },
+      {
+        "tier": "projected",
+        "claim": "Consolidation is expected by industry bodies to improve pension performance, efficiency, and governance, benefiting savers.",
+        "evidence_id": "E13",
+        "quote": "Consolidation is expected to improve pension performance, efficiency, and governance, ultimately benefiting savers."
+      }
+    ],
+    "uncertainty": {
+      "is_genuine": true,
+      "crux_parameter": "Whether increased home-bias in pension portfolios delivers higher net risk-adjusted returns (improving both saver outcomes and UK productive investment) or reduces diversification and depresses returns, and whether consolidation gains are sufficient to offset any return drag.",
+      "estimate_range": "GDP boost estimates range from 0.3% to 1.4% (ShareAction, advocacy) to potentially negative if fiduciary returns fall; expert opinion is genuinely split on direction of return impact."
+    },
+    "rationale": "The policy rests on two linked mechanisms: (1) consolidating pension schemes to create larger pools capable of investing in illiquid, long-term UK assets; and (2) using the resulting capital to fill a domestic investment gap \u2014 evidenced by UK DC schemes holding only ~20% in UK assets, down from ~50% a decade ago, and a fraction of the infrastructure allocation seen in comparable Canadian and Australian funds. If both mechanisms fire, the projected gains could be material: ShareAction (an advocacy source, flagged accordingly) models a GDP uplift of 0.3\u20131.4%. However, this verdict cannot lean on that figure as the deciding input because it comes from a single advocacy body and no independent institutional source corroborates the magnitude. The counterfactual question \u2014 whether absent this policy the investment gap persists \u2014 is plausible given the long-term declining trend in UK pension fund domestic ownership, but 'plausible mechanism' is not sufficient for an 'improves' direction under the rubric. On the downside, TheCityUK (an industry body, also flagged) warns of fiduciary duty conflicts and reputation risks from mandates; experts note globally diversified portfolios typically yield better risk-adjusted returns; and there is no consensus on optimal DC fund size. The policy as stated uses soft language ('encourage', 'review') with a voluntary accord (Mansion House) and a reserve mandate power rather than a firm committed instrument \u2014 limiting confidence that the mechanism fires at scale. The genuine disagreement between credible sources on the sign of the return effect, combined with the policy's reliance on aspirational instruments at this stage, justifies 'too-uncertain' rather than a directional verdict.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/pension-fund-investment-and-the-uk-economy/pension-fund-investment-and-the-uk-economy",
+        "publisher": "gov.uk",
+        "title": "www.gov.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://assets.publishing.service.gov.uk/media/673f3ca459aab43310b95a8d/pension-fund-investment-uk-economy.pdf",
+        "publisher": "assets.publishing.service.gov.uk",
+        "title": "service.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.newfinancial.org/reports/comparing-the-asset-allocation-of-global-pension-systems",
+        "publisher": "newfinancial.org",
+        "title": "newfinancial.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.ons.gov.uk/economy/investmentspensionsandtrusts",
+        "publisher": "ons.gov.uk",
+        "title": "ons.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.ons.gov.uk/economy/investmentspensionsandtrusts/datalist?filter=datasets",
+        "publisher": "ons.gov.uk",
+        "title": "ons.gov.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://www.osborneclarke.com/insights/uk-government-announces-mansion-house-accord-boost-private-market-investments",
+        "publisher": "osborneclarke.com",
+        "title": "osborneclarke.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://shareaction-api.files.svdcdn.com/production/resources/reports/Pension-Schemes-Bill-Report-Stage-ShareAction-Amendment-1.pdf?dm=1761834489",
+        "publisher": "shareaction-api.files.svdcdn.com",
+        "title": "svdcdn.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.thecityuk.com/our-work/thecityuk-response-to-the-pensions-investment-review-call-for-evidence/",
+        "publisher": "thecityuk.com",
+        "title": "thecityuk.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.thecityuk.com/media/czipdaln/20240925-thecityuk-response-to-the-pensions-investment-review-call-for-evidence.pdf",
+        "publisher": "thecityuk.com",
+        "title": "thecityuk.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.048,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-structured and defensible. The too-uncertain direction is genuinely supported by claims on both sides: ShareAction modelling points positive, TheCityUK and diversification experts point negative/neutral, and the no-consensus on optimal DC fund size underpins the crux. Tier assignments are correct \u2014 stated claims from policy text, measurables from ONS/DWP data, projections clearly flagged. The Mansion House Accord claim is labelled stated but reflects a real-world voluntary agreement rather than the policy text itself; however this is a minor labelling ambiguity (it is a stated policy-adjacent instrument) and does not materially affect the verdict direction. Advocacy sources (ShareAction, TheCityUK) are both explicitly flagged and treated symmetrically \u2014 neither drives the verdict alone. The crux_parameter and estimate_range are substantive, not lazy hedges. Magnitude and time_horizon are correctly n/a. No lever leakage, no party identity language, no motive attribution detected."
+    },
+    "gate": {
+      "kept": 10,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will implement reforms to encourage workplace pension schemes to consolidate and scale, aiming to increase their investment in UK markets. A review of the pensions landscape will be undertaken to further improve pension outcomes and boost UK market investment.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This initiative comes amidst a long-term trend of UK pension funds reducing their allocation to domestic assets.",
+        "sources": [
+          {
+            "url": "https://www.peelhunt.com/news-insights/articles/pensions-labour-manifesto-plus-mps-scheme/",
+            "publisher": "peelhunt.com",
+            "title": "peelhunt.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/pensions-investment-review-final-report/pensions-investment-review-final-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "Defined Benefit (DB) schemes account for 55% of this, with Defined Contribution (DC) schemes exceeding \u00a31 trillion.",
+        "sources": [
+          {
+            "url": "https://www.pensionspolicyinstitute.org.uk/media/c00dra0k/20240909-ppi-pension-scheme-assets-main-report-final.pdf",
+            "publisher": "pensionspolicyinstitute.org.uk",
+            "title": "pensionspolicyinstitute.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionspolicyinstitute.org.uk/media/i2cgonin/20250604-pension-scheme-assets-2025-final.pdf",
+            "publisher": "pensionspolicyinstitute.org.uk",
+            "title": "pensionspolicyinstitute.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "The Pensions Policy Institute (PPI) estimates that pension schemes allocate 6% of their assets to a narrow definition of UK productive assets (private equity and alternative investments), or 18% using a broader definition that includes publicly listed equities and corporate bonds.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10146/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The Department for Work and Pensions (DWP) found that around 20% of workplace DC assets are invested in the UK, a substantial fall from about 50% a decade ago, largely due to a shift away from UK listed equities.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/pension-fund-investment-and-the-uk-economy/pension-fund-investment-and-the-uk-economy",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/673f3ca459aab43310b95a8d/pension-fund-investment-uk-economy.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Public sector DB schemes (primarily Local Government Pension Schemes, LGPS) invest around 30% in the UK, while private sector DB schemes invest over 60% domestically.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/pension-fund-investment-and-the-uk-economy/pension-fund-investment-and-the-uk-economy",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "This contrasts with Canada (22%), New Zealand (42%), and Australia (45%).",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/pension-fund-investment-and-the-uk-economy/pension-fund-investment-and-the-uk-economy",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/673f3ca459aab43310b95a8d/pension-fund-investment-uk-economy.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "UK pension funds also have a lower allocation to private equity and infrastructure (around 6% combined) compared to Canadian public sector pensions (34%), Finnish pensions (17%), and Australian \"supers\" (14%).",
+        "sources": [
+          {
+            "url": "https://www.newfinancial.org/reports/comparing-the-asset-allocation-of-global-pension-systems",
+            "publisher": "newfinancial.org",
+            "title": "newfinancial.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The government's Pension Schemes Bill and associated reviews aim to facilitate this.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10293/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/pensions-investment-review-final-report/pensions-investment-review-final-report",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The \"Mansion House Accord,\" for example, saw 17 major workplace pension providers agree to invest at least 10% of their DC default funds into private markets by 2030, with half of this specifically allocated to the UK.",
+        "sources": [
+          {
+            "url": "https://www.osborneclarke.com/insights/uk-government-announces-mansion-house-accord-boost-private-market-investments",
+            "publisher": "osborneclarke.com",
+            "title": "osborneclarke.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "**Economic Growth:** Greater domestic investment is anticipated to stimulate stronger economic growth and capital market development.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/pension-fund-investment-and-the-uk-economy/pension-fund-investment-and-the-uk-economy",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/673f3ca459aab43310b95a8d/pension-fund-investment-uk-economy.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Independent modelling by ShareAction suggests that clarifying investment duties could lead to over \u00a3100 billion moving into UK assets, potentially boosting GDP by 0.3-1.4% by 2029.",
+        "sources": [
+          {
+            "url": "https://shareaction-api.files.svdcdn.com/production/resources/reports/Pension-Schemes-Bill-Report-Stage-ShareAction-Amendment-1.pdf?dm=1761834489",
+            "publisher": "shareaction-api.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Improved Pensioner Outcomes:** The policy seeks to enhance retirement outcomes through better investment returns.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10146/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "Consolidation is expected to improve pension performance, efficiency, and governance, ultimately benefiting savers.",
+        "sources": [
+          {
+            "url": "https://www.thecityuk.com/media/czipdaln/20240925-thecityuk-response-to-the-pensions-investment-review-call-for-evidence.pdf",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "**Consolidation and Scale:** The emphasis on consolidating pension schemes is driven by the belief that larger schemes possess better governance and a greater capacity to make complex investment decisions, including in less liquid assets.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10146/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.thecityuk.com/our-work/thecityuk-response-to-the-pensions-investment-review-call-for-evidence/",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "The Investment Association notes that consolidation in DC assets will support greater growth, particularly as larger capital pools are better positioned to invest in illiquid, long-term vehicles.",
+        "sources": [
+          {
+            "url": "https://www.theia.org/news/press-releases/uk-pensions-maintain-leading-position-amid-institutional-market-shifts",
+            "publisher": "theia.org",
+            "title": "theia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **House of Commons Library:** Provides comprehensive briefings on pension scheme investments, detailing government reviews and calls for evidence on consolidation, value for money, and UK investment.",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10146/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10293/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "ONS data indicates a continuous decline in pension fund ownership of UK shares since a peak around 1999.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/economy/investmentspensionsandtrusts",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/pension-fund-investment-and-the-uk-economy/pension-fund-investment-and-the-uk-economy",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.ons.gov.uk/economy/investmentspensionsandtrusts/datalist?filter=datasets",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "Their work forms a key evidence base for policy discussions.",
+        "sources": [
+          {
+            "url": "https://www.pensionspolicyinstitute.org.uk/media/c00dra0k/20240909-ppi-pension-scheme-assets-main-report-final.pdf",
+            "publisher": "pensionspolicyinstitute.org.uk",
+            "title": "pensionspolicyinstitute.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.pensionspolicyinstitute.org.uk/",
+            "publisher": "pensionspolicyinstitute.org.uk",
+            "title": "pensionspolicyinstitute.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "However, TheCityUK \"do not support mandating investment in UK assets,\" arguing it could \"contravene fiduciary duty, undermine trust in pensions, and could negatively impact the UK's reputation.\"",
+        "sources": [
+          {
+            "url": "https://www.thecityuk.com/our-work/thecityuk-response-to-the-pensions-investment-review-call-for-evidence/",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.thecityuk.com/media/czipdaln/20240925-thecityuk-response-to-the-pensions-investment-review-call-for-evidence.pdf",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "These schemes were major holders of government bonds, and their decline may reduce demand for gilts, potentially making the UK more reliant on foreign investors and pushing up interest rates on government debt.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2025/jul/08/uk-public-finances-obr-national-debt-gdp",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The OBR projects a substantial fall in total pension scheme holdings of gilts as a share of GDP by the early 2070s.",
+        "sources": [
+          {
+            "url": "https://obr.uk/frs/fiscal-risks-and-sustainability-july-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "They propose broader reforms such as expanding auto-enrolment and increasing default contribution levels.",
+        "sources": [
+          {
+            "url": "https://www.ipe.com/news/ifs-review-highlights-structural-flaws-in-uk-pension-system/10131414.article",
+            "publisher": "ipe.com",
+            "title": "ipe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The IFS also provides an alternative methodology for valuing private pensions, suggesting that younger people may be wealthier than ONS statistics indicate, particularly due to their defined benefit pension entitlements.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEunM6_NfN5Zd11qQSHRYcjuQ9Lv5ffyD57ujUTmPwhkNyfRUWISxuT2jn8LTEUXQfLbt6XlAAfQMr5l_iGyab4a2YYbGmg5tH7YPynMSUn0HOGjfwvAGTB8qXZunyTpcdd3DgKvQdEYlpm5h2GXUGL4IGfDzgSRrgwyZPXRWh2iTo3-v2aDc0tUkoNTd8yQBDiCw2hj3OF5mM71e3wgbLCO2G00CUOYF2JKQ==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "ifs.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Resolution Foundation:** A 2023 report from the Resolution Foundation noted the limited engagement of UK pension schemes with UK businesses, estimating only 2% of DB and DC scheme assets were directly allocated to UK equities.",
+        "sources": [
+          {
+            "url": "https://www.pensionspolicyinstitute.org.uk/media/c00dra0k/20240909-ppi-pension-scheme-assets-main-report-final.pdf",
+            "publisher": "pensionspolicyinstitute.org.uk",
+            "title": "pensionspolicyinstitute.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "They have also commented on the broader sustainability of the state pension.",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwN6JmcU_RxHvWR9sxvnf2pM0jSVqMlaJECmmYESGQuZW22CaJ0FPSY1sK0ZT1dFxWMpCuXST5Q3dJ04Jvua9rZit8A0M4rk3BfJZU8uLwKW8Uz_tJr4XcgS3_Avux08CpD7b-pLTx44wpSW4Cxn7b6t9dfoWLCMC5IWdNkFcJ_tdAAqP69LzPKmPt_w==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "resolutionfoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/our-work/savings-and-debt/pensions/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.pensionsage.com/pa/Resolution-Foundation-proposes-smoothed-earnings-link-to-replace-unsustainable-triple-lock.php",
+            "publisher": "pensionsage.com",
+            "title": "pensionsage.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "While the government has proposed a \"reserve power\" to set binding asset allocation targets (Clause 38 of the Pension Schemes Bill),",
+        "sources": [
+          {
+            "url": "https://shareaction-api.files.svdcdn.com/production/resources/reports/Pension-Schemes-Bill-Report-Stage-ShareAction-Amendment-1.pdf?dm=1761834489",
+            "publisher": "shareaction-api.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10404/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "TheCityUK and some MPs express concerns that such mandates could violate trustees' fiduciary duties to their members, potentially leading to lower returns or artificial asset price bubbles.",
+        "sources": [
+          {
+            "url": "https://www.thecityuk.com/our-work/thecityuk-response-to-the-pensions-investment-review-call-for-evidence/",
+            "publisher": "thecityuk.com",
+            "title": "thecityuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://shareaction-api.files.svdcdn.com/production/resources/reports/Pension-Schemes-Bill-Report-Stage-ShareAction-Amendment-1.pdf?dm=1761834489",
+            "publisher": "shareaction-api.files.svdcdn.com",
+            "title": "svdcdn.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10404/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The \"Mansion House Accord\" emphasizes that investment in infrastructure must maximize returns for pensioners, acknowledging the primacy of fiduciary duty.",
+        "sources": [
+          {
+            "url": "https://www.osborneclarke.com/insights/uk-government-announces-mansion-house-accord-boost-private-market-investments",
+            "publisher": "osborneclarke.com",
+            "title": "osborneclarke.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Optimal DC Fund Size:** There is \"no consensus on the optimal size of a DC pension fund,\" indicating ongoing debate about the extent to which consolidation will yield benefits.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/publications/pension-fund-investment-and-the-uk-economy/pension-fund-investment-and-the-uk-economy",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "*   **Impact on Returns:** While the policy aims for improved returns, some experts maintain that a globally diversified portfolio generally offers better long-term risk-adjusted returns than a concentrated domestic focus.",
+        "sources": [
+          {
+            "url": "https://www.newfinancial.org/reports/comparing-the-asset-allocation-of-global-pension-systems",
+            "publisher": "newfinancial.org",
+            "title": "newfinancial.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "The argument for a higher \"home bias\" often includes a \"social contract\" perspective, given the generous tax relief provided on pensions.",
+        "sources": [
+          {
+            "url": "https://www.newfinancial.org/reports/comparing-the-asset-allocation-of-global-pension-systems",
+            "publisher": "newfinancial.org",
+            "title": "newfinancial.org",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

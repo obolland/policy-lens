@@ -1,0 +1,441 @@
+/* Policy Lens — prototype UI. Vanilla JS, reads window.POLICY_DATA. */
+(function () {
+  const D = window.POLICY_DATA;
+
+  // Party order carries no ranking. A fixed order (by seats, alphabetical, …) always hands someone
+  // the top row, and the top of a list draws disproportionate attention (the ballot-order effect).
+  // So we SHUFFLE the parties on EVERY load — the visible reshuffle is itself part of the message
+  // that position means nothing. The legend states this openly.
+  (function shuffleParties() {
+    const a = [...(D.parties || [])];
+    for (let i = a.length - 1; i > 0; i--) {  // Fisher–Yates
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    D.parties = a;
+  })();
+  const VERDICT = {
+    improves:        { icon: "↑", label: "Helps",                cls: "improves" },
+    worsens:         { icon: "↓", label: "Hurts",                cls: "worsens" },
+    mixed:           { icon: "↕", label: "Mixed",                cls: "mixed" },
+    negligible:      { icon: "–", label: "Little effect",        cls: "negligible" },
+    "too-uncertain": { icon: "⚖", label: "Genuinely contested",  cls: "uncertain" }
+  };
+  const CONF = { low: 1, moderate: 2, high: 3 };
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  let selected = new Set((D.default_selected && D.default_selected.length) ? D.default_selected : ["O1", "O3"]);
+  let lastFocused = null;
+
+  // Privacy-safe, cookieless event tracking. Sends only non-identifying labels
+  // (issue/party), never personal data. No-op until a backend is wired at deploy
+  // (GoatCounter by default — see index.html). Never throws into the UI.
+  function track(name, props) {
+    try {
+      const label = props ? name + ":" + Object.keys(props).sort().map(k => props[k]).join(":") : name;
+      if (window.goatcounter && typeof window.goatcounter.count === "function") {
+        window.goatcounter.count({ path: "evt/" + label, title: "event:" + name, event: true });
+      }
+      // else: no analytics backend configured (local/dev) — silently do nothing.
+    } catch (e) { /* analytics must never break the page */ }
+  }
+
+  // order used for the distribution bar + drawer list (positive → contested → negative)
+  const DIR_ORDER = ["improves", "mixed", "too-uncertain", "negligible", "worsens"];
+
+  // ALL policies a party has touching a fundamental (the cell may roll up several)
+  function lookupAll(party, outcomeId) {
+    const hits = [];
+    for (const r of D.records) {
+      if (r.party !== party) continue;
+      const oc = r.per_outcome.find(o => o.outcome === outcomeId);
+      if (oc) hits.push({ record: r, oc });
+    }
+    return hits;
+  }
+
+  // A FACTUAL summary of the spread — describes where the policies sit, makes NO net-effect
+  // claim. "4 of 6 lean positive" is a count (true); "Helps" would be an editorial judgment.
+  function spreadLead(hits) {
+    const n = hits.length;
+    let pos = 0, neg = 0;
+    for (const h of hits) {
+      if (h.oc.direction === "improves") pos++;
+      else if (h.oc.direction === "worsens") neg++;
+    }
+    if (pos > neg) return { icon: "↑", cls: "improves", text: pos + " of " + n + " lean positive" };
+    if (neg > pos) return { icon: "↓", cls: "worsens",  text: neg + " of " + n + " lean negative" };
+    if (pos > 0)   return { icon: "↕", cls: "mixed",     text: "Split — " + pos + " help, " + neg + " hurt" };
+    return { icon: "⚖", cls: "uncertain", text: "All " + n + " are mixed or contested" };
+  }
+
+  // multi-policy cell — a DISTRIBUTION with an honest factual lead, NOT a synthesized verdict
+  function distributionChip(hits) {
+    const counts = {};
+    for (const h of hits) counts[h.oc.direction] = (counts[h.oc.direction] || 0) + 1;
+    const present = DIR_ORDER.filter(d => counts[d]);
+    const n = hits.length;
+    const lead = spreadLead(hits);
+
+    let h = '<div class="dist">';
+    h += '<div class="dist-lead v-' + lead.cls + '"><span class="dl-icon" aria-hidden="true">' + lead.icon +
+         '</span><span class="dl-text">' + esc(lead.text) + '</span></div>';
+    h += '<div class="dist-bar" role="img" aria-label="spread of ' + n + ' policies">';
+    for (const d of present) h += '<span class="dist-seg ' + VERDICT[d].cls + '" style="flex:' + counts[d] + '"></span>';
+    h += '</div>';
+    const mix = present.map(d =>
+      '<span class="dist-tally v-' + VERDICT[d].cls + '">' + VERDICT[d].icon + counts[d] + '</span>').join("");
+    h += '<div class="dist-foot"><span class="dist-mix">' + mix + '</span>' +
+         '<span class="dist-hint">' + n + ' policies · tap →</span></div>';
+    if (hits.some(x => x.record.meta.source_balance.advocacy_flag))
+      h += '<div class="tags"><span class="tag advocacy">some lean on advocacy sources</span></div>';
+    return h + '</div>';
+  }
+
+  function confDots(conf) {
+    const n = CONF[conf] || 0;
+    let s = '<span class="conf" role="img" aria-label="confidence: ' + conf + '">';
+    for (let i = 0; i < 3; i++) s += '<span class="dot' + (i < n ? ' on' : '') + '"></span>';
+    return s + '</span>';
+  }
+
+  function verdictChip(oc, record) {
+    const v = VERDICT[oc.direction];
+    let h = '<div class="verdict v-' + v.cls + '">';
+    h += '<span class="v-icon" aria-hidden="true">' + v.icon + '</span>';
+    h += '<span class="v-label">' + esc(v.label) + '</span>';
+    h += confDots(oc.confidence) + '</div>';
+    h += '<div class="policy-sub">' + esc(record.policy_title) + '</div>';
+    const tags = [];
+    if (oc.direction === "too-uncertain") tags.push('<span class="tag contested">credible experts disagree</span>');
+    if (record.meta.source_balance.advocacy_flag) tags.push('<span class="tag advocacy">leans on advocacy sources</span>');
+    if (tags.length) h += '<div class="tags">' + tags.join("") + '</div>';
+    return h;
+  }
+
+  function renderPicker() {
+    document.getElementById("picker-chips").innerHTML = D.outcomes.map(o => {
+      const on = selected.has(o.id);
+      return '<button class="chip" type="button" aria-pressed="' + on + '" data-oc="' + o.id + '">' +
+        '<span class="o-name">' + esc(o.name) + '</span>' +
+        '<span class="o-plain">' + esc(o.plain) + '</span></button>';
+    }).join("");
+    document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+      const id = c.dataset.oc;
+      if (selected.has(id)) { if (selected.size > 1) selected.delete(id); }
+      else { selected.add(id); track("select-fundamental", { o: id }); }
+      renderPicker(); renderGrid();
+    }));
+  }
+
+  function renderGrid() {
+    const cols = D.outcomes.filter(o => selected.has(o.id));
+    let head = '<thead><tr><th scope="col"><span class="vh">Party</span></th>';
+    for (const o of cols) head += '<th scope="col">' + esc(o.name) + '<span class="col-plain">' + esc(o.plain) + '</span></th>';
+    head += '</tr></thead><tbody>';
+    let body = "";
+    for (const party of D.parties) {
+      body += '<tr><th scope="row" class="party">' + esc(party) + '</th>';
+      for (const o of cols) {
+        const hits = lookupAll(party, o.id);
+        const verdicts = hits.filter(h => h.oc.direction);   // real verdicts
+        const gaps = hits.filter(h => h.oc.gap);              // typed coverage gaps (honest, not blanks)
+        if (!hits.length) { body += '<td class="cell"><div class="cell-empty">no policy</div></td>'; continue; }
+        if (!verdicts.length) {  // gap-only cell — surfaced honestly
+          body += '<td class="cell"><button class="cell-btn gap" type="button" data-party="' + esc(party) + '" data-oc="' + o.id +
+            '"><div class="dist-lead gap-lead">⊘ ' + gaps.length + ' not yet assessed</div></button></td>';
+          continue;
+        }
+        const gnote = gaps.length ? '<div class="dist-gapnote">+' + gaps.length + ' not yet assessed</div>' : "";
+        if (verdicts.length === 1) {
+          const cls = VERDICT[verdicts[0].oc.direction].cls;
+          body += '<td class="cell"><button class="cell-btn ' + cls + '" type="button" data-party="' + esc(party) +
+            '" data-oc="' + o.id + '">' + verdictChip(verdicts[0].oc, verdicts[0].record) + gnote + '</button></td>';
+        } else {
+          body += '<td class="cell"><button class="cell-btn multi" type="button" data-party="' + esc(party) +
+            '" data-oc="' + o.id + '">' + distributionChip(verdicts) + gnote + '</button></td>';
+        }
+      }
+      body += '</tr>';
+    }
+    document.getElementById("grid").innerHTML = head + body + '</tbody>';
+    document.querySelectorAll(".cell-btn").forEach(b => b.addEventListener("click", () =>
+      openDrawer(b.dataset.party, b.dataset.oc, b)));
+  }
+
+  function tier(name, cls, text) {
+    return '<div class="tier ' + cls + '"><div class="swatch"></div><div>' +
+      '<span class="t-name">' + esc(name) + '</span>' + esc(text || "—") + '</div></div>';
+  }
+
+  function balanceNote(meta) {
+    const bt = meta.source_balance.by_type || {};
+    const badges = Object.entries(bt).map(([k, n]) => '<span class="badge"><b>' + n + '</b> ' + esc(k) + '</span>').join("");
+    const note = meta.source_balance.advocacy_flag
+      ? '<div class="prov-note advocacy">⚠ A verdict here leans on advocacy or commercial sources — weigh accordingly. They are labelled and never the sole basis for a verdict.</div>'
+      : '<div class="prov-note clean">Rests on government, institutional, and academic sources.</div>';
+    return '<div class="prov" title="overall source mix for this policy">' + badges + '</div>' + note;
+  }
+
+  // list individual sources (deduped) as links with a source_type badge
+  function sourceItems(list) {
+    const seen = new Set(), out = [];
+    for (const s of list || []) {
+      const k = (s.url || "") + "|" + (s.publisher || "");
+      if (seen.has(k)) continue;
+      seen.add(k); out.push(s);
+    }
+    if (!out.length) return '<p class="src-empty">No individual evidence sources on this verdict in the mock — real records carry the full list.</p>';
+    return '<ul class="src-list">' + out.map(s => {
+      const name = esc(s.publisher || "source");
+      const hasUrl = s.url && s.url !== "#";
+      const label = hasUrl ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + name + ' ↗</a>' : name;
+      const type = '<span class="src-type ' + esc(s.source_type) + '">' + esc(s.source_type) + '</span>';
+      const interest = s.interest ? '<span class="src-interest">— ' + esc(s.interest) + '</span>' : "";
+      return '<li>' + label + " " + type + " " + interest + '</li>';
+    }).join("") + '</ul>';
+  }
+
+  // policy-statement source(s) — normalise to an array so 1 or many both work
+  function policySources(src) {
+    const list = Array.isArray(src) ? src : (src ? [src] : []);
+    if (!list.length) return "";
+    const items = list.map(s => {
+      const name = esc(s.publisher || "source");
+      return (s.url && s.url !== "#") ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + name + ' ↗</a>' : name;
+    }).join(" · ");
+    return '<div class="stated-src">Stated in: ' + items + '</div>';
+  }
+
+  function lensBlock(record) {
+    const lenses = ["market", "equity", "fiscal", "delivery"];
+    let out = "";
+    for (const l of lenses) {
+      const s = record.steelman && record.steelman.by_lens && record.steelman.by_lens[l];
+      const r = record.redteam && record.redteam.by_lens && record.redteam.by_lens[l];
+      if (!s && !r) continue;
+      out += '<div class="lens"><span class="lname">' + l + '</span><br>';
+      if (s) out += '<span class="for">For:</span> ' + esc(s.argument) + '<br>';
+      if (r) out += '<span class="against">Against:</span> ' + esc(r.critique);
+      out += '</div>';
+    }
+    if (!out) out = '<div class="lens">(Full steel-man / red-team detail is produced by the pipeline; omitted in this mock record.)</div>';
+    return '<details class="dig"><summary>See the full argument — the case for &amp; against</summary>' + out + '</details>';
+  }
+
+  // full detail for ONE policy's verdict — used standalone (single-policy cell) and inside each
+  // collapsible of a multi-policy drawer. Each policy keeps its own analysis; nothing is collapsed.
+  // detail for ONE verdict — evidence-bound: every claim shows its receipt (the verbatim quote +
+  // source), and OUR READING (interpretation) sits clearly below the evidence.
+  function singleVerdictBody(record, oc) {
+    const v = VERDICT[oc.direction];
+    const CONF_WORD = {
+      low: "Our best read — there isn't a lot of hard evidence yet",
+      moderate: "We're reasonably confident in this",
+      high: "There's strong evidence for this"
+    };
+    const MAG = { minor: "Minor effect", moderate: "Moderate effect", major: "Major effect" };
+    const HORIZON = { immediate: "felt immediately", "this-parliament": "within this parliament", "long-term": "long-term effect" };
+    const TIER = { stated: "What they promise", measurable: "Where things stand now", projected: "Will it work? (contested forecast)" };
+
+    let b = '<div class="verdict-big v-' + v.cls + '"><span class="v-icon" aria-hidden="true">' + v.icon + '</span>' +
+      esc(v.label) + ' &nbsp;' + confDots(oc.confidence) + '</div>';
+    b += '<div class="conf-word">' + esc(CONF_WORD[oc.confidence] || "") + '</div>';
+
+    const vmeta = [];
+    if (oc.magnitude && oc.magnitude !== "n/a") vmeta.push(MAG[oc.magnitude] || oc.magnitude);
+    if (oc.time_horizon && oc.time_horizon !== "n/a") vmeta.push(HORIZON[oc.time_horizon] || oc.time_horizon);
+    if (vmeta.length) b += '<div class="vmeta">' + esc(vmeta.join(" · ")) + '</div>';
+
+    b += '<p class="plain-lead"><span class="plain-tag">In plain terms</span>' + esc(oc.plain || "") + '</p>';
+
+    if (oc.direction === "too-uncertain" && oc.uncertainty) {
+      b += '<div class="unknown"><b>Why the experts can’t agree</b>' + esc(oc.uncertainty.crux_parameter) +
+        '<br><br><b>How far the estimates vary</b>' + esc(oc.uncertainty.estimate_range) + '</div>';
+    } else if (oc.biggest_unknown) {
+      b += '<div class="unknown"><b>The big question</b>' + esc(oc.biggest_unknown) + '</div>';
+    }
+
+    // THE EVIDENCE — every claim with a tap-to-reveal receipt (verbatim quote + source). Grouped by tier.
+    b += '<div class="section-h">The evidence — every claim, with its source</div>';
+    const claims = oc.claims || [];
+    for (const t of ["stated", "measurable", "projected"]) {
+      const cl = claims.filter(c => c.tier === t);
+      if (!cl.length) continue;
+      b += '<div class="tier-h ' + t + '">' + TIER[t] + '</div>';
+      for (const c of cl) {
+        const pub = c.publisher ? esc(c.publisher) : "source";
+        const link = (c.url && c.url !== "#") ? ' <a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + pub + ' ↗</a>' : ' ' + pub;
+        const typ = c.source_type ? '<span class="src-type ' + esc(c.source_type) + '">' + esc(c.source_type) + '</span>' : "";
+        b += '<details class="claim"><summary><span class="claim-txt">' + esc(c.claim) + '</span>' +
+          '<span class="receipt-cue">show source ▾</span></summary>' +
+          '<div class="receipt"><span class="rq">“' + esc(c.quote) + '”</span><div class="rs">— ' + link + ' ' + typ + '</div></div>' +
+          '</details>';
+      }
+    }
+
+    // OUR READING — interpretation, clearly separated and BELOW the evidence
+    if (oc.rationale) {
+      b += '<div class="section-h reading-h">Our reading</div>' +
+        '<p class="our-reading">' + esc(oc.rationale) + '</p>';
+    }
+
+    b += balanceNote(record.meta);
+    b += '<div class="drawer-actions"><button class="btn primary" type="button" id="challenge">Report an error in this verdict</button></div>';
+
+    const rev = (record.meta.revisions || []).length;
+    b += '<div class="meta-line">Verifier: ' + (record.meta.verifier.passed ? "passed" : "blocked") +
+      (rev ? " after " + rev + " self-correction" + (rev > 1 ? "s" : "") : "") +
+      ' · generated ' + esc(record.meta.generated_at) + '</div>';
+    return b;
+  }
+
+  function wireChallenge() {
+    const ch = document.getElementById("challenge");
+    if (ch) ch.addEventListener("click", () =>
+      alert("Challenge flow (mock): you'd flag the specific claim + an optional source. It enters the public dispute log; an automated re-check runs on that one claim."));
+  }
+
+  function gapItems(gaps) {
+    if (!gaps.length) return "";
+    let h = '<div class="gap-list"><div class="tier-h">Not yet assessed</div>';
+    for (const { record, oc } of gaps)
+      h += '<div class="gap-item">⊘ ' + esc(record.policy_title) + ' — <span class="gap-why">' + esc(oc.gap_label || "not yet assessed") + '</span></div>';
+    return h + '</div>';
+  }
+
+  function openDrawer(party, outcomeId, trigger) {
+    const hits = lookupAll(party, outcomeId);
+    if (!hits.length) return;
+    lastFocused = trigger || document.activeElement;
+    const outcome = D.outcomes.find(o => o.id === outcomeId);
+    const verdicts = hits.filter(h => h.oc.direction);
+    const gaps = hits.filter(h => h.oc.gap);
+    const head = '<div class="eyebrow">' + esc(party) + ' · ' + esc(outcome.name) + '</div>';
+
+    if (!verdicts.length) {  // gap-only — explain honestly
+      document.getElementById("drawer-head-inner").innerHTML = head + '<h3 id="drawer-title">Not yet assessed</h3>';
+      document.getElementById("drawer-body").innerHTML =
+        '<p class="multi-intro">We found policies here but couldn’t yet verify them against checkable sources, so we’re not showing a verdict — that’s an honest gap, not a judgement.</p>' + gapItems(gaps);
+      track("open-cell", { p: party, o: outcomeId }); openPanel(); return;
+    }
+
+    if (verdicts.length === 1 && !gaps.length) {
+      const { record, oc } = verdicts[0];
+      document.getElementById("drawer-head-inner").innerHTML = head + '<h3 id="drawer-title">' + esc(record.policy_title) + '</h3>';
+      document.getElementById("drawer-body").innerHTML = singleVerdictBody(record, oc);  // includes its own report-error
+      wireChallenge();
+      track("open-cell", { p: party, o: outcomeId });
+      openPanel();
+      return;
+    }
+
+    // MULTI: lead with the spread of the verdicts, then list each policy individually (no collapse)
+    const counts = {};
+    for (const h of verdicts) counts[h.oc.direction] = (counts[h.oc.direction] || 0) + 1;
+    const present = DIR_ORDER.filter(d => counts[d]);
+    let bar = '<div class="dist-bar big">';
+    for (const d of present) bar += '<span class="dist-seg ' + VERDICT[d].cls + '" style="flex:' + counts[d] + '"></span>';
+    bar += '</div>';
+    const mix = present.map(d => '<span class="dist-tally v-' + VERDICT[d].cls + '">' +
+      VERDICT[d].icon + " " + counts[d] + " " + VERDICT[d].label.toLowerCase() + '</span>').join("");
+
+    document.getElementById("drawer-head-inner").innerHTML = head +
+      '<h3 id="drawer-title">' + verdicts.length + ' policies affect this</h3>';
+
+    let b = '<p class="multi-intro">We don’t roll these into one score — each policy is judged on its own and listed below, so you can see the full spread and decide what weighs most.</p>';
+    b += bar + '<div class="dist-mix wide">' + mix + '</div><div class="policy-list">';
+    const ordered = verdicts.slice().sort((a, c) => DIR_ORDER.indexOf(a.oc.direction) - DIR_ORDER.indexOf(c.oc.direction));
+    for (const { record, oc } of ordered) {
+      const v = VERDICT[oc.direction];
+      b += '<details class="policy-item"><summary>' +
+        '<span class="pi-icon v-' + v.cls + '" aria-hidden="true">' + v.icon + '</span>' +
+        '<span class="pi-title">' + esc(record.policy_title) + '</span>' +
+        '<span class="pi-verdict v-' + v.cls + '">' + esc(v.label) + '</span></summary>' +
+        '<div class="pi-body">' + singleVerdictBody(record, oc) + '</div></details>';
+    }
+    b += '</div>' + gapItems(gaps) +
+      '<div class="drawer-actions"><button class="btn primary" type="button" id="challenge">Report an error in these verdicts</button></div>';
+    document.getElementById("drawer-body").innerHTML = b;
+    wireChallenge();
+    track("open-cell", { p: party, o: outcomeId });
+    openPanel();
+  }
+
+  // open the side panel with whatever is already in its head/body
+  // (shared by cell detail + the issues explainer — overlays, never shifts the table)
+  function openPanel() {
+    document.getElementById("scrim").classList.add("open");
+    const drawer = document.getElementById("drawer");
+    drawer.classList.add("open");
+    drawer.setAttribute("aria-hidden", "false");
+    document.getElementById("drawer-close").focus();
+  }
+
+  function closeDrawer() {
+    document.getElementById("scrim").classList.remove("open");
+    const drawer = document.getElementById("drawer");
+    drawer.classList.remove("open");
+    drawer.setAttribute("aria-hidden", "true");
+    if (lastFocused && lastFocused.focus) lastFocused.focus();
+  }
+
+  // focus trap within the open drawer
+  function trapFocus(e) {
+    const drawer = document.getElementById("drawer");
+    if (e.key !== "Tab" || !drawer.classList.contains("open")) return;
+    const f = drawer.querySelectorAll('a[href], button, summary, [tabindex]:not([tabindex="-1"])');
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+
+  document.getElementById("scrim").addEventListener("click", closeDrawer);
+  document.getElementById("drawer-close").addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); trapFocus(e); });
+
+  function buildExplainerHtml() {
+    const lv = D.levers;
+    if (!lv) return "";
+    const nameOf = id => { const o = D.outcomes.find(x => x.id === id); return o ? o.name : id; };
+    let h = '<p class="ex-principle">' + esc(lv.principle) + '</p><ul class="lever-list">';
+    for (const item of lv.items) {
+      const feeds = (item.affects || []).map(id =>
+        '<button class="feed-chip" type="button" data-oc="' + id + '">' + esc(nameOf(id)) + '</button>').join("");
+      h += '<li><div class="lever-name">' + esc(item.name) + '</div>' +
+        '<div class="lever-why">' + esc(item.why) + '</div>' +
+        '<div class="feeds"><span class="feeds-label">Shows up in:</span> ' + feeds + '</div></li>';
+    }
+    h += '</ul>';
+    if (lv.lens_note) h += '<p class="ex-lens">' + esc(lv.lens_note) + '</p>';
+    return h;
+  }
+
+  // the "why these issues?" explainer opens in the SAME side panel as cell detail
+  // (overlays the page — never pushes the table down)
+  function openExplainer() {
+    if (!D.levers) return;
+    lastFocused = document.getElementById("explainer-btn");
+    document.getElementById("drawer-head-inner").innerHTML =
+      '<div class="eyebrow">About the issues</div>' +
+      '<h3 id="drawer-title">Why these issues — and where’s the economy, tax, or immigration?</h3>';
+    document.getElementById("drawer-body").innerHTML = buildExplainerHtml();
+    // "shows up in" chips: pick that fundamental, close the panel, scroll to the grid
+    document.querySelectorAll("#drawer-body .feed-chip").forEach(c => c.addEventListener("click", () => {
+      selected.add(c.dataset.oc);
+      track("select-fundamental", { o: c.dataset.oc });
+      renderPicker(); renderGrid();
+      closeDrawer();
+      document.querySelector(".gridcard").scrollIntoView({ behavior: "smooth", block: "center" });
+    }));
+    track("open-explainer");
+    openPanel();
+  }
+
+  const exBtn = document.getElementById("explainer-btn");
+  if (exBtn) exBtn.addEventListener("click", openExplainer);
+
+  renderPicker();
+  renderGrid();
+})();

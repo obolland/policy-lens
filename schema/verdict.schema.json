@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens single verdict — evidence-bound, party-blind (b-pragmatic)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["outcome", "direction", "magnitude", "time_horizon", "confidence", "plain", "biggest_unknown", "claims", "rationale"],
+  "properties": {
+    "outcome": { "type": "string", "description": "the fundamental id this verdict is for, e.g. O1" },
+    "direction": { "type": "string", "enum": ["improves", "worsens", "mixed", "negligible", "too-uncertain"] },
+    "magnitude": { "type": "string", "enum": ["minor", "moderate", "major", "n/a"], "description": "how big; MUST be 'n/a' iff direction is 'too-uncertain'" },
+    "time_horizon": { "type": "string", "enum": ["immediate", "this-parliament", "long-term", "n/a"], "description": "when felt; MUST be 'n/a' iff direction is 'too-uncertain'" },
+    "confidence": { "type": "string", "enum": ["low", "moderate", "high"] },
+    "plain": { "type": "string", "description": "1-2 sentence plain-English summary at ~age-12 reading level: the gist + the main caveat" },
+    "biggest_unknown": { "type": "string", "description": "one sentence — the main caveat / what would change the verdict" },
+    "claims": {
+      "type": "array",
+      "description": "the EVIDENCE-BOUND factual backbone. Every factual assertion the verdict rests on is one claim, each tied to a provided evidence unit and quoting a verbatim span from that unit's snippet. Assert NOTHING you cannot bind to an evidence quote.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tier", "claim", "evidence_id", "quote"],
+        "properties": {
+          "tier": { "type": "string", "enum": ["stated", "measurable", "projected"], "description": "stated = what the policy promises (cite evidence unit 'M', the manifesto); measurable = current sourced baseline; projected = contested forecast" },
+          "claim": { "type": "string", "description": "the factual statement, in plain words" },
+          "evidence_id": { "type": "string", "description": "the id of the provided evidence unit that backs this claim (e.g. 'M' for the policy's own text, or 'E3')" },
+          "quote": { "type": "string", "description": "a VERBATIM span copied from that evidence unit's snippet that supports the claim. Must appear word-for-word in the snippet." }
+        }
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["is_genuine", "crux_parameter", "estimate_range"],
+      "properties": {
+        "is_genuine": { "type": "boolean" },
+        "crux_parameter": { "type": "string" },
+        "estimate_range": { "type": "string" }
+      }
+    },
+    "rationale": { "type": "string", "description": "the reasoning that connects the claims to the direction/magnitude verdict, in plain English. Interpretation only — every FACT it uses must already be a claim above. Concise (~300 words)." },
+    "time_split": {
+      "type": "object",
+      "description": "OPTIONAL. Only for dual_horizon outcomes (O6, O12, O13) AND only when the near-term and long-term effects point MATERIALLY DIFFERENT ways (e.g. cost now, gain later). Omit entirely otherwise. The top-level `direction` remains the overall verdict; this just surfaces the divergence for display.",
+      "additionalProperties": false,
+      "required": ["near_direction", "long_direction", "note"],
+      "properties": {
+        "near_direction": { "type": "string", "enum": ["improves", "worsens", "mixed", "negligible"], "description": "the effect felt in the near term (this parliament)" },
+        "long_direction": { "type": "string", "enum": ["improves", "worsens", "mixed", "negligible"], "description": "the effect over the long term (~10yr+)" },
+        "note": { "type": "string", "description": "one line: why near and long diverge" }
+      }
+    }
+  }
+}

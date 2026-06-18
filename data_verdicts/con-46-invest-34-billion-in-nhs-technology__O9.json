@@ -1,0 +1,695 @@
+{
+  "policy_id": "con-46-invest-34-billion-in-nhs-technology",
+  "party": "Conservative",
+  "policy_title": "Invest \u00a33.4 Billion in NHS Technology and Productivity",
+  "outcome": "O9",
+  "verdict": {
+    "outcome": "O9",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "This NHS technology policy is primarily about productivity and service delivery, not about equal treatment or democratic rights. The only partial O9 angle \u2014 digital exclusion creating unequal access for minorities and disabled people \u2014 is real but falls mainly within healthcare access (O3), not anti-discrimination law or democratic rights.",
+    "biggest_unknown": "Whether the 'digital-first' NHS App approach hardens into a formal barrier that constitutes unlawful unequal treatment for protected groups, or remains a service-design equity issue scored under O3.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy makes the NHS App the single front door for services, which could concentrate access through a digital channel.",
+        "evidence_id": "M",
+        "quote": "making the NHS App the single front door for services"
+      },
+      {
+        "tier": "projected",
+        "claim": "Experts caution that a digital-first approach must not become digital-only to ensure equitable access.",
+        "evidence_id": "E6",
+        "quote": "a \"digital-first\" approach must not become \"digital-only\" to ensure equitable access"
+      }
+    ],
+    "rationale": "O9 covers equal treatment and anti-discrimination protections, voting and democratic rights, due process and the rule of law. This policy is an NHS technology investment with no direct bearing on any of those indicators. The only arguable O9 angle is that a 'single front door' digital channel could create de facto unequal access for protected groups \u2014 older adults, disabled people, minority ethnic communities \u2014 who face higher digital exclusion risk. That concern is evidenced (E5, E6). However, the policy does not remove any existing legal protection, does not alter anti-discrimination law, does not affect voting or democratic participation, and does not change due process. The digital access equity problem, while genuine, is primarily an O3 (healthcare access) and O14 (inequality) issue rather than an O9 (legal equal treatment / anti-discrimination status) one. No evidence unit links this policy to changes in formal anti-discrimination law, minority legal protections, rule of law, or democratic rights. The verdict is negligible \u2014 a minor digital-exclusion risk exists but it does not rise to a material change in legal equal treatment or democratic rights, and the magnitude floor for O9 is not met.",
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://medium.com/digital-society/the-nhs-app-cannot-be-a-digital-front-door-if-it-locks-people-out-5a7cea3e5cc4",
+        "publisher": "medium.com",
+        "title": "medium.com",
+        "source_type": "media"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0357,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is coherent and well-scoped. The direction 'negligible' with 'minor' magnitude is appropriate \u2014 the policy has no direct O9 effect and the digital-exclusion angle is correctly identified as primarily O3/O14. Both claims are supported by their cited evidence. The tier_integrity is sound: stated claim from M, projected caution from E6 (advocacy-adjacent media source, correctly not sole basis for verdict). The magnitude/time_horizon combination is valid for a non-'too-uncertain' direction. No lever leakage, no party-blind issues, no false balance. The rationale is policy-effect-focused throughout."
+    },
+    "gate": {
+      "kept": 2,
+      "dropped": [
+        {
+          "claim": "Credible analysts note the app can create barriers for older adults, people in deprived areas, minority ethnic communities, and disabled individuals who may lack digital skills, confidence, or access.",
+          "evidence_id": "E5",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will invest \u00a33.4 billion in new technology to transform the NHS, making the NHS App the single front door for services, using AI to free up staff time, replacing outdated computers, digitising processes with the Federated Data Platform, and funding technology for faster scan analysis.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "This investment is part of a broader \"NHS Productivity Plan\" and is intended to unlock \u00a335 billion in cumulative savings by the end of the decade, alongside an anticipated annual productivity increase of 1.9% from 2025-26.",
+        "sources": [
+          {
+            "url": "https://www.brownejacobson.com/insights/uk-election-2024-what-are-the-healthcare-promises-made-by-the-major-political-parties",
+            "publisher": "brownejacobson.com",
+            "title": "brownejacobson.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.uktech.news/news/government-and-policy/general-election-key-conservative-manifesto-tech-policies-20240612",
+            "publisher": "uktech.news",
+            "title": "uktech.news",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.techuk.org/resource/party-manifestos-what-do-they-mean-for-the-tech-sector.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/health-care-manifesto-pledges-election-2024",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "**NHS App as the Single Front Door for Services:**\n    *   **Intention:** To centralise access to NHS services, including medical information, booking appointments, ordering prescriptions, and managing hospital referrals",
+        "sources": [
+          {
+            "url": "https://www.brownejacobson.com/insights/uk-election-2024-what-are-the-healthcare-promises-made-by-the-major-political-parties",
+            "publisher": "brownejacobson.com",
+            "title": "brownejacobson.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.computerweekly.com/news/366588675/General-election-2024-Conservative-manifesto-promises-to-continue-tech-policies",
+            "publisher": "computerweekly.com",
+            "title": "computerweekly.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/health-care-manifesto-pledges-election-2024",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://database.inahta.org/article/34706",
+            "publisher": "database.inahta.org",
+            "title": "inahta.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.rsmuk.com/insights/health-matters/transforming-the-digital-front-door-nhs-case-study",
+            "publisher": "rsmuk.com",
+            "title": "rsmuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   **Likely Effects & Expert Views:** The NHS App has seen significant adoption, achieving over 75% download rates among adults in England by December 2023",
+        "sources": [
+          {
+            "url": "https://www.rsmuk.com/insights/health-matters/transforming-the-digital-front-door-nhs-case-study",
+            "publisher": "rsmuk.com",
+            "title": "rsmuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "It is perceived as a trusted brand by primary care providers",
+        "sources": [
+          {
+            "url": "https://www.rsmuk.com/insights/health-matters/transforming-the-digital-front-door-nhs-case-study",
+            "publisher": "rsmuk.com",
+            "title": "rsmuk.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "However, concerns exist regarding **digital exclusion**, with credible analysts noting that while beneficial for many, the app can create barriers for older adults, people in deprived areas, minority ethnic communities, and disabled individuals who may lack digital skills, confidence, or access",
+        "sources": [
+          {
+            "url": "https://www.transformuk.com/our-thinking/insights/mind-the-gap-overcoming-the-key-barriers-in-nhs-digital-transformation/",
+            "publisher": "transformuk.com",
+            "title": "transformuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.goodthingsfoundation.org/discover/digital-inclusion-insights/digital-inclusion-insights-2024/challenges-of-digital-transformation-healthcare",
+            "publisher": "goodthingsfoundation.org",
+            "title": "goodthingsfoundation.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://medium.com/digital-society/the-nhs-app-cannot-be-a-digital-front-door-if-it-locks-people-out-5a7cea3e5cc4",
+            "publisher": "medium.com",
+            "title": "medium.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://digital.nhs.uk/blog/design-matters/2025/co-creating-the-digital-front-door-to-the-nhs",
+            "publisher": "digital.nhs.uk",
+            "title": "digital.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "Experts caution that a \"digital-first\" approach must not become \"digital-only\" to ensure equitable access",
+        "sources": [
+          {
+            "url": "https://medium.com/digital-society/the-nhs-app-cannot-be-a-digital-front-door-if-it-locks-people-out-5a7cea3e5cc4",
+            "publisher": "medium.com",
+            "title": "medium.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "**Using AI to Free Up Staff Time:**\n    *   **Intention:** To automate administrative tasks and support clinical decision-making, thereby increasing efficiency and allowing staff to focus on direct patient care",
+        "sources": [
+          {
+            "url": "https://www.brownejacobson.com/insights/uk-election-2024-what-are-the-healthcare-promises-made-by-the-major-political-parties",
+            "publisher": "brownejacobson.com",
+            "title": "brownejacobson.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/health-care-manifesto-pledges-election-2024",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://mediacenter.ibm.com/media/AI+and+Productivity%3A+Unlocking+the+Potential+of+the+NHS+10-Year+Plan/1_2jx3wgxj",
+            "publisher": "mediacenter.ibm.com",
+            "title": "ibm.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "A pilot across 90 NHS organisations with 30,000 workers indicated potential savings of 43 minutes per staff member per day, equating to millions of hours annually and hundreds of millions of pounds in cost savings if fully rolled out to 100,000 users",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/major-nhs-ai-trial-delivers-unprecedented-time-and-cost-savings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/",
+            "publisher": "news.microsoft.com",
+            "title": "microsoft.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "This could free up around five weeks of time per person annually",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/major-nhs-ai-trial-delivers-unprecedented-time-and-cost-savings",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/",
+            "publisher": "news.microsoft.com",
+            "title": "microsoft.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "*   **Disagreements/Challenges:** A UCL study in September 2025 found that implementing AI in NHS hospitals is \"far harder than initially anticipated,\" encountering complications with governance, contracts, data collection, integration with outdated IT systems, and staff training",
+        "sources": [
+          {
+            "url": "https://healthcare-in-europe.com/en/news/holding-back-digital-transformation-nhs-healthcare.html",
+            "publisher": "healthcare-in-europe.com",
+            "title": "healthcare-in-europe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "The study also highlighted staff scepticism and high workloads as barriers, noting that a third of hospital trusts in a program were not yet using AI tools clinically 18 months after contracting was expected to be completed",
+        "sources": [
+          {
+            "url": "https://healthcare-in-europe.com/en/news/holding-back-digital-transformation-nhs-healthcare.html",
+            "publisher": "healthcare-in-europe.com",
+            "title": "healthcare-in-europe.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "**Replacing Outdated Computers:**\n    *   **Intention:** To modernise infrastructure and improve the efficiency and reliability of NHS IT systems",
+        "sources": [
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/health-care-manifesto-pledges-election-2024",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "*   **Likely Effects & Expert Views:** This addresses a long-standing issue of \"legacy systems\" that hinder digital transformation and interoperability within the NHS",
+        "sources": [
+          {
+            "url": "https://healthcare-in-europe.com/en/news/holding-back-digital-transformation-nhs-healthcare.html",
+            "publisher": "healthcare-in-europe.com",
+            "title": "healthcare-in-europe.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.transformuk.com/our-thinking/insights/mind-the-gap-overcoming-the-key-barriers-in-nhs-digital-transformation/",
+            "publisher": "transformuk.com",
+            "title": "transformuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmhealth/223/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "Modernising hardware is a foundational step for effective digital transformation, enabling other technologies like AI and the Federated Data Platform to function optimally",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/digitaltechnology/digitising-the-frontline/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, the Health Foundation's commissioned research estimates that significant capital investment (\u00a38 billion for the UK, \u00a35 billion for England) is needed over five years for digital infrastructure, which is a much larger figure than the Conservatives' \u00a33.4 billion pledge, suggesting a potential funding gap for comprehensive modernisation",
+        "sources": [
+          {
+            "url": "https://www.techmonitor.ai/digital-economy/government-computing/nhs-digitisation-21bn-five-years-health-foundation",
+            "publisher": "techmonitor.ai",
+            "title": "techmonitor.ai",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpnidacUpRwwDo4NLvrX4X23Ie5Cz78B3yHqoEWhdHyLGEqzrbFmEgHnyAaU48VaMfytXOLCYlnq4LthyuWR_uEeDBV9J3aMFOqRitXfCoZlzd10ltLr0Jr21ws1deu27HZhQi4C_5SBWwGSaqCW6PxFH3LCRJpctwuxKYZuzy9X2OTZvxoj8Yxr48qAdKJ2is18jhAl8US0BpeBfFQC0LrxSjgQnmjbdwFReW8Gg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/research-reveals-estimated-ps21bn-digitise-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.techuk.org/what-we-deliver/events/health-foundation-industry-briefing-on-the-nhs-and-social-care-digitisation-report.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "**Digitising Processes with the Federated Data Platform (FDP):**\n    *   **Intention:** To create a secure, connected, and \"federated\" ecosystem that unifies fragmented health and care data, enabling real-time insights for areas such as elective recovery, vaccination, and supply chain optimisation",
+        "sources": [
+          {
+            "url": "https://www.bcs.org/articles-opinion-and-research/how-the-nhs-new-federated-data-platform-will-enhance-clinician-and-patient-experiences/",
+            "publisher": "bcs.org",
+            "title": "bcs.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/health-care-manifesto-pledges-election-2024",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://digital.nhs.uk/services/federated-data-platform",
+            "publisher": "digital.nhs.uk",
+            "title": "digital.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Likely Effects & Expert Views:** The FDP is seen by some as a \"once-in-a-generation\" opportunity to integrate 50+ million patient records and potentially unlock \u00a315-25 billion per annum to UK taxpayers at full scale by improving NHS efficiency and patient care",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4STDmVpefXDY7FZ-s0QhAIx4-3PVYfZqyyTDaJQtTh-c8C3pv2JI0xXtVtKjhmWVtqT86MzJMyoPPyJkbPSZgd0YdTuhcfhqzvH6_R9Ct2juzZczGfv-ndeglnBEfoce_4F5X9ypm3FyFAdfXUO4e-bDO6gWwwvFHpZz77Fl2DrLS2C3N9pj0Sx4XqYyT2Qt8-0k1tUxbepT7nkjHnhqE3xMtrGZknHV45txn6ZXrWQ6CKLo=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "mckinsey.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "It aims to sit as an operational intelligence layer above existing Electronic Patient Records (EPRs)",
+        "sources": [
+          {
+            "url": "https://www.bcs.org/articles-opinion-and-research/how-the-nhs-new-federated-data-platform-will-enhance-clinician-and-patient-experiences/",
+            "publisher": "bcs.org",
+            "title": "bcs.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Disagreements/Challenges:** There is significant controversy surrounding the FDP, particularly its contract with the private company Palantir",
+        "sources": [
+          {
+            "url": "https://www.techpolicy.press/why-palantirs-uk-health-data-system-matters-beyond-surveillance-fears/",
+            "publisher": "techpolicy.press",
+            "title": "techpolicy.press",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.foxglove.org.uk/wp-content/uploads/2023/06/2023_06_05-FINAL-The-NHS-Federated-Data-Platform-and-Palantir.pdf",
+            "publisher": "foxglove.org.uk",
+            "title": "foxglove.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "Polling suggests nearly half of adults who haven't opted out are likely to do so if a private company runs the FDP, which could catastrophically impact data quality",
+        "sources": [
+          {
+            "url": "https://www.techpolicy.press/why-palantirs-uk-health-data-system-matters-beyond-surveillance-fears/",
+            "publisher": "techpolicy.press",
+            "title": "techpolicy.press",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.foxglove.org.uk/wp-content/uploads/2023/06/2023_06_05-FINAL-The-NHS-Federated-Data-Platform-and-Palantir.pdf",
+            "publisher": "foxglove.org.uk",
+            "title": "foxglove.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "Some experts argue that equally effective alternatives exist that build on in-house NHS expertise",
+        "sources": [
+          {
+            "url": "https://www.foxglove.org.uk/wp-content/uploads/2023/06/2023_06_05-FINAL-The-NHS-Federated-Data-Platform-and-Palantir.pdf",
+            "publisher": "foxglove.org.uk",
+            "title": "foxglove.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "**Funding Technology for Faster Scan Analysis:**\n    *   **Intention:** To improve the speed and accuracy of diagnostics, specifically for MRI and CT scans, through new technology",
+        "sources": [
+          {
+            "url": "https://www.uktech.news/news/government-and-policy/general-election-key-conservative-manifesto-tech-policies-20240612",
+            "publisher": "uktech.news",
+            "title": "uktech.news",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.kingsfund.org.uk/insight-and-analysis/long-reads/health-care-manifesto-pledges-election-2024",
+            "publisher": "kingsfund.org.uk",
+            "title": "kingsfund.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "AI and machine learning in diagnostics are identified as tools that can speed up analysis and improve accuracy",
+        "sources": [
+          {
+            "url": "https://thenhsalliance.org/resources/digital-transformation-and-the-productivity-and-efficiency-challenge/sources-of-productivity-from-technology-in-the-nhs",
+            "publisher": "thenhsalliance.org",
+            "title": "thenhsalliance.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "Need:** While the \u00a33.4 billion investment is significant, the Health Foundation's research estimates that the total cost of comprehensively digitising NHS England and adult social care could be \u00a314.75 billion over five years, including \u00a35 billion for capital infrastructure, \u00a32.25 billion for one-off revenue, and \u00a31.5 billion in recurring annual revenue",
+        "sources": [
+          {
+            "url": "https://www.techmonitor.ai/digital-economy/government-computing/nhs-digitisation-21bn-five-years-health-foundation",
+            "publisher": "techmonitor.ai",
+            "title": "techmonitor.ai",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpnidacUpRwwDo4NLvrX4X23Ie5Cz78B3yHqoEWhdHyLGEqzrbFmEgHnyAaU48VaMfytXOLCYlnq4LthyuWR_uEeDBV9J3aMFOqRitXfCoZlzd10ltLr0Jr21ws1deu27HZhQi4C_5SBWwGSaqCW6PxFH3LCRJpctwuxKYZuzy9X2OTZvxoj8Yxr48qAdKJ2is18jhAl8US0BpeBfFQC0LrxSjgQnmjbdwFReW8Gg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.nationalhealthexecutive.com/articles/research-reveals-estimated-ps21bn-digitise-care",
+            "publisher": "nationalhealthexecutive.com",
+            "title": "nationalhealthexecutive.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.techuk.org/what-we-deliver/events/health-foundation-industry-briefing-on-the-nhs-and-social-care-digitisation-report.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Productivity Targets:** The Conservative Party's aim for 1.9-2% annual productivity growth from technology and digital innovation is ambitious",
+        "sources": [
+          {
+            "url": "https://www.techuk.org/resource/party-manifestos-what-do-they-mean-for-the-tech-sector.html",
+            "publisher": "techuk.org",
+            "title": "techuk.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjB5gR1KBp14hk1lSstLkvAqikxpJnjmZJbIG5Fslugdfy344rH8njsYOtXNIe92SHHlC3fZscKhnDoO_-SX2Lmw-v20bLl5RlOf6nbNmAxeD8AoNajMKMKWqB4FSjW5kKVvIAKCO9AWws8hnROc1YYrQv8r0DdPOz5ePH1VT6KWLtX6MRr9JfFf-rwwZ94fBKfbFTZp1xbnImu0kmFQV2Vw==",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "digitalhealth.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Institute for Fiscal Studies (IFS) notes that historical NHS productivity growth has averaged only 0.6% per year",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYNZhHevTnvcTtFP8j0WVmUiHWSgF8j54505lR4_gYlIpQ40GUJ7k6MRN-XbPTSVRMPTSNCi0vJqlUqI1skRMXyhbKb47Dow25nj851Go19YpsmQ6grc7Yb7zfMrf9jO0uC_EJd0ANC7NImVRdIvLuwBW4Xo_PYfDc-xiXgkHGMRIismPibKXfkAya9KHMHCKUUti_KtuAiub8TjwnYgk89Hms8B3L",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "NHS England acknowledges that overall productivity is still below pre-COVID levels, although it indicates signs of recovery",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/nhs-productivity-december-2024/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The Health Foundation warns that the projected \u00a335 billion in long-term savings from digitisation are unlikely to provide immediate relief for current cost pressures and backlogs",
+        "sources": [
+          {
+            "url": "https://www.techmonitor.ai/digital-economy/government-computing/nhs-digitisation-21bn-five-years-health-foundation",
+            "publisher": "techmonitor.ai",
+            "title": "techmonitor.ai",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E29",
+        "snippet": "*   **Implementation Challenges and Workforce:** The House of Commons Library notes that Lord Darzi's 2024 independent investigation emphasized the need for technology investment but also highlighted insufficient capital investment in the past",
+        "sources": [
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2024-0121/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E30",
+        "snippet": "Experts agree that successful digital transformation requires not just technological solutions but also investment in staff training, addressing existing high workloads, overcoming scepticism, and ensuring interoperability between disparate systems",
+        "sources": [
+          {
+            "url": "https://healthcare-in-europe.com/en/news/holding-back-digital-transformation-nhs-healthcare.html",
+            "publisher": "healthcare-in-europe.com",
+            "title": "healthcare-in-europe.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.transformuk.com/our-thinking/insights/mind-the-gap-overcoming-the-key-barriers-in-nhs-digital-transformation/",
+            "publisher": "transformuk.com",
+            "title": "transformuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.techmonitor.ai/digital-economy/government-computing/nhs-digitisation-21bn-five-years-health-foundation",
+            "publisher": "techmonitor.ai",
+            "title": "techmonitor.ai",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.sbs.nhs.uk/news/digital-transformation-under-pressure-sustaining-momentum-amidst-nhs-reorganisation/",
+            "publisher": "sbs.nhs.uk",
+            "title": "sbs.nhs.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpnidacUpRwwDo4NLvrX4X23Ie5Cz78B3yHqoEWhdHyLGEqzrbFmEgHnyAaU48VaMfytXOLCYlnq4LthyuWR_uEeDBV9J3aMFOqRitXfCoZlzd10ltLr0Jr21ws1deu27HZhQi4C_5SBWwGSaqCW6PxFH3LCRJpctwuxKYZuzy9X2OTZvxoj8Yxr48qAdKJ2is18jhAl8US0BpeBfFQC0LrxSjgQnmjbdwFReW8Gg=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "health.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmhealth/223/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E31",
+        "snippet": "A \"digital postcode lottery\" currently exists, with varying levels of digital maturity across NHS trusts",
+        "sources": [
+          {
+            "url": "https://www.transformuk.com/our-thinking/insights/mind-the-gap-overcoming-the-key-barriers-in-nhs-digital-transformation/",
+            "publisher": "transformuk.com",
+            "title": "transformuk.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmhealth/223/report.html",
+            "publisher": "publications.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E32",
+        "snippet": "*   **ONS Data:** ONS data indicates a sharp drop in NHS productivity in 2020/21, followed by a rebound in 2021/22, with NHS England's internal analysis suggesting a narrowing of the productivity gap since then",
+        "sources": [
+          {
+            "url": "https://www.england.nhs.uk/long-read/nhs-productivity-december-2024/",
+            "publisher": "england.nhs.uk",
+            "title": "england.nhs.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E33",
+        "snippet": "The Office for Budget Responsibility (OBR) also considers how technology contributes to healthcare costs and productivity",
+        "sources": [
+          {
+            "url": "https://www.smf.co.uk/wp-content/uploads/2018/06/NHS-Innovation-and-Productivity-report-web.pdf",
+            "publisher": "smf.co.uk",
+            "title": "smf.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.hsj.co.uk/finance-and-efficiency/nhs-budget-hopes-boosted-by-changing-view-on-impact-of-health-investment/7040433.article",
+            "publisher": "hsj.co.uk",
+            "title": "hsj.co.uk",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

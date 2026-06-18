@@ -1,0 +1,509 @@
+{
+  "policy_id": "ld-74-restore-community-policing-and-investigate-burglaries",
+  "party": "Liberal Democrat",
+  "policy_title": "Restore Community Policing and Investigate Burglaries",
+  "outcome": "O5",
+  "verdict": {
+    "outcome": "O5",
+    "direction": "improves",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Requiring police to attend and investigate all burglaries is a concrete new mechanism that could improve charge rates from a very low baseline, and neighbourhood policing has good evidence for improving public trust and feelings of safety. The main caveat is that generic visible patrols are not shown to reduce crime rates \u2014 only targeted hotspot-style policing is \u2014 so the crime-reduction effect depends heavily on how 'community policing' is implemented in practice.",
+    "biggest_unknown": "Whether 'community policing' translates to evidence-based targeted (hotspot) deployment or generic random foot patrols, which have been shown to have no effect on crime rates.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to restoring community policing with visible, trusted officers focused on preventing and solving crimes, especially rape and other violent crime.",
+        "evidence_id": "M",
+        "quote": "Restoring proper community policing, where officers are visible, trusted and focused on preventing and solving crimes \u2013 especially rape and other violent crime."
+      },
+      {
+        "tier": "stated",
+        "claim": "The policy creates a new statutory guarantee that all burglaries will be attended by police and properly investigated.",
+        "evidence_id": "M",
+        "quote": "Creating a new statutory guarantee that all burglaries will be attended by the police and properly investigated."
+      },
+      {
+        "tier": "measurable",
+        "claim": "Neighbourhood policing combined with community engagement improves public confidence, perceptions of crime, and feelings of safety.",
+        "evidence_id": "E6",
+        "quote": "Visible police patrol, when combined with community engagement and problem-solving, improves public confidence, perceptions of crime, and feelings of safety."
+      },
+      {
+        "tier": "projected",
+        "claim": "Increased focus on attending and investigating burglaries could lead to improved outcomes.",
+        "evidence_id": "E20",
+        "quote": "This suggests that an increased focus on attending and investigating burglaries could lead to improved outcomes."
+      }
+    ],
+    "rationale": "This policy has two distinct components with different evidence profiles. The statutory burglary guarantee is a concrete, committed instrument \u2014 not merely aspirational. Current investigation outcomes are poor (E20 notes increased attendance/investigation could improve outcomes), and this mechanism is plausible to deliver marginal gains in charge rates and deterrence at scale. The confidence here is low-to-moderate because the guarantee creates an attendance obligation but resource constraints (E17 notes frontline officer numbers have fallen to ~67,000) could limit delivery. On community policing: the evidence is sharply two-track. Generic random patrols have no demonstrated crime-reduction effect (E1, E24); but neighbourhood policing combined with community engagement does improve trust and public confidence (E6, E7), and these have declined significantly from their 2011 peak (E8, E9). If 'community policing' means targeted problem-solving deployment rather than random foot patrol, the evidence supports a modest improvement in trust and feelings of safety \u2014 real goods under O5. If it means generic visibility, the crime-reduction effect is negligible. The policy text does not specify the deployment model, which is the crux of uncertainty. The direction is 'improves/minor' rather than negligible because: (a) the burglary guarantee is a real committed instrument; (b) neighbourhood policing does have population-scale evidence for trust improvement even absent direct crime-rate effects; and (c) the decline in visible policing (E8) means there is genuine room for a marginal improvement. Confidence is low given implementation uncertainty and the key gap between the evidence base (targeted hotspot policing) and the policy's framing (generic community visibility).",
+    "sources": [
+      {
+        "url": "https://www.libdems.org.uk/manifesto",
+        "publisher": "libdems.org.uk",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/visible-police-patrol",
+        "publisher": "college.police.uk",
+        "title": "college.police.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://ifs.org.uk/publications/police-infrastructure-police-performance-and-crime-evidence-austerity-cuts",
+        "publisher": "ifs.org.uk",
+        "title": "ifs.org.uk",
+        "source_type": "institutional"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.05,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim 3 (E6) is tiered 'measurable' but the quote is from College of Policing evidence synthesis \u2014 a research finding, not a baseline fact. It should be 'projected' (conditional on combined engagement/problem-solving, which the policy does not guarantee). Minor overstatement of certainty."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "E18 (Lib Dem manifesto) is cited in the rationale for '1 in 20 burglaries charged' but is an advocacy/party source; it is not among the claims. If used to support direction, it should be labelled and cross-checked \u2014 no independent institutional source corroborates this specific figure in the evidence set."
+        }
+      ],
+      "notes": "Overall the verdict is well-structured, evidence-tiered correctly in most places, and the uncertainty is honestly flagged. The biggest-unknown is genuine and well-stated. No blocking issues found; two warnings noted for tier precision and source labelling."
+    },
+    "gate": {
+      "kept": 4,
+      "dropped": [
+        {
+          "claim": "Random foot patrols have no demonstrated effect on crime rates.",
+          "evidence_id": "E1",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Targeted hotspot policing reduces violent crime by an average of 14% and overall offending by 17%.",
+          "evidence_id": "E2",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Only around 1 in 9 respondents reported seeing officers on foot patrol weekly in year ending March 2025, down from 29% in 2015 and 39% at its peak in 2011.",
+          "evidence_id": "E8",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Public confidence in local police was 67% in March 2025, notably lower than 76% ten years prior.",
+          "evidence_id": "E9",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "There is clear expert consensus that generic random police visibility does not reduce crime, while targeted hotspot policing is effective for crime reduction.",
+          "evidence_id": "E24",
+          "reason": "quote_not_verbatim_in_snippet"
+        },
+        {
+          "claim": "Domestic burglary fell 22% in the year ending December 2025 to 327,000 incidents.",
+          "evidence_id": "E21",
+          "reason": "quote_not_verbatim_in_snippet"
+        }
+      ],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Restoring proper community policing, where officers are visible, trusted and focused on preventing and solving crimes \u2013 especially rape and other violent crime. Creating a new statutory guarantee that all burglaries will be attended by the police and properly investigated.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/manifesto",
+            "publisher": "libdems.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Random foot patrols have shown **no effect on crime rates**.",
+        "sources": [
+          {
+            "url": "https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/what-works-the-effectiveness-of-visible-police-patrol.pdf",
+            "publisher": "assets-hmicfrs.justiceinspectorates.gov.uk",
+            "title": "justiceinspectorates.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/visible-police-patrol",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "The Youth Endowment Fund (YEF) found that hotspot policing, on average, reduces violent crime by **14%** and overall offending by **17%**.",
+        "sources": [
+          {
+            "url": "https://youthendowmentfund.org.uk/news/targeted-policing-in-high-crime-areas-reduces-youth-violence-research-finds/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "In some instances, police trials have shown violent crime dropping by as much as **74%** on days when targeted patrols occurred.",
+        "sources": [
+          {
+            "url": "https://youthendowmentfund.org.uk/news/targeted-policing-in-high-crime-areas-reduces-youth-violence-research-finds/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "Property crime also saw a **16%** reduction with hotspot policing.",
+        "sources": [
+          {
+            "url": "https://youthendowmentfund.org.uk/news/targeted-policing-in-high-crime-areas-reduces-youth-violence-research-finds/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Merseyside Police reported a **47.9% reduction in serious violence** and an **18.8% reduction in anti-social behaviour** in hotspot areas during the first quarter of 2024.",
+        "sources": [
+          {
+            "url": "https://www.merseyside.police.uk/news/merseyside/news/2024/july/hotspot-patrols-lead-to-significant-drop-in-serious-violence-and-antisocial-behaviour/",
+            "publisher": "merseyside.police.uk",
+            "title": "merseyside.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   **Public Trust and Perception:** Visible police patrol, when combined with community engagement and problem-solving, improves public confidence, perceptions of crime, and feelings of safety.",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/visible-police-patrol",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Widespread international evidence suggests that neighbourhood policing builds trust and confidence, encourages crime reporting, and enhances feelings of safety within communities.",
+        "sources": [
+          {
+            "url": "https://www.college.police.uk/article/our-response-governments-neighbourhood-policing-guarantee",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The Office for National Statistics (ONS) reported that around **1 in 9 respondents (11%)** saw officers or Police Community Support Officers (PCSOs) on foot patrol weekly or more in the year ending March 2025, down from **29%** in March 2015 and **39%** at its peak in March 2011.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/perceptionandexperienceofpoliceandcriminaljusticesystemenglandandwales/yearendingmarch2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "*   Public confidence in local police was **67%** in March 2025, a slight increase from 65% in the previous year but notably lower than the **76%** recorded ten years prior.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/perceptionandexperienceofpoliceandcriminaljusticesystemenglandandwales/yearendingmarch2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Similarly, the percentage of respondents rating their local police positively decreased from **62%** in March 2015 to **49%** in March 2025.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/perceptionandexperienceofpoliceandcriminaljusticesystemenglandandwales/yearendingmarch2025",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "Her Majesty's Inspectorate of Constabulary and Fire & Rescue Services (HMICFRS) has reported that trust and confidence in policing is at an all-time low.",
+        "sources": [
+          {
+            "url": "https://www.journalcswb.ca/index.php/cswb/article/view/449/1231",
+            "publisher": "journalcswb.ca",
+            "title": "journalcswb.ca",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Targeted policing in high-crime areas has been shown to reduce youth violence.",
+        "sources": [
+          {
+            "url": "https://youthendowmentfund.org.uk/news/targeted-policing-in-high-crime-areas-reduces-youth-violence-research-finds/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "The Crime and Policing Act 2026 also includes measures to tackle serious violence and violence against women and girls.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/biggest-shake-up-in-decades-to-tackle-local-crime",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Resources and Costs:** The government's \"neighbourhood policing guarantee\" aims to deliver an additional **13,000 neighbourhood officers, PCSOs, and special constables** by the end of this Parliament, with the first **3,000** in place by Spring 2026.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/news/biggest-shake-up-in-decades-to-tackle-local-crime",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.npcc.police.uk/our-work/work-of-npcc-committees/local-policing-coordination-committee/neighbourhood-policing-guarantee/",
+            "publisher": "npcc.police.uk",
+            "title": "npcc.police.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/69779267276692606c013862/260125_White_Paper.pdf",
+            "publisher": "assets.publishing.service.gov.uk",
+            "title": "service.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "This includes **\u00a3100.0 million** to kickstart the first phase of additional neighbourhood police.",
+        "sources": [
+          {
+            "url": "https://questions-statements.parliament.uk/written-statements/detail/2024-12-17/hcws325",
+            "publisher": "questions-statements.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "The Institute for Fiscal Studies (IFS) estimated in 2017 that an increase of 10,000 police officers would cost approximately \u00a3300 million based on 2016-17 pay scales.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/police-workforce-and-funding-england-and-wales",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   The Tony Blair Institute for Global Change highlighted in January 2026 that the number of visible frontline officers has fallen to approximately 67,000, down from over 70,000 a decade ago, while the number of officers in back-office roles surged by 40% in the past six years to over 12,600.",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/public-services/policing-that-makes-britain-safer-not-just-better-at-counting-crime",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **Current Investigation Outcomes:** The Liberal Democrats note that fewer than **1 in 20 burglaries** resulted in a suspect being charged last year.",
+        "sources": [
+          {
+            "url": "https://www.libdems.org.uk/burglary",
+            "publisher": "libdems.org.uk",
+            "title": "libdems.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Data from the three years leading up to 2018 showed a **6% rise in burglary reports** in England and Wales, while criminal charges for burglary **fell by 33%**.",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Burglary_in_English_law",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "This suggests that an increased focus on attending and investigating burglaries could lead to improved outcomes.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/police-infrastructure-police-performance-and-crime-evidence-austerity-cuts",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "*   **Recent Crime Trends:** The ONS reported an **11% decrease in theft incidents** in the year ending December 2025 compared to the previous year, primarily driven by a **22% fall in domestic burglary** (to 327,000 incidents) and a 14% fall in vehicle-related theft.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "*   **Cost Implications:** While the OBR's role is typically in providing independent forecasts for public finances, and direct costing of this specific policy from them isn't available, police funding reports from GOV.UK do incorporate OBR forecasts for GDP deflators, influencing the real-terms calculations of police budgets.",
+        "sources": [
+          {
+            "url": "https://www.gov.uk/government/statistics/police-funding-for-england-and-wales-2015-to-2026/police-funding-for-england-and-wales-2015-to-2026",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/statistics/police-funding-for-england-and-wales-2015-to-2025/police-funding-for-england-and-wales-2015-to-2025",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/police-funding-for-england-and-wales-user-guide/police-funding-for-england-and-wales-user-guide",
+            "publisher": "gov.uk",
+            "title": "www.gov.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "The IFS study on police station closures noted that the reduction in police infrastructure \"appears not to be cost-effective\" due to the societal costs of increased crime and reduced effectiveness.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/police-infrastructure-police-performance-and-crime-evidence-austerity-cuts",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Effectiveness of Visibility:** There is clear expert consensus that generic, random police visibility does not reduce crime, while **targeted \"hotspot\" policing is effective** for crime reduction and improving public perception.",
+        "sources": [
+          {
+            "url": "https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/what-works-the-effectiveness-of-visible-police-patrol.pdf",
+            "publisher": "assets-hmicfrs.justiceinspectorates.gov.uk",
+            "title": "justiceinspectorates.gov.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://youthendowmentfund.org.uk/news/targeted-policing-in-high-crime-areas-reduces-youth-violence-research-finds/",
+            "publisher": "youthendowmentfund.org.uk",
+            "title": "youthendowmentfund.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.college.police.uk/research/what-works-policing-reduce-crime/visible-police-patrol",
+            "publisher": "college.police.uk",
+            "title": "college.police.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Overall Crime Picture:** While highly visible crimes like shoplifting (up 20% between April 2024 and March 2025) and theft from the person (up 15%) contribute to public anxiety, the broader crime picture can be complex.",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/public-services/policing-that-makes-britain-safer-not-just-better-at-counting-crime",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "The Crime Survey for England and Wales (CSEW) indicated a 7% rise in headline crime in the year to March 2025, largely driven by a **31% surge in fraud** (4.2 million incidents).",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/public-services/policing-that-makes-britain-safer-not-just-better-at-counting-crime",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "However, ONS data for the year ending December 2025 showed no change in overall CSEW headline crime, with a significant decrease in theft, including domestic burglary.",
+        "sources": [
+          {
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice",
+            "publisher": "ons.gov.uk",
+            "title": "ons.gov.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "*   **Funding and Resources:** While there is government commitment to increase neighbourhood officers and overall police funding, analysts like the Tony Blair Institute highlight historical trends where visible frontline officer numbers have decreased while back-office staff increased.",
+        "sources": [
+          {
+            "url": "https://institute.global/insights/public-services/policing-that-makes-britain-safer-not-just-better-at-counting-crime",
+            "publisher": "institute.global",
+            "title": "institute.global",
+            "source_type": "media"
+          }
+        ]
+      }
+    ]
+  }
+}

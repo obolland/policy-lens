@@ -1,0 +1,82 @@
+{
+  "policy_id": "lab-37-halve-knife-crime-and-establish-young",
+  "party": "Labour",
+  "policy_title": "Halve Knife Crime and Establish Young Futures Hubs",
+  "outcome": "O7",
+  "verdict": {
+    "outcome": "O7",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "long-term",
+    "confidence": "low",
+    "plain": "The Young Futures hubs promise youth workers, mental health support, and careers advice \u2014 including in Pupil Referral Units \u2014 which could help at-risk young people. But with no funding figures, staffing targets, or evidence of effect at scale, this cannot be assessed as materially improving educational attainment or opportunity across the population.",
+    "biggest_unknown": "Whether the Young Futures hubs will be funded and staffed at a scale large enough to move the needle on the attainment gap or opportunity for disadvantaged young people.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "Young Futures hubs will provide youth workers, mental health support, and careers advice across communities",
+        "evidence_id": "M",
+        "quote": "A new Young Futures programme with hubs across communities will provide youth workers, mental health support, and careers advice"
+      },
+      {
+        "tier": "stated",
+        "claim": "Youth workers will be placed in A&E units and Pupil Referral Units",
+        "evidence_id": "M",
+        "quote": "youth workers in A&E units and Pupil Referral Units"
+      },
+      {
+        "tier": "stated",
+        "claim": "A new offence of criminal exploitation of children will target gangs",
+        "evidence_id": "M",
+        "quote": "A new offence of criminal exploitation of children will target gangs"
+      }
+    ],
+    "rationale": "The policy's main relevance to O7 is the Young Futures programme: community hubs offering careers advice and mental health support, and youth workers placed in Pupil Referral Units. PRUs serve some of the most educationally disadvantaged young people, so presence there could support re-engagement with learning. Careers advice could improve post-16 outcomes for at-risk youth. These are real mechanisms pointing in the right direction, justifying a direction of 'negligible' rather than 'worsens', with a minor positive signal. However, the policy text contains no committed budget, no staffing targets, no quantified coverage, and no statutory duty. The evidence units provided include no research on the effectiveness of similar hub models at scale in improving educational attainment or closing the opportunity gap. Without that, the mechanism is plausible but unproven at population scale. The knife-crime and gang-exploitation elements are primarily a safety lever (O5); the education-relevant strand is the Young Futures programme alone. Because there is no evidence the mechanism fires at population scale, the effect on O7 indicators is at best minor and highly uncertain. The time horizon is long-term given the decade-long ambition stated in the policy.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0645,
+    "revisions": [
+      {
+        "attempt": 1,
+        "addressed": 1,
+        "passed_after": false
+      },
+      {
+        "attempt": 2,
+        "addressed": 1,
+        "passed_after": true
+      }
+    ],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "Verdict is well-scoped. Claims are confined to stated-tier and accurately entail their quotes. Direction 'negligible' with magnitude 'minor' is appropriately cautious given absence of funding, staffing, or scale evidence. Lever_leakage risk (knife crime as safety lever) is explicitly acknowledged and handled. No party-blind or false-balance issues. The third claim (criminal exploitation offence) is included in claims but correctly not used to inflate the O7 score \u2014 no issue. Minor observation: 'negligible' direction paired with 'minor' magnitude is slightly inconsistent in framing but not a schema violation. Overall the verdict is publishable."
+    },
+    "gate": {
+      "kept": 3,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour aims to halve knife crime in a decade by ensuring knife carrying triggers rapid intervention and tough consequences, including mandatory prevention plans, curfews, tagging, or custody for young offenders. They will ban ninja swords, zombie-style blades, and machetes, and strengthen rules to prevent online sales with personal accountability for executives. A new Young Futures programme with hubs across communities will provide youth workers, mental health support, and careers advice, alongside youth workers in A&E units and Pupil Referral Units. A new offence of criminal exploitation of children will target gangs.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      }
+    ]
+  }
+}

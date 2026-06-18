@@ -1,0 +1,161 @@
+{
+  "policy_id": "lab-05-reduce-household-costs-and-support-families",
+  "party": "Labour",
+  "policy_title": "Reduce Household Costs and Support Families",
+  "outcome": "O11",
+  "verdict": {
+    "outcome": "O11",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "The policy promises not to raise Income Tax, National Insurance, or VAT, which protects current take-home pay from getting worse \u2014 but it does not cut any of these taxes or increase what households actually keep. It is a floor, not a lift.",
+    "biggest_unknown": "Whether fiscal pressures would have forced tax rises anyway \u2014 if so, the pledge has real value; if not, it changes nothing about take-home pay.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to no increases in National Insurance, Income Tax (basic, higher, or additional rates), or VAT.",
+        "evidence_id": "M",
+        "quote": "commit to no increases in National Insurance, Income Tax (basic, higher, or additional rates), or VAT"
+      }
+    ],
+    "rationale": "O11 asks how much of what people earn they get to keep \u2014 measured by changes in household tax burden, marginal and average rates, and take-home pay. The only directly O11-relevant element of this policy is the pledge to freeze NI, Income Tax, and VAT at current rates. This is a commitment to maintain the status quo on the three largest household tax instruments, not to cut them. It does not improve take-home pay; it prevents a specified category of worsening. In the absence of evidence that a tax rise in these instruments was otherwise imminent and certain, the marginal effect on take-home pay is zero. The other measures in the policy \u2014 energy cost reduction, food price action, childcare, breakfast clubs \u2014 are cost-of-living interventions that belong under O2 rather than O11; they do not alter the tax burden or take-home pay in the O11 sense. Because no cited evidence shows current rates are scheduled to rise in the absence of this pledge, and no tax cut is promised, the direction is negligible. The magnitude is set to minor rather than n/a because the freeze pledge does have a real (if conditional) floor-setting function \u2014 but it does not clear the threshold for 'improves' under the rubric, which requires a delivered mechanism that moves take-home pay upward, not merely a promise to hold it steady.",
+    "sources": [
+      {
+        "url": "https://labour.org.uk/plan-for-change/",
+        "publisher": "labour.org.uk",
+        "source_type": "manifesto"
+      }
+    ]
+  },
+  "meta": {
+    "cost_equiv_usd": 0.0231,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is well-constructed. The single stated-tier claim is directly entailed by the quoted policy text. Direction 'negligible' with magnitude 'minor' and time_horizon 'this-parliament' is internally consistent \u2014 the rubric hard-rule only requires n/a for 'too-uncertain', which this is not. The rationale correctly separates cost-of-living levers (energy, food, childcare) from the O11 tax burden question and does not attribute motive or party identity. No advocacy-only sourcing drives any verdict. The 'minor' magnitude for a floor-setting pledge is a borderline judgment but is adequately justified by the conditional floor-setting argument. No blocking or warning issues identified."
+    },
+    "gate": {
+      "kept": 1,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": false
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Labour will take action to support families by tackling the underlying causes of the cost-of-living crisis: reducing energy costs, lowering food prices by removing trade barriers, making housing more affordable, expanding childcare access, and ensuring work pays. They will introduce free breakfast clubs in every primary school, keep mortgage rates low via an independent Bank of England, and commit to no increases in National Insurance, Income Tax (basic, higher, or additional rates), or VAT.",
+        "sources": [
+          {
+            "url": "https://labour.org.uk/plan-for-change/",
+            "publisher": "labour.org.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "Labour's \"Green Prosperity Plan\" seeks to establish a cheaper, zero-carbon electricity system by 2030, with the party estimating this could save UK households \u00a393 billion over the rest of the decade, primarily by transitioning to cheaper renewable energy sources over gas.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/publications/welfare-effects-price-shocks-and-household-relief-packages-evidence-energy-crisis-0",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "For example, a Labour proposal from August 2022 to cap prices at \u00a31,971 for winter would have cost \u00a336 billion, with the richest fifth of households gaining 22% of the benefits.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2022/08/A-chilling-crisis.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "This move could reduce energy spending by approximately \u00a350 per household from January 2026, incurring an estimated cost to the Treasury of around \u00a31.3 billion annually.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/10/Splitting-the-bill.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "The OBR also acknowledges that government policy measures, such as the fuel duty freeze extension, influence household energy bills and inflation.",
+        "sources": [
+          {
+            "url": "https://obr.uk/efo/economic-and-fiscal-outlook-november-2025/",
+            "publisher": "obr.uk",
+            "title": "obr.uk",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "Research from the London School of Economics (LSE) found that Brexit-related trade barriers cost UK households an estimated \u00a37 billion between December 2019 and March 2023, increasing food prices by an average of \u00a3250 per household.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/may/24/brexit-food-trade-barriers-have-cost-uk-households-7bn-report-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "The LSE analysis suggests that without these post-Brexit restrictions, the 25% increase in food prices over that period would have been approximately 17% (8 percentage points lower).",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/may/24/brexit-food-trade-barriers-have-cost-uk-households-7bn-report-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "The International Monetary Fund (IMF) has also urged the UK government to reduce non-tariff barriers to trade to help lower inflation.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/politics/2023/may/24/brexit-food-trade-barriers-have-cost-uk-households-7bn-report-finds",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "The IFS highlighted in 2017 that changes in tariffs and exchange rates have a significant impact on food prices, especially given that 70% of the UK's gross food imports come from the EU.",
+        "sources": [
+          {
+            "url": "https://ifs.org.uk/articles/how-might-brexit-affect-food-prices",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://ifs.org.uk/sites/default/files/output_url_files/BN213.pdf",
+            "publisher": "ifs.org.uk",
+            "title": "ifs.org.uk",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

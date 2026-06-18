@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PolicyLens verifier stage output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["passed", "blocking_issues", "notes"],
+  "properties": {
+    "passed": { "type": "boolean", "description": "false if ANY blocking issue is found" },
+    "blocking_issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["check", "severity", "stage", "detail"],
+        "properties": {
+          "check":    { "type": "string", "enum": ["source_support", "tier_integrity", "lever_leakage", "false_balance", "uncertainty_integrity", "provenance_rules", "magnitude_timing"] },
+          "severity": { "type": "string", "enum": ["blocking", "warning"] },
+          "stage":    { "type": "string", "enum": ["steelman", "redteam", "synthesis"], "description": "which stage's output must change to fix this issue; default to synthesis if it lives in the published analysis" },
+          "detail":   { "type": "string" }
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}
