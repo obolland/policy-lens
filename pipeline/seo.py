@@ -26,8 +26,9 @@ def _esc(s):
     return html.escape(str(s or ""))
 
 
-def _page(title, description, canonical, body, jsonld=""):
+def _page(title, description, canonical, body, jsonld="", og_image="/og/default.png"):
     """Shared shell for a pre-rendered page. styles.css + goatcounter sit one level up (/topic/)."""
+    img = BASE_URL + og_image
     return f"""<!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -41,7 +42,11 @@ def _page(title, description, canonical, body, jsonld=""):
 <meta property="og:title" content="{_esc(title)}">
 <meta property="og:description" content="{_esc(description)}">
 <meta property="og:url" content="{canonical}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{img}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{img}">
 <link rel="stylesheet" href="../styles.css">
 <style>.doc{{max-width:760px;margin:0 auto;padding:8px 22px 60px}}.doc h2{{font-size:21px;margin:28px 0 6px}}
 .doc p,.doc li{{font-size:15.5px;color:var(--ink-soft);line-height:1.6}}.doc .lead{{font-size:17px;color:var(--ink)}}
@@ -223,7 +228,8 @@ def build_seo(records, outcomes, directional_measures, parties, out_root):
         jsonld = ('{"@context":"https://schema.org","@type":"Article","headline":' +
                   _json_str(title) + ',"description":' + _json_str(desc) +
                   ',"isPartOf":{"@type":"WebSite","name":"Policy Lens","url":"' + BASE_URL + '/"}}')
-        (topic_dir / f"{slug}.html").write_text(_page(title, desc, canonical, "\n".join(body_parts), jsonld))
+        (topic_dir / f"{slug}.html").write_text(
+            _page(title, desc, canonical, "\n".join(body_parts), jsonld, og_image=f"/og/topic/{slug}.png"))
         urls.append(canonical)
 
     # per-policy pages (the long-tail). Article markup, NOT ClaimReview: our verdicts judge a policy's
