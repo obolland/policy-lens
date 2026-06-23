@@ -143,8 +143,8 @@ def main(publish=False):
         from seo import build_seo
         scored = [o for o in outcomes if o.get("type") != "directional"]
         directional = [o for o in outcomes if o.get("type") == "directional"]
-        n = build_seo(records, scored, directional, parties, ROOT / "web")
-        print(f"SEO: wrote {n} topic pages + sitemap.xml + robots.txt", flush=True)
+        nt, npg = build_seo(records, scored, directional, parties, ROOT / "web")
+        print(f"SEO: wrote {nt} topic + {npg} policy pages + sitemap.xml + robots.txt", flush=True)
 
     # ── PERF SPLIT: the grid only needs per-cell summary (direction/magnitude/confidence). The heavy
     #    detail (claims, quotes, rationale, sources) goes to web/detail/<pid>.json, fetched lazily when
