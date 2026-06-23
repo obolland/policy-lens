@@ -1,7 +1,7 @@
-# Policy Lens
+# Show the Working
 
 A free, open, transparent resource that analyses UK political parties' policies through the lens of
-the outcomes people actually care about. Live at **<https://policylens.uk>**.
+the outcomes people actually care about. Live at **<https://showtheworking.uk>**.
 
 **Trust comes from transparency, not a neutrality badge.** Every verdict is produced *party-blind*,
 every factual claim quotes the source line behind it, and the whole pipeline + prompts are public so
@@ -104,5 +104,5 @@ automate, but `git push` (the public publish) always gets a manual review first.
 
 Every verdict on the site opens to its evidence and sources and carries a "report an error" button
 (it files a public GitHub issue). See the site's
-[How it works](https://policylens.uk/how-it-works.html) page for the method in full and an honest
+[How it works](https://showtheworking.uk/how-it-works.html) page for the method in full and an honest
 account of the limits.

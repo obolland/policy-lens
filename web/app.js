@@ -1,4 +1,4 @@
-/* Policy Lens — prototype UI. Vanilla JS, reads window.POLICY_DATA. */
+/* Show the Working — prototype UI. Vanilla JS, reads window.POLICY_DATA. */
 (function () {
   const D = window.POLICY_DATA;
 
@@ -515,7 +515,7 @@
           "**What looks wrong** (ideally name the specific claim, and a source that shows the correction):",
           "",
           "",
-          "_Reported via the Policy Lens “report an error” button._",
+          "_Reported via the Show the Working “report an error” button._",
         ].filter(x => x !== null).join("\n");
         const url = "https://github.com/" + ISSUE_REPO + "/issues/new?labels=verdict-error&title=" +
           encodeURIComponent(title) + "&body=" + encodeURIComponent(body);

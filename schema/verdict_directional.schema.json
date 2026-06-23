@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "PolicyLens directional-measure verdict (e.g. immigration) — reports DIRECTION of change, NO good/bad valence",
+  "title": "Show the Working directional-measure verdict (e.g. immigration) — reports DIRECTION of change, NO good/bad valence",
   "type": "object",
   "additionalProperties": false,
   "required": ["measure", "shift", "magnitude", "confidence", "plain", "biggest_unknown", "claims", "rationale"],

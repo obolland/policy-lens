@@ -172,7 +172,7 @@ def main(publish=False):
 
     payload = {
         "generated_at": datetime.date.today().isoformat(),
-        "disclaimer": "Source-checked analysis from the Policy Lens pipeline (Stage-B verdicts). Every verdict is challengeable — check its sources.",
+        "disclaimer": "Source-checked analysis from the Show the Working pipeline (Stage-B verdicts). Every verdict is challengeable — check its sources.",
         "outcomes": outcomes, "levers": levers, "parties": parties, "records": records,
         "default_selected": default_selected,
         "picker_groups": outcomes_cfg.get("picker_groups", []),
