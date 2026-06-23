@@ -134,6 +134,26 @@ def main(publish=False):
         rec["meta"]["verifier"] = {"passed": rec.pop("_passed", True)}
         records.append(rec)
 
+    # ── PERF SPLIT: the grid only needs per-cell summary (direction/magnitude/confidence). The heavy
+    #    detail (claims, quotes, rationale, sources) goes to web/detail/<pid>.json, fetched lazily when
+    #    a drawer opens. Cuts first load from ~16MB to a few hundred KB. ──
+    detail_dir = ROOT / "web" / "detail"
+    detail_dir.mkdir(parents=True, exist_ok=True)
+    for f in detail_dir.glob("*.json"):
+        f.unlink()
+    SUMMARY_KEYS = ("type", "direction", "shift", "magnitude", "confidence", "gap", "gap_label")
+    for rec in records:
+        # write full detail FIRST, before slimming rec in place
+        (detail_dir / f"{rec['policy_id']}.json").write_text(json.dumps({
+            "policy_id": rec["policy_id"],
+            "per_outcome": rec["per_outcome"],
+            "meta": {"verifier": rec["meta"].get("verifier"), "revisions": rec["meta"].get("revisions", [])},
+        }))
+        rec["per_outcome"] = [dict({"outcome": oc["outcome"]}, **{k: oc[k] for k in SUMMARY_KEYS if k in oc})
+                              for oc in rec["per_outcome"]]
+        rec["meta"] = {"source_balance": rec["meta"].get("source_balance", {})}  # cell needs only the advocacy flag
+        rec.pop("source", None)  # manifesto source isn't used by cells; lives in the claims' detail
+
     present = {r["party"] for r in records}
     parties = [p for p in PARTY_ORDER if p in present] + sorted(p for p in present if p not in PARTY_ORDER)
     present_outcomes = sorted({oc["outcome"] for r in records for oc in r["per_outcome"]})

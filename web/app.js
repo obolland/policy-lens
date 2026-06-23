@@ -526,21 +526,49 @@
     return h + '</div>';
   }
 
-  function openDrawer(party, outcomeId, trigger) {
-    const hits = lookupAll(party, outcomeId);
+  // lazy-load per-policy detail (claims/quotes/rationale/sources) on drawer-open; cache + merge into
+  // the record so the existing render functions find oc.claims etc. Keeps the initial data.js tiny.
+  const detailCache = {};
+  function loadDetail(pids) {
+    return Promise.all(pids.map(function (pid) {
+      if (detailCache[pid]) return detailCache[pid];
+      const p = fetch("detail/" + encodeURIComponent(pid) + ".json")
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          if (d) {
+            const rec = D.records.find(function (x) { return x.policy_id === pid; });
+            if (rec) { rec.per_outcome = d.per_outcome; if (d.meta) Object.assign(rec.meta, d.meta); }
+          }
+          return d;
+        })
+        .catch(function () { return null; });
+      detailCache[pid] = p;
+      return p;
+    }));
+  }
+
+  async function openDrawer(party, outcomeId, trigger) {
+    let hits = lookupAll(party, outcomeId);
     if (!hits.length) return;
     lastFocused = trigger || document.activeElement;
     lastOpened = { party: party, outcome: outcomeId };
     const outcome = D.outcomes.find(o => o.id === outcomeId);
     const head = '<div class="eyebrow">' + esc(party) + ' · ' + esc(outcome.name) + '</div>';
 
+    // open with a loading state, fetch this cell's policy detail, then render
+    document.getElementById("drawer-head-inner").innerHTML = head + '<h3 id="drawer-title">' + esc(outcome.name) + '</h3>';
+    document.getElementById("drawer-body").innerHTML = '<p class="multi-intro">Loading the evidence…</p>';
+    track("open-cell", { p: party, o: outcomeId });
+    openPanel();
+    await loadDetail([...new Set(hits.map(h => h.record.policy_id))]);
+    hits = lookupAll(party, outcomeId);  // records now carry full detail
+
     if (outcome.type === "directional") {  // immigration etc. — neutral axis drawer
       const reads = hits.filter(h => h.oc.shift);
-      if (!reads.length) return;
-      document.getElementById("drawer-head-inner").innerHTML = head + '<h3 id="drawer-title">' + esc(outcome.name) + '</h3>';
+      if (!reads.length) { closeDrawer(); return; }
       document.getElementById("drawer-body").innerHTML = directionalDrawer(party, outcome, reads);
       wireChallenge();
-      track("open-cell", { p: party, o: outcomeId }); openPanel(); return;
+      return;
     }
 
     const verdicts = hits.filter(h => h.oc.direction);
@@ -550,7 +578,7 @@
       document.getElementById("drawer-head-inner").innerHTML = head + '<h3 id="drawer-title">Not yet assessed</h3>';
       document.getElementById("drawer-body").innerHTML =
         '<p class="multi-intro">We found policies here but couldn’t yet verify them against checkable sources, so we’re not showing a verdict — that’s an honest gap, not a judgement.</p>' + gapItems(gaps);
-      track("open-cell", { p: party, o: outcomeId }); openPanel(); return;
+      return;
     }
 
     if (verdicts.length === 1 && !gaps.length) {
@@ -558,8 +586,6 @@
       document.getElementById("drawer-head-inner").innerHTML = head + '<h3 id="drawer-title">' + esc(record.policy_title) + '</h3>';
       document.getElementById("drawer-body").innerHTML = singleVerdictBody(record, oc);  // includes its own report-error
       wireChallenge();
-      track("open-cell", { p: party, o: outcomeId });
-      openPanel();
       return;
     }
 
@@ -591,8 +617,6 @@
       '<div class="drawer-actions"><button class="btn primary" type="button" id="challenge">Report an error in these verdicts</button></div>';
     document.getElementById("drawer-body").innerHTML = b;
     wireChallenge();
-    track("open-cell", { p: party, o: outcomeId });
-    openPanel();
   }
 
   // open the side panel with whatever is already in its head/body
@@ -670,13 +694,13 @@
   if (exBtn) exBtn.addEventListener("click", openExplainer);
 
   // deep link: #cell=Party|OutcomeId opens that drawer on load — shareable, and lets us screenshot states
-  function openFromHash() {
+  async function openFromHash() {
     const m = /#cell=([^|]+)\|([^|]+)(?:\|(.+))?/.exec(location.hash);
     if (!m) return;
     const party = decodeURIComponent(m[1]), oc = decodeURIComponent(m[2]);
     if (!D.parties.includes(party) || !D.outcomes.some(o => o.id === oc)) return;
     if (!selected.has(oc)) { selected.add(oc); renderPicker(); renderBoard(); }
-    openDrawer(party, oc, null);
+    await openDrawer(party, oc, null);
     if (m[3]) {  // optional policy id — expand that policy's collapsible + scroll to it
       const pid = decodeURIComponent(m[3]);
       const el = document.querySelector('#drawer-body .policy-item[data-pid="' + (window.CSS && CSS.escape ? CSS.escape(pid) : pid) + '"]');
