@@ -26,8 +26,10 @@ def _esc(s):
     return html.escape(str(s or ""))
 
 
-def _page(title, description, canonical, body, jsonld="", og_image="/og/default.png"):
-    """Shared shell for a pre-rendered page. styles.css + goatcounter sit one level up (/topic/)."""
+def _page(title, description, canonical, body, jsonld="", og_image="/og/default.png", og_desc=""):
+    """Shared shell for a pre-rendered page. styles.css + goatcounter sit one level up (/topic/).
+    og_desc is the share-preview description (short, with a call-to-action); description is the
+    longer SEO meta description for search snippets."""
     img = BASE_URL + og_image
     return f"""<!DOCTYPE html>
 <html lang="en-GB">
@@ -40,7 +42,7 @@ def _page(title, description, canonical, body, jsonld="", og_image="/og/default.
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Policy Lens">
 <meta property="og:title" content="{_esc(title)}">
-<meta property="og:description" content="{_esc(description)}">
+<meta property="og:description" content="{_esc(og_desc or description)}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{img}">
 <meta property="og:image:width" content="1200">
@@ -182,7 +184,9 @@ def _policy_page(rec, name_by_id, type_by_id):
                        "isPartOf": {"@type": "WebSite", "name": "Policy Lens", "url": BASE_URL + "/"},
                        "author": {"@type": "Organization", "name": "Policy Lens", "url": BASE_URL + "/"},
                        "publisher": {"@type": "Organization", "name": "Policy Lens", "url": BASE_URL + "/"}})
-    return _page(title, desc, canonical, "\n".join(body), jsonld), canonical
+    head = f"{party} · {ptitle}"
+    share = (head[:78] + "…" if len(head) > 78 else head) + " — see the sourced verdict →"
+    return _page(title, desc, canonical, "\n".join(body), jsonld, og_desc=share), canonical
 
 
 def build_seo(records, outcomes, directional_measures, parties, out_root):
@@ -228,8 +232,10 @@ def build_seo(records, outcomes, directional_measures, parties, out_root):
         jsonld = ('{"@context":"https://schema.org","@type":"Article","headline":' +
                   _json_str(title) + ',"description":' + _json_str(desc) +
                   ',"isPartOf":{"@type":"WebSite","name":"Policy Lens","url":"' + BASE_URL + '/"}}')
+        share = f"Where the UK parties stand on {name.lower()} — sourced, non-partisan. Compare them →"
         (topic_dir / f"{slug}.html").write_text(
-            _page(title, desc, canonical, "\n".join(body_parts), jsonld, og_image=f"/og/topic/{slug}.png"))
+            _page(title, desc, canonical, "\n".join(body_parts), jsonld,
+                  og_image=f"/og/topic/{slug}.png", og_desc=share))
         urls.append(canonical)
 
     # per-policy pages (the long-tail). Article markup, NOT ClaimReview: our verdicts judge a policy's
