@@ -552,6 +552,9 @@
     if (!hits.length) return;
     lastFocused = trigger || document.activeElement;
     lastOpened = { party: party, outcome: outcomeId };
+    // reflect the open cell in the URL so it's copy/shareable. replaceState → no history spam and no
+    // hashchange event (so this doesn't re-trigger openFromHash).
+    history.replaceState(null, "", "#cell=" + encodeURIComponent(party) + "|" + encodeURIComponent(outcomeId));
     const outcome = D.outcomes.find(o => o.id === outcomeId);
     const head = '<div class="eyebrow">' + esc(party) + ' · ' + esc(outcome.name) + '</div>';
 
@@ -634,6 +637,7 @@
     const drawer = document.getElementById("drawer");
     drawer.classList.remove("open");
     drawer.setAttribute("aria-hidden", "true");
+    if (location.hash.indexOf("#cell=") === 0) history.replaceState(null, "", location.pathname + location.search);
     if (lastFocused && lastFocused.focus) lastFocused.focus();
   }
 
@@ -651,6 +655,12 @@
   document.getElementById("scrim").addEventListener("click", closeDrawer);
   document.getElementById("drawer-close").addEventListener("click", closeDrawer);
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); trapFocus(e); });
+  const copyBtn = document.getElementById("copy-link");
+  if (copyBtn) copyBtn.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(location.href); } catch (e) { /* clipboard blocked (e.g. non-https) */ }
+    const t = copyBtn.textContent; copyBtn.textContent = "✓ Copied"; copyBtn.disabled = true;
+    setTimeout(() => { copyBtn.textContent = t; copyBtn.disabled = false; }, 1500);
+  });
 
   function buildExplainerHtml() {
     const lv = D.levers;
