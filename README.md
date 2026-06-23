@@ -67,10 +67,29 @@ docs/            design-history notes
 .github/workflows/pages.yml   deploys web/ to GitHub Pages on push to main
 ```
 
+## Setup (one-off — only to run the pipeline; the live site itself is static and needs none of this)
+
+```bash
+python3 -m venv .venv
+./.venv/bin/pip install -r requirements.txt
+```
+
+Put the API keys in a `.env` at the repo root (git-ignored — never commit it):
+
+```
+ANTHROPIC_API_KEY=sk-ant-...   # a PERSONAL key — the judge (membership + verdicts + verify)
+GEMINI_API_KEY=...             # or GOOGLE_API_KEY — used for evidence grounding
+```
+
+Rebuilding the **corpus from raw manifestos** (Stage 0 only) additionally needs the `pdftotext` /
+`pdftoppm` (poppler) and `tesseract` command-line tools, plus the manifesto PDFs themselves — these
+aren't committed (copyright + size); their source URLs live in
+[`config/parties.json`](config/parties.json). Because the extracted `corpus/` **is** committed, you
+can regenerate every verdict and rebuild the whole site without them.
+
 ## Reproducing / updating the data
 
 ```bash
-# one-off: a virtualenv with anthropic + google genai, and API keys in the environment
 PL_STRONG_MODEL=claude-sonnet-4-6 PL_MAX_SPEND=50 ./pipeline/regenerate.sh
 ```
 
