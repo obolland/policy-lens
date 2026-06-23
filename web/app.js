@@ -212,7 +212,7 @@
         '<span class="pi-verdict dir">' + esc(oc.shift) + '</span></summary>' +
         '<div class="pi-body">' + directionalBody(oc) + '</div></details>';
     }
-    return b + '</div><div class="drawer-actions"><button class="btn primary" type="button" id="challenge">Report an error in these</button></div>';
+    return b + '</div><div class="drawer-actions"><button class="btn primary challenge" type="button">Report an error in these</button></div>';
   }
 
   function chipHtml(o) {
@@ -481,7 +481,7 @@
     }
 
     b += balanceNote(record.meta);
-    b += '<div class="drawer-actions"><button class="btn primary" type="button" id="challenge">Report an error in this verdict</button></div>';
+    b += '<div class="drawer-actions"><button class="btn primary challenge" type="button" data-policy="' + esc(record.policy_title) + '">Report an error in this verdict</button></div>';
 
     const rev = (record.meta.revisions || []).length;
     b += '<div class="meta-line">Verifier: ' + (record.meta.verifier.passed ? "passed" : "blocked") +
@@ -491,30 +491,36 @@
   }
 
   function wireChallenge() {
-    const ch = document.getElementById("challenge");
-    if (!ch) return;
-    ch.addEventListener("click", () => {
-      const c = lastOpened || {};
-      const oname = (D.outcomes.find(o => o.id === c.outcome) || {}).name || c.outcome || "";
-      if (!ISSUE_REPO || ISSUE_REPO === "OWNER/REPO") {
-        alert("Reporting an error opens a public GitHub issue so the correction is logged in the open. (Not yet wired up in this build.)");
-        return;
-      }
-      const link = location.origin + location.pathname + "#cell=" + encodeURIComponent(c.party || "") + "|" + encodeURIComponent(c.outcome || "");
-      const title = "Verdict error: " + (c.party || "") + " — " + oname;
-      const body = [
-        "**Party:** " + (c.party || ""),
-        "**Topic:** " + oname,
-        "**Cell:** " + link,
-        "",
-        "**What looks wrong** (ideally name the specific claim, and a source that shows the correction):",
-        "",
-        "",
-        "_Reported via the Policy Lens “report an error” button._",
-      ].join("\n");
-      const url = "https://github.com/" + ISSUE_REPO + "/issues/new?labels=verdict-error&title=" +
-        encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
-      window.open(url, "_blank", "noopener");
+    const c = lastOpened || {};
+    const oname = (D.outcomes.find(o => o.id === c.outcome) || {}).name || c.outcome || "";
+    // there can be MANY report-error buttons in one drawer (one per policy in a multi-cell, plus the
+    // bottom one) — wire every .challenge, not just the first. Each may name its own policy.
+    document.querySelectorAll(".challenge").forEach(ch => {
+      if (ch.dataset.wired) return;
+      ch.dataset.wired = "1";
+      ch.addEventListener("click", () => {
+        if (!ISSUE_REPO || ISSUE_REPO === "OWNER/REPO") {
+          alert("Reporting an error opens a public GitHub issue so the correction is logged in the open. (Not yet wired up in this build.)");
+          return;
+        }
+        const policy = ch.dataset.policy || "";
+        const link = location.origin + location.pathname + "#cell=" + encodeURIComponent(c.party || "") + "|" + encodeURIComponent(c.outcome || "");
+        const title = "Verdict error: " + (c.party || "") + " — " + (policy || oname);
+        const body = [
+          "**Party:** " + (c.party || ""),
+          "**Topic:** " + oname,
+          policy ? "**Policy:** " + policy : null,
+          "**Cell:** " + link,
+          "",
+          "**What looks wrong** (ideally name the specific claim, and a source that shows the correction):",
+          "",
+          "",
+          "_Reported via the Policy Lens “report an error” button._",
+        ].filter(x => x !== null).join("\n");
+        const url = "https://github.com/" + ISSUE_REPO + "/issues/new?labels=verdict-error&title=" +
+          encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
+        window.open(url, "_blank", "noopener");
+      });
     });
   }
 
@@ -617,7 +623,7 @@
         '<div class="pi-body">' + singleVerdictBody(record, oc) + '</div></details>';
     }
     b += '</div>' + gapItems(gaps) +
-      '<div class="drawer-actions"><button class="btn primary" type="button" id="challenge">Report an error in these verdicts</button></div>';
+      '<div class="drawer-actions"><button class="btn primary challenge" type="button">Report an error in these verdicts</button></div>';
     document.getElementById("drawer-body").innerHTML = b;
     wireChallenge();
   }
