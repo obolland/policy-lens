@@ -1,4 +1,4 @@
-"""Anthropic runner — Phase 2 (trust-critical synthesis + verifier).
+"""Anthropic runner — the trust-critical judge calls (membership, verdict, verify) on a personal Anthropic key.
 
 Uses the Anthropic SDK with the PERSONAL ANTHROPIC_API_KEY from .env — NOT `claude -p`
 (which is the Hudl org seat). Structured output via output_config.format; system prompt

@@ -7,7 +7,7 @@ policy as an analysis-input file, so WE don't choose which policies get analysed
     python3 pipeline/extract.py ref        # just one party (by slug)
 
 Writes to corpus/:
-  corpus/<slug>-NN-<title>.json   one analysis-input per extracted policy (run.py-compatible)
+  corpus/<slug>-NN-<title>.json   one analysis-input per extracted policy (fed to membership.py)
   corpus/<slug>.extraction.json   the full extractor output (policies + logged exclusions + coverage note)
 """
 import json

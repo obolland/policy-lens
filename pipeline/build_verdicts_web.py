@@ -1,11 +1,9 @@
-"""Reassembly + web build for Stage-B verdicts (new per-(policy,fundamental) format).
-
-Groups data_verdicts/<pid>__<fund>.json by policy into the record shape the UI consumes
-(record.per_outcome = the policy's verdicts across its fundamentals), pulling the policy's `source`
-from the corpus. Computes per-record source_balance from the verdicts' own sources. Writes
-web/data.js (--publish) or web/data.generated.js. This is the v1 reassembly: it carries no
-false_balance_check / steelman / redteam (those were per-policy-synthesis artifacts the new
-architecture doesn't produce) — the UI degrades gracefully on their absence.
+"""Reassembly + web build. Groups data_verdicts/<pid>__<outcome>.json (and the directional reads in
+data_directional/) by policy into the record shape the UI consumes (record.per_outcome = the
+policy's verdicts across the outcomes it bears on), pulling the policy's manifesto `source` from the
+corpus and computing each record's source_balance from the verdicts' own sources. With --publish it
+writes web/data.js (a slim grid summary) + web/detail/<pid>.json (lazy per-cell detail) and the
+pre-rendered topic/policy pages via seo.py; without it, web/data.generated.js for inspection.
 
     ./.venv/bin/python pipeline/build_verdicts_web.py            # -> web/data.generated.js
     ./.venv/bin/python pipeline/build_verdicts_web.py --publish  # -> web/data.js (live)

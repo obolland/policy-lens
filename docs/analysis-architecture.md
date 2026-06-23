@@ -3,6 +3,14 @@
 Status: **design locked by council review (2026-06-12).** Supersedes the per-policy pipeline and the
 first-draft "expensive per-cluster synthesis." This is the unit of analysis for the full corpus run.
 
+> **Design-history note.** The three-stage shape below is what the live pipeline still uses (the
+> party-blind, context-free verdict is the keystone). Two things have moved on since this was written:
+> the outcome set has grown from the original **9 fundamentals** to **15 scored outcomes + 1
+> directional measure** (immigration) — see `config/outcomes.json` — and the cell-summary stage (C)
+> **remains deferred** (the site ships the per-policy verdict list + factual tally, not an abstractive
+> summary). Kept as a record of *why* it's built this way; see the repo `README.md` for the current
+> commands.
+
 ## Why this shape
 
 The grid is organised as `(party × fundamental)` cells. We needed an analysis unit that is:
