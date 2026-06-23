@@ -46,7 +46,10 @@ def _page(title, description, canonical, body, jsonld=""):
 <style>.doc{{max-width:760px;margin:0 auto;padding:8px 22px 60px}}.doc h2{{font-size:21px;margin:28px 0 6px}}
 .doc p,.doc li{{font-size:15.5px;color:var(--ink-soft);line-height:1.6}}.doc .lead{{font-size:17px;color:var(--ink)}}
 .doc .back{{font-size:14px;font-weight:600}}.seo-party{{border-left:3px solid var(--line-strong);padding:2px 0 2px 14px;margin:14px 0}}
-.seo-ex{{font-size:14px;margin:4px 0}}.seo-ex b{{color:var(--ink)}}</style>
+.seo-ex{{font-size:14px;margin:4px 0}}.seo-ex b{{color:var(--ink)}}
+.vsec{{border-left:4px solid var(--line-strong);padding:2px 0 2px 16px;margin:22px 0}}.vsec h2{{margin-top:0}}
+.claims{{margin:8px 0 0;padding-left:18px}}.claims li{{margin:6px 0;font-size:14px}}.csrc{{color:#6b7280}}
+.reading{{background:#f5f6f8;padding:10px 14px;border-radius:8px}}.xlinks a{{display:block;margin:5px 0;font-weight:600;font-size:14px}}</style>
 {('<script type="application/ld+json">' + jsonld + '</script>') if jsonld else ''}
 </head>
 <body>
@@ -88,9 +91,93 @@ def _party_block(party, outcome_id, hits, directional):
         verdict = _SHIFT_LABEL.get(oc.get("shift"), "") if directional else _DIR_LABEL.get(oc.get("direction"), "")
         raw = (oc.get("plain") or "").strip()
         plain = _esc(raw[:200] + ("…" if len(raw) > 200 else ""))
-        out.append(f'<div class="seo-ex"><b>{_esc(h["title"])}</b> — <i>{_esc(verdict)}</i>. {plain}</div>')
+        out.append(f'<div class="seo-ex"><b><a href="../policy/{_esc(h["pid"])}.html">{_esc(h["title"])}</a></b> — <i>{_esc(verdict)}</i>. {plain}</div>')
     out.append("</div>")
     return "".join(out)
+
+
+_VPILL = {
+    "improves": ("Helps", "var(--v-improves,#2e7d32)"),
+    "worsens": ("Hurts", "var(--v-worsens,#c62828)"),
+    "mixed": ("Mixed picture", "var(--v-mixed,#b8860b)"),
+    "negligible": ("Little effect", "var(--v-negligible,#6b7280)"),
+    "too-uncertain": ("Genuinely contested", "var(--v-uncertain,#6d4c9f)"),
+}
+_DIR_MEASURE_LABEL = {
+    "toward more controlled": "Moves toward more control",
+    "toward more open": "Moves toward more openness",
+    "no material change": "No material change",
+    "unclear": "Direction unclear",
+}
+
+
+def _policy_page(rec, name_by_id, type_by_id):
+    """One policy's full, sourced analysis across every outcome it bears on. Article markup (NOT
+    ClaimReview — see build_seo). Returns (html, canonical) or (None, None) for gap-only policies."""
+    import json as _j
+    party, ptitle, pid = rec["party"], rec["policy_title"], rec["policy_id"]
+    verdicts = [oc for oc in rec["per_outcome"] if oc.get("direction") or oc.get("shift")]
+    if not verdicts:
+        return None, None  # only unverified gaps — nothing substantive to index
+    canonical = f"{BASE_URL}/policy/{pid}.html"
+    body = [f'<h1 style="letter-spacing:-.02em">{_esc(ptitle)}</h1>',
+            f'<p style="font-weight:700;color:var(--ink)">{_esc(party)} · what the evidence says</p>',
+            f'<p>An independent, source-checked look at {_esc(party)}’s policy “{_esc(ptitle)}” — what it '
+            'would actually do across the things that affect your life. Every claim below quotes the source '
+            'behind it. <a href="../how-it-works.html">How this works</a>.</p>']
+    abouts = []
+    for oc in verdicts:
+        oid = oc["outcome"]; oname = name_by_id.get(oid, oid); abouts.append(oname)
+        directional = type_by_id.get(oid) == "directional"
+        if directional:
+            label, color = _DIR_MEASURE_LABEL.get(oc.get("shift"), "Direction unclear"), "var(--ink)"
+        else:
+            label, color = _VPILL.get(oc.get("direction"), (oc.get("direction") or "", "var(--line-strong)"))
+        meta = " · ".join(x for x in [oc.get("magnitude"),
+                          (oc.get("confidence") + " confidence") if oc.get("confidence") else None] if x)
+        sec = [f'<div class="vsec" style="border-left-color:{color}">',
+               f'<h2>{_esc(oname)} — <span style="color:{color}">{_esc(label)}</span></h2>']
+        if directional:
+            sec.append('<p style="font-size:13px;margin:0 0 6px;color:#6b7280">We don’t call this better or '
+                       'worse — that’s your call; we only show which way the policy moves it.</p>')
+        if meta:
+            sec.append(f'<p style="font-size:13px;margin:0 0 6px;color:#6b7280">{_esc(meta)}</p>')
+        if oc.get("plain"):
+            sec.append(f'<p>{_esc(oc["plain"])}</p>')
+        claims = oc.get("claims") or []
+        if claims:
+            sec.append('<h3 style="font-size:15px;margin:10px 0 2px">The evidence</h3><ul class="claims">')
+            for c in claims:
+                src, st = c.get("publisher") or "", c.get("source_type") or ""
+                q = (c.get("quote") or "").strip()
+                qd = (' — “' + _esc(q[:220] + ("…" if len(q) > 220 else "")) + '”') if q else ""
+                srcbit = (f' <span class="csrc">— {_esc(src)}{(" (" + _esc(st) + ")") if st else ""}{qd}</span>') if src else ""
+                sec.append(f'<li>{_esc(c.get("claim") or "")}{srcbit}</li>')
+            sec.append('</ul>')
+        if oc.get("biggest_unknown"):
+            sec.append(f'<p style="font-size:14px"><b>Biggest unknown:</b> {_esc(oc["biggest_unknown"])}</p>')
+        if oc.get("rationale"):
+            sec.append(f'<p class="reading"><b>Our reading:</b> {_esc(oc["rationale"])}</p>')
+        sec.append('</div>')
+        body.append("".join(sec))
+    # cross-links: out to each topic page, into the live tool, home
+    xl = ['<div class="xlinks" style="margin-top:26px">']
+    for oid in dict.fromkeys(oc["outcome"] for oc in verdicts):
+        oname = name_by_id.get(oid, oid)
+        xl.append(f'<a href="../topic/{_slug(oname)}.html">Compare all parties on {_esc(oname.lower())} →</a>')
+    xl.append(f'<a href="../index.html#cell={party.replace(" ", "%20")}|{verdicts[0]["outcome"]}|{_esc(pid)}">'
+              'Open this in the interactive comparison →</a>')
+    xl.append('<a href="../index.html">← Policy Lens home</a></div>')
+    body.append("".join(xl))
+
+    title = f"{ptitle} — {party} policy analysis | Policy Lens"
+    desc = (f"{party}: {ptitle}. " + (verdicts[0].get("plain") or "").strip())[:300]
+    jsonld = _j.dumps({"@context": "https://schema.org", "@type": "Article",
+                       "headline": title[:110], "description": desc, "about": list(dict.fromkeys(abouts)),
+                       "isPartOf": {"@type": "WebSite", "name": "Policy Lens", "url": BASE_URL + "/"},
+                       "author": {"@type": "Organization", "name": "Policy Lens", "url": BASE_URL + "/"},
+                       "publisher": {"@type": "Organization", "name": "Policy Lens", "url": BASE_URL + "/"}})
+    return _page(title, desc, canonical, "\n".join(body), jsonld), canonical
 
 
 def build_seo(records, outcomes, directional_measures, parties, out_root):
@@ -120,7 +207,7 @@ def build_seo(records, outcomes, directional_measures, parties, out_root):
                               'We show which way each party’s policies move it.</p>')
         any_hits = False
         for party in parties:
-            hits = [{"oc": oc, "title": r["policy_title"]} for r in records if r["party"] == party
+            hits = [{"oc": oc, "title": r["policy_title"], "pid": r["policy_id"]} for r in records if r["party"] == party
                     for oc in r["per_outcome"] if oc.get("outcome") == oid]
             if not hits:
                 continue
@@ -139,6 +226,27 @@ def build_seo(records, outcomes, directional_measures, parties, out_root):
         (topic_dir / f"{slug}.html").write_text(_page(title, desc, canonical, "\n".join(body_parts), jsonld))
         urls.append(canonical)
 
+    # per-policy pages (the long-tail). Article markup, NOT ClaimReview: our verdicts judge a policy's
+    # EFFECT (helps/hurts), not the truthfulness of a claim, so fact-check markup would be a misuse that
+    # Google can penalise. Each page still carries real, sourced analysis and is fully indexable.
+    n_topic = len([u for u in urls if "/topic/" in u])
+    name_by_id = {o["id"]: o["name"] for o in outcomes}
+    name_by_id.update({m["id"]: m["name"] for m in directional_measures})
+    type_by_id = {o["id"]: o.get("type", "valenced") for o in outcomes}
+    type_by_id.update({m["id"]: "directional" for m in directional_measures})
+    policy_dir = out_root / "policy"
+    policy_dir.mkdir(parents=True, exist_ok=True)
+    for f in policy_dir.glob("*.html"):
+        f.unlink()
+    n_policy = 0
+    for rec in records:
+        page_html, canonical = _policy_page(rec, name_by_id, type_by_id)
+        if not page_html:
+            continue
+        (policy_dir / f"{rec['policy_id']}.html").write_text(page_html)
+        urls.append(canonical)
+        n_policy += 1
+
     # sitemap + robots
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -147,7 +255,7 @@ def build_seo(records, outcomes, directional_measures, parties, out_root):
     sm.append("</urlset>")
     (out_root / "sitemap.xml").write_text("\n".join(sm))
     (out_root / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
-    return len([u for u in urls if "/topic/" in u])
+    return n_topic, n_policy
 
 
 def _json_str(s):
