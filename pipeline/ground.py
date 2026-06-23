@@ -18,7 +18,7 @@ from google.genai import types
 from gemini_runner import _client  # reuses .env loading + client
 
 ROOT = Path(__file__).resolve().parent.parent
-_UA = "Mozilla/5.0 (PolicyLens grounding resolver)"
+_UA = "Mozilla/5.0 (Show the Working grounding resolver)"
 # grounding is free (Gemini) and load-bearing — an ungrounded run is doomed to block, so it's
 # worth retrying transient 503/429 outages patiently before giving up.
 _GROUND_BACKOFF = [10, 20, 40, 60]

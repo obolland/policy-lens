@@ -30,25 +30,25 @@ def _card_html(title, subtitle, cta="Compare the parties →"):
 body{{width:1200px;height:630px;background:#fafaf7;color:#14181d;
  font-family:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
  padding:64px 84px;display:flex;flex-direction:column;justify-content:space-between;
- border-top:16px solid #0b5cad}}
+ border-top:16px solid #0f766e}}
 .brand{{font-size:36px;font-weight:800;letter-spacing:-.02em}}
-.brand .dot{{color:#0b5cad}}
+.brand .uw{{border-bottom:5px solid #0f766e;padding-bottom:3px}}
 .title{{font-size:{_title_size(title)}px;font-weight:800;letter-spacing:-.03em;line-height:1.04}}
 .sub{{font-size:36px;color:#38414c;margin-top:20px;line-height:1.22;max-width:1000px}}
-.cta{{display:inline-block;margin-top:30px;background:#0b5cad;color:#fff;font-size:28px;
+.cta{{display:inline-block;margin-top:30px;background:#0f766e;color:#fff;font-size:28px;
  font-weight:700;padding:15px 28px;border-radius:11px}}
 .foot{{display:flex;justify-content:space-between;align-items:center;font-size:25px;color:#59626d}}
 .foot .dom{{font-weight:800;color:#14181d}}
 .tick{{color:#15723a;font-weight:800}}
 </style></head><body>
-<div class="brand">Policy<span class="dot">·</span>Lens</div>
+<div class="brand">Show the <span class="uw">Working</span></div>
 <div>
  <div class="title">{_esc(title)}</div>
  <div class="sub">{_esc(subtitle)}</div>
  <div class="cta">{_esc(cta)}</div>
 </div>
 <div class="foot"><span><span class="tick">✓</span> Independent · source-checked · non-partisan</span>
- <span class="dom">policylens.uk</span></div>
+ <span class="dom">showtheworking.uk</span></div>
 </body></html>"""
 
 

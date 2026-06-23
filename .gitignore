@@ -24,6 +24,10 @@ data_verdicts/_*
 corpus/_*
 web/data.*.bak.js
 web/_*.html
+web/data.generated.js
+web/data.mock.js
+web/*.bak
+web/demo-*.html
 
 # party manifesto PDFs — copyrighted + ~23MB of binary bloat; we link to them, don't host them
 manifestos/*.pdf

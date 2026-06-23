@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Policy Lens — regenerate the analysis + rebuild the site, using the CURRENT architecture.
+# Show the Working — regenerate the analysis + rebuild the site, using the CURRENT architecture.
 #
 # Every stage is RESUMABLE and INCREMENTAL: membership skips policies that already have a
 # bearing_set; run_cells / run_directional skip (policy, outcome) pairs that already have a verdict
@@ -17,7 +17,7 @@ PY="./.venv/bin/python"
 export PL_STRONG_MODEL="${PL_STRONG_MODEL:-claude-sonnet-4-6}"   # judge for membership + verdicts
 export PL_MAX_SPEND="${PL_MAX_SPEND:-50}"                        # USD cap; aborts before exceeding
 
-echo "=== Policy Lens regenerate ($(date -u +%FT%TZ)) | model=$PL_STRONG_MODEL cap=\$$PL_MAX_SPEND ==="
+echo "=== Show the Working regenerate ($(date -u +%FT%TZ)) | model=$PL_STRONG_MODEL cap=\$$PL_MAX_SPEND ==="
 
 # Stage 0 — CORPUS (only when (re)building inputs from manifestos in manifestos/*.pdf).
 #   Uncomment to rebuild the corpus; otherwise the committed corpus/ is used as-is.

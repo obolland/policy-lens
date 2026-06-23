@@ -1,7 +1,7 @@
 /* GENERATED from data_verdicts/*.json by build_verdicts_web.py — do not edit by hand. */
 window.POLICY_DATA = {
   "generated_at": "2026-06-23",
-  "disclaimer": "Source-checked analysis from the Policy Lens pipeline (Stage-B verdicts). Every verdict is challengeable \u2014 check its sources.",
+  "disclaimer": "Source-checked analysis from the Show the Working pipeline (Stage-B verdicts). Every verdict is challengeable \u2014 check its sources.",
   "outcomes": [
     {
       "id": "O2",

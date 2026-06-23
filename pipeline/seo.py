@@ -9,7 +9,7 @@ import re
 import datetime
 from pathlib import Path
 
-BASE_URL = "https://policylens.uk"
+BASE_URL = "https://showtheworking.uk"
 GOATCOUNTER = '<script data-goatcounter="https://policylens.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
 
 _DIR_LABEL = {"improves": "helps", "worsens": "hurts", "mixed": "mixed", "negligible": "little effect",
@@ -40,7 +40,7 @@ def _page(title, description, canonical, body, jsonld="", og_image="/og/default.
 <meta name="description" content="{_esc(description)}">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Policy Lens">
+<meta property="og:site_name" content="Show the Working">
 <meta property="og:title" content="{_esc(title)}">
 <meta property="og:description" content="{_esc(og_desc or description)}">
 <meta property="og:url" content="{canonical}">
@@ -61,7 +61,7 @@ def _page(title, description, canonical, body, jsonld="", og_image="/og/default.
 </head>
 <body>
 <header class="site"><div class="wrap bar">
-<span class="brand">Policy<span class="dot">·</span>Lens</span>
+<span class="brand">Show the <span class="uw">Working</span></span>
 <nav class="trustline" aria-label="nav"><a class="back" href="../index.html">← The full comparison</a></nav>
 </div></header>
 <main class="doc">
@@ -174,16 +174,16 @@ def _policy_page(rec, name_by_id, type_by_id):
         xl.append(f'<a href="../topic/{_slug(oname)}.html">Compare all parties on {_esc(oname.lower())} →</a>')
     xl.append(f'<a href="../index.html#cell={party.replace(" ", "%20")}|{verdicts[0]["outcome"]}|{_esc(pid)}">'
               'Open this in the interactive comparison →</a>')
-    xl.append('<a href="../index.html">← Policy Lens home</a></div>')
+    xl.append('<a href="../index.html">← Show the Working home</a></div>')
     body.append("".join(xl))
 
-    title = f"{ptitle} — {party} policy analysis | Policy Lens"
+    title = f"{ptitle} — {party} policy analysis | Show the Working"
     desc = (f"{party}: {ptitle}. " + (verdicts[0].get("plain") or "").strip())[:300]
     jsonld = _j.dumps({"@context": "https://schema.org", "@type": "Article",
                        "headline": title[:110], "description": desc, "about": list(dict.fromkeys(abouts)),
-                       "isPartOf": {"@type": "WebSite", "name": "Policy Lens", "url": BASE_URL + "/"},
-                       "author": {"@type": "Organization", "name": "Policy Lens", "url": BASE_URL + "/"},
-                       "publisher": {"@type": "Organization", "name": "Policy Lens", "url": BASE_URL + "/"}})
+                       "isPartOf": {"@type": "WebSite", "name": "Show the Working", "url": BASE_URL + "/"},
+                       "author": {"@type": "Organization", "name": "Show the Working", "url": BASE_URL + "/"},
+                       "publisher": {"@type": "Organization", "name": "Show the Working", "url": BASE_URL + "/"}})
     head = f"{party} · {ptitle}"
     share = (head[:78] + "…" if len(head) > 78 else head) + " — see the sourced verdict →"
     return _page(title, desc, canonical, "\n".join(body), jsonld, og_desc=share), canonical
@@ -225,13 +225,13 @@ def build_seo(records, outcomes, directional_measures, parties, out_root):
         if not any_hits:
             continue
         body_parts.append('<p class="back"><a href="../index.html">← See the full interactive comparison across every topic</a></p>')
-        title = f"{name}: where the UK parties stand — Policy Lens"
+        title = f"{name}: where the UK parties stand — Show the Working"
         desc = (f"Source-checked analysis of where Labour, the Conservatives, Liberal Democrats, "
                 f"Reform UK and the Greens land on {name.lower()}. {plain}")[:300]
         canonical = f"{BASE_URL}/topic/{slug}.html"
         jsonld = ('{"@context":"https://schema.org","@type":"Article","headline":' +
                   _json_str(title) + ',"description":' + _json_str(desc) +
-                  ',"isPartOf":{"@type":"WebSite","name":"Policy Lens","url":"' + BASE_URL + '/"}}')
+                  ',"isPartOf":{"@type":"WebSite","name":"Show the Working","url":"' + BASE_URL + '/"}}')
         share = f"Where the UK parties stand on {name.lower()} — sourced, non-partisan. Compare them →"
         (topic_dir / f"{slug}.html").write_text(
             _page(title, desc, canonical, "\n".join(body_parts), jsonld,

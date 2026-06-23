@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "PolicyLens single verdict — evidence-bound, party-blind (b-pragmatic)",
+  "title": "Show the Working single verdict — evidence-bound, party-blind (b-pragmatic)",
   "type": "object",
   "additionalProperties": false,
   "required": ["outcome", "direction", "magnitude", "time_horizon", "confidence", "plain", "biggest_unknown", "claims", "rationale"],
