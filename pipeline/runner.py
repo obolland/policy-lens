@@ -4,8 +4,8 @@ Lets us set the model per stage (config) and flip providers without touching pip
   - "gemini*"  -> gemini_runner   (free, bulk drafting)
   - "claude*"  -> anthropic_runner (PERSONAL Anthropic API key — synthesis + verifier)
 
-NB: claude-* routes to anthropic_runner (Anthropic SDK + personal key), NOT the old
-claude_runner (`claude -p` = the Hudl org seat). claude_runner is retained but unused.
+NB: claude-* routes to anthropic_runner (Anthropic SDK + a PERSONAL Anthropic key) — never the
+Hudl org seat / `claude -p`.
 """
 import sys
 from pathlib import Path

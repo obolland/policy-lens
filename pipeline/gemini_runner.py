@@ -1,4 +1,4 @@
-"""Gemini runner — Phase 1 (free bulk + validation). Mirrors claude_runner.run_stage.
+"""Gemini runner — bulk drafting + grounded search. Implements the run_stage(...) interface.
 
 Reads GEMINI_API_KEY / GOOGLE_API_KEY from the project .env (handles `export` prefix).
 Structured output via Gemini's response_schema (JSON mode). No web tools here — grounding

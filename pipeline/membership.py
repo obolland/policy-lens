@@ -1,7 +1,8 @@
 """Stage A — MEMBERSHIP. The authoritative bearing-set per policy (replaces candidate_outcomes).
 
-For each extracted+normalised corpus policy, decide which of the 9 fundamentals it GENUINELY bears on
-(would earn a real, non-negligible verdict), on Sonnet (the reliable judge Gemini couldn't be).
+For each extracted+normalised corpus policy, decide which outcomes (the scored set in
+config/outcomes.json — currently 15, plus the directional measure handled by run_directional.py) it
+GENUINELY bears on (would earn a real, non-negligible verdict), on Sonnet (the reliable judge).
 Party-blind. Writes the bearing_set back into each corpus policy file and a corpus/membership.json
 table. Enforces the NO-ORPHAN invariant: a policy with an empty bearing_set is logged to an explicit
 "bears on nothing material" ledger, never silently dropped.
@@ -36,7 +37,7 @@ def _prefix():
     membership_md = (ROOT / "prompts" / "membership.md").read_text()
     return (
         SYSTEM_PROMPT + "\n\n" + membership_md +
-        "\n\n## The 9 fundamentals (plain)\n" + json.dumps(outcomes, indent=2) +
+        "\n\n## The outcomes (plain)\n" + json.dumps(outcomes, indent=2) +
         "\n\n## Strict per-fundamental boundaries\n" + json.dumps(crit["fundamentals"], indent=2)
     )
 
