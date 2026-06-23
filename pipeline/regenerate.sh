@@ -12,6 +12,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+# Setup + API keys (ANTHROPIC_API_KEY, GEMINI_API_KEY/GOOGLE_API_KEY via a .env at repo root): see README.
 PY="./.venv/bin/python"
 export PL_STRONG_MODEL="${PL_STRONG_MODEL:-claude-sonnet-4-6}"   # judge for membership + verdicts
 export PL_MAX_SPEND="${PL_MAX_SPEND:-50}"                        # USD cap; aborts before exceeding
