@@ -9,7 +9,7 @@ import re
 import datetime
 from pathlib import Path
 
-BASE_URL = "https://obolland.github.io/policy-lens"
+BASE_URL = "https://policylens.uk"
 GOATCOUNTER = '<script data-goatcounter="https://policylens.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
 
 _DIR_LABEL = {"improves": "helps", "worsens": "hurts", "mixed": "mixed", "negligible": "little effect",
