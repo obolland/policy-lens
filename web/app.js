@@ -711,7 +711,9 @@
 
   // deep link: #cell=Party|OutcomeId opens that drawer on load — shareable, and lets us screenshot states
   async function openFromHash() {
-    const m = /#cell=([^|]+)\|([^|]+)(?:\|(.+))?/.exec(location.hash);
+    // iOS Safari percent-encodes "|" in location.hash to %7C (desktop Chrome keeps it literal), which
+    // broke the delimiter match on iPhone. Normalise it back before parsing so deep links work there.
+    const m = /#cell=([^|]+)\|([^|]+)(?:\|(.+))?/.exec(location.hash.replace(/%7C/gi, "|"));
     if (!m) return;
     const party = decodeURIComponent(m[1]), oc = decodeURIComponent(m[2]);
     if (!D.parties.includes(party) || !D.outcomes.some(o => o.id === oc)) return;
