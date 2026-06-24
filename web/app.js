@@ -237,7 +237,7 @@
         const sel = groupCount(g);
         const badge = sel ? '<span class="pg-count">' + sel + ' selected</span>' : "";
         return '<details class="pgroup pgroup-acc" data-g="' + esc(g.name) + '"' + (expandedGroups.has(g.name) ? " open" : "") + '>' +
-          '<summary class="pgroup-h pgroup-h-acc">' + esc(g.name) + badge + '<span class="pg-chev" aria-hidden="true">▾</span></summary>' +
+          '<summary class="pgroup-h pgroup-h-acc"><span class="pg-title">' + esc(g.name) + '</span>' + badge + '<span class="pg-chev" aria-hidden="true">▾</span></summary>' +
           '<div class="pgroup-chips">' + chips + "</div></details>";
       }).join("");
     } else if (groups) {
