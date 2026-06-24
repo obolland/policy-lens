@@ -15,6 +15,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PARTY_ORDER = ["Labour", "Conservative", "Liberal Democrat", "Reform UK", "Green", "Plaid Cymru", "SNP"]
+# When the verdict corpus was actually generated (the dataset was committed on this date). This is a
+# FIXED analysis date shown to readers — bump it only on a real re-analysis, never on a cosmetic rebuild.
+ANALYSIS_DATE = "2026-06-18"
 
 
 def _source_balance(sources):
@@ -171,8 +174,8 @@ def main(publish=False):
     default_selected = cfg_default or present_outcomes or ["O1", "O3"]
 
     payload = {
-        "generated_at": datetime.date.today().isoformat(),
-        "disclaimer": "Source-checked analysis from the Show the Working pipeline (Stage-B verdicts). Every verdict is challengeable — check its sources.",
+        "generated_at": ANALYSIS_DATE,
+        "disclaimer": "Source-checked analysis of UK party policies — every verdict is challengeable, so check its sources.",
         "outcomes": outcomes, "levers": levers, "parties": parties, "records": records,
         "default_selected": default_selected,
         "picker_groups": outcomes_cfg.get("picker_groups", []),
