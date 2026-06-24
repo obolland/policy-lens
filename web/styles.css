@@ -100,8 +100,9 @@ html { scroll-behavior: smooth; }
 .pgroup-h-acc { display: flex; align-items: center; gap: 10px; cursor: pointer; list-style: none; padding: 12px 15px; margin: 0; border: 0; border-bottom: 0; }
 .pgroup-h-acc::-webkit-details-marker { display: none; }
 .pgroup-acc[open] .pgroup-h-acc { border-bottom: 1px solid var(--line); }
-.pg-count { font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-tint); border-radius: 20px; padding: 1px 9px; text-transform: none; letter-spacing: 0; }
-.pg-chev { margin-left: auto; color: var(--muted); font-size: 12px; transition: transform .15s; }
+.pg-title { flex: 1; min-width: 0; }
+.pg-count { font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-tint); border-radius: 20px; padding: 1px 9px; text-transform: none; letter-spacing: 0; min-width: fit-content; white-space: nowrap; }
+.pg-chev { margin-left: 0; color: var(--muted); font-size: 12px; transition: transform .15s; }
 .pgroup-acc[open] .pg-chev { transform: rotate(180deg); }
 .pgroup-acc .pgroup-chips { padding: 13px 15px; }
 .chip { border: 1.5px solid var(--line-strong); background: var(--surface); border-radius: 12px; padding: 9px 14px; cursor: pointer; font: inherit; text-align: left; transition: all .12s; display: flex; flex-direction: column; gap: 1px; min-width: 158px; }
