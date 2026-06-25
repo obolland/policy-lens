@@ -98,7 +98,7 @@ html { scroll-behavior: smooth; }
 .dv-neg { right: 50%; background: var(--v-worsens); }
 .dstrip { position: relative; height: 34px; background: linear-gradient(90deg, var(--v-worsens-bg), #fff 50%, var(--v-improves-bg)); border-radius: 6px; box-shadow: inset 0 0 0 1px var(--line); }
 .dstrip-mid { position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: var(--line-strong); }
-.dot { position: absolute; border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 0 1.5px #fff; }
+.dstrip .dot { position: absolute; border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 0 1.5px #fff; }
 @media (max-width: 640px) {
   .irow { grid-template-columns: 92px 1fr; gap: 10px; }
   .ir-name { font-size: 13px; }
