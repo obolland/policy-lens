@@ -62,13 +62,7 @@
       </div>
     </section>
 
-    <div class="gridcard">
-      <div class="grid-scroll">
-        <table class="grid" id="grid"><caption class="vh" style="position:absolute;left:-9999px;">Party verdicts by issue</caption></table>
-      </div>
-      <!-- mobile: stacked issue-cards rendered here instead of the table (see app.js renderCards) -->
-      <div class="grid-cards" id="grid-cards"></div>
-    </div>
+    <div id="board" class="board"></div>
 
     <div class="legend" aria-hidden="false">
       <span class="key v-improves">↑ Helps</span>
@@ -76,8 +70,8 @@
       <span class="key v-mixed">↕ Mixed</span>
       <span class="key v-negligible">– Little effect</span>
       <span class="key v-uncertain">⚖ Genuinely contested</span>
-      <span>· select any cell to see the policies behind it, their evidence and how confident we are</span>
-      <span class="order-note" title="The order parties appear in carries no ranking — it's shuffled each visit so position implies nothing.">⇅ Party order is shuffled — position implies no ranking</span>
+      <span>· select any party to see the policies behind it, their evidence and how confident we are</span>
+      <span class="order-note" title="Within each issue, parties are ordered by how their policies lean on that issue — there is no overall score or ranking.">⇅ Ordered by lean within each issue — no overall ranking</span>
     </div>
   </main>
 
