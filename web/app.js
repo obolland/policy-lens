@@ -269,6 +269,14 @@
   const MAGV = { minor: 1, moderate: 2, major: 3, "n/a": 1 };       // distance from centre = effect size
   const CONFOP = { low: .34, moderate: .66, high: 1 };              // opacity = confidence
   const CONFSZ = { low: 8, moderate: 11, high: 14 };
+  // a policy's position on the spread axis (helps right, hurts left). Also orders the drawer list so it
+  // reads in the same order as the spread — the far-left harm outlier ends up last, not buried mid-list.
+  function spreadX(oc) {
+    const m = MAGV[oc.magnitude] || 1;
+    if (oc.direction === "improves") return 50 + (m / 3) * 43;
+    if (oc.direction === "worsens") return 50 - (m / 3) * 43;
+    return 50;
+  }
 
   function vCounts(party, oid) {
     const c = { improves: 0, worsens: 0, mixed: 0, negligible: 0, "too-uncertain": 0, n: 0, gaps: 0 };
@@ -288,15 +296,27 @@
       '<span class="dv-pos" style="width:' + w(c.improves) + '%"></span></div>' +
       '<span class="dv-num pos" title="' + c.improves + ' help">' + (c.improves || '') + '</span></div>';
   }
+  // SPREAD: x = effect size (direction × magnitude), y = confidence (higher = more certain). Dots that
+  // share an (effect, confidence) bucket fan out in a small cluster so none hide behind another.
+  const CONFY = { high: 30, moderate: 50, low: 70 };
   function dotStrip(party, oid) {
-    const items = lookupAll(party, oid).filter(x => x.oc.direction).map(x => x.oc)
-      .sort((a, b) => DIR_ORDER.indexOf(a.direction) - DIR_ORDER.indexOf(b.direction));
-    let dots = "", i = 0;
-    for (const oc of items) {
-      const m = MAGV[oc.magnitude] || 1; let x;
-      if (oc.direction === "improves") x = 50 + (m / 3) * 43; else if (oc.direction === "worsens") x = 50 - (m / 3) * 43; else x = 50 + (i % 2 ? 3 : -3);
-      const y = 50 + (((i * 41) % 66) - 33) / 2.6, sz = CONFSZ[oc.confidence] || 10, op = CONFOP[oc.confidence] || .6;
-      dots += '<span class="dot" style="left:' + x + '%;top:' + y + '%;width:' + sz + 'px;height:' + sz + 'px;background:' + SEG[oc.direction] + ';opacity:' + op + '"></span>'; i++;
+    const items = lookupAll(party, oid).filter(x => x.oc.direction)
+      .sort((a, b) => spreadX(b.oc) - spreadX(a.oc));
+    const bucket = {};
+    let dots = "";
+    for (const { record, oc } of items) {
+      const m = MAGV[oc.magnitude] || 1;
+      const cx = oc.direction === "improves" ? 50 + (m / 3) * 43 : oc.direction === "worsens" ? 50 - (m / 3) * 43 : 50;
+      const cy = CONFY[oc.confidence] || 50;
+      const key = oc.direction + m + oc.confidence;
+      const n = (bucket[key] = (bucket[key] || 0) + 1) - 1;          // 0,1,2,… within this bucket
+      const ang = (n % 6) * (Math.PI / 3), r = 2.5 + Math.min(3, Math.floor(n / 6)) * 4;
+      const x = Math.max(3, Math.min(97, cx + Math.cos(ang) * r));
+      const y = Math.max(15, Math.min(85, cy + Math.sin(ang) * r * 0.7));
+      const tip = record.policy_title + ' — ' + VERDICT[oc.direction].label +
+        (oc.magnitude && oc.magnitude !== "n/a" ? ', ' + oc.magnitude + ' effect' : '') +
+        (oc.confidence ? ', ' + oc.confidence + ' confidence' : '');
+      dots += '<span class="dot" title="' + esc(tip) + '" style="left:' + x + '%;top:' + y + '%;width:10px;height:10px;background:' + SEG[oc.direction] + '"></span>';
     }
     return '<div class="dstrip"><span class="dstrip-mid"></span>' + dots + '</div>';
   }
@@ -322,7 +342,7 @@
     if (!any) return "";
     const axis = o.type === "directional"
       ? '<div class="axis-lab"><span>open ◄</span><span>► more controlled</span></div>'
-      : (visMode === "dots" ? '<div class="axis-lab"><span>◄ bigger harm</span><span class="al-mid">faded = less certain</span><span>bigger benefit ►</span></div>'
+      : (visMode === "dots" ? '<div class="axis-lab"><span>◄ bigger harm</span><span class="al-mid">↕ height = confidence</span><span>bigger benefit ►</span></div>'
         : '<div class="axis-lab"><span>◄ hurts</span><span>helps ►</span></div>');
     return '<section class="issue"><h3 class="issue-h">' + esc(o.name) + (o.type === "directional" ? ' <span class="o-tag">direction only</span>' : '') + '</h3>' +
       '<p class="issue-plain">' + esc(o.plain) + '</p>' + axis + rows + '</section>';
@@ -680,12 +700,13 @@
 
     let b = '<p class="multi-intro">We don’t roll these into one score — each policy is judged on its own and listed below, so you can see the full spread and decide what weighs most.</p>';
     b += bar + '<div class="dist-mix wide">' + mix + '</div><div class="policy-list">';
-    const ordered = verdicts.slice().sort((a, c) => DIR_ORDER.indexOf(a.oc.direction) - DIR_ORDER.indexOf(c.oc.direction));
+    const ordered = verdicts.slice().sort((a, c) => spreadX(c.oc) - spreadX(a.oc));  // strongest helps → strongest harm (matches the spread)
     for (const { record, oc } of ordered) {
       const v = VERDICT[oc.direction];
       b += '<details class="policy-item" data-pid="' + esc(record.policy_id) + '"><summary>' +
         '<span class="pi-icon v-' + v.cls + '" aria-hidden="true">' + v.icon + '</span>' +
         '<span class="pi-title">' + esc(record.policy_title) + '</span>' +
+        (oc.magnitude && oc.magnitude !== "n/a" ? '<span class="pi-mag">' + esc(oc.magnitude) + '</span>' : '') +
         '<span class="pi-verdict v-' + v.cls + '">' + esc(v.label) + '</span></summary>' +
         '<div class="pi-body">' + singleVerdictBody(record, oc) + '</div></details>';
     }
