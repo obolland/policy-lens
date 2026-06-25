@@ -258,20 +258,23 @@
     const order = o.type === "directional" ? D.parties.slice() : leanSort(o.id);
     const max = o.type === "directional" ? 0 : issueMaxSide(o.id);
     for (const p of order) {
-      let vis, nsub = "";
+      let vis, nsub = "", aria;
       if (o.type === "directional") {
         const reads = lookupAll(p, o.id).filter(h => h.oc.shift); if (!reads.length) continue;
         vis = directionalChip(reads);
+        aria = p + ' on ' + o.name + ' — open the policies';
       } else {
         const c = vCounts(p, o.id); if (!c.n) continue;
         vis = visMode === "dots" ? dotStrip(p, o.id) : divBar(p, o.id, max);
         nsub = '<span class="ir-n">' + c.n + (c.n === 1 ? ' policy' : ' policies') + '</span>';
+        const other = c.n - c.improves - c.worsens;
+        aria = p + ' on ' + o.name + ': ' + c.improves + ' help, ' + c.worsens + ' hurt' + (other ? ', ' + other + ' mixed or other' : '') + ' — open the policies';
       }
       any = true;
-      rows += '<button class="irow" type="button" data-party="' + esc(p) + '" data-oc="' + o.id + '">' +
+      rows += '<button class="irow" type="button" aria-label="' + esc(aria) + '" data-party="' + esc(p) + '" data-oc="' + o.id + '">' +
         '<span class="ir-name">' + esc(p) + nsub + '</span><span class="ir-vis">' + vis + '</span></button>';
     }
-    if (!any) return "";
+    if (!any) return '<section class="issue"><h3 class="issue-h">' + esc(o.name) + '</h3><p class="issue-plain">' + esc(o.plain) + '</p><p class="empty-note">No assessed policies here yet.</p></section>';
     // quick per-issue tally: how the parties split on THIS issue (descriptive, no overall score)
     let tally = "";
     if (o.type !== "directional") {
@@ -303,7 +306,7 @@
     if (!cols.length) return '<p class="empty-note">Pick an issue above to compare the parties.</p>';
     const parties = hmSort ? D.parties.slice().sort((a, b) => netLean(b, hmSort) - netLean(a, hmSort)) : D.parties;
     let h = '<div class="issue"><div class="hm-scroll"><table class="hm"><thead><tr><th class="hm-cap">Party</th>';
-    for (const o of cols) h += '<th data-sort="' + o.id + '" class="' + (hmSort === o.id ? 'on' : '') + '" title="' + esc(o.plain) + '">' + esc(o.name) + '</th>';
+    for (const o of cols) h += '<th data-sort="' + o.id + '" class="' + (hmSort === o.id ? 'on' : '') + '" tabindex="0" role="button" aria-label="Sort parties by ' + esc(o.name) + '" title="' + esc(o.plain) + '">' + esc(o.name) + '</th>';
     h += '</tr></thead><tbody>';
     for (const p of parties) {
       h += '<tr><th class="hm-party" scope="row">' + esc(p) + '</th>';
@@ -351,9 +354,11 @@
       visMode = b.dataset.vis; try { localStorage.setItem("stw_vis", visMode); } catch (e) {}
       track("vis-toggle", { v: visMode }); renderBoard();
     }));
-    host.querySelectorAll(".hm th[data-sort]").forEach(th => th.addEventListener("click", () => {
-      hmSort = (hmSort === th.dataset.sort) ? null : th.dataset.sort; renderBoard();
-    }));
+    host.querySelectorAll(".hm th[data-sort]").forEach(th => {
+      const sort = () => { hmSort = (hmSort === th.dataset.sort) ? null : th.dataset.sort; renderBoard(); };
+      th.addEventListener("click", sort);
+      th.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sort(); } });
+    });
   }
 
   function tier(name, cls, text) {
