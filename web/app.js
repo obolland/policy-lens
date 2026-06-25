@@ -280,11 +280,13 @@
   function issueMaxSide(oid) { let m = 1; for (const p of D.parties) { const c = vCounts(p, oid); m = Math.max(m, c.improves, c.worsens); } return m; }
 
   function divBar(party, oid, max) {
-    const c = vCounts(party, oid), other = c.n - c.improves - c.worsens, w = n => (n / max * 48);
-    return '<div class="dv"><span class="dv-axis"></span>' +
+    const c = vCounts(party, oid), w = n => (n / max * 50);   // a side reaches the edge at the issue's max
+    return '<div class="dvwrap">' +
+      '<span class="dv-num neg" title="' + c.worsens + ' hurt">' + (c.worsens || '') + '</span>' +
+      '<div class="dv"><span class="dv-axis"></span>' +
       '<span class="dv-neg" style="width:' + w(c.worsens) + '%"></span>' +
       '<span class="dv-pos" style="width:' + w(c.improves) + '%"></span></div>' +
-      '<div class="rowmeta">' + (c.improves ? c.improves + ' help ' : '') + (c.worsens ? '· ' + c.worsens + ' hurt ' : '') + (other ? '· ' + other + ' mixed/other' : '') + '</div>';
+      '<span class="dv-num pos" title="' + c.improves + ' help">' + (c.improves || '') + '</span></div>';
   }
   function dotStrip(party, oid) {
     const items = lookupAll(party, oid).filter(x => x.oc.direction).map(x => x.oc)
@@ -296,8 +298,7 @@
       const y = 50 + (((i * 41) % 66) - 33) / 2.6, sz = CONFSZ[oc.confidence] || 10, op = CONFOP[oc.confidence] || .6;
       dots += '<span class="dot" style="left:' + x + '%;top:' + y + '%;width:' + sz + 'px;height:' + sz + 'px;background:' + SEG[oc.direction] + ';opacity:' + op + '"></span>'; i++;
     }
-    return '<div class="dstrip"><span class="dstrip-mid"></span>' + dots + '</div>' +
-      '<div class="rowmeta">' + items.length + ' policies · position = size of effect · faded = less certain</div>';
+    return '<div class="dstrip"><span class="dstrip-mid"></span>' + dots + '</div>';
   }
 
   function issueSection(o) {
@@ -305,22 +306,23 @@
     const order = o.type === "directional" ? D.parties.slice() : leanSort(o.id);
     const max = o.type === "directional" ? 0 : issueMaxSide(o.id);
     for (const p of order) {
-      let vis;
+      let vis, nsub = "";
       if (o.type === "directional") {
         const reads = lookupAll(p, o.id).filter(h => h.oc.shift); if (!reads.length) continue;
         vis = directionalChip(reads);
       } else {
         const c = vCounts(p, o.id); if (!c.n) continue;
         vis = visMode === "dots" ? dotStrip(p, o.id) : divBar(p, o.id, max);
+        nsub = '<span class="ir-n">' + c.n + (c.n === 1 ? ' policy' : ' policies') + '</span>';
       }
       any = true;
       rows += '<button class="irow" type="button" data-party="' + esc(p) + '" data-oc="' + o.id + '">' +
-        '<span class="ir-name">' + esc(p) + '</span><span class="ir-vis">' + vis + '</span></button>';
+        '<span class="ir-name">' + esc(p) + nsub + '</span><span class="ir-vis">' + vis + '</span></button>';
     }
     if (!any) return "";
     const axis = o.type === "directional"
       ? '<div class="axis-lab"><span>open ◄</span><span>► more controlled</span></div>'
-      : (visMode === "dots" ? '<div class="axis-lab"><span>◄ bigger harm</span><span>bigger benefit ►</span></div>'
+      : (visMode === "dots" ? '<div class="axis-lab"><span>◄ bigger harm</span><span class="al-mid">faded = less certain</span><span>bigger benefit ►</span></div>'
         : '<div class="axis-lab"><span>◄ hurts</span><span>helps ►</span></div>');
     return '<section class="issue"><h3 class="issue-h">' + esc(o.name) + (o.type === "directional" ? ' <span class="o-tag">direction only</span>' : '') + '</h3>' +
       '<p class="issue-plain">' + esc(o.plain) + '</p>' + axis + rows + '</section>';
