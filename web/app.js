@@ -340,24 +340,70 @@
     return s + '</div><p class="ysum-note">A tally of the issues you picked — not an overall score. You weigh what matters.</p></div>';
   }
 
+  // ── desktop-only "Grid" view: the at-a-glance matrix (parties × your issues), coloured by net lean ──
+  let hmSort = null;
+  function leanColour(lean) {
+    const a = Math.min(.9, Math.abs(lean) * 1.15 + .12);
+    if (lean > 0.08) return ['rgba(21,114,58,' + a + ')', a > .5 ? '#fff' : 'var(--ink)'];
+    if (lean < -0.08) return ['rgba(179,18,28,' + a + ')', a > .5 ? '#fff' : 'var(--ink)'];
+    return ['rgba(120,128,138,.16)', 'var(--ink)'];
+  }
+  function renderMatrix(cols) {
+    if (!cols.length) return '<p class="empty-note">Pick an issue above to compare the parties.</p>';
+    const parties = hmSort ? D.parties.slice().sort((a, b) => netLean(b, hmSort) - netLean(a, hmSort)) : D.parties;
+    let h = '<div class="issue"><div class="hm-scroll"><table class="hm"><thead><tr><th class="hm-cap">Party</th>';
+    for (const o of cols) h += '<th data-sort="' + o.id + '" class="' + (hmSort === o.id ? 'on' : '') + '" title="' + esc(o.plain) + '">' + esc(o.name) + '</th>';
+    h += '</tr></thead><tbody>';
+    for (const p of parties) {
+      h += '<tr><th class="hm-party" scope="row">' + esc(p) + '</th>';
+      for (const o of cols) {
+        if (o.type === "directional") {
+          const reads = lookupAll(p, o.id).filter(x => x.oc.shift);
+          if (!reads.length) { h += '<td><div class="hcell hm-empty">—</div></td>'; continue; }
+          const net = dirLean(reads), a = net > 0.25 ? '→' : net < -0.25 ? '←' : '~';
+          h += '<td><button class="hcell hm-dir" type="button" data-party="' + esc(p) + '" data-oc="' + o.id + '"><b>' + a + '</b><small>' + reads.length + '</small></button></td>';
+        } else {
+          const c = vCounts(p, o.id); if (!c.n) { h += '<td><div class="hcell hm-empty">—</div></td>'; continue; }
+          const lean = (c.improves - c.worsens) / c.n, col = leanColour(lean);
+          const dom = c.improves > c.worsens ? '↑' : c.improves < c.worsens ? '↓' : '↕';
+          h += '<td><button class="hcell" type="button" style="background:' + col[0] + ';color:' + col[1] + '" data-party="' + esc(p) + '" data-oc="' + o.id + '"><b>' + dom + '</b><small>' + c.improves + '·' + c.worsens + '</small></button></td>';
+        }
+      }
+      h += '</tr>';
+    }
+    const sortNote = hmSort ? 'Sorted by ' + esc((D.outcomes.find(o => o.id === hmSort) || {}).name) + '.' : 'Click a column header to rank parties on that issue.';
+    return h + '</tbody></table></div><p class="hm-note">↑/↓ = net lean · numbers = help·hurt · grey = mixed/balanced · immigration shown as direction (no good/bad). ' + sortNote + ' Select a cell for the policies.</p></div>';
+  }
+
   function visToggle() {
-    return '<div class="visbar"><span class="visbar-l">View</span>' +
-      '<button class="vt' + (visMode === "bars" ? " on" : "") + '" data-vis="bars" type="button">▰ Bars</button>' +
-      '<button class="vt' + (visMode === "dots" ? " on" : "") + '" data-vis="dots" type="button">⠿ Spread</button></div>';
+    const eff = (visMode === "grid" && isMobile) ? "bars" : visMode;
+    let b = '<div class="visbar"><span class="visbar-l">View</span>' +
+      '<button class="vt' + (eff === "bars" ? " on" : "") + '" data-vis="bars" type="button">▰ Bars</button>' +
+      '<button class="vt' + (eff === "dots" ? " on" : "") + '" data-vis="dots" type="button">⠿ Spread</button>';
+    if (!isMobile) b += '<button class="vt' + (eff === "grid" ? " on" : "") + '" data-vis="grid" type="button">▦ Grid</button>';
+    return b + '</div>';
   }
 
   function renderBoard() {
     document.body.classList.toggle("is-mobile", isMobile);
     const cols = D.outcomes.filter(o => selected.has(o.id));
-    let html = visToggle() + yourSummary(cols);
-    if (!cols.length) html += '<p class="empty-note">Pick an issue above to compare the parties.</p>';
-    for (const o of cols) html += issueSection(o);
+    const mode = (visMode === "grid" && isMobile) ? "bars" : visMode;   // Grid is desktop-only
+    let html = visToggle();
+    if (mode === "grid") html += renderMatrix(cols);
+    else {
+      html += yourSummary(cols);
+      if (!cols.length) html += '<p class="empty-note">Pick an issue above to compare the parties.</p>';
+      for (const o of cols) html += issueSection(o);
+    }
     const host = document.getElementById("board");
     host.innerHTML = html;
-    host.querySelectorAll(".irow").forEach(b => b.addEventListener("click", () => openDrawer(b.dataset.party, b.dataset.oc, b)));
+    host.querySelectorAll(".irow, .hcell[data-party]").forEach(b => b.addEventListener("click", () => openDrawer(b.dataset.party, b.dataset.oc, b)));
     host.querySelectorAll(".vt").forEach(b => b.addEventListener("click", () => {
       visMode = b.dataset.vis; try { localStorage.setItem("stw_vis", visMode); } catch (e) {}
       track("vis-toggle", { v: visMode }); renderBoard();
+    }));
+    host.querySelectorAll(".hm th[data-sort]").forEach(th => th.addEventListener("click", () => {
+      hmSort = (hmSort === th.dataset.sort) ? null : th.dataset.sort; renderBoard();
     }));
   }
 
