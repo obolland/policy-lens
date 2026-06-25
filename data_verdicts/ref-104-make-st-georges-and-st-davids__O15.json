@@ -3,37 +3,603 @@
   "party": "Reform UK",
   "policy_title": "Make St George's and St David's Day public holidays",
   "outcome": "O15",
-  "gap": "unsourced",
+  "verdict": {
+    "outcome": "O15",
+    "direction": "negligible",
+    "magnitude": "minor",
+    "time_horizon": "this-parliament",
+    "confidence": "low",
+    "plain": "Making St George's and St David's Day bank holidays could boost national pride and shared celebration, but there is no solid evidence this translates into measurable improvements in social trust or community cohesion at population scale. The effect on belonging is speculative.",
+    "biggest_unknown": "Whether national-day bank holidays actually increase inter-group trust and civic participation, or mainly benefit those who already identify strongly with the national symbol.",
+    "claims": [
+      {
+        "tier": "projected",
+        "claim": "Elevating these days to public holidays could foster a greater sense of national pride and encourage cultural events and celebrations.",
+        "evidence_id": "E16",
+        "quote": "Making these days public holidays would elevate their status, potentially fostering a greater sense of national pride and encouraging cultural events and celebrations"
+      },
+      {
+        "tier": "measurable",
+        "claim": "St George's Day and St David's Day are not currently bank holidays, unlike patron saint days in other UK nations, so designating them would bring England and Wales in line with Scotland and Northern Ireland.",
+        "evidence_id": "E19",
+        "quote": "Designating St George's Day and St David's Day would bring England and Wales in line with other UK nations in celebrating their patron saints"
+      }
+    ],
+    "rationale": "The only evidence directly touching O15 is E16, which uses explicitly speculative language ('potentially fostering'). The policy does commit a concrete mechanism \u2014 a statutory bank holiday \u2014 but a mechanism being plausible is not the same as evidence it fires at scale. There is no cited evidence that national-day holidays measurably improve social trust surveys, reduce loneliness, increase civic participation, or reduce inter-group tension in comparable real-world cases. The policy frames its goal around English national identity specifically; while that could generate shared celebration, it could equally leave out residents who do not identify with that symbol \u2014 but there is no cited evidence on either side of that sub-question, so it cannot drive the verdict. Given the sole O15-relevant claim is speculative and no baseline cohesion data or comparable natural experiments are provided, the honest verdict is that any effect is likely minor at most, with low confidence. The direction is assessed as negligible rather than too-uncertain because there is no cited evidence of a material countervailing harm either \u2014 both sides lack grounding, and the mechanism's scale effect is simply undemonstrated.",
+    "time_split": {
+      "near_direction": "negligible",
+      "long_direction": "negligible",
+      "note": "No evidence suggests cohesion effects accumulate or decay meaningfully over time versus an immediate symbolic boost."
+    },
+    "sources": [
+      {
+        "url": "https://www.youtube.com/watch?v=w1phi9HRFuc",
+        "publisher": "youtube.com",
+        "title": "youtube.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.politicshome.com/thehouse/article/welsh-government-should-have-power-to-make-st-davids-day-a-public-holiday",
+        "publisher": "politicshome.com",
+        "title": "politicshome.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.mylondon.news/lifestyle/st-georges-day-exact-amount-33822418",
+        "publisher": "mylondon.news",
+        "title": "mylondon.news",
+        "source_type": "media"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Proposed_Saint_David%27s_Day_bank_holiday",
+        "publisher": "en.wikipedia.org",
+        "title": "wikipedia.org",
+        "source_type": "media"
+      }
+    ]
+  },
   "meta": {
-    "cost_equiv_usd": 0.0266,
-    "gap": "unsourced",
+    "cost_equiv_usd": 0.0683,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [],
+      "notes": "The verdict is defensible. The sole O15-relevant claim (E16) is correctly tiered as projected and the quote entails the claim \u2014 speculative language preserved. The measurable claim (E19) is factual in character and the quote supports it. Direction 'negligible' with low confidence is consistent with the evidence base: only speculative mechanism evidence, no baseline cohesion data or comparable natural experiments cited. The rationale correctly avoids motive-attribution and treats the national-identity framing neutrally. Magnitude 'minor' and time_horizon 'this-parliament' are appropriate for a symbolic policy with no demonstrated population-scale cohesion effect. No lever leakage, no party-blind issues, no false balance (negligible is not mixed/too-uncertain so the false_balance gate does not apply). One minor observation: E16 is sourced partly from youtube.com which is weak provenance, but the claim is already flagged as projected so this does not affect the verdict tier. No blocking issues found."
+    },
     "gate": {
-      "kept": 0,
+      "kept": 2,
       "dropped": [
         {
-          "claim": "The policy commits to making St George's Day and St David's Day public holidays, framed as officially promoting and celebrating English national identity.",
+          "claim": "The policy commits to making St George's Day and St David's Day public holidays, explicitly to promote and celebrate English national identity.",
           "evidence_id": "M",
-          "reason": "quote_not_verbatim_in_snippet"
-        },
-        {
-          "claim": "Designating these days as public holidays is projected to elevate their status and potentially foster national pride and cultural events.",
-          "evidence_id": "E16",
-          "reason": "quote_not_verbatim_in_snippet"
-        },
-        {
-          "claim": "England and Wales currently have fewer bank holidays than the European average.",
-          "evidence_id": "E18",
-          "reason": "quote_not_verbatim_in_snippet"
-        },
-        {
-          "claim": "St David's Day holiday status is a devolved matter in Scotland but not Wales, and the UK Government has previously resisted devolving the power citing cross-border concerns.",
-          "evidence_id": "E21",
           "reason": "quote_not_verbatim_in_snippet"
         }
       ],
-      "status": "gap_unsourced",
-      "has_external_evidence": false
+      "status": "ok",
+      "has_external_evidence": true
     },
-    "note": "no claim could be verbatim-bound to a provided evidence unit \u2014 logged gap, not published"
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "Reform UK will make St George\u2019s and St David\u2019s Day public holidays, stating that English national identity should be officially promoted and celebrated.",
+        "sources": [
+          {
+            "url": "https://www.reformparty.uk/policies",
+            "publisher": "reformparty.uk",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "The Department for Digital, Culture, Media and Sport (DCMS) estimated the cost of the Queen's Platinum Jubilee bank holiday in June 2022 to be **\u00a32.4 billion** in terms of GDP loss",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05775/SN05775.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05775/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "More recently, the UK Government stated that a one-off extra bank holiday, such as for the King's Coronation in 2023, would cost around **\u00a32 billion** for the UK economy",
+        "sources": [
+          {
+            "url": "https://www.express.co.uk/news/uk/2196935/st-georges-day-bank-holiday-plan",
+            "publisher": "express.co.uk",
+            "title": "express.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.mylondon.news/lifestyle/st-georges-day-exact-amount-33822418",
+            "publisher": "mylondon.news",
+            "title": "mylondon.news",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   The Centre for Economics and Business Research (CEBR) estimated in 2020 that a one-off additional bank holiday could cost **\u00a31.8 billion**, with \"most of that\" recovered within a month, though they described these calculations as \"very rough and ready\"",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05775/SN05775.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "An earlier CEBR estimate from 2012 suggested each bank holiday could lower annual GDP by about 0.16%, or \u00a32.3 billion, but this figure is considered outdated due to changes in the economy",
+        "sources": [
+          {
+            "url": "https://fullfact.org/economy/will-four-extra-bank-holidays-cost-us-10-billion/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   Some research, including from PwC, suggests that government estimates of bank holiday costs might be an overestimate, potentially by as much as 64%, as they may not fully account for benefits like improved well-being",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/apr/26/jubilee-permanent-extra-bank-holiday-campaign-cost-economy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.open-access.bcu.ac.uk/13285/1/Are%20Bank%20Holidays%20Bad%20for%20Productivity.pdf",
+            "publisher": "open-access.bcu.ac.uk",
+            "title": "bcu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://theweek.com/business/economy/956923/how-do-bank-holidays-affect-the-economy",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.consultancy.uk/news/31174/research-government-overestimates-the-cost-of-bank-holidays",
+            "publisher": "consultancy.uk",
+            "title": "consultancy.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   The Office for National Statistics (ONS) acknowledges that the UK's GDP experiences a \"slight dip\" during bank holiday periods, making it difficult to isolate the exact impact due to other economic factors",
+        "sources": [
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOuA8xZIEm9zQqS29mqLjCQd7gPNDWFqVeoEdQRMpR1tTPFpjXosX7KUOrvaxzAceaG6lH5ZDxz92po-pXuOBoMM2BwbunB-DhkWAnfyMOjLj-a9TOdQvwVwboBJGqyRdTiYzrwyBR3Xvd7saffBVr9wdUXaC66O3sv9-0Oa-ORqdubtffRfMP0uzJm3U=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "efgha.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05775/SN05775.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.capitaleconomics.com/clients/publications/uk-economics/uk-economics-update/jubilee-bank-holiday-makes-life-hard-for-the-bank-of-england",
+            "publisher": "capitaleconomics.com",
+            "title": "capitaleconomics.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "For example, GDP fell by 1.0% in June 2022 (Platinum Jubilee) and 0.3% in May 2023 (Coronation), with subsequent rebounds",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05775/SN05775.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "**Sector-Specific Impacts:**\n*   **Loss of Productivity:** Many businesses and schools would close, leading to decreased output and revenue in sectors outside of hospitality and retail",
+        "sources": [
+          {
+            "url": "https://www.investcentre.co.uk/articles/are-special-bank-holidays-bad-news-business",
+            "publisher": "investcentre.co.uk",
+            "title": "investcentre.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.qsrecruitment.com/what-is-the-economic-impact-of-strikes-and-bank-holidays-in-the-uk/",
+            "publisher": "qsrecruitment.com",
+            "title": "qsrecruitment.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/business/economy/956923/how-do-bank-holidays-affect-the-economy",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "The Centre for Economics and Business Research has estimated that each public holiday costs the UK approximately \u00a32.3 billion in lost productivity",
+        "sources": [
+          {
+            "url": "https://www.qsrecruitment.com/what-is-the-economic-impact-of-strikes-and-bank-holidays-in-the-uk/",
+            "publisher": "qsrecruitment.com",
+            "title": "qsrecruitment.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Manufacturing and construction sectors, in particular, may experience significant losses, especially if an extra day off leads to a whole week being lost for some operations",
+        "sources": [
+          {
+            "url": "https://www.open-access.bcu.ac.uk/13285/1/Are%20Bank%20Holidays%20Bad%20for%20Productivity.pdf",
+            "publisher": "open-access.bcu.ac.uk",
+            "title": "bcu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "For example, the Platinum Jubilee weekend saw pubs, bars, and nightclubs experience a 74.2% increase in spending compared to the same period the previous year, and overall hospitality spending was up over 40%",
+        "sources": [
+          {
+            "url": "https://www.investcentre.co.uk/articles/are-special-bank-holidays-bad-news-business",
+            "publisher": "investcentre.co.uk",
+            "title": "investcentre.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "Retail sales can be boosted by 15%, particularly in DIY, gardening, and furniture, and by 20% for hospitality and catering compared to a normal weekend",
+        "sources": [
+          {
+            "url": "https://www.bangor.ac.uk/news/2022-05-30-bank-holidays-how-a-day-off-work-affects-the-economy",
+            "publisher": "bangor.ac.uk",
+            "title": "bangor.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.open-access.bcu.ac.uk/13285/1/Are%20Bank%20Holidays%20Bad%20for%20Productivity.pdf",
+            "publisher": "open-access.bcu.ac.uk",
+            "title": "bcu.ac.uk",
+            "source_type": "academic"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "VisitEngland estimated that the August bank holiday weekend could bring a **\u00a34.1 billion** boost to the economy from domestic overnight trips",
+        "sources": [
+          {
+            "url": "https://www.visitbritain.org/news-and-media/industry-news-and-press-releases/ps41-billion-boost-economy-estimated-112-million",
+            "publisher": "visitbritain.org",
+            "title": "visitbritain.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "*   **Disagreement on Net Effect:** While some argue that increased consumer spending can offset lost productivity, official figures often show that the benefits from higher consumer spending do not fully outweigh the costs from businesses closing",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/business/2022/jun/02/queens-jubilee-expected-to-give-6bn-boost-to-uk-retail-and-hospitality",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.reddit.com/r/explainlikeimfive/comments/1e27f9f/eli5_i_saw_a_claim_that_an_additional/",
+            "publisher": "reddit.com",
+            "title": "reddit.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "However, the economic impact is complex and varies by the timing of the holiday and the industrial mix of the economy",
+        "sources": [
+          {
+            "url": "https://www.bangor.ac.uk/news/2022-05-30-bank-holidays-how-a-day-off-work-affects-the-economy",
+            "publisher": "bangor.ac.uk",
+            "title": "bangor.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOuA8xZIEm9zQqS29mqLjCQd7gPNDWFqVeoEdQRMpR1tTPFpjXosX7KUOrvaxzAceaG6lH5ZDxz92po-pXuOBoMM2BwbunB-DhkWAnfyMOjLj-a9TOdQvwVwboBJGqyRdTiYzrwyBR3Xvd7saffBVr9wdUXaC66O3sv9-0Oa-ORqdubtffRfMP0uzJm3U=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "efgha.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "Making these days public holidays would elevate their status, potentially fostering a greater sense of national pride and encouraging cultural events and celebrations",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=w1phi9HRFuc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.politicshome.com/thehouse/article/welsh-government-should-have-power-to-make-st-davids-day-a-public-holiday",
+            "publisher": "politicshome.com",
+            "title": "politicshome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "*   **Increased Leisure and Well-being:** Bank holidays provide workers with an additional day off, which can positively impact staff morale, well-being, and work-life balance, potentially leading to increased productivity in the long run",
+        "sources": [
+          {
+            "url": "https://www.bangor.ac.uk/news/2022-05-30-bank-holidays-how-a-day-off-work-affects-the-economy",
+            "publisher": "bangor.ac.uk",
+            "title": "bangor.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOuA8xZIEm9zQqS29mqLjCQd7gPNDWFqVeoEdQRMpR1tTPFpjXosX7KUOrvaxzAceaG6lH5ZDxz92po-pXuOBoMM2BwbunB-DhkWAnfyMOjLj-a9TOdQvwVwboBJGqyRdTiYzrwyBR3Xvd7saffBVr9wdUXaC66O3sv9-0Oa-ORqdubtffRfMP0uzJm3U=",
+            "publisher": "vertexaisearch.cloud.google.com",
+            "title": "efgha.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/apr/26/jubilee-permanent-extra-bank-holiday-campaign-cost-economy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/business/economy/956923/how-do-bank-holidays-affect-the-economy",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/extras/bankholidaybusinesscase.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "England and Wales currently have eight bank holidays, which is fewer than the European average of 11",
+        "sources": [
+          {
+            "url": "https://www.bangor.ac.uk/news/2022-05-30-bank-holidays-how-a-day-off-work-affects-the-economy",
+            "publisher": "bangor.ac.uk",
+            "title": "bangor.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/apr/26/jubilee-permanent-extra-bank-holiday-campaign-cost-economy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.fathom-consulting.com/time-for-more-bank-holidays/",
+            "publisher": "fathom-consulting.com",
+            "title": "fathom-consulting.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "Designating St George's Day and St David's Day would bring England and Wales in line with other UK nations in celebrating their patron saints",
+        "sources": [
+          {
+            "url": "https://www.mylondon.news/lifestyle/st-georges-day-exact-amount-33822418",
+            "publisher": "mylondon.news",
+            "title": "mylondon.news",
+            "source_type": "media"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Proposed_Saint_David%27s_Day_bank_holiday",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=w1phi9HRFuc",
+            "publisher": "youtube.com",
+            "title": "youtube.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.politicshome.com/thehouse/article/welsh-government-should-have-power-to-make-st-davids-day-a-public-holiday",
+            "publisher": "politicshome.com",
+            "title": "politicshome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "The power to designate bank holidays is devolved in Scotland but not in Wales, which has been a point of contention for Welsh politicians who advocate for a St David's Day holiday",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Proposed_Saint_David%27s_Day_bank_holiday",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://nation.cymru/opinion/st-davids-day-and-the-case-for-devolution-of-public-holidays/",
+            "publisher": "nation.cymru",
+            "title": "nation.cymru",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.politicshome.com/thehouse/article/welsh-government-should-have-power-to-make-st-davids-day-a-public-holiday",
+            "publisher": "politicshome.com",
+            "title": "politicshome.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The UK Government has previously resisted devolving this power to Wales, citing concerns about business disruption due to cross-border commuting with England",
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Proposed_Saint_David%27s_Day_bank_holiday",
+            "publisher": "en.wikipedia.org",
+            "title": "wikipedia.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://nation.cymru/opinion/st-davids-day-and-the-case-for-devolution-of-public-holidays/",
+            "publisher": "nation.cymru",
+            "title": "nation.cymru",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "Benefit:** While government impact assessments and some economic consultancies emphasize the significant GDP loss",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05775/SN05775.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05775/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://www.qsrecruitment.com/what-is-the-economic-impact-of-strikes-and-bank-holidays-in-the-uk/",
+            "publisher": "qsrecruitment.com",
+            "title": "qsrecruitment.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "They contend that the boost to certain sectors (retail, hospitality, tourism) and the less quantifiable benefits of improved well-being and productivity offsets some of the perceived costs",
+        "sources": [
+          {
+            "url": "https://www.bangor.ac.uk/news/2022-05-30-bank-holidays-how-a-day-off-work-affects-the-economy",
+            "publisher": "bangor.ac.uk",
+            "title": "bangor.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.theguardian.com/uk-news/2022/apr/26/jubilee-permanent-extra-bank-holiday-campaign-cost-economy",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.open-access.bcu.ac.uk/13285/1/Are%20Bank%20Holidays%20Bad%20for%20Productivity.pdf",
+            "publisher": "open-access.bcu.ac.uk",
+            "title": "bcu.ac.uk",
+            "source_type": "academic"
+          },
+          {
+            "url": "https://www.fathom-consulting.com/time-for-more-bank-holidays/",
+            "publisher": "fathom-consulting.com",
+            "title": "fathom-consulting.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://theweek.com/business/economy/956923/how-do-bank-holidays-affect-the-economy",
+            "publisher": "theweek.com",
+            "title": "theweek.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.consultancy.uk/news/31174/research-government-overestimates-the-cost-of-bank-holidays",
+            "publisher": "consultancy.uk",
+            "title": "consultancy.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.tuc.org.uk/sites/default/files/extras/bankholidaybusinesscase.pdf",
+            "publisher": "tuc.org.uk",
+            "title": "tuc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "*   **Measurement Challenges:** The Office for National Statistics (ONS) notes the difficulty in accurately measuring the economic effects due to the challenge of creating a \"counterfactual\" (what would have happened without the holiday) and isolating the impact from other economic factors",
+        "sources": [
+          {
+            "url": "https://researchbriefings.files.parliament.uk/documents/SN05775/SN05775.pdf",
+            "publisher": "researchbriefings.files.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/sn05775/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          },
+          {
+            "url": "https://fullfact.org/economy/will-four-extra-bank-holidays-cost-us-10-billion/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   **Nature of the Holiday:** Some analyses suggest that \"special\" bank holidays linked to events (like Jubilees) might boost tourism more than regular ones",
+        "sources": [
+          {
+            "url": "https://fullfact.org/economy/will-four-extra-bank-holidays-cost-us-10-billion/",
+            "publisher": "fullfact.org",
+            "title": "fullfact.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
   }
 }

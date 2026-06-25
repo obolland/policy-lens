@@ -3,9 +3,601 @@
   "party": "Conservative",
   "policy_title": "Cut Cost of Net Zero for Consumers",
   "outcome": "O2",
-  "gap": "truncation",
+  "verdict": {
+    "outcome": "O2",
+    "direction": "improves",
+    "magnitude": "moderate",
+    "time_horizon": "this-parliament",
+    "confidence": "moderate",
+    "plain": "By capping and cutting the 'policy cost' component of energy bills, this policy would deliver real near-term savings of roughly \u00a3100\u2013250 per household annually. The main caveat is that restricting renewables investment may slow the shift away from volatile gas prices, potentially raising bills over the longer run.",
+    "biggest_unknown": "Whether reducing levy-funded renewables and efficiency investment prolongs UK dependence on volatile wholesale gas prices, erasing or reversing the near-term savings beyond this parliament.",
+    "claims": [
+      {
+        "tier": "stated",
+        "claim": "The policy commits to no new green levies and guarantees annual policy costs on energy bills will be lower than in 2023.",
+        "evidence_id": "M",
+        "quote": "guaranteeing no new green levies or charges, ensuring annual policy costs on energy bills are lower than in 2023"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Green levies currently add around \u00a3137\u2013\u00a3188 per year to a typical household's energy bill.",
+        "evidence_id": "E2",
+        "quote": "green levies were projected to be around \u00a3188 per year (excluding VAT) for a typical household, representing about 11% of a dual fuel bill"
+      },
+      {
+        "tier": "measurable",
+        "claim": "A May 2025 analysis found green levies at \u00a3137 per year, or 15% of total bills.",
+        "evidence_id": "E5",
+        "quote": "green levies to be \u00a3137 per year, or 15% of total bills, noting their share had decreased as wholesale prices rose dramatically"
+      },
+      {
+        "tier": "measurable",
+        "claim": "The 2023 baseline price cap for a typical dual fuel household was \u00a32,074 falling to \u00a31,923.",
+        "evidence_id": "E15",
+        "quote": "In July 2023, the Ofgem price cap for a typical dual fuel household was \u00a32,074, decreasing to \u00a31,923 in October 2023"
+      },
+      {
+        "tier": "measurable",
+        "claim": "Wholesale gas prices, not green levies, drove the bulk of bill rises \u2014 accounting for 53% of the rise in electricity bills since pre-crisis levels vs 6% for green levies.",
+        "evidence_id": "E17",
+        "quote": "wholesale prices, driven by gas, accounted for 53% of the rise in electricity bills since pre-crisis levels, compared to green levies at 6% and network charges at 20%"
+      },
+      {
+        "tier": "projected",
+        "claim": "Cutting renewables subsidies could reduce a typical household's fuel bill by \u00a3178 a year by 2030.",
+        "evidence_id": "E9",
+        "quote": "removing renewables subsidies could reduce a typical household's fuel bill by \u00a3178 a year by 2030"
+      },
+      {
+        "tier": "projected",
+        "claim": "Opponents argue such cuts are 'utterly self-defeating' and could prolong gas reliance, ultimately leading to higher long-term costs.",
+        "evidence_id": "E10",
+        "quote": "cuts are \"utterly self-defeating\" and could prolong the UK's reliance on gas, ultimately leading to higher long-term costs for consumers"
+      },
+      {
+        "tier": "projected",
+        "claim": "Levy-funded programmes have historically driven down energy bills through investment in efficiency and cheaper renewables.",
+        "evidence_id": "E11",
+        "quote": "levy-funded programs have historically driven down energy bills through investments in energy efficiency and cheaper renewable technologies"
+      },
+      {
+        "tier": "projected",
+        "claim": "The CCC projects average household energy bills could be around \u00a3700 cheaper by 2050 if decarbonisation is followed.",
+        "evidence_id": "E20",
+        "quote": "annual household energy bills could be approximately \u00a3700 cheaper, and driving bills also around \u00a3700 cheaper, compared to today"
+      }
+    ],
+    "rationale": "The policy's core mechanism is concrete: a committed ceiling on policy costs below the 2023 baseline. Green levies currently add \u00a3137\u2013\u00a3188 per typical household per year, so reducing them would produce a real, population-scale reduction in one component of energy bills \u2014 material for households, especially lower-income ones where energy costs are a larger share of spending. The 2023 baseline provides an enforceable anchor.\n\nHowever, the near-term saving must be weighed against a credible long-term risk. Wholesale gas \u2014 not green levies \u2014 was the primary driver of the 2022\u201323 cost-of-living energy crisis, accounting for 53% of bill rises vs 6% for levies. Levy-funded renewables investment reduces exposure to that gas price volatility. Cutting levies that fund cheaper renewables and home efficiency improvements may therefore slow the structural shift that would reduce long-run bills, as projected by both the CCC and Resolution Foundation.\n\nAbsent the policy, green levies would continue funding renewables whose falling costs would gradually reduce dependence on gas \u2014 the counterfactual benefit that the policy forgoes. The near-term gain is real and evidenced; the long-term cost is contested but grounded in credible institutional analysis (CCC, Resolution Foundation). On O2 alone \u2014 affordability of essentials now \u2014 the near-term direction is a genuine improvement for households, but confidence is only moderate because the magnitude of savings is contested (\u00a3137\u2013\u00a3250/yr range) and the long-run risk is real.",
+    "time_split": {
+      "near_direction": "improves",
+      "long_direction": "mixed",
+      "note": "Near-term: cutting policy costs directly lowers bills by ~\u00a3100\u2013250/yr; long-term: slower renewables buildout could increase gas-price exposure and lose projected bill savings from decarbonisation."
+    },
+    "sources": [
+      {
+        "url": "https://www.conservatives.com/our-plan-for-britain",
+        "publisher": "conservatives.com",
+        "source_type": "manifesto"
+      },
+      {
+        "url": "https://eciu.net/insights/2024/are-green-levies-going-up-in-april-2024",
+        "publisher": "eciu.net",
+        "title": "eciu.net",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.carbonbrief.org/factcheck-why-expensive-gas-not-net-zero-is-keeping-uk-electricity-prices-so-high/",
+        "publisher": "carbonbrief.org",
+        "title": "carbonbrief.org",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.nea.org.uk/about-us/energy-crisis/energy-crisis-timeline/",
+        "publisher": "nea.org.uk",
+        "title": "nea.org.uk",
+        "source_type": "media"
+      },
+      {
+        "url": "https://lordslibrary.parliament.uk/electricity-prices-in-great-britain/",
+        "publisher": "lordslibrary.parliament.uk",
+        "title": "parliament.uk",
+        "source_type": "government"
+      },
+      {
+        "url": "https://uk.finance.yahoo.com/news/green-levies-not-vat-off-000100924.html",
+        "publisher": "uk.finance.yahoo.com",
+        "title": "yahoo.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theguardian.com/environment/2022/feb/04/cuts-to-green-levies-on-energy-bills-is-false-economy-say-analysts",
+        "publisher": "theguardian.com",
+        "title": "theguardian.com",
+        "source_type": "media"
+      },
+      {
+        "url": "https://www.theccc.org.uk/2025/02/26/end-the-fossil-fuel-age-for-a-secure-and-prosperous-future/",
+        "publisher": "theccc.org.uk",
+        "title": "theccc.org.uk",
+        "source_type": "media"
+      }
+    ]
+  },
   "meta": {
-    "cost_equiv_usd": 0.3,
-    "note": "verdict truncated through all effort tiers \u2014 logged coverage gap for manual review"
+    "cost_equiv_usd": 0.0517,
+    "revisions": [],
+    "verifier": {
+      "passed": true,
+      "blocking_issues": [
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim 'Levy-funded programmes have historically driven down energy bills through investment in efficiency and cheaper renewables' cites E11 (theguardian.com quoting unnamed organizations), which is advocacy/secondary reporting rather than primary evidence. This is labelled 'projected' which is appropriate, but the historical framing ('have historically') implies established fact rather than a contested claim."
+        },
+        {
+          "check": "source_support",
+          "severity": "warning",
+          "detail": "Claim about cutting renewables subsidies saving \u00a3178/yr by 2030 (E9) is sourced from Green Alliance via yahoo.com \u2014 an advocacy source \u2014 and is presented without a counter-estimate or caveat label in the claim itself, though E9 is correctly tiered as projected."
+        }
+      ],
+      "notes": "The verdict is broadly sound. Direction of 'improves' for near-term O2 is defensible: the stated policy commitment is clear, the levy baseline is evidenced from multiple sources, and the \u00a3137\u2013188/yr range is well-supported. The long-run risk caveat is properly hedged as projected. Tier discipline is maintained throughout. No lever leakage, no party-blind issues, no false balance \u2014 the mixed long-term signal is noted in time_split rather than driving the headline direction, which is appropriate given O2 focuses on affordability now. Minor warnings raised but nothing blocking."
+    },
+    "gate": {
+      "kept": 9,
+      "dropped": [],
+      "status": "ok",
+      "has_external_evidence": true
+    },
+    "evidence": [
+      {
+        "evidence_id": "M",
+        "snippet": "The Conservative Party will cut the cost of net zero for consumers by guaranteeing no new green levies or charges, ensuring annual policy costs on energy bills are lower than in 2023, and reforming the Climate Change Committee to consider cost to households and energy security.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/our-plan-for-britain",
+            "publisher": "conservatives.com",
+            "source_type": "manifesto"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E1",
+        "snippet": "*   **Current Green Levies:** Green levies, officially termed \"policy costs,\" fund a range of government schemes including support for low-carbon energy generation (e.g., Renewables Obligation, Feed-in Tariffs, Contracts for Difference), energy efficiency measures (e.g., Energy Company Obligation), and assistance for vulnerable households (e.g., Warm Home Discount, Smart Meter Programme, Green Gas Levy).",
+        "sources": [
+          {
+            "url": "https://www.energy-uk.org.uk/wp-content/uploads/2025/03/Energy-UK-Report-How-to-cut-bills-March-2025.pdf",
+            "publisher": "energy-uk.org.uk",
+            "title": "energy-uk.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://eciu.net/insights/2024/are-green-levies-going-up-in-april-2024",
+            "publisher": "eciu.net",
+            "title": "eciu.net",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/10/Splitting-the-bill.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10505/",
+            "publisher": "commonslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E2",
+        "snippet": "*   In March 2024, green levies were projected to be around \u00a3188 per year (excluding VAT) for a typical household, representing about 11% of a dual fuel bill.",
+        "sources": [
+          {
+            "url": "https://eciu.net/insights/2024/are-green-levies-going-up-in-april-2024",
+            "publisher": "eciu.net",
+            "title": "eciu.net",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E3",
+        "snippet": "*   Energy UK, in March 2025, stated that government policy costs recovered from bills amounted to \u00a3180 per typical household annually.",
+        "sources": [
+          {
+            "url": "https://www.energy-uk.org.uk/wp-content/uploads/2025/03/Energy-UK-Report-How-to-cut-bills-March-2025.pdf",
+            "publisher": "energy-uk.org.uk",
+            "title": "energy-uk.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E4",
+        "snippet": "*   The Resolution Foundation, in October 2025, put the figure at over \u00a3250 per year for a typical household across both gas and electricity bills.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/10/Splitting-the-bill.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E5",
+        "snippet": "*   A May 2025 analysis by Carbon Brief found green levies to be \u00a3137 per year, or 15% of total bills, noting their share had decreased as wholesale prices rose dramatically.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/factcheck-why-expensive-gas-not-net-zero-is-keeping-uk-electricity-prices-so-high/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E6",
+        "snippet": "*   An October 2021 estimate from the OBR indicated a direct electricity bill impact of approximately \u00a3150 per year, with a total cost of living impact (including indirect costs passed on by businesses) of roughly \u00a3400 per household annually.",
+        "sources": [
+          {
+            "url": "https://static1.squarespace.com/static/656f411497ae14084ad8d03a/t/6586e442eb0339570232f0d9/1703339074670/Green-Levies.pdf",
+            "publisher": "static1.squarespace.com",
+            "title": "squarespace.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E7",
+        "snippet": "Long-term Investment:**\n    *   **Potential Savings:** The Conservative Party, in October 2025, claimed that \"axing the Carbon Tax and scrap[ping] Ed's rip-off wind subsidies\" could cut electricity bills by 20%, saving the average family \u00a3165 a year.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/news/energy-is-prosperity",
+            "publisher": "conservatives.com",
+            "title": "conservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E8",
+        "snippet": "Rachel Reeves, in November 2025, was reported to be considering cuts to green levies and VAT that could save up to \u00a3170 from the average bill.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/uk-news/2025/nov/04/chancellor-considers-cut-green-levies-reduce-cost-of-energy-bills-rachel-reeves",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E9",
+        "snippet": "Green Alliance suggested that removing renewables subsidies could reduce a typical household's fuel bill by \u00a3178 a year by 2030.",
+        "sources": [
+          {
+            "url": "https://uk.finance.yahoo.com/news/green-levies-not-vat-off-000100924.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E10",
+        "snippet": "Organizations like E3G and the Regulatory Assistance Project argue that such cuts are \"utterly self-defeating\" and could prolong the UK's reliance on gas, ultimately leading to higher long-term costs for consumers.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2022/feb/04/cuts-to-green-levies-on-energy-bills-is-false-economy-say-analysts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E11",
+        "snippet": "They emphasize that levy-funded programs have historically driven down energy bills through investments in energy efficiency and cheaper renewable technologies.",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/environment/2022/feb/04/cuts-to-green-levies-on-energy-bills-is-false-economy-say-analysts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E12",
+        "snippet": "The Office for Budget Responsibility (OBR) anticipated that approximately \u00a32.3 billion a year of green levies would be removed from household electricity bills and shifted to general taxation starting April 2026, primarily from the Renewables Obligation scheme.",
+        "sources": [
+          {
+            "url": "https://www.publicaffairsnetworking.com/news/halfway-there-government-ditches-green-levies-to-reach-energy-bills-goal",
+            "publisher": "publicaffairsnetworking.com",
+            "title": "publicaffairsnetworking.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E13",
+        "snippet": "This shift is seen by some, like the Resolution Foundation, as a way to relieve pressure on household bills, particularly for welfare schemes.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/10/Splitting-the-bill.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/splitting-the-bill/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E14",
+        "snippet": "However, the OBR has also warned that future green energy costs, such as from Contracts for Difference (CfDs), could add billions more to consumer bills, potentially reaching \u00a34.6 billion by 2030-2031.",
+        "sources": [
+          {
+            "url": "https://www.agcc.co.uk/news-article/households-face-billions-in-green-energy-costs-obr-warns",
+            "publisher": "agcc.co.uk",
+            "title": "agcc.co.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E15",
+        "snippet": "*   **2023 Baseline:** In July 2023, the Ofgem price cap for a typical dual fuel household was \u00a32,074, decreasing to \u00a31,923 in October 2023.",
+        "sources": [
+          {
+            "url": "https://www.nea.org.uk/about-us/energy-crisis/energy-crisis-timeline/",
+            "publisher": "nea.org.uk",
+            "title": "nea.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E16",
+        "snippet": "*   **Impact of Proposed Changes:** By moving existing levies, such as a significant portion of the Renewables Obligation, to general taxation (as projected by the OBR for April 2026, saving \u00a388) and potentially scrapping other schemes like the Energy Company Obligation (estimated to save \u00a359), the government aims to directly reduce the policy cost component on bills.",
+        "sources": [
+          {
+            "url": "https://www.publicaffairsnetworking.com/news/halfway-there-government-ditches-green-levies-to-reach-energy-bills-goal",
+            "publisher": "publicaffairsnetworking.com",
+            "title": "publicaffairsnetworking.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E17",
+        "snippet": "Carbon Brief highlighted in May 2025 that wholesale prices, driven by gas, accounted for 53% of the rise in electricity bills since pre-crisis levels, compared to green levies at 6% and network charges at 20%.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/factcheck-why-expensive-gas-not-net-zero-is-keeping-uk-electricity-prices-so-high/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://lordslibrary.parliament.uk/electricity-prices-in-great-britain/",
+            "publisher": "lordslibrary.parliament.uk",
+            "title": "parliament.uk",
+            "source_type": "government"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E18",
+        "snippet": "*   **CCC's Current Stance:** The Climate Change Committee (CCC) already integrates cost and energy security considerations into its advice, often arguing that a robust net zero transition *enhances* energy security and *reduces* long-term costs.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/ccc-net-zero-will-protect-uk-from-fossil-fuel-price-shocks/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theccc.org.uk/2025/02/26/end-the-fossil-fuel-age-for-a-secure-and-prosperous-future/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theccc.org.uk/2026/03/11/cost-of-net-zero-by-2050-less-than-a-single-fossil-fuel-price-shock-ccc/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E19",
+        "snippet": "*   **Cost-Effectiveness:** The CCC maintains that achieving net zero is a more cost-effective pathway for the UK than continued reliance on fossil fuels, leading to a net benefit for society.",
+        "sources": [
+          {
+            "url": "https://www.theccc.org.uk/2026/03/11/cost-of-net-zero-by-2050-less-than-a-single-fossil-fuel-price-shock-ccc/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E20",
+        "snippet": "By 2050, if its decarbonization pathway is followed, annual household energy bills could be approximately \u00a3700 cheaper, and driving bills also around \u00a3700 cheaper, compared to today.",
+        "sources": [
+          {
+            "url": "https://www.theccc.org.uk/2025/02/26/end-the-fossil-fuel-age-for-a-secure-and-prosperous-future/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E21",
+        "snippet": "The Resolution Foundation, referencing CCC data, estimates average household savings of \u00a31,080 a year by 2050, primarily from cheaper electricity and driving, even with higher upfront costs for technologies like heat pumps.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/02/The-grass-is-greener-on-the-net-zero-side.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/the-grass-is-greener-on-the-net-zero-side/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E22",
+        "snippet": "It found that the total additional cost of a single fossil fuel price spike (like that in 2022) is comparable to the total net additional cost of achieving net zero across every year until 2050.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/ccc-net-zero-will-protect-uk-from-fossil-fuel-price-shocks/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theccc.org.uk/2026/03/11/cost-of-net-zero-by-2050-less-than-a-single-fossil-fuel-price-shock-ccc/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E23",
+        "snippet": "If the UK were on a net-zero path, average household energy bills in 2040 would be 15 times less sensitive to gas price spikes.",
+        "sources": [
+          {
+            "url": "https://www.carbonbrief.org/ccc-net-zero-will-protect-uk-from-fossil-fuel-price-shocks/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E24",
+        "snippet": "These investments are crucial for achieving long-term, sustained reductions in energy bills by decreasing reliance on volatile fossil fuels and improving home energy performance.",
+        "sources": [
+          {
+            "url": "https://www.atlanticrenewables.co.uk/contact-us/news-blog/potential-impact-of-labour-s-proposed-green-levy-cut-on-uk-energy-bills-and-renewables-sector.html",
+            "publisher": "atlanticrenewables.co.uk",
+            "title": "atlanticrenewables.co.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theguardian.com/environment/2022/feb/04/cuts-to-green-levies-on-energy-bills-is-false-economy-say-analysts",
+            "publisher": "theguardian.com",
+            "title": "theguardian.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.carbonbrief.org/ccc-net-zero-will-protect-uk-from-fossil-fuel-price-shocks/",
+            "publisher": "carbonbrief.org",
+            "title": "carbonbrief.org",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theccc.org.uk/2025/02/26/end-the-fossil-fuel-age-for-a-secure-and-prosperous-future/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.theccc.org.uk/2026/03/11/cost-of-net-zero-by-2050-less-than-a-single-fossil-fuel-price-shock-ccc/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E25",
+        "snippet": "*   Conversely, the policy focuses on the immediate \"cost of net zero for consumers\" and seeks to guarantee no new levies, emphasizing the short-term financial relief.",
+        "sources": [
+          {
+            "url": "https://www.conservatives.com/news/energy-is-prosperity",
+            "publisher": "conservatives.com",
+            "title": "conservatives.com",
+            "source_type": "media"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E26",
+        "snippet": "*   Organizations like the Resolution Foundation have argued that welfare-oriented schemes outsourced to energy bills should be funded through the tax system for better targeting and fairness.",
+        "sources": [
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/10/Splitting-the-bill.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/splitting-the-bill/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E27",
+        "snippet": "*   While some acknowledge the potential to shift certain \"legacy\" renewable subsidies to general taxation as they decline (e.g., Renewables Obligation, Feed-in Tariffs)",
+        "sources": [
+          {
+            "url": "https://www.publicaffairsnetworking.com/news/halfway-there-government-ditches-green-levies-to-reach-energy-bills-goal",
+            "publisher": "publicaffairsnetworking.com",
+            "title": "publicaffairsnetworking.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://uk.finance.yahoo.com/news/green-levies-not-vat-off-000100924.html",
+            "publisher": "uk.finance.yahoo.com",
+            "title": "yahoo.com",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/publications/splitting-the-bill/",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      },
+      {
+        "evidence_id": "E28",
+        "snippet": "The distribution of these costs and benefits, particularly for lower-income households and non-car owners, is an area of ongoing discussion and policy challenge.",
+        "sources": [
+          {
+            "url": "https://www.theccc.org.uk/publication/the-seventh-carbon-budget/",
+            "publisher": "theccc.org.uk",
+            "title": "theccc.org.uk",
+            "source_type": "media"
+          },
+          {
+            "url": "https://www.resolutionfoundation.org/app/uploads/2025/02/The-grass-is-greener-on-the-net-zero-side.pdf",
+            "publisher": "resolutionfoundation.org",
+            "title": "resolutionfoundation.org",
+            "source_type": "institutional"
+          }
+        ]
+      }
+    ]
   }
 }

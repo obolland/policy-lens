@@ -3596,8 +3596,9 @@ window.POLICY_DATA = {
         },
         {
           "outcome": "O2",
-          "gap": "truncation",
-          "gap_label": "not yet assessed (technical)"
+          "direction": "mixed",
+          "magnitude": "moderate",
+          "confidence": "moderate"
         },
         {
           "outcome": "O5",
@@ -3615,9 +3616,9 @@ window.POLICY_DATA = {
       "meta": {
         "source_balance": {
           "by_type": {
-            "manifesto": 4,
-            "media": 15,
-            "government": 7,
+            "manifesto": 5,
+            "media": 19,
+            "government": 8,
             "institutional": 1
           },
           "advocacy_flag": false
@@ -3674,8 +3675,9 @@ window.POLICY_DATA = {
       "per_outcome": [
         {
           "outcome": "O2",
-          "gap": "truncation",
-          "gap_label": "not yet assessed (technical)"
+          "direction": "improves",
+          "magnitude": "moderate",
+          "confidence": "moderate"
         },
         {
           "outcome": "O6",
@@ -3687,8 +3689,8 @@ window.POLICY_DATA = {
       "meta": {
         "source_balance": {
           "by_type": {
-            "manifesto": 1,
-            "media": 4
+            "manifesto": 2,
+            "media": 10
           },
           "advocacy_flag": false
         }
@@ -15714,8 +15716,9 @@ window.POLICY_DATA = {
         },
         {
           "outcome": "O15",
-          "gap": "unsourced",
-          "gap_label": "analysed \u2014 couldn't verify external evidence"
+          "direction": "negligible",
+          "magnitude": "minor",
+          "confidence": "low"
         },
         {
           "outcome": "O4",
@@ -15729,7 +15732,7 @@ window.POLICY_DATA = {
           "by_type": {
             "government": 1,
             "academic": 3,
-            "media": 4
+            "media": 6
           },
           "advocacy_flag": false
         }
