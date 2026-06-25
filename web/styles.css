@@ -80,12 +80,12 @@ html { scroll-behavior: smooth; }
 .ysum-p { font-weight: 700; } .ysum-n { color: var(--muted); } .ysum-n b { font-weight: 800; }
 .v-improves { color: var(--v-improves); } .v-worsens { color: var(--v-worsens); }
 .ysum-note { font-size: 12px; color: var(--muted); margin: 11px 0 0; }
-.issue { margin: 0 0 28px; }
+.issue { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px 14px; margin: 0 0 16px; box-shadow: var(--shadow); }
 .issue-h { font-size: 21px; letter-spacing: -.012em; margin: 0 0 2px; }
 .issue-plain { font-size: 13.5px; color: var(--muted); margin: 0 0 12px; max-width: 70ch; }
 .axis-lab { display: flex; justify-content: space-between; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 6px 152px; }
 .irow { display: grid; grid-template-columns: 138px 1fr; gap: 16px; align-items: center; width: 100%; text-align: left; background: none; border: 0; border-top: 1px solid var(--line); padding: 12px 6px; cursor: pointer; font: inherit; }
-.irow:last-child { border-bottom: 1px solid var(--line); }
+.irow:last-child { border-bottom: 0; }
 .irow:hover { background: var(--panel); }
 .ir-name { font-weight: 700; font-size: 14.5px; }
 .ir-vis { min-width: 0; }
