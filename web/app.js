@@ -261,83 +261,102 @@
     }));
   }
 
-  // the content for one (party, outcome) cell — shared by the desktop table and the mobile cards
-  function cellInner(party, o) {
-    const hits = lookupAll(party, o.id);
-    if (o.type === "directional") {  // immigration etc. — neutral axis, no good/bad
-      const reads = hits.filter(h => h.oc.shift);
-      if (!reads.length) return { empty: true };
-      return { cls: "dir", html: directionalChip(reads) };
+  // ── THE BOARD (v2 design): personalised + issue-first. Each selected issue compares the parties;
+  //    a vis selector switches the per-party encoding (diverging bars ⇄ dot spread); tapping a row
+  //    opens the evidence drawer. Replaces the old wide table + mobile cards. ──
+  let visMode = (function () { try { return localStorage.getItem("stw_vis") || "bars"; } catch (e) { return "bars"; } })();
+  const SEG = { improves: "var(--v-improves)", worsens: "var(--v-worsens)", mixed: "var(--v-mixed)", negligible: "var(--v-negligible)", "too-uncertain": "var(--v-uncertain)" };
+  const MAGV = { minor: 1, moderate: 2, major: 3, "n/a": 1 };       // distance from centre = effect size
+  const CONFOP = { low: .34, moderate: .66, high: 1 };              // opacity = confidence
+  const CONFSZ = { low: 8, moderate: 11, high: 14 };
+
+  function vCounts(party, oid) {
+    const c = { improves: 0, worsens: 0, mixed: 0, negligible: 0, "too-uncertain": 0, n: 0, gaps: 0 };
+    for (const x of lookupAll(party, oid)) { if (x.oc.direction) { c[x.oc.direction]++; c.n++; } else if (x.oc.gap) c.gaps++; }
+    return c;
+  }
+  function netLean(party, oid) { const c = vCounts(party, oid); return c.improves - c.worsens; }
+  function leanSort(oid) { return D.parties.slice().sort((a, b) => netLean(b, oid) - netLean(a, oid)); }
+  function issueMaxSide(oid) { let m = 1; for (const p of D.parties) { const c = vCounts(p, oid); m = Math.max(m, c.improves, c.worsens); } return m; }
+
+  function divBar(party, oid, max) {
+    const c = vCounts(party, oid), other = c.n - c.improves - c.worsens, w = n => (n / max * 48);
+    return '<div class="dv"><span class="dv-axis"></span>' +
+      '<span class="dv-neg" style="width:' + w(c.worsens) + '%"></span>' +
+      '<span class="dv-pos" style="width:' + w(c.improves) + '%"></span></div>' +
+      '<div class="rowmeta">' + (c.improves ? c.improves + ' help ' : '') + (c.worsens ? '· ' + c.worsens + ' hurt ' : '') + (other ? '· ' + other + ' mixed/other' : '') + '</div>';
+  }
+  function dotStrip(party, oid) {
+    const items = lookupAll(party, oid).filter(x => x.oc.direction).map(x => x.oc)
+      .sort((a, b) => DIR_ORDER.indexOf(a.direction) - DIR_ORDER.indexOf(b.direction));
+    let dots = "", i = 0;
+    for (const oc of items) {
+      const m = MAGV[oc.magnitude] || 1; let x;
+      if (oc.direction === "improves") x = 50 + (m / 3) * 43; else if (oc.direction === "worsens") x = 50 - (m / 3) * 43; else x = 50 + (i % 2 ? 3 : -3);
+      const y = 50 + (((i * 41) % 66) - 33) / 2.6, sz = CONFSZ[oc.confidence] || 10, op = CONFOP[oc.confidence] || .6;
+      dots += '<span class="dot" style="left:' + x + '%;top:' + y + '%;width:' + sz + 'px;height:' + sz + 'px;background:' + SEG[oc.direction] + ';opacity:' + op + '"></span>'; i++;
     }
-    const verdicts = hits.filter(h => h.oc.direction);   // real verdicts
-    const gaps = hits.filter(h => h.oc.gap);              // typed coverage gaps (honest, not blanks)
-    if (!hits.length) return { empty: true };
-    if (!verdicts.length) return { cls: "gap", html: '<div class="dist-lead gap-lead">⊘ ' + gaps.length + ' not yet assessed</div>' };
-    const gnote = gaps.length ? '<div class="dist-gapnote">+' + gaps.length + ' not yet assessed</div>' : "";
-    if (verdicts.length === 1) return { cls: VERDICT[verdicts[0].oc.direction].cls, html: verdictChip(verdicts[0].oc, verdicts[0].record) + gnote };
-    return { cls: "multi", html: distributionChip(verdicts) + gnote };
+    return '<div class="dstrip"><span class="dstrip-mid"></span>' + dots + '</div>' +
+      '<div class="rowmeta">' + items.length + ' policies · position = size of effect · faded = less certain</div>';
   }
 
-  function renderGrid() {
-    const cols = D.outcomes.filter(o => selected.has(o.id));
-    let head = '<thead><tr><th scope="col"><span class="vh">Party</span></th>';
-    for (const o of cols) head += '<th scope="col"' + (o.type === "directional" ? ' class="col-dir"' : "") + '>' + esc(o.name) + '<span class="col-plain">' + esc(o.plain) + '</span></th>';
-    head += '</tr></thead><tbody>';
-    let body = "";
-    for (const party of D.parties) {
-      body += '<tr><th scope="row" class="party">' + esc(party) + '</th>';
-      for (const o of cols) {
-        const ci = cellInner(party, o);
-        const dc = o.type === "directional" ? " cell-dir" : "";
-        if (ci.empty) { body += '<td class="cell' + dc + '"><div class="cell-empty">no policy</div></td>'; continue; }
-        body += '<td class="cell' + dc + '"><button class="cell-btn ' + ci.cls + '" type="button" data-party="' + esc(party) +
-          '" data-oc="' + o.id + '">' + ci.html + '</button></td>';
+  function issueSection(o) {
+    let rows = "", any = false;
+    const order = o.type === "directional" ? D.parties.slice() : leanSort(o.id);
+    const max = o.type === "directional" ? 0 : issueMaxSide(o.id);
+    for (const p of order) {
+      let vis;
+      if (o.type === "directional") {
+        const reads = lookupAll(p, o.id).filter(h => h.oc.shift); if (!reads.length) continue;
+        vis = directionalChip(reads);
+      } else {
+        const c = vCounts(p, o.id); if (!c.n) continue;
+        vis = visMode === "dots" ? dotStrip(p, o.id) : divBar(p, o.id, max);
       }
-      body += '</tr>';
+      any = true;
+      rows += '<button class="irow" type="button" data-party="' + esc(p) + '" data-oc="' + o.id + '">' +
+        '<span class="ir-name">' + esc(p) + '</span><span class="ir-vis">' + vis + '</span></button>';
     }
-    document.getElementById("grid").innerHTML = head + body + '</tbody>';
-    document.querySelectorAll(".cell-btn").forEach(b => b.addEventListener("click", () =>
-      openDrawer(b.dataset.party, b.dataset.oc, b)));
-    // sticky-column elevation shadow: on only while horizontally scrolled (listener wired once)
-    const gs = document.querySelector(".grid-scroll");
-    if (gs) {
-      gs.classList.toggle("scrolled", gs.scrollLeft > 0);
-      if (!gs._shadowWired) {
-        gs._shadowWired = true;
-        gs.addEventListener("scroll", () => gs.classList.toggle("scrolled", gs.scrollLeft > 0), { passive: true });
-      }
-    }
+    if (!any) return "";
+    const axis = o.type === "directional"
+      ? '<div class="axis-lab"><span>open ◄</span><span>► more controlled</span></div>'
+      : (visMode === "dots" ? '<div class="axis-lab"><span>◄ bigger harm</span><span>bigger benefit ►</span></div>'
+        : '<div class="axis-lab"><span>◄ hurts</span><span>helps ►</span></div>');
+    return '<section class="issue"><h3 class="issue-h">' + esc(o.name) + (o.type === "directional" ? ' <span class="o-tag">direction only</span>' : '') + '</h3>' +
+      '<p class="issue-plain">' + esc(o.plain) + '</p>' + axis + rows + '</section>';
   }
 
-  // MOBILE: one card per selected issue, with each party stacked inside (no wide table, no h-scroll)
-  function renderCards() {
-    const cols = D.outcomes.filter(o => selected.has(o.id));
-    let html = "";
-    for (const o of cols) {
-      html += '<section class="ocard"><div class="ocard-h">' + esc(o.name) +
-        (o.type === "directional" ? ' <span class="o-tag">direction only</span>' : "") +
-        '<span class="ocard-plain">' + esc(o.plain) + '</span></div>';
-      for (const party of D.parties) {
-        const ci = cellInner(party, o);
-        if (ci.empty) {
-          html += '<div class="ocard-row empty"><span class="ocard-party">' + esc(party) + '</span><span class="ocard-na">no policy</span></div>';
-        } else {
-          html += '<button class="ocard-row ' + ci.cls + '" type="button" data-party="' + esc(party) + '" data-oc="' + o.id + '">' +
-            '<span class="ocard-party">' + esc(party) + '</span><span class="ocard-cell">' + ci.html + '</span></button>';
-        }
-      }
-      html += "</section>";
+  function yourSummary(cols) {
+    const val = cols.filter(o => o.type !== "directional");
+    if (val.length < 2) return "";
+    let s = '<div class="ysum"><div class="ysum-h">Across the issues you picked</div><div class="ysum-grid">';
+    for (const p of D.parties) {
+      let help = 0, hurt = 0;
+      for (const o of val) { const n = netLean(p, o.id); if (n > 0) help++; else if (n < 0) hurt++; }
+      s += '<div class="ysum-row"><span class="ysum-p">' + esc(p) + '</span><span class="ysum-n"><b class="v-improves">' + help + '</b> help-lean · <b class="v-worsens">' + hurt + '</b> hurt-lean</span></div>';
     }
-    const host = document.getElementById("grid-cards");
-    host.innerHTML = html;
-    host.querySelectorAll(".ocard-row[data-party]").forEach(b => b.addEventListener("click", () =>
-      openDrawer(b.dataset.party, b.dataset.oc, b)));
+    return s + '</div><p class="ysum-note">A tally of the issues you picked — not an overall score. You weigh what matters.</p></div>';
   }
 
-  // pick table vs cards by viewport
+  function visToggle() {
+    return '<div class="visbar"><span class="visbar-l">View</span>' +
+      '<button class="vt' + (visMode === "bars" ? " on" : "") + '" data-vis="bars" type="button">▰ Bars</button>' +
+      '<button class="vt' + (visMode === "dots" ? " on" : "") + '" data-vis="dots" type="button">⠿ Spread</button></div>';
+  }
+
   function renderBoard() {
     document.body.classList.toggle("is-mobile", isMobile);
-    if (isMobile) renderCards(); else renderGrid();
+    const cols = D.outcomes.filter(o => selected.has(o.id));
+    let html = visToggle() + yourSummary(cols);
+    if (!cols.length) html += '<p class="empty-note">Pick an issue above to compare the parties.</p>';
+    for (const o of cols) html += issueSection(o);
+    const host = document.getElementById("board");
+    host.innerHTML = html;
+    host.querySelectorAll(".irow").forEach(b => b.addEventListener("click", () => openDrawer(b.dataset.party, b.dataset.oc, b)));
+    host.querySelectorAll(".vt").forEach(b => b.addEventListener("click", () => {
+      visMode = b.dataset.vis; try { localStorage.setItem("stw_vis", visMode); } catch (e) {}
+      track("vis-toggle", { v: visMode }); renderBoard();
+    }));
   }
 
   function tier(name, cls, text) {
