@@ -62,77 +62,11 @@
     return hits;
   }
 
-  // The cell leads on the HELP↔HURT balance only. Mixed / little-effect / contested don't compete
-  // with a direction — they say "no clear lean" — so they're SIDELINED out of the headline (shown
-  // muted beneath, as a grey bar block, and in full on tap), never counted into the denominator. We
-  // show BOTH raw help and hurt numbers, so there's no hidden remainder to misread as "the opposite".
-  // A direction is asserted only when one side clearly outweighs; close calls read "Roughly even".
-  function spreadLead(hits) {
-    const counts = {};
-    for (const h of hits) counts[h.oc.direction] = (counts[h.oc.direction] || 0) + 1;
-    const help = counts.improves || 0, hurt = counts.worsens || 0;
-    const dir = help + hurt, other = hits.length - dir;
-    const lo = Math.min(help, hurt), hi = Math.max(help, hurt);
-    // clear lean: one side unopposed, OR ≥60% of the directional policies AND ahead by ≥2
-    const clear = dir > 0 && (lo === 0 ? hi >= 1 : (hi / dir >= 0.6 && hi - lo >= 2));
-    let base;
-    if (!clear) base = { icon: "↕", cls: "mixed", text: dir ? "Roughly even" : "No clear lean" };
-    else if (hurt > help) base = { icon: "↓", cls: "worsens", text: "Leans negative" };
-    else base = { icon: "↑", cls: "improves", text: "Leans positive" };
-    return Object.assign(base, { help, hurt, other, counts });
-  }
-
-  // multi-policy cell — help/hurt is the signal (big, colour-coded); the rest is sidelined (see spreadLead)
-  const _OTHER_DIRS = ["mixed", "negligible", "too-uncertain"];
-  const _OTHER_WORD = { mixed: "mixed", negligible: "little effect", "too-uncertain": "contested" };
-  function distributionChip(hits) {
-    const n = hits.length;
-    const lead = spreadLead(hits);
-    const { help, hurt, other, counts } = lead;
-
-    let h = '<div class="dist">';
-    h += '<div class="dist-lead v-' + lead.cls + '"><span class="dl-icon" aria-hidden="true">' + lead.icon +
-         '</span><span class="dl-text">' + esc(lead.text) + '</span></div>';
-    // the two numbers that carry the signal — dominant first, colour-coded
-    const nHelp = '<span class="hh v-improves">' + help + ' help</span>';
-    const nHurt = '<span class="hh v-worsens">' + hurt + ' hurt</span>';
-    h += '<div class="dist-nums">' + (hurt > help ? nHurt + nHelp : nHelp + nHurt) + '</div>';
-    // tug-of-war bar: help (green) | hurt (red) | sidelined (grey)
-    h += '<div class="dist-bar" role="img" aria-label="' + help + ' help, ' + hurt + ' hurt, ' + other + ' neither">';
-    if (help)  h += '<span class="dist-seg improves" style="flex:' + help + '"></span>';
-    if (hurt)  h += '<span class="dist-seg worsens" style="flex:' + hurt + '"></span>';
-    if (other) h += '<span class="dist-seg other" style="flex:' + other + '"></span>';
-    h += '</div>';
-    if (other) {  // sidelined buckets — muted, with the exact split on hover; full detail on tap
-      const title = "Neither a clear help nor hurt — " +
-        _OTHER_DIRS.filter(d => counts[d]).map(d => counts[d] + " " + _OTHER_WORD[d]).join(", ");
-      h += '<div class="dist-other" title="' + esc(title) + '">+' + other + ' neither help nor hurt</div>';
-    }
-    h += '<div class="dist-foot"><span class="dist-hint">tap for all ' + n + ' →</span></div>';
-    if (hits.some(x => x.record.meta.source_balance.advocacy_flag))
-      h += '<div class="tags"><span class="tag advocacy">some lean on advocacy sources</span></div>';
-    return h + '</div>';
-  }
-
   function confDots(conf) {
     const n = CONF[conf] || 0;
     let s = '<span class="conf" role="img" aria-label="confidence: ' + conf + '">';
     for (let i = 0; i < 3; i++) s += '<span class="dot' + (i < n ? ' on' : '') + '"></span>';
     return s + '</span>';
-  }
-
-  function verdictChip(oc, record) {
-    const v = VERDICT[oc.direction];
-    let h = '<div class="verdict v-' + v.cls + '">';
-    h += '<span class="v-icon" aria-hidden="true">' + v.icon + '</span>';
-    h += '<span class="v-label">' + esc(v.label) + '</span>';
-    h += confDots(oc.confidence) + '</div>';
-    h += '<div class="policy-sub">' + esc(record.policy_title) + '</div>';
-    const tags = [];
-    if (oc.direction === "too-uncertain") tags.push('<span class="tag contested">credible experts disagree</span>');
-    if (record.meta.source_balance.advocacy_flag) tags.push('<span class="tag advocacy">leans on advocacy sources</span>');
-    if (tags.length) h += '<div class="tags">' + tags.join("") + '</div>';
-    return h;
   }
 
   // ---- DIRECTIONAL measures (e.g. D1 immigration): show WHICH WAY, never good/bad ----
@@ -267,8 +201,6 @@
   let visMode = (function () { try { return localStorage.getItem("stw_vis") || "bars"; } catch (e) { return "bars"; } })();
   const SEG = { improves: "var(--v-improves)", worsens: "var(--v-worsens)", mixed: "var(--v-mixed)", negligible: "var(--v-negligible)", "too-uncertain": "var(--v-uncertain)" };
   const MAGV = { minor: 1, moderate: 2, major: 3, "n/a": 1 };       // distance from centre = effect size
-  const CONFOP = { low: .34, moderate: .66, high: 1 };              // opacity = confidence
-  const CONFSZ = { low: 8, moderate: 11, high: 14 };
   // a policy's position on the spread axis (helps right, hurts left). Also orders the drawer list so it
   // reads in the same order as the spread — the far-left harm outlier ends up last, not buried mid-list.
   function spreadX(oc) {
@@ -340,24 +272,23 @@
         '<span class="ir-name">' + esc(p) + nsub + '</span><span class="ir-vis">' + vis + '</span></button>';
     }
     if (!any) return "";
+    // quick per-issue tally: how the parties split on THIS issue (descriptive, no overall score)
+    let tally = "";
+    if (o.type !== "directional") {
+      let hl = 0, ht = 0, he = 0;
+      for (const p of D.parties) { const c = vCounts(p, o.id); if (!c.n) continue; const net = c.improves - c.worsens; if (net > 0) hl++; else if (net < 0) ht++; else he++; }
+      const bits = [];
+      if (hl) bits.push('<b class="v-improves">' + hl + '</b> lean help');
+      if (ht) bits.push('<b class="v-worsens">' + ht + '</b> lean hurt');
+      if (he) bits.push('<b>' + he + '</b> even/mixed');
+      tally = '<p class="issue-tally">' + bits.join(' · ') + '</p>';
+    }
     const axis = o.type === "directional"
       ? '<div class="axis-lab"><span>open ◄</span><span>► more controlled</span></div>'
       : (visMode === "dots" ? '<div class="axis-lab"><span>◄ bigger harm</span><span class="al-mid">↕ height = confidence</span><span>bigger benefit ►</span></div>'
         : '<div class="axis-lab"><span>◄ hurts</span><span>helps ►</span></div>');
     return '<section class="issue"><h3 class="issue-h">' + esc(o.name) + (o.type === "directional" ? ' <span class="o-tag">direction only</span>' : '') + '</h3>' +
-      '<p class="issue-plain">' + esc(o.plain) + '</p>' + axis + rows + '</section>';
-  }
-
-  function yourSummary(cols) {
-    const val = cols.filter(o => o.type !== "directional");
-    if (val.length < 2) return "";
-    let s = '<div class="ysum"><div class="ysum-h">Across the issues you picked</div><div class="ysum-grid">';
-    for (const p of D.parties) {
-      let help = 0, hurt = 0;
-      for (const o of val) { const n = netLean(p, o.id); if (n > 0) help++; else if (n < 0) hurt++; }
-      s += '<div class="ysum-row"><span class="ysum-p">' + esc(p) + '</span><span class="ysum-n"><b class="v-improves">' + help + '</b> help-lean · <b class="v-worsens">' + hurt + '</b> hurt-lean</span></div>';
-    }
-    return s + '</div><p class="ysum-note">A tally of the issues you picked — not an overall score. You weigh what matters.</p></div>';
+      '<p class="issue-plain">' + esc(o.plain) + '</p>' + tally + axis + rows + '</section>';
   }
 
   // ── desktop-only "Grid" view: the at-a-glance matrix (parties × your issues), coloured by net lean ──
@@ -405,13 +336,11 @@
   }
 
   function renderBoard() {
-    document.body.classList.toggle("is-mobile", isMobile);
     const cols = D.outcomes.filter(o => selected.has(o.id));
     const mode = (visMode === "grid" && isMobile) ? "bars" : visMode;   // Grid is desktop-only
     let html = visToggle();
     if (mode === "grid") html += renderMatrix(cols);
     else {
-      html += yourSummary(cols);
       if (!cols.length) html += '<p class="empty-note">Pick an issue above to compare the parties.</p>';
       for (const o of cols) html += issueSection(o);
     }

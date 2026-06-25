@@ -73,13 +73,9 @@ html { scroll-behavior: smooth; }
 .visbar-l { font-size: 11.5px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
 .vt { font: inherit; font-size: 13px; font-weight: 700; border: 1.5px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 9px; padding: 7px 13px; cursor: pointer; }
 .vt.on { background: var(--accent); color: #fff; border-color: var(--accent); }
-.ysum { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 0 0 22px; box-shadow: var(--shadow); }
-.ysum-h { font-size: 15px; font-weight: 800; margin-bottom: 10px; }
-.ysum-grid { display: flex; flex-direction: column; gap: 7px; }
-.ysum-row { display: flex; justify-content: space-between; gap: 12px; font-size: 13.5px; align-items: baseline; }
-.ysum-p { font-weight: 700; } .ysum-n { color: var(--muted); } .ysum-n b { font-weight: 800; }
 .v-improves { color: var(--v-improves); } .v-worsens { color: var(--v-worsens); }
-.ysum-note { font-size: 12px; color: var(--muted); margin: 11px 0 0; }
+.issue-tally { font-size: 12.5px; color: var(--muted); margin: 0 0 12px; }
+.issue-tally b { font-weight: 800; }
 .issue { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px 14px; margin: 0 0 16px; box-shadow: var(--shadow); }
 .issue-h { font-size: 21px; letter-spacing: -.012em; margin: 0 0 2px; }
 .issue-plain { font-size: 13.5px; color: var(--muted); margin: 0 0 12px; max-width: 70ch; }
@@ -189,68 +185,8 @@ html { scroll-behavior: smooth; }
 .feed-chip { font: inherit; font-size: 12px; font-weight: 600; color: var(--accent-ink); background: var(--accent-tint); border: 1px solid #cfe0f5; border-radius: 999px; padding: 2px 10px; cursor: pointer; }
 .feed-chip:hover { border-color: var(--accent); }
 
-/* grid */
-.gridcard { margin-top: 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); overflow: hidden; }
-.grid-scroll { overflow-x: auto; }
-table.grid { border-collapse: collapse; width: 100%; min-width: 560px; }
-table.grid th, table.grid td { border-bottom: 1px solid var(--line); text-align: left; }
-table.grid thead th { background: var(--panel); font-size: 13px; color: var(--ink-soft); font-weight: 700; padding: 13px 16px; vertical-align: bottom; }
-table.grid thead th .col-plain { display: block; font-weight: 400; font-size: 11.5px; color: var(--muted); margin-top: 3px; }
-table.grid tbody th.party { padding: 16px; font-weight: 700; font-size: 15px; white-space: nowrap; vertical-align: top; background: var(--surface); }
-.cell { padding: 10px; vertical-align: top; }
-/* keep cells readable when many columns are selected — each outcome column holds a min width so the
-   grid scrolls horizontally (.grid-scroll) instead of squashing the content into bad wraps */
-table.grid thead th:not(:first-child), table.grid td.cell { min-width: 180px; }
-table.grid thead th.col-dir, table.grid td.cell-dir { min-width: 255px; }  /* directional (immigration) axis needs more room */
-/* sticky party column — the row label stays in view during horizontal scroll */
-table.grid thead th:first-child, table.grid tbody th.party { position: sticky; left: 0; }
-table.grid tbody th.party { z-index: 2; }
-table.grid thead th:first-child { z-index: 3; }
-/* gentle elevation shadow via a pseudo-element — box-shadow on cells is unreliable under
-   border-collapse, so we paint a soft gradient just off the column's right edge. Fades in only while scrolled. */
-table.grid thead th:first-child::after, table.grid tbody th.party::after {
-  content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 16px;
-  transform: translateX(100%); pointer-events: none;
-  background: linear-gradient(to right, rgba(15, 23, 42, .20), rgba(15, 23, 42, 0));
-  opacity: 0; transition: opacity .18s ease;
-}
-.grid-scroll.scrolled table.grid thead th:first-child::after,
-.grid-scroll.scrolled table.grid tbody th.party::after { opacity: 1; }
-
-/* MOBILE: stacked issue-cards instead of the wide table (toggled by body.is-mobile from app.js) */
-.grid-cards { display: none; }
-body.is-mobile .grid-scroll { display: none; }
-body.is-mobile .grid-cards { display: block; }
-.ocard { border: 1px solid var(--line-strong); border-radius: var(--radius); margin-bottom: 14px; overflow: hidden; background: var(--surface); }
-.ocard-h { padding: 12px 15px; background: var(--panel); font-weight: 800; font-size: 15.5px; border-bottom: 1px solid var(--line); }
-.ocard-plain { display: block; font-weight: 400; font-size: 12.5px; color: var(--muted); margin-top: 3px; }
-.ocard-row { display: block; width: 100%; text-align: left; border: 0; border-bottom: 1px solid var(--line); border-left: 4px solid transparent; background: none; padding: 11px 15px; cursor: pointer; font: inherit; }
-.ocard-row:last-child { border-bottom: 0; }
-.ocard-row:not(.empty):active, .ocard-row:not(.empty):hover { background: var(--panel); }
-.ocard-party { display: block; font-weight: 800; font-size: 13px; margin-bottom: 6px; }
-.ocard-na { font-size: 13px; color: var(--muted); }
-.ocard-row.empty { color: var(--muted); cursor: default; }
-.ocard-row.improves { border-left-color: var(--v-improves); }
-.ocard-row.worsens { border-left-color: var(--v-worsens); }
-.ocard-row.mixed { border-left-color: var(--v-mixed); }
-.ocard-row.negligible { border-left-color: var(--v-negligible); }
-.ocard-row.uncertain { border-left-color: var(--v-uncertain); }
-.ocard-row.dir { border-left-color: #3730a3; }
-.ocard-row.multi, .ocard-row.gap { border-left-color: var(--line-strong); }
-.cell-btn { width: 100%; text-align: left; border: 1.5px solid transparent; border-radius: 9px; padding: 10px 11px; cursor: pointer; transition: border-color .12s, box-shadow .12s; font: inherit; }
-.cell-btn.improves { background: var(--v-improves-bg); }
-.cell-btn.worsens { background: var(--v-worsens-bg); }
-.cell-btn.mixed { background: var(--v-mixed-bg); }
-.cell-btn.negligible { background: var(--v-negligible-bg); }
-.cell-btn.uncertain { background: var(--v-uncertain-bg); }
-.cell-btn:hover { border-color: var(--line-strong); box-shadow: var(--shadow); }
-.cell-empty { color: var(--muted); font-size: 13px; padding: 16px; opacity: .6; }
-
-/* multi-policy distribution cell — shown when a party has several policies on one fundamental.
-   States the spread (a factual "N of M lean…" lead + bar + tally), never a synthesized net verdict. */
-.cell-btn.multi { background: var(--panel); }
-.dist-lead { display: flex; align-items: center; gap: 7px; font-weight: 700; font-size: 14.5px; }
-.dist-lead .dl-icon { font-size: 17px; font-weight: 800; }
+/* multi-policy distribution bar — used in the drawer's multi-policy header (the cell/table/cards UI
+   it was built for has been replaced by the issue-first board) */
 .dist-bar { display: flex; height: 9px; border-radius: 5px; overflow: hidden; margin: 8px 0 6px; background: var(--line); gap: 1px; }
 .dist-bar.big { height: 14px; margin: 12px 0; }
 .dist-seg { display: block; min-width: 3px; }
@@ -260,12 +196,8 @@ body.is-mobile .grid-cards { display: block; }
 .dist-seg.negligible { background: var(--v-negligible); }
 .dist-seg.uncertain { background: var(--v-uncertain); }
 .dist-seg.other { background: #cbd2da; }  /* sidelined: neither a clear help nor hurt */
-.dist-nums { display: flex; gap: 12px; align-items: baseline; font-weight: 800; font-size: 14px; margin-top: 4px; }
-.dist-nums .hh { white-space: nowrap; }
-.dist-other { font-size: 11px; color: var(--muted); margin-top: 5px; }
 
 /* directional measures (immigration etc.) — neutral, never good/bad coloured */
-.cell-btn.dir { background: #f5f6fb; }
 .dir-lead { font-weight: 700; font-size: 13.5px; color: #3730a3; }
 .dir-axis { display: flex; align-items: center; gap: 6px; margin: 9px 0 6px; }
 .dir-end { font-size: 9.5px; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); white-space: nowrap; }
@@ -290,7 +222,6 @@ body.is-mobile .grid-cards { display: block; }
 .thz-lbl { font-size: 10.5px; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
 .thz-arrow { color: var(--muted); font-weight: 800; }
 .thz-note { font-size: 12.5px; color: var(--ink-soft); margin-top: 5px; line-height: 1.45; }
-.dist-foot { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
 .dist-hint { font-size: 11px; color: var(--muted); white-space: nowrap; }
 .dist-mix { display: flex; flex-wrap: wrap; gap: 8px; }
 .dist-mix.wide { gap: 14px; margin-bottom: 6px; }
@@ -309,16 +240,13 @@ body.is-mobile .grid-cards { display: block; }
 .pi-body { padding: 4px 14px 14px; border-top: 1px dashed var(--line); }
 .pi-body .verdict-big { margin-top: 12px; }
 
-/* verdict chip */
-.verdict { display: flex; align-items: center; gap: 8px; }
+/* verdict display (drawer) */
 .v-icon { font-size: 15px; font-weight: 800; width: 16px; text-align: center; line-height: 1; }
-.v-label { font-size: 14px; font-weight: 700; }
 .v-improves { color: var(--v-improves); } .v-worsens { color: var(--v-worsens); }
 .v-mixed { color: var(--v-mixed); } .v-negligible { color: var(--v-negligible); } .v-uncertain { color: var(--v-uncertain); }
 .conf { display: inline-flex; gap: 3px; margin-left: auto; align-items: center; }
 .conf .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: .22; }
 .conf .dot.on { opacity: .85; }
-.policy-sub { font-size: 11.5px; color: var(--ink-soft); margin-top: 6px; line-height: 1.35; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
 /* unified tag component — consistent height fixes the misalignment */
 .tag { display: inline-flex; align-items: center; height: 19px; padding: 0 7px; font-size: 10.5px; font-weight: 600; border-radius: 5px; border: 1px solid; line-height: 1; white-space: nowrap; }
@@ -438,9 +366,6 @@ details.dig > *:not(summary):last-child { padding-bottom: 12px; }
 .receipt .rs { font-size: 12px; color: var(--muted); margin-top: 6px; }
 .our-reading { font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; margin: 4px 0 0; }
 /* honest gaps */
-.cell-btn.gap { background: repeating-linear-gradient(45deg, var(--panel), var(--panel) 6px, var(--bg) 6px, var(--bg) 12px); }
-.gap-lead { color: var(--muted); font-weight: 600; font-size: 13px; }
-.dist-gapnote { font-size: 11px; color: var(--muted); margin-top: 6px; }
 .gap-list { margin-top: 14px; }
 .gap-item { font-size: 13px; color: var(--ink-soft); padding: 6px 0; border-bottom: 1px solid var(--line); }
 .gap-why { color: var(--muted); }
