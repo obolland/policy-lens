@@ -29,7 +29,7 @@
   let lastOpened = null;                   // {party, outcome} of the currently-open drawer — for the report-error link
 
   // GitHub repo (owner/name) that receives "report an error" issues.
-  const ISSUE_REPO = "obolland/policy-lens";
+  const ISSUE_REPO = "obolland/show-the-working";
 
   // responsive: below this width we swap the wide table for stacked issue-cards, and the picker for an accordion
   const mq = window.matchMedia("(max-width: 700px)");
