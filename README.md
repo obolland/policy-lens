@@ -22,7 +22,9 @@ it), idempotency, and cacheability at once.
 
 ### The pipeline (`pipeline/regenerate.sh` runs it end-to-end)
 
-1. **Corpus** — `extract.py` pulls policies from each party's manifesto, `normalize_corpus.py` cleans
+1. **Corpus** — `extract.py` extracts each party's material policies from its **manifesto** (the
+   primary source) *and* its major **on-the-record positions beyond the manifesto** — web-searched and
+   each tied to a real source, since parties omit unpopular intentions. `normalize_corpus.py` cleans
    them into one file per policy. → `corpus/<policy_id>.json`
 2. **Stage A · Membership** (`membership.py`) — party-blind, decides which outcomes a policy genuinely
    bears on (its *bearing-set*). Enforces a no-orphan invariant (every policy lands in ≥1 cell or an
