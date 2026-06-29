@@ -41,6 +41,25 @@ STATUS = {
 }
 TIER_OPACITY = {1: 1.0, 2: 0.62, 3: 0.42, 4: 0.26}
 
+# "Dig deeper" — other independent trackers we point to rather than reinvent. Each is the best
+# public tool for something we deliberately DON'T do ourselves (MP-level interests, lobbying,
+# think-tank money, cross-border ownership, investigations). Pointing out is on-ethos and covers
+# the gaps safely. See docs/follow-the-money-architecture.md (Dig deeper / where else to look).
+RESOURCES = [
+    ("The source: Electoral Commission register", "https://search.electoralcommission.org.uk/",
+     "every donation here, searchable at source"),
+    ("Who funds your MP — Westminster Accounts", "https://www.tortoisemedia.com/data/the-westminster-accounts",
+     "Tortoise & Sky News: money around individual MPs, by name or postcode"),
+    ("Who funds your MP — WhoFundsThem", "https://www.mysociety.org/democracy/who-funds-them/",
+     "mySociety: MPs' financial interests"),
+    ("Think-tank funding — Who Funds You?", "https://www.opendemocracy.net/en/who-funds-you/",
+     "openDemocracy: how openly think tanks disclose their donors"),
+    ("Lobbying meetings — Open Access UK", "https://openaccess.transparency.org.uk/",
+     "Transparency International: who's meeting ministers"),
+    ("Company ownership — Companies House", "https://find-and-update.company-information.service.gov.uk/",
+     "the official register behind our company notes"),
+]
+
 
 def money(v):
     v = float(v)
@@ -110,6 +129,98 @@ def top_donors(donations, n=6):
     return "<ul class=\"dlist\">" + "".join(out) + "</ul>"
 
 
+def mini_bar(by_status):
+    """A compact composition bar (same tier ordering/opacity as the per-party page)."""
+    segs = []
+    for status, b in by_status.items():
+        label, tier, _ = STATUS.get(status, (status, 4, ""))
+        segs.append((b["value_share"], label, tier, b["value"], b["count"]))
+    segs.sort(key=lambda s: (s[2], -s[0]))
+    out = []
+    for share, label, tier, val, cnt in segs:
+        pct = share * 100
+        if pct < 0.05:
+            continue
+        hatch = " hatch" if tier == 4 else ""
+        out.append(f'<span class="seg t{tier}{hatch}" style="width:{pct:.2f}%;--op:{TIER_OPACITY[tier]}" '
+                   f'title="{esc(label)}: {pct:.1f}% · {money(val)}"></span>')
+    return '<div class="cbar mini">' + "".join(out) + "</div>"
+
+
+def render_index(docs):
+    docs = sorted(docs, key=lambda d: d["summary"]["value"], reverse=True)
+    rows = []
+    for d in docs:
+        s = d["summary"]
+        rows.append(
+            f'<a class="prow" href="{esc(d["slug"])}.html">'
+            f'<span class="p-head"><b>{esc(d["party"])}</b>'
+            f'<span class="p-total">{money(s["value"])}<span class="p-n"> · {s["count"]} donations</span></span></span>'
+            f'{mini_bar(s["by_donor_status"])}</a>'
+        )
+    return f"""<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Follow the money — who funds the UK parties? — Show the Working</title>
+<meta name="description" content="Who funds each UK party, and how traceable that money is — every figure from the public Electoral Commission register and Companies House. Compare the funding shapes.">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .fm {{ max-width: 820px; margin: 0 auto; padding: 6px 20px 70px; }}
+  .boundary {{ background: var(--accent-tint); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 11px 14px; font-size: 13px; color: var(--accent-ink); margin: 14px 0 22px; }}
+  .fm h1 {{ font-size: 27px; letter-spacing: -.02em; margin: 6px 0 6px; }}
+  .lead {{ font-size: 15.5px; color: var(--ink-soft); line-height: 1.6; margin: 0 0 8px; }}
+  .ordernote {{ font-size: 12.5px; color: var(--muted); margin: 0 0 18px; }}
+  .prow {{ display: block; text-decoration: none; color: inherit; background: var(--surface);
+    border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow);
+    padding: 14px 16px; margin: 12px 0; }}
+  .prow:hover {{ border-color: var(--line-strong); }}
+  .p-head {{ display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 9px; gap: 10px; }}
+  .p-head b {{ font-size: 16px; }}
+  .p-total {{ font-weight: 800; }}
+  .p-n {{ font-weight: 400; font-size: 12.5px; color: var(--muted); }}
+  .cbar {{ display: flex; height: 26px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line-strong); }}
+  .cbar.mini {{ height: 18px; }}
+  .cbar .seg {{ background: var(--accent); opacity: var(--op); height: 100%; }}
+  .cbar .seg.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
+    rgba(255,255,255,.55) 4px, rgba(255,255,255,.55) 7px); }}
+  .trace-key {{ font-size: 12px; color: var(--muted); margin: 4px 0 20px; display: flex; gap: 6px; align-items: center; }}
+  .trace-key .g {{ flex: 1; height: 8px; border-radius: 4px;
+    background: linear-gradient(90deg, var(--accent), rgba(31,58,95,.22)); }}
+  .src {{ font-size: 12.5px; color: var(--muted); margin-top: 18px; }}
+  .src a {{ color: var(--accent); font-weight: 600; }}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <span class="brand">Show the <span class="uw">Working</span></span>
+  <nav class="trustline" aria-label="nav"><a href="../index.html">← Policy comparison</a></nav>
+</div></header>
+
+<main class="fm">
+  <div class="boundary"><b>Note:</b> our policy analysis is judged <b>blind to party</b>. This section is the
+  opposite — it's about <b>who funds whom</b>, drawn entirely from public records. Nothing here feeds into a policy verdict.</div>
+
+  <h1>Follow the money</h1>
+  <p class="lead">Who funds each UK party — and how far that money can be traced to a named source.
+  Every figure comes from the public <b>Electoral Commission</b> register; company ownership from
+  <b>Companies House</b>. The bars show the <i>shape</i> of each party's funding, not a score —
+  solid means more disclosed, faded means it discloses less.</p>
+  <div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div>
+  <p class="ordernote">Ordered by total declared donations since 2019. This is not a ranking of good or bad — tap a party to see the detail and sources.</p>
+
+  {''.join(rows)}
+
+  <p class="src">A snapshot of <b>declared</b> donations; money structured to hide its origin won't appear here.
+  Each party page shows what we <i>can't</i> see, alongside what we can.</p>
+</main>
+</body>
+</html>
+"""
+
+
 def render(doc):
     s, ch = doc["summary"], doc.get("companies_house", {})
     party = doc["party"]
@@ -134,6 +245,10 @@ def render(doc):
     imp = s.get("impermissible_or_returned_count", 0)
     rec.append(f'<li><b>{imp}</b> donations in this window were recorded by the Electoral Commission as '
                f'impermissible or returned.</li>')
+
+    resources = "".join(
+        f'<li><a href="{esc(url)}" target="_blank" rel="noopener"><b>{esc(title)}</b></a>'
+        f'<span class="res-what">{esc(what)}</span></li>' for title, url, what in RESOURCES)
 
     return f"""<!DOCTYPE html>
 <html lang="en-GB">
@@ -184,6 +299,11 @@ def render(doc):
   .rec-def {{ color: var(--muted); }}
   .src {{ font-size: 12.5px; color: var(--muted); margin-top: 14px; }}
   .src a {{ color: var(--accent); font-weight: 600; }}
+  .reslist {{ list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }}
+  .reslist li {{ font-size: 13.5px; }}
+  .reslist a {{ color: var(--accent); font-weight: 600; text-decoration: none; }}
+  .reslist a:hover {{ text-decoration: underline; }}
+  .reslist .res-what {{ display: block; font-size: 12.5px; color: var(--muted); }}
 </style>
 </head>
 <body>
@@ -214,6 +334,11 @@ def render(doc):
       need not disclose who funds <i>them</i>. And money deliberately routed to hide its origin won't appear on this
       register at all. <b>This is a limit of the public record — not an all-clear.</b> What you see above is what's
       been declared; treat the faded end of the bar as "we can follow this less far", not as proof of anything.</p>
+    <p style="font-size:13.5px;color:var(--ink-soft);margin:0;">
+      We can also check where a <b>company</b> donor's owners are based (via Companies House), but
+      <b>not where an individual donor lives</b> — the register doesn't publish it, and a UK-registered
+      donor can be resident abroad. So a large individual donor based overseas would show here with no
+      such note.</p>
   </div>
 
   <div class="card">
@@ -228,6 +353,14 @@ def render(doc):
     <p class="src">Definitions and method: these are facts from each company's own Companies House record, shown without
       interpretation. "Based outside the UK" means the country of residence/registration recorded for a person with
       significant control — not a claim about the source of the money.</p>
+  </div>
+
+  <div class="card">
+    <h2>Dig deeper — where else to look</h2>
+    <p style="font-size:13px;color:var(--muted);margin:0 0 10px;">We focus on party-level money from the
+      public record. For things we deliberately don't do — your MP's interests, lobbying, think-tank
+      funding — these independent trackers do it well:</p>
+    <ul class="reslist">{resources}</ul>
   </div>
 
   <p class="src">Show the Working shows its working: every figure here links to the public register it came from.
@@ -247,11 +380,17 @@ def main():
         ledgers = [DATA / f"{args.slug}.json"]
     else:
         ledgers = sorted(p for p in DATA.glob("*.json") if not p.name.startswith("_"))
+    built = []
     for lp in ledgers:
         doc = json.loads(lp.read_text())
         out = OUT / f"{doc['slug']}.html"
         out.write_text(render(doc))
+        built.append(doc)
         print(f"wrote {out.relative_to(ROOT)}  ({doc['party']})")
+    # the comparison landing always reflects every ledger (not just --slug)
+    all_docs = [json.loads(p.read_text()) for p in sorted(DATA.glob("*.json")) if not p.name.startswith("_")]
+    (OUT / "index.html").write_text(render_index(all_docs))
+    print(f"wrote {(OUT / 'index.html').relative_to(ROOT)}  (comparison landing)")
 
 
 if __name__ == "__main__":

@@ -186,15 +186,50 @@ with the "money into politics" theme, not because it's optional.
 | "Cherry-picked the cases" | Complete sets against disclosed rules; never hand-picked subsets |
 | Boundary contamination ("verdicts follow the money too") | Separate section/identity + explicit explainer + one-way links |
 
+## Donor drill-down policy (decided 2026-06-29)
+
+The governing principle: **drill only as far as a deterministic public-record key carries you.** A
+company has a registration number (a hard key); a person has only a name (not a key).
+
+- **Company drill-down — YES (Phase 2, safe).** All Companies House public record, joined on the
+  number the EC already records: *what they do* (SIC codes — now captured in enrichment), *where based*
+  (registered office + PSC country), *ownership chain* (PSC corporate entities, one level up),
+  *financial shape* (accounts type). Low risk, high value; shares machinery with Block 3.
+- **Individual profiling — NO (do not build).** Building a profile of an individual donor (residence,
+  occupation, "interests", companies they own) fails on every axis: (a) the data isn't in our sources —
+  the EC publishes no residence/occupation for individuals (the Harborne case); (b) "interests" is
+  motive-assertion — the bright line; (c) a person has no deterministic key, so name-matching to
+  Companies House officers would produce false, defamatory statements; (d) libel + privacy/GDPR —
+  publishing a dossier on a private citizen is the surveillance behaviour the site opposes. **Stating a
+  public fact about a person (they donated £X) ≠ building a profile of a person.** The most we may show
+  for an individual is their other donations *recorded under the same name* in the EC register, framed
+  as "recorded under this name", not "this person".
+
 ## Deferred / NOT built
 
 - **Auto-juxtaposition of donor ↔ policy** (implying causation): not in v1; arguably never — the
   libel / partisanship trap.
+- **Individual-donor profiling** (residence/occupation/"interests"/holdings): not built — see the
+  drill-down policy above.
 - **Wholesale contracts ingestion / ranking of all contracts:** Block 3 is a *complete set against a
   disclosed rule*, not "score every contract".
 - **A single composite transparency grade:** violates the no-composite-score ethos; most weaponisable.
 - **LLM paraphrase in any factual strand:** excluded by design.
 - **Media-ownership lens:** out of scope for now.
+
+## Phase 2 candidates (post-v1)
+
+- **LEAD: "which sectors fund each party" (the OpenSecrets idea, a UK first).** Aggregate company
+  donations by **SIC code** (now captured in enrichment) into readable sectors (finance, property,
+  gambling, energy…). MP-centric UK tools (Westminster Accounts, Consolidate) don't do party-level
+  sector aggregation; OpenSecrets shows how powerful it is. All public record, safe, novel here.
+  Needs a SIC-code→sector display map (bundle the condensed SIC list at build time).
+- **Company drill-down** — what they do (SIC) / where based (registered office + PSC) / ownership
+  chain / accounts. Data already captured; this is the rendering.
+- **"Dig deeper / where else to look" panel** — DONE in v1 template: curated links to the independent
+  trackers that cover what we deliberately don't (MP interests: Westminster Accounts, mySociety
+  WhoFundsThem; think-tank money: Who Funds You?; lobbying: TI Open Access UK; ownership:
+  OpenCorporates/Companies House). On-ethos and fills the individual-profiling gap by referral.
 
 ## Phased build order
 
@@ -232,6 +267,22 @@ with the "money into politics" theme, not because it's optional.
 - **Scale check:** 222 unique company donors across the 5 parties since 2019 ⇒ ~444 cached CH calls,
   ~2–3 min, £0. (Conservative 152 · Lib Dem 35 · Labour 27 · Reform 7 · Green 3 — asymmetry emerges
   from the register, not from selection.)
+
+- **Phase 1 correction (2026-06-29) — data source changed to the CSV export.** The JSON search API
+  (`/api/search/Donations`) is **relevance-ranked and silently incomplete**: it reports a full `Total`
+  but paginating it returns only a capped subset. Measured against the truth, it returned **Reform UK
+  at £6.3m (35 donations) vs the actual £46.1m (387 donations)** — ~5–10% of records, across all
+  parties. Switched the puller to the **CSV export endpoint** (`/api/csv/Donations`), which returns
+  the complete filtered set in one request; dedupe by `ECRef`. Corrected totals (2019→): Con £214m ·
+  Lab £164m · LD £68m · Reform £46m · Green £5.5m. *Lesson: never trust a search API's `Total`;
+  validate completeness against a known large donor.* (Found because a spot-check asked why a known
+  £-millions individual donor wasn't represented.)
+- **Known v1 gap — individual-donor residence is invisible.** The "based outside the UK" flag only
+  covers COMPANY donors (via Companies House PSC). For individuals the EC publishes no residence/
+  country field (confirmed: all address columns blank), and an individual is permissible if on a UK
+  electoral register — which *includes overseas electors*. So a large UK-registered individual donor
+  resident abroad (e.g. the Harborne/Reform case) carries no flag. This is stated honestly in each
+  party's "what we can't see" panel; closing it would require external/secondary sourcing (deferred).
 
 ## Load-bearing decisions (the ones not to quietly reverse)
 

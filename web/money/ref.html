@@ -47,6 +47,11 @@
   .rec-def { color: var(--muted); }
   .src { font-size: 12.5px; color: var(--muted); margin-top: 14px; }
   .src a { color: var(--accent); font-weight: 600; }
+  .reslist { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .reslist li { font-size: 13.5px; }
+  .reslist a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  .reslist a:hover { text-decoration: underline; }
+  .reslist .res-what { display: block; font-size: 12.5px; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -60,14 +65,14 @@
   opposite — it's about <b>who funds whom</b>, drawn entirely from public records. Nothing here feeds into a policy verdict.</div>
 
   <h1>Who funds the Reform UK?</h1>
-  <p class="topline"><span class="big">£6.3m</span> in reported donations, from 35 donations.</p>
+  <p class="topline"><span class="big">£46.1m</span> in reported donations, from 387 donations.</p>
   <p class="asof">Source: <a href="https://search.electoralcommission.org.uk/?currentPage=1&amp;rows=10&amp;query=Reform%20UK&amp;et=pp" target="_blank" rel="noopener">Electoral Commission register ↗</a>
-    · since 2019-01-01 · as reported up to 2026-04-29. Company ownership from Companies House.</p>
+    · since 2019-01-01 · as reported up to 2026-04-30. Company ownership from Companies House.</p>
 
   <div class="card">
     <h2>Where the money comes from</h2>
-    <div class="cbar"><span class="seg t1" style="width:93.72%;--op:1.0" title="Individuals: 93.7% · £5.9m · 24 donations"></span><span class="seg t1" style="width:2.07%;--op:1.0" title="Public funds: 2.1% · £130k · 4 donations"></span><span class="seg t2" style="width:4.21%;--op:0.62" title="Companies: 4.2% · £264k · 7 donations"></span></div>
-<ul class="clegend"><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Individuals</b> — 93.7% · £5.9m <span class="lg-n">(24 donations)</span><span class="lg-gloss">named people on the electoral register</span></li><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Public funds</b> — 2.1% · £130k <span class="lg-n">(4 donations)</span><span class="lg-gloss">state funding (e.g. Short money)</span></li><li class="lg t2"><span class="sw" style="--op:0.62"></span><b>Companies</b> — 4.2% · £264k <span class="lg-n">(7 donations)</span><span class="lg-gloss">registered at Companies House — owners look-up-able</span></li></ul>
+    <div class="cbar"><span class="seg t1" style="width:86.03%;--op:1.0" title="Individuals: 86.0% · £39.6m · 235 donations"></span><span class="seg t1" style="width:1.96%;--op:1.0" title="Public funds: 2.0% · £902k · 22 donations"></span><span class="seg t2" style="width:12.01%;--op:0.62" title="Companies: 12.0% · £5.5m · 130 donations"></span></div>
+<ul class="clegend"><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Individuals</b> — 86.0% · £39.6m <span class="lg-n">(235 donations)</span><span class="lg-gloss">named people on the electoral register</span></li><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Public funds</b> — 2.0% · £902k <span class="lg-n">(22 donations)</span><span class="lg-gloss">state funding (e.g. Short money)</span></li><li class="lg t2"><span class="sw" style="--op:0.62"></span><b>Companies</b> — 12.0% · £5.5m <span class="lg-n">(130 donations)</span><span class="lg-gloss">registered at Companies House — owners look-up-able</span></li></ul>
     <div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div>
   </div>
 
@@ -78,20 +83,33 @@
       need not disclose who funds <i>them</i>. And money deliberately routed to hide its origin won't appear on this
       register at all. <b>This is a limit of the public record — not an all-clear.</b> What you see above is what's
       been declared; treat the faded end of the bar as "we can follow this less far", not as proof of anything.</p>
+    <p style="font-size:13.5px;color:var(--ink-soft);margin:0;">
+      We can also check where a <b>company</b> donor's owners are based (via Companies House), but
+      <b>not where an individual donor lives</b> — the register doesn't publish it, and a UK-registered
+      donor can be resident abroad. So a large individual donor based overseas would show here with no
+      such note.</p>
   </div>
 
   <div class="card">
     <h2>Largest reported donations</h2>
-    <ul class="dlist"><li class="drow"><span class="d-val">£3.0m</span><span class="d-main"><b>Mr Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2025-11-12</span></span></li><li class="drow"><span class="d-val">£1.0m</span><span class="d-main"><b>Mr Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2019-08-27</span></span></li><li class="drow"><span class="d-val">£1.0m</span><span class="d-main"><b>Mr Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2019-08-22</span></span></li><li class="drow"><span class="d-val">£250k</span><span class="d-main"><b>Mr Navroz D Udwadia</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2026-03-30</span></span></li><li class="drow"><span class="d-val">£200k</span><span class="d-main"><b>Mr Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2019-04-03</span></span></li><li class="drow"><span class="d-val">£100k</span><span class="d-main"><b>Mr Nicholas Candy</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2025-06-29</span></span></li></ul>
+    <ul class="dlist"><li class="drow"><span class="d-val">£9.0m</span><span class="d-main"><b>Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2025-08-01</span></span></li><li class="drow"><span class="d-val">£3.0m</span><span class="d-main"><b>Mr Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2026-01-23</span></span></li><li class="drow"><span class="d-val">£3.0m</span><span class="d-main"><b>Mr Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2025-11-12</span></span></li><li class="drow"><span class="d-val">£2.0m</span><span class="d-main"><b>Mr Ben Peter Delo</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2026-03-02</span></span></li><li class="drow"><span class="d-val">£2.0m</span><span class="d-main"><b>Mr Ben Peter Delo</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2026-01-14</span></span></li><li class="drow"><span class="d-val">£2.0m</span><span class="d-main"><b>Mr Christopher Harborne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2019-11-14</span></span></li></ul>
     <p class="src">Each donation is a public Electoral Commission record. Company notes are from Companies House filings.</p>
   </div>
 
   <div class="card">
     <h2>For the record — company donors</h2>
-    <ul class="recl"><li><b>1</b> company donations (£20k) are from companies where Companies House records at least one person with significant control as based outside the UK. <span class="rec-def">This is a record of where a controller is based — a UK company donating is lawful; make of it what you will.</span></li><li><b>2</b> company donations (£125k) are from companies that file <i>dormant</i> or <i>micro-entity</i> accounts — i.e. their own filings disclose little financial detail.</li><li><b>0</b> donations in this window were recorded by the Electoral Commission as impermissible or returned.</li></ul>
+    <ul class="recl"><li><b>12</b> company donations (£290k) are from companies where Companies House records at least one person with significant control as based outside the UK. <span class="rec-def">This is a record of where a controller is based — a UK company donating is lawful; make of it what you will.</span></li><li><b>12</b> company donations (£1.9m) are from companies that file <i>dormant</i> or <i>micro-entity</i> accounts — i.e. their own filings disclose little financial detail.</li><li><b>0</b> donations in this window were recorded by the Electoral Commission as impermissible or returned.</li></ul>
     <p class="src">Definitions and method: these are facts from each company's own Companies House record, shown without
       interpretation. "Based outside the UK" means the country of residence/registration recorded for a person with
       significant control — not a claim about the source of the money.</p>
+  </div>
+
+  <div class="card">
+    <h2>Dig deeper — where else to look</h2>
+    <p style="font-size:13px;color:var(--muted);margin:0 0 10px;">We focus on party-level money from the
+      public record. For things we deliberately don't do — your MP's interests, lobbying, think-tank
+      funding — these independent trackers do it well:</p>
+    <ul class="reslist"><li><a href="https://search.electoralcommission.org.uk/" target="_blank" rel="noopener"><b>The source: Electoral Commission register</b></a><span class="res-what">every donation here, searchable at source</span></li><li><a href="https://www.tortoisemedia.com/data/the-westminster-accounts" target="_blank" rel="noopener"><b>Who funds your MP — Westminster Accounts</b></a><span class="res-what">Tortoise &amp; Sky News: money around individual MPs, by name or postcode</span></li><li><a href="https://www.mysociety.org/democracy/who-funds-them/" target="_blank" rel="noopener"><b>Who funds your MP — WhoFundsThem</b></a><span class="res-what">mySociety: MPs&#x27; financial interests</span></li><li><a href="https://www.opendemocracy.net/en/who-funds-you/" target="_blank" rel="noopener"><b>Think-tank funding — Who Funds You?</b></a><span class="res-what">openDemocracy: how openly think tanks disclose their donors</span></li><li><a href="https://openaccess.transparency.org.uk/" target="_blank" rel="noopener"><b>Lobbying meetings — Open Access UK</b></a><span class="res-what">Transparency International: who&#x27;s meeting ministers</span></li><li><a href="https://find-and-update.company-information.service.gov.uk/" target="_blank" rel="noopener"><b>Company ownership — Companies House</b></a><span class="res-what">the official register behind our company notes</span></li></ul>
   </div>
 
   <p class="src">Show the Working shows its working: every figure here links to the public register it came from.

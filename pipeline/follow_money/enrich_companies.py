@@ -37,14 +37,16 @@ CACHE = OUT_DIR / "_ch_cache.json"
 ENV = ROOT / ".env"
 
 CH = "https://api.company-information.service.gov.uk"
-THROTTLE = 0.2  # seconds between calls — keeps us well under 600 / 5 min
+THROTTLE = 0.55  # seconds between calls — ~2/sec, just under the 600 / 5 min limit
 
 # CH account-type strings that mean the company files minimal financial detail.
 # Used ONLY for a neutral tally; the raw string is always shown, never relabelled.
 LOW_DISCLOSURE_ACCOUNTS = {"dormant", "micro-entity", "total-exemption-micro", "no-accounts-filed"}
 
-UK_COUNTRIES = {"united kingdom", "uk", "gb", "great britain", "england", "wales", "scotland",
+UK_COUNTRIES = {"united kingdom", "uk", "gb", "gbr", "great britain", "england", "wales", "scotland",
                 "northern ireland", "england and wales", "england wales", "great britain and northern ireland"}
+# NB: Jersey, Guernsey and the Isle of Man are Crown Dependencies — constitutionally NOT part of the
+# UK — so they are (correctly) treated as outside the UK.
 
 
 def _norm_place(s):
@@ -54,7 +56,12 @@ def _norm_place(s):
 
 def place_outside_uk(place):
     p = _norm_place(place)
-    return bool(p) and p not in UK_COUNTRIES
+    if not p:
+        return False
+    # catch parenthetical UK forms like 'united kingdom (england and wales)'
+    if "united kingdom" in p or "great britain" in p:
+        return False
+    return p not in UK_COUNTRIES
 
 
 def controller_outside_uk(c):
@@ -128,6 +135,7 @@ def lookup_company(client, num):
             "country_registered": ident.get("country_registered"),
         })
 
+    ro = prof.get("registered_office_address") or {}
     # Cache RAW facts only. Derived flags (low-disclosure, outside-UK control) are computed at
     # fold-in time so the definitions can change without re-hitting the API.
     return {
@@ -135,6 +143,9 @@ def lookup_company(client, num):
         "ch_name": prof.get("company_name"),
         "status": prof.get("company_status"),
         "incorporated": prof.get("date_of_creation"),
+        "sic_codes": prof.get("sic_codes") or [],  # what the company does (Block-2 drill-down)
+        "registered_office": {"locality": ro.get("locality"), "region": ro.get("region"),
+                              "country": ro.get("country"), "postal_code": ro.get("postal_code")},
         "accounts_type": accounts_type,            # raw CH string — quote, don't relabel
         "accounts_made_up_to": last.get("made_up_to"),
         "controllers": controllers,                # raw PSC facts

@@ -47,6 +47,11 @@
   .rec-def { color: var(--muted); }
   .src { font-size: 12.5px; color: var(--muted); margin-top: 14px; }
   .src a { color: var(--accent); font-weight: 600; }
+  .reslist { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .reslist li { font-size: 13.5px; }
+  .reslist a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  .reslist a:hover { text-decoration: underline; }
+  .reslist .res-what { display: block; font-size: 12.5px; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -60,38 +65,51 @@
   opposite — it's about <b>who funds whom</b>, drawn entirely from public records. Nothing here feeds into a policy verdict.</div>
 
   <h1>Who funds the Green?</h1>
-  <p class="topline"><span class="big">£773k</span> in reported donations, from 78 donations.</p>
+  <p class="topline"><span class="big">£5.7m</span> in reported donations, from 694 donations.</p>
   <p class="asof">Source: <a href="https://search.electoralcommission.org.uk/?currentPage=1&amp;rows=10&amp;query=Green%20Party&amp;et=pp" target="_blank" rel="noopener">Electoral Commission register ↗</a>
-    · since 2019-01-01 · as reported up to 2026-04-29. Company ownership from Companies House.</p>
+    · since 2019-01-01 · as reported up to 2026-04-30. Company ownership from Companies House.</p>
 
   <div class="card">
     <h2>Where the money comes from</h2>
-    <div class="cbar"><span class="seg t1" style="width:71.64%;--op:1.0" title="Individuals: 71.6% · £554k · 60 donations"></span><span class="seg t1" style="width:25.33%;--op:1.0" title="Public funds: 25.3% · £196k · 12 donations"></span><span class="seg t2" style="width:1.74%;--op:0.62" title="Companies: 1.7% · £13k · 5 donations"></span><span class="seg t4 hatch" style="width:1.29%;--op:0.26" title="Unincorporated associations: 1.3% · £10k · 1 donations"></span></div>
-<ul class="clegend"><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Individuals</b> — 71.6% · £554k <span class="lg-n">(60 donations)</span><span class="lg-gloss">named people on the electoral register</span></li><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Public funds</b> — 25.3% · £196k <span class="lg-n">(12 donations)</span><span class="lg-gloss">state funding (e.g. Short money)</span></li><li class="lg t2"><span class="sw" style="--op:0.62"></span><b>Companies</b> — 1.7% · £13k <span class="lg-n">(5 donations)</span><span class="lg-gloss">registered at Companies House — owners look-up-able</span></li><li class="lg t4"><span class="sw" style="--op:0.26"></span><b>Unincorporated associations</b> — 1.3% · £10k <span class="lg-n">(1 donation)</span><span class="lg-gloss">under electoral law, need NOT disclose who funds them</span></li></ul>
+    <div class="cbar"><span class="seg t1" style="width:60.56%;--op:1.0" title="Individuals: 60.6% · £3.5m · 513 donations"></span><span class="seg t1" style="width:35.27%;--op:1.0" title="Public funds: 35.3% · £2.0m · 138 donations"></span><span class="seg t2" style="width:3.02%;--op:0.62" title="Companies: 3.0% · £172k · 31 donations"></span><span class="seg t4 hatch" style="width:0.80%;--op:0.26" title="Other: 0.8% · £46k · 9 donations"></span><span class="seg t4 hatch" style="width:0.35%;--op:0.26" title="Unincorporated associations: 0.4% · £20k · 3 donations"></span></div>
+<ul class="clegend"><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Individuals</b> — 60.6% · £3.5m <span class="lg-n">(513 donations)</span><span class="lg-gloss">named people on the electoral register</span></li><li class="lg t1"><span class="sw" style="--op:1.0"></span><b>Public funds</b> — 35.3% · £2.0m <span class="lg-n">(138 donations)</span><span class="lg-gloss">state funding (e.g. Short money)</span></li><li class="lg t2"><span class="sw" style="--op:0.62"></span><b>Companies</b> — 3.0% · £172k <span class="lg-n">(31 donations)</span><span class="lg-gloss">registered at Companies House — owners look-up-able</span></li><li class="lg t4"><span class="sw" style="--op:0.26"></span><b>Other</b> — 0.8% · £46k <span class="lg-n">(9 donations)</span><span class="lg-gloss">other / unclassified sources</span></li><li class="lg t4"><span class="sw" style="--op:0.26"></span><b>Unincorporated associations</b> — 0.4% · £20k <span class="lg-n">(3 donations)</span><span class="lg-gloss">under electoral law, need NOT disclose who funds them</span></li></ul>
     <div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div>
   </div>
 
   <div class="card gap">
     <h2>What we can't see</h2>
     <p style="font-size:13.5px;color:var(--ink-soft);margin:0 0 8px;">
-      1.3% (£10k) came via <b>unincorporated associations</b>, which under electoral law
+      0.4% (£20k) came via <b>unincorporated associations</b>, which under electoral law
       need not disclose who funds <i>them</i>. And money deliberately routed to hide its origin won't appear on this
       register at all. <b>This is a limit of the public record — not an all-clear.</b> What you see above is what's
       been declared; treat the faded end of the bar as "we can follow this less far", not as proof of anything.</p>
+    <p style="font-size:13.5px;color:var(--ink-soft);margin:0;">
+      We can also check where a <b>company</b> donor's owners are based (via Companies House), but
+      <b>not where an individual donor lives</b> — the register doesn't publish it, and a UK-registered
+      donor can be resident abroad. So a large individual donor based overseas would show here with no
+      such note.</p>
   </div>
 
   <div class="card">
     <h2>Largest reported donations</h2>
-    <ul class="dlist"><li class="drow"><span class="d-val">£90k</span><span class="d-main"><b>Mr Stephen Metcalfe</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2022-05-22</span></span></li><li class="drow"><span class="d-val">£70k</span><span class="d-main"><b>Mr Michael Taylor</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2024-02-28</span></span></li><li class="drow"><span class="d-val">£33k</span><span class="d-main"><b>House of Commons</b> <span class="d-type">Public funds</span><span class="d-date">accepted 2026-01-28</span></span></li><li class="drow"><span class="d-val">£31k</span><span class="d-main"><b>House of Commons</b> <span class="d-type">Public funds</span><span class="d-date">accepted 2025-06-26</span></span></li><li class="drow"><span class="d-val">£30k</span><span class="d-main"><b> Julian Cusack</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2019-10-09</span></span></li><li class="drow"><span class="d-val">£25k</span><span class="d-main"><b>Mr Alexander Wright</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2025-11-10</span></span></li></ul>
+    <ul class="dlist"><li class="drow"><span class="d-val">£171k</span><span class="d-main"><b>Mr Laurence Carlisle</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2024-03-07</span></span></li><li class="drow"><span class="d-val">£143k</span><span class="d-main"><b>The Electoral Commission</b> <span class="d-type">Public funds</span><span class="d-date">accepted 2025-08-15</span></span></li><li class="drow"><span class="d-val">£100k</span><span class="d-main"><b>Mr Michael Taylor</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2024-07-05</span></span></li><li class="drow"><span class="d-val">£100k</span><span class="d-main"><b>Mr Winston Taylor</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2022-02-13</span></span></li><li class="drow"><span class="d-val">£100k</span><span class="d-main"><b>Mr Julian Dunkerton</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2019-11-25</span></span></li><li class="drow"><span class="d-val">£94k</span><span class="d-main"><b>Mr Stephen Horne</b> <span class="d-type">Individuals</span><span class="d-date">accepted 2023-09-26</span></span></li></ul>
     <p class="src">Each donation is a public Electoral Commission record. Company notes are from Companies House filings.</p>
   </div>
 
   <div class="card">
     <h2>For the record — company donors</h2>
-    <ul class="recl"><li><b>4</b> company donations (£6k) are from companies that file <i>dormant</i> or <i>micro-entity</i> accounts — i.e. their own filings disclose little financial detail.</li><li><b>0</b> donations in this window were recorded by the Electoral Commission as impermissible or returned.</li></ul>
+    <ul class="recl"><li><b>15</b> company donations (£37k) are from companies that file <i>dormant</i> or <i>micro-entity</i> accounts — i.e. their own filings disclose little financial detail.</li><li><b>0</b> donations in this window were recorded by the Electoral Commission as impermissible or returned.</li></ul>
     <p class="src">Definitions and method: these are facts from each company's own Companies House record, shown without
       interpretation. "Based outside the UK" means the country of residence/registration recorded for a person with
       significant control — not a claim about the source of the money.</p>
+  </div>
+
+  <div class="card">
+    <h2>Dig deeper — where else to look</h2>
+    <p style="font-size:13px;color:var(--muted);margin:0 0 10px;">We focus on party-level money from the
+      public record. For things we deliberately don't do — your MP's interests, lobbying, think-tank
+      funding — these independent trackers do it well:</p>
+    <ul class="reslist"><li><a href="https://search.electoralcommission.org.uk/" target="_blank" rel="noopener"><b>The source: Electoral Commission register</b></a><span class="res-what">every donation here, searchable at source</span></li><li><a href="https://www.tortoisemedia.com/data/the-westminster-accounts" target="_blank" rel="noopener"><b>Who funds your MP — Westminster Accounts</b></a><span class="res-what">Tortoise &amp; Sky News: money around individual MPs, by name or postcode</span></li><li><a href="https://www.mysociety.org/democracy/who-funds-them/" target="_blank" rel="noopener"><b>Who funds your MP — WhoFundsThem</b></a><span class="res-what">mySociety: MPs&#x27; financial interests</span></li><li><a href="https://www.opendemocracy.net/en/who-funds-you/" target="_blank" rel="noopener"><b>Think-tank funding — Who Funds You?</b></a><span class="res-what">openDemocracy: how openly think tanks disclose their donors</span></li><li><a href="https://openaccess.transparency.org.uk/" target="_blank" rel="noopener"><b>Lobbying meetings — Open Access UK</b></a><span class="res-what">Transparency International: who&#x27;s meeting ministers</span></li><li><a href="https://find-and-update.company-information.service.gov.uk/" target="_blank" rel="noopener"><b>Company ownership — Companies House</b></a><span class="res-what">the official register behind our company notes</span></li></ul>
   </div>
 
   <p class="src">Show the Working shows its working: every figure here links to the public register it came from.
