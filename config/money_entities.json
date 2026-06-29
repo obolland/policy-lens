@@ -1,0 +1,11 @@
+{
+  "_comment": "Slug -> Electoral Commission 'RegulatedEntityName' mapping for the Follow the Money section (see docs/follow-the-money-architecture.md). The EC's own registered-party names differ from our policy-side slugs; donations are matched by EXACT RegulatedEntityName (the EC's own field), never fuzzy text search. ec_entity_id is the EC's RegulatedEntityId, kept for reference/cross-check. Scotland-only sister parties (e.g. Scottish Green Party) are SEPARATE EC registrations and deliberately excluded from v1 for cross-party consistency; revisit if/when we add devolved scope.",
+  "window_since": "2019-01-01",
+  "parties": [
+    { "slug": "lab", "party": "Labour",           "ec_entity_names": ["Labour Party"],                    "ec_entity_id": 53 },
+    { "slug": "con", "party": "Conservative",      "ec_entity_names": ["Conservative and Unionist Party"]               },
+    { "slug": "ld",  "party": "Liberal Democrat",  "ec_entity_names": ["Liberal Democrats"]                             },
+    { "slug": "ref", "party": "Reform UK",         "ec_entity_names": ["Reform UK"]                                     },
+    { "slug": "grn", "party": "Green",             "ec_entity_names": ["Green Party"]                                   }
+  ]
+}

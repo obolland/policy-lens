@@ -208,6 +208,31 @@ with the "money into politics" theme, not because it's optional.
 - **Phase 4 (definite follow-up) — Contracts / ownership (Block 3).** Mechanical complete-set join,
   badged "what they did in power", behind the publish gate.
 
+## Validation log
+
+- **Phase 0 (2026-06-29) — assumptions validated against live data.**
+  - The EC search JSON API (`search.electoralcommission.org.uk/api/search/Donations`) is **public,
+    keyless, and queryable**; `et=pp` scopes to party donations. Total ≈ 79k all-time, ≈ 23.5k since
+    2019-01-01.
+  - Records carry the EC's own **`DonorStatus`** (Company / Individual / Trade Union / Unincorporated
+    Association / …) and, for company donors, a **`CompanyRegistrationNumber`** — so the Companies
+    House join is a **deterministic key lookup, not fuzzy name-matching**. Confirmed end-to-end:
+    `J C Bamford Excavators Ltd → 00561597 →` CH "J.C. Bamford Excavators Limited". (EC numbers can be
+    < 8 digits; zero-pad to 8 for CH.)
+  - Bonus structured fields that power Block 2 / the findings layer without inference:
+    `AttemptedConcealment`, `DetailsOfConcealmentRevealed`, `ReasonForImpermissibility`,
+    `ReturnedDate`, `IsAnonymous`, `IsSponsorship`.
+  - Companies House REST API (free, 600 req / 5 min, HTTP Basic with key as username) returns profile
+    **`accounts.last_accounts.type`** (→ dormant/micro = sub-metric 6) and
+    **`/persons-with-significant-control`** (→ ownership nationality / country, the foreign-ownership
+    flag and Block 3). Verified live on two real donors.
+- **Phase 1 (2026-06-29) — built.** `config/money_entities.json` (slug→exact EC `RegulatedEntityName`)
+  + `pipeline/follow_money/fetch_ec_donations.py` (stdlib puller → `money_data/<slug>.json` with the
+  donor-status value-share tally that seeds sub-metrics 1–5). No key, no LLM.
+- **Scale check:** 222 unique company donors across the 5 parties since 2019 ⇒ ~444 cached CH calls,
+  ~2–3 min, £0. (Conservative 152 · Lib Dem 35 · Labour 27 · Reform 7 · Green 3 — asymmetry emerges
+  from the register, not from selection.)
+
 ## Load-bearing decisions (the ones not to quietly reverse)
 
 1. **Mirror the EC's own categories — don't invent a taxonomy of "opaque".** Kills the
