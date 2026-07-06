@@ -259,6 +259,13 @@ def build_seo(records, outcomes, directional_measures, parties, out_root):
         urls.append(canonical)
         n_policy += 1
 
+    # Follow the money pages (built separately by build_money_web.py; include any present on disk so
+    # the sitemap stays correct regardless of build order).
+    money_dir = out_root / "money"
+    if money_dir.exists():
+        for f in sorted(money_dir.glob("*.html")):
+            urls.append(f"{BASE_URL}/money/{f.name}")
+
     # sitemap + robots
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

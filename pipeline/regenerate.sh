@@ -42,3 +42,7 @@ $PY pipeline/build_verdicts_web.py --publish
 $PY pipeline/build_og_cards.py
 
 echo "=== done. Review the diff in web/ + data_verdicts/, then commit + push manually to publish. ==="
+
+# NB: the "Follow the money" section has its OWN refresh (independent, no LLM, quarterly cadence):
+#   ./pipeline/follow_money/regenerate_money.sh   (needs COMPANIES_HOUSE_API_KEY)
+# The sitemap here already includes any web/money/ pages present on disk.

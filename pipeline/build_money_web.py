@@ -41,6 +41,19 @@ STATUS = {
 }
 TIER_OPACITY = {1: 1.0, 2: 0.62, 3: 0.42, 4: 0.26}
 
+# Natural "Who funds ___?" phrasing per party (the config names don't slot into "the {name}").
+FUNDS_PHRASE = {
+    "Labour": "Labour",
+    "Conservative": "the Conservatives",
+    "Liberal Democrat": "the Liberal Democrats",
+    "Reform UK": "Reform UK",
+    "Green": "the Greens",
+}
+
+
+def funds_phrase(party):
+    return FUNDS_PHRASE.get(party, party)
+
 # "Dig deeper" — other independent trackers we point to rather than reinvent. Each is the best
 # public tool for something we deliberately DON'T do ourselves (MP-level interests, lobbying,
 # think-tank money, cross-border ownership, investigations). Pointing out is on-ethos and covers
@@ -165,6 +178,17 @@ def render_index(docs):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Follow the money — who funds the UK parties? — Show the Working</title>
 <meta name="description" content="Who funds each UK party, and how traceable that money is — every figure from the public Electoral Commission register and Companies House. Compare the funding shapes.">
+<link rel="canonical" href="https://showtheworking.uk/money/index.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Show the Working">
+<meta property="og:title" content="Follow the money — who funds the UK parties?">
+<meta property="og:description" content="Who funds each UK party, and how far the money can be traced — every figure from the public record. Compare the funding shapes.">
+<meta property="og:url" content="https://showtheworking.uk/money/index.html">
+<meta property="og:image" content="https://showtheworking.uk/og/money/index.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://showtheworking.uk/og/money/index.png">
 <link rel="stylesheet" href="../styles.css">
 <style>
   .fm {{ max-width: 820px; margin: 0 auto; padding: 6px 20px 70px; }}
@@ -224,6 +248,8 @@ def render_index(docs):
 def render(doc):
     s, ch = doc["summary"], doc.get("companies_house", {})
     party = doc["party"]
+    slug = doc["slug"]
+    funds = funds_phrase(party)
     bs = s["by_donor_status"]
     ua = bs.get("Unincorporated Association", {})
     ua_share = ua.get("value_share", 0) * 100
@@ -255,8 +281,19 @@ def render(doc):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Who funds the {esc(party)}? — Show the Working</title>
-<meta name="description" content="Who funds the {esc(party)}, and how traceable that money is — every figure from the public Electoral Commission register and Companies House.">
+<title>Who funds {esc(funds)}? — Show the Working</title>
+<meta name="description" content="Who funds {esc(funds)}, and how traceable that money is — every figure from the public Electoral Commission register and Companies House.">
+<link rel="canonical" href="https://showtheworking.uk/money/{esc(slug)}.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Show the Working">
+<meta property="og:title" content="Who funds {esc(funds)}?">
+<meta property="og:description" content="{money(s['value'])} in reported donations since {esc(doc['window_since'][:4])} — and how far it can be traced. Every figure from the public record.">
+<meta property="og:url" content="https://showtheworking.uk/money/{esc(slug)}.html">
+<meta property="og:image" content="https://showtheworking.uk/og/money/{esc(slug)}.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://showtheworking.uk/og/money/{esc(slug)}.png">
 <link rel="stylesheet" href="../styles.css">
 <style>
   .fm {{ max-width: 820px; margin: 0 auto; padding: 6px 20px 70px; }}
@@ -316,7 +353,7 @@ def render(doc):
   <div class="boundary"><b>Note:</b> our policy analysis is judged <b>blind to party</b>. This section is the
   opposite — it's about <b>who funds whom</b>, drawn entirely from public records. Nothing here feeds into a policy verdict.</div>
 
-  <h1>Who funds the {esc(party)}?</h1>
+  <h1>Who funds {esc(funds)}?</h1>
   <p class="topline"><span class="big">{money(s['value'])}</span> in reported donations, from {s['count']} donations.</p>
   <p class="asof">Source: <a href="{esc(doc['source_url'])}" target="_blank" rel="noopener">Electoral Commission register ↗</a>
     · since {esc(doc['window_since'])} · as reported up to {esc(doc['reported_up_to'])}. Company ownership from Companies House.</p>

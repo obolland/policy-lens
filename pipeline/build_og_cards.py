@@ -13,9 +13,11 @@ import tempfile
 from pathlib import Path
 
 from seo import _esc, _slug
+from build_money_web import mini_bar, money as _money, funds_phrase
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "web" / "og"
+MONEY_DATA = ROOT / "money_data"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 
@@ -52,6 +54,45 @@ body{{width:1200px;height:630px;background:#fafaf7;color:#14181d;
 </body></html>"""
 
 
+def _money_card_html(doc):
+    s = doc["summary"]
+    party = doc["party"]
+    total = _money(s["value"])
+    since = doc["window_since"][:4]
+    bar = mini_bar(s["by_donor_status"])
+    return f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+*{{margin:0;box-sizing:border-box}}
+body{{width:1200px;height:630px;background:#fafaf7;color:#14181d;
+ font-family:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+ padding:60px 84px;display:flex;flex-direction:column;justify-content:space-between;
+ border-top:16px solid #1f3a5f}}
+.brand{{font-size:34px;font-weight:800;letter-spacing:-.02em}}
+.brand .uw{{border-bottom:5px solid #1f3a5f;padding-bottom:3px}}
+.eyebrow{{font-size:23px;font-weight:800;letter-spacing:.10em;text-transform:uppercase;color:#1f3a5f;margin-bottom:6px}}
+.title{{font-size:74px;font-weight:800;letter-spacing:-.03em;line-height:1.03}}
+.total{{font-size:52px;font-weight:800;margin-top:22px}}
+.total span{{font-size:29px;color:#38414c;font-weight:600}}
+.cbar{{display:flex;height:48px;border-radius:9px;overflow:hidden;border:1px solid #c7ced7;margin-top:18px}}
+.seg{{background:#1f3a5f;opacity:var(--op);height:100%}}
+.seg.hatch{{background-image:repeating-linear-gradient(45deg,transparent,transparent 5px,rgba(255,255,255,.55) 5px,rgba(255,255,255,.55) 9px)}}
+.cap{{font-size:22px;color:#59626d;margin-top:12px}}
+.foot{{display:flex;justify-content:space-between;align-items:center;font-size:24px;color:#59626d}}
+.foot .dom{{font-weight:800;color:#14181d}}
+.tick{{color:#15723a;font-weight:800}}
+</style></head><body>
+<div class="brand">Show the <span class="uw">Working</span></div>
+<div>
+ <div class="eyebrow">Follow the money</div>
+ <div class="title">Who funds {_esc(funds_phrase(party))}?</div>
+ <div class="total">{_esc(total)} <span>in reported donations since {_esc(since)}</span></div>
+ {bar}
+ <div class="cap">more disclosed&nbsp;←&nbsp;→&nbsp;discloses less &nbsp;·&nbsp; every figure from the public Electoral Commission register</div>
+</div>
+<div class="foot"><span><span class="tick">✓</span> Public record · non-partisan · every figure sourced</span>
+ <span class="dom">showtheworking.uk</span></div>
+</body></html>"""
+
+
 def render(html, out_path):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
@@ -81,6 +122,16 @@ def main():
         sub = ("Which way would each party move it? Your call." if directional
                else "Where the UK parties stand — source-checked, non-partisan.")
         render(_card_html(name, sub), OUT / "topic" / f"{_slug(name)}.png")
+        n += 1
+    # Follow the money — per-party cards (funding shape) + section landing card
+    ledgers = sorted(p for p in MONEY_DATA.glob("*.json") if not p.name.startswith("_")) if MONEY_DATA.exists() else []
+    for lp in ledgers:
+        doc = json.loads(lp.read_text())
+        render(_money_card_html(doc), OUT / "money" / f"{doc['slug']}.png")
+        n += 1
+    if ledgers:
+        render(_card_html("Follow the money", "Who funds each UK party — and how far it can be traced. Every figure from the public record.",
+                          cta="See who funds them →"), OUT / "money" / "index.png")
         n += 1
     print(f"wrote {n} OG cards to {OUT}", flush=True)
 
