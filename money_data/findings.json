@@ -1,0 +1,42 @@
+{
+  "_comment": "Follow the Money — Block 4 findings layer. HAND-CURATED, human-gated (see docs/follow-the-money-architecture.md). Inclusion rule (external, so not cherry-picking): formal published findings/sanctions by official UK bodies (Electoral Commission, ICO, NAO, PAC, courts) on political finance / influence / data misuse, PLUS public contracts under official/parliamentary scrutiny. Every entry states an attributed public fact, never our gloss, never extrapolated. source_verified=false means the exact source URL still needs confirming at the publish gate.",
+  "findings": [
+    {
+      "id": "vote-leave-2018",
+      "category": "ec-sanction",
+      "headline": "Vote Leave fined £61,000 and referred to the police for breaking spending law",
+      "body": "Electoral Commission",
+      "date": "2018-07-17",
+      "party": null,
+      "what_was_found": "The Electoral Commission found that Vote Leave — the official Leave campaign in the 2016 EU referendum — exceeded its £7m spending limit by almost £500,000 by working with the campaigner BeLeave, through which £675,315 was paid to the data firm AggregateIQ. It fined Vote Leave £61,000 and referred the matter to the Metropolitan Police. (Vote Leave was a referendum campaign, not a political party.)",
+      "source_label": "Electoral Commission investigation report",
+      "source_url": "https://www.electoralcommission.org.uk/media-centre/vote-leave-fined-and-referred-police-electoral-commission-investigation-finds",
+      "source_verified": false
+    },
+    {
+      "id": "facebook-ica-2018",
+      "category": "ico",
+      "headline": "Facebook fined £500,000 over the Cambridge Analytica data breach",
+      "body": "Information Commissioner's Office",
+      "date": "2018-10-25",
+      "party": null,
+      "what_was_found": "The Information Commissioner's Office fined Facebook £500,000 — the maximum available under the Data Protection Act 1998 — for failing to protect users' personal information, after the data of up to 87 million people was harvested and some of it obtained by Cambridge Analytica, which worked on political campaigns. Facebook later settled without admitting liability.",
+      "source_label": "ICO enforcement action",
+      "source_url": "https://ico.org.uk/action-weve-taken/enforcement/facebook-ireland-ltd/",
+      "source_verified": false
+    },
+    {
+      "id": "nhs-fdp-palantir",
+      "category": "contract-scrutiny",
+      "headline": "NHS's £330m data platform awarded to a US-headquartered firm, now under parliamentary scrutiny",
+      "body": "Contracts Finder · UK Parliament",
+      "date": "2023-11-21",
+      "party": "Conservative",
+      "what_was_found": "NHS England awarded the roughly £330m Federated Data Platform contract to a consortium led by Palantir Technologies, a US-headquartered company, in November 2023 (published on Contracts Finder), under the then Conservative government. The contract has since been debated in Parliament, and in April 2026 a health minister said it could be reassessed at its 2027 break clause on value-for-money and patient-safety grounds.",
+      "note": "This is a record of a public contract and of parliamentary scrutiny — NOT a finding of wrongdoing. No official audit (e.g. the National Audit Office) has yet ruled on the contract.",
+      "source_label": "Contracts Finder award notice",
+      "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+      "source_verified": true
+    }
+  ]
+}

@@ -61,6 +61,26 @@ COLOUR_DEFAULT = "#BBBBBB"
 def colour(status):
     return COLOUR.get(status, COLOUR_DEFAULT)
 
+
+CAT_LABEL = {
+    "ec-sanction": "Electoral Commission sanction",
+    "ico": "Data protection (ICO)",
+    "committee": "Select-committee finding",
+    "court": "Court judgment",
+    "contract-scrutiny": "Public contract under scrutiny",
+}
+
+_MONTHS = ["", "January", "February", "March", "April", "May", "June",
+           "July", "August", "September", "October", "November", "December"]
+
+
+def fmt_date(iso):
+    try:
+        y, m, d = iso.split("-")
+        return f"{int(d)} {_MONTHS[int(m)]} {y}"
+    except Exception:
+        return iso or ""
+
 # Natural "Who funds ___?" phrasing per party (the config names don't slot into "the {name}").
 FUNDS_PHRASE = {
     "Labour": "Labour",
@@ -274,8 +294,90 @@ def render_index(docs):
 
   {''.join(rows)}
 
+  <p style="margin:24px 0 0;font-size:15.5px;"><a href="findings.html"><b>Findings — what official bodies have found →</b></a></p>
+
   <p class="src">A snapshot of <b>declared</b> donations; money structured to hide its origin won't appear here.
   Each party page shows what we <i>can't</i> see, alongside what we can.</p>
+</main>
+</body>
+</html>
+"""
+
+
+def render_findings(findings):
+    cards = []
+    for f in sorted(findings, key=lambda f: f.get("date", ""), reverse=True):
+        note = (f'<p class="f-note">{esc(f["note"])}</p>' if f.get("note") else "")
+        party = (f'<span class="f-party">involves: {esc(f["party"])}</span>' if f.get("party") else "")
+        cards.append(
+            f'<li class="fcard">'
+            f'<div class="f-meta"><span class="f-cat">{esc(CAT_LABEL.get(f["category"], f["category"]))}</span>'
+            f'<span class="f-when">{esc(f["body"])} · {esc(fmt_date(f.get("date","")))}</span>{party}</div>'
+            f'<h2>{esc(f["headline"])}</h2>'
+            f'<p class="f-body">{esc(f["what_was_found"])}</p>{note}'
+            f'<a class="f-src" href="{esc(f["source_url"])}" target="_blank" rel="noopener">{esc(f["source_label"])} ↗</a>'
+            f'</li>')
+    return f"""<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Findings — what official bodies have found — Show the Working</title>
+<meta name="description" content="Formal findings and sanctions by official UK bodies — the Electoral Commission, ICO, courts and Parliament — on political money, influence and data. Attributed, sourced, never our conclusions.">
+<link rel="canonical" href="https://showtheworking.uk/money/findings.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Show the Working">
+<meta property="og:title" content="Follow the money — official findings">
+<meta property="og:description" content="What official UK bodies have formally found about political money, influence and data — attributed and sourced.">
+<meta property="og:url" content="https://showtheworking.uk/money/findings.html">
+<meta property="og:image" content="https://showtheworking.uk/og/money/index.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://showtheworking.uk/og/money/index.png">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .fm {{ max-width: 820px; margin: 0 auto; padding: 6px 20px 70px; }}
+  .boundary {{ background: var(--accent-tint); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 11px 14px; font-size: 13px; color: var(--accent-ink); margin: 14px 0 22px; }}
+  .fm h1 {{ font-size: 27px; letter-spacing: -.02em; margin: 6px 0 6px; }}
+  .lead {{ font-size: 15.5px; color: var(--ink-soft); line-height: 1.6; margin: 0 0 22px; }}
+  .flist {{ list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; }}
+  .fcard {{ background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    box-shadow: var(--shadow); padding: 16px 18px; }}
+  .fcard h2 {{ font-size: 17px; letter-spacing: -.01em; margin: 4px 0 8px; }}
+  .f-meta {{ display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: 12px; }}
+  .f-cat {{ background: var(--accent-tint); color: var(--accent-ink); font-weight: 700;
+    padding: 2px 9px; border-radius: 20px; }}
+  .f-when {{ color: var(--muted); }}
+  .f-party {{ color: var(--muted); }}
+  .f-body {{ font-size: 14.5px; color: var(--ink-soft); line-height: 1.6; margin: 0 0 8px; }}
+  .f-note {{ font-size: 13px; color: var(--muted); border-left: 3px solid var(--line-strong);
+    padding: 2px 0 2px 12px; margin: 0 0 10px; }}
+  .f-src {{ font-size: 13px; font-weight: 600; color: var(--accent); }}
+  .src {{ font-size: 12.5px; color: var(--muted); margin-top: 20px; }}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <span class="brand">Show the <span class="uw">Working</span></span>
+  <nav class="trustline" aria-label="nav"><a href="index.html">← Follow the money</a> <a href="../index.html">Policy comparison</a></nav>
+</div></header>
+
+<main class="fm">
+  <div class="boundary"><b>Note:</b> our policy analysis is judged <b>blind to party</b>. This section is the
+  opposite — it's about <b>who funds whom</b>, drawn entirely from public records. Nothing here feeds into a policy verdict.</div>
+
+  <h1>Findings — what official bodies have found</h1>
+  <p class="lead">Formal findings, sanctions and scrutiny from official UK bodies — the <b>Electoral Commission</b>,
+  the <b>ICO</b>, the courts and Parliament — on political money, influence and data. We report what they
+  concluded, quote the source, and link it. These are <i>their</i> findings, not our conclusions; where a matter
+  is only a public contract under scrutiny rather than a proven finding, we say so.</p>
+
+  <ul class="flist">{''.join(cards)}</ul>
+
+  <p class="src">Included by a fixed rule: formal findings or sanctions by official UK bodies, plus public
+  contracts under official or parliamentary scrutiny. If we've missed one that fits, tell us.</p>
 </main>
 </body>
 </html>
@@ -454,10 +556,12 @@ def main():
     ap.add_argument("--slug", help="build one party; omit to build every ledger in money_data/")
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
+    def is_ledger(p):  # per-party donation ledgers only — not findings.json or _-prefixed caches
+        return not p.name.startswith("_") and p.name != "findings.json"
     if args.slug:
         ledgers = [DATA / f"{args.slug}.json"]
     else:
-        ledgers = sorted(p for p in DATA.glob("*.json") if not p.name.startswith("_"))
+        ledgers = sorted(p for p in DATA.glob("*.json") if is_ledger(p))
     built = []
     for lp in ledgers:
         doc = json.loads(lp.read_text())
@@ -466,9 +570,15 @@ def main():
         built.append(doc)
         print(f"wrote {out.relative_to(ROOT)}  ({doc['party']})")
     # the comparison landing always reflects every ledger (not just --slug)
-    all_docs = [json.loads(p.read_text()) for p in sorted(DATA.glob("*.json")) if not p.name.startswith("_")]
+    all_docs = [json.loads(p.read_text()) for p in sorted(DATA.glob("*.json")) if is_ledger(p)]
     (OUT / "index.html").write_text(render_index(all_docs))
     print(f"wrote {(OUT / 'index.html').relative_to(ROOT)}  (comparison landing)")
+
+    findings_path = DATA / "findings.json"
+    if findings_path.exists():
+        findings = json.loads(findings_path.read_text()).get("findings", [])
+        (OUT / "findings.html").write_text(render_findings(findings))
+        print(f"wrote {(OUT / 'findings.html').relative_to(ROOT)}  ({len(findings)} findings)")
 
 
 if __name__ == "__main__":
