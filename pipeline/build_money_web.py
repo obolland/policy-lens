@@ -384,11 +384,29 @@ def render_findings(findings):
 """
 
 
-def render(doc):
+def render(doc, party_findings=()):
     s, ch = doc["summary"], doc.get("companies_house", {})
     party = doc["party"]
     slug = doc["slug"]
     funds = funds_phrase(party)
+    # "Findings involving this party" card — shown on every party page for symmetry (absence is stated
+    # honestly, not left implying a clean record).
+    if party_findings:
+        items = "".join(
+            f'<li class="pf-row"><span class="f-cat">{esc(CAT_LABEL.get(f["category"], f["category"]))}</span>'
+            f'<a href="findings.html">{esc(f["headline"])}</a>'
+            f'<span class="pf-when">{esc(f["body"])} · {esc(fmt_date(f.get("date","")))}</span></li>'
+            for f in sorted(party_findings, key=lambda f: f.get("date", ""), reverse=True))
+        findings_card = (
+            f'<div class="card"><h2>Findings involving {esc(funds)}</h2>'
+            f'<ul class="pflist">{items}</ul>'
+            f'<p class="src"><a href="findings.html"><b>See all official findings →</b></a></p></div>')
+    else:
+        findings_card = (
+            f'<div class="card"><h2>Findings involving {esc(funds)}</h2>'
+            f'<p style="font-size:13.5px;color:var(--ink-soft);margin:0;">No official findings in our set are '
+            f'tagged to {esc(funds)}. Our set covers formal actions by official UK bodies — absence here isn\'t a '
+            f'clean bill of health. <a href="findings.html"><b>See all findings →</b></a></p></div>')
     bs = s["by_donor_status"]
     ua = bs.get("Unincorporated Association", {})
     ua_share = ua.get("value_share", 0) * 100
@@ -485,6 +503,12 @@ def render(doc):
   .reslist a {{ color: var(--accent); font-weight: 600; text-decoration: none; }}
   .reslist a:hover {{ text-decoration: underline; }}
   .reslist .res-what {{ display: block; font-size: 12.5px; color: var(--muted); }}
+  .pflist {{ list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }}
+  .pf-row {{ font-size: 14px; }}
+  .pf-row .f-cat {{ display: inline-block; background: var(--accent-tint); color: var(--accent-ink);
+    font-weight: 700; font-size: 11.5px; padding: 2px 9px; border-radius: 20px; margin-right: 8px; }}
+  .pf-row a {{ color: var(--accent); font-weight: 600; }}
+  .pf-when {{ display: block; font-size: 12px; color: var(--muted); margin-top: 3px; }}
 </style>
 </head>
 <body>
@@ -535,6 +559,8 @@ def render(doc):
       significant control — not a claim about the source of the money.</p>
   </div>
 
+  {findings_card}
+
   <div class="card">
     <h2>Dig deeper — where else to look</h2>
     <p style="font-size:13px;color:var(--muted);margin:0 0 10px;">We focus on party-level money from the
@@ -562,13 +588,16 @@ def main():
         ledgers = [DATA / f"{args.slug}.json"]
     else:
         ledgers = sorted(p for p in DATA.glob("*.json") if is_ledger(p))
+    findings_all = (json.loads((DATA / "findings.json").read_text()).get("findings", [])
+                    if (DATA / "findings.json").exists() else [])
     built = []
     for lp in ledgers:
         doc = json.loads(lp.read_text())
+        pf = [f for f in findings_all if f.get("party") == doc["party"]]
         out = OUT / f"{doc['slug']}.html"
-        out.write_text(render(doc))
+        out.write_text(render(doc, pf))
         built.append(doc)
-        print(f"wrote {out.relative_to(ROOT)}  ({doc['party']})")
+        print(f"wrote {out.relative_to(ROOT)}  ({doc['party']}, {len(pf)} findings)")
     # the comparison landing always reflects every ledger (not just --slug)
     all_docs = [json.loads(p.read_text()) for p in sorted(DATA.glob("*.json")) if is_ledger(p)]
     (OUT / "index.html").write_text(render_index(all_docs))
