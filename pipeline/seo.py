@@ -61,7 +61,7 @@ def _page(title, description, canonical, body, jsonld="", og_image="/og/default.
 </head>
 <body>
 <header class="site"><div class="wrap bar">
-<span class="brand">Show the <span class="uw">Working</span></span>
+<a href="../index.html" class="brand">Show the <span class="uw">Working</span></a>
 <nav class="trustline" aria-label="nav"><a class="back" href="../index.html">← The full comparison</a></nav>
 </div></header>
 <main class="doc">

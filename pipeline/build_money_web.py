@@ -281,7 +281,7 @@ def render_index(docs):
 </head>
 <body>
 <header class="site"><div class="wrap bar">
-  <span class="brand">Show the <span class="uw">Working</span></span>
+  <a href="../index.html" class="brand">Show the <span class="uw">Working</span></a>
   <nav class="trustline" aria-label="nav"><a href="../index.html">← Policy comparison</a></nav>
 </div></header>
 
@@ -365,7 +365,7 @@ def render_findings(findings):
 </head>
 <body>
 <header class="site"><div class="wrap bar">
-  <span class="brand">Show the <span class="uw">Working</span></span>
+  <a href="../index.html" class="brand">Show the <span class="uw">Working</span></a>
   <nav class="trustline" aria-label="nav"><a href="index.html">← Follow the money</a> <a href="../index.html">Policy comparison</a></nav>
 </div></header>
 
@@ -518,7 +518,7 @@ def render(doc, party_findings=()):
 </head>
 <body>
 <header class="site"><div class="wrap bar">
-  <span class="brand">Show the <span class="uw">Working</span></span>
+  <a href="../index.html" class="brand">Show the <span class="uw">Working</span></a>
   <nav class="trustline" aria-label="nav"><a href="index.html">← Follow the money</a> <a href="../index.html">Policy comparison</a></nav>
 </div></header>
 
