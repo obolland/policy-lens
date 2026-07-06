@@ -122,22 +122,19 @@ def composition_bar(by_status, total):
         f'title="{esc(label)}: {share*100:.1f}% · {money(val)} · {cnt} donations"></span>'
         for share, label, tier, gloss, val, cnt, status in segs)
 
-    # Accessible breakdown: one LABELLED bar per source. Colour + a matching swatch help those who can
-    # see it; the text label + bar length + printed %/£ carry it for those who can't. Redundant cues.
-    rows = "".join(
-        f'<li class="crow">'
-        f'<div class="crow-h"><span class="sw" style="--c:{colour(status)}"></span><b>{esc(label)}</b>'
-        f'<span class="crow-v">{share*100:.1f}% · {money(val)} '
-        f'<span class="lg-n">({cnt} donation{"s" if cnt != 1 else ""})</span></span></div>'
-        f'<div class="crow-track"><span class="fill{" hatch" if tier == 4 else ""}" '
-        f'style="width:{max(share*100, 0.8):.2f}%;--c:{colour(status)}"></span></div>'
-        f'<div class="crow-g">{esc(gloss)}</div></li>'
+    # Key: a labelled swatch per source. Each swatch is a distinct colourblind-safe colour AND is
+    # labelled, so identity never rests on colour alone; hatch marks the least-disclosed sources.
+    legend = "".join(
+        f'<li class="lg"><span class="sw{" hatch" if tier == 4 else ""}" style="--c:{colour(status)}"></span>'
+        f'<b>{esc(label)}</b> — {share*100:.1f}% · {money(val)} '
+        f'<span class="lg-n">({cnt} donation{"s" if cnt != 1 else ""})</span>'
+        f'<span class="lg-gloss">{esc(gloss)}</span></li>'
         for share, label, tier, gloss, val, cnt, status in segs)
 
     return (f'<div class="cbar">{bar}</div>'
             f'<p class="cbar-note">Ordered most-disclosed to least. '
             f'<span class="hatch-key"></span> marks sources that need not disclose who funds them.</p>'
-            f'<ul class="cbreak">{rows}</ul>')
+            f'<ul class="clegend">{legend}</ul>')
 
 
 def top_donors(donations, n=6):
@@ -361,20 +358,15 @@ def render(doc):
     border: 1px solid var(--line-strong); border-radius: 3px; background: var(--panel);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 3px,
       rgba(20,24,29,.4) 3px, rgba(20,24,29,.4) 5px); }}
-  /* accessible per-source breakdown — colour + swatch + label + bar length, all redundant cues */
-  .cbreak {{ list-style: none; padding: 0; margin: 16px 0 2px; display: grid; gap: 13px; }}
-  .cbreak .crow-h {{ display: flex; align-items: center; gap: 8px; font-size: 14px; }}
-  .cbreak .sw {{ width: 13px; height: 13px; border-radius: 3px; background: var(--c);
-    border: 1px solid rgba(0,0,0,.22); flex: none; }}
-  .cbreak .crow-h b {{ font-weight: 700; }}
-  .cbreak .crow-v {{ color: var(--ink-soft); white-space: nowrap; margin-left: auto; }}
-  .cbreak .lg-n {{ color: var(--muted); }}
-  .cbreak .crow-track {{ background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
-    height: 13px; overflow: hidden; margin: 5px 0 3px; }}
-  .cbreak .fill {{ display: block; height: 100%; background: var(--c); }}
-  .cbreak .fill.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }}
-  .cbreak .crow-g {{ font-size: 12px; color: var(--muted); }}
+  /* key: labelled colour swatch per source (colour + label, so identity never rests on colour alone) */
+  .clegend {{ list-style: none; padding: 0; margin: 16px 0 2px; display: grid; gap: 10px; }}
+  .clegend li {{ font-size: 13.5px; color: var(--ink-soft); padding-left: 26px; position: relative; }}
+  .clegend .sw {{ position: absolute; left: 0; top: 2px; width: 15px; height: 15px; border-radius: 4px;
+    background: var(--c); border: 1px solid rgba(0,0,0,.22); }}
+  .clegend .sw.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 3px,
+    rgba(255,255,255,.65) 3px, rgba(255,255,255,.65) 5px); }}
+  .clegend .lg-n {{ color: var(--muted); }}
+  .clegend .lg-gloss {{ display: block; font-size: 12px; color: var(--muted); }}
   .dlist, .recl {{ list-style: none; padding: 0; margin: 0; }}
   .drow {{ display: flex; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); }}
   .drow:first-child {{ border-top: 0; }}
