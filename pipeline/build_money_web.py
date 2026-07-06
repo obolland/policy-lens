@@ -64,6 +64,7 @@ def colour(status):
 
 CAT_LABEL = {
     "ec-sanction": "Electoral Commission sanction",
+    "ec-review": "Electoral Commission review",
     "ico": "Data protection (ICO)",
     "committee": "Select-committee finding",
     "court": "Court judgment",
@@ -75,9 +76,13 @@ _MONTHS = ["", "January", "February", "March", "April", "May", "June",
 
 
 def fmt_date(iso):
+    parts = (iso or "").split("-")
     try:
-        y, m, d = iso.split("-")
-        return f"{int(d)} {_MONTHS[int(m)]} {y}"
+        if len(parts) == 3:
+            return f"{int(parts[2])} {_MONTHS[int(parts[1])]} {parts[0]}"
+        if len(parts) == 2:
+            return f"{_MONTHS[int(parts[1])]} {parts[0]}"
+        return parts[0]
     except Exception:
         return iso or ""
 

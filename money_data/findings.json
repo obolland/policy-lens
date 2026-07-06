@@ -1,30 +1,6 @@
 {
-  "_comment": "Follow the Money — Block 4 findings layer. HAND-CURATED, human-gated (see docs/follow-the-money-architecture.md). Inclusion rule (external, so not cherry-picking): formal published findings/sanctions by official UK bodies (Electoral Commission, ICO, NAO, PAC, courts) on political finance / influence / data misuse, PLUS public contracts under official/parliamentary scrutiny. Every entry states an attributed public fact, never our gloss, never extrapolated. source_verified=false means the exact source URL still needs confirming at the publish gate.",
+  "_comment": "Follow the Money — Block 4 findings layer. HAND-CURATED, human-gated (see docs/follow-the-money-architecture.md). Inclusion rule (external, so not cherry-picking): formal published findings/sanctions/reviews by official UK bodies (Electoral Commission, ICO, NAO, PAC, courts) on political finance / influence / data misuse, PLUS public contracts under official/parliamentary scrutiny. Every entry states an attributed public fact, never our gloss, never extrapolated. source_verified=false means the exact source URL still needs confirming at the publish gate.",
   "findings": [
-    {
-      "id": "vote-leave-2018",
-      "category": "ec-sanction",
-      "headline": "Vote Leave fined £61,000 and referred to the police for breaking spending law",
-      "body": "Electoral Commission",
-      "date": "2018-07-17",
-      "party": null,
-      "what_was_found": "The Electoral Commission found that Vote Leave — the official Leave campaign in the 2016 EU referendum — exceeded its £7m spending limit by almost £500,000 by working with the campaigner BeLeave, through which £675,315 was paid to the data firm AggregateIQ. It fined Vote Leave £61,000 and referred the matter to the Metropolitan Police. (Vote Leave was a referendum campaign, not a political party.)",
-      "source_label": "Electoral Commission investigation report",
-      "source_url": "https://www.electoralcommission.org.uk/media-centre/vote-leave-fined-and-referred-police-electoral-commission-investigation-finds",
-      "source_verified": false
-    },
-    {
-      "id": "facebook-ica-2018",
-      "category": "ico",
-      "headline": "Facebook fined £500,000 over the Cambridge Analytica data breach",
-      "body": "Information Commissioner's Office",
-      "date": "2018-10-25",
-      "party": null,
-      "what_was_found": "The Information Commissioner's Office fined Facebook £500,000 — the maximum available under the Data Protection Act 1998 — for failing to protect users' personal information, after the data of up to 87 million people was harvested and some of it obtained by Cambridge Analytica, which worked on political campaigns. Facebook later settled without admitting liability.",
-      "source_label": "ICO enforcement action",
-      "source_url": "https://ico.org.uk/action-weve-taken/enforcement/facebook-ireland-ltd/",
-      "source_verified": false
-    },
     {
       "id": "nhs-fdp-palantir",
       "category": "contract-scrutiny",
@@ -37,6 +13,103 @@
       "source_label": "Contracts Finder award notice",
       "source_url": "https://www.contractsfinder.service.gov.uk/Notice/0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
       "source_verified": true
+    },
+    {
+      "id": "leave-eu-ico-2019",
+      "category": "ico",
+      "headline": "Leave.EU and Arron Banks's insurance firm fined £120,000 for unlawful marketing",
+      "body": "Information Commissioner's Office",
+      "date": "2019-02-01",
+      "party": null,
+      "what_was_found": "The Information Commissioner's Office fined Leave.EU and Eldon Insurance (both linked to the businessman Arron Banks) £120,000 in total for unlawful direct marketing. Leave.EU had used insurance customers' details to send around 300,000 political messages, and about a million marketing emails were sent without adequate consent.",
+      "source_label": "ICO enforcement action",
+      "source_url": "https://ico.org.uk/action-weve-taken/enforcement/",
+      "source_verified": false
+    },
+    {
+      "id": "brexit-party-ec-review-2019",
+      "category": "ec-review",
+      "headline": "Watchdog warned the Brexit Party's funding was open to a 'high risk' of impermissible donations",
+      "body": "Electoral Commission",
+      "date": "2019-06",
+      "party": "Reform UK",
+      "what_was_found": "After reviewing its online fundraising in 2019, the Electoral Commission concluded that the fundraising structure adopted by the Brexit Party — which became Reform UK in 2021 — “leaves it open to a high and on-going risk of receiving and accepting impermissible donations”, and recommended the party check all payments it had received.",
+      "note": "This was a review finding and recommendations, not a fine or a finding of wrongdoing.",
+      "source_label": "Electoral Commission review (June 2019)",
+      "source_url": "https://www.electoralcommission.org.uk/media-centre",
+      "source_verified": false
+    },
+    {
+      "id": "vote-leave-2018",
+      "category": "ec-sanction",
+      "headline": "Vote Leave fined £61,000 and referred to the police for breaking spending law",
+      "body": "Electoral Commission",
+      "date": "2018-07-17",
+      "party": null,
+      "what_was_found": "The Electoral Commission found that Vote Leave — the official Leave campaign in the 2016 EU referendum — exceeded its £7m spending limit by almost £500,000 by working with the campaigner BeLeave, through which £675,315 was paid to the data firm AggregateIQ. It fined Vote Leave £61,000 and referred the matter to the Metropolitan Police. (Vote Leave was a referendum campaign, not a political party.)",
+      "source_label": "Electoral Commission investigation report",
+      "source_url": "https://www.electoralcommission.org.uk/media-centre/vote-leave-fined-and-referred-police-breaking-electoral-law",
+      "source_verified": false
+    },
+    {
+      "id": "leave-eu-ec-2018",
+      "category": "ec-sanction",
+      "headline": "Leave.EU fined £70,000 for breaking referendum spending law",
+      "body": "Electoral Commission",
+      "date": "2018-05-11",
+      "party": null,
+      "what_was_found": "The Electoral Commission found Leave.EU — the campaign co-founded by Arron Banks — exceeded its £700,000 referendum spending limit by at least 10% and delivered inaccurate and incomplete spending returns. It fined Leave.EU £70,000, referred its responsible person to the police, and referred the matter to the National Crime Agency, which in 2019 said it had found no evidence that criminal offences were committed.",
+      "source_label": "Electoral Commission investigation report",
+      "source_url": "https://www.electoralcommission.org.uk/media-centre/leaveeu-fined-multiple-breaches-electoral-law-following-investigation",
+      "source_verified": false
+    },
+    {
+      "id": "facebook-ica-2018",
+      "category": "ico",
+      "headline": "Facebook fined £500,000 over the Cambridge Analytica data breach",
+      "body": "Information Commissioner's Office",
+      "date": "2018-10-25",
+      "party": null,
+      "what_was_found": "The Information Commissioner's Office fined Facebook £500,000 — the maximum available under the Data Protection Act 1998 — for failing to protect users' personal information, after the data of up to 87 million people was harvested and some of it obtained by Cambridge Analytica, which worked on political campaigns. Facebook later settled without admitting liability.",
+      "source_label": "ICO enforcement action",
+      "source_url": "https://ico.org.uk/action-weve-taken/enforcement/",
+      "source_verified": false
+    },
+    {
+      "id": "conservative-ec-2017",
+      "category": "ec-sanction",
+      "headline": "Conservatives fined £70,000 over 2015 election spending — a record at the time",
+      "body": "Electoral Commission",
+      "date": "2017-03-16",
+      "party": "Conservative",
+      "what_was_found": "The Electoral Commission found significant failures by the Conservative Party to report more than £250,000 of spending on its 2015 general election and three 2014 by-election campaigns, including 'battlebus' costs. It imposed a £70,000 fine — its largest to that date — and referred the party's then-registered treasurer to the Metropolitan Police.",
+      "source_label": "Electoral Commission investigation report",
+      "source_url": "https://www.electoralcommission.org.uk/media-centre/conservative-party-fined-ps70000-following-investigation-election-campaign-expenses",
+      "source_verified": false
+    },
+    {
+      "id": "libdem-ec-2016",
+      "category": "ec-sanction",
+      "headline": "Liberal Democrats fined the maximum £20,000 over missing election spending",
+      "body": "Electoral Commission",
+      "date": "2016-12",
+      "party": "Liberal Democrat",
+      "what_was_found": "The Electoral Commission found that 307 payments totalling £184,676 were missing from the Liberal Democrats' 2015 general election spending return without a reasonable excuse, and imposed the maximum £20,000 fine — prompting the Commission to renew its call for stronger sanctioning powers.",
+      "source_label": "Electoral Commission investigation report",
+      "source_url": "https://www.electoralcommission.org.uk/media-centre/electoral-commission-calls-stronger-powers-sanction-political-parties-liberal-democrats-are-fined",
+      "source_verified": false
+    },
+    {
+      "id": "labour-ec-2016",
+      "category": "ec-sanction",
+      "headline": "Labour fined £20,000 over its 2015 election spending return",
+      "body": "Electoral Commission",
+      "date": "2016",
+      "party": "Labour",
+      "what_was_found": "The Electoral Commission found the Labour Party's 2015 general election spending return was incomplete — missing 74 payments totalling £123,748 and 33 invoices totalling £34,392 — and fined the party £20,000.",
+      "source_label": "Electoral Commission investigation report",
+      "source_url": "https://www.electoralcommission.org.uk/media-centre/electoral-commission-concludes-investigation-labour-partys-2015-general-election-spending",
+      "source_verified": false
     }
   ]
 }
