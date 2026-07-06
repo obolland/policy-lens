@@ -137,8 +137,6 @@ html { scroll-behavior: smooth; }
 @media (max-width: 700px) {
   /* header trustline: full-width and wrapping (instead of running off the right edge) */
   .trustline { margin-left: 0; width: 100%; font-size: 12px; gap: 6px 14px; }
-  /* footer: stack the trust points above the fine print, with breathing room between them */
-  footer.site .wrap { flex-direction: column; gap: 18px; }
 }
 
 /* picker */
@@ -258,12 +256,26 @@ html { scroll-behavior: smooth; }
 .legend .key { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
 .legend .order-note { flex-basis: 100%; margin-top: 2px; font-style: italic; color: var(--muted); }
 
-/* footer */
+/* footer — single column, mobile-first: next-step links, then trust pillars, then fine print */
 footer.site { margin-top: 48px; border-top: 1px solid var(--line); background: var(--surface); }
-footer.site .wrap { padding: 26px 22px 40px; display: flex; gap: 24px; }
-footer .trust-row { display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 13px; color: var(--ink-soft); }
+footer.site .wrap { padding: 30px 22px 44px; }
+/* zone 1: next-step links (prominent, top) */
+footer .footer-nav { display: grid; gap: 12px; padding-bottom: 24px; margin-bottom: 24px; border-bottom: 1px solid var(--line); }
+footer .footer-nav a { font-size: 15.5px; font-weight: 700; color: var(--accent); text-decoration: none; letter-spacing: -.01em; }
+footer .footer-nav a:hover { text-decoration: underline; }
+/* zone 2: trust pillars (responsive grid) */
+footer .trust-row { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 12px 28px; font-size: 13.5px; color: var(--ink-soft); }
+footer .trust-row li { line-height: 1.45; }
 footer .trust-row b { color: var(--ink); }
-footer .fine { font-size: 12px; color: var(--muted); margin-top: 14px; max-width: 70ch; }
+/* zone 3: fine print */
+footer .fine { font-size: 12px; color: var(--muted); margin: 26px 0 0; max-width: 70ch; line-height: 1.55; }
+@media (min-width: 620px) {
+  footer .footer-nav { grid-auto-flow: column; justify-content: start; gap: 30px; }
+  footer .trust-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 960px) {
+  footer .trust-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 
 /* drawer */
 .scrim { position: fixed; inset: 0; background: rgba(16,24,40,.4); opacity: 0; pointer-events: none; transition: opacity .15s; z-index: 40; }
