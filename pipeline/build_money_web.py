@@ -91,25 +91,35 @@ def composition_bar(by_status, total):
     segs = []
     for status, b in by_status.items():
         label, tier, gloss = STATUS.get(status, (status, 4, ""))
-        segs.append((b["value_share"], label, tier, gloss, b["value"], b["count"], status))
-    segs.sort(key=lambda s: (s[2], -s[0]))  # tier asc, then share desc
-    bar, legend = [], []
-    for share, label, tier, gloss, val, cnt, status in segs:
-        pct = share * 100
-        if pct < 0.05:
-            continue
-        hatch = " hatch" if tier == 4 else ""
-        bar.append(
-            f'<span class="seg t{tier}{hatch}" style="width:{pct:.2f}%;--op:{TIER_OPACITY[tier]}" '
-            f'title="{esc(label)}: {pct:.1f}% · {money(val)} · {cnt} donations"></span>'
-        )
-        legend.append(
-            f'<li class="lg t{tier}"><span class="sw" style="--op:{TIER_OPACITY[tier]}"></span>'
-            f'<b>{esc(label)}</b> — {pct:.1f}% · {money(val)} '
-            f'<span class="lg-n">({cnt} donation{"s" if cnt != 1 else ""})</span>'
-            f'<span class="lg-gloss">{esc(gloss)}</span></li>'
-        )
-    return '<div class="cbar">' + "".join(bar) + "</div>\n<ul class=\"clegend\">" + "".join(legend) + "</ul>"
+        if b["value_share"] * 100 >= 0.05:
+            segs.append((b["value_share"], label, tier, gloss, b["value"], b["count"]))
+    segs.sort(key=lambda s: (s[2], -s[0]))  # tier asc (most-disclosed first), then share desc
+
+    # Stacked bar = the funding SHAPE at a glance. White dividers keep adjacent blocks distinct even
+    # when they share a shade; shade encodes disclosure (a luminance ramp, which reads in greyscale /
+    # for colour-vision deficiency). It is NOT asked to identify categories — that's the job of the
+    # labelled breakdown below.
+    bar = "".join(
+        f'<span class="seg t{tier}{" hatch" if tier == 4 else ""}" style="width:{share*100:.2f}%;--op:{TIER_OPACITY[tier]}" '
+        f'title="{esc(label)}: {share*100:.1f}% · {money(val)} · {cnt} donations"></span>'
+        for share, label, tier, gloss, val, cnt in segs)
+
+    # Accessible breakdown: one LABELLED bar per source. Identity comes from the text label; size from
+    # bar length + the printed %/£; disclosure from shade + a hatch on the least-disclosed sources —
+    # all redundant cues, so nothing depends on telling two colours apart.
+    rows = "".join(
+        f'<li class="crow">'
+        f'<div class="crow-h"><b>{esc(label)}</b>'
+        f'<span class="crow-v">{share*100:.1f}% · {money(val)} '
+        f'<span class="lg-n">({cnt} donation{"s" if cnt != 1 else ""})</span></span></div>'
+        f'<div class="crow-track"><span class="fill t{tier}{" hatch" if tier == 4 else ""}" '
+        f'style="width:{max(share*100, 0.8):.2f}%;--op:{TIER_OPACITY[tier]}"></span></div>'
+        f'<div class="crow-g">{esc(gloss)}</div></li>'
+        for share, label, tier, gloss, val, cnt in segs)
+
+    return (f'<div class="cbar">{bar}</div>'
+            f'<div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div>'
+            f'<ul class="cbreak">{rows}</ul>')
 
 
 def top_donors(donations, n=6):
@@ -207,9 +217,10 @@ def render_index(docs):
   .p-n {{ font-weight: 400; font-size: 12.5px; color: var(--muted); }}
   .cbar {{ display: flex; height: 26px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line-strong); }}
   .cbar.mini {{ height: 18px; }}
-  .cbar .seg {{ background: var(--accent); opacity: var(--op); height: 100%; }}
+  .cbar .seg {{ background: var(--accent); opacity: var(--op); height: 100%; box-sizing: border-box; }}
+  .cbar .seg + .seg {{ border-left: 2px solid var(--surface); }}
   .cbar .seg.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.55) 4px, rgba(255,255,255,.55) 7px); }}
+    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }}
   .trace-key {{ font-size: 12px; color: var(--muted); margin: 4px 0 20px; display: flex; gap: 6px; align-items: center; }}
   .trace-key .g {{ flex: 1; height: 8px; border-radius: 4px;
     background: linear-gradient(90deg, var(--accent), rgba(31,58,95,.22)); }}
@@ -311,15 +322,22 @@ def render(doc):
   .card.gap {{ background: var(--panel); box-shadow: none; }}
   .card.gap h2::before {{ content: "🕳 "; }}
   .cbar {{ display: flex; height: 30px; border-radius: 7px; overflow: hidden; border: 1px solid var(--line-strong); }}
-  .cbar .seg {{ background: var(--accent); opacity: var(--op); height: 100%; }}
+  .cbar .seg {{ background: var(--accent); opacity: var(--op); height: 100%; box-sizing: border-box; }}
+  .cbar .seg + .seg {{ border-left: 2px solid var(--surface); }}  /* white divider keeps same-shade blocks distinct */
   .cbar .seg.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.55) 4px, rgba(255,255,255,.55) 7px); }}
-  .clegend {{ list-style: none; padding: 0; margin: 14px 0 2px; display: grid; gap: 9px; }}
-  .clegend li {{ font-size: 13.5px; color: var(--ink-soft); padding-left: 24px; position: relative; }}
-  .clegend .sw {{ position: absolute; left: 0; top: 2px; width: 15px; height: 15px; border-radius: 4px;
-    background: var(--accent); opacity: var(--op); border: 1px solid var(--line-strong); }}
-  .clegend .lg-n {{ color: var(--muted); }}
-  .clegend .lg-gloss {{ display: block; font-size: 12px; color: var(--muted); }}
+    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }}
+  /* accessible per-source breakdown — identity from label, size from bar, shade+hatch redundant */
+  .cbreak {{ list-style: none; padding: 0; margin: 16px 0 2px; display: grid; gap: 13px; }}
+  .cbreak .crow-h {{ display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: 14px; }}
+  .cbreak .crow-h b {{ font-weight: 700; }}
+  .cbreak .crow-v {{ color: var(--ink-soft); white-space: nowrap; }}
+  .cbreak .lg-n {{ color: var(--muted); }}
+  .cbreak .crow-track {{ background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
+    height: 13px; overflow: hidden; margin: 5px 0 3px; }}
+  .cbreak .fill {{ display: block; height: 100%; background: var(--accent); opacity: var(--op); }}
+  .cbreak .fill.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
+    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }}
+  .cbreak .crow-g {{ font-size: 12px; color: var(--muted); }}
   .trace-key {{ font-size: 12px; color: var(--muted); margin: 12px 0 0; display: flex; gap: 6px; align-items: center; }}
   .trace-key .g {{ flex: 1; height: 8px; border-radius: 4px;
     background: linear-gradient(90deg, var(--accent), rgba(31,58,95,.22)); }}
@@ -361,7 +379,6 @@ def render(doc):
   <div class="card">
     <h2>Where the money comes from</h2>
     {composition_bar(bs, s['value'])}
-    <div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div>
   </div>
 
   <div class="card gap">
