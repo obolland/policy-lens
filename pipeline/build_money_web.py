@@ -242,8 +242,7 @@ def render_index(docs):
   .p-n {{ font-weight: 400; font-size: 12.5px; color: var(--muted); }}
   .cbar {{ display: flex; height: 26px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line-strong); }}
   .cbar.mini {{ height: 18px; }}
-  .cbar .seg {{ background: var(--c); height: 100%; box-sizing: border-box; }}
-  .cbar .seg + .seg {{ border-left: 2px solid var(--surface); }}
+  .cbar .seg {{ background: var(--c); height: 100%; }}
   .cbar .seg.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
     rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }}
   .keyrow {{ list-style: none; padding: 0; margin: 8px 0 20px; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; color: var(--ink-soft); }}
@@ -349,8 +348,7 @@ def render(doc):
   .card.gap {{ background: var(--panel); box-shadow: none; }}
   .card.gap h2::before {{ content: "🕳 "; }}
   .cbar {{ display: flex; height: 30px; border-radius: 7px; overflow: hidden; border: 1px solid var(--line-strong); }}
-  .cbar .seg {{ background: var(--c); height: 100%; box-sizing: border-box; }}
-  .cbar .seg + .seg {{ border-left: 2px solid var(--surface); }}  /* white divider keeps blocks distinct */
+  .cbar .seg {{ background: var(--c); height: 100%; }}
   .cbar .seg.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
     rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }}
   .cbar-note {{ font-size: 12px; color: var(--muted); margin: 10px 0 0; }}

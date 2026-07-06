@@ -73,8 +73,7 @@ body{{width:1200px;height:630px;background:#fafaf7;color:#14181d;
 .total{{font-size:52px;font-weight:800;margin-top:22px}}
 .total span{{font-size:29px;color:#38414c;font-weight:600}}
 .cbar{{display:flex;height:48px;border-radius:9px;overflow:hidden;border:1px solid #c7ced7;margin-top:18px}}
-.seg{{background:var(--c);height:100%;box-sizing:border-box}}
-.seg+.seg{{border-left:2px solid #fafaf7}}
+.seg{{background:var(--c);height:100%}}
 .seg.hatch{{background-image:repeating-linear-gradient(45deg,transparent,transparent 5px,rgba(255,255,255,.6) 5px,rgba(255,255,255,.6) 9px)}}
 .cap{{font-size:22px;color:#59626d;margin-top:12px}}
 .foot{{display:flex;justify-content:space-between;align-items:center;font-size:24px;color:#59626d}}
