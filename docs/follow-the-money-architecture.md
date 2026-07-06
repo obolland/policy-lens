@@ -93,6 +93,11 @@ extrapolated. Plus a per-party **"what we can't see"** gap panel.
 - **Residual manual layer (small, slow-changing):** one-off **court judgments** and named
   **select-committee reports** (e.g. the Vote Leave / Cambridge Analytica findings). A dozen entries,
   rarely changing. This is the only genuinely hand-maintained content, and it is *additive*.
+- **Contracts under official scrutiny (absorbed from the retired Block 3):** public contracts an
+  official body (NAO, Public Accounts Committee, ICO) has formally examined — e.g. the Palantir / NHS
+  Federated Data Platform. Inclusion rule = *"an official body examined it"* (external, so not
+  cherry-picking); ownership/nationality confirmed by hand for each named case (reliable at this small
+  scale, unlike the bulk join). Presented as attributed findings, same as the rest of this layer.
 - **"What we can't see" panel:** *"Money routed to hide its origin won't appear here. That's a limit
   of the public record — not an all-clear."* The honest floor; also the most emotionally connectable
   and the safest content, so the section **leads with it**.
@@ -100,11 +105,23 @@ extrapolated. Plus a per-party **"what we can't see"** gap panel.
   LLM *drafting-only, human-approved* aid is deferred until volume justifies it; the libel cost of one
   hallucinated finding is catastrophic, so we don't introduce that surface early.
 
-### Block 3 — Public contracts / data & ownership  *(SPECIFIED FOLLOW-UP — not v1)*
+### Block 3 — Public contracts / data & ownership  *(RETIRED as a standalone strand — folded into Block 4)*
+> **Decision (2026-07-06, after a data spike):** the *mechanical* version below is **not viable** and
+> is retired. A spike found the deterministic ownership join only works for a minority of contracts —
+> **42%** of Contracts Finder award suppliers and just **24%** of Find a Tender (high-value) suppliers
+> carry a Companies House number (procurement notices make it optional; for donations it's mandatory,
+> hence ~100%). So a "complete set against a disclosed rule" **can't be complete or unbiased** —
+> abstaining on the 60–75% without a number would publish a skewed subset, and name-matching the gap is
+> the fuzzy-join libel risk we ruled out. Buyers are also mostly councils/NHS trusts/housing assocs, so
+> "central government" scoping is fuzzy, and the compelling cases (NHS England/Palantir) are arm's-length
+> bodies. **The compelling content (Palantir/NHS FDP etc.) is delivered instead via Block 4** as
+> *contracts under official scrutiny* — inclusion rule = "an official body (NAO/PAC/ICO) formally
+> examined it", ownership confirmed by hand for the handful of named cases. Same findings-layer
+> discipline; no dependence on the broken join.
+
+*Original mechanical spec, retained for the record (do not build):*
 The reverse flow: public money / data / contracts going **from government to companies**, flagged by
-ultimate ownership / nationality (e.g. Palantir / NHS Federated Data Platform). **Important and
-definitely on the roadmap** — parked from v1 only because it is the most editorial and the weakest fit
-with the "money into politics" theme, not because it's optional.
+ultimate ownership / nationality (e.g. Palantir / NHS Federated Data Platform).
 - **Inclusion rule (mechanical, exhaustive — the keystone principle applies):** e.g. *all
   central-government contracts above £[threshold] awarded to suppliers whose ultimate owner (per
   Companies House PSC) is registered outside the UK.* A deterministic join of Find a Tender /
@@ -238,10 +255,10 @@ company has a registration number (a hard key); a person has only a name (not a 
 - **Phase 1 — Donations ledger (Block 1).** Pure ETL, per-party `money/<party>.html`, raw sourced
   figures + the "what we can't see" panel. Lowest risk, ships first, earns trust.
 - **Phase 2 — Traceability sub-metrics (Block 2).** Layered on Phase 1's data; no new sources.
-- **Phase 3 — Findings layer (Block 4).** Complete EC / ICO register ingest + the small manual
-  court/committee layer; human-gated.
-- **Phase 4 (definite follow-up) — Contracts / ownership (Block 3).** Mechanical complete-set join,
-  badged "what they did in power", behind the publish gate.
+- **Phase 3 — Findings layer (Block 4) — NEXT.** Complete EC / ICO register ingest + the small manual
+  court/committee layer + contracts-under-official-scrutiny (absorbed from Block 3); human-gated.
+- ~~Phase 4 — Contracts / ownership (Block 3) mechanical join~~ — **retired** (spike 2026-07-06: join
+  coverage 24–42%, can't be complete/unbiased). Its content lives in Phase 3.
 
 ## Validation log
 
@@ -283,6 +300,10 @@ company has a registration number (a hard key); a person has only a name (not a 
   electoral register — which *includes overseas electors*. So a large UK-registered individual donor
   resident abroad (e.g. the Harborne/Reform case) carries no flag. This is stated honestly in each
   party's "what we can't see" panel; closing it would require external/secondary sourcing (deferred).
+- **Block 3 contracts spike (2026-07-06) — mechanical version not viable; retired into Block 4.** The
+  Contracts Finder + Find a Tender OCDS APIs work and the Palantir/FDP award is on Contracts Finder,
+  but only **42% / 24%** of suppliers carry a Companies House number, so the ownership join can't cover
+  a complete/unbiased set. Contracts-under-official-scrutiny move into Block 4 (see Block 3 above).
 
 ## Load-bearing decisions (the ones not to quietly reverse)
 
