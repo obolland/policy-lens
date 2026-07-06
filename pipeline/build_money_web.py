@@ -39,7 +39,27 @@ STATUS = {
                                       "under electoral law, need NOT disclose who funds them"),
     "Other":                         ("Other", 4, "other / unclassified sources"),
 }
-TIER_OPACITY = {1: 1.0, 2: 0.62, 3: 0.42, 4: 0.26}
+# Per-category colours from the Okabe-Ito palette — designed to be distinguishable under all common
+# types of colour-vision deficiency. Fixed per donor status so a category is the SAME colour on every
+# party's page. Colour is one cue among several (label + bar length + hatch) — never the only one.
+COLOUR = {
+    "Individual":                    "#0072B2",  # blue
+    "Company":                       "#E69F00",  # orange
+    "Trade Union":                   "#009E73",  # bluish green
+    "Public Fund":                   "#56B4E9",  # sky blue
+    "Unincorporated Association":    "#D55E00",  # vermillion
+    "Limited Liability Partnership": "#CC79A7",  # reddish purple
+    "Trust":                         "#F0E442",  # yellow
+    "Registered Political Party":    "#000000",  # black
+    "Friendly Society":              "#999999",  # grey
+    "Building Society":              "#666666",  # dark grey
+    "Other":                         "#BBBBBB",  # light grey (catch-all)
+}
+COLOUR_DEFAULT = "#BBBBBB"
+
+
+def colour(status):
+    return COLOUR.get(status, COLOUR_DEFAULT)
 
 # Natural "Who funds ___?" phrasing per party (the config names don't slot into "the {name}").
 FUNDS_PHRASE = {
@@ -92,33 +112,31 @@ def composition_bar(by_status, total):
     for status, b in by_status.items():
         label, tier, gloss = STATUS.get(status, (status, 4, ""))
         if b["value_share"] * 100 >= 0.05:
-            segs.append((b["value_share"], label, tier, gloss, b["value"], b["count"]))
+            segs.append((b["value_share"], label, tier, gloss, b["value"], b["count"], status))
     segs.sort(key=lambda s: (s[2], -s[0]))  # tier asc (most-disclosed first), then share desc
 
-    # Stacked bar = the funding SHAPE at a glance. White dividers keep adjacent blocks distinct even
-    # when they share a shade; shade encodes disclosure (a luminance ramp, which reads in greyscale /
-    # for colour-vision deficiency). It is NOT asked to identify categories — that's the job of the
-    # labelled breakdown below.
+    # Stacked bar = the funding SHAPE at a glance. Distinct colourblind-safe colour per category,
+    # white dividers between blocks, and a hatch on sources that needn't disclose their own funders.
     bar = "".join(
-        f'<span class="seg t{tier}{" hatch" if tier == 4 else ""}" style="width:{share*100:.2f}%;--op:{TIER_OPACITY[tier]}" '
+        f'<span class="seg{" hatch" if tier == 4 else ""}" style="width:{share*100:.2f}%;--c:{colour(status)}" '
         f'title="{esc(label)}: {share*100:.1f}% · {money(val)} · {cnt} donations"></span>'
-        for share, label, tier, gloss, val, cnt in segs)
+        for share, label, tier, gloss, val, cnt, status in segs)
 
-    # Accessible breakdown: one LABELLED bar per source. Identity comes from the text label; size from
-    # bar length + the printed %/£; disclosure from shade + a hatch on the least-disclosed sources —
-    # all redundant cues, so nothing depends on telling two colours apart.
+    # Accessible breakdown: one LABELLED bar per source. Colour + a matching swatch help those who can
+    # see it; the text label + bar length + printed %/£ carry it for those who can't. Redundant cues.
     rows = "".join(
         f'<li class="crow">'
-        f'<div class="crow-h"><b>{esc(label)}</b>'
+        f'<div class="crow-h"><span class="sw" style="--c:{colour(status)}"></span><b>{esc(label)}</b>'
         f'<span class="crow-v">{share*100:.1f}% · {money(val)} '
         f'<span class="lg-n">({cnt} donation{"s" if cnt != 1 else ""})</span></span></div>'
-        f'<div class="crow-track"><span class="fill t{tier}{" hatch" if tier == 4 else ""}" '
-        f'style="width:{max(share*100, 0.8):.2f}%;--op:{TIER_OPACITY[tier]}"></span></div>'
+        f'<div class="crow-track"><span class="fill{" hatch" if tier == 4 else ""}" '
+        f'style="width:{max(share*100, 0.8):.2f}%;--c:{colour(status)}"></span></div>'
         f'<div class="crow-g">{esc(gloss)}</div></li>'
-        for share, label, tier, gloss, val, cnt in segs)
+        for share, label, tier, gloss, val, cnt, status in segs)
 
     return (f'<div class="cbar">{bar}</div>'
-            f'<div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div>'
+            f'<p class="cbar-note">Ordered most-disclosed to least. '
+            f'<span class="hatch-key"></span> marks sources that need not disclose who funds them.</p>'
             f'<ul class="cbreak">{rows}</ul>')
 
 
@@ -157,15 +175,15 @@ def mini_bar(by_status):
     segs = []
     for status, b in by_status.items():
         label, tier, _ = STATUS.get(status, (status, 4, ""))
-        segs.append((b["value_share"], label, tier, b["value"], b["count"]))
+        segs.append((b["value_share"], label, tier, b["value"], b["count"], status))
     segs.sort(key=lambda s: (s[2], -s[0]))
     out = []
-    for share, label, tier, val, cnt in segs:
+    for share, label, tier, val, cnt, status in segs:
         pct = share * 100
         if pct < 0.05:
             continue
         hatch = " hatch" if tier == 4 else ""
-        out.append(f'<span class="seg t{tier}{hatch}" style="width:{pct:.2f}%;--op:{TIER_OPACITY[tier]}" '
+        out.append(f'<span class="seg{hatch}" style="width:{pct:.2f}%;--c:{colour(status)}" '
                    f'title="{esc(label)}: {pct:.1f}% · {money(val)}"></span>')
     return '<div class="cbar mini">' + "".join(out) + "</div>"
 
@@ -181,6 +199,16 @@ def render_index(docs):
             f'<span class="p-total">{money(s["value"])}<span class="p-n"> · {s["count"]} donations</span></span></span>'
             f'{mini_bar(s["by_donor_status"])}</a>'
         )
+    # shared colour legend (bars are colour-coded + consistent across parties; each swatch is labelled)
+    totals = {}
+    for d in docs:
+        for st, b in d["summary"]["by_donor_status"].items():
+            totals[st] = totals.get(st, 0) + b["value"]
+    ordered = sorted(totals, key=lambda st: (STATUS.get(st, (st, 4, ""))[1], -totals[st]))
+    key_items = "".join(
+        f'<li><span class="sw{" hatch" if STATUS.get(st, (st, 4, ""))[1] == 4 else ""}" style="--c:{colour(st)}"></span>'
+        f'{esc(STATUS.get(st, (st,))[0])}</li>' for st in ordered)
+    keyrow = f'<ul class="keyrow">{key_items}</ul>'
     return f"""<!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -217,13 +245,15 @@ def render_index(docs):
   .p-n {{ font-weight: 400; font-size: 12.5px; color: var(--muted); }}
   .cbar {{ display: flex; height: 26px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line-strong); }}
   .cbar.mini {{ height: 18px; }}
-  .cbar .seg {{ background: var(--accent); opacity: var(--op); height: 100%; box-sizing: border-box; }}
+  .cbar .seg {{ background: var(--c); height: 100%; box-sizing: border-box; }}
   .cbar .seg + .seg {{ border-left: 2px solid var(--surface); }}
   .cbar .seg.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }}
-  .trace-key {{ font-size: 12px; color: var(--muted); margin: 4px 0 20px; display: flex; gap: 6px; align-items: center; }}
-  .trace-key .g {{ flex: 1; height: 8px; border-radius: 4px;
-    background: linear-gradient(90deg, var(--accent), rgba(31,58,95,.22)); }}
+    rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }}
+  .keyrow {{ list-style: none; padding: 0; margin: 8px 0 20px; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; color: var(--ink-soft); }}
+  .keyrow li {{ display: flex; align-items: center; gap: 6px; }}
+  .keyrow .sw {{ width: 12px; height: 12px; border-radius: 3px; background: var(--c); border: 1px solid rgba(0,0,0,.22); }}
+  .keyrow .sw.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 3px,
+    rgba(255,255,255,.65) 3px, rgba(255,255,255,.65) 5px); }}
   .src {{ font-size: 12.5px; color: var(--muted); margin-top: 18px; }}
   .src a {{ color: var(--accent); font-weight: 600; }}
 </style>
@@ -242,8 +272,8 @@ def render_index(docs):
   <p class="lead">Who funds each UK party — and how far that money can be traced to a named source.
   Every figure comes from the public <b>Electoral Commission</b> register; company ownership from
   <b>Companies House</b>. The bars show the <i>shape</i> of each party's funding, not a score —
-  solid means more disclosed, faded means it discloses less.</p>
-  <div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div>
+  each colour is a type of source (see key); hatched blocks are sources that need not disclose who funds them.</p>
+  {keyrow}
   <p class="ordernote">Ordered by total declared donations since 2019. This is not a ranking of good or bad — tap a party to see the detail and sources.</p>
 
   {''.join(rows)}
@@ -322,25 +352,29 @@ def render(doc):
   .card.gap {{ background: var(--panel); box-shadow: none; }}
   .card.gap h2::before {{ content: "🕳 "; }}
   .cbar {{ display: flex; height: 30px; border-radius: 7px; overflow: hidden; border: 1px solid var(--line-strong); }}
-  .cbar .seg {{ background: var(--accent); opacity: var(--op); height: 100%; box-sizing: border-box; }}
-  .cbar .seg + .seg {{ border-left: 2px solid var(--surface); }}  /* white divider keeps same-shade blocks distinct */
+  .cbar .seg {{ background: var(--c); height: 100%; box-sizing: border-box; }}
+  .cbar .seg + .seg {{ border-left: 2px solid var(--surface); }}  /* white divider keeps blocks distinct */
   .cbar .seg.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }}
-  /* accessible per-source breakdown — identity from label, size from bar, shade+hatch redundant */
+    rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }}
+  .cbar-note {{ font-size: 12px; color: var(--muted); margin: 10px 0 0; }}
+  .cbar-note .hatch-key {{ display: inline-block; width: 22px; height: 12px; vertical-align: -2px;
+    border: 1px solid var(--line-strong); border-radius: 3px; background: var(--panel);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 3px,
+      rgba(20,24,29,.4) 3px, rgba(20,24,29,.4) 5px); }}
+  /* accessible per-source breakdown — colour + swatch + label + bar length, all redundant cues */
   .cbreak {{ list-style: none; padding: 0; margin: 16px 0 2px; display: grid; gap: 13px; }}
-  .cbreak .crow-h {{ display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: 14px; }}
+  .cbreak .crow-h {{ display: flex; align-items: center; gap: 8px; font-size: 14px; }}
+  .cbreak .sw {{ width: 13px; height: 13px; border-radius: 3px; background: var(--c);
+    border: 1px solid rgba(0,0,0,.22); flex: none; }}
   .cbreak .crow-h b {{ font-weight: 700; }}
-  .cbreak .crow-v {{ color: var(--ink-soft); white-space: nowrap; }}
+  .cbreak .crow-v {{ color: var(--ink-soft); white-space: nowrap; margin-left: auto; }}
   .cbreak .lg-n {{ color: var(--muted); }}
   .cbreak .crow-track {{ background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
     height: 13px; overflow: hidden; margin: 5px 0 3px; }}
-  .cbreak .fill {{ display: block; height: 100%; background: var(--accent); opacity: var(--op); }}
+  .cbreak .fill {{ display: block; height: 100%; background: var(--c); }}
   .cbreak .fill.hatch {{ background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }}
+    rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }}
   .cbreak .crow-g {{ font-size: 12px; color: var(--muted); }}
-  .trace-key {{ font-size: 12px; color: var(--muted); margin: 12px 0 0; display: flex; gap: 6px; align-items: center; }}
-  .trace-key .g {{ flex: 1; height: 8px; border-radius: 4px;
-    background: linear-gradient(90deg, var(--accent), rgba(31,58,95,.22)); }}
   .dlist, .recl {{ list-style: none; padding: 0; margin: 0; }}
   .drow {{ display: flex; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); }}
   .drow:first-child {{ border-top: 0; }}

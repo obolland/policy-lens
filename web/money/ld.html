@@ -33,25 +33,29 @@
   .card.gap { background: var(--panel); box-shadow: none; }
   .card.gap h2::before { content: "🕳 "; }
   .cbar { display: flex; height: 30px; border-radius: 7px; overflow: hidden; border: 1px solid var(--line-strong); }
-  .cbar .seg { background: var(--accent); opacity: var(--op); height: 100%; box-sizing: border-box; }
-  .cbar .seg + .seg { border-left: 2px solid var(--surface); }  /* white divider keeps same-shade blocks distinct */
+  .cbar .seg { background: var(--c); height: 100%; box-sizing: border-box; }
+  .cbar .seg + .seg { border-left: 2px solid var(--surface); }  /* white divider keeps blocks distinct */
   .cbar .seg.hatch { background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }
-  /* accessible per-source breakdown — identity from label, size from bar, shade+hatch redundant */
+    rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }
+  .cbar-note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+  .cbar-note .hatch-key { display: inline-block; width: 22px; height: 12px; vertical-align: -2px;
+    border: 1px solid var(--line-strong); border-radius: 3px; background: var(--panel);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 3px,
+      rgba(20,24,29,.4) 3px, rgba(20,24,29,.4) 5px); }
+  /* accessible per-source breakdown — colour + swatch + label + bar length, all redundant cues */
   .cbreak { list-style: none; padding: 0; margin: 16px 0 2px; display: grid; gap: 13px; }
-  .cbreak .crow-h { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: 14px; }
+  .cbreak .crow-h { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+  .cbreak .sw { width: 13px; height: 13px; border-radius: 3px; background: var(--c);
+    border: 1px solid rgba(0,0,0,.22); flex: none; }
   .cbreak .crow-h b { font-weight: 700; }
-  .cbreak .crow-v { color: var(--ink-soft); white-space: nowrap; }
+  .cbreak .crow-v { color: var(--ink-soft); white-space: nowrap; margin-left: auto; }
   .cbreak .lg-n { color: var(--muted); }
   .cbreak .crow-track { background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
     height: 13px; overflow: hidden; margin: 5px 0 3px; }
-  .cbreak .fill { display: block; height: 100%; background: var(--accent); opacity: var(--op); }
+  .cbreak .fill { display: block; height: 100%; background: var(--c); }
   .cbreak .fill.hatch { background-image: repeating-linear-gradient(45deg, transparent, transparent 4px,
-    rgba(255,255,255,.6) 4px, rgba(255,255,255,.6) 7px); }
+    rgba(255,255,255,.65) 4px, rgba(255,255,255,.65) 7px); }
   .cbreak .crow-g { font-size: 12px; color: var(--muted); }
-  .trace-key { font-size: 12px; color: var(--muted); margin: 12px 0 0; display: flex; gap: 6px; align-items: center; }
-  .trace-key .g { flex: 1; height: 8px; border-radius: 4px;
-    background: linear-gradient(90deg, var(--accent), rgba(31,58,95,.22)); }
   .dlist, .recl { list-style: none; padding: 0; margin: 0; }
   .drow { display: flex; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); }
   .drow:first-child { border-top: 0; }
@@ -89,7 +93,7 @@
 
   <div class="card">
     <h2>Where the money comes from</h2>
-    <div class="cbar"><span class="seg t1" style="width:57.46%;--op:1.0" title="Individuals: 57.5% · £38.9m · 4264 donations"></span><span class="seg t1" style="width:23.14%;--op:1.0" title="Public funds: 23.1% · £15.7m · 391 donations"></span><span class="seg t2" style="width:10.40%;--op:0.62" title="Companies: 10.4% · £7.0m · 751 donations"></span><span class="seg t2" style="width:0.12%;--op:0.62" title="LLPs: 0.1% · £81k · 3 donations"></span><span class="seg t3" style="width:2.15%;--op:0.42" title="Trusts: 2.1% · £1.5m · 66 donations"></span><span class="seg t4 hatch" style="width:6.73%;--op:0.26" title="Unincorporated associations: 6.7% · £4.6m · 2250 donations"></span></div><div class="trace-key"><span>more disclosed</span><span class="g"></span><span>discloses less</span></div><ul class="cbreak"><li class="crow"><div class="crow-h"><b>Individuals</b><span class="crow-v">57.5% · £38.9m <span class="lg-n">(4264 donations)</span></span></div><div class="crow-track"><span class="fill t1" style="width:57.46%;--op:1.0"></span></div><div class="crow-g">named people on the electoral register</div></li><li class="crow"><div class="crow-h"><b>Public funds</b><span class="crow-v">23.1% · £15.7m <span class="lg-n">(391 donations)</span></span></div><div class="crow-track"><span class="fill t1" style="width:23.14%;--op:1.0"></span></div><div class="crow-g">state funding (e.g. Short money)</div></li><li class="crow"><div class="crow-h"><b>Companies</b><span class="crow-v">10.4% · £7.0m <span class="lg-n">(751 donations)</span></span></div><div class="crow-track"><span class="fill t2" style="width:10.40%;--op:0.62"></span></div><div class="crow-g">registered at Companies House — owners look-up-able</div></li><li class="crow"><div class="crow-h"><b>LLPs</b><span class="crow-v">0.1% · £81k <span class="lg-n">(3 donations)</span></span></div><div class="crow-track"><span class="fill t2" style="width:0.80%;--op:0.62"></span></div><div class="crow-g">registered at Companies House</div></li><li class="crow"><div class="crow-h"><b>Trusts</b><span class="crow-v">2.1% · £1.5m <span class="lg-n">(66 donations)</span></span></div><div class="crow-track"><span class="fill t3" style="width:2.15%;--op:0.42"></span></div><div class="crow-g">a trust; the EC records limited detail</div></li><li class="crow"><div class="crow-h"><b>Unincorporated associations</b><span class="crow-v">6.7% · £4.6m <span class="lg-n">(2250 donations)</span></span></div><div class="crow-track"><span class="fill t4 hatch" style="width:6.73%;--op:0.26"></span></div><div class="crow-g">under electoral law, need NOT disclose who funds them</div></li></ul>
+    <div class="cbar"><span class="seg" style="width:57.46%;--c:#0072B2" title="Individuals: 57.5% · £38.9m · 4264 donations"></span><span class="seg" style="width:23.14%;--c:#56B4E9" title="Public funds: 23.1% · £15.7m · 391 donations"></span><span class="seg" style="width:10.40%;--c:#E69F00" title="Companies: 10.4% · £7.0m · 751 donations"></span><span class="seg" style="width:0.12%;--c:#CC79A7" title="LLPs: 0.1% · £81k · 3 donations"></span><span class="seg" style="width:2.15%;--c:#F0E442" title="Trusts: 2.1% · £1.5m · 66 donations"></span><span class="seg hatch" style="width:6.73%;--c:#D55E00" title="Unincorporated associations: 6.7% · £4.6m · 2250 donations"></span></div><p class="cbar-note">Ordered most-disclosed to least. <span class="hatch-key"></span> marks sources that need not disclose who funds them.</p><ul class="cbreak"><li class="crow"><div class="crow-h"><span class="sw" style="--c:#0072B2"></span><b>Individuals</b><span class="crow-v">57.5% · £38.9m <span class="lg-n">(4264 donations)</span></span></div><div class="crow-track"><span class="fill" style="width:57.46%;--c:#0072B2"></span></div><div class="crow-g">named people on the electoral register</div></li><li class="crow"><div class="crow-h"><span class="sw" style="--c:#56B4E9"></span><b>Public funds</b><span class="crow-v">23.1% · £15.7m <span class="lg-n">(391 donations)</span></span></div><div class="crow-track"><span class="fill" style="width:23.14%;--c:#56B4E9"></span></div><div class="crow-g">state funding (e.g. Short money)</div></li><li class="crow"><div class="crow-h"><span class="sw" style="--c:#E69F00"></span><b>Companies</b><span class="crow-v">10.4% · £7.0m <span class="lg-n">(751 donations)</span></span></div><div class="crow-track"><span class="fill" style="width:10.40%;--c:#E69F00"></span></div><div class="crow-g">registered at Companies House — owners look-up-able</div></li><li class="crow"><div class="crow-h"><span class="sw" style="--c:#CC79A7"></span><b>LLPs</b><span class="crow-v">0.1% · £81k <span class="lg-n">(3 donations)</span></span></div><div class="crow-track"><span class="fill" style="width:0.80%;--c:#CC79A7"></span></div><div class="crow-g">registered at Companies House</div></li><li class="crow"><div class="crow-h"><span class="sw" style="--c:#F0E442"></span><b>Trusts</b><span class="crow-v">2.1% · £1.5m <span class="lg-n">(66 donations)</span></span></div><div class="crow-track"><span class="fill" style="width:2.15%;--c:#F0E442"></span></div><div class="crow-g">a trust; the EC records limited detail</div></li><li class="crow"><div class="crow-h"><span class="sw" style="--c:#D55E00"></span><b>Unincorporated associations</b><span class="crow-v">6.7% · £4.6m <span class="lg-n">(2250 donations)</span></span></div><div class="crow-track"><span class="fill hatch" style="width:6.73%;--c:#D55E00"></span></div><div class="crow-g">under electoral law, need NOT disclose who funds them</div></li></ul>
   </div>
 
   <div class="card gap">
