@@ -304,6 +304,7 @@ def render_index(docs):
   <p class="src">A snapshot of <b>declared</b> donations; money structured to hide its origin won't appear here.
   Each party page shows what we <i>can't</i> see, alongside what we can.</p>
 </main>
+<script data-goatcounter="https://policylens.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
@@ -384,6 +385,7 @@ def render_findings(findings):
   <p class="src">Included by a fixed rule: formal findings or sanctions by official UK bodies, plus public
   contracts under official or parliamentary scrutiny. If we've missed one that fits, tell us.</p>
 </main>
+<script data-goatcounter="https://policylens.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
@@ -577,6 +579,7 @@ def render(doc, party_findings=()):
   <p class="src">Show the Working shows its working: every figure here links to the public register it came from.
     This is a snapshot of <b>declared</b> donations and may lag recent reporting.</p>
 </main>
+<script data-goatcounter="https://policylens.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
